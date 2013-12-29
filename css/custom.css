@@ -1,0 +1,29 @@
+body {
+  min-height: 200px;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #d5d5d5;
+}
+
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+code {
+  font-size: 80%;
+}
