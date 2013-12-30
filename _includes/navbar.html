@@ -12,8 +12,13 @@
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         {% for m1 in site.data.Links["Primary Menu"] %}
-        <li>
           {% assign tmp = m1 | remove: '>' | split: "<" %}
+          {% assign x = tmp[1] | append: '.html' | prepend: '/' %}
+          {% if page.url == x %}
+            <li class="active">
+          {% else %}
+            <li>          
+          {% endif %}
           <a href="/{{ tmp[1] }}.html">{{ tmp[0] }}</a>
         </li>
         {% endfor %}
@@ -21,3 +26,4 @@
     </div><!--/.nav-collapse -->
   </div>
 </div>
+            
