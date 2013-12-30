@@ -1,0 +1,22 @@
+Primary Menu:
+# - [Home,                       "/"]
+# - {page: Home, link: "/index" }
+# - "[Awards](/Awards/)"
+# - "[Conferences](/Conferences/)"
+#        - {page: Resources, link: "/Resources" }
+ - Communications of ACM Research Highlights
+ - Membership
+ - Student Information
+ - Publications
+ - Announcements
+
+ 
+Key Links:
+ - SIGPLAN Officers                                             </ContactUs>
+ - Professional Activities Committee                            </Activities>
+ - SIGPLAN Education Board Blog
+ - Open Meeting Presentations
+ - SIGPLAN By-laws
+ - Annual Reports
+ - SIGPLAN Sponsors
+ 

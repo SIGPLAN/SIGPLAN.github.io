@@ -1,0 +1,6 @@
+{% assign tmp = include.data | remove: '>' | split: "<" %}
+{% if tmp.size == 2 %}
+  <a href="{{tmp[1]}}">{{tmp[0]}}</a>
+{% else %}
+  {{include.data}} 
+{% endif %}

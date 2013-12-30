@@ -1,0 +1,23 @@
+<h4>{{include.committee}}</h4>
+
+<ul>
+  {% for m1 in include.data.[include.committee] %}
+  <li>
+  {% for m2 in m1 %}
+    <b> {{ m2[0]  }}: </b>
+    {% if m2[1] contains " " %}
+     {% assign tmp = m2[1] %}{% include link.liquid data=tmp %}
+    {% else %}
+      <ul>
+      {% for m3 in m2[1] %}
+        <li>
+          {% include link.liquid data=m3 %}
+        </li>
+      {% endfor %}
+      </ul>
+    {% endif %}
+  {% endfor %}
+  </li>
+{% endfor %}
+</ul>
+
