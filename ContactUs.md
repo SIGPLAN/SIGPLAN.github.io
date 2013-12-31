@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: default-2up
 title: SIGPLAN Executive Committee 2012-2015
 ---
 
-SIGPLAN is run by its Executive Committee composed of members elected every 3 years,by the members of ACM SIGPLAN.  Ex-officio members, which include the past chair and the SIGPLAN editors, are also involved in directing SIGPLAN.  
+SIGPLAN is run by its Executive Committee composed of members elected every 3 years, by the members of ACM SIGPLAN.  Ex-officio members, which include the past chair and the SIGPLAN editors, are also involved in directing SIGPLAN.  
 
+----
 
 #### Elected members
 -   Chair: [Jan Vitek](http://www.cs.purdue.edu/homes/jv/)
@@ -18,6 +19,8 @@ SIGPLAN is run by its Executive Committee composed of members elected every 3 ye
      - [Mike Hind](http://researcher.watson.ibm.com/researcher/view.php?person=us-hindm)
      - [Julia Lawall](http://pagesperso-systeme.lip6.fr/Julia.Lawall/)
      - [Norman Ramsey](http://www.cs.tufts.edu/~nr/)
+
+----
 
 #### Ex-Officio Members
 -   Past Chair:
