@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include header.html %}
+  <body>
+    {% include navbar.html %}
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-8  col-md-offset-2">
+          <h1> {{ page.title }} </h1>
+          <hr>
+          {% comment %} for 2up, we split on the ---- / <hr> tag, and count the regions {% endcomment %}
+          {% assign parts = content | split:'<hr />' %}
+          {% case parts.size %} 
+          {% when 2 %}
+            <div class="row">
+              <div class="col-md-6">
+                {{ parts[0] }}
+              </div>                
+              <div class="col-md-6">
+                {{ parts[1] }}
+              </div>                
+            </div>                
+          {% when 3 %}
+            {{ parts[0] }}
+            <div class="row">
+              <div class="col-md-6">
+                {{ parts[1] }}
+              </div>                
+              <div class="col-md-6">
+                {{ parts[2] }}
+              </div>                
+            </div>                
+          {% else %}
+            {{content}}
+          {% endcase %}
+        </div>
+      </div>
+      
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>
