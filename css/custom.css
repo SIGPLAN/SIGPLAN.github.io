@@ -27,3 +27,12 @@ body {
 code {
   font-size: 80%;
 }
+
+
+.bigsig { font-size: 4em ; 
+          font-family: verdana, arial, helvetica, "sans-serif" ; 
+          font-weight: bold ; 
+          font-style: italic ;
+          color: #6666cc ; 
+          text-decoration: none ; }
+
