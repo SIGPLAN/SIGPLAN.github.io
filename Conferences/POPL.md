@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Principles of Programming Languages (POPL)
+title: "Principles of Programming Languages (POPL)"
 ---
 Principles of Programming Languages symposium addresses fundamental
 principles and important innovations in the design, definition,
