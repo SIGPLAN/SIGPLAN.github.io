@@ -1,4 +1,4 @@
 safe: true
 lsi: false
 pygments: true
-exclude: [Awards, Committees, _site, Resources]
+exclude: []
