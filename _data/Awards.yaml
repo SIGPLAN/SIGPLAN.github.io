@@ -1,0 +1,56 @@
+#
+# Name of Awards and recipents (Metadata)
+#
+
+Software:
+  Name: Programming Languages Software Award
+  Recipients:
+    2012: Jikes Research Virtual Machine (RVM)
+    2011: Simon Peyton Jones and Simon Marlow for the Glasgow Haskell compiler
+    2010: Chris Lattner for the LLVM Compiler Infrastructure
+
+Milner:
+  Name: Robin Milner Young Researcher Award
+  Recipients:
+    2012: Shriram Krishnamurthi
+
+POPL:
+  Name: Most Influential POPL Paper Award
+  Recipients:
+    2013: [David F Bacon, Perry Cheng, VT Rajan]
+
+PLDI:
+  Name: Most Influential PLDI Paper Award
+  Recipients:
+    2012: [Cormac Flanagan, K. Rustan M. Leino, Mark Lillibridge, Greg Nelson, James B. Saxe, Raymie Stata]
+
+OOPSLA:
+  Name: Most Influential OOPSLA Paper Award
+  Recipients:
+    2010: [Matthew Arnold, Stephen Fink, David Grove, Michael Hind, Peter F. Sweeney]
+
+ICFP:
+  Name: Most Influential ICFP Paper Award
+  Recipients:
+    2011: Claudio Russo for Recursive Structures for Standard ML
+
+Disseration:
+  Name: Outstanding Doctoral Dissertation Award
+  Recipients:
+    2012: Dan Marino
+
+Vlissides:
+  Name: John Vlissides Award
+  Recipients:
+    2010: "M&#225;rcio Ribeiro"
+
+Service:
+  Name: Distinguished Service Award
+  Recipients:
+   2012: Jens Palsberg
+
+"ACM Fellows":
+  Name: ACM Fellows
+  Recipients:
+    2013: [Douglas S Lea, Greg Morrisett, Andrew C Myers, Nir N Shavit]
+

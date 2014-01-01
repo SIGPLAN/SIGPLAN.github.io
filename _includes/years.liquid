@@ -1,0 +1,16 @@
+{% comment %}
+  Compute an array of years that can be looped over, for the sake of auto-generating lists.
+{% endcomment %}  
+{% assign first_year = 9999 %}
+{% assign last_year  = 0000 %}
+{% for pg in site.pages %}
+  {% assign t = pg.path | split:'/' | last | remove:'.md' | plus:0 %}
+  {% if t <> 0 and t > last_year %}
+    {% assign last_year = t %}
+  {% endif %} 
+  {% if t <> 0 and t < first_year %}
+    {% assign first_year = t %}
+  {% endif %} 
+{% endfor %}
+{% capture return %}{% for t in (first_year..last_year) reversed %}{{t}}{% if forloop.last == false %},{% endif %}{% endfor %}{% endcapture %}
+{{ return }}

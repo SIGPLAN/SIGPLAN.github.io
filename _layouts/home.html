@@ -2,11 +2,10 @@
 <html lang="en">
   {% include header.html %}
   <body>
-    {% include navbar.html %}
+    <div style="background: #f0f0f0; padding-top: 10px; padding-bottom: 10px; margin-bottom: 10px; border-bottom: 1pt solid #808080;">
     <div class="container">
-
       <div class="row">
-        <div class="col-md-2" style="padding-right: 0pt">
+        <div class="col-md-2 col-md-offset-1" style="padding-right: 0pt">
              <p class="text-right"><img src="{{site.url}}/images/acmlogo.gif"></p>
         </div>
         <div class="col-md-8">
@@ -15,47 +14,43 @@
           <p>SIGPLAN is a Special Interest Group of ACM that focuses on Programming Languages. In particular, SIGPLAN explores the  design, implementation, theory, and efficient use of programming languages and associated tools. Its members are programming language users, developers, implementers, theoreticians, researchers and educators.</p>
         </div>
       </div>
-
-      <hr class="col-md-8 col-md-offset-2">
-
+    </div>
+    </div>
+    <div class="container">
       <div class="row">
-        <div class="col-md-4 col-md-offset-2">
-          <h3>What's New</h3>
-          <ul>
-            {% for post in site.posts %}
-              <li>
-                <a href="{{ post.url }}">{{ post.title }}</a>
-              </li>
+        <div class="col-md-3">
+          {% include link-table.liquid data=site.data.Links links="Key Links" %}
+          {% include link-table.liquid data=site.data.Links links="Conference Information" %}
+        </div>
+        <div class="col-md-8 col-md-offset-0">
+          <h3>Awards and Recent Recipients</h3>
+
+          {% for award in site.data.Awards %}
+            {% assign path = award[0] | prepend: 'Awards/' | append: '.md' %}
+            {% assign name = award[1].Name %}
+            {% assign recipients = award[1].Recipients %}
+            {% assign year = 0 %}
+            {% for awardee in recipients %}
+              {% if forloop.first == true %}
+                {% assign year = awardee[0] %}
+                {% assign first_recipient = awardee[1] %}
+              {% endif %}
             {% endfor %}
-          </ul>
-        </div>
-        <div class="col-md-4 ">
-          {% include links.liquid data=site.data.Links links="Key Links" %}
-        </div>
-      </div>
+            {% if first_recipient[0] <> nil %}
+              {% assign first_recipient = first_recipient | array_to_sentence_string %}
+            {% endif %}
 
-      <hr class="col-md-8 col-md-offset-2">
-
-      <div class="row">
-        <div class="col-md-4 col-md-offset-2">
-          {% include links.liquid data=site.data.Links links="Conference Information" %}
-        </div>
-        <div class="col-md-4">
-          {% include links.liquid data=site.data.Links links="SIGPLAN Awards" %}
-        </div>
-      </div>
-
-      <hr class="col-md-8 col-md-offset-2">
-
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+            <h5><a href="{{path}}">{{name}}</a></h5>
+            <ul>
+              <li>
+                {{ year }}: <a href="{{path}}#{{year}}">{{ first_recipient }}</a>
+              </li>
+            </ul>
+          {% endfor %}          
           {% include links.liquid data=site.data.Links links="SIGPLAN Sponsored Conferences" %}
         </div>
       </div>
-
     </div>  
-
-      
 
     {% include footer.html %}
   </body>

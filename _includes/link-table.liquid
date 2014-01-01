@@ -1,0 +1,12 @@
+<div class="panel panel-default">
+  <div class="panel-heading"><b>{{include.links}}</b></div>
+  <ul class="list-group">
+    {% for m1 in include.data.[include.links] %}
+      <li class="list-group-item">
+        {% for m2 in m1 %}
+          {% include link.liquid data=m2 %}
+        {% endfor %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
