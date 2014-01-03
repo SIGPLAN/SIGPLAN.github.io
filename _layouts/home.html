@@ -19,8 +19,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          {% include link-table.liquid data=site.data.Links links="Key Links" %}
-          {% include link-table.liquid data=site.data.Links links="Conference Information" %}
+          <div style="margin-top: 25px;">
+            {% include link-table.liquid data=site.data.Links links="Key Links" %}
+          </div>
         </div>
         <div class="col-md-8 col-md-offset-0">
           <h3>Awards and Recent Recipients</h3>
@@ -47,6 +48,7 @@
               </li>
             </ul>
           {% endfor %}          
+          {% include links.liquid data=site.data.Links links="Conference Information" %}
           {% include links.liquid data=site.data.Links links="SIGPLAN Sponsored Conferences" %}
         </div>
       </div>

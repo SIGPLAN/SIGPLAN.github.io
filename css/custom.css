@@ -35,4 +35,7 @@ code {
           font-style: italic ;
           color: #6666cc ; 
           text-decoration: none ; }
-
+/* Make the group items tighter */
+.list-group-item {
+  padding: 5px 15px;
+}
