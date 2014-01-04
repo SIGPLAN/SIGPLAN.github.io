@@ -5,7 +5,7 @@
     <div style="background: #f0f0f0; padding-top: 10px; padding-bottom: 10px; margin-bottom: 10px; border-bottom: 1pt solid #808080;">
     <div class="container">
       <div class="row">
-        <div class="col-md-2 col-md-offset-1" style="padding-right: 0pt">
+        <div class="col-md-2 col-md-offset-2" style="padding-right: 0pt">
              <p class="text-right"><img src="{{site.url}}/images/acmlogo.gif"></p>
         </div>
         <div class="col-md-8">
@@ -23,8 +23,9 @@
             {% include link-table.liquid data=site.data.Links links="Key Links" %}
           </div>
         </div>
-        <div class="col-md-8 col-md-offset-0">
+        <div class="col-md-7 col-md-offset-1">
           <h3>Awards and Recent Recipients</h3>
+
 
           {% for award in site.data.Awards %}
             {% assign path = award[0] | prepend: 'Awards/' | append: '.md' %}
