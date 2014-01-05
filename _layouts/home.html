@@ -33,7 +33,7 @@
             {% assign i = award[0] %}
             {% assign recipients = d[i] %}
             {% assign year = 0 %}
-            {% assign first_recipient = "can not find {{name}}'s most recent entry" %}
+            {% assign first_recipient = award[0] | prepend: "can not find " | append: "'s most recent entry" %}
             {% for awardee in recipients %}
               {% assign tmp = awardee[0] | plus: 0 %}
               {% if  tmp > year %}
