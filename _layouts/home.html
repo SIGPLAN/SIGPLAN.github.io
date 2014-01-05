@@ -26,15 +26,18 @@
         <div class="col-md-7 col-md-offset-1">
           <h3>Awards and Recent Recipients</h3>
 
-
           {% for award in site.data.Awards %}
             {% assign path = award[0] | prepend: 'Awards/' | append: '.html' %}
-            {% assign name = award[1].Name %}
-            {% assign recipients = award[1].Recipients %}
+            {% assign name = award[1] %}
+            {% assign d = site.data %}
+            {% assign i = award[0] %}
+            {% assign recipients = d[i] %}
             {% assign year = 0 %}
+            {% assign first_recipient = "can not find {{name}}'s most recent entry" %}
             {% for awardee in recipients %}
-              {% if forloop.first == true %}
-                {% assign year = awardee[0] %}
+              {% assign tmp = awardee[0] | plus: 0 %}
+              {% if  tmp > year %}
+                {% assign year = tmp %}
                 {% assign first_recipient = awardee[1] %}
               {% endif %}
             {% endfor %}

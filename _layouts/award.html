@@ -19,7 +19,7 @@
 
           {% assign award_name = page.path | remove: 'Awards/' | remove: '.md' %}
 
-          {% for award in site.data.Awards[award_name].Recipients %}
+          {% for award in site.data[award_name] %}
             {% assign year = award[0] %}
             {% assign details = award[1] %}
             {% assign awardee = details.Awardee %}
