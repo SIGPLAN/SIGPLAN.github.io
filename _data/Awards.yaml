@@ -118,7 +118,35 @@ Software:
 Milner:
   Name: Robin Milner Young Researcher Award
   Recipients:
-    2012: Shriram Krishnamurthi
+    2012: 
+      Awardee: Shriram Krishnamurthi
+      Citation: |
+        The SIGPLAN 2012 Robin Milner Young Researcher Award goes to Shriram
+        Krishnamurthi, a prolific researcher who brings programming language
+        theory to bear in many other disciplines, thus exposing its
+        foundational value. His research contributions range from type
+        soundness proofs for Java and influential extensions thereof, through
+        foundational aspects of web programming, to model-driven development
+        and empirical studies. The most important aspects of Krishnamurthi's
+        research are
+
+         - that it cuts across multiple disciplines, including education,
+           software engineering, formal methods and security, but always
+           building on the firm ground of programming language theory;
+         - its orientation towards practicality and applicability to standard
+           platforms: programming systems for teaching, reactive web
+           programming, executable JavaScript semantics, and analysis
+           techniques for security policies;
+         - that it has resulted not only in publications, but also in
+           practical systems that are used in academia and industry; and
+         - the clarity of its exposition and presentation.
+         - Shriram is also an influential educator, reaching out beyond the
+           university to infect school kids with algebraic thinking.
+
+        In summary, Shriram is an extraordinarily broad researcher, making
+        sustained contributions in important and exciting areas, with a
+        commitment to education that is ensuring that his ideas have even
+        broader impact.
 
 POPL:
   Name: Most Influential POPL Paper Award

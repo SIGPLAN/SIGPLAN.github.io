@@ -15,9 +15,11 @@
           
           {{ content }}
 
-          <HR>
+          <h2>Recipients</h2>
 
-          {% for award in site.data.Awards.Software.Recipients %}
+          {% assign award_name = page.path | remove: 'Awards/' | remove: '.md' %}
+
+          {% for award in site.data.Awards[award_name].Recipients %}
             {% assign year = award[0] %}
             {% assign details = award[1] %}
 
@@ -30,8 +32,7 @@
             <p><strong>Citation:</strong></p>
             
             <blockquote >{{ details.Citation | markdownify }}</blockquote>
-
-          
+                      
           {% endfor %}
         </div>
 

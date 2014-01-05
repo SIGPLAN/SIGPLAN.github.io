@@ -1,3 +1,7 @@
+---
+layout: award
+title: "Robin Milner Young Researcher Award"
+---
 The Robin Milner Young Researcher Award is given by ACM SIGPLAN to
 recognize outstanding contributions by young investigators in the
 area of programming languages. Individuals are eligible if their
@@ -69,11 +73,11 @@ be adjusted for documented family-related or medical leave from
 employment. Questions about eligibility should be directed to the
 Secretary of SIGPLAN.  
 
-**Nominations**  
+#### Nominations
 
-> [Details of the nomination and award process .pdf](http://drupal.sigplan.org/sites/default/files/award-nominations.pdf)
+[Details of the nomination and award process (pdf)](http://drupal.sigplan.org/sites/default/files/award-nominations.pdf)
 
-> Please use <http://awards.sigplan.org/> to submit nominations.
+Please use <http://awards.sigplan.org/> to submit nominations.
 
 **Conflicts of Interest**
 
