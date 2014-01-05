@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: award
 title: "Most Influential OOPSLA Paper Award"
 ---
 Presented annually to the author(s) of a paper presented at the
@@ -22,3 +22,15 @@ committee consists of the following members:
 
 The SIGPLAN Chair shall adjudicate conflicts of interest,
 appointing substitutes to the committee as necessary.
+The Most Influential OOPSLA Paper Award instituted in 
+
+#### 1986-1996
+
+To cover the years from the inception of OOPSLA (1986) to 1996, the
+OOPSLA steering committee formed a committee to select the three
+most influential OOPSLA papers that were presented during that time
+period. The three most influential OOPSLA papers from 1986-1996:
+
+ - [Subject Oriented Programming: A Critique of Pure Objects](http://doi.acm.org/10.1145/165854.165932), William Harrison and Harold Ossher
+ - [Concepts and Experiments in Computational Reflection](http://doi.acm.org/10.1145/38765.38821), Pattie Maes
+ - [Self: The Power of Simplicity](http://doi.acm.org/10.1145/38765.38828), David Ungar and Randall B. Smith

@@ -1,0 +1,128 @@
+2011: 
+  Awardee: Claudio Russo
+  Other: |
+    For 2001 [Recursive Structures for Standard ML](http://dl.acm.org/citation.cfm?doid=507635.507644)  
+  Citation: |
+    Various attempts at extending ML modules with recursions were made
+    starting in the early 90's. However, they all ran into a nasty typing
+    issue later dubbed the "double-vision problem" by Derek Dreyer. Russo's
+    ICFP 2001 paper was the first to propose a correct and practical solution
+    to this problem. The solution played very cleverly on the nonstandard
+    formalization of ML modules developed in his thesis. Building on this
+    novel insight, the ICFP 2001 paper develops a complete design for
+    recursive modules in ML, which Russo implemented in Moscow ML and which
+    is complete enough to handle many desirable examples. Russo's design was
+    the main source of inspiration for adding recursive modules in OCaml,
+    taking recursive modules from an open research issue to a realised
+    language feature that simply works.
+
+2010:
+  Awardee: Koen Claessen and John Hughes
+  Other: |
+    (for 2000) [Quickcheck: a lightweight tool for random testing of Haskell programs](http://doi.acm.org/10.1145/351240.351266)
+  Citation:
+    This paper presented a very simple but powerful system for testing
+    Haskell programs that has had significant impact on the practice of
+    debugging programs in Haskell. The paper describes a clever way to
+    use type classes and monads to automatically generate random test
+    data. QuickCheck has since become an extremely popular Haskell
+    library that is widely used by programmers, and has been
+    incorporated into many undergraduate courses in Haskell. The
+    techniques described in the paper have spawned a significant body
+    of follow-on work in test case generation. They have also been
+    adapted to other languages, leading to their commercialisation for
+    Erlang and C.
+
+2009: 
+  Awardee: Malcolm Wallace and Colin Runciman
+  Other: |
+    (for 1999) [Haskell and XML: Generic combinators or type-based translation?](http://doi.acm.org/10.1145/317636.317794),
+  Citation: |
+    Malcolm Wallace and Colin Runciman's 1999 ICFP paper "Haskell and
+    XML: Generic combinators or type-based translation?" was one of the
+    first papers to spell out the close connection between functional
+    programming languages and XML. It described a typed correspondence
+    between XML's document type definitions (DTD) and Haskell
+    datatypes. This correspondence leads to a natural representation of
+    XML data in functional languages and permits native functions to
+    operate on this representation. The paper also describes a generic
+    encoding of XML trees together with a combinator language for
+    querying and transforming the XML. The paper led to a widespread
+    awareness of the close connection between XML and functional
+    programming and initiated a flurry of research on functional XML
+    processing. Moreover,  
+    the accompanying implementation was widely distributed as part of a
+    CD with various XML tools, thus making an impact in the problem
+    domain beyond the functional programming community: a perfect
+    example of functional programming solving real world problems.
+
+
+2008: 
+  Awardee: Lennart Augustsson
+  Other: |
+    (for 1998) [Cayenne &#8212; a language with dependent types](%20http://doi.acm.org/10.1145/289423.289451),
+  Citation: |
+    Lennart Augustsson's 1998 ICFP Paper &#8220;Cayenne: A language with
+    dependent types&#8221; made dependently-typed programming accessible to
+    non-type theorists. The language design was a bold one, both in its
+    use of dependent types and in its adoption of an undecidable type
+    system. Although the idea seemed quite radical at the time, it
+    allowed future work to break out of the straight-jacket of
+    decidable type systems. It also pointed the way towards the merger
+    of programming languages and proof systems that we are starting to
+    see today in languages such as Agda.
+
+2007:
+  Awardee: Conal Elliott and Paul Hudak"
+  Other: |
+   (for 1997) [Functional Reactive Animation](http://doi.acm.org/10.1145/258948.258973),
+  Citation: |
+    "Functional Reactive Animation" by Conal Elliott and Paul Hudak was
+    the first published paper on functional reactive programming. It
+    described a collection of data types and functions that comprised
+    an embedded domain-specific language called Fran for composing
+    interactive, multi-media animations. The key abstractions were
+    first-class behaviors and events. Intuitively, a behavior is a
+    value that varies with continuous time while an event is a discrete
+    counterpart including time-varying predicates. The idea of
+    regarding the entire lifetime of a time-varying quantity as a
+    single first-class value was new and very surprising at the time,
+    but the paper made it seem simple and obvious. The insight in the
+    paper led to a significant number of follow-on projects including
+    FranTk, Fruit, Pidgets, FrTime, Frob, FRP, Frappe, Frag, Fvision,
+    Yampa, Feris, and work on embodying financial contracts in
+    functional terms.
+
+2006: 
+  Awardee: Julia L. Lawall and Harry G. Mairson
+  Other: |
+    (for 1996) [Optimality and inefficiency: what isn't a cost model of the lambda calculus?](http://doi.acm.org/10.1145/232627.232639)
+  Citation: |
+    Julia Lawall and Harry Mairson's 1996 ICFP paper "Optimality and
+    inefficiency: What isn't a cost model of the lambda calculus?"
+    exposed a fundamental problem with proposed algorithms for optimal
+    reduction. Starting with Jean-Jacques L&#233;vy's seminal work in 1978,
+    the goal of optimal reduction was to correctly normalize
+    lambda-calculus terms without duplicating redexes. Various
+    strategies were subsequently devised to realize optimal reduction,
+    notably the solution of John Lamping at POPL 1990, then simplified
+    and improved by Georges Gonthier, Mart&#237;n Abadi, and Jean-Jacques
+    L&#233;vy at POPL 1992. Each solution used subtle bookkeeping mechanisms
+    to control sharing.
+
+    Lawall and Mairson showed that these bookkeeping mechanisms
+    introduced a complexity and inefficiency of their own. They
+    discovered terms that could be normalized in linear time, but whose
+    bookkeeping costs required exponential time. They further showed
+    that Frandsen and Sturtivant's cost model for lambda-calculus
+    reduction, presented at FPCA 1991, needed to account for the size
+    of intermediate terms, and that optimal-evaluation interpreters
+    were at least exponentially slower than the proposed cost model.
+    Lawall and Mairson concluded that the notion of optimality did not
+    necessarily coincide with that of efficiency. As a consequence,
+    different and possibly optimal evaluation strategies were still
+    needed, as were more realistic cost models. Subsequent work in this
+    area has focused on such cost models, on further analysis of the
+    inherent complexity of optimal reduction, and on relaxing the
+    optimality condition in exchange for lower bookkeeping overhead and
+    greater overall efficiency.

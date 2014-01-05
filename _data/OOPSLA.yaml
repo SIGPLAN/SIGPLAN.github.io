@@ -1,0 +1,69 @@
+2010:
+  Awardee:  Matthew Arnold, Stephen Fink, David Grove, Michael Hind, Peter F. Sweeney
+  Other: |
+   (for 2000) [Adaptive Optimization in the Jalape&#241;o JVM](http://doi.acm.org/10.1145/353171.353175)
+  Citation: |
+    The 2000 OOPSLA paper "Adaptive Optimization in the Jalape&#241;o JVM"
+    describes the architecture of adaptive optimization in what is now
+    known as the Jikes RVM (Research Virtual Machine), continuing a
+    line of research in dynamic adaptive optimizing compilers including
+    Self and Animorphic (later HotSpot). The novelty of this paper was
+    its use of continuous sampling to obtain execution statistics for
+    optimized as well as unoptimized code. Also, because Jikes RVM is
+    written entirely in Java, the techniques apply not only to the
+    application but also to the VM and its components. Follow-on work
+    has used, refined, and extended upon this adaptive optimization
+    infrastructure. The paper has inspired significant further
+    innovation in dynamic profiling and remains a primary reference for
+    its exposition of the basic ingredients of adaptive optimization
+    for modern VM-based languages.  
+
+2009: 
+  Awardee: Bowen Alpern, C. R. Attanasio, Anthony Cocchi, Derek Lieber, Stephen Smith, Ton Ngo, John J. Barton, Susan Flynn Hummel, Janice C. Shepherd, and Mark Mergen"
+  Other: |
+    (for 1999) [Implementing Jalape&#241;o in Java](http://doi.acm.org/10.1145/320384.320418),
+  Citation: |
+    The 1999 OOPSLA paper "Implementing Jalape&#241;o in Java" describes how
+    the authors implemented a Java Virtual Machine in the Java
+    language. This system, which was eventually renamed the Jikes RVM
+    and released to the public, enabled a whole range of academic and
+    industrial research in virtual machines that would have been
+    difficult or impossible otherwise. To this day, researchers
+    successfully use the Jikes RVM as a platform for new
+    investigations.
+
+2008: 
+  Awardee: David G. Clarke, John M. Potter, and James Noble
+  Other: |
+    (for 1998) [Ownership Types for Flexible Alias Protection](http://doi.acm.org/10.1145/286936.286947)
+  Citation: |
+    In their 1998 OOPSLA paper, "Ownership Types for Flexible
+    Protection," David Clark, John Potter, and James Nobel introduced
+    the notion of "ownership types" to control inter-object aliasing
+    statically, making it easier to reason about the dynamic topology
+    of an object-oriented program. This work is part of the broader
+    trend of trying to handle issues of isolation and modularity while
+    retaining expressiveness.
+
+2007: 
+  Awardee: David Grove, Greg DeFouw, Jeffrey Dean, and Craig Chambers"
+  Other: |
+    (for 1997) [Call Graph Construction in Object-Oriented Languages](http://doi.acm.org/10.1145/263698.264352)
+  Citation:
+    In their 1997 OOPSLA paper "Call Graph Construction in
+    Object-Oriented Languages," David Grove, Greg DeFouw, Jeffrey Dean,
+    and Craig Chambers studied the existing algorithms for call-graph
+    construction in object-oriented languages and brought them together
+    into a unified framework. This framework is both theoretical,
+    allowing the authors to compare the precision of the different
+    algorithms, and also practical in that they built a single
+    parameterized implementation of all of the algorithms. This
+    implementation allowed them to conduct a thorough empirical
+    evaluation of the algorithms, which had not been previously
+    possible because the algorithms had been implemented separately and
+    applied to different programs. In the process, the authors
+    discovered and evaluated a few new variations suggested by their
+    framework. This kind of consolidation paper is important for moving
+    the field forward since it provides theoretical models to build on
+    and performance evaluations as benchmarks. It has served as a model
+    for later work of this kind.
