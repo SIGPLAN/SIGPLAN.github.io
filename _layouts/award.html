@@ -34,9 +34,12 @@
               {{ details.Other | markdownify }}
             {% endif %}
 
-            <p><strong>Citation:</strong></p>
-            
-            <blockquote >{{ details.Citation | markdownify }}</blockquote>
+            {% if details.Citation <> nil %}
+
+              <p><strong>Citation:</strong></p>
+              <blockquote >{{ details.Citation | markdownify }}</blockquote>
+              
+            {% endif %}
                       
           {% endfor %}
         </div>
