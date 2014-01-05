@@ -5,9 +5,115 @@
 Software:
   Name: Programming Languages Software Award
   Recipients:
-    2012: Jikes Research Virtual Machine (RVM)
-    2011: Simon Peyton Jones and Simon Marlow for the Glasgow Haskell compiler
-    2010: Chris Lattner for the LLVM Compiler Infrastructure
+    2012: 
+     Awardee: Jikes Research Virtual Machine (RVM)
+     Citation: |
+
+        The SIGPLAN Software Award for 2012 goes to the Jikes Research
+        Virtual Machine (RVM), an open-source virtual computer
+        implemented in the Java programming language, and capable of
+        running programs written in Java and many other languages that
+        compile to JVM bytecodes. The award nomination names 32
+        contributors to the Jikes RVM project, but the project actually
+        has more than double that number of contributors. Jikes RVM was
+        the first Java-in-Java virtual machine and contains many
+        innovations, especially on adaptive optimization and memory
+        management.
+
+        The high quality and modular design of Jikes has made it easy
+        for researchers to develop, share, and compare advances in
+        programming language implementation. The Jikes RVM core team
+        has nurtured and supported a large community of researchers;
+        this is witnessed by more than 200 papers, at least 40
+        dissertations, close to 25 courses, and research at almost 100
+        universities, that are based on the Jikes RVM.
+
+        The nominated contributors are:
+
+         * Bowen Alpern
+         * Matthew Arnold
+         * Clement Attanasio
+         * John Barton
+         * Steve Blackburn
+         * Maria Butrico
+         * Perry Cheng
+         * Tony Cocchi
+         * Julian Dolby
+         * Peter Donald
+         * Steven Fink
+         * Daniel Frampton
+         * Robin Garner
+         * David Grove
+         * Michael Hind
+         * Derek Lieber
+         * Kathryn McKinley
+         * Mark Mergen
+         * Eliot Moss
+         * Ton Ngo
+         * Igor Peshansky
+         * Filip Pizlo
+         * Feng Qian
+         * Ian Rogers
+         * Vivek Sarkar
+         * Mauricio Serrano
+         * Janice Shepherd
+         * Stephen Smith
+         * Peter F. Sweeney
+         * Martin Trapp
+         * Kris Venstermans
+         * John Whaley
+
+    2011:
+      Awardee: Simon Peyton Jones and Simon Marlow for the Glasgow Haskell compiler
+      Citation: |
+        "Simon Peyton Jones and Simon Marlow receive the SIGPLAN Software
+        Award as the authors of the Glasgow Haskell Compiler (GHC), which
+        is the preeminent lazy functional programming system for industry,
+        teaching, and research. GHC has not only provided a language
+        implementation, but also established the whole paradigm of lazy
+        functional programming and formed the foundation of a large and
+        enthusiastic user community. GHC's flexibility has supported
+        experimental research on programming language design in areas as
+        diverse as monads, generalized algebraic data types, rank-N
+        polymorphism, and software transactional memory. Indeed, a large
+        share of the research on lazy functional programming in the last
+        5-10 years has been carried out with GHC. Simultaneously, GHC's
+        reliability and efficiency has encouraged commercial adoption, in
+        the financial sector in institutions like Credit Suisse and
+        Standard Chartered Bank, and for high assurance software in
+        companies like Amgen, Eaton, and Galois.
+
+        A measure of GHC's influence is the way that many of the ideas of
+        purely functional, "typeful programming" have been carried into
+        newer languages and language features. including C\#, F\#, Java
+        Generics, LINQ, Perl 6, Python, and Visual Basic 9.0. Peyton Jones
+        and Marlow have been visionary in the way that they have
+        transitioned research into practice. They have been role models and
+        leaders in creating the large and diverse Haskell community, and
+        have made GHC an industrial-strength platform for commercial
+        development as well as for research."
+      Other: 
+        The cash prize is being donated to [haskell.org](http://www.haskell.org)
+
+    2010: 
+      Awardee: Chris Lattner for the LLVM Compiler Infrastructure
+      Citation: |
+        Chris Lattner receives the SIGPLAN Software Award as the author of
+        the LLVM Compiler Infrastructure, which has had a dramatic impact
+        on our field. LLVM is being used extensively in both products and
+        research, for traditional and non-traditional compiler problems,
+        and for a diverse set of languages. LLVM has had a significant
+        influence on academic research, not just in compilers but also in
+        other areas, such as FPGA design tool. Many researchers cite the
+        "elegance of LLVM's design" as one of the reasons for using LLVM.
+        LLVM has also had an impact on industrial projects and products; it
+        is used at major companies including Apple and Google. For example,
+        LLVM is an integral part of Apple's software stack in Mac OS X.
+        Furthermore, as with academic research, LLVM is finding its way
+        into unexpected applications of compiler technology. In summary,
+        LLVM has had an incredible impact on both industry and academia and
+        its elegance has enabled it to be used for a wide range of
+        applications."
 
 Milner:
   Name: Robin Milner Young Researcher Award

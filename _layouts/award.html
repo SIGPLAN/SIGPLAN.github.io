@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include header.html %}
+  <body>
+    {% include navbar.html %}
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-8  col-md-offset-2">
+          <h1> {{ page.title }} </h1>
+
+          <hr class="featurette-divider">
+          
+          {{ content }}
+
+          <HR>
+
+          {% for award in site.data.Awards.Software.Recipients %}
+            {% assign year = award[0] %}
+            {% assign details = award[1] %}
+
+            <h4 class="alert alert-info" id="{{year}}"><span class="badge pull-right">{{year}}</span> {{details.Awardee}} </h4>
+                        
+            {% if details.Other <> nil %}
+              {{ details.Other | markdownify }}
+            {% endif %}
+
+            <p><strong>Citation:</strong></p>
+            
+            <blockquote >{{ details.Citation | markdownify }}</blockquote>
+
+          
+          {% endfor %}
+        </div>
+
+      </div>
+      
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

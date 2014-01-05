@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: award
 title: "Programming Languages Software Award"
 ---
 Given by ACM SIGPLAN to an institution or individual(s) to
@@ -21,3 +21,4 @@ includes a prize of $2,500. The award is presented at SIGPLAN's
 **Committee Chair**: [Michael Hind](mailto:hind@acm.org)
 
 **Committee Members**: Jack Davidson, Jeff Foster, Simon Marlow, Eelco Visser
+

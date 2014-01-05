@@ -1,0 +1,26 @@
+
+{% assign award_name = page.path | remove: 'Awards/' | remove: '.md' %}
+
+{% assign award = site.data.Awards[award_name] %}
+
+[[  {{ award_name }} / {{ award }} ]]
+
+<div class="panel panel-primary">
+  <div class="panel-heading"><b>{{award_name}} Awards</b></div>
+  <table class="table table-condensed">
+    {% for m1 in award.Recipients %}
+      <tr>
+        <td>{{m1[0]}}</td>
+        <td>{{m1[1]}}</td>
+      </tr>
+    {% endfor %}
+  </table>
+</div>
+
+
+  <div class="list-group">
+    {% for m1 in award.Recipients %}
+      <a href="#" class="list-group-item">{{m1[0]}}<div>{{m1[1]}}</div></a>
+    {% endfor %}
+  </div>
+
