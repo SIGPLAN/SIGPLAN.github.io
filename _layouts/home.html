@@ -28,7 +28,7 @@
 
 
           {% for award in site.data.Awards %}
-            {% assign path = award[0] | prepend: 'Awards/' | append: '.md' %}
+            {% assign path = award[0] | prepend: 'Awards/' | append: '.html' %}
             {% assign name = award[1].Name %}
             {% assign recipients = award[1].Recipients %}
             {% assign year = 0 %}
@@ -38,9 +38,13 @@
                 {% assign first_recipient = awardee[1] %}
               {% endif %}
             {% endfor %}
+            {% if first_recipient["Awardee"] <> nil %} 
+              {% assign first_recipient = first_recipient["Awardee"] %}             
+            {% endif %}
             {% if first_recipient[0] <> nil %}
               {% assign first_recipient = first_recipient | array_to_sentence_string %}
             {% endif %}
+
 
             <h5><a href="{{path}}">{{name}}</a></h5>
             <ul>
