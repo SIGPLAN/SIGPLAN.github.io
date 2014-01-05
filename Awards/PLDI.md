@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: award
 title: "Most Influential PLDI Paper Award"
 ---
 Presented annually to the author(s) of a paper presented at the
