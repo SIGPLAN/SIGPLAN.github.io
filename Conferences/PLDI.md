@@ -82,7 +82,7 @@ The current PLDI steering committee is:
 
 **Web Pages of Previous Conferences**  
 > [PLDI 2013](http://pldi2013.ucombinator.org/)  (Seattle, WA)  
-> [PLDI 2012](http://pldi11.cs.utah.edu/)  (Beijing, China)   
+> [PLDI 2012](http://http://pldi12.cs.purdue.edu/)  (Beijing, China)   
 > [PLDI 2011](http://pldi11.cs.utah.edu/) (San Jose, CA)  
 > [PLDI 2010](http://cs.stanford.edu/pldi10/) (Toronto, Ontario)  
 > [PLDI 2009](http://www-plan.cs.colorado.edu/~pldi09/) (Dublin, Ireland)  
