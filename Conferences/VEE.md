@@ -27,7 +27,7 @@ The current VEE steering committee is:
 -  [Steven Hand](http://www.cl.cam.ac.uk/~smh22/) (U of Cambridge)
 -  [Gernot Heiser](http://www.cse.unsw.edu.au/~gernot/) (NICTA and UNSW)
 -  [Doug Lea](http://g.oswego.edu/) (SUNY at Oswego)
--  [Steve Muir](http://www.linkedin.com/in/9muir) (VMware)
+-  [Steve Muir](http://www.linkedin.com/in/9muir) (Comcast)
 -  [Brian Noble](http://web.eecs.umich.edu/~bnoble) (U of Michigan)
 -  [Erez Petrank](http://www.cs.technion.ac.il/~erez) (Technion)
 -  [Andrew Warfield](http://www.cs.ubc.ca/~andy/) (UBC)
