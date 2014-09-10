@@ -4,11 +4,11 @@ title: "SIGPLAN CACM Research Highlights Nominated Papers"
 ---
 ### Nominated September 2013
 
-Title: [A General Constraint-Centric Scheduling Framework for Spatial
-Architectures](http://dl.acm.org/citation.cfm?id=2462163)\
- Authors: Tony Nowatzki, Michael Sartin-Tarm, Lorenzo De Carli,
-Karthikeyan Sankaralingam, Cristian Estan, Behnam Robatmili\
- Venue: PLDI 2013
+***Title:*** [A General Constraint-Centric Scheduling Framework for Spatial
+Architectures](http://dl.acm.org/citation.cfm?id=2462163)  
+***Authors:*** Tony Nowatzki, Michael Sartin-Tarm, Lorenzo De Carli,
+Karthikeyan Sankaralingam, Cristian Estan, Behnam Robatmili  
+***Venue:*** PLDI 2013
 
 Scheduling of computation to hardware resources is absolutely critical
 to the success of spatial architectures, but it's a very tough problem.
@@ -19,12 +19,12 @@ This work is an impressive study of the scheduling problem presented by
 these architectures and will be of interest to PL and architecture
 people alike.
 
-\
 
-Title: [CLAP: Recording Local Executions to Reproduce Concurrency
-Failures](http://dl.acm.org/citation.cfm?id=2462167)\
- Authors: &#160;Jeff Huang, Charles Zhang, Julian Dolby\
- Venue: PLDI 2013
+
+***Title:*** [CLAP: Recording Local Executions to Reproduce Concurrency
+Failures](http://dl.acm.org/citation.cfm?id=2462167)  
+***Authors:*** &#160;Jeff Huang, Charles Zhang, Julian Dolby  
+***Venue:*** PLDI 2013
 
 CLAP is an efficient technique for reproducing concurrency bugs that
 logs thread local execution and computes memory dependencies offline,
@@ -33,13 +33,13 @@ contribution is the identification of a new approach to reproducing
 concurrency bugs that reduces overheads and reduces the observer effect
 seen in existing systems that inject synchronization points.
 
-\
 
-Title: [From Relational Verification to SIMD Loop
-Synthesis](http://dl.acm.org/citation.cfm?id=2442529)\
- Authors: &#160;Gilles Barthe, Juan Manuel Crespo, Sumit Gulwani, Cesar Kunz,
-Mark Marron\
- Venue: PPoPP 2013
+
+***Title:*** [From Relational Verification to SIMD Loop
+Synthesis](http://dl.acm.org/citation.cfm?id=2442529)  
+***Authors:*** &#160;Gilles Barthe, Juan Manuel Crespo, 
+Sumit Gulwani, Cesar Kunz, Mark Marron  
+***Venue:*** PPoPP 2013
 
 This paper addresses a compiler optimization problem, namely generating
 SSE vector code for loops with data-driven control flow and suboptimal
@@ -50,14 +50,13 @@ then used to fill these fragments in. This paper won the PPoPP best
 paper award and was recommended by Saman Amarasinghe, one of the PC
 Chairs.
 
-\
 
-Title: [SIMD Parallelization of Applications that Traverse Irregular
-Data
-Structures](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6494989)\
- Authors: Bin Ren, Gagan Agrawal Jim Larus, Todd Mytkowicz, Tomi
-Poutanen Wolfram Schulte\
- Venue: CGO 2013
+
+***Title:*** [SIMD Parallelization of Applications that Traverse Irregular
+Data Structures](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6494989)  
+***Authors:*** Bin Ren, Gagan Agrawal Jim Larus, Todd Mytkowicz, 
+Tomi Poutanen Wolfram Schulte  
+***Venue:*** CGO 2013
 
 Finding ways to parallelize important computations is now essential in
 creating a competitive product or service. This paper addresses the
@@ -76,19 +75,19 @@ applies to two large interesting classes of irregular computations, the
 authors demonstrate the generality of their approach its potential for
 broad impact.
 
-\
- \
+
+ 
 
 * * * * *
 
-\
+
 
 ### Nominated May 2013
 
-Title: [Set-Theoretic Foundation of Parametric Polymorphism and
-Subtyping](http://dl.acm.org/citation.cfm?id=2034788)\
- Authors: Giuseppe Castagna and Zhiwu Xu\
- Venue: ICFP 2011
+***Title:*** [Set-Theoretic Foundation of Parametric Polymorphism and
+Subtyping](http://dl.acm.org/citation.cfm?id=2034788)  
+***Authors:*** Giuseppe Castagna and Zhiwu Xu  
+***Venue:*** ICFP 2011
 
 The paper provides a semantic basis for the combination of subtyping and
 parametric polymorphism (generics in Java parlance) that has eluded
@@ -100,12 +99,11 @@ broader than that. The problem of semantic definition of types is
 generally an important and challenging one where we expect progress to
 come slowly. This paper seems to represent an important next step.
 
-\
 
-Title: [Safe Haskell](http://dl.acm.org/citation.cfm?id=2364524)\
- Authors: David Terei, David Mazi&#232;res, Simon Marlow, and Simon Peyton
-Jones\
- Venue: Haskell Symposium 2012
+
+***Title:*** [Safe Haskell](http://dl.acm.org/citation.cfm?id=2364524)  
+***Authors:*** David Terei, David Mazi&#232;res, Simon Marlow, and Simon Peyton Jones  
+***Venue:*** Haskell Symposium 2012
 
 This paper describes a language extension of Haskell that is intended to
 make it possible to confine and safely execute untrusted, possibly
@@ -119,13 +117,12 @@ community, even though (or in particular, because) some of Safe
 Haskell's ideas are made possible because Haskell is already a
 relatively safe language to start with.
 
-\
 
-Title: [Work-Stealing Without the
-Baggage](http://dl.acm.org/citation.cfm?id=2384639)\
- Authors: Vivek Kumar, Daniel Frampton, Stephen M. Blackburn, David
-Grove, and Olivier Tardieu \
- Venue: OOPSLA 2012
+
+***Title:*** [Work-Stealing Without the Baggage](http://dl.acm.org/citation.cfm?id=2384639)  
+***Authors:*** Vivek Kumar, Daniel Frampton, Stephen M. Blackburn, 
+David Grove, and Olivier Tardieu    
+***Venue:*** OOPSLA 2012
 
 This paper takes a well-known idea, work-stealing to exploit parallel
 hardware, and asks why it doesn't work as well as it should. It
@@ -136,13 +133,13 @@ low-overhead (15%), while enabling just as much parallelism as the
 others - more bang for the buck. This is a reconsideration of a known
 idea that improves on it substantially.
 
-\
 
-Title: [AutoMan: a Platform for Integrating Human-Based and Digital
-Computation](http://dl.acm.org/citation.cfm?id=2384663)\
- Authors: Daniel W. Barowy, Charlie Curtsinger, Emery D. Berger, and
-Andrew McGregor\
- Venue: OOPSLA 2012
+
+***Title:*** [AutoMan: a Platform for Integrating Human-Based and Digital
+Computation](http://dl.acm.org/citation.cfm?id=2384663)  
+***Authors:*** Daniel W. Barowy, Charlie Curtsinger, Emery D. Berger, and
+Andrew McGregor  
+***Venue:*** OOPSLA 2012
 
 There has been a lot of buzz about mixtures of machine and human
 computation. For the most part there has been little programmatic
@@ -156,12 +153,12 @@ crowd-source tasks, and seeks to maximize parallelism in the execution
 of the crowd-source tasks. This is an interesting new idea that provides
 a direction for people to build on.
 
-\
 
-Title: [On the Linear Ranking Problem for Integer Linear-Constraint
-Loops](http://dl.acm.org/citation.cfm?id=2429078)\
- Authors: Amir Ben-Amram and Samir Genaim\
- Venue: POPL 2013
+
+***Title:*** [On the Linear Ranking Problem for Integer Linear-Constraint
+Loops](http://dl.acm.org/citation.cfm?id=2429078)  
+***Authors:*** Amir Ben-Amram and Samir Genaim  
+***Venue:*** POPL 2013
 
 The paper studies the complexity of the linear ranking problem, namely
 the problem that, given a loop described as a set of linear constraints
@@ -176,20 +173,19 @@ Algorithmic methods for synthesizing linear ranking functions have been
 introduced and restrictions have been studied in order to make the
 problem PTIME.
 
-\
- \
+
+ 
 
 * * * * *
 
-\
+
 
 ### Nominated October 2012
 
-Title: [And Then There Were None: A Stall-Free Real-Time Garbage
-Collector for Reconfigurable
-Hardware](http://dl.acm.org/citation.cfm?id=2254068)\
- Authors: David F. Bacon, Perry Cheng, and Sunil Shukla\
- Venue: PLDI 2012
+***Title:*** [And Then There Were None: A Stall-Free Real-Time Garbage
+Collector for Reconfigurable Hardware](http://dl.acm.org/citation.cfm?id=2254068)  
+***Authors:*** David F. Bacon, Perry Cheng, and Sunil Shukla  
+***Venue:*** PLDI 2012
 
 ![CACM Cover December
 2013](http://drupal.sigplan.org/sites/default/files/dec-2013.jpg)**Published
@@ -210,12 +206,12 @@ paper is broad in scope (hardware, software, empirical, semi-formal),
 and is developed from a fundamental, first-principles background. The
 paper is accessible yet not incremental.
 
-\
 
-Title: [SuperC: Parsing All of C by Taming the
-Preprocessor](http://dl.acm.org/citation.cfm?id=2254103)\
- Authors: Paul Gazzillo and Robert Grimm\
- Venue: PLDI 2012
+
+***Title:*** [SuperC: Parsing All of C by Taming the
+Preprocessor](http://dl.acm.org/citation.cfm?id=2254103)  
+***Authors:*** Paul Gazzillo and Robert Grimm  
+***Venue:*** PLDI 2012
 
 This paper addresses the long standing problem of correctly parsing both
 of the two underlying languages that comprise what we know as C: C
@@ -231,13 +227,13 @@ it has concrete applications, and has some very nice computer science
 behind it. The work has clear applications, addresses a very well
 established problem, and is bound to be a milestone publication.
 
-\
 
-Title: [Efficient Lookup-Table Protocol in Secure Multiparty
-Computation](http://dl.acm.org/citation.cfm?id=2364556)\
- Authors: John Launchbury, Iavor S. Diatchki, Thomas DuBuisson, and Andy
-Adams-Moran\
- Venue: ICFP 2012
+
+***Title:*** [Efficient Lookup-Table Protocol in Secure Multiparty
+Computation](http://dl.acm.org/citation.cfm?id=2364556)  
+***Authors:*** John Launchbury, Iavor S. Diatchki, Thomas DuBuisson, and Andy
+Adams-Moran  
+***Venue:*** ICFP 2012
 
 Cloud computing provides new opportunities for individuals to cheaply
 take advantage of tremendous computing power for occasional expensive
@@ -260,12 +256,12 @@ development that makes this possible is a new array lookup primitive
 that provides good leverage for expressing the algorithm and its
 efficient implementation.
 
-\
 
-Title: [Experience Report: A Do-It-Yourself High-Assurance
-Compiler](http://dl.acm.org/citation.cfm?id=2364553)\
- Authors: Lee Pike, Nis Wegmann, Sebastian Niller, and Alwyn Goodloe\
- Venue: ICFP 2012
+
+***Title:*** [Experience Report: A Do-It-Yourself High-Assurance
+Compiler](http://dl.acm.org/citation.cfm?id=2364553)  
+***Authors:*** Lee Pike, Nis Wegmann, Sebastian Niller, and Alwyn Goodloe  
+***Venue:*** ICFP 2012
 
 This exemplary paper explains how a variety of techniques that are
 understood in the FP community can be applied to build domain-specific
@@ -277,19 +273,19 @@ for a verifying rather than a verified compiler. These techniques were
 applied to build a language, Copilot, for verification monitors used in
 aviation, an application of great interest in its own right.
 
-\
- \
+
+ 
 
 * * * * *
 
-\
+
 
 ### Nominated February 2012
 
-Title: [Fast Restore of Checkpointed Memory using Working Set
-Estimation](http://dl.acm.org/citation.cfm?doid=1952682.1952695)\
- Authors: Irene Zhang, Alex Garthwaite, Yuri Baskakov, Kenneth C. Barr\
- Venue: VEE 2011
+***Title:*** [Fast Restore of Checkpointed Memory using Working Set
+Estimation](http://dl.acm.org/citation.cfm?doid=1952682.1952695)  
+***Authors:*** Irene Zhang, Alex Garthwaite, Yuri Baskakov, Kenneth C. Barr  
+***Venue:*** VEE 2011
 
 The paper describes a clever technique for restoring checkpointed
 OS-level virtual machines, which significantly outperforms both eager
@@ -306,13 +302,13 @@ It is a simple but interesting and meaningful result. It also exposes
 the reader to the "minimum mutator utilization" metrics from the GC
 literature, which may themselves be interesting to some readers.
 
-\
 
-Title: [SugarJ: Library-based Syntactic Language
-Extensibility](http://dx.doi.org/10.1145/2076021.2048099)\
- Authors: Sebastian Erdweg, Tillmann Rendel, Christian Kastner, Klaus
-Ostermann\
- Venue: OOPSLA 2011
+
+***Title:*** [SugarJ: Library-based Syntactic Language
+Extensibility](http://dx.doi.org/10.1145/2076021.2048099)  
+***Authors:*** Sebastian Erdweg, Tillmann Rendel, Christian Kastner, Klaus
+Ostermann  
+***Venue:*** OOPSLA 2011
 
 This paper appeared in OOPSLA 2011, pages 391-406. It addresses the
 problem of adding domain-specific language extensions, including
@@ -360,20 +356,20 @@ self-applicability allows for an virtuous cycle of improvements in
 program libraries, as is shown to some extent in the paper with the
 implementation of support for concrete syntax transformations.
 
-\
+
 
 * * * * *
 
-\
+
 
 ### Nominated September 2011:
 
-Title: [Understanding POWER
-Multiprocessors](http://dl.acm.org/citation.cfm?id=1993520)\
- Authors: Susmit Sarkar, University of Cambridge, Peter Sewell,
+***Title:*** [Understanding POWER
+Multiprocessors](http://dl.acm.org/citation.cfm?id=1993520)  
+***Authors:*** Susmit Sarkar, University of Cambridge, Peter Sewell,
 University of Cambridge, Jade Alglave, Oxford University, Luc Maranget
-INRIA, Derek Williams, IBM\
- Venue: PLDI 2011
+INRIA, Derek Williams, IBM  
+***Venue:*** PLDI 2011
 
 An overlapping set of authors wrote an earlier paper entitled "x86-TSO:
 A Rigorous and Usable Programmer's Model for x86 Multiprocessors",
@@ -415,14 +411,14 @@ to confidently and correctly hide the architectural complexity. If the
 C++ standards committee had had access to such a description, we would
 have avoided months of debate.
 
-\
 
-Title: [Data Representation
-Synthesis](http://dl.acm.org/citation.cfm?id=1993498.1993504)\
- Authors: Peter Hawkins, Stanford, Alex Aiken, Stanford, Kathleen
+
+***Title:*** [Data Representation
+Synthesis](http://dl.acm.org/citation.cfm?id=1993498.1993504)  
+***Authors:*** Peter Hawkins, Stanford, Alex Aiken, Stanford, Kathleen
 Fisher, Tufts University, Martin Rinard, MIT, Mooly Sagiv, Tel-Aviv
-University\
- Venue: PLDI 2011
+University  
+ ***Venue:*** PLDI 2011
 
 ![CACM Cover December
 2012](http://drupal.sigplan.org/sites/default/files/dec-2012.jpg)**Published
@@ -440,15 +436,15 @@ code. The approach is partially automated, but requires user input to
 select the data representation--although the paper experiments with
 auto-tuning to select the representation.
 
-\
 
-Title: [Automated Atomicity-Violation
-Fixing](http://portal.acm.org/citation.cfm?id=1993544)\
- Authors: Guoliang Jin, University of Wisconsin-Madison, Linhai Song,
+
+***Title:*** [Automated Atomicity-Violation
+Fixing](http://portal.acm.org/citation.cfm?id=1993544)  
+***Authors:*** Guoliang Jin, University of Wisconsin-Madison, Linhai Song,
 University of Wisconsin-Madison, Wei Zhang, University of
 Wisconsin-Madison, Shan Lu, University of Wisconsin-Madison, Ben Liblit,
-University of Wisconsin-Madison\
- Venue: PLDI 2011
+University of Wisconsin-Madison  
+***Venue:*** PLDI 2011
 
 This paper presents AFix, a development tool that uses the results of an
 atomicity violation detector (in this case, CTrigger) to automatically
@@ -470,16 +466,16 @@ technique can fix real bugs with negligible overhead. This is one of the
 first papers to attack the problem of automated bug fixing, so it should
 be of wide interest.
 
-\
 
-Title: [Automating String Processing in Spreadsheets Using Input-Output
-Examples](http://research.microsoft.com/en-us/um/people/sumitg/pubs/popl11-synthesis.pdf)
+
+***Title:*** [Automating String Processing in Spreadsheets Using Input-Output
+Examples](http://research.microsoft.com/en-us/um/people/sumitg/pubs/popl11-synthesis.pdf)  
 (POPL 2011) and [Spreadsheet Table Transformations from
 Examples](http://research.microsoft.com/en-us/um/people/sumitg/pubs/pldi11-table-synthesis.pdf)
-(PLDI 2011)\
- Authors: Sumit Gulwani (POPL 2011) and William Harris and Sumit Gulwani
-(PLDI 2011)\
- Venue: PLDI 2011
+(PLDI 2011)  
+ ***Authors:*** Sumit Gulwani (POPL 2011) and William Harris and Sumit Gulwani
+(PLDI 2011)  
+ ***Venue:*** PLDI 2011
 
 ![CACM Cover Aug
 2012](http://drupal.sigplan.org/sites/default/files/aug-2012.jpg)**Published
@@ -507,19 +503,19 @@ implementations and experiments that they work well in practice. These
 papers have broad appeal and show nicely that tools that are based on
 programming language techniques can be widely useful.
 
-\
+
 
 * * * * *
 
-\
+
 
 ### Nominated February 2011:
 
-Title: [Lime: a Java-Compatible and Synthesizable Language for
-Heterogeneous Architectures](http://dx.doi.org/10.1145/1869459.1869469)\
- Authors: Joshua Auerbach, IBM Research, David F. Bacon, IBM Research,
-Perry Cheng, IBM Research, Rodric Rabbah, IBM Research\
- Venue: OOPSLA 2010
+***Title:*** [Lime: a Java-Compatible and Synthesizable Language for
+Heterogeneous Architectures](http://dx.doi.org/10.1145/1869459.1869469)  
+***Authors:*** Joshua Auerbach, IBM Research, David F. Bacon, IBM Research,
+Perry Cheng, IBM Research, Rodric Rabbah, IBM Research  
+***Venue:*** OOPSLA 2010
 
 This paper describes a new language, Lime, that is designed to be
 compiled to and executed on a "range of architectures, from FPGAs to
@@ -565,14 +561,14 @@ performing orders of magnitude faster compared to the baseline code,
 although the authors say that their FPGA backend is not completely
 mature.
 
-\
 
-Title: [Nikola: Embedding Compiled GPU Functions in
-Haskell](http://portal.acm.org/citation.cfm?id=1863523.1863533)\
- Authors: Geoffrey Mainland, Harvard School of Engineering and Applied
+
+***Title:*** [Nikola: Embedding Compiled GPU Functions in
+Haskell](http://portal.acm.org/citation.cfm?id=1863523.1863533)  
+***Authors:*** Geoffrey Mainland, Harvard School of Engineering and Applied
 Sciences, Greg Morrisett, Harvard School of Engineering and Applied
-Sciences\
- Venue: Haskell Symposium 2010
+Sciences  
+***Venue:*** Haskell Symposium 2010
 
 This paper provides an excellent overview of the state of the art of
 domain-specific language (DSL) programming within a functional language
@@ -596,13 +592,13 @@ furthermore demonstrates that even embedded DSLs can generate efficient
 code, and therefore allow users of otherwise rather low-level languages
 such as CUDA to work in higher-level languages instead.
 
-\
 
-Title: [The Impact of Higher-Order State and Control Effects on Local
-Relational Reasoning](http://portal.acm.org/citation.cfm?id=1863566)\
- Authors: Derek Dreyer (MPI-SWS); Georg Neis (MPI-SWS); Lars Birkedal
-(IT University of Copenhagen)\
- Venue: ICFP 2010
+
+***Title:*** [The Impact of Higher-Order State and Control Effects on Local
+Relational Reasoning](http://portal.acm.org/citation.cfm?id=1863566)  
+***Authors:*** Derek Dreyer (MPI-SWS); Georg Neis (MPI-SWS); Lars Birkedal
+(IT University of Copenhagen)  
+***Venue:*** ICFP 2010
 
 Understanding if two programs are equivalent is an essential part of
 reasoning about the correctness of program transformations. This paper
@@ -617,14 +613,13 @@ necessary for this work is highly technical at times, much of the
 presentation in the paper is given in an informal, pedagogic style based
 on clean "visual" proof sketches.
 
-\
 
-Title: [Lightweight Modular Staging: A Pragmatic Approach to Runtime
+
+***Title:*** [Lightweight Modular Staging: A Pragmatic Approach to Runtime
 Code Generation and Compiled
-DSLs](http://portal.acm.org/citation.cfm?id=1868314)\
- Authors: Tiark Rompf, &#201;cole Polytechnique F&#233;d&#233;rale de Lausanne Martin
-Odersky, &#201;cole Polytechnique F&#233;d&#233;rale de Lausanne\
- Venue: GPCE 2010
+DSLs](http://portal.acm.org/citation.cfm?id=1868314)  
+***Authors:*** Tiark Rompf, &#201;cole Polytechnique F&#233;d&#233;rale de Lausanne Martin Odersky, &#201;cole Polytechnique F&#233;d&#233;rale de Lausanne  
+***Venue:*** GPCE 2010
 
 ![CACM Cover June
 2012](http://drupal.sigplan.org/sites/default/files/CACM-Jun2012.jpg)**Published
@@ -657,19 +652,19 @@ and difficult problems such as staging: with Scala's general-purpose
 features, the staging system as described in this paper can be
 implemented as a library, without need for further language extensions.
 
-\
+
 
 * * * * *
 
-\
+
 
 ### Nominated November 2010:
 
-Title: [Complete Functional
-Synthesis](http://dx.doi.org/10.1145/1809028.1806632)\
- Authors: Viktor Kuncak, Mika&#235;l Mayer, Ruzica Piskac, and Philippe
-Suter\
- Venue: PLDI 2010
+***Title:*** [Complete Functional
+Synthesis](http://dx.doi.org/10.1145/1809028.1806632)  
+***Authors:*** Viktor Kuncak, Mika&#235;l Mayer, Ruzica Piskac, and Philippe
+Suter  
+***Venue:*** PLDI 2010
 
 ![CACM Cover February
 2012](http://drupal.sigplan.org/sites/default/files/feb-2012.jpg)**Published
@@ -692,12 +687,12 @@ if no solution exists, the tool reports the failure statically. In
 summary, this paper describes a cool idea that could substantially
 change programming practice.
 
-\
 
-Title: [Safe to the Last Instruction: Automated Verification of a
-Type-Safe Operating System](http://dx.doi.org/10.1145/1806596.1806610)\
- Authors: Jean Yang and Chris Hawblitzel\
- Venue: PLDI 2010
+
+***Title:*** [Safe to the Last Instruction: Automated Verification of a
+Type-Safe Operating System](http://dx.doi.org/10.1145/1806596.1806610)  
+***Authors:*** Jean Yang and Chris Hawblitzel  
+***Venue:*** PLDI 2010
 
 ![CACM Cover December
 2011](http://drupal.sigplan.org/sites/default/files/CACM-Dec2011.jpg)**Published
@@ -719,18 +714,18 @@ widespread vulnerability of existing operating systems, Verve is of
 broad interest to the CACM community because it shows that alternatives
 are possible.
 
-\
+
 
 * * * * *
 
-\
+
 
 ### Nominated November 2009:
 
-Title: [FastTrack: Efficient and Precise Dynamic Race
-Detection](http://portal.acm.org/citation.cfm?id=1542490)\
- Authors: Cormac Flanagan and Stephen N. Freund\
- Venue: PLDI 2009
+***Title:*** [FastTrack: Efficient and Precise Dynamic Race
+Detection](http://portal.acm.org/citation.cfm?id=1542490)  
+***Authors:*** Cormac Flanagan and Stephen N. Freund  
+***Venue:*** PLDI 2009
 
 ![CACM Cover November
 2010](http://drupal.sigplan.org/sites/default/files/CACM-Nov2010.jpg)**Published
@@ -759,19 +754,19 @@ area. Another SIGPLAN-nominated Research Highlights paper, &#8220;Goldilocks&#82
 is also highly innovative and takes a different approach that is not
 based on vector clocks.
 
-\
+
 
 * * * * *
 
-\
+
 
 ### Nominated June 2009:
 
-Title: [The Theory of Deadlock Avoidance via Discrete
-Control](http://portal.acm.org/citation.cfm?id=1480881.1480913)\
- Authors: Yin Wang, Stephanie Lafortune, Terence Kelly, Manjunath
-Kudlur, and Scott Mahlke\
- Venue: POPL 2009
+***Title:*** [The Theory of Deadlock Avoidance via Discrete
+Control](http://portal.acm.org/citation.cfm?id=1480881.1480913)  
+***Authors:*** Yin Wang, Stephanie Lafortune, Terence Kelly, Manjunath
+Kudlur, and Scott Mahlke  
+***Venue:*** POPL 2009
 
 Nomination Statement: Deadlock is a difficult problem for the average
 programmer who must now confront multicore hardware. The Gadara project
@@ -796,12 +791,12 @@ works as advertised, with very tolerable performance overhead. This
 approach potentially makes a significant contribution to enhancing the
 programmability of multicore processors for the mainstream.
 
-\
 
-Title: [Generic Discrimination: Sorting and Partitioning Unshared Data
-in Linear Time](http://portal.acm.org/citation.cfm?id=1411220)\
- Author: Fritz Henglein\
- Venue: ICFP 2008
+
+***Title:*** [Generic Discrimination: Sorting and Partitioning Unshared Data
+in Linear Time](http://portal.acm.org/citation.cfm?id=1411220)  
+***Author:*** Fritz Henglein  
+***Venue:*** ICFP 2008
 
 Nomination Statement: Everyone knows that sorting a collection of *n*
 elements requires a number of comparisons proportional to *n* log *n*.
@@ -826,18 +821,18 @@ type classes, are well suited for supporting defining functions based on
 type structure. The paper is a joy to read.
 ([Addendum](Newsletters/CACM/Papers/Addendums))
 
-\
+
 
 * * * * *
 
-\
+
 
 ### Nominated January 2009:
 
-Title: [Goldilocks: A Race and Transaction-Aware Java
-Runtime](http://portal.acm.org/citation.cfm?id=1250762)\
- Authors: Tayfun Elmas, Shaz Qadeer, and Serdar Tasiran\
- Venue: PLDI 2007
+***Title:*** [Goldilocks: A Race and Transaction-Aware Java
+Runtime](http://portal.acm.org/citation.cfm?id=1250762)  
+***Authors:*** Tayfun Elmas, Shaz Qadeer, and Serdar Tasiran  
+***Venue:*** PLDI 2007
 
 ![CACM Cover November
 2010](http://drupal.sigplan.org/sites/default/files/CACM-Nov2010.jpg)**Published
@@ -876,12 +871,12 @@ paper is a great first step toward something that might actually result
 in a major advance in shared memory parallel programming, whether it
 uses transactional memory, or continues to be based on locks.
 
-\
 
-Title: [Sound, Complete and Scalable Path-Sensitive
-Analysis](http://portal.acm.org/citation.cfm?id=1379022.1375615)\
- Author: Isil Dillig, Thomas Dillig, and Alex Aiken\
- Venue: PLDI 2008
+
+***Title:*** [Sound, Complete and Scalable Path-Sensitive
+Analysis](http://portal.acm.org/citation.cfm?id=1379022.1375615)  
+***Author:*** Isil Dillig, Thomas Dillig, and Alex Aiken  
+***Venue:*** PLDI 2008
 
 ![](http://drupal.sigplan.org/sites/default/files/CACM-August2010.jpg)**Published
 as a CACM Research Highlight (August 2010). Retitled as: Reasoning About
@@ -926,23 +921,22 @@ examples such as the queryUser() example discussed in Section 1. This
 paper is also a good illustration of how far approaches such as
 constraint systems have progressed for program analysis tools.
 
-\
+
 
 * * * * *
 
-\
+
 
 ### Nominated September 2008:
 
-Title: [Formal Certification of a Compiler Back-end or: Programming a
-Compiler with a Proof
-Assistant](http://portal.acm.org/citation.cfm?id=1111320.1111042)\
- Author: Xavier Leroy\
- Venue: POPL 2006
+***Title:*** [Formal Certification of a Compiler Back-end or: Programming a
+Compiler with a Proof Assistant](http://portal.acm.org/citation.cfm?id=1111320.1111042)  
+***Author:*** Xavier Leroy  
+***Venue:*** POPL 2006
 
 ![](http://drupal.sigplan.org/sites/default/files/CACM-July2009.jpg)**Published
 as a CACM Research Highlight (July 2009). Retitled as: Formal
-Verification of a Realistic Compiler**\
+Verification of a Realistic Compiler**
 
 Nomination Statement: In 2003, JACM published Tony Hoare's grand
 challenge paper on The Verifying Compiler. A verifying compiler
@@ -962,12 +956,12 @@ program will hold for the executable code as well. We believe many
 researchers and practitioners will be interested in a glimpse of the
 progress on verifying software we all depend on.
 
-\
 
-Title: [The Next 700 Data Description
-Languages](http://doi.acm.org/10.1145/1111037.1111039)\
- Authors: Kathleen Fisher, Yitzhak Mandelbaum, and David Walker\
- Venue: POPL 2006
+
+***Title:*** [The Next 700 Data Description
+Languages](http://doi.acm.org/10.1145/1111037.1111039)  
+***Authors:*** Kathleen Fisher, Yitzhak Mandelbaum, and David Walker  
+***Venue:*** POPL 2006
 
 Nomination Statement: Network administrators, financial analysts,
 scientists, and many others represent data in a myriad of ad hoc formats
@@ -989,12 +983,12 @@ believe many researchers and practitioners will be interested in
 catching up with what programming language technology can offer for
 solving common real-world problems related to ad hoc data.
 
-\
 
-Title: [Scalable Synchronous
-Queues](http://doi.acm.org/10.1145/1506409.1506431)\
- Authors: William N. Scherer III, Doug Lea, and Michael L. Scott\
- VENUE: PPoPP 2006
+
+***Title:*** [Scalable Synchronous
+Queues](http://doi.acm.org/10.1145/1506409.1506431)  
+***Authors:*** William N. Scherer III, Doug Lea, and Michael L. Scott  
+***Venue:*** PPoPP 2006
 
 ![](http://drupal.sigplan.org/sites/default/files/CACM-May2009.jpg)**Published
 as a CACM Research Highlight (May 2009)**
@@ -1016,13 +1010,13 @@ of algorithmic problems most of them will be familiar with. We have
 confidence that the authors will be able to retarget the paper at a much
 broader audience than that targeted by the current paper.
 
-\
 
-Title: [Java Takes Flight: Time-portable Real-time Programming with
-Exotasks](http://doi.acm.org/10.1145/1273444.1254775)\
- Authors: Joshua Auerbach, David F. Bacon, Daniel T. Iercan, Christoph
-M. Kirsch, V. T. Rajan, Harald Roeck and Rainer Trummer\
- Venue: LCTES 2007
+
+***Title:*** [Java Takes Flight: Time-portable Real-time Programming with
+Exotasks](http://doi.acm.org/10.1145/1273444.1254775)  
+***Authors:*** Joshua Auerbach, David F. Bacon, Daniel T. Iercan, Christoph
+M. Kirsch, V. T. Rajan, Harald Roeck and Rainer Trummer  
+***Venue:*** LCTES 2007
 
 Nomination Statement: Java and real-time are terms that aren't often
 used together. This paper changes that. Real-time systems programming
@@ -1040,13 +1034,13 @@ interesting application demonstration complete with photographs. The
 work is conducted within the broader context of IBM's effort to
 establish a common Java-based real time programming environment.
 
-\
 
-Title: [Fault-Tolerant Typed Assembly
-Language](http://doi.acm.org/10.1145/1273442.1250741)\
- Authors: Frances Perry, Lester Mackey, George A. Reis, Jay Ligattii,
-David I. August, and David Walker\
- Venue: PLDI 2007
+
+***Title:*** [Fault-Tolerant Typed Assembly
+Language](http://doi.acm.org/10.1145/1273442.1250741)  
+***Authors:*** Frances Perry, Lester Mackey, George A. Reis, Jay Ligattii,
+David I. August, and David Walker  
+***Venue:*** PLDI 2007
 
 Nomination Statement: This paper was one of two best papers from PLDI
 2007. It spans the areas of fault-tolerant computing, type systems, and
@@ -1079,19 +1073,19 @@ folks who equate compilers with the Dragon book and haven't been keeping
 up with the latest research in compiler technology such as the fault
 tolerance application studied in this paper.
 
-\
+
 
 * * * * *
 
-\
+
 
 ### Nominated January 2008:
 
-Title: [Dynamic Multigrained Parallelization on the Cell Broadband
-Engine](http://doi.acm.org/10.1145/1229428.1229445)\
- Authors: Filip Blagojevic, Dimitris S. Nikolopoulos, Alexandros
-Stamatakis, and Christos D. Antonopoulos\
- Venue: PPoPP 2007
+***Title:*** [Dynamic Multigrained Parallelization on the Cell Broadband
+Engine](http://doi.acm.org/10.1145/1229428.1229445)  
+***Authors:*** Filip Blagojevic, Dimitris S. Nikolopoulos, Alexandros
+Stamatakis, and Christos D. Antonopoulos  
+***Venue:*** PPoPP 2007
 
 Nomination Statement: With the advent of multicores, parallel
 programming is again one of the most important issues in computer
@@ -1113,91 +1107,88 @@ Note: This paper was nominated by an ad hoc SIGPLAN Committee prior to
 the creation of the SIGPLAN CACM Research Highlights Nominating
 Committee.
 
-\
+
 
 * * * * *
 
-\
+
 
 ### SIGPLAN papers that have also appeared as CACM Research Highlights:
 
-Title: [Wake Up and Smell the Coffee: Evaluation Methodology for the
-21st Century](http://dl.acm.org/citation.cfm?id=1378723)\
- Authors: Stephen M. Blackburn, Kathryn S. McKinley, Robin Garner, Chris
+***Title:*** [Wake Up and Smell the Coffee: Evaluation Methodology for the
+21st Century](http://dl.acm.org/citation.cfm?id=1378723)  
+***Authors:*** Stephen M. Blackburn, Kathryn S. McKinley, Robin Garner, Chris
 Hoffmann, Asjad M. Khan, Rotem Bentzur, Amer Diwan, Daniel Feinberg,
 Daniel Frampton, Samuel Z. Guyer, Martin Hirzel, Antony Hosking, Maria
-Jump, Han Lee, J. Eliot B. Moss, Aashish Phansalkar \
- Venue: OOPSLA 2006.
+Jump, Han Lee, J. Eliot B. Moss, Aashish Phansalkar  
+***Venue:*** OOPSLA 2006.
 
 ![CACM Cover August
 2008](http://drupal.sigplan.org/sites/default/files/CACM-Aug2008.jpg)**Published
 as a CACM Research Highlight (August 2008).**
 
-\
 
-Title: [Composable Memory
-Transactions](http://dl.acm.org/citation.cfm?id=1378725)\
- Authors: Tim Harris, Simon Marlow, Simon Peyton-Jones, Maurice Herlihy
-\
- Venue: PPoPP 2005.
+
+***Title:*** [Composable Memory
+Transactions](http://dl.acm.org/citation.cfm?id=1378725)  
+***Authors:*** Tim Harris, Simon Marlow, Simon Peyton-Jones, Maurice Herlihy  
+***Venue:*** PPoPP 2005.
 
 ![CACM Cover August
 2008](http://drupal.sigplan.org/sites/default/files/CACM-Aug2008.jpg)**Published
 as a CACM Research Highlight (August 2008).**
 
-\
 
-Title: [Exterminator: Automatically Correcting Memory Errors with High
-Probability](http://dl.acm.org/citation.cfm?id=1409382)\
- Authors: Gene Novark, Emery D. Berger, Benjamin G. Zorn \
- Venue: PLDI 2007.
+
+***Title:*** [Exterminator: Automatically Correcting Memory Errors with High
+Probability](http://dl.acm.org/citation.cfm?id=1409382)  
+***Authors:*** Gene Novark, Emery D. Berger, Benjamin G. Zorn  
+***Venue:*** PLDI 2007.
 
 ![CACM Cover December
 2008](http://drupal.sigplan.org/sites/default/files/dec-2008.jpg)**Published
 as a CACM Research Highlight (December 2008).**
 
-\
 
-Title: [Optimistic Parallelism Requires
-Abstractions](http://dl.acm.org/citation.cfm?doid=1562164.1562188)\
- Authors: Milind Kulkarni, Keshav Pingali, Bruce Walter, Ganesh
-Ramanarayanan, Kavita Bala, L. Paul Chew \
- Venue: PLDI 2007.
+
+***Title:*** [Optimistic Parallelism Requires
+Abstractions](http://dl.acm.org/citation.cfm?doid=1562164.1562188)  
+***Authors:*** Milind Kulkarni, Keshav Pingali, Bruce Walter, Ganesh
+Ramanarayanan, Kavita Bala, L. Paul Chew  
+***Venue:*** PLDI 2007.
 
 ![CACM Cover September
 2009](http://www.sigplan.org/sites/default/files/sep-2009_0.jpg)**Published
 as a CACM Research Highlight (September 2009).**
 
-\
 
-Title: [x86-TSO: A Rigorous and Usable Programmer's Model for x86
-Multiprocessors](http://dx.doi.org/10.1145/1785414.1785443)\
- Authors: Peter Sewell, Susmit Sarkar, Scott Owens, Francesco Zappa
-Nardelli, Magnus O. Myreen\
- Venue: POPL 2009 and TPHOLs 2009.
+
+***Title:*** [x86-TSO: A Rigorous and Usable Programmer's Model for x86
+Multiprocessors](http://dx.doi.org/10.1145/1785414.1785443)  
+***Authors:*** Peter Sewell, Susmit Sarkar, Scott Owens, Francesco Zappa
+Nardelli, Magnus O. Myreen  
+***Venue:*** POPL 2009 and TPHOLs 2009.
 
 ![CACM Cover July
 2010](http://drupal.sigplan.org/sites/default/files/CACM-Jul2010.jpg)**Published
 as a CACM Research Highlight (July 2010).**
 
-\
 
-Title: [Abstracting Abstract Machines: A Systematic Approach to
-Higher-Order Program
-Analysis](http://dx.doi.org/10.1145/1995376.1995400)\
- Authors: David Van Horn, Matthew Might\
- Venue: ICFP 2010.
+
+***Title:*** [Abstracting Abstract Machines: A Systematic Approach to
+Higher-Order Program Analysis](http://dx.doi.org/10.1145/1995376.1995400)  
+***Authors:*** David Van Horn, Matthew Might  
+***Venue:*** ICFP 2010.
 
 ![CACM Cover September
 2011](http://drupal.sigplan.org/sites/default/files/CACM-Sep2011.jpg)**Published
 as a CACM Research Highlight (September 2011).**
 
-\
 
-Title: [Continuity and Robustness of
-Programs](http://dl.acm.org/citation.cfm?id=2240262)\
- Authors: Swarat Chaudhuri, Sumit Gulwani, Roberto Lublinerman\
- Venue: POPL 2010.
+
+***Title:*** [Continuity and Robustness of Programs](http://dl.acm.org/citation.cfm?id=2240262)  
+***Authors:*** Swarat Chaudhuri, Sumit Gulwani, Roberto Lublinerman  
+***Venue:*** POPL 2010.
 
 ![CACM Cover August
 2012](http://drupal.sigplan.org/sites/default/files/aug-2012.jpg)**Published
