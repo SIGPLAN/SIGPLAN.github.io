@@ -5,6 +5,7 @@ title: "Generative Programming: Concepts and Experiences (GPCE)"
 As the commercial production of software systems moves towards being a traditional industry, automation will necessarily play a more substantial role in this industry, just as it plays a key role in the production of traditional commodities such as garments, automobiles, chemicals, and electronics. GPCE is a conference promoting the application and innovation of foundational techniques for supporting automatic program generation.
 
 **GPCE Fast Facts**  
+
 > [GPCE 2013](http://program-transformation.org/GPCE13/WebHome)  
 > Location: Indianapolis, USA  
 > General Chair: [Jaakko J&auml;rvi](https://parasol.tamu.edu/~jarvi/), Texas A&amp;M University, USA  
@@ -12,18 +13,18 @@ As the commercial production of software systems moves towards being a tradition
 > Dates: October 27-28, 2013 
 
 **Other GPCE Information**  
-> Steering Committee:
-> 
-> - [Bernd Fischer](http://www.ecs.soton.ac.uk/people/bf)
-> - [Ewen Denney](http://ti.arc.nasa.gov/profile/edenney/)
-> - [Jaakko J&auml;rvi](http://parasol.tamu.edu/~jarvi/)
-> - [Jeremy Siek](http://ece.colorado.edu/~siek/)
-> - [Julia Lawall](http://www.diku.dk/users/julia/)
-> - [Ulrik Pagh Schultz](http://websrv0a.sdu.dk/ups/)
-> - [Eelco Visser](http://eelcovisser.org) (chair)
+Steering Committee:
+ 
+- [Bernd Fischer](http://www.ecs.soton.ac.uk/people/bf)
+- [Ewen Denney](http://ti.arc.nasa.gov/profile/edenney/)
+- [Jaakko J&auml;rvi](http://parasol.tamu.edu/~jarvi/)
+- [Jeremy Siek](http://ece.colorado.edu/~siek/)
+- [Julia Lawall](http://www.diku.dk/users/julia/)
+- [Ulrik Pagh Schultz](http://websrv0a.sdu.dk/ups/)
+- [Eelco Visser](http://eelcovisser.org) (chair)
 
-> [GPCE Bylaws](http://program-transformation.org/Gpce/GpceBylaws)  
-> [Main GPCE webpage](http://program-transformation.org/Gpce)
+[GPCE Bylaws](http://program-transformation.org/Gpce/GpceBylaws)  
+[Main GPCE webpage](http://program-transformation.org/Gpce)
 
 **Web Pages of Previous Conferences**  
 

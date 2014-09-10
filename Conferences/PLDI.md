@@ -8,6 +8,7 @@ students to present research on programming language design and
 implementation.   
 
 **PLDI Fast Facts**
+
 > [PLDI 2014 Web Page](http://conferences.inf.ed.ac.uk/pldi2014/)  
 > Location: Edinburgh, UK  
 > General Chair: [Michael O'Boyle](http://www.dcs.ed.ac.uk/home/mob/),
@@ -81,23 +82,24 @@ The current PLDI steering committee is:
 
 
 **Web Pages of Previous Conferences**  
-> [PLDI 2013](http://pldi2013.ucombinator.org/)  (Seattle, WA)  
-> [PLDI 2012](http://pldi12.cs.purdue.edu/)  (Beijing, China)   
-> [PLDI 2011](http://pldi11.cs.utah.edu/) (San Jose, CA)  
-> [PLDI 2010](http://cs.stanford.edu/pldi10/) (Toronto, Ontario)  
-> [PLDI 2009](http://www-plan.cs.colorado.edu/~pldi09/) (Dublin, Ireland)  
-> [PLDI 2008](http://pldi2008.cs.ucr.edu/) (Tucson, AZ)  
-> [PLDI 2007](http://ties.ucsd.edu/PLDI/) (San Diego, CA)  
-> [PLDI 2006](http://research.microsoft.com/conferences/pldi06/) (Ottawa, Canada)  
-> [PLDI 2005](http://www.research.ibm.com/pldi2005/) (Chicago, IL)  
-> [PLDI 2004](http://www.cs.umd.edu/~pugh/pldi04/) (Washington, DC)  
-> [PLDI 2003](http://www.cs.arizona.edu/PLDI2003/) (San Diego, CA)  
-> [PLDI 2002](http://sunshine.cs.uni-dortmund.de/~knoop/PLDI2002/pldi2002_main.html) (Berlin, Germany)  
-> [PLDI 2001](pldi/pldi2001/pldi2001.htm) (Snowbird, UT)   
-> [PLDI 2000](http://www.research.microsoft.com/~larus/pldi2000/pldi2000.htm) (Vancouver, BC)   
-> [PLDI 1999](http://www.cs.rutgers.edu/pldi99/) (Atlanta, GA)   
-> [PLDI 1998](pldi/pldi1998/index.htm) (Montreal, Canada)   
-> [PLDI 1997](http://www.cs.bu.edu/pub/pldi97/) (Las Vegas, Nevada)  
+
+- [PLDI 2013](http://pldi2013.ucombinator.org/)  (Seattle, WA)  
+- [PLDI 2012](http://pldi12.cs.purdue.edu/)  (Beijing, China)   
+- [PLDI 2011](http://pldi11.cs.utah.edu/) (San Jose, CA)  
+- [PLDI 2010](http://cs.stanford.edu/pldi10/) (Toronto, Ontario)  
+- [PLDI 2009](http://www-plan.cs.colorado.edu/~pldi09/) (Dublin, Ireland)  
+- [PLDI 2008](http://pldi2008.cs.ucr.edu/) (Tucson, AZ)  
+- [PLDI 2007](http://ties.ucsd.edu/PLDI/) (San Diego, CA)  
+- [PLDI 2006](http://research.microsoft.com/conferences/pldi06/) (Ottawa, Canada)  
+- [PLDI 2005](http://www.research.ibm.com/pldi2005/) (Chicago, IL)  
+- [PLDI 2004](http://www.cs.umd.edu/~pugh/pldi04/) (Washington, DC)  
+- [PLDI 2003](http://www.cs.arizona.edu/PLDI2003/) (San Diego, CA)  
+- [PLDI 2002](http://sunshine.cs.uni-dortmund.de/~knoop/PLDI2002/pldi2002_main.html) (Berlin, Germany)  
+- [PLDI 2001](pldi/pldi2001/pldi2001.htm) (Snowbird, UT)   
+- [PLDI 2000](http://www.research.microsoft.com/~larus/pldi2000/pldi2000.htm) (Vancouver, BC)   
+- [PLDI 1999](http://www.cs.rutgers.edu/pldi99/) (Atlanta, GA)   
+- [PLDI 1998](pldi/pldi1998/index.htm) (Montreal, Canada)   
+- [PLDI 1997](http://www.cs.bu.edu/pub/pldi97/) (Las Vegas, Nevada)  
 
 **20 Years of PLDI (1979-1999)**  
 Click [here](http://www.cs.utexas.edu/users/mckinley/20-years.html)

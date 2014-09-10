@@ -7,10 +7,12 @@ The purpose of this mentoring workshop is to encourage graduate students (PhD an
 We especially encourage women and underrepresented minority students to attend PLMW. Since this year's workshop will be in Rome, we particularly look forward to seeing Eastern European students at the workshop.
 
 **PLMW Fast Facts**
+
 > [PLMW 2014 Web Page](http://plmw2014.inria.fr/)  
 > Location: San Diego, USA  
 
 
 **Web Pages of Previous Conferences**  
-> [PLMW 2013](http://www.doc.ic.ac.uk/~gds/PLMW/) (Rome, Italy)  
-> [PLMW 2012](http://www.seas.upenn.edu/~sweirich/plmw12/) (Philadelphia, PA)  
+
+- [PLMW 2013](http://www.doc.ic.ac.uk/~gds/PLMW/) (Rome, Italy)  
+- [PLMW 2012](http://www.seas.upenn.edu/~sweirich/plmw12/) (Philadelphia, PA)  

@@ -9,6 +9,7 @@ latest work on the design, implementations, principles, and uses of
 functional programming.  
 
 **ICFP Fast Facts**
+
 > [ICFP 2013 Web Page](http://icfpconference.org/icfp2013/)  
 > Location: Boston, Massachusetts  
 > General Chair: Greg Morrisett  

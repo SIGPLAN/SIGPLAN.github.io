@@ -9,8 +9,8 @@ operating systems, and empirical studies of programs' memory
 allocation and referencing behavior.   
 
 **ISMM Fast Facts**  
-> [ISSM 2014 Web Page](http://ismm2014.cs.tufts.edu/)  
->   
+
+> [ISSM 2014 Web Page](http://ismm2014.cs.tufts.edu/)     
 > Location: Edinburgh, UK   
 > General Chair:
 > [David Grove](http://researcher.ibm.com/view.php?person=us-groved), Watson Research Center, IBM  
@@ -19,16 +19,16 @@ allocation and referencing behavior.
 > Dates: TBD  
 
 **Other ISMM Information**  
-> Steering Committee
-> 
-> -   [David Bacon](http://www.research.ibm.com/people/d/dfb/)
-> -   [Hans J. Boehm](http://www.hpl.hp.com/personal/Hans_Boehm)
-> -   Perry Cheng
-> -   [Doug Lea](http://g.oswego.edu/)
-> -   [Kathryn S. McKinley](http://www.cs.utexas.edu/~mckinley/)
-> -   Erez Petrank
-> -   [Martin Vechev](https://researcher.ibm.com/researcher/view.php?person=us-mtvechev), Chair
-> -   [Jan Vitek](http://www.cs.purdue.edu/people/faculty/jv/)
+Steering Committee
+ 
+-   [David Bacon](http://www.research.ibm.com/people/d/dfb/)
+-   [Hans J. Boehm](http://www.hpl.hp.com/personal/Hans_Boehm)
+-   Perry Cheng
+-   [Doug Lea](http://g.oswego.edu/)
+-   [Kathryn S. McKinley](http://www.cs.utexas.edu/~mckinley/)
+-   Erez Petrank
+-   [Martin Vechev](https://researcher.ibm.com/researcher/view.php?person=us-mtvechev), Chair
+-   [Jan Vitek](http://www.cs.purdue.edu/people/faculty/jv/)
 
 [ISMM Steering Committee Rules](http://www.cs.kent.ac.uk/people/staff/rej/ismm/scrules.html)
 

@@ -1,5 +1,5 @@
 ---
-layout: default-2up
+layout: default
 title: "Principles of Programming Languages (POPL)"
 ---
 Principles of Programming Languages symposium addresses fundamental
@@ -10,6 +10,7 @@ systems, and programming interfaces. POPL is in-cooperation with
 
 
 **POPL Fast Facts**
+
 > [POPL 2014 Web Page](http://popl.mpi-sws.org/2014/)  
 > Location: San Diego, USA  
 > General Chair: [Suresh Jagannathan](http://www.cs.purdue.edu/homes/suresh/)  
