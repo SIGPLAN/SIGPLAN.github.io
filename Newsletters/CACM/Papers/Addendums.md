@@ -4,10 +4,10 @@ title: "Addendums for CACM Nominations"
 ---
 ### Addendum for 2009 Nomination
 
-Title: [Generic Discrimination: Sorting and Partitioning Unshared Data
-in Linear Time](http://portal.acm.org/citation.cfm?id=1411220)\
- Author: Fritz Henglein\
- Venue: ICFP 2008
+***Title:*** [Generic Discrimination: Sorting and Partitioning Unshared Data
+in Linear Time](http://portal.acm.org/citation.cfm?id=1411220)  
+***Author:*** Fritz Henglein  
+***Venue:*** ICFP 2008
 
 Some readers may be confused by a line in the abstract and by some of
 the material in Section 8.1. Clarifications for these appear below. The
