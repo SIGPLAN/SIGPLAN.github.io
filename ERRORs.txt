@@ -1,0 +1,225 @@
+dhcp231:SIGPLAN.github.io andy$ check-links 'http://sigplan-pages.sigplan.hosting.acm.org'
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Highlights
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Membership
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources
+Problem: http://sigplan-pages.sigplan.hosting.acm.org/
+   Link: http://mt4.acm.org/educationboard
+     Response: #<Net::HTTPNotFound:0x0000010234b720>
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/OMP.html
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Newsletters
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/AnnualReports.html
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/Student.html
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards/
+   Warning: http://fellows.acm.org/
+     Redirected to: http://awards.acm.org/fellow/
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/Sponsors.html
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards/Vlissides.html
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards/Milner.html
+   Warning: http://awards.sigplan.org/
+     Redirected to: https://awards.sigplan.org/
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards/Disseration.html
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/PAC.html
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards/Service.html
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/authorInformation
+Problem: http://sigplan-pages.sigplan.hosting.acm.org/Membership/
+   Link: https://campus.acm.org/public/gensigqj/gensigqj_control.cfm?promo=QJSIG&offering=023&form_type=SIG
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: https://campus.acm.org/public/gensigqj/gensigqj_control.cfm?promo=QJSIG&offering=423&form_type=SIG
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/Guidelines/SCommittee
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/Guidelines/GenChair
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards/ACMFellows.html
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/Guidelines/ProChair
+Problem: http://sigplan-pages.sigplan.hosting.acm.org/Resources/
+   Link: http://anubis.dkuug.dk/JTC1/SC22/
+     Response: getaddrinfo: nodename nor servname provided, or not known
+   Link: http://www.cs.iastate.edu/~leavens/teaching-prog-lang/home.html
+     Response: #<Net::HTTPNotFound:0x0000010245c100>
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/Proposals/Sponsored
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/Proposals/Cooperated
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/Guidelines/Workshops
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/review_policies.htm%20
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/Policies/Diversity
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/Policies/Republication
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards/Software.html
+   Warning: http://awards.sigplan.org/
+     Redirected to: https://awards.sigplan.org/
+   Warning: http://www.haskell.org
+     Redirected to: http://www.haskell.org/haskellwiki/Haskell
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/Database
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/Policies/Anti-harassment
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/ASPLOS/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/ISMM/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/PLDI/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/vee.htm
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/
+   Warning: http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN
+     Redirected to: http://campus.acm.org/calendar/Index.cfm
+   Warning: http://www.acm.org/sigs/sigarch/
+     Redirected to: http://www.sigarch.org/
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/POPL/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/OOPSLA/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/LCTES/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/SPLASH/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/ICFP/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/PPOPP/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/PLMW/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/Onward/Main
+Problem: http://sigplan-pages.sigplan.hosting.acm.org/Awards/POPL.html
+   Link: http://dl.acm.org/citation.cfm?id=1065892
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://dl.acm.org/citation.cfm?id=604155&CFID=186511822&CFTOKEN=35702610
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/292540.292561
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/325694.325742
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/199448.199516
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/263699.263712
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/174675.177855
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/158511.158524
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/268946.268954
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/237721.237727
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://dx.doi.org/10.1145/360204.375719
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/DLS/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/GPCE/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/index
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Publications
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/Conferences/OOPSLA/Main
+Problem: http://sigplan-pages.sigplan.hosting.acm.org/Awards/PLDI.html
+   Link: http://dl.acm.org/citation.cfm?doid=512529.512558
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://portal.acm.org/citation.cfm?id=93550&coll=portal&dl=ACM&CFID=1260981&CFTOKEN=84971644
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://portal.acm.org/citation.cfm?doid=155090.155109
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://portal.acm.org/citation.cfm?id=113449&coll=portal&dl=ACM&CFID=1250278&CFTOKEN=93017092
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/349299.349303
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/277652.277725
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/207110.207119
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/258915.258924
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/301618.301661
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/231379.231414
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/178243.178260
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/183432.183443
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/378795.378846
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/Conferences/POPL/Main
+Problem: http://sigplan-pages.sigplan.hosting.acm.org/ContactUs.html
+   Link: http://mt4.acm.org/educationboard
+     Response: #<Net::HTTPNotFound:0x000001020c5938>
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/Conferences/PPOPP/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/Conferences/PLDI/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards/Awards/Service/Main
+Problem: http://sigplan-pages.sigplan.hosting.acm.org/Awards/OOPSLA.html
+   Link: http://doi.acm.org/10.1145/38765.38828
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/286936.286947
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/263698.264352
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/165854.165932
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/353171.353175
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/320384.320418
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/38765.38821
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards/Awards/Achievement/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/Conferences/LCTES/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards/Awards/Milner/Main
+Problem: http://sigplan-pages.sigplan.hosting.acm.org/Awards/ICFP.html
+   Link: http://dl.acm.org/citation.cfm?doid=507635.507644
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/351240.351266
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/317636.317794
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/232627.232639
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: http://doi.acm.org/10.1145/258948.258973
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards/Awards/Software/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards/Awards/Dissertation/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards/Awards/Conferences/PLDI/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards/Awards/Conferences/ICFP/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards/Awards/Conferences/OOPSLA/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards/Awards/Conferences/POPL/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/Resources/Membership
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards/Awards/ACMFellows
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards/Awards/Vlissides/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/PAC/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/Resources/Proposals/Sponsorship
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Resources/Conferences/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/Resources/Proposals/Cooperated
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/Conferences/PLDI/Main
+Problem: http://sigplan-pages.sigplan.hosting.acm.org/index.html
+   Link: http://mt4.acm.org/educationboard
+     Response: #<Net::HTTPNotFound:0x000001022f1068>
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Newsletters/
+   Warning: http://portal.acm.org/browse_dl.cfm?idx=J706
+     Redirected to: http://dl.acm.org/browse_dl.cfm
+   Warning: http://www.acm.org/about_acm/acmorg.html
+     Redirected to: http://www.acm.org/about
+   Warning: http://store.acm.org/acmstore/itempg.icl?dirpage=dir&itmid=3873&eflag=0&curitempos=0&numitems=1&secid=32&eflag=0&orderidentifier=icat_orderid
+     Redirected to: https://campus.acm.org/public/qj/estore_window/estore_foyer2.cfm
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/Resources/Events/Cooperated
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards/
+   Warning: http://fellows.acm.org/
+     Redirected to: http://awards.acm.org/fellow/
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/Conferences/POPL/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/Conferences/OOPSLA/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/Conferences/ICFP/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/Conferences/LCTES/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/Conferences/ASPLOS/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/Conferences/VEE/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/Conferences/ISMM/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/Conferences/Onward/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/Conferences/PPOPP/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/Conferences/PLMW/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Newsletters/Resources/Membership
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/Conferences/DLS/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Awards/Conferences/PLDI/Main
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/PAC.html?q=Conferences/Main
+Problem: http://sigplan-pages.sigplan.hosting.acm.org/Membership/
+   Link: https://campus.acm.org/public/gensigqj/gensigqj_control.cfm?promo=QJSIG&offering=023&form_type=SIG
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+   Link: https://campus.acm.org/public/gensigqj/gensigqj_control.cfm?promo=QJSIG&offering=423&form_type=SIG
+     Response: the scheme http does not accept registry part: :80 (or bad hostname?)
+Problem: http://sigplan-pages.sigplan.hosting.acm.org/Resources/
+   Link: http://anubis.dkuug.dk/JTC1/SC22/
+     Response: getaddrinfo: nodename nor servname provided, or not known
+   Link: http://www.cs.iastate.edu/~leavens/teaching-prog-lang/home.html
+     Response: #<Net::HTTPNotFound:0x000001030aae20>
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Newsletters/
+   Warning: http://portal.acm.org/browse_dl.cfm?idx=J706
+     Redirected to: http://dl.acm.org/browse_dl.cfm
+   Warning: http://www.acm.org/about_acm/acmorg.html
+     Redirected to: http://www.acm.org/about
+   Warning: http://store.acm.org/acmstore/itempg.icl?dirpage=dir&itmid=3873&eflag=0&curitempos=0&numitems=1&secid=32&eflag=0&orderidentifier=icat_orderid
+     Redirected to: https://campus.acm.org/public/qj/estore_window/estore_foyer2.cfm
+Checked: http://sigplan-pages.sigplan.hosting.acm.org/Conferences/
+   Warning: http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN
+     Redirected to: http://campus.acm.org/calendar/Index.cfm
+   Warning: http://www.acm.org/sigs/sigarch/
+     Redirected to: http://www.sigarch.org/
+Checked 171 links in 99 HTML files and found 47 errors.
