@@ -10,8 +10,8 @@ the advice on this page may already be familiar to you. Nevertheless,
 even experienced chairs sometimes forget some important points, so
 please at least skim this page, paying particular attention to the following:
 
-- SIGPLAN's [conference submission review policy](Resources/Policies/Review) 
-- SIGPLAN's [diversity policy](Resources/Policies/Diversity)
+- SIGPLAN's [conference submission review policy](/Resources/Policies/Review) 
+- SIGPLAN's [diversity policy](/Resources/Policies/Diversity)
 - for a SIGPLAN-sponsored event, seek approval for the Programme Committee from the SIGPLAN Vice-Chair, *before* sending invitations
 - consult with the conference Steering Committee before diverging from any existing conventions
 - make explicit in the Call for Papers that authors of accepted submissions are expected to transfer the copyright to the ACM
@@ -28,7 +28,7 @@ of impropriety.
 
 Make all Programme
 Committee members and reviewers aware of SIGPLAN's policies on
-[reviewing of conference paper submissions](Resources/Policies/Review)
+[reviewing of conference paper submissions](/Resources/Policies/Review)
 and on
 [plagiarism](http://www.acm.org/pubs/plagiarismpolicy.html).  
 
@@ -59,7 +59,7 @@ Programme Committee
 
 With help from the General Chair, develop a list of potential
 Programme Committee members. In formulating this list, be mindful
-of [SIGPLAN's diversity policy](Resources/Policies/Diversity).
+of [SIGPLAN's diversity policy](/Resources/Policies/Diversity).
 Expect some people to decline
 the invitation, so have a list of alternates. 
 
@@ -68,7 +68,7 @@ Chair for their comments and approval (one year prior to the meeting).
 Make arrangements for the Programme Committee meeting: place, if
 physical, and time.  After SIGPLAN approval of PC members, invite the
 people on the list to serve. Explain what is expected of them,
-and any [policy decisions](Resources/Policies/Review).  Give them the
+and any [policy decisions](/Resources/Policies/Review).  Give them the
 date for the PC meeting.
 
 Call for Papers
@@ -79,7 +79,7 @@ Note that you can produce a preliminary call without listing the
 PC members. Make sure to put the call on the web site for the
 conference (established by the General Chair). The web page
 should refer prospective authors to SIGPLAN's
-[Republication Policy](Resources/Policies/Republication)
+[Republication Policy](/Resources/Policies/Republication)
 and to ACM's
 [Policy and Procedures on Plagiarism](http://www.acm.org/pubs/plagiarism%20policy.html).
 Once the conference web page is in place, establish a link to the page
@@ -96,7 +96,7 @@ material is encouraged, and note the associated copyright policy (see
 
 The conference web page should include information about the various
 benefits offered by the [SIGPLAN Professional Activities
-Committee](PAC/Main) to SIGPLAN members attending SIGPLAN-sponsored
+Committee](/PAC) to SIGPLAN members attending SIGPLAN-sponsored
 conferences. These benefits include travel and lodging assistance for
 student authors and assistance for members who need a companion
 care-provider in order to attend.
@@ -179,7 +179,7 @@ After the PC Meeting
 
 Send acceptance and rejection letters as soon as possible after the PC
 meeting. Authors using LaTeX should be directed to the [template
-developed by SIGPLAN](Resources/Author). This template was designed to
+developed by SIGPLAN](/Resources/Author). This template was designed to
 allow more material in a paper while remaining easy on the eyes
 (typically, a paper that requires 12 pages with the standard ACM
 format requires 11 with the SIGPLAN format, and most readers find the
@@ -240,12 +240,12 @@ As former Programme Chair, you may be invited to serve on the
 conference's Steering Committee. For the steering committee formal
 rules for your particular conference, consult the relevant SIGPLAN
 conference web page. Links to these pages can be be found
-[here](Conferences/Main).  
+[here](/Conferences).  
 
 The programme chairs of the major SIGPLAN conferences, POPL, PLDI,
 OOPSLA, and ICFP, are automatically on the selection committee for
 the following year's
-[SIGPLAN Programming Languages Achievement Award](Awards/Achievement/Main).  
+[SIGPLAN Programming Languages Achievement Award](/Awards/Achievement).  
 
 Auxiliary Material
 ------------------

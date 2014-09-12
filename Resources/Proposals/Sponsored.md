@@ -19,7 +19,7 @@ primary difference between the two is that SIGPLAN takes financial
 responsibility for the events it sponsors, and accordingly requires 
 a close working relationship with the organizers of the event. This page
 describes sponsored status; a separate page describes
-[in-cooperation status](http://www.sigplan.org/Resources/Proposals/Cooperated).  
+[in-cooperation status](/Resources/Proposals/Cooperated).  
 
 Benefits
 --------
@@ -29,7 +29,7 @@ Sponsored status provides a number of benefits:
 - You can use the name "The ACM SIGPLAN Conference/Workshop on ..." for
   the event.
 - SIGPLAN takes financial responsibility for the event.
-- You have access to the [PAC Fund](http://www.sigplan.org/PAC.htm) 
+- You have access to the [PAC Fund](/PAC)
   to support participation in the event.
 - Any proceedings will automatically be published in the Digital Library.
 - ACM can provide help with site selection, including venue negotiations.
@@ -68,18 +68,18 @@ include the following:
   a percentage of conference income is budgeted for ACM services.
 - Critical decisions, such as setting the budget and selecting the
   programme chair and the programme committee, have to be approved by
-  the [SIGPLAN Executive Committee](Resources/ContactUs).
+  the [SIGPLAN Executive Committee](/ContactUs).
 - A final post-event report is required.  
 
 Sponsored events are encouraged to follow
 SIGPLAN policies and procedures, including the following:
 
-- [Diversity Policy](Resources/Policies/Diversity)
-- [Conference Submission Review Policy](Resources/Policies/Review)
-- [Republication Policy](Resources/Policies/Republication)
-- [Guidelines for Steering Committee Formation/Management](Resources/Guidelines/SCommittee)
-- [Guidelines for the General Chair](Resources/Guidelines/GenChair)
-- [Guidelines for the Programme Chair](Resources/Guidelines/ProChair)
+- [Diversity Policy](/Resources/Policies/Diversity)
+- [Conference Submission Review Policy](/Resources/Policies/Review)
+- [Republication Policy](/Resources/Policies/Republication)
+- [Guidelines for Steering Committee Formation/Management](/Resources/Guidelines/SCommittee)
+- [Guidelines for the General Chair](/Resources/Guidelines/GenChair)
+- [Guidelines for the Programme Chair](/Resources/Guidelines/ProChair)
 
 In addition, event organizers are encouraged to contact the ACM
 Headquarters ([incoop@acm.org](mailto:incoop@acm.org)), to have
@@ -105,7 +105,7 @@ Publication
     at least six months in advance.  
 -   Only SIGPLAN-sponsored conferences can have a proceedings
     published as an issue of _SIGPLAN Notices_. A request must be made to the
-    [SIGPLAN Executive Committee](Resources/ContactUs) for this. Note that
+    [SIGPLAN Executive Committee](/ContactUs) for this. Note that
     proceedings can be published by ACM and included in the ACM Digital
     Library without appearing in _SIGPLAN Notices_.
 
@@ -140,7 +140,7 @@ What Happens Next
 -----------------
 
 The request will be considered by the
-[SIGPLAN Executive Committee](Resources/ContactUs). A response to
+[SIGPLAN Executive Committee](/ContactUs). A response to
 the request is usually given within two weeks. The Executive Committee
 can only endorse the request; final approval
 comes from ACM, with the acceptance of the budget submitted with the
@@ -165,7 +165,7 @@ organized by a Steering Committee (SC). The SC, working
 in partnership with the SIGPLAN Executive Committee (EC), is
 responsible for the overall organization and financial plan of each
 instance of the series. SIGPLAN has
-[guidelines for steering committee organization](Resources/Guidelines/SCommittee).  
+[guidelines for steering committee organization](/Resources/Guidelines/SCommittee).  
 
 To obtain ongoing sponsorship, the organizing group should send a
 proposal to the [SIGPLAN Vice Chair](mailto:vc_sigplan@acm.org),
@@ -186,7 +186,7 @@ If an event is granted ongoing sponsored status, then:
 -   the Programme Chair of each event must obtain
     approval for Programme Committee members from the SIGPLAN EC, prior
     to inviting the selected individuals, and the selection must conform to
-    [SIGPLAN's Diversity Policy](Resources/Policies/Diversity);
+    [SIGPLAN's Diversity Policy](/Resources/Policies/Diversity);
 -   the General Chair of each event must provide the SIGPLAN Vice
     Chair with a post-event report;
 -   the Steering Committee must contact the SIGPLAN Vice Chair when

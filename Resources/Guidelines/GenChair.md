@@ -10,8 +10,8 @@ the advice on this page may already be familiar to you. Nevertheless,
 even experienced organizers sometimes forget some important points, so
 please at least skim this page, paying particular attention to the following:
 
-- SIGPLAN's [conference submission review policy](Resources/Policies/Review) 
-- SIGPLAN's [diversity policy](Resources/Policies/Diversity)
+- SIGPLAN's [conference submission review policy](/Resources/Policies/Review) 
+- SIGPLAN's [diversity policy](/Resources/Policies/Diversity)
 - if you plan to request in-cooperation or sponsored status, do so well in advance (twelve or eighteen months, respectively)
 - seek approval for important roles (PC Chair, and for a sponsored event also PC members) from SIGPLAN Vice-Chair, *before* sending invitations
 - consult with the conference Steering Committee before diverging from any existing conventions
@@ -23,8 +23,8 @@ Select potential Programme Chair(s) and send their names to SIGPLAN
 Chair and Vice-Chair for approval. Get approval before asking the
 person to serve (18 months prior to the event). Make sure the
 Programme Chair reviews SIGPLAN's [conference submission review
-policy](Resources/Policies/Review) and [diversity
-policy](Resources/Policies/Diversity).
+policy](/Resources/Policies/Review) and [diversity
+policy](/Resources/Policies/Diversity).
 
 Date and Location
 -----------------
@@ -55,7 +55,7 @@ Approval and Call for Papers
 Develop a timeline, at least eighteen months in advance of the conference date.
 Unless the conference is part of a series which already has approval
 for ongoing sponsorship, submit to the SIGPLAN Vice-Chair a [SIGPLAN
-sponsorship request form](Resources/Proposals/Sponsored) eighteen months
+sponsorship request form](/Resources/Proposals/Sponsored) eighteen months
 before the date of the conference. If you are unsure as to whether you
 need to submit a request form, ask the [SIGPLAN Vice
 Chair](mailto:vc_sigplan@acm.org?subject=SIGPLAN%20Sponsorship).  An
@@ -78,7 +78,7 @@ Financial Support for Students
 ----------------------------------
 
 The Professional Activities Committee of SIGPLAN has been established
-to award [travel grants](PAC/Main) for students to present at
+to award [travel grants](/PAC) for students to present at
 SIGPLAN-sponsored events. Please mention its availability on your web
 page.  PAC also has supported programmes for underrepresented
 groups. If you would like to explore this possibility, please contact
@@ -97,7 +97,7 @@ chair, etc). Send the names to the SIGPLAN Chair and Vice-Chair,
 one year before the event.  Complete the [TMRF budget
 form](http://www.acm.org/sig_volunteer_info/conference_manual/sponstmrfpage.htm).
 The budget must include line items for [contingency and return-to-SIG
-fees](Resources/Guidelines/Budget).
+fees](/Resources/Guidelines/Budget).
 
 Local arrangements (such as registration and hotel management) for the
 main SIGPLAN conferences PLDI, OOPSLA, POPL, and ICFP are usually
@@ -123,7 +123,7 @@ Help the Programme Chair to select the programme committee. The list
 of potential committee members has to be approved by the SIGPLAN Chair
 and Vice-Chair before the members are invited. You and the PC Chair
 should decide on policies for submission and revewing (see
-[Guidelines for Program Committee Chair](Resources/Guidelines/ProChair)).
+[Guidelines for Program Committee Chair](/Resources/Guidelines/ProChair)).
 
 Satellite Events
 ----------------
@@ -135,8 +135,8 @@ should contact chairs of co-located events and plan the common advance
 programme, joint technical sessions, joint social events, etc. You
 should consider workshops on "hot" topics. Have the workshop chairs
 submit a proposal to the SIGPLAN Vice-Chair, as specified in the
-[In-Cooperation](Resources/Proposals/Cooperated) or
-[Sponsorship](Resources/Proposals/Sponsored) 
+[In-Cooperation](/Resources/Proposals/Cooperated) or
+[Sponsorship](/Resources/Proposals/Sponsored) 
 web pages.
 
 Preparing the Programme
