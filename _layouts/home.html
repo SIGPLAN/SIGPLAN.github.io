@@ -30,7 +30,7 @@
           <h3>Awards and Recent Recipients</h3>
 
           {% for award in site.data.Awards %}
-            {% assign path = award[0] | prepend: 'Awards/' | append: '.html' %}
+            {% assign path = award[0] | prepend: 'Awards/' %}
             {% assign name = award[1] %}
             {% assign d = site.data %}
             {% assign i = award[0] %}

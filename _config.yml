@@ -3,3 +3,4 @@ lsi: false
 pygments: true
 exclude: ['Makefile','link-checker-crawled-pages.pstore','ERRORs.txt','Gemfile','Gemfile.lock']
 include: ['.htaccess']
+permalink: pretty
