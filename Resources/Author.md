@@ -38,7 +38,7 @@ problems with the Word template to steimann@acm.org.
 ### Republication Policy
 
 Please review SIGPLAN's
-[republication policy](Resources/Policies/Republication).
+[republication policy](/Resources/Policies/Republication).
 
 ### ACM Author Rights
 
@@ -57,18 +57,18 @@ some suggestions by
 -   Donald E. Knuth, Tracy Larrabee and Paul M. Roberts:
     [Mathematical Writing](http://tex.loria.fr/typographie/mathwriting.pdf)
 -   Mary-Claire van Leunen and Richard Lipton:
-    [How to Have Your Abstract Rejected](Resources/Advice/VanLeunen-Lipton)
+    [How to Have Your Abstract Rejected](/Resources/Advice/VanLeunen-Lipton)
 -   William Pugh:
-    [Advice to Authors of Extended Abstracts](Resources/Advice/Pugh)
+    [Advice to Authors of Extended Abstracts](/Resources/Advice/Pugh)
 -   Mark Wegman:
     [What it's like to be a POPL referee; or how to write an extended abstract so that it is more likely to be accepted](http://doi.acm.org/10.1145/14947.14955)
 -   P. R. Halmos:
     [How to Write Mathematics](http://www.stat.rice.edu/~riedi/Halmos.html)
 -   Joel E. Cohen:
-    [To A Young Scientist](Resources/Advice/Cohen)
+    [To A Young Scientist](/Resources/Advice/Cohen)
 
 ### Additional Support
 
 Are you a student needing additional support to present your paper
 at the conference? The SIGPLAN
-**[Professional Activities Committee (PAC)](PAC/Main)** can help you.
+**[Professional Activities Committee (PAC)](/PAC)** can help you.

@@ -5,7 +5,7 @@ function UrlExists(url) {
   console.log(url);
   http.send();
   console.log(http.status);
-  return http.status != 404;
+  return http.status == 200;
 }
 
 $(function () {

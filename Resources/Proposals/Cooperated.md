@@ -57,12 +57,12 @@ include the following:
 In-cooperation events are encouraged to follow
 SIGPLAN policies and procedures, including the following:
 
-- [Diversity Policy](Resources/Policies/Diversity)
-- [Conference Submission Review Policy](Resources/Policies/Review)
-- [Republication Policy](Resources/Policies/Republication)
-- [Guidelines for Steering Committee Formation/Management](Resources/Guidelines/SCommittee)
-- [Guidelines for the General Chair](Resources/Guidelines/GenChair)
-- [Guidelines for the Programme Chair](Resources/Guidelines/ProChair)
+- [Diversity Policy](/Resources/Policies/Diversity)
+- [Conference Submission Review Policy](/Resources/Policies/Review)
+- [Republication Policy](/Resources/Policies/Republication)
+- [Guidelines for Steering Committee Formation/Management](/Resources/Guidelines/SCommittee)
+- [Guidelines for the General Chair](/Resources/Guidelines/GenChair)
+- [Guidelines for the Programme Chair](/Resources/Guidelines/ProChair)
 
 In addition, event organizers are encouraged to contact the ACM
 Headquarters ([incoop@acm.org](mailto:incoop@acm.org)), to have
@@ -97,7 +97,7 @@ What Happens Next
 -----------------
 
 The request will be considered by the
-[SIGPLAN Executive Committee](Resources/ContactUs). 
+[SIGPLAN Executive Committee](/ContactUs). 
 A response to the request is usually given within two weeks. 
 The Executive Committee can only endorse the request; you still need to apply
 for ACM approval. Your event will not receive SIGPLAN in-cooperation
@@ -109,7 +109,7 @@ Manual](http://www.acm.org/sigs/volunteer_resources/conference_manual/incoop).
 
 ACM will inform you of their official approval decision within 
 two weeks of receiving this information.
-If you have questions, contact the ACM ([incoop@acm.org](incoop@acm.org)).
+If you have questions, contact the ACM ([incoop@acm.org](mailto:incoop@acm.org)).
 
 
 See Also
