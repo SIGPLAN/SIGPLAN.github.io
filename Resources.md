@@ -34,11 +34,11 @@ SIGPLAN, the premier programming languages organization, promotes awareness and 
     [Databases and Logic Programming](http://www.informatik.uni-trier.de/~ley/db/index.html),
     includes also the table of contents of:
 
-> > Publications
-> > ([TOPLAS](http://www.informatik.uni-trier.de/~ley/db/journals/toplas/index.html),
-> > [ACM Computing Surveys](http://www.informatik.uni-trier.de/~ley/db/journals/csur/index.html),
-> > [Software - Practice and Experience&#8230;](http://www.informatik.uni-trier.de/~ley/db/journals/spe/index.html))
-> >   
-> > Conferences ([OOPSLA](Conferences/OOPSLA/Main), [POPL](Conferences/POPL/Main),
-> > [PLDI](Conferences/PLDI/Main), [PPOPP](Conferences/PPOPP/Main), [LCTES](Conferences/LCTES/Main), ...)   
-> > References to other sources
+## Publications
+
+> ([TOPLAS](http://www.informatik.uni-trier.de/~ley/db/journals/toplas/index.html),
+> [ACM Computing Surveys](http://www.informatik.uni-trier.de/~ley/db/journals/csur/index.html),
+> [Software - Practice and Experience&#8230;](http://www.informatik.uni-trier.de/~ley/db/journals/spe/index.html))
+
+
+
