@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: award
 title: "Distinguished Service Award"
 ---
+
 Awarded on the basis of value and degree of services to the
 Programming Languages Community. The award recognizes contributions
 to ACM SIGPLAN, its conferences, publications, or its local

@@ -1,0 +1,58 @@
+2012:
+  Awardee: "Dan Marino, University of California Los Angeles"
+  Other: |
+    Simplified Semantics and Debugging of Concurrent Programs via Targeted Race Detection
+  Citation: |
+
+    Advisor: Todd Millstein
+
+    This dissertation addresses the problem of obtaining reliable
+    results from concurrent programs. As a first step, the
+    dissertation presents LiteRace, which uses sampling to dynamically
+    detect race conditions. As a second step, the dissertation
+    presents DRFx, which is a memory model that enforces sequential
+    consistency, where hardware and software share responsibility for
+    detecting violations of sequential consistency. Finally, the
+    dissertation presents the design of an optimizing compiler that
+    preserves sequential consistency. The dissertation thus
+    demonstrates how a revised distribution of responsibilities among
+    programmers, programming languages, and hardware can help detect
+    and avoid concurrency violations. The committee was impressed with
+    the dissertation's broad vision for both the problems of
+    concurrency and the possible solutions.
+
+    Selection committee:
+
+      - John Boyland (U. Wisconsin Milwaukee)
+      - Chen Ding (U. Rochester)
+      - Matthew Flatt (U. Utah)
+      - David Gregg (Trinity U.)
+      - Norman Ramsey (Tufts U.)
+      - Jeremy Siek (U. Colorado)
+      - Adam Welc (Oracle)
+
+2010: 
+  Awardee: "Robert L. Bocchino, University of Illinois at Urbana-Champaign"
+  Other: |
+    An Effect System and Language for Deterministic-by-Default Parallel Programming
+  Citation: |
+    Advisor: Vikram Adve
+
+    This dissertation makes several significant contributions to the
+    field of parallel and concurrent programming. The main technical
+    contribution is a type and effect system that enables reasoning
+    about non-interference at a fine granularity. A second
+    contribution is support for non-deterministic code sections that
+    are explicitly marked as such. A third contribution is support for
+    object-oriented frameworks, where user extensions are guaranteed
+    to adhere to the framework's effect restrictions. These
+    contributions are backed by formal models, soundness proofs, and
+    the Deterministic Parallel Java implementation. Evaluation shows
+    that highly satisfactory speedups can be achieved on interesting
+    code bases, sometimes beating the performance of hand-crafted
+    implementations. The members of the award committee were impressed
+    by the quality of the work and the clarity of the presentation."
+
+    Selection commmittee: Ras Bodik, Matthew Dwyer, Matthew Flatt,
+    Matthew Fluet, Kevin Hammond, Nathaniel Nystrom, Kostis Sagonas,
+    Peter Sewell, Peter Thiemann

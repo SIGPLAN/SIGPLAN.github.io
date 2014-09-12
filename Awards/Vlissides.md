@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: award
 title: "John Vlissides Award"
 ---
 In recognition of the contributions to computer science that John

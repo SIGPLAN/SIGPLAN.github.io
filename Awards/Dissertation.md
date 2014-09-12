@@ -1,4 +1,7 @@
-# SIGPLAN John C. Reynolds Doctoral Dissertation Award
+---
+layout: award
+title: "John C. Reynolds Doctoral Dissertation Award"
+---
 
 Presented annually to the author of the outstanding doctoral
 dissertation in the area of Programming Languages. The award includes

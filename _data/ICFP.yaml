@@ -1,3 +1,43 @@
+2013: 
+  Awardee: Didier Le Botlan and Didier Rémy
+  Other: |
+    (for 2003) [ML^F: Raising ML to the Power of System F](http://dl.acm.org/citation.cfm?doid=944746.944709)
+  Citation: |
+    Le Botlan and Rémy's paper on MLF presented a major technical
+    breakthrough in type inference for first-class
+    polymorphism. Remarkably, by going from ML to a system that is
+    more expressive than System F, principal types could be
+    recovered. The paper was the first and only paper (to date) to
+    present a type inference and unification algorithm with all the
+    "good" features of ordinary ML inference and unification, except
+    on a richer universe of types and constraints that allowed
+    impredicative instantiation. The MLF system enjoys most general
+    unifiers, completeness properties, and robustness under program
+    transformations, with user type annotations providing the oracles
+    needed to reach the expressiveness of System F and beyond. The MLF
+    paper has been highly influential on subsequent work in type
+    inference for first-class polymorphism, and is a must-read for
+    anyone interested in the topic.
+
+2012: 
+  Awardee: Robert Findler and Matthias Felleisen
+  Other: |
+    (for 2002) [Contracts for higher-order functions](http://dl.acm.org/citation.cfm?doid=583852.581484)
+  Citation: |
+    Assertion-based contracts have proven very useful for dynamically
+    enforcing first-order program invariants in procedural languages,
+    but until 2002 they had not been supported in languages with
+    higher-order functions. Findler and Felleisen's paper filled this
+    gap, presenting "the first assertion-based contract checker for
+    languages with higher-order functions." The paper also spawned a
+    great deal of follow-on work on such topics as the semantics of
+    blame assignment and the integration of static typing and dynamic
+    contract checking. Higher-order contracts have become a central
+    component of the Racket (formerly PLT Scheme) system -- one of the
+    major software artifacts of the functional-programming community
+    -- which serves as both a research testbed and an effective tool
+    for programming-language education.
+
 2011: 
   Awardee: Claudio Russo
   Other: |

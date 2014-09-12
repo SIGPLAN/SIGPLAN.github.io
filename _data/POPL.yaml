@@ -3,7 +3,6 @@
   Other: |
     (for 2004) [Abstractions from proofs](http://dl.acm.org/citation.cfm?id=964021)
   Citation: |
-
     Interpolation can be used to construct an inductive invariant for
     a transition system that is strong enough to prove a given
     property.  Prior to Henzinger et al.'s paper, interpolation had
@@ -20,8 +19,7 @@
 2013:
   Awardee: [David F Bacon, Perry Cheng, VT Rajan]
   Other: |
-    (for 2003) [A real-time garbage collector with low overhead and consistent
-    utilization](http://dl.acm.org/citation.cfm?id=604155&CFID=186511822&CFTOKEN=35702610)
+    (for 2003) [A real-time garbage collector with low overhead and consistent utilization](http://dl.acm.org/citation.cfm?id=604155&CFID=186511822&CFTOKEN=35702610)
   Citation: |
     Languages with automatic memory management offer well-known advantages
     in terms of software engineering, but the use of garbage collection

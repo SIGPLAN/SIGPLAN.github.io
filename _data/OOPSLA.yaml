@@ -1,3 +1,19 @@
+2012:
+  Awardee: Emery Berger, Benjamin G. Zorn, and Kathryn S. McKinley
+  Other: |
+    (for 2002) [Reconsidering Custom Memory Allocation](http://dl.acm.org/citation.cfm?id=583854.582421)
+  Citation: |
+    Custom memory management is often used in systems software for the
+    purpose of decreasing the cost of allocation and tightly
+    controlling memory footprint of the software.  Until 2002, it was
+    taken for granted that application-specific memory allocators were
+    superior to general purpose libraries.  Berger, Zorn and
+    McKinley's paper demonstrated through a rigorous empirical study
+    that this assumption is not well-founded, and gave insights into
+    the reasons why general purpose allocators can outperform
+    handcrafted ones.  The paper also stands out for the quality of
+    its empirical methodology.
+
 2010:
   Awardee:  Matthew Arnold, Stephen Fink, David Grove, Michael Hind, Peter F. Sweeney
   Other: |
