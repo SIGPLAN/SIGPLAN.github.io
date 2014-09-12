@@ -1,15 +1,8 @@
 #
-# We need this because the .html messes with the redirect, for some reason
+# We previously used a /Main suffix; this is not longer used.
 #
-Options -MultiViews
 
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)/Main$ /$1.html [L,R=302]
+RewriteRule ^(.*)/Main$ /$1 [L,R=302]
 
-RewriteRule ^(.+)/$ /$1.html [L,R=302]
-
-RewriteCond %{REQUEST_URI}           !\.html$
-RewriteCond %{REQUEST_FILENAME}      !-f
-RewriteCond %{REQUEST_FILENAME}.html  -f
-RewriteRule ^(.*)$ /$1.html [L,R=302]
