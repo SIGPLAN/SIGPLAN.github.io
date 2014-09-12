@@ -116,7 +116,7 @@ To attain SIGPLAN sponsored status, you need SIGPLAN to endorse your proposal.
 To achieve this, send a request to the
 [SIGPLAN Vice Chair](mailto:vc_sigplan@acm.org),
 preferably at least **eighteen months before** the event is to take
-place. The request should include the following information:
+place. The request should include the following information, **in plain text** (not PDF or Word, please):
 
 1.  Name, date, and location of meeting.
 2.  Focus of the meeting.
