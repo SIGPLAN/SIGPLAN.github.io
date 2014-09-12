@@ -1,3 +1,30 @@
+2013:
+  Awardee: [David Gay, Philip Levis, J. Robert von Behren, Matt Welsh, Eric Brewer, and David E. Culler]
+  Other: |
+    (for 2003) [The nesC language: A holistic approach to networked embedded systems](http://dl.acm.org/citation.cfm?id=781133)
+  Citation: |
+
+    This is the first publication to describe the design,
+    implementation, and optimization of the language nesC, which is a
+    variant of the C programming language especially well suited to
+    the programming of embedded systems.  Much as the C programming
+    language made possible the development of UNIX, so has nesC made
+    possible the development of TinyOS.  A decade hence, nesC is still
+    the language of choice for developing applications under TinyOS on
+    "motes" and other embedded systems platforms.  Central to the
+    design of nesC and TinyOS is the notion of an asynchronous, or
+    non-blocking, call.  This form of software architecture nicely
+    accommodates the timing uncertainties and failures experienced by
+    embedded systems applications in the real world.  The success and
+    longevity of nesC can be attributed to its precise and useful
+    formulations of concurrency, atomicity, and modularization with
+    regard to its intended application audience.  These formulations
+    allow for efficient implementations while offering encapsulation
+    mechanisms that encourage software sharing and reuse.  The nesC
+    paper has amassed hundreds of citations, and the language
+    continues to be in widespread use for teaching, research, and
+    industry in the embedded systems community.
+
 2012:
   Awardee: Cormac Flanagan, K. Rustan M. Leino, Mark Lillibridge, Greg Nelson, James B. Saxe, Raymie Stata
   Other: |
