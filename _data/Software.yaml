@@ -1,3 +1,60 @@
+2014:
+  Awardee: The GNU Compiler Collection (GCC)
+  Citation: |
+
+    The GNU Compiler Collection (GCC) provides a portable,
+    production-quality, standards-compliant, highly optimizing
+    compiler, supporting more architectures, programming languages,
+    and operating environments than any other comparable tool.  It
+    provides the toolchain that underpins all of the GNU/Linux
+    distributions, popular websites, and embedded environments.
+
+    GCC provides the foundation for numerous experiments in
+    programming language design, including the early C++ language,
+    numerous evolutions of the C and C++ standards, parallel
+    programming with OpenMP, and the Go programming language.  GCC has
+    been used by many research projects, leading to high-impact
+    publications and contributions to the development trunk, including
+    sophisticated instruction selection based on declarative machine
+    descriptions, auto-tuning techniques, transactional memory, and
+    polyhedral loop nest optimizations.
+
+    GCC is the product of hundreds of person-years of work over its 27
+    years of existence. This award recognizes the GCC developer
+    community for the substantial impact it has had on the programming
+    language community and the larger software industry.
+
+2013:
+  Awardee: The Coq proof assistant
+  Citation: |
+
+    The Coq proof assistant provides a rich environment for
+    interactive development of machine-checked formal reasoning.  Coq
+    is having a profound impact on research on programming languages
+    and systems, making it possible to extend foundational approaches
+    to unprecedented levels of scale and confidence, and transfer them
+    to realistic programming languages and tools.  It has been widely
+    adopted as a research tool by the programming language research
+    community, as evidenced by the many papers at SIGPLAN conferences
+    whose results have been developed and/or verified in Coq.  It has
+    also rapidly become one of the leading tools of choice for
+    teaching the foundations of programming languages, with courses
+    offered by many leading universities and a growing number of books
+    emerging to support them.  Last but not least, these successes
+    have helped to spark a wave of widespread interest in dependent
+    type theory, the richly expressive core logic on which Coq is
+    based.
+
+    As a software system, Coq has been in continuous development for
+    over 20 years, a truly impressive feat of sustained,
+    research-driven engineering.  The Coq team continues to develop
+    the system, bringing significant improvements in expressiveness
+    and usability with each new release.
+
+    In short, Coq is playing an essential role in our transition to a
+    new era of formal assurance in mathematics, semantics, and program
+    verification.
+
 2012: 
   Awardee: Jikes Research Virtual Machine (RVM)
   Citation: |

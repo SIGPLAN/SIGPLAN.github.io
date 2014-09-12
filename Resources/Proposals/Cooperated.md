@@ -76,7 +76,7 @@ To attain SIGPLAN in-cooperation status, you need SIGPLAN to endorse your propos
 To achieve this, send a request to the
 [SIGPLAN Vice Chair](mailto:vc_sigplan@acm.org),
 preferably at least **twelve months before** the event. The
-description should include the following information:
+description should include the following information, **in plain text** (not PDF or Word, please):
 
 1.  Focus of the meeting and intended audience.
 2.  Time frame and place.

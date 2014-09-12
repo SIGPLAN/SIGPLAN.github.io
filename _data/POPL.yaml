@@ -1,8 +1,25 @@
+2014:
+  Awardee: [Thomas Henzinger, Ranjit Jhala, Rupak Majumdar, Kenneth McMillan]
+  Other: |
+    (for 2004) [Abstractions from proofs](http://dl.acm.org/citation.cfm?id=964021)
+  Citation: |
+    Interpolation can be used to construct an inductive invariant for
+    a transition system that is strong enough to prove a given
+    property.  Prior to Henzinger et al.'s paper, interpolation had
+    only been applied to model checking of finite-state systems.  In
+    this paper, the authors demonstrated a fundamental generalization
+    of Craig interpolation to program analysis by predicate
+    abstraction, opening the door for interpolation to be applied to
+    abstraction refinement of infinite-state systems.  This work
+    showed how interpolation offers a fundamental way to explain
+    abstraction refinement in a logical framework and has led to many
+    extensions to increase the power of abstraction in program
+    analysis.
+
 2013:
   Awardee: [David F Bacon, Perry Cheng, VT Rajan]
   Other: |
-    (for 2003) [A real-time garbage collector with low overhead and consistent
-    utilization](http://dl.acm.org/citation.cfm?id=604155&CFID=186511822&CFTOKEN=35702610)
+    (for 2003) [A real-time garbage collector with low overhead and consistent utilization](http://dl.acm.org/citation.cfm?id=604155&CFID=186511822&CFTOKEN=35702610)
   Citation: |
     Languages with automatic memory management offer well-known advantages
     in terms of software engineering, but the use of garbage collection

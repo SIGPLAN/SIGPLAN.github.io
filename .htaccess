@@ -1,20 +1,15 @@
 #
 # We need this because the .html messes with the redirect, for some reason
-# 
+#
 Options -MultiViews
 
 RewriteEngine On
-RewriteCond %{REQUEST_URI} !^.*.html$
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)/Main$ $1.html [L,R=302]
+RewriteRule ^(.*)/Main$ /$1.html [L,R=302]
 
-RewriteEngine On
-RewriteCond %{REQUEST_URI} !^.*.html$
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} !/Main$
-RewriteRule ^(.*)/$ $1.html [L,R=302]
+RewriteRule ^(.+)/$ /$1.html [L,R=302]
 
-#RedirectMatch 302 (.*)/Main$ $1.html
-
+RewriteCond %{REQUEST_URI}           !\.html$
+RewriteCond %{REQUEST_FILENAME}      !-f
+RewriteCond %{REQUEST_FILENAME}.html  -f
+RewriteRule ^(.*)$ /$1.html [L,R=302]
