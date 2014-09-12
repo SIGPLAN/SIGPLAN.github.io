@@ -14,7 +14,7 @@ Other membership benefits include:
 
  *  Substantial discounts on registration for [SIGPLAN-sponsored conferences](/Conferences).
  *  Networking and leadership opportunities through participation in SIGPLAN-sponsored events.
- *  Opportunities for support toward achieving professional goals through the Professional Activities Committee [(PAC)](/PAC.html).
+ *  Opportunities for support toward achieving professional goals through the Professional Activities Committee [(PAC)](/PAC).
 
 Cost: $25.00 ($15.00 for students). Click [here](https://campus.acm.org/public/gensigqj/gensigqj_control.cfm?promo=QJSIG&offering=423&form_type=SIG) to apply.
 
