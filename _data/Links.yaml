@@ -43,13 +43,13 @@ SIGPLAN Sponsored Conferences:
 - Architectural Support for Programming Languages and Operating Systems (ASPLOS)        
                                                                 <Conferences/ASPLOS>
 - International Symposium on Memory Management (ISMM)           <Conferences/ISMM>
-- Virtual Execution Environments (VEE)                          <vee.htm>
+- Virtual Execution Environments (VEE)                          <Conferences/VEE>
 - Programming Language Design and Implementation (PLDI)         <Conferences/PLDI>
 - Principles of Programming Languages (POPL)                    <Conferences/POPL>
 - Object-oriented Programming, Systems, Languages, and Applications (OOPSLA)    
                                                                 <Conferences/OOPSLA>
 - International Conference on Functional Programming (ICFP)     <Conferences/ICFP>
-- Languages, Compilers, and Tools for Embedded Systems (LCTES)  <Conferences/LCTES.html>
+- Languages, Compilers, and Tools for Embedded Systems (LCTES)  <Conferences/LCTES>
 - Principles and Practice of Parallel Programming (PPoPP)       <Conferences/PPOPP>
 - "Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH) <Conferences/SPLASH>"
 - Onward!                                                       <Conferences/Onward>
@@ -57,19 +57,25 @@ SIGPLAN Sponsored Conferences:
 - "Generative Programming: Concepts and Experiences (GPCE)       <Conferences/GPCE>"
 - Programming Languages Mentoring Workshop                      <Conferences/PLMW>
 
+#
+# Is this used?
+# 
 SIGPLAN Awards:
 - Programming Languages Software Award                          <Awards/Software>
 - Programming Languages Achievement Award                       <Awards/Achievement>
 - Robin Milner Young Researcher Award                           <Awards/Milner>
-- Most Influential POPL Paper Award                             <Awards/Conferences/POPL>
-- Most Influential PLDI Paper Award                             <Awards/Conferences/PLDI>
-- Most Influential OOPSLA Paper Award                           <Awards/Conferences/OOPSLA>
-- Most Influential ICFP Paper Award                             <Awards/Conferences/ICFP>
+- Most Influential POPL Paper Award                             <Awards/POPL>
+- Most Influential PLDI Paper Award                             <Awards/PLDI>
+- Most Influential OOPSLA Paper Award                           <Awards/OOPSLA>
+- Most Influential ICFP Paper Award                             <Awards/ICFP>
 - John Vlissides Award                                          <Awards/Vlissides>
 - Outstanding Doctoral Dissertation Award                       <Awards/Dissertation>
 - Distinguished Service Award                                   <Awards/Service>
 
 
+#
+# Is this used?
+# 
 Other:
  - Students                                                     <Students>
  - Student Information
