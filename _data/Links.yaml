@@ -26,7 +26,7 @@ Key Links:
 
 Conference Information:
 - SIGPLAN Conferences Calendar                                  <http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN>
-- Information for Authors Submitting Papers                     <Resources/Author.html>
+- Information for Authors Submitting Papers                     <Resources/Author>
 - Steering Committee Guidelines                                 </Resources/Guidelines/SCommittee>
 - General Chair Guidelines                                      <Resources/Guidelines/GenChair>
 - Program Chair Guidelines                                      <Resources/Guidelines/ProChair>
@@ -49,7 +49,7 @@ SIGPLAN Sponsored Conferences:
 - Object-oriented Programming, Systems, Languages, and Applications (OOPSLA)    
                                                                 <Conferences/OOPSLA>
 - International Conference on Functional Programming (ICFP)     <Conferences/ICFP>
-- Languages, Compilers, and Tools for Embedded Systems (LCTES)  <Conferences/LCTES>
+- Languages, Compilers, and Tools for Embedded Systems (LCTES)  <Conferences/LCTES.html>
 - Principles and Practice of Parallel Programming (PPoPP)       <Conferences/PPOPP>
 - "Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH) <Conferences/SPLASH>"
 - Onward!                                                       <Conferences/Onward>
