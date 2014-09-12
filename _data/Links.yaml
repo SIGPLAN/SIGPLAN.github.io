@@ -12,28 +12,28 @@ Key Links:
 - Awards                                                        <Awards>
 - Conferences                                                   <Conferences>
 - Resources                                                     <Resources>
-- Communications of the ACM Research Highlights                 <Highlights>
+- Communications of the ACM Research Highlights                 <Newsletters/CACM>
 - Membership                                                    <Membership>
-- Student Membership                                            <Resources/Student.html>
+- Student Membership                                            <Resources/Student>
 - Publications                                                  <Newsletters>
-- SIGPLAN Officers                                              <ContactUs.html>
+- SIGPLAN Officers                                              <ContactUs>
 - Professional Activities Committee                             <PAC.html>
 - SIGPLAN Education Board Blog                                  <http://mt4.acm.org/educationboard>
-- Open Meeting Presentations                                    <Resources/OMP.html>
+- Open Meeting Presentations                                    <Resources/OMP>
 - SIGPLAN By-laws                                               <http://www.acm.org/sigs/bylaws-contents/plan_bylaws>
-- Annual Reports                                                <Resources/AnnualReports.html>
-- SIGPLAN Sponsors                                              <Resources/Sponsors.html>
+- Annual Reports                                                <Resources/AnnualReports>
+- SIGPLAN Sponsors                                              <Resources/Sponsors>
 
 Conference Information:
 - SIGPLAN Conferences Calendar                                  <http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN>
-- Information for Authors Submitting Papers                     <authorInformation>
+- Information for Authors Submitting Papers                     <Resources/Author.html>
 - Steering Committee Guidelines                                 </Resources/Guidelines/SCommittee>
 - General Chair Guidelines                                      <Resources/Guidelines/GenChair>
 - Program Chair Guidelines                                      <Resources/Guidelines/ProChair>
 - Workshop  Guidelines                                          <Resources/Guidelines/Workshops>
 - Sponsorship Proposal                                          <Resources/Proposals/Sponsored>
 - In-cooperation  Proposal                                      <Resources/Proposals/Cooperated>
-- Submission Review Policy                                      <review_policies.htm "Policies>
+- Submission Review Policy                                      <Resources/Policies/Review>
 - Republication  Policy                                         <Resources/Policies/Republication>
 - Diversity Policy                                              <Resources/Policies/Diversity>
 - Anti-harassment Policy                                        <Resources/Policies/Anti-harassment>
@@ -41,33 +41,33 @@ Conference Information:
 
 SIGPLAN Sponsored Conferences:
 - Architectural Support for Programming Languages and Operating Systems (ASPLOS)        
-                                                                <Conferences/ASPLOS/Main>
-- International Symposium on Memory Management (ISMM)           <Conferences/ISMM/Main>
+                                                                <Conferences/ASPLOS>
+- International Symposium on Memory Management (ISMM)           <Conferences/ISMM>
 - Virtual Execution Environments (VEE)                          <vee.htm>
-- Programming Language Design and Implementation (PLDI)         <Conferences/PLDI/Main>
-- Principles of Programming Languages (POPL)                    <Conferences/POPL/Main>
+- Programming Language Design and Implementation (PLDI)         <Conferences/PLDI>
+- Principles of Programming Languages (POPL)                    <Conferences/POPL>
 - Object-oriented Programming, Systems, Languages, and Applications (OOPSLA)    
-                                                                <Conferences/OOPSLA/Main>
-- International Conference on Functional Programming (ICFP)     <Conferences/ICFP/Main>
-- Languages, Compilers, and Tools for Embedded Systems (LCTES)  <Conferences/LCTES/Main>
-- Principles and Practice of Parallel Programming (PPoPP)       <Conferences/PPOPP/Main>
-- "Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH) <Conferences/SPLASH/Main>"
-- Onward!                                                       <Conferences/Onward/Main>
-- Dynamic Languages Symposium (DLS)                             <Conferences/DLS/Main>
-- "Generative Programming: Concepts and Experiences (GPCE)       <Conferences/GPCE/Main>"
-- Programming Languages Mentoring Workshop                      <Conferences/PLMW/Main>
+                                                                <Conferences/OOPSLA>
+- International Conference on Functional Programming (ICFP)     <Conferences/ICFP>
+- Languages, Compilers, and Tools for Embedded Systems (LCTES)  <Conferences/LCTES>
+- Principles and Practice of Parallel Programming (PPoPP)       <Conferences/PPOPP>
+- "Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH) <Conferences/SPLASH>"
+- Onward!                                                       <Conferences/Onward>
+- Dynamic Languages Symposium (DLS)                             <Conferences/DLS>
+- "Generative Programming: Concepts and Experiences (GPCE)       <Conferences/GPCE>"
+- Programming Languages Mentoring Workshop                      <Conferences/PLMW>
 
 SIGPLAN Awards:
-- Programming Languages Software Award                          <Awards/Software/Main>
-- Programming Languages Achievement Award                       <Awards/Achievement/Main>
-- Robin Milner Young Researcher Award                           <Awards/Milner/Main>
-- Most Influential POPL Paper Award                             <Awards/Conferences/POPL/Main>
-- Most Influential PLDI Paper Award                             <Awards/Conferences/PLDI/Main>
-- Most Influential OOPSLA Paper Award                           <Awards/Conferences/OOPSLA/Main>
-- Most Influential ICFP Paper Award                             <Awards/Conferences/ICFP/Main>
-- John Vlissides Award                                          <Awards/Vlissides/Main>
-- Outstanding Doctoral Dissertation Award                       <Awards/Dissertation/Main>
-- Distinguished Service Award                                   <Awards/Service/Main>
+- Programming Languages Software Award                          <Awards/Software>
+- Programming Languages Achievement Award                       <Awards/Achievement>
+- Robin Milner Young Researcher Award                           <Awards/Milner>
+- Most Influential POPL Paper Award                             <Awards/Conferences/POPL>
+- Most Influential PLDI Paper Award                             <Awards/Conferences/PLDI>
+- Most Influential OOPSLA Paper Award                           <Awards/Conferences/OOPSLA>
+- Most Influential ICFP Paper Award                             <Awards/Conferences/ICFP>
+- John Vlissides Award                                          <Awards/Vlissides>
+- Outstanding Doctoral Dissertation Award                       <Awards/Dissertation>
+- Distinguished Service Award                                   <Awards/Service>
 
 
 Other:
