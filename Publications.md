@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Newsletters and Proceedings"
+title: "SIGPLAN Publications"
 ---
 **SIGPLAN produces two publications:**  
 
@@ -11,7 +11,7 @@ title: "Newsletters and Proceedings"
     and the implementation of Fortran processors.
 
 The publications can be subscribed to independently of
-[membership](Resources/Membership). Old issues of publications and
+[membership](/Membership). Old issues of publications and
 conferences proceedings can be purchased from ACM Publications
 Department. See
 [current rates](http://store.acm.org/acmstore/itempg.icl?dirpage=dir&itmid=3873&eflag=0&curitempos=0&numitems=1&secid=32&eflag=0&orderidentifier=icat_orderid)
