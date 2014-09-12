@@ -7,3 +7,25 @@
 
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
+<script>
+function UrlExists(url) {
+  var http = new XMLHttpRequest();
+  http.open('HEAD', url, false);
+  http.send();
+  return http.status != 404;
+}
+
+$(function () {
+ $.each($("a"),function (ix,o) {
+   var href = $(o).attr('href')
+   if (href && href.indexOf("http") == 0) {
+      $(o).css('background','#0000D0');
+   } else if (href && UrlExists(href)) {
+      $(o).css('background','#00D000');
+   } else {
+      $(o).css('background','#D00000');
+   }
+ });
+});
+
+</script>
