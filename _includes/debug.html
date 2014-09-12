@@ -9,18 +9,25 @@ function UrlExists(url) {
 }
 
 $(function () {
+ var lnk = 0;
+ var bad_lnk = 0;
  $.each($("a"),function (ix,o) {
    var href = $(o).attr('href')
    $(o).css('color','black');
+   lnk++;
    if (href && (href.indexOf("http") == 0 || href.indexOf("mailto:") == 0)) {
-      $(o).css('background','#8080F0');
+      $(o).css('background','#C0C0FF');
    } else if (href && UrlExists(href)) {
       $(o).css('background','#80F080');
    } else {
-      $(o).css('background','#F08080');
+      $(o).css('background','yellow');
       $(o).append('(' + href + ')');
+      $(o).css('border','2px dashed red');
+      $(o).css('padding','5px');
+      bad_lnk++;
    }
  });
+  $("#no-place-like-home").append("(" + bad_lnk + "/" + lnk + ")");
 });
 
 </script>
