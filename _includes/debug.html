@@ -2,19 +2,23 @@
 function UrlExists(url) {
   var http = new XMLHttpRequest();
   http.open('HEAD', url, false);
+  console.log(url);
   http.send();
+  console.log(http.status);
   return http.status != 404;
 }
 
 $(function () {
  $.each($("a"),function (ix,o) {
    var href = $(o).attr('href')
-   if (href && href.indexOf("http") == 0) {
-      $(o).css('background','#0000D0');
+   $(o).css('color','black');
+   if (href && (href.indexOf("http") == 0 || href.indexOf("mailto:") == 0)) {
+      $(o).css('background','#8080F0');
    } else if (href && UrlExists(href)) {
-      $(o).css('background','#00D000');
+      $(o).css('background','#80F080');
    } else {
-      $(o).css('background','#D00000');
+      $(o).css('background','#F08080');
+      $(o).append('(' + href + ')');
    }
  });
 });
