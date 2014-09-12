@@ -6,3 +6,4 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)/Main$ /$1 [L,R=302]
 
+ErrorDocument 404 /404.html
