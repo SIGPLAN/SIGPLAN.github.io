@@ -1,0 +1,7 @@
+#
+# Things that need redirected
+#
+Awards/Conferences/PLDI: Awards/PLDI
+Awards/Conferences/POPL: Awards/POPL
+Awards/Conferences/ICFP: Awards/ICFP
+Awards/Conferences/OOPSLA: Awards/OOPSLA
