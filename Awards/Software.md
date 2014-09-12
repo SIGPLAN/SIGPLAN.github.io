@@ -10,11 +10,11 @@ wide-spread adoption of the system or its underlying concepts by
 the wider programming language community either in research
 projects, in the open-source community, or commercially. The award
 includes a prize of $2,500. The award is presented at SIGPLAN's
-[PLDI conference](Conferences/PLDI/Main) the following June.  
+[PLDI conference](/Conferences/PLDI) the following June.  
 
 **Nominations**
 
-- [Details of the nomination and award process (pdf).](http://www.sigplan.org/sites/default/files/award-nominations.pdf)
+- [Details of the nomination and award process (pdf).](/sites/default/files/award-nominations.pdf)
 
 - Please use <http://awards.sigplan.org/> to submit nominations.
 
