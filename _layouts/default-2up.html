@@ -8,17 +8,12 @@
 
       <div class="row">
 
-        <div class="col-md-3">
-          <div style="margin-top: 25px;">
-            {% include link-table.liquid data=site.data.Links links="Key Links" %}
-          </div>
-        </div>
-        <div class="col-md-9">
+        <div class="col-md-8 col-md-offset-2">
           <h1> {{ page.title }} </h1>
           <hr>
           {% comment %} for 2up, we split on the ---- / <hr> tag, and count the regions {% endcomment %}
           {% assign parts = content | split:'<hr />' %}
-          {% case parts.size %} 
+          {% case parts.size %}
           {% when 2 %}
             <div class="row">
               <div class="col-md-6">
@@ -30,6 +25,7 @@
             </div>                
           {% when 3 %}
             {{ parts[0] }}
+	    <hr>
             <div class="row">
               <div class="col-md-6">
                 {{ parts[1] }}

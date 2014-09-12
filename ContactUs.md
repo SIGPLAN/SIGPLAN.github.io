@@ -3,7 +3,10 @@ layout: default-2up
 title: SIGPLAN Executive Committee 2012-2015
 ---
 
-SIGPLAN is run by its Executive Committee composed of members elected every 3 years, by the members of ACM SIGPLAN.  Ex-officio members, which include the past chair and the SIGPLAN editors, are also involved in directing SIGPLAN.  
+SIGPLAN is run by its Executive Committee composed of members elected
+every 3 years, by the members of ACM SIGPLAN.  Ex-officio members,
+which include the past chair and the SIGPLAN editors, are also
+involved in directing SIGPLAN.
 
 ----
 
