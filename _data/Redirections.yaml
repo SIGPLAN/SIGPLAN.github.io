@@ -13,10 +13,13 @@
 "oopsla.htm(l?)":		"Conferences/OOPSLA/"
 "vee.htm(l?)":			"Conferences/VEE/"
 
-"authorInformation.htm(l?)":	"Resources/Author/"
+"authorInformation.htm(l?)":		"Resources/Author/"
 
-"republicationpolicy.htm(l?)":	"Resources/Policies/Republication//"
+"republicationpolicy.htm(l?)":	"Resources/Policies/Republication/"
 
 "sigplanconf-template.tex":	"sites/default/files/sigplanconf-template.tex"
 "sigplanconf-guide.pdf":	"sites/default/files/sigplanconf-guide.pdf"
 "sigplanconf.cls":		"sites/default/files/sigplanconf.cls"
+"sigplan_sponsorship_proposal.htm": 	"Resources/Proposals/Sponsored/"
+
+
