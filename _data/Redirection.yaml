@@ -1,10 +1,8 @@
 #
-# Things that need redirected
+# Things that need redirected (not auto generated yet)
+# The result is manually put into .htaccess
 #
-Awards/Conferences/PLDI: Awards/PLDI
-Awards/Conferences/POPL: Awards/POPL
-Awards/Conferences/ICFP: Awards/ICFP
-Awards/Conferences/OOPSLA: Awards/OOPSLA
-Newsletter: Publications
-Newsletter/CACM: Publications/CACM
-
+# We no longer nest the Conference Awards
+"Awards/Conferences/(.*)": "Awards/$1"
+# We previously used a /Main suffix; this is not longer used.
+"(.*)/Main": "$1"
