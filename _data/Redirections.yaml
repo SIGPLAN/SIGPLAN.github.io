@@ -3,17 +3,19 @@
 # The result is manually put into .htaccess
 #
 # We no longer nest the Conference Awards
-"Awards/Conferences/(.*)": "Awards/$1"
-"Conferences/(.*)/Awards": "Awards/$1"
+"Awards/Conferences/(.*)":			"Awards/$1"
+"Conferences/(.*)/Awards":			"Awards/$1"
 
 # We previously used a /Main suffix; this is not longer used.
-"(.*)/Main": "$1"
+"(.*)/Main": 	       	     	     	     	 "$1"
 
 "issm(.htm|.html|)":				"Conferences/ISMM/"
 "oopsla(.htm|.html|)":				"Conferences/OOPSLA/"
 "vee(.htm|.html|)":				"Conferences/VEE/"
 
 "authorInformation.htm(.htm|.html|)":		"Resources/Author/"
+
+"conferences/(.*)":				"Conferences/$1"
 
 "republicationpolicy(.htm|.html|)":		"Resources/Policies/Republication/"
 
