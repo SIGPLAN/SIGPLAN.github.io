@@ -5,10 +5,20 @@ RewriteEngine On
 
 # We no longer nest the Conference Awards
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule    ^Awards/Conferences/(.*)$	/Awards/$1	[L,R=302]
+RewriteRule    ^Awards/Conferences/(.*)$	/Awards/$1		[L,R=302]
 
 # We previously used a /Main suffix; this is not longer used.
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)/Main$				/$1		[L,R=302]
+RewriteRule ^(.*)/Main$				/$1			[L,R=302]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^issm.htm$				/Conferences/ISMM/	[L,R=302]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^republicationpolicy.htm$		/Resources/Policies/Republication//	[L,R=302]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^vee.htm$				/Conferences/VEE/	[L,R=302]
+
 
 ErrorDocument 404 /404.html
