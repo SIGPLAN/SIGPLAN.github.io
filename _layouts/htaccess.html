@@ -1,0 +1,12 @@
+#
+# This file is auto-generated from htaccess.md and _layouts/htaccess.html
+#
+RewriteEngine On
+
+{% for redir in site.data.Redirections %}
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule  ^{{redir[0]}}$ /{{redir[1]}} [L,R=302]
+{% endfor %}
+
+ErrorDocument 404 /404.html
+

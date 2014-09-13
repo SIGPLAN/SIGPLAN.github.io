@@ -1,0 +1,4 @@
+---
+layout: htaccess
+permalink: .htaccess
+---
