@@ -24,7 +24,7 @@ The committee considers nominated papers from two sources:
   As of August 2014, 41 papers have been recognized by the SIGPLAN
   Research Highlights committee, and 19 SIGPLAN papers have appeared in
   CACM, 12 from the SIGPLAN committee and 7 that were solicited directly by the CACM committee. 
-  This [webpage](/Publications/CACM/Papers) contains the full list of papers.
+  This [webpage](/Newsletters/CACM/Papers) contains the full list of papers.
 
 
 ### SIGPLAN Research Highlights Committee
