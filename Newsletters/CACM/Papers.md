@@ -819,7 +819,7 @@ complete code in Haskell. We should expect the technique to spread to
 other languages; the new notion of C++ concepts, which resemble Haskell
 type classes, are well suited for supporting defining functions based on
 type structure. The paper is a joy to read.
-([Addendum](Newsletters/CACM/Papers/Addendums))
+([Addendum](/Newsletters/CACM/Papers/Addendums))
 
 
 
