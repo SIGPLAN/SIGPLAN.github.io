@@ -14,9 +14,9 @@ until you submit your paper for publication. The page numbers it
 produces are of great help to reviewers. The document template
 includes the 'preprint' option.
 
--   [class file](http://drupal.sigplan.org/sites/default/files/sigplanconf.cls) \[v2.8]
--   [template](http://drupal.sigplan.org/sites/default/files/sigplanconf-template.tex)
--   [guide](http://drupal.sigplan.org/sites/default/files/sigplanconf-guide.pdf)
+-   [class file](/sites/default/files/sigplanconf.cls) \[v2.8]
+-   [template](/sites/default/files/sigplanconf-template.tex)
+-   [guide](/sites/default/files/sigplanconf-guide.pdf)
 
 
 *ICFP 2013 Authors: the sigplanconf-guide.pdf is out of date regarding permission and copyright notices.
@@ -25,10 +25,10 @@ We will update the sigplanconf-guide.pdf shortly.*
 
 Please address questions and problems with the class file to sigplan-class at acm dot org.
 
-There is a [Word template](http://drupal.sigplan.org/sites/default/files/sigplanconf.dot) that attempts to
+There is a [Word template](/sites/default/files/sigplanconf.dot) that attempts to
 emulate the Latex class file; many thanks to Friedrich Steimann for
 producing this. There is also a
-[Word template](http://drupal.sigplan.org/sites/default/files/sigplanconf-varsize.dot) that provides support for
+[Word template](/sites/default/files/sigplanconf-varsize.dot) that provides support for
 different point sizes (this template was commissioned by OOPSLA and
 is being used for OOPSLA and Splash!). Please address questions and
 problems with the Word template to steimann@acm.org.  

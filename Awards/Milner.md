@@ -75,7 +75,7 @@ Secretary of SIGPLAN.
 
 #### Nominations
 
-[Details of the nomination and award process (pdf)](http://drupal.sigplan.org/sites/default/files/award-nominations.pdf)
+[Details of the nomination and award process (pdf)](/sites/default/files/award-nominations.pdf)
 
 Please use <http://awards.sigplan.org/> to submit nominations.
 

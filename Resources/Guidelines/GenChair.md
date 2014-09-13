@@ -181,9 +181,9 @@ See Also
 -   [Calendar of Upcoming SIGPLAN Conferences](http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN)
 - ACM's *[How to Organize a Conference](http://www.acm.org/sigs/volunteer_resources/conference_manual/conference_manual-toc)* manual
 - [ACM's How to Organize a Conference](http://www.acm.org/sig_volunteer_info/conference_manual/prelimpage.htm)
-- SIGPLAN conference style [LaTeX class file](http://www.sigplan.org/drupal6/sites/default/files/Author/sigplanconf.cls),
-  [article template](http://www.sigplan.org/drupal6/sites/default/files/Author/sigplanconf-template.tex), and
-  [user guide](http://www.sigplan.org/drupal6/sites/default/files/Author/sigplanconf-guide.pdf)
+- SIGPLAN conference style [LaTeX class file](/sites/default/files/Author/sigplanconf.cls),
+  [article template](/sites/default/files/Author/sigplanconf-template.tex), and
+  [user guide](/sites/default/files/Author/sigplanconf-guide.pdf)
 
 
 Some columns containing useful advice for conference organizers have

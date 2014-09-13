@@ -188,7 +188,7 @@ Collector for Reconfigurable Hardware](http://dl.acm.org/citation.cfm?id=2254068
 ***Venue:*** PLDI 2012
 
 ![CACM Cover December
-2013](http://drupal.sigplan.org/sites/default/files/dec-2013.jpg)**Published
+2013](/sites/default/files/dec-2013.jpg)**Published
 as [And Then There Were None: A Stall-Free Real-Time Garbage Collector
 for Reconfigurable
 Hardware](http://cacm.acm.org/magazines/2013/12/169948-and-then-there-were-none/abstract)
@@ -421,7 +421,7 @@ University
  ***Venue:*** PLDI 2011
 
 ![CACM Cover December
-2012](http://drupal.sigplan.org/sites/default/files/dec-2012.jpg)**Published
+2012](/sites/default/files/dec-2012.jpg)**Published
 as [An Introduction to Data Representation
 Synthesis](http://cacm.acm.org/magazines/2012/12/157888-an-introduction-to-data-representation-synthesis/abstract)
 in December 2012 CACM Research Highlight. [Technical
@@ -478,7 +478,7 @@ Examples](http://research.microsoft.com/en-us/um/people/sumitg/pubs/pldi11-table
  ***Venue:*** PLDI 2011
 
 ![CACM Cover Aug
-2012](http://drupal.sigplan.org/sites/default/files/aug-2012.jpg)**Published
+2012](/sites/default/files/aug-2012.jpg)**Published
 as [Spreadsheet Data Manipulation Using
 Examples](http://cacm.acm.org/magazines/2012/8/153800-spreadsheet-data-manipulation-using-examples/abstract)
 in August 2012 CACM Research Highlight. [Technical
@@ -622,7 +622,7 @@ DSLs](http://portal.acm.org/citation.cfm?id=1868314)
 ***Venue:*** GPCE 2010
 
 ![CACM Cover June
-2012](http://drupal.sigplan.org/sites/default/files/CACM-Jun2012.jpg)**Published
+2012](/sites/default/files/CACM-Jun2012.jpg)**Published
 as [Lightweight Modular Staging: A Pragmatic Approach to Runtime Code
 Generation and Compiled
 DSLs](http://cacm.acm.org/magazines/2012/6/149801-lightweight-modular-staging/abstract)
@@ -667,7 +667,7 @@ Suter
 ***Venue:*** PLDI 2010
 
 ![CACM Cover February
-2012](http://drupal.sigplan.org/sites/default/files/feb-2012.jpg)**Published
+2012](/sites/default/files/feb-2012.jpg)**Published
 as a CACM Research Highlight (February 2012).**
 
 Nomination Statement: Synthesizing program fragments from high-level
@@ -695,7 +695,7 @@ Type-Safe Operating System](http://dx.doi.org/10.1145/1806596.1806610)
 ***Venue:*** PLDI 2010
 
 ![CACM Cover December
-2011](http://drupal.sigplan.org/sites/default/files/CACM-Dec2011.jpg)**Published
+2011](/sites/default/files/CACM-Dec2011.jpg)**Published
 as a CACM Research Highlight (December 2011).**
 
 Nomination Statement: This paper describes Verve, an operating system
@@ -728,7 +728,7 @@ Detection](http://portal.acm.org/citation.cfm?id=1542490)
 ***Venue:*** PLDI 2009
 
 ![CACM Cover November
-2010](http://drupal.sigplan.org/sites/default/files/CACM-Nov2010.jpg)**Published
+2010](/sites/default/files/CACM-Nov2010.jpg)**Published
 as a CACM Research Highlight (November 2010).**
 
 Nomination Statement: Past work on dynamic data race detection had to
@@ -835,7 +835,7 @@ Runtime](http://portal.acm.org/citation.cfm?id=1250762)
 ***Venue:*** PLDI 2007
 
 ![CACM Cover November
-2010](http://drupal.sigplan.org/sites/default/files/CACM-Nov2010.jpg)**Published
+2010](/sites/default/files/CACM-Nov2010.jpg)**Published
 as a CACM Research Highlight (November 2010).**
 
 Nomination Statement: The paper describes a precise and reasonably fast
@@ -878,7 +878,7 @@ Analysis](http://portal.acm.org/citation.cfm?id=1379022.1375615)
 ***Author:*** Isil Dillig, Thomas Dillig, and Alex Aiken  
 ***Venue:*** PLDI 2008
 
-![](http://drupal.sigplan.org/sites/default/files/CACM-August2010.jpg)**Published
+![](/sites/default/files/CACM-August2010.jpg)**Published
 as a CACM Research Highlight (August 2010). Retitled as: Reasoning About
 the Unknown in Static Analysis**
 
@@ -934,7 +934,7 @@ Compiler with a Proof Assistant](http://portal.acm.org/citation.cfm?id=1111320.1
 ***Author:*** Xavier Leroy  
 ***Venue:*** POPL 2006
 
-![](http://drupal.sigplan.org/sites/default/files/CACM-July2009.jpg)**Published
+![](/sites/default/files/CACM-July2009.jpg)**Published
 as a CACM Research Highlight (July 2009). Retitled as: Formal
 Verification of a Realistic Compiler**
 
@@ -990,7 +990,7 @@ Queues](http://doi.acm.org/10.1145/1506409.1506431)
 ***Authors:*** William N. Scherer III, Doug Lea, and Michael L. Scott  
 ***Venue:*** PPoPP 2006
 
-![](http://drupal.sigplan.org/sites/default/files/CACM-May2009.jpg)**Published
+![](/sites/default/files/CACM-May2009.jpg)**Published
 as a CACM Research Highlight (May 2009)**
 
 Nomination Statement: Describes "synchronous queues", a fundamental data
@@ -1124,7 +1124,7 @@ Jump, Han Lee, J. Eliot B. Moss, Aashish Phansalkar
 ***Venue:*** OOPSLA 2006.
 
 ![CACM Cover August
-2008](http://drupal.sigplan.org/sites/default/files/CACM-Aug2008.jpg)**Published
+2008](/sites/default/files/CACM-Aug2008.jpg)**Published
 as a CACM Research Highlight (August 2008).**
 
 
@@ -1135,7 +1135,7 @@ Transactions](http://dl.acm.org/citation.cfm?id=1378725)
 ***Venue:*** PPoPP 2005.
 
 ![CACM Cover August
-2008](http://drupal.sigplan.org/sites/default/files/CACM-Aug2008.jpg)**Published
+2008](/sites/default/files/CACM-Aug2008.jpg)**Published
 as a CACM Research Highlight (August 2008).**
 
 
@@ -1146,7 +1146,7 @@ Probability](http://dl.acm.org/citation.cfm?id=1409382)
 ***Venue:*** PLDI 2007.
 
 ![CACM Cover December
-2008](http://drupal.sigplan.org/sites/default/files/dec-2008.jpg)**Published
+2008](/sites/default/files/dec-2008.jpg)**Published
 as a CACM Research Highlight (December 2008).**
 
 
@@ -1170,7 +1170,7 @@ Nardelli, Magnus O. Myreen
 ***Venue:*** POPL 2009 and TPHOLs 2009.
 
 ![CACM Cover July
-2010](http://drupal.sigplan.org/sites/default/files/CACM-Jul2010.jpg)**Published
+2010](/sites/default/files/CACM-Jul2010.jpg)**Published
 as a CACM Research Highlight (July 2010).**
 
 
@@ -1181,7 +1181,7 @@ Higher-Order Program Analysis](http://dx.doi.org/10.1145/1995376.1995400)
 ***Venue:*** ICFP 2010.
 
 ![CACM Cover September
-2011](http://drupal.sigplan.org/sites/default/files/CACM-Sep2011.jpg)**Published
+2011](/sites/default/files/CACM-Sep2011.jpg)**Published
 as a CACM Research Highlight (September 2011).**
 
 
@@ -1191,5 +1191,5 @@ as a CACM Research Highlight (September 2011).**
 ***Venue:*** POPL 2010.
 
 ![CACM Cover August
-2012](http://drupal.sigplan.org/sites/default/files/aug-2012.jpg)**Published
+2012](/sites/default/files/aug-2012.jpg)**Published
 as a CACM Research Highlight (August 2012).**
