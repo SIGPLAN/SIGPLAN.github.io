@@ -5,7 +5,7 @@ RewriteEngine On
 
 # We no longer nest the Conference Awards
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule    ^/Awards/Conferences/(.*)$	/Awards/$1	[L,R=302]
+RewriteRule    ^Awards/Conferences/(.*)$	/Awards/$1	[L,R=302]
 
 # We previously used a /Main suffix; this is not longer used.
 RewriteCond %{REQUEST_FILENAME} !-f
