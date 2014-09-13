@@ -69,9 +69,8 @@ chairs/vice chairs changing every third year.
 
 The current PLDI steering committee is:
 
--   Kathleen Fisher (Chair), past past SIGPLAN Chair
 -   Philip Wadler, past SIGPLAN Chair
--   Jan Vitek, current SIGPLAN Chair and 2012 General Chair
+-   Jan Vitek (Chair), current SIGPLAN Chair and 2012 General Chair
 -   Graham Hutton, past SIGPLAN Vice Chair
 -   Jeremy Gibbons, current SIGPLAN Vice Chair
 -   Frank Tip, 2012 Program Chair
@@ -79,7 +78,6 @@ The current PLDI steering committee is:
 -   Cormac Flanagan, 2013 Program Chair
 -   Michael O'Boyle, 2014 General Chair
 -   Keshav Pingali, 2014 Program Chair
-
 
 **Web Pages of Previous Conferences**  
 
