@@ -1,3 +1,27 @@
+2014:
+  Awardee: Ralf Lämmel and Simon Peyton Jones
+  Other: |
+    (for 2004) [Scrap More Boilerplate: Reflection, Zips, and Generalised Casts](http://dl.acm.org/citation.cfm?id=1016883)
+  Citation: |
+    In their TLDI 2003 paper, Lämmel and Peyton Jones introduced
+    "Scrap Your Boilerplate" (SYB), a simple but powerful design
+    pattern for generic programming in Haskell.  SYB introduced a
+    library of strategic combinators which one could use to compose
+    generic custom traversals of complex data structures, such as
+    syntax trees or XML documents.  It was not initially clear,
+    however, whether SYB would scale to handle more traditional
+    applications of generic programming, such as serialization,
+    deserialization, and generic equality, which require a form of
+    reflection.  The authors' subsequent ICFP 2004 paper significantly
+    extended their original SYB library with support for reflection,
+    zips, and generalised casts, thus demonstrating the applicability
+    of SYB to a much broader range of generic programming tasks.  This
+    broad applicability, combined with the ease with which programmers
+    could pick up and use the library, led to its adoption in numerous
+    Haskell developments, and contributed greatly to the burgeoning
+    interest in statically typed, practically usable libraries for
+    generic programming over the past decade.
+
 2013: 
   Awardee: Didier Le Botlan and Didier Rémy
   Other: |
