@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: award
 title: "Programming Languages Achievement Award"
 ---
 Given by ACM SIGPLAN to recognize an individual or individuals who

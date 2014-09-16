@@ -1,0 +1,193 @@
+2012:
+  Awardee: Matthias Felleisen
+  Citation: |
+
+    The SIGPLAN 2012 Achievement award has been won by Matthias
+    Felleisen, an exemplary researcher whose work covers theory,
+    practice, and education, with each reinforcing the others.  He has
+    made fundamental contributions across the entire spectrum of the
+    programming language field.  He introduced evaluation contexts as
+    a notation for specifying operational semantics, and
+    progress-and-preservation proofs of type safety, both of which are
+    used in scores of research papers each year, often without
+    citation.  His other contributions include small-step operational
+    semantics for control and state, A-normal form, delimited
+    continuations, mixin classes and mixin modules, a fully-abstract
+    semantics for Sequential PCF, web programming techniques,
+    higher-order contracts with blame, and static typing for dynamic
+    languages.
+
+    Matthias tests his ideas by building real systems, working in the
+    framework of PLT Scheme, later renamed Racket, which includes
+    interactive development environments, interactive debugging and
+    flow analysis, documentation tools, and support for language
+    levels and multiple languages.  He has coauthored a series of
+    influential texts, including four 'little' books&#8212;The Little
+    Schemer, The Seasoned Schemer, A Little Java, and The Little
+    MLer&#8212;the widely used textbook How to Design Programs, and a
+    monograph on Semantics Engineering.  He founded a series of
+    workshops and projects to support K&#8211;12 teaching, including
+    TeachScheme!, Reach Java, and Program by Design.  Moreover, he has
+    nurtured a new generation of researchers, who are now respected in
+    their own right and pursue the same goals of excellence, rigor,
+    and real-world impact that have characterized Matthias's work.
+
+2011:
+  Awardee: Sir Charles Antony Richard Hoare, FRS, FREng, FBCS
+  Citation: |
+
+    Tony Hoare's long career in computing is studded with seminal
+    engineering	 and scientific contributions to Programming Languages;
+    his views on programming language design have been recognized as
+    profound even by those who declined to follow his advice.
+
+    Two contributions stand out as fundamental: the development of
+    what is now known as Hoare logic, and Communicating Sequential
+    Processes. Hoare logic is a system for reasoning about imperative
+    programs. It was introduced in the 1969 article "An Axiomatic
+    Basic for Computer Programming", which is perhaps the most
+    influential 6-page paper ever published in CACM. Drawing on
+    earlier work of Robert Floyd, an entire sub-area of computer
+    science has developed from Hoare's initial ideas; many modern
+    verification systems build on Hoare logic.
+
+    Only 9 years later, CACM published Hoare's paper on Communicating
+    Sequential Processes (CSP). Contemporary with Milner's CCS, but
+    pursuing complementary goals, CSP has been enormously influential.
+    It provided the basis for the occam programming language and its
+    realization in the Transputer; it has been used for modeling and
+    verifying the concurrency properties of critical software systems;
+    and it inspired a flowering of subsequent concurrency research.
+
+    Although either of these contributions would alone justify the
+    achievement award, Hoare is doing more with his Unifying Theories
+    research, which aims to unify theories of programming across
+    paradigm, abstraction level and semantic style. Beyond all of
+    this, Tony is renowned for his unfailing courtesy, his
+    inspiration, and his dedication to his chosen calling. He is the
+    epitome of a scholar and a gentleman.
+
+2010:
+  Awardee: Gordon D. Plotkin
+  Citation: |
+
+    Professor Gordon D. Plotkin has made fundamental advances in
+    almost every area of the theory of programming languages. His
+    contributions have helped to establish the mathematical
+    foundations on which the scientific study of programming languages
+    are based.  His 1975 paper "Call-by-name, Call-by-value, and the
+    λ-calculus" exposed the relationship between the reduction
+    semantics of the λ-calculus and its operational semantics, as
+    defined by Landin's SECD machine. In the process, he defined what
+    it meant for a calculus and a semantics to correspond: this
+    launched the study of operational semantics as it is now
+    understood. He invented Structural Operational Semantics as a
+    technique for specifying the semantics of a wide range of
+    programming languages, concurrent as well as sequential; this form
+    of semantics is now one of the basic working tools of researchers
+    developing new programming languages and type systems.
+
+    Plotkin's contributions to the development of the mathematical
+    theory of domains, and its applications to the denotational
+    semantics of programming languages, have been of fundamental
+    importance: they include his powerdomain construction, systematic
+    development of the general theory of the solution of recursive
+    domain equations, and his work on PCF and the full abstraction
+    problem.
+
+    Plotkin's work with Glynn Winskel on event structures is the basis
+    for reasoning about distributed systems, process algebras, and
+    reactive systems. Event structures have been enormously
+    influential in the development of models of concurrency. He has
+    also investigated the logical foundations of computer security,
+    including logics for specifying authorization policies for
+    computer systems. Plotkin continues to make bold and deep
+    contributions, for example, in his current work on the algebraic
+    theory of effects, and on languages and calculi for biochemical
+    modelling. Taken together, Gordon Plotkin's contributions over the
+    past four decades exhibit a range and depth unmatched in the
+    field.
+
+2009:
+  Awardee: Rod Burstall
+  Citation: |
+
+    Professor Rod Burstall has made deep, seminal contributions to the
+    design of programming languages and the field of program
+    verification. These contributions, which many of us now take for
+    granted, include the introduction of algebraic datatypes coupled
+    with pattern-matching clausal function definitions as found in
+    Hope, ML, Haskell and Coq; the generalization and use of
+    structural induction for proving properties of programs; the
+    fold-unfold method for deriving efficient, provably-correct
+    programs from easy to understand prototypes; mechanisms for
+    reasoning about pointer-based, imperative programs that directly
+    led to the development of separation logic; proof techniques and
+    connections to modal logic for reasoning about concurrent
+    programs; and the use of dependent types and algebraic
+    specifications for constructing module systems that directly
+    influenced SML and OCaml. Through these amazing contributions and
+    his collaborations and mentorship, he helped build one of the most
+    important centers of programming research at Edinburgh, which was
+    eventually institutionalized as the Laboratory for Foundations of
+    Computer Science."
+
+
+2008:
+  Awardee: Barbara Liskov"
+  Citation: |
+
+    Professor Barbara Liskov has had tremendous impact on the fields
+    of programming languages, operating systems, distributed systems,
+    and information security. Much of her early research focus was on
+    data abstraction, modularity, and encapsulation as typified by the
+    CLU programming language. At the time, CLU incorporated a number
+    of advanced features, such as modular encapsulation of abstract
+    data types, bounded polymorphism, exceptions, and iterator
+    abstraction that had clear influence over successive languages
+    including Ada, Modula-3, C++, and Java. Through CLU, the related
+    books and articles, her work on behavioral subtyping, and her
+    courses on programming methodology, Professor Liskov changed the
+    way that a generation of engineers thought about and constructed
+    large software systems. Professor Liskov's work on the Argus
+    project also brought to the fore the idea of integrating
+    transactions and orthogonal persistence into a programming
+    language with an aim towards building reliable distributed
+    systems. More recently, her work on information flow control
+    helped to start a research focus on end-to-end security using
+    language-based mechanisms for enforcement."
+
+
+2007:
+  Awardee: Niklaus Wirth
+
+2006:   
+  Awardee: Ron Cytron, Jeanne Ferrante, Barry Rosen, Mark Wegman, and Kenneth Zadeck
+
+2005: 
+  Awardee: Erich Gamma and Richard Helm
+
+2004: 
+  Awardee: John Backus
+
+2003:
+  Awardee: John Reynolds
+
+2002:
+  Awardee: John McCarthy
+
+2001:
+  Awardee: Robin Milner
+
+2000:
+  Awardee: Susan Graham
+
+1999:
+  Awardee: Ken Kennedy
+
+1998:
+  Awardee: Fran Allen
+
+1997:
+  Awardee: Guy Steele
+
