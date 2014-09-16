@@ -2,6 +2,108 @@
 layout: default
 title: "SIGPLAN CACM Research Highlights Nominated Papers"
 ---
+
+### Selected July 2014
+
+> Title: <a href="http://dl.acm.org/citation.cfm?doid=2500365.2500617">Functional Geometry and the Traite' de Lutherie</a>  
+> Authors: Harry Mairson, Brandeis University  
+> Venue: ICFP 2013
+
+This paper presents a programming language designed to explain how
+string instrument makers codified their knowledge of instrument
+making. It builds on François Denis's history book Traite' de
+lutherie, observing that there is an underlying programming language
+behind the descriptions of the process for making an instrument. Even
+better, the descriptions are often overly verbose because they are
+low-level and repetitious, enough so that the usual benefits of
+abstraction can help others learn these skills more effectively ---
+building and using a few helper functions here and there can make this
+"code" much easier to read and learn from. The paper also demonstrates
+thru lots of code fragments how to describe several instruments,
+culminating in a violin by Andrea Amati.
+
+
+> Title: <a href="http://dl.acm.org/citation.cfm?doid=2500365.2500601">Exploiting Vector Instructions with Generalized Stream Fusion</a>  
+> Authors: Geoffrey Mainland, Roman Leshchinskiy, Simon Peyton Jones, Microsoft Research   
+> Venue: ICFP 2013
+
+This paper demonstrates how a generalized notion of streams and
+accompanying stream fusion techniques can produce code significantly
+faster than hand-tuned C code for certain kinds of high-level functional code.
+For example,
+the Haskell implementation of dot product (on vectors of floats)
+can be turned into code
+that uses the SSE instructions in an unrolled loop for performance on
+par with ddotp from GotoBLAS (highly tuned assembly language routines
+that are widely recognized to be the fastest available and generally
+faster than what GCC can produce for hand-tuned C code).
+  
+
+> Title: <a href="http://dl.acm.org/citation.cfm?doid=2500365.2500613">Fun with Semirings: A Functional Pearl on the Abuse of Linear Algebra</a>  
+>  Authors: Stephen Dolan, University of Cambridge  
+>  Venue: ICFP 2013
+
+The paper demonstrates common algebraic structure shared by, among
+other things, sets, graphs, regular expressions, imperative programs,
+and datatypes. It then shows how this structure can be exploited in a
+generic way by a library to provide implementations of dominators, a
+function that turns a state machine into a corresponding regular
+expression, solutions to dataflow equations, and the knapsack
+problem. The key insight is that all of these problems are instances
+of linear algebra problems -- not over fields like the complex or real
+numbers, but instead over a "closed semi-ring", a structure with a bit
+less structure than a field. Importantly, a closed semi-ring doesn't
+have a notion of negation or reciprocals, which is what makes it work
+for all those structures mentioned earlier, as they don't have a
+natural notion of negation of reciprocal.  Although most of the
+individual results in this paper were previously known in specific
+communities, this paper does an exceptional job of pulling all the
+threads together and giving an overview of the generality of the
+abstraction.
+
+> Title: <a href="http://dl.acm.org/citation.cfm?doid=2509136.2509546">Verifying Quantitative Reliability of Programs That Execute on Unreliable Hardware</a>  
+>  Authors: Michael Carbin, Sasa Misailovic, Martin Rinard, MIT  
+>  Venue: OOPSLA 2013
+
+The paper provides an important step forward in reasoning about
+programs that execute on unreliable hardware. It provides a strong
+methodology for ensuring (probabilistic) correctness guarantees in the
+face of such unreliability, which can enable such hardware to be used
+effectively and robustly.
+
+> Title: <a href="http://dl.acm.org/citation.cfm?doid=2509136.2509515">Empirical Analysis of Programming Language Adoption</a>  
+> Authors: Leo Meyerovich, U California Berkeley, USA Ariel Rabkin, Princeton U, USA  
+> Venue: OOPSLA 2013
+
+Based on a large survey and large repository analysis, this paper
+draws very interesting conclusions about what makes a programming
+language be adopted in practice (or not). Many design and
+implementation details that researchers and language designers
+traditionally find important (i.e. intrinsic features) seem not to be
+that important in practice. Instead, open source libraries, existing
+code, and experience strongly influence developers when selecting a
+language for a project. When considering intrinsic aspects of
+languages, developers prioritize expressivity over correctness. They
+perceive static types as primarily helping with the latter. Another
+finding is that developers quickly pick up new languages when
+needed. The reported data is interesting and gives plenty of food for
+thought for language designers. The study should also be interesting
+for anyone managing large software projects and having to make
+language choices.
+  
+
+------------------
+
+*Two of the papers selected in this round are "functional pearls",
+which are elegant, instructive examples of functional programming.
+They can explain an old idea, but do so in a new way that clarifies
+the idea and yields new insights.  Jon Bentley's Programming Pearls
+column in CACM inspired Richard Bird's Functional Pearls column in the
+Journal of Functional Programming. Pearls were later added as
+submission categories for ICFP and POPL.*
+
+
+
 ### Nominated September 2013
 
 ***Title:*** [A General Constraint-Centric Scheduling Framework for Spatial
