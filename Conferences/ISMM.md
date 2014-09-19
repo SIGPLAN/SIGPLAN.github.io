@@ -11,10 +11,10 @@ allocation and referencing behavior.
 **ISMM Fast Facts**  
 
 > [ISMM 2015 Web Page](http://conf.researchr.org/home/ismm-2015)     
-> Location: Portland, Oregon
-> General Chair: [Tony Hosking](http://www.cs.purdue.edu/~hosking), Purdue University
-> Program Chair: [Mike Bond](http://web.cse.ohio-state.edu/~mikebond), Ohio State University
-> Dates: Sat 13 - Sun 14 June 2015
+> Location: Portland, Oregon  
+> General Chair: [Tony Hosking](http://www.cs.purdue.edu/~hosking), Purdue University  
+> Program Chair: [Mike Bond](http://web.cse.ohio-state.edu/~mikebond), Ohio State University  
+> Dates: Sat 13 - Sun 14 June 2015  
 
 **Other ISMM Information**  
 Steering Committee
