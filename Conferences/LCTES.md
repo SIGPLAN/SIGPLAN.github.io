@@ -40,7 +40,7 @@ where they can interact.
 ***Steering Committee***
  
 -   [Koen De Bosschere](http://www.elis.ugent.be/~kdb/)
--   [Krisztian Flautner](http://www.eecs.umich.edu/~manowar/aboutme.html/)
+-   [Krisztian Flautner](http://www.eecs.umich.edu/~manowar/)
 -   [Rajiv Gupta](http://www.cs.arizona.edu/people/gupta/)
 -   [Mary Jane Irwin](http://www.cse.psu.edu/~mji/)
 -   [Mahmut Kandemir](http://www.cse.psu.edu/~kandemir/)
@@ -59,4 +59,4 @@ where they can interact.
 -   [Reinhard Wilhelm](http://www.cs.uni-sb.de/RW/users/wilhelm/wilhelm.html)
 -   [David Whalley](http://www.cs.fsu.edu/~whalley/)
  
-- [LCTES Steering Committee Rules](Conferences/LCTES/By-laws)
+- [LCTES Steering Committee Rules](/Conferences/LCTES/By-laws)

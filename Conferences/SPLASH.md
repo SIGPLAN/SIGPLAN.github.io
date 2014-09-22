@@ -21,11 +21,11 @@ Most Influential OOPSLA Paper Award
 
 Each year a "Most Influential" OOPSLA paper is chosen and an
 presentation is made at OOPSLA. More details about this award and
-past winning papers can be found [here](Awards/Conferences/OOPSLA/Main). SIGPLAN
+past winning papers can be found [here](/Awards/OOPSLA/). SIGPLAN
 also makes several other awards including an "Outstanding
 Dissertation Award." Please consider making a nomination for one of
 these awards.  More details about the SIGPLAN awards can be found
-[here](Awards/Main).
+[here](/Awards/).
 
 Web Pages of Previous Conferences
 ---------------------------------
