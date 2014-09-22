@@ -24,7 +24,7 @@ The current VEE steering committee is:
 -  [Dilma Da Silva](http://www.dilmamds.com/) (Qualcomm Research, Chair)
 -  [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/) (Australian National U)
 -  [Marc Fiuczynski](http://www.linkedin.com/pub/marc-fiuczynski/2/160/221) (Akamai)
--  [Steven Hand](http://www.cl.cam.ac.uk/~smh22/) (U of Cambridge)
+-  [Steven Hand](http://research.microsoft.com/en-us/people/sthand/) (U of Cambridge)
 -  [Gernot Heiser](http://www.cse.unsw.edu.au/~gernot/) (NICTA and UNSW)
 -  [Doug Lea](http://g.oswego.edu/) (SUNY at Oswego)
 -  [Steve Muir](http://www.linkedin.com/in/9muir) (Comcast)

@@ -21,11 +21,11 @@ systems, and programming interfaces. POPL is in-cooperation with
 
 Each year a "Most Influential" POPL paper is chosen and an
 presentation is made at POPL. More details about this award and
-past winning papers can be found [here](Awards/Conferences/POPL/Main). SIGPLAN
+past winning papers can be found [here](/Awards/Conferences/). SIGPLAN
 also makes several other awards including an "Outstanding
 Dissertation Award." Please consider making a nomination for one of
 these awards.  More details about the SIGPLAN awards can be found
-[here](Awards/Main).
+[here](/Awards/).
 
 **POPL Steering Committee**
 

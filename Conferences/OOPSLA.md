@@ -16,9 +16,9 @@ OOPSLA Fast Facts
 > [SPLASH 2012 Web Page](http://splashcon.org/)  
 > Location: Tucson, AZ  
 > Conference Chair:
-> [Gary T. Leavens](chair@splashcon.org), University of Central Florida  
+> [Gary T. Leavens](mailto:chair@splashcon.org), University of Central Florida  
 > OOPLSA Program Chair:
-> [Matthew B. Dwyer](oopsla@splashcon.org), University of Nebraska  
+> [Matthew B. Dwyer](mailto:oopsla@splashcon.org), University of Nebraska  
 > Dates: October 19-26, 2012  
 
 **Most Influential OOPSLA Paper Award**
