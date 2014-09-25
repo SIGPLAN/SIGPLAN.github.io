@@ -7,18 +7,13 @@ premier forum for researchers, developers, practitioners, and
 students to present research on programming language design and
 implementation.   
 
+
 **PLDI Fast Facts**
-
-> [PLDI 2014 Web Page](http://conferences.inf.ed.ac.uk/pldi2014/)  
-> Location: Edinburgh, UK  
-> General Chair: [Michael O'Boyle](http://www.dcs.ed.ac.uk/home/mob/),
-> University of Edinburgh   
-> Program Chair:
-> [Keshav Pingali](http://www.cs.utexas.edu/~pingali/),
-> University of Texas, Austin  
-> Dates: June 9-11, 2014
-
-
+> [PLDI 2015 Web Page]( http://conf.researchr.org/home/pldi2015)  
+> Location: Portland, Oregon, USA  
+> General Chair: [David Grove](http://researcher.ibm.com/view.php?person=us-groved)  
+> Program Chair: [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/)  
+> Dates:  June 13-17, 2015  
 
 **Co-located Events**
 
@@ -33,11 +28,9 @@ implementation.
 -   [MSPC 2013](http://safari.ece.cmu.edu/MSPC2013/): ACM SIGPLAN Workshop on Memory Systems Performance and Correctness
 
 
-
 **Practices of PLDI**
 
 The document [Practices of PLDI](http://www.sigplan.org/sites/default/files/PracticesofPLDI.pdf) describes the contract between PLDI organizers and the broader community.  The document was approved in June 2013.  The Chair of the PLDI Steering Committee has the source for the document and is responsible for maintaining it in consultation with the PLDI Steering Committee and the broader community.  
-
 
 
 **Most Influential PLDI Paper Award**  
@@ -46,9 +39,8 @@ presentation is made at PLDI. More details about this award and
 past winning papers can be found [here](/Awards/Conferences/PLDI). SIGPLAN
 also makes several other awards including an "Outstanding
 Dissertation Award." Please consider making a nomination for one of
-these awards.&#160; More details about the SIGPLAN awards can be found
+these awards. More details about the SIGPLAN awards can be found
 [here](Awards/Main).
-
 
 **PLDI Steering Committee**
 
@@ -81,6 +73,7 @@ The current PLDI steering committee is:
 
 **Web Pages of Previous Conferences**  
 
+- [PLDI 2014](http://conferences.inf.ed.ac.uk/pldi2014/)  (Edinburgh, UK)  
 - [PLDI 2013](http://pldi2013.ucombinator.org/)  (Seattle, WA)  
 - [PLDI 2012](http://pldi12.cs.purdue.edu/)  (Beijing, China)   
 - [PLDI 2011](http://pldi11.cs.utah.edu/) (San Jose, CA)  
