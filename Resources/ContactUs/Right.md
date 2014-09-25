@@ -22,7 +22,7 @@ title: "Ex-Officio Members"
     - POPL:   [John Field](mailto:jfield@google.com)
     - PLDI:   [Kathleen Fisher](http://www.cs.tufts.edu/~kfisher)
     - LCTES:  [Zhiyuan Li](mailto:li@cs.purdue.edu)
-    - ISMM:   [David Grove](groved@us.ibm.com)
+    - ISMM:   [David Grove](mailto:groved@us.ibm.com)
     - PPOPP:  [Calin Cascaval](mailto:cascaval@acm.org)
     - Haskell: [Stephanie Weirich](mailto:sweirich@cis.upenn.edu)
     - ASPLOS:  [David Wood](mailto:david@cs.wisc.edu)
