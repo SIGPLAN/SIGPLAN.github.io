@@ -41,9 +41,9 @@ involved in directing SIGPLAN.
     - SPLASH: [William Cook](mailto:wcook@cs.utexas.edu)
     - ICFP:   [Manuel Chakravarty](mailto:chak@cse.unsw.edu.au) and Zhenjiang Hu
     - POPL:   [John Field](mailto:jfield@google.com)
-    - PLDI:   [Kathleen Fisher](http://www.cs.tufts.edu/~kfisher)
+    - PLDI:   [Jan Vitek](mailto:jv@cs.purdue.edu)
     - LCTES:  [Zhiyuan Li](mailto:li@cs.purdue.edu)
-    - ISMM:   [Jan Vitek](mailto:jv@cs.purdue.edu)
+    - ISMM:   [David Grove](mailto:groved@us.ibm.com)
     - PPOPP:  [Calin Cascaval](mailto:cascaval@acm.org)
     - Haskell: [Stephanie Weirich](mailto:sweirich@cis.upenn.edu)
     - ASPLOS:  [David Wood](mailto:david@cs.wisc.edu)
