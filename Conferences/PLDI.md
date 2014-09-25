@@ -9,6 +9,7 @@ implementation.
 
 
 **PLDI Fast Facts**
+
 > [PLDI 2015 Web Page]( http://conf.researchr.org/home/pldi2015)  
 > Location: Portland, Oregon, USA  
 > General Chair: [David Grove](http://researcher.ibm.com/view.php?person=us-groved)  
