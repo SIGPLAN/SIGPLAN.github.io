@@ -16,25 +16,13 @@ implementation.
 > Program Chair: [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/)  
 > Dates:  June 13-17, 2015  
 
-**Co-located Events**
-
--   [ISMM 2013]( http://www.cs.technion.ac.il/~erez/ismm13/): International
-    Symposium on Memory Management
--   [LCTES 2013](http://www.dcs.gla.ac.uk/conferences/lctes13/): ACM SIGPLAN
-    Conference on Languages, Compilers, Tools and Theory for Embedded
-    Systems
--   [PASTE 2013](http://dept.cs.williams.edu/PASTE2013/index.html): ACM SIGPLAN
-     Workshop on Program Analysis for Software Tools and Engineering 
--   [X10 2013](http://x10-lang.org/workshop/workshop13.html): ACM SIGPLAN X10 Workshop
--   [MSPC 2013](http://safari.ece.cmu.edu/MSPC2013/): ACM SIGPLAN Workshop on Memory Systems Performance and Correctness
-
-
 **Practices of PLDI**
 
 The document [Practices of PLDI](http://www.sigplan.org/sites/default/files/PracticesofPLDI.pdf) describes the contract between PLDI organizers and the broader community.  The document was approved in June 2013.  The Chair of the PLDI Steering Committee has the source for the document and is responsible for maintaining it in consultation with the PLDI Steering Committee and the broader community.  
 
 
 **Most Influential PLDI Paper Award**  
+
 Each year a "Most Influential" PLDI paper from 10 years previously is chosen and an
 presentation is made at PLDI. More details about this award and
 past winning papers can be found [here](/Awards/Conferences/PLDI). SIGPLAN
