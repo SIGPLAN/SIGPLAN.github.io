@@ -1,0 +1,28 @@
+{% assign details = include.details %}
+{% assign year    = include.year %}
+
+{% assign awardee = details.Awardee %}
+
+{% if awardee[0] <> nil %}
+  {% assign awardee = awardee | array_to_sentence_string %}
+{% endif %}
+
+<h4 class="alert alert-info" id="{{year}}"><span class="badge pull-right">{{year}}</span> {{awardee}} </h4>
+            
+{% if details.Other <> nil %}
+  <font size="+1">{{ details.Other | markdownify }}</font>
+{% endif %}
+
+{% if details.Advisor <> nil %}
+
+  <p><strong>Advisor:</strong>&nbsp;{{ details.Advisor }}</p>
+  
+{% endif %}
+
+{% if details.Citation <> nil %}
+
+  <p><strong>Citation:</strong></p>
+  <blockquote >{{ details.Citation | markdownify }}</blockquote>
+  
+{% endif %}
+                      
