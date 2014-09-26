@@ -31,7 +31,13 @@
             <h4 class="alert alert-info" id="{{year}}"><span class="badge pull-right">{{year}}</span> {{awardee}} </h4>
                         
             {% if details.Other <> nil %}
-              {{ details.Other | markdownify }}
+              <font size="+1">{{ details.Other | markdownify }}</font>
+            {% endif %}
+
+            {% if details.Advisor <> nil %}
+
+              <p><strong>Advisor:</strong>&nbsp;{{ details.Advisor }}</p>
+              
             {% endif %}
 
             {% if details.Citation <> nil %}

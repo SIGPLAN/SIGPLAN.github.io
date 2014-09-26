@@ -1,10 +1,54 @@
+2014: 
+  Awardee: "Aaron Turon, Northeastern University"
+  Other: |
+    Understanding and Expressing Scalable Concurrency    
+  Advisor: Mitchell Wand
+  Citation: |
+
+    Aaron Turon's dissertation makes several major contributions to
+    the design, implementation, and verification of scalable
+    concurrent programs.  First, the dissertation presents "reagents",
+    a high-level language of combinators for designing---and
+    *composing*---lock-free data structures.  Second, the dissertation
+    shows how lock-free data structures can be used to scalably
+    implement Fournet and Gonthier's join calculus, in a newly
+    re-engineered C# library that significantly outperforms prior
+    lock-based implementations.  Third, the dissertation develops
+    powerful theoretical foundations---based on logical relations and
+    separation logic---for verifying the correctness of scalable
+    concurrent algorithms via contextual refinement.  The members of
+    the award committee were impressed with both the breadth and depth
+    of the work, as well as the elegance of the exposition.
+
+2013: 
+  Awardee: "Patrick Rondon, University of California, San Diego"
+  Other: |
+    Verifying Low-Level Programs via Liquid Type Inference
+  Advisor: Ranjit Jhala
+  Citation: |
+
+    Patrick Rondon’s dissertation makes several significant
+    contributions to the field of automatic program verification.  It
+    takes a type system -- a highly scalable yet not quite precise
+    method of dealing with programs -- and refines it using
+    Satisfiability Modulo Theory (SMT) techniques to compensate for
+    the precision loss.  There are implementations for both OCaml and
+    C.  The achieved degree of effectiveness and automation is
+    astonishing: programs that are beyond the existing verification
+    tools can be handled fully automatically within seconds.  It
+    demonstrates that formal verification can yield significant
+    reliability guarantees for mainstream software engineering, at a
+    reasonable cost.  In addition, the thesis contains a comprehensive
+    formalization with very detailed, readable proofs.  The members of
+    the award committee were impressed by the quality of the work and
+    the clarity of the presentation.
+
 2012:
   Awardee: "Dan Marino, University of California Los Angeles"
   Other: |
     Simplified Semantics and Debugging of Concurrent Programs via Targeted Race Detection
+  Advisor: Todd Millstein
   Citation: |
-
-    Advisor: Todd Millstein
 
     This dissertation addresses the problem of obtaining reliable
     results from concurrent programs. As a first step, the
@@ -35,8 +79,8 @@
   Awardee: "Robert L. Bocchino, University of Illinois at Urbana-Champaign"
   Other: |
     An Effect System and Language for Deterministic-by-Default Parallel Programming
+  Advisor: Vikram Adve
   Citation: |
-    Advisor: Vikram Adve
 
     This dissertation makes several significant contributions to the
     field of parallel and concurrent programming. The main technical
@@ -56,3 +100,54 @@
     Selection commmittee: Ras Bodik, Matthew Dwyer, Matthew Flatt,
     Matthew Fluet, Kevin Hammond, Nathaniel Nystrom, Kostis Sagonas,
     Peter Sewell, Peter Thiemann
+
+2009:
+  Awardee: "Akash Lai and William Thies"
+
+2008:
+  Awardee: "Michael Bond and Viktor Vafeiadis"
+
+2007:
+  Awardee: "Swarat Chaudhuri"
+
+2006:
+  Awardee: "Xiangyu Zhang, University of Arizona"
+  Other: |
+    Fault Location via Dynamic Slicing
+  Advisor: Rajiv Gupta
+  Citation: |
+
+    Dynamic slicing is a technique for determining which variables and
+    data structures affected values causing a fault (bug) at a
+    particular location in a particular run of a program, thus
+    allowing a programmer to work backwards to determine the ultimate
+    cause of a fault. Previously this approach was too expensive to
+    use in practice. Zhang has improved the performance by orders of
+    magnitude, making it practical. The committee believes this work
+    will have considerable impact and value in practice.
+
+
+2005:
+  Awardee: "Sumit Gulwani, University of California, Berkeley"
+  Other: |
+    Program Analysis using Random Interpretation
+  Advisor: George Necula
+
+2003:
+  Awardee: "Godmar Back, University of Utah"
+  Other: |
+    Isolation, Resource Management and Sharing in the KaffeOS Java Runtime System
+  Advisor: Wilson Hsieh
+
+2002:
+  Awardee: "Michael Hicks, University of Pennsylvania"
+  Other: |
+    Dynamic Software Updating
+  Advisor: Scott Nettles
+
+2001:
+  Awardee: "Rastislav Bodik, University of Pittsburgh"
+  Other: |
+    Path-Sensitive Value-Flow Optimizations of Programs
+  Advisor: Rajiv Gupta and Mary Lou Soffa
+
