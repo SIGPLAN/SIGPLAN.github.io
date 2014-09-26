@@ -6,17 +6,16 @@ The PPoPP Symposia is the forum for leading papers on the principles and foundat
 
 **PPoPP Fast Facts**
 
-> [PPoPP 2014](https://sites.google.com/site/ppopp2014/)  
-> Location: Orlando, FL, USA  
-> General Chairs:
-> Jose Moreira, IBM Research  
-> Program Chair: James Larus, Microsoft Research  
-> Dates: Feb, 2014
+> [PPoPP 2015](http://ppopp15.soe.ucsc.edu/)  
+> Location: San Francisco Bay Area, CA, USA  
+> General Chair: Albert Cohen, INRIA
+> Program Chair: David Grove, IBM Research  
+> Dates: Feb, 2015
 
 **Co-located Events**
 
-- HPCA: [The IEEE International Symposium on High Performance Computing Architecture](http://hpca20.ece.ufl.edu)
-- CGO: [International Symposium on Code Generation and Optimization](http://cgo.org/cgo2014/)
+- HPCA: [The IEEE International Symposium on High Performance Computing Architecture](http://darksilicon.org/hpca/)
+- CGO: [International Symposium on Code Generation and Optimization](http://cgo.org/cgo2015/)
 
 **Steering Committee**
 
@@ -24,6 +23,8 @@ The current PPoPP Steering Committee is:
 
  * Calin Cascaval (chair)
  * Mary Hall
+ * Jim Larus
+ * Jose Moreira
  * David Padua
  * Keshav Pingali
  * J. Ramanujam
@@ -32,6 +33,7 @@ The current PPoPP Steering Committee is:
 
 **Web Pages of Previous Conferences**
 
+- [PPoPP 2014](https://sites.google.com/site/ppopp2014/)  
 - [PPoPP 2013](http://ppopp2013.ics.uci.edu) (Shenzhen, China)  
 - PPoPP 2012 (New Orleans, LA)  
 - [PPoPP 2011](http://ppopp11.ac.uma.es/tiki-index.php) (San Antonio, TX)  
