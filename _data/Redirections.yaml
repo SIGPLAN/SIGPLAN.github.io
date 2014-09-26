@@ -6,6 +6,9 @@
 "Awards/Conferences/(.*)":			"Awards/$1"
 "Conferences/(.*)/Awards":			"Awards/$1"
 
+# Any number suffix is replaced with a link
+"(.*)/([0-9]+)":				"$1#$1"
+
 # We previously used a /Main suffix; this is not longer used.
 "(.*)/Main": 	       	     	     	     	 "$1"
 
