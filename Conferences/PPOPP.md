@@ -8,7 +8,7 @@ The PPoPP Symposia is the forum for leading papers on the principles and foundat
 
 > [PPoPP 2015](http://ppopp15.soe.ucsc.edu/)  
 > Location: San Francisco Bay Area, CA, USA  
-> General Chair: Albert Cohen, INRIA
+> General Chair: Albert Cohen, INRIA  
 > Program Chair: David Grove, IBM Research  
 > Dates: Feb, 2015
 
