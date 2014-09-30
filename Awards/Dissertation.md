@@ -12,10 +12,10 @@ OOPSLA, POPL, or PLDI.
 
 Nominations must be submitted to the
 [secretary](mailto:secretary_sigplan@acm.org) of SIGPLAN by January
-5th 2014 to be considered for this year's award. The nominated dissertation
+4th 2015 to be considered for this year's award. The nominated dissertation
 must be available in an English language version to facilitate
 evaluation by the selection committee and have been awarded in the
-year 2013.
+year 2014.  
 
 A nomination should consist of the following items:
 
@@ -46,18 +46,15 @@ Reynolds is renowned for his many technical contributions.
 Reynolds was an inspiration to all he worked with. He was well known for helping colleagues and students work through ideas. But his influence went well beyond his immediate circle; many researchers who never worked with Reynolds nevertheless built on his ideas.
  
 **Selection Committee**
-  
- * [Vikram Adve](http://llvm.cs.uiuc.edu/~vadve/Home.html) - University of Illinois at Urbana-Champaign
- * [Ivica Crnkovic](http://www.idt.mdh.se/~icc/) - Mälardalen University
- * [Elisabetta  Di Nitto](http://home.deib.polimi.it/dinitto/) - Politecnico di Milano
+
+ * [Vikram Adve](http://llvm.cs.uiuc.edu/~vadve/Home.html) - University of Illinois at Urbana-Champaign <mailto:vadve@illinois.edu>
+ * [Elisabetta  Di Nitto](http://home.deib.polimi.it/dinitto/) - Politecnico di Milano <mailto:elisabetta.dinitto@gmail.com>
  * [Susan Eisenbach](http://www.imperial.ac.uk/AP/faces/pages/read/Home.jsp?person=s.eisenbach&_adf.ctrl-state=16dpu3khvn_99&_afrRedirect=169130355484999) Imperial College London (SIGPLAN member and Chair)
- * [Marieke Huisman](http://wwwhome.ewi.utwente.nl/~marieke/) -  University of Twente
- * [Suresh Jagannathan](http://www.cs.purdue.edu/homes/suresh/)  - Purdue University
- * [Xavier Leroy](http://pauillac.inria.fr/~xleroy/) - INRIA Rocquencourt
- * [Tiziana Margaria ](https://www.cs.uni-potsdam.de/sse/people.html?id=tmargaria) - Universität Potsdam 
- * [Peter Müller](http://www.pm.inf.ethz.ch/people/pmueller) - ETH Zürich 
- * [Andrey Rybalchenko](http://www7.in.tum.de/~rybal/) - Technische Universität München
- * [Satnam Singh](https://plus.google.com/110563483361774700563/about) - Google
- * [Uzi Vishkin](http://www.umiacs.umd.edu/~vishkin/index.shtml)  - The University of Maryland
+ * [Marieke Huisman](http://wwwhome.ewi.utwente.nl/~marieke/) -  University of Twente <mailto:djg@cs.washington.edu>
+ * [Suresh Jagannathan](http://www.cs.purdue.edu/homes/suresh/)  - Purdue University <mailto:m.huisman@utwente.nl>
+ * [Tiziana Margaria ](https://www.cs.uni-potsdam.de/sse/people.html?id=tmargaria) - Universität Potsdam <mailto:margaria@cs.uni-potsdam.de>
+ * [Andrey Rybalchenko](http://www7.in.tum.de/~rybal/) - Technische Universität München <mailto:margaria@cs.uni-potsdam.de>
+ * [Satnam Singh](https://plus.google.com/110563483361774700563/about) - Google <mailto:s.singh@acm.org>
+ * [Eijiro Sumii](http://www.kb.ecei.tohoku.ac.jp/~sumii/)  - Tohoku University <mailto:sumii@ecei.tohoku.ac.jp>
  * [Jan Vitek](http://www.cs.purdue.edu/homes/jv/) - Purdue University (ex officio member as SIGPLAN Chair)
- * [Eran Yahav](http://www.cs.technion.ac.il/~yahave/) - Technion
+ * [Eran Yahav](http://www.cs.technion.ac.il/~yahave/) - Technion <mailto:http://www.kb.ecei.tohoku.ac.jp/~sumii/>
