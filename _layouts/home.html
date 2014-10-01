@@ -18,9 +18,11 @@
     </div>
     </div>
     <div class="container">
+
       <div class="row">
         
         <div class="col-md-7 col-md-offset-1">
+
           <h3>Awards and Recent Recipients</h3>
 
           {% for award in site.data.Awards %}
@@ -52,6 +54,8 @@
               </li>
             </ul>
           {% endfor %}          
+          </div>
+          <div class="col-xs-6  col-centered">
           {% include links.liquid data=site.data.Links links="SIGPLAN Sponsored Conferences" %}
         </div>
       </div>
