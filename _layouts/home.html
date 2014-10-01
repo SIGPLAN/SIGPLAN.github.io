@@ -2,6 +2,7 @@
 <html lang="en">
   {% include header.html %}
   <body>
+    {% include navbar.html %}
     <div style="background: #f0f0f0; padding-top: 10px; padding-bottom: 10px; margin-bottom: 10px; border-bottom: 1pt solid #808080;">
     <div class="container">
       <div class="row">
@@ -17,16 +18,16 @@
     </div>
     </div>
     <div class="container">
-      <div class="row">
-        <div class="col-md-3">
+      <div class="row row-centered">
+        <!--<div class="col-md-3">
           <div style="margin-top: 25px;">
             {% include link-table.liquid data=site.data.Links links="Key Links" %}
           </div>
           <div style="margin-top: 25px;">
             {% include link-table.liquid data=site.data.Links links="Conference Information" %}
           </div>
-        </div>
-        <div class="col-md-7 col-md-offset-1">
+        </div> -->
+        <div class="col-xs-6 col-centered"> <!-- col-md-offset-1">-->
           <h3>Awards and Recent Recipients</h3>
 
           {% for award in site.data.Awards %}
@@ -58,6 +59,8 @@
               </li>
             </ul>
           {% endfor %}          
+          </div>
+          <div class="col-xs-6  col-centered">
           {% include links.liquid data=site.data.Links links="SIGPLAN Sponsored Conferences" %}
         </div>
       </div>
