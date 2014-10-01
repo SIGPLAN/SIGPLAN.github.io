@@ -30,7 +30,7 @@ Make all Programme
 Committee members and reviewers aware of SIGPLAN's policies on
 [reviewing of conference paper submissions](/Resources/Policies/Review)
 and on
-[plagiarism](http://www.acm.org/pubs/plagiarismpolicy.html).  
+[plagiarism](http://www.acm.org/publications/policies/plagiarism_policy).  
 
 The conference steering committee should be consulted for any
 changes to the accepted way of organizing and running the
@@ -81,7 +81,7 @@ conference (established by the General Chair). The web page
 should refer prospective authors to SIGPLAN's
 [Republication Policy](/Resources/Policies/Republication)
 and to ACM's
-[Policy and Procedures on Plagiarism](http://www.acm.org/pubs/plagiarism%20policy.html).
+[Policy and Procedures on Plagiarism](http://www.acm.org/publications/policies/plagiarism_policy).
 Once the conference web page is in place, establish a link to the page
 from the SIGPLAN conference page by contacting the SIGPLAN
 [Information Director](mailto:infodir_sigplan@acm.org?subject=Please%20add%20a%20link).  
@@ -296,7 +296,7 @@ See Also
 
 -   [Calendar of Upcoming SIGPLAN Conferences](http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN)
 - ACM's *[How to Organize a Conference](http://www.acm.org/sigs/volunteer_resources/conference_manual/conference_manual-toc)* manual
-- [ACM's How to Organize a Conference](http://www.acm.org/sig_volunteer_info/conference_manual/prelimpage.htm)
+- [ACM's How to Organize a Conference](http://www.acm.org/sigs/volunteer_resources/conference_manual/manual_read_me)
 - SIGPLAN conference style [LaTeX class file](http://www.sigplan.org/sites/default/files/sigplanconf.cls),
   [article template](http://www.sigplan.org/sites/default/files/sigplanconf-template.tex), and
   [user guide](http://www.sigplan.org/sites/default/files/sigplanconf-guide.pdf)
