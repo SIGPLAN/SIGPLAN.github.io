@@ -4,8 +4,7 @@ title: "SIGPLAN Republication Policy"
 ---
 ACM's republication policy for journals is given in sections 6.2.2
 and 6.2.3 of the conference manual
-([http://www.acm.org/sig\_volunteer\_info/conference\_manual/6-2-2REP.HTM](http://www.acm.org/sig_volunteer_info/conference_manual/6-2-2REP.HTM),
-[http://www.acm.org/sig\_volunteer\_info/conference\_manual/6-2-3PPP.HTM](http://www.acm.org/sig_volunteer_info/conference_manual/6-2-3PPP.HTM)).
+<http://www.acm.org/sig_volunteer_info/conference_manual/6-2-2REP.HTM>.
 Revisions of conference papers may later appear in journal papers
 if the editor determines there is significant additional benefit
 from doing so.  
