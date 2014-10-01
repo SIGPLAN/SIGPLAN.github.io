@@ -1,47 +1,48 @@
-ON			| Text			| Reference
-/Conferences/PLDI	  PLDI 1998               pldi/pldi1998/index.htm
-/Conferences/PLDI	  PLDI 1999		  cs.rutgers.com/pldi99
-/Conferences/PLDI	  PLDI 2000		  research.microsoft.com/en-us/larus/pldi2000/pldi2000.htm
-/Conferences/PLDI	  PLDI 2001		  pldi/pldi2001/pldi2001.htm
-/Conferences/PLDI	  PLDI 2002		  sunshine.cs.uni-dortmund.de/~knoop/PLDI2002/pldi2002_main.html
-/Conferences/PLDI	  PLDI 2003		  cs.arizona.edu/PLDI2003/
-/Conferences/PLDI	  PLDI 2005		  research.ibm.com/pldi2005
-/Conferences/PLDI	  PLDI 2007		  ties.ucsd.edu/PLDI
+ON			| Text			| Reference                                            | Updated/Fixed
+--------------------------------------------------------------
+/Conferences/PLDI |	  PLDI 1998 |               pldi/pldi1998/index.htm |
+/Conferences/PLDI |	  PLDI 1999 |		  cs.rutgers.com/pldi99 |
+/Conferences/PLDI |	  PLDI 2000 |		  research.microsoft.com/en-us/larus/pldi2000/pldi2000.htm |
+/Conferences/PLDI |	  PLDI 2001 |		  pldi/pldi2001/pldi2001.htm |
+/Conferences/PLDI |	  PLDI 2002 |		  sunshine.cs.uni-dortmund.de/~knoop/PLDI2002/pldi2002_main.html |
+/Conferences/PLDI |	  PLDI 2003 |		  cs.arizona.edu/PLDI2003/ |
+/Conferences/PLDI |	  PLDI 2005 |		  research.ibm.com/pldi2005 |
+/Conferences/PLDI |	  PLDI 2007 |		  ties.ucsd.edu/PLDI |
 
-/Conferences/ISMM	  ISMM 2002		  www.hpl.hp.com/personal/Hans_Boehm/ismm
-/Conferences/ISMM	  ISMM 1998		  sfu.ca.com/~burton/ismm98.html
+/Conferences/ISMM |	  ISMM 2002 |		  www.hpl.hp.com/personal/Hans_Boehm/ismm |
+/Conferences/ISMM |	  ISMM 1998 |		  sfu.ca.com/~burton/ismm98.html |
 
-/Conferences/POPL/	  POPL 2002		  cse.ogi.edu/PacSoft/conf/popl/
-/Conferences/POPL/	  POPL 2001		  daimi.au.dk/~popl01/
-/Conferences/POPL/	  POPL 1998		  http://cm.bell-labs.com/cm/cs/who/dbm/POPL98/index.html
-/Conferences/POPL/	  POPL 1996		  ftp://parcftp.xerox.com/pub/popl96/popl96.html
+/Conferences/POPL/ |	  POPL 2002 |		  cse.ogi.edu/PacSoft/conf/popl/ |
+/Conferences/POPL/ |	  POPL 2001 |		  daimi.au.dk/~popl01/ |
+/Conferences/POPL/ |	  POPL 1998 |		  http://cm.bell-labs.com/cm/cs/who/dbm/POPL98/index.html |
+/Conferences/POPL/ |	  POPL 1996 |		  ftp://parcftp.xerox.com/pub/popl96/popl96.html |
 
-/Confereces/OOPSLA/	  OOPSLA 2002		  oopsla.acm.org/oopsla2002/
-/Conferences/OOPSLA/	  OOPSLA 2000		  oopsla.acm.org/oopsla2k/
-/Conferences/OOPSLA/	  OOPSLA 2001		  oopsla.acm.org/oopsla2001/
+/Confereces/OOPSLA/ |	  OOPSLA 2002 |		  oopsla.acm.org/oopsla2002/ |
+/Conferences/OOPSLA/ |	  OOPSLA 2000 |		  oopsla.acm.org/oopsla2k/ |
+/Conferences/OOPSLA/ |	  OOPSLA 2001 |           oopsla.acm.org/oopsla2001/ |
 
-/Conferences/ICFP/	  ICFP 2007		  http://www.iai.uni-bonn.de/~ralf/icfp07.html
-/Conferences/ICFP/	  ICFP 2004		  http://www.cs.indiana.edu/icfp04/
-/Conferences/ICFP/	  ICFP 2003		  http://www-users.cs.york.ac.uk/~colin/icfp2003.html
-/Conferences/ICFP/	  ICFP 2000		  http://ic.epfl.ch~odersky/icfp2000/
+/Conferences/ICFP/ |	  ICFP 2007 |		  http://www.iai.uni-bonn.de/~ralf/icfp07.html |
+/Conferences/ICFP/ |	  ICFP 2004 |		  http://www.cs.indiana.edu/icfp04/ |
+/Conferences/ICFP/ |	  ICFP 2003 |		  http://www-users.cs.york.ac.uk/~colin/icfp2003.html |
+/Conferences/ICFP/ |	  ICFP 2000 |		  http://ic.epfl.ch~odersky/icfp2000/ |
 
-/Conferences/LCTES	  LCTES 2005		  http://lctes05.snu.ac.kr/
-/Conferences/LCTES 	  LCTES 2001		  http://redwood.snu.ac.kr/lctes2001/
-/Conferences/LCTES	  LCTES 2000		  http://archi.snu.ac.kr/lctes2000/
-/Conferences/LCTES 	  LCTES 1999		  http://www.cs.indiana.edu/~liu/lctes99/
-/Conferences/LCTES	  LCTES 1998		  http://www2.informatik.hu-berlin.de/~mueller/lctes98/
-/Conferences/LCTES	  Rajiv Gupta		  http://www.cs.arizona.edu/people/gupta/
-/Conferences/LCTES	  Annie Liu		  http://www.cs.indiana.edu/~liu/
-/Conferences/LCTES	  Frank Mueller		  http://www2.informatik.hu-berlin.de/~mueller/
+/Conferences/LCTES |	  LCTES 2005 |		  http://lctes05.snu.ac.kr/ |
+/Conferences/LCTES |	  LCTES 2001 |		  http://redwood.snu.ac.kr/lctes2001/ |
+/Conferences/LCTES |	  LCTES 2000 |		  http://archi.snu.ac.kr/lctes2000/ |
+/Conferences/LCTES |	  LCTES 1999 |		  http://www.cs.indiana.edu/~liu/lctes99/ | 
+/Conferences/LCTES |	  LCTES 1998 |		  http://www2.informatik.hu-berlin.de/~mueller/lctes98/ |
+/Conferences/LCTES |	  Rajiv Gupta |		  http://www.cs.arizona.edu/people/gupta/ |
+/Conferences/LCTES |	  Annie Liu |		  http://www.cs.indiana.edu/~liu/ |
+/Conferences/LCTES |	  Frank Mueller |         http://www2.informatik.hu-berlin.de/~mueller/ |
 
-/Conferences/PPOPP	  PPoPP 2007		  https://ftg.lbl.gov/ppopp07/
-/Conferences/PPOPP	  PPoPP 2006		  http://dynamo.ecn.purdue.edu/~smidkiff/ppopp/
-/Conferences/PPOPP	  PPoPP 2001		  http://www.lsc.nd.edu/ppopp/
-/Conferences/PPOPP	  PPoPP 1999		  http://csag.ucsd.edu/ppopp/
+/Conferences/PPOPP |	  PPoPP 2007 |		  https://ftg.lbl.gov/ppopp07/ |
+/Conferences/PPOPP |	  PPoPP 2006 |		  http://dynamo.ecn.purdue.edu/~smidkiff/ppopp/ |
+/Conferences/PPOPP |	  PPoPP 2001 |		  http://www.lsc.nd.edu/ppopp/ |
+/Conferences/PPOPP |	  PPoPP 1999 |		  http://csag.ucsd.edu/ppopp/ |
 
-/Conferences/SPLASH	  OOPSLA 2002		  http://oopsla.acm.org/oopsla2002/
-/Conferences/SPLASH	  OOPSLA 2001		  http://oopsla.acm.org/oopsla2001/
-/Conferences/SPLASH	  OOPSLA 2000		  http://oopsla.acm.org/oopsla2k/
+/Conferences/SPLASH |	  OOPSLA 2002 |		  http://oopsla.acm.org/oopsla2002/ |
+/Conferences/SPLASH |	  OOPSLA 2001 |		  http://oopsla.acm.org/oopsla2001/ |
+/Conferences/SPLASH |	  OOPSLA 2000 |		  http://oopsla.acm.org/oopsla2k/ |
 
-/Conferences/Onward	  http://www.oopsla.org/oopsla2008/program-overview/onward-papers.html	http://www.oopsla.org/oopsla2008/program-overview/onward-papers.html
+/Conferences/Onward |	  http://www.oopsla.org/oopsla2008/program-overview/onward-papers.html |	http://www.oopsla.org/oopsla2008/program-overview/onward-papers.html | 
 
