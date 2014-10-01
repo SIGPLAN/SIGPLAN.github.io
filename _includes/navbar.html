@@ -22,6 +22,40 @@
           <a href="/{{ tmp[1] }}">{{ tmp[0] }}</a>
         </li>
         {% endfor %}
+        <li class="dropdown">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Key Links<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+          {% for m1 in site.data.Links["Key Links"] %}
+          {% assign link = m1 | remove: '>' | split: "<" %}
+            <li>         
+              {% if link[1] contains "://" %}
+              <a href="{{ link[1] }}">
+              {% else %}          
+              <a href="/{{ link[1] }}">
+              {% endif %}
+              {{ link[0] }}</a>
+            </li>
+          {% endfor %}
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Conference Information<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+          {% for m1 in site.data.Links["Conference Information"] %}
+          {% assign link = m1 | remove: '>' | split: "<" %}
+            <li>
+              {% if link[1] contains "://" %}
+              <a href="{{ link[1] }}">
+              {% else %}          
+              <a href="/{{ link[1] }}">
+              {% endif %}
+              {{ link[0] }}</a>
+            </li>
+          {% endfor %}
+          </ul>
+        </li>
+        
       </ul>
     </div><!--/.nav-collapse -->
   </div>
