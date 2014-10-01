@@ -21,6 +21,7 @@ A nomination should consist of the following items:
 
  *  Name, address, phone number, and email address of the person making the nomination (the nominator).
  *  Name, address, phone number, and email address of the candidate for whom an award is recommended (the nominee).
+ *  Dissertation - either as a pdf or a url where the dissertation can be found.
  *  A short statement (200-500 words) explaining why the nominee deserves the award in question. 
  *  Supporting statements from up to two people in addition to the nominator.
 
