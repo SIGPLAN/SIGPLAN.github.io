@@ -1,5 +1,8 @@
 ON			| Text			| Reference                                            | Updated/Fixed
------------------------ | --------------------- | -------------
+----------------------- | --------------------- | -----------------------------------------------------------------------
+/Resources        |   International Committee for Programming Language Standards | http://anubis.dkuug.dk/JTC1/SC22/ | 
+/Resources        |   Teaching about Programming Languages    | http://www.cs.iastate.edu/~leavens/teaching-prog-lang/home.html |
+
 /Conferences/PLDI |	  PLDI 1998 |               pldi/pldi1998/index.htm |
 /Conferences/PLDI |	  PLDI 1999 |		  cs.rutgers.com/pldi99 |
 /Conferences/PLDI |	  PLDI 2000 |		  research.microsoft.com/en-us/larus/pldi2000/pldi2000.htm |
@@ -45,4 +48,9 @@ ON			| Text			| Reference                                            | Updated/F
 /Conferences/SPLASH |	  OOPSLA 2000 |		  http://oopsla.acm.org/oopsla2k/ |
                   |                 |                                |
 /Conferences/Onward |	  http://www.oopsla.org/oopsla2008/program-overview/onward-papers.html |	http://www.oopsla.org/oopsla2008/program-overview/onward-papers.html | 
+		    |	  		|						|
+/Conferences/DLS    |     http://decomp.ulb.ac.be/events/dls05/ | http://decomp.ulb.ac.be/events/dls05/ | 
+		    |	  		|						|
+/Conferences/GPCE | 	  proceedings| 		  (all 3) 				|
+
 
