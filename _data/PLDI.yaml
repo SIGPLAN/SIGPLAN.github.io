@@ -1,3 +1,18 @@
+2014: 
+  Awardee: Maged M. Michael
+  Other: |
+    (for 2004) Scalable Lock-Free Dynamic Memory Allocation
+  Citation: |
+    Maged Michael's PLDI'04 paper is considered a landmark in memory
+    allocation for multithreaded programs, presenting the first
+    completely lock-free general-purpose user-space allocator. It
+    provides good performance with respect to scalability, speed and
+    space efficiency, while at the same time only relying on common
+    hardware and OS support. The work is highly regarded and
+    frequently referenced, and is also the basis of multiple memory
+    allocator implementations, both in IBM products and in follow-on
+    research.
+
 2013:
   Awardee: [David Gay, Philip Levis, J. Robert von Behren, Matt Welsh, Eric Brewer, and David E. Culler]
   Other: |
