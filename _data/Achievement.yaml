@@ -1,3 +1,57 @@
+2014:
+  Awardee: Neil Jones
+  Citation: |
+
+    Neil Jones is a pioneer of programming-language methods.  He
+    introduced control-flow analysis for higher-order programs,
+    binding-time analysis to tame self-applicable partial evaluation,
+    what is known today as "Jones optimality", and size-change
+    termination analysis. Neil is also noted for bridges he
+    established between programming languages and
+    complexity/computability theory, e.g., characterizing Turing's
+    Universal Machine as self interpretation, Kleene's S-m-n theorem
+    as partial evaluation, Kleene's second recursion theorem as
+    reflection, and the expressive power of typed cons-free functional
+    languages by means of complexity classes.  His pioneering work on
+    complexity theory included the development of completeness for P
+    and solving the spectrum problem (the basis of finite model
+    theory).  Lastly, Neil is a tireless and inspiring mentor, and he
+    has written several influential textbooks that are testaments to
+    his thesis that programs are data objects and that programming
+    languages are a cornerstone of computer science.
+
+
+2013:
+  Awardee: Patrick and Radhia Cousot
+  Citation: |
+    Patrick and Radhia Cousot are the co-inventors of abstract
+    interpretation, a unifying theory of sound abstraction and
+    approximation of structures involved in various domains of
+    computer science, such as formal semantics, specification, proof,
+    and verification.  In particular, abstract interpretation has had
+    a major impact on the development of the static analysis of
+    software.  In their original work, the Cousots showed how to
+    relate a static analysis to a language's standard semantics by
+    means of a second, abstract semantics that makes precise which
+    features of the full language are being modeled and which are
+    being discarded (or abstracted), providing for the first time both
+    a formal definition of and clear methodology for designing and
+    proving the correctness of static analyses.  Subsequently, the
+    Cousots contributed many of the building blocks of abstract
+    interpretation in use today, including chaotic iteration,
+    widening, narrowing, combinations of abstractions, and a number of
+    widely used abstract domains.  This work has developed a
+    remarkable set of intellectual tools and has found its way into
+    practice in the form of widely used libraries and frameworks.
+    Finally, the Cousots and their collaborators have contributed to
+    demonstrating the utility of static analysis to society.  They led
+    the development of the Astrée static analyzer, which is used in
+    the medical, automotive, and aerospace industry for verifying the
+    absence of a large class of common programming errors in low-level
+    embedded systems code. This achievement stands as one of the most
+    substantial successes of program verification to date.
+
+
 2012:
   Awardee: Matthias Felleisen
   Citation: |
