@@ -63,3 +63,16 @@ code {
   color: white;
   font-size:1.1em;
 }
+
+#conference-callout {
+  background-image: url("/images/auditorium_fpo.jpg");
+  height: 350px;
+}
+
+#award-callout {
+  background-image: url("/images/pages_fpo.jpg");
+  height: 330px;
+}
+.callout-title {
+  margin-top: 85px;
+}

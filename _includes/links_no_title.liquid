@@ -1,0 +1,10 @@
+<ul>
+  {% for m1 in include.data.[include.links] %}
+  <li>
+  {% for m2 in m1 %}
+     {% include link.liquid data=m2 %}
+  {% endfor %}
+  </li>
+{% endfor %}
+</ul>
+
