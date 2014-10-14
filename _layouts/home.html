@@ -3,26 +3,24 @@
   {% include header.html %}
   <body>
     {% include navbar.html %}
-    <div id="home-callout">
-      <div id="home-callout-top">
-      <div class="container">
-	<div class="row">
+      </div>
+    </div>
+    <div class="container-fluid">
+      <!-- home callout --> 
+      <div id="home-callout">
+        <div class="row row-centered">
           <div class="col-md-2" style="padding-right: 0pt">
-            <p class="text-right"><img src="{{site.url}}/images/acmlogo.gif"></p>
-          </div>
-          <div class="col-md-8">
-<!--          <div id="home-callout">-->
-            <div class="bigsig text-on-img">SIGPLAN</div>
-            <h3 class="text-on-img">Special Interest Group on Programming Languages</h3>
-          </div>
-
-            
-        <!--</div>-->
+              <p class="text-right"><img src="{{site.url}}/images/acmlogo.gif"></p>
+            </div>
+            <div class="col-md-8">
+              <div class="bigsig text-on-img">SIGPLAN</div>
+              <h3 class="text-on-img">Special Interest Group on Programming Languages</h3>
+            </div>
         </div>
-        
-        <div class="row">
-          <div class="col-md-10" id="callout-text">
-	    <p><i>SIGPLAN is a Special Interest Group of ACM that focuses on Programming Languages. 
+        <!-- SIGPLAN Statement -->
+        <div class="row row-centered" id="callout-text">
+          <div class="col-md-10 col-md-offset-1">
+    	    <p><i>SIGPLAN is a Special Interest Group of ACM that focuses on Programming Languages. 
               In particular, SIGPLAN explores the  design, implementation, theory, and efficient 
               use of programming languages and associated tools. Its members are programming 
               language users, developers, implementers, theoreticians, researchers and educators.</i></p>
@@ -30,19 +28,8 @@
         </div>
       </div>
 
-      </div>
-      <!--<div class="container">
-        <div class="row">
-          <div class="col-md-8">
-	    <p style="font-size:14">SIGPLAN is a Special Interest Group of ACM that focuses on Programming Languages. 
-              In particular, SIGPLAN explores the  design, implementation, theory, and efficient 
-              use of programming languages and associated tools. Its members are programming 
-              language users, developers, implementers, theoreticians, researchers and educators.</p>
-          </div>
-        </div>-->
-      </div>
-    </div>
-    <div class="container-fluid">
+      <div class="row row-centered spacer"></div>
+
       {% include award-callout.html %}
       <div class="row row-centered">
         
@@ -81,6 +68,9 @@
           </div>
           <!-- room for image on left here -->
         </div>
+
+        <div class="row row-centered spacer"> </div>
+
         {% include conference-callout.html %}
         <div class="row row-centered">
           <!-- room for image on left here -->
