@@ -29,6 +29,7 @@
           </div>
         </div>
       </div>
+
       </div>
       <!--<div class="container">
         <div class="row">
@@ -41,17 +42,11 @@
         </div>-->
       </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
+      {% include award-callout.html %}
       <div class="row row-centered">
-        <!--<div class="col-md-3">
-          <div style="margin-top: 25px;">
-            {% include link-table.liquid data=site.data.Links links="Key Links" %}
-          </div>
-          <div style="margin-top: 25px;">
-            {% include link-table.liquid data=site.data.Links links="Conference Information" %}
-          </div>
-        </div> -->
-        <div class="col-xs-6 col-centered"> <!-- col-md-offset-1">-->
+        
+        <div class="col col-md-8 col-md-offset-1"> 
           <h3>Awards and Recent Recipients</h3>
 
           {% for award in site.data.Awards %}
@@ -84,8 +79,14 @@
             </ul>
           {% endfor %}          
           </div>
-          <div class="col-xs-6  col-centered">
-          {% include links.liquid data=site.data.Links links="SIGPLAN Sponsored Conferences" %}
+          <!-- room for image on left here -->
+        </div>
+        {% include conference-callout.html %}
+        <div class="row row-centered">
+          <!-- room for image on left here -->
+          <div class="col col-md-offset-1">
+          {% include links_no_title.liquid data=site.data.Links links="SIGPLAN Sponsored Conferences"%}
+          </div>
         </div>
       </div>
     </div>  
