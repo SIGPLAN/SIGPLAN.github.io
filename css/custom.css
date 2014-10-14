@@ -49,6 +49,7 @@ code {
   padding-top: 10px; padding-bottom: 10px; 
   margin-bottom: 10px; border-bottom: 1pt solid #808080;
   height: 350px; background: #f0f0f0;
+  background-image: url('/images/empty_board_fpo.jpg');
 }
 #home-callout-top {
   background-image: url('/images/empty_board_fpo.jpg'); 
@@ -60,7 +61,7 @@ code {
   margin-top: 5em;  
 }
 #callout-text p {
-  color: white;
+  color:white;
   font-size:1.1em;
 }
 
@@ -75,4 +76,9 @@ code {
 }
 .callout-title {
   margin-top: 85px;
+}
+
+.spacer {
+  height: 500px;
+  background-color: #f8f8f8;
 }
