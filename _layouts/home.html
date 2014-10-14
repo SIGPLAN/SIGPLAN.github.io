@@ -29,6 +29,7 @@
           </div>
         </div>
       </div>
+
       </div>
       <!--<div class="container">
         <div class="row">
@@ -41,6 +42,7 @@
         </div>-->
       </div>
     </div>
+
     <div class="container">
 
       <div class="row">
@@ -79,8 +81,14 @@
             </ul>
           {% endfor %}          
           </div>
-          <div class="col-xs-6  col-centered">
-          {% include links.liquid data=site.data.Links links="SIGPLAN Sponsored Conferences" %}
+          <!-- room for image on left here -->
+        </div>
+        {% include conference-callout.html %}
+        <div class="row row-centered">
+          <!-- room for image on left here -->
+          <div class="col col-md-offset-1">
+          {% include links_no_title.liquid data=site.data.Links links="SIGPLAN Sponsored Conferences"%}
+          </div>
         </div>
       </div>
     </div>  
