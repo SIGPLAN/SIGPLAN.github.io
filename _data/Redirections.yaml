@@ -22,6 +22,8 @@
 
 "republicationpolicy(.htm|.html|)":		"Resources/Policies/Republication/"
 
+"membership(.htm|.html|)"			"Membership/"
+
 "sigplanconf-template.tex":			"sites/default/files/sigplanconf-template.tex"
 "sigplanconf-guide.pdf":			"sites/default/files/sigplanconf-guide.pdf"
 "sigplanconf.cls":				"sites/default/files/sigplanconf.cls"
