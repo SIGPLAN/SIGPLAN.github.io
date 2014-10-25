@@ -9,6 +9,41 @@ SPLASH fast facts
 
 > [SPLASH Web Site](http://splashcon.org/)  
 
+**SPLASH Steering Committee**
+
+The SPLASH Steering Committee is constituted by the following
+members:
+
+-   current SIGPLAN Chair,
+-   current SIGPLAN Vice chair,
+-   current and past three SPLASH General Chairs,
+-   current and past three OOPSLA Program Chairs, 
+-   current and past three Onward! Program Chairs, and
+-   the outgoing Chair of the Steering Committee, for one year past the end of his or her term as Chair.
+
+The Chair of the Steering Committee is elected by the Steering Committee from among the members of the committee to serve a two-year term.  The outgoing chair serves an additional year on the committee past his or her term as chair to provide institutional memory.  
+
+The constitution of the steering committee changes each year on
+October 31, with the SPLASH chair changing every two years and the SIGPLAN
+chair/vice chair changing every third year. 
+
+The current SPLASH steering committee is:
+
+-   Jan Vitek, current SIGPLAN Chair
+-   Jeremy Gibbons, current SIGPLAN Vice Chair
+-   Jonathan Aldrich, 2015 (current) SPLASH General Chair
+-   Andrew Black, 2014 SPLASH General Chair
+-   Anthony Hoskings, 2013 SPLASH General Co-Chair
+-   Patrick Eugster, 2013 SPLASH General Co-Chair and 2015 (current) OOPSLA PC Chair
+-   Gary Leavens, 2012 SPLASH General Chair
+-   Crista Lopes (current Steering Committee Chair), 2013 OOPSLA PC Chair
+-   Todd Millstein, 2014 OOPSLA PC Chair
+-   Matt Dwyer, 2012 OOPSLA PC Chair
+-   Gail Murphy, 2015 (current) Onward! Papers Chair
+-   Shriram Krishnamurthi, 2014 Onward! Papers Chair
+-   Robert Hirschfeld, 2013 Onward! Papers Chair
+-   Jonathan Edwards, 2012 Onward! Papers Chair
+
 Web Pages of Previous Conferences
 ---------------------------------
 > [SPLASH 2014](http://2014.splashcon.org/)  (Portland, OR)  
