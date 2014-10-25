@@ -29,10 +29,10 @@ these awards.&#160; More details about the SIGPLAN awards can be found
 Web Pages of Previous Conferences
 ---------------------------------
 
-> [OOPSLA 2014](http://2014.splashcon.org/)  (Portland, OR)
-> [OOPSLA 2013](http://splashcon.org/2013/)  (Indianapolis, IN)
-> [OOPSLA 2012](http://splashcon.org/2012/)  (Tucson, AZ)
-> [OOPSLA 2011](http://splashcon.org/2011/)  (Portland, OR)
+> [OOPSLA 2014](http://2014.splashcon.org/)  (Portland, OR)  
+> [OOPSLA 2013](http://splashcon.org/2013/)  (Indianapolis, IN)  
+> [OOPSLA 2012](http://splashcon.org/2012/)  (Tucson, AZ)  
+> [OOPSLA 2011](http://splashcon.org/2011/)  (Portland, OR)  
 > [OOPSLA 2010](http://splashcon.org/2010/) (Reno, NV)  
 > [OOPSLA 2009](http://www.oopsla.org/oopsla2009/) (Orlando, FL)  
 > [OOPSLA 2008](http://www.oopsla.org/oopsla2008/) (Nashville, TN)  
