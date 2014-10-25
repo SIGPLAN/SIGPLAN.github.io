@@ -4,22 +4,17 @@ title: "Object-oriented Programming, Systems, Languages, and Applications (OOPSL
 ---
 OOPLSA (Object-oriented Programming, Systems, Languages, and
 Applications) is now part of SPLASH (Systems, Programming,
-Languages, and Applications: Software for Humanity). SPLASH
-encompasses OOPLSA as well as several other conferences including
-DLS (Dynamic Languages Symposium), ILC (International Lisp
-Conference), and Pattern Languages of Programming (PLOP).   
+Languages, and Applications: Software for Humanity). 
+
+The scope of OOPSLA includes all aspects of programming languages and software engineering, broadly construed.
+Papers that address any aspect of software development are welcome, including requirements, modeling, prototyping, design, implementation, generation, analysis, verification, testing, evaluation, maintenance, reuse, replacement, and retirement of software systems. Papers may address these topics in a variety of ways, including new tools (such as languages, program analyses, and runtime systems), new techniques (such as methodologies, design processes, code organization approaches, and management techniques), and new evaluations (such as formalisms and proofs, corpora analyses, user studies, and surveys).
+
 
 OOPSLA Fast Facts
 -----------------
 
 
-> [SPLASH 2012 Web Page](http://splashcon.org/)  
-> Location: Tucson, AZ  
-> Conference Chair:
-> [Gary T. Leavens](mailto:chair@splashcon.org), University of Central Florida  
-> OOPLSA Program Chair:
-> [Matthew B. Dwyer](mailto:oopsla@splashcon.org), University of Nebraska  
-> Dates: October 19-26, 2012  
+> [SPLASH Web Site](http://splashcon.org/)  
 
 **Most Influential OOPSLA Paper Award**
 Each year a "Most Influential" OOPSLA paper is chosen and an
@@ -34,8 +29,11 @@ these awards.&#160; More details about the SIGPLAN awards can be found
 Web Pages of Previous Conferences
 ---------------------------------
 
-> OOPSLA 2011 (Portland, OR)  
-> OOPSLA 2010 (Reno, NV)  
+> [OOPSLA 2014](http://2014.splashcon.org/)  (Portland, OR)
+> [OOPSLA 2013](http://splashcon.org/2013/)  (Indianapolis, IN)
+> [OOPSLA 2012](http://splashcon.org/2012/)  (Tucson, AZ)
+> [OOPSLA 2011](http://splashcon.org/2011/)  (Portland, OR)
+> [OOPSLA 2010](http://splashcon.org/2010/) (Reno, NV)  
 > [OOPSLA 2009](http://www.oopsla.org/oopsla2009/) (Orlando, FL)  
 > [OOPSLA 2008](http://www.oopsla.org/oopsla2008/) (Nashville, TN)  
 > [OOPSLA 2007](http://www.oopsla.org/oopsla2007/) (Montr&#233;al, Canada)  
