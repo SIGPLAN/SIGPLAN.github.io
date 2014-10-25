@@ -25,7 +25,6 @@ Dissertation Award." Please consider making a nomination for one of
 these awards.&#160; More details about the SIGPLAN awards can be found
 [here](/Awards/).
 
-&#160;
 Web Pages of Previous Conferences
 ---------------------------------
 
