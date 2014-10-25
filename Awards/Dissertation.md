@@ -10,8 +10,8 @@ OOPSLA, POPL, or PLDI.
 
 **Nominations**
 
-Nominations must be submitted to the
-[secretary](mailto:secretary_sigplan@acm.org) of SIGPLAN by January
+Nominations must be submitted via the SIGPLAN Awards Nomination Portal at 
+<https://awards.sigplan.org/nominate/reynolds/> by January
 4th 2015 to be considered for this year's award. The nominated dissertation
 must be available in an English language version to facilitate
 evaluation by the selection committee and have been awarded in the
