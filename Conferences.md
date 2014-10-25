@@ -27,8 +27,8 @@ fundamental innovations in design, definition, analysis,
 transformation, and implementation of programming languages,
 programming systems, and programming abstractions.
 
-**OOPSLA ([SPLASH](/Conferences/OOPSLA))**  
-SPLASH is the premier conference for industry and and academic
+**OOPSLA ([OOPSLA](/Conferences/OOPSLA) @ [SPLASH](/Conferences/SPLASH))**  
+OOPSLA is the premier conference for industry and and academic
 experts to report innovations in object technology, programmer
 productivity, secure and reliable software, and ultra-large scale
 systems.
@@ -116,10 +116,10 @@ support.
 **Generative Programming: Concepts and Experiences ([GPCE](http://program-transformation.org/Gpce))**  
 Generative Programming: Concepts &amp; Experiences is a conference promoting the application and innovation of foundational techniques for supporting automatic program generation.
 
-**Onward! ([Onward](/Conferences/Onward))**  
+**Onward! ([Onward](/Conferences/Onward)  @ [SPLASH](/Conferences/SPLASH))**  
 Onward! is a symposium on new ideas in programming and reflections on software. Welcomed are papers that propose and argue for new approaches to the creation of software as well as reflections on technology and ideas bearing on programming broadly construed.
 
-**Dynamic Languages Symposium ([DLS](/Conferences/DLS))**  
+**Dynamic Languages Symposium ([DLS](/Conferences/DLS)  @ [SPLASH](/Conferences/SPLASH))**  
 The Dynamic Languages Symposium (DLS) is a forum for discussion of dynamic languages, their implementation, and application.
 
 ***The Programming Languages Mentoring Workshop ([PLMW](/Conferences/PLMW))***  
