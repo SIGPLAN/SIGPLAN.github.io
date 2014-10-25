@@ -2,38 +2,20 @@
 layout: default
 title: "Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH)"
 ---
-SPLASH (Systems, Programming, Languages, and Applications: Software for Humanity) contains several conferences concerned with programming, languages, and software engineering, including OOPSLA (Object-oriented Programming, Systems, Languages, and Applications), Onward!, DLS (the Dynamic Languages Symposium), and PLoP (Pattern Languages of Programming).
+SPLASH (Systems, Programming, Languages, and Applications: Software for Humanity) contains several conferences concerned with programming, languages, and software engineering, including [OOPSLA](OOPSLA/)  (Object-oriented Programming, Systems, Languages, and Applications), [Onward!](Onward), [DLS](DLS) (the Dynamic Languages Symposium), and PLoP (Pattern Languages of Programming).
 
 SPLASH fast facts
 -----------------
 
-> [SPLASH 2013](http://www.splashcon.org/2013/)  
-> Location: Indianapolis, IN  
-> Conference general chairs: Antony Hosking and Patrick Eugster, Purdue University  
-> OOPSLA program chair: Cristina V. Lopes, University of California at Irvine  
-> Onward! program chair: Robert Hirschfeld, Hasso-Plattner-Institute at the University of Potsdam  
-> Onward! essays chair: Bernd Br&#252;gge, Technische Universit&#228;t M&#252;nchen  
-> DLS program chair: Carl Friedrich Bolz, Heinrich-Heine-Universit&#228;t D&#252;sseldorf   
-> Dates: October 26-31, 2013  
-
-Most Influential OOPSLA Paper Award
------------------------------------
-
-Each year a "Most Influential" OOPSLA paper is chosen and an
-presentation is made at OOPSLA. More details about this award and
-past winning papers can be found [here](/Awards/OOPSLA/). SIGPLAN
-also makes several other awards including an "Outstanding
-Dissertation Award." Please consider making a nomination for one of
-these awards.  More details about the SIGPLAN awards can be found
-[here](/Awards/).
+> [SPLASH Web Site](http://splashcon.org/)  
 
 Web Pages of Previous Conferences
 ---------------------------------
-
-> [SPLASH 2012](http://www.splashcon.org/2012/) (Tucson, AZ)  
-> [SPLASH 2011](http://www.splashcon.org/2011/) (Portland, OR)  
-> [SPLASH 2010](http://www.splashcon.org/2010/) (Reno NV)  
-
+> [SPLASH 2014](http://2014.splashcon.org/)  (Portland, OR)  
+> [SPLASH 2013](http://splashcon.org/2013/)  (Indianapolis, IN)  
+> [SPLASH 2012](http://splashcon.org/2012/)  (Tucson, AZ)  
+> [SPLASH 2011](http://splashcon.org/2011/)  (Portland, OR)  
+> [SPLASH 2010](http://splashcon.org/2010/) (Reno, NV)  
 > [OOPSLA 2009](http://www.oopsla.org/oopsla2009/) (Orlando, FL)  
 > [OOPSLA 2008](http://www.oopsla.org/oopsla2008/) (Nashville, TN)  
 > [OOPSLA 2007](http://www.oopsla.org/oopsla2007/) (Montr&#233;al, Canada)  
