@@ -63,11 +63,3 @@ Web Pages of Previous Conferences
 > [OOPSLA 2000](http://oopsla.acm.org/oopsla2k/) (Minneapolis, MN)   
 
 
-SPLASH Steering Committee
--------------------------
-
-* Current Splash GC, term of three years post chairship (hence tenure is four years)
-* SIGPLAN Chair
-* SIGPLAN Vice Chair because of program committee approvals
-*  someone from HQ (used to be Ginger)
-* Splash SC Chair, who is appointed and not required to be on the SC for other reasons; term is three years + three  post chairship for continuity.
