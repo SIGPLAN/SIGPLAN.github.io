@@ -8,17 +8,24 @@ aspect of programming. Welcomed are papers that propose and argue for
 new approaches to the creation of software as well as reflections on
 technology and ideas bearing on programming broadly construed.
 
-Onward! 2014
+Onward! 2015
 ------------
 
--   Portland, Oregon, USA, 2014
--   Co-located with SPLASH 2014
--   PC chair: Shriram Krishnamurthi (Brown University)
--   [http://splashcon.org/2014/](http://splashcon.org/2014/)
+-   Pittsburgh, Pennsylvania, USA, October 28-30, 2015
+-   Co-located with SPLASH 2015
+-   Papers chair: Gail Murphy (University of British Columbia)
+-   Essays chair: Guy L. Steele Jr. (Oracle Labs)
+-   [http://2015.splashcon.org/](http://2015.splashcon.org/)
 
 Awards
 ------
 
+-   Most Notable Paper Award 2014 for 2004
+    -   Recipient: Tim Sheard
+    -   Title: Languages of the Future
+    -   Conference: Onward! 2004
+    -   Paper:
+        [http://dl.acm.org/citation.cfm?id=1052883.1052897](http://dl.acm.org/citation.cfm?id=1052883.1052897)
 -   Most Notable Paper Award 2013 for 2003
     -   Recipient: Martin Rinard
     -   Title: Acceptability-oriented Computing
@@ -54,10 +61,19 @@ Awards
 Past Events
 -----------
 
+-   Onward! 2014
+    -   Portland, Oregon, USA, October 22-24, 2014
+    -   Co-located with SPLASH 2014
+    -   Papers chair: Shriram Krishnamurthi
+    -   Essays chair: Bernd Bruegge
+    -   Keynote speaker: Peter Norvig
+    -   [http://2014.splashcon.org/track/onward2014-papers/](http://2014.splashcon.org/track/onward2014-papers/)
+    -   [http://2014.splashcon.org/track/onward2014-essays/](http://2014.splashcon.org/track/onward2014-essays/)
+
 -   Onward! 2013
     -   Indianapolis, Indiana, USA, October 29-31, 2013
     -   Co-located with SPLASH 2013
-    -   PC chair: Robert Hirschfeld
+    -   Papers chair: Robert Hirschfeld
     -   Essays chair: Bernd Bruegge
     -   Keynote speaker: Gilad Bracha
     -   [http://splashcon.org/2013/program/onward-research-papers/](http://splashcon.org/2013/program/onward-research-papers/)
@@ -66,7 +82,7 @@ Past Events
 -   Onward! 2012
     -   Tucson, Arizona, USA, October 24-26, 2012
     -   Co-located with SPLASH 2012
-    -   PC chair: Jonathan Edwards
+    -   Papers chair: Jonathan Edwards
     -   Essays chair: Julie Steele
     -   [http://splashcon.org/2012/program/onward-papers/](http://splashcon.org/2012/program/onward-papers/)
     -   [http://splashcon.org/2012/program/onward-essays/](http://splashcon.org/2012/program/onward-essays/)
@@ -168,6 +184,8 @@ Steering Committee Members
 * Robert Hirschfeld, Hasso-Plattner-Institut Potsdam, Germany 
 * Antony Hosking, Purdue University, USA 
 * Shriram Krishnamurthi, Brown University, USA 
+* Gail Murphy (University of British Columbia) 
+* Guy L. Steele Jr. (Oracle Labs) 
 * Kevin Sullivan, University of Virginia, USA (chair) 
 * Eelco Visser, Delft University of Technology, The Netherlands
 
