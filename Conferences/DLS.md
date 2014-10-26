@@ -12,16 +12,22 @@ provides a place for researchers and practitioners to come together and
 share their knowledge, experience, and ideas for future research and
 development.
 
-DLS 2014
+DLS 2015
 --------
 
--   Portland, Oregon, USA, 2014
--   Co-located with SPLASH 2014
--   PC chair: Laurence Tratt (King's College London)
--   [http://www.dynamic-languages-symposium.org/dls-14/](http://www.dynamic-languages-symposium.org/dls-14/)
+-   Pittsburgh, Pennsylvania, USA, October 27, 2015
+-   Co-located with SPLASH 2015
+-   PC chair: Manuel Serrano (Inria)
+-   [http://www.dynamic-languages-symposium.org/dls-15/](http://www.dynamic-languages-symposium.org/dls-15/)
 
 Past Events
 -----------
+
+-   DLS 2014
+    -   Portland, Oregon, USA, 2014
+    -   Co-located with SPLASH 2014
+    -   PC chair: Laurence Tratt
+    -   [http://www.dynamic-languages-symposium.org/dls-14/](http://www.dynamic-languages-symposium.org/dls-14/)
 
 -   DLS 2013
     -   Indianapolis, Indiana, USA, October 28, 2013

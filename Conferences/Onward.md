@@ -26,6 +26,7 @@ Awards
     -   Conference: Onward! 2004
     -   Paper:
         [http://dl.acm.org/citation.cfm?id=1052883.1052897](http://dl.acm.org/citation.cfm?id=1052883.1052897)
+
 -   Most Notable Paper Award 2013 for 2003
     -   Recipient: Martin Rinard
     -   Title: Acceptability-oriented Computing
