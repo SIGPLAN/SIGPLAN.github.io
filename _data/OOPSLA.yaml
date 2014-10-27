@@ -1,3 +1,42 @@
+2014:
+  Awardee: Gilad Bracha, David Ungar
+  Other: |
+    (for 2004) [irrors: Design Principles for Meta-level
+Facilities of Object-Oriented Programming Languages](http://dl.acm.org/citation.cfm?doid=1028976.1029004)
+  Citation: |
+    Bracha and Ungar's "Mirrors" paper describes a novel approach to
+    reflection in object-oriented API design, in which reflection is
+    broken off into a modular meta-level capability instead of being baked
+    into the functionality of base-level classes.  Mirrors have had a
+    strong influence on subsequent designs for reflection capabilities,
+    extensibility in support of domain-specific languages, and
+    metacircular virtual machines.  They are at the foundation of
+    reflection libraries in Scala and Dart, as well as the Java Debugger
+    Interface (JDI) design, which offers reflective control of Java VMs.
+    As for the paper itself, the committee felt it was a prime
+    representative of the strengths of OOPSLA in delivering important and
+    influential ideas with clarity and simplicity.
+
+2013:
+  Awardee: Tim Harris,  Keir Fraser
+  Other: |
+    (for 2003) [Language Support for Lightweight Transactions](http://dl.acm.org/citation.cfm?doid=949305.949340)
+  Citation: |
+    In this paper, Harris and Fraser demonstrated how to leverage the
+    memory safety and automatic memory management features of a concurrent
+    object-oriented language to build a Software Transactional Memory
+    (STM) abstraction that is tightly integrated with the language.  In
+    particular, their core contribution was to show how conditional
+    critical regions (CCRs) could provide a higher-level language
+    interface to STM, rather than requiring manipulation of the STM
+    through low-level operations.  In so doing, they also developed a more
+    efficient implementation infrastructure for CCRs than was available
+    previously, and their implementation was pay-as-you-go in the sense of
+    not imposing high overhead on those parts of a program where CCRs are
+    not required.  Coming ten years after STM was first proposed, this
+    work opened the door for a decade of research in languages and
+    architecture for concurrency control.
+
 2012:
   Awardee: Emery Berger, Benjamin G. Zorn, and Kathryn S. McKinley
   Other: |
