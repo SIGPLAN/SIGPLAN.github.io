@@ -1,8 +1,7 @@
 2014:
   Awardee: Gilad Bracha, David Ungar
   Other: |
-    (for 2004) [Mirrors: Design Principles for Meta-level
-Facilities of Object-Oriented Programming Languages](http://dl.acm.org/citation.cfm?doid=1028976.1029004)
+    (for 2004) [Mirrors: Design Principles for Meta-level Facilities of Object-Oriented Programming Languages](http://dl.acm.org/citation.cfm?doid=1028976.1029004)
   Citation: |
     Bracha and Ungar's "Mirrors" paper describes a novel approach to
     reflection in object-oriented API design, in which reflection is
