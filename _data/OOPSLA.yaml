@@ -53,6 +53,22 @@ Facilities of Object-Oriented Programming Languages](http://dl.acm.org/citation.
     handcrafted ones.  The paper also stands out for the quality of
     its empirical methodology.
 
+2011:
+  Awardee:  Grzegorz Czajkowski, Laurent Dayn&eacute;s
+  Other: |
+   (for 2001) [Multitasking without compromise: a virtual machine evolution](http://dl.acm.org/citation.cfm?doid=2442776.2442785)
+  Citation: |
+    The Multitasking Virtual Machine (MVM) described in this paper was the first usable and complete Java
+    VM (JVM) to support safe, secure, and scalable multitasking. Safety is achieved by strict but lightweight
+    isolation of applications from one another. Security comes via resource control mechanisms that prevent
+    some denial-of-service attacks. Scalability derives from sharing as much of the run-time system as
+    possible among applications and replicating everything else. MVM has since had significant influence on
+    the design of other VMs, including Google's Dalvik JVM for mobile platforms. MVM was the setting for
+    subsequent work resulting in the Isolates programming interface. Isolation is the basis for many
+    infrastructures for both mobile devices and backend Clouds. Indeed, the recently announced Dart
+    language for structured Web programming relies on Isolates as its foundation for concurrent
+    programming. 
+    
 2010:
   Awardee:  Matthew Arnold, Stephen Fink, David Grove, Michael Hind, Peter F. Sweeney
   Other: |
