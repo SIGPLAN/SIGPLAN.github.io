@@ -2,7 +2,7 @@
   Awardee: Gilad Bracha, David Ungar
   Other: |
     (for 2004) [Mirrors: Design Principles for Meta-level
-Facilities of Object-Oriented Programming Languages](http://dl.acm.org/citation.cfm?doid=1028976.1029004)
+Facilities of Object-Oriented Programming Languages](http://doi.acm.org/10.1145/1028976.1029004)
   Citation: |
     Bracha and Ungar's "Mirrors" paper describes a novel approach to
     reflection in object-oriented API design, in which reflection is
@@ -20,7 +20,7 @@ Facilities of Object-Oriented Programming Languages](http://dl.acm.org/citation.
 2013:
   Awardee: Tim Harris,  Keir Fraser
   Other: |
-    (for 2003) [Language Support for Lightweight Transactions](http://dl.acm.org/citation.cfm?doid=949305.949340)
+    (for 2003) [Language Support for Lightweight Transactions](http://doi.acm.org/10.1145/949305.949340)
   Citation: |
     In this paper, Harris and Fraser demonstrated how to leverage the
     memory safety and automatic memory management features of a concurrent
@@ -40,7 +40,7 @@ Facilities of Object-Oriented Programming Languages](http://dl.acm.org/citation.
 2012:
   Awardee: Emery Berger, Benjamin G. Zorn, and Kathryn S. McKinley
   Other: |
-    (for 2002) [Reconsidering Custom Memory Allocation](http://dl.acm.org/citation.cfm?id=583854.582421)
+    (for 2002) [Reconsidering Custom Memory Allocation](http://doi.acm.org/10.1145/583854.582421)
   Citation: |
     Custom memory management is often used in systems software for the
     purpose of decreasing the cost of allocation and tightly
@@ -56,7 +56,7 @@ Facilities of Object-Oriented Programming Languages](http://dl.acm.org/citation.
 2011:
   Awardee:  Grzegorz Czajkowski, Laurent Dayn&eacute;s
   Other: |
-   (for 2001) [Multitasking without compromise: a virtual machine evolution](http://dl.acm.org/citation.cfm?doid=2442776.2442785)
+   (for 2001) [Multitasking without compromise: a virtual machine evolution](http://doi.acm.org/10.1145/2442776.2442785)
   Citation: |
     The Multitasking Virtual Machine (MVM) described in this paper was the first usable and complete Java
     VM (JVM) to support safe, secure, and scalable multitasking. Safety is achieved by strict but lightweight
