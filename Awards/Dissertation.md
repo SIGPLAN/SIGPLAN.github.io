@@ -53,6 +53,7 @@ Reynolds was an inspiration to all he worked with. He was well known for helping
  * [Susan Eisenbach](http://www.imperial.ac.uk/AP/faces/pages/read/Home.jsp?person=s.eisenbach&_adf.ctrl-state=16dpu3khvn_99&_afrRedirect=169130355484999) Imperial College London (SIGPLAN member and Chair) <mailto:s.eisenbach@imperial.ac.uk>
  * [Dan Grossman](http://homes.cs.washington.edu/~djg/) University of Washington <mailto:djg@cs.washington.edu>
  * [Marieke Huisman](http://wwwhome.ewi.utwente.nl/~marieke/) -  University of Twente <mailto:m.huisman@utwente.nl>
+ * [Suresh Jagannathan](http://www.cs.purdue.edu/homes/suresh/) - Purdue University <mailto:suresh@cs.purdue.edu>
  * [Tiziana Margaria ](https://www.cs.uni-potsdam.de/sse/people.html?id=tmargaria) - Universität Potsdam <mailto:margaria@cs.uni-potsdam.de>
  * [Andrey Rybalchenko](http://www7.in.tum.de/~rybal/) - Microsoft Research <mailto:rybal@microsoft.com>
  * [Satnam Singh](https://plus.google.com/110563483361774700563/about) - Google <mailto:s.singh@acm.org>
