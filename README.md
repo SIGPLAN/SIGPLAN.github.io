@@ -4,6 +4,8 @@ title: README
 ---
 This is the version-controlled web pages for the ACM Special Interest Group SIGPLAN.
 
+To edit the webpage, see <https://github.com/SIGPLAN/SIGPLAN.github.io/wiki/Editing-www.sigplan.org>
+
 The content of each file is in markdown, and the layout of markdown files mirrors the final layout.
 
 Jekyll:
