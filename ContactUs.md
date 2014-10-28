@@ -38,7 +38,7 @@ involved in directing SIGPLAN.
     -   [Jens Palsberg](http://www.cs.ucla.edu/~palsberg/)
 -   Steering Committee Chairs
     - FOOL:   [Jonathan Aldrich](http://www.cs.cmu.edu/~aldrich)
-    - SPLASH: [William Cook](mailto:wcook@cs.utexas.edu)
+    - SPLASH: [Cristina Lopes](http://www.ics.uci.edu/~lopes)
     - ICFP:   [Manuel Chakravarty](mailto:chak@cse.unsw.edu.au) and Zhenjiang Hu
     - POPL:   [John Field](mailto:jfield@google.com)
     - PLDI:   [Jan Vitek](mailto:jv@cs.purdue.edu)
