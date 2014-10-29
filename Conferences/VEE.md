@@ -23,14 +23,13 @@ The current VEE steering committee is:
 
 -  [Dilma Da Silva](http://www.dilmamds.com/) (Qualcomm Research, Chair)
 -  [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/) (Australian National U)
--  [Marc Fiuczynski](http://www.linkedin.com/pub/marc-fiuczynski/2/160/221) (Akamai)
 -  [Steven Hand](http://research.microsoft.com/en-us/people/sthand/) (Microsoft Research)
 -  [Gernot Heiser](http://www.cse.unsw.edu.au/~gernot/) (NICTA and UNSW)
+-  [Martin Hirzel](http://hirzels.com/martin/) (IBM Research)
 -  [Steve Muir](http://www.linkedin.com/in/9muir) (Comcast)
 -  [Brian Noble](http://web.eecs.umich.edu/~bnoble) (U of Michigan)
 -  [Erez Petrank](http://www.cs.technion.ac.il/~erez) (Technion)
--  [Andrew Warfield](http://www.cs.ubc.ca/~andy/) (UBC)
--  [Dan Tsafrir](http://www.cs.technion.ac.il/~dan/)
+-  [Dan Tsafrir](http://www.cs.technion.ac.il/~dan/) (Technion)
 
 **Web Pages of Previous Conferences**
 
