@@ -50,12 +50,13 @@ Reynolds was an inspiration to all he worked with. He was well known for helping
 
  * [Vikram Adve](http://llvm.cs.uiuc.edu/~vadve/Home.html) - University of Illinois at Urbana-Champaign <mailto:vadve@illinois.edu>
  * [Elisabetta  Di Nitto](http://home.deib.polimi.it/dinitto/) - Politecnico di Milano <mailto:elisabetta.dinitto@gmail.com>
- * [Susan Eisenbach](http://www.imperial.ac.uk/AP/faces/pages/read/Home.jsp?person=s.eisenbach&_adf.ctrl-state=16dpu3khvn_99&_afrRedirect=169130355484999) Imperial College London (SIGPLAN member and Chair)
- * [Marieke Huisman](http://wwwhome.ewi.utwente.nl/~marieke/) -  University of Twente <mailto:djg@cs.washington.edu>
- * [Suresh Jagannathan](http://www.cs.purdue.edu/homes/suresh/)  - Purdue University <mailto:m.huisman@utwente.nl>
+ * [Susan Eisenbach](http://www.imperial.ac.uk/AP/faces/pages/read/Home.jsp?person=s.eisenbach&_adf.ctrl-state=16dpu3khvn_99&_afrRedirect=169130355484999) Imperial College London (SIGPLAN member and Chair) <mailto:s.eisenbach@imperial.ac.uk>
+ * [Dan Grossman](http://homes.cs.washington.edu/~djg/) University of Washington <mailto:djg@cs.washington.edu>
+ * [Marieke Huisman](http://wwwhome.ewi.utwente.nl/~marieke/) -  University of Twente <mailto:m.huisman@utwente.nl>
+ * [Suresh Jagannathan](http://www.cs.purdue.edu/homes/suresh/) - Purdue University <mailto:suresh@cs.purdue.edu>
  * [Tiziana Margaria ](https://www.cs.uni-potsdam.de/sse/people.html?id=tmargaria) - Universität Potsdam <mailto:margaria@cs.uni-potsdam.de>
- * [Andrey Rybalchenko](http://www7.in.tum.de/~rybal/) - Technische Universität München <mailto:margaria@cs.uni-potsdam.de>
+ * [Andrey Rybalchenko](http://www7.in.tum.de/~rybal/) - Microsoft Research <mailto:rybal@microsoft.com>
  * [Satnam Singh](https://plus.google.com/110563483361774700563/about) - Google <mailto:s.singh@acm.org>
- * [Eijiro Sumii](http://www.kb.ecei.tohoku.ac.jp/~sumii/)  - Tohoku University <mailto:sumii@ecei.tohoku.ac.jp>
- * [Jan Vitek](http://www.cs.purdue.edu/homes/jv/) - Purdue University (ex officio member as SIGPLAN Chair)
- * [Eran Yahav](http://www.cs.technion.ac.il/~yahave/) - Technion <mailto:http://www.kb.ecei.tohoku.ac.jp/~sumii/>
+ * [Eijiro Sumii](http://www.kb.ecei.tohoku.ac.jp/~sumii/) - Tohoku University <mailto:sumii@ecei.tohoku.ac.jp>
+ * [Jan Vitek](http://janvitek.github.io/) - Purdue University (ex officio member as SIGPLAN Chair) <mailto:j.vitek@neu.edu>
+ * [Eran Yahav](http://www.cs.technion.ac.il/~yahave/) - Technion <mailto:yahave@cs.technion.ac.il>
