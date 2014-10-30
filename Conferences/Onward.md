@@ -26,6 +26,14 @@ Awards
     -   Conference: Onward! 2004
     -   Paper:
         [http://dl.acm.org/citation.cfm?id=1052883.1052897](http://dl.acm.org/citation.cfm?id=1052883.1052897)
+    -   Citation: The 2004 Onward! paper "Languages of the Future"
+        pioneered the idea of lightweight dependently-typed
+        programming, and idea that has since found its way into
+        several languages, and continues to progress today.  This
+        paper is notable for bringing together complex ideas in a
+        compelling way; pointing to how they could be incorporated
+        into “ordinary” languages; and influencing the practical world
+        of software development with this pearl of a design.
 
 -   Most Notable Paper Award 2013 for 2003
     -   Recipient: Martin Rinard
@@ -38,9 +46,9 @@ Awards
         acceptable program behavior for a software system, and then
         augmenting the original system by layering components to enforce
         those boundaries&#8212;this instead of attempting to construct a
-        completely error-free system. This paper led to a
-        still-expanding series of papers exploring this approach, its
-        capabilities, and its benefits.
+        completely error-free system. This paper led to a still-expanding
+        series of papers exploring this approach, its capabilities,
+        and its benefits.
 
 -   Most Notable Paper Award 2012 for 2002
     -   Recipients: James Noble and Robert Biddle
