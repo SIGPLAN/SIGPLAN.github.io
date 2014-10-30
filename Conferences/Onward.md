@@ -46,9 +46,9 @@ Awards
         acceptable program behavior for a software system, and then
         augmenting the original system by layering components to enforce
         those boundaries&#8212;this instead of attempting to construct a
-        completely error-free system. This paper led to a
-        still-expanding series of papers exploring this approach, its
-        capabilities, and its benefits.
+        completely error-free system. This paper led to a still-expanding
+        series of papers exploring this approach, its capabilities,
+        and its benefits.
 
 -   Most Notable Paper Award 2012 for 2002
     -   Recipients: James Noble and Robert Biddle
