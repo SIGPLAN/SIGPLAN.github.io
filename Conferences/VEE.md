@@ -21,7 +21,7 @@ emulators, and simulators.
 
 The current VEE steering committee is:
 
--  [Dilma Da Silva](http://engineering.tamu.edu/cse/people/da-silva-dilma) (Texas A&M)
+-  [Dilma Da Silva](http://engineering.tamu.edu/cse/people/da-silva-dilma) (Texas A&M), steering committee chair
 -  [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/) (Australian National U)
 -  [Steven Hand](http://research.microsoft.com/en-us/people/sthand/) (Microsoft Research)
 -  [Gernot Heiser](http://www.cse.unsw.edu.au/~gernot/) (NICTA and UNSW)
