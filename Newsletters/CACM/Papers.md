@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "SIGPLAN CACM Research Highlights Nominated Papers"
+title: "SIGPLAN Research Highlights Papers"
 ---
 
 ### Selected November 2014
