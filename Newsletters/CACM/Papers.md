@@ -3,6 +3,20 @@ layout: default
 title: "SIGPLAN CACM Research Highlights Nominated Papers"
 ---
 
+### Selected November 2014
+
+> Title: <a href="http://dl.acm.org/citation.cfm?id=2594293">Doppio: Breaking the Browser Language Barrier</a>  
+> Authors: John Vilk, Emery Berger, University of Massachusetts  
+> Venue: PLDI 2014
+
+The authors build a JavaScript-based framework, Doppio, in which unmodified programs can be executed within a web browser. They do this by creating a runtime environment in JavaScript that supports basic services such as sockets, threading, and a filesystem that are not otherwise supported within the browser. The authors demonstrate the framework by implementing an in-browser JVM and an in-browser runtime for C++. The paper is an engineering tour de force. The paper should appeal to a wide audience because of the ubiquity of the browser (and thus the utility of their systems), and because it is broad in scope. 
+
+> Title: <a href="http://dl.acm.org/citation.cfm?id=2541958">Uncertain\<T\>: a First-order Type for Uncertain Data</a>  
+> Authors: James Bornholt, Australian National University, Todd Mytkowicz and Kathryn S. McKinley, Microsoft Research  
+> Venue: ASPLOS 2014
+
+Programmers increasingly have to reason about, and write code, that depends on values that are approximate. Such values result from sensor readings, the use of approximate hardware, or dependence on a statistical reasoning software component such as machine learning. This paper presents a practical and well-motivated solution to this problem based on creating a generic type, Uncertain\<T\>, that captures the underlying semantics of uncertain data. The authors illustrate their idea with concrete examples of its use, motivating it as increasingly important abstraction for developers to have and use.
+
 ### Selected July 2014
 
 > Title: <a href="http://dl.acm.org/citation.cfm?doid=2500365.2500617">Functional Geometry and the Traite' de Lutherie</a>  
