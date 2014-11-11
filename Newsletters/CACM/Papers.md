@@ -17,6 +17,8 @@ The authors build a JavaScript-based framework, Doppio, in which unmodified prog
 
 Programmers increasingly have to reason about, and write code, that depends on values that are approximate. Such values result from sensor readings, the use of approximate hardware, or dependence on a statistical reasoning software component such as machine learning. This paper presents a practical and well-motivated solution to this problem based on creating a generic type, Uncertain\<T\>, that captures the underlying semantics of uncertain data. The authors illustrate their idea with concrete examples of its use, motivating it as increasingly important abstraction for developers to have and use.
 
+* * * * *
+
 ### Selected July 2014
 
 > Title: <a href="http://dl.acm.org/citation.cfm?doid=2500365.2500617">Functional Geometry and the Traite' de Lutherie</a>  
@@ -116,9 +118,9 @@ column in CACM inspired Richard Bird's Functional Pearls column in the
 Journal of Functional Programming. Pearls were later added as
 submission categories for ICFP and POPL.*
 
+* * * * *
 
-
-### Nominated September 2013
+### Selected September 2013
 
 ***Title:*** [A General Constraint-Centric Scheduling Framework for Spatial
 Architectures](http://dl.acm.org/citation.cfm?id=2462163)  
@@ -198,7 +200,7 @@ broad impact.
 
 
 
-### Nominated May 2013
+### Selected May 2013
 
 ***Title:*** [Set-Theoretic Foundation of Parametric Polymorphism and
 Subtyping](http://dl.acm.org/citation.cfm?id=2034788)  
@@ -296,7 +298,7 @@ problem PTIME.
 
 
 
-### Nominated October 2012
+### Selected October 2012
 
 ***Title:*** [And Then There Were None: A Stall-Free Real-Time Garbage
 Collector for Reconfigurable Hardware](http://dl.acm.org/citation.cfm?id=2254068)  
@@ -396,7 +398,7 @@ aviation, an application of great interest in its own right.
 
 
 
-### Nominated February 2012
+### Selected February 2012
 
 ***Title:*** [Fast Restore of Checkpointed Memory using Working Set
 Estimation](http://dl.acm.org/citation.cfm?doid=1952682.1952695)  
@@ -478,7 +480,7 @@ implementation of support for concrete syntax transformations.
 
 
 
-### Nominated September 2011:
+### Selected September 2011:
 
 ***Title:*** [Understanding POWER
 Multiprocessors](http://dl.acm.org/citation.cfm?id=1993520)  
@@ -625,7 +627,7 @@ programming language techniques can be widely useful.
 
 
 
-### Nominated February 2011:
+### Selected February 2011:
 
 ***Title:*** [Lime: a Java-Compatible and Synthesizable Language for
 Heterogeneous Architectures](http://dx.doi.org/10.1145/1869459.1869469)  
@@ -774,7 +776,7 @@ implemented as a library, without need for further language extensions.
 
 
 
-### Nominated November 2010:
+### Selected November 2010:
 
 ***Title:*** [Complete Functional
 Synthesis](http://dx.doi.org/10.1145/1809028.1806632)  
@@ -836,7 +838,7 @@ are possible.
 
 
 
-### Nominated November 2009:
+### Selected November 2009:
 
 ***Title:*** [FastTrack: Efficient and Precise Dynamic Race
 Detection](http://portal.acm.org/citation.cfm?id=1542490)  
@@ -876,7 +878,7 @@ based on vector clocks.
 
 
 
-### Nominated June 2009:
+### Selected June 2009:
 
 ***Title:*** [The Theory of Deadlock Avoidance via Discrete
 Control](http://portal.acm.org/citation.cfm?id=1480881.1480913)  
@@ -943,7 +945,7 @@ type structure. The paper is a joy to read.
 
 
 
-### Nominated January 2009:
+### Selected January 2009:
 
 ***Title:*** [Goldilocks: A Race and Transaction-Aware Java
 Runtime](http://portal.acm.org/citation.cfm?id=1250762)  
@@ -1043,7 +1045,7 @@ constraint systems have progressed for program analysis tools.
 
 
 
-### Nominated September 2008:
+### Selected September 2008:
 
 ***Title:*** [Formal Certification of a Compiler Back-end or: Programming a
 Compiler with a Proof Assistant](http://portal.acm.org/citation.cfm?id=1111320.1111042)  
@@ -1195,7 +1197,7 @@ tolerance application studied in this paper.
 
 
 
-### Nominated January 2008:
+### Selected January 2008:
 
 ***Title:*** [Dynamic Multigrained Parallelization on the Cell Broadband
 Engine](http://doi.acm.org/10.1145/1229428.1229445)  
