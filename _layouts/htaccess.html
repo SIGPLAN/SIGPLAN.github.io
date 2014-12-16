@@ -5,7 +5,11 @@ RewriteEngine On
 
 {% for redir in site.data.Redirections %}
 RewriteCond %{REQUEST_FILENAME} !-f
+{% if redir[1] contains 'http:' %}
+RewriteRule  ^{{redir[0]}}$ {{redir[1]}} [L,NE,R=302]
+{% else %}
 RewriteRule  ^{{redir[0]}}$ /{{redir[1]}} [L,NE,R=302]
+{% endif %}
 {% endfor %}
 
 ErrorDocument 404 /404.html
