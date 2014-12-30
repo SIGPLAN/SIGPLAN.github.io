@@ -21,7 +21,7 @@ The committee considers nominated papers from two sources:
 
 
 ### SIGPLAN Research Highlights Papers
-  As of August 2014, 41 papers have been recognized by the SIGPLAN
+  As of November 2014, 43 papers have been recognized by the SIGPLAN
   Research Highlights committee, and 19 SIGPLAN papers have appeared in
   CACM, 12 from the SIGPLAN committee and 7 that were solicited directly by the CACM committee. 
   This [webpage](/Newsletters/CACM/Papers) contains the full list of papers.
@@ -34,7 +34,7 @@ POPL, [Jens Palsberg](http://www.cs.ucla.edu/~palsberg), [palsberg@ucla.edu](mai
 PLDI, [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/), [Steve.Blackburn@anu.edu.au](mailto:Steve.Blackburn@anu.edu.au)  
 ICFP, [Robby Findler](http://www.eecs.northwestern.edu/~robby/), [robby@eecs.northwestern.edu](mailto:robby@eecs.northwestern.edu)    
 OOPSLA, [Cristina Videira Lopes](http://www.ics.uci.edu/~lopes/), [lopes@ics.uci.edu](mailto:lopes@ics.uci.edu)   
-PPDP/GPCE/Haskell, [Andres Loeh](http://people.cs.uu.nl/andres/), [andres@cs.uu.nl](mailto:andres@cs.uu.nl)  
+PPDP/GPCE/Haskell, [Tom Schrijvers](http://people.cs.kuleuven.be/~tom.schrijvers/), [tom.schrijvers@cs.kuleuven.be](mailto:tom.schrijvers@cs.kuleuven.be)  
 PPoPP/VEE/ISMM, [Hans Boehm](http://www.hpl.hp.com/personal/Hans_Boehm/), [boehm@acm.org](mailto:boehm@acm.org)  
 LCTES/ASPLOS/CGO, [Ben Zorn](http://research.microsoft.com/en-us/people/zorn/), [Ben.Zorn@microsoft.com](mailto:Ben.Zorn@microsoft.com)  
 SIGPLAN Chair, [Jan Vitek](http://www.cs.purdue.edu/homes/jv/), [jv@cs.purdue.edu](mailto:jv@cs.purdue.edu)  
