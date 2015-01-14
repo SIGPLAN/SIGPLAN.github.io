@@ -50,7 +50,6 @@ Reynolds was an inspiration to all he worked with. He was well known for helping
  
 **Selection Committee**
 
- * [Vikram Adve](http://llvm.cs.uiuc.edu/~vadve/Home.html) - University of Illinois at Urbana-Champaign <mailto:vadve@illinois.edu>
  * [Elisabetta  Di Nitto](http://home.deib.polimi.it/dinitto/) - Politecnico di Milano <mailto:elisabetta.dinitto@gmail.com>
  * [Susan Eisenbach](http://www.imperial.ac.uk/AP/faces/pages/read/Home.jsp?person=s.eisenbach&_adf.ctrl-state=16dpu3khvn_99&_afrRedirect=169130355484999) Imperial College London (SIGPLAN member and Chair) <mailto:s.eisenbach@imperial.ac.uk>
  * [Dan Grossman](http://homes.cs.washington.edu/~djg/) University of Washington <mailto:djg@cs.washington.edu>
