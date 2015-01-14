@@ -8,6 +8,7 @@ programming languages. The contribution can be a single event or a
 life-time of achievement. The award includes a prize of $5,000. The
 award is presented at SIGPLAN's [PLDI conference](/Conferences/PLDI) the
 following June.  
+All questions about the Programming Languages Achievement Award should be directed to achievement_award@sigplan.org.
 
 **Nominations**  
 
