@@ -8,6 +8,8 @@ dissertation in the area of Programming Languages. The award includes
 a prize of $1,000. The winner can choose to receive the award at ICFP,
 OOPSLA, POPL, or PLDI.
 
+All questions about the John C. Reynolds Doctoral Dissertation Award should be directed to reynolds_award@sigplan.org.
+
 **Nominations**
 
 Nominations must be submitted via the SIGPLAN Awards Nomination Portal at 
