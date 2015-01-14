@@ -12,6 +12,8 @@ projects, in the open-source community, or commercially. The award
 includes a prize of $2,500. The award is presented at SIGPLAN's
 [PLDI conference](/Conferences/PLDI) the following June.  
 
+All questions about the Programming Languages Software Award should be directed to software_award@sigplan.org.
+
 **Nominations**
 
 - [Details of the nomination and award process (pdf).](/sites/default/files/award-nominations.pdf)
