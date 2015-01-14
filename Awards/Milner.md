@@ -9,6 +9,8 @@ computer-related professional career (graduate school or full-time
 employment, whichever began first) started no earlier than 20 years
 prior to the nominations deadline. The award includes a prize of $2,500.
 
+All questions about the Robin Milner Young Researcher Award should be directed to milner_award@sigplan.org.
+
 **Robin Milner** (13 January, 1934 - 20 March, 2010)
 
 Robin Milner was, for decades, a leading light in programming
