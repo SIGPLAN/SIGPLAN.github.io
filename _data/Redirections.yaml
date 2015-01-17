@@ -1,6 +1,5 @@
 #
-# Things that need redirected (not auto generated yet)
-# The result is manually put into .htaccess
+# Things that need redirected. The result is automatically put into .htaccess
 #
 # We no longer nest the Conference Awards
 "Awards/Conferences/(.*)":			"Awards/$1"
