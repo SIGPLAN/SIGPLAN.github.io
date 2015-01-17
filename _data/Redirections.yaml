@@ -16,7 +16,7 @@
 "oopsla(.htm|.html|)":				"Conferences/OOPSLA/"
 "vee(.htm|.html|)":				"Conferences/VEE/"
 
-"authorInformation(.htm|.html|)":		"Resources/Author/"
+"author[Ii]nformation(.htm|.html|)":		"Resources/Author/"
 
 "conferences/(.*)":				"Conferences/$1"
 
