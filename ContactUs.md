@@ -39,8 +39,8 @@ involved in directing SIGPLAN.
 -   Steering Committee Chairs
     - FOOL:   [Jonathan Aldrich](http://www.cs.cmu.edu/~aldrich)
     - SPLASH: [Cristina Lopes](http://www.ics.uci.edu/~lopes)
-    - ICFP:   [Manuel Chakravarty](mailto:chak@cse.unsw.edu.au) and Zhenjiang Hu
-    - POPL:   [John Field](mailto:jfield@google.com)
+    - ICFP:   [Greg Morrisett](http://www.eecs.harvard.edu/~greg/)
+    - POPL:   [Suresh Jagannathan](mailto:suresh@cs.purdue.edu)
     - PLDI:   [Jan Vitek](mailto:jv@cs.purdue.edu)
     - LCTES:  [Zhiyuan Li](mailto:li@cs.purdue.edu)
     - ISMM:   [David Grove](mailto:groved@us.ibm.com)
