@@ -50,4 +50,5 @@ involved in directing SIGPLAN.
     - VEE:     [Tony Hosking](mailto:hosking@cs.purdue.edu)
     - GPCE:   [Julia Lawall](mailto:julia@diku.dk)
     - DLS:    [Robert Hirschfeld](mailto:robert.hirschfeld@hpi.uni-potsdam.de)
+    - CGO:    [Olivier Temam](http://pages.saclay.inria.fr/olivier.temam/)
     - SIGAPL: [Guy Larocque](mailto:Guy.LaRocque@RNCan-NRCan.gc.ca)
