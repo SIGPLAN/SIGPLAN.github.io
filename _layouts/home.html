@@ -6,7 +6,7 @@
     <div style="background: #f0f0f0; padding-top: 10px; padding-bottom: 10px; margin-bottom: 10px; border-bottom: 1pt solid #808080;">
     <div class="container">
       <div class="row">
-        <div class="col-md-2 col-md-offset-2" style="padding-right: 0pt">
+        <div class="col-md-2" style="padding-right: 0pt">
              <p class="text-right"><img src="{{site.url}}/images/acmlogo.gif"></p>
         </div>
         <div class="col-md-8">
@@ -21,7 +21,17 @@
       <div class="row">
         
         <div class="col-md-7 col-md-offset-1">
-          <h3>Awards and Recent Recipients</h3>
+          <h2> SIGPLAN Blog Posts </h2>
+          <ul id="blog-posts">
+            {% for post in site.posts %}
+              <li>
+                <a href="{{post.url}}"><h3>{{ post.title }}</h3></a>
+                {{ post.excerpt }}
+              </li>
+            {% endfor %}
+          </ul>
+          <!--
+	  <h3>Awards and Recent Recipients</h3>
 
           {% for award in site.data.Awards %}
             {% assign path = award[0] | prepend: 'Awards/' %}
@@ -53,7 +63,8 @@
             </ul>
           {% endfor %}          
           {% include links.liquid data=site.data.Links links="SIGPLAN Sponsored Conferences" %}
-        </div>
+          -->
+        </div> 
       </div>
     </div>  
 
