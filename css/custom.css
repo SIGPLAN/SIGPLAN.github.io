@@ -35,15 +35,12 @@ code {
           font-family: verdana, arial, helvetica, "sans-serif" ; 
           font-weight: bold ; 
           font-style: italic ;
-
           color: #6666cc ;
-
           text-decoration: none ; }
 /* Make the group items tighter */
 .list-group-item {
   padding: 5px 15px;
 }
-
 
 .spacer {
   height: 500px;
