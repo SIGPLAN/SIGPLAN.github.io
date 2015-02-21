@@ -185,6 +185,7 @@ See Also
   [article template](/sites/default/files/Author/sigplanconf-template.tex), and
   [user guide](/sites/default/files/Author/sigplanconf-guide.pdf)
 
+- Andrew Black's [Where did all the money go?](/sites/default/files/SIGPLAN_conference_finances_for_beginners.pdf)
 
 Some columns containing useful advice for conference organizers have
 been published in _SIGPLAN Notices_ over the years:
