@@ -44,9 +44,11 @@ code {
 .spacer {
   height: 500px;
   background-color: #f8f8f8;
+
 }
 
 #blog-posts {
   list-style-type: none;
   padding: 0; margin: 0;
+
 }
