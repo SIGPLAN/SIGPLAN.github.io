@@ -31,3 +31,5 @@
 "sigplan_bylaws.htm":				"http://www.acm.org/sigs/bylaws-contents/plan_bylaws"
 
 "notices.htm":					"Notices/"
+
+"PAC(.htm|.html|)":				"PAC/"
