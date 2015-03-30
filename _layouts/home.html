@@ -37,7 +37,8 @@
 	    <table class="table table-striped table-bordered">
               <tr>
                 <td>Award</td>
-                <td>Most Recent Recipient</td>
+                <td>Year</td>
+                <td>Recipient</td>
               </tr>
 
           {% for award in site.data.Awards %}
@@ -64,6 +65,7 @@
             
               <tr>
                 <td><a href="{{ path }}">{{ name }}</a></td>
+                <td>{{ year }}</td>
                 <td><a href="{{ path }}#{{ year }}">{{ first_recipient }}</a></td>
               </tr>
             <!--<h5><a href="{{path}}">{{name}}</a></h5>
