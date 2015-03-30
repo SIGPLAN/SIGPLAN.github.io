@@ -27,7 +27,12 @@
             {{ post.excerpt }}
           
 	  <h3>Awards and Recent Recipients</h3>
-
+            </br>
+	    <table class="table table-striped table-bordered">
+              <tr>
+                <td>Award</td>
+                <td>Most Recent Recipient</td>
+              </tr>
           {% for award in site.data.Awards %}
             {% assign path = award[0] | prepend: 'Awards/' %}
             {% assign name = award[1] %}
@@ -49,14 +54,19 @@
             {% if first_recipient[0] <> nil %}
               {% assign first_recipient = first_recipient | array_to_sentence_string %}
             {% endif %}
-
-            <h5><a href="{{path}}">{{name}}</a></h5>
+            
+              <tr>
+                <td><a href="{{ path }}">{{ name }}</a></td>
+                <td><a href="{{ path }}#{{ year }}">{{ first_recipient }}</a></td>
+              </tr>
+            <!--<h5><a href="{{path}}">{{name}}</a></h5>
             <ul>
               <li>
                 {{ year }}: <a href="{{path}}#{{year}}">{{ first_recipient }}</a>
               </li>
-            </ul>
-          {% endfor %}          
+            </ul>-->
+          {% endfor %}         
+            </table> 
           {% include links.liquid data=site.data.Links links="SIGPLAN Sponsored Conferences" %}
           
         </div> 
