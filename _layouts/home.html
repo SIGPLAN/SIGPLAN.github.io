@@ -20,16 +20,8 @@
     <div class="container">
       <div class="row">
         
-        <div class="col-md-7 col-md-offset-1">
+        <div class="col-md-8 col-md-offset-2">
           <h2> Latest SIGPLAN Annoucement </h2>
-<!--          <ul id="blog-posts">
-            {% for post in site.posts %}
-              <li>
-                <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-                {{ post.excerpt }}
-              </li>
-            {% endfor %}
-          </ul> -->
             {% assign post = site.posts.first %}
             <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
             {{ post.excerpt }}
