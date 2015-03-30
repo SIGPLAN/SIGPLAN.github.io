@@ -4,6 +4,5 @@ pygments: true
 exclude: ['Makefile','link-checker-crawled-pages.pstore','ERRORs.txt','Gemfile','Gemfile.lock']
 include: ['.htaccess','sites']
 permalink: pretty
-pagination: 5
-desination: _site/Blog
-pagination_path: "/Blog/page:num/"
+paginate: 5
+paginate_path: "/Blog/page:num/"
