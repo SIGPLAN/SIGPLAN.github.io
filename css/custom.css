@@ -1,15 +1,19 @@
+#spacer {
+  height: 50px;
+}
+
 body {
-  padding-top: 50px;
+  /*padding-top: 50px;*/
   min-height: 200px;
 }
 
 .navbar-static-top {
-  margin-bottom: 19px;
+  margin-bottom: 50px;
 }
 
 /* Set the fixed height of the footer here */
 #footer {
-  height: 60px;
+/*  height: 60px;*/
   background-color: #d5d5d5;
 }
 
