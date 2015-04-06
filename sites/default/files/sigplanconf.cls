@@ -950,34 +950,38 @@
 \newcommand{\preprintfooter}[1]{%
   \gdef \@preprintfooter {#1}}
 
-\if \@preprint
+\newcommand{\sigplanfooter}{
+  \if \@preprint
 
-\def \ps@plain {%
-  \let \@mkboth = \@gobbletwo
-  \let \@evenhead = \@empty
-  \def \@evenfoot {\scriptsize
-                   \rlap{\textit{\@preprintfooter}}\hfil
-                   \thepage \hfil
-                   \llap{\textit{\@formatyear}}}%
-  \let \@oddhead = \@empty
-  \let \@oddfoot = \@evenfoot}
+  \def \ps@plain {%
+    \let \@mkboth = \@gobbletwo
+    \let \@evenhead = \@empty
+    \def \@evenfoot {\scriptsize
+                     \rlap{\textit{\@preprintfooter}}\hfil
+                     \thepage \hfil
+                     \llap{\textit{\@formatyear}}}%
+    \let \@oddhead = \@empty
+    \let \@oddfoot = \@evenfoot}
 
-\else\if \@reprint
+  \else\if \@reprint
 
-\def \ps@plain {%
-  \let \@mkboth = \@gobbletwo
-  \let \@evenhead = \@empty
-  \def \@evenfoot {\scriptsize \hfil \thepage \hfil}%
-  \let \@oddhead = \@empty
-  \let \@oddfoot = \@evenfoot}
+  \def \ps@plain {%
+    \let \@mkboth = \@gobbletwo
+    \let \@evenhead = \@empty
+    \def \@evenfoot {\scriptsize \hfil \thepage \hfil}%
+    \let \@oddhead = \@empty
+    \let \@oddfoot = \@evenfoot}
 
-\else
+  \else
 
-\let \ps@plain = \ps@empty
-\let \ps@headings = \ps@empty
-\let \ps@myheadings = \ps@empty
+  \let \ps@plain = \ps@empty
+  \let \ps@headings = \ps@empty
+  \let \ps@myheadings = \ps@empty
 
-\fi\fi
+  \fi\fi
+}
+
+\sigplanfooter
 
 \def \@formatyear {%
   \number\year/\number\month/\number\day}
