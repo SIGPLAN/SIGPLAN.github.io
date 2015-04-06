@@ -11,11 +11,11 @@ systems, and programming interfaces. POPL is in-cooperation with
 
 **POPL Fast Facts**
 
-> [POPL 2014 Web Page](http://popl.mpi-sws.org/2014/)  
-> Location: San Diego, USA  
-> General Chair: [Suresh Jagannathan](http://www.cs.purdue.edu/homes/suresh/)  
-> Program Chair: [Peter Sewell](http://www.cl.cam.ac.uk/~pes20/)  
-> Dates: January 22-24, 2014  
+> [POPL 2016 Web Page](http://popl.mpi-sws.org/2014/)  
+> Location: St. Petersburg, Florida, USA  
+> General Chair: [Rastislav Bodík](http://www.cs.berkeley.edu/~bodik/)  
+> Program Chair: [Rupak Majumdarl](http://www.mpi-sws.org/~rupak/)  
+> Dates: January 20-22, 2016
 
 **Most Influential POPL Paper Award**
 
@@ -35,12 +35,14 @@ The current POPL steering committee is:
 -   Philip Wadler, past SIGPLAN Chair
 -   Jeremy Gibbons, current SIGPLAN Vice Chair
 -   Graham Hutton, past SIGPLAN Vice Chair
+-   Giuseppe Castagna, 2017 General Chair
+-   Ras Bodik, 2016 General Chair
+-   Rupak Majumdar, 2016 Program Chair
+-   Sriram Rajamani, 2015 General Chair
+-   David Walker, 2015 Program Chair
+-   Suresh Jagannathan, 2014 General Chair
+-   Peter Sewell, 2014 Program Chair
 -   Roberto Giacobazzi, 2013 General Chair
--   Radhia Cousot, 2013 Program Chair
--   John Field, 2012 General Chair
--   Michael Hicks, 2012 Program Chair
--   Thomas Ball, 2011 General Chair
--   Mooly Sagiv, 2011 Program Chair
 
 **Principles of POPL**
  
@@ -51,6 +53,9 @@ The current POPL steering committee is:
 ----
 
 **Web Pages of Previous Conferences**  
+
+> [POPL 2015](http://popl.mpi-sws.org/2015/) (Mumbai, India)  
+> [POPL 2014](http://popl.mpi-sws.org/2014/)  (San Diego, CA)  
 > [POPL 2013](http://popl.mpi-sws.org/2013/)  (Rome, Italy)  
 > [POPL 2012](http://www.cse.psu.edu/popl/12/) (Philadelphia, PA)  
 > [POPL 2011](http://www.cse.psu.edu/popl/11/) (Austin, TX)  
