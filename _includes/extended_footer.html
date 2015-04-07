@@ -1,0 +1,105 @@
+<!-- Extended Footer -->
+
+</br></br>
+<div id="footer">
+  </br>
+  <div class="container">
+    
+    <div class="row"> <!-- Footer Headings -->
+      <div class = "col-md-3">
+        <h4>Key Links </h4>
+      </div>
+      <div class = "col-md-3 col-md-offset-3">
+        <h4> Conference Information </h4>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Key Links -->
+      
+      <div class="col-md-3">
+        <ul >
+        {% for m1 in site.data.Links["Extra Links"] %}
+          {% assign link = m1 | remove: '>' | split: "<" %}
+          {% assign even = forloop.index | modulo: 2 %}
+          {% if even == 1 %}
+	  <li >
+            {% if link[1] contains "://" %} 
+              <a href="{{ link[1] }}">
+              {% else %}          
+              <a href="/{{ link[1] }}">
+            {% endif %}
+              {{ link[0] }} </a>    
+          </li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+      </div>
+        
+      <div class="col-md-3">
+        <ul >
+         {% for m1 in site.data.Links["Extra Links"] %}
+           {% assign link = m1 | remove: '>' | split: "<" %}
+           {% assign even = forloop.index | modulo: 2 %}
+           {% if even == 0 %}
+	   <li >
+             {% if link[1] contains "://" %} 
+               <a href="{{ link[1] }}">
+             {% else %}          
+               <a href="/{{ link[1] }}">
+             {% endif %}
+               {{ link[0] }} </a>
+           </li>
+           {% endif %}
+         {% endfor %}
+         </ul>
+      </div>
+
+      <!-- Conference Info -->
+      <div class="col-md-3 ">
+        <ul >
+        {% for m1 in site.data.Links["Conference Information"] %}
+          {% assign link = m1 | remove: '>' | split: "<" %}
+          {% assign even = forloop.index | modulo: 2 %}
+          {% if even == 1 %}
+	  <li >
+            {% if link[1] contains "://" %} 
+              <a href="{{ link[1] }}">
+              {% else %}          
+              <a href="/{{ link[1] }}">
+            {% endif %}
+              {{ link[0] }} </a>    
+          </li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+      </div>
+        
+      <div class="col-md-3">
+        <ul >
+         {% for m1 in site.data.Links["Conference Information"] %}
+           {% assign link = m1 | remove: '>' | split: "<" %}
+           {% assign even = forloop.index | modulo: 2 %}
+           {% if even == 0 %}
+	   <li>
+             {% if link[1] contains "://" %} 
+               <a href="{{ link[1] }}">
+             {% else %}          
+               <a href="/{{ link[1] }}">
+             {% endif %}
+               {{ link[0] }} </a>
+           </li>
+           {% endif %}
+         {% endfor %}
+         </ul>
+      </div>
+    </div>
+
+    <p class="text-muted">Page generated {{ site.time | date_to_rfc822 }}</p>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+{% include no-debug.html %}
+
