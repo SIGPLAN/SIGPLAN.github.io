@@ -12,14 +12,24 @@ title: SIGPLAN Announcements and Blog Posts
 <!-- Excerpt links -->
 
 {% if paginator.total_pages > 1 %}
-<nav class="pagination">
+{% assign show_both = paginator.previous_page && paginator.next_page %}
+<nav >
      {% if paginator.previous_page %}
-     	<a href="{{ paginator.previous_page_path }}">Previous</a>
+     	<a class="btn btn-default" href="{{ paginator.previous_page_path }}">Previous</a>
+
      {% endif %}
 
      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}">Next</a>
+       
+        <a class="btn btn-default 
+        {% if paginator.previous_page %} 
+          col-md-offset-9 
+        {% else %} 
+          col-md-offset-11 
+        {% endif %}
+        " href="{{ paginator.next_page_path }}">Next</a>
      {% endif %}
+     
      
 </nav>
 
