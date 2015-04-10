@@ -21,6 +21,8 @@
       </div>
     </div>
 
+    </div>
+
     <div class="container">
 
       <div class="row">
@@ -48,7 +50,6 @@
                 <td>Recipient</td>
                 <td>Year</td>
               </tr>
-
           {% for award in site.data.Awards %}
             {% assign path = award[0] | prepend: 'Awards/' %}
             {% assign name = award[1] %}
