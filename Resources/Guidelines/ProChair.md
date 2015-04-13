@@ -294,12 +294,14 @@ _ACM Representative to SIGPLAN_ (Fran Spinola):
 See Also
 --------
 
--   [Calendar of Upcoming SIGPLAN Conferences](http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN)
+- [Calendar of Upcoming SIGPLAN Conferences](http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN)
 - ACM's *[How to Organize a Conference](http://www.acm.org/sigs/volunteer_resources/conference_manual/conference_manual-toc)* manual
 - [ACM's How to Organize a Conference](http://www.acm.org/sigs/volunteer_resources/conference_manual/manual_read_me)
 - SIGPLAN conference style [LaTeX class file](http://www.sigplan.org/sites/default/files/sigplanconf.cls),
   [article template](http://www.sigplan.org/sites/default/files/sigplanconf-template.tex), and
   [user guide](http://www.sigplan.org/sites/default/files/sigplanconf-guide.pdf)
+- [Author Information for SIGPLAN Conferences](/Resources/Author)
+- [Guidelines for Referees](/Resources/Guidelines/Referees)
 
 Some columns containing useful advice for conference organizers have
 been published in _SIGPLAN Notices_ over the years:
