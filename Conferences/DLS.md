@@ -27,6 +27,7 @@ Past Events
     -   Portland, Oregon, USA, 2014
     -   Co-located with SPLASH 2014
     -   PC chair: Laurence Tratt
+    -   Invited speaker: Stefan Udo Hanenberg
     -   [http://www.dynamic-languages-symposium.org/dls-14/](http://www.dynamic-languages-symposium.org/dls-14/)
 
 -   DLS 2013
