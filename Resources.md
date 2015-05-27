@@ -18,6 +18,7 @@ SIGPLAN, the premier programming languages organization, promotes awareness and 
 **Other WWW sites on Programming Languages**
 
 -   [Ada Programming Language SIG](http://www.acm.org/sigada)
+-   [Ada-Europe](http://www.ada-europe.org)
 -   [APL Chapter and Activities](http://www.acm.org/sigapl/)
 -   [EAPLS - European Association for Programming Languages and Systems](http://danae.uni-muenster.de/eapls/)
 -   [International Committee for Programming Language Standards](http://anubis.dkuug.dk/JTC1/SC22/)

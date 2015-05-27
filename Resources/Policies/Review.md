@@ -12,7 +12,7 @@ Anonymized reviews are the non-exclusive property of the authors of the reviewed
 
 A conflict of interest is defined as a situation in which the reviewer can be viewed as being able to benefit personally from the outcome of a review, or in which the reviewer is not able to remain objective for personal reasons. If a conflict of interest exists, then the reviewer should decline to review a paper. During the program committee meeting, any committee member who has a conflict of interest regarding a paper may be asked to leave the room for the duration of the discussion.
 
-Conflicts are typically considered to exist between an advisor and their students, an employer and their employes (for up to two years), an author and their co-authors (for up to two years after publication), people in the same institution (for up to two years; branches of large companies or different location of research institutes are considered to be the same institution). If a reviewer feels unable to render an objective judgement for any reason, he or she should notify the program chair.
+Among the situations in which conflicts are typically considered to exist are between an advisor and their students (forever), an author and their co-authors (until two years after publication), and people in the same institution (until two years after; branches of large companies or different locations of research institutes are considered to be the same institution). If a reviewer feels unable to render an objective judgement for any reason, he or she should notify the program chair.
 
 **Contacts**
 

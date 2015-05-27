@@ -1,6 +1,5 @@
 #
-# Things that need redirected (not auto generated yet)
-# The result is manually put into .htaccess
+# Things that need redirected. The result is automatically put into .htaccess
 #
 # We no longer nest the Conference Awards
 "Awards/Conferences/(.*)":			"Awards/$1"
@@ -16,7 +15,7 @@
 "oopsla(.htm|.html|)":				"Conferences/OOPSLA/"
 "vee(.htm|.html|)":				"Conferences/VEE/"
 
-"authorInformation.htm(.htm|.html|)":		"Resources/Author/"
+"author[Ii]nformation(.htm|.html|)":		"Resources/Author/"
 
 "conferences/(.*)":				"Conferences/$1"
 
@@ -29,4 +28,8 @@
 "sigplanconf.cls":				"sites/default/files/sigplanconf.cls"
 "sigplan_sponsorship_proposal(.htm|.html|)": 	"Resources/Proposals/Sponsored/"
 
+"sigplan_bylaws.htm":				"http://www.acm.org/sigs/bylaws-contents/plan_bylaws"
 
+"notices.htm":					"Notices/"
+
+"PAC(.htm|.html|)":				"PAC/"

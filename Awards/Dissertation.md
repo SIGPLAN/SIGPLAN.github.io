@@ -8,11 +8,14 @@ dissertation in the area of Programming Languages. The award includes
 a prize of $1,000. The winner can choose to receive the award at ICFP,
 OOPSLA, POPL, or PLDI.
 
+All questions about the John C. Reynolds Doctoral Dissertation Award should be directed to
+**<mailto:reynolds_award@sigplan.org>**.
+
 **Nominations**
 
 Nominations must be submitted via the SIGPLAN Awards Nomination Portal at 
 <https://awards.sigplan.org/nominate/reynolds/> by January
-4th 2015 to be considered for this year's award. The nominated dissertation
+5th 2015 (anywhere on earth) to be considered for this year's award. The nominated dissertation
 must be available in an English language version to facilitate
 evaluation by the selection committee and have been awarded in the
 year 2014.  
@@ -48,7 +51,6 @@ Reynolds was an inspiration to all he worked with. He was well known for helping
  
 **Selection Committee**
 
- * [Vikram Adve](http://llvm.cs.uiuc.edu/~vadve/Home.html) - University of Illinois at Urbana-Champaign <mailto:vadve@illinois.edu>
  * [Elisabetta  Di Nitto](http://home.deib.polimi.it/dinitto/) - Politecnico di Milano <mailto:elisabetta.dinitto@gmail.com>
  * [Susan Eisenbach](http://www.imperial.ac.uk/AP/faces/pages/read/Home.jsp?person=s.eisenbach&_adf.ctrl-state=16dpu3khvn_99&_afrRedirect=169130355484999) Imperial College London (SIGPLAN member and Chair) <mailto:s.eisenbach@imperial.ac.uk>
  * [Dan Grossman](http://homes.cs.washington.edu/~djg/) University of Washington <mailto:djg@cs.washington.edu>

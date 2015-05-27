@@ -1,31 +1,39 @@
 2014:
   Awardee: "Christopher Hall, UC Santa Barbara"
   Citation: |
-    Christopher Hall's work explores the classic design tension between user friendly 
-    versus expert friendly user interface design as well as the classic design tension
-    between binary versus printable data format design. His work sets out to expose both 
-    sets of design tensions as having the same cause and solution. Information 
-    representations and user interface architecture both lack a self descriptive capacity. 
-    By raising the com-mon denominator of computing to a foundation that is metadata friendly, 
-    structured editing can place human-readable strings and graphical user interfaces on the 
-    same spectrum. Smoothing out the gradients of interacting with computation creates new 
-    opportunities for unifying software systems as a developer and having an outlet for accruing 
-    and applying computational literacy as an end-user.
+    Christopher Hall's work explores the classic design tension
+    between user friendly versus expert friendly user interface design
+    as well as the classic design tension between binary versus
+    printable data format design. His work sets out to expose both
+    sets of design tensions as having the same cause and
+    solution. Information representations and user interface
+    architecture both lack a self descriptive capacity.  By raising
+    the common denominator of computing to a foundation that is
+    metadata friendly, structured editing can place human-readable
+    strings and graphical user interfaces on the same
+    spectrum. Smoothing out the gradients of interacting with
+    computation creates new opportunities for unifying software
+    systems as a developer and having an outlet for accruing and
+    applying computational literacy as an end-user.
     
 2013:
   Awardee: "Zalia Shams, Virginia Tech"
   Citation: |
-    Zalia Shams' work is motivated by the observation that software testing is 
-    frequently being added to programming courses at many schools, but current 
-    assessment techniques for evaluating student-written software tests are imperfect. 
-    Code coverage measures are typically used in practice, but that approach does not 
-    assess how much of the expected behavior is checked by the tests and sometimes 
-    overestimates the true quality of the tests. Running one student’s tests against 
-    others’ code (known as all-pairs testing) and mutation analysis are better indicators 
-    of test quality but both of them posed a number of practical obstacles to classroom use. 
-    Her proposal describes technical obstacles behind using these two approaches in automated 
-    grading. Zalia has provided novel and practical solutions to apply all-pairs testing and 
-    mutation analysis of student-written tests, especially in an automated grading context.
+    Zalia Shams' work is motivated by the observation that software
+    testing is frequently being added to programming courses at many
+    schools, but current assessment techniques for evaluating
+    student-written software tests are imperfect.  Code coverage
+    measures are typically used in practice, but that approach does
+    not assess how much of the expected behavior is checked by the
+    tests and sometimes overestimates the true quality of the
+    tests. Running one student’s tests against others’ code (known as
+    all-pairs testing) and mutation analysis are better indicators of
+    test quality but both of them posed a number of practical
+    obstacles to classroom use.  Her proposal describes technical
+    obstacles behind using these two approaches in automated
+    grading. Zalia has provided novel and practical solutions to apply
+    all-pairs testing and mutation analysis of student-written tests,
+    especially in an automated grading context.
 
 2012:
   Awardee: "Gustavo Soares of the Federal University of Campina Grande, Brazil"

@@ -2,9 +2,9 @@
 # Name of Awards. The index is the name of the file that contains the award data
 #
 
+POPL:         Most Influential POPL Paper Award
 Software:     Programming Languages Software Award
 Milner:       Robin Milner Young Researcher Award
-POPL:         Most Influential POPL Paper Award
 PLDI:         Most Influential PLDI Paper Award
 OOPSLA:       Most Influential OOPSLA Paper Award
 ICFP:         Most Influential ICFP Paper Award

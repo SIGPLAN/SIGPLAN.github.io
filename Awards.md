@@ -38,13 +38,13 @@ community, or commercially.The award includes a prize of $2,500.
 
 **Robin Milner Young Researcher Award**  
 The
-[Robin Milner Young Researcher Award](/Awards/Milner) is awarded
-to recognize outstanding contributions by young investigators in
-the area of programming languages. Individuals whose
+[Robin Milner Young Researcher Award](/Awards/Milner) 
+is given by ACM SIGPLAN to
+recognize outstanding contributions by young investigators in the
+area of programming languages. Individuals are eligible if their
 computer-related professional career (graduate school or full-time
-employment, whichever began first) started no earlier than January
-1st of the year that is 20 years prior to the time of nomination
-are eligible. The award includes a prize of $2,500.
+employment, whichever began first) started no earlier than 20 years
+prior to the nominations deadline. The award includes a prize of $2,500.
 
 **John C. Reynolds Doctoral Dissertation Award**  
 The

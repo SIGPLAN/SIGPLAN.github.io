@@ -19,10 +19,6 @@ includes the 'preprint' option.
 -   [guide](/sites/default/files/sigplanconf-guide.pdf)
 
 
-*ICFP 2013 Authors: the sigplanconf-guide.pdf is out of date regarding permission and copyright notices.
-Can ICFP 2013 authors instead refer to the template and the instructions they have received from Sheridan.
-We will update the sigplanconf-guide.pdf shortly.*
-
 Please address questions and problems with the class file to sigplan-class at acm dot org.
 
 There is a [Word template](/sites/default/files/sigplanconf.dot) that attempts to

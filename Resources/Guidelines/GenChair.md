@@ -115,6 +115,8 @@ the [ACM Representative to SIGPLAN](mailto:spinola@hq.acm.org?subject=Conference
 for an advance. Expenses for reimbursement should also be sent to
 the
 [ACM Representative to SIGPLAN](mailto:spinola@hq.acm.org?subject=Conference%20expenses).
+Andrew Black wrote a [document](/sites/default/files/SIGPLAN_conference_finances_for_beginners.pdf)
+after SPLASH 2014 explaining where the money was spent.
 
 Programme Committee
 -------------------
@@ -184,7 +186,7 @@ See Also
 - SIGPLAN conference style [LaTeX class file](/sites/default/files/Author/sigplanconf.cls),
   [article template](/sites/default/files/Author/sigplanconf-template.tex), and
   [user guide](/sites/default/files/Author/sigplanconf-guide.pdf)
-
+- "[Where did all the money go? SIGPLAN conference finances for beginners](/sites/default/files/SIGPLAN_conference_finances_for_beginners.pdf)", Andrew Black, to appear in SIGPLAN Notices.
 
 Some columns containing useful advice for conference organizers have
 been published in _SIGPLAN Notices_ over the years:
