@@ -3,6 +3,22 @@ layout: default
 title: "SIGPLAN Research Highlights Papers"
 ---
 
+### Selected May 2015
+
+> Title: <a href="http://dl.acm.org/citation.cfm?id=2555264">Parallelizing dynamic programming through rank convergence</a>  
+> Authors: Saeed Maleki, University of Illinois at Urbana-Champaign, Madanlal Musuvathi, Microsoft Research, Todd Mytkowicz, Microsoft Research   
+> Venue: PPoPP 2014
+
+This paper describes a rather surprising parallelization of several dynamic 
+programming algorithms, by running what would normally be considered 
+to be several different dependent wavefronts in parallel. The authors 
+show that as a result of interesting algebraic properties of these 
+algorithms, it is actually possible to do a lot of useful work in a 
+dependent stage by assuming an essentially random output from the 
+previous stage. The amount of work that must be redone to account for 
+the actual output is very limited. It is a great example of the 
+creative application of relatively basic abstract algebra. 
+
 ### Selected November 2014
 
 > Title: <a href="http://dl.acm.org/citation.cfm?id=2594293">Doppio: Breaking the Browser Language Barrier</a>  
