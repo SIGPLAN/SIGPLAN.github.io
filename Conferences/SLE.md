@@ -13,7 +13,7 @@ programming, logic programming, term-rewriting, attribute grammars,
 algebraic specification, etc.
 
 
-*SLE Fast Facts**
+**SLE Fast Facts**
 
 > [SLE 2015 Web Page](http://www.sleconf.org/2015/)  
 > Location: Pittsburg, PA, USA  
