@@ -27,6 +27,7 @@ Past Events
     -   Portland, Oregon, USA, 2014
     -   Co-located with SPLASH 2014
     -   PC chair: Laurence Tratt
+    -   Invited speaker: Stefan Udo Hanenberg
     -   [http://www.dynamic-languages-symposium.org/dls-14/](http://www.dynamic-languages-symposium.org/dls-14/)
 
 -   DLS 2013
@@ -105,6 +106,7 @@ Steering Committee Members
 * Richard Gabriel, IBM Research, USA 
 * Jeremy Gibbons, Oxford University, UK (SIGPLAN) 
 * Robert Hirschfeld, Hasso-Plattner-Institut at the University of Potsdam, Germany (SC chair)
+* Manuel Serrano, Inria Sophia-Antipolis, France (PC chair 2015)
 * Dave Thomas, Bedarra Research Labs, Canada (emeritus) 
 * Laurence Tratt, King's College London, UK (PC chair 2014) 
 * Alessandro Warth, Google, USA (PC chair 2012)
