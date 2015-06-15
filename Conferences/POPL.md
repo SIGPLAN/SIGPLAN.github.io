@@ -11,7 +11,7 @@ systems, and programming interfaces. POPL is in-cooperation with
 
 **POPL Fast Facts**
 
-> [POPL 2016 Web Page](http://popl.mpi-sws.org/2014/)  
+> [POPL 2016 Web Page](http://conf.researchr.org/home/POPL-2016)
 > Location: St. Petersburg, Florida, USA  
 > General Chair: [Rastislav Bodík](http://www.cs.berkeley.edu/~bodik/)  
 > Program Chair: [Rupak Majumdarl](http://www.mpi-sws.org/~rupak/)  
