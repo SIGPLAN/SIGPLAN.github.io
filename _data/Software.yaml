@@ -1,3 +1,24 @@
+2015:
+  Awardee: "Z3 Theorem Prover"
+  Citation: |
+
+    Z3 has changed the way SIGPLAN members tackle problems of static
+    analysis and program synthesis.  Such problems, which form a
+    significant part of programming languages research and
+    development, had long been tackled using various automated
+    decision procedures.  But in the 2000s, Z3 enabled qualitative and
+    quantitative leaps, in both the difficulty and the size of
+    problems that could be solved.  Today, Z3 is a standard tool, not
+    only because of its inherent qualities, such as heuristics that
+    militate in favor of short proofs and short refutations, but
+    because its developers have continually improved it through close
+    engagement with their users.  Such users include many researchers
+    in program analysis and synthesis, and improvements made on behalf
+    of one user often help many others working in the same domain.  In
+    the domain of decision procedures that support program analysis
+    and synthesis, after many years of accumulated improvements, Z3 is
+    now the unquestioned leader.
+
 2014:
   Awardee: The GNU Compiler Collection (GCC)
   Citation: |
