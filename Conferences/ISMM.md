@@ -10,11 +10,11 @@ allocation and referencing behavior.
 
 **ISMM Fast Facts**  
 
-> ISMM 2016
-> Location: Santa Barbara, California (co-located with [PLDI'16](http://conf.researchr.org/home/pldi-2016))
-> General Chair: Christine Flood, RedHat
-> Program Chair: [Zheng Zhang](http://www.cs.rutgers.edu/~zz124/), Rutgers
-> Dates: June, 2016. Exact date TBD
+> ISMM 2016  
+> Location: Santa Barbara, California (co-located with [PLDI'16](http://conf.researchr.org/home/pldi-2016))  
+> General Chair: Christine Flood, RedHat  
+> Program Chair: [Zheng Zhang](http://www.cs.rutgers.edu/~zz124/), Rutgers  
+> Dates: June, 2016. Exact date TBD  
 
 **Other ISMM Information**  
 Steering Committee
