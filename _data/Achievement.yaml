@@ -1,3 +1,49 @@
+2015:
+  Awardee: Luca Cardelli
+  Citation: |
+  
+    Luca Cardelli has made exceptional contributions to the field of
+    programming languages. He has a remarkable ability to re-invent
+    himself every decade or so and yet continue to make true
+    innovations.  His contributions span many areas: software;
+    language design, including experimental languages; programming
+    language foundations; and the interaction of programming languages
+    and biology.
+
+    He is a leading language designer. He was one of the designers of
+    Modula-3, which played a major role in popularising the notion of
+    type-safe programming, and was a key influence on Java and C#.
+    Thus, his work helped lay the foundations for today's
+    near-universal industrial acceptance of type-safe programming
+    languages.  He also designed several important experimental
+    languages, including Obliq, a distributed higher-order scripting
+    language, and Polyphonic C#, a distributed extension of C#.  He
+    implemented the first compiler for ML.
+
+    He is a leading and hugely influential computer scientist. His
+    most sustained research activity has been in establishing the
+    semantic and type-theoretic foundations of programming languages.
+    Two of his most prominent works are his 1985 paper "On
+    understanding types, data abstraction, and polymorphism" (with
+    Wegner) and his 1996 book "A Theory of Objects" (with Abadi).
+    Other important works of his concern the semantics of multiple
+    inheritance in object-oriented languages and explicit
+    substitutions in the lambda-calculus.
+
+    More recently, he has focused on modeling global and mobile
+    computation, via the Ambient Calculus and spatial logics. His work
+    pioneered an influential way of describing, programming, and
+    reasoning about global and mobile computation, in terms of formal
+    calculi and language constructs. It also connected with an
+    important line of work on semi-structured data, and led,
+    indirectly, to his current interest in biology and stochastic
+    systems.
+
+    In both his own work and his great scientific influence Cardelli
+    has made lasting contributions to the field of programming
+    languages.
+
+
 2014:
   Awardee: Neil Jones
   Citation: |
