@@ -1,3 +1,20 @@
+2015: 
+  Awardee: [Chi-Keung Luk, Robert Cohn, Robert Muth, Harish Patil, Artur Klauser, Geoff Lowney, Steven Wallace, Vijay Janapa Reddi, Kim Hazelwood]
+  Other: |
+    (for 2005) "Pin: building customized program analysis tools with dynamic instrumentation"
+  Citation: |
+
+    This paper introduced Pin, a dynamic binary instrumentation
+    framework that enables the creation of dynamic program analysis
+    tools.  Pin uses dynamic compilation to instrument executables and
+    dynamically-linked libraries while they are running, permitting
+    the tool writer to study the behavior of an application at the
+    instruction level without significant perturbation to application
+    behavior.  The PLDI 2005 paper is highly cited and the system it
+    describes is in widespread use in academia and industry.  Pin's
+    ease of use and relative efficiency have made it the tool of
+    choice for dynamic binary instrumentation.
+
 2014: 
   Awardee: Maged M. Michael
   Other: |
