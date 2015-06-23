@@ -195,7 +195,8 @@ Steering Committee Members
 * Shriram Krishnamurthi, Brown University, USA 
 * Gail Murphy (University of British Columbia) 
 * Guy L. Steele Jr. (Oracle Labs) 
-* Kevin Sullivan, University of Virginia, USA (chair) 
+* Kevin Sullivan, University of Virginia, USA (chair)
+* Peter Thiemann, University of Freiburg, Germany (SIGPLAN)
 * Eelco Visser, Delft University of Technology, The Netherlands
 
 ### Past
