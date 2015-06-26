@@ -19,16 +19,19 @@ emulators, and simulators.
 
 **VEE Steering Committee**
 
+**VEE Steering Committee**
+
 The current VEE steering committee is:
 
--  [Dilma Da Silva](http://engineering.tamu.edu/cse/people/da-silva-dilma) (Texas A&M), steering committee chair
--  [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/) (Australian National U)
--  [Steven Hand](http://research.microsoft.com/en-us/people/sthand/) (Microsoft Research)
+-  [Martin Hirzel](http://hirzels.com/martin/) (IBM Research), steering committee chair
+-  [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/) (Australian National University)
+-  [Angela Demke Brown](http://www.cs.toronto.edu/~demke/) (University of Toronto)
+-  [Ada Gavrilovska](http://www.cc.gatech.edu/home/ada/) (Georgia Tech)
 -  [Gernot Heiser](http://www.cse.unsw.edu.au/~gernot/) (NICTA and UNSW)
--  [Martin Hirzel](http://hirzels.com/martin/) (IBM Research)
 -  [Steve Muir](http://www.linkedin.com/in/9muir) (Comcast)
--  [Brian Noble](http://web.eecs.umich.edu/~bnoble) (U of Michigan)
+-  [Brian Noble](http://web.eecs.umich.edu/~bnoble) (University of Michigan)
 -  [Erez Petrank](http://www.cs.technion.ac.il/~erez) (Technion)
+-  [Bjarne Steensgaard](http://steensgaard.org/bjarne/) (Microsoft)
 -  [Dan Tsafrir](http://www.cs.technion.ac.il/~dan/) (Technion)
 
 **Web Pages of Previous Conferences**
