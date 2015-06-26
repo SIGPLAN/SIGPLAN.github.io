@@ -63,6 +63,7 @@ SIGPLAN policies and procedures, including the following:
 - [Guidelines for Steering Committee Formation/Management](/Resources/Guidelines/SCommittee)
 - [Guidelines for the General Chair](/Resources/Guidelines/GenChair)
 - [Guidelines for the Programme Chair](/Resources/Guidelines/ProChair)
+- [Anti-Harassment Policy](/Resources/Policies/Anti-harassment/)
 
 In addition, event organizers are encouraged to contact the ACM
 Headquarters ([incoop@acm.org](mailto:incoop@acm.org)), to have
