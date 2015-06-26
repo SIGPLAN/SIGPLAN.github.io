@@ -12,6 +12,8 @@ please at least skim this page, paying particular attention to the following:
 
 - SIGPLAN's [conference submission review policy](/Resources/Policies/Review) 
 - SIGPLAN's [diversity policy](/Resources/Policies/Diversity)
+- SIGPLAN's [Republication Policy](/Resources/Policies/Republication)
+- SIGPLAN's [Anti-Harassment Policy](/Resources/Policies/Anti-harassment/)
 - for a SIGPLAN-sponsored event, seek approval for the Programme Committee from the SIGPLAN Vice-Chair, *before* sending invitations
 - consult with the conference Steering Committee before diverging from any existing conventions
 - make explicit in the Call for Papers that authors of accepted submissions are expected to transfer the copyright to the ACM
