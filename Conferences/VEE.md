@@ -19,8 +19,6 @@ emulators, and simulators.
 
 **VEE Steering Committee**
 
-**VEE Steering Committee**
-
 The current VEE steering committee is:
 
 -  [Martin Hirzel](http://hirzels.com/martin/) (IBM Research), steering committee chair
