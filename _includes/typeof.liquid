@@ -1,0 +1,18 @@
+{% comment %}assigns variable type with the type of value{% endcomment %}
+{% assign t = include.value | append: '' %}
+{% if include.value == t %}
+  {% assign type = "string" %}
+{% else %}
+  {% assign t = include.value | plus: 0 %}
+  {% if include.value == t %}
+    {% assign type = "number" %}
+  {% else %}
+    {% assign t = include.value | join: 'X' %}
+    {% assign t1 = include.value[-1] %}
+    {% if t == "" or t1 <> nil %}
+      {% assign type = "list" %}
+    {% else %}
+      {% assign type = "object" %}
+    {% endif %}
+  {% endif %}
+{% endif %}
