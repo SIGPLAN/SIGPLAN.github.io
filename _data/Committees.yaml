@@ -21,6 +21,7 @@ Elected Members:
      - "[Mike Hind    ](http://researcher.watson.ibm.com/researcher/view.php?person=us-hindm)"
      - "[Julia Lawall ](http://pagesperso-systeme.lip6.fr/Julia.Lawall/)"
      - "[Norman Ramsey](http://www.cs.tufts.edu/~nr/)"
+  - Bob
 
 "Ex-Officio Members":
   - Past Chair:
@@ -35,7 +36,8 @@ Elected Members:
     - "[Jens Palsberg](http://www.cs.ucla.edu/~palsberg/)"
   - Steering Committee Chairs:
 # leave these blank to autolookup from the Steering Committees
-    - ASPLOS: 
+    - SIGPLAN Vice Chair:
+    - ASPLOS:
     - CGO:    
     - DLS:    
     - FOOL:   
@@ -50,6 +52,38 @@ Elected Members:
     - SIGAPL: 
     - SPLASH:
     - VEE:    
+
+ASPLOS Steering Committee:
+  -   Ras Bodik, UC Berkeley
+  -   Doug Burger, Microsoft
+  -   George Candea, EPFL
+  -   Timothy Harris, Oracle Labs
+  -   Jeremy Gibbons, U. Oxford
+  -   Vivek Sarkar, Rice U.
+  -   Michael Scott, U. Rochester
+  -   David Wood, U. Wisconsin
+
+DLS Steering Committee:
+  - PC Chair 2013:  "Carl Friedrich Bolz, Heinrich-Heine-Universit&#228;t D&#252;sseldorf, Germany"
+  - PC Chair 2011:  Theo D'Hondt, Vrije Universiteit Brussel, Belgium
+  -                 Richard Gabriel, IBM Research, USA 
+  - SIGPLAN Vice-Chair: ""
+  - Chair:          Robert Hirschfeld, Hasso-Plattner-Institut at the University of Potsdam, Germany
+  - PC Chair 2015:  Manuel Serrano, Inria Sophia-Antipolis, France 
+  - SIGPLAN:        Peter Thiemann, University of Freiburg, Germany
+  - Emeritus:       Dave Thomas, Bedarra Research Labs, Canada 
+  - PC chair 2014:  Laurence Tratt, King's College London, UK 
+  - PC Chair 2012:  Alessandro Warth, Google, USA
+
+
+GPCE Steering Committee:
+  - "[Bernd Fischer](http://www.ecs.soton.ac.uk/people/bf)"
+  - "[Ewen Denney](http://ti.arc.nasa.gov/profile/edenney/)"
+  - "[Jaakko J&auml;rvi](http://parasol.tamu.edu/~jarvi/)"
+  - "[Jeremy Siek](http://ece.colorado.edu/~siek/)"
+  - "[Julia Lawall](http://www.diku.dk/users/julia/)"
+  - "[Ulrik Pagh Schultz](http://websrv0a.sdu.dk/ups/)"
+  - Chair: "[Eelco Visser](http://eelcovisser.org)"
 
 "VEE Steering Committee":
   -  Chair: "[Martin Hirzel](http://hirzels.com/martin/)       (IBM Research)"

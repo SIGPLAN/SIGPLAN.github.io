@@ -1,11 +1,18 @@
 {% include typeof.liquid value=include.member %}
-{% case type %}
-   {% when "string" %}
+{% if type == "string" %}
      {{ include.member | markdownify | | replace: 'p>', 'span>' }}
-   {% when "list" %}
+{% elsif type == "list" %}
      {% include committee-list.liquid list=include.member prefix=include.prefix %}
 {% else %}
-   (( bad type for membership {{ type }} {{ include.member | jsonify }} ))
-{% endcase %}
+   {% comment %} blank, so we'll look it up {% endcomment %}
+   {% if include.role contains 'SIGPLAN' %}
+     {% assign role = include.role | remove: "SIGPLAN " %}
+     {% include role.liquid committee="Elected Members" role=role %}
+   {% else %}
+     {% assign name = include.role | append: " Steering Committee" %}
+     {{ name }}
+     (( bad type for membership {{ type }} {{ include.member | jsonify }} ))
+   {% endif %}
+{% endif %}
 
 

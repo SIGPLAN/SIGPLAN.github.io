@@ -6,26 +6,21 @@
      {% case committee_list_tmp %}
         {% when "string" %}
                 <li>
-                {% include membership.liquid member=i %}
+                {% include membership.liquid member=i role=nil %}
                 </li>
         {% when "object" %}
            {%comment%}The YAML has one object per list item{%endcomment%}
            {% for j in i %}
                 <li>
-                    {% assign t = j[1] %}
-                    {% include typeof.liquid value=t %}
+                    {% assign j0 = j[0] %}
+                    {% assign j1 = j[1] %}
+                    {% include typeof.liquid value=j1 %}
                     {% if include.prefix == true or type == "list" %}
-                         <b> {{ j[0] }}: </b>
-                         {% assign t = j[1] %}
-                         {% if j[0] == "Steering Committee Chairs" %}
-                            {% include sc-membership.liquid list=t %}
-                         {% else %}
-                            {% include membership.liquid member=t prefix=include.prefix %}
-                         {% endif %}
+                         <b> {{ j0 }}: </b>
+                         {% include membership.liquid member=j1 prefix=include.prefix role=j0 %}
                     {% else %}
-                         {% assign t = j[1] %}
-                         {% include membership.liquid member=t prefix=include.prefix %}
-                         <b> ({{ j[0] }}) </b>
+                         {% include membership.liquid member=j1 prefix=include.prefix role=j0 %}
+                         <b> ({{ j0 }}) </b>
                     {% endif %}
                 </li>
            {% endfor %}

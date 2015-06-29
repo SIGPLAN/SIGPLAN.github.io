@@ -1,0 +1,8 @@
+{% assign exec = site.data.Committees.[include.committee] %}
+{% for i in exec %}
+   {% if i[include.role] <> nil %}
+     {{ i[role] | markdownify | | replace: 'p>', 'span>' }}
+    {% endif %}
+{% endfor %}
+
+
