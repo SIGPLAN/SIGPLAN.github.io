@@ -1,8 +1,7 @@
 {% if include.header == true %}
   <h4>{{include.name}}</h4>
 {% endif %}
-<ul>
-  {% assign tmp = site.data.Committees.[include.name] %}
-  {% include committee-list.liquid list=tmp  prefix=include.prefix %}
-</ul>
+
+{% assign tmp = site.data.Committees.[include.name] %}
+{% include committee-list.liquid list=tmp  prefix=include.prefix %}
 

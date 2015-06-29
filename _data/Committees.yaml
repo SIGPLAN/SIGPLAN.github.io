@@ -9,10 +9,13 @@
 # The member can also be proceeded by a Role:
 #  -  Chair: Steve Blackburn
 #
+# blanks are looked up:
+#   - SIGPLAN Chair: ==> Elected Members: Chair:
+#   - POPL: ==> POPL SC Chair
 
 Elected Members:
   - Chair:        "[Jan Vitek      ](http://www.cs.purdue.edu/homes/jv/)"
-  - "Vice Chair": "[Jeremy Gibbons ](http://www.cs.ox.ac.uk/jeremy.gibbons/)"
+  - "Vice Chair": "[Jeremy Gibbons](http://www.cs.ox.ac.uk/jeremy.gibbons/)"
   - Secretary:    "[Andrew P. Black](http://web.cecs.pdx.edu/~black/)"
   - Treasurer:    "[Cristina Lopes ](http://www.ics.uci.edu/~lopes/)"
   - Members at Large:
@@ -21,7 +24,6 @@ Elected Members:
      - "[Mike Hind    ](http://researcher.watson.ibm.com/researcher/view.php?person=us-hindm)"
      - "[Julia Lawall ](http://pagesperso-systeme.lip6.fr/Julia.Lawall/)"
      - "[Norman Ramsey](http://www.cs.tufts.edu/~nr/)"
-  - Bob
 
 "Ex-Officio Members":
   - Past Chair:
@@ -36,7 +38,6 @@ Elected Members:
     - "[Jens Palsberg](http://www.cs.ucla.edu/~palsberg/)"
   - Steering Committee Chairs:
 # leave these blank to autolookup from the Steering Committees
-    - SIGPLAN Vice Chair:
     - ASPLOS:
     - CGO:    
     - DLS:    
@@ -53,13 +54,18 @@ Elected Members:
     - SPLASH:
     - VEE:    
 
+# Is the former VC on some committees?
+
+Past Members:
+  - "Past Vice Chair": "[Jeremy Gibbons](http://www.cs.ox.ac.uk/jeremy.gibbons/)"
+  
 ASPLOS Steering Committee:
   -   Ras Bodik, UC Berkeley
   -   Doug Burger, Microsoft
   -   George Candea, EPFL
   -   Timothy Harris, Oracle Labs
-  -   Jeremy Gibbons, U. Oxford
-  -   Vivek Sarkar, Rice U.
+  -   SIGPLAN Vice Chair: #
+  -   Chair: Vivek Sarkar, Rice U.
   -   Michael Scott, U. Rochester
   -   David Wood, U. Wisconsin
 
@@ -74,7 +80,6 @@ DLS Steering Committee:
   - Emeritus:       Dave Thomas, Bedarra Research Labs, Canada 
   - PC chair 2014:  Laurence Tratt, King's College London, UK 
   - PC Chair 2012:  Alessandro Warth, Google, USA
-
 
 GPCE Steering Committee:
   - "[Bernd Fischer](http://www.ecs.soton.ac.uk/people/bf)"
