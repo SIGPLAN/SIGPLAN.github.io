@@ -1,0 +1,64 @@
+#
+# List of all the SIGPLAN committees
+#
+# You format the commitee member using markdown
+#  - Steve Blackburn (Australian National University)"
+#  - "Steve BlackBurn (Australian National University)"
+#  - [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/) (Australian National University)"
+#
+# The member can also be proceeded by a Role:
+#  -  Chair: Steve Blackburn
+#
+
+Elected Members:
+  - Chair:        "[Jan Vitek      ](http://www.cs.purdue.edu/homes/jv/)"
+  - "Vice Chair": "[Jeremy Gibbons ](http://www.cs.ox.ac.uk/jeremy.gibbons/)"
+  - Secretary:    "[Andrew P. Black](http://web.cecs.pdx.edu/~black/)"
+  - Treasurer:    "[Cristina Lopes ](http://www.ics.uci.edu/~lopes/)"
+  - Members at Large:
+     - "[Derek Dreyer ](http://www.mpi-sws.org/~dreyer/)"
+     - "[Sue Eisenbach](http://www-dse.doc.ic.ac.uk/cgi-bin/moin.cgi/sue)"
+     - "[Mike Hind    ](http://researcher.watson.ibm.com/researcher/view.php?person=us-hindm)"
+     - "[Julia Lawall ](http://pagesperso-systeme.lip6.fr/Julia.Lawall/)"
+     - "[Norman Ramsey](http://www.cs.tufts.edu/~nr/)"
+
+"Ex-Officio Members":
+  - Past Chair:
+      "[Philip Wadler](http://homepages.inf.ed.ac.uk/wadler/)"
+  - ACM Program Director:
+      "[Fran Spinola](mailto:spinola@hq.acm.org)"
+  - SIGPLAN Information Director: "[Andy Gill](mailto:infodir_sigplan@acm.org?subject=SIGPLAN%20Web%20Pages)"
+  - Editors of SIGPLAN Newsletters:
+    - SIGPLAN Notices: "[Andy Gill](http://www.ittc.ku.edu/csdl/fpg/Users/AndyGill)"
+    - FORTRAN Forum: "[Ian Chivers](mailto:ian.chivers@chiversandbryan.co.uk)"
+  - ACM TOPLAS Editors:
+    - "[Jens Palsberg](http://www.cs.ucla.edu/~palsberg/)"
+  - Steering Committee Chairs:
+# leave these blank to autolookup from the Steering Committees
+    - ASPLOS: 
+    - CGO:    
+    - DLS:    
+    - FOOL:   
+    - GPCE:   
+    - Haskell:
+    - ICFP:  
+    - ISMM:   
+    - LCTES:  
+    - PLDI:  
+    - POPL:  
+    - PPOPP:  
+    - SIGAPL: 
+    - SPLASH:
+    - VEE:    
+
+"VEE Steering Committee":
+  -  Chair: "[Martin Hirzel](http://hirzels.com/martin/)       (IBM Research)"
+  -  "[Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/) (Australian National University)"
+  -  "[Angela Demke Brown](http://www.cs.toronto.edu/~demke/) (University of Toronto)"
+  -  "[Ada Gavrilovska](http://www.cc.gatech.edu/home/ada/) (Georgia Tech)"
+  -  "[Gernot Heiser](http://www.cse.unsw.edu.au/~gernot/) (NICTA and UNSW)"
+  -  "[Steve Muir](http://www.linkedin.com/in/9muir) (Comcast)"
+  -  "[Brian Noble](http://web.eecs.umich.edu/~bnoble) (University of Michigan)"
+  -  "[Erez Petrank](http://www.cs.technion.ac.il/~erez) (Technion)"
+  -  "[Bjarne Steensgaard](http://steensgaard.org/bjarne/) (Microsoft)"
+  -  "[Dan Tsafrir](http://www.cs.technion.ac.il/~dan/) (Technion)"
