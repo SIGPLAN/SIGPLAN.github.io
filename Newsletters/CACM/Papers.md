@@ -1258,7 +1258,7 @@ Jump, Han Lee, J. Eliot B. Moss, Aashish Phansalkar
 ***Venue:*** OOPSLA 2006.
 
 ![CACM Cover August
-2008](/sites/default/files/CACM-Aug2008.jpg)**Published
+2008](/sites/default/files/CACM-Aug2008.jpg) **Published
 as a CACM Research Highlight (August 2008).**
 
 
@@ -1269,7 +1269,7 @@ Transactions](http://dl.acm.org/citation.cfm?id=1378725)
 ***Venue:*** PPoPP 2005.
 
 ![CACM Cover August
-2008](/sites/default/files/CACM-Aug2008.jpg)**Published
+2008](/sites/default/files/CACM-Aug2008.jpg) **Published
 as a CACM Research Highlight (August 2008).**
 
 
@@ -1280,7 +1280,7 @@ Probability](http://dl.acm.org/citation.cfm?id=1409382)
 ***Venue:*** PLDI 2007.
 
 ![CACM Cover December
-2008](/sites/default/files/dec-2008.jpg)**Published
+2008](/sites/default/files/dec-2008.jpg) **Published
 as a CACM Research Highlight (December 2008).**
 
 
@@ -1292,7 +1292,7 @@ Ramanarayanan, Kavita Bala, L. Paul Chew
 ***Venue:*** PLDI 2007.
 
 ![CACM Cover September
-2009](http://www.sigplan.org/sites/default/files/sep-2009_0.jpg)**Published
+2009](http://www.sigplan.org/sites/default/files/sep-2009_0.jpg) **Published
 as a CACM Research Highlight (September 2009).**
 
 
@@ -1304,7 +1304,7 @@ Nardelli, Magnus O. Myreen
 ***Venue:*** POPL 2009 and TPHOLs 2009.
 
 ![CACM Cover July
-2010](/sites/default/files/CACM-Jul2010.jpg)**Published
+2010](/sites/default/files/CACM-Jul2010.jpg) **Published
 as a CACM Research Highlight (July 2010).**
 
 
@@ -1315,7 +1315,7 @@ Higher-Order Program Analysis](http://dx.doi.org/10.1145/1995376.1995400)
 ***Venue:*** ICFP 2010.
 
 ![CACM Cover September
-2011](/sites/default/files/CACM-Sep2011.jpg)**Published
+2011](/sites/default/files/CACM-Sep2011.jpg) **Published
 as a CACM Research Highlight (September 2011).**
 
 
@@ -1325,5 +1325,13 @@ as a CACM Research Highlight (September 2011).**
 ***Venue:*** POPL 2010.
 
 ![CACM Cover August
-2012](/sites/default/files/aug-2012.jpg)**Published
+2012](/sites/default/files/aug-2012.jpg) **Published
 as a CACM Research Highlight (August 2012).**
+
+***Title:*** [Cache Efficient Functional Algorithms](http://dl.acm.org/citation.cfm?id=2797100.2776825)  
+***Authors:*** Guy E. Blelloch, Robert Harper  
+***Venue:*** POPL 2013.
+
+![CACM Cover August
+2012](/sites/default/files/jul-2015.jpg) **Published
+as a CACM Research Highlight (July 2015).**
