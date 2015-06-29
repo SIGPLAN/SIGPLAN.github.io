@@ -29,20 +29,8 @@ chair/vice chair changing every third year.
 
 The current SPLASH steering committee is:
 
--   Jan Vitek, current SIGPLAN Chair
--   Jeremy Gibbons, current SIGPLAN Vice Chair
--   Jonathan Aldrich, 2015 (current) SPLASH General Chair
--   Andrew Black, 2014 SPLASH General Chair
--   Anthony Hoskings, 2013 SPLASH General Co-Chair
--   Patrick Eugster, 2013 SPLASH General Co-Chair and 2015 (current) OOPSLA PC Chair
--   Gary Leavens, 2012 SPLASH General Chair
--   Crista Lopes (current Steering Committee Chair), 2013 OOPSLA PC Chair
--   Todd Millstein, 2014 OOPSLA PC Chair
--   Matt Dwyer, 2012 OOPSLA PC Chair
--   Gail Murphy, 2015 (current) Onward! Papers Chair
--   Shriram Krishnamurthi, 2014 Onward! Papers Chair
--   Robert Hirschfeld, 2013 Onward! Papers Chair
--   Jonathan Edwards, 2012 Onward! Papers Chair
+{% include committee.liquid name="SPLASH Steering Committee" %}
+
 
 Web Pages of Previous Conferences
 ---------------------------------
