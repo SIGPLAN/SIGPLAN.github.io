@@ -12,19 +12,9 @@ As the commercial production of software systems moves towards being a tradition
 > Program Chair: [Christian K&auml;stner](http://www.cs.cmu.edu/~ckaestne/), Carnegie Mellon University, USA  
 > Dates: October 27-28, 2013 
 
-**Other GPCE Information**  
-Steering Committee:
+**Steering Committee:**
  
-- [Bernd Fischer](http://www.ecs.soton.ac.uk/people/bf)
-- [Ewen Denney](http://ti.arc.nasa.gov/profile/edenney/)
-- [Jaakko J&auml;rvi](http://parasol.tamu.edu/~jarvi/)
-- [Jeremy Siek](http://ece.colorado.edu/~siek/)
-- [Julia Lawall](http://www.diku.dk/users/julia/)
-- [Ulrik Pagh Schultz](http://websrv0a.sdu.dk/ups/)
-- [Eelco Visser](http://eelcovisser.org) (chair)
-
-[GPCE Bylaws](http://program-transformation.org/Gpce/GpceBylaws)  
-[Main GPCE webpage](http://program-transformation.org/Gpce)
+{% include committee.liquid name="GPCE Steering Committee" %}
 
 **Web Pages of Previous Conferences**  
 
