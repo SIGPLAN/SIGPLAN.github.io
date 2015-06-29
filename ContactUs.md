@@ -1,6 +1,6 @@
 ---
 layout: default-2up
-title: SIGPLAN Executive Committee 2012-2015
+title: SIGPLAN Executive Committee 2015-2018
 ---
 
 SIGPLAN is run by its Executive Committee composed of members elected
