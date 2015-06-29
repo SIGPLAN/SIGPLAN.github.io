@@ -17,16 +17,10 @@ allocation and referencing behavior.
 > Dates: June, 2016. Exact date TBD  
 
 **Other ISMM Information**  
+
 Steering Committee
- 
--   [Mike Bond](http://web.cse.ohio-state.edu/~mikebond)
--   [Perry Cheng](http://researcher.watson.ibm.com/researcher/view.php?person=us-perry)
--   Christine Flood
--   [Samuel Guyer](http://www.cs.tufts.edu/~sguyer)
--   [David Grove](http://researcher.ibm.com/view.php?person=us-groved)
--   [Tony Hosking](http://www.cs.purdue.edu/~hosking), Chair
--   [Erez Petrank](http://www.cs.technion.ac.il/~erez/)
--   [Zheng Zhang](http://www.cs.rutgers.edu/~zz124/)
+
+{% include committee.liquid name="ISMM Steering Committee" %}
 
 [ISMM Steering Committee Rules](http://www.cs.kent.ac.uk/people/staff/rej/ismm/scrules.html)
 
