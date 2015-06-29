@@ -21,15 +21,7 @@ The PPoPP Symposia is the forum for leading papers on the principles and foundat
 
 The current PPoPP Steering Committee is:
 
- * Calin Cascaval (chair)
- * Mary Hall
- * Jim Larus
- * Jose Moreira
- * David Padua
- * Keshav Pingali
- * J. Ramanujam
- * P. Sadayappan
- * Pen-Chung Yew
+{% include committee.liquid name="PPOPP Steering Committee" %}
 
 **Web Pages of Previous Conferences**
 
