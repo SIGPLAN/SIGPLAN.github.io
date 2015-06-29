@@ -14,20 +14,20 @@
 #   - POPL: ==> POPL SC Chair
 
 Elected Members:
-  - Chair:        "[Jan Vitek      ](http://www.cs.purdue.edu/homes/jv/)"
-  - "Vice Chair": "[Jeremy Gibbons](http://www.cs.ox.ac.uk/jeremy.gibbons/)"
-  - Secretary:    "[Andrew P. Black](http://web.cecs.pdx.edu/~black/)"
-  - Treasurer:    "[Cristina Lopes ](http://www.ics.uci.edu/~lopes/)"
+  - Chair:        "Michael Hicks     (University of Maryland)"
+  - "Vice Chair": "Peter Thiemann    (Universität Freiburg)"
   - Members at Large:
-     - "[Derek Dreyer ](http://www.mpi-sws.org/~dreyer/)"
+     - "[Emery Berger](http://www.emeryberger.org/)      (University of Massachusetts Amherst)"
      - "[Sue Eisenbach](http://www-dse.doc.ic.ac.uk/cgi-bin/moin.cgi/sue)"
-     - "[Mike Hind    ](http://researcher.watson.ibm.com/researcher/view.php?person=us-hindm)"
-     - "[Julia Lawall ](http://pagesperso-systeme.lip6.fr/Julia.Lawall/)"
-     - "[Norman Ramsey](http://www.cs.tufts.edu/~nr/)"
+     - "Gabriele Keller                                  (University of New South Wales)"
+     - "[Cristina Lopes](http://www.ics.uci.edu/~lopes/) (University of California, Irvine)"
+     - "Kathryn S. McKinley                              (Microsoft)"
+     - "Satnam Singh                                     (Google)"
+     - "Yannis Smaragdakis                               (University of Athens)"
 
 "Ex-Officio Members":
-  - Past Chair:
-      "[Philip Wadler](http://homepages.inf.ed.ac.uk/wadler/)"
+  - Past Chair: 
+      "[Jan Vitek](http://www.cs.purdue.edu/homes/jv/)"
   - ACM Program Director:
       "[Fran Spinola](mailto:spinola@hq.acm.org)"
   - SIGPLAN Information Director: "[Andy Gill](mailto:infodir_sigplan@acm.org?subject=SIGPLAN%20Web%20Pages)"
@@ -69,6 +69,8 @@ ASPLOS Steering Committee:
   -   Michael Scott, U. Rochester
   -   David Wood, U. Wisconsin
 
+CGO Steering Committee:
+
 DLS Steering Committee:
   - PC Chair 2013:  "Carl Friedrich Bolz, Heinrich-Heine-Universit&#228;t D&#252;sseldorf, Germany"
   - PC Chair 2011:  Theo D'Hondt, Vrije Universiteit Brussel, Belgium
@@ -76,7 +78,7 @@ DLS Steering Committee:
   - SIGPLAN Vice-Chair: ""
   - Chair:          Robert Hirschfeld, Hasso-Plattner-Institut at the University of Potsdam, Germany
   - PC Chair 2015:  Manuel Serrano, Inria Sophia-Antipolis, France 
-  - SIGPLAN:        Peter Thiemann, University of Freiburg, Germany
+  - SIGPLAN Vice Chair:
   - Emeritus:       Dave Thomas, Bedarra Research Labs, Canada 
   - PC chair 2014:  Laurence Tratt, King's College London, UK 
   - PC Chair 2012:  Alessandro Warth, Google, USA
