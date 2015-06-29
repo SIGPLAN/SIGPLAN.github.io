@@ -1,7 +1,11 @@
 {% include typeof.liquid value=include.member %}
 {% if type == "nil" || include.member == "-" %}
    {% comment %} blank, so we'll look it up {% endcomment %}
-   {% if include.role contains 'SIGPLAN' %}
+   {% if include.role == 'SIGPLAN Past Vice Chair' %}
+     {% include role.liquid committee="Other Past Members" role="Past Vice Chair" %}
+   {% elsif include.role == 'SIGPLAN Past Chair' %}
+     {% include role.liquid committee="Ex-Officio Members" role="Past Chair" %}
+   {% elsif include.role contains 'SIGPLAN' %}
      {% assign role = include.role | remove: "SIGPLAN " %}
      {% include role.liquid committee="Elected Members" role=role %}
    {% else %}
