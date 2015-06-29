@@ -2,7 +2,7 @@
 {% assign def = "-" %}
 {% for i in exec %}
    {% if i[include.role] <> nil %}
-     {{ i[include.role] | markdownify | | replace: 'p>', 'span>' }}
+     {{ i[include.role] | split: ',' | first | markdownify | | replace: 'p>', 'span>' }}
      {% assign def = "" %}
     {% endif %}
 {% endfor %}
