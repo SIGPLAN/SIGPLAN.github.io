@@ -98,21 +98,5 @@ Past Events
 Steering Committee Members
 --------------------------
 
-### Present
+{% include committee.liquid name="DLS Steering Committee" %}
 
-* Carl Friedrich Bolz, Heinrich-Heine-Universit&#228;t D&#252;sseldorf, Germany
-(PC chair 2013) 
-* Theo D'Hondt, Vrije Universiteit Brussel, Belgium (PC chair 2011) 
-* Richard Gabriel, IBM Research, USA 
-* Jeremy Gibbons, Oxford University, UK (SIGPLAN) 
-* Robert Hirschfeld, Hasso-Plattner-Institut at the University of Potsdam, Germany (SC chair)
-* Manuel Serrano, Inria Sophia-Antipolis, France (PC chair 2015)
-* Peter Thiemann, University of Freiburg, Germany (SIGPLAN) 
-* Dave Thomas, Bedarra Research Labs, Canada (emeritus) 
-* Laurence Tratt, King's College London, UK (PC chair 2014) 
-* Alessandro Warth, Google, USA (PC chair 2012)
-
-### Past
-
-* Pascal Costanza, Intel ExaScience Lab, Belgium 
-* Roel Wuyts, IMEC, Belgium
