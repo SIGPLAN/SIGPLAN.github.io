@@ -1333,5 +1333,5 @@ as a CACM Research Highlight (August 2012).**
 ***Venue:*** POPL 2013.
 
 ![CACM Cover August
-2012](/sites/default/files/jul-2015.jpg) **Published
+2012](/sites/default/files/CACM-Jul2015.jpg) **Published
 as a CACM Research Highlight (July 2015).**
