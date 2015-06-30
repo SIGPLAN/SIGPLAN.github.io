@@ -24,18 +24,17 @@ Elected Members:
      - "Kathryn S. McKinley                               (Microsoft)"
      - "Satnam Singh                                      (Google)"
      - "Yannis Smaragdakis                                (University of Athens)"
-
-"Ex-Officio Members":
   - Past Chair: 
       "[Jan Vitek](http://www.cs.purdue.edu/homes/jv/)"
-  - ACM Program Director:
-      "[Fran Spinola](mailto:spinola@hq.acm.org)"
-  - SIGPLAN Information Director: "[Andy Gill](mailto:infodir_sigplan@acm.org?subject=SIGPLAN%20Web%20Pages)"
-  - Editors of SIGPLAN Newsletters:
-    - SIGPLAN Notices: "[Andy Gill](http://www.ittc.ku.edu/csdl/fpg/Users/AndyGill)"
-    - FORTRAN Forum: "[Ian Chivers](mailto:ian.chivers@chiversandbryan.co.uk)"
-  - ACM TOPLAS Editors:
-    - "[Jens Palsberg](http://www.cs.ucla.edu/~palsberg/)"
+
+Editor of SIGPLAN Notices:
+  - "[Andy Gill](http://www.ittc.ku.edu/csdl/fpg/Users/AndyGill)"
+
+"Ex-Officio Members":
+  - ACM Program Director:         "[Fran Spinola](mailto:spinola@hq.acm.org)"
+  - SIGPLAN Information Director: "[Andy Gill](mailto:infodir_sigplan@acm.org)"
+  - Editor of FORTRAN Forum:      "[Ian Chivers](mailto:ian.chivers@chiversandbryan.co.uk)"
+  - ACM TOPLAS Editors:           "[Jens Palsberg](http://www.cs.ucla.edu/~palsberg/)"
   - Steering Committee Chairs:
 # leave these blank to autolookup from the Steering Committees
     - ASPLOS:
