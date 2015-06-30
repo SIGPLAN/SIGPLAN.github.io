@@ -38,9 +38,7 @@ Editor of SIGPLAN Notices:
   - Steering Committee Chairs:
 # leave these blank to autolookup from the Steering Committees
     - ASPLOS:
-    - CGO:    
     - DLS:    
-    - FOOL:   
     - GPCE:   
     - Haskell:
     - ICFP:  
@@ -49,7 +47,6 @@ Editor of SIGPLAN Notices:
     - PLDI:  
     - POPL:  
     - PPOPP:  
-    - SIGAPL: 
     - SPLASH:
     - VEE:    
 
