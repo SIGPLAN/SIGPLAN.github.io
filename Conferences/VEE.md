@@ -2,6 +2,9 @@
 layout: default
 title: "Virtual Execution Environments (VEE)"
 ---
+
+**This page redirects to <http://vee.sigops.org/>**
+
 The goal of Virtual Execution Environments is to be a first-rate
 research forum that brings together leading practitioners and
 researchers in the broad area of virtualization, which includes
