@@ -10,8 +10,9 @@ and five other elected Members-at-Large.
 
 {% include committee.liquid name="Elected Members" prefix=true header=true %}
 
-{% include committee.liquid name="Editor of SIGPLAN Notices" prefix=true header=true %}
+#### Information Director / Editor of SIGPLAN Notices
 
-{% include committee.liquid name="Ex-Officio Members" prefix=true header=true %}
+{% include committee.liquid name="Editor of SIGPLAN Notices" prefix=true %}
+
 
 
