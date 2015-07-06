@@ -54,7 +54,7 @@ The current PLDI steering committee is:
 
 **Web Pages of Previous Conferences**  
 
-- [PLDI 2015](http://conf.researchr.org/home/pldi2015)
+- [PLDI 2015](http://conf.researchr.org/home/pldi2015) (Portland, OR)
 - [PLDI 2014](http://conferences.inf.ed.ac.uk/pldi2014/)  (Edinburgh, UK)  
 - [PLDI 2013](http://pldi2013.ucombinator.org/)  (Seattle, WA)  
 - [PLDI 2012](http://pldi12.cs.purdue.edu/)  (Beijing, China)   
