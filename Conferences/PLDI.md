@@ -10,11 +10,11 @@ implementation.
 
 **PLDI Fast Facts**
 
-> [PLDI 2015 Web Page]( http://conf.researchr.org/home/pldi2015)  
-> Location: Portland, Oregon, USA  
-> General Chair: [David Grove](http://researcher.ibm.com/view.php?person=us-groved)  
-> Program Chair: [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/)  
-> Dates:  June 13-17, 2015  
+> [PLDI 2016 Web Page](http://conf.researchr.org/home/pldi-2016)  
+> Location: Santa Barbara, California, USA  
+> General Chair: [Chandra Krintz](http://www.cs.ucsb.edu/~ckrintz)  
+> Program Chair: [Emery Berger](http://www.cs.umass.edu/~emery/)  
+> Dates:  June 13-17, 2016
 
 **Practices of PLDI**
 
@@ -54,6 +54,7 @@ The current PLDI steering committee is:
 
 **Web Pages of Previous Conferences**  
 
+- [PLDI 2015](http://conf.researchr.org/home/pldi2015)
 - [PLDI 2014](http://conferences.inf.ed.ac.uk/pldi2014/)  (Edinburgh, UK)  
 - [PLDI 2013](http://pldi2013.ucombinator.org/)  (Seattle, WA)  
 - [PLDI 2012](http://pldi12.cs.purdue.edu/)  (Beijing, China)   
