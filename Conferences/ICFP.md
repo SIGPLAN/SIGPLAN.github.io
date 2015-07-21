@@ -10,11 +10,11 @@ functional programming.
 
 **ICFP Fast Facts**
 
-> [ICFP 2013 Web Page](http://icfpconference.org/icfp2013/)  
-> Location: Boston, Massachusetts  
-> General Chair: Greg Morrisett  
-> Program Chair: Tarmo Uustalu  
-> Dates: September 25 - 27, 2013  
+> [ICFP 2015 Web Page](http://icfpconference.org/icfp2015/)  
+> Location: Vancouver, British Columbia, Canada  
+> General Chair: Kathleen Fisher (Tufts University)  
+> Program Chair: John Reppy (University of Chicago)  
+> Dates: Monday, 31 August - Wednesday, 2 September 2015  
 
 **Most Influential ICFP Paper Award**
 Each year a "Most Influential" ICFP paper is chosen and an
@@ -27,6 +27,8 @@ these awards.&#160; More details about the SIGPLAN awards can be found
 
 **Web Pages of Previous Conferences**  
 
+> [ICFP 2014](http://www.icfpconference.org/icfp2014/) (Gothenburg, Sweden)  
+> [ICFP 2013](http://www.icfpconference.org/icfp2013/) (Boston, Massachusetts)  
 > [ICFP 2012](http://www.icfpconference.org/icfp2012/) (Copenhagen, Denmark)  
 > [ICFP 2011](http://www.icfpconference.org/icfp2011/) (Tokyo, Japan)  
 > [ICFP 2010](http://www.icfpconference.org/icfp2010/) (Baltimore, Maryland)  
