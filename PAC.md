@@ -88,7 +88,7 @@ other sources of funding and deadlines.
 
 **PAC Contact Person**
 
-> [Julia Lawall](mailto:julia.lawall@lip6.fr)
+> [Gabriele Keller](mailto:keller@cse.unsw.edu.au)
 
 **Child-care Travel Support**
 
