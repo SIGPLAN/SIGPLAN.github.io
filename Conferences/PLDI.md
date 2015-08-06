@@ -23,7 +23,7 @@ The document [Practices of PLDI](http://www.sigplan.org/sites/default/files/Prac
 
 **Most Influential PLDI Paper Award**  
 
-Each year a "Most Influential" PLDI paper from 10 years previously is chosen and an
+Each year a "Most Influential" PLDI paper from 10 years previously is chosen and a
 presentation is made at PLDI. More details about this award and
 past winning papers can be found [here](/Awards/Conferences/PLDI). SIGPLAN
 also makes several other awards including an "Outstanding
