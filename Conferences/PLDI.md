@@ -7,19 +7,17 @@ premier forum for researchers, developers, practitioners, and
 students to present research on programming language design and
 implementation.
 
-
 **PLDI Fast Facts**
 
-> [PLDI 2016 Web Page](http://conf.researchr.org/home/pldi-2016)
-> Location: Santa Barbara, California, USA
-> General Chair: [Chandra Krintz](http://www.cs.ucsb.edu/~ckrintz)
-> Program Chair: [Emery Berger](http://www.cs.umass.edu/~emery/)
-> Dates:  June 13-17, 2016
+> [PLDI 2016 Web Page](http://conf.researchr.org/home/pldi-2016)  
+> Location: Santa Barbara, California, USA  
+> General Chair: [Chandra Krintz](http://www.cs.ucsb.edu/~ckrintz)  
+> Program Chair: [Emery Berger](http://www.cs.umass.edu/~emery/)  
+> Dates:  June 13-17, 2016  
 
 **Practices of PLDI**
 
 The document [Practices of PLDI](http://www.sigplan.org/sites/default/files/PracticesofPLDI.pdf) describes the contract between PLDI organizers and the broader community.  The document was approved in June 2013 and revised in August 2015.  The Chair of the PLDI Steering Committee has the source for the document and is responsible for maintaining it in consultation with the PLDI Steering Committee and the broader community.
-
 
 **Most Influential PLDI Paper Award**
 
@@ -75,6 +73,7 @@ The current PLDI steering committee is:
 - [PLDI 1997](http://www.cs.bu.edu/pub/pldi97/) (Las Vegas, Nevada)
 
 **20 Years of PLDI (1979-1999)**
+
 Click [here](http://www.cs.utexas.edu/users/mckinley/20-years.html)
 to view a selection of 50 influential papers that appeared in the
 Conference on Programming Language Design and Implementation and
