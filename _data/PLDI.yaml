@@ -1,9 +1,8 @@
 2015: 
   Awardee: [Chi-Keung Luk, Robert Cohn, Robert Muth, Harish Patil, Artur Klauser, Geoff Lowney, Steven Wallace, Vijay Janapa Reddi, Kim Hazelwood]
   Other: |
-    (for 2005) "Pin: building customized program analysis tools with dynamic instrumentation"
+    (for 2005) [Pin: building customized program analysis tools with dynamic instrumentation](http://dl.acm.org/citation.cfm?id=1065034)
   Citation: |
-
     This paper introduced Pin, a dynamic binary instrumentation
     framework that enables the creation of dynamic program analysis
     tools.  Pin uses dynamic compilation to instrument executables and
@@ -18,7 +17,7 @@
 2014: 
   Awardee: Maged M. Michael
   Other: |
-    (for 2004) Scalable Lock-Free Dynamic Memory Allocation
+    (for 2004) [Scalable Lock-Free Dynamic Memory Allocation](http://dl.acm.org/citation.cfm?id=996841.996848)
   Citation: |
     Maged Michael's PLDI'04 paper is considered a landmark in memory
     allocation for multithreaded programs, presenting the first
