@@ -1,7 +1,7 @@
 2014:
-  Awardee: Gilad Bracha, David Ungar
+  Awardee: Gilad Bracha and David Ungar
   Other: |
-    (for 2004) [Mirrors: Design Principles for Meta-level Facilities of Object-Oriented Programming Languages](http://dl.acm.org/citation.cfm?doid=1028976.1029004)
+    (for 2004) _[Mirrors: Design Principles for Meta-level Facilities of Object-Oriented Programming Languages](http://dl.acm.org/citation.cfm?doid=1028976.1029004)_
   Citation: |
     Bracha and Ungar's "Mirrors" paper describes a novel approach to
     reflection in object-oriented API design, in which reflection is
@@ -17,9 +17,9 @@
     influential ideas with clarity and simplicity.
 
 2013:
-  Awardee: Tim Harris,  Keir Fraser
+  Awardee: Tim Harris and Keir Fraser
   Other: |
-    (for 2003) [Language Support for Lightweight Transactions](http://doi.acm.org/10.1145/949305.949340)
+    (for 2003) _[Language Support for Lightweight Transactions](http://doi.acm.org/10.1145/949305.949340)_
   Citation: |
     In this paper, Harris and Fraser demonstrated how to leverage the
     memory safety and automatic memory management features of a concurrent
@@ -39,7 +39,7 @@
 2012:
   Awardee: Emery Berger, Benjamin G. Zorn, and Kathryn S. McKinley
   Other: |
-    (for 2002) [Reconsidering Custom Memory Allocation](http://doi.acm.org/10.1145/583854.582421)
+    (for 2002) _[Reconsidering Custom Memory Allocation](http://doi.acm.org/10.1145/583854.582421)_
   Citation: |
     Custom memory management is often used in systems software for the
     purpose of decreasing the cost of allocation and tightly
@@ -53,9 +53,9 @@
     its empirical methodology.
 
 2011:
-  Awardee:  Grzegorz Czajkowski, Laurent Dayn&eacute;s
+  Awardee: Grzegorz Czajkowski, Laurent Dayn&eacute;s
   Other: |
-   (for 2001) [Multitasking without compromise: a virtual machine evolution](http://doi.acm.org/10.1145/2442776.2442785)
+    (for 2001) _[Multitasking without compromise: a virtual machine evolution](http://doi.acm.org/10.1145/2442776.2442785)_
   Citation: |
     The Multitasking Virtual Machine (MVM) described in this paper was the first usable and complete Java
     VM (JVM) to support safe, secure, and scalable multitasking. Safety is achieved by strict but lightweight
@@ -66,12 +66,11 @@
     subsequent work resulting in the Isolates programming interface. Isolation is the basis for many
     infrastructures for both mobile devices and backend Clouds. Indeed, the recently announced Dart
     language for structured Web programming relies on Isolates as its foundation for concurrent
-    programming. 
-    
+    programming.
 2010:
-  Awardee:  Matthew Arnold, Stephen Fink, David Grove, Michael Hind, Peter F. Sweeney
+  Awardee: Matthew Arnold, Stephen Fink, David Grove, Michael Hind, Peter F. Sweeney
   Other: |
-   (for 2000) [Adaptive Optimization in the Jalape&#241;o JVM](http://doi.acm.org/10.1145/353171.353175)
+    (for 2000) _[Adaptive Optimization in the Jalape&#241;o JVM](http://doi.acm.org/10.1145/353171.353175)_
   Citation: |
     The 2000 OOPSLA paper "Adaptive Optimization in the Jalape&#241;o JVM"
     describes the architecture of adaptive optimization in what is now
@@ -86,12 +85,12 @@
     infrastructure. The paper has inspired significant further
     innovation in dynamic profiling and remains a primary reference for
     its exposition of the basic ingredients of adaptive optimization
-    for modern VM-based languages.  
+    for modern VM-based languages.
 
-2009: 
-  Awardee: Bowen Alpern, C. R. Attanasio, Anthony Cocchi, Derek Lieber, Stephen Smith, Ton Ngo, John J. Barton, Susan Flynn Hummel, Janice C. Shepherd, and Mark Mergen"
+2009:
+  Awardee: Bowen Alpern, C. R. Attanasio, Anthony Cocchi, Derek Lieber, Stephen Smith, Ton Ngo, John J. Barton, Susan Flynn Hummel, Janice C. Shepherd, and Mark Mergen
   Other: |
-    (for 1999) [Implementing Jalape&#241;o in Java](http://doi.acm.org/10.1145/320384.320418),
+    (for 1999) _[Implementing Jalape&#241;o in Java](http://doi.acm.org/10.1145/320384.320418)_,
   Citation: |
     The 1999 OOPSLA paper "Implementing Jalape&#241;o in Java" describes how
     the authors implemented a Java Virtual Machine in the Java
@@ -102,10 +101,10 @@
     successfully use the Jikes RVM as a platform for new
     investigations.
 
-2008: 
+2008:
   Awardee: David G. Clarke, John M. Potter, and James Noble
   Other: |
-    (for 1998) [Ownership Types for Flexible Alias Protection](http://doi.acm.org/10.1145/286936.286947)
+    (for 1998) _[Ownership Types for Flexible Alias Protection](http://doi.acm.org/10.1145/286936.286947)_
   Citation: |
     In their 1998 OOPSLA paper, "Ownership Types for Flexible
     Protection," David Clark, John Potter, and James Nobel introduced
@@ -115,10 +114,10 @@
     trend of trying to handle issues of isolation and modularity while
     retaining expressiveness.
 
-2007: 
-  Awardee: David Grove, Greg DeFouw, Jeffrey Dean, and Craig Chambers"
+2007:
+  Awardee: David Grove, Greg DeFouw, Jeffrey Dean, and Craig Chambers
   Other: |
-    (for 1997) [Call Graph Construction in Object-Oriented Languages](http://doi.acm.org/10.1145/263698.264352)
+    (for 1997) _[Call Graph Construction in Object-Oriented Languages](http://doi.acm.org/10.1145/263698.264352)_
   Citation:
     In their 1997 OOPSLA paper "Call Graph Construction in
     Object-Oriented Languages," David Grove, Greg DeFouw, Jeffrey Dean,

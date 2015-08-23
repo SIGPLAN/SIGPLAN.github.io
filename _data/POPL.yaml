@@ -2,7 +2,7 @@
   Awardee: [Nate Foster, Michael B. Greenwald, Jonathan T. Moore, Benjamin C.
 Pierce, Alan Schmitt]
   Other: |
-    (for 2005) [Combinators for Bidirectional Tree Transformations: A Linguistic Approach to the View Update Problem](http://dl.acm.org/citation.cfm?doid=1040305.1040325)
+    (for 2005) _[Combinators for Bidirectional Tree Transformations: A Linguistic Approach to the View Update Problem](http://dl.acm.org/citation.cfm?doid=1040305.1040325)_
   Citation: |
     The "view-update problem" is a classic problem in databases: when
     operating on a partial view of a data structure, how should
@@ -25,7 +25,7 @@ Pierce, Alan Schmitt]
 2014:
   Awardee: [Thomas Henzinger, Ranjit Jhala, Rupak Majumdar, Kenneth McMillan]
   Other: |
-    (for 2004) [Abstractions from proofs](http://dl.acm.org/citation.cfm?id=964021)
+    (for 2004) _[Abstractions from proofs](http://dl.acm.org/citation.cfm?id=964021)_
   Citation: |
     Interpolation can be used to construct an inductive invariant for
     a transition system that is strong enough to prove a given
@@ -43,7 +43,7 @@ Pierce, Alan Schmitt]
 2013:
   Awardee: [David F Bacon, Perry Cheng, VT Rajan]
   Other: |
-    (for 2003) [A real-time garbage collector with low overhead and consistent utilization](http://dl.acm.org/citation.cfm?id=604155&CFID=186511822&CFTOKEN=35702610)
+    (for 2003) _[A real-time garbage collector with low overhead and consistent utilization](http://dl.acm.org/citation.cfm?id=604155&CFID=186511822&CFTOKEN=35702610)_
   Citation: |
     Languages with automatic memory management offer well-known advantages
     in terms of software engineering, but the use of garbage collection
@@ -67,26 +67,26 @@ Pierce, Alan Schmitt]
 2012:
   Awardee: George C. Necula, Scott McPeak, and Westley Weimer, University of California, Berkeley"
   Other: |
-    (for 2002) [CCured: Type-Safe Retrofitting of Legacy Code](http://dl.acm.org/citation.cfm?id=1065892)
+    (for 2002) _[CCured: Type-Safe Retrofitting of Legacy Code](http://dl.acm.org/citation.cfm?id=1065892)_
 
-  Citation:    
-    This paper showed a path to taking legacy C code and 
-    making it safer, by adding type safety guarantees to 
-    existing C programs. It uses a combination of static 
-    and dynamic techniques to allow programmers to conduct 
-    low-level operations while guaranteeing safety properties 
-    regarding pointers and minimizing overhead. For many 
-    C programs, CCured&#8217;s type inference is able to infer 
-    that most or all of the pointers are statically verifiable 
-    to be type safe. This paper demonstrates the beauty of 
-    both dynamic and static types, influencing the design 
-    of languages such as C#, and inspiring continuing 
+  Citation:
+    This paper showed a path to taking legacy C code and
+    making it safer, by adding type safety guarantees to
+    existing C programs. It uses a combination of static
+    and dynamic techniques to allow programmers to conduct
+    low-level operations while guaranteeing safety properties
+    regarding pointers and minimizing overhead. For many
+    C programs, CCured's type inference is able to infer
+    that most or all of the pointers are statically verifiable
+    to be type safe. This paper demonstrates the beauty of
+    both dynamic and static types, influencing the design
+    of languages such as C#, and inspiring continuing
     research on static and dynamic analysis.
 
 2011:
   Awardee: Samin Ishtiaq and Peter W. O'Hearn
   Other: |
-    (for 2001) [BI as an Assertion Language for Mutable Data Structures](http://dx.doi.org/10.1145/360204.375719)
+    (for 2001) _[BI as an Assertion Language for Mutable Data Structures](http://dx.doi.org/10.1145/360204.375719)_
   Citation: |
     In applying the logic of bunched implications (BI) to mutable data
     structures this paper laid the groundwork for the flowering of
@@ -104,7 +104,7 @@ Pierce, Alan Schmitt]
 2010:
   Awardee: Luca Cardelli and Andrew D. Gordon
   Other: |
-    (for 2000) [Anytime, Anywhere: Modal Logics for Mobile Ambients](http://doi.acm.org/10.1145/325694.325742)
+    (for 2000) _[Anytime, Anywhere: Modal Logics for Mobile Ambients](http://doi.acm.org/10.1145/325694.325742)_
   Citation: |
     "Anytime, Anywhere: Modal Logics for Mobile Ambients" by Luca
     Cardelli and Andrew D. Gordon helped spur a flowering of work in
@@ -121,7 +121,7 @@ Pierce, Alan Schmitt]
 2009:
   Awardee: Andrew C. Myers
   Other: |
-   (for 1999) [JFlow: Practical Mostly-Static Information Flow Control](http://doi.acm.org/10.1145/292540.292561)
+   (for 1999) _[JFlow: Practical Mostly-Static Information Flow Control](http://doi.acm.org/10.1145/292540.292561)_
   Citation: |
     "JFlow: Practical Mostly-Static Information Flow Control" by Andrew
     C. Myers demonstrated the practicality of using static information
@@ -137,13 +137,13 @@ Pierce, Alan Schmitt]
     challenges of building complex, real-world systems with
     confidentiality guarantees.
 
-2008: 
+2008:
   Awardee: Greg Morrisett, David Walker, Karl Crary, and Neal Glew
   Other: |
-    (for 1998) [From System F to Typed Assembly Language](http://doi.acm.org/10.1145/268946.268954)
-  Citation: |    
+    (for 1998) _[From System F to Typed Assembly Language](http://doi.acm.org/10.1145/268946.268954)_
+  Citation: |
     "From System F to Typed Assembly Language" by Greg Morrisett, David
-    Walker, Karl Crary, and Neal Glew began a major development in the 
+    Walker, Karl Crary, and Neal Glew began a major development in the
     application of type system ideas to low level programming.  The
     paper shows how to compile a high-level, statically typed language
     into TAL, a typed assembly language defined by the authors. The
@@ -160,25 +160,24 @@ Pierce, Alan Schmitt]
 2007:
   Awardee: George Necula
   Other: |
-   (for 1997): [Proof-carrying Code](http://doi.acm.org/10.1145/263699.263712)
+   (for 1997) _[Proof-carrying Code](http://doi.acm.org/10.1145/263699.263712)_
 
 2006:
   Awardee: Bjarne Steensgaard
   Other: |
-   (for 1996): [Points-to Analysis in Almost Linear Time](http://doi.acm.org/10.1145/237721.237727)
-    
+   (for 1996) _[Points-to Analysis in Almost Linear Time](http://doi.acm.org/10.1145/237721.237727)_
+
 2005:
   Awardee: Luca Cardelli
   Other: |
-   (for 1995): [A Language with Distributed Scope](http://doi.acm.org/10.1145/199448.199516)
+   (for 1995) _[A Language with Distributed Scope](http://doi.acm.org/10.1145/199448.199516)_
 
 2004:
   Awardee: Mads Tofte and Jean-Pierre Talpin
   Other: |
-   (for 1994): [Implementation of the Typed Call-by-Value lambda-calculus using a Stack of Regions](http://doi.acm.org/10.1145/174675.177855)
-    
+   (for 1994) _[Implementation of the Typed Call-by-Value lambda-calculus using a Stack of Regions](http://doi.acm.org/10.1145/174675.177855)_
+
 2003:
   Awardee: Simon Peyton Jones and Philip Wadler
   Other: |
-   (for 1993): [Imperative functional programming](http://doi.acm.org/10.1145/158511.158524)
-
+   (for 1993) _[Imperative functional programming](http://doi.acm.org/10.1145/158511.158524)_
