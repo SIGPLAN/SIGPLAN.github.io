@@ -33,6 +33,7 @@
 "notices.htm":					"Notices/"
 
 "PAC(.htm|.html|)":				"PAC/"
+"pac(.htm|.html|)":				"PAC/"
 
 # External redrection of conferences
 
