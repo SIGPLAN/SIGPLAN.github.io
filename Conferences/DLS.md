@@ -100,3 +100,7 @@ Steering Committee Members
 
 {% include committee.liquid name="DLS Steering Committee" %}
 
+Past Steering Committee Members
+-------------------------------
+
+{% include committee.liquid name="DLS Steering Committee (Past)" %}
