@@ -1,3 +1,34 @@
+2015:
+  Awardee: Manuel M. T. Chakravarty, Gabriele Keller, and Simon Peyton Jones
+  Other: |
+    (for 2005) _[Associated Type Synonyms](http://dl.acm.org/citation.cfm?id=1086397)_
+  Citation: |
+    Building on the 2005 POPL Paper "Associated types with class",
+    Chakravarty, Keller, and Peyton Jones added the ability to write
+    open type functions directly in Haskell.  The new opportunities
+    for computation on the type level have become popular with Haskell
+    programmers, and it would be hard to overstate the influence of
+    this work on the community.  Of greatest influence have been these
+    three contributions to type-level programming:
+
+      * Type-level functions offer a qualitative jump in the
+        expressiveness of Haskell's type system, adding some of the
+        advantages of dependently typed languages while retaining
+        pervasive type inference.
+
+      * Associated types give type classes a functional notation for
+        enabling one type to depend on another.  As opposed to the
+        relational notation provided by functional dependencies,
+        associated types enable programmers to use the same style of
+        programming at the type level that they do at the term level,
+        making type-level programming more accessible.
+
+      * The supporting language extension includes a type-level
+        equality constraint, which supports the non-injective nature of
+        type-functions.  This extension has had many serendipitous
+        uses, including in the surprisingly expressive low-level
+        intermediate language System FC.
+
 2014:
   Awardee: Ralf Lämmel and Simon Peyton Jones
   Other: |
