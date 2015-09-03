@@ -70,8 +70,8 @@ Website
 -------
 
 Establish a web site for the conference and send the URL to the
-[SIGPLAN information
-director](mailto:infodir_sigplan@acm.org?subject=Conference%20Information)
+SIGPLAN [Information
+Director](mailto:infodir_sigplan@acm.org?subject=Conference%20Information)
 (as soon as date and site are determined). You can put a preliminary
 call on the web without listing the programme committee, but a PAF
 must have been approved.

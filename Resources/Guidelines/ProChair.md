@@ -86,7 +86,7 @@ and to ACM's
 [Policy and Procedures on Plagiarism](http://www.acm.org/publications/policies/plagiarism_policy).
 Once the conference web page is in place, establish a link to the page
 from the SIGPLAN conference page by contacting the SIGPLAN
-[Information Director](mailto:infodir_sigplan@acm.org?subject=Please%20add%20a%20link).  
+[Information Director](mailto:infodir_sigplan@acm.org?subject=Conference%20Information).
   
 If the proceedings will be published by ACM, declare explicitly in the
 call for papers that authors of accepted submissions are expected to
