@@ -1,6 +1,6 @@
 safe: true
 lsi: false
-pygments: true
-exclude: ['Makefile','link-checker-crawled-pages.pstore','ERRORs.txt','Gemfile','Gemfile.lock']
-include: ['.htaccess','sites']
+highlighter: pygments
+exclude: ['Makefile','link-checker-crawled-pages.pstore','ERRORs.txt','Gemfile','Gemfile.lock','vendor']
+include: ['.htaccess','css','images','sites']
 permalink: pretty
