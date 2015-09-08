@@ -37,7 +37,7 @@ OOPSLA, [Cristina Videira Lopes](http://www.ics.uci.edu/~lopes/), [lopes@ics.uci
 PPDP/GPCE/Haskell, [Tom Schrijvers](http://people.cs.kuleuven.be/~tom.schrijvers/), [tom.schrijvers@cs.kuleuven.be](mailto:tom.schrijvers@cs.kuleuven.be)  
 PPoPP/VEE/ISMM, [Hans Boehm](http://www.hpl.hp.com/personal/Hans_Boehm/), [boehm@acm.org](mailto:boehm@acm.org)  
 LCTES/ASPLOS/CGO, [Ben Zorn](http://research.microsoft.com/en-us/people/zorn/), [Ben.Zorn@microsoft.com](mailto:Ben.Zorn@microsoft.com)  
-SIGPLAN Chair, [Michael Hicks](http://www.cs.umd.edu/~mwh/), [mwh@cs.umd.edu](mailto:mwh@cs.umd.edu)
+SIGPLAN Chair, [Michael Hicks](http://www.cs.umd.edu/~mwh/), [mwh@cs.umd.edu](mailto:mwh@cs.umd.edu)  
 Past SIGPLAN Chair,[Jan Vitek](http://www.ccs.neu.edu/people/faculty/member/jan-vitek/), [j.vitek@neu.edu](mailto:j.vitek@neu.edu)
 
 
