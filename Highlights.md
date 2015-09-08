@@ -29,16 +29,16 @@ The committee considers nominated papers from two sources:
 
 ### SIGPLAN Research Highlights Committee
 
-Chair, [Emery Berger](http://www.emeryberger.org/), [emery.berger@gmail.com](mailto:emery.berger@gmail.com) (contact person)  
+Chair, [Emery Berger](http://www.emeryberger.org/), [emery@cs.umass.edu](mailto:emery@cs.umass.edu) (contact person)  
 POPL, [Jens Palsberg](http://www.cs.ucla.edu/~palsberg), [palsberg@ucla.edu](mailto:palsberg@ucla.edu)  
 PLDI, [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/), [Steve.Blackburn@anu.edu.au](mailto:Steve.Blackburn@anu.edu.au)  
-ICFP, [Robby Findler](http://www.eecs.northwestern.edu/~robby/), [robby@eecs.northwestern.edu](mailto:robby@eecs.northwestern.edu)    
-OOPSLA, [Cristina Videira Lopes](http://www.ics.uci.edu/~lopes/), [lopes@ics.uci.edu](mailto:lopes@ics.uci.edu)   
+ICFP, [Robby Findler](http://www.eecs.northwestern.edu/~robby/), [robby@eecs.northwestern.edu](mailto:robby@eecs.northwestern.edu)  
+OOPSLA, [Cristina Videira Lopes](http://www.ics.uci.edu/~lopes/), [lopes@ics.uci.edu](mailto:lopes@ics.uci.edu)  
 PPDP/GPCE/Haskell, [Tom Schrijvers](http://people.cs.kuleuven.be/~tom.schrijvers/), [tom.schrijvers@cs.kuleuven.be](mailto:tom.schrijvers@cs.kuleuven.be)  
 PPoPP/VEE/ISMM, [Hans Boehm](http://www.hpl.hp.com/personal/Hans_Boehm/), [boehm@acm.org](mailto:boehm@acm.org)  
 LCTES/ASPLOS/CGO, [Ben Zorn](http://research.microsoft.com/en-us/people/zorn/), [Ben.Zorn@microsoft.com](mailto:Ben.Zorn@microsoft.com)  
 SIGPLAN Chair, [Michael Hicks](http://www.cs.umd.edu/~mwh/), [mwh@cs.umd.edu](mailto:mwh@cs.umd.edu)  
-Past SIGPLAN Chair,[Jan Vitek](http://www.ccs.neu.edu/people/faculty/member/jan-vitek/), [j.vitek@neu.edu](mailto:j.vitek@neu.edu)
+Past SIGPLAN Chair, [Jan Vitek](http://www.ccs.neu.edu/people/faculty/member/jan-vitek/), [j.vitek@neu.edu](mailto:j.vitek@neu.edu)  
 
 
 Further information about the review process that the committee uses is
