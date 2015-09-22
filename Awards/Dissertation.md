@@ -13,19 +13,19 @@ All questions about the John C. Reynolds Doctoral Dissertation Award should be d
 
 **Nominations**
 
-Nominations must be submitted via the SIGPLAN Awards Nomination Portal at 
+Nominations must be submitted via the SIGPLAN Awards Nomination Portal at
 <https://awards.sigplan.org/nominate/reynolds/> by January
-5th 2015 (anywhere on earth) to be considered for this year's award. The nominated dissertation
+5th 2016 (anywhere on earth) to be considered for this year's award. The nominated dissertation
 must be available in an English language version to facilitate
 evaluation by the selection committee and have been awarded in the
-year 2014.  
+year 2015.
 
 A nomination should consist of the following items:
 
  *  Name, address, phone number, and email address of the person making the nomination (the nominator).
  *  Name, address, phone number, and email address of the candidate for whom an award is recommended (the nominee).
  *  Dissertation - either as a pdf or a url where the dissertation can be found.
- *  A short statement (200-500 words) explaining why the nominee deserves the award in question. 
+ *  A short statement (200-500 words) explaining why the nominee deserves the award in question.
  *  Supporting statements from up to two people in addition to the nominator.
 
 This award recognizes the contributions to computer science that John
@@ -47,18 +47,22 @@ Reynolds is renowned for his many technical contributions.
  * Relational parametricity, a fundamental theory of data abstraction;
  * Separation logic, an extension of Hoare logic to mutable data structures, which forms the basis of a new generation of proof tools.
 
-Reynolds was an inspiration to all he worked with. He was well known for helping colleagues and students work through ideas. But his influence went well beyond his immediate circle; many researchers who never worked with Reynolds nevertheless built on his ideas.
- 
+Reynolds was an inspiration to all he worked with. He was well known
+for helping colleagues and students work through ideas. But his
+influence went well beyond his immediate circle; many researchers who
+never worked with Reynolds nevertheless built on his ideas.
+
+
 **Selection Committee**
 
- * [Elisabetta  Di Nitto](http://home.deib.polimi.it/dinitto/) - Politecnico di Milano <mailto:elisabetta.dinitto@gmail.com>
- * [Susan Eisenbach](http://www.imperial.ac.uk/AP/faces/pages/read/Home.jsp?person=s.eisenbach&_adf.ctrl-state=16dpu3khvn_99&_afrRedirect=169130355484999) Imperial College London (SIGPLAN member and Chair) <mailto:s.eisenbach@imperial.ac.uk>
- * [Dan Grossman](http://homes.cs.washington.edu/~djg/) University of Washington <mailto:djg@cs.washington.edu>
- * [Marieke Huisman](http://wwwhome.ewi.utwente.nl/~marieke/) -  University of Twente <mailto:m.huisman@utwente.nl>
+ * [Susan Eisenbach](http://www.imperial.ac.uk/people/s.eisenbach) - Imperial College London (SIGPLAN member and Chair) <mailto:s.eisenbach@imperial.ac.uk>
+ * [Dan Grossman](http://homes.cs.washington.edu/~djg/) - University of Washington <mailto:djg@cs.washington.edu>
+ * [Mike Hicks](http://www.cs.umd.edu/~mwh/) - University of Maryland (ex officio member as SIGPLAN Chair) <mailto:mwh@cs.umd.edu>
+ * [Antony Hosking](https://www.cs.purdue.edu/homes/hosking/Antony_Hosking/Home.html) - Purdue University <mailto:hosking@cs.purdue.edu>
+ * [Marieke Huisman](http://wwwhome.ewi.utwente.nl/~marieke/) - University of Twente <mailto:m.huisman@utwente.nl>
  * [Suresh Jagannathan](http://www.cs.purdue.edu/homes/suresh/) - Purdue University <mailto:suresh@cs.purdue.edu>
- * [Tiziana Margaria ](https://www.cs.uni-potsdam.de/sse/people.html?id=tmargaria) - Universität Potsdam <mailto:margaria@cs.uni-potsdam.de>
- * [Andrey Rybalchenko](http://www7.in.tum.de/~rybal/) - Microsoft Research <mailto:rybal@microsoft.com>
- * [Satnam Singh](https://plus.google.com/110563483361774700563/about) - Google <mailto:s.singh@acm.org>
+ * [Tiziana Margaria ](http://www.lero.ie/people/tizianamargaria) - University of Limerick and Lero <mailto:tiziana.margaria@lero.ie>
+ * [Keiko Nakata](http://cs.ioc.ee/~keiko/) - FireEye Dresden <mailto:keiko.nakata@fireeye.com>
+ * [Anthony Sloane](https://wiki.mq.edu.au/display/plrg/Anthony+Sloane) - Macquarie University <mailto:anthony.sloane@mq.edu.au>
  * [Eijiro Sumii](http://www.kb.ecei.tohoku.ac.jp/~sumii/) - Tohoku University <mailto:sumii@ecei.tohoku.ac.jp>
- * [Jan Vitek](http://janvitek.github.io/) - Purdue University (ex officio member as SIGPLAN Chair) <mailto:j.vitek@neu.edu>
- * [Eran Yahav](http://www.cs.technion.ac.il/~yahave/) - Technion <mailto:yahave@cs.technion.ac.il>
+ * [Elena Zucca](http://www.disi.unige.it/person/ZuccaE/) - University of Genoa <mailto:elena.zucca@unige.it>
