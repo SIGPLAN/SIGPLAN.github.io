@@ -62,6 +62,6 @@ never worked with Reynolds nevertheless built on his ideas.
  * [Suresh Jagannathan](http://www.cs.purdue.edu/homes/suresh/) - Purdue University <mailto:suresh@cs.purdue.edu>
  * [Tiziana Margaria ](http://www.lero.ie/people/tizianamargaria) - University of Limerick and Lero <mailto:tiziana.margaria@lero.ie>
  * [Keiko Nakata](http://cs.ioc.ee/~keiko/) - FireEye Dresden <mailto:keiko.nakata@fireeye.com>
- * [Anthony Sloane](https://wiki.mq.edu.au/display/plrg/Anthony+Sloane) - Macquarie University <mailto:anthony.sloane@mq.edu.au>
+ * [Anthony Sloane](https://www.comp.mq.edu.au/~asloane) - Macquarie University <mailto:anthony.sloane@mq.edu.au>
  * [Eijiro Sumii](http://www.kb.ecei.tohoku.ac.jp/~sumii/) - Tohoku University <mailto:sumii@ecei.tohoku.ac.jp>
  * [Elena Zucca](http://www.disi.unige.it/person/ZuccaE/) - University of Genoa <mailto:elena.zucca@unige.it>
