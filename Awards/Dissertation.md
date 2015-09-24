@@ -57,7 +57,7 @@ never worked with Reynolds nevertheless built on his ideas.
  * [Susan Eisenbach](http://www.imperial.ac.uk/people/s.eisenbach) - Imperial College London (SIGPLAN member and Chair) <mailto:s.eisenbach@imperial.ac.uk>
  * [Dan Grossman](http://homes.cs.washington.edu/~djg/) - University of Washington <mailto:djg@cs.washington.edu>
  * [Mike Hicks](http://www.cs.umd.edu/~mwh/) - University of Maryland (ex officio member as SIGPLAN Chair) <mailto:mwh@cs.umd.edu>
- * [Antony Hosking](https://www.cs.purdue.edu/homes/hosking/Antony_Hosking/Home.html) - Purdue University <mailto:hosking@cs.purdue.edu>
+ * [Antony Hosking](http://hosking.github.io) - Australian National University, NICTA, and Purdue University <mailto:antony.hosking@anu.edu.au>
  * [Marieke Huisman](http://wwwhome.ewi.utwente.nl/~marieke/) - University of Twente <mailto:m.huisman@utwente.nl>
  * [Suresh Jagannathan](http://www.cs.purdue.edu/homes/suresh/) - Purdue University <mailto:suresh@cs.purdue.edu>
  * [Tiziana Margaria ](http://www.lero.ie/people/tizianamargaria) - University of Limerick and Lero <mailto:tiziana.margaria@lero.ie>
