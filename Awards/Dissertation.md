@@ -13,27 +13,26 @@ All questions about the John C. Reynolds Doctoral Dissertation Award should be d
 
 **Nominations**
 
-Nominations must be submitted via the SIGPLAN Awards Nomination Portal at
-<https://awards.sigplan.org/nominate/reynolds/> by January
-5th 2016 (anywhere on earth) to be considered for this year's award. The nominated dissertation
-must be available in an English language version to facilitate
-evaluation by the selection committee and have been awarded in the
-year 2015.
+Nominations must be submitted via the SIGPLAN Awards Nomination Portal
+at <https://awards.sigplan.org/nominate/reynolds/> by January 5th 2016
+(anywhere on earth) to be considered for this year's award. The
+nominated dissertation must have been awarded in 2015 and be available
+in English (to facilitate evaluation by the selection committee).
 
-A nomination should consist of the following items:
+A nomination consists of the following items:
 
  *  Name, address, phone number, and email address of the person making the nomination (the nominator).
  *  Name, address, phone number, and email address of the candidate for whom an award is recommended (the nominee).
  *  Dissertation - either as a pdf or a url where the dissertation can be found.
- *  A short statement (200-500 words) explaining why the nominee deserves the award in question.
+ *  A short statement (200-500 words) explaining why the nominee merits the award.
  *  Supporting statements from up to two people in addition to the nominator.
 
 This award recognizes the contributions to computer science that John
-C. Reynolds made during his life.  It is a renaming of the SIGPLAN
+C. Reynolds made during his life. It is a renaming of the SIGPLAN
 Outstanding Doctoral Dissertation Award to encourage the clarity and
 rigor that Reynolds embodied and at the same time provide a reminder
-of Reynolds's legacy and what a difference a person can make in the
-field of programming language research.
+of Reynolds's legacy and the difference a person can make in the field
+of programming language research.
 
 Reynolds is renowned for his many technical contributions.
 
