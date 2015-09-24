@@ -1,7 +1,7 @@
 2015:
   Awardee: "Mark Batty, University of Cambridge"
   Other: |
-    _The C11 and C++11 Concurrency Model_
+    _[The C11 and C++11 Concurrency Model](/Awards/Dissertation/2015_batty.pdf)_
   Advisor: Peter Sewell
   Citation: |
     Mark Batty's dissertation makes significant contributions to the
@@ -25,7 +25,7 @@
 2014:
   Awardee: "Aaron Turon, Northeastern University"
   Other: |
-    _Understanding and Expressing Scalable Concurrency_
+    _[Understanding and Expressing Scalable Concurrency](/Awards/Dissertation/2014_turon.pdf)_
   Advisor: Mitchell Wand
   Citation: |
     Aaron Turon's dissertation makes several major contributions to
@@ -46,7 +46,7 @@
 2013:
   Awardee: "Patrick Rondon, University of California, San Diego"
   Other: |
-    _Verifying Low-Level Programs via Liquid Type Inference_
+    _[Verifying Low-Level Programs via Liquid Type Inference](/Awards/Dissertation/2013_rondon.pdf)_
   Advisor: Ranjit Jhala
   Citation: |
     Patrick Rondon’s dissertation makes several significant
@@ -68,7 +68,7 @@
 2012:
   Awardee: "Dan Marino, University of California Los Angeles"
   Other: |
-    _Simplified Semantics and Debugging of Concurrent Programs via Targeted Race Detection_
+    _[Simplified Semantics and Debugging of Concurrent Programs via Targeted Race Detection](/Awards/Dissertation/2012_marino.pdf)_
   Advisor: Todd Millstein
   Citation: |
     This dissertation addresses the problem of obtaining reliable
@@ -99,7 +99,7 @@
 2010:
   Awardee: "Robert L. Bocchino, University of Illinois at Urbana-Champaign"
   Other: |
-    _An Effect System and Language for Deterministic-by-Default Parallel Programming_
+    _[An Effect System and Language for Deterministic-by-Default Parallel Programming](/Awards/Dissertation/2010_bocchino.pdf)_
   Advisor: Vikram Adve
   Citation: |
     This dissertation makes several significant contributions to the
@@ -124,7 +124,7 @@
 2009:
   - Awardee: "Akash Lal, University of Wisconsin"
     Other: |
-      _Interprocedural Analysis and the Verification of Concurrent Programs_
+      _[Interprocedural Analysis and the Verification of Concurrent Programs](/Awards/Dissertation/2009_lal.pdf)_
     Advisor: Thomas Reps
     Citation: |
       This dissertation develops improvements to interprocedural
@@ -139,7 +139,7 @@
 
   - Awardee: "William Thies, Massachusetts Institute of Technology"
     Other: |
-      _Language and Compiler Support for Stream Programs_
+      _[Language and Compiler Support for Stream Programs](/Awards/Dissertation/2009_thies.pdf)_
     Advisor: Saman Amarasinghe
     Citation: |
       This dissertation describes the StreamIt synchronous dataflow
@@ -156,7 +156,7 @@
 2008:
   - Awardee: "Michael Bond, University of Texas at Austin"
     Other: |
-      _Diagnosing and Tolerating Bugs in Deployed Systems_
+      _[Diagnosing and Tolerating Bugs in Deployed Systems](/Awards/Dissertation/2008_bond.pdf)_
     Advisor: Kathryn McKinley
     Citation: |
       This dissertation makes several significant contributions to the
@@ -174,7 +174,7 @@
 
   - Awardee: "Viktor Vafeiadis, University of Cambridge"
     Other: |
-      _Modular Fine-grained Concurrency Verification_
+      _[Modular Fine-grained Concurrency Verification](/Awards/Dissertation/2008_vafeiadis.pdf)_
     Advisor: Alan Mycroft and Matthew Parkinson
     Citation: |
       This dissertation introduces a novel logic for reasoning about
@@ -192,7 +192,7 @@
 2007:
   Awardee: "Swarat Chaudhuri, University of Pennsylvania"
   Other: |
-    _Logics and Algorithms for Software Model Checking_
+    _[Logics and Algorithms for Software Model Checking](/Awards/Dissertation/2007_chaudhuri.ps)_
   Advisor: Rajeev Alur
   Citation: |
     The thesis explores a formalism called nested trees, that can
@@ -206,7 +206,7 @@
 2006:
   Awardee: "Xiangyu Zhang, University of Arizona"
   Other: |
-    _Fault Location via Dynamic Slicing_
+    _[Fault Location via Dynamic Slicing](/Awards/Dissertation/2006_zhang.pdf)_
   Advisor: Rajiv Gupta
   Citation: |
     Dynamic slicing is a technique for determining which variables and
@@ -221,23 +221,23 @@
 2005:
   Awardee: "Sumit Gulwani, University of California, Berkeley"
   Other: |
-    _Program Analysis using Random Interpretation_
+    _[Program Analysis using Random Interpretation](/Awards/Dissertation/2005_gulwani.pdf)_
   Advisor: George Necula
 
 2003:
   Awardee: "Godmar Back, University of Utah"
   Other: |
-    _Isolation, Resource Management and Sharing in the KaffeOS Java Runtime System_
+    _[Isolation, Resource Management and Sharing in the KaffeOS Java Runtime System](/Awards/Dissertation/2003_back.pdf)_
   Advisor: Wilson Hsieh
 
 2002:
   Awardee: "Michael Hicks, University of Pennsylvania"
   Other: |
-    _Dynamic Software Updating_
+    _[Dynamic Software Updating](/Awards/Dissertation/2002_hicks.pdf)_
   Advisor: Scott Nettles
 
 2001:
   Awardee: "Rastislav Bodik, University of Pittsburgh"
   Other: |
-    _Path-Sensitive Value-Flow Optimizations of Programs_
+    _[Path-Sensitive Value-Flow Optimizations of Programs](/Awards/Dissertation/2001_bodik.ps)_
   Advisor: Rajiv Gupta and Mary Lou Soffa
