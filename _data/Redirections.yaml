@@ -40,3 +40,5 @@
 # External redrection of conferences
 
 "Conferences/VEE/":				"http://vee.sigops.org/"
+
+"oopsla/(.*)":					"http://classic.sigplan.org/oopsla/$1"
