@@ -55,7 +55,6 @@ never worked with Reynolds nevertheless built on his ideas.
 **Selection Committee**
 
  * [Susan Eisenbach](http://www.imperial.ac.uk/people/s.eisenbach) - Imperial College London (SIGPLAN member and Chair) <mailto:s.eisenbach@imperial.ac.uk>
- * [Dan Grossman](http://homes.cs.washington.edu/~djg/) - University of Washington <mailto:djg@cs.washington.edu>
  * [Mike Hicks](http://www.cs.umd.edu/~mwh/) - University of Maryland (ex officio member as SIGPLAN Chair) <mailto:mwh@cs.umd.edu>
  * [Antony Hosking](http://hosking.github.io) - Australian National University, NICTA, and Purdue University <mailto:antony.hosking@anu.edu.au>
  * [Marieke Huisman](http://wwwhome.ewi.utwente.nl/~marieke/) - University of Twente <mailto:m.huisman@utwente.nl>
