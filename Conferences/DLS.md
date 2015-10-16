@@ -18,6 +18,7 @@ DLS 2015
 -   Pittsburgh, Pennsylvania, USA, October 27, 2015
 -   Co-located with SPLASH 2015
 -   PC chair: Manuel Serrano (Inria)
+-   Invited Speaker: Eelco Visser (TU Delft)
 -   [http://www.dynamic-languages-symposium.org/dls-15/](http://www.dynamic-languages-symposium.org/dls-15/)
 
 Past Events
