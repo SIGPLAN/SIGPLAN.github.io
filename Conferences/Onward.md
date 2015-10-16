@@ -203,10 +203,10 @@ Steering Committee Members
 
 ### Past
 
-* Elisa Baniassad, Australian National University, Australia 
+* Elisa Baniassad, Australian National University, Australia (chair)
 * Robert Biddle, Carleton University, Canada 
 * Siobh&#225;n Clarke, Trinity College, Ireland 
-* Geoff A. Cohen, Elysium Digital, USA 
+* Geoff A. Cohen, Elysium Digital, USA
 * Jeremy Gibbons, University of Oxford, UK (SIGPLAN) 
 * Cristina Videira Lopes, University of California at Irvine, USA 
 * James Noble, Victoria University of Wellington, New Zealand 
