@@ -15,6 +15,7 @@ Onward! 2015
 -   Co-located with SPLASH 2015
 -   Papers chair: Gail Murphy (University of British Columbia)
 -   Essays chair: Guy L. Steele Jr. (Oracle Labs)
+-   Keynote speaker: Rob DeLine (Microsoft Research)
 -   [http://2015.splashcon.org/](http://2015.splashcon.org/)
 
 Awards
@@ -184,17 +185,19 @@ Steering Committee Members
 ### Present
 
 * Kevin Sullivan, University of Virginia, USA (chair)
-* Jonathan Aldrich, CMU, USA 
-* Andrew Black, Portland State University, USA 
-* Bernd Bruegge, TU M&#252;nchen, Germany 
-* Yvonne Coady, University of Victoria, Canada 
-* Jonathan Edwards, MIT, USA 
-* Richard P. Gabriel, IBM Research, USA 
-* Robert Hirschfeld, Hasso Plattner Institute Potsdam, Germany 
-* Antony Hosking, Purdue University, USA 
-* Shriram Krishnamurthi, Brown University, USA 
-* Gail Murphy (University of British Columbia) 
-* Guy L. Steele Jr. (Oracle Labs) 
+* Jonathan Aldrich, Carnegie Mellon University, USA
+* Andrew Black, Portland State University, USA
+* Bernd Bruegge, TU M&#252;nchen, Germany
+* Yvonne Coady, University of Victoria, Canada
+* Jonathan Edwards, Massachusetts Institute of Technology, USA
+* Richard P. Gabriel, IBM Research, USA
+* Robert Hirschfeld, Hasso Plattner Institute Potsdam, Germany
+* Antony Hosking, Purdue University, USA
+* Shriram Krishnamurthi, Brown University, USA
+* Emerson Murphy-Hill, North Carolina State University, USA
+* Cristina Videira Lopes, University of California at Irvine, USA
+* Gail Murphy, University of British Columbia, Canada
+* Guy L. Steele Jr., Oracle Labs, USA
 * Peter Thiemann, University of Freiburg, Germany (SIGPLAN)
 * Eelco Visser, Delft University of Technology, The Netherlands
 
@@ -205,6 +208,6 @@ Steering Committee Members
 * Siobh&#225;n Clarke, Trinity College, Ireland 
 * Geoff A. Cohen, Elysium Digital, USA 
 * Jeremy Gibbons, University of Oxford, UK (SIGPLAN) 
-* Cristina Videira Lopes, University of California, Irvine, USA 
+* Cristina Videira Lopes, University of California at Irvine, USA 
 * James Noble, Victoria University of Wellington, New Zealand 
 * Dirk Riehle, Friedrich-Alexander-Universit&#228;t Erlangen-N&#252;rnberg, Germany
