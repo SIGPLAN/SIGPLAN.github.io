@@ -56,7 +56,7 @@ Awards
     -   Title: Notes on Postmodern Programming
     -   Conference: Onward! 2002
     -   Paper:
-        [http://dreamsongs.com/Files/Onward!Proceedings.pdf](http://dreamsongs.com/Files/Onward!Proceedings.pdf%20)
+        [http://dreamsongs.com/Files/Onward!Proceedings.pdf](http://dreamsongs.com/Files/Onward!Proceedings.pdf)
     -   Citation: The 2002 Onward! paper "Notes on Postmodern
         Programming" uses postmodern concepts to understand contemporary
         programming, especially as software grows in scale and design is
