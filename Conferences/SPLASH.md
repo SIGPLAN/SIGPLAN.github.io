@@ -2,7 +2,7 @@
 layout: default
 title: "Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH)"
 ---
-SPLASH (Systems, Programming, Languages, and Applications: Software for Humanity) contains several conferences concerned with programming, languages, and software engineering, including [OOPSLA](OOPSLA/)  (Object-oriented Programming, Systems, Languages, and Applications), [Onward!](Onward), [DLS](DLS) (the Dynamic Languages Symposium), and PLoP (Pattern Languages of Programming).
+SPLASH (Systems, Programming, Languages, and Applications: Software for Humanity) contains several conferences concerned with programming, languages, and software engineering, including [OOPSLA](/Conferences/OOPSLA)  (Object-oriented Programming, Systems, Languages, and Applications), [Onward!](/Conferences/Onward), [DLS](/Conferences/DLS) (the Dynamic Languages Symposium), and PLoP (Pattern Languages of Programming).
 
 SPLASH fast facts
 -----------------
