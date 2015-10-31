@@ -8,18 +8,31 @@ aspect of programming. Welcomed are papers that propose and argue for
 new approaches to the creation of software as well as reflections on
 technology and ideas bearing on programming broadly construed.
 
-Onward! 2015
+Onward! 2016
 ------------
 
--   Pittsburgh, Pennsylvania, USA, October 28-30, 2015
--   Co-located with SPLASH 2015
--   Papers chair: Gail Murphy (University of British Columbia)
--   Essays chair: Guy L. Steele Jr. (Oracle Labs)
--   Keynote speaker: Rob DeLine (Microsoft Research)
--   [http://2015.splashcon.org/](http://2015.splashcon.org/)
+-   Amsterdam, The Netherlands, November 2-4, 2016
+-   Co-located with SPLASH 2016
+-   Papers chair: Emerson Murphy-Hill (North Carolina State University)
+-   Essays chair: Cristina Videira Lopes (University of California at Irvine)
+-   [http://2016.splashcon.org/](http://2016.splashcon.org/)
+-   [http://conf.researchr.org/track/onward2016/onward-2016-papers/](http://conf.researchr.org/track/onward2016/onward-2016-papers/)
+-   [http://conf.researchr.org/track/onward2016/onward2016-essays/](http://conf.researchr.org/track/onward2016/onward2016-essays/)
 
 Awards
 ------
+
+-   Most Notable Paper Award 2015 for 2005
+    -   Recipient: Jonathan Edwards
+    -   Title: Subtext--Uncovering the Simplicity of Programming
+    -   Conference: Onward! 2005
+    -   Paper:
+        [http://dl.acm.org/citation.cfm?id=1094811.1094851](http://dl.acm.org/citation.cfm?id=1094811.1094851)
+    - Citation: The 2005 Onward! paper "Subtext--Uncovering the
+      Simplicity of Programming" presented a new kind of programming,
+      unifying programs and their execution, and which helped
+      establish Onward! as a forum for high-end, lateral thinking
+      about programming.
 
 -   Most Notable Paper Award 2014 for 2004
     -   Recipient: Tim Sheard
@@ -70,6 +83,15 @@ Awards
 
 Past Events
 -----------
+
+-   Onward! 2015
+   -   Pittsburgh, Pennsylvania, USA, October 28-30, 2015
+   -   Co-located with SPLASH 2015
+   -   Papers chair: Gail Murphy
+   -   Essays chair: Guy L. Steele Jr.
+   -   Keynote speaker: Rob DeLine
+   -   [http://2015.splashcon.org/track/onward2015-papers/](http://2015.splashcon.org/track/onward2015-papers/)
+    -   [http://2015.splashcon.org/track/onward2015-essays/](http://2015.splashcon.org/track/onward2015-essays/)
 
 -   Onward! 2014
     -   Portland, Oregon, USA, October 22-24, 2014
