@@ -85,12 +85,12 @@ Past Events
 -----------
 
 -   Onward! 2015
-   -   Pittsburgh, Pennsylvania, USA, October 28-30, 2015
-   -   Co-located with SPLASH 2015
-   -   Papers chair: Gail Murphy
-   -   Essays chair: Guy L. Steele Jr.
-   -   Keynote speaker: Rob DeLine
-   -   [http://2015.splashcon.org/track/onward2015-papers/](http://2015.splashcon.org/track/onward2015-papers/)
+    -   Pittsburgh, Pennsylvania, USA, October 28-30, 2015
+    -   Co-located with SPLASH 2015
+    -   Papers chair: Gail Murphy
+    -   Essays chair: Guy L. Steele Jr.
+    -   Keynote speaker: Rob DeLine
+    -   [http://2015.splashcon.org/track/onward2015-papers/](http://2015.splashcon.org/track/onward2015-papers/)
     -   [http://2015.splashcon.org/track/onward2015-essays/](http://2015.splashcon.org/track/onward2015-essays/)
 
 -   Onward! 2014

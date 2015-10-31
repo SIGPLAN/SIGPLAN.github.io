@@ -38,12 +38,12 @@ The current SPLASH steering committee is:
 
 Web Pages of Previous Conferences
 ---------------------------------
-> [SPLASH 2016](http://2016.splashcon.org/)  (Amsterdam, The Netherlands)
-> [SPLASH 2015](http://2015.splashcon.org/)  (Pittsburgh, PA)
-> [SPLASH 2014](http://2014.splashcon.org/)  (Portland, OR)  
-> [SPLASH 2013](http://splashcon.org/2013/)  (Indianapolis, IN)  
-> [SPLASH 2012](http://splashcon.org/2012/)  (Tucson, AZ)  
-> [SPLASH 2011](http://splashcon.org/2011/)  (Portland, OR)  
+> [SPLASH 2016](http://2016.splashcon.org/) (Amsterdam, The Netherlands)  
+> [SPLASH 2015](http://2015.splashcon.org/) (Pittsburgh, PA)  
+> [SPLASH 2014](http://2014.splashcon.org/) (Portland, OR)  
+> [SPLASH 2013](http://splashcon.org/2013/) (Indianapolis, IN)  
+> [SPLASH 2012](http://splashcon.org/2012/) (Tucson, AZ)  
+> [SPLASH 2011](http://splashcon.org/2011/) (Portland, OR)  
 > [SPLASH 2010](http://splashcon.org/2010/) (Reno, NV)  
 > [OOPSLA 2009](http://www.oopsla.org/oopsla2009/) (Orlando, FL)  
 > [OOPSLA 2008](http://www.oopsla.org/oopsla2008/) (Nashville, TN)  
