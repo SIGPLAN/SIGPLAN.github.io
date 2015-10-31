@@ -3,7 +3,7 @@ layout: default
 title: "Onward!"
 ---
 Symposium on New Ideas in Programming and Reflections on Software
-(Onward!) Onward! is a forum for new ideas and paradigms for every
+(Onward!) is a forum for new ideas and paradigms for every
 aspect of programming. Welcomed are papers that propose and argue for
 new approaches to the creation of software as well as reflections on
 technology and ideas bearing on programming broadly construed.
