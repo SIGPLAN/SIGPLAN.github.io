@@ -19,13 +19,17 @@ members:
 -   current and past three SPLASH General Chairs,
 -   current and past three OOPSLA Program Chairs, 
 -   current and past three Onward! Program Chairs, and
--   the outgoing Chair of the Steering Committee, for one year past the end of his or her term as Chair.
+-   the outgoing Chair of the Steering Committee, for one year past the end of
+    his or her term as Chair.
 
-The Chair of the Steering Committee is elected by the Steering Committee from among the members of the committee to serve a two-year term.  The outgoing chair serves an additional year on the committee past his or her term as chair to provide institutional memory.  
+The Chair of the Steering Committee is elected by the Steering Committee from
+among the members of the committee to serve a two-year term.  The outgoing
+chair serves an additional year on the committee past his or her term as chair
+to provide institutional memory.
 
-The constitution of the steering committee changes each year on
-October 31, with the SPLASH chair changing every two years and the SIGPLAN
-chair/vice chair changing every third year. 
+The constitution of the steering committee changes each year on October 31,
+with the SPLASH chair changing every two years and the SIGPLAN chair/vice
+chair changing every third year.
 
 The current SPLASH steering committee is:
 
@@ -34,6 +38,8 @@ The current SPLASH steering committee is:
 
 Web Pages of Previous Conferences
 ---------------------------------
+> [SPLASH 2016](http://2016.splashcon.org/)  (Amsterdam, The Netherlands)
+> [SPLASH 2015](http://2015.splashcon.org/)  (Pittsburgh, PA)
 > [SPLASH 2014](http://2014.splashcon.org/)  (Portland, OR)  
 > [SPLASH 2013](http://splashcon.org/2013/)  (Indianapolis, IN)  
 > [SPLASH 2012](http://splashcon.org/2012/)  (Tucson, AZ)  
