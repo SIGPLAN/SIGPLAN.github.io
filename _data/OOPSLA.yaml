@@ -1,9 +1,24 @@
 2015:
   Awardee: Philippe Charles, Christian Grothoff, Vijay Saraswat, Christopher Donawa, Allan Kielstra, Kemal Ebcioglu, Christoph von Praun, and Vivek Sarkar
   Other: |
-    (for 2005) _[X10: An Object-Oriented Approach to Non-Uniform Cluster Computing](http://dl.acm.org/citation.cfm?doid=1094811.1094852)
+    (for 2005) _[X10: An Object-Oriented Approach to Non-Uniform Cluster Computing](http://dl.acm.org/citation.cfm?doid=1094811.1094852)_
   Citation: |
-    Forthcoming
+    This paper presents X10, an object-oriented programming language
+    based on the Java language and extended to make parallel
+    programming effective and convenient for high-performance and
+    high-productivity programming of non-uniform cluster computing
+    systems --- that is, computing systems in which both processor
+    resources and memory resources are distributed.  X10 highlights
+    the explicit reification of locality in the form of places;
+    supports explicitly controlled distribution and parallel
+    processing of arrays; and allows the use of either lock-free
+    synchronization using atomic blocks or explicit barrier
+    synchronization using a novel clock mechanism.  Although variants
+    of some of these mechanisms had been explored in other language
+    designs, X10 brought modern programming facilities to the
+    scientific computing community by synthesizing a particularly
+    useful combination of facilities within the Java language
+    framework.
 
 2014:
   Awardee: Gilad Bracha and David Ungar
