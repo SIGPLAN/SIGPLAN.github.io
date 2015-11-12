@@ -10,27 +10,27 @@ depend upon whether or not the CoLo is
 SIGPLAN.
 
 * Fully SIGPLAN Sponsored CoLos
-  * Budget covered by main event.
+  * Budget covered and TMRF submitted by Main Event.
   * Expenses such as PC Meeting, Speaker, Committee Dinners, Publications, Social Events, Complimentary registration must be approved by Main Event at TMRF submission time.
   * Registration handled by Main Event.
   * Sponsorship handled by Main Event
-  * Venue negotiations handled by Main Event main event.
+  * Venue negotiations handled by Main Event.
 
 * Partially SIGPLAN Sponsored CoLos (with other SIGs or with IEEE)
-  * Separate budget and TMRF
+  * Separate budget and TMRF.
   * Registration handled by Main Event.
   * Expenses such as PC Meeting, Speaker, Committee Dinners, Publications, Social Events, Complimentary registration must be approved by Main Event at TMRF submission time.
-  * Sponsorship requires a separate CMS
-  * Venue negotiations handled by Main Event
+  * Sponsorship requires a separate CMS.
+  * Venue negotiations handled by Main Event.
 
 * Independent CoLo
-  * Separate budget (and TMRF if needed)
-  * Separate bank account
-  * Separate contract with Main Event Registration provider
-  * Separate expenses
-  * Separate sponsorship
-  * All negotiations regarding venue (room rental, A/V, F&B) handled by Main Event
-  * Venue expenses charge according to usage and payed from CoLo accounts
+  * Separate budget (and TMRF, if needed).
+  * Separate bank account.
+  * Separate contract with Main Event Registration provider.
+  * Separate expenses.
+  * Separate sponsorship.
+  * All negotiations regarding venue (room rental, A/V, F&B) handled by Main Event.
+  * Venue expenses charge according to usage and payed from CoLo accounts.
 
 
 Summary
@@ -49,6 +49,8 @@ Summary
 | Social Events                  | To be agreed at TMRF | To be agreed at TMRF | yes |
 | Committee events               | To be agreed at TMRF | To be agreed at TMRF | yes |
 | Venue Booking                  | no | no | no |
-| A/V                            | no | no | Free choice IF different <br> but to be agreed with main event |
-| Food & Beverages               | no | no | Free choice IF different <br> but to be agreed with main event |
+| A/V                            | no | no | Free choice IF different but <br> to be agreed with main event |
+| A/V                            | no | no | To be agreed with Main Event: <br> no, if same as Main Event; <br> yes, if different |
+| Food & Beverages               | no | no | Free choice IF different but <br> to be agreed with main event |
+| Food & Beverages               | no | no | To be agreed with Main Event: <br> no, if same as Main Event; <br> yes, if different |
 | Banquet                        | To be agreed at TMRF | To be agreed at TMRF | yes |
