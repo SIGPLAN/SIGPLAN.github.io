@@ -4,8 +4,8 @@ title: "Guidelines for Colocation"
 ---
 
 In case a conference/workshop (CoLo) wants to co-locate with a SIGPLAN
-conference (Main Event), there are the guidelines to follow that
-depend upon whether or not the CoLo is
+conference (Main Event), there are guidelines to follow that depend
+upon whether or not the CoLo is
 [sponsored](http://www.sigplan.org/Resources/Proposals/Sponsored) by
 SIGPLAN.
 
