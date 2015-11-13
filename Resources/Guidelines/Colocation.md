@@ -49,8 +49,6 @@ Summary
 | Social Events                  | To be agreed at TMRF | To be agreed at TMRF | yes |
 | Committee events               | To be agreed at TMRF | To be agreed at TMRF | yes |
 | Venue Booking                  | no | no | no |
-| A/V                            | no | no | Free choice IF different but <br> to be agreed with main event |
 | A/V                            | no | no | To be agreed with Main Event: <br> no, if same as Main Event; <br> yes, if different |
-| Food & Beverages               | no | no | Free choice IF different but <br> to be agreed with main event |
 | Food & Beverages               | no | no | To be agreed with Main Event: <br> no, if same as Main Event; <br> yes, if different |
 | Banquet                        | To be agreed at TMRF | To be agreed at TMRF | yes |
