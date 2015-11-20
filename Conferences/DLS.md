@@ -118,20 +118,20 @@ Steering Committee Members
 
 ### Present
 
-* Robert Hirschfeld, Hasso Plattner Institute at the University of Potsdam, Germany (SC chair)
-* Carl Friedrich Bolz, Heinrich-Heine-Universit&#228;t D&#252;sseldorf, Germany
-(PC chair 2013)
-* Theo D'Hondt, Vrije Universiteit Brussel, Belgium (PC chair 2011)
-* Richard Gabriel, IBM Research, USA
-* Roberto Ierusalimschy, Pontif&iacute;cia Universidade Cat&oacute;lica do Rio de Janeiro, Brazil (PC chair 2016)
-* Manuel Serrano, Inria Sophia-Antipolis, France (PC chair 2015)
+* Carl Friedrich Bolz, King's College London, UK (SC Chair 2015)
+* Richard Gabriel, IBM Research, USA (Emeritus 2014)
+* Robert Hirschfeld, Hasso Plattner Institute at the University of Potsdam, Germany (Past SC Chair)
+* Roberto Ierusalimschy, Pontif&iacute;cia Universidade Cat&oacute;lica do Rio de Janeiro, Brazil (PC Chair 2016)
+* Manuel Serrano, Inria Sophia-Antipolis, France (PC Chair 2015)
 * Peter Thiemann, University of Freiburg, Germany (SIGPLAN)
-* Laurence Tratt, King's College London, UK (PC chair 2014)
-* Alessandro Warth, Google, USA (PC chair 2012)
+* Laurence Tratt, King's College London, UK (PC Chair 2014)
 
 ### Past
 
-* Pascal Costanza, Intel ExaScience Lab, Belgium 
-* Jeremy Gibbons, Oxford University, UK (SIGPLAN) 
+* Pascal Costanza, Intel ExaScience Lab, Belgium (SC Chair)
+* Theo D'Hondt, Vrije Universiteit Brussel, Belgium
+* Jeremy Gibbons, Oxford University, UK (SIGPLAN)
+* Robert Hirschfeld, Hasso Plattner Institute at the University of Potsdam, Germany (SC Chair)
 * Dave Thomas, Bedarra Research Labs, Canada
+* Alessandro Warth, SAP, USA
 * Roel Wuyts, IMEC, Belgium
