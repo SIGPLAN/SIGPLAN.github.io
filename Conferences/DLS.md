@@ -120,7 +120,7 @@ Steering Committee Members
 
 * Carl Friedrich Bolz, King's College London, UK (SC Chair 2015)
 * Richard Gabriel, IBM Research, USA (Emeritus 2014)
-* Robert Hirschfeld, Hasso Plattner Institute at the University of Potsdam, Germany (Past SC Chair)
+* Robert Hirschfeld, Hasso Plattner Institute Potsdam, Germany (Past SC Chair)
 * Roberto Ierusalimschy, Pontif&iacute;cia Universidade Cat&oacute;lica do Rio de Janeiro, Brazil (PC Chair 2016)
 * Manuel Serrano, Inria Sophia-Antipolis, France (PC Chair 2015)
 * Peter Thiemann, University of Freiburg, Germany (SIGPLAN)
@@ -131,7 +131,7 @@ Steering Committee Members
 * Pascal Costanza, Intel ExaScience Lab, Belgium (SC Chair)
 * Theo D'Hondt, Vrije Universiteit Brussel, Belgium
 * Jeremy Gibbons, Oxford University, UK (SIGPLAN)
-* Robert Hirschfeld, Hasso Plattner Institute at the University of Potsdam, Germany (SC Chair)
+* Robert Hirschfeld, Hasso Plattner Institute Potsdam, Germany (SC Chair)
 * Dave Thomas, Bedarra Research Labs, Canada
 * Alessandro Warth, SAP, USA
 * Roel Wuyts, IMEC, Belgium
