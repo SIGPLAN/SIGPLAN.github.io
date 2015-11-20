@@ -210,7 +210,7 @@ Steering Committee Members
 * Jonathan Aldrich, Carnegie Mellon University, USA (SPLASH General Chair 2015)
 * Andrew Black, Portland State University, USA (SPLASH General Chair 2014)
 * Bernd Bruegge, TU M&#252;nchen, Germany (Essays Chair 2014)
-* Yvonne Coady, University of Victoria, Canada
+* Yvonne Coady, University of Victoria, Canada (Papers Chair 2009)
 * Jonathan Edwards, Massachusetts Institute of Technology, USA (Papers Chair 2012)
 * Richard P. Gabriel, IBM Research, USA (General Chair 2011)
 * Antony Hosking, Purdue University, USA (SPLASH General Chair 2013)
