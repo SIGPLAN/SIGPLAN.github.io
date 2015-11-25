@@ -13,7 +13,6 @@ Papers that address any aspect of software development are welcome, including re
 OOPSLA Fast Facts
 -----------------
 
-
 > [SPLASH Web Site](http://splashcon.org/)  
 
 **Most Influential OOPSLA Paper Award**
@@ -28,10 +27,11 @@ these awards.&#160; More details about the SIGPLAN awards can be found
 Web Pages of Previous Conferences
 ---------------------------------
 
-> [OOPSLA 2014](http://2014.splashcon.org/)  (Portland, OR)  
-> [OOPSLA 2013](http://splashcon.org/2013/)  (Indianapolis, IN)  
-> [OOPSLA 2012](http://splashcon.org/2012/)  (Tucson, AZ)  
-> [OOPSLA 2011](http://splashcon.org/2011/)  (Portland, OR)  
+> [OOPSLA 2015](http://2015.splashcon.org/) (Pittsburgh, PA)  
+> [OOPSLA 2014](http://2014.splashcon.org/) (Portland, OR)  
+> [OOPSLA 2013](http://splashcon.org/2013/) (Indianapolis, IN)  
+> [OOPSLA 2012](http://splashcon.org/2012/) (Tucson, AZ)  
+> [OOPSLA 2011](http://splashcon.org/2011/) (Portland, OR)  
 > [OOPSLA 2010](http://splashcon.org/2010/) (Reno, NV)  
 > [OOPSLA 2009](http://www.oopsla.org/oopsla2009/) (Orlando, FL)  
 > [OOPSLA 2008](http://www.oopsla.org/oopsla2008/) (Nashville, TN)  
@@ -40,6 +40,11 @@ Web Pages of Previous Conferences
 > [OOPSLA 2005](http://www.oopsla.org/2005/) (San Diego, CA)  
 > [OOPSLA 2004](http://www.oopsla.org/2004/) (Vancouver, BC)  
 > [OOPSLA 2003](http://www.oopsla.org/oopsla2003/files/) (Anaheim, CA)  
-> [OOPSLA 2002](http://oopsla.acm.org/oopsla2002/) (Seattle, WA)  
-> [OOPSLA 2001](http://oopsla.acm.org/oopsla2001/) (Tampa Bay, FL)  
-> [OOPSLA 2000](http://oopsla.acm.org/oopsla2k/) (Minneapolis, MN)   
+> [OOPSLA 2002](http://www.oopsla.org/2002/) (Seattle, WA)  
+> [OOPSLA 2001](http://www.oopsla.org/2001/) (Tampa Bay, FL)  
+> [OOPSLA 2000](http://www.oopsla.org/2000/) (Minneapolis, MN)   
+> [OOPSLA 1999](http://classic.sigplan.org/oopsla/oopsla99/) (Denver, CO)   
+> [OOPSLA 1998](http://classic.sigplan.org/oopsla/oopsla98/) (Vancouver, Canada)   
+> [OOPSLA 1997](http://classic.sigplan.org/oopsla/oopsla97/oopsla97.html) (Atlanta, GA)   
+> [OOPSLA 1996](http://classic.sigplan.org/oopsla/oopsla96/oopsla96.html) (San Jose, CA)   
+> [OOPSLA 1995](http://classic.sigplan.org/oopsla/oopsla95/oopslb95.html) (Austin, TX)   

@@ -39,17 +39,7 @@ where they can interact.
 
 ***Steering Committee***
  
--   [Koen De Bosschere](http://www.elis.ugent.be/~kdb/)
--   [Krisztian Flautner](http://www.eecs.umich.edu/~manowar/)
--   [Rajiv Gupta](http://www.cs.arizona.edu/people/gupta/)
--   [Mary Jane Irwin](http://www.cse.psu.edu/~mji/)
--   [Mahmut Kandemir](http://www.cse.psu.edu/~kandemir/)
--   [Christoph Kirsch](http://cs.uni-salzburg.at/~ck/)
--   [Zhiyuan Li](http://www.cs.purdue.edu/people/faculty/ci/)
-    (Chair)
--   [Yunheung Paek](http://compiler.snu.ac.kr/ypaek/)
--   [Santosh Pande](http://www.cc.gatech.edu/~santosh/)
--   [John Regehr](http://www.cs.utah.edu/~regehr/)
+{% include committee.liquid name="LCTES Steering Committee" %}
 
 ***At-large members***
 

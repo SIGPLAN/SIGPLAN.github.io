@@ -9,7 +9,7 @@
 "(.*)/([0-9]+)":				"$1#$2"
 
 # We previously used a /Main suffix; this is not longer used.
-"(.*)/Main": 	       	     	     	     	 "$1"
+"(.*)/Main":					"$1"
 
 "issm(.htm|.html|)":				"Conferences/ISMM/"
 "oopsla(.htm|.html|)":				"Conferences/OOPSLA/"
@@ -26,10 +26,19 @@
 "sigplanconf-template.tex":			"sites/default/files/sigplanconf-template.tex"
 "sigplanconf-guide.pdf":			"sites/default/files/sigplanconf-guide.pdf"
 "sigplanconf.cls":				"sites/default/files/sigplanconf.cls"
-"sigplan_sponsorship_proposal(.htm|.html|)": 	"Resources/Proposals/Sponsored/"
+"sigplan_sponsorship_proposal(.htm|.html|)":	"Resources/Proposals/Sponsored/"
 
 "sigplan_bylaws.htm":				"http://www.acm.org/sigs/bylaws-contents/plan_bylaws"
 
 "notices.htm":					"Notices/"
 
 "PAC(.htm|.html|)":				"PAC/"
+"pac(.htm|.html|)":				"PAC/"
+
+"Newsletters/CACM/":				"Highlights/"
+
+# External redrection of conferences
+
+"Conferences/VEE/":				"http://vee.sigops.org/"
+
+"oopsla/(.*)":					"http://classic.sigplan.org/oopsla/$1"

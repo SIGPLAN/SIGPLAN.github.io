@@ -122,5 +122,8 @@ Onward! is a symposium on new ideas in programming and reflections on software. 
 **Dynamic Languages Symposium ([DLS](/Conferences/DLS)  @ [SPLASH](/Conferences/SPLASH))**  
 The Dynamic Languages Symposium (DLS) is a forum for discussion of dynamic languages, their implementation, and application.
 
-***The Programming Languages Mentoring Workshop ([PLMW](/Conferences/PLMW))***  
+**Software Language Engineering ([SLE](http://www.sleconf.org/))**  
+The International Conference on Software Language Engineering (SLE) is devoted to the engineering principles of software languages: their design, their implementation, and their evolution.
+
+**The Programming Languages Mentoring Workshop ([PLMW](/Conferences/PLMW))**  
 The purpose of this mentoring workshop is to encourage graduate students (PhD and MSc) and senior undergraduate students to pursue careers in programming language research. This workshop will provide technical sessions on cutting-edge research in programming languages, and mentoring sessions on how to prepare for a research career. We will bring together leaders in programming language research from academia and industry to give talks on their research areas. The workshop will engage students in a process of imagining how they might contribute to our research community. 

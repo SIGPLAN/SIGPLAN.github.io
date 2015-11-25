@@ -12,6 +12,8 @@ please at least skim this page, paying particular attention to the following:
 
 - SIGPLAN's [conference submission review policy](/Resources/Policies/Review) 
 - SIGPLAN's [diversity policy](/Resources/Policies/Diversity)
+- SIGPLAN's [Republication Policy](/Resources/Policies/Republication)
+- SIGPLAN's [Anti-Harassment Policy](/Resources/Policies/Anti-harassment/)
 - for a SIGPLAN-sponsored event, seek approval for the Programme Committee from the SIGPLAN Vice-Chair, *before* sending invitations
 - consult with the conference Steering Committee before diverging from any existing conventions
 - make explicit in the Call for Papers that authors of accepted submissions are expected to transfer the copyright to the ACM
@@ -84,7 +86,7 @@ and to ACM's
 [Policy and Procedures on Plagiarism](http://www.acm.org/publications/policies/plagiarism_policy).
 Once the conference web page is in place, establish a link to the page
 from the SIGPLAN conference page by contacting the SIGPLAN
-[Information Director](mailto:infodir_sigplan@acm.org?subject=Please%20add%20a%20link).  
+[Information Director](mailto:infodir_sigplan@acm.org?subject=Conference%20Information).
   
 If the proceedings will be published by ACM, declare explicitly in the
 call for papers that authors of accepted submissions are expected to

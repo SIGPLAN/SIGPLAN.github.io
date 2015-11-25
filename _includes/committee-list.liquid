@@ -1,0 +1,32 @@
+{%comment%}assumes include.list is a list of committee members{%endcomment%}
+<ul>
+{% for i in include.list %}
+     {% include typeof.liquid value=i %}
+     {% assign committee_list_tmp = type %}
+     {% case committee_list_tmp %}
+        {% when "string" %}
+                <li>
+                {% include membership.liquid member=i role=nil %}
+                </li>
+        {% when "object" %}
+           {%comment%}The YAML has one object per list item{%endcomment%}
+           {% for j in i %}
+                <li>
+                    {% assign j0 = j[0] %}
+                    {% assign j1 = j[1] %}
+                    {% include typeof.liquid value=j1 %}
+                    {% if include.prefix == true or type == "list" %}
+                         <b> {{ j0 }}: </b>
+                         {% include membership.liquid member=j1 prefix=include.prefix role=j0 %}
+                    {% else %}
+                         {% include membership.liquid member=j1 prefix=include.prefix role=j0 %}
+                         ({{ j0 }})
+                    {% endif %}
+                </li>
+           {% endfor %}
+        {% else %}
+           (( bad type for committee list membership ))
+     {% endcase %}
+{% endfor %}
+</ul>
+

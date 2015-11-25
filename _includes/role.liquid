@@ -1,0 +1,11 @@
+{% assign exec = site.data.Committees.[include.committee] %}
+{% assign def = "-" %}
+{% for i in exec %}
+   {% if i[include.role] <> nil %}
+     {{ i[include.role] | split: ',' | first | markdownify | | replace: 'p>', 'span>' }}
+     {% assign def = "" %}
+    {% endif %}
+{% endfor %}
+{{ def }}
+
+

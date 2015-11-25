@@ -2,6 +2,9 @@
 layout: default
 title: "Virtual Execution Environments (VEE)"
 ---
+
+**This page redirects to <http://vee.sigops.org/>**
+
 The goal of Virtual Execution Environments is to be a first-rate
 research forum that brings together leading practitioners and
 researchers in the broad area of virtualization, which includes
@@ -21,15 +24,7 @@ emulators, and simulators.
 
 The current VEE steering committee is:
 
--  [Dilma Da Silva](http://engineering.tamu.edu/cse/people/da-silva-dilma) (Texas A&M), steering committee chair
--  [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/) (Australian National U)
--  [Steven Hand](http://research.microsoft.com/en-us/people/sthand/) (Microsoft Research)
--  [Gernot Heiser](http://www.cse.unsw.edu.au/~gernot/) (NICTA and UNSW)
--  [Martin Hirzel](http://hirzels.com/martin/) (IBM Research)
--  [Steve Muir](http://www.linkedin.com/in/9muir) (Comcast)
--  [Brian Noble](http://web.eecs.umich.edu/~bnoble) (U of Michigan)
--  [Erez Petrank](http://www.cs.technion.ac.il/~erez) (Technion)
--  [Dan Tsafrir](http://www.cs.technion.ac.il/~dan/) (Technion)
+{% include committee.liquid name="VEE Steering Committee" %}
 
 **Web Pages of Previous Conferences**
 

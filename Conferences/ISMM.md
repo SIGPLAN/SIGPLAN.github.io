@@ -10,28 +10,23 @@ allocation and referencing behavior.
 
 **ISMM Fast Facts**  
 
-> [ISMM 2015 Web Page](http://conf.researchr.org/home/ismm-2015)     
-> Location: Portland, Oregon  
-> General Chair: [Tony Hosking](http://www.cs.purdue.edu/~hosking), Purdue University  
-> Program Chair: [Mike Bond](http://web.cse.ohio-state.edu/~mikebond), Ohio State University  
-> Dates: Sat 13 - Sun 14 June 2015  
+> ISMM 2016  
+> Location: Santa Barbara, California (co-located with [PLDI'16](http://conf.researchr.org/home/pldi-2016))  
+> General Chair: Christine Flood, RedHat  
+> Program Chair: [Zheng Zhang](http://www.cs.rutgers.edu/~zz124/), Rutgers  
+> Dates: June, 2016. Exact date TBD  
 
 **Other ISMM Information**  
+
 Steering Committee
- 
--   [Mike Bond](http://web.cse.ohio-state.edu/~mikebond)
--   Perry Cheng
--   [Samuel Guyer](http://www.cs.tufts.edu/~sguyer)
--   [David Grove](http://researcher.ibm.com/view.php?person=us-groved), Chair
--   [Tony Hosking](http://www.cs.purdue.edu/~hosking)
--   [Kathryn S. McKinley](http://www.cs.utexas.edu/~mckinley)
--   Erez Petrank
--   [Martin Vechev](http://www.srl.inf.ethz.ch/vechev.php)
+
+{% include committee.liquid name="ISMM Steering Committee" %}
 
 [ISMM Steering Committee Rules](http://www.cs.kent.ac.uk/people/staff/rej/ismm/scrules.html)
 
 **Web Pages of Previous Conferences**  
 
+- [ISMM 2015](http://conf.researchr.org/home/ismm-2015) (Portland, Oregon)
 - [ISMM 2014](http://ismm2014.cs.tufts.edu) (Edinburgh, Scotland, UK)
 - [ISMM 2013](http://www.cs.technion.ac.il/~erez/ismm13) (Seattle, Washington)
 - [ISMM 2012](http://ismm12.cs.purdue.edu) (Beijing, China)

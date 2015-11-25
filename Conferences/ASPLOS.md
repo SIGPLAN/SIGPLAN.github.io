@@ -22,16 +22,7 @@ SIGARCH and SIGOPS.
 
 **ASPLOS Steering Committee**
 
-The current ASPLOS steering committee is:
-
--   Ras Bodik, UC Berkeley
--   Doug Burger, Microsoft
--   George Candea, EPFL
--   Timothy Harris, Oracle Labs
--   Jeremy Gibbons, U. Oxford
--   Vivek Sarkar, Rice U.
--   Michael Scott, U. Rochester
--   David Wood, U. Wisconsin
+{% include committee.liquid name="ASPLOS Steering Committee" %}
 
 **Web Pages of Previous Conferences**  
 

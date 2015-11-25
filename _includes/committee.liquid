@@ -1,23 +1,7 @@
-<h4>{{include.committee}}</h4>
+{% if include.header == true %}
+  <h4>{{include.name}}</h4>
+{% endif %}
 
-<ul>
-  {% for m1 in include.data.[include.committee] %}
-  <li>
-  {% for m2 in m1 %}
-    <b> {{ m2[0]  }}: </b>
-    {% if m2[1] contains " " %}
-     {% assign tmp = m2[1] %}{% include link.liquid data=tmp %}
-    {% else %}
-      <ul>
-      {% for m3 in m2[1] %}
-        <li>
-          {% include link.liquid data=m3 %}
-        </li>
-      {% endfor %}
-      </ul>
-    {% endif %}
-  {% endfor %}
-  </li>
-{% endfor %}
-</ul>
+{% assign tmp = site.data.Committees.[include.name] %}
+{% include committee-list.liquid list=tmp  prefix=include.prefix %}
 

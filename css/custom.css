@@ -28,6 +28,13 @@ code {
   font-size: 80%;
 }
 
+table td {
+   border: 1px solid #d5d5d5;
+}
+
+table th {
+   border: 1px solid #d5d5d5;
+}
 
 .bigsig { font-size: 4em ; 
           font-family: verdana, arial, helvetica, "sans-serif" ; 

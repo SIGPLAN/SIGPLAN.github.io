@@ -11,7 +11,7 @@ systems, and programming interfaces. POPL is in-cooperation with
 
 **POPL Fast Facts**
 
-> [POPL 2016 Web Page](http://popl.mpi-sws.org/2014/)  
+> [POPL 2016 Web Page](http://conf.researchr.org/home/POPL-2016)  
 > Location: St. Petersburg, Florida, USA  
 > General Chair: [Rastislav Bodík](http://www.cs.berkeley.edu/~bodik/)  
 > Program Chair: [Rupak Majumdarl](http://www.mpi-sws.org/~rupak/)  
@@ -31,18 +31,7 @@ these awards.  More details about the SIGPLAN awards can be found
 
 The current POPL steering committee is:
 
--   Jan Vitek, current SIGPLAN Chair
--   Philip Wadler, past SIGPLAN Chair
--   Jeremy Gibbons, current SIGPLAN Vice Chair
--   Graham Hutton, past SIGPLAN Vice Chair
--   Giuseppe Castagna, 2017 General Chair
--   Ras Bodik, 2016 General Chair
--   Rupak Majumdar, 2016 Program Chair
--   Sriram Rajamani, 2015 General Chair
--   David Walker, 2015 Program Chair
--   Suresh Jagannathan, 2014 General Chair
--   Peter Sewell, 2014 Program Chair
--   Roberto Giacobazzi, 2013 General Chair
+{% include committee.liquid name="POPL Steering Committee" %}
 
 **Principles of POPL**
  

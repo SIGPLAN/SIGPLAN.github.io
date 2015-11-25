@@ -19,7 +19,8 @@ includes the 'preprint' option.
 -   [guide](/sites/default/files/sigplanconf-guide.pdf)
 
 
-Please address questions and problems with the class file to sigplan-class at acm dot org.
+Please address questions and problems with the class file to the SIGPLAN [Information
+Director](mailto:infodir_sigplan@acm.org?subject=SIGPLAN%20Class%20File).
 
 There is a [Word template](/sites/default/files/sigplanconf.dot) that attempts to
 emulate the Latex class file; many thanks to Friedrich Steimann for

@@ -1,10 +1,33 @@
-2014: 
+2015:
+  Awardee: "Mark Batty, University of Cambridge"
+  Other: |
+    _[The C11 and C++11 Concurrency Model](/Awards/Dissertation/2015_batty.pdf)_
+  Advisor: Peter Sewell
+  Citation: |
+    Mark Batty's dissertation makes significant contributions to the
+    understanding of memory models for C and C++.  The ISO C++
+    committee proposed a design for C and C++ concurrency that was not
+    up to the task of capturing a realistic relaxed-memory concurrency
+    model. Batty's work uncovered a number of subtle and serious flaws
+    in the design, and produced an improved design in completely
+    rigorous and machine-checked mathematics. Using software tools to
+    explore the consequences of the design, derived directly from the
+    mathematics, it showed that it has the desired behavior on many
+    examples, and developed mechanized proofs that the design meets
+    some of the original goals, showing that for programs in various
+    subsets of the language one can reason in simpler models. The
+    standards committee have adopted this work in their C11, C++11,
+    and C++14 standards. The members of the award committee were
+    impressed with the quality of the work, the impact it has had on
+    the standardization process for C++, and the clarity of the
+    presentation.
+
+2014:
   Awardee: "Aaron Turon, Northeastern University"
   Other: |
-    Understanding and Expressing Scalable Concurrency    
+    _[Understanding and Expressing Scalable Concurrency](/Awards/Dissertation/2014_turon.pdf)_
   Advisor: Mitchell Wand
   Citation: |
-
     Aaron Turon's dissertation makes several major contributions to
     the design, implementation, and verification of scalable
     concurrent programs.  First, the dissertation presents "reagents",
@@ -20,13 +43,12 @@
     the award committee were impressed with both the breadth and depth
     of the work, as well as the elegance of the exposition.
 
-2013: 
+2013:
   Awardee: "Patrick Rondon, University of California, San Diego"
   Other: |
-    Verifying Low-Level Programs via Liquid Type Inference
+    _[Verifying Low-Level Programs via Liquid Type Inference](/Awards/Dissertation/2013_rondon.pdf)_
   Advisor: Ranjit Jhala
   Citation: |
-
     Patrick Rondon’s dissertation makes several significant
     contributions to the field of automatic program verification.  It
     takes a type system -- a highly scalable yet not quite precise
@@ -46,10 +68,9 @@
 2012:
   Awardee: "Dan Marino, University of California Los Angeles"
   Other: |
-    Simplified Semantics and Debugging of Concurrent Programs via Targeted Race Detection
+    _[Simplified Semantics and Debugging of Concurrent Programs via Targeted Race Detection](/Awards/Dissertation/2012_marino.pdf)_
   Advisor: Todd Millstein
   Citation: |
-
     This dissertation addresses the problem of obtaining reliable
     results from concurrent programs. As a first step, the
     dissertation presents LiteRace, which uses sampling to dynamically
@@ -75,13 +96,12 @@
       - Jeremy Siek (U. Colorado)
       - Adam Welc (Oracle)
 
-2010: 
+2010:
   Awardee: "Robert L. Bocchino, University of Illinois at Urbana-Champaign"
   Other: |
-    An Effect System and Language for Deterministic-by-Default Parallel Programming
+    _[An Effect System and Language for Deterministic-by-Default Parallel Programming](/Awards/Dissertation/2010_bocchino.pdf)_
   Advisor: Vikram Adve
   Citation: |
-
     This dissertation makes several significant contributions to the
     field of parallel and concurrent programming. The main technical
     contribution is a type and effect system that enables reasoning
@@ -103,10 +123,10 @@
 
 2009:
   - Awardee: "Akash Lal, University of Wisconsin"
-    Other: Interprocedural Analysis and the Verification of Concurrent Programs
+    Other: |
+      _[Interprocedural Analysis and the Verification of Concurrent Programs](/Awards/Dissertation/2009_lal.pdf)_
     Advisor: Thomas Reps
     Citation: |
-
       This dissertation develops improvements to interprocedural
       program analysis through context-bounded analysis and through
       Lal's extended weighted push down systems, which generalize
@@ -118,7 +138,8 @@
       dissertation and its excellent presentation.
 
   - Awardee: "William Thies, Massachusetts Institute of Technology"
-    Other: Language and Compiler Support for Stream Programs
+    Other: |
+      _[Language and Compiler Support for Stream Programs](/Awards/Dissertation/2009_thies.pdf)_
     Advisor: Saman Amarasinghe
     Citation: |
       This dissertation describes the StreamIt synchronous dataflow
@@ -134,10 +155,10 @@
 
 2008:
   - Awardee: "Michael Bond, University of Texas at Austin"
-    Other: Diagnosing and Tolerating Bugs in Deployed Systems
+    Other: |
+      _[Diagnosing and Tolerating Bugs in Deployed Systems](/Awards/Dissertation/2008_bond.pdf)_
     Advisor: Kathryn McKinley
     Citation: |
-
       This dissertation makes several significant contributions to the
       problems of tracking down and tolerating software errors in
       deployed systems. It proposes a variety of techniques, ranging
@@ -151,11 +172,11 @@
       and we believe that his techniques will be brought to bear on a
       wide range of future applications.
 
-  - Awardee: "Viktor Vafeiadis,  University of Cambridge"
-    Other: Modular Fine-grained Concurrency Verification
+  - Awardee: "Viktor Vafeiadis, University of Cambridge"
+    Other: |
+      _[Modular Fine-grained Concurrency Verification](/Awards/Dissertation/2008_vafeiadis.pdf)_
     Advisor: Alan Mycroft and Matthew Parkinson
     Citation: |
-
       This dissertation introduces a novel logic for reasoning about
       concurrent shared-memory programs. This logic subsumes both
       rely/guarantee reasoning and separation logic in an elegant and
@@ -169,12 +190,11 @@
       about concurrent programs.
 
 2007:
-  Awardee: "Swarat Chaudhuri,  University of Pennsylvania"
+  Awardee: "Swarat Chaudhuri, University of Pennsylvania"
   Other: |
-    Logics and Algorithms for Software Model Checking
+    _[Logics and Algorithms for Software Model Checking](/Awards/Dissertation/2007_chaudhuri.ps)_
   Advisor: Rajeev Alur
   Citation: |
-
     The thesis explores a formalism called nested trees, that can
     represent complex branching behavior (loops and recursion) and
     support modular statement of context-sensitive correctness
@@ -186,10 +206,9 @@
 2006:
   Awardee: "Xiangyu Zhang, University of Arizona"
   Other: |
-    Fault Location via Dynamic Slicing
+    _[Fault Location via Dynamic Slicing](/Awards/Dissertation/2006_zhang.pdf)_
   Advisor: Rajiv Gupta
   Citation: |
-
     Dynamic slicing is a technique for determining which variables and
     data structures affected values causing a fault (bug) at a
     particular location in a particular run of a program, thus
@@ -199,27 +218,26 @@
     magnitude, making it practical. The committee believes this work
     will have considerable impact and value in practice.
 
-
 2005:
   Awardee: "Sumit Gulwani, University of California, Berkeley"
   Other: |
-    Program Analysis using Random Interpretation
+    _[Program Analysis using Random Interpretation](/Awards/Dissertation/2005_gulwani.pdf)_
   Advisor: George Necula
 
 2003:
   Awardee: "Godmar Back, University of Utah"
   Other: |
-    Isolation, Resource Management and Sharing in the KaffeOS Java Runtime System
+    _[Isolation, Resource Management and Sharing in the KaffeOS Java Runtime System](/Awards/Dissertation/2003_back.pdf)_
   Advisor: Wilson Hsieh
 
 2002:
   Awardee: "Michael Hicks, University of Pennsylvania"
   Other: |
-    Dynamic Software Updating
+    _[Dynamic Software Updating](/Awards/Dissertation/2002_hicks.pdf)_
   Advisor: Scott Nettles
 
 2001:
   Awardee: "Rastislav Bodik, University of Pittsburgh"
   Other: |
-    Path-Sensitive Value-Flow Optimizations of Programs
+    _[Path-Sensitive Value-Flow Optimizations of Programs](/Awards/Dissertation/2001_bodik.ps)_
   Advisor: Rajiv Gupta and Mary Lou Soffa

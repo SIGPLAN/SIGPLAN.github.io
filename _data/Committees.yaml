@@ -1,0 +1,196 @@
+#
+# List of all the SIGPLAN committees
+#
+# You format the commitee member using markdown
+#  - Steve Blackburn (Australian National University)"
+#  - "Steve BlackBurn (Australian National University)"
+#  - [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/) (Australian National University)"
+#
+# The member can also be proceeded by a Role:
+#  -  Chair: Steve Blackburn
+#
+# blanks are looked up:
+#   - SIGPLAN Chair: ==> Elected Members: Chair:
+#   - POPL: ==> POPL SC Chair
+
+Elected Members:
+  - Chair:        "[Michael Hicks ](http://www.cs.umd.edu/~mwh/) (University of Maryland)"
+  - "Vice Chair": "Peter Thiemann    (Universität Freiburg)"
+  - Treasurer: "[Cristina Lopes ](http://www.ics.uci.edu/~lopes/) (University of California, Irvine)"
+  - Secretary: Kathryn S. McKinley (Microsoft Research)
+  - Members at Large:
+     - Research Highlights Chair: "[Emery Berger   ](http://www.emeryberger.org/)    (University of Massachusetts Amherst)"
+     - Dissertation Award Chair:  "[Susan Eisenbach](http://www-dse.doc.ic.ac.uk/cgi-bin/moin.cgi/sue) (Imperial College, London)"
+     - PAC Chair:                 "Gabriele Keller                                   (University of New South Wales)"
+     - Best Practices Chair:      "Kathryn S. McKinley                               (Microsoft Research)"
+     - Awards Chair:              "Satnam Singh                                      (Facebook)"
+     - Conference Services Chair: "Yannis Smaragdakis                                (University of Athens)"
+  - Past Chair:   "Jan Vitek"
+
+Editor of SIGPLAN Notices:
+  - "[Matthew Fluet](http://www.cs.rit.edu/~mtf) (Rochester Institute of Technology)"
+
+"Ex-Officio Members":
+  - ACM Program Director:         "[Fran Spinola](mailto:spinola@hq.acm.org)"
+  - SIGPLAN Information Director: "[Matthew Fluet](mailto:infodir_sigplan@acm.org)"
+  - Editor of FORTRAN Forum:      "[Ian Chivers](mailto:ian.chivers@chiversandbryan.co.uk)"
+  - ACM TOPLAS Editors:           "[Jens Palsberg](http://www.cs.ucla.edu/~palsberg/)"
+  - Steering Committee Chairs:
+# leave these blank to autolookup from the Steering Committees
+    - ASPLOS:
+    - DLS:    
+    - GPCE:   
+    - Haskell:
+    - ICFP:  
+    - ISMM:   
+    - LCTES:  
+    - PLDI:  
+    - POPL:  
+    - PPOPP:  
+    - SPLASH:
+    - VEE:    
+
+Other Past Members:
+  - "Past Vice Chair": "[Jeremy Gibbons](http://www.cs.ox.ac.uk/jeremy.gibbons/)"
+  - "Past Past Chair": "Philip Wadler"
+  - "Past Past Vice Chair": "Graham Hutton"
+  
+ASPLOS Steering Committee:
+  -   Ras Bodik, UC Berkeley
+  -   Doug Burger, Microsoft
+  -   George Candea, EPFL
+  -   Timothy Harris, Oracle Labs
+  -   SIGPLAN Vice Chair: #
+  -   Chair: Vivek Sarkar, Rice U.
+  -   Michael Scott, U. Rochester
+  -   David Wood, U. Wisconsin
+
+CGO Steering Committee:
+  - Chair: Olivier Temam
+
+DLS Steering Committee:
+  - Carl Friedrich Bolz, King's College London, UK (SC Chair 2015)
+  - Richard Gabriel, IBM Research, USA (Emeritus 2014)
+  - Robert Hirschfeld, Hasso Plattner Institute Potsdam, Germany (Past SC Chair)
+  - Roberto Ierusalimschy, Pontif&iacute;cia Universidade Cat&oacute;lica do Rio de Janeiro, Brazil (PC Chair 2016)
+  - Manuel Serrano, Inria Sophia-Antipolis, France (PC Chair 2015)
+  - Peter Thiemann, University of Freiburg, Germany (SIGPLAN)
+  - Laurence Tratt, King's College London, UK (PC Chair 2014)
+
+DLS Steering Committee (Past):
+  - Pascal Costanza, Intel ExaScience Lab, Belgium (SC Chair)
+  - Theo D'Hondt, Vrije Universiteit Brussel, Belgium
+  - Jeremy Gibbons, Oxford University, UK (SIGPLAN)
+  - Dave Thomas, Bedarra Research Labs, Canada
+  - Alessandro Warth, SAP, USA
+  - Roel Wuyts, IMEC, Belgium
+
+
+FOOL Steering Committee:
+
+GPCE Steering Committee:
+  - "[Bernd Fischer](http://www.ecs.soton.ac.uk/people/bf)"
+  - "[Ewen Denney](http://ti.arc.nasa.gov/profile/edenney/)"
+  - "[Jaakko J&auml;rvi](http://parasol.tamu.edu/~jarvi/)"
+  - "[Jeremy Siek](http://ece.colorado.edu/~siek/)"
+  - "[Julia Lawall](http://www.diku.dk/users/julia/)"
+  - "[Ulrik Pagh Schultz](http://websrv0a.sdu.dk/ups/)"
+  - Chair: "[Eelco Visser](http://eelcovisser.org)"
+
+Haskell Steering Committee:
+  - Chair: "Janis Voigtländer"
+
+ICFP Steering Committee:
+  - Chair: Greg Morrisett
+  
+ISMM Steering Committee:
+  -   "[Mike Bond](http://web.cse.ohio-state.edu/~mikebond)"
+  -   "[Perry Cheng](http://researcher.watson.ibm.com/researcher/view.php?person=us-perry)"
+  -   Christine Flood
+  -   "[Samuel Guyer](http://www.cs.tufts.edu/~sguyer)"
+  -   "[David Grove](http://researcher.ibm.com/view.php?person=us-groved)"
+  - Chair: "[Tony Hosking](http://www.cs.purdue.edu/~hosking)"
+  -   "[Erez Petrank](http://www.cs.technion.ac.il/~erez/)"
+  -   "[Zheng Zhang](http://www.cs.rutgers.edu/~zz124/)"
+
+
+LCTES Steering Committee:
+  -   "[Koen De Bosschere](http://www.elis.ugent.be/~kdb/)"
+  -   "[Krisztian Flautner](http://www.eecs.umich.edu/~manowar/)"
+  -   "[Rajiv Gupta](http://www.cs.arizona.edu/people/gupta/)"
+  -   "[Mary Jane Irwin](http://www.cse.psu.edu/~mji/)"
+  -   "[Mahmut Kandemir](http://www.cse.psu.edu/~kandemir/)"
+  -   "[Christoph Kirsch](http://cs.uni-salzburg.at/~ck/)"
+  - Chair: "[Zhiyuan Li](http://www.cs.purdue.edu/people/faculty/ci/)"
+  -   "[Yunheung Paek](http://compiler.snu.ac.kr/ypaek/)"
+  -   "[Santosh Pande](http://www.cc.gatech.edu/~santosh/)"
+  -   "[John Regehr](http://www.cs.utah.edu/~regehr/)"
+
+PLDI Steering Committee:
+  -   SIGPLAN Chair: #
+  -   Kathleen Fisher, past PLDI Steering Committee Chair
+  -   Chair: Jan Vitek, past SIGPLAN Chair
+  -   SIGPLAN Vice Chair: #
+  -   Past SIGPLAN Vice Chair: #
+  -   Past Past SIGPLAN Chair: # 
+  -   Hans Boehm, 2013 General Chair
+  -   Cormac Flanagan, 2013 Program Chair
+  -   Michael O'Boyle, 2014 General Chair
+  -   Keshav Pingali, 2014 Program Chair
+  -   David Grove, 2015 General Chair
+  -   Steve Blackburn, 2015 Program Chair
+  
+POPL Steering Committee: 
+  -   SIGPLAN Chair: #
+  -   Past SIGPLAN Chair: #
+  -   SIGPLAN Vice Chair: #
+  -   Past SIGPLAN Vice Chair: #
+  -   Giuseppe Castagna, 2017 General Chair
+  -   Ras Bodik, 2016 General Chair
+  -   Rupak Majumdar, 2016 Program Chair
+  -   Sriram Rajamani, 2015 General Chair
+  -   David Walker, 2015 Program Chair
+  -   Chair: Suresh Jagannathan, 2014 General Chair
+  -   Peter Sewell, 2014 Program Chair
+  -   Roberto Giacobazzi, 2013 General Chair
+
+PPOPP Steering Committee:
+  - Chair: Calin Cascaval
+  - Albert Cohen
+  - David Grove
+  - Mary Hall
+  - Jim Larus
+  - Jose Moreira
+  - David Padua
+  - Keshav Pingali
+  
+SIGAPL Steering Committee:
+  - Chair: Guy Larocque
+  
+SPLASH Steering Committee:
+  -  SIGPLAN Chair: #
+  -  SIGPLAN Vice Chair: #
+  -  Chair: Tony Hosking, 2013 SPLASH General Co-Chair
+  -  Past Chair: Crista Lopes, 2013 OOPSLA PC Chair
+  -  Robert Hirschfeld, 2013 Onward! Papers Chair
+  -  Andrew Black, 2014 SPLASH General Chair
+  -  Todd Millstein, 2014 OOPSLA PC Chair
+  -  Shriram Krishnamurthi, 2014 Onward! Papers Chair
+  -  Jonathan Aldrich, 2015 SPLASH General Chair
+  -  Patrick Eugster, 2015 OOPSLA PC Chair and 2013 SPLASH General Co-Chair
+  -  Gail Murphy, 2015 Onward! Papers Chair
+  -  Eelco Visser, 2016 SPLASH General Chair
+  -  Yannis Smaragdakis, 2016 OOPSLA PC Chair
+  -  Emerson Murphy-Hill, 2016 Onward! PC Chair
+
+"VEE Steering Committee":
+  -  Chair: "[Martin Hirzel](http://hirzels.com/martin/)       (IBM Research)"
+  -  "[Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/) (Australian National University)"
+  -  "[Angela Demke Brown](http://www.cs.toronto.edu/~demke/) (University of Toronto)"
+  -  "[Ada Gavrilovska](http://www.cc.gatech.edu/home/ada/) (Georgia Tech)"
+  -  "[Gernot Heiser](http://www.cse.unsw.edu.au/~gernot/) (NICTA and UNSW)"
+  -  "[Steve Muir](http://www.linkedin.com/in/9muir) (Comcast)"
+  -  "[Brian Noble](http://web.eecs.umich.edu/~bnoble) (University of Michigan)"
+  -  "[Erez Petrank](http://www.cs.technion.ac.il/~erez) (Technion)"
+  -  "[Bjarne Steensgaard](http://steensgaard.org/bjarne/) (Microsoft)"
+  -  "[Dan Tsafrir](http://www.cs.technion.ac.il/~dan/) (Technion)"

@@ -3,7 +3,7 @@ layout: default
 title: "Onward!"
 ---
 Symposium on New Ideas in Programming and Reflections on Software
-(Onward!) Onward! is a forum for new ideas and paradigms for every
+(Onward!) is a forum for new ideas and paradigms for every
 aspect of programming. Welcomed are papers that propose and argue for
 new approaches to the creation of software as well as reflections on
 technology and ideas bearing on programming broadly construed.
@@ -69,7 +69,7 @@ Awards
     -   Title: Notes on Postmodern Programming
     -   Conference: Onward! 2002
     -   Paper:
-        [http://dreamsongs.com/Files/Onward!Proceedings.pdf](http://dreamsongs.com/Files/Onward!Proceedings.pdf%20)
+        [http://dreamsongs.com/Files/Onward!Proceedings.pdf](http://dreamsongs.com/Files/Onward!Proceedings.pdf)
     -   Citation: The 2002 Onward! paper "Notes on Postmodern
         Programming" uses postmodern concepts to understand contemporary
         programming, especially as software grows in scale and design is
@@ -85,12 +85,12 @@ Past Events
 -----------
 
 -   Onward! 2015
-   -   Pittsburgh, Pennsylvania, USA, October 28-30, 2015
-   -   Co-located with SPLASH 2015
-   -   Papers chair: Gail Murphy
-   -   Essays chair: Guy L. Steele Jr.
-   -   Keynote speaker: Rob DeLine
-   -   [http://2015.splashcon.org/track/onward2015-papers/](http://2015.splashcon.org/track/onward2015-papers/)
+    -   Pittsburgh, Pennsylvania, USA, October 28-30, 2015
+    -   Co-located with SPLASH 2015
+    -   Papers chair: Gail Murphy
+    -   Essays chair: Guy L. Steele Jr.
+    -   Keynote speaker: Rob DeLine
+    -   [http://2015.splashcon.org/track/onward2015-papers/](http://2015.splashcon.org/track/onward2015-papers/)
     -   [http://2015.splashcon.org/track/onward2015-essays/](http://2015.splashcon.org/track/onward2015-essays/)
 
 -   Onward! 2014

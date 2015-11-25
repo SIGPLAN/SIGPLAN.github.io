@@ -1,7 +1,38 @@
+2015:
+  Awardee: Manuel M. T. Chakravarty, Gabriele Keller, and Simon Peyton Jones
+  Other: |
+    (for 2005) _[Associated Type Synonyms](http://dl.acm.org/citation.cfm?id=1086397)_
+  Citation: |
+    Building on the 2005 POPL Paper "Associated types with class",
+    Chakravarty, Keller, and Peyton Jones added the ability to write
+    open type functions directly in Haskell.  The new opportunities
+    for computation on the type level have become popular with Haskell
+    programmers, and it would be hard to overstate the influence of
+    this work on the community.  Of greatest influence have been these
+    three contributions to type-level programming:
+
+      * Type-level functions offer a qualitative jump in the
+        expressiveness of Haskell's type system, adding some of the
+        advantages of dependently typed languages while retaining
+        pervasive type inference.
+
+      * Associated types give type classes a functional notation for
+        enabling one type to depend on another.  As opposed to the
+        relational notation provided by functional dependencies,
+        associated types enable programmers to use the same style of
+        programming at the type level that they do at the term level,
+        making type-level programming more accessible.
+
+      * The supporting language extension includes a type-level
+        equality constraint, which supports the non-injective nature of
+        type-functions.  This extension has had many serendipitous
+        uses, including in the surprisingly expressive low-level
+        intermediate language System FC.
+
 2014:
   Awardee: Ralf Lämmel and Simon Peyton Jones
   Other: |
-    (for 2004) [Scrap More Boilerplate: Reflection, Zips, and Generalised Casts](http://dl.acm.org/citation.cfm?id=1016883)
+    (for 2004) _[Scrap More Boilerplate: Reflection, Zips, and Generalised Casts](http://dl.acm.org/citation.cfm?id=1016883)_
   Citation: |
     In their TLDI 2003 paper, Lämmel and Peyton Jones introduced
     "Scrap Your Boilerplate" (SYB), a simple but powerful design
@@ -22,10 +53,10 @@
     interest in statically typed, practically usable libraries for
     generic programming over the past decade.
 
-2013: 
+2013:
   Awardee: Didier Le Botlan and Didier Rémy
   Other: |
-    (for 2003) [ML^F: Raising ML to the Power of System F](http://dl.acm.org/citation.cfm?doid=944746.944709)
+    (for 2003) _[ML<sup>F</sup>: Raising ML to the Power of System F](http://dl.acm.org/citation.cfm?doid=944746.944709)_
   Citation: |
     Le Botlan and Rémy's paper on MLF presented a major technical
     breakthrough in type inference for first-class
@@ -43,10 +74,10 @@
     inference for first-class polymorphism, and is a must-read for
     anyone interested in the topic.
 
-2012: 
+2012:
   Awardee: Robert Findler and Matthias Felleisen
   Other: |
-    (for 2002) [Contracts for higher-order functions](http://dl.acm.org/citation.cfm?doid=583852.581484)
+    (for 2002) _[Contracts for higher-order functions](http://dl.acm.org/citation.cfm?doid=583852.581484)_
   Citation: |
     Assertion-based contracts have proven very useful for dynamically
     enforcing first-order program invariants in procedural languages,
@@ -62,10 +93,10 @@
     -- which serves as both a research testbed and an effective tool
     for programming-language education.
 
-2011: 
+2011:
   Awardee: Claudio Russo
   Other: |
-    For 2001 [Recursive Structures for Standard ML](http://dl.acm.org/citation.cfm?doid=507635.507644)  
+    (for 2001) _[Recursive Structures for Standard ML](http://dl.acm.org/citation.cfm?doid=507635.507644)_
   Citation: |
     Various attempts at extending ML modules with recursions were made
     starting in the early 90's. However, they all ran into a nasty typing
@@ -83,7 +114,7 @@
 2010:
   Awardee: Koen Claessen and John Hughes
   Other: |
-    (for 2000) [Quickcheck: a lightweight tool for random testing of Haskell programs](http://doi.acm.org/10.1145/351240.351266)
+    (for 2000) _[Quickcheck: a lightweight tool for random testing of Haskell programs](http://doi.acm.org/10.1145/351240.351266)_
   Citation:
     This paper presented a very simple but powerful system for testing
     Haskell programs that has had significant impact on the practice of
@@ -97,10 +128,10 @@
     adapted to other languages, leading to their commercialisation for
     Erlang and C.
 
-2009: 
+2009:
   Awardee: Malcolm Wallace and Colin Runciman
   Other: |
-    (for 1999) [Haskell and XML: Generic combinators or type-based translation?](http://doi.acm.org/10.1145/317636.317794),
+    (for 1999) _[Haskell and XML: Generic combinators or type-based translation?](http://doi.acm.org/10.1145/317636.317794)_,
   Citation: |
     Malcolm Wallace and Colin Runciman's 1999 ICFP paper "Haskell and
     XML: Generic combinators or type-based translation?" was one of the
@@ -114,20 +145,19 @@
     querying and transforming the XML. The paper led to a widespread
     awareness of the close connection between XML and functional
     programming and initiated a flurry of research on functional XML
-    processing. Moreover,  
+    processing. Moreover,
     the accompanying implementation was widely distributed as part of a
     CD with various XML tools, thus making an impact in the problem
     domain beyond the functional programming community: a perfect
     example of functional programming solving real world problems.
 
-
-2008: 
+2008:
   Awardee: Lennart Augustsson
   Other: |
-    (for 1998) [Cayenne &#8212; a language with dependent types](http://doi.acm.org/10.1145/289423.289451),
+    (for 1998) _[Cayenne &#8212; a language with dependent types](http://doi.acm.org/10.1145/289423.289451)_,
   Citation: |
-    Lennart Augustsson's 1998 ICFP Paper &#8220;Cayenne: A language with
-    dependent types&#8221; made dependently-typed programming accessible to
+    Lennart Augustsson's 1998 ICFP Paper "Cayenne: A language with
+    dependent types" made dependently-typed programming accessible to
     non-type theorists. The language design was a bold one, both in its
     use of dependent types and in its adoption of an undecidable type
     system. Although the idea seemed quite radical at the time, it
@@ -139,7 +169,7 @@
 2007:
   Awardee: Conal Elliott and Paul Hudak"
   Other: |
-   (for 1997) [Functional Reactive Animation](http://doi.acm.org/10.1145/258948.258973),
+    (for 1997) _[Functional Reactive Animation](http://doi.acm.org/10.1145/258948.258973)_,
   Citation: |
     "Functional Reactive Animation" by Conal Elliott and Paul Hudak was
     the first published paper on functional reactive programming. It
@@ -157,10 +187,10 @@
     Yampa, Feris, and work on embodying financial contracts in
     functional terms.
 
-2006: 
+2006:
   Awardee: Julia L. Lawall and Harry G. Mairson
   Other: |
-    (for 1996) [Optimality and inefficiency: what isn't a cost model of the lambda calculus?](http://doi.acm.org/10.1145/232627.232639)
+    (for 1996) _[Optimality and inefficiency: what isn't a cost model of the lambda calculus?](http://doi.acm.org/10.1145/232627.232639)_
   Citation: |
     Julia Lawall and Harry Mairson's 1996 ICFP paper "Optimality and
     inefficiency: What isn't a cost model of the lambda calculus?"

@@ -6,13 +6,12 @@ Primary Menu:
 - Research Highlights                                           <Highlights>
 - Membership                                                    <Membership>
 - Publications                                                  <Newsletters>
-                                                                
- 
+
 Key Links:
 - Awards                                                        <Awards>
 - Conferences                                                   <Conferences>
 - Resources                                                     <Resources>
-- SIGPLAN Research Highlights				        <Newsletters/CACM>
+- SIGPLAN Research Highlights                                   <Highlights>
 - Membership                                                    <Membership>
 - Student Membership                                            <Resources/Student>
 - SIGPLAN Publications                                          <Newsletters>
@@ -21,17 +20,17 @@ Key Links:
 - Open Meeting Presentations                                    <Resources/OMP>
 - SIGPLAN By-laws                                               <http://www.acm.org/sigs/bylaws-contents/plan_bylaws>
 - Annual Reports                                                <Resources/AnnualReports>
-- SIGPLAN Sponsors                                              <Resources/Sponsors>
 
 Conference Information:
 - SIGPLAN Conferences Calendar                                  <http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN>
 - Information for Authors Submitting Papers                     <Resources/Author>
-- Steering Committee Guidelines                                 </Resources/Guidelines/SCommittee>
+- Steering Committee Guidelines                                 <Resources/Guidelines/SCommittee>
 - General Chair Guidelines                                      <Resources/Guidelines/GenChair>
 - Program Chair Guidelines                                      <Resources/Guidelines/ProChair>
 - Workshop  Guidelines                                          <Resources/Guidelines/Workshops>
 - Sponsorship Proposal                                          <Resources/Proposals/Sponsored>
 - In-cooperation  Proposal                                      <Resources/Proposals/Cooperated>
+- Colocation Guidelines                                         <Resources/Guidelines/Colocation>
 - Submission Review Policy                                      <Resources/Policies/Review>
 - Republication  Policy                                         <Resources/Policies/Republication>
 - Diversity Policy                                              <Resources/Policies/Diversity>
@@ -52,8 +51,9 @@ SIGPLAN Sponsored Conferences:
 - "Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH) <Conferences/SPLASH>"
 - Onward!                                                       <Conferences/Onward>
 - Dynamic Languages Symposium (DLS)                             <Conferences/DLS>
-- "Generative Programming: Concepts and Experiences (GPCE)       <Conferences/GPCE>"
+- "Generative Programming: Concepts and Experiences (GPCE)      <Conferences/GPCE>"
 - Code Generation and Optimization (CGO)                        <http://www.cgo.org/>
+- Software Language Engineering (SLE)                           <http://www.sleconf.org/>
 - Programming Languages Mentoring Workshop                      <Conferences/PLMW>
 
 #
