@@ -124,7 +124,7 @@ Past Events
     -   Co-located with SPLASH 2011
     -   General chair: Robert Hirschfeld
     -   General co-chair: Richard P. Gabriel
-    -   PC chair: Eelco Visser
+    -   Papers chair: Eelco Visser
     -   Essays chair: David West
     -   Keynote speaker: Markus P&#252;schel
     -   [http://onward-conference.org/2011/](http://onward-conference.org/2011/)
@@ -133,7 +133,7 @@ Past Events
     -   Reno, Nevada, USA, October 19-21, 2010
     -   Co-located with SPLASH 2010
     -   General chair: Siobh&#225;n Clarke
-    -   PC chair: Kevin Sullivan
+    -   Papers chair: Kevin Sullivan
     -   Essays chair: Daniel Steinberg
     -   Keynote speaker: Benjamin C. Pierce
     -   [http://onward-conference.org/2010/](http://onward-conference.org/2010/)
@@ -143,7 +143,7 @@ Past Events
     -   Orlando, Florida, USA, October 27-29, 2009
     -   Co-located with OOPSLA 2009
     -   General chair: Bernd Bruegge
-    -   PC chair: Yvonne Coady
+    -   Papers chair: Yvonne Coady
     -   Essays chair: Simon Peyton-Jones
     -   Essays assistant chair: Richard P. Gabriel
     -   Keynote speaker: Thomas Malone
@@ -206,26 +206,26 @@ Steering Committee Members
 
 ### Present
 
-* Kevin Sullivan, University of Virginia, USA (chair)
-* Jonathan Aldrich, Carnegie Mellon University, USA
-* Andrew Black, Portland State University, USA
-* Bernd Bruegge, TU M&#252;nchen, Germany
-* Yvonne Coady, University of Victoria, Canada
-* Jonathan Edwards, Massachusetts Institute of Technology, USA
-* Richard P. Gabriel, IBM Research, USA
-* Robert Hirschfeld, Hasso Plattner Institute Potsdam, Germany
-* Antony Hosking, Purdue University, USA
-* Shriram Krishnamurthi, Brown University, USA
-* Emerson Murphy-Hill, North Carolina State University, USA
-* Cristina Videira Lopes, University of California at Irvine, USA
-* Gail Murphy, University of British Columbia, Canada
-* Guy L. Steele Jr., Oracle Labs, USA
+* Robert Hirschfeld, Hasso Plattner Institute Potsdam, Germany (SC Chair)
+* Jonathan Aldrich, Carnegie Mellon University, USA (SPLASH General Chair 2015)
+* Andrew Black, Portland State University, USA (SPLASH General Chair 2014)
+* Bernd Bruegge, TU M&#252;nchen, Germany (Essays Chair 2014)
+* Yvonne Coady, University of Victoria, Canada (Papers Chair 2009)
+* Jonathan Edwards, Massachusetts Institute of Technology, USA (Papers Chair 2012)
+* Richard P. Gabriel, IBM Research, USA (General Chair 2011)
+* Antony Hosking, Purdue University, USA (SPLASH General Chair 2013)
+* Shriram Krishnamurthi, Brown University, USA (Papers Chair 2014)
+* Emerson Murphy-Hill, North Carolina State University, USA (Papers Chair 2016)
+* Cristina Videira Lopes, University of California at Irvine, USA (Essays Chair 2016)
+* Gail Murphy, University of British Columbia, Canada (Papers Chair 2015)
+* Guy L. Steele Jr., Oracle Labs, USA (Essays Chair 2015)
+* Kevin Sullivan, University of Virginia, USA (Past SC Chair 2015)
 * Peter Thiemann, University of Freiburg, Germany (SIGPLAN)
-* Eelco Visser, Delft University of Technology, The Netherlands
+* Eelco Visser, Delft University of Technology, The Netherlands (Papers Chair 2011, SPLASH General Chair 2016)
 
 ### Past
 
-* Elisa Baniassad, Australian National University, Australia (chair)
+* Elisa Baniassad, Australian National University, Australia (SC Chair)
 * Robert Biddle, Carleton University, Canada 
 * Siobh&#225;n Clarke, Trinity College, Ireland 
 * Geoff A. Cohen, Elysium Digital, USA
