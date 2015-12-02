@@ -182,7 +182,7 @@ _ACM Representative to SIGPLAN_ (Fran Spinola):
 See Also
 --------
 
--   [Calendar of Upcoming SIGPLAN Conferences](http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN)
+- [Calendar of Upcoming SIGPLAN Conferences](http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN)
 - ACM's *[How to Organize a Conference](http://www.acm.org/sigs/volunteer_resources/conference_manual/conference_manual-toc)* manual
 - [ACM's How to Organize a Conference](http://www.acm.org/sig_volunteer_info/conference_manual/prelimpage.htm)
 - SIGPLAN conference style [LaTeX class file](/sites/default/files/Author/sigplanconf.cls),
@@ -191,7 +191,7 @@ See Also
 - "[Where did all the money go? SIGPLAN conference finances for beginners](/sites/default/files/SIGPLAN_conference_finances_for_beginners.pdf)", Andrew Black, to appear in SIGPLAN Notices.
 
 Some columns containing useful advice for conference organizers have
-been published in _SIGPLAN Notices_ over the years:
+been published in _SIGPLAN Notices_ and elsewhere over the years:
 
 -   [Experiences with Author Response at PLDI and ICFP 2004](http://portalparts.acm.org/1060000/1052883/fm/frontmatter.pdf),
         Kathleen Fisher and Craig Chambers, (*SIGPLAN Notices*, Dec. 2004)
@@ -201,4 +201,5 @@ been published in _SIGPLAN Notices_ over the years:
         Kathleen Fisher (*SIGPLAN Notices*, May 2006)
 -   [A Report from the POPL 2007 Chairman](http://portalparts.acm.org/1230000/1229493/fm/frontmatter.pdf),
         Matthias Felleisen (*SIGPLAN Notices*, December 2006)
--   [How to chair a conference](http://portalparts.acm.org/1990000/1988042/fm/frontmatter.pdf), Alex Aiken (*SIGPLAN Notices*, April 2011).  
+-   [How to chair a conference](http://portalparts.acm.org/1990000/1988042/fm/frontmatter.pdf), Alex Aiken (*SIGPLAN Notices*, April 2011).
+-   [A Handbook for [ECOOP] PC Chairs](http://www.pps.univ-paris-diderot.fr/~gc/papers/pc-handbook.pdf), Giuseppe Castagna

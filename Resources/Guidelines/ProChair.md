@@ -316,4 +316,5 @@ been published in _SIGPLAN Notices_ over the years:
         Kathleen Fisher (*SIGPLAN Notices*, May 2006)
 -   [A Report from the POPL 2007 Chairman](http://portalparts.acm.org/1230000/1229493/fm/frontmatter.pdf),
         Matthias Felleisen (*SIGPLAN Notices*, December 2006)
--   [How to chair a conference](http://portalparts.acm.org/1990000/1988042/fm/frontmatter.pdf), Alex Aiken (*SIGPLAN Notices*, April 2011).  
+-   [How to chair a conference](http://portalparts.acm.org/1990000/1988042/fm/frontmatter.pdf), Alex Aiken (*SIGPLAN Notices*, April 2011).
+-   [A Handbook for [ECOOP] PC Chairs](http://www.pps.univ-paris-diderot.fr/~gc/papers/pc-handbook.pdf), Giuseppe Castagna
