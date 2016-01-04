@@ -62,7 +62,7 @@ before the date of the conference. If you are unsure as to whether you
 need to submit a request form, ask the [SIGPLAN Vice
 Chair](mailto:vc_sigplan@acm.org?subject=SIGPLAN%20Sponsorship).  An
 ACM [preliminary approval
-form](http://www.acm.org/sigs/volunteer_resources/prelimpage) (PAF)
+form](http://cms.acm.org/tmrf/cms_paf.cfm) (PAF)
 must be submitted in order to issue a call for papers.  Submitting a
 PAF also causes the conference to be added to ACM's master calendar.
 
@@ -96,10 +96,7 @@ Organizational Team
 Select other members of the organizational team (e.g., local
 arrangements chair, publicity chair, publications chair, tutorial
 chair, etc). Send the names to the SIGPLAN Chair and Vice-Chair,
-one year before the event.  Complete the [TMRF budget
-form](http://www.acm.org/sig_volunteer_info/conference_manual/sponstmrfpage.htm).
-The budget must include line items for [contingency and return-to-SIG
-fees](/Resources/Guidelines/Budget).
+one year before the event.
 
 Local arrangements (such as registration and hotel management) for the
 main SIGPLAN conferences PLDI, OOPSLA, POPL, and ICFP are usually
@@ -107,10 +104,20 @@ handled by a professional organization.
 
 The conference steering committee should be consulted about any
 changes to the accepted way of organizing and running the
-conference.  
+conference.
 
-Finances
---------
+Budget and Finances
+-------------------
+
+Complete the [TMRF budget
+form](http://www.acm.org/sigs/sigs/volunteer_resources/conference_manual/sponstmrfpage).
+The budget must include line items for [contingency and return-to-SIG
+fees](/Resources/Guidelines/Budget).
+
+SIGPLAN's general guideline is that the conference may offer
+complimentary registration and travel/lodging for keynote speakers and
+may offer complimentary registration for one tutorial speaker per
+tutorial.
 
 ACM handles the bank accounts for sponsored conferences. Send email to
 the [ACM Representative to SIGPLAN](mailto:spinola@hq.acm.org?subject=Conference%20advance)
@@ -142,6 +149,12 @@ submit a proposal to the SIGPLAN Vice-Chair, as specified in the
 [In-Cooperation](/Resources/Proposals/Cooperated) or
 [Sponsorship](/Resources/Proposals/Sponsored) 
 web pages.
+
+SIGPLAN's general guideline is that the conference does not provide
+additional funds to workshops to pay travel or registration costs for
+workshop organizers, keynote speakers, or other dignitaries. This
+guideline is not strict, and may be broken under certain
+circumstances.
 
 Preparing the Programme
 -----------------------
