@@ -13,7 +13,7 @@ please at least skim this page, paying particular attention to the following:
 - SIGPLAN's [conference submission review policy](/Resources/Policies/Review) 
 - SIGPLAN's [diversity policy](/Resources/Policies/Diversity)
 - SIGPLAN's [Republication Policy](/Resources/Policies/Republication)
-- SIGPLAN's [Anti-Harassment Policy](/Resources/Policies/Anti-harassment/)
+- SIGPLAN's [Code of Conduct Policy](/Resources/Policies/CodeOfConduct/)
 - if you plan to request in-cooperation or sponsored status, do so well in advance (twelve or eighteen months, respectively)
 - seek approval for important roles (PC Chair, and for a sponsored event also PC members) from SIGPLAN Vice-Chair, *before* sending invitations
 - consult with the conference Steering Committee before diverging from any existing conventions

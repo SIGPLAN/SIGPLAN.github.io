@@ -26,6 +26,7 @@
 "sigplanconf-template.tex":			"sites/default/files/sigplanconf-template.tex"
 "sigplanconf-guide.pdf":			"sites/default/files/sigplanconf-guide.pdf"
 "sigplanconf.cls":				"sites/default/files/sigplanconf.cls"
+
 "sigplan_sponsorship_proposal(.htm|.html|)":	"Resources/Proposals/Sponsored/"
 
 "sigplan_bylaws.htm":				"http://www.acm.org/sigs/bylaws-contents/plan_bylaws"
@@ -37,7 +38,9 @@
 
 "Newsletters/CACM/":				"Highlights/"
 
-# External redrection of conferences
+"Resources/Policies/Anti-harassment/":          "Resources/Policies/CodeOfConduct/"
+
+# External redirection of conferences
 
 "Conferences/VEE/":				"http://vee.sigops.org/"
 
