@@ -9,7 +9,7 @@ person and group, that fosters dignity, understanding, and mutual
 respect, and that embraces diversity. For these reasons, SIGPLAN
 is dedicated to providing a harassment-free conference experience, 
 and implements the 
-[ACM Code of Conduct P](http://www.acm.org/sigs/volunteer_resources/officers_manual/code%20of%20conduct).
+[ACM Code of Conduct](http://www.acm.org/sigs/volunteer_resources/officers_manual/code%20of%20conduct).
 
 Conference participants violating these standards may be sanctioned
 or expelled from the conference, at the discretion of the
