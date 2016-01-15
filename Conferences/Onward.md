@@ -208,6 +208,7 @@ Steering Committee Members
 
 * Robert Hirschfeld, Hasso Plattner Institute Potsdam, Germany (SC Chair)
 * Jonathan Aldrich, Carnegie Mellon University, USA (SPLASH General Chair 2015)
+* Robert Biddle, Carleton University, Canada (Essays Chair 2017)
 * Andrew Black, Portland State University, USA (SPLASH General Chair 2014)
 * Bernd Bruegge, TU M&#252;nchen, Germany (Essays Chair 2014)
 * Yvonne Coady, University of Victoria, Canada (Papers Chair 2009)
@@ -221,6 +222,7 @@ Steering Committee Members
 * Guy L. Steele Jr., Oracle Labs, USA (Essays Chair 2015)
 * Kevin Sullivan, University of Virginia, USA (Past SC Chair 2015)
 * Peter Thiemann, University of Freiburg, Germany (SIGPLAN)
+* Emina Torlak, University of Washington, USA (Papers Chair 2017)
 * Eelco Visser, Delft University of Technology, The Netherlands (Papers Chair 2011, SPLASH General Chair 2016)
 
 ### Past
