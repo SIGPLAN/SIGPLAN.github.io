@@ -1,3 +1,19 @@
+2015:
+  Awardee: "Chang Liu, University of Maryland"
+  Citation: |
+    Chang Liu's work explores programming language support for
+    oblivious applications, an important dimension of security in the
+    presence of side channels. His work bridges two disjoint efforts
+    on opposite ends of the hardware-software design spectrum --
+    oblivious RAM and oblivious algorithms -- and adopts a language
+    design approach to facilitate users in their development of
+    efficient oblivious applications. The new language is endowed with
+    a type system providing formal guarantees of obliviousness, and
+    can support both sequential and parallel applications. The
+    promising approach Chang proposed may significantly improve
+    development productivity and performance of oblivious
+    applications.
+
 2014:
   Awardee: "Christopher Hall, UC Santa Barbara"
   Citation: |

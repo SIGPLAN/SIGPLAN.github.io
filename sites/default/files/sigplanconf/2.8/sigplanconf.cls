@@ -22,23 +22,12 @@
 %   http://creativecommons.org/licenses/by/3.0/
 % or send a letter to Creative Commons, 171 2nd Street, Suite 300,
 % San Francisco, California, 94105, U.S.A.
-% 
-% Program Chairs may be tempted to make changes to the SIGPLAN LaTeX style
-% sigplanconf.cls. Please don't do this! The style is carefully considered,
-% and the result of over a decade's discussion and development. If you have a
-% change request, send it to the SIGPLAN Information Director
-% infodir_sigplan@acm.org. If you absolutely must change the formatting,
-% define a new class file (eg myconf1999.cls) that imports sigplanconf.cls, or
-% define a style file (eg myconf1999.sty) for authors to use in their papers.
-% Contact the Information Director for details and examples. Please, UNDER NO
-% CIRCUMSTANCES should you modify the file sigplanconf.cls and release it onto
-% the internet---that way lies madness for future conferences!
 %
 %-----------------------------------------------------------------------------
 
 
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{sigplanconf}[2015/12/03 v3.2 ACM SIGPLAN Proceedings]
+\ProvidesClass{sigplanconf}[2013/07/02 v2.8 ACM SIGPLAN Proceedings]
 
 % The following few pages contain LaTeX programming extensions adapted
 % from the ZzTeX macro package.
@@ -209,11 +198,10 @@
 %                       -------
 
 
-\@setflag \@authoryear = \@true
+\@setflag \@authoryear = \@false
 \@setflag \@blockstyle = \@false
 \@setflag \@copyrightwanted = \@true
 \@setflag \@explicitsize = \@false
-\@setflag \@legacycopyright = \@false
 \@setflag \@mathtime = \@false
 \@setflag \@natbib = \@true
 \@setflag \@ninepoint = \@true
@@ -259,8 +247,6 @@
 \DeclareOption{indentedstyle}{\@setflag \@blockstyle = \@false}
 
 \DeclareOption{landscape}{\@unsupportedoption{landscape}}
-
-\DeclareOption{legacycopyright}{\@setflag \@legacycopyright = \@true}
 
 \DeclareOption{legalpaper}{\@unsupportedoption{legalpaper}}
 
@@ -447,7 +433,7 @@
   \if \@mathtime
     \usepackage[mtbold,noTS1]{mathtime}%
   \else
-%%%    \usepackage{mathptmx}%
+%%%    \usepackage{mathptm}%
   \fi
 \else
   \relax
@@ -589,10 +575,10 @@
 
 \def \@copyrightspace {%
   \@float{copyrightbox}[b]%
-  \vbox to 1in{%
+  \vbox to 1.2in{%
     \vfill
     \parbox[b]{20pc}{%
-      \tiny
+      \scriptsize
       \if \@preprint
         [Copyright notice will appear here
          once 'preprint' option is removed.]\par
@@ -607,180 +593,115 @@
       \fi}}%
   \end@float}
 
-\long\def \toappear #1{%
-  \def \@toappear {#1}}
-
-\toappear{%
-  \if \@andp{\@legacycopyright}{\@emptydefp{\@permission}}%
-    \noindent (No legacy permission statement was specified.)\par
-  \else
-    \noindent \@permission \par
-  \fi
-  \vspace{2pt}
-  \noindent \textsl{\@conferencename}\quad \@conferenceinfo \par
-  \noindent Copyright \copyright\ \@copyrightyear\ ACM \@copyrightdata
-    \dots \@reprintprice\par
-  \setcopyrightdoi}
-
-\def \publicationrights #1{%                                    {type}
-  \if \@definedp{\rightsstatement#1}%
-    \gdef \@permission {\@name{\rightsstatement#1}}%
-  \else
-    \@latex@error{The publication right '#1' is invalid}{}%
-  \fi}
-
-\expandafter\def \csname rightsstatementauthor-pays\endcsname{%
-  Permission to make digital or hard copies of part or all of this work for
-  personal or classroom use is granted without fee provided that copies are
-  not made or distributed for profit or commercial advantage and that copies
-  bear this notice and the full citation on the first page. Copyrights for
-  third-party components of this work must be honored. For all other uses,
-  contact the Owner/Author.}
-
-% This is the default rights statement.
-
-\def \rightsstatementlicensed {%
-  Permission to make digital or hard copies of part or all of this work for
-  personal or classroom use is granted without fee provided that copies are
-  not made or distributed for profit or commercial advantage and that copies
-  bear this notice and the full citation on the first page. Copyrights for
-  components of this work owned by others than ACM must be honored.
-  Abstracting with credit is permitted. To copy otherwise, to republish, to
-  post on servers, or to redistribute to lists, contact the Owner/Author.
-  Request permissions from permissions@acm.org or Publications Dept., ACM,
-  Inc., fax +1~(212) 869-0481.  Copyright \@copyrightyear\ held by Owner/Author.
-  Publication Rights Licensed to ACM.}
-
-\if \@notp{\@legacycopyright}%
-  \publicationrights{licensed}%
-\fi
-
-\def \rightsstatementtransferred {%
-  Permission to make digital or hard copies of part or all of this work for
-  personal or classroom use is granted without fee provided that copies are
-  not made or distributed for profit or commercial advantage and that copies
-  bear this notice and the full citation on the first page. Copyrights for
-  components of this work owned by others than ACM must be honored.
-  Abstracting with credit is permitted. To copy otherwise, to republish, to
-  post on servers, or to redistribute to lists, requires prior specific
-  permission and/or a fee. Request permissions from permissions@acm.org or
-  Publications Dept., ACM, Inc., fax +1~(212) 869-0481.}
-
 \newcommand{\reprintprice}[1]{%
   \gdef \@reprintprice {#1}}
 
 \reprintprice{\$15.00}
 
-\def \setcopyrightdoi {%
-  \if \@emptydefp{\@copyrightdoi}%
-    \if \@andp{\@notp{\@preprint}}{\@notp{\@legacycopyright}}%
-      \@latex@warning{Copyright DOI has not been provided
-                      (\noexpand\copyrightdoi)}{}%
-    \fi
-  \else
-    \noindent DOI: http://dx.doi.org/10.1145/\@copyrightdoi\par
-  \fi}
-  
+\long\def \toappear #1{%
+  \def \@toappear {#1}}
 
-% Legacy commands.
+\toappear{%
+  \noindent \@permission \par
+  \vspace{2pt}
+  \noindent \textsl{\@conferencename}, \quad \@conferenceinfo. \par
+  \noindent Copyright \copyright\ \@copyrightyear\ ACM \@copyrightdata
+    \dots \@reprintprice.\par
+  \noindent http://dx.doi.org/10.1145/\@doi }
 
 \newcommand{\permission}[1]{%
   \gdef \@permission {#1}}
 
-%%%\permission{%
-%%%  Permission to make digital or hard copies of part or all of this work for
-%%%  personal or classroom use is granted without fee provided that copies are
-%%%  not made or distributed for profit or commercial advantage and that copies
-%%%  bear this notice and the full citation on the first page. Copyrights for
-%%%  components of this work owned by others than ACM must be honored.
-%%%  Abstracting with credit is permitted. To copy otherwise, to republish, to
-%%%  post on servers, or to redistribute to lists, requires prior specific
-%%%  permission and/or a fee. Request permissions from permissions@acm.org or
-%%%  Publications Dept., ACM, Inc., fax +1 (212) 869-0481.}
+\permission{%
+  Permission to make digital or hard copies of all or part of this work for
+  personal or classroom use is granted without fee provided that copies are
+  not made or distributed for profit or commercial advantage and that copies
+  bear this notice and the full citation on the first page. Copyrights for
+  components of this work owned by others than ACM must be honored.
+  Abstracting with credit is permitted. To copy otherwise, or republish, to
+  post on servers or to redistribute to lists, requires prior specific
+  permission and/or a fee. Request permissions from permissions@acm.org.}
 
-% Here we have some alternate permission statements and copyright lines:
+% These are two new rights management and bibstrip text blocks.
 
-\newcommand{\ACMCanadapermission}{%
-  \@legacycopyrighterror{\ACMCanadapermission}%
+\newcommand{\exclusivelicense}{%
   \permission{%
-    Copyright \@copyrightyear\ Association for Computing Machinery.
-    ACM acknowledges that
-    this contribution was authored or co-authored by an affiliate of the
-    National Research Council of Canada (NRC).
-    As such, the Crown in Right of
-    Canada retains an equal interest in the copyright, however granting
-    nonexclusive, royalty-free right to publish or reproduce this article,
-    or to allow others to do so, provided that clear attribution
-    is also given to the authors and the NRC.}}
+    Permission to make digital or hard copies of all or part of this work for
+    personal or classroom use is granted without fee provided that copies are
+    not made or distributed for profit or commercial advantage and that copies
+    bear this notice and the full citation on the first page. Copyrights for
+    components of this work owned by others than the author(s) must be honored.
+    Abstracting with credit is permitted. To copy otherwise, or republish, to
+    post on servers or to redistribute to lists, requires prior specific
+    permission and/or a fee. Request permissions from permissions@acm.org.}
+  \toappear{%
+    \noindent \@permission \par
+    \vspace{2pt}
+    \noindent \textsl{\@conferencename}, \quad \@conferenceinfo. \par
+    \noindent Copyright is held by the owner/author(s). Publication rights licensed to ACM. \par
+    \noindent ACM \@copyrightdata \dots \@reprintprice.\par
+    \noindent http://dx.doi.org/10.1145/\@doi}}
 
-\newcommand{\ACMUSpermission}{%
-  \@legacycopyrighterror{\ACMUSpermission}%
-  \permission{%
-    Copyright \@copyrightyear\ Association for
-    Computing Machinery. ACM acknowledges that
-    this contribution was authored or co-authored
-    by a contractor or affiliate
-    of the U.S. Government. As such, the Government retains a nonexclusive,
-    royalty-free right to publish or reproduce this article,
-    or to allow others to do so, for Government purposes only.}}
-
-\newcommand{\authorpermission}{%
-  \@legacycopyrighterror{\authorpermission}%
+\newcommand{\permissiontopublish}{%
   \permission{%
     Permission to make digital or hard copies of part or all of this work for
     personal or classroom use is granted without fee provided that copies are
     not made or distributed for profit or commercial advantage and that copies
     bear this notice and the full citation on the first page. Copyrights for
-    third-party components of this work must be honored. For all other uses,
-    contact the Owner/Authorxxx.}%
+    third-party components of this work must be honored. 
+    For all other uses, contact the owner/author(s).}%
   \toappear{%
     \noindent \@permission \par
     \vspace{2pt}
-    \noindent \textsl{\@conferencename}\quad \@conferenceinfo \par
-    ACM \@copyrightdata.}}
+    \noindent \textsl{\@conferencename}, \quad \@conferenceinfo. \par
+    \noindent Copyright is held by the owner/author(s). \par
+    \noindent ACM \@copyrightdata.\par
+    \noindent http://dx.doi.org/10.1145/\@doi}}
 
-\newcommand{\Sunpermission}{%
-  \@legacycopyrighterror{\Sunpermission}%
+% The following permission notices are
+% for the traditional copyright transfer agreement option.
+
+% Exclusive license and permission-to-publish 
+% give more complicated permission notices.
+% These are not covered here.
+
+\newcommand{\ACMCanadapermission}{%
   \permission{%
-    Copyright is held by Sun Microsystems, Inc.}%
-  \toappear{%
-    \noindent \@permission \par
-    \vspace{2pt}
-    \noindent \textsl{\@conferencename}\quad \@conferenceinfo \par
-    ACM \@copyrightdata.}}
+    ACM acknowledges that this contribution was authored or
+    co-authored by an affiliate of the Canadian National
+    Government. As such, the Crown in Right of Canada retains an equal
+    interest in the copyright. Reprint requests should be forwarded to
+    ACM.}}
+
+\newcommand{\ACMUSpermission}{%
+  \permission{%
+    ACM acknowledges that this contribution was authored or
+    co-authored by a contractor or affiliate of the United States
+    Government. As such, the United States Government retains a
+    nonexclusive, royalty-free right to publish or reproduce this
+    article, or to allow others to do so, for Government purposes
+    only.}}
 
 \newcommand{\USpublicpermission}{%
-  \@legacycopyrighterror{\USpublicpermission}%
   \permission{%
     This paper is authored by an employee(s) of the United States
-    Government and is in the public domain.}%
+    Government and is in the public domain. Non-exclusive copying or
+    redistribution is allowed, provided that the article citation is
+    given and the authors and the agency are clearly identified as its
+    source.}%
   \toappear{%
     \noindent \@permission \par
     \vspace{2pt}
-    \noindent \textsl{\@conferencename}\quad \@conferenceinfo \par
-    ACM \@copyrightdata.}}
+    \noindent \textsl{\@conferencename}, \quad \@conferenceinfo. \par
+    \noindent ACM \@copyrightdata.\par
+    \noindent http://dx.doi.org/10.1145/\@doi}}
 
 \newcommand{\authorversion}[4]{%
-  \@legacycopyrighterror{\authorversion}%
   \permission{%
   Copyright \copyright\ ACM, #1. This is the author's version of the work.
   It is posted here by permission of ACM for your personal use.
   Not for redistribution. The definitive version was published in
-  #2, #3, http://doi.acm.org/10.1145/#4.}}
-
-\def \exclusivelicense {%
-  \@latex@error{Deprecated;
-                you probably want `\noexpand\publicationrights{licensed}'}{}}
-
-\def \permissiontopublish {%
-  \@latex@error{Deprecated;
-                you probably want `\noexpand\publicationrights{author-pays}'}{}}
-
-\def \@legacycopyrighterror #1{%
-  \if \@notp{\@legacycopyright}%
-    \@latex@error{Copyright permission '\noexpand#1' is deprecated; use
-                  'legacycopyright' class option to allow it}{}%
-  \fi}
+  #2, #3, http://dx.doi.org/10.1145/#4.}}
 
 %                       Enunciations
 %                       ------------
@@ -915,7 +836,6 @@
 \def \@conferenceinfo {}
 \def \@copyrightyear {}
 \def \@copyrightdata {[to be supplied]}
-\def \@copyrightdoi {}
 \def \@proceedings {[Unknown Proceedings]}
 
 
@@ -933,13 +853,11 @@
 
 \let \crdata = \copyrightdata
 
+\newcommand{\doi}[1]{%
+  \gdef \@doi {#1}}
+
 \newcommand{\proceedings}[1]{%
   \gdef \@proceedings {#1}}
-
-\def \copyrightDOI #1{%
-  \gdef \@copyrightdoi {#1}}
-
-\let \copyrightdoi = \copyrightDOI
 
 %                       Lists
 %                       -----
@@ -1156,8 +1074,7 @@
   \end{center}}
 
 \def \@settitlebanner {%
-  \if \@andp{\@orp{\@preprint}{\@reprint}}
-            {\@notp{\@emptydefp{\@titlebanner}}}%
+  \if \@andp{\@preprint}{\@notp{\@emptydefp{\@titlebanner}}}%
     \vbox to 0pt{%
       \vskip -32pt
       \noindent \textbf{\@titlebanner}\par
@@ -1387,28 +1304,8 @@
 
 %  2013.05.17   PCA     2.7     Change standard and author copyright text.
 
-%                       2.8     (retracted)
+%  2013.07.02   TU      2.8     More changes to permission/copyright notes.
+%                               Replaced ambiguous \authorpermission with
+%                               \exclusivelicense and \permissiontopublish
+ 
 
-%  2014.07.30   PCA     2.9     Created just to replace version 2.8.
-
-%  2014.08.14   PCA     3.0     Implement new copyright command as specified
-%                                 at github.com/SIGPLAN/online/wiki/
-%                                 ACM-SIGPLAN-%28c%29-Messages
-%                               Deprecate the old commands, but allow their
-%                                 use with the 'legacycopyright' option.
-
-%  2015.04.13   PCA     3.1     Add warning to program chairs.
-%                               Use package mathptmx instead of mathptm.
-%                               Display title banner when 'reprint' option
-%                                 specified.
-%                               Make authoryear citation style the default.
-%                               Change copyright box size back to 1 inch and
-%                                 shrink text to \tiny size.
-%                               DOI takes up no space when not provided.
-%                               DOI warning does not appear when
-%                                 'legacycopyright' option specified.
-%                               'legacycopyright' option without \permission
-%                                 produces warning text in copyright box.
-
-%  2015.12.03   MTF     3.2     Remove use of package mathptmx.  No prior
-%                                 released version used package mathptm.

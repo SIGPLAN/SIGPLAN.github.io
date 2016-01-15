@@ -3,7 +3,6 @@
 %               LaTeX Class/Style File
 %
 % Name:         sigplanconf.cls
-%
 % Purpose:      A LaTeX 2e class file for SIGPLAN conference proceedings.
 %               This class file supercedes acm_proc_article-sp,
 %               sig-alternate, and sigplan-proc.
@@ -11,34 +10,17 @@
 % Author:       Paul C. Anagnostopoulos
 %               Windfall Software
 %               978 371-2316
-%               paul [atsign] windfall.com
+%               paul@windfall.com
 %
 % Created:      12 September 2004
 %
 % Revisions:    See end of file.
 %
-% This work is licensed under the Creative Commons Attribution License.
-% To view a copy of this license, visit
-%   http://creativecommons.org/licenses/by/3.0/
-% or send a letter to Creative Commons, 171 2nd Street, Suite 300,
-% San Francisco, California, 94105, U.S.A.
-% 
-% Program Chairs may be tempted to make changes to the SIGPLAN LaTeX style
-% sigplanconf.cls. Please don't do this! The style is carefully considered,
-% and the result of over a decade's discussion and development. If you have a
-% change request, send it to the SIGPLAN Information Director
-% infodir_sigplan@acm.org. If you absolutely must change the formatting,
-% define a new class file (eg myconf1999.cls) that imports sigplanconf.cls, or
-% define a style file (eg myconf1999.sty) for authors to use in their papers.
-% Contact the Information Director for details and examples. Please, UNDER NO
-% CIRCUMSTANCES should you modify the file sigplanconf.cls and release it onto
-% the internet---that way lies madness for future conferences!
-%
 %-----------------------------------------------------------------------------
 
 
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{sigplanconf}[2015/12/03 v3.2 ACM SIGPLAN Proceedings]
+\ProvidesClass{sigplanconf}[2007/03/13 v1.5 ACM SIGPLAN Proceedings]
 
 % The following few pages contain LaTeX programming extensions adapted
 % from the ZzTeX macro package.
@@ -209,19 +191,15 @@
 %                       -------
 
 
-\@setflag \@authoryear = \@true
 \@setflag \@blockstyle = \@false
 \@setflag \@copyrightwanted = \@true
 \@setflag \@explicitsize = \@false
-\@setflag \@legacycopyright = \@false
 \@setflag \@mathtime = \@false
-\@setflag \@natbib = \@true
 \@setflag \@ninepoint = \@true
 \newcount{\@numheaddepth} \@numheaddepth = 3
 \@setflag \@onecolumn = \@false
 \@setflag \@preprint = \@false
 \@setflag \@reprint = \@false
-\@setflag \@tenpoint = \@false
 \@setflag \@times = \@false
 
 % Note that all the dangerous article class options are trapped.
@@ -231,7 +209,6 @@
 
 \DeclareOption{10pt}{\PassOptionsToClass{10pt}{article}%
                      \@setflag \@ninepoint = \@false
-                     \@setflag \@tenpoint = \@true
                      \@setflag \@explicitsize = \@true}
 
 \DeclareOption{11pt}{\PassOptionsToClass{11pt}{article}%
@@ -243,8 +220,6 @@
 \DeclareOption{a4paper}{\@unsupportedoption{a4paper}}
 
 \DeclareOption{a5paper}{\@unsupportedoption{a5paper}}
-
-\DeclareOption{authoryear}{\@setflag \@authoryear = \@true}
 
 \DeclareOption{b5paper}{\@unsupportedoption{b5paper}}
 
@@ -260,25 +235,17 @@
 
 \DeclareOption{landscape}{\@unsupportedoption{landscape}}
 
-\DeclareOption{legacycopyright}{\@setflag \@legacycopyright = \@true}
-
 \DeclareOption{legalpaper}{\@unsupportedoption{legalpaper}}
 
 \DeclareOption{letterpaper}{\@unsupportedoption{letterpaper}}
 
 \DeclareOption{mathtime}{\@setflag \@mathtime = \@true}
 
-\DeclareOption{natbib}{\@setflag \@natbib = \@true}
-
-\DeclareOption{nonatbib}{\@setflag \@natbib = \@false}
-
 \DeclareOption{nocopyrightspace}{\@setflag \@copyrightwanted = \@false}
 
 \DeclareOption{notitlepage}{\@unsupportedoption{notitlepage}}
 
 \DeclareOption{numberedpars}{\@numheaddepth = 4}
-
-\DeclareOption{numbers}{\@setflag \@authoryear = \@false}
 
 %%%\DeclareOption{onecolumn}{\@setflag \@onecolumn = \@true}
 
@@ -447,7 +414,7 @@
   \if \@mathtime
     \usepackage[mtbold,noTS1]{mathtime}%
   \else
-%%%    \usepackage{mathptmx}%
+%%%    \usepackage{mathptm}%
   \fi
 \else
   \relax
@@ -490,15 +457,7 @@
 
 \renewcommand{\Huge}{\@setfontsize{\Huge}{25pt}{30pt}}
 
-\else\if \@tenpoint
-
-\relax
-
-\else
-
-\relax
-
-\fi\fi
+\fi
 
 %                       Abstract
 %                       --------
@@ -524,7 +483,8 @@
             \usecounter{enumiv}%
             \let\p@enumiv\@empty
             \renewcommand\theenumiv{\@arabic\c@enumiv}}%
-      \bibfont
+      \small
+      \softraggedright%%%\sloppy
       \clubpenalty4000
       \@clubpenalty \clubpenalty
       \widowpenalty4000%
@@ -532,25 +492,6 @@
      {\def\@noitemerr
        {\@latex@warning{Empty `thebibliography' environment}}%
       \endlist}
-
-\if \@natbib
-
-\if \@authoryear
-  \typeout{Using natbib package with 'authoryear' citation style.}
-  \usepackage[authoryear,square]{natbib}
-  \bibpunct{(}{)}{;}{a}{}{,}    % Change fences to parentheses;
-                                % citation separator to semicolon;
-                                % eliminate comma between author and year.
-  \let \cite = \citep
-\else
-  \typeout{Using natbib package with 'numbers' citation style.}
-  \usepackage[numbers,sort&compress,square]{natbib}
-\fi
-\setlength{\bibsep}{3pt plus .5pt minus .25pt}
-
-\fi
-
-\def \bibfont {\small}
 
 %                       Categories
 %                       ----------
@@ -585,14 +526,14 @@
 \def \ftype@copyrightbox {8}
 \def \@toappear {}
 \def \@permission {}
-\def \@reprintprice {}
+
 
 \def \@copyrightspace {%
   \@float{copyrightbox}[b]%
   \vbox to 1in{%
     \vfill
     \parbox[b]{20pc}{%
-      \tiny
+      \scriptsize
       \if \@preprint
         [Copyright notice will appear here
          once 'preprint' option is removed.]\par
@@ -611,97 +552,27 @@
   \def \@toappear {#1}}
 
 \toappear{%
-  \if \@andp{\@legacycopyright}{\@emptydefp{\@permission}}%
-    \noindent (No legacy permission statement was specified.)\par
-  \else
-    \noindent \@permission \par
-  \fi
+  \noindent \@permission \par
   \vspace{2pt}
   \noindent \textsl{\@conferencename}\quad \@conferenceinfo \par
   \noindent Copyright \copyright\ \@copyrightyear\ ACM \@copyrightdata
-    \dots \@reprintprice\par
-  \setcopyrightdoi}
-
-\def \publicationrights #1{%                                    {type}
-  \if \@definedp{\rightsstatement#1}%
-    \gdef \@permission {\@name{\rightsstatement#1}}%
-  \else
-    \@latex@error{The publication right '#1' is invalid}{}%
-  \fi}
-
-\expandafter\def \csname rightsstatementauthor-pays\endcsname{%
-  Permission to make digital or hard copies of part or all of this work for
-  personal or classroom use is granted without fee provided that copies are
-  not made or distributed for profit or commercial advantage and that copies
-  bear this notice and the full citation on the first page. Copyrights for
-  third-party components of this work must be honored. For all other uses,
-  contact the Owner/Author.}
-
-% This is the default rights statement.
-
-\def \rightsstatementlicensed {%
-  Permission to make digital or hard copies of part or all of this work for
-  personal or classroom use is granted without fee provided that copies are
-  not made or distributed for profit or commercial advantage and that copies
-  bear this notice and the full citation on the first page. Copyrights for
-  components of this work owned by others than ACM must be honored.
-  Abstracting with credit is permitted. To copy otherwise, to republish, to
-  post on servers, or to redistribute to lists, contact the Owner/Author.
-  Request permissions from permissions@acm.org or Publications Dept., ACM,
-  Inc., fax +1~(212) 869-0481.  Copyright \@copyrightyear\ held by Owner/Author.
-  Publication Rights Licensed to ACM.}
-
-\if \@notp{\@legacycopyright}%
-  \publicationrights{licensed}%
-\fi
-
-\def \rightsstatementtransferred {%
-  Permission to make digital or hard copies of part or all of this work for
-  personal or classroom use is granted without fee provided that copies are
-  not made or distributed for profit or commercial advantage and that copies
-  bear this notice and the full citation on the first page. Copyrights for
-  components of this work owned by others than ACM must be honored.
-  Abstracting with credit is permitted. To copy otherwise, to republish, to
-  post on servers, or to redistribute to lists, requires prior specific
-  permission and/or a fee. Request permissions from permissions@acm.org or
-  Publications Dept., ACM, Inc., fax +1~(212) 869-0481.}
-
-\newcommand{\reprintprice}[1]{%
-  \gdef \@reprintprice {#1}}
-
-\reprintprice{\$15.00}
-
-\def \setcopyrightdoi {%
-  \if \@emptydefp{\@copyrightdoi}%
-    \if \@andp{\@notp{\@preprint}}{\@notp{\@legacycopyright}}%
-      \@latex@warning{Copyright DOI has not been provided
-                      (\noexpand\copyrightdoi)}{}%
-    \fi
-  \else
-    \noindent DOI: http://dx.doi.org/10.1145/\@copyrightdoi\par
-  \fi}
-  
-
-% Legacy commands.
+    \dots \$5.00\par}
 
 \newcommand{\permission}[1]{%
   \gdef \@permission {#1}}
 
-%%%\permission{%
-%%%  Permission to make digital or hard copies of part or all of this work for
-%%%  personal or classroom use is granted without fee provided that copies are
-%%%  not made or distributed for profit or commercial advantage and that copies
-%%%  bear this notice and the full citation on the first page. Copyrights for
-%%%  components of this work owned by others than ACM must be honored.
-%%%  Abstracting with credit is permitted. To copy otherwise, to republish, to
-%%%  post on servers, or to redistribute to lists, requires prior specific
-%%%  permission and/or a fee. Request permissions from permissions@acm.org or
-%%%  Publications Dept., ACM, Inc., fax +1 (212) 869-0481.}
+\permission{%
+  Permission to make digital or hard copies of all or
+  part of this work for personal or classroom use is granted without
+  fee provided that copies are not made or distributed for profit or
+  commercial advantage and that copies bear this notice and the full
+  citation on the first page.  To copy otherwise, to republish, to
+  post on servers or to redistribute to lists, requires prior specific
+  permission and/or a fee.}
 
 % Here we have some alternate permission statements and copyright lines:
 
 \newcommand{\ACMCanadapermission}{%
-  \@legacycopyrighterror{\ACMCanadapermission}%
   \permission{%
     Copyright \@copyrightyear\ Association for Computing Machinery.
     ACM acknowledges that
@@ -714,7 +585,6 @@
     is also given to the authors and the NRC.}}
 
 \newcommand{\ACMUSpermission}{%
-  \@legacycopyrighterror{\ACMUSpermission}%
   \permission{%
     Copyright \@copyrightyear\ Association for
     Computing Machinery. ACM acknowledges that
@@ -725,14 +595,8 @@
     or to allow others to do so, for Government purposes only.}}
 
 \newcommand{\authorpermission}{%
-  \@legacycopyrighterror{\authorpermission}%
   \permission{%
-    Permission to make digital or hard copies of part or all of this work for
-    personal or classroom use is granted without fee provided that copies are
-    not made or distributed for profit or commercial advantage and that copies
-    bear this notice and the full citation on the first page. Copyrights for
-    third-party components of this work must be honored. For all other uses,
-    contact the Owner/Authorxxx.}%
+    Copyright is held by the author/owner(s).}
   \toappear{%
     \noindent \@permission \par
     \vspace{2pt}
@@ -740,7 +604,6 @@
     ACM \@copyrightdata.}}
 
 \newcommand{\Sunpermission}{%
-  \@legacycopyrighterror{\Sunpermission}%
   \permission{%
     Copyright is held by Sun Microsystems, Inc.}%
   \toappear{%
@@ -750,7 +613,6 @@
     ACM \@copyrightdata.}}
 
 \newcommand{\USpublicpermission}{%
-  \@legacycopyrighterror{\USpublicpermission}%
   \permission{%
     This paper is authored by an employee(s) of the United States
     Government and is in the public domain.}%
@@ -759,28 +621,6 @@
     \vspace{2pt}
     \noindent \textsl{\@conferencename}\quad \@conferenceinfo \par
     ACM \@copyrightdata.}}
-
-\newcommand{\authorversion}[4]{%
-  \@legacycopyrighterror{\authorversion}%
-  \permission{%
-  Copyright \copyright\ ACM, #1. This is the author's version of the work.
-  It is posted here by permission of ACM for your personal use.
-  Not for redistribution. The definitive version was published in
-  #2, #3, http://doi.acm.org/10.1145/#4.}}
-
-\def \exclusivelicense {%
-  \@latex@error{Deprecated;
-                you probably want `\noexpand\publicationrights{licensed}'}{}}
-
-\def \permissiontopublish {%
-  \@latex@error{Deprecated;
-                you probably want `\noexpand\publicationrights{author-pays}'}{}}
-
-\def \@legacycopyrighterror #1{%
-  \if \@notp{\@legacycopyright}%
-    \@latex@error{Copyright permission '\noexpand#1' is deprecated; use
-                  'legacycopyright' class option to allow it}{}%
-  \fi}
 
 %                       Enunciations
 %                       ------------
@@ -915,7 +755,6 @@
 \def \@conferenceinfo {}
 \def \@copyrightyear {}
 \def \@copyrightdata {[to be supplied]}
-\def \@copyrightdoi {}
 \def \@proceedings {[Unknown Proceedings]}
 
 
@@ -935,11 +774,6 @@
 
 \newcommand{\proceedings}[1]{%
   \gdef \@proceedings {#1}}
-
-\def \copyrightDOI #1{%
-  \gdef \@copyrightdoi {#1}}
-
-\let \copyrightdoi = \copyrightDOI
 
 %                       Lists
 %                       -----
@@ -1037,10 +871,8 @@
 \def \ps@plain {%
   \let \@mkboth = \@gobbletwo
   \let \@evenhead = \@empty
-  \def \@evenfoot {\scriptsize
-                   \rlap{\textit{\@preprintfooter}}\hfil
-                   \thepage \hfil
-                   \llap{\textit{\@formatyear}}}%
+  \def \@evenfoot {\scriptsize \textit{\@preprintfooter}\hfil \thepage \hfil
+                   \textit{\@formatyear}}%
   \let \@oddhead = \@empty
   \let \@oddfoot = \@evenfoot}
 
@@ -1121,11 +953,7 @@
   \begin{center}
   \@settitlebanner
   \let \thanks = \titlenote
-  {\leftskip = 0pt plus 0.25\linewidth
-   \rightskip = 0pt plus 0.25 \linewidth
-   \parfillskip = 0pt
-   \spaceskip = .7em
-   \noindent \LARGE \bfseries \@titletext \par}
+  \noindent \LARGE \bfseries \@titletext \par
   \vskip 6pt
   \noindent \Large \@subtitletext \par
   \vskip 12pt
@@ -1156,8 +984,7 @@
   \end{center}}
 
 \def \@settitlebanner {%
-  \if \@andp{\@orp{\@preprint}{\@reprint}}
-            {\@notp{\@emptydefp{\@titlebanner}}}%
+  \if \@andp{\@preprint}{\@notp{\@emptydefp{\@titlebanner}}}%
     \vbox to 0pt{%
       \vskip -32pt
       \noindent \textbf{\@titlebanner}\par
@@ -1293,7 +1120,7 @@
 %  Date         Person  Ver.    Change
 %  ----         ------  ----    ------
 
-%  2004.09.12   PCA     0.1--4  Preliminary development.
+%  2004.09.12   PCA     0.1--5  Preliminary development.
 
 %  2004.11.18   PCA     0.5     Start beta testing.
 
@@ -1344,71 +1171,28 @@
 
 %  2006.08.24   PCA     1.4     Fix bug in \maketitle case command.
 
-%  2007.03.13   PCA     1.5     The title banner only displays with the
+%  2007.03.13   PCA     1.5     The title banner only display with the
 %                               'preprint' option.
 
-%  2007.06.06   PCA     1.6     Use \bibfont in \thebibliography.
-%                               Add 'natbib' option to load and configure
-%                                 the natbib package.
-
-%  2007.11.20   PCA     1.7     Balance line lengths in centered article
-%                                 title (thanks to Norman Ramsey).
-
-%  2009.01.26   PCA     1.8     Change natbib \bibpunct values.
-
-%  2009.03.24   PCA     1.9     Change natbib to use the 'numbers' option.
-%                               Change templates to use 'natbib' option.
-
-%  2009.09.01   PCA     2.0     Add \reprintprice command (suggested by
-%                                 Stephen Chong).
-
-%  2009.09.08   PCA     2.1     Make 'natbib' the default; add 'nonatbib'.
-%               SB              Add 'authoryear' and 'numbers' (default) to
-%                               control citation style when using natbib.
-%                               Add \bibpunct to change punctuation for
-%                               'authoryear' style.
-
-%  2009.09.21   PCA     2.2     Add \softraggedright to the thebibliography
-%                               environment. Also add to template so it will
-%                               happen with natbib.
-
-%  2009.09.30   PCA     2.3     Remove \softraggedright from thebibliography.  
-%                               Just include in the template.
-
-%  2010.05.24   PCA     2.4     Obfuscate class author's email address.
-
-%  2011.11.08   PCA     2.5     Add copyright notice to this file.
-%                               Remove 'sort' option from natbib when using
-%                                 'authoryear' style.
-%                               Add the \authorversion command.
-
-%  2013.02.22   PCA     2.6     Change natbib fences to parentheses when
-%                                 using 'authoryear' style.
-
-%  2013.05.17   PCA     2.7     Change standard and author copyright text.
-
-%                       2.8     (retracted)
-
-%  2014.07.30   PCA     2.9     Created just to replace version 2.8.
-
-%  2014.08.14   PCA     3.0     Implement new copyright command as specified
-%                                 at github.com/SIGPLAN/online/wiki/
-%                                 ACM-SIGPLAN-%28c%29-Messages
-%                               Deprecate the old commands, but allow their
-%                                 use with the 'legacycopyright' option.
-
-%  2015.04.13   PCA     3.1     Add warning to program chairs.
-%                               Use package mathptmx instead of mathptm.
-%                               Display title banner when 'reprint' option
-%                                 specified.
-%                               Make authoryear citation style the default.
-%                               Change copyright box size back to 1 inch and
-%                                 shrink text to \tiny size.
-%                               DOI takes up no space when not provided.
-%                               DOI warning does not appear when
-%                                 'legacycopyright' option specified.
-%                               'legacycopyright' option without \permission
-%                                 produces warning text in copyright box.
-
-%  2015.12.03   MTF     3.2     Remove use of package mathptmx.  No prior
-%                                 released version used package mathptm.
+<script type="text/javascript">//<![CDATA[
+		function toggle_ffErrors() {
+			var errorsblock = document.getElementById("ffErrorsBlock");
+			var errorsgroup = document.getElementById("ffErrors");
+			if (errorsblock.style.display == "none") {
+				errorsblock.style.display = "block";
+				errorsgroup.style.right = "10px";
+			} else {
+				errorsblock.style.display = "none";
+				errorsgroup.style.right = "300px";
+			}
+		}
+//]]></script>
+<div id="ffErrors">
+<a href="javascript:toggle_ffErrors();">Click to toggle</a>
+<div id="ffErrorsBlock">
+	<div class="error">does not end with &lt;/html&gt; tag</div>
+	<div class="error">does not end with &lt;/body&gt; tag</div>
+	<div class="info">The output has ended thus:    1.5     The title banner only display with the
+%                               'preprint' option.</div>
+</div></div>
+</body></html>

@@ -13,7 +13,7 @@ please at least skim this page, paying particular attention to the following:
 - SIGPLAN's [conference submission review policy](/Resources/Policies/Review) 
 - SIGPLAN's [diversity policy](/Resources/Policies/Diversity)
 - SIGPLAN's [Republication Policy](/Resources/Policies/Republication)
-- SIGPLAN's [Anti-Harassment Policy](/Resources/Policies/Anti-harassment/)
+- SIGPLAN's [Code of Conduct Policy](/Resources/Policies/CodeOfConduct/)
 - for a SIGPLAN-sponsored event, seek approval for the Programme Committee from the SIGPLAN Vice-Chair, *before* sending invitations
 - consult with the conference Steering Committee before diverging from any existing conventions
 - make explicit in the Call for Papers that authors of accepted submissions are expected to transfer the copyright to the ACM
@@ -308,12 +308,12 @@ See Also
 Some columns containing useful advice for conference organizers have
 been published in _SIGPLAN Notices_ over the years:
 
--   [Experiences with Author Response at PLDI and ICFP 2004](http://portalparts.acm.org/1060000/1052883/fm/frontmatter.pdf),
-        Kathleen Fisher and Craig Chambers, (*SIGPLAN Notices*, Dec. 2004)
--   [Conferences with improved management and style](http://portalparts.acm.org/1140000/1137933/fm/frontmatter.pdf),
-        Philip Wadler (*SIGPLAN Notices*, Feb. 2006)
--   [SIGPLAN EC Activities: Vice Chair Report](http://portalparts.acm.org/1150000/1149982/fm/frontmatter.pdf),
-        Kathleen Fisher (*SIGPLAN Notices*, May 2006)
--   [A Report from the POPL 2007 Chairman](http://portalparts.acm.org/1230000/1229493/fm/frontmatter.pdf),
-        Matthias Felleisen (*SIGPLAN Notices*, December 2006)
--   [How to chair a conference](http://portalparts.acm.org/1990000/1988042/fm/frontmatter.pdf), Alex Aiken (*SIGPLAN Notices*, April 2011).  
+- [Experiences with Author Response at PLDI and ICFP 2004](http://portalparts.acm.org/1060000/1052883/fm/frontmatter.pdf), Kathleen Fisher and Craig Chambers, (*SIGPLAN Notices*, Dec. 2004)
+- [Conferences with improved management and style](http://portalparts.acm.org/1140000/1137933/fm/frontmatter.pdf), Philip Wadler (*SIGPLAN Notices*, Feb. 2006)
+- [SIGPLAN EC Activities: Vice Chair Report](http://portalparts.acm.org/1150000/1149982/fm/frontmatter.pdf), Kathleen Fisher (*SIGPLAN Notices*, May 2006)
+- [A Report from the POPL 2007 Chairman](http://portalparts.acm.org/1230000/1229493/fm/frontmatter.pdf), Matthias Felleisen (*SIGPLAN Notices*, December 2006)
+- [How to chair a conference](http://portalparts.acm.org/1990000/1988042/fm/frontmatter.pdf), Alex Aiken (*SIGPLAN Notices*, April 2011)
+- [POPL'12 program chair's report: (or, how to run a medium-sized conference)](http://dl.acm.org/citation.cfm?id=2442779), Michael Hicks (*SIGPLAN Notices*, April 2012)
+- [Artifact evaluation for software conferences](http://dl.acm.org/citation.cfm?id=2502518), Shriram Krishnamurthi (*SIGPLAN Notices*, April 2013)
+- [The OOPSLA two-phase review process](http://dl.acm.org/citation.cfm?id=2641648), Cristina V. Lopes (*SIGPLAN Notices*, April 2014)
+- [A Handbook for [ECOOP] PC Chairs](http://www.pps.univ-paris-diderot.fr/~gc/papers/pc-handbook.pdf), Giuseppe Castagna
