@@ -5,7 +5,7 @@ title: "SIGPLAN Proceedings Format"
 
 This page summarizes the formatting guidelines for ACM SIGPLAN
 Proceedings.  The goal is to ensure that proceedings have a
-consistent, high-quality appearance.  
+consistent, high-quality appearance.
 
 SIGPLAN *strongly* recommends using the
 [LaTeX](https://latex-project.org) typesetting system and the [SIGPLAN
@@ -80,7 +80,7 @@ e-mail address should use either the body-text font, a sans serif
 (recommended) font at the same size, or a nonproportional font at the
 same size.
 
-If using a 10&nbsp;point body-text font, then title should use an
+If using a 10&nbsp;point body-text font, then title should use a
 17&nbsp;point bold variant of the body-text font, the subtitle should
 use a 14&nbsp;point variant of the body-text font, an author's name
 should use an 12&nbsp;point variant of the body-text font, an author's
@@ -118,8 +118,8 @@ the body-text font.  A level 2 heading should be unindented, ragged
 right (if requiring multiple lines), and set above the subsequent
 text.  A level 2 heading title should be written using title case.  A
 level 2 heading should be labeled, using the parent level 1 heading
-label followed by an Arabic numeral.  A level 2 heading label should appear
-as "1.1" (note the absence of a trailing period).
+label followed by an Arabic numeral.  A level 2 heading label should
+appear as "1.1" (note the absence of a trailing period).
 
 3. A level 3 heading (a.k.a., subsubsection) should use a bold variant
 of the body-text font.  A level 3 heading should be unindented, ragged
@@ -150,7 +150,8 @@ as "1.1.1.1.1" (note the absence of a trailing period).
 
 The first paragraph of a level should be unindented.  Subsequent
 paragraphs of a level may be either indented with no inter-paragraph
-space (recommended) or unindented with a small inter-paragraph space.
+space (recommended, may reduce the total number of pages) or
+unindented with a small inter-paragraph space.
 
 ## Special Sections
 
@@ -217,10 +218,10 @@ with the title "Acknowledgments".
 ### References
 
 The paper references should use an unlabeled level 1 heading with the
-title "References".  References may use either an 8&nbsp;point
-variant of the body-text font (recommended, if using a 9&nbsp;point body-text
-font), a 9&nbsp;point variant of the body-text font (if using
-a 10&nbsp;point body-text font), or the body-text font.
+title "References".  References may use either an 8&nbsp;point variant
+of the body-text font (recommended, if using a 9&nbsp;point body-text
+font), a 9&nbsp;point variant of the body-text font (recommended, if
+using a 10&nbsp;point body-text font), or the body-text font.
 
 # Footnotes
 
@@ -241,17 +242,24 @@ tables should be labeled, using Arabic numerals; figures and tables
 may share the same label counter or may use distinct label counters.
 A caption should use a bold variant of the body-text font for the word
 "Figure" or "Table", followed by the label, followed by a period and
-the body-text font for the caption text.  The caption text should be
-written using sentence case or title case, as appropriate.  The
-caption should be centered when it requires one line and the caption
-should be right justified when it requires multiple lines.
+should use the body-text font for the caption text.  The caption text
+should be written using sentence case or title case, as appropriate.
+The caption should be centered when it requires one line and the
+caption should be right justified when it requires multiple lines.
 
-# References
+# References and Citations
 
-Say something ...
-
-author-year (recommended) or numeric
+References and citations should use either author/year format
+(recommended) or numeric format.  References should use a clear and
+consistent bibliographic style and should be ordered alphabetically by
+last name of first author.  When using author/year format, references
+should not be numbered or labeled and citations should be a list of
+semicolon separated author/year entries.  When using numeric format,
+references should be numbered and labeled by the reference number in
+square brackets ("[" and "]") and citations should be a list of comma
+separated reference numbers in square brackets.
 
 # Color
 
-Say something ...
+Color may be used for text and figures, but the paper must be readable
+when printed in black-and-white in the proceedings.
