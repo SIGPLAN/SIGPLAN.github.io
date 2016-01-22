@@ -1,5 +1,5 @@
 2015:
-  Awardee: [Chi-Keung Luk, Robert Cohn, Robert Muth, Harish Patil, Artur Klauser, Geoff Lowney, Steven Wallace, Vijay Janapa Reddi, Kim Hazelwood]
+  Awardee: Chi-Keung Luk, Robert Cohn, Robert Muth, Harish Patil, Artur Klauser, Geoff Lowney, Steven Wallace, Vijay Janapa Reddi, Kim Hazelwood
   Other: |
     (for 2005) _[Pin: building customized program analysis tools with dynamic instrumentation](http://dl.acm.org/citation.cfm?id=1065034)_
   Citation: |
@@ -30,11 +30,10 @@
     research.
 
 2013:
-  Awardee: [David Gay, Philip Levis, J. Robert von Behren, Matt Welsh, Eric Brewer, and David E. Culler]
+  Awardee: David Gay, Philip Levis, J. Robert von Behren, Matt Welsh, Eric Brewer, and David E. Culler
   Other: |
     (for 2003) _[The nesC language: A holistic approach to networked embedded systems](http://dl.acm.org/citation.cfm?id=781133)_
   Citation: |
-
     This is the first publication to describe the design,
     implementation, and optimization of the language nesC, which is a
     variant of the C programming language especially well suited to

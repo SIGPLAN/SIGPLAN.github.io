@@ -1,5 +1,5 @@
 2016:
-  Awardee: [Xavier Leroy]
+  Awardee: Xavier Leroy
   Other: |
     (for 2006) _[Formal certification of a compiler back-end or: programming a compiler with a proof assistant](http://dl.acm.org/citation.cfm?doid=1111037.1111042)_
   Citation: |
@@ -20,8 +20,7 @@
 
 
 2015:
-  Awardee: [Nate Foster, Michael B. Greenwald, Jonathan T. Moore, Benjamin C.
-Pierce, Alan Schmitt]
+  Awardee: Nate Foster, Michael B. Greenwald, Jonathan T. Moore, Benjamin C. Pierce, Alan Schmitt
   Other: |
     (for 2005) _[Combinators for Bidirectional Tree Transformations: A Linguistic Approach to the View Update Problem](http://dl.acm.org/citation.cfm?doid=1040305.1040325)_
   Citation: |
@@ -44,7 +43,7 @@ Pierce, Alan Schmitt]
 
 
 2014:
-  Awardee: [Thomas Henzinger, Ranjit Jhala, Rupak Majumdar, Kenneth McMillan]
+  Awardee: Thomas Henzinger, Ranjit Jhala, Rupak Majumdar, Kenneth McMillan
   Other: |
     (for 2004) _[Abstractions from proofs](http://dl.acm.org/citation.cfm?id=964021)_
   Citation: |
@@ -62,7 +61,7 @@ Pierce, Alan Schmitt]
     analysis.
 
 2013:
-  Awardee: [David F. Bacon, Perry Cheng, VT Rajan]
+  Awardee: David F. Bacon, Perry Cheng, VT Rajan
   Other: |
     (for 2003) _[A real-time garbage collector with low overhead and consistent utilization](http://dl.acm.org/citation.cfm?id=604155&CFID=186511822&CFTOKEN=35702610)_
   Citation: |
@@ -89,7 +88,6 @@ Pierce, Alan Schmitt]
   Awardee: George C. Necula, Scott McPeak, and Westley Weimer
   Other: |
     (for 2002) _[CCured: Type-Safe Retrofitting of Legacy Code](http://dl.acm.org/citation.cfm?id=1065892)_
-
   Citation:
     This paper showed a path to taking legacy C code and
     making it safer, by adding type safety guarantees to
