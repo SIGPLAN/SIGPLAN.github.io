@@ -18,9 +18,11 @@ limits.
 
 # Page Size and Layout
 
-All material of each page of the final (non-preprint) paper should fit
-within a rectangle of 7&nbsp;in &times; 9&nbsp;in, beginning 1&nbsp;in
-from the top of the page and 0.75&nbsp;in from the left of the page.
+Proceedings are printed on and should be prepared for US Letter paper
+(8.5&nbsp;in &times; 11&nbsp;in).  All material of each page of the
+final (non-preprint) paper should fit within a rectangle of 7&nbsp;in
+&times; 9&nbsp;in, beginning 1&nbsp;in from the top of the page and
+0.75&nbsp;in from the left of the page.
 
 The text should be in two 3.333&nbsp;in; columns separated by a
 0.333&nbsp;in space.
