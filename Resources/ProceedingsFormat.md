@@ -239,10 +239,11 @@ References and citations should use either author/year format
 consistent bibliographic style and should be ordered alphabetically by
 last name of first author.  When using author/year format, references
 should not be numbered or labeled and citations should be a list of
-semicolon separated author/year entries.  When using numeric format,
-references should be numbered and labeled by the reference number in
-square brackets ("[" and "]") and citations should be a list of comma
-separated reference numbers in square brackets.
+semicolon separated author/year entries in parentheses ("(" and ")").
+When using numeric format, references should be numbered and labeled
+by the reference number in square brackets ("[" and "]") and citations
+should be a list of comma separated reference numbers in square
+brackets.
 
 # Color
 
