@@ -147,24 +147,7 @@ title "Abstract".
 
 ### Classification
 
-#### [ACM Computing Classification System (1998 version)](http://www.acm.org/about/class/1998)
-
-The paper classification should use an unlabeled level 4 heading with
-the title "Categories and Subject Descriptors", followed by a
-semicolon separated list of categories.  Each category is composed of
-a category number (itself composed of a top-level category letter, a
-subcategory number, and an optional subsubcategory number), a
-subcategory name, an optional subsubcategory name, and an optional
-subject descriptor.  The category number should use the body-text
-font, with components of the category number separated by periods but
-not terminated by a period; the subcategory name should use an italic
-variant of the body-text font and be enclosed in square brackets; if
-present, the subsubcategory name should use the body-text font and be
-preceded by a colon; if present, the subject descriptor should use the
-body-text font and be preceded by either a colon, if there is no
-subsubcategory name, or an em-dash, if there is a subsubcategory name.
-
-#### [ACM Computing Classification System (2012 version)](http://www.acm.org/about/class/2012)
+#### [ACM Computing Classification System (2012 version)](http://www.acm.org/about/class/2012) (recommended)
 
 The paper classification should use an unlabeled level 4 heading with
 the title "CCS Concepts", followed by a semicolon separated list of
@@ -183,6 +166,23 @@ one or more medium significance specific concepts, followed by general
 concepts with only low significance specific concepts.  High-relevance
 specific concepts should appear first, followed by medium-significance
 specific concepts, followed by low-significance specific concepts.
+
+#### [ACM Computing Classification System (1998 version)](http://www.acm.org/about/class/1998)
+
+The paper classification should use an unlabeled level 4 heading with
+the title "Categories and Subject Descriptors", followed by a
+semicolon separated list of categories.  Each category is composed of
+a category number (itself composed of a top-level category letter, a
+subcategory number, and an optional subsubcategory number), a
+subcategory name, an optional subsubcategory name, and an optional
+subject descriptor.  The category number should use the body-text
+font, with components of the category number separated by periods but
+not terminated by a period; the subcategory name should use an italic
+variant of the body-text font and be enclosed in square brackets; if
+present, the subsubcategory name should use the body-text font and be
+preceded by a colon; if present, the subject descriptor should use the
+body-text font and be preceded by either a colon, if there is no
+subsubcategory name, or an em-dash, if there is a subsubcategory name.
 
 ### Terms
 
