@@ -16,26 +16,7 @@ Authors should take note of any special instructions of the specific
 Call for Papers, such as required body-text size or submission page
 limits.
 
-# Page Size and Layout (Precise)
-
-All material of each page of the final (non-preprint) paper should fit
-within a rectangle of 42&nbsp;pica[^1] &times; 54.5&nbsp;pica
-(6.973948&nbsp;in &times; 9.049398&nbsp;in &asymp; 7&nbsp;in &times;
-9&nbsp;in; 17.713574&nbsp;cm &times; 22.985471&nbsp;cm &asymp;
-17.7&nbsp;cm &times; 23&nbsp;cm), beginning 1&nbsp;in (2.54&nbsp;cm
-&asymp; 2.5&nbsp;cm) from the top of the page and 0.75&nbsp;in
-(1.905&nbsp;cm &asymp; 1.9&nbsp;cm) from the left of the page.
-
-The text should be in two 20&nbsp;pica (3.320880&nbsp;in &asymp;
-3.33&nbsp;in; 8.435035&nbsp;cm &asymp; 8.4&nbsp;cm) columns separated
-by a 2&nbsp;pica space (0.332088&nbsp;in &asymp; 0.33&nbsp;in;
-0.84354&nbsp;cm &asymp; 0.8&nbsp;cm).
-
-Right margins (excepting references) should be justified, not ragged.
-
-[^1]: where 1 (American/TeX) pica = 12 (Tex) point = 1/72.27 ft
-
-# Page Size and Layout (Simplified)
+# Page Size and Layout
 
 All material of each page of the final (non-preprint) paper should fit
 within a rectangle of 7&nbsp;in &times; 9&nbsp;in, beginning 1&nbsp;in
@@ -50,7 +31,9 @@ Right margins (excepting references) should be justified, not ragged.
   42&nbsp;pica &times; 54.5&nbsp;pica text area with two 20&nbsp;pica
   columns separated by a 2&nbsp;pica space, where 1 (American/TeX)
   pica = 12 (Tex) point = 1/72.27 ft; these dimensions are slightly
-  narrower but taller than those required above.
+  narrower but taller than those required above; this will be
+  addressed in a future revision of the [SIGPLAN LaTeX Class
+  File](/Resources/LaTeXClassFile).
 
 # Body Text
 
