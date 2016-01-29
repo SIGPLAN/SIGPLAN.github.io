@@ -3,6 +3,13 @@ layout: default
 title: "Author Information for SIGPLAN Conferences"
 ---
 
+### SIGPLAN Proceedings Format
+
+The [SIGPLAN Proceedings Format](/Resources/ProceedingsFormat) page
+summarizes the formatting guidelines for ACM SIGPLAN Proceedings.  The
+goal is to ensure that proceedings have a consistent, high-quality
+appearance.
+
 ### Conference paper templates
 
 #### LaTeX class file and template
