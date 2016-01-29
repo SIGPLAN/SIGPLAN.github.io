@@ -192,8 +192,8 @@ followed by a comma-separated list of terms.
 
 ### Keywords
 
-The paper keywords should use an unlabeled level 4 heading with the
-title "Keywords", followed by a comma-separated list of keywords.
+Paper keywords should use an unlabeled level 4 heading with the title
+"Keywords", followed by a comma-separated list of keywords.
 
 ### Acknowledgments
 
