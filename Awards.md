@@ -53,17 +53,17 @@ annually to the author of the outstanding doctoral dissertation in
 the area of Programming Languages.
 
 **Most Influential Paper Awards**  
-SIGPLAN presents these awards
-to the author(s) of a paper presented at ICFP, OOPSLA, PLDI, and
-POPL held 10 years prior to the award year. The award includes a
-prize of $1,000 to be split among the authors of the winning paper.
-The papers are judged by their influence over the past decade. Each
-award is presented at the respective conference.
+SIGPLAN presents these awards to the author(s) of a paper presented at
+the POPL, PLDI, ICFP, and OOPSLA held 10 years prior to the award
+year. The award includes a prize of $1,000 to be split among the
+authors of the winning paper.  The papers are judged by their
+influence over the past decade. Each award is presented at the
+respective conference.
 
--   [Most Influential OOPSLA Paper](/Awards/OOPSLA)
--   [Most Influental PLDI Paper](/Awards/PLDI)
--   [Most Influential ICFP Paper](/Awards/ICFP)
 -   [Most Influential POPL Paper](/Awards/POPL)
+-   [Most Influential PLDI Paper](/Awards/PLDI)
+-   [Most Influential ICFP Paper](/Awards/ICFP)
+-   [Most Influential OOPSLA Paper](/Awards/OOPSLA)
 
 
 **John Vlissides Award**  
