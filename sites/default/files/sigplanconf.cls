@@ -732,7 +732,7 @@
     not made or distributed for profit or commercial advantage and that copies
     bear this notice and the full citation on the first page. Copyrights for
     third-party components of this work must be honored. For all other uses,
-    contact the Owner/Authorxxx.}%
+    contact the Owner/Author.}%
   \toappear{%
     \noindent \@permission \par
     \vspace{2pt}
