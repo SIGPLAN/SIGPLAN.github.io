@@ -27,6 +27,7 @@ these awards.&#160; More details about the SIGPLAN awards can be found
 Web Pages of Previous Conferences
 ---------------------------------
 
+> [OOPSLA 2016](http://2016.splashcon.org/) (Amsterdam, The Netherlands)  
 > [OOPSLA 2015](http://2015.splashcon.org/) (Pittsburgh, PA)  
 > [OOPSLA 2014](http://2014.splashcon.org/) (Portland, OR)  
 > [OOPSLA 2013](http://splashcon.org/2013/) (Indianapolis, IN)  
