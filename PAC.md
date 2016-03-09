@@ -2,12 +2,13 @@
 layout: default
 title: "The SIGPLAN Professional Activities Committee"
 ---
+
 **Student Members**  
 Are you a student who is a presenter or co-author of a paper, but
-need money to attend the conference?&#160; The SIGPLAN Professional
+need money to attend the conference?  The SIGPLAN Professional
 Activities Committee (PAC) provides support to help advance
 professional goals such as these. Even if you are not a SIGPLAN
-member, you can apply &#8212; as long 
+member, you can apply -- as long
 as the event you are participating in is sponsored by SIGPLAN,
 you are a member of ACM, and your advisor is a member of SIGPLAN.
 
@@ -19,7 +20,7 @@ applications for the following activities:
 > -   A one-year SIGPLAN membership for ACM students that are
 >     currently not SIGPLAN members.
 > -   Registration fees and shared accommodation expenses for student
->     attendance at a [SIGPLAN sponsored conference](?q=Conferences/Main)
+>     attendance at a [SIGPLAN sponsored conference](/Conferences)
 >     where the applicant is to present a paper, is co-author of a paper
 >     on the program, or is participating in a student poster session.
 >     **PAC expects institutions to share costs in the funding of students.**
