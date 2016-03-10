@@ -28,11 +28,11 @@ Awards
     -   Conference: Onward! 2005
     -   Paper:
         [http://dl.acm.org/citation.cfm?id=1094811.1094851](http://dl.acm.org/citation.cfm?id=1094811.1094851)
-    - Citation: The 2005 Onward! paper "Subtext--Uncovering the
-      Simplicity of Programming" presented a new kind of programming,
-      unifying programs and their execution, and which helped
-      establish Onward! as a forum for high-end, lateral thinking
-      about programming.
+    -   Citation: The 2005 Onward! paper "Subtext--Uncovering the
+        Simplicity of Programming" presented a new kind of
+        programming, unifying programs and their execution, and which
+        helped establish Onward! as a forum for high-end, lateral
+        thinking about programming.
 
 -   Most Notable Paper Award 2014 for 2004
     -   Recipient: Tim Sheard

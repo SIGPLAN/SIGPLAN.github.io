@@ -30,6 +30,14 @@ Awards
     -   Conference: DLS 2005
     -   Paper:
         [http://dl.acm.org/citation.cfm?id=1146842](http://dl.acm.org/citation.cfm?id=1146842)
+    -   Citation: The 2005 DLS paper "Language Constructs for
+        Context-oriented Programming: An Overview of ContextL"
+        introduced a framework that enables programmers to modify the
+        behavior of a program based on the context in which it is
+        used, without requiring changes to the original program. This
+        paper triggered a cascade of research on Context-oriented
+        Programming and spawned a community with its own international
+        workshop series, which is still going strong today.
 
 Past Events
 -----------
