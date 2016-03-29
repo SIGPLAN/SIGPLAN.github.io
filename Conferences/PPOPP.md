@@ -6,11 +6,11 @@ The PPoPP Symposia is the forum for leading papers on the principles and foundat
 
 **PPoPP Fast Facts**
 
-> [PPoPP 2016](http://conf.researchr.org/home/ppopp-2016)
-> Location: Barcelona, Spain
-> General Chair: Rafael Asenjo, Univ. of Malaga
-> Program Chair: Tim Harris, Oracle
-> Dates: Mar, 2016
+> [PPoPP 2017] [//]: # (http://conf.researchr.org/home/ppopp-2017)
+> Location: Austin, TX
+> General Chair: Vivek Sarkar, Rice University
+> Program Chair: Lawrence Rauchwerger, Texas A&M
+> Dates: Feb 4-8, 2017
 
 **Co-located Events**
 
@@ -25,6 +25,7 @@ The current PPoPP Steering Committee is:
 
 **Web Pages of Previous Conferences**
 
+- [PPoPP 2016](http://conf.researchr.org/home/ppopp-2016) (Barcelona, Spain)
 - [PPoPP 2015](http://ppopp15.soe.ucsc.edu/) (San Francisco, CA)
 - [PPoPP 2014](https://sites.google.com/site/ppopp2014/) (Orlando, FL)
 - [PPoPP 2013](http://ppopp2013.ics.uci.edu) (Shenzhen, China)
