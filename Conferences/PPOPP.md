@@ -6,7 +6,7 @@ The PPoPP Symposia is the forum for leading papers on the principles and foundat
 
 **PPoPP Fast Facts**
 
-> [PPoPP 2017] [//]: # (http://conf.researchr.org/home/ppopp-2017)
+> PPoPP 2017
 > Location: Austin, TX
 > General Chair: Vivek Sarkar, Rice University
 > Program Chair: Lawrence Rauchwerger, Texas A&M
