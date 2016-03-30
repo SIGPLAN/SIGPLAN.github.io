@@ -39,23 +39,23 @@ Information Director:
   - Steering Committee Chairs:
 # leave these blank to autolookup from the Steering Committees
     - ASPLOS:
-    - DLS:    
-    - GPCE:   
+    - DLS:
+    - GPCE:
     - Haskell:
-    - ICFP:  
-    - ISMM:   
-    - LCTES:  
-    - PLDI:  
-    - POPL:  
-    - PPOPP:  
+    - ICFP:
+    - ISMM:
+    - LCTES:
+    - PLDI:
+    - POPL:
+    - PPOPP:
     - SPLASH:
-    - VEE:    
+    - VEE:
 
 Other Past Members:
   - "Past Vice Chair": "[Jeremy Gibbons](http://www.cs.ox.ac.uk/jeremy.gibbons/)"
   - "Past Past Chair": "Philip Wadler"
   - "Past Past Vice Chair": "Graham Hutton"
-  
+
 ASPLOS Steering Committee:
   -   Ras Bodik, UC Berkeley
   -   Doug Burger, Microsoft
@@ -103,7 +103,7 @@ Haskell Steering Committee:
 
 ICFP Steering Committee:
   - Chair: Greg Morrisett
-  
+
 ISMM Steering Committee:
   -   "[Mike Bond](http://web.cse.ohio-state.edu/~mikebond)"
   -   "[Perry Cheng](http://researcher.watson.ibm.com/researcher/view.php?person=us-perry)"
@@ -133,15 +133,15 @@ PLDI Steering Committee:
   -   Chair: Jan Vitek, past SIGPLAN Chair
   -   SIGPLAN Vice Chair: #
   -   Past SIGPLAN Vice Chair: #
-  -   Past Past SIGPLAN Chair: # 
+  -   Past Past SIGPLAN Chair: #
   -   Hans Boehm, 2013 General Chair
   -   Cormac Flanagan, 2013 Program Chair
   -   Michael O'Boyle, 2014 General Chair
   -   Keshav Pingali, 2014 Program Chair
   -   David Grove, 2015 General Chair
   -   Steve Blackburn, 2015 Program Chair
-  
-POPL Steering Committee: 
+
+POPL Steering Committee:
   -   SIGPLAN Chair: #
   -   Past SIGPLAN Chair: #
   -   SIGPLAN Vice Chair: #
@@ -157,17 +157,19 @@ POPL Steering Committee:
 
 PPOPP Steering Committee:
   - Chair: Calin Cascaval
+  - Rafael Asenjo
   - Albert Cohen
   - David Grove
   - Mary Hall
+  - Tim Harris
   - Jim Larus
   - Jose Moreira
   - David Padua
   - Keshav Pingali
-  
+
 SIGAPL Steering Committee:
   - Chair: Guy Larocque
-  
+
 SPLASH Steering Committee:
   -  SIGPLAN Chair: #
   -  SIGPLAN Vice Chair: #
