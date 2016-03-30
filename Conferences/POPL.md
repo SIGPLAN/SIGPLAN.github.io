@@ -11,11 +11,11 @@ systems, and programming interfaces. POPL is in-cooperation with
 
 **POPL Fast Facts**
 
-> [POPL 2016 Web Page](http://conf.researchr.org/home/POPL-2016)  
-> Location: St. Petersburg, Florida, USA  
-> General Chair: [Rastislav Bodík](http://www.cs.berkeley.edu/~bodik/)  
-> Program Chair: [Rupak Majumdarl](http://www.mpi-sws.org/~rupak/)  
-> Dates: January 20-22, 2016
+> [POPL 2017 Web Page](http://conf.researchr.org/home/POPL-2017)  
+> Location: Paris, France  
+> General Chair: [Giuseppe Castagna](http://www.pps.univ-paris-diderot.fr/~gc/)  
+> Program Chair: [Andrew D. Gordon](https://onedrive.live.com/view.aspx/adg?cid=c6149b019d236bf5)  
+> Dates: January 18-20, 2017
 
 **Most Influential POPL Paper Award**
 
@@ -43,6 +43,7 @@ The current POPL steering committee is:
 
 **Web Pages of Previous Conferences**  
 
+> [POPL 2016](http://conf.researchr.org/home/POPL-2016)  (St Petersburg, FL)
 > [POPL 2015](http://popl.mpi-sws.org/2015/) (Mumbai, India)  
 > [POPL 2014](http://popl.mpi-sws.org/2014/)  (San Diego, CA)  
 > [POPL 2013](http://popl.mpi-sws.org/2013/)  (Rome, Italy)  
