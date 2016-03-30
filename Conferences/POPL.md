@@ -41,9 +41,9 @@ The current POPL steering committee is:
 
 ----
 
-**Web Pages of Previous Conferences**  
+**Web Pages of Previous Conferences**
 
-> [POPL 2016](http://conf.researchr.org/home/POPL-2016)  (St Petersburg, FL)
+> [POPL 2016](http://conf.researchr.org/home/POPL-2016)  (St Petersburg, FL)  
 > [POPL 2015](http://popl.mpi-sws.org/2015/) (Mumbai, India)  
 > [POPL 2014](http://popl.mpi-sws.org/2014/)  (San Diego, CA)  
 > [POPL 2013](http://popl.mpi-sws.org/2013/)  (Rome, Italy)  

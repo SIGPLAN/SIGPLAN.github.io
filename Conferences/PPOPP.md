@@ -2,15 +2,18 @@
 layout: default
 title: "Principles and Practice of Parallel Programming (PPoPP)"
 ---
-The PPoPP Symposia is the forum for leading papers on the principles and foundations of parallel programming, tools and techniques for parallel programming, and experiences in using parallel programming to solve applications problems.
+The PPoPP Symposia is the forum for leading papers on the principles
+and foundations of parallel programming, tools and techniques for
+parallel programming, and experiences in using parallel programming to
+solve applications problems.
 
 **PPoPP Fast Facts**
 
-> PPoPP 2017
-> Location: Austin, TX
-> General Chair: Vivek Sarkar, Rice University
-> Program Chair: Lawrence Rauchwerger, Texas A&M
-> Dates: Feb 4-8, 2017
+> PPoPP 2017  
+> Location: Austin, TX  
+> General Chair: Vivek Sarkar, Rice University  
+> Program Chair: Lawrence Rauchwerger, Texas A&M  
+> Dates: Feb 4-8, 2017  
 
 **Co-located Events**
 
