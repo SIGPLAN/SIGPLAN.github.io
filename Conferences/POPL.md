@@ -6,7 +6,7 @@ Principles of Programming Languages symposium addresses fundamental
 principles and important innovations in the design, definition,
 analysis, and implementation of programming languages, programming
 systems, and programming interfaces. POPL is in-cooperation with
-[SIGACT](http://www.acm.org/sigact).   
+[SIGACT](http://www.acm.org/sigact) and [SIGLOG](http://www.acm.org/siglog).
 
 
 **POPL Fast Facts**
