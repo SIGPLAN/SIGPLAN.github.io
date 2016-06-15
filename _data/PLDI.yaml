@@ -1,5 +1,27 @@
+2016:
+  Awardee: Emery Berger and Benjamin Zorn
+  Other: |
+    (for 2006) _[DieHard: probabilistic memory safety for unsafe languages](http://dl.acm.org/citation.cfm?id=1134000)_
+  Citation: |
+    The PLDI 2006 "DieHard" paper by Emery Berger and Benjamin Zorn
+    introduced the concept of probabilistic memory safety (for unsafe
+    languages such as C/C++) through three main techniques: (1)
+    randomization of object placement in the heap; (2)
+    overprovisioning of the heap to provide expected gaps between
+    objects; (3) optional replication of processes to enable even
+    greater fault tolerance.  This approach was shown to provide
+    protection against a variety of memory errors, including dangling
+    pointers and buffer overflows, as formalized mathematically and
+    evaluated empirically. By fully randomizing heap object locations
+    in memory -- effectively pushing address-space layout
+    randomization to the individual object level -- DieHard also makes
+    systems more resilient to attack. Variations of DieHard were
+    implemented on Linux, Mac OS, and Windows.  The Windows
+    implementation directly influenced the Fault Tolerant Heap of
+    Windows 7 and the Windows 8 user-mode heap allocator.
+
 2015:
-  Awardee: Chi-Keung Luk, Robert Cohn, Robert Muth, Harish Patil, Artur Klauser, Geoff Lowney, Steven Wallace, Vijay Janapa Reddi, Kim Hazelwood
+  Awardee: Chi-Keung Luk, Robert Cohn, Robert Muth, Harish Patil, Artur Klauser, Geoff Lowney, Steven Wallace, Vijay Janapa Reddi, and Kim Hazelwood
   Other: |
     (for 2005) _[Pin: building customized program analysis tools with dynamic instrumentation](http://dl.acm.org/citation.cfm?id=1065034)_
   Citation: |
@@ -56,7 +78,7 @@
     industry in the embedded systems community.
 
 2012:
-  Awardee: Cormac Flanagan, K. Rustan M. Leino, Mark Lillibridge, Greg Nelson, James B. Saxe, Raymie Stata
+  Awardee: Cormac Flanagan, K. Rustan M. Leino, Mark Lillibridge, Greg Nelson, James B. Saxe, and Raymie Stata
   Other: |
     (for 2002) _[Extended Static Checking for Java](http://dl.acm.org/citation.cfm?doid=512529.512558)_
   Citation: |
@@ -70,7 +92,7 @@
     programs.
 
 2011:
-  Awardee: Thomas Ball, Rupak Majumdar, Todd Millstein, Sriram K. Rajamani
+  Awardee: Thomas Ball, Rupak Majumdar, Todd Millstein, and Sriram K. Rajamani
   Other: |
     (for 2001) _[Automatic predicate abstraction of C programs](http://doi.acm.org/10.1145/378795.378846)_
   Citation: |
@@ -87,7 +109,7 @@
    expand the domains that can be verified.
 
 2010:
-  Awardee: Vasanth Bala, Evelyn Duesterwald, Sanjeev Banerji
+  Awardee: Vasanth Bala, Evelyn Duesterwald, and Sanjeev Banerji
   Other: |
     (for 2000) _[Dynamo: A Transparent Dynamic Optimization System](http://doi.acm.org/10.1145/349299.349303)_
   Citation: |
