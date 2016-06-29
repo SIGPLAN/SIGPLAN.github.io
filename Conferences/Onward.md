@@ -196,7 +196,7 @@ Past Events
     -   Seattle, Washington, USA, November 6-8, 2002
     -   Co-located with OOPSLA 2002
     -   Chair: Richard P. Gabriel
-    -   Keynote speaker:Jerry Michalski
+    -   Keynote speaker: Jerry Michalski
     -   [http://www.oopsla.org/2002/2n\_onward.html](http://www.oopsla.org/2002/2n_onward.html)
     -   Proceedings:
         [http://dreamsongs.com/Files/Onward!Proceedings.pdf](http://dreamsongs.com/Files/Onward!Proceedings.pdf)
