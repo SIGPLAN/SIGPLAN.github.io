@@ -37,6 +37,7 @@ The PLDI Steering Committee is chosen according the the [Practices of PLDI](http
 
 **Web Pages of Previous Conferences**  
 
+- [PLDI 2016](http://conf.researchr.org/home/pldi-2016) (Santa Barbara, CA)
 - [PLDI 2015](http://conf.researchr.org/home/pldi2015) (Portland, OR)
 - [PLDI 2014](http://conferences.inf.ed.ac.uk/pldi2014/)  (Edinburgh, UK)
 - [PLDI 2013](http://pldi2013.ucombinator.org/)  (Seattle, WA)
