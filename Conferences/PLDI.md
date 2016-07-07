@@ -31,22 +31,7 @@ these awards. More details about the SIGPLAN awards can be found
 
 **PLDI Steering Committee**
 
-The PLDI Steering Committee is constituted by the following
-members:
-
--   current and past two SIGPLAN Chairs,
--   current and past vice chair of SIGPLAN,
--   current and past two PLDI General Chairs,
--   current and past two PLDI Program Chairs, and
--   the outgoing Chair of the Steering Committee, for one year past the end of his or her term as Chair.
-
-The Chair of the Steering Committee is elected by the Steering Committee from among the members of the committee to serve a two-year term.  The outgoing chair serves an additional year on the committee past his or her term as chair to provide institutional memory.
-
-The constitution of the steering committee changes each year on
-July 1, with the PLDI chairs changing every year and the SIGPLAN
-chairs/vice chairs changing every third year.
-
-The current PLDI steering committee is:
+The PLDI Steering Committee is chosen according the the [Practices of PLDI](http://www.sigplan.org/sites/default/files/PracticesofPLDI.pdf) document. The current PLDI steering committee is:
 
 {% include committee.liquid name="PLDI Steering Committee" %}
 
