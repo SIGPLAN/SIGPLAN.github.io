@@ -1,7 +1,7 @@
 {% include typeof.liquid value=include.member %}
 {% if type == "nil" || include.member == "-" %}
    {% comment %} blank, so we'll look it up {% endcomment %}
-   {% if include.role == 'SIGPLAN Chair'  or include.role == 'SIGPLAN Vice Chair' or include.role == 'Past SIGPLAN Chair' %} 
+   {% if include.role == 'SIGPLAN Chair' or include.role == 'SIGPLAN Vice Chair' or include.role == 'Past SIGPLAN Chair' or include.role == 'Past SIGPLAN Vice Chair' %} 
      {% assign role = include.role | remove: "SIGPLAN " %}
      {% include role.liquid committee="Elected Members" role=role %}
    {% elsif include.role contains 'SIGPLAN' %}
@@ -18,5 +18,3 @@
 {% else %}
      (( bad type for membership {{ type }} {{ include.member | jsonify }} ))
 {% endif %}
-
-
