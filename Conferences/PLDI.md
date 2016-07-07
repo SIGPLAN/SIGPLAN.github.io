@@ -31,7 +31,7 @@ these awards. More details about the SIGPLAN awards can be found
 
 **PLDI Steering Committee**
 
-The PLDI Steering Committee is chosen according the the [Practices of PLDI](http://www.sigplan.org/sites/default/files/PracticesofPLDI.pdf) document. The current PLDI steering committee is:
+The PLDI Steering Committee is chosen according the [Practices of PLDI](http://www.sigplan.org/sites/default/files/PracticesofPLDI.pdf) document. The current PLDI steering committee is:
 
 {% include committee.liquid name="PLDI Steering Committee" %}
 
