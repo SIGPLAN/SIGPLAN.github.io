@@ -9,11 +9,11 @@ implementation.
 
 **PLDI Fast Facts**
 
-> [PLDI 2016 Web Page](http://conf.researchr.org/home/pldi-2016)  
-> Location: Santa Barbara, California, USA  
-> General Chair: [Chandra Krintz](http://www.cs.ucsb.edu/~ckrintz)  
-> Program Chair: [Emery Berger](http://www.cs.umass.edu/~emery/)  
-> Dates:  June 13-17, 2016  
+> [PLDI 2017 Web Page](http://conf.researchr.org/home/pldi-2017)  
+> Location: Barcelona, Spain  
+> General Chair: [Albert Cohen](https://who.rocq.inria.fr/Albert.Cohen)  
+> Program Chair: [Martin Vechev](http://www.srl.inf.ethz.ch/vechev.php)  
+> Dates:  June 19-23, 2017  
 
 **Practices of PLDI**
 
