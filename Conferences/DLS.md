@@ -12,17 +12,42 @@ provides a place for researchers and practitioners to come together and
 share their knowledge, experience, and ideas for future research and
 development.
 
-DLS 2015
+DLS 2016
 --------
 
--   Pittsburgh, Pennsylvania, USA, October 27, 2015
--   Co-located with SPLASH 2015
--   PC chair: Manuel Serrano (Inria)
--   Invited Speaker: Eelco Visser (TU Delft)
--   [http://www.dynamic-languages-symposium.org/dls-15/](http://www.dynamic-languages-symposium.org/dls-15/)
+-   Amsterdam, The Netherlands, November 1, 2016
+-   Co-located with SPLASH 2016
+-   PC chair: Roberto Ierusalimschy (Pontifícia Universidade Católica do Rio de Janeiro, Brazil)
+-   [http://conf.researchr.org/home/dls-2016/](http://conf.researchr.org/home/dls-2016/)
+-   [http://www.dynamic-languages-symposium.org/dls-16/](http://www.dynamic-languages-symposium.org/dls-16/)
+
+Awards
+------
+
+-   Most Notable Paper Award 2015 for 2005
+    -   Recipient: Pascal Costanza and Robert Hirschfeld
+    -   Title: Language Constructs for Context-oriented Programming--An Overview of ContextL
+    -   Conference: DLS 2005
+    -   Paper:
+        [http://dl.acm.org/citation.cfm?id=1146842](http://dl.acm.org/citation.cfm?id=1146842)
+    -   Citation: The 2005 DLS paper "Language Constructs for
+        Context-oriented Programming: An Overview of ContextL"
+        introduced a framework that enables programmers to modify the
+        behavior of a program based on the context in which it is
+        used, without requiring changes to the original program. This
+        paper triggered a cascade of research on Context-oriented
+        Programming and spawned a community with its own international
+        workshop series, which is still going strong today.
 
 Past Events
 -----------
+
+-   DLS 2015
+    -   Pittsburgh, Pennsylvania, USA, October 27, 2015
+    -   Co-located with SPLASH 2015
+    -   PC chair: Manuel Serrano
+    -   Invited Speaker: Eelco Visser
+    -   [http://www.dynamic-languages-symposium.org/dls-15/](http://www.dynamic-languages-symposium.org/dls-15/)
 
 -   DLS 2014
     -   Portland, Oregon, USA, 2014

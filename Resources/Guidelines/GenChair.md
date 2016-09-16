@@ -13,7 +13,7 @@ please at least skim this page, paying particular attention to the following:
 - SIGPLAN's [conference submission review policy](/Resources/Policies/Review) 
 - SIGPLAN's [diversity policy](/Resources/Policies/Diversity)
 - SIGPLAN's [Republication Policy](/Resources/Policies/Republication)
-- SIGPLAN's [Anti-Harassment Policy](/Resources/Policies/Anti-harassment/)
+- SIGPLAN's [Code of Conduct Policy](/Resources/Policies/CodeOfConduct/)
 - if you plan to request in-cooperation or sponsored status, do so well in advance (twelve or eighteen months, respectively)
 - seek approval for important roles (PC Chair, and for a sponsored event also PC members) from SIGPLAN Vice-Chair, *before* sending invitations
 - consult with the conference Steering Committee before diverging from any existing conventions
@@ -62,7 +62,7 @@ before the date of the conference. If you are unsure as to whether you
 need to submit a request form, ask the [SIGPLAN Vice
 Chair](mailto:vc_sigplan@acm.org?subject=SIGPLAN%20Sponsorship).  An
 ACM [preliminary approval
-form](http://www.acm.org/sigs/volunteer_resources/prelimpage) (PAF)
+form](http://cms.acm.org/tmrf/cms_paf.cfm) (PAF)
 must be submitted in order to issue a call for papers.  Submitting a
 PAF also causes the conference to be added to ACM's master calendar.
 
@@ -96,10 +96,7 @@ Organizational Team
 Select other members of the organizational team (e.g., local
 arrangements chair, publicity chair, publications chair, tutorial
 chair, etc). Send the names to the SIGPLAN Chair and Vice-Chair,
-one year before the event.  Complete the [TMRF budget
-form](http://www.acm.org/sig_volunteer_info/conference_manual/sponstmrfpage.htm).
-The budget must include line items for [contingency and return-to-SIG
-fees](/Resources/Guidelines/Budget).
+one year before the event.
 
 Local arrangements (such as registration and hotel management) for the
 main SIGPLAN conferences PLDI, OOPSLA, POPL, and ICFP are usually
@@ -107,10 +104,20 @@ handled by a professional organization.
 
 The conference steering committee should be consulted about any
 changes to the accepted way of organizing and running the
-conference.  
+conference.
 
-Finances
---------
+Budget and Finances
+-------------------
+
+Complete the [TMRF budget
+form](http://www.acm.org/sigs/sigs/volunteer_resources/conference_manual/sponstmrfpage).
+The budget must include line items for [contingency and return-to-SIG
+fees](/Resources/Guidelines/Budget).
+
+SIGPLAN's general guideline is that the conference may offer
+complimentary registration and travel/lodging for keynote speakers and
+may offer complimentary registration for one tutorial speaker per
+tutorial.
 
 ACM handles the bank accounts for sponsored conferences. Send email to
 the [ACM Representative to SIGPLAN](mailto:spinola@hq.acm.org?subject=Conference%20advance)
@@ -142,6 +149,12 @@ submit a proposal to the SIGPLAN Vice-Chair, as specified in the
 [In-Cooperation](/Resources/Proposals/Cooperated) or
 [Sponsorship](/Resources/Proposals/Sponsored) 
 web pages.
+
+SIGPLAN's general guideline is that the conference does not provide
+additional funds to workshops to pay travel or registration costs for
+workshop organizers, keynote speakers, or other dignitaries. This
+guideline is not strict, and may be broken under certain
+circumstances.
 
 Preparing the Programme
 -----------------------
@@ -182,7 +195,7 @@ _ACM Representative to SIGPLAN_ (Fran Spinola):
 See Also
 --------
 
--   [Calendar of Upcoming SIGPLAN Conferences](http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN)
+- [Calendar of Upcoming SIGPLAN Conferences](http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN)
 - ACM's *[How to Organize a Conference](http://www.acm.org/sigs/volunteer_resources/conference_manual/conference_manual-toc)* manual
 - [ACM's How to Organize a Conference](http://www.acm.org/sig_volunteer_info/conference_manual/prelimpage.htm)
 - SIGPLAN conference style [LaTeX class file](/sites/default/files/Author/sigplanconf.cls),
@@ -191,14 +204,14 @@ See Also
 - "[Where did all the money go? SIGPLAN conference finances for beginners](/sites/default/files/SIGPLAN_conference_finances_for_beginners.pdf)", Andrew Black, to appear in SIGPLAN Notices.
 
 Some columns containing useful advice for conference organizers have
-been published in _SIGPLAN Notices_ over the years:
+been published in _SIGPLAN Notices_ and elsewhere over the years:
 
--   [Experiences with Author Response at PLDI and ICFP 2004](http://portalparts.acm.org/1060000/1052883/fm/frontmatter.pdf),
-        Kathleen Fisher and Craig Chambers, (*SIGPLAN Notices*, Dec. 2004)
--   [Conferences with improved management and style](http://portalparts.acm.org/1140000/1137933/fm/frontmatter.pdf),
-        Philip Wadler (*SIGPLAN Notices*, Feb. 2006)
--   [SIGPLAN EC Activities: Vice Chair Report](http://portalparts.acm.org/1150000/1149982/fm/frontmatter.pdf),
-        Kathleen Fisher (*SIGPLAN Notices*, May 2006)
--   [A Report from the POPL 2007 Chairman](http://portalparts.acm.org/1230000/1229493/fm/frontmatter.pdf),
-        Matthias Felleisen (*SIGPLAN Notices*, December 2006)
--   [How to chair a conference](http://portalparts.acm.org/1990000/1988042/fm/frontmatter.pdf), Alex Aiken (*SIGPLAN Notices*, April 2011).  
+- [Experiences with Author Response at PLDI and ICFP 2004](http://portalparts.acm.org/1060000/1052883/fm/frontmatter.pdf), Kathleen Fisher and Craig Chambers, (*SIGPLAN Notices*, Dec. 2004)
+- [Conferences with improved management and style](http://portalparts.acm.org/1140000/1137933/fm/frontmatter.pdf), Philip Wadler (*SIGPLAN Notices*, Feb. 2006)
+- [SIGPLAN EC Activities: Vice Chair Report](http://portalparts.acm.org/1150000/1149982/fm/frontmatter.pdf), Kathleen Fisher (*SIGPLAN Notices*, May 2006)
+- [A Report from the POPL 2007 Chairman](http://portalparts.acm.org/1230000/1229493/fm/frontmatter.pdf), Matthias Felleisen (*SIGPLAN Notices*, December 2006)
+- [How to chair a conference](http://portalparts.acm.org/1990000/1988042/fm/frontmatter.pdf), Alex Aiken (*SIGPLAN Notices*, April 2011)
+- [POPL'12 program chair's report: (or, how to run a medium-sized conference)](http://dl.acm.org/citation.cfm?id=2442779), Michael Hicks (*SIGPLAN Notices*, April 2012)
+- [Artifact evaluation for software conferences](http://dl.acm.org/citation.cfm?id=2502518), Shriram Krishnamurthi (*SIGPLAN Notices*, April 2013)
+- [The OOPSLA two-phase review process](http://dl.acm.org/citation.cfm?id=2641648), Cristina V. Lopes (*SIGPLAN Notices*, April 2014)
+- [A Handbook for [ECOOP] PC Chairs](http://www.pps.univ-paris-diderot.fr/~gc/papers/pc-handbook.pdf), Giuseppe Castagna

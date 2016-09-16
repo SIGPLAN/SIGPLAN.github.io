@@ -4,9 +4,11 @@ title: "Policies Regarding Review of Conference Papers"
 ---
 **Confidentiality**
 
-Papers under consideration for publication should not be distributed or disclosed to any individual, except with the explicit authorization of the Program Chair for purpose of review. Accepted papers are considered unpublished until the day of the conference, and should not be discussed outside the program committee without explicit permission from the authors. All reviewers must be made aware that submissions are unpublished works, and in no case should they duplicate them, pass them on to other people, or discuss them with people other than the members of the program committee. The program chair should keep a record of the external reviewers used to review submissions.
+Papers under consideration for publication should not be distributed or disclosed to any individual, except with the explicit authorization of the program chair for purpose of review. Accepted papers are considered unpublished until the day of the conference, and should not be discussed outside the program committee without explicit permission from the authors. All reviewers must be made aware that submissions are unpublished works, and in no case should they duplicate them, pass them on to other people, or discuss them with people other than the members of the program committee. The program chair should keep a record of the external reviewers used to review submissions.
 
 Anonymized reviews are the non-exclusive property of the authors of the reviewed paper: they can be made public or attached to resubmissions of the paper. Anonymized reviews can also be analyzed under the auspices of SIGPLAN for research purposes such as evaluation of bias.
+
+The title, authors, acceptance status, and other metadata (including discussion summaries, if they exist) can be shared under the discretion of the program chair, when there is an expectation of legitimate benefit for other SIGPLAN processes (such as a related review committee, or an artifact evaluation process).
 
 **Conflicts**
 

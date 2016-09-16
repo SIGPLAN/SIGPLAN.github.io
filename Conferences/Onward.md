@@ -3,23 +3,36 @@ layout: default
 title: "Onward!"
 ---
 Symposium on New Ideas in Programming and Reflections on Software
-(Onward!) Onward! is a forum for new ideas and paradigms for every
+(Onward!) is a forum for new ideas and paradigms for every
 aspect of programming. Welcomed are papers that propose and argue for
 new approaches to the creation of software as well as reflections on
 technology and ideas bearing on programming broadly construed.
 
-Onward! 2015
+Onward! 2016
 ------------
 
--   Pittsburgh, Pennsylvania, USA, October 28-30, 2015
--   Co-located with SPLASH 2015
--   Papers chair: Gail Murphy (University of British Columbia)
--   Essays chair: Guy L. Steele Jr. (Oracle Labs)
--   Keynote speaker: Rob DeLine (Microsoft Research)
--   [http://2015.splashcon.org/](http://2015.splashcon.org/)
+-   Amsterdam, The Netherlands, November 2-4, 2016
+-   Co-located with SPLASH 2016
+-   Papers chair: Emerson Murphy-Hill (North Carolina State University)
+-   Essays chair: Cristina Videira Lopes (University of California at Irvine)
+-   [http://2016.splashcon.org/](http://2016.splashcon.org/)
+-   [http://conf.researchr.org/track/onward2016/onward-2016-papers/](http://conf.researchr.org/track/onward2016/onward-2016-papers/)
+-   [http://conf.researchr.org/track/onward2016/onward2016-essays/](http://conf.researchr.org/track/onward2016/onward2016-essays/)
 
 Awards
 ------
+
+-   Most Notable Paper Award 2015 for 2005
+    -   Recipient: Jonathan Edwards
+    -   Title: Subtext--Uncovering the Simplicity of Programming
+    -   Conference: Onward! 2005
+    -   Paper:
+        [http://dl.acm.org/citation.cfm?id=1094811.1094851](http://dl.acm.org/citation.cfm?id=1094811.1094851)
+    -   Citation: The 2005 Onward! paper "Subtext--Uncovering the
+        Simplicity of Programming" presented a new kind of
+        programming, unifying programs and their execution, and which
+        helped establish Onward! as a forum for high-end, lateral
+        thinking about programming.
 
 -   Most Notable Paper Award 2014 for 2004
     -   Recipient: Tim Sheard
@@ -71,6 +84,15 @@ Awards
 Past Events
 -----------
 
+-   Onward! 2015
+    -   Pittsburgh, Pennsylvania, USA, October 28-30, 2015
+    -   Co-located with SPLASH 2015
+    -   Papers chair: Gail Murphy
+    -   Essays chair: Guy L. Steele Jr.
+    -   Keynote speaker: Rob DeLine
+    -   [http://2015.splashcon.org/track/onward2015-papers/](http://2015.splashcon.org/track/onward2015-papers/)
+    -   [http://2015.splashcon.org/track/onward2015-essays/](http://2015.splashcon.org/track/onward2015-essays/)
+
 -   Onward! 2014
     -   Portland, Oregon, USA, October 22-24, 2014
     -   Co-located with SPLASH 2014
@@ -102,7 +124,7 @@ Past Events
     -   Co-located with SPLASH 2011
     -   General chair: Robert Hirschfeld
     -   General co-chair: Richard P. Gabriel
-    -   PC chair: Eelco Visser
+    -   Papers chair: Eelco Visser
     -   Essays chair: David West
     -   Keynote speaker: Markus P&#252;schel
     -   [http://onward-conference.org/2011/](http://onward-conference.org/2011/)
@@ -111,7 +133,7 @@ Past Events
     -   Reno, Nevada, USA, October 19-21, 2010
     -   Co-located with SPLASH 2010
     -   General chair: Siobh&#225;n Clarke
-    -   PC chair: Kevin Sullivan
+    -   Papers chair: Kevin Sullivan
     -   Essays chair: Daniel Steinberg
     -   Keynote speaker: Benjamin C. Pierce
     -   [http://onward-conference.org/2010/](http://onward-conference.org/2010/)
@@ -121,7 +143,7 @@ Past Events
     -   Orlando, Florida, USA, October 27-29, 2009
     -   Co-located with OOPSLA 2009
     -   General chair: Bernd Bruegge
-    -   PC chair: Yvonne Coady
+    -   Papers chair: Yvonne Coady
     -   Essays chair: Simon Peyton-Jones
     -   Essays assistant chair: Richard P. Gabriel
     -   Keynote speaker: Thomas Malone
@@ -174,7 +196,7 @@ Past Events
     -   Seattle, Washington, USA, November 6-8, 2002
     -   Co-located with OOPSLA 2002
     -   Chair: Richard P. Gabriel
-    -   Keynote speaker:Jerry Michalski
+    -   Keynote speaker: Jerry Michalski
     -   [http://www.oopsla.org/2002/2n\_onward.html](http://www.oopsla.org/2002/2n_onward.html)
     -   Proceedings:
         [http://dreamsongs.com/Files/Onward!Proceedings.pdf](http://dreamsongs.com/Files/Onward!Proceedings.pdf)
@@ -184,26 +206,28 @@ Steering Committee Members
 
 ### Present
 
-* Kevin Sullivan, University of Virginia, USA (chair)
-* Jonathan Aldrich, Carnegie Mellon University, USA
-* Andrew Black, Portland State University, USA
-* Bernd Bruegge, TU M&#252;nchen, Germany
-* Yvonne Coady, University of Victoria, Canada
-* Jonathan Edwards, Massachusetts Institute of Technology, USA
-* Richard P. Gabriel, IBM Research, USA
-* Robert Hirschfeld, Hasso Plattner Institute Potsdam, Germany
-* Antony Hosking, Purdue University, USA
-* Shriram Krishnamurthi, Brown University, USA
-* Emerson Murphy-Hill, North Carolina State University, USA
-* Cristina Videira Lopes, University of California at Irvine, USA
-* Gail Murphy, University of British Columbia, Canada
-* Guy L. Steele Jr., Oracle Labs, USA
+* Robert Hirschfeld, Hasso Plattner Institute Potsdam, Germany (SC Chair)
+* Jonathan Aldrich, Carnegie Mellon University, USA (SPLASH General Chair 2015)
+* Robert Biddle, Carleton University, Canada (Essays Chair 2017)
+* Andrew Black, Portland State University, USA (SPLASH General Chair 2014)
+* Bernd Bruegge, TU M&#252;nchen, Germany (Essays Chair 2014)
+* Yvonne Coady, University of Victoria, Canada (Papers Chair 2009)
+* Jonathan Edwards, Massachusetts Institute of Technology, USA (Papers Chair 2012)
+* Richard P. Gabriel, IBM Research, USA (General Chair 2011)
+* Antony Hosking, Purdue University, USA (SPLASH General Chair 2013)
+* Shriram Krishnamurthi, Brown University, USA (Papers Chair 2014)
+* Emerson Murphy-Hill, North Carolina State University, USA (Papers Chair 2016)
+* Cristina Videira Lopes, University of California at Irvine, USA (Essays Chair 2016)
+* Gail Murphy, University of British Columbia, Canada (Papers Chair 2015)
+* Guy L. Steele Jr., Oracle Labs, USA (Essays Chair 2015)
+* Kevin Sullivan, University of Virginia, USA (Past SC Chair 2015)
 * Peter Thiemann, University of Freiburg, Germany (SIGPLAN)
-* Eelco Visser, Delft University of Technology, The Netherlands
+* Emina Torlak, University of Washington, USA (Papers Chair 2017)
+* Eelco Visser, Delft University of Technology, The Netherlands (Papers Chair 2011, SPLASH General Chair 2016)
 
 ### Past
 
-* Elisa Baniassad, Australian National University, Australia (chair)
+* Elisa Baniassad, Australian National University, Australia (SC Chair)
 * Robert Biddle, Carleton University, Canada 
 * Siobh&#225;n Clarke, Trinity College, Ireland 
 * Geoff A. Cohen, Elysium Digital, USA

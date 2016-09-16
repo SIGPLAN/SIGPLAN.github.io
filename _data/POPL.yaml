@@ -1,6 +1,26 @@
+2016:
+  Awardee: Xavier Leroy
+  Other: |
+    (for 2006) _[Formal certification of a compiler back-end or: programming a compiler with a proof assistant](http://dl.acm.org/citation.cfm?doid=1111037.1111042)_
+  Citation: |
+    This paper presents the CompCert compiler, a landmark effort in
+    program verification.  The paper was (and still is) groundbreaking
+    in that it demonstrates the feasibility of using an interactive
+    theorem prover -- specifically, Coq -- to both program and
+    formally verify a realistic compiler -- specifically, the backend
+    of an optimizing compiler for a significant subset of C.  The
+    verification ensures that properties proved about C source code
+    continue to hold of the assembly output of the compiler, thereby
+    filling a major gap in the development of high-assurance software
+    and facilitating a great deal of follow-on work on verified
+    software toolchains.  Moreover, CompCert made a convincing case
+    that theorem-proving technology is mature enough to be applied to
+    the full functional verification of realistic systems, and in so
+    doing heralded a new age of "big verification".
+
+
 2015:
-  Awardee: [Nate Foster, Michael B. Greenwald, Jonathan T. Moore, Benjamin C.
-Pierce, Alan Schmitt]
+  Awardee: Nate Foster, Michael B. Greenwald, Jonathan T. Moore, Benjamin C. Pierce, Alan Schmitt
   Other: |
     (for 2005) _[Combinators for Bidirectional Tree Transformations: A Linguistic Approach to the View Update Problem](http://dl.acm.org/citation.cfm?doid=1040305.1040325)_
   Citation: |
@@ -23,7 +43,7 @@ Pierce, Alan Schmitt]
 
 
 2014:
-  Awardee: [Thomas Henzinger, Ranjit Jhala, Rupak Majumdar, Kenneth McMillan]
+  Awardee: Thomas Henzinger, Ranjit Jhala, Rupak Majumdar, Kenneth McMillan
   Other: |
     (for 2004) _[Abstractions from proofs](http://dl.acm.org/citation.cfm?id=964021)_
   Citation: |
@@ -41,7 +61,7 @@ Pierce, Alan Schmitt]
     analysis.
 
 2013:
-  Awardee: [David F Bacon, Perry Cheng, VT Rajan]
+  Awardee: David F. Bacon, Perry Cheng, VT Rajan
   Other: |
     (for 2003) _[A real-time garbage collector with low overhead and consistent utilization](http://dl.acm.org/citation.cfm?id=604155&CFID=186511822&CFTOKEN=35702610)_
   Citation: |
@@ -65,10 +85,9 @@ Pierce, Alan Schmitt]
     real-time garbage collection into a reality.
 
 2012:
-  Awardee: George C. Necula, Scott McPeak, and Westley Weimer, University of California, Berkeley"
+  Awardee: George C. Necula, Scott McPeak, and Westley Weimer
   Other: |
     (for 2002) _[CCured: Type-Safe Retrofitting of Legacy Code](http://dl.acm.org/citation.cfm?id=1065892)_
-
   Citation:
     This paper showed a path to taking legacy C code and
     making it safer, by adding type safety guarantees to

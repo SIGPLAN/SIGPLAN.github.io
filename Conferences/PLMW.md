@@ -8,11 +8,32 @@ We especially encourage women and underrepresented minority students to attend P
 
 **PLMW Fast Facts**
 
-> [PLMW 2014 Web Page](http://plmw2014.inria.fr/)  
-> Location: San Diego, USA  
+> [PLMW @ PLDI'16 Web Page](http://conf.researchr.org/track/pldi-2016/PLMW-PLDI-2016)  
+> Location: Santa Barbara, CA, USA  
+> Chairs: [Mary Hall](http://www.cs.utah.edu/~mhall) and [Ben Wiedermann](http://www.cs.hmc.edu/~benw)  
+> Date: June 14, 2016
 
+> [PLMW @ ICFP'16 Web Page](http://conf.researchr.org/track/icfp-2016/PLMW-ICFP-2016)  
+> Location: Nara, Japan  
+> Chairs: [Amal Ahmed](http://www.ccs.neu.edu/home/amal/), [Robby Findler](http://www.eecs.northwestern.edu/~robby/), and [Atsushi Igarashi](http://www.fos.kuis.kyoto-u.ac.jp/~igarashi/)  
+> Date: September 18, 2016
+
+> [PLMW @ SPLASH'16 Web Page](http://2016.splashcon.org/track/splash-2016-plmw)  
+> Location: Amsterdam, the Netherlands  
+> Chairs: Forthcoming  
+> Date: Forthcoming
+
+> PLMW @ POPL'17  
+> Location: Paris, France  
+> Chairs: [Alexandra Silva](http://www.alexandrasilva.org/)  
+> Date: Forthcoming
 
 **Web Pages of Previous Conferences**  
 
-- [PLMW 2013](http://www.doc.ic.ac.uk/~gds/PLMW/) (Rome, Italy)  
-- [PLMW 2012](http://www.seas.upenn.edu/~sweirich/plmw12/) (Philadelphia, PA)  
+- [PLMW @ POPL'16](http://conf.researchr.org/track/POPL-2016/PLMW-2016-home) (St. Petersburg, FL, USA)
+- [PLMW @ SPLASH'15](http://2015.splashcon.org/track/splash2015-plmw) (Pittsburgh, PA, USA)
+- [PLMW @ ICPF'15](https://www.cis.upenn.edu/~sweirich/icfp-plmw15) (Vancouver, Candada)
+- [PLMW @ POPL'15](http://plmw15.iisc-seal.net) (Mumbai, India)
+- [PLMW @ POPL'14](http://plmw2014.inria.fr/) (San Diego, CA, USA)
+- [PLMW @ POPL'13](http://www.doc.ic.ac.uk/~gds/PLMW/) (Rome, Italy)
+- [PLMW @ POPL'12](http://www.seas.upenn.edu/~sweirich/plmw12/) (Philadelphia, PA, USA)
