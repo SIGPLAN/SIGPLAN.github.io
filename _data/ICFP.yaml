@@ -1,3 +1,25 @@
+2016:
+  Awardee: Simon Peyton Jones, Dimitrios Vytiniotis, Stephanie Weirich, and Geoffrey Washburn
+  Other: |
+    (for 2006) _[Simple unification-based type inference for GADTs](http://dl.acm.org/citation.cfm?id=1159811)_
+  Citation: |
+    GADTs are a simple but powerful generalization of the recursive
+    algebraic datatypes introduced in Hope and a central feature of
+    functional programming languages like ML and Haskell.  GADTs have
+    become an important technique in the programmer's toolbox,
+    enabling a lightweight style of dependently typed programming,
+    similar to the use of inductive families.  However, type inference
+    is difficult for GADTs, as they necessarily entail the loss of
+    principal types.  This paper shows how to exploit a few type
+    annotations in order to make inference possible again. The key
+    innovation is the notion of "wobbly types".  It has started a
+    lively line of research in new approaches to combining type
+    inference and type checking - in particular with System FC, an
+    extension of System F with constraints, that has provided a simple
+    yet powerful internal language for the GHC compiler - and made
+    many of the benefits of dependent types accessible to more
+    mainstream programmers.
+
 2015:
   Awardee: Manuel M. T. Chakravarty, Gabriele Keller, and Simon Peyton Jones
   Other: |
