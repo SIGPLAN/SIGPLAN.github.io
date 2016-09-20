@@ -1,3 +1,41 @@
+2016:
+  Awardee: Simon Peyton Jones
+  Citation: |
+
+    Simon Peyton Jones is widely known as an essential force behind
+    the design, implementation, evolution, and remarkable success of
+    the Haskell language and the Glasgow Haskell Compiler for more
+    than twenty years.  His role as a primary designer of the Haskell
+    language and the GHC implementation of Haskell has produced a
+    platform for hundreds of researchers and many more developers.
+    Indeed, GHC is unparalleled for achieving what might otherwise be
+    seen as an engineering impossibility: the leading implementation
+    of an increasingly popular programming language for both research
+    experimentation and serious industrial use.  While the rise of
+    Haskell and GHC -- and its influence on other languages -- is the
+    shared result of a vibrant community of many, it is also fair to
+    describe it as inextricable from Simon's career.
+
+    Among Simon's technical contributions to language design is
+    leading work in monadic I/O, type classes, generalized abstract
+    data types, composable transactional memory, generic programming
+    via "scrap your boilerplate", advances in type inference, and
+    more.  His work on functional-language implementation has been no
+    less influential and wide-ranging, with a compiler design based on
+    a typed intermediate language and optimizations expressed via
+    declarative rewriting.  In making Haskell a practical language, he
+    collaborated to design and implement novel approaches to
+    concurrency, foreign function interfaces, space profiling, and
+    nested data parallelism.
+
+    Beyond all these technical advances and many more, Simon is widely
+    recognized as a visionary leader in the field, an articulate
+    writer, an extraordinarily effective speaker, an agent of change
+    in computing education, a generous collaborator, and a peerless
+    mentor.  His remarkable contributions to the field of programming
+    languages arise from technical sophistication, impeccable taste,
+    boundless enthusiasm, and charismatic leadership.
+
 2015:
   Awardee: Luca Cardelli
   Citation: |
