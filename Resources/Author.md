@@ -71,6 +71,8 @@ Please review SIGPLAN's
 If you would like some advice on how to write submissions, here are
 some suggestions by
 
+-   Derek Dreyer:
+    [How to Write Papers So People Can Read Them](https://www.youtube.com/watch?v=L_6xoMjFr70)
 -   Simon Peyton Jones:
     [How to write a good research paper, give a good research talk, and write a good grant proposal](http://research.microsoft.com/~simonpj/papers/giving-a-talk/giving-a-talk.htm)
 -   Donald E. Knuth, Tracy Larrabee and Paul M. Roberts:
