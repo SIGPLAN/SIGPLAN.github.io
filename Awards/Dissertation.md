@@ -14,9 +14,9 @@ All questions about the John C. Reynolds Doctoral Dissertation Award should be d
 **Nominations**
 
 Nominations must be submitted via the SIGPLAN Awards Nomination Portal
-at <https://awards.sigplan.org/nominate/reynolds/> by January 5th 2016
+at <https://awards.sigplan.org/nominate/reynolds/> by January 5th 2017
 (anywhere on earth) to be considered for this year's award. The
-nominated dissertation must have been awarded in 2015 and be available
+nominated dissertation must have been awarded in 2016 and be available
 in English (to facilitate evaluation by the selection committee).
 
 A nomination consists of the following items:
@@ -54,14 +54,14 @@ never worked with Reynolds nevertheless built on his ideas.
 
 **Selection Committee**
 
+ * [Derek Dreyer](https://www.mpi-sws.org/~dreyer/) - Max Planck Institute for Software Systems <mailto:dreyer@mpi-sws.org>
  * [Susan Eisenbach](http://www.imperial.ac.uk/people/s.eisenbach) - Imperial College London (SIGPLAN member and Chair) <mailto:s.eisenbach@imperial.ac.uk>
+ * [Martin Erwig](http://web.engr.oregonstate.edu/~erwig/) – Oregon State University <mailto:erwig@oregonstate.edu>
+ * [Nate Foster](http://www.cs.cornell.edu/~jnfoster/) – Cornell University <mailto:jnfoster@cs.cornell.edu>
+ * [Georges Gonthier](http://www.msr-inria.fr/researchers/georges-gonthier/) – Inria <mailto:georges.gonthier@inria.fr>
+ * [Arie Gurfinkel](https://uwaterloo.ca/electrical-computer-engineering/people-profiles/arie-gurfinkel)  - University of Waterloo <mailto:arie.gurfinkel@uwaterloo.ca>
  * [Mike Hicks](http://www.cs.umd.edu/~mwh/) - University of Maryland (ex officio member as SIGPLAN Chair) <mailto:mwh@cs.umd.edu>
- * [Antony Hosking](http://hosking.github.io) - Australian National University, NICTA, and Purdue University <mailto:antony.hosking@anu.edu.au>
- * [Marieke Huisman](http://wwwhome.ewi.utwente.nl/~marieke/) - University of Twente <mailto:m.huisman@utwente.nl>
- * [Suresh Jagannathan](http://www.cs.purdue.edu/homes/suresh/) - Purdue University <mailto:suresh@cs.purdue.edu>
- * [Tiziana Margaria ](http://www.lero.ie/people/tizianamargaria) - University of Limerick and Lero <mailto:tiziana.margaria@lero.ie>
- * [Keiko Nakata](http://cs.ioc.ee/~keiko/) - FireEye Dresden <mailto:keiko.nakata@fireeye.com>
- * [James Noble](http://homepages.ecs.vuw.ac.nz/~kjx/) - Victoria University of Wellington <mailto:kjx@ecs.vuw.ac.nz>
- * [Anthony Sloane](https://www.comp.mq.edu.au/~asloane) - Macquarie University <mailto:anthony.sloane@mq.edu.au>
- * [Eijiro Sumii](http://www.kb.ecei.tohoku.ac.jp/~sumii/) - Tohoku University <mailto:sumii@ecei.tohoku.ac.jp>
- * [Elena Zucca](http://www.disi.unige.it/person/ZuccaE/) - University of Genoa <mailto:elena.zucca@unige.it>
+ * [Andreas Podelski](https://swt.informatik.uni-freiburg.de/staff/podelski) – University of Freiburg <mailto:podelski@informatik.uni-freiburg.de>
+ * [Alexandra Silva](http://www.alexandrasilva.org/#/main.html) – University College London <mailto:alexandra.silva@ucl.ac.uk>
+ * [Mooly Sagiv](http://www.cs.tau.ac.il/~msagiv/) – Tel Aviv University <mailto:msagiv@acm.org>
+
