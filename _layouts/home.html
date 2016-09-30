@@ -33,39 +33,40 @@
             {% assign award_label = award[0] %}
             {% assign award_name = award[1] %}
             {% assign path = award_label | prepend: 'Awards/' %}
-            {% assign recipients = site.data[award_label] %}
+            {% assign awards = site.data[award_label] %}
             {% assign year = 0 %}
-            {% assign recent_recipient = award_label | prepend: "can not find " | append: "'s most recent recipient" %}
-            {% for awardee in recipients %}
-              {% assign tmp = awardee[0] | plus: 0 %}
+            {% for award in awards %}
+              {% assign tmp = award[0] | plus: 0 %}
               {% if tmp > year %}
                 {% assign year = tmp %}
-                {% assign recent_recipient = awardee[1] %}
               {% endif %}
             {% endfor %}
-            {% if recent_recipient["Awardee"] <> nil %}
-              {% assign recent_recipient_awardee = recent_recipient["Awardee"] %}
-            {% else %}
-              {% assign recent_recipient_awardee = recent_recipient %}
-            {% endif %}
-            {% if recent_recipient_awardee[0] <> nil %}
-              {% assign recent_recipient_awardee = recent_recipient_awardee | array_to_sentence_string %}
-            {% endif %}
+            {% assign recent_recipients = awards[year] %}
 
-            {% if award_label == "ACMFellows" %}
+            {% case award_label %}
+            {% when "ACMFellows" %}
             <h5><a href="{{path}}">{{award_name}}</a> (recognized in {{year}})</h5>
-            {% else %}
-            <h5><a href="{{path}}">{{award_name}}</a> (presented in {{year}})</h5>
-            {% endif %}
             <ul>
               <li>
-                <a href="{{path}}#{{year}}">{{ recent_recipient_awardee }}</a>
-                {% if recent_recipient["Other"] <> nil %}
-                  {% assign recent_recipient_other = recent_recipient["Other"] %}
-                  {{recent_recipient_other | markdownify}}
-                {% endif %}
+                <a href="{{path}}#{{year}}">{{ recent_recipients | array_to_sentence_string }}</a>
               </li>
             </ul>
+
+            {% else %}
+            <h5><a href="{{path}}">{{award_name}}</a> (presented in {{year}})</h5>
+            <ul>
+              {% for recipient in recent_recipients %}
+              <li>
+                <a href="{{path}}#{{year}}_{{ recipient["Awardee"] | replace: " ", "_" | replace: ",", "_" }}">{{ recipient["Awardee"] }}</a>
+                {% if recipient["Other"] <> nil %}
+                  {{ recipient["Other"] | markdownify}}
+                {% endif %}
+              </li>
+              {% endfor %}
+            </ul>
+
+            {% endcase %}
+
           {% endfor %}          
           {% include links.liquid data=site.data.Links links="SIGPLAN Sponsored Conferences" %}
         </div>

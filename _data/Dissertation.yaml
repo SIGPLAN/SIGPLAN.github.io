@@ -1,5 +1,5 @@
 2015:
-  Awardee: "Mark Batty, University of Cambridge"
+- Awardee: "Mark Batty, University of Cambridge"
   Other: |
     _[The C11 and C++11 Concurrency Model](/Awards/Dissertation/2015_batty.pdf)_
   Advisor: Peter Sewell
@@ -23,7 +23,7 @@
     presentation.
 
 2014:
-  Awardee: "Aaron Turon, Northeastern University"
+- Awardee: "Aaron Turon, Northeastern University"
   Other: |
     _[Understanding and Expressing Scalable Concurrency](/Awards/Dissertation/2014_turon.pdf)_
   Advisor: Mitchell Wand
@@ -44,7 +44,7 @@
     of the work, as well as the elegance of the exposition.
 
 2013:
-  Awardee: "Patrick Rondon, University of California, San Diego"
+- Awardee: "Patrick Rondon, University of California, San Diego"
   Other: |
     _[Verifying Low-Level Programs via Liquid Type Inference](/Awards/Dissertation/2013_rondon.pdf)_
   Advisor: Ranjit Jhala
@@ -66,7 +66,7 @@
     the clarity of the presentation.
 
 2012:
-  Awardee: "Dan Marino, University of California Los Angeles"
+- Awardee: "Dan Marino, University of California Los Angeles"
   Other: |
     _[Simplified Semantics and Debugging of Concurrent Programs via Targeted Race Detection](/Awards/Dissertation/2012_marino.pdf)_
   Advisor: Todd Millstein
@@ -97,7 +97,7 @@
       - Adam Welc (Oracle)
 
 2010:
-  Awardee: "Robert L. Bocchino, University of Illinois at Urbana-Champaign"
+- Awardee: "Robert L. Bocchino, University of Illinois at Urbana-Champaign"
   Other: |
     _[An Effect System and Language for Deterministic-by-Default Parallel Programming](/Awards/Dissertation/2010_bocchino.pdf)_
   Advisor: Vikram Adve
@@ -122,75 +122,75 @@
     Peter Sewell, Peter Thiemann
 
 2009:
-  - Awardee: "Akash Lal, University of Wisconsin"
-    Other: |
-      _[Interprocedural Analysis and the Verification of Concurrent Programs](/Awards/Dissertation/2009_lal.pdf)_
-    Advisor: Thomas Reps
-    Citation: |
-      This dissertation develops improvements to interprocedural
-      program analysis through context-bounded analysis and through
-      Lal's extended weighted push down systems, which generalize
-      weighted push down systems to handle local variables. The
-      dissertation describes both algorithms and experiments, and it
-      shows, for example, a 30-fold speedup over existing algorithms
-      for analyzing concurrent programs. The members of the award
-      committee were impressed by the unusual scope and depth of the
-      dissertation and its excellent presentation.
+- Awardee: "Akash Lal, University of Wisconsin"
+  Other: |
+    _[Interprocedural Analysis and the Verification of Concurrent Programs](/Awards/Dissertation/2009_lal.pdf)_
+  Advisor: Thomas Reps
+  Citation: |
+    This dissertation develops improvements to interprocedural program
+    analysis through context-bounded analysis and through Lal's
+    extended weighted push down systems, which generalize weighted
+    push down systems to handle local variables. The dissertation
+    describes both algorithms and experiments, and it shows, for
+    example, a 30-fold speedup over existing algorithms for analyzing
+    concurrent programs. The members of the award committee were
+    impressed by the unusual scope and depth of the dissertation and
+    its excellent presentation.
 
-  - Awardee: "William Thies, Massachusetts Institute of Technology"
-    Other: |
-      _[Language and Compiler Support for Stream Programs](/Awards/Dissertation/2009_thies.pdf)_
-    Advisor: Saman Amarasinghe
-    Citation: |
-      This dissertation describes the StreamIt synchronous dataflow
-      language, for which Thies led the definition. The language
-      supports several novel constructs, notably teleport
-      messaging. Thies's dissertation includes a technique for
-      processing compressed video data, and it also describes dynamic
-      analysis techniques to convert legacy C applications to
-      streaming applications. The members of the award committee were
-      impressed with the novelty, interdisciplinary nature, and
-      breadth of the work, the care given to evaluation, and the
-      quality of the presentation.
+- Awardee: "William Thies, Massachusetts Institute of Technology"
+  Other: |
+    _[Language and Compiler Support for Stream Programs](/Awards/Dissertation/2009_thies.pdf)_
+  Advisor: Saman Amarasinghe
+  Citation: |
+    This dissertation describes the StreamIt synchronous dataflow
+    language, for which Thies led the definition. The language
+    supports several novel constructs, notably teleport
+    messaging. Thies's dissertation includes a technique for
+    processing compressed video data, and it also describes dynamic
+    analysis techniques to convert legacy C applications to streaming
+    applications. The members of the award committee were impressed
+    with the novelty, interdisciplinary nature, and breadth of the
+    work, the care given to evaluation, and the quality of the
+    presentation.
 
 2008:
-  - Awardee: "Michael Bond, University of Texas at Austin"
-    Other: |
-      _[Diagnosing and Tolerating Bugs in Deployed Systems](/Awards/Dissertation/2008_bond.pdf)_
-    Advisor: Kathryn McKinley
-    Citation: |
-      This dissertation makes several significant contributions to the
-      problems of tracking down and tolerating software errors in
-      deployed systems. It proposes a variety of techniques, ranging
-      from a breakthrough, probabilistic method of compactly
-      representing calling contexts, to novel techniques for tracking
-      null pointers, to garbage collector modifications that let
-      programs tolerate memory leaks. The evaluation committee was
-      impressed by Michael's fresh perspective on these problems and
-      the thorough experimental evaluation by which he backs up his
-      claims. His research has already had broad adoption and impact,
-      and we believe that his techniques will be brought to bear on a
-      wide range of future applications.
+- Awardee: "Michael Bond, University of Texas at Austin"
+  Other: |
+    _[Diagnosing and Tolerating Bugs in Deployed Systems](/Awards/Dissertation/2008_bond.pdf)_
+  Advisor: Kathryn McKinley
+  Citation: |
+    This dissertation makes several significant contributions to the
+    problems of tracking down and tolerating software errors in
+    deployed systems. It proposes a variety of techniques, ranging
+    from a breakthrough, probabilistic method of compactly
+    representing calling contexts, to novel techniques for tracking
+    null pointers, to garbage collector modifications that let
+    programs tolerate memory leaks. The evaluation committee was
+    impressed by Michael's fresh perspective on these problems and the
+    thorough experimental evaluation by which he backs up his
+    claims. His research has already had broad adoption and impact,
+    and we believe that his techniques will be brought to bear on a
+    wide range of future applications.
 
-  - Awardee: "Viktor Vafeiadis, University of Cambridge"
-    Other: |
-      _[Modular Fine-grained Concurrency Verification](/Awards/Dissertation/2008_vafeiadis.pdf)_
-    Advisor: Alan Mycroft and Matthew Parkinson
-    Citation: |
-      This dissertation introduces a novel logic for reasoning about
-      concurrent shared-memory programs. This logic subsumes both
-      rely/guarantee reasoning and separation logic in an elegant and
-      natural manner. The dissertation establishes the semantic
-      properties of the logic and demonstrates its applicability on a
-      range of highly complex concurrent algorithms and data
-      structures.  The evaluation committee found the clarity of
-      Viktor's presentation and the technical depth of his results
-      particularly compelling, and we believe that this work creates a
-      foundation for new tools and automated techniques for reasoning
-      about concurrent programs.
+- Awardee: "Viktor Vafeiadis, University of Cambridge"
+  Other: |
+    _[Modular Fine-grained Concurrency Verification](/Awards/Dissertation/2008_vafeiadis.pdf)_
+  Advisor: Alan Mycroft and Matthew Parkinson
+  Citation: |
+    This dissertation introduces a novel logic for reasoning about
+    concurrent shared-memory programs. This logic subsumes both
+    rely/guarantee reasoning and separation logic in an elegant and
+    natural manner. The dissertation establishes the semantic
+    properties of the logic and demonstrates its applicability on a
+    range of highly complex concurrent algorithms and data structures.
+    The evaluation committee found the clarity of Viktor's
+    presentation and the technical depth of his results particularly
+    compelling, and we believe that this work creates a foundation for
+    new tools and automated techniques for reasoning about concurrent
+    programs.
 
 2007:
-  Awardee: "Swarat Chaudhuri, University of Pennsylvania"
+- Awardee: "Swarat Chaudhuri, University of Pennsylvania"
   Other: |
     _[Logics and Algorithms for Software Model Checking](/Awards/Dissertation/2007_chaudhuri.ps)_
   Advisor: Rajeev Alur
@@ -204,7 +204,7 @@
     has great potential for long-term utility.
 
 2006:
-  Awardee: "Xiangyu Zhang, University of Arizona"
+- Awardee: "Xiangyu Zhang, University of Arizona"
   Other: |
     _[Fault Location via Dynamic Slicing](/Awards/Dissertation/2006_zhang.pdf)_
   Advisor: Rajiv Gupta
@@ -219,25 +219,25 @@
     will have considerable impact and value in practice.
 
 2005:
-  Awardee: "Sumit Gulwani, University of California, Berkeley"
+- Awardee: "Sumit Gulwani, University of California, Berkeley"
   Other: |
     _[Program Analysis using Random Interpretation](/Awards/Dissertation/2005_gulwani.pdf)_
   Advisor: George Necula
 
 2003:
-  Awardee: "Godmar Back, University of Utah"
+- Awardee: "Godmar Back, University of Utah"
   Other: |
     _[Isolation, Resource Management and Sharing in the KaffeOS Java Runtime System](/Awards/Dissertation/2003_back.pdf)_
   Advisor: Wilson Hsieh
 
 2002:
-  Awardee: "Michael Hicks, University of Pennsylvania"
+- Awardee: "Michael Hicks, University of Pennsylvania"
   Other: |
     _[Dynamic Software Updating](/Awards/Dissertation/2002_hicks.pdf)_
   Advisor: Scott Nettles
 
 2001:
-  Awardee: "Rastislav Bodik, University of Pittsburgh"
+- Awardee: "Rastislav Bodik, University of Pittsburgh"
   Other: |
     _[Path-Sensitive Value-Flow Optimizations of Programs](/Awards/Dissertation/2001_bodik.ps)_
   Advisor: Rajiv Gupta and Mary Lou Soffa
