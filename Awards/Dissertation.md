@@ -61,6 +61,7 @@ never worked with Reynolds nevertheless built on his ideas.
  * [Georges Gonthier](http://www.msr-inria.fr/researchers/georges-gonthier/) – Inria <mailto:georges.gonthier@inria.fr>
  * [Arie Gurfinkel](https://uwaterloo.ca/electrical-computer-engineering/people-profiles/arie-gurfinkel)  - University of Waterloo <mailto:arie.gurfinkel@uwaterloo.ca>
  * [Mike Hicks](http://www.cs.umd.edu/~mwh/) - University of Maryland (ex officio member as SIGPLAN Chair) <mailto:mwh@cs.umd.edu>
+ * [Mira Mezini](http://www.stg.tu-darmstadt.de/staff/mira_mezini/) - Technical University of Darmstadt <mailto:mezini@informatik.tu-darmstadt.de>
  * [Andreas Podelski](https://swt.informatik.uni-freiburg.de/staff/podelski) – University of Freiburg <mailto:podelski@informatik.uni-freiburg.de>
  * [Alexandra Silva](http://www.alexandrasilva.org/#/main.html) – University College London <mailto:alexandra.silva@ucl.ac.uk>
  * [Mooly Sagiv](http://www.cs.tau.ac.il/~msagiv/) – Tel Aviv University <mailto:msagiv@acm.org>
