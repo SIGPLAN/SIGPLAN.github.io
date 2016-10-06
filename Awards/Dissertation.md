@@ -57,7 +57,7 @@ never worked with Reynolds nevertheless built on his ideas.
  * [Derek Dreyer](https://www.mpi-sws.org/~dreyer/) - Max Planck Institute for Software Systems <mailto:dreyer@mpi-sws.org>
  * [Susan Eisenbach](http://www.imperial.ac.uk/people/s.eisenbach) - Imperial College London (SIGPLAN member and Chair) <mailto:s.eisenbach@imperial.ac.uk>
  * [Martin Erwig](http://web.engr.oregonstate.edu/~erwig/) – Oregon State University <mailto:erwig@oregonstate.edu>
- * [Nate Foster](http://www.cs.cornell.edu/~jnfoster/) – Cornell University <mailto:jnfoster@cs.cornell.edu>
+ * [Nate Foster](http://www.cs.cornell.edu/~jnfoster/) – Barefoot Networks / Cornell University <mailto:jnfoster@cs.cornell.edu>
  * [Georges Gonthier](http://www.msr-inria.fr/researchers/georges-gonthier/) – Inria <mailto:georges.gonthier@inria.fr>
  * [Arie Gurfinkel](https://uwaterloo.ca/electrical-computer-engineering/people-profiles/arie-gurfinkel)  - University of Waterloo <mailto:arie.gurfinkel@uwaterloo.ca>
  * [Mike Hicks](http://www.cs.umd.edu/~mwh/) - University of Maryland (ex officio member as SIGPLAN Chair) <mailto:mwh@cs.umd.edu>
