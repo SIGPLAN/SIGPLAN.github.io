@@ -27,9 +27,8 @@ among the members of the committee to serve a two-year term.  The outgoing
 chair serves an additional year on the committee past his or her term as chair
 to provide institutional memory.
 
-The constitution of the steering committee changes each year on October 31,
-with the SPLASH chair changing every two years and the SIGPLAN chair/vice
-chair changing every third year.
+The constitution of the steering committee changes each year upon conclusion
+of that year's conference.
 
 The current SPLASH steering committee is:
 
