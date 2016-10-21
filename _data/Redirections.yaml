@@ -37,6 +37,8 @@
 "pac(.htm|.html|)":				"PAC/"
 
 "Newsletters/CACM/":				"Highlights/"
+"Newsletters/CACM/Papers/":			"Highlights/Papers/"
+"Newsletters/CACM/Papers/Addendums/":		"Highlights/Papers/Addendums/"
 
 "Resources/Policies/Anti-harassment/":          "Resources/Policies/CodeOfConduct/"
 
