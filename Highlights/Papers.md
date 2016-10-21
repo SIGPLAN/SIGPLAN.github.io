@@ -3,10 +3,68 @@ layout: default
 title: "SIGPLAN Research Highlights Papers"
 ---
 
+### Selected October 2016
+
+> Title: <a href="http://dl.acm.org/citation.cfm?doid=2676726.2677009">Predicting Program Properties from "Big Code"</a>  
+> Authors: Veselin Raychev (ETH Zürich), Martin Vechev (ETH Zürich), Andreas Krause (ETH Zürich)  
+> Venue: POPL 2015
+
+Programs are idiomatic: they consist of combinations of statements
+that regularly appear in other programs. Large code repositories,
+freely available for examination, can serve as a knowledge base of
+idioms, creating unique opportunities for automated analysis. This
+paper examines programs with known properties (such as names or types
+of variables), produces a statistical model, and applies the model on
+programs with unknown properties. The work emphasizes two aspects: a
+modeling of the relationships between syntactic program elements and
+the use of powerful probabilistic graphical models (conditional random
+fields), with fast inference algorithms tailored to prediction tasks
+in programs. These techniques significantly advance the
+state-of-the-art in statistical reasoning on programs and offer the
+first concrete evidence of the tremendous promise of the overall
+approach. A real-world product is JSNice: a practical, popular
+JavaScript de-obfuscation tool.
+
+> Title: <a href="http://dl.acm.org/citation.cfm?doid=2784731.2784761">A Fast Compiler for NetKAT</a>  
+> Authors: Steffen Smolka (Cornell University), Spiridon Eliopoulos (Inhabited Type), Nate Foster (Cornell University), Arjun Guha (University of Massachusetts Amherst)  
+> Venue: ICFP 2015
+
+The paper presents a compiler that translates high-level programs to
+OpenFlow code for software-defined networks. The compiler deals with
+important challenges: supporting network-wide behavior, abstracting
+concrete network topologies, and achieving high confidence in
+correctness. The language, called NetKAT, is based on Kozen's Kleene
+Algebra with Tests; a few additional features enable network
+programming. The language is expressive, the compilation times are
+short, and the generated code scales to large networks. The
+translation proceeds in three nontrivial steps that use a variety of
+techniques including a variant of binary decision diagrams, NetKAT
+automata, and a novel idea of fabric construction.
+
+> Title: <a href="http://dl.acm.org/citation.cfm?doid=2737924.2737965">Provably Correct Peephole Optimizations with Alive</a>  
+> Authors: Nuno P. Lopes (Microsoft Research), David Menendez (Rutgers University), Santosh Nagarakatte (Rutgers University), John Regehr (University of Utah)  
+> Venue: PLDI 2015
+
+This paper introduces Alive, a DSL in which peephole optimizations can
+be written and their correctness automatically verified. The work is
+evaluated in the context of LLVM with impressive results. The LLVM
+developers have embraced the work, which makes this work an excellent
+example of the practical use of formal techniques to improve
+reliability of software that is used on a day-to-day basis. Alive
+illustrates one of the key benefits of programming languages: by
+moving the level of discourse for some problem to just the right
+level, one gains tremendous benefits. In this case, the design of a
+little DSL for specifying peephole optimizations hits a sweet spot
+where one can both have practical, formal verification of the
+optimizations' correctness and generate efficient C++ implementations
+of the transformations.
+
+* * * * *
+
 ### Selected May 2015
 
 > Title: <a href="http://dl.acm.org/citation.cfm?id=2555264">Parallelizing dynamic programming through rank convergence</a>  
-> Authors: Saeed Maleki, University of Illinois at Urbana-Champaign, Madanlal Musuvathi, Microsoft Research, Todd Mytkowicz, Microsoft Research   
+> Authors: Saeed Maleki, University of Illinois at Urbana-Champaign, Madanlal Musuvathi, Microsoft Research, Todd Mytkowicz, Microsoft Research  
 > Venue: PPoPP 2014
 
 This paper describes a rather surprising parallelization of several dynamic 
@@ -18,6 +76,8 @@ dependent stage by assuming an essentially random output from the
 previous stage. The amount of work that must be redone to account for 
 the actual output is very limited. It is a great example of the 
 creative application of relatively basic abstract algebra. 
+
+* * * * *
 
 ### Selected November 2014
 
@@ -53,7 +113,6 @@ building and using a few helper functions here and there can make this
 "code" much easier to read and learn from. The paper also demonstrates
 thru lots of code fragments how to describe several instruments,
 culminating in a violin by Andrea Amati.
-
 
 > Title: <a href="http://dl.acm.org/citation.cfm?doid=2500365.2500601">Exploiting Vector Instructions with Generalized Stream Fusion</a>  
 > Authors: Geoffrey Mainland, Roman Leshchinskiy, Simon Peyton Jones, Microsoft Research   
