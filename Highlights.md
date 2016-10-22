@@ -41,7 +41,7 @@ Chair, [Emery Berger](http://www.emeryberger.org/), [emery@cs.umass.edu](mailto:
 POPL, [Jens Palsberg](http://www.cs.ucla.edu/~palsberg), [palsberg@ucla.edu](mailto:palsberg@ucla.edu)  
 PLDI, [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/), [Steve.Blackburn@anu.edu.au](mailto:Steve.Blackburn@anu.edu.au)  
 ICFP, [Robby Findler](http://www.eecs.northwestern.edu/~robby/), [robby@eecs.northwestern.edu](mailto:robby@eecs.northwestern.edu)  
-OOPSLA, [Cristina Videira Lopes](http://www.ics.uci.edu/~lopes/), [lopes@ics.uci.edu](mailto:lopes@ics.uci.edu)  
+OOPSLA, [Yannis Smaragdakis](https://yanniss.github.io/), [yannis@smaragd.org](mailto:yannis@smaragd.org)  
 PPDP/GPCE/Haskell, [Tom Schrijvers](http://people.cs.kuleuven.be/~tom.schrijvers/), [tom.schrijvers@cs.kuleuven.be](mailto:tom.schrijvers@cs.kuleuven.be)  
 PPoPP/VEE/ISMM, [Hans Boehm](http://www.hpl.hp.com/personal/Hans_Boehm/), [boehm@acm.org](mailto:boehm@acm.org)  
 LCTES/ASPLOS/CGO, [Ben Zorn](http://research.microsoft.com/en-us/people/zorn/), [Ben.Zorn@microsoft.com](mailto:Ben.Zorn@microsoft.com)  
