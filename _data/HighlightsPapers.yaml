@@ -1303,6 +1303,18 @@ Other SIGPLAN Papers Republished as CACM Research Highlights:
       Link: http://dl.acm.org/citation.cfm?doid=2886013.2863699
       Author: Sumit Gulwani
 
+- Title: "_[ELI: Bare-Metal Performance for I/O Virtualization](http://dl.acm.org/citation.cfm?doid=2150976.2151020)_"
+  Authors: Nadav Amit, Abel Gordon, Nadav Har'El, Muli Ben-Yehuda, Alex Landau, Assaf Schuster, Dan Tsafrir
+  Venue: ASPLOS 2012
+  CACMHighlight:
+    Date: January 2016
+    Title: Bare-Metal Performance for Virtual Machines with Exitless Interrupts
+    Link: http://dl.acm.org/citation.cfm?doid=2859829.2845648
+    TechnicalPerspective:
+      Title: "High-Performance Virtualization: Are We Done?"
+      Link: http://dl.acm.org/citation.cfm?doid=2859829.2845910
+      Author: Steve Hand
+
 - Title: _[Cache and I/O Efficient Functional Algorithms](http://dl.acm.org/citation.cfm?doid=2429069.2429077)_
   Authors: Guy E. Blelloch, Robert Harper
   Venue: POPL 2013
