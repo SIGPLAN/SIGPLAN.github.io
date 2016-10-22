@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include header.html %}
+  <body>
+    {% include navbar.html %}
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-8  col-md-offset-2">
+          <h1> {{ page.title }} </h1>
+
+          <hr class="featurette-divider">
+          
+          {{ content }}
+
+          {% for data in site.data["HighlightsPapers"] %}
+            {% assign heading = data[0] %}
+            {% assign papers = data[1] %}
+
+            <h2>{{ heading }}</h2>
+
+            {% for paper in papers %}
+
+              {% if paper.Title <> nil %}
+         
+                <h4 class="alert alert-info">
+                  {% if paper.CACMHighlight <> nil %}
+                    <span class="badge pull-right">CACM Research Highlight</span>
+                  {% endif %}
+                  {{ paper.Title | markdownify }}
+                </h4>
+
+                {% if paper.Author <> nil %}
+                  <p><strong>Author:</strong> {{ paper.Author }}</p>
+                {% endif %}
+                {% if paper.Authors <> nil %}
+                  <p><strong>Authors:</strong> {{ paper.Authors }}</p>
+                {% endif %}
+
+                <p><strong>Venue:</strong> {{ paper.Venue }}</p>
+
+                {% if paper.NominationStatement <> nil %}
+
+                  <p><strong>Nomination Statement:</strong></p>
+                  <blockquote >{{ paper.NominationStatement | markdownify }}</blockquote>
+              
+                {% endif %}
+
+                {% if paper.CACMHighlight <> nil %}
+
+                  {% capture cacmhighlight %}
+Published as _[{{paper.CACMHighlight.Title}}]({{paper.CACMHighlight.Link}})_
+in {{paper.CACMHighlight.Date}} CACM Research Highlight,
+with _[Technical Perspective: {{paper.CACMHighlight.TechnicalPerspective.Title}}]({{paper.CACMHighlight.TechnicalPerspective.Link}})_
+by {{paper.CACMHighlight.TechnicalPerspective.Author}}.
+                  {% endcapture %}
+                  {{ cacmhighlight | markdownify }}
+
+                {% endif %}
+
+                {% if paper.Note <> nil %}
+
+                  {{ paper.Note | markdownify }}
+
+                {% endif %}
+
+              {% else %}
+
+                <hr/>
+                
+                {{ paper.Note | markdownify }}
+
+              {% endif %}
+
+            {% endfor %}
+
+            <hr/>
+
+          {% endfor %}
+        </div>
+
+      </div>
+      
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>
