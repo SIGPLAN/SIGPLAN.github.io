@@ -1267,6 +1267,42 @@ Selected January 2008:
 
 Other SIGPLAN Papers Republished as CACM Research Highlights:
 
+- Title: "Ur/Web: A Simple Model for Programming the Web"
+  Author: Adam Chlipala
+  Venue: POPL 2015
+  CACMHighlight:
+    Date: June 2016
+    Title: "Ur/Web: A Simple Model for Programming the Web"
+    Link: http://dl.acm.org/citation.cfm?doid=2975594.2958736
+    TechnicalPerspective:
+      Title: Why Didn't I Think of That?
+      Link: http://dl.acm.org/citation.cfm?doid=2975594.2961892
+      Author: Philip Wadler
+
+- Title: _[Verifying Quantitative Reliability for Programs that Execute on Unreliable Hardware](http://dl.acm.org/citation.cfm?doid=2509136.2509546)_
+  Authors: Michael Carbin, Sasa Misailovic, Martin C. Rinard
+  Venue: OOPSLA 2013
+  CACMHighlight:
+    Date: June 2016
+    Title: Verifying Quantitative Reliability for Programs that Execute on Unreliable Hardware
+    Link: http://dl.acm.org/citation.cfm?doid=2975594.2958738
+    TechnicalPerspective:
+      Title: Toward Reliable Programming for Unreliable Hardware
+      Link: http://dl.acm.org/citation.cfm?doid=2975594.2961890
+      Author: Todd Millstein
+
+- Title: _[Stochastic Superoptimization](http://dl.acm.org/citation.cfm?doid=2451116.2451150)_
+  Authors: Eric Schkufza, Rahul Sharma, Alex Aiken
+  Venue: ASPLOS 2013
+  CACMHighlight:
+    Date: February 2016
+    Title: Stochastic Program Optimization
+    Link: http://dl.acm.org/citation.cfm?doid=2886013.2863701
+    TechnicalPerspective:
+      Title: Program Synthesis Using Stochastic Techniques
+      Link: http://dl.acm.org/citation.cfm?doid=2886013.2863699
+      Author: Sumit Gulwani
+
 - Title: _[Cache and I/O Efficient Functional Algorithms](http://dl.acm.org/citation.cfm?doid=2429069.2429077)_
   Authors: Guy E. Blelloch, Robert Harper
   Venue: POPL 2013
@@ -1293,7 +1329,7 @@ Other SIGPLAN Papers Republished as CACM Research Highlights:
       Link: http://dl.acm.org/citation.cfm?doid=2240236.2240261
       Author: Andreas Zeller
 
-- Title: _[]()_
+- Title: _[Abstracting Abstract Machines](http://dl.acm.org/citation.cfm?doid=1863543.1863553)_
   Authors: David Van Horn, Matthew Might
   Venue: ICFP 2010
   CACMHighlight:
