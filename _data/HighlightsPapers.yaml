@@ -312,7 +312,7 @@ Selected Selected May 2013:
     possible because Haskell is already a relatively safe language to
     start with.
 
-- Title: _[Work-Stealing Without the Baggage](http://dl.acm.org/citation.cfm?id=2384639)  _
+- Title: _[Work-Stealing Without the Baggage](http://dl.acm.org/citation.cfm?id=2384639)_
   Authors: Vivek Kumar, Daniel Frampton, Stephen M. Blackburn, David Grove, Olivier Tardieu    
   Venue: OOPSLA 2012
   NominationStatement: |
