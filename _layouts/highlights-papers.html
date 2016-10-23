@@ -12,7 +12,7 @@
           <h1> {{ page.title }} </h1>
 
           <hr class="featurette-divider">
-          
+
           {{ content }}
 
           {% for data in site.data["HighlightsPapers"] %}
@@ -24,7 +24,7 @@
             {% for paper in papers %}
 
               {% if paper.Title <> nil %}
-         
+
                 <h4 class="alert alert-info">
                   {% if paper.CACMHighlight <> nil %}
                     <span class="badge pull-right">CACM Research Highlight</span>
@@ -45,7 +45,14 @@
 
                   <p><strong>Nomination Statement:</strong></p>
                   <blockquote >{{ paper.NominationStatement | markdownify }}</blockquote>
-              
+
+                {% endif %}
+
+                {% if paper.Addendum <> nil %}
+
+                  <p><strong>Addendum:</strong></p>
+                  <blockquote >{{ paper.Addendum | markdownify }}</blockquote>
+
                 {% endif %}
 
                 {% if paper.CACMHighlight <> nil %}
@@ -69,7 +76,7 @@ by {{paper.CACMHighlight.TechnicalPerspective.Author}}.
               {% else %}
 
                 <hr/>
-                
+
                 {{ paper.Note | markdownify }}
 
               {% endif %}
@@ -82,7 +89,7 @@ by {{paper.CACMHighlight.TechnicalPerspective.Author}}.
         </div>
 
       </div>
-      
+
     </div>
 
     {% include footer.html %}
