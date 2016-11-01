@@ -12,7 +12,7 @@ allocation and referencing behavior.
 
 > [ISMM 2017](http://conf.researchr.org/home/ismm-2017)  
 > Location: Barcelona, Spain co-located with [PLDI'17](http://conf.researchr.org/home/pldi-2017) and [ECOOP'17](http://conf.researchr.org/home/ecoop-2017)   
-> General Chair: Christoph Kirsch  
+> General Chair: [Christoph Kirsch](http://www.cs.uni-salzburg.at/~ck)  
 > Program Chair: Ben Titzer  
 > Date: June 18, 2017
 
