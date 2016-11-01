@@ -10,11 +10,11 @@ allocation and referencing behavior.
 
 **ISMM Fast Facts**  
 
-> ISMM 2017  
+> [ISMM 2017](http://conf.researchr.org/home/ismm-2017)  
 > Location: Barcelona, Spain co-located with [PLDI'17](http://conf.researchr.org/home/pldi-2017) and [ECOOP'17](http://conf.researchr.org/home/ecoop-2017)   
-> General Chair: TBD  
-> Program Chair: TBD  
-> Dates: June, 2017. Exact date TBD  
+> General Chair: Christoph Kirsch  
+> Program Chair: Ben Titzer  
+> Date: June 18, 2017
 
 **Other ISMM Information**  
 
