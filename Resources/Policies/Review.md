@@ -16,11 +16,9 @@ them on to other people, or discuss them with people other than the
 members of the program committee. The program chair should keep a
 record of the external reviewers used to review submissions.
 
-Anonymized reviews are the non-exclusive property of the authors of
-the reviewed paper: they can be made public or attached to
-resubmissions of the paper. Anonymized reviews can also be analyzed
-under the auspices of SIGPLAN for research purposes such as evaluation
-of bias.
+Reviewers grant paper authors permission to use the reviews however
+they wish. Reviews can also be analyzed under the auspices of SIGPLAN
+for research purposes such as evaluation of bias.
 
 The title, authors, acceptance status, and other metadata (including
 discussion summaries, if they exist) can be shared under the
