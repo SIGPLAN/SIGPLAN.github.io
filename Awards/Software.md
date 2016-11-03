@@ -21,7 +21,7 @@ All questions about the Programming Languages Software Award should be directed 
 
 - Please use <http://awards.sigplan.org/> to submit nominations.
 
-**Committee Chair**: [Michael Hind](mailto:hind@acm.org)
+**Committee Chair**: [Emery Berger](mailto:emery@cs.umass.edu) (University of Massachusetts Amherst)
 
-**Committee Members**: Jack Davidson, Jeff Foster, Simon Marlow, Eelco Visser
+**Committee Members**: Andrew Appel (Princeton), Steve Blackburn (ANU), Manuel Serrano (INRIA), Yannis Smaragdakis (Univ of Athens)
 
