@@ -1,3 +1,31 @@
+2016:
+- Awardee: "Shachar Itzhaky, Tel Aviv University"
+  Other: |
+    _[Automatic Reasoning for Pointer Programs Using Decidable Logics](/Awards/Dissertation/2016_itzhaky.pdf)_
+  Advisor: Mooly Sagiv
+  Citation: |
+    Automated verification of imperative data structures such as lists
+    is challenging because of the need to define complex loop
+    invariants that have a sensible interpretation in an underlying
+    program logic.  This thesis presents a number of foundational
+    results that greatly simplify the proof obligations that must be
+    provided by the programmer for the verification of such programs.
+    Through the introduction and application of concepts such as
+    deterministic transitive closure and property-directed
+    reachability, the thesis demonstrates the feasibility of using a
+    decidable logic (EPR) as an effective basis for answering
+    reachability queries on an expressive class of imperative
+    list-manipulating programs.  The thesis also extends these
+    foundational ideas to define modular principles for reasoning
+    about imperative data structures across procedure boundaries.
+    These contributions ultimately lead to a system that can
+    effectively infer loop invariants from an expressive template
+    family using existing SAT solver and shape analysis technology.
+    Collectively, these results lead to a thesis that makes very
+    important foundational and practical contributions to our
+    understanding of the potential of automated program verification
+    and its application to real-world programs.
+
 2015:
 - Awardee: "Mark Batty, University of Cambridge"
   Other: |
