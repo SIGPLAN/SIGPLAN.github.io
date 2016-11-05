@@ -1,3 +1,26 @@
+2016:
+- Awardee: "V8 JavaScript Engine"
+  Citation: |
+    V8 is an open-source JavaScript engine developed at Google that
+    revolutionized the use of JavaScript, firmly establishing it as a
+    platform both in the browser and on the server. V8's success is in
+    large part due to the efficient machine code it generates; because
+    JavaScript is a highly dynamic object-oriented language, many
+    experts believed that this level of performance could not be
+    achieved.  V8, whose principal architect is Lars Bak, relies on
+    more than 20 years of research in compilation and implementation
+    techniques initially developed for Beta, Self, and Sun's Hotspot
+    JVM.  These techniques include hidden class recovery in a
+    classless language (based on profiled executions of the JS
+    programs) followed by on-the-fly in-place inline caching.  V8's
+    garbage collector is also very high quality, important for (e.g.,)
+    graphically intensive interactive web apps.  V8's techniques have
+    influenced other major JS engines, contributing to the
+    JavaScript-as-a-platform revolution.  Its performance breakthrough
+    has had a major impact on the adoption of JavaScript, which is
+    nowadays used on the browser, the server, and probably tomorrow on
+    the small devices of the internet-of-things.
+
 2015:
 - Awardee: "Z3 Theorem Prover"
   Citation: |
