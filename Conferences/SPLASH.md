@@ -37,7 +37,7 @@ The current SPLASH steering committee is:
 
 Web Pages of Previous Conferences
 ---------------------------------
-> [SPLASH 2017](http://2017.splashcon.org/) (Vancouver, Canada)__
+> [SPLASH 2017](http://2017.splashcon.org/) (Vancouver, Canada)  
 > [SPLASH 2016](http://2016.splashcon.org/) (Amsterdam, The Netherlands)  
 > [SPLASH 2015](http://2015.splashcon.org/) (Pittsburgh, PA)  
 > [SPLASH 2014](http://2014.splashcon.org/) (Portland, OR)  
