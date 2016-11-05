@@ -1,3 +1,2 @@
 source 'https://rubygems.org'
-gem 'github-pages'
-gem 'link-checker'
+gem 'github-pages', group: :jekyll_plugins
