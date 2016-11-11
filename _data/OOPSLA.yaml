@@ -1,3 +1,18 @@
+2016:
+- Awardee: Stephen M. Blackburn, Robin Garner, Chris Hoffmann, Asjad M. Khan, Kathryn S. McKinley, Rotem Bentzur, Amer Diwan, Daniel Feinberg, Daniel Frampton, Samuel Z. Guyer, Martin Hirzel, Antony Hosking, Maria Jump, Han Lee, J. Eliot B. Moss, Aashish Phansalkar, Darko Stefanović, Thomas VanDrunen, Daniel von Dincklage, Ben Wiedermann
+  Other: |
+    (for 2006) _[The DaCapo benchmarks: Java benchmarking development and analysis](http://dl.acm.org/citation.cfm?doid=1167473.1167488)_
+  Citation: |
+    The DaCapo benchmarks have become the de facto standard Java benchmarking
+    suite, quickly replacing older suites, such as the SPEC JVM
+    benchmarks. The reasons are easy to discern from this paper. The paper
+    puts forward a compelling model for benchmark selection and evaluation
+    methodologies, and discusses in detail the experimental evaluation
+    intricacies of the Java setting. The paper also introduces new metrics and
+    contains detailed measurements of program behavior. The DaCapo paper has
+    set a standard that substantially raised the level of Java experiments in
+    the overall literature of the past decade.
+
 2015:
 - Awardee: Philippe Charles, Christian Grothoff, Vijay Saraswat, Christopher Donawa, Allan Kielstra, Kemal Ebcioglu, Christoph von Praun, and Vivek Sarkar
   Other: |
