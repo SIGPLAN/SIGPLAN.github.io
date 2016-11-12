@@ -5,8 +5,8 @@ title: "International Symposium on Memory Management (ISMM)"
 ISMM, the International Symposium on Memory Management, focuses on
 garbage collection, dynamic storage allocation, storage management
 implementation techniques, plus interactions with languages and
-operating systems, and empirical studies of programs' memory
-allocation and referencing behavior.   
+operating systems, and empirical studies of memory allocation and
+access behavior in programs.   
 
 **ISMM Fast Facts**  
 
