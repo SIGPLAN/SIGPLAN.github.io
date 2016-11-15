@@ -1,3 +1,18 @@
+2016:
+- Awardee: "Silvia Grewe, Technische Universität Darmstadt"
+  Citation: |
+    Silvia Grewe's work aims to provide better automation of type
+    soundness proofs for new languages, thus lowering the barrier to
+    developing sound general-purpose and domain-specific languages.
+    Theorem-proving systems are increasingly adept at automating
+    proofs, and soundness proofs based on progress and preservation
+    seem especially ripe for automation due to patterns that appear in
+    the proofs, but theorem-proving systems currently lack tactics to
+    directly support such proofs. Silvia is working to extract proof
+    patterns and integrate them into theorem provers to make
+    automation more effective and accessible.
+
+
 2015:
 - Awardee: "Chang Liu, University of Maryland"
   Citation: |
