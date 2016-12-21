@@ -1,16 +1,86 @@
 ---
 layout: default
-title: "Author Information for SIGPLAN Conferences"
+title: "Author Information"
 ---
 
-### SIGPLAN Proceedings Format
+## SIGPLAN Paper Formats
 
-The [SIGPLAN Proceedings Format](/Resources/ProceedingsFormat) page
-summarizes the formatting guidelines for ACM SIGPLAN Proceedings.  The
-goal is to ensure that proceedings have a consistent, high-quality
-appearance.
+**NOTE:** Papers submitted to SIGPLAN events occurring after August
+  2017 should use the [`acmart` format](#acmart-format), while papers
+  submitted to SIGPLAN events occurring before August 2017 should use
+  the [`sigplanconf` format](#sigplanconf-format).
 
-### Conference paper templates
+- - -
+
+### `acmart` Format
+
+**NOTE:** The `acmart` format should be used for SIGPLAN events occuring after August 2017.
+
+ACM commissioned the construction of a [Master Article
+Template](http://www.acm.org/publications/proceedings-template) that
+consolidates all previous ACM journal and proceedings formats
+(including SIGPLAN's [`sigplanconf` format](#sigplanconf-format)) and
+is designed enable a uniform production workflow for authors and
+publishers.  The `acmart` format includes a number of sub-formats, two
+of which are relevant to SIGPLAN authors:
+
+ * `acmlarge` sub-format: a one-column format used by papers published
+   as issue of [PACM on Programming Languages
+   (PACMPL)](pacmpl.acm.org)
+
+ * `sigplan` sub-format: a two-column format used by papers published
+   as traditional SIGPLAN proceedings
+
+ACM provides [technical
+support](http://www.acm.org/publications/proceedings-template#h-technical-support)
+for authors working with the `acmart` format.  General comments and
+problems about the `acmart` format may be communicated through the
+SIGPLAN [Information
+Director](mailto:infodir_sigplan@acm.org?subject=ACM%20acmart%20format).
+
+#### LaTeX class, bibliography style, and template files
+
+For LaTeX users, the `acmart` format is available from ACM's [Master
+Article
+Template](http://www.acm.org/publications/proceedings-template) page
+and as a [CTAN package](http://ctan.org/pkg/acmart) (and is
+distributed with most popular TeX distributions).  However, these are
+heavy-weight packages, including the documented LaTeX (`.dtx`) file,
+samples of all of the different sub-formats, and bibilography and
+image files used by the samples, that most authors won't want or need.
+
+The [PACMPL
+package](/sites/default/files/acmart/current/acmart-pacmpl.zip)&nbsp;(`acmart-pacmpl.zip`)
+and [SIGPLAN proceedings
+package](/sites/default/files/acmart/current/acmart-sigplanproc.zip)&nbsp;(`acmart-sigplanproc.zip`)
+are light-weight packages that include only the essential files for an
+author:
+
+ * [class file](/sites/default/files/acmart/current/acmart.cls) (`acmart.cls`)
+ * [class file documentation](/sites/default/files/acmart/current/acmart.pdf) (`acmart.pdf`)
+ * [bibliography style file](/sites/default/files/acmart/current/ACM-Reference-Format.bst) (`ACM-Reference-Format.bst`)
+ * [PACMPL template](/sites/default/files/acmart/current/acmart-pacmpl-template.tex) (`acmart-pacmpl-template.tex`)  
+   or [SIGPLAN proceedings template](/sites/default/files/acmart/current/acmart-sigplanproc-template.tex) (`acmart-sigplanproc-template.tex`)
+
+The [PACMPL
+template](/sites/default/files/acmart/current/acmart-pacmpl-template.tex)
+and [SIGPLAN proceedings
+template](/sites/default/files/acmart/current/acmart-sigplanproc-template.tex)
+are not distributed in the heavy-weight packages; authors are
+encouraged to use the templates if they obtain the `acmart` format via
+the heavy-weight packages (or through their TeX distribution).
+
+#### Word templates
+
+For Word users, the `acmart` format is available from ACM's [Master
+Article
+Template](http://www.acm.org/publications/proceedings-template) page.
+
+- - -
+
+### `sigplanconf` Format
+
+**NOTE:** The `sigplanconf` format should be used for SIGPLAN events occuring before August 2017.
 
 #### LaTeX class file and template
 
@@ -58,23 +128,34 @@ producing this. There is also a
 [Word template](/sites/default/files/sigplanconf-varsize.dot) that provides support for
 different point sizes (this template was commissioned by OOPSLA and
 is being used for OOPSLA and Splash!). Please address questions and
-problems with the Word template to [Friedrich Steimann](mailto:steimann@acm.org?subject=SIGPLAN%20Word%20tempalte).  
-(ACM's site contains an older
-[Word template](http://www.acm.org/sigs/pubs/proceed/pubform.doc).)
+problems with the Word template to [Friedrich Steimann](mailto:steimann@acm.org?subject=SIGPLAN%20Word%20tempalte).
 
-### Republication Policy
+- - -
+
+{% comment %}
+
+### SIGPLAN Proceedings Format
+
+The [SIGPLAN Proceedings Format](/Resources/ProceedingsFormat) page
+summarizes the formatting guidelines for ACM SIGPLAN Proceedings.  The
+goal is to ensure that proceedings have a consistent, high-quality
+appearance.
+
+{% endcomment %}
+
+## Republication Policy
 
 Please review SIGPLAN's
 [republication policy](/Resources/Policies/Republication).
 
-### ACM Author Rights
+## ACM Author Rights
 
 * [ACM Information for Authors: Author Rights & FAQs](http://authors.acm.org/main.html)
 * [ACM Author Rights & Publishing Policy](http://www.acm.org/publications/policies/copyright_policy) 
 * [New Options for ACM Authors to Manage Rights and Permissions](http://www.acm.org/news/featured/author-rights-management)
 * [Using/Including 3rd Party Material & Permissions](http://www.acm.org/publications/third-party-material)
 
-### Writing
+## Writing
 
 If you would like some advice on how to write submissions, here are
 some suggestions by
@@ -96,7 +177,7 @@ some suggestions by
 -   Joel E. Cohen:
     [To A Young Scientist](/Resources/Advice/Cohen)
 
-### Additional Support
+## Additional Support
 
 Are you a student needing additional support to present your paper
 at the conference? The SIGPLAN
