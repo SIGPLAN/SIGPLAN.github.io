@@ -3,15 +3,26 @@
   Other: |
     (for 2006) _[The DaCapo benchmarks: Java benchmarking development and analysis](http://dl.acm.org/citation.cfm?doid=1167473.1167488)_
   Citation: |
-    The DaCapo benchmarks have become the de facto standard Java benchmarking
-    suite, quickly replacing older suites, such as the SPEC JVM
-    benchmarks. The reasons are easy to discern from this paper. The paper
-    puts forward a compelling model for benchmark selection and evaluation
-    methodologies, and discusses in detail the experimental evaluation
-    intricacies of the Java setting. The paper also introduces new metrics and
-    contains detailed measurements of program behavior. The DaCapo paper has
-    set a standard that substantially raised the level of Java experiments in
-    the overall literature of the past decade.
+    The DaCapo benchmarks have become the de facto standard Java
+    benchmarking suite, quickly replacing older suites, such as the
+    SPEC JVM benchmarks. This paper describes principles for the
+    selection and application of benchmarks for modern applications
+    languages, and realizes those principles by proposing a set of
+    client-side Java benchmarks based on real open source programs.
+    The benchmarks were a notable improvement over previous benchmarks
+    such as SPEC Java, for example because they more comprehensively
+    test aspects of the Java virtual machine and memory management
+    system. The paper puts forward a compelling model for benchmark
+    selection and evaluation methodologies, and discusses in detail
+    the experimental evaluation intricacies of the Java setting. The
+    paper also introduces new metrics and contains detailed
+    measurements of program behavior. The DaCapo paper has set a
+    standard that substantially raised the level of Java experiments
+    in the overall literature of the past decade. Since the paper's
+    publication, its methodological guidance and benchmarks have been
+    widely adopted in research on language implementation techniques
+    ranging from optimization to memory management, resulting in a
+    significant impact on the quality of research in the field.
 
 2015:
 - Awardee: Philippe Charles, Christian Grothoff, Vijay Saraswat, Christopher Donawa, Allan Kielstra, Kemal Ebcioglu, Christoph von Praun, and Vivek Sarkar
