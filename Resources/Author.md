@@ -26,7 +26,7 @@ of which are relevant to SIGPLAN authors:
 
  * `acmlarge` sub-format: a one-column format used by papers published
    as issue of [PACM on Programming Languages
-   (PACMPL)](pacmpl.acm.org)
+   (PACMPL)](http://pacmpl.acm.org)
 
  * `sigplan` sub-format: a two-column format used by papers published
    as traditional SIGPLAN proceedings
