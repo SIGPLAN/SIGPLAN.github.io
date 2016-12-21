@@ -20,7 +20,7 @@ ACM commissioned the construction of a [Master Article
 Template](http://www.acm.org/publications/proceedings-template) that
 consolidates all previous ACM journal and proceedings formats
 (including SIGPLAN's [`sigplanconf` format](#sigplanconf-format)) and
-is designed enable a uniform production workflow for authors and
+is designed to enable a uniform production workflow for authors and
 publishers.  The `acmart` format includes a number of sub-formats, two
 of which are relevant to SIGPLAN authors:
 
