@@ -1,0 +1,993 @@
+
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>PLDI '16- Proceedings of the 37th ACM SIGPLAN Conference on Programming Language Design and Implementation</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+
+
+<body>
+
+<div id="DLtoc">
+	<div id="DLheader">
+    	<h1>PLDI '16- Proceedings of the 37th ACM SIGPLAN Conference on Programming Language Design and Implementation</h1>
+        <a class="DLcitLink" href="http://dl.acm.org/citation.cfm?id=2908080" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="http://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+    </div>
+    <div id="DLcontent">
+    	<h2>SESSION: Down to the Metal I</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28652" title="Get the Full Text from the ACM Digital Library">Into the depths of C: elaborating the de facto standards</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Kayvan Memarian</li>
+                          
+                          <li class="nameList">Justus Matthiesen</li>
+                          
+                          <li class="nameList">James Lingard</li>
+                          
+                          <li class="nameList">Kyndylan Nienhuis</li>
+                          
+                          <li class="nameList">David Chisnall</li>
+                          
+                          <li class="nameList">Robert N. M. Watson</li>
+                          
+                          <li class="nameList Last">Peter Sewell</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28653" title="Get the Full Text from the ACM Digital Library">Living on the edge: rapid-toggling probes with cross-modification on x86</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Buddhika Chamith</li>
+                          
+                          <li class="nameList">Bo Joel Svensson</li>
+                          
+                          <li class="nameList">Luke Dalessandro</li>
+                          
+                          <li class="nameList Last">Ryan R. Newton</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28654" title="Get the Full Text from the ACM Digital Library">Polymorphic type inference for machine code</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Matt Noonan</li>
+                          
+                          <li class="nameList">Alexey Loginov</li>
+                          
+                          <li class="nameList Last">David Cok</li>
+                          
+              </ul>
+        <h2>SESSION: Verification I</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28665" title="Get the Full Text from the ACM Digital Library">Data-driven precondition inference with learned features</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Saswat Padhi</li>
+                          
+                          <li class="nameList">Rahul Sharma</li>
+                          
+                          <li class="nameList Last">Todd Millstein</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28666" title="Get the Full Text from the ACM Digital Library">Cartesian hoare logic for verifying k-safety properties</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Marcelo Sousa</li>
+                          
+                          <li class="nameList Last">Isil Dillig</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28667" title="Get the Full Text from the ACM Digital Library">Verifying bit-manipulations of floating-point</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Wonyeol Lee</li>
+                          
+                          <li class="nameList">Rahul Sharma</li>
+                          
+                          <li class="nameList Last">Alex Aiken</li>
+                          
+              </ul>
+        <h2>SESSION: Testing and Debugging</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28668" title="Get the Full Text from the ACM Digital Library">Coverage-directed differential testing of JVM implementations</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Yuting Chen</li>
+                          
+                          <li class="nameList">Ting Su</li>
+                          
+                          <li class="nameList">Chengnian Sun</li>
+                          
+                          <li class="nameList">Zhendong Su</li>
+                          
+                          <li class="nameList Last">Jianjun Zhao</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28669" title="Get the Full Text from the ACM Digital Library">Exposing errors related to weak memory in GPU applications</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Tyler Sorensen</li>
+                          
+                          <li class="nameList Last">Alastair F. Donaldson</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28660" title="Get the Full Text from the ACM Digital Library">Lightweight computation tree tracing for lazy functional languages</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Maarten Faddegon</li>
+                          
+                          <li class="nameList Last">Olaf Chitil</li>
+                          
+              </ul>
+        <h2>SESSION: Energy and Performance</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28661" title="Get the Full Text from the ACM Digital Library">Effective padding of multidimensional arrays to avoid cache conflict misses</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Changwan Hong</li>
+                          
+                          <li class="nameList">Wenlei Bao</li>
+                          
+                          <li class="nameList">Albert Cohen</li>
+                          
+                          <li class="nameList">Sriram Krishnamoorthy</li>
+                          
+                          <li class="nameList">Louis-No&#235;l Pouchet</li>
+                          
+                          <li class="nameList">Fabrice Rastello</li>
+                          
+                          <li class="nameList">J. Ramanujam</li>
+                          
+                          <li class="nameList Last">P. Sadayappan</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28662" title="Get the Full Text from the ACM Digital Library">GreenWeb: language extensions for energy-efficient mobile web computing</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Yuhao Zhu</li>
+                          
+                          <li class="nameList Last">Vijay Janapa Reddi</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28663" title="Get the Full Text from the ACM Digital Library">Input responsiveness: using canary inputs to dynamically steer approximation</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Michael A. Laurenzano</li>
+                          
+                          <li class="nameList">Parker Hill</li>
+                          
+                          <li class="nameList">Mehrzad Samadi</li>
+                          
+                          <li class="nameList">Scott Mahlke</li>
+                          
+                          <li class="nameList">Jason Mars</li>
+                          
+                          <li class="nameList Last">Lingjia Tang</li>
+                          
+              </ul>
+        <h2>SESSION: New Languages</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28664" title="Get the Full Text from the ACM Digital Library">Configuration synthesis for programmable analog devices with Arco</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Sara Achour</li>
+                          
+                          <li class="nameList">Rahul Sarpeshkar</li>
+                          
+                          <li class="nameList Last">Martin C. Rinard</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28675" title="Get the Full Text from the ACM Digital Library">From Datalog to flix: a declarative language for fixed points on lattices</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Magnus Madsen</li>
+                          
+                          <li class="nameList">Ming-Ho Yee</li>
+                          
+                          <li class="nameList Last">Ond&#345;ej Lhot&#225;k</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28676" title="Get the Full Text from the ACM Digital Library">Latte: a language, compiler, and runtime for elegant and efficient deep neural networks</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Leonard Truong</li>
+                          
+                          <li class="nameList">Rajkishore Barik</li>
+                          
+                          <li class="nameList">Ehsan Totoni</li>
+                          
+                          <li class="nameList">Hai Liu</li>
+                          
+                          <li class="nameList">Chick Markley</li>
+                          
+                          <li class="nameList">Armando Fox</li>
+                          
+                          <li class="nameList Last">Tatiana Shpeisman</li>
+                          
+              </ul>
+        <h2>SESSION: Parsing and Compilation</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28677" title="Get the Full Text from the ACM Digital Library">On the complexity and performance of parsing with derivatives</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Michael D. Adams</li>
+                          
+                          <li class="nameList">Celeste Hollenbeck</li>
+                          
+                          <li class="nameList Last">Matthew Might</li>
+                          
+              </ul>
+        <h2>SESSION: Down to the Metal II</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28678" title="Get the Full Text from the ACM Digital Library">Stratified synthesis: automatically learning the x86-64 instruction set</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Stefan Heule</li>
+                          
+                          <li class="nameList">Eric Schkufza</li>
+                          
+                          <li class="nameList">Rahul Sharma</li>
+                          
+                          <li class="nameList Last">Alex Aiken</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28679" title="Get the Full Text from the ACM Digital Library">Remix: online detection and repair of cache contention for the JVM</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Ariel Eizenberg</li>
+                          
+                          <li class="nameList">Shiliang Hu</li>
+                          
+                          <li class="nameList">Gilles Pokam</li>
+                          
+                          <li class="nameList Last">Joseph Devietti</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28670" title="Get the Full Text from the ACM Digital Library">Statistical similarity of binaries</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Yaniv David</li>
+                          
+                          <li class="nameList">Nimrod Partush</li>
+                          
+                          <li class="nameList Last">Eran Yahav</li>
+                          
+              </ul>
+        <h2>SESSION: Types I</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28671" title="Get the Full Text from the ACM Digital Library">Accepting blame for safe tunneled exceptions</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Yizhou Zhang</li>
+                          
+                          <li class="nameList">Guido Salvaneschi</li>
+                          
+                          <li class="nameList">Quinn Beightol</li>
+                          
+                          <li class="nameList">Barbara Liskov</li>
+                          
+                          <li class="nameList Last">Andrew C. Myers</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28672" title="Get the Full Text from the ACM Digital Library">Occurrence typing modulo theories</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Andrew M. Kent</li>
+                          
+                          <li class="nameList">David Kempe</li>
+                          
+                          <li class="nameList Last">Sam Tobin-Hochstadt</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28673" title="Get the Full Text from the ACM Digital Library">Refinement types for TypeScript</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Panagiotis Vekris</li>
+                          
+                          <li class="nameList">Benjamin Cosman</li>
+                          
+                          <li class="nameList Last">Ranjit Jhala</li>
+                          
+              </ul>
+        <h2>SESSION: Synthesis I</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28674" title="Get the Full Text from the ACM Digital Library">MapReduce program synthesis</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Calvin Smith</li>
+                          
+                          <li class="nameList Last">Aws Albarghouthi</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28685" title="Get the Full Text from the ACM Digital Library">Programmatic and direct manipulation, together at last</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Ravi Chugh</li>
+                          
+                          <li class="nameList">Brian Hempel</li>
+                          
+                          <li class="nameList">Mitchell Spradlin</li>
+                          
+                          <li class="nameList Last">Jacob Albers</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28686" title="Get the Full Text from the ACM Digital Library">Fast synthesis of fast collections</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Calvin Loncaric</li>
+                          
+                          <li class="nameList">Emina Torlak</li>
+                          
+                          <li class="nameList Last">Michael D. Ernst</li>
+                          
+              </ul>
+        <h2>SESSION: Software-Defined Networking</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28687" title="Get the Full Text from the ACM Digital Library">Event-driven network programming</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Jedidiah McClurg</li>
+                          
+                          <li class="nameList">Hossein Hojjat</li>
+                          
+                          <li class="nameList">Nate Foster</li>
+                          
+                          <li class="nameList Last">Pavol &#268;ern&#253;</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28688" title="Get the Full Text from the ACM Digital Library">Temporal NetKAT</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Ryan Beckett</li>
+                          
+                          <li class="nameList">Michael Greenberg</li>
+                          
+                          <li class="nameList Last">David Walker</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28689" title="Get the Full Text from the ACM Digital Library">SDNRacer: concurrency analysis for software-defined networks</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Ahmed El-Hassany</li>
+                          
+                          <li class="nameList">Jeremie Miserez</li>
+                          
+                          <li class="nameList">Pavol Bielik</li>
+                          
+                          <li class="nameList">Laurent Vanbever</li>
+                          
+                          <li class="nameList Last">Martin Vechev</li>
+                          
+              </ul>
+        <h2>SESSION: Verifying Systems</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28680" title="Get the Full Text from the ACM Digital Library">Rehearsal: a configuration verification tool for puppet</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Rian Shambaugh</li>
+                          
+                          <li class="nameList">Aaron Weiss</li>
+                          
+                          <li class="nameList Last">Arjun Guha</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28681" title="Get the Full Text from the ACM Digital Library">Toward compositional verification of interruptible OS kernels and device drivers</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Hao Chen</li>
+                          
+                          <li class="nameList">Xiongnan (Newman) Wu</li>
+                          
+                          <li class="nameList">Zhong Shao</li>
+                          
+                          <li class="nameList">Joshua Lockerman</li>
+                          
+                          <li class="nameList Last">Ronghui Gu</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28682" title="Get the Full Text from the ACM Digital Library">Verified peephole optimizations for CompCert</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Eric Mullen</li>
+                          
+                          <li class="nameList">Daryl Zuniga</li>
+                          
+                          <li class="nameList">Zachary Tatlock</li>
+                          
+                          <li class="nameList Last">Dan Grossman</li>
+                          
+              </ul>
+        <h2>SESSION: Types II</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28683" title="Get the Full Text from the ACM Digital Library">Just-in-time static type checking for dynamic languages</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Brianna M. Ren</li>
+                          
+                          <li class="nameList Last">Jeffrey S. Foster</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28684" title="Get the Full Text from the ACM Digital Library">Types from data: making structured data first-class citizens in F#</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Tomas Petricek</li>
+                          
+                          <li class="nameList">Gustavo Guerra</li>
+                          
+                          <li class="nameList Last">Don Syme</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28695" title="Get the Full Text from the ACM Digital Library">Automatically learning shape specifications</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">He Zhu</li>
+                          
+                          <li class="nameList">Gustavo Petri</li>
+                          
+                          <li class="nameList Last">Suresh Jagannathan</li>
+                          
+              </ul>
+        <h2>SESSION: Synthesis II</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28696" title="Get the Full Text from the ACM Digital Library">Synthesizing transformations on hierarchically structured data</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Navid Yaghmazadeh</li>
+                          
+                          <li class="nameList">Christian Klinger</li>
+                          
+                          <li class="nameList">Isil Dillig</li>
+                          
+                          <li class="nameList Last">Swarat Chaudhuri</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28697" title="Get the Full Text from the ACM Digital Library">Program synthesis from polymorphic refinement types</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Nadia Polikarpova</li>
+                          
+                          <li class="nameList">Ivan Kuraj</li>
+                          
+                          <li class="nameList Last">Armando Solar-Lezama</li>
+                          
+              </ul>
+        <h2>SESSION: Parallelism I</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28698" title="Get the Full Text from the ACM Digital Library">Higher-order and tuple-based massively-parallel prefix sums</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Sepideh Maleki</li>
+                          
+                          <li class="nameList">Annie Yang</li>
+                          
+                          <li class="nameList Last">Martin Burtscher</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28699" title="Get the Full Text from the ACM Digital Library">A distributed OpenCL framework using redundant computation and data replication</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Junghyun Kim</li>
+                          
+                          <li class="nameList">Gangwon Jo</li>
+                          
+                          <li class="nameList">Jaehoon Jung</li>
+                          
+                          <li class="nameList">Jungwon Kim</li>
+                          
+                          <li class="nameList Last">Jaejin Lee</li>
+                          
+              </ul>
+        <h2>SESSION: Memory Management</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28690" title="Get the Full Text from the ACM Digital Library">Idle time garbage collection scheduling</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Ulan Degenbaev</li>
+                          
+                          <li class="nameList">Jochen Eisinger</li>
+                          
+                          <li class="nameList">Manfred Ernst</li>
+                          
+                          <li class="nameList">Ross McIlroy</li>
+                          
+                          <li class="nameList Last">Hannes Payer</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28691" title="Get the Full Text from the ACM Digital Library">Assessing the limits of program-specific garbage collection performance</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Nicholas Jacek</li>
+                          
+                          <li class="nameList">Meng-Chieh Chiu</li>
+                          
+                          <li class="nameList">Benjamin Marlin</li>
+                          
+                          <li class="nameList Last">Eliot Moss</li>
+                          
+              </ul>
+        <h2>SESSION: Verification II</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28692" title="Get the Full Text from the ACM Digital Library">Cardinalities and universal quantifiers for verifying parameterized systems</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Klaus v. Gleissenthall</li>
+                          
+                          <li class="nameList">Nikolaj Bj&#248;rner</li>
+                          
+                          <li class="nameList Last">Andrey Rybalchenko</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28693" title="Get the Full Text from the ACM Digital Library">Ivy: safety verification by interactive generalization</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Oded Padon</li>
+                          
+                          <li class="nameList">Kenneth L. McMillan</li>
+                          
+                          <li class="nameList">Aurojit Panda</li>
+                          
+                          <li class="nameList">Mooly Sagiv</li>
+                          
+                          <li class="nameList Last">Sharon Shoham</li>
+                          
+              </ul>
+        <h2>SESSION: Security</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28694" title="Get the Full Text from the ACM Digital Library">Precise, dynamic information flow for database-backed applications</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Jean Yang</li>
+                          
+                          <li class="nameList">Travis Hance</li>
+                          
+                          <li class="nameList">Thomas H. Austin</li>
+                          
+                          <li class="nameList">Armando Solar-Lezama</li>
+                          
+                          <li class="nameList">Cormac Flanagan</li>
+                          
+                          <li class="nameList Last">Stephen Chong</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28605" title="Get the Full Text from the ACM Digital Library">End-to-end verification of information-flow security for C and assembly programs</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">David Costanzo</li>
+                          
+                          <li class="nameList">Zhong Shao</li>
+                          
+                          <li class="nameList Last">Ronghui Gu</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28606" title="Get the Full Text from the ACM Digital Library">A design and verification methodology for secure isolated regions</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Rohit Sinha</li>
+                          
+                          <li class="nameList">Manuel Costa</li>
+                          
+                          <li class="nameList">Akash Lal</li>
+                          
+                          <li class="nameList">Nuno P. Lopes</li>
+                          
+                          <li class="nameList">Sriram Rajamani</li>
+                          
+                          <li class="nameList">Sanjit A. Seshia</li>
+                          
+                          <li class="nameList Last">Kapil Vaswani</li>
+                          
+              </ul>
+        <h2>SESSION: Parallelism II</h2> 
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28607" title="Get the Full Text from the ACM Digital Library">Transactional data structure libraries</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Alexander Spiegelman</li>
+                          
+                          <li class="nameList">Guy Golan-Gueta</li>
+                          
+                          <li class="nameList Last">Idit Keidar</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28608" title="Get the Full Text from the ACM Digital Library">FlexVec: auto-vectorization for irregular loops</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Sara S. Baghsorkhi</li>
+                          
+                          <li class="nameList">Nalini Vasudevan</li>
+                          
+                          <li class="nameList Last">Youfeng Wu</li>
+                          
+              </ul>
+        
+        <h3>
+
+			  
+              <a class="DLtitleLink" href="http://dl.acm.org/authorize?N28609" title="Get the Full Text from the ACM Digital Library">Verified lifting of stencil computations</a>
+              
+        </h3>
+        
+           <ul class="DLauthors">
+           
+                          <li class="nameList First">Shoaib Kamil</li>
+                          
+                          <li class="nameList">Alvin Cheung</li>
+                          
+                          <li class="nameList">Shachar Itzhaky</li>
+                          
+                          <li class="nameList Last">Armando Solar-Lezama</li>
+                          
+              </ul>
+        
+    </div>
+</div>
+
+</body>
+</html>
