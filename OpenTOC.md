@@ -41,7 +41,7 @@ confusion over article versioning.
 
 - - - - -
 
-## By Conference
+## By Event
 
 {% assign data = site.data["OpenTOC"] | group_by:"conf" | sort: 'name' %}
 
