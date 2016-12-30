@@ -25,7 +25,7 @@ publishers.  The `acmart` format includes a number of sub-formats, two
 of which are relevant to SIGPLAN authors:
 
  * `acmlarge` sub-format: a one-column format used by papers published
-   as issue of [PACM on Programming Languages
+   as an issue of [PACM on Programming Languages
    (PACMPL)](http://pacmpl.acm.org)
 
  * `sigplan` sub-format: a two-column format used by papers published
