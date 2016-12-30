@@ -34,10 +34,10 @@
   conf: CPP
   year: 2015
   proc: "Proceedings of the 4th ACM SIGPLAN Conference on Certified Programs and Proofs"
-# -
-#   conf: CPP
-#   year: 2016
-#   proc: "Proceedings of the 5th ACM SIGPLAN Conference on Certified Programs and Proofs"
+-
+  conf: CPP
+  year: 2016
+  proc: "Proceedings of the 5th ACM SIGPLAN Conference on Certified Programs and Proofs"
 -
   conf: CPP
   year: 2017
@@ -262,10 +262,10 @@
   conf: PLDI
   year: 2014
   proc: "Proceedings of the 35th ACM SIGPLAN Conference on Programming Language Design and Implementation"
-# -
-#   conf: PLDI
-#   year: 2015
-#   proc: "Proceedings of the 36th ACM SIGPLAN Conference on Programming Language Design and Implementation"
+-
+  conf: PLDI
+  year: 2015
+  proc: "Proceedings of the 36th ACM SIGPLAN Conference on Programming Language Design and Implementation"
 -
   conf: PLDI
   year: 2016
