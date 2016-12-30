@@ -23,17 +23,17 @@ confusion over article versioning.
 
 ### {{d.name}}
 
-{% assign items = d.items | sort: 'conf' %}
+{% assign items = d.items | sort: 'event' %}
 
 {% for i in items %}
 
-{% assign conf = i.conf %}
-{% assign name = conf | downcase | remove: "!" %}
+{% assign event = i.event %}
+{% assign name = event | downcase | remove: "!" %}
 {% assign year = i.year %}
 {% assign shortyear = year | slice: -2,2 %}
-{% assign proc = i.proc %}
+{% assign title = i.title %}
 
-* [{{conf}}'{{shortyear}}: {{proc}}]({{name}}{{shortyear}}.html)
+* [{{event}}'{{shortyear}}: {{title}}]({{name}}{{shortyear}}.html)
 
 {% endfor %}
 
@@ -43,7 +43,7 @@ confusion over article versioning.
 
 ## By Event
 
-{% assign data = site.data["OpenTOC"] | group_by:"conf" | sort: 'name' %}
+{% assign data = site.data["OpenTOC"] | group_by:"event" | sort: 'name' %}
 
 {% for d in data %}
 
@@ -53,13 +53,13 @@ confusion over article versioning.
 
 {% for i in items %}
 
-{% assign conf = i.conf %}
-{% assign name = conf | downcase | remove: "!" %}
+{% assign event = i.event %}
+{% assign name = event | downcase | remove: "!" %}
 {% assign year = i.year %}
 {% assign shortyear = year | slice: -2,2 %}
-{% assign proc = i.proc %}
+{% assign title = i.title %}
 
-* [{{conf}}'{{shortyear}}: {{proc}}]({{name}}{{shortyear}}.html)
+* [{{event}}'{{shortyear}}: {{title}}]({{name}}{{shortyear}}.html)
 
 {% endfor %}
 
