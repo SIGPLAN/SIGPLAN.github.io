@@ -13,6 +13,12 @@ improving the accuracy of usage and impact measurements. Consistently
 linking to definitive versions of ACM articles should reduce user
 confusion over article versioning.
 
+<p style="text-align: center;">
+[By Year](#by-year)
+&mid;
+[By Event](#by-event)
+</p>
+
 - - - - -
 
 ## By Year
