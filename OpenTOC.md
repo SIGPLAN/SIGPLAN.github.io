@@ -14,9 +14,9 @@ linking to definitive versions of ACM articles should reduce user
 confusion over article versioning.
 
 <p style="text-align: center;">
-[By Year](#by-year)
+<a href="#by-year">By Year</a>
 &mid;
-[By Event](#by-event)
+<a href="#by-event">By Event</a>
 </p>
 
 - - - - -
