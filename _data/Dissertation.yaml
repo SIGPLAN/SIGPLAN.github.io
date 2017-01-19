@@ -26,6 +26,37 @@
     understanding of the potential of automated program verification
     and its application to real-world programs.
 
+- Awardee: "Vilhelm Sjöberg, University of Pennsylvania"
+  Other: |
+    _[A Dependently Typed Language with Nontermination](/Awards/Dissertation/2016_sjoberg.pdf)_
+  Advisor: Stephanie Weirich
+  Citation: |
+    This work represents a major step toward the holy grail of
+    "general-purpose dependently typed programming" -- i.e., the
+    design of programming languages that allow programs to be written
+    using the full spectrum of standard features and idioms while,
+    supporting machine-checked correctness proofs for these programs,
+    expressed in the very same language. Such languages, combining the
+    logical power of full-spectrum dependent languages such as Coq and
+    Agda with the convenience and expressiveness of mainstream
+    functional languages and supporting "lightweight verification"
+    targeting just the most important properties of the most critical
+    parts of the code, have been imagined for decades, but realizing
+    this dream has proved technically challenging. The language and
+    its accompanying metatheory introduce two important
+    innovations. The first, and more technical, of these is the design
+    of a core language combining a call-by-value evaluation order, a
+    pragmatically motivated treatment of computational irrelevance (to
+    support compilation to efficient machine code), and a novel
+    treatment of propositional equality. The second is a new approach
+    to surface-language design, where two terms (including proof
+    terms) are considered to be equivalent if one can be rewritten to
+    the other by applying a set of "known equalities" arising from
+    previous definitions, which is quite convenient and intuitive for
+    programmers. This beautiful thesis will be a cornerstone of a new
+    generation of language designs supporting significantly more
+    robust and reliable software development.
+
 2015:
 - Awardee: "Mark Batty, University of Cambridge"
   Other: |
