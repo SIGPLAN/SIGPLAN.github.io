@@ -283,6 +283,10 @@
   year: 2016
   title: "Proceedings of the 7th International Workshop on Programming Models and Applications for Multicores and Manycores"
 -
+  event: PMAM
+  year: 2017
+  title: "Proceedings of the 8th International Workshop on Programming Models and Applications for Multicores and Manycores"
+-
   event: POPL
   year: 2014
   title: "Proceedings of the 41st Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
