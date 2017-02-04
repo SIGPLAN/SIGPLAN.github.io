@@ -40,32 +40,30 @@ Director](mailto:infodir_sigplan@acm.org?subject=ACM%20acmart%20format).
 
 #### LaTeX class, bibliography style, and template files
 
-For LaTeX users, the `acmart` format is available from ACM's [Master
-Article
+For LaTeX users, the [PACMPL package
+(`acmart-pacmpl.zip`)](/sites/default/files/acmart/current/acmart-pacmpl.zip)
+and [SIGPLAN proceedings package
+(`acmart-sigplanproc.zip`)](/sites/default/files/acmart/current/acmart-sigplanproc.zip)
+are light-weight packages that include only the essential files for an
+author:
+
+ * [PACMPL template (`acmart-pacmpl-template.tex`)](/sites/default/files/acmart/current/acmart-pacmpl-template.tex)  
+   or [SIGPLAN proceedings template (`acmart-sigplanproc-template.tex`)](/sites/default/files/acmart/current/acmart-sigplanproc-template.tex)
+ * [class file (`acmart.cls`)](/sites/default/files/acmart/current/acmart.cls)
+ * [class file documentation (`acmart.pdf`)](/sites/default/files/acmart/current/acmart.pdf)
+ * [bibliography style file (`ACM-Reference-Format.bst`)](/sites/default/files/acmart/current/ACM-Reference-Format.bst)
+
+The `acmart` format is also available from ACM's [Master Article
 Template](http://www.acm.org/publications/proceedings-template) page
 and as a [CTAN package](http://ctan.org/pkg/acmart) (and is
 distributed with most popular TeX distributions).  However, these are
 heavy-weight packages, including the documented LaTeX (`.dtx`) file,
-samples of all of the different sub-formats, and bibilography and
+samples of all of the different sub-formats, and bibliography and
 image files used by the samples, that most authors won't want or need.
-
-The [PACMPL
-package](/sites/default/files/acmart/current/acmart-pacmpl.zip)&nbsp;(`acmart-pacmpl.zip`)
-and [SIGPLAN proceedings
-package](/sites/default/files/acmart/current/acmart-sigplanproc.zip)&nbsp;(`acmart-sigplanproc.zip`)
-are light-weight packages that include only the essential files for an
-author:
-
- * [class file](/sites/default/files/acmart/current/acmart.cls) (`acmart.cls`)
- * [class file documentation](/sites/default/files/acmart/current/acmart.pdf) (`acmart.pdf`)
- * [bibliography style file](/sites/default/files/acmart/current/ACM-Reference-Format.bst) (`ACM-Reference-Format.bst`)
- * [PACMPL template](/sites/default/files/acmart/current/acmart-pacmpl-template.tex) (`acmart-pacmpl-template.tex`)  
-   or [SIGPLAN proceedings template](/sites/default/files/acmart/current/acmart-sigplanproc-template.tex) (`acmart-sigplanproc-template.tex`)
-
-The [PACMPL
-template](/sites/default/files/acmart/current/acmart-pacmpl-template.tex)
-and [SIGPLAN proceedings
-template](/sites/default/files/acmart/current/acmart-sigplanproc-template.tex)
+The [PACMPL template
+(`acmart-pacmpl-template.tex`)](/sites/default/files/acmart/current/acmart-pacmpl-template.tex)
+and [SIGPLAN proceedings template
+(`acmart-sigplanproc-template.tex`)](/sites/default/files/acmart/current/acmart-sigplanproc-template.tex)
 are not distributed in the heavy-weight packages; authors are
 encouraged to use the templates if they obtain the `acmart` format via
 the heavy-weight packages (or through their TeX distribution).
