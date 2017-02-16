@@ -140,6 +140,10 @@
   title: "Proceedings of the 15th International Conference on Generative Programming: Concepts and Experiences"
 -
   event: GPGPU
+  year: 2017
+  title: "Proceedings of the 10th Workshop on General Purpose Processing using Graphics Processing Units"
+-
+  event: GPGPU
   year: 2016
   title: "Proceedings of the 9th Workshop on General Purpose Processing using Graphics Processing Units"
 -
