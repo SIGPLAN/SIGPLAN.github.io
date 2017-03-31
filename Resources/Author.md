@@ -68,6 +68,12 @@ are not distributed in the heavy-weight packages; authors are
 encouraged to use the templates if they obtain the `acmart` format via
 the heavy-weight packages (or through their TeX distribution).
 
+The `review` option is strongly encouraged, but not required, for
+submissions. (The `review` option will add line numbers, which make it
+easier for reviewers to reference specific parts of the paper in their
+comments, but should have absolutely no other effect on the
+typesetting.)
+
 #### Word templates
 
 For Word users, the `acmart` format is available from ACM's [Master
