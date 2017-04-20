@@ -27,8 +27,18 @@ Awards
     -   Title: The Paradoxical Success of Aspect-Oriented Programming
     -   Conference: Onward! 2006
     -   Paper:
-        [http://dl.acm.org/citation.cfm?id=1167514](http://dl.acm.org/citation.cfm?id=1167514)
-    -   Citation: The 2006 Onward! Essay "The Paradoxical Success of Aspect-Oriented Programming" presents a considered and articulated exploration of the nature of aspect-oriented programming (AOP). In particular, the paper takes a hard look at the value proposed for AOP, together with an examination of what is achieved and what sacrifices appear to be necessary. The paper does not attack AOP, but rather takes a sober look at the hopes and the fears. In doing so, the paper provides a careful review that might also form the basis for progress, even if the form of progress might differ from the original promise.
+        [http://dl.acm.org/citation.cfm?id=1167514](http://dl.acm.org/citation.cfm?id=1167514)   
+    -   Citation: The 2006 Onward! Essay "The Paradoxical Success of
+        Aspect-Oriented Programming" presents a considered and
+        articulated exploration of the nature of aspect-oriented
+        programming (AOP). In particular, the paper takes a hard look
+        at the value proposed for AOP, together with an examination of
+        what is achieved and what sacrifices appear to be
+        necessary. The paper does not attack AOP, but rather takes a
+        sober look at the hopes and the fears. In doing so, the paper
+        provides a careful review that might also form the basis for
+        progress, even if the form of progress might differ from the
+        original promise.
 
 -   Most Notable Paper Award 2015 for 2005
     -   Recipient: Jonathan Edwards
@@ -255,6 +265,5 @@ Steering Committee Members
 * Jeremy Gibbons, University of Oxford, UK (SIGPLAN) 
 * Antony Hosking, Purdue University, USA
 * Shriram Krishnamurthi, Brown University, USA
-* Cristina Videira Lopes, University of California at Irvine, USA 
 * James Noble, Victoria University of Wellington, New Zealand
 * Dirk Riehle, Friedrich-Alexander-Universit&#228;t Erlangen-N&#252;rnberg, Germany
