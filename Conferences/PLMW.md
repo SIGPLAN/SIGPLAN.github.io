@@ -15,7 +15,7 @@ We especially encourage women and underrepresented minority students to attend P
 
 > [PLMW @ ICFP'17 Web Page](http://icfp17.sigplan.org/track/PLMW-ICFP-2017-papers)  
 > Location: Oxford, United Kingdom  
-> Organizers:  
+> Co-Chairs: Neelakantan R. Krishnaswami, Dan Licata, Brigitte Pientka
 > Date: September 3, 2017
 
 > [PLMW @ SPLASH'16 Web Page](http://2017.splashcon.org/track/splash-2017-PLMW)  
