@@ -14,7 +14,7 @@ Onward! 2017
 -   Vancouver, British Columbia, Canada, October 25-27, 2017
 -   Co-located with SPLASH 2017
 -   Papers chair: Emina Torlak (University of Washington)
--   Papers co-chair: Tijs van der Storm (Centrum Wiskunde &amp; Informatica)
+-   Papers co-chair: Tijs van der Storm (Centrum Wiskunde &amp; Informatica and University of Groningen)
 -   Essays chair: Robert Biddle (Carleton University)
 -   [http://2017.splashcon.org](http://2017.splashcon.org)
 -   [http://2017.onward-conference.org/track/onward-2017-Onward-Papers](http://2017.onward-conference.org/track/onward-2017-Onward-Papers)
