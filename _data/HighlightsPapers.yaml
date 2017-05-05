@@ -149,6 +149,14 @@ Selected July 2014:
     language routines that are widely recognized to be the fastest
     available and generally faster than what GCC can produce for
     hand-tuned C code).
+  CACMHighlight:
+    Date: May 2017
+    Title: "Exploiting Vector Instructions with Generalized Stream Fusion"
+    Link: http://dl.acm.org/citation.cfm?doid=3084186.3060597
+    TechnicalPerspective:
+      Title: Functional Compilers
+      Link: http://dl.acm.org/citation.cfm?doid=3084186.3060595
+      Author: Guy Blelloch
   
 - Title: "_[Fun with Semirings: A Functional Pearl on the Abuse of Linear Algebra](http://dl.acm.org/citation.cfm?doid=2500365.2500613)_"
   Author: Stephen Dolan (University of Cambridge)
