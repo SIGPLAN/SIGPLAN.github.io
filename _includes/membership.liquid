@@ -13,7 +13,7 @@
      {% include role.liquid committee=name role1="Chair" role2=role2 %}
    {% endif %}
 {% elsif type == "string" %}
-   {% if include.rol <> nil %}
+   {% if include.role <> nil %}
      {% if include.prefix %}
        <b> {{ include.role }}: </b>
        {{ include.member | markdownify | replace: 'p>', 'span>' }}
