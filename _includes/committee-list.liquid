@@ -15,13 +15,7 @@
                     {% assign j0 = j[0] %}
                     {% assign j1 = j[1] %}
                     {% include typeof.liquid value=j1 %}
-                    {% if include.prefix == true or type == "list" %}
-                         <b> {{ j0 }}: </b>
-                         {% include membership.liquid member=j1 prefix=include.prefix role=j0 %}
-                    {% else %}
-                         {% include membership.liquid member=j1 prefix=include.prefix role=j0 %}
-                         ({{ j0 }})
-                    {% endif %}
+                    {% include membership.liquid member=j1 prefix=include.prefix role=j0 %}
                 </li>
            {% endfor %}
         {% else %}
