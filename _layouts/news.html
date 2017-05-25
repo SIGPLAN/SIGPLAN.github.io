@@ -16,7 +16,8 @@
           {% assign page_name = page.name | remove: ".md" %}
           {% for news in site.data.News %}
           {% if news.Page == page_name %}
-          <font size="+1">{{ news.Content | markdownify}}</font>
+          <font size="+1">{{ news.Content | markdownify }}</font>
+          <font size="-2">{{ news.Date }}</font>
           {% endif %}
           {% endfor %}
 

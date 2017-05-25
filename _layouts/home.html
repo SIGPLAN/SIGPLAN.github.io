@@ -28,9 +28,12 @@
         </div>
         <div class="col-md-7 col-md-offset-1">
           {% for news in site.data.News %}
-          <a href="News/{{news.Page}}"><h2>{{news.Title}}</h2></a>
-          <font size="+1">{{ news.Content | markdownify}}</font>
-          <hr>
+          {% if news.Active %}
+            <a href="News/{{news.Page}}"><h2>{{news.Title}}</h2></a>
+            <font size="+1">{{ news.Content | markdownify }}</font>
+            <font size="-2">{{ news.Date }}</font>
+            <hr>
+          {% endif %}
           {% endfor %}
 
           <h3>Awards and Recent Recipients</h3>
