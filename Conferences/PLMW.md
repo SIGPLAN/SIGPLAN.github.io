@@ -18,7 +18,7 @@ We especially encourage women and underrepresented minority students to attend P
 > Co-Chairs: Neelakantan R. Krishnaswami, Dan Licata, Brigitte Pientka
 > Date: September 3, 2017
 
-> [PLMW @ SPLASH'16 Web Page](http://2017.splashcon.org/track/splash-2017-PLMW)  
+> [PLMW @ SPLASH'17 Web Page](http://2017.splashcon.org/track/splash-2017-PLMW)  
 > Location: Vancouver, Candada  
 > Co-Chairs: Barbara Ryder and Lori Pollock  
 > Date: October 24, 2017
