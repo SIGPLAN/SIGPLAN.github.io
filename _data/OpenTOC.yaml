@@ -23,6 +23,10 @@
   year: 2016
   title: "Proceedings of the 3rd ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming"
 -
+  event: ARRAY
+  year: 2017
+  title: "Proceedings of the 4th ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming"
+-
   event: CC
   year: 2016
   title: "Proceedings of the 25th International Conference on Compiler Construction"
@@ -202,6 +206,14 @@
   event: LCTES
   year: 2016
   title: "Proceedings of the 17th ACM SIGPLAN/SIGBED Conference on Languages, Compilers, Tools, and Theory for Embedded Systems"
+-
+  event: LCTES
+  year: 2017
+  title: "Proceedings of the 18th ACM SIGPLAN/SIGBED Conference on Languages, Compilers, Tools, and Theory for Embedded Systems"
+-
+  event: MAPL
+  year: 2017
+  title: "Proceedings of the 1st ACM SIGPLAN International Workshop on Machine Learning and Programming Languages"
 -
   event: Mobile!
   year: 2016
@@ -394,6 +406,10 @@
   event: SOAP
   year: 2016
   title: "Proceedings of the 5th ACM SIGPLAN International Workshop on State Of the Art in Program Analysis"
+-
+  event: SOAP
+  year: 2017
+  title: "Proceedings of the 6th ACM SIGPLAN International Workshop on State Of the Art in Program Analysis"
 -
   event: SPLASH
   year: 2014
