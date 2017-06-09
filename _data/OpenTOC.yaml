@@ -183,6 +183,10 @@
   year: 2016
   title: "Proceedings of the 15th ACM SIGPLAN International Symposium on Memory Management"
 -
+  event: ISMM
+  year: 2017
+  title: "Proceedings of the 16th ACM SIGPLAN International Symposium on Memory Management"
+-
   event: ITSLE
   year: 2016
   title: "Proceedings of the 1st Industry Track on Software Language Engineering"
