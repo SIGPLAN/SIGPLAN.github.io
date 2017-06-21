@@ -1,3 +1,26 @@
+2017:
+- Awardee: Nicholas Nethercote and Julian Seward
+  Other: |
+    (for 2007) _[Valgrind: a framework for heavyweight dynamic binary instrumentation](http://dl.acm.org/citation.cfm?id=1250746)_
+  Citation: |
+    Valgrind is a framework for writing dynamic binary instrumentation
+    tools, which interleave the execution of program monitoring code
+    with the execution of a program itself. The best known tool built
+    with Valgrind is Memcheck, which detects uses of undefined values
+    down to the bit level. Other tools track "tainted" or special
+    (e.g., password) values. Valgrind facilitates the construction of
+    these tools by abstracting the details of complex computer
+    architectures and providing an expressive interface for writing
+    instrumenting code. Valgrind pioneered dynamic binary
+    recompilation for tight integration and optimization of
+    instrumentation code. The paper contains a careful analysis of the
+    requirements of dynamic binary instrumentation tools and shows
+    that competing tools, unlike Valgrind, sacrifice completeness of
+    features for simplicity of implementation, use, or
+    performance. The paper is widely cited. Many open-source defect
+    detection tools build on Valgrind and have improved a wide range
+    of open-source and commercial software.
+
 2016:
 - Awardee: Emery Berger and Benjamin Zorn
   Other: |
