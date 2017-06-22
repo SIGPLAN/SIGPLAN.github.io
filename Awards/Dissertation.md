@@ -10,8 +10,9 @@ ICFP, OOPSLA, POPL, or PLDI. At the discretion of the Selection
 Committee, multiple awards and/or honorable mentions may be presented
 for a given year.
 
-All questions about the John C. Reynolds Doctoral Dissertation Award should be directed to
-**<mailto:reynolds_award@sigplan.org>**.
+All questions about the John C. Reynolds Doctoral Dissertation Award
+should be directed to **<mailto:reynolds_award@sigplan.org>**.
+
 
 **Nominations**
 
@@ -28,6 +29,9 @@ A nomination consists of the following items:
  *  Dissertation - either as a pdf or a url where the dissertation can be found.
  *  A short statement (200-500 words) explaining why the nominee merits the award.
  *  Supporting statements from up to two people in addition to the nominator.
+
+
+** About **
 
 This award recognizes the contributions to computer science that John
 C. Reynolds made during his life. It is a renaming of the SIGPLAN
