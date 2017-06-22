@@ -1,3 +1,49 @@
+2017:
+- Awardee: "Ramana Kumar, Cambridge University"
+  Other: |
+    _[Self-compilation and Self-verification](/Awards/Dissertation/2017_kumar.pdf)_
+  Advisor: Mike Gordon
+  Citation: |
+    This thesis establishes end-to-end verification with a
+    comprehensive chain of connections all the way from the semantics
+    of a theorem prover expressed in set theory down to x86 machine
+    code running it. It also makes striking use of self-application
+    for both the compiler and the theorem prover.  The "CakeML"
+    compiler is compiled with itself. But more than that: it is
+    formally proved correct, and the core of the theorem prover used
+    to prove its correctness is also compiled using CakeML and
+    formally verified using itself. Not only is this a compelling
+    demonstration of the possibilities for formally correct software,
+    and the promise of the CakeML system as an enabling technology for
+    it, but gives perhaps the first really convincing correctness
+    proof for the core of a higher-order logic interactive theorem
+    prover. It is possible that this combination of theorem prover and
+    formally verified path to machine code will become one of the
+    primary platforms for developing high-assurance software.
+
+- Awardee: "Zachary Kincaid, University of Toronto (Honorable Mention)"
+  Other: |
+    _[Parallel Proofs for Parallel Programs](/Awards/Dissertation/2017_???.pdf)_
+  Advisor: Azadeh Farzan
+  Citation: |
+    This thesis proposes a new solution for the problem of concurrent
+    program verification introducing the use of explicitly parallel
+    models and logics to represent and reason about concurrent
+    programs. An effective way of finding a sweet spot in the
+    cost-precision spectrum is provided, weaving together the two
+    steps of constraint generation and cons traint resolution,
+    offering a new way to think about proofs of concurrent programs.
+    This paradigm shift has been missing in the space of "automated"
+    program verification of infinite-state programs, since despite the
+    absolute elegance of Owicki-Gries and Rely-Guarantee proof
+    techniques, the completeness of these techniques heavily relies on
+    the concept of auxiliary proof state. In this thesis, "inductive
+    data flow graphs" (iDFG) offer the same completeness and elegance
+    as the Owicki-Gries method minus the need for the auxiliary state
+    in generating provably "compact" proof arguments.  The elegance of
+    iDFGs are generalized into a proof method "proof spaces" for
+    concurrent programs with "unboundedly" many threads.
+
 2016:
 - Awardee: "Shachar Itzhaky, Tel Aviv University"
   Other: |
