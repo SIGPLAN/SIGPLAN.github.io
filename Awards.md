@@ -65,18 +65,6 @@ respective conference.
 -   [Most Influential ICFP Paper](/Awards/ICFP)
 -   [Most Influential OOPSLA Paper](/Awards/OOPSLA)
 
-
-**John Vlissides Award**  
-The
-[John Vlissides Award](/Awards/Vlissides) is presented annually
-to a doctoral student participating in the OOPSLA Doctoral
-Symposium showing significant promise in applied software research.
-All doctoral candidates participating in the annual OOPSLA Doctoral
-Symposium are eligible. The award includes a prize of $2,000. This
-award was established with generous contributions from the
-following companies, individuals, and organizations: IBM, Addison
-Wesley, William Pugh, and SIGPLAN.
-
 **ACM Fellows**  
 The programming language community has many members who are
 [ACM Fellows](http://fellows.acm.org/). Click
