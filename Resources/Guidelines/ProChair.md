@@ -290,9 +290,9 @@ _SIGPLAN Chair_:
 _SIGPLAN Vice Chair_:
 [vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org)  
 _SIGPLAN Information Director_:
-[infodir_sigplan@acm.org](mailto:infodir_sigplan@acm.org?subject=Conference%20Information)  
-_ACM Representative to SIGPLAN_ (Fran Spinola):
-[spinola@hq.acm.org](mailto:spinola@hq.acm.org)
+[infodir\_sigplan@acm.org](mailto:infodir_sigplan@acm.org?subject=Conference%20Information)  
+_ACM Representative to SIGPLAN_ (Abigail Sumandal):
+[sumandal@hq.acm.org](mailto:sumandal@hq.acm.org)
 
 See Also
 --------

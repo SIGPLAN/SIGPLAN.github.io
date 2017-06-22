@@ -196,11 +196,11 @@ If an event is granted ongoing sponsored status, then:
 See Also
 --------
 
-*SIGPLAN Chair*:
+_SIGPLAN Chair_:
 [chair\_sigplan@acm.org](mailto:chair_sigplan@acm.org)  
-*SIGPLAN Vice Chair*:
+_SIGPLAN Vice Chair_:
 [vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org)  
-*Editor of _SIGPLAN Notices_*:
-[infodir_sigplan@acm.org](mailto:infodir_sigplan@acm.org)  
-*ACM Representative to SIGPLAN* (Fran Spinola):
-[spinola@hq.acm.org](mailto:spinola@hq.acm.org)
+_SIGPLAN Information Director_:
+[infodir\_sigplan@acm.org](mailto:infodir_sigplan@acm.org?subject=Conference%20Information)  
+_ACM Representative to SIGPLAN_ (Abigail Sumandal):
+[sumandal@hq.acm.org](mailto:sumandal@hq.acm.org)
