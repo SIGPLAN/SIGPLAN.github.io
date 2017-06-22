@@ -34,7 +34,7 @@ programming language research, implementations, and tools. The
 impact may be reflected in the wide-spread adoption of the system
 or its underlying concepts by the wider programming language
 community either in research projects, in the open-source
-community, or commercially.The award includes a prize of $2,500.
+community, or commercially. The award includes a prize of $2,500.
 
 **Robin Milner Young Researcher Award**  
 The
