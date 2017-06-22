@@ -3,10 +3,12 @@ layout: award
 title: "John C. Reynolds Doctoral Dissertation Award"
 ---
 
-Presented annually to the author of the outstanding doctoral
+Presented annually to the author of an outstanding doctoral
 dissertation in the area of Programming Languages. The award includes
-a prize of $1,000. The winner can choose to receive the award at ICFP,
-OOPSLA, POPL, or PLDI.
+a prize of $1,000. The awardee can choose to receive the award at
+ICFP, OOPSLA, POPL, or PLDI. At the discretion of the Selection
+Committee, multiple awards and/or honorable mentions may be presented
+for a given year.
 
 All questions about the John C. Reynolds Doctoral Dissertation Award should be directed to
 **<mailto:reynolds_award@sigplan.org>**.
