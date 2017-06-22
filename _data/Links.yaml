@@ -39,6 +39,7 @@ Policies:
 - Republication  Policy                                         <Resources/Policies/Republication>
 - Diversity Policy                                              <Resources/Policies/Diversity>
 - Code of Conduct Policy                                        <Resources/Policies/CodeOfConduct>
+# - Errata and Academic Disputes Policy                           <Resources/Policies/ErrataAndAcademicDisputes>
 
 SIGPLAN Sponsored Conferences:
 - Architectural Support for Programming Languages and Operating Systems (ASPLOS)        
