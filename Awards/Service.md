@@ -4,15 +4,16 @@ title: "Distinguished Service Award"
 ---
 
 Awarded on the basis of value and degree of services to the
-Programming Languages Community. The award recognizes contributions
-to ACM SIGPLAN, its conferences, publications, or its local
-activities. The award includes a prize of $2,500.  
+Programming Languages Community. The award recognizes contributions to
+ACM SIGPLAN, its conferences, publications, or its local
+activities. The award includes a prize of $2,500. Current members of
+the ACM SIGPLAN Executive Committee are not eligible for this award.
 
 **Selection Committee**  
 The chair of the selection committee is a
 member of the EC appointed by the SIGPLAN chair. Other committee
 members are selected by the chair of the selection committee with
-approval of the SIGPLAN chair. The SIGPLAN Chair is an ex officio
+approval of the SIGPLAN chair. The SIGPLAN chair is an ex officio
 member of the committee and shall adjudicate conflicts of interest,
 appointing substitutes to the committee as necessary.
 
