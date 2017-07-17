@@ -1789,7 +1789,7 @@ Computing Machinery]
   \def\city#1{\unskip\ignorespaces}
   \def\state#1{\unskip\ignorespaces}
   \newcommand\department[2][0]{}
-  \def\country#1{#1\ignorespaces}
+  \def\country#1{\if@ACM@affiliation@obeypunctuation\else, \fi#1\ignorespaces}
 \else
   \def\position#1{\if@ACM@affiliation@obeypunctuation#1\else#1\par\fi}%
   \def\institution#1{\if@ACM@affiliation@obeypunctuation#1\else#1\par\fi}%
