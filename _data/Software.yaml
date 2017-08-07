@@ -1,7 +1,29 @@
-2015:
-  Awardee: "Z3 Theorem Prover"
+2016:
+- Awardee: "V8 JavaScript Engine"
   Citation: |
+    V8 is an open-source JavaScript engine developed at Google that
+    revolutionized the use of JavaScript, firmly establishing it as a
+    platform both in the browser and on the server. V8's success is in
+    large part due to the efficient machine code it generates; because
+    JavaScript is a highly dynamic object-oriented language, many
+    experts believed that this level of performance could not be
+    achieved.  V8, whose principal architect is Lars Bak, relies on
+    more than 20 years of research in compilation and implementation
+    techniques initially developed for Beta, Self, and Sun's Hotspot
+    JVM.  These techniques include hidden class recovery in a
+    classless language (based on profiled executions of the JS
+    programs) followed by on-the-fly in-place inline caching.  V8's
+    garbage collector is also very high quality, important for (e.g.,)
+    graphically intensive interactive web apps.  V8's techniques have
+    influenced other major JS engines, contributing to the
+    JavaScript-as-a-platform revolution.  Its performance breakthrough
+    has had a major impact on the adoption of JavaScript, which is
+    nowadays used on the browser, the server, and probably tomorrow on
+    the small devices of the internet-of-things.
 
+2015:
+- Awardee: "Z3 Theorem Prover"
+  Citation: |
     Z3 has changed the way SIGPLAN members tackle problems of static
     analysis and program synthesis.  Such problems, which form a
     significant part of programming languages research and
@@ -20,9 +42,8 @@
     now the unquestioned leader.
 
 2014:
-  Awardee: The GNU Compiler Collection (GCC)
+- Awardee: The GNU Compiler Collection (GCC)
   Citation: |
-
     The GNU Compiler Collection (GCC) provides a portable,
     production-quality, standards-compliant, highly optimizing
     compiler, supporting more architectures, programming languages,
@@ -46,9 +67,8 @@
     language community and the larger software industry.
 
 2013:
-  Awardee: The Coq proof assistant
+- Awardee: The Coq proof assistant
   Citation: |
-
     The Coq proof assistant provides a rich environment for
     interactive development of machine-checked formal reasoning.  Coq
     is having a profound impact on research on programming languages
@@ -77,9 +97,8 @@
     verification.
 
 2012: 
-  Awardee: Jikes Research Virtual Machine (RVM)
+- Awardee: Jikes Research Virtual Machine (RVM)
   Citation: |
-
     The SIGPLAN Software Award for 2012 goes to the Jikes Research
     Virtual Machine (RVM), an open-source virtual computer
     implemented in the Java programming language, and capable of
@@ -135,7 +154,7 @@
      * John Whaley
 
 2011:
-  Awardee: Simon Peyton Jones and Simon Marlow for the Glasgow Haskell compiler
+- Awardee: Simon Peyton Jones and Simon Marlow for the Glasgow Haskell compiler
   Citation: |
     "Simon Peyton Jones and Simon Marlow receive the SIGPLAN Software
     Award as the authors of the Glasgow Haskell Compiler (GHC), which
@@ -167,7 +186,7 @@
     The cash prize is being donated to [haskell.org](http://www.haskell.org)
 
 2010:
-  Awardee: Chris Lattner for the LLVM Compiler Infrastructure
+- Awardee: Chris Lattner for the LLVM Compiler Infrastructure
   Citation: |
     Chris Lattner receives the SIGPLAN Software Award as the author of
     the LLVM Compiler Infrastructure, which has had a dramatic impact

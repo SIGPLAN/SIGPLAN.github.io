@@ -14,25 +14,25 @@
 #   - POPL: ==> POPL SC Chair
 
 Elected Members:
-  - Chair:        "[Michael Hicks ](http://www.cs.umd.edu/~mwh/) (University of Maryland)"
-  - "Vice Chair": "Peter Thiemann    (Universität Freiburg)"
-  - Treasurer:    "[Cristina Lopes ](http://www.ics.uci.edu/~lopes/) (University of California, Irvine)"
-  - Secretary:    "Kathryn S. McKinley (Microsoft Research)"
+  - Chair: "[Michael Hicks ](http://www.cs.umd.edu/~mwh/) (University of Maryland)"
+  - Vice Chair: "Peter Thiemann (Universität Freiburg)"
+  - Treasurer: "[Cristina Lopes ](http://www.ics.uci.edu/~lopes/) (University of California, Irvine)"
+  - Secretary: "Kathryn S. McKinley (Google)"
   - Members at Large:
-     - Research Highlights Chair: "[Emery Berger   ](http://www.emeryberger.org/)    (University of Massachusetts Amherst)"
-     - Dissertation Award Chair:  "[Susan Eisenbach](http://www-dse.doc.ic.ac.uk/cgi-bin/moin.cgi/sue) (Imperial College, London)"
-     - PAC Chair:                 "Gabriele Keller                                   (University of New South Wales)"
-     - Best Practices Chair:      "Kathryn S. McKinley                               (Microsoft Research)"
-     - Awards Chair:              "Satnam Singh                                      (Facebook)"
-     - Conference Services Chair: "Yannis Smaragdakis                                (University of Athens)"
-  - Past Chair:   "Jan Vitek (Northeastern University)"
-  - Past Vice Chair:   "Jeremy Gibbons (University of Oxford)"
+     - Research Highlights Chair: "[Emery Berger](http://www.emeryberger.org/) (University of Massachusetts Amherst)"
+     - Dissertation Award Chair: "[Susan Eisenbach](http://www-dse.doc.ic.ac.uk/cgi-bin/moin.cgi/sue) (Imperial College, London)"
+     - PAC Chair: "Gabriele Keller (University of New South Wales)"
+     - Best Practices Chair: "Kathryn S. McKinley (Google)"
+     - Awards Chair: "Satnam Singh (X, the moonshot factory)"
+     - Conference Services Chair: "Yannis Smaragdakis (University of Athens)"
+  - Past Chair: "Jan Vitek (Northeastern University)"
+  - Past Vice Chair: "[Jeremy Gibbons](http://www.cs.ox.ac.uk/jeremy.gibbons/) (University of Oxford)"
 
 Information Director:
   - "[Matthew Fluet](http://www.cs.rit.edu/~mtf) (Rochester Institute of Technology)"
 
 "Ex-Officio Members":
-  - ACM Program Director:         "[Fran Spinola](mailto:spinola@hq.acm.org)"
+  - ACM Program Director:         "[Abigail Sumandal](mailto:sumandal@hq.acm.org)"
   - SIGPLAN Information Director: "[Matthew Fluet](mailto:infodir_sigplan@acm.org)"
   - Editor of FORTRAN Forum:      "[Ian Chivers](mailto:ian.chivers@chiversandbryan.co.uk)"
   - ACM TOPLAS Editors:           "[Jens Palsberg](http://www.cs.ucla.edu/~palsberg/)"
@@ -52,9 +52,8 @@ Information Director:
     - VEE:
 
 Other Past Members:
-  - "Past Vice Chair": "[Jeremy Gibbons](http://www.cs.ox.ac.uk/jeremy.gibbons/)"
-  - "Past Past Chair": "Philip Wadler"
-  - "Past Past Vice Chair": "Graham Hutton"
+  - Past Past Chair: "Philip Wadler (University of Edinburgh)"
+  - Past Past Vice Chair: "Graham Hutton"
 
 ASPLOS Steering Committee:
   -   Ras Bodik, UC Berkeley
@@ -108,12 +107,10 @@ ICFP Steering Committee:
 
 ISMM Steering Committee:
   -   "[Mike Bond](http://web.cse.ohio-state.edu/~mikebond)"
-  -   "[Perry Cheng](http://researcher.watson.ibm.com/researcher/view.php?person=us-perry)"
-  -   Christine Flood
-  -   "[Samuel Guyer](http://www.cs.tufts.edu/~sguyer)"
-  -   "[David Grove](http://researcher.ibm.com/view.php?person=us-groved)"
-  - Chair: "[Tony Hosking](http://www.cs.purdue.edu/~hosking)"
-  -   "[Erez Petrank](http://www.cs.technion.ac.il/~erez/)"
+  -   Christine Flood (Red Hat)
+  -   "[Tony Hosking](http://www.cs.purdue.edu/~hosking)"
+  - Chair: "[Christoph Kirsch](http://www.cs.uni-salzburg.at/~ck)"
+  -   Ben Titzer (Google)
   -   "[Zheng Zhang](http://www.cs.rutgers.edu/~zz124/)"
 
 
@@ -131,31 +128,34 @@ LCTES Steering Committee:
 
 PLDI Steering Committee:
   -   SIGPLAN Chair: #
-  -   Kathleen Fisher, past PLDI Steering Committee Chair
-  -   Chair: Jan Vitek, past SIGPLAN Chair
+  # -   Past SIGPLAN Chair: #
+  -   Jan Vitek, Past Past SIGPLAN Chair and Past PLDI Steering Committee Chair
+  -   Past Past SIGPLAN Chair: #
   -   SIGPLAN Vice Chair: #
   -   Past SIGPLAN Vice Chair: #
-  -   Past Past SIGPLAN Chair: #
-  -   Hans Boehm, 2013 General Chair
-  -   Cormac Flanagan, 2013 Program Chair
+  -   Cormac Flanagan, PLDI Steering Committee Chair
   -   Michael O'Boyle, 2014 General Chair
   -   Keshav Pingali, 2014 Program Chair
   -   David Grove, 2015 General Chair
   -   Steve Blackburn, 2015 Program Chair
+  -   Chandra Krintz, 2016 General Chair
+  -   Emery Berger, 2016 Program Chair
+
 
 POPL Steering Committee:
   -   SIGPLAN Chair: #
   -   Past SIGPLAN Chair: #
   -   SIGPLAN Vice Chair: #
   -   Past SIGPLAN Vice Chair: #
-  -   Giuseppe Castagna, 2017 General Chair
-  -   Ras Bodik, 2016 General Chair
-  -   Rupak Majumdar, 2016 Program Chair
-  -   Sriram Rajamani, 2015 General Chair
-  -   David Walker, 2015 Program Chair
-  -   Chair: Suresh Jagannathan, 2014 General Chair
-  -   Peter Sewell, 2014 Program Chair
-  -   Roberto Giacobazzi, 2013 General Chair
+  -   Steering Committee Chair: "[Giuseppe Castagna](https://www.irif.fr/~gc/), 2017 General Chair"
+  -   "[Andrew D. Gordon](https://onedrive.live.com/view.aspx/adg?cid=c6149b019d236bf5), 2017 Program Chair"
+  -   "[Ratislav Bodik](http://homes.cs.washington.edu/~bodik/), 2016 General Chair"
+  -   "[Rupak Majumdar](https://people.mpi-sws.org/~rupak/), 2016 Program Chair"
+  -   "[Ranjit Jhala](http://jacobsschool.ucsd.edu/faculty/faculty_bios/index.sfe?fmp_recid=235), 2018 General Chair"
+  -   "[Andrew Myers](http://www.cs.cornell.edu/andru/), 2018 Program Chair"
+  -   "[David Walker](http://www.cs.princeton.edu/~dpw/), Industrial Relation Chair"
+  -   "[Fritz Henglein](http://www.diku.dk/~henglein/), 2019 General Chair (Invited)"
+
 
 PPOPP Steering Committee:
   - Chair: Calin Cascaval
@@ -168,6 +168,8 @@ PPOPP Steering Committee:
   - Jose Moreira
   - David Padua
   - Keshav Pingali
+  - Lawrence Rauchwerger
+  - Vivek Sarkar
 
 SIGAPL Steering Committee:
   - Chair: Guy Larocque
@@ -176,17 +178,13 @@ SPLASH Steering Committee:
   -  SIGPLAN Chair: #
   -  SIGPLAN Vice Chair: #
   -  Chair: Tony Hosking, 2013 SPLASH General Co-Chair
-  -  Past Chair: Crista Lopes, 2013 OOPSLA PC Chair
-  -  Robert Hirschfeld, 2013 Onward! Papers Chair
-  -  Andrew Black, 2014 SPLASH General Chair
-  -  Todd Millstein, 2014 OOPSLA PC Chair
-  -  Shriram Krishnamurthi, 2014 Onward! Papers Chair
-  -  Jonathan Aldrich, 2015 SPLASH General Chair
   -  Patrick Eugster, 2015 OOPSLA PC Chair and 2013 SPLASH General Co-Chair
-  -  Gail Murphy, 2015 Onward! Papers Chair
   -  Eelco Visser, 2016 SPLASH General Chair
   -  Yannis Smaragdakis, 2016 OOPSLA PC Chair
   -  Emerson Murphy-Hill, 2016 Onward! PC Chair
+  -  Gail Murphy, 2017 SPLASH General Chair and 2015 Onward! Papers Chair
+  -  Jonathan Aldrich, 2017 OOPSLA PC Chair and 2015 SPLASH General Chair
+  -  Emina Torlak, 2017 Onward! PC Chair
 
 "VEE Steering Committee":
   -  Chair: "[Martin Hirzel](http://hirzels.com/martin/)       (IBM Research)"

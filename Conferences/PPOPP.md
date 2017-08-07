@@ -9,11 +9,11 @@ solve applications problems.
 
 **PPoPP Fast Facts**
 
-> PPoPP 2017  
-> Location: Austin, TX  
-> General Chair: Vivek Sarkar, Rice University  
-> Program Chair: Lawrence Rauchwerger, Texas A&M  
-> Dates: Feb 4-8, 2017  
+> PPoPP 2018  
+> Location: Vienna, Austria  
+> General Chair: Andreas Krall, Vienna University of Technology, Austria  
+> Program Chair: Thomas Gross, ETH Zürich, Switzerland  
+> Dates: Feb 24-28, 2018  
 
 **Co-located Events**
 
@@ -28,6 +28,7 @@ The current PPoPP Steering Committee is:
 
 **Web Pages of Previous Conferences**
 
+- [PPoPP 2017](http://ppopp17.sigplan.org) (Austin, TX)
 - [PPoPP 2016](http://conf.researchr.org/home/ppopp-2016) (Barcelona, Spain)
 - [PPoPP 2015](http://ppopp15.soe.ucsc.edu/) (San Francisco, CA)
 - [PPoPP 2014](https://sites.google.com/site/ppopp2014/) (Orlando, FL)

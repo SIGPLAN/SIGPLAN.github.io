@@ -7,5 +7,4 @@ tmp/
 link-checker-*
 *.ajg
 .\#*
-.bundle
 vendor

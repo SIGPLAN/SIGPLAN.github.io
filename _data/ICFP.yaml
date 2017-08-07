@@ -1,5 +1,27 @@
+2016:
+- Awardee: Simon Peyton Jones, Dimitrios Vytiniotis, Stephanie Weirich, and Geoffrey Washburn
+  Other: |
+    (for 2006) _[Simple unification-based type inference for GADTs](http://dl.acm.org/citation.cfm?id=1159811)_
+  Citation: |
+    GADTs are a simple but powerful generalization of the recursive
+    algebraic datatypes introduced in Hope and a central feature of
+    functional programming languages like ML and Haskell.  GADTs have
+    become an important technique in the programmer's toolbox,
+    enabling a lightweight style of dependently typed programming,
+    similar to the use of inductive families.  However, type inference
+    is difficult for GADTs, as they necessarily entail the loss of
+    principal types.  This paper shows how to exploit a few type
+    annotations in order to make inference possible again. The key
+    innovation is the notion of "wobbly types".  It has started a
+    lively line of research in new approaches to combining type
+    inference and type checking - in particular with System FC, an
+    extension of System F with constraints, that has provided a simple
+    yet powerful internal language for the GHC compiler - and made
+    many of the benefits of dependent types accessible to more
+    mainstream programmers.
+
 2015:
-  Awardee: Manuel M. T. Chakravarty, Gabriele Keller, and Simon Peyton Jones
+- Awardee: Manuel M. T. Chakravarty, Gabriele Keller, and Simon Peyton Jones
   Other: |
     (for 2005) _[Associated Type Synonyms](http://dl.acm.org/citation.cfm?id=1086397)_
   Citation: |
@@ -30,7 +52,7 @@
         intermediate language System FC.
 
 2014:
-  Awardee: Ralf Lämmel and Simon Peyton Jones
+- Awardee: Ralf Lämmel and Simon Peyton Jones
   Other: |
     (for 2004) _[Scrap More Boilerplate: Reflection, Zips, and Generalised Casts](http://dl.acm.org/citation.cfm?id=1016883)_
   Citation: |
@@ -54,7 +76,7 @@
     generic programming over the past decade.
 
 2013:
-  Awardee: Didier Le Botlan and Didier Rémy
+- Awardee: Didier Le Botlan and Didier Rémy
   Other: |
     (for 2003) _[ML<sup>F</sup>: Raising ML to the Power of System F](http://dl.acm.org/citation.cfm?doid=944746.944709)_
   Citation: |
@@ -75,7 +97,7 @@
     anyone interested in the topic.
 
 2012:
-  Awardee: Robert Findler and Matthias Felleisen
+- Awardee: Robert Findler and Matthias Felleisen
   Other: |
     (for 2002) _[Contracts for higher-order functions](http://dl.acm.org/citation.cfm?doid=583852.581484)_
   Citation: |
@@ -94,7 +116,7 @@
     for programming-language education.
 
 2011:
-  Awardee: Claudio Russo
+- Awardee: Claudio Russo
   Other: |
     (for 2001) _[Recursive Structures for Standard ML](http://dl.acm.org/citation.cfm?doid=507635.507644)_
   Citation: |
@@ -112,7 +134,7 @@
     language feature that simply works.
 
 2010:
-  Awardee: Koen Claessen and John Hughes
+- Awardee: Koen Claessen and John Hughes
   Other: |
     (for 2000) _[Quickcheck: a lightweight tool for random testing of Haskell programs](http://doi.acm.org/10.1145/351240.351266)_
   Citation:
@@ -129,7 +151,7 @@
     Erlang and C.
 
 2009:
-  Awardee: Malcolm Wallace and Colin Runciman
+- Awardee: Malcolm Wallace and Colin Runciman
   Other: |
     (for 1999) _[Haskell and XML: Generic combinators or type-based translation?](http://doi.acm.org/10.1145/317636.317794)_,
   Citation: |
@@ -152,7 +174,7 @@
     example of functional programming solving real world problems.
 
 2008:
-  Awardee: Lennart Augustsson
+- Awardee: Lennart Augustsson
   Other: |
     (for 1998) _[Cayenne &#8212; a language with dependent types](http://doi.acm.org/10.1145/289423.289451)_,
   Citation: |
@@ -167,7 +189,7 @@
     see today in languages such as Agda.
 
 2007:
-  Awardee: Conal Elliott and Paul Hudak"
+- Awardee: Conal Elliott and Paul Hudak"
   Other: |
     (for 1997) _[Functional Reactive Animation](http://doi.acm.org/10.1145/258948.258973)_,
   Citation: |
@@ -188,7 +210,7 @@
     functional terms.
 
 2006:
-  Awardee: Julia L. Lawall and Harry G. Mairson
+- Awardee: Julia L. Lawall and Harry G. Mairson
   Other: |
     (for 1996) _[Optimality and inefficiency: what isn't a cost model of the lambda calculus?](http://doi.acm.org/10.1145/232627.232639)_
   Citation: |

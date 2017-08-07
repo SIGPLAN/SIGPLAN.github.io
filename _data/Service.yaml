@@ -1,7 +1,25 @@
-2015:
-  Awardee: "Dan Grossman"
+2016:
+- Awardee: "Phil Wadler"
   Citation: |
+    Phil Wadler has been a tireless promoter of Programming Languages
+    for over two decades.  He has served in numerous heavy-service
+    roles, including PC Chair of large conferences (such as ICFP and
+    POPL), founding editor and editor-in-chief of the Journal of
+    Functional Programming, member and later Chair of the SIGPLAN
+    executive committee, PL area editor for the Journal of the ACM,
+    and many more.  In his ceaseless efforts to popularize deep
+    concepts, Phil has given talks at several developer conferences,
+    mentoring workshops, and summer schools; has never shied away from
+    less glamorous service assignments (such as editing the Functional
+    Programming column of SIGPLAN Notices or moderating the Types
+    electronic forum); and has written two introductory books, on
+    Functional Programming and on Java Generics.  Phil is also
+    responsible for the introduction of Functional Pearls as a paper
+    class, since then regularly adopted by ICFP and POPL.
 
+2015:
+- Awardee: "Dan Grossman"
+  Citation: |
     Dan Grossman has made significant contributions to programming
     languages education.  Roughly once a decade, the ACM and IEEE
     Computer Society publish revised curriculum recommendations for
@@ -19,11 +37,9 @@
     Board, he continues to be an effective advocate for excellence in
     programming languages education.
 
-
 2014:
-  Awardee: "Simon Peyton Jones"
+- Awardee: "Simon Peyton Jones"
   Citation: |
-
     Simon Peyton Jones has served the programming languages community
     for many years and in many capacities.  In addition to serving on
     the SIGPLAN Executive Committee and on numerous program committees
@@ -47,9 +63,8 @@
     inspiring, and will pay dividends for generations to come.
 
 2013:
-  Awardee: "Kathleen Fisher"
+- Awardee: "Kathleen Fisher"
   Citation: |
-
     Kathleen Fisher served on the SIGPLAN Executive committee for
     twelve years, from 2001 to 2012, taking on in succession the roles
     of member-at-large, vice-chair, chair, and past chair.  During
@@ -83,9 +98,8 @@
     the 2013 Distinguished Service Award.
 
 2012:
-  Awardee: "Jens Palsberg"
+- Awardee: "Jens Palsberg"
   Citation: |
-
     The 2012 SIGPLAN service award goes to Jens Palsberg, who has led
     or served on an extraordinary number of program committees, mostly
     for SIGPLAN conferences and workshops.  He was program chair of
@@ -114,9 +128,8 @@
     he has given to our community in these vital roles.
 
 2011:
- Awardee: "Kathryn S McKinley"
- Citation: |
-
+- Awardee: "Kathryn S McKinley"
+  Citation: |
     Kathryn has served the SIGPLAN community for many years as a
     researcher, educator, mentor, reviewer, and leader. She has worked
     in a number of formal SIGPLAN leadership roles, including
@@ -148,9 +161,8 @@
     in programming language research and development.
 
 2010:
- Awardee: "Jack W. Davidson"
- Citation: |
-
+- Awardee: "Jack W. Davidson"
+  Citation: |
     Jack Davidson has contributed to the SIGPLAN community for many
     years, including as SIGPLAN chair (2005-2007), the SIGPLAN
     Communication Director (1999-present), a member of the SIGPLAN
@@ -171,9 +183,8 @@
     languages research community and to SIGPLAN in particular.
 
 2009:
- Awardee: "Mamdouh Ibrahim"
- Citation: |
-
+- Awardee: "Mamdouh Ibrahim"
+  Citation: |
     For the past 15 years, Mamdouh Ibrahim has served the SIGPLAN
     community by helping to organize, to run, and to envision the
     future of OOPSLA, SIGPLAN's largest conference. Dr. Ibrahim served
@@ -191,9 +202,8 @@
     recruiting other dedicated people to join the organization.
 
 2008:
- Awardee: "Michael G. Burke"
- Citation: |
-
+- Awardee: "Michael G. Burke"
+  Citation: |
     For many years, Michael Burke has served the SIGPLAN community
     with distinction through his professional activities as well as
     through his widely known and respected research. His SIGPLAN
@@ -213,41 +223,39 @@
     research.
 
 2007:
- Awardee: "Linda Northrop"
+- Awardee: "Linda Northrop"
 
 2006:
- Awardee: "Hans Boehm"
+- Awardee: "Hans Boehm"
 
 2005:
- Awardee: "No award given"
+- Awardee: "No award given"
 
 2004:
- Awardee: "Ron Cytron"
+- Awardee: "Ron Cytron"
 
 2003:
- Awardee: "Mary Lou Soffa"
+- Awardee: "Mary Lou Soffa"
 
 2002:
- Awardee: "Andrew Appel"
+- Awardee: "Andrew Appel"
 
 2001:
- Awardee: "Barbara Ryder"
+- Awardee: "Barbara Ryder"
 
 2000:
- Awardee: "David Wise"
+- Awardee: "David Wise"
 
 1999:
- Awardee: "Loren Meissner"
+- Awardee: "Loren Meissner"
 
 1998:
- Awardee: "Brent Hailpern"
-
+- Awardee: "Brent Hailpern"
 
 1997:
- Awardee: ["Jan Lee","Jean Sammet"]
-
+- Awardee: "Jan Lee"
+- Awardee: "Jean Sammet"
 
 1996:
- Awardee: ["Dick Wexelblat","John Richards"]
-
-
+- Awardee: "Dick Wexelblat"
+- Awardee: "John Richards"

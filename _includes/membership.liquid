@@ -1,22 +1,32 @@
 {% include typeof.liquid value=include.member %}
 {% if type == "nil" || include.member == "-" %}
    {% comment %} blank, so we'll look it up {% endcomment %}
-   {% if include.role == 'SIGPLAN Chair'  or include.role == 'SIGPLAN Vice Chair' or include.role == 'Past SIGPLAN Chair' %} 
-     {% assign role = include.role | remove: "SIGPLAN " %}
-     {% include role.liquid committee="Elected Members" role=role %}
+   {% if include.role == 'SIGPLAN Chair' or include.role == 'SIGPLAN Vice Chair' or include.role == 'Past SIGPLAN Chair' or include.role == 'Past SIGPLAN Vice Chair' %} 
+     {% assign role2 = include.role | remove: "SIGPLAN " %}
+     {% include role.liquid committee="Elected Members" role1=include.role role2=role2 prefix=false %}
    {% elsif include.role contains 'SIGPLAN' %}
-     {% assign role = include.role | remove: "SIGPLAN " %}
-     {% include role.liquid committee="Other Past Members" role=role %}
+     {% assign role2 = include.role | remove: "SIGPLAN " %}
+     {% include role.liquid committee="Other Past Members" role1=include.role role2=role2 prefix=false %}
    {% else %}
-     {% assign name = include.role | append: " Steering Committee" %}
-     {% include role.liquid committee=name role="Chair" %}
+     {% assign name = include.role | append: " Steering Committee" prefix=false %}
+     {% assign role2 = name | append: " Chair" %}
+     {% include role.liquid committee=name role1="Chair" role2=role2 %}
    {% endif %}
 {% elsif type == "string" %}
-     {{ include.member | markdownify | | replace: 'p>', 'span>' }}
+   {% if include.role <> nil %}
+     {% if include.prefix %}
+       <b> {{ include.role }}: </b>
+       {{ include.member | markdownify | replace: 'p>', 'span>' }}
+     {% else %}
+       {{ include.member | markdownify | replace: '<p>', '<span>' | replace: '</p>', '</span>,' }}
+       {{ include.role }}
+     {% endif %}
+   {% else %}
+     {{ include.member | markdownify | replace: 'p>', 'span>' }}
+   {% endif %}
 {% elsif type == "list" %}
-     {% include committee-list.liquid list=include.member prefix=include.prefix %}
+   <b> {{ include.role }}: </b>
+   {% include committee-list.liquid list=include.member prefix=include.prefix %}
 {% else %}
-     (( bad type for membership {{ type }} {{ include.member | jsonify }} ))
+   (( bad type for membership {{ type }} {{ include.member | jsonify }} ))
 {% endif %}
-
-

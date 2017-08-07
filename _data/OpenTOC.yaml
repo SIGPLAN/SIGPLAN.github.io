@@ -1,0 +1,484 @@
+-
+  event: AGERE!
+  year: 2014
+  title: "Proceedings of the 4th International Workshop on Programming Based on Actors, Agents, and Decentralized Control"
+-
+  event: AGERE!
+  year: 2015
+  title: "Proceedings of the 5th International Workshop on Programming Based on Actors, Agents, and Decentralized Control"
+-
+  event: AGERE!
+  year: 2016
+  title: "Proceedings of the 6th International Workshop on Programming Based on Actors, Agents, and Decentralized Control"
+-
+  event: ARRAY
+  year: 2014
+  title: "Proceedings of the ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming"
+-
+  event: ARRAY
+  year: 2015
+  title: "Proceedings of the 2nd ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming"
+-
+  event: ARRAY
+  year: 2016
+  title: "Proceedings of the 3rd ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming"
+-
+  event: ARRAY
+  year: 2017
+  title: "Proceedings of the 4th ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming"
+-
+  event: CC
+  year: 2016
+  title: "Proceedings of the 25th International Conference on Compiler Construction"
+-
+  event: CGO
+  year: 2016
+  title: "Proceedings of the 14th Annual IEEE/ACM International Symposium on Code Generation and Optimization"
+-
+  event: CPP
+  year: 2015
+  title: "Proceedings of the 4th ACM SIGPLAN Conference on Certified Programs and Proofs"
+-
+  event: CPP
+  year: 2016
+  title: "Proceedings of the 5th ACM SIGPLAN Conference on Certified Programs and Proofs"
+-
+  event: CPP
+  year: 2017
+  title: "Proceedings of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs"
+-
+  event: DBPL
+  year: 2015
+  title: "Proceedings of the 15th Symposium on Database Programming Languages"
+-
+  event: DLS 
+  year: 2014
+  title: "Proceedings of the 10th Symposium on Dynamic Languages"
+-
+  event: DLS
+  year: 2015
+  title: "Proceedings of the 11th Symposium on Dynamic Languages"
+-
+  event: DLS
+  year: 2016
+  title: "Proceedings of the 12th Symposium on Dynamic Languages"
+-
+  event: DSM
+  year: 2014
+  title: "Proceedings of the 14th Workshop on Domain-Specific Modeling"
+-
+  event: DSM
+  year: 2015
+  title: "Proceedings of the 15th Workshop on Domain-Specific Modeling"
+-
+  event: DSM
+  year: 2016
+  title: "Proceedings of the 16th Workshop on Domain-Specific Modeling"
+-
+  event: DYLA
+  year: 2014
+  title: "Proceedings of the 8th Workshop on Dynamic Languages and Applications"
+-
+  event: Erlang
+  year: 2014
+  title: "Proceedings of the 13th International Workshop on Erlang"
+-
+  event: Erlang
+  year: 2015
+  title: "Proceedings of the 14th International Workshop on Erlang"
+-
+  event: Erlang
+  year: 2016
+  title: "Proceedings of the 15th International Workshop on Erlang"
+-
+  event: ETX
+  year: 2014
+  title: "Proceedings of the 2014 Workshop on Eclipse Technology eXchange"
+-
+  event: ETX
+  year: 2015
+  title: "Proceedings of the 2015 Workshop on Eclipse Technology eXchange"
+-
+  event: FARM
+  year: 2014
+  title: "Proceedings of the 2nd ACM SIGPLAN International Workshop on Functional Art, Music, Modelling and Design"
+-
+  event: FARM
+  year: 2015
+  title: "Proceedings of the 3rd ACM SIGPLAN International Workshop on Functional Art, Music, Modelling and Design"
+-
+  event: FARM
+  year: 2016
+  title: "Proceedings of the 4th ACM SIGPLAN International Workshop on Functional Art, Music, Modelling and Design"
+-
+  event: FHPC
+  year: 2014
+  title: "Proceedings of the 3rd ACM SIGPLAN Workshop on Functional High-Performance Computing"
+-
+  event: FHPC
+  year: 2015
+  title: "Proceedings of the 4th ACM SIGPLAN Workshop on Functional High-Performance Computing"
+-
+  event: FHPC
+  year: 2016
+  title: "Proceedings of the 5th ACM SIGPLAN Workshop on Functional High-Performance Computing"
+-
+  event: FOSD
+  year: 2016
+  title: "Proceedings of the 7th International Workshop on Feature-Oriented Software Development"
+-
+  event: FPW
+  year: 2015
+  title: "Proceedings of the Workshop on Future Programming"
+-
+  event: GPCE
+  year: 2014
+  title: "Proceedings of the 13th International Conference on Generative Programming: Concepts and Experiences"
+-
+  event: GPCE
+  year: 2015
+  title: "Proceedings of the 14th International Conference on Generative Programming: Concepts and Experiences"
+-
+  event: GPCE
+  year: 2016
+  title: "Proceedings of the 15th International Conference on Generative Programming: Concepts and Experiences"
+-
+  event: GPGPU
+  year: 2017
+  title: "Proceedings of the 10th Workshop on General Purpose Processing using Graphics Processing Units"
+-
+  event: GPGPU
+  year: 2016
+  title: "Proceedings of the 9th Workshop on General Purpose Processing using Graphics Processing Units"
+-
+  event: Haskell
+  year: 2014
+  title: "Proceedings of the 7th ACM SIGPLAN Symposium on Haskell"
+-
+  event: Haskell
+  year: 2015
+  title: "Proceedings of the 8th ACM SIGPLAN Symposium on Haskell"
+-
+  event: Haskell
+  year: 2016
+  title: "Proceedings of the 9th ACM SIGPLAN Symposium on Haskell"
+-
+  event: ICFP
+  year: 2014
+  title: "Proceedings of the 19th ACM SIGPLAN International Conference on Functional Programming"
+-
+  event: ICFP
+  year: 2015
+  title: "Proceedings of the 20th ACM SIGPLAN International Conference on Functional Programming"
+-
+  event: ICFP
+  year: 2016
+  title: "Proceedings of the 21st ACM SIGPLAN International Conference on Functional Programming"
+-
+  event: ISMM
+  year: 2014
+  title: "Proceedings of the 13th ACM SIGPLAN International Symposium on Memory Management"
+-
+  event: ISMM
+  year: 2015
+  title: "Proceedings of the 14th ACM SIGPLAN International Symposium on Memory Management"
+-
+  event: ISMM
+  year: 2016
+  title: "Proceedings of the 15th ACM SIGPLAN International Symposium on Memory Management"
+-
+  event: ISMM
+  year: 2017
+  title: "Proceedings of the 16th ACM SIGPLAN International Symposium on Memory Management"
+-
+  event: ITSLE
+  year: 2016
+  title: "Proceedings of the 1st Industry Track on Software Language Engineering"
+-
+  event: LCTES
+  year: 2014
+  title: "Proceedings of the 15th ACM SIGPLAN/SIGBED Conference on Languages, Compilers, Tools, and Theory for Embedded Systems"
+-
+  event: LCTES
+  year: 2015
+  title: "Proceedings of the 16th ACM SIGPLAN/SIGBED Conference on Languages, Compilers, Tools, and Theory for Embedded Systems"
+-
+  event: LCTES
+  year: 2016
+  title: "Proceedings of the 17th ACM SIGPLAN/SIGBED Conference on Languages, Compilers, Tools, and Theory for Embedded Systems"
+-
+  event: LCTES
+  year: 2017
+  title: "Proceedings of the 18th ACM SIGPLAN/SIGBED Conference on Languages, Compilers, Tools, and Theory for Embedded Systems"
+-
+  event: MAPL
+  year: 2017
+  title: "Proceedings of the 1st ACM SIGPLAN International Workshop on Machine Learning and Programming Languages"
+-
+  event: Mobile!
+  year: 2016
+  title: "Proceedings of the 1st International Workshop on Mobile Development"
+-
+  event: MobileDeLi
+  year: 2014
+  title: "Proceedings of the 2nd International Workshop on Mobile Development Lifecycle"
+-
+  event: MobileDeLi
+  year: 2015
+  title: "Proceedings of the 3rd International Workshop on Mobile Development Lifecycle"
+-
+  event: MSPC
+  year: 2014
+  title: "Proceedings of the 2014 ACM SIGPLAN Workshop on Memory Systems Performance and Correctness"
+-
+  event: Onward!
+  year: 2014
+  title: "Proceedings of the 2014 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software"
+-
+  event: Onward!
+  year: 2015
+  title: "Proceedings of the 2015 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software"
+-
+  event: Onward!
+  year: 2016
+  title: "Proceedings of the 2016 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software"
+-
+  event: OOPSLA
+  year: 2014
+  title: "Proceedings of the 2014 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+-
+  event: OOPSLA
+  year: 2015
+  title: "Proceedings of the 2015 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+-
+  event: OOPSLA
+  year: 2016
+  title: "Proceedings of the 2016 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+-
+  event: PEPM
+  year: 2014
+  title: "Proceedings of the 2014 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation"
+-
+  event: PEPM
+  year: 2015
+  title: "Proceedings of the 2015 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation"
+-
+  event: PEPM
+  year: 2016
+  title: "Proceedings of the 2016 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation"
+-
+  event: PEPM
+  year: 2017
+  title: "Proceedings of the 2017 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation"
+-
+  event: PLATEAU
+  year: 2014
+  title: "Proceedings of the 5th Workshop on Evaluation and Usability of Programming Languages and Tools"
+-
+  event: PLATEAU
+  year: 2015
+  title: "Proceedings of the 6th Workshop on Evaluation and Usability of Programming Languages and Tools"
+-
+  event: PLATEAU
+  year: 2016
+  title: "Proceedings of the 7th Workshop on Evaluation and Usability of Programming Languages and Tools"
+-
+  event: PLDI
+  year: 2014
+  title: "Proceedings of the 35th ACM SIGPLAN Conference on Programming Language Design and Implementation"
+-
+  event: PLDI
+  year: 2015
+  title: "Proceedings of the 36th ACM SIGPLAN Conference on Programming Language Design and Implementation"
+-
+  event: PLDI
+  year: 2016
+  title: "Proceedings of the 37th ACM SIGPLAN Conference on Programming Language Design and Implementation"
+-
+  event: PLDI
+  year: 2017
+  title: "Proceedings of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation"
+-
+  event: PLPV
+  year: 2014
+  title: "Proceedings of the 8th ACM SIGPLAN Workshop on Programming Languages meets Program Verification"
+-
+  event: PMAM
+  year: 2015
+  title: "Proceedings of the 6th International Workshop on Programming Models and Applications for Multicores and Manycores"
+-
+  event: PMAM
+  year: 2016
+  title: "Proceedings of the 7th International Workshop on Programming Models and Applications for Multicores and Manycores"
+-
+  event: PMAM
+  year: 2017
+  title: "Proceedings of the 8th International Workshop on Programming Models and Applications for Multicores and Manycores"
+-
+  event: POPL
+  year: 2014
+  title: "Proceedings of the 41st Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
+-
+  event: POPL
+  year: 2015
+  title: "Proceedings of the 42nd Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
+-
+  event: POPL
+  year: 2016
+  title: "Proceedings of the 43rd Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
+-
+  event: POPL
+  year: 2017
+  title: "Proceedings of the 44th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
+-
+  event: PPAA
+  year: 2014
+  title: "Proceedings of the 1st Workshop on Parallel Programming for Analytics Applications"
+-
+  event: PPAA
+  year: 2015
+  title: "Proceedings of the 2nd Workshop on Parallel Programming for Analytics Applications"
+-
+  event: PPoPP
+  year: 2014
+  title: "Proceedings of the 19th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming"
+-
+  event: PPoPP
+  year: 2015
+  title: "Proceedings of the 20th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming"
+-
+  event: PPoPP
+  year: 2016
+  title: "Proceedings of the 21st ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming"
+-
+  event: PPoPP
+  year: 2017
+  title: "Proceedings of the 22nd ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming"
+-
+  event: PPREW
+  year: 2014
+  title: "Proceedings of the 3rd ACM SIGPLAN Program Protection and Reverse Engineering Workshop"
+-
+  event: PROMOTO
+  year: 2014
+  title: "Proceedings of the 2nd Workshop on Programming for Mobile and Touch"
+-
+  event: PROMOTO
+  year: 2015
+  title: "Proceedings of the 3rd Workshop on Programming for Mobile and Touch"
+-
+  event: PSP
+  year: 2014
+  title: "Proceedings of the 2014 Workshop on Privacy and Security in Programming"
+-
+  event: REBLS
+  year: 2016
+  title: "Proceedings of the 3rd International Workshop on Reactive and Event-Based Languages and Systems"
+-
+  event: SCALA
+  year: 2015
+  title: "Proceedings of the 6th ACM SIGPLAN Symposium on Scala"
+-
+  event: SCALA
+  year: 2016
+  title: "Proceedings of the 7th ACM SIGPLAN Symposium on Scala"
+-
+  event: SEPS
+  year: 2015
+  title: "Proceedings of the 2nd International Workshop on Software Engineering for Parallel Systems"
+-
+  event: SEPS
+  year: 2016
+  title: "Proceedings of the 3rd International Workshop on Software Engineering for Parallel Systems"
+-
+  event: SLE
+  year: 2015
+  title: "Proceedings of the 2015 ACM SIGPLAN International Conference on Software Language Engineering"
+-
+  event: SLE
+  year: 2016
+  title: "Proceedings of the 2016 ACM SIGPLAN International Conference on Software Language Engineering"
+-
+  event: SOAP
+  year: 2014
+  title: "Proceedings of the 3rd ACM SIGPLAN International Workshop on State Of the Art in Program Analysis"
+-
+  event: SOAP
+  year: 2015
+  title: "Proceedings of the 4th ACM SIGPLAN International Workshop on State Of the Art in Program Analysis"
+-
+  event: SOAP
+  year: 2016
+  title: "Proceedings of the 5th ACM SIGPLAN International Workshop on State Of the Art in Program Analysis"
+-
+  event: SOAP
+  year: 2017
+  title: "Proceedings of the 6th ACM SIGPLAN International Workshop on State Of the Art in Program Analysis"
+-
+  event: SPLASH
+  year: 2014
+  title: "Companion Proceedings of the 2014 ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity"
+-
+  event: SPLASH
+  year: 2015
+  title: "Companion Proceedings of the 2015 ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity"
+-
+  event: SPLASH
+  year: 2016
+  title: "Companion Proceedings of the 2016 ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity"
+-
+  event: TRUST
+  year: 2014
+  title: "Proceedings of the 1st ACM SIGPLAN Workshop on Reproducible Research Methodologies and New Publication Models in Computer Engineering"
+-
+  event: TyDe
+  year: 2016
+  title: "Proceedings of the 1st International Workshop on Type-Driven Development"
+-
+  event: VEE
+  year: 2014
+  title: "Proceedings of the 10th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments"
+-
+  event: VEE
+  year: 2015
+  title: "Proceedings of the 11th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments"
+-
+  event: VEE
+  year: 2016
+  title: "Proceedings of the 12th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments"
+-
+  event: VEE
+  year: 2017
+  title: "Proceedings of the 13th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments"
+-
+  event: VMIL
+  year: 2016
+  title: "Proceedings of the 8th International Workshop on Virtual Machines and Intermediate Languages"
+-
+  event: WGP
+  year: 2014
+  title: "Proceedings of the 10th ACM SIGPLAN Workshop on Generic Programming"
+-
+  event: WGP
+  year: 2015
+  title: "Proceedings of the 11th ACM SIGPLAN Workshop on Generic Programming"
+-
+  event: WODA
+  year: 2015
+  title: "Proceedings of the 13th International Workshop on Dynamic Analysis"
+-
+  event: WOSC
+  year: 2014
+  title: "Proceedings of the 2nd Workshop on Optimizing Stencil Computations"
+-
+  event: WPMVP
+  year: 2014
+  title: "Proceedings of the 1st Workshop on Programming Models for SIMD/Vector Processing"
+-
+  event: X10
+  year: 2015
+  title: "Proceedings of the 5th ACM SIGPLAN Workshop on X10"
+-
+  event: X10
+  year: 2016
+  title: "Proceedings of the 6th ACM SIGPLAN Workshop on X10"

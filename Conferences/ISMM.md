@@ -5,16 +5,16 @@ title: "International Symposium on Memory Management (ISMM)"
 ISMM, the International Symposium on Memory Management, focuses on
 garbage collection, dynamic storage allocation, storage management
 implementation techniques, plus interactions with languages and
-operating systems, and empirical studies of programs' memory
-allocation and referencing behavior.   
+operating systems, and empirical studies of memory allocation and
+access behavior in programs.   
 
 **ISMM Fast Facts**  
 
-> ISMM 2016  
-> Location: Santa Barbara, California (co-located with [PLDI'16](http://conf.researchr.org/home/pldi-2016))  
-> General Chair: Christine Flood, RedHat  
-> Program Chair: [Zheng Zhang](http://www.cs.rutgers.edu/~zz124/), Rutgers  
-> Dates: June, 2016. Exact date TBD  
+> [ISMM 2017](http://conf.researchr.org/home/ismm-2017)  
+> Location: Barcelona, Spain co-located with [PLDI'17](http://conf.researchr.org/home/pldi-2017) and [ECOOP'17](http://conf.researchr.org/home/ecoop-2017)   
+> General Chair: [Christoph Kirsch](http://www.cs.uni-salzburg.at/~ck)  
+> Program Chair: Ben Titzer  
+> Date: June 18, 2017
 
 **Other ISMM Information**  
 
@@ -26,6 +26,7 @@ Steering Committee
 
 **Web Pages of Previous Conferences**  
 
+- [ISMM 2016](http://conf.researchr.org/home/ismm-2016) (Santa Barbara, California)
 - [ISMM 2015](http://conf.researchr.org/home/ismm-2015) (Portland, Oregon)
 - [ISMM 2014](http://ismm2014.cs.tufts.edu) (Edinburgh, Scotland, UK)
 - [ISMM 2013](http://www.cs.technion.ac.il/~erez/ismm13) (Seattle, Washington)

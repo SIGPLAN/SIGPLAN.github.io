@@ -9,11 +9,11 @@ implementation.
 
 **PLDI Fast Facts**
 
-> [PLDI 2016 Web Page](http://conf.researchr.org/home/pldi-2016)  
-> Location: Santa Barbara, California, USA  
-> General Chair: [Chandra Krintz](http://www.cs.ucsb.edu/~ckrintz)  
-> Program Chair: [Emery Berger](http://www.cs.umass.edu/~emery/)  
-> Dates:  June 13-17, 2016  
+> [PLDI 2017 Web Page](http://conf.researchr.org/home/pldi-2017)  
+> Location: Barcelona, Spain  
+> General Chair: [Albert Cohen](https://who.rocq.inria.fr/Albert.Cohen)  
+> Program Chair: [Martin Vechev](http://www.srl.inf.ethz.ch/vechev.php)  
+> Dates:  June 19-23, 2017  
 
 **Practices of PLDI**
 
@@ -31,27 +31,13 @@ these awards. More details about the SIGPLAN awards can be found
 
 **PLDI Steering Committee**
 
-The PLDI Steering Committee is constituted by the following
-members:
-
--   current and past two SIGPLAN Chairs,
--   current and past vice chair of SIGPLAN,
--   current and past two PLDI General Chairs,
--   current and past two PLDI Program Chairs, and
--   the outgoing Chair of the Steering Committee, for one year past the end of his or her term as Chair.
-
-The Chair of the Steering Committee is elected by the Steering Committee from among the members of the committee to serve a two-year term.  The outgoing chair serves an additional year on the committee past his or her term as chair to provide institutional memory.
-
-The constitution of the steering committee changes each year on
-July 1, with the PLDI chairs changing every year and the SIGPLAN
-chairs/vice chairs changing every third year.
-
-The current PLDI steering committee is:
+The PLDI Steering Committee is chosen according the [Practices of PLDI](http://www.sigplan.org/sites/default/files/PracticesofPLDI.pdf) document. The current PLDI steering committee is:
 
 {% include committee.liquid name="PLDI Steering Committee" %}
 
 **Web Pages of Previous Conferences**  
 
+- [PLDI 2016](http://conf.researchr.org/home/pldi-2016) (Santa Barbara, CA)
 - [PLDI 2015](http://conf.researchr.org/home/pldi2015) (Portland, OR)
 - [PLDI 2014](http://conferences.inf.ed.ac.uk/pldi2014/)  (Edinburgh, UK)
 - [PLDI 2013](http://pldi2013.ucombinator.org/)  (Seattle, WA)

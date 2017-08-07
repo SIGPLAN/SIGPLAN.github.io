@@ -1,5 +1,28 @@
+2017:
+- Awardee: Nicholas Nethercote and Julian Seward
+  Other: |
+    (for 2007) _[Valgrind: a framework for heavyweight dynamic binary instrumentation](http://dl.acm.org/citation.cfm?id=1250746)_
+  Citation: |
+    Valgrind is a framework for writing dynamic binary instrumentation
+    tools, which interleave the execution of program monitoring code
+    with the execution of a program itself. The best known tool built
+    with Valgrind is Memcheck, which detects uses of undefined values
+    down to the bit level. Other tools track "tainted" or special
+    (e.g., password) values. Valgrind facilitates the construction of
+    these tools by abstracting the details of complex computer
+    architectures and providing an expressive interface for writing
+    instrumenting code. Valgrind pioneered dynamic binary
+    recompilation for tight integration and optimization of
+    instrumentation code. The paper contains a careful analysis of the
+    requirements of dynamic binary instrumentation tools and shows
+    that competing tools, unlike Valgrind, sacrifice completeness of
+    features for simplicity of implementation, use, or
+    performance. The paper is widely cited. Many open-source defect
+    detection tools build on Valgrind and have improved a wide range
+    of open-source and commercial software.
+
 2016:
-  Awardee: Emery Berger and Benjamin Zorn
+- Awardee: Emery Berger and Benjamin Zorn
   Other: |
     (for 2006) _[DieHard: probabilistic memory safety for unsafe languages](http://dl.acm.org/citation.cfm?id=1134000)_
   Citation: |
@@ -21,7 +44,7 @@
     Windows 7 and the Windows 8 user-mode heap allocator.
 
 2015:
-  Awardee: Chi-Keung Luk, Robert Cohn, Robert Muth, Harish Patil, Artur Klauser, Geoff Lowney, Steven Wallace, Vijay Janapa Reddi, and Kim Hazelwood
+- Awardee: Chi-Keung Luk, Robert Cohn, Robert Muth, Harish Patil, Artur Klauser, Geoff Lowney, Steven Wallace, Vijay Janapa Reddi, and Kim Hazelwood
   Other: |
     (for 2005) _[Pin: building customized program analysis tools with dynamic instrumentation](http://dl.acm.org/citation.cfm?id=1065034)_
   Citation: |
@@ -37,7 +60,7 @@
     choice for dynamic binary instrumentation.
 
 2014:
-  Awardee: Maged M. Michael
+- Awardee: Maged M. Michael
   Other: |
     (for 2004) _[Scalable Lock-Free Dynamic Memory Allocation](http://dl.acm.org/citation.cfm?id=996841.996848)_
   Citation: |
@@ -52,7 +75,7 @@
     research.
 
 2013:
-  Awardee: David Gay, Philip Levis, J. Robert von Behren, Matt Welsh, Eric Brewer, and David E. Culler
+- Awardee: David Gay, Philip Levis, J. Robert von Behren, Matt Welsh, Eric Brewer, and David E. Culler
   Other: |
     (for 2003) _[The nesC language: A holistic approach to networked embedded systems](http://dl.acm.org/citation.cfm?id=781133)_
   Citation: |
@@ -78,7 +101,7 @@
     industry in the embedded systems community.
 
 2012:
-  Awardee: Cormac Flanagan, K. Rustan M. Leino, Mark Lillibridge, Greg Nelson, James B. Saxe, and Raymie Stata
+- Awardee: Cormac Flanagan, K. Rustan M. Leino, Mark Lillibridge, Greg Nelson, James B. Saxe, and Raymie Stata
   Other: |
     (for 2002) _[Extended Static Checking for Java](http://dl.acm.org/citation.cfm?doid=512529.512558)_
   Citation: |
@@ -92,7 +115,7 @@
     programs.
 
 2011:
-  Awardee: Thomas Ball, Rupak Majumdar, Todd Millstein, and Sriram K. Rajamani
+- Awardee: Thomas Ball, Rupak Majumdar, Todd Millstein, and Sriram K. Rajamani
   Other: |
     (for 2001) _[Automatic predicate abstraction of C programs](http://doi.acm.org/10.1145/378795.378846)_
   Citation: |
@@ -109,7 +132,7 @@
    expand the domains that can be verified.
 
 2010:
-  Awardee: Vasanth Bala, Evelyn Duesterwald, and Sanjeev Banerji
+- Awardee: Vasanth Bala, Evelyn Duesterwald, and Sanjeev Banerji
   Other: |
     (for 2000) _[Dynamo: A Transparent Dynamic Optimization System](http://doi.acm.org/10.1145/349299.349303)_
   Citation: |
@@ -140,7 +163,7 @@
     dynamic binary translation.
 
 2009:
-  Awardee: Matteo Frigo
+- Awardee: Matteo Frigo
   Other: |
     (for 1999) _[A Fast Fourier Transform Compiler](http://doi.acm.org/10.1145/301618.301661)_
   Citation: |
@@ -163,7 +186,7 @@
     computer architectures similar to past and current ones.
 
 2008:
-  Awardee: Matteo Frigo, Charles E. Leiserson, and Keith H. Randall
+- Awardee: Matteo Frigo, Charles E. Leiserson, and Keith H. Randall
   Other: |
     (for 1998) _[The Implementation of the Cilk-5 Multithreaded Language](http://doi.acm.org/10.1145/277652.277725)_
   Citation: |
@@ -183,41 +206,41 @@
     a variety of projects at Microsoft.
 
 2007:
-  Awardee: Glenn Ammons, Thomas Ball, and James R. Larus
+- Awardee: Glenn Ammons, Thomas Ball, and James R. Larus
   Other: |
     (for 1997) _[Exploiting Hardware Performance Counters with Flow and Context Sensitive Profiling](http://doi.acm.org/10.1145/258915.258924)_
 
 2006:
-  Awardee: David Tarditi, Greg Morrisett, Perry Cheng, Christopher Stone, Robert Harper, and Peter Lee
+- Awardee: David Tarditi, Greg Morrisett, Perry Cheng, Christopher Stone, Robert Harper, and Peter Lee
   Other: |
     (for 1996) _[TIL: A Type-Directed Optimizing Compiler for ML](http://doi.acm.org/10.1145/231379.231414)_
 
 2005:
-  Awardee: Jeffrey Dean, Craig Chambers, and David Grove
+- Awardee: Jeffrey Dean, Craig Chambers, and David Grove
   Other: |
     (for 1995) _[Selective Specialization for Object-Oriented Languages](http://doi.acm.org/10.1145/207110.207119)_
 
 2004:
-  Awardee: Amitabh Srivastava and Alan Eustace
+- Awardee: Amitabh Srivastava and Alan Eustace
   Other: |
     (for 1994) _[ATOM: a system for building customized program analysis tools](http://doi.acm.org/10.1145/178243.178260)_
 
 2003:
-  Awardee: Hans Boehm
+- Awardee: Hans Boehm
   Other: |
     (for 1993) _[Space Efficient Conservative Garbage Collection](http://portal.acm.org/citation.cfm?doid=155090.155109)_
 
 2002:
-  Awardee: Jens Knoop, Oliver R&#252;thing, and Bernhard Steffen
+- Awardee: Jens Knoop, Oliver R&#252;thing, and Bernhard Steffen
   Other: |
     (for 1992) _[Lazy Code Motion](http://doi.acm.org/10.1145/183432.183443)_
 
 2001:
-  Awardee: Michael E. Wolf and Monica S. Lam
+- Awardee: Michael E. Wolf and Monica S. Lam
   Other: |
     (for 1991) _[A data locality optimizing algorithm](http://portal.acm.org/citation.cfm?id=113449&coll=portal&dl=ACM&CFID=1250278&CFTOKEN=93017092)_
 
 2000:
-  Awardee: Karl Pettis and Robert C. Hansen
+- Awardee: Karl Pettis and Robert C. Hansen
   Other: |
     (for 1990) _[Profile guided code positioning](http://portal.acm.org/citation.cfm?id=93550&coll=portal&dl=ACM&CFID=1260981&CFTOKEN=84971644)_

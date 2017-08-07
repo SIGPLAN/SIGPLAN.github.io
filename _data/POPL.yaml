@@ -1,5 +1,26 @@
+2017:
+- Awardee: Dachuan Yu, Ajay Chander, Nayeem Islam, Igor Serikov
+  Other: |
+    (for 2007): _[JavaScript Instrumentation for Browser Security](http://dl.acm.org/citation.cfm?doid=1190216.1190252)_
+  Citation: |
+    The selected paper presents one of the earliest models of the
+    interaction between the browser and JavaScript. It uses this model
+    to work out the formalization and dynamic enforcement of rich
+    security policies.  Since then, people have routinely discovered
+    additional, pernicious security problems based on this
+    model. Eliminating these problems remains an important challenge
+    to this day.
+
+    Looking back, the selected paper made a prescient, and
+    influential, contribution to understanding these JavaScript-based
+    security problems. The authors chose a formal, semantic approach
+    to model these problems and potential solutions, while remaining
+    true to the complicated characteristics that make both JavaScript
+    and the browser real-world artifacts.
+
+
 2016:
-  Awardee: Xavier Leroy
+- Awardee: Xavier Leroy
   Other: |
     (for 2006) _[Formal certification of a compiler back-end or: programming a compiler with a proof assistant](http://dl.acm.org/citation.cfm?doid=1111037.1111042)_
   Citation: |
@@ -20,7 +41,7 @@
 
 
 2015:
-  Awardee: Nate Foster, Michael B. Greenwald, Jonathan T. Moore, Benjamin C. Pierce, Alan Schmitt
+- Awardee: Nate Foster, Michael B. Greenwald, Jonathan T. Moore, Benjamin C. Pierce, Alan Schmitt
   Other: |
     (for 2005) _[Combinators for Bidirectional Tree Transformations: A Linguistic Approach to the View Update Problem](http://dl.acm.org/citation.cfm?doid=1040305.1040325)_
   Citation: |
@@ -43,7 +64,7 @@
 
 
 2014:
-  Awardee: Thomas Henzinger, Ranjit Jhala, Rupak Majumdar, Kenneth McMillan
+- Awardee: Thomas Henzinger, Ranjit Jhala, Rupak Majumdar, Kenneth McMillan
   Other: |
     (for 2004) _[Abstractions from proofs](http://dl.acm.org/citation.cfm?id=964021)_
   Citation: |
@@ -61,7 +82,7 @@
     analysis.
 
 2013:
-  Awardee: David F. Bacon, Perry Cheng, VT Rajan
+- Awardee: David F. Bacon, Perry Cheng, VT Rajan
   Other: |
     (for 2003) _[A real-time garbage collector with low overhead and consistent utilization](http://dl.acm.org/citation.cfm?id=604155&CFID=186511822&CFTOKEN=35702610)_
   Citation: |
@@ -85,7 +106,7 @@
     real-time garbage collection into a reality.
 
 2012:
-  Awardee: George C. Necula, Scott McPeak, and Westley Weimer
+- Awardee: George C. Necula, Scott McPeak, and Westley Weimer
   Other: |
     (for 2002) _[CCured: Type-Safe Retrofitting of Legacy Code](http://dl.acm.org/citation.cfm?id=1065892)_
   Citation:
@@ -103,7 +124,7 @@
     research on static and dynamic analysis.
 
 2011:
-  Awardee: Samin Ishtiaq and Peter W. O'Hearn
+- Awardee: Samin Ishtiaq and Peter W. O'Hearn
   Other: |
     (for 2001) _[BI as an Assertion Language for Mutable Data Structures](http://dx.doi.org/10.1145/360204.375719)_
   Citation: |
@@ -121,7 +142,7 @@
     parallelization.
 
 2010:
-  Awardee: Luca Cardelli and Andrew D. Gordon
+- Awardee: Luca Cardelli and Andrew D. Gordon
   Other: |
     (for 2000) _[Anytime, Anywhere: Modal Logics for Mobile Ambients](http://doi.acm.org/10.1145/325694.325742)_
   Citation: |
@@ -138,7 +159,7 @@
     data, and systems biology.
 
 2009:
-  Awardee: Andrew C. Myers
+- Awardee: Andrew C. Myers
   Other: |
    (for 1999) _[JFlow: Practical Mostly-Static Information Flow Control](http://doi.acm.org/10.1145/292540.292561)_
   Citation: |
@@ -157,7 +178,7 @@
     confidentiality guarantees.
 
 2008:
-  Awardee: Greg Morrisett, David Walker, Karl Crary, and Neal Glew
+- Awardee: Greg Morrisett, David Walker, Karl Crary, and Neal Glew
   Other: |
     (for 1998) _[From System F to Typed Assembly Language](http://doi.acm.org/10.1145/268946.268954)_
   Citation: |
@@ -177,26 +198,26 @@
     compilers.
 
 2007:
-  Awardee: George Necula
+- Awardee: George Necula
   Other: |
    (for 1997) _[Proof-carrying Code](http://doi.acm.org/10.1145/263699.263712)_
 
 2006:
-  Awardee: Bjarne Steensgaard
+- Awardee: Bjarne Steensgaard
   Other: |
    (for 1996) _[Points-to Analysis in Almost Linear Time](http://doi.acm.org/10.1145/237721.237727)_
 
 2005:
-  Awardee: Luca Cardelli
+- Awardee: Luca Cardelli
   Other: |
    (for 1995) _[A Language with Distributed Scope](http://doi.acm.org/10.1145/199448.199516)_
 
 2004:
-  Awardee: Mads Tofte and Jean-Pierre Talpin
+- Awardee: Mads Tofte and Jean-Pierre Talpin
   Other: |
    (for 1994) _[Implementation of the Typed Call-by-Value lambda-calculus using a Stack of Regions](http://doi.acm.org/10.1145/174675.177855)_
 
 2003:
-  Awardee: Simon Peyton Jones and Philip Wadler
+- Awardee: Simon Peyton Jones and Philip Wadler
   Other: |
    (for 1993) _[Imperative functional programming](http://doi.acm.org/10.1145/158511.158524)_

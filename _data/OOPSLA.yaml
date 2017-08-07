@@ -1,5 +1,31 @@
+2016:
+- Awardee: Stephen M. Blackburn, Robin Garner, Chris Hoffmann, Asjad M. Khan, Kathryn S. McKinley, Rotem Bentzur, Amer Diwan, Daniel Feinberg, Daniel Frampton, Samuel Z. Guyer, Martin Hirzel, Antony Hosking, Maria Jump, Han Lee, J. Eliot B. Moss, Aashish Phansalkar, Darko Stefanović, Thomas VanDrunen, Daniel von Dincklage, Ben Wiedermann
+  Other: |
+    (for 2006) _[The DaCapo benchmarks: Java benchmarking development and analysis](http://dl.acm.org/citation.cfm?doid=1167473.1167488)_
+  Citation: |
+    The DaCapo benchmarks have become the de facto standard Java
+    benchmarking suite, quickly replacing older suites, such as the
+    SPEC JVM benchmarks. This paper describes principles for the
+    selection and application of benchmarks for modern applications
+    languages, and realizes those principles by proposing a set of
+    client-side Java benchmarks based on real open source programs.
+    The benchmarks were a notable improvement over previous benchmarks
+    such as SPEC Java, for example because they more comprehensively
+    test aspects of the Java virtual machine and memory management
+    system. The paper puts forward a compelling model for benchmark
+    selection and evaluation methodologies, and discusses in detail
+    the experimental evaluation intricacies of the Java setting. The
+    paper also introduces new metrics and contains detailed
+    measurements of program behavior. The DaCapo paper has set a
+    standard that substantially raised the level of Java experiments
+    in the overall literature of the past decade. Since the paper's
+    publication, its methodological guidance and benchmarks have been
+    widely adopted in research on language implementation techniques
+    ranging from optimization to memory management, resulting in a
+    significant impact on the quality of research in the field.
+
 2015:
-  Awardee: Philippe Charles, Christian Grothoff, Vijay Saraswat, Christopher Donawa, Allan Kielstra, Kemal Ebcioglu, Christoph von Praun, and Vivek Sarkar
+- Awardee: Philippe Charles, Christian Grothoff, Vijay Saraswat, Christopher Donawa, Allan Kielstra, Kemal Ebcioglu, Christoph von Praun, and Vivek Sarkar
   Other: |
     (for 2005) _[X10: An Object-Oriented Approach to Non-Uniform Cluster Computing](http://dl.acm.org/citation.cfm?doid=1094811.1094852)_
   Citation: |
@@ -21,7 +47,7 @@
     framework.
 
 2014:
-  Awardee: Gilad Bracha and David Ungar
+- Awardee: Gilad Bracha and David Ungar
   Other: |
     (for 2004) _[Mirrors: Design Principles for Meta-level Facilities of Object-Oriented Programming Languages](http://dl.acm.org/citation.cfm?doid=1028976.1029004)_
   Citation: |
@@ -39,7 +65,7 @@
     influential ideas with clarity and simplicity.
 
 2013:
-  Awardee: Tim Harris and Keir Fraser
+- Awardee: Tim Harris and Keir Fraser
   Other: |
     (for 2003) _[Language Support for Lightweight Transactions](http://doi.acm.org/10.1145/949305.949340)_
   Citation: |
@@ -59,7 +85,7 @@
     architecture for concurrency control.
 
 2012:
-  Awardee: Emery Berger, Benjamin G. Zorn, and Kathryn S. McKinley
+- Awardee: Emery Berger, Benjamin G. Zorn, and Kathryn S. McKinley
   Other: |
     (for 2002) _[Reconsidering Custom Memory Allocation](http://doi.acm.org/10.1145/583854.582421)_
   Citation: |
@@ -75,7 +101,7 @@
     its empirical methodology.
 
 2011:
-  Awardee: Grzegorz Czajkowski, Laurent Dayn&eacute;s
+- Awardee: Grzegorz Czajkowski, Laurent Dayn&eacute;s
   Other: |
     (for 2001) _[Multitasking without compromise: a virtual machine evolution](http://doi.acm.org/10.1145/2442776.2442785)_
   Citation: |
@@ -90,7 +116,7 @@
     language for structured Web programming relies on Isolates as its foundation for concurrent
     programming.
 2010:
-  Awardee: Matthew Arnold, Stephen Fink, David Grove, Michael Hind, Peter F. Sweeney
+- Awardee: Matthew Arnold, Stephen Fink, David Grove, Michael Hind, Peter F. Sweeney
   Other: |
     (for 2000) _[Adaptive Optimization in the Jalape&#241;o JVM](http://doi.acm.org/10.1145/353171.353175)_
   Citation: |
@@ -110,7 +136,7 @@
     for modern VM-based languages.
 
 2009:
-  Awardee: Bowen Alpern, C. R. Attanasio, Anthony Cocchi, Derek Lieber, Stephen Smith, Ton Ngo, John J. Barton, Susan Flynn Hummel, Janice C. Shepherd, and Mark Mergen
+- Awardee: Bowen Alpern, C. R. Attanasio, Anthony Cocchi, Derek Lieber, Stephen Smith, Ton Ngo, John J. Barton, Susan Flynn Hummel, Janice C. Shepherd, and Mark Mergen
   Other: |
     (for 1999) _[Implementing Jalape&#241;o in Java](http://doi.acm.org/10.1145/320384.320418)_,
   Citation: |
@@ -124,7 +150,7 @@
     investigations.
 
 2008:
-  Awardee: David G. Clarke, John M. Potter, and James Noble
+- Awardee: David G. Clarke, John M. Potter, and James Noble
   Other: |
     (for 1998) _[Ownership Types for Flexible Alias Protection](http://doi.acm.org/10.1145/286936.286947)_
   Citation: |
@@ -137,7 +163,7 @@
     retaining expressiveness.
 
 2007:
-  Awardee: David Grove, Greg DeFouw, Jeffrey Dean, and Craig Chambers
+- Awardee: David Grove, Greg DeFouw, Jeffrey Dean, and Craig Chambers
   Other: |
     (for 1997) _[Call Graph Construction in Object-Oriented Languages](http://doi.acm.org/10.1145/263698.264352)_
   Citation:

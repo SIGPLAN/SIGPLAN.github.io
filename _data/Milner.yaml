@@ -1,7 +1,31 @@
-2015:
-  Awardee: David Walker
+2016:
+- Awardee: Stephanie Weirich
   Citation: |
+    Stephanie Weirich has made deep and sustained contributions to
+    programming language research in the areas of functional
+    programming, dependent types, and proof assistants.  She has been
+    one of the main investigators of type inference for Generalized
+    Algebraic Data Types (GADTs), and, with collaborators at Microsoft
+    Research, she helped put this technology into practice in the
+    widely used GHC Haskell implementation.  Weirich, with
+    collaborators at Penn and Cambridge, also initiated and led the
+    POPLMark challenge, a highly visible and influential effort to
+    promote the use of proof assistants for formalizing and checking
+    the theory of programming languages.  She has also greatly
+    contributed to the understanding of dependent types in practical
+    programming languages, and is now involved in an effort to bring
+    the benefits of dependent types to Haskell.  Finally, Weirich has
+    made substantial contributions to the programming languages
+    community, notably with her involvement in the Programming
+    Languages Mentoring Workshop (PLMW), which has blossomed into a
+    highly successful workshop that is held several times a year at
+    venues including POPL, PLDI, ICFP, and SPLASH; Weirich was one of
+    the original organizers of PLMW at POPL 2012, and continues to
+    serve on the workshop's steering committee.
 
+2015:
+- Awardee: David Walker
+  Citation: |
     David Walker has made deep and varied contributions to programming
     language research, but always with an eye towards emerging and
     surprising applications of foundational theory.  He was one of the
@@ -27,12 +51,9 @@
     programming languages, connecting foundations to novel
     applications.
 
-
-
 2014:
-  Awardee: Sumit Gulwani
+- Awardee: Sumit Gulwani
   Citation: |
-
     Sumit Gulwani has made pioneering contributions to the field of
     programming languages, especially in the areas of program analysis
     and program synthesis.  Building on his foundational work in
@@ -71,11 +92,9 @@
     end-user programming and education will have deep and lasting
     influence.
 
-
 2013:
-  Awardee: Lars Birkedal
+- Awardee: Lars Birkedal
   Citation: |
-    
     Lars Birkedal is a world leader in foundational programming
     languages research, and *the* pre-eminent researcher of his
     generation in the area of programming language semantics.  His
@@ -107,7 +126,7 @@
     setting an excellent example for other junior researchers.
 
 2012:
-  Awardee: Shriram Krishnamurthi
+- Awardee: Shriram Krishnamurthi
   Citation: |
     The SIGPLAN 2012 Robin Milner Young Researcher Award goes to Shriram
     Krishnamurthi, a prolific researcher who brings programming language

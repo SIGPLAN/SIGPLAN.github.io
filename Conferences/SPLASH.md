@@ -27,9 +27,8 @@ among the members of the committee to serve a two-year term.  The outgoing
 chair serves an additional year on the committee past his or her term as chair
 to provide institutional memory.
 
-The constitution of the steering committee changes each year on October 31,
-with the SPLASH chair changing every two years and the SIGPLAN chair/vice
-chair changing every third year.
+The constitution of the steering committee changes each year upon conclusion
+of that year's conference.
 
 The current SPLASH steering committee is:
 
@@ -38,6 +37,7 @@ The current SPLASH steering committee is:
 
 Web Pages of Previous Conferences
 ---------------------------------
+> [SPLASH 2017](http://2017.splashcon.org/) (Vancouver, Canada)  
 > [SPLASH 2016](http://2016.splashcon.org/) (Amsterdam, The Netherlands)  
 > [SPLASH 2015](http://2015.splashcon.org/) (Pittsburgh, PA)  
 > [SPLASH 2014](http://2014.splashcon.org/) (Portland, OR)  

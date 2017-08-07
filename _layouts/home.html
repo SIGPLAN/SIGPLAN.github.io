@@ -11,7 +11,7 @@
         <div class="col-md-8">
           <div class="bigsig">SIGPLAN</div>
           <h3>Special Interest Group on Programming Languages</h3>
-          <p>SIGPLAN is a Special Interest Group of ACM that focuses on Programming Languages. In particular, SIGPLAN explores the  design, implementation, theory, and efficient use of programming languages and associated tools. Its members are programming language users, developers, implementers, theoreticians, researchers and educators.</p>
+          <p>The ACM Special Interest Group on Programming Languages (SIGPLAN) explores programming language concepts and tools, focusing on design, implementation, practice, and theory. Its members are programming language developers, educators, implementers, researchers, theoreticians, and users.</p>
         </div>
       </div>
     </div>
@@ -25,47 +25,60 @@
           <div style="margin-top: 25px;">
             {% include link-table.liquid data=site.data.Links links="Conference Information" %}
           </div>
+          <div style="margin-top: 25px;">
+            {% include link-table.liquid data=site.data.Links links="Policies" %}
+          </div>
         </div>
         <div class="col-md-7 col-md-offset-1">
+          {% for news in site.data.News %}
+          {% if news.Active %}
+            <a href="News/{{news.Page}}"><h2>{{news.Title}}</h2></a>
+            <font size="+1">{{ news.Content | markdownify }}</font>
+            <font size="-2">{{ news.Date }}</font>
+            <hr>
+          {% endif %}
+          {% endfor %}
+
           <h3>Awards and Recent Recipients</h3>
 
           {% for award in site.data.Awards %}
             {% assign award_label = award[0] %}
             {% assign award_name = award[1] %}
             {% assign path = award_label | prepend: 'Awards/' %}
-            {% assign recipients = site.data[award_label] %}
+            {% assign awards = site.data[award_label] %}
             {% assign year = 0 %}
-            {% assign recent_recipient = award_label | prepend: "can not find " | append: "'s most recent recipient" %}
-            {% for awardee in recipients %}
-              {% assign tmp = awardee[0] | plus: 0 %}
+            {% for award in awards %}
+              {% assign tmp = award[0] | plus: 0 %}
               {% if tmp > year %}
                 {% assign year = tmp %}
-                {% assign recent_recipient = awardee[1] %}
               {% endif %}
             {% endfor %}
-            {% if recent_recipient["Awardee"] <> nil %}
-              {% assign recent_recipient_awardee = recent_recipient["Awardee"] %}
-            {% else %}
-              {% assign recent_recipient_awardee = recent_recipient %}
-            {% endif %}
-            {% if recent_recipient_awardee[0] <> nil %}
-              {% assign recent_recipient_awardee = recent_recipient_awardee | array_to_sentence_string %}
-            {% endif %}
+            {% assign recent_recipients = awards[year] %}
 
-            {% if award_label == "ACMFellows" %}
+            {% case award_label %}
+            {% when "ACMFellows" %}
             <h5><a href="{{path}}">{{award_name}}</a> (recognized in {{year}})</h5>
-            {% else %}
-            <h5><a href="{{path}}">{{award_name}}</a> (presented in {{year}})</h5>
-            {% endif %}
             <ul>
               <li>
-                <a href="{{path}}#{{year}}">{{ recent_recipient_awardee }}</a>
-                {% if recent_recipient["Other"] <> nil %}
-                  {% assign recent_recipient_other = recent_recipient["Other"] %}
-                  {{recent_recipient_other | markdownify}}
-                {% endif %}
+                <a href="{{path}}#{{year}}">{{ recent_recipients | array_to_sentence_string }}</a>
               </li>
             </ul>
+
+            {% else %}
+            <h5><a href="{{path}}">{{award_name}}</a> (presented in {{year}})</h5>
+            <ul>
+              {% for recipient in recent_recipients %}
+              <li>
+                <a href="{{path}}#{{year}}_{{ recipient["Awardee"] | replace: " ", "_" | replace: ",", "_" }}">{{ recipient["Awardee"] }}</a>
+                {% if recipient["Other"] <> nil %}
+                  {{ recipient["Other"] | markdownify}}
+                {% endif %}
+              </li>
+              {% endfor %}
+            </ul>
+
+            {% endcase %}
+
           {% endfor %}          
           {% include links.liquid data=site.data.Links links="SIGPLAN Sponsored Conferences" %}
         </div>

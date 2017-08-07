@@ -1,7 +1,43 @@
-2015:
-  Awardee: Luca Cardelli
+2016:
+- Awardee: Simon Peyton Jones
   Citation: |
-  
+    Simon Peyton Jones is widely known as an essential force behind
+    the design, implementation, evolution, and remarkable success of
+    the Haskell language and the Glasgow Haskell Compiler for more
+    than twenty years.  His role as a primary designer of the Haskell
+    language and the GHC implementation of Haskell has produced a
+    platform for hundreds of researchers and many more developers.
+    Indeed, GHC is unparalleled for achieving what might otherwise be
+    seen as an engineering impossibility: the leading implementation
+    of an increasingly popular programming language for both research
+    experimentation and serious industrial use.  While the rise of
+    Haskell and GHC -- and its influence on other languages -- is the
+    shared result of a vibrant community of many, it is also fair to
+    describe it as inextricable from Simon's career.
+
+    Among Simon's technical contributions to language design is
+    leading work in monadic I/O, type classes, generalized abstract
+    data types, composable transactional memory, generic programming
+    via "scrap your boilerplate", advances in type inference, and
+    more.  His work on functional-language implementation has been no
+    less influential and wide-ranging, with a compiler design based on
+    a typed intermediate language and optimizations expressed via
+    declarative rewriting.  In making Haskell a practical language, he
+    collaborated to design and implement novel approaches to
+    concurrency, foreign function interfaces, space profiling, and
+    nested data parallelism.
+
+    Beyond all these technical advances and many more, Simon is widely
+    recognized as a visionary leader in the field, an articulate
+    writer, an extraordinarily effective speaker, an agent of change
+    in computing education, a generous collaborator, and a peerless
+    mentor.  His remarkable contributions to the field of programming
+    languages arise from technical sophistication, impeccable taste,
+    boundless enthusiasm, and charismatic leadership.
+
+2015:
+- Awardee: Luca Cardelli
+  Citation: |
     Luca Cardelli has made exceptional contributions to the field of
     programming languages. He has a remarkable ability to re-invent
     himself every decade or so and yet continue to make true
@@ -45,9 +81,8 @@
 
 
 2014:
-  Awardee: Neil Jones
+- Awardee: Neil Jones
   Citation: |
-
     Neil Jones is a pioneer of programming-language methods.  He
     introduced control-flow analysis for higher-order programs,
     binding-time analysis to tame self-applicable partial evaluation,
@@ -68,7 +103,7 @@
 
 
 2013:
-  Awardee: Patrick and Radhia Cousot
+- Awardee: Patrick and Radhia Cousot
   Citation: |
     Patrick and Radhia Cousot are the co-inventors of abstract
     interpretation, a unifying theory of sound abstraction and
@@ -99,9 +134,8 @@
 
 
 2012:
-  Awardee: Matthias Felleisen
+- Awardee: Matthias Felleisen
   Citation: |
-
     The SIGPLAN 2012 Achievement award has been won by Matthias
     Felleisen, an exemplary researcher whose work covers theory,
     practice, and education, with each reinforcing the others.  He has
@@ -133,9 +167,8 @@
     and real-world impact that have characterized Matthias's work.
 
 2011:
-  Awardee: Sir Charles Antony Richard Hoare, FRS, FREng, FBCS
+- Awardee: Sir Charles Antony Richard Hoare, FRS, FREng, FBCS
   Citation: |
-
     Tony Hoare's long career in computing is studded with seminal
     engineering	 and scientific contributions to Programming Languages;
     his views on programming language design have been recognized as
@@ -168,9 +201,8 @@
     epitome of a scholar and a gentleman.
 
 2010:
-  Awardee: Gordon D. Plotkin
+- Awardee: Gordon D. Plotkin
   Citation: |
-
     Professor Gordon D. Plotkin has made fundamental advances in
     almost every area of the theory of programming languages. His
     contributions have helped to establish the mathematical
@@ -209,9 +241,8 @@
     field.
 
 2009:
-  Awardee: Rod Burstall
+- Awardee: Rod Burstall
   Citation: |
-
     Professor Rod Burstall has made deep, seminal contributions to the
     design of programming languages and the field of program
     verification. These contributions, which many of us now take for
@@ -234,9 +265,8 @@
 
 
 2008:
-  Awardee: Barbara Liskov
+- Awardee: Barbara Liskov
   Citation: |
-
     Professor Barbara Liskov has had tremendous impact on the fields
     of programming languages, operating systems, distributed systems,
     and information security. Much of her early research focus was on
@@ -257,37 +287,35 @@
     helped to start a research focus on end-to-end security using
     language-based mechanisms for enforcement."
 
-
 2007:
-  Awardee: Niklaus Wirth
+- Awardee: Niklaus Wirth
 
 2006:   
-  Awardee: Ron Cytron, Jeanne Ferrante, Barry Rosen, Mark Wegman, and Kenneth Zadeck
+- Awardee: Ron Cytron, Jeanne Ferrante, Barry Rosen, Mark Wegman, and Kenneth Zadeck
 
 2005: 
-  Awardee: Erich Gamma and Richard Helm
+- Awardee: Erich Gamma and Richard Helm
 
 2004: 
-  Awardee: John Backus
+- Awardee: John Backus
 
 2003:
-  Awardee: John Reynolds
+- Awardee: John Reynolds
 
 2002:
-  Awardee: John McCarthy
+- Awardee: John McCarthy
 
 2001:
-  Awardee: Robin Milner
+- Awardee: Robin Milner
 
 2000:
-  Awardee: Susan Graham
+- Awardee: Susan Graham
 
 1999:
-  Awardee: Ken Kennedy
+- Awardee: Ken Kennedy
 
 1998:
-  Awardee: Fran Allen
+- Awardee: Fran Allen
 
 1997:
-  Awardee: Guy Steele
-
+- Awardee: Guy Steele
