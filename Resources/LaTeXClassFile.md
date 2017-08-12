@@ -3,11 +3,10 @@ layout: default
 title: "SIGPLAN LaTeX Class File"
 ---
 
-SIGPLAN commissioned the construction of a LaTeX class file for
-SIGPLAN conference papers.  The current version of the LaTeX class
-file is available on the [Author Information](/Resources/Author) page.
-This page archives older versions of the LaTeX class file for
-historical reference.
+**NOTE:** The `sigplanconf` format was used for SIGPLAN events
+occuring before August 2017.  It has been superceded by the
+[`acmart` format](/Resources/Author).  This page archives older
+versions of the LaTeX class file for historical reference only.
 
 * version 3.6 (released 20161220)
     - [`sigplanconf.cls`](/sites/default/files/sigplanconf/3.6/sigplanconf.cls)
