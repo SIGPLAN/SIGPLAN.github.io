@@ -22,8 +22,8 @@ programming languages free of restrictions on both access and use.
 - Publisher: ACM (electronic format via ACM Digital Library, no print format)
 - e-ISSN: 2475-1421
 - Annual Issues: POPL (January), ICFP (September), OOPSLA (October)
-- Website: http://pacmpl.acm.org
-- Website: http://dl.acm.org/pub.cfm?id=J1568
+- Website: [`pacmpl.acm.org`](https://pacmpl.acm.org)
+- Website: [`dl.acm.org/pub.cfm?id=J1568`](https://dl.acm.org/pub.cfm?id=J1568)
 
 ### Participating Conferences
 
