@@ -191,6 +191,11 @@
   year: 2016
   title: "Proceedings of the 21st ACM SIGPLAN International Conference on Functional Programming"
 -
+  event: ICFP
+  year: 2017
+  title: "Proceedings of the 22nd ACM SIGPLAN International Conference on Functional Programming"
+  link: http://dl.acm.org/citation.cfm?id=3136534
+-
   event: ISMM
   year: 2014
   title: "Proceedings of the 13th ACM SIGPLAN International Symposium on Memory Management"

@@ -38,8 +38,17 @@ confusion over article versioning.
 {% assign year = i.year %}
 {% assign shortyear = year | slice: -2,2 %}
 {% assign title = i.title %}
+{% assign link = i.link %}
+
+{% if link <> nil %}
+
+* [{{event}}'{{shortyear}}: {{title}}]({{link}})
+
+{% else %}
 
 * [{{event}}'{{shortyear}}: {{title}}]({{name}}{{shortyear}}.html)
+
+{% endif %}
 
 {% endfor %}
 
@@ -64,8 +73,17 @@ confusion over article versioning.
 {% assign year = i.year %}
 {% assign shortyear = year | slice: -2,2 %}
 {% assign title = i.title %}
+{% assign link = i.link %}
+
+{% if link <> nil %}
+
+* [{{event}}'{{shortyear}}: {{title}}]({{link}})
+
+{% else %}
 
 * [{{event}}'{{shortyear}}: {{title}}]({{name}}{{shortyear}}.html)
+
+{% endif %}
 
 {% endfor %}
 
