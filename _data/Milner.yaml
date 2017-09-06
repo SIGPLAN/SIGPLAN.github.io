@@ -1,3 +1,23 @@
+2017:
+- Awardee: Derek Dreyer
+  Citation: |
+    Derek Dreyer has made deep, creative research contributions of
+    great breadth. His areas of impact are as diverse as module
+    systems, data abstraction in higher-order languages, mechanized
+    proof systems and techniques, and concurrency models and
+    semantics. He has refactored and generalized the complex module
+    systems of SML and OCaml; devised logical relations and techniques
+    that enabled advances in reasoning about higher-order imperative
+    programs; and developed novel separation logics for modular
+    verification of low-level concurrent programs. His research papers
+    are a model of clarity and depth, and he has worked actively to
+    translate his foundational ideas into practice – most recently
+    with the RustBelt project to provide formal foundations for the
+    Rust language. Additionally, Dreyer has contributed leadership,
+    support, and mentorship in activities such as the PLMW series of
+    workshops, which are instrumental in growing the next generation
+    of PL researchers.
+
 2016:
 - Awardee: Stephanie Weirich
   Citation: |
