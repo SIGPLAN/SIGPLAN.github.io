@@ -1,3 +1,22 @@
+2017:
+- Awardee: Peter Sewell, Francesco Zappa Nardelli, Scott Owens, Gilles Peskine, Thomas Ridge, Susmit Sarkar, and Rok Strniša
+  Other: |
+    (for 2007) _[Ott: Effective Tool Support for the Working Semanticist](http://dl.acm.org/citation.cfm?id=1291155)_
+  Citation: |
+    The ICFP paper describes Ott's goals and design, focusing
+    particularly on its metalanguage, which aims to balance
+    mathematical precision and ease-of-use. Ott strikes a balance
+    between informal notation and checked structure that is both
+    lightweight and powerful. As its syntax is notationally close to
+    existing vernacular, it is easy for language designers to
+    adopt. At the same time, Ott's flexible parser and native support
+    for meta-functions and relations means that it "type checks"
+    language specifications, catching subtle errors in definitions
+    even without full encoding in a proof assistant. Over the past ten
+    years, ICFP researchers have benefitted tremendously from the
+    open-source tool and the effective design space exploration that
+    it promotes.
+
 2016:
 - Awardee: Simon Peyton Jones, Dimitrios Vytiniotis, Stephanie Weirich, and Geoffrey Washburn
   Other: |
