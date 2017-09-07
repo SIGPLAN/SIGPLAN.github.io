@@ -93,5 +93,3 @@ the Milner Award eligibility requirement has been updated to clarify
 that the 20-year time frame is in relation to the nomination
 *deadline* (rather than the vague "time of nomination" as was
 originally written).
-
--- Derek Dreyer (on behalf of the SIGPLAN Executive Committee)
