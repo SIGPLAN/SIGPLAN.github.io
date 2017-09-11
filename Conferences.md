@@ -113,12 +113,10 @@ language. The scope of the symposium includes all aspects of the
 design, semantics, theory, application, implementation, and
 teaching of Haskell.
 
-**History of Programming Languages ([HOPL](http://research.ihost.com/hopl/HOPL.html))**  
+**History of Programming Languages ([HOPL](https://hopl4.sigplan.org/))**  
 The goal of the History of Programming Languages conference is to
 produce an accurate historical record of programming language
-design and development. HOPL-III will be held in 2007 in San Diego,
-CA as part of FCRC 2007. HOPL-III is in-cooperation with
-[SIGSOFT](http://www.sigsoft.org/).
+design and development. HOPL-IV will be held in 2020 with PLDI'20.
 HOPL-I was held in 1978 in Los Angeles, CA.
 HOPL-II was held in 1993 in Cambridge, MA.
 HOPL-III was held in 2007 in San Diego, CA.
