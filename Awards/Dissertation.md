@@ -66,9 +66,9 @@ never worked with Reynolds nevertheless built on his ideas.
  * [Nate Foster](http://www.cs.cornell.edu/~jnfoster/) (<mailto:jnfoster@cs.cornell.edu>) - Barefoot Networks / Cornell University
  * [Georges Gonthier](http://www.msr-inria.fr/researchers/georges-gonthier/) (<mailto:georges.gonthier@inria.fr>) - Inria
  * [Mike Hicks](http://www.cs.umd.edu/~mwh/) (<mailto:mwh@cs.umd.edu>) - University of Maryland (ex officio member as SIGPLAN Chair)
- * [Vechev Martin](http://www.srl.inf.ethz.ch/vechev.php) (<mailto:martin.vechev@inf.ethz.ch>) - ETH
  * [Todd Millstein](http://web.cs.ucla.edu/~todd/) (<mailto:todd@cs.ucla.edu>) - UCLA
  * [Andreas Podelski](https://swt.informatik.uni-freiburg.de/staff/podelski) (<mailto:podelski@informatik.uni-freiburg.de>) - University of Freiburg
  * [Alexandra Silva](http://www.alexandrasilva.org/#/main.html) (<mailto:alexandra.silva@ucl.ac.uk>) - University College London
  * [Armando Solar-Lezama](https://people.csail.mit.edu/asolar/) (<mailto:asolar@csail.mit.edu>) - M.I.T
+ * [Martin Vechev](http://www.srl.inf.ethz.ch/vechev.php) (<mailto:martin.vechev@inf.ethz.ch>) - ETH
  * [Eran Yahav](http://www.cs.technion.ac.il/~yahave/) (<mailto:yahave@cs.technion.ac.il>) - Technion
