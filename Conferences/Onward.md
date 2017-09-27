@@ -244,6 +244,7 @@ Steering Committee Members
 * Robert Hirschfeld, Hasso Plattner Institute Potsdam, Germany (SC Chair)
 * Jonathan Aldrich, Carnegie Mellon University, USA (SPLASH General Chair 2015)
 * Robert Biddle, Carleton University, Canada (Essays Chair 2017)
+* Elisa Gonzalez Boix, Vrije Universiteit Brussel, Belgium (Papers Chair 2018)
 * Cristina Videira Lopes, University of California at Irvine, USA (Essays Chair 2016)
 * Gail Murphy, University of British Columbia, Canada (Papers Chair 2015)
 * Emerson Murphy-Hill, North Carolina State University, USA (Papers Chair 2016)
