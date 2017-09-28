@@ -9,11 +9,11 @@ implementation.
 
 **PLDI Fast Facts**
 
-> [PLDI 2017 Web Page](http://conf.researchr.org/home/pldi-2017)  
-> Location: Barcelona, Spain  
-> General Chair: [Albert Cohen](https://who.rocq.inria.fr/Albert.Cohen)  
-> Program Chair: [Martin Vechev](http://www.srl.inf.ethz.ch/vechev.php)  
-> Dates:  June 19-23, 2017  
+> [PLDI 2018 Web Page](http://pldi18.sigplan.org)  
+> Location: Philadelphia, PA  
+> General Chair: [Jeffrey S. Foster](http://www.cs.umd.edu/~jfoster)  
+> Program Chair: [Dan Grossman](http://homes.cs.washington.edu/~djg/)  
+> Dates:  June 18-22, 2018  
 
 **Practices of PLDI**
 
@@ -37,6 +37,7 @@ The PLDI Steering Committee is chosen according the [Practices of PLDI](http://w
 
 **Web Pages of Previous Conferences**  
 
+- [PLDI 2017](http://pldi17.sigplan.org) (Barcelona, Spain)
 - [PLDI 2016](http://conf.researchr.org/home/pldi-2016) (Santa Barbara, CA)
 - [PLDI 2015](http://conf.researchr.org/home/pldi2015) (Portland, OR)
 - [PLDI 2014](http://conferences.inf.ed.ac.uk/pldi2014/)  (Edinburgh, UK)
