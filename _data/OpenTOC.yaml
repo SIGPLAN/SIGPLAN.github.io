@@ -11,6 +11,10 @@
   year: 2016
   title: "Proceedings of the 6th International Workshop on Programming Based on Actors, Agents, and Decentralized Control"
 -
+  event: AGERE!
+  year: 2017
+  title: "Proceedings of the 7th International Workshop on Programming Based on Actors, Agents, and Decentralized Control"
+-
   event: ARRAY
   year: 2014
   title: "Proceedings of the ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming"
@@ -62,6 +66,10 @@
   event: DLS
   year: 2016
   title: "Proceedings of the 12th Symposium on Dynamic Languages"
+-
+  event: DLS
+  year: 2017
+  title: "Proceedings of the 13th Symposium on Dynamic Languages"
 -
   event: DSM
   year: 2014
@@ -139,6 +147,10 @@
   year: 2016
   title: "Proceedings of the 7th International Workshop on Feature-Oriented Software Development"
 -
+  event: FOSD
+  year: 2017
+  title: "Proceedings of the 8th International Workshop on Feature-Oriented Software Development"
+-
   event: FPW
   year: 2015
   title: "Proceedings of the Workshop on Future Programming"
@@ -154,6 +166,10 @@
   event: GPCE
   year: 2016
   title: "Proceedings of the 15th International Conference on Generative Programming: Concepts and Experiences"
+-
+  event: GPCE
+  year: 2017
+  title: "Proceedings of the 16th International Conference on Generative Programming: Concepts and Experiences"
 -
   event: GPGPU
   year: 2017
@@ -235,6 +251,10 @@
   event: MAPL
   year: 2017
   title: "Proceedings of the 1st ACM SIGPLAN International Workshop on Machine Learning and Programming Languages"
+-
+  event: META
+  year: 2017
+  title: "Proceedings of the 2nd ACM SIGPLAN International Workshop on Meta-Programming Techniques and Reflection"
 -
   event: Mobile!
   year: 2016
@@ -396,6 +416,10 @@
   year: 2016
   title: "Proceedings of the 3rd International Workshop on Reactive and Event-Based Languages and Systems"
 -
+  event: REBLS
+  year: 2017
+  title: "Proceedings of the 4th International Workshop on Reactive and Event-Based Languages and Systems"
+-
   event: SCALA
   year: 2015
   title: "Proceedings of the 6th ACM SIGPLAN Symposium on Scala"
@@ -404,6 +428,10 @@
   year: 2016
   title: "Proceedings of the 7th ACM SIGPLAN Symposium on Scala"
 -
+  event: SCALA
+  year: 2017
+  title: "Proceedings of the 8th ACM SIGPLAN Symposium on Scala"
+-
   event: SEPS
   year: 2015
   title: "Proceedings of the 2nd International Workshop on Software Engineering for Parallel Systems"
@@ -411,6 +439,10 @@
   event: SEPS
   year: 2016
   title: "Proceedings of the 3rd International Workshop on Software Engineering for Parallel Systems"
+-
+  event: SEPS
+  year: 2017
+  title: "Proceedings of the 4th International Workshop on Software Engineering for Parallel Systems"
 -
   event: SLE
   year: 2015
@@ -479,6 +511,10 @@
   event: VMIL
   year: 2016
   title: "Proceedings of the 8th International Workshop on Virtual Machines and Intermediate Languages"
+-
+  event: VMIL
+  year: 2017
+  title: "Proceedings of the 9th International Workshop on Virtual Machines and Intermediate Languages"
 -
   event: WGP
   year: 2014
