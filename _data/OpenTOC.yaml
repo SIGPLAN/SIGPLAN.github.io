@@ -39,6 +39,10 @@
   year: 2016
   title: "Proceedings of the 14th Annual IEEE/ACM International Symposium on Code Generation and Optimization"
 -
+  event: CoCoS
+  year: 2017
+  title: "Proceedings of the 2nd ACM SIGPLAN International Workshop on Comprehension of Complex Systems"
+-
   event: CPP
   year: 2015
   title: "Proceedings of the 4th ACM SIGPLAN Conference on Certified Programs and Proofs"
@@ -284,6 +288,10 @@
   year: 2016
   title: "Proceedings of the 2016 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software"
 -
+  event: Onward!
+  year: 2017
+  title: "Proceedings of the 2017 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software"
+-
   event: OOPSLA
   year: 2014
   title: "Proceedings of the 2014 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications"
@@ -479,6 +487,10 @@
   event: SPLASH
   year: 2016
   title: "Companion Proceedings of the 2016 ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity"
+-
+  event: SPLASH
+  year: 2017
+  title: "Companion Proceedings of the 2017 ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity"
 -
   event: TRUST
   year: 2014
