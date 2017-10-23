@@ -244,15 +244,17 @@ Steering Committee Members
 * Robert Hirschfeld, Hasso Plattner Institute Potsdam, Germany (SC Chair)
 * Jonathan Aldrich, Carnegie Mellon University, USA (SPLASH General Chair 2015)
 * Robert Biddle, Carleton University, Canada (Essays Chair 2017)
+* Richard P. Gabriel, Dreamsongs and Hasso Plattner Institute, USA (Essays Chair 2018)
 * Elisa Gonzalez Boix, Vrije Universiteit Brussel, Belgium (Papers Chair 2018)
 * Cristina Videira Lopes, University of California at Irvine, USA (Essays Chair 2016)
-* Gail Murphy, University of British Columbia, Canada (Papers Chair 2015)
+* Gail Murphy, University of British Columbia, Canada (Papers Chair 2015, SPLASH General Chair 2017)
 * Emerson Murphy-Hill, North Carolina State University, USA (Papers Chair 2016)
 * Guy L. Steele Jr., Oracle Labs, USA (Essays Chair 2015)
 * Kevin Sullivan, University of Virginia, USA (Past SC Chair 2015)
 * Peter Thiemann, University of Freiburg, Germany (SIGPLAN)
 * Emina Torlak, University of Washington, USA (Papers Chair 2017)
 * Eelco Visser, Delft University of Technology, The Netherlands (Papers Chair 2011, SPLASH General Chair 2016)
+* Jan Vitek, Northeastern University, USA (SPLASH General Chair 2018)
 
 ### Past
 
