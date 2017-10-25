@@ -1,3 +1,25 @@
+2017:
+- Awardee: Andy Georges, Dries Buytaert, Lieven Eeckhout
+  Other: |
+    (for 2007) _[Statistically rigorous Java performance evaluation](https://dl.acm.org/citation.cfm?doid=1297027.1297033)_
+  Citation: |
+    The paper by Georges et al. has been widely influential in Java
+    performance evaluation. Before this paper, Java performance
+    evaluation methodologies had varied widely, leading to difficulty
+    in comparisons and often misleading conclusions. The authors
+    survey several past studies, carefully discuss discrepancies in
+    experimental and reporting methodologies, and expose the pitfalls
+    of benchmarking approaches.  The fundamental problem is that
+    without an appropriate statistical analysis, it is difficult to
+    tell whether reported measurements in the literature reflect
+    significant distinctions or just random fluctuations. The paper
+    proposes a statistically rigorous approach for experimental
+    measurements in the Java setting, ways to mitigate uncertainty,
+    and even new reporting techniques. The paper also introduced
+    JavaStats, publicly available software that monitors the
+    variability in measurements to determine how many measurements
+    will be needed in all to reach a desired level of statistical
+    confidence.
 2016:
 - Awardee: Stephen M. Blackburn, Robin Garner, Chris Hoffmann, Asjad M. Khan, Kathryn S. McKinley, Rotem Bentzur, Amer Diwan, Daniel Feinberg, Daniel Frampton, Samuel Z. Guyer, Martin Hirzel, Antony Hosking, Maria Jump, Han Lee, J. Eliot B. Moss, Aashish Phansalkar, Darko Stefanović, Thomas VanDrunen, Daniel von Dincklage, Ben Wiedermann
   Other: |
