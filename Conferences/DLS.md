@@ -12,20 +12,33 @@ provides a place for researchers and practitioners to come together and
 share their knowledge, experience, and ideas for future research and
 development.
 
-DLS 2017
+DLS 2018
 --------
 
--   Vancouver, British Columbia, Canada, October 24, 2017
--   Co-located with SPLASH 2017
--   PC chair: Davide Ancona (Università degli studi di Genova, Italy)
--   [http://2017.splashcon.org/track/dls-2017-DLS-2017](http://2017.splashcon.org/track/dls-2017-DLS-2017)
--   [http://www.dynamic-languages-symposium.org/dls-17/](http://www.dynamic-languages-symposium.org/dls-17/)
+-   Boston, Massachusetts, USA, October 16, 2018
+-   Co-located with SPLASH 2018
+-   PC chair: Tim Felgentreff (Oracle Labs)
+-   [http://www.dynamic-languages-symposium.org/dls-18/](http://www.dynamic-languages-symposium.org/dls-18/)
 
 Awards
 ------
 
+-   Most Notable Paper Award 2017 for 2007
+    -   Recipients: Stijn Mostinckx, Tom Van Cutsem, Stijn Timbermont, and Éric Tanter
+    -   Title: Mirages--Behavioral Intercession in a Mirror-based Architecture
+    -   Conference: DLS 2007
+    -   Paper:
+        [http://dl.acm.org/citation.cfm?id=1297095](http://dl.acm.org/citation.cfm?id=1297095)
+    -   Citation: The 2007 DLS paper "Mirages: Behavioral Intercession
+        in a Mirror-based Architecture" combined the ideas of explicit
+        mirrors for reflective introspection and modification with
+        implicit mirrors for behavioral intercession. The work in this
+        paper influenced and inspired the design of proxies in the
+        JavaScript language, where it now has applications in areas
+        such as security, testing, and virtualization of the DOM.
+
 -   Most Notable Paper Award 2016 for 2006
-    -   Recipient: Armin Rigo and Samuele Pedroni
+    -   Recipients: Armin Rigo and Samuele Pedroni
     -   Title: PyPy's Approach to Virtual Machine Construction
     -   Conference: DLS 2006
     -   Paper:
@@ -44,7 +57,7 @@ Awards
         contexts.
 
 -   Most Notable Paper Award 2015 for 2005
-    -   Recipient: Pascal Costanza and Robert Hirschfeld
+    -   Recipients: Pascal Costanza and Robert Hirschfeld
     -   Title: Language Constructs for Context-oriented Programming--An Overview of ContextL
     -   Conference: DLS 2005
     -   Paper:
@@ -61,8 +74,15 @@ Awards
 Past Events
 -----------
 
--   DLS 2016
+-   DLS 2017
+    -   Vancouver, British Columbia, Canada, October 24, 2017
+    -   Co-located with SPLASH 2017
+    -   PC chair: Davide Ancona
+	-   Invited Speaker: Filip Pizlo
+    -   [http://2017.splashcon.org/track/dls-2017-DLS-2017](http://2017.splashcon.org/track/dls-2017-DLS-2017)
+    -   [http://www.dynamic-languages-symposium.org/dls-17/](http://www.dynamic-languages-symposium.org/dls-17/)
 
+-   DLS 2016
     -   Amsterdam, The Netherlands, November 1, 2016
     -   Co-located with SPLASH 2016
     -   PC chair: Roberto Ierusalimschy
