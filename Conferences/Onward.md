@@ -8,27 +8,36 @@ aspect of programming. Welcomed are papers that propose and argue for
 new approaches to the creation of software as well as reflections on
 technology and ideas bearing on programming broadly construed.
 
-Onward! 2017
+Onward! 2018
 ------------
 
--   Vancouver, British Columbia, Canada, October 25-27, 2017
--   Co-located with SPLASH 2017
--   Papers chair: Emina Torlak (University of Washington)
--   Papers co-chair: Tijs van der Storm (Centrum Wiskunde &amp; Informatica and University of Groningen)
--   Essays chair: Robert Biddle (Carleton University)
--   [http://2017.splashcon.org](http://2017.splashcon.org)
--   [http://2017.onward-conference.org/track/onward-2017-Onward-Papers](http://2017.onward-conference.org/track/onward-2017-Onward-Papers)
--   [http://2017.onward-conference.org/track/onward-2017-essays-2017](http://2017.onward-conference.org/track/onward-2017-essays-2017)
+-   Boston, Massachusetts, USA, October 17-19, 2018
+-   Co-located with SPLASH 2018
+-   Papers chair: Elisa Gonzalez Boix (Vrije Universiteit Brussel)
+-   Essays chair: Richard P. Gabriel (Dreamsongs and Hasso Plattner Institute)
+-   [http://2018.splashcon.org](http://2018.splashcon.org)
 
 Awards
 ------
+
+-   Most Notable Paper Award 2017 for 2007
+    -   Recipient: Sean McDirmid
+    -   Title: Living it up with a Live Programming Language
+    -   Conference: Onward! 2007
+    -   Paper:
+        [http://dl.acm.org/citation.cfm?id=1297073](http://dl.acm.org/citation.cfm?id=1297073)
+    -   Citation: The 2007 Onward! paper "Living it up with a Live
+        Programming Language" brought the idea of Live Programming
+        into focus by examining the necessary mechanisms, developing a
+        good running example, displaying a contrarian attitude, and
+        explaining it all with admirably clear writing..
 
 -   Most Notable Paper Award 2016 for 2006
     -   Recipient: Friedrich Steimann
     -   Title: The Paradoxical Success of Aspect-Oriented Programming
     -   Conference: Onward! 2006
     -   Paper:
-        [http://dl.acm.org/citation.cfm?id=1167514](http://dl.acm.org/citation.cfm?id=1167514)   
+        [http://dl.acm.org/citation.cfm?id=1167514](http://dl.acm.org/citation.cfm?id=1167514)
     -   Citation: The 2006 Onward! Essay "The Paradoxical Success of
         Aspect-Oriented Programming" presents a considered and
         articulated exploration of the nature of aspect-oriented
@@ -102,6 +111,17 @@ Awards
 
 Past Events
 -----------
+
+-   Onward! 2017
+    -   Vancouver, British Columbia, Canada, October 25-27, 2017
+    -   Co-located with SPLASH 2017
+    -   Papers chair: Emina Torlak
+    -   Papers co-chair: Tijs van der Storm
+    -   Essays chair: Robert Biddle
+    -   Keynote speaker: Lera Boroditsky
+    -   [http://2017.splashcon.org](http://2017.splashcon.org)
+    -   [http://2017.onward-conference.org/track/onward-2017-Onward-Papers](http://2017.onward-conference.org/track/onward-2017-Onward-Papers)
+    -   [http://2017.onward-conference.org/track/onward-2017-essays-2017](http://2017.onward-conference.org/track/onward-2017-essays-2017)
 
 -   Onward! 2016
     -   Amsterdam, The Netherlands, November 2-4, 2016
@@ -242,14 +262,12 @@ Steering Committee Members
 ### Present
 
 * Robert Hirschfeld, Hasso Plattner Institute Potsdam, Germany (SC Chair)
-* Jonathan Aldrich, Carnegie Mellon University, USA (SPLASH General Chair 2015)
 * Robert Biddle, Carleton University, Canada (Essays Chair 2017)
 * Richard P. Gabriel, Dreamsongs and Hasso Plattner Institute, USA (Essays Chair 2018)
 * Elisa Gonzalez Boix, Vrije Universiteit Brussel, Belgium (Papers Chair 2018)
 * Cristina Videira Lopes, University of California at Irvine, USA (Essays Chair 2016)
 * Gail Murphy, University of British Columbia, Canada (Papers Chair 2015, SPLASH General Chair 2017)
 * Emerson Murphy-Hill, North Carolina State University, USA (Papers Chair 2016)
-* Guy L. Steele Jr., Oracle Labs, USA (Essays Chair 2015)
 * Kevin Sullivan, University of Virginia, USA (Past SC Chair 2015)
 * Peter Thiemann, University of Freiburg, Germany (SIGPLAN)
 * Emina Torlak, University of Washington, USA (Papers Chair 2017)
@@ -258,6 +276,7 @@ Steering Committee Members
 
 ### Past
 
+* Jonathan Aldrich, Carnegie Mellon University, USA
 * Elisa Baniassad, Australian National University, Australia (SC Chair)
 * Andrew Black, Portland State University, USA
 * Bernd Bruegge, TU M&#252;nchen, Germany
@@ -271,3 +290,4 @@ Steering Committee Members
 * Shriram Krishnamurthi, Brown University, USA
 * James Noble, Victoria University of Wellington, New Zealand
 * Dirk Riehle, Friedrich-Alexander-Universit&#228;t Erlangen-N&#252;rnberg, Germany
+* Guy L. Steele Jr., Oracle Labs, USA
