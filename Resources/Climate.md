@@ -8,11 +8,11 @@ which in turn are a significant contributor to global warming and
 attendant climate change.  SIGPLAN hosts several annual scientific
 meetings at various locations throughout the world.  While we believe
 such meetings are very important for furthering important research, we
-would be remiss in not exploring possible mitigations. As such, we
+would be remiss in not exploring possible mitigations. Accordingly, we
 have formed an ad hoc committee to study the climate impact of
 conferences and possible steps that SIGPLAN might take in
 response. The committee chair is [Benjamin
-Pierce](http://www.cis.upenn.edu/~bcpierce/), and its members include
+Pierce](http://www.cis.upenn.edu/~bcpierce/); its other members are
 [SIGPLAN EC](/ContactUs) members [Crista
 Lopes](http://www.ics.uci.edu/~lopes/) and [Michael
 Hicks](http://www.cs.umd.edu/~mwh/). An [interim
@@ -50,7 +50,6 @@ and cons of carbon offsets in general and of specific project types
 can be found in a [recent
 report](https://www.sei-international.org/mediamanager/documents/Publications/Climate/SEI-WP-2016-03-ICAO-aviation-offsets-biofuels.pdf)
 from the Stockholm Environmental Institute.
-
 
 [Atmosfair](https://www.atmosfair.de/en/organisationsform) is a
 non-profit originally created as part of a research project by the
