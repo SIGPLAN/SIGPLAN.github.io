@@ -11,7 +11,7 @@ ISMM                | Christoph Kirsch      |
 LCTES               | Bruce Childers        |
 PEPM                | Oleg Kiselyov         | PEPM is not reprinted in SIGPLAN
 PLDI                | Kathleen Fisher       |
-POPL                | Roberto Giacobazzi    |
+POPL                | Giuseppe Castagna     |
 PPoPP               | Calin Cascaval        |
 SPLASH              | Antony Hosking        |
 VEE                 | Dilma da Silva        |
