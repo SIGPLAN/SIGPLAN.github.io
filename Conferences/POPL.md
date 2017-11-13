@@ -71,6 +71,8 @@ The POPL Steering Committee is constituted by the following members:
 
 -   current and past SIGPLAN Chairs,
 -   two members at large who sit for three years
--   one Industrial Relation chair who sits for three years
+-   one Industrial Relation Chair who sits for three years
 -   three most recent POPL General Chairs, and
 -   three most recent POPL Program Chairs.
+
+The General Chair of the next edition of POPL is invited to join the Steering Committee as soon as (s)he is chosen.
