@@ -29,6 +29,16 @@ these awards.  More details about the SIGPLAN awards can be found
 
 **POPL Steering Committee**
 
+The POPL Steering Committee is constituted by the following members:  
+
+-   current and past SIGPLAN Chairs,
+-   three members at large who sit for three years
+-   Industrial Relation Chair who sits for three years and is chosen among the three members at large
+-   three most recent POPL General Chairs, and
+-   three most recent POPL Program Chairs.
+
+The General Chair and Program Committee Chair of the next edition of POPL are invited to join the Steering Committee as soon as they are chosen.
+
 The current POPL steering committee is:
 
 {% include committee.liquid name="POPL Steering Committee" %}
@@ -67,12 +77,3 @@ The current POPL steering committee is:
 > [POPL 1996](ftp://parcftp.xerox.com/pub/popl96/popl96.html) (St. Petersburg Beach, FL)  
 > [POPL 1995](http://www.cs.wustl.edu/~cytron/popl95.html) (San Francisco, CA)  
 
-The POPL Steering Committee is constituted by the following members:  
-
--   current and past SIGPLAN Chairs,
--   three members at large who sit for three years
--   Industrial Relation Chair who sits for three years and is chosen among the three members at large
--   three most recent POPL General Chairs, and
--   three most recent POPL Program Chairs.
-
-The General Chair and Program Committee Chair of the next edition of POPL are invited to join the Steering Committee as soon as they are chosen.
