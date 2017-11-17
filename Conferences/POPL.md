@@ -31,7 +31,7 @@ these awards.  More details about the SIGPLAN awards can be found
 
 The POPL Steering Committee is constituted by the following members:  
 
--   current and past SIGPLAN Chairs,
+-   current SIGPLAN Chair and Vice Chair,
 -   three members at large who sit for three years
 -   Industrial Relation Chair who sits for three years and is chosen among the three members at large
 -   three most recent POPL General Chairs, and
