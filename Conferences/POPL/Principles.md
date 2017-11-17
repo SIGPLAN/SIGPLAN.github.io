@@ -1,10 +1,8 @@
-#**Principles of POPL**
+# **Principles of POPL**
 
-first version 11 June 2013, latest revision 25 November 2017
+[first version 11 June 2013, latest revision 25 November 2017]
 
-*Giuseppe Castagna, Derek Dreyer, John Field, Roberto Giacobazzi, Michael Hicks, Suresh Jagannathan, Mooly Sagiv, Peter Sewell, Phil Wadler*
-
-(on behalf of the POPL Steering Committee)
+*Giuseppe Castagna, Derek Dreyer, John Field, Roberto Giacobazzi, Michael Hicks, Suresh Jagannathan, Mooly Sagiv, Peter Sewell, Phil Wadler* (on behalf of the POPL Steering Committee)
 
 ## **Goal**
 
@@ -14,11 +12,11 @@ The remainder of this document is organized topically. Each topic has two subsec
 
 ## **Definitions**
 
-*CFP: *Call for papers
+*CFP*: Call for papers
 
-*COI:* Conflict of interest
+*COI*: Conflict of interest
 
-*DBR:* Double-blind reviewing
+*DBR*: Double-blind reviewing
 
 *EC*: SIGPLAN Executive Committee
 
