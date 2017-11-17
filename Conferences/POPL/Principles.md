@@ -1,20 +1,18 @@
-**.Principles of POPL**
+#**Principles of POPL**
 
-11 June 2013, revised 25 November 2013
+first version 11 June 2013, latest revision 25 November 2017
 
-Derek Dreyer, John Field, Roberto Giacobazzi, Michael Hicks, Suresh Jagannathan,
-
-Mooly Sagiv, Peter Sewell, Phil Wadler
+*Giuseppe Castagna, Derek Dreyer, John Field, Roberto Giacobazzi, Michael Hicks, Suresh Jagannathan, Mooly Sagiv, Peter Sewell, Phil Wadler*
 
 (on behalf of the POPL Steering Committee)
 
-# **Goal**
+## **Goal**
 
 Our goal is create a contract between POPL organizers and POPL authors that defines essential organizational and reviewing policies. We wish to establish clear expectations for authors while allowing plenty of leeway for organizers to innovate. We anticipate that the contract will change over time, but when it does, we'll inform the community and provide a justification for the change.
 
 The remainder of this document is organized topically. Each topic has two subsections: *Prescriptions *and *Suggestions. Prescriptions* are firm policies; we expect that the organizers for each incarnation of POPL will adhere to the policies. In cases where the organizers feel an exception or change is warranted, they must first consult with the SC. *Suggestions* are best (or at least very good) practices that we expect organizers to strongly consider.
 
-# **Definitions**
+## **Definitions**
 
 *CFP: *Call for papers
 
@@ -32,13 +30,13 @@ The remainder of this document is organized topically. Each topic has two subsec
 
 *SIGPLAN*: ACM Special Interest Group on Programming Languages
 
-# **Topics**
+## **Topics**
 
-## **Conference Organization**
+### **Conference Organization**
 
-### **SC Composition**
+#### **SC Composition**
 
-#### *Prescriptions*
+##### *Prescriptions*
 
 The POPL steering committee for the period from POPL *X* to POPL *X*+1 consists of:
 
@@ -50,29 +48,29 @@ The POPL steering committee for the period from POPL *X* to POPL *X*+1 consists 
 
 In addition to the above formal members, the general and PC chairs for POPL *X*+2 are typically invited to participate in most SC discussions. The chair of the SC for calendar year *X* is the General chair for POPL *X*.
 
-### **Selection of Organizing Committee**
+#### **Selection of Organizing Committee**
 
-#### *Prescriptions*
+##### *Prescriptions*
 
 The General and PC chairs for year *X*+2 are selected by the SC for year *X*, subject to the approval of the EC. The General and PC chairs select other members of the OC.
 
-#### *Suggestions*
+##### *Suggestions*
 
 In recent years, POPL's "junior" OC members (Treasurer, Publicity, Student Events, Co-located Events) have held three year terms to provide continuity, and have generally chosen their own successors, in consultation with the SC. The General and PC chairs may at their discretion appoint other members of the OC.
 
 **Conference Venue**
 
-#### *Prescriptions*
+##### *Prescriptions*
 
 The conference venue is chosen by the General Chair, in consultation with the SC. In general, we will strive to identify venues that reflect the diversity of the POPL community.
 
-#### *Suggestions*
+##### *Suggestions*
 
 In recent years, POPL has rotated between the East Coast of North America, the West Coast of North America (in both cases, we interpret "coast" broadly), and Europe. The SC expects to organize an instance of POPL in Asia in the near future.
 
-### **Program Committee Composition**
+#### **Program Committee Composition**
 
-#### *Prescriptions*
+##### *Prescriptions*
 
 The PC is selected by the PC chair in consultation with the general chair and the POPL SC. The composition of the PC is subject to approval by the EC Vice-chair.
 
@@ -114,11 +112,11 @@ Topical, personal, and institutional diversity is critical to the long term vita
 
 * October, Year X-1: Camera ready deadline
 
-## **Review Process**
+### **Review Process**
 
-### **Author Anonymity**
+#### **Author Anonymity**
 
-#### *Prescriptions*
+##### *Prescriptions*
 
 POPL will commit to use of a lightweight double-blind reviewing, starting in POPL '14.  The data from Mike Hicks' [report from POPL '12](http://www.cs.umd.edu/~mwh/papers/popl12recap.pdf) indicate that the community favors DBR. The primary goal of light DBR is to *help PC members review papers with minimal bias, not to make it hard for them to discover authorship if they try*. The process should be such that authors are be able to withhold their identity, and reviewers are be able to avoid learning their identity. "Lightweight" means at least the following:
 
@@ -130,17 +128,17 @@ POPL will commit to use of a lightweight double-blind reviewing, starting in POP
 
 Given the use of DBR, the PC chair must vet any external reviewers suggested by a PC member who has not yet reviewed the paper.
 
-*Suggestions*
+##### *Suggestions*
 
 Provision (2) above is intended to prevent DBR from inhibiting normal dissemination of scientific ideas.  Authors should not, however, take it as a license to explicitly lobby the PC or likely reviewers on behalf of their work; doing so would be contrary to the intent of DBR.  While we will not attempt to codify or police such behavior, PC chairs may wish to remind authors of their obligation to live up to the spirit as well as the letter of light DBR.
 
-### **Conflicts of Interest**
+#### **Conflicts of Interest**
 
-#### *Prescriptions*
+##### *Prescriptions*
 
 Authors and PC members must adhere to SIGPLAN's [conflict of interest policy](http://www.sigplan.org/review_policies.htm). 
 
-#### *Suggestions*
+##### *Suggestions*
 
 Conflicts of interest can be tricky to manage in the presence of DBR. PC chairs may find the following conflict of interest policy, from Michael Hicks’ [POPL '12 DBR FAQ](http://www.cs.umd.edu/~mwh/dbr-faq.html), useful.
 
@@ -162,11 +160,11 @@ Conflicts of interest can be tricky to manage in the presence of DBR. PC chairs 
 
 The PC chair may find it useful to identify another PC member to handle papers for which the chair is in conflict.  In the past, the General Chair has sometimes played this role.
 
-### **Expert and External Reviews**
+#### **Expert and External Reviews**
 
 POPL is committed to identifying expert reviewers for every submission, insofar as possible. By "expert", we mean a reviewer who is very well versed and current in related work in the field. Authors gain confidence in the outcome of review decisions when expert reviewers are involved. That said, we believe that well-informed, but non-expert reviews also play a significant role in acceptance decisions: they represent the majority of the future readership of a paper, and involving them mitigates against topical balkanization.
 
-*Prescriptions*
+##### *Prescriptions*
 
 The PC chair should strive to identify at least two (PC or external) expert reviewers for each paper that the PC chair deems to be a serious contender for acceptance, but reserve the right not to do so in rare cases where a sufficient number of willing external reviewers can't be identified. The chair should also strive to identify at least one (PC or external) informed non-expert reviewer.
 
@@ -174,7 +172,7 @@ The PC chair should strive to ensure that all reviews are available prior to the
 
 External reviewers will be encouraged to participate in online discussion of the papers they've been assigned; however, they should not see unrelated online PC discussions.
 
-#### *Suggestions*
+##### *Suggestions*
 
 Several successful formulas for obtaining expert reviews have been used in past incarnations of POPL: 
 
@@ -188,21 +186,21 @@ Each of these processes has different strengths and weaknesses, and we leave it 
 
 The PC chair may encourage (or even require) PC members to identify candidate external reviewers for each paper they bid on. Authors may also be allowed to suggest candidate expert reviewers. This can be helpful for niche areas where experts may not be well known to the PC. The PC is under no obligation to use suggested reviewers.
 
-### **Submission of Supplementary Material**
+#### **Submission of Supplementary Material**
 
-*Prescriptions*
+##### *Prescriptions*
 
 Authors will be allowed to submit supplementary material (proofs, software, datasets, etc.) at the time of submission. The PC is allowed, but not required, to consult this material.
 
 The PC chair must allow two forms of supplementary material to be submitted: anonymized material, which may be made available to reviewers along with the submission, and non-anonymized material, which may only be made available to reviewers after they have submitted their initial reviews. Both are useful in different circumstances: the former is appropriate for materials (e.g. proofs, technical appendices) that are easy to anonymize and may aid expert reviewers in assessing the technical correctness of a paper, whereas the latter is appropriate for materials (e.g. software, datasets) that are difficult to anonymize.
 
-### **Evaluation Criteria and Acceptance Ratio**
+#### **Evaluation Criteria and Acceptance Ratio**
 
-*Prescriptions*
+##### *Prescriptions*
 
 There will be no numerical limit on number of acceptable papers. In 2010, there was a community discussion which concluded that a desirable acceptance rate is approximately 25% (at the time, this corresponded to about 50 papers). The consensus was that this rate could be achieved without lowering the quality of accepted papers. For the record, the acceptance rates for POPLs since 2010 are as follows: 2010: 18%, (39/207); 2011: 23% (49/209); 2012: 21% (44/205); 2013: 18% (43/238). More historical acceptance data can be found [here](http://dl.acm.org/citation.cfm?id=2429069&coll=DL&dl=GUIDE&CFID=262625600&CFTOKEN=25474828). 
 
-#### *Suggestions*
+##### *Suggestions*
 
 * The primary job of the PC is not to attempt to assess the long-term "importance" of work, but to vet the papers for exposure to the wider PL community, which will ultimately render judgment on importance.
 
@@ -220,11 +218,11 @@ There will be no numerical limit on number of acceptable papers. In 2010, there 
 
 * The committee should lean toward accepting papers that explicate their results clearly.
 
-### **PC Submissions**
+#### **PC Submissions**
 
 PC submissions can be problematic to manage, but we believe that on balance, the benefits of allowing PC submissions exceed the costs. 
 
-*Prescriptions*
+##### *Prescriptions*
 
 POPL will allow PC submissions, but disallow submissions by the General and PC chairs.
 
@@ -236,29 +234,29 @@ Acceptance decisions for PC papers will be announced at the same time as other a
 
 The policy on PC submission must be clearly explained to candidate PC members when their participation on the PC is solicited.
 
-### **Author Response**
+#### **Author Response**
 
-*Prescriptions*
+##### *Prescriptions*
 
 POPL will allow author review responses. Authors will be allowed to read all reviews and scores. Authors will be strongly encouraged to be brief, but we will not prescribe a maximum response length. Authors must be allowed at least four days to respond. 
 
-*Suggestions*
+##### *Suggestions*
 
 * PC chairs may choose to state that the PC is not obliged to read or respond to rebuttals beyond a certain designated length.
 
 * The PC chair may choose to allow authors to provide feedback on review quality, e.g., via a simple rating scale, in addition to rebutting the content of the review.
 
-### **PC Member Responsibilities**
+#### **PC Member Responsibilities**
 
-*Prescriptions*
+##### *Prescriptions*
 
 PC members must commit to reading all of their assigned papers and writing their own reviews.  PC members  may also suggest additional reviewers, but they should not subcontract reading or review writing duties to others.   The PC chair must always be consulted before additional reviewers are contacted to avoid conflicts and to ensure topical balance. PC members may share and discuss papers with students (subject to the usual confidentiality and COI provisions), and incorporate information from such discussions into their review, but the PC member is still responsible for writing the review. When a student is involved in this capacity, the PC chair should be informed so that the student receives appropriate credit. 
 
 PC members should be directed to the [SIGPLAN Republication Policy](http://www.sigplan.org/Resources/Policies/Republication).   If a related version of the paper appeared in a workshop, take into account whether its call for papers stated that publication in the workshop is not intended to preclude later publication.
 
-### **PC Management**
+#### **PC Management**
 
-*Prescriptions*
+##### *Prescriptions*
 
 POPL will continue to have an in-person PC meeting. PC members will be allowed to participate in the discussion (both online and in-person) of papers that they didn't review, and with which they have no conflicts.
 
@@ -270,7 +268,7 @@ The PC chair will strive to ensure, prior to the PC meeting, that every *competi
 
 * at least one, and preferably two expert reviews
 
-*Suggestions*
+##### *Suggestions*
 
 * Nierstrasz's [Identify the Champion](http://scg.unibe.ch/download/champion/) (ABCD/XYZ) scoring process has stood the test of time, and we strongly encourage PC chairs to use it. However, the chair should feel free to add other reviewing criteria, with the goal of streamlining the discussion process and better calibrating reviewer baselines.
 
@@ -292,15 +290,15 @@ The PC chair will strive to ensure, prior to the PC meeting, that every *competi
 
 * We recommend that the PC chair allow all reviewers (PC *or* external) to see  decisions for the papers they have reviewed before decisions are publicly announced.
 
-## **Call for Papers**
+### **Call for Papers**
 
-### **Pearls**
+#### **Pearls**
 
-*Prescriptions*
+##### *Prescriptions*
 
-To recognise that both new ideas and new explanations further our field, POPL encourages submissions of Pearls: elegant essays which illustrate an idea, often by developing a short program. Pearls are expected to meet the same standards as other POPL papers. Pearls may, but need not, contain the word ‘Pearl’ in their title. As with other papers, the abstract and introduction must make clear the intended contribution of the paper.
+To recognise that both new ideas and new explanations further our field, POPL encourages submissions of Pearls: elegant essays which illustrate an idea, often by developing a short program. Pearls are expected to meet the same standards as other POPL papers. Pearls may, but need not, contain the word "Pearl" in their title. As with other papers, the abstract and introduction must make clear the intended contribution of the paper.
 
-*Suggestions*
+##### *Suggestions*
 
 The following text may contain useful points for inclusion in a CFP:
 
