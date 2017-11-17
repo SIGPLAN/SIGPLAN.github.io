@@ -38,23 +38,28 @@ The remainder of this document is organized topically. Each topic has two subsec
 
 The POPL steering committee for the period from POPL *X* to POPL *X*+1 consists of:
 
-* The current and past SIGPLAN chairs
+* The current SIGPLAN chair
 
-* The current and past SIGPLAN vice-chairs
+* The current SIGPLAN vice chair
+
+* The Chair of the Steering Committee elected for three years
+
+* Three elected Members at Large serving overlapping three year terms, with one replaced each year. One of the Members at Large serves as Industrial Relation chair
 
 * The General and PC chairs for POPLs *X*-1, *X*, and *X*+1
 
-In addition to the above formal members, the general and PC chairs for POPL *X*+2 are typically invited to participate in most SC discussions. The chair of the SC for calendar year *X* is the General chair for POPL *X*.
+In addition to the above formal members, the general and PC chairs for POPL *X*+2 are typically invited to participate in most SC discussions. 
 
 #### **Selection of Organizing Committee**
 
 ##### *Prescriptions*
 
-The General and PC chairs for year *X*+2 are selected by the SC for year *X*, subject to the approval of the EC. The General and PC chairs select other members of the OC.
+The General Chair for year *X*+2 is selected by the SC for year *X*, subject to the approval of the EC. The General Chair selects the PC chair. The General and PC chairs select other members of the OC.
 
 ##### *Suggestions*
 
 In recent years, POPL's "junior" OC members (Treasurer, Publicity, Student Events, Co-located Events) have held three year terms to provide continuity, and have generally chosen their own successors, in consultation with the SC. The General and PC chairs may at their discretion appoint other members of the OC.
+The General Chair must select the PC chair as early as possible and, in any case, so early as the PC Chair could sit in the PC of POPL X+1.
 
 **Conference Venue**
 
@@ -86,7 +91,7 @@ Topical, personal, and institutional diversity is critical to the long term vita
 
 * If there is an ERC, the same diversity criteria listed above should apply, scaled to the size of the ERC.
 
-*Suggestions*
+##### *Suggestions*
 
 * The PC chair of year X+1 can be invited to serve (with possibly a lighter reviewing load) for year X as soon as he or she is selected.
 
@@ -146,7 +151,7 @@ Conflicts of interest can be tricky to manage in the presence of DBR. PC chairs 
 
 *As an author, you should list PC and ERC members (and any others, since others may be asked for outside reviewers) which you believe have a conflict with you. While particular criteria for making this determination may vary, please apply the following guidelines, identifying a potential reviewer **Bob** as conflicted if*
 
-* *Bob was your co-author or collaborator at some point within the last 2 **years*
+* *Bob was your co-author or collaborator at some point within the last 2 years*
 
 * *Bob is an advisor or advisee of yours*
 
