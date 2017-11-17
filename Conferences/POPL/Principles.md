@@ -59,7 +59,7 @@ The General Chair for year *X*+2 is selected by the SC for year *X*, subject to 
 ##### *Suggestions*
 
 In recent years, POPL's "junior" OC members (Treasurer, Publicity, Student Events, Co-located Events) have held three year terms to provide continuity, and have generally chosen their own successors, in consultation with the SC. The General and PC chairs may at their discretion appoint other members of the OC.
-The General Chair must select the PC chair as early as possible and, in any case, so early as the PC Chair could sit in the PC of POPL X+1.
+The General Chair must select the PC chair as early as possible and, in any case,  early enough to allow PC Chair of POPL X+2 to sit in the PC of POPL X+1.
 
 **Conference Venue**
 
@@ -69,7 +69,17 @@ The conference venue is chosen by the General Chair, in consultation with the SC
 
 ##### *Suggestions*
 
-In recent years, POPL has rotated between the East Coast of North America, the West Coast of North America (in both cases, we interpret "coast" broadly), and Europe. The SC expects to organize an instance of POPL in Asia in the near future.
+In recent years, POPL has adopted the following rotation
+
+* the East Coast of North America,
+
+* Outside North America
+
+* the West Coast of North America
+
+* Outside North America
+
+In both cases, we interpret "coast" broadly and  Outside "North America" was mostly Europe.
 
 #### **Program Committee Composition**
 
@@ -145,7 +155,7 @@ Authors and PC members must adhere to SIGPLAN's [conflict of interest policy](ht
 
 Conflicts of interest can be tricky to manage in the presence of DBR. PC chairs may find the following conflict of interest policy, from Michael Hicks’ [POPL '12 DBR FAQ](http://www.cs.umd.edu/~mwh/dbr-faq.html), useful.
 
-*Using DBR does not change the principle that reviewers should not review papers with which they have a conflict of interest, even if they do not immediately know who the authors are. Quoting (with slight alteration) from the **[ACM SIGPLAN review policies documen*t](http://sigplan.acm.org/review_policies.htm)*:*
+*Using DBR does not change the principle that reviewers should not review papers with which they have a conflict of interest, even if they do not immediately know who the authors are. Quoting (with slight alteration) from the [*ACM SIGPLAN review policies document*](http://sigplan.acm.org/review_policies.htm):
 
 *A conflict of interest is defined as a situation in which the reviewer can be viewed as being able to benefit personally in the process of reviewing a paper. For example, if a reviewer is considering a paper written by a member of his own group, a current student, his advisor, or a group that he is seen as being in close competition with, then the outcome of the review process can have direct benefit to the reviewer's own status. If a conflict of interest exists, the potential reviewer should decline to review the paper.*
 
