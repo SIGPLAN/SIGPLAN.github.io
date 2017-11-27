@@ -26,6 +26,7 @@ Steering Committee
 
 **Web Pages of Previous Conferences**  
 
+- [ISMM 2017](http://conf.researchr.org/home/ismm-2017) (Barcelona, Spain)
 - [ISMM 2016](http://conf.researchr.org/home/ismm-2016) (Santa Barbara, California)
 - [ISMM 2015](http://conf.researchr.org/home/ismm-2015) (Portland, Oregon)
 - [ISMM 2014](http://ismm2014.cs.tufts.edu) (Edinburgh, Scotland, UK)

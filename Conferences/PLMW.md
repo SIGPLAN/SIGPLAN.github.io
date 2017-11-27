@@ -8,24 +8,13 @@ We especially encourage women and underrepresented minority students to attend P
 
 **PLMW Fast Facts**
 
-> [PLMW @ PLDI'17 Web Page](http://conf.researchr.org/track/pldi-ecoop-2017/PLMW-PLDI-2017)  
-> Location: Barcelona, Spain  
-> Organizers: Michael Carbin, Stephen Chong, Isil Dillig, Ben Widermann  
-> Date: June 18, 2017
-
-> [PLMW @ ICFP'17 Web Page](http://icfp17.sigplan.org/track/PLMW-ICFP-2017-papers)  
-> Location: Oxford, United Kingdom  
-> Co-Chairs: Neelakantan R. Krishnaswami, Dan Licata, Brigitte Pientka
-> Date: September 3, 2017
-
-> [PLMW @ SPLASH'17 Web Page](http://2017.splashcon.org/track/splash-2017-PLMW)  
-> Location: Vancouver, Candada  
-> Co-Chairs: Barbara Ryder and Lori Pollock  
-> Date: October 24, 2017
-
+> [PLMW @ POPL'18](https://popl18.sigplan.org/track/PLMW-POPL-2018)  
+> Location: Los Angeles, CA, USA  
+> Organizers/Chairs: Alexandra Silva (University College London), Steve Zdancewic (University of Pennsylvania), Nadia Polikarpova (University of California, San Diego), Viktor Vafeiadis (MPI-SWS)  
+> Date: January 9, 2018  
 
 {::comment}
-> [PLMW @ POPL'18]()
+> [PLMW @ PLDI'18]()
 > Location: Los Angeles, CA, USA
 > Organizers/Chairs: ???  
 > Date: ???
@@ -33,6 +22,9 @@ We especially encourage women and underrepresented minority students to attend P
 
 **Web Pages of Previous Conferences**  
 
+- [PLMW @ SPLASH'17](http://2017.splashcon.org/track/splash-2017-PLMW) (Vancouver, Candada)
+- [PLMW @ ICFP'17](http://icfp17.sigplan.org/track/PLMW-ICFP-2017-papers) (Oxford, United Kingdom)
+- [PLMW @ PLDI'17](http://conf.researchr.org/track/pldi-ecoop-2017/PLMW-PLDI-2017) (Barcelona, Spain)
 - [PLMW @ POPL'17](http://popl17.sigplan.org/track/PLMW-2017) (Paris, France)
 - [PLMW @ SPLASH'16](http://2016.splashcon.org/track/splash-2016-plmw) (Amsterdam, the Netherlands)
 - [PLMW @ ICFP'16](http://conf.researchr.org/track/icfp-2016/PLMW-ICFP-2016) (Nara, Japan)
