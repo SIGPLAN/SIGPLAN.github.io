@@ -31,7 +31,7 @@ A nomination consists of the following items:
  *  Supporting statements from up to two people in addition to the nominator.
 
 
-** About **
+**About**
 
 This award recognizes the contributions to computer science that John
 C. Reynolds made during his life. It is a renaming of the SIGPLAN
@@ -39,6 +39,8 @@ Outstanding Doctoral Dissertation Award to encourage the clarity and
 rigor that Reynolds embodied and at the same time provide a reminder
 of Reynolds's legacy and the difference a person can make in the field
 of programming language research.
+
+{% comment %}
 
 Reynolds is renowned for his many technical contributions.
 
@@ -57,6 +59,7 @@ for helping colleagues and students work through ideas. But his
 influence went well beyond his immediate circle; many researchers who
 never worked with Reynolds nevertheless built on his ideas.
 
+{% endcomment %}
 
 **Selection Committee**
 
