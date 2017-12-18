@@ -160,7 +160,7 @@ Authors and PC members must adhere to SIGPLAN's [conflict of interest policy](ht
 
 Conflicts of interest can be tricky to manage in the presence of DBR. PC chairs may find the following conflict of interest policy, from Michael Hicks’ [POPL '12 DBR FAQ](http://www.cs.umd.edu/~mwh/dbr-faq.html), useful.
 
-*Using DBR does not change the principle that reviewers should not review papers with which they have a conflict of interest, even if they do not immediately know who the authors are. Quoting (with slight alteration) from the [*ACM SIGPLAN review policies document*](http://sigplan.acm.org/review_policies.htm):
+*Using DBR does not change the principle that reviewers should not review papers with which they have a conflict of interest, even if they do not immediately know who the authors are. Quoting (with slight alteration) from the [*ACM SIGPLAN review policies document*](http://www.sigplan.org/Resources/Policies/Review/):
 
 *A conflict of interest is defined as a situation in which the reviewer can be viewed as being able to benefit personally in the process of reviewing a paper. For example, if a reviewer is considering a paper written by a member of his own group, a current student, his advisor, or a group that he is seen as being in close competition with, then the outcome of the review process can have direct benefit to the reviewer's own status. If a conflict of interest exists, the potential reviewer should decline to review the paper.*
 
