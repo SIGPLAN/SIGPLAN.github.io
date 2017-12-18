@@ -324,5 +324,5 @@ Explaining a known idea in a new way may make as strong a contribution as invent
 
 Pearls have long been an accepted form of submission for the Journal of Functional Programming (JFP) and the International Conference on Functional Programming (ICFP). Advice on writing pearls can be found in the [ICFP 2006 Call for Papers](http://icfp06.cs.uchicago.edu/icfp06-cfp.html).
 
-Each paper, pearl or otherwise, should explain its contributions in both general and technical terms, identifying what has been accomplished, explaining why it is significant, and comparing it with previous work. Authors should strive to make their papers understandable to a broad audience. Advice on writing technical papers can be found on the[ SIGPLAN Author Information page](http://www.acm.org/sigs/sigplan/authorInformation.htm).
+Each paper, pearl or otherwise, should explain its contributions in both general and technical terms, identifying what has been accomplished, explaining why it is significant, and comparing it with previous work. Authors should strive to make their papers understandable to a broad audience. Advice on writing technical papers can be found on the [SIGPLAN Author Information page](http://sigplan.org/Resources/Author/).
 
