@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Principles of POPL"
+---
+
 # **Principles of POPL**
 
 [first version 11 June 2013, latest revision 25 November 2017]
