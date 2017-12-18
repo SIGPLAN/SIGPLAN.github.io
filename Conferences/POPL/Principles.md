@@ -298,7 +298,7 @@ The PC chair will strive to ensure, prior to the PC meeting, that every *competi
 
 * Experience has shown that a two day PC meeting provides adequate time for deliberation while avoiding PC burnout.
 
-* Instead of considering the papers in order from highest-ranked to lowest, consider the papers in a quasi-random order (see article by Kathleen Fisher in SIGPLAN Notices, 46(4):17, April 2011).
+* Instead of considering the papers in order from highest-ranked to lowest, consider the papers in a quasi-random order (see article by Kathleen Fisher in [SIGPLAN Notices, 46(4):17, April 2011](https://dl.acm.org/citation.cfm?id=1988042)).
 
 * If the most positive reviewer for a paper is external, the chair may wish to ensure that the paper is discussed on day one of the PC meeting and the outcome summarized by the PC chair so that the external reviewer can provide additional feedback prior to a final decision.
 
