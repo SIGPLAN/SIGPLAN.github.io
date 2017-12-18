@@ -322,7 +322,7 @@ The following text may contain useful points for inclusion in a CFP:
 
 Explaining a known idea in a new way may make as strong a contribution as inventing a new idea. We  encourage the submission of pearls: elegant essays which illustrate an idea, often by developing a short program. There is no formal separation of categories, but a pearl should be labelled as such in its abstract. All papers, whether pearl or otherwise, will be judged on their correctness, significance, novelty, clarity, elegance, and beauty.
 
-Pearls have long been an accepted form of submission for the Journal of Functional Programming (JFP) and the International Conference on Functional Programming (ICFP). Advice on writing pearls can be found in the[ ICFP 2006 Call for Papers](http://icfp06.cs.uchicago.edu/icfp06-cfp.html).
+Pearls have long been an accepted form of submission for the Journal of Functional Programming (JFP) and the International Conference on Functional Programming (ICFP). Advice on writing pearls can be found in the [ICFP 2006 Call for Papers](http://icfp06.cs.uchicago.edu/icfp06-cfp.html).
 
 Each paper, pearl or otherwise, should explain its contributions in both general and technical terms, identifying what has been accomplished, explaining why it is significant, and comparing it with previous work. Authors should strive to make their papers understandable to a broad audience. Advice on writing technical papers can be found on the[ SIGPLAN Author Information page](http://www.acm.org/sigs/sigplan/authorInformation.htm).
 
