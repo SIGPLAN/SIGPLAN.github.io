@@ -13,7 +13,7 @@ title: "Principles of POPL"
 
 Our goal is create a contract between POPL organizers and POPL authors that defines essential organizational and reviewing policies. We wish to establish clear expectations for authors while allowing plenty of leeway for organizers to innovate. We anticipate that the contract will change over time, but when it does, we'll inform the community and provide a justification for the change.
 
-The remainder of this document is organized topically. Each topic has two subsections: *Prescriptions *and *Suggestions. Prescriptions* are firm policies; we expect that the organizers for each incarnation of POPL will adhere to the policies. In cases where the organizers feel an exception or change is warranted, they must first consult with the SC. *Suggestions* are best (or at least very good) practices that we expect organizers to strongly consider.
+The remainder of this document is organized topically. Each topic has two subsections: *Prescriptions* and *Suggestions*. *Prescriptions* are firm policies; we expect that the organizers for each incarnation of POPL will adhere to the policies. In cases where the organizers feel an exception or change is warranted, they must first consult with the SC. *Suggestions* are best (or at least very good) practices that we expect organizers to strongly consider.
 
 ## **Definitions**
 
