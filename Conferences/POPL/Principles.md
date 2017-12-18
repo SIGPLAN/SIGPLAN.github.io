@@ -154,7 +154,7 @@ Provision (2) above is intended to prevent DBR from inhibiting normal disseminat
 
 ##### *Prescriptions*
 
-Authors and PC members must adhere to SIGPLAN's [conflict of interest policy](http://www.sigplan.org/review_policies.htm). 
+Authors and PC members must adhere to SIGPLAN's [conflict of interest policy](http://www.sigplan.org/Resources/Policies/Review/).
 
 ##### *Suggestions*
 
