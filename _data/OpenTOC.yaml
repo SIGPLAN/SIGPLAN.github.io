@@ -55,6 +55,10 @@
   year: 2017
   title: "Proceedings of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs"
 -
+  event: CPP
+  year: 2018
+  title: "Proceedings of the 7th ACM SIGPLAN Conference on Certified Programs and Proofs"
+-
   event: DBPL
   year: 2015
   title: "Proceedings of the 15th Symposium on Database Programming Languages"
@@ -323,6 +327,10 @@
 -
   event: PEPM
   year: 2017
+  title: "Proceedings of the 2017 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation"
+-
+  event: PEPM
+  year: 2018
   title: "Proceedings of the 2017 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation"
 -
   event: PLATEAU
