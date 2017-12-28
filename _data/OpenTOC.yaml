@@ -433,6 +433,10 @@
   year: 2014
   title: "Proceedings of the 2014 Workshop on Privacy and Security in Programming"
 -
+  event: PX
+  year: 2017
+  title: "Proceedings of the 3rd ACM SIGPLAN International Workshop on Programming Experience"
+-
   event: REBLS
   year: 2016
   title: "Proceedings of the 3rd International Workshop on Reactive and Event-Based Languages and Systems"
