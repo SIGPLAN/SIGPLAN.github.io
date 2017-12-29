@@ -393,6 +393,11 @@
   year: 2017
   title: "Proceedings of the 44th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
 -
+  event: POPL
+  year: 2018
+  title: "Proceedings of the 45th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
+  link: https://dl.acm.org/citation.cfm?id=3177123
+-
   event: PPAA
   year: 2014
   title: "Proceedings of the 1st Workshop on Parallel Programming for Analytics Applications"
