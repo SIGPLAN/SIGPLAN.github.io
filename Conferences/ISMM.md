@@ -10,11 +10,11 @@ access behavior in programs.
 
 **ISMM Fast Facts**  
 
-> [ISMM 2017](http://conf.researchr.org/home/ismm-2017)  
-> Location: Barcelona, Spain co-located with [PLDI'17](http://conf.researchr.org/home/pldi-2017) and [ECOOP'17](http://conf.researchr.org/home/ecoop-2017)   
-> General Chair: [Christoph Kirsch](http://www.cs.uni-salzburg.at/~ck)  
-> Program Chair: Ben Titzer  
-> Date: June 18, 2017
+> [ISMM 2018](http://conf.researchr.org/home/ismm-2018)
+> Location: Philadelphia, Pennsylvania, United States co-located with [PLDI'18](http://conf.researchr.org/home/pldi-2018)
+> General Chair: [Hannes Payer](https://research.google.com/pubs/HannesPayer.html)
+> Program Chair: [Jennifer B. Sartor](https://users.elis.ugent.be/~jsartor)
+> Date: June 18, 2018
 
 **Other ISMM Information**  
 
