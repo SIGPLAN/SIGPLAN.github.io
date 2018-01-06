@@ -38,7 +38,7 @@ that regularly arise, even in papers published recently in highly
 regarded venues, including PLDI, POPL, ASPLOS, OOPSLA, and ICFP.
 
 The committee has organized and categorized its findings, producing a
-1-page [best-practices checklist](https://github.com/SIGPLAN/empirical-evaluation/blob/master/checklist/checklist.pdf).
+1-page [best-practices checklist](https://github.com/SIGPLAN/empirical-evaluation/raw/master/checklist/checklist.pdf).
 
 The goal of the checklist is to help authors produce stronger
 scholarship, and to help reviewers evaluate such scholarship more
