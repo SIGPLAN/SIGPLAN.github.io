@@ -37,6 +37,10 @@ kinds of PL research. This examination has identified inadequacies
 that regularly arise, even in papers published recently in highly
 regarded venues, including PLDI, POPL, ASPLOS, OOPSLA, and ICFP.
 
+<a href="https://github.com/SIGPLAN/empirical-evaluation/raw/master/checklist/checklist.pdf">
+<img style="float:left;width:64px;padding-right:8px;" src="https://github.com/SIGPLAN/empirical-evaluation/raw/master/checklist/checklist.png">
+</a>
+
 The committee has organized and categorized its findings, producing a
 1-page [best-practices checklist](https://github.com/SIGPLAN/empirical-evaluation/raw/master/checklist/checklist.pdf).
 
