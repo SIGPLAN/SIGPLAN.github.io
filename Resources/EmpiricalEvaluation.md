@@ -4,7 +4,7 @@ title: "Empirical Evaluation Guidelines"
 ---
 
 <a href="https://github.com/SIGPLAN/empirical-evaluation/raw/master/checklist/checklist.pdf">
-<img style="float:left;width:85px;height:110px;padding-right:8px;" src="https://github.com/SIGPLAN/empirical-evaluation/raw/master/checklist/checklist.png">
+<img style="float:left;width:30%;padding-right:8px;padding-bottom:8px;" src="https://github.com/SIGPLAN/empirical-evaluation/raw/master/checklist/checklist.png">
 </a>
 
 The programming languages research community often develops ideas
