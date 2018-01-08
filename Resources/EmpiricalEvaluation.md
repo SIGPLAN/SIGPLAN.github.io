@@ -3,6 +3,10 @@ layout: default
 title: "Empirical Evaluation Guidelines"
 ---
 
+<a href="https://github.com/SIGPLAN/empirical-evaluation/raw/master/checklist/checklist.pdf">
+<img style="float:left;width:85px;height:110px;padding-right:8px;" src="https://github.com/SIGPLAN/empirical-evaluation/raw/master/checklist/checklist.png">
+</a>
+
 The programming languages research community often develops ideas
 whose worth is evaluated empirically. Compiler optimizations, static
 and dynamic analyses, program synthesizers, testing tools, memory
@@ -36,10 +40,6 @@ identify common forms of empirical evaluation applied to the various
 kinds of PL research. This examination has identified inadequacies
 that regularly arise, even in papers published recently in highly
 regarded venues, including PLDI, POPL, ASPLOS, OOPSLA, and ICFP.
-
-<a href="https://github.com/SIGPLAN/empirical-evaluation/raw/master/checklist/checklist.pdf">
-<img style="float:left;width:64px;padding-right:8px;" src="https://github.com/SIGPLAN/empirical-evaluation/raw/master/checklist/checklist.png">
-</a>
 
 The committee has organized and categorized its findings, producing a
 1-page [best-practices checklist](https://github.com/SIGPLAN/empirical-evaluation/raw/master/checklist/checklist.pdf).
