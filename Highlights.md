@@ -37,7 +37,7 @@ the full list of papers.
 
 ### SIGPLAN Research Highlights Committee
 
-Chair, [Emery Berger](http://www.emeryberger.org/), [emery@cs.umass.edu](mailto:emery@cs.umass.edu)
+Chair, [Emery Berger](http://www.emeryberger.org/), [emery@cs.umass.edu](mailto:emery@cs.umass.edu)  
 POPL, [Jens Palsberg](http://www.cs.ucla.edu/~palsberg)  
 PLDI, [Martin Vechev](http://www.srl.inf.ethz.ch/vechev.php)  
 ICFP, [Robby Findler](http://www.eecs.northwestern.edu/~robby/)  
