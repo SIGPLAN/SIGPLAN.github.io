@@ -67,6 +67,6 @@ respective conference.
 
 **ACM Fellows**  
 The programming language community has many members who are
-[ACM Fellows](http://fellows.acm.org/). Click
+[ACM Fellows](https://fellows.acm.org/). Click
 [here](/Awards/ACMFellows) for a list of ACM Fellows who have made
 contributions to the field of programming languages.
