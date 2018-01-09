@@ -20,4 +20,4 @@ All questions about the Programming Languages Achievement Award should be direct
 
 **Committee Chair**: [Emery Berger](mailto:emery@cs.umass.edu) (University of Massachusetts Amherst)
 
-**Committee Members**: Dan Grossman (University of Washington), Frank Tip (Northeastern University), Kathleen Fisher (Tufts Unviersity), Jonathan Aldrich (Carnegie Mellon University)
+**Committee Members**: Dan Grossman (University of Washington), Frank Tip (Northeastern University), Kathleen Fisher (Tufts University), Jonathan Aldrich (Carnegie Mellon University)
