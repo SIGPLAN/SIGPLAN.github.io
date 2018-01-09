@@ -27,17 +27,21 @@ discussion group.
 
 ## Current action: Carbon Offsets (POPL'18)
 
-For this year's POPL, we are experimenting with carbon offsets as a
-mechanism for reducing the conference's net carbon impact.  The POPL
-registration website includes [a
-link](https://www.atmosfair.de/en/kompensieren/flug?locale=en) that
+One recent major effort has been evaluating the idea of carbon offsets as a
+mechanism for reducing the conference's net carbon impact.  A report on what
+we have learned can be found
+[here](https://docs.google.com/document/d/e/2PACX-1vQLZOgjNfAv_Xgam56O-ZwxQLHH178Go6qRxzxF9_I3aHUM_UzrrAV9HjQ3FW59LVSdDdLta_u-ZMyf/pub).
+
+Concretely, we are experimenting with offering carbon offsets to registrants
+for this year's POPL.  The POPL registration website includes
+[a link](https://www.atmosfair.de/en/kompensieren/flug?locale=en) that
 participants may choose to follow to reach an offset purchase page at
-[atmosfair](https://www.atmosfair.de/en/kompensieren/flug?locale=en),
-a major carbon offset vendor.  Participation is voluntary, and ACM is
-not involved in the purchase in any way.  (We realize that offsets
-might be easier to reimburse from research grants if they were
-included in the conference registration fee.  We are investigating
-whether this can be done for future conferences.)
+[atmosfair](https://www.atmosfair.de/en/kompensieren/flug?locale=en), a
+major carbon offset vendor.  Participation is voluntary, and ACM is not
+involved in the purchase in any way.  (We realize that offsets might be
+easier to reimburse from research grants if they were included in the
+conference registration fee.  We are investigating whether this can be done
+for future conferences.)
 
 Carbon offsets have the potential to reduce POPL's net carbon impact
 while furthering sustainability and developmental goals. They help
