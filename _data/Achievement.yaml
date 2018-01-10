@@ -1,3 +1,41 @@
+2017:
+- Awardee: Thomas W. Reps
+  Citation: |
+    Thomas Reps has made exceptional contributions to the field of
+    programming languages, on a diverse range of topics that include
+    incremental computation, program slicing and dataflow analysis,
+    shape analysis, and analysis of binary code.
+
+    Tom's dissertation research on generating language-based
+    environments applies incremental attribute grammar evaluation to
+    problems such as name analysis and type checking, and is broadly
+    applicable to a wide range of languages. This work has been
+    commercialized successfully by Grammatech and it has deeply
+    influenced research on integrated development environments.  Tom's
+    work on program slicing and dataflow analysis builds on an elegant
+    framework for solving context-free reachability problems. This
+    work has been extremely influential in the academic community, and
+    it has had huge impact in industry (e.g., IBM products for
+    security analysis and Microsoft's tools for verifying device
+    drivers).  Tom's work on shape analysis relies on three-valued
+    logic to solve difficult problems in shape analysis, and has had
+    major impact on the verification community. His more recent work
+    on analyzing x86 binary code has applied techniques from his
+    previous work on dataflow analysis and slicing to the intensely
+    challenging problem of analyzing machine code with significant
+    success, and has been commercialized by GrammaTech.
+
+    A common thread in all of Tom's research is that it provides
+    elegant solutions to deep foundational problems. Many of these
+    solutions have become widely adopted, resulting in an unusual
+    level of practical and industrial impact. His publications exhibit
+    an exemplary degree of scholarship, with precise exposition that
+    facilitates adoption by the community. He has received numerous
+    significant awards throughout his career, starting with the 1983
+    ACM Dissertation Award, and his citation impact is among the
+    highest in the entire field of programming languages.
+
+
 2016:
 - Awardee: Simon Peyton Jones
   Citation: |
