@@ -3,6 +3,14 @@ layout: default
 title: "SIGPLAN and Climate Change"
 ---
 
+Resources:
+- [Engaging with Climate Change: Possible Steps for SIGPLAN](http://www.cis.upenn.edu/~bcpierce/papers/sigplan-climate-report.pdf)
+- [Carbon Offsets: An Overview for Scientific Societies](http://www.cis.upenn.edu/~bcpierce/papers/sigplan-climate-report.pdf)
+- [acm-climate](https://groups.google.com/forum/#!forum/acm-climate)
+  mailing list
+
+## Climate Committee
+
 Air travel is a significant source of greenhouse gas emissions, which in
 turn are a significant contributor to climate change.  SIGPLAN hosts a
 number of annual scientific meetings at various locations throughout the
@@ -28,20 +36,20 @@ discussion group.
 ## Current action: Carbon Offsets (POPL'18)
 
 One recent major effort has been evaluating the idea of carbon offsets as a
-mechanism for reducing the conference's net carbon impact.  A report on what
-we have learned can be found
-[here](https://docs.google.com/document/d/e/2PACX-1vQLZOgjNfAv_Xgam56O-ZwxQLHH178Go6qRxzxF9_I3aHUM_UzrrAV9HjQ3FW59LVSdDdLta_u-ZMyf/pub).
+mechanism for reducing the conference's net carbon impact.  A
+[report](http://www.cis.upenn.edu/~bcpierce/papers/sigplan-climate-report.pdf)
+on what we have learned is available.
 
 Concretely, we are experimenting with offering carbon offsets to registrants
-for this year's POPL.  The POPL registration website includes
+for this year's POPL.  The POPL registration website included
 [a link](https://www.atmosfair.de/en/kompensieren/flug?locale=en) that
-participants may choose to follow to reach an offset purchase page at
+participants could choose to follow to reach an offset purchase page at
 [atmosfair](https://www.atmosfair.de/en/kompensieren/flug?locale=en), a
-major carbon offset vendor.  Participation is voluntary, and ACM is not
-involved in the purchase in any way.  (We realize that offsets might be
-easier to reimburse from research grants if they were included in the
-conference registration fee.  We are investigating whether this can be done
-for future conferences.)
+major carbon offset vendor.  Participation was voluntary, and ACM was not
+involved in the purchase in any way.  (We realize that offsets would have
+been easier to reimburse if they were included in the conference
+registration fee.  We are investigating whether this can be done for future
+conferences.)
 
 Carbon offsets have the potential to reduce POPL's net carbon impact
 while furthering sustainability and developmental goals. They help
@@ -95,4 +103,4 @@ For those that like comparison shopping, we can recommend
 offset vendor — for example, their project that funds [building
 converters from cow manure to
 biogas](https://www.cooleffect.org/content/project/community-biogas-program#What-it-does).
-However, their web site is somewhat US-centric.
+
