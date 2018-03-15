@@ -5,7 +5,7 @@ title: "SIGPLAN and Climate Change"
 
 Resources:
 - [Engaging with Climate Change: Possible Steps for SIGPLAN](http://www.cis.upenn.edu/~bcpierce/papers/sigplan-climate-report.pdf)
-- [Carbon Offsets: An Overview for Scientific Societies](http://www.cis.upenn.edu/~bcpierce/papers/sigplan-climate-report.pdf)
+- [Carbon Offsets: An Overview for Scientific Societies](http://www.cis.upenn.edu/~bcpierce/papers/carbon-offsets.pdf)
 - [acm-climate](https://groups.google.com/forum/#!forum/acm-climate)
   mailing list
 
