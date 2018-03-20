@@ -546,6 +546,10 @@
   year: 2017
   title: "Proceedings of the 13th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments"
 -
+  event: VEE
+  year: 2018
+  title: "Proceedings of the 14th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments"
+-
   event: VMIL
   year: 2016
   title: "Proceedings of the 8th International Workshop on Virtual Machines and Intermediate Languages"
