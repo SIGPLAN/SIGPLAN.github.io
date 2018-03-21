@@ -55,7 +55,7 @@ applicable to every evaluation.
 The goal of the checklist is to help authors produce stronger
 scholarship, and to help reviewers evaluate such scholarship more
 consistently. Importantly, the checklist is is meant to support
-to informed judgment, not supplant it. The committee’s hope is that
+informed judgment, not supplant it. The committee’s hope is that
 this checklist can put all 
 members of the community literally on the same page.
 
