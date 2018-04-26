@@ -49,3 +49,5 @@
 "oopsla/(.*)":					"http://classic.sigplan.org/oopsla/$1"
 
 "calendar":                                     "Calendar/"
+
+"Awards/Vlissides/":                            "Awards/Other/"

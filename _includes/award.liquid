@@ -1,7 +1,14 @@
 {% assign details = include.details %}
 {% assign year    = include.year %}
 
-<h4 class="alert alert-info" id="{{year}}_{{ details.Awardee | replace: " ", "_" | replace: ",", "_" }}"><span class="badge pull-right">{{year}}</span> {{details.Awardee}} </h4>
+<h4 class="alert alert-info" id="{{year}}_{{ details.Awardee | replace: " ", "_" | replace: ",", "_" }}">
+<span class="badge pull-right">{{year}}</span>
+{% if details.Award <> nil %}
+<em>{{ details.Award }}:</em>
+{% endif %}
+{{details.Awardee}}
+</h4>
+
 
 {% if details.Other <> nil %}
   <font size="+1">{{ details.Other | markdownify }}</font>

@@ -1,5 +1,18 @@
+2018:
+- Award: ASPLOS Most Influential Paper Award
+  Awardee: John Kubiatowicz, David Bindel, Yan Chen, Steven Czerwinski, Patrick Eaton, Dennis Geels, Ramakrishan Gummadi, Sean Rhea, Hakim Weatherspoon, Westley Weimer, Chris Wells, and Ben Zhao
+  Other: |
+    _[OceanStore: an architecture for global-scale persistent storage](https://dl.acm.org/citation.cfm?id=357007)_
+
+2017:
+- Award: ASPLOS Most Influential Paper Award
+  Awardee: Timothy Sherwood, Erez Perelman, Greg Hamerly, and Brad Calder
+  Other: |
+    _[Automatically characterizing large scale program behavior](https://dl.acm.org/citation.cfm?id=605403)_
+
 2016:
-- Awardee: "Silvia Grewe, Technische Universität Darmstadt"
+- Award: John Vlissides Award
+  Awardee: "Silvia Grewe, Technische Universität Darmstadt"
   Citation: |
     Silvia Grewe's work aims to provide better automation of type
     soundness proofs for new languages, thus lowering the barrier to
@@ -12,9 +25,9 @@
     patterns and integrate them into theorem provers to make
     automation more effective and accessible.
 
-
 2015:
-- Awardee: "Chang Liu, University of Maryland"
+- Award: John Vlissides Award
+  Awardee: "Chang Liu, University of Maryland"
   Citation: |
     Chang Liu's work explores programming language support for
     oblivious applications, an important dimension of security in the
@@ -30,7 +43,8 @@
     applications.
 
 2014:
-- Awardee: "Christopher Hall, UC Santa Barbara"
+- Award: John Vlissides Award
+  Awardee: "Christopher Hall, UC Santa Barbara"
   Citation: |
     Christopher Hall's work explores the classic design tension
     between user friendly versus expert friendly user interface design
@@ -48,7 +62,8 @@
     applying computational literacy as an end-user.
     
 2013:
-- Awardee: "Zalia Shams, Virginia Tech"
+- Award: John Vlissides Award
+  Awardee: "Zalia Shams, Virginia Tech"
   Citation: |
     Zalia Shams' work is motivated by the observation that software
     testing is frequently being added to programming courses at many
@@ -67,14 +82,16 @@
     especially in an automated grading context.
 
 2012:
-- Awardee: "Gustavo Soares of the Federal University of Campina Grande, Brazil"
+- Award: John Vlissides Award
+  Awardee: "Gustavo Soares of the Federal University of Campina Grande, Brazil"
   Citation: |
     The winner of the Vlissides award is Gustavo Soares of the Federal
     University of Campina Grande, Brazil. His proposed thesis is
     entitled "Automated Behavioral Testing of Refactoring Engines"
 
 2011:
-- Awardee: "Hari K. Pyla, Virginia Tech"
+- Award: John Vlissides Award
+  Awardee: "Hari K. Pyla, Virginia Tech"
   Citation: |
     Hari Pyla's work is motivated by the need to leverage concurrency
     to achieve performance, and the challenge of avoiding deadlocks in
@@ -88,7 +105,8 @@
     speedups in practice.
 
 2010:
-- Awardee: "M&#225;rcio Ribeiro, Federal University of Pernambuco (UFPE)"
+- Award: John Vlissides Award
+  Awardee: "M&#225;rcio Ribeiro, Federal University of Pernambuco (UFPE)"
   Citation: |
     M&#225;rcio Ribeiro's research addresses the problem of
     maintaining software defined using "virtual separation of
@@ -106,7 +124,8 @@
     parallel features.
 
 2009:
-- Awardee: "Tudor Dumitras, Carnegie Mellon University"
+- Award: John Vlissides Award
+  Awardee: "Tudor Dumitras, Carnegie Mellon University"
   Citation: |
     Tudor Dumitras's research identifies and addresses the leading
     causes of both unplanned failures and planned downtime resulting
@@ -125,7 +144,8 @@
     dependability.
 
 2008:
-- Awardee: "Ciera Jaspan, Carnegie Mellon University"
+- Award: John Vlissides Award
+  Awardee: "Ciera Jaspan, Carnegie Mellon University"
   Citation: |
     Ciera Jaspan's research targets the programming difficulties
     associated with using software frameworks. Plug-in writers need to
