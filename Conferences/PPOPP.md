@@ -9,11 +9,11 @@ solve applications problems.
 
 **PPoPP Fast Facts**
 
-> PPoPP 2018  
-> Location: Vienna, Austria  
-> General Chair: Andreas Krall, Vienna University of Technology, Austria  
-> Program Chair: Thomas Gross, ETH Zürich, Switzerland  
-> Dates: Feb 24-28, 2018  
+> [PPoPP 2019](http://ppopp19.sigplan.org)  
+> Location: Washington, D.C., United States
+> General Chair: Jeff Hollingsworth, University of Maryland, United States  
+> Program Chair: Idit Keidar, Technion, Israel  
+> Dates: February 16-20, 2019  
 
 **Co-located Events**
 
@@ -28,6 +28,7 @@ The current PPoPP Steering Committee is:
 
 **Web Pages of Previous Conferences**
 
+- [PPoPP 2018](http://ppopp18.sigplan.org) (Vienna, Austria)
 - [PPoPP 2017](http://ppopp17.sigplan.org) (Austin, TX)
 - [PPoPP 2016](http://conf.researchr.org/home/ppopp-2016) (Barcelona, Spain)
 - [PPoPP 2015](http://ppopp15.soe.ucsc.edu/) (San Francisco, CA)
