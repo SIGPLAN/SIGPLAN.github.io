@@ -10,7 +10,7 @@ solve applications problems.
 **PPoPP Fast Facts**
 
 > [PPoPP 2019](http://ppopp19.sigplan.org)  
-> Location: Washington, D.C., United States
+> Location: Washington, D.C., United States  
 > General Chair: Jeff Hollingsworth, University of Maryland, United States  
 > Program Chair: Idit Keidar, Technion, Israel  
 > Dates: February 16-20, 2019  
