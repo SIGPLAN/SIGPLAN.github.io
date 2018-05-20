@@ -326,3 +326,28 @@ Pearls have long been an accepted form of submission for the Journal of Function
 
 Each paper, pearl or otherwise, should explain its contributions in both general and technical terms, identifying what has been accomplished, explaining why it is significant, and comparing it with previous work. Authors should strive to make their papers understandable to a broad audience. Advice on writing technical papers can be found on the [SIGPLAN Author Information page](http://sigplan.org/Resources/Author/).
 
+### **Distinguished Paper Awards**
+
+Up to 10% of accepted POPL papers are eligible to be recognized as Distinguished Papers. This section presents criteria that merit a paper being distinguished, and the process for selecting papers. (These guidelines are based on ones originally organized by Emery Berger, PC chair for PLDI ‘16 and SIGPLAN EC Chair for SIGPLAN Research Highlights Awards, December 2017.)
+
+#### Criteria
+
+Roughly speaking a distinguished paper is one that the PC thinks should be read. That is, they are saying, “If you read just X POPL papers this year, you should consider reading these papers.” What might make them say this? At the least, a paper should be among the best in terms of its technical quality, but something else should push it over the top. Examples (drawn from the call for papers):
+
+* _Relevance_. The paper makes a significant advance in an important area likely to be of importance to the broad community.
+* _Originality_. The paper is noteworthy for the approach that it takes, or for the problem it addresses, which might be particularly illuminating.
+* _Noteworthy result_. The result in the paper is so useful/important/surprising, that everyone should know it (even if the area is not so broad).
+* _Excellent writing_. The paper is likely to be readable by a broader audience, who might use the paper as a bridge to a new area.
+
+#### Process
+
+##### Suggestions
+
+We suggest a four-step process:
+
+1. Choose a Distinguished Paper Committee from the Program Committee. The Distinguished Paper Committee should comprise reviewers (perhaps around 6, see below) with particularly good judgment, ideally with some knowledge of many sub-areas of PL research. Probably this should be done at the outset, rather than at the end of the review process, so people know what they are getting into. They might be asked to review 1-2 fewer papers.
+2. Papers can be nominated by any PC member. Ideally we have a field in the review form that reviewers can use to nominate a paper. PC papers are allowed.
+3. After the camera-ready papers of the conference are produced, nominated papers are uploaded by the program chair to a conference review system (e.g., a HotCRP). The PC chair should upload only the camera-ready papers to this site, without copying over reviews. The process is run like mini-conference. This may or may not require a live conference call, but it might be good to schedule one in advance, in case it’s needed.
+4. Over a roughly two-week period, committee members review their assigned papers. Reviewers should be new; those who previously reviewed a paper should not be assigned to it. Reviews should be much shorter (e.g., two paragraphs) and focused on whether they are deserving of distinction. During this period, the original reviews should be made unavailable on the main conference site; these can be opened up after distinguished paper reviews have been submitted. 
+
+In terms of committee size: Ideally there are three reviews per paper. So, if we have 10 papers, that would mean 30 reviews. To keep the work low for a two week period, that probably means we want 6 committee members, plus the PC chair (who need not review). The expectation is that papers do not need to be read closely; 2 hours per paper is hopefully sufficient. So we are looking at 10-15 hours of work over two weeks, plus the meeting.
