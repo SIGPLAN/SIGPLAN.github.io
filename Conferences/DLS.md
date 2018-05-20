@@ -15,7 +15,7 @@ development.
 DLS 2018
 --------
 
--   Boston, Massachusetts, USA, October 16, 2018
+-   Boston, Massachusetts, USA, November 6, 2018
 -   Co-located with SPLASH 2018
 -   PC chair: Tim Felgentreff (Oracle Labs)
 -   [http://www.dynamic-languages-symposium.org/dls-18/](http://www.dynamic-languages-symposium.org/dls-18/)
