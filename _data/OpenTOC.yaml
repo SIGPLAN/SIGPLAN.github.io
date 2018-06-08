@@ -31,6 +31,10 @@
   year: 2017
   title: "Proceedings of the 4th ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming"
 -
+  event: ARRAY
+  year: 2018
+  title: "Proceedings of the 5th ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming"
+-
   event: CC
   year: 2016
   title: "Proceedings of the 25th International Conference on Compiler Construction"
@@ -151,6 +155,10 @@
   year: 2017
   title: "Proceedings of the 6th ACM SIGPLAN Workshop on Functional High-Performance Computing"
 -
+  event: FMS
+  year: 2018
+  title: "Proceedings of the 2018 ACM SIGPLAN International Workshop on Formal Methods and Security"
+-
   event: FOSD
   year: 2016
   title: "Proceedings of the 7th International Workshop on Feature-Oriented Software Development"
@@ -256,9 +264,17 @@
   year: 2017
   title: "Proceedings of the 18th ACM SIGPLAN/SIGBED Conference on Languages, Compilers, Tools, and Theory for Embedded Systems"
 -
+  event: LCTES
+  year: 2018
+  title: "Proceedings of the 19th ACM SIGPLAN/SIGBED Conference on Languages, Compilers, Tools, and Theory for Embedded Systems"
+-
   event: MAPL
   year: 2017
   title: "Proceedings of the 1st ACM SIGPLAN International Workshop on Machine Learning and Programming Languages"
+-
+  event: MAPL
+  year: 2018
+  title: "Proceedings of the 2nd ACM SIGPLAN International Workshop on Machine Learning and Programming Languages"
 -
   event: META
   year: 2017

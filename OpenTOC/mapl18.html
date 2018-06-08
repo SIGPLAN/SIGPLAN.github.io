@@ -1,0 +1,194 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>MAPL 2018- Proceedings of the 2nd ACM SIGPLAN International Workshop on Machine Learning and Programming Languages</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>MAPL 2018- Proceedings of the 2nd ACM SIGPLAN International Workshop on Machine Learning and Programming Languages</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3211346" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Program Analysis</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650647" title="Get the Full Text from the ACM Digital Library">Ariadne: analysis for machine learning programs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Julian Dolby</li>
+<li class="nameList">Avraham Shinnar</li>
+<li class="nameList">Allison Allain</li>
+<li class="nameList Last">Jenna Reinen</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Machine learning has transformed domains like vision and translation, and is now increasingly used in science, where the correctness of such code is vital. Python is popular for machine learning, in part because of its wealth of machine learning libraries, and is felt to make development faster; however, this dynamic language has less support for error detection at code creation time than tools like Eclipse. This is especially problematic for machine learning: given its statistical nature, code with subtle errors may run and produce results that look plausible but are meaningless. This can vitiate scientific results. We report on : applying a static framework, WALA, to machine learning code that uses TensorFlow. We have created static analysis for Python, a type system for tracking tensors&#8212;Tensorflow&#8217;s core data structures&#8212;and a data flow analysis to track their usage. We report on how it was built and present some early results.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650648" title="Get the Full Text from the ACM Digital Library">Clone-hunter: accelerated bound checks elimination via binary code clone detection</a>
+</h3>
+<ul class="DLauthors">
+
+<li class="nameList First">Hongfa Xue</li>
+<li class="nameList">Guru Venkataramani</li>
+<li class="nameList Last">Tian Lan</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Unsafe pointer usage and illegitimate memory accesses are prevalent bugs in software. To ensure memory safety, conditions for array bound checks are inserted into the code to detect out-of-bound memory accesses. Unfortunately, these bound checks contribute to high runtime overheads, and therefore, redundant array bound checks should be removed to improve application performance. In this paper, we propose Clone-Hunter, a practical and scalable framework for redundant bound check elimination in binary executables. Clone-Hunter first uses <i>binary code clone detection</i>, and then employs bound safety verification mechanism (using binary symbolic execution) to ensure sound removal of redundant bound checks. Our results show the Clone-Hunter can swiftly identify redundant bound checks about 90&#215; faster than pure binary symbolic execution, while ensuring zero false positives.</p></div> </div>
+<h2>SESSION: Code Search</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650649" title="Get the Full Text from the ACM Digital Library">Obfuscation resilient search through executable classification</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Fang-Hsiang Su</li>
+<li class="nameList">Jonathan Bell</li>
+<li class="nameList">Gail Kaiser</li>
+<li class="nameList Last">Baishakhi Ray</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Android applications are usually obfuscated before release, making it difficult to analyze them for malware presence or intellectual property violations. Obfuscators might hide the true intent of code by renaming variables and/or modifying program structures. It is challenging to search for executables relevant to an obfuscated application for developers to analyze efficiently. Prior approaches toward obfuscation resilient search have relied on certain structural parts of apps remaining as landmarks, un-touched by obfuscation. For instance, some prior approaches have assumed that the structural relationships between identifiers are not broken by obfuscators; others have assumed that control flow graphs maintain their structures. Both approaches can be easily defeated by a motivated obfuscator. We present a new approach, MACNETO, to search for programs relevant to obfuscated executables leveraging deep learning and principal components on instructions. MACNETO makes few assumptions about the kinds of modifications that an obfuscator might perform. We show that it has high search precision for executables obfuscated by a state-of-the-art obfuscator that changes control flow. Further, we also demonstrate the potential of MACNETO to help developers understand executables, where MACNETO infers keywords (which are from relevant un-obfuscated programs) for obfuscated executables.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650640" title="Get the Full Text from the ACM Digital Library">Retrieval on source code: a neural code search</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Saksham Sachdev</li>
+<li class="nameList">Hongyu Li</li>
+<li class="nameList">Sifei Luan</li>
+<li class="nameList">Seohyun Kim</li>
+<li class="nameList">Koushik Sen</li>
+<li class="nameList Last">Satish Chandra</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Searching over large code corpora can be a powerful productivity tool for both beginner and experienced developers because it helps them quickly find examples of code related to their intent. Code search becomes even more attractive if developers could express their intent in natural language, similar to the interaction that Stack Overflow supports. </p> <p>In this paper, we investigate the use of natural language processing and information retrieval techniques to carry out natural language search <i>directly</i> over source code, i.e. <i>without</i> having a curated Q&A forum such as Stack Overflow at hand. </p> <p>Our experiments using a benchmark suite derived from Stack Overflow and GitHub repositories show promising results. We find that while a basic word&#8211;embedding based search procedure works acceptably, better results can be obtained by adding a layer of supervision, as well as by a customized ranking strategy.</p></div> </div>
+<h2>SESSION: New Languages</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650641" title="Get the Full Text from the ACM Digital Library">Diesel: DSL for linear algebra and neural net computations on GPUs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Venmugil Elango</li>
+<li class="nameList">Norm Rubin</li>
+<li class="nameList">Mahesh Ravishankar</li>
+<li class="nameList">Hariharan Sandanagobalane</li>
+<li class="nameList Last">Vinod Grover</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present a domain specific language compiler, Diesel, for basic linear algebra and neural network computations, that accepts input expressions in an intuitive form and generates high performing code for GPUs. The current trend is to represent a neural network as a computation DAG, where each node in the DAG corresponds to a single operation such as matrix-matrix multiplication, and map the individual operations to hand tuned library functions provided by standard libraries such as CuBLAS and CuDNN. While this method takes advantage of readily available optimized library codes to achieve good performance for individual operations, it is not possible to optimize across operations. As opposed to this, given a computation composed of several operations, Diesel generates (a set) of efficient device functions, where the code is optimized for the computation as a whole, using polyhedral compilation techniques. In addition, there are cases where the code needs to be specialized for specific problem sizes to achieve optimal performance. While standard libraries are written for parametric problem sizes (where problem sizes are provided at runtime), Diesel can accept problem sizes at compile time and generate specialized codes. Experimental results show that the performance achieved by Diesel generated code for individual operations are comparable to the highly tuned versions provided by standard libraries, while for composite computations, Diesel outperforms manually written versions.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650642" title="Get the Full Text from the ACM Digital Library">A design proposal for Gen: probabilistic programming with fast custom inference via code generation</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Marco Cusumano-Towner</li>
+<li class="nameList Last">Vikash K. Mansinghka</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Probabilistic programming languages have the potential to make probabilistic modeling and inference easier to use in practice, but only if inference is sufficiently fast and accurate for real applications. Thus far, this has only been possible for domain-specific languages that focus on a restricted class of models and inference algorithms. This paper proposes a design for a probabilistic programming language called Gen, embedded in Julia, that aims to be sufficiently expressive and performant for general-purpose use. The language provides constructs for automatically generating optimized implementations of custom inference tactics based on static analysis of the target probabilistic model. This paper informally describes a language design for Gen, and shows that Gen is more expressive than Stan, a widely used language for hierarchical Bayesian modeling. A first benchmark shows that a prototype implementation of Gen can be as fast as Stan, only &#8764;1.4x slower than a hand-coded sampler in Julia, and &#8764;7,500x faster than Venture, one of the only other probabilistic languages with support for custom inference.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650643" title="Get the Full Text from the ACM Digital Library">Relay: a new IR for machine learning frameworks</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Jared Roesch</li>
+<li class="nameList">Steven Lyubomirsky</li>
+<li class="nameList">Logan Weber</li>
+<li class="nameList">Josh Pollock</li>
+<li class="nameList">Marisa Kirisame</li>
+<li class="nameList">Tianqi Chen</li>
+<li class="nameList Last">Zachary Tatlock</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Machine learning powers diverse services in industry including search, translation, recommendation systems, and security. The scale and importance of these models require that they be efficient, expressive, and portable across an array of heterogeneous hardware devices. These constraints are often at odds; in order to better accommodate them we propose a new high-level intermediate representation (IR) called Relay. Relay is being designed as a purely-functional, statically-typed language with the goal of balancing efficient compilation, expressiveness, and portability. We discuss the goals of Relay and highlight its important design constraints. Our prototype is part of the open source NNVM compiler framework, which powers Amazon&#39;s deep learning framework MxNet.</p></div> </div>
+<h2>SESSION: Programming Methodology</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650644" title="Get the Full Text from the ACM Digital Library">The three pillars of machine programming</a>
+</h3>
+ <ul class="DLauthors">
+<li class="nameList First">Justin Gottschlich</li>
+<li class="nameList">Armando Solar-Lezama</li>
+<li class="nameList">Nesime Tatbul</li>
+<li class="nameList">Michael Carbin</li>
+<li class="nameList">Martin Rinard</li>
+<li class="nameList">Regina Barzilay</li>
+<li class="nameList">Saman Amarasinghe</li>
+<li class="nameList">Joshua B. Tenenbaum</li>
+<li class="nameList Last">Tim Mattson</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In this position paper, we describe our vision of the future of machine programming through a categorical examination of three pillars of research. Those pillars are: <em>(i)</em> intention, <em>(ii)</em> invention, and <em>(iii)</em> adaptation. Intention emphasizes advancements in the human-to-computer and computer-to-machine-learning interfaces. Invention emphasizes the creation or refinement of algorithms or core hardware and software building blocks through machine learning (ML). Adaptation emphasizes advances in the use of ML-based constructs to autonomously evolve software.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

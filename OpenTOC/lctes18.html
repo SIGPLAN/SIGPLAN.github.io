@@ -1,0 +1,219 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>LCTES 2018- Proceedings of the 19th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>LCTES 2018- Proceedings of the 19th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3211332" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Full Papers</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650767" title="Get the Full Text from the ACM Digital Library">A memory-bounded, deterministic and terminating semantics for the synchronous programming language C&#233;u</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Rodrigo C. M. Santos</li>
+<li class="nameList">Guilherme F. Lima</li>
+<li class="nameList">Francisco Sant&#39;Anna</li>
+<li class="nameList">Roberto Ierusalimschy</li>
+<li class="nameList Last">Edward H. Haeusler</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>C&#233;u is a synchronous programming language for embedded soft real-time systems. It focuses on control-flow safety features, such as safe shared-memory concurrency and safe abortion of lines of execution, while enforcing memory bounded, deterministic, and terminating reactions to the environment. In this work, we present a small-step structural operational semantics for C&#233;u and a proof that reactions have the properties enumerated above: that for a given arbitrary timeline of input events, multiple executions of the same program always react in bounded time and arrive at the same final finite memory state.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650768" title="Get the Full Text from the ACM Digital Library">MakeCode and CODAL: intuitive and efficient embedded systems programming for education</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">James Devine</li>
+ <li class="nameList">Joe Finney</li>
+<li class="nameList">Peli de Halleux</li>
+<li class="nameList">Micha&#322; Moskal</li>
+<li class="nameList">Thomas Ball</li>
+<li class="nameList Last">Steve Hodges</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Across the globe, it is now commonplace for educators to engage in the making (design and development) of embedded systems in the classroom to motivate and excite their students. This new domain brings its own set of unique requirements. Historically, embedded systems development requires knowledge of low-level programming languages, local installation of compilation toolchains, device drivers, and applications. For students and educators, these requirements can introduce insurmountable barriers. </p> <p> We present the motivation, requirements, implementation, and evaluation of a new programming platform that enables novice users to create software for embedded systems. The platform has two major components: 1) Microsoft MakeCode (&lt;a href="https://www.makecode.com">www.makecode.com&lt;/a&gt;), a web app that encapsulates an entire beginner IDE for microcontrollers; and 2) CODAL, an efficient component-oriented C++ runtime for microcontrollers. We show how MakeCode and CODAL provide an accessible, cross-platform, installation-free programming experience for the BBC micro:bit and other embedded devices.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650769" title="Get the Full Text from the ACM Digital Library">Adaptive deep learning model selection on embedded systems</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ben Taylor</li>
+<li class="nameList">Vicent Sanz Marco</li>
+<li class="nameList">Willy Wolff</li>
+<li class="nameList">Yehia Elkhatib</li>
+<li class="nameList Last">Zheng Wang</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The recent ground-breaking advances in deep learning networks (DNNs) make them attractive for embedded systems. However, it can take a long time for DNNs to make an inference on resource-limited embedded devices. Offloading the computation into the cloud is often infeasible due to privacy concerns, high latency, or the lack of connectivity. As such, there is a critical need to find a way to effectively execute the DNN models locally on the devices. </p> <p> This paper presents an adaptive scheme to determine which DNN model to use for a given input, by considering the desired accuracy and inference time. Our approach employs machine learning to develop a predictive model to quickly select a pre-trained DNN to use for a given input and the optimization constraint. We achieve this by first training off-line a predictive model, and then use the learnt model to select a DNN model to use for new, unseen inputs. We apply our approach to the image classification task and evaluate it on a Jetson TX2 embedded deep learning platform using the ImageNet ILSVRC 2012 validation dataset. We consider a range of influential DNN models. Experimental results show that our approach achieves a 7.52% improvement in inference accuracy, and a 1.8x reduction in inference time over the most-capable single DNN model.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650760" title="Get the Full Text from the ACM Digital Library">Optimizing RAID/SSD controllers with lifetime extension for flash-based SSD array</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Lei Han</li>
+<li class="nameList">Zhaoyan Shen</li>
+<li class="nameList">Zili Shao</li>
+<li class="nameList Last">Tao Li</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Flash-based SSD RAID arrays are increasingly being deployed in data centers. Compared with HDD arrays, SSD arrays drastically enhance storage density and I/O performance, and reduce power and rack space. Nevertheless, SSDs suffer aging issues. Though prior studies have been conducted to address this disadvantage, effective techniques of RAID/SSD controllers are urgently needed to extend the lifetime of SSD arrays. </p> <p>In this paper, we for the first time apply approximate storage via the interplay of RAID and SSD controllers to optimize the lifespan of SSD arrays. Our basic idea is to reuse faulty blocks (those contain pages with uncorrectable errors) to store approximate data (which can tolerate more errors). By relaxing the integrity of flash blocks, we observed that the endurance of NAND flash memory can be significantly boosted, thereby providing huge potentials to significantly extend the lifetime of SSDs. Based on this observation, we propose the use of an efficient space management scheme for data allocation and FTL strategies by coordinating the interplay of RAID and SSD controllers to optimize the lifetime of SSD arrays. We implemented a prototype, called FreeRAID, based on an SSD array simulator. Our experiments show that we can significantly increase the lifetime by up to 2.17&#215; compared with conventional SSD-based RAID arrays.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650761" title="Get the Full Text from the ACM Digital Library">Compositionality in scenario-aware dataflow: a rendezvous perspective</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Mladen Skelin</li>
+<li class="nameList Last">Marc Geilen</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Finite-state machine-based scenario-aware dataflow (FSM-SADF) is a dynamic dataflow model of computation that combines streaming data and finite-state control. For the most part, it preserves the determinism of its underlying synchronous dataflow (SDF) concurrency model and only when necessary introduces the non-deterministic variation in terms of scenarios that are represented by SDF graphs. This puts FSM-SADF in a sweet spot in the trade-off space between expressiveness and analyzability. </p> <p> However, FSM-SADF supports no notion of compositionality, which hampers its usability in modeling and consequent analysis of large systems. </p> <p> In this work we propose a compositional semantics for FSM-SADF that overcomes this problem. </p> <p> We base the semantics of the composition on standard composition of processes with rendezvous communication in the style of CCS or CSP at the control level and the parallel, serial and feedback composition of SDF graphs at the dataflow level. </p> <p> We evaluate the approach on a case study from the multimedia domain.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650762" title="Get the Full Text from the ACM Digital Library">Decoupling address generation from loads and stores to improve data access energy efficiency</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Michael Stokes</li>
+<li class="nameList">Ryan Baird</li>
+<li class="nameList">Zhaoxiang Jin</li>
+<li class="nameList">David Whalley</li>
+<li class="nameList Last">Soner Onder</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Level-one data cache (L1 DC) accesses impact energy usage as they frequently occur and use significantly more energy than register file accesses. A memory access instruction consists of an address generation operation calculating the location where the data item resides in memory and the data access operation that loads/stores a value from/to that location. We propose to decouple these two operations into separate machine instructions to reduce energy usage. By associating the data translation lookaside buffer (DTLB) access and level-one data cache (L1 DC) tag check with an address generation instruction, only a single data array in a set-associative L1 DC needs to be accessed during a load instruction when the result of the tag check is known at that point. In addition, many DTLB accesses and L1 DC tag checks are avoided by memoizing the DTLB way and L1 DC way with the register that holds the memory address to be dereferenced. Finally, we are able to often coalesce an ALU operation with a load or store data access using our technique to reduce the number of instructions executed.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650763" title="Get the Full Text from the ACM Digital Library">Verification of coarse-grained reconfigurable arrays through random test programs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Bernhard Egger</li>
+<li class="nameList">Eunjin Song</li>
+<li class="nameList">Hochan Lee</li>
+<li class="nameList Last">Daeyoung Shin</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We propose and evaluate a framework to test the functional correctness of coarse-grained reconfigurable array (CGRA) processors for pre-silicon verification and post-silicon validation. To reflect the reconfigurable nature of CGRAs, an architectural model of the system under test is built directly from the hardware description files. A guided place-and-routing algorithm is used to map operations and operands onto the heterogeneous processing elements (PE). Test coverage is maximized by favoring unexercised parts of the architecture. Requiring no explicit knowledge about the semantics of operations, the random test program generator (RTPG) framework seamlessly supports custom ISA extensions. </p> <p> The proposed framework is applied to the Samsung Reconfigurable Processor, a modulo-scheduled CGRA integrated in smartphones, cameras, printers, and smart TVs. Experiments demonstrate that the RTPG is versatile, efficient, and quickly achieves a high coverage. In addition to detecting all randomly inserted faults, the generated test programs also exposed two yet unknown actual faults in the architecture.</p></div> </div>
+<h2>SESSION: Short WIP Papers</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650764" title="Get the Full Text from the ACM Digital Library">Deep neural networks compiler for a trace-based accelerator (short WIP paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Andre Xian Ming Chang</li>
+<li class="nameList">Aliasger Zaidy</li>
+<li class="nameList">Lukasz Burzawa</li>
+<li class="nameList Last">Eugenio Culurciello</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Deep Neural Networks (DNNs) are the algorithm of choice for image processing applications. DNNs present highly parallel workloads that lead to the emergence of custom hardware accelerators. Deep Learning (DL) models specialized in different tasks require a programmable custom hardware and a compiler/mapper to efficiently translate different DNNs into an efficient dataflow in the accelerator. The goal of this paper is to present a compiler for running DNNs on Snowflake, which is a programmable hardware accelerator that targets DNNs. The compiler correctly generates instructions for various DL models: AlexNet, VGG, ResNet and LightCNN9. Snowflake, with a varying number of processing units, was implemented on FPGA to measure the compiler and Snowflake performance properties upon scaling up. The system achieves 70 frames/s and 4.5 GB/s of off-chip memory bandwidth for AlexNet without linear layers on Xilinx&#8217;s Zynq-SoC XC7Z045 FPGA.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650775" title="Get the Full Text from the ACM Digital Library">Transparent standby for low-Power, resource-constrained embedded systems: a programming language-based approach (short WIP paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Francisco Sant&#39;Anna</li>
+<li class="nameList">Alexandre Sztajnberg</li>
+<li class="nameList">Ana L&#250;cia de Moura</li>
+<li class="nameList Last">Noemi Rodrigues</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Standby efficiency for connected devices is one of the priorities of the G20&#8217;s Energy Efficiency Action Plan. We propose transparent programming language mechanisms to enforce that applications remain in the deepest standby modes for the longest periods of time. We extend the programming language C&#233;u with support for interrupt service routines and with a simple power management runtime. Based on these primitives, we also provide device drivers that allow applications to take advantage of standby automatically. Our approach relies on the synchronous semantics of the language which guarantees that reactions to the environment always reach an idle state amenable to standby. In addition, in order to lower the programming barrier of adoption, we show that programs in C&#233;u can keep a sequential syntactic structure, even when applications require non-trivial concurrent behavior.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650776" title="Get the Full Text from the ACM Digital Library">Statically relating program properties for efficient verification (short WIP paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Bharti Chimdyalwar</li>
+<li class="nameList Last">Priyanka Darke</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Efficient automatic verification of real world embedded software with numerous properties is a challenge. Existing techniques verify a sufficient subset of properties by identifying implication relations between their verification outcomes. We believe this is expensive and propose a novel complementary approach called grouping. Grouping does not consider the verification outcomes but uses data and control flow characteristics of the program to create disjoint groups of properties verifiable one group at a time.We present three grouping techniques, a framework, and experiments over open source and industrial applications to support our thesis. The experiments show a high gain in performance of a few state-of-the-art tools. This led to the integration of grouping into the verification process of an automotive software manufacturer.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650777" title="Get the Full Text from the ACM Digital Library">JSCore: architectural support for accelerating JavaScript execution (short WIP paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Gaurav Chadha</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>JavaScript has seen meteoric growth in popularity as it has in- creasingly become the language of choice for developers, both for front-end web development and server code development through various JavaScript frameworks and Node.js. Part of the reason for its wide use is that it is a prototype based language with dynamic types, making it easy to learn and program in. This flexibility and ease of programming comes at the cost of performance. There are two sources of significant slowdown. First, since the number and type of properties of prototypes is dynamic, accessing a property involves a slow dictionary lookup, as opposed to it being present at a fixed offset from the base address. Second, the dynamism in type of values necessitates wrapping and unwrapping of values into objects with a variety of checks including for type of the value. To mitigate these performance problems, this paper proposes JSCore, a core specialized for JavaScript execution, that vastly reduces the performance degradation due to the above two causes. It uses a hardware lookup table to accelerate property access, and extends the data path to store data types with the data, nearly eliminating the second source of slowdown. Combining the two, JSCore accelerates real world JavaScript applications by 23%.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650778" title="Get the Full Text from the ACM Digital Library">An open-source realtime computational platform (short WIP paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Pavan Mehrotra</li>
+<li class="nameList">Sabar Dasgupta</li>
+<li class="nameList">Samantha Robertson</li>
+<li class="nameList Last">Paul Nuyujukian</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Systems neuroscience studies involving in-vivo models often require realtime data processing. In these studies, many events must be monitored and processed quickly, including behavior of the subject (e.g., movement of a limb) or features of neural data (e.g., a neuron transmitting an action potential). Unfortunately, most realtime platforms are proprietary, require specific architectures, or are limited to low-level programming languages. Here we present a hardware-independent, open-source realtime computation platform that supports high-level programming. The resulting platform, LiCoRICE, can process on order 10e10 bits/sec of network data at 1&#160;ms ticks with 18.2&#160;&#181;s jitter. It connects to various inputs and outputs (e.g., DIO, Ethernet, database logging, and analog line in/out) and minimizes reliance on custom device drivers by leveraging peripheral support via the Linux kernel. Its modular architecture supports model-based design for rapid prototyping with C and Python/Cython and can perform numerical operations via BLAS/LAPACK-optimized NumPy that is statically compiled via Numba&#8217;s pycc. LiCoRICE is not only suitable for systems neuroscience research, but also for applications requiring closed-loop realtime data processing from robotics and control systems to interactive applications and quantitative financial trading.</p></div> </div>
+</div>
+</div>
+</body>
+</html>
