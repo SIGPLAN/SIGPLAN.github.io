@@ -230,19 +230,23 @@
 -
   event: ISMM
   year: 2014
-  title: "Proceedings of the 13th ACM SIGPLAN International Symposium on Memory Management"
+  title: "Proceedings of the 2014 ACM SIGPLAN International Symposium on Memory Management"
 -
   event: ISMM
   year: 2015
-  title: "Proceedings of the 14th ACM SIGPLAN International Symposium on Memory Management"
+  title: "Proceedings of the 2015 ACM SIGPLAN International Symposium on Memory Management"
 -
   event: ISMM
   year: 2016
-  title: "Proceedings of the 15th ACM SIGPLAN International Symposium on Memory Management"
+  title: "Proceedings of the 2016 ACM SIGPLAN International Symposium on Memory Management"
 -
   event: ISMM
   year: 2017
-  title: "Proceedings of the 16th ACM SIGPLAN International Symposium on Memory Management"
+  title: "Proceedings of the 2017 ACM SIGPLAN International Symposium on Memory Management"
+-
+  event: ISMM
+  year: 2018
+  title: "Proceedings of the 2018 ACM SIGPLAN International Symposium on Memory Management"
 -
   event: ITSLE
   year: 2016
