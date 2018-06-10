@@ -45,9 +45,9 @@ The committee has organized and categorized its findings, producing a
 1-page [best-practices checklist](https://github.com/SIGPLAN/empirical-evaluation/raw/master/checklist/checklist.pdf).
 
 This checklist is organized into seven *categories*, each with
-associated *cases* for illustration. Categories are meant to be
+associated *examples* for illustration. Categories are meant to be
 comprehensive, applying to the breadth of possible empirical
-evaluations. Cases highlight specific, important areas in which best
+evaluations. Examples in each category highlight specific, important areas in which best
 practice was frequently not followed. These are meant to be
 useful and illustrative, but they are neither comprehensive nor
 applicable to every evaluation. 
@@ -63,9 +63,9 @@ members of the community literally on the same page.
 
 The current checklist (as of March 23, 2018) should be viewed as beta quality. It and the FAQ below have incorporated feedback we have received since the initial checklist was released in January; thanks to those who commented!  We continue to solicit feedback and suggestions for improvement. We are particularly interested in
 
-- Clarifications on category and case descriptions
-- Suggestions for new categories and/or cases, or consolidations. For the former, we would request several examples from the published literature demonstrating the issue
-- Particularly good examples of an empirical evaluation
+- Clarifications on category and example descriptions
+- Suggestions for new categories and/or examples, or consolidations. For the former, we would request specific references to the published literature demonstrating the issue
+- Particularly good empirical evaluations
 
 Feedback can be provided via this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSe9dtNvbRInrS8JeE0snB4sml28hMXDfMl-pnpE2gFDtFUzEw/viewform)
 (preferred)
@@ -74,7 +74,7 @@ or via email to [Steve Blackburn](mailto:steve.blackburn@anu.edu.au?subject=SIGP
 ### Frequently Asked Questions
 
 * Why a checklist?
-> Our goal is to help ensure that current, accepted best practices are followed. Per the [Checklist Manifesto](https://en.wikipedia.org/wiki/The_Checklist_Manifesto), checklists help to do exactly this. Our interest is the good practices for carrying out empirical evaluations as part of PL research. While some practices are clearly wrong, many require careful consideration: Not every case under every category in the checklist applies to every evaluation -- expert judgment is required. The checklist is meant to assist expert judgment, not substitute for it.  [‘Failure isn’t due to ignorance. According to best-selling author Atul Gawande, it’s because we haven’t properly applied what we already know.’](http://www.everup.com/2016/01/25/about-the-checklist-manifesto-atul-gawande-takeaways/) We’ve kept the list to a single page to make it easier to use and refer back to. 
+> Our goal is to help ensure that current, accepted best practices are followed. Per the [Checklist Manifesto](https://en.wikipedia.org/wiki/The_Checklist_Manifesto), checklists help to do exactly this. Our interest is the good practices for carrying out empirical evaluations as part of PL research. While some practices are clearly wrong, many require careful consideration: Not every example under every category in the checklist applies to every evaluation -- expert judgment is required. The checklist is meant to assist expert judgment, not substitute for it.  [‘Failure isn’t due to ignorance. According to best-selling author Atul Gawande, it’s because we haven’t properly applied what we already know.’](http://www.everup.com/2016/01/25/about-the-checklist-manifesto-atul-gawande-takeaways/) We’ve kept the list to a single page to make it easier to use and refer back to. 
 
 * Why now?
 > When best practices are not followed, there is a greater-than-necessary risk that the benefits reported by an empirical evaluation are illusory, which harms further progress and stunts industry adoption. The members of the committee have observed many recent cases in which practices in the present checklist are not followed. Our hope is that this effort will help focus the community on presenting the most appropriate evidence for a stated claim, where the form of this evidence is based on accepted norms.
@@ -91,14 +91,19 @@ or via email to [Steve Blackburn](mailto:steve.blackburn@anu.edu.au?subject=SIGP
 * How did you determine which items to include?
 > The committee examined a sampling of papers from the last several years of ASPLOS, ICFP, OOPSLA, PLDI, and POPL, and considered those that contained some form of empirical evaluation. We also considered past efforts examining empirical work (Gernot Heiser's ["Systems Benchmarking Crimes"](https://www.cse.unsw.edu.au/~gernot/benchmarking-crimes.html), the ["Pragmatic Guide to Assessing Empirical Evaluations"](https://dl.acm.org/citation.cfm?id=2983574), and the ["Evaluate Collaboratory"](http://evaluate.inf.usi.ch/)). Through regular discussions over several months, we identified common patterns and anti-patterns, which we grouped into the present checklist. Note that we explicitly did not intend for the checklist to be exhaustive; rather, it reflects what appears to us to be common in PL empirical evaluations.
 
-* Why did you organize the checklist as a series of categories, each with several cases?
-> The larger categories represent the general breadth of evaluations we saw, and the cases are intended to be helpful in being concrete, and common. For less common empirical evaluations, other cases may be relevant, even if not presented in the checklist explicitly. For example, for work studying human factors, the Adequate Data Analysis category might involve cases focusing on the use of statistical tests to relate outcomes in a control group to those in an experimental group. More on this kind of work below.
+* Why did you organize the checklist as a series of categories, each with several examples?
+> The larger categories represent the general breadth of evaluations we saw, and the examples are intended to be helpful in being concrete, and common. For less common empirical evaluations, other examples may be relevant, even if not presented in the checklist explicitly. For instance, for work studying human factors, the Adequate Data Analysis category might involve examples focusing on the use of statistical tests to relate outcomes in a control group to those in an experimental group. More on this kind of work below.
 
 * Why did you use checkboxes instead of something more nuanced, like a score?
 > The boxes next to each item are not intended to require a binary “yes/no” decision. In our own use of the list, we have often marked entries as partially filling a box (e.g., with a dash to indicate a “middle” value) or by coloring it in (e.g., red for egregious violation, green for pass, yellow for something in the middle). 
 
+* I disagree with the choice of some checklist items; can you justify their inclusion?
+> One concern we have heard multiple times is that the example previously titled "threats to validity" in Category 1, *Clearly Stated Claims* is not useful. The given reason is that "threats to validity" sections in software engineering papers often mention threats of little signifcance while ignoring real threats. This is unfortunate, but does not eliminate the need to clearly scope claims, highlighting important limitations. For science to progress, we need to be honest about what we have achieved. Papers often make, or imply, overly strong claims. One way this is done is to ignore important limitations. But doing so discourages or undervalues subsequent work that overcomes those limitations because that progress is not appreciated. Progress comes in steps, rarely in leaps, and we need those steps to be solid and clearly defined.
+
+> Another concern is that our recommendation (under the category *Principled Benchmark Choice*) that standard benchmark suites are to be preferred, when available and appropriate, might lead to work that overfits to that benchmark. While this is a problem in theory, and is well known from the machine learning community, our experience is that PL work more often has the opposite problem. Papers we looked at often subset a benchmark, or cherry-picked particular programs. Doing so calls results into question generally, and makes it hard to compare related systems across papers. We make progress more clearly when we can measure it. Good benchmark suites are important, since only with them can we make generalizable progress. Developing them is something that our community should encourage.
+
 * What about human factors or other areas that require empirical evaluation?
-> PL research sometimes involves user studies, and these are different in character than, say, work that evaluates a new compiler optimization or test generation strategy. Because user studies are currently relatively infrequent in the papers we examined, we have not included them among the category cases. It may be that new, different cases are required for such studies, or that the present checklist will evolve to contain examples drawn from user studies. Nonetheless, the seven category items are broadly applicable and should be useful to authors of any empirical evaluation for a SIGPLAN conference.
+> PL research sometimes involves user studies, and these are different in character than, say, work that evaluates a new compiler optimization or test generation strategy. Because user studies are currently relatively infrequent in the papers we examined, we have not included them among the category examples. It may be that new, different examples are required for such studies, or that the present checklist will evolve to contain examples drawn from user studies. Nonetheless, the seven category items are broadly applicable and should be useful to authors of any empirical evaluation for a SIGPLAN conference.
 
 * How does the checklist relate to the [artifact evaluation process](http://www.artifact-eval.org/)?
 > Artifact evaluation typically occurs after reviewing a paper, to check that the claims and evidence given in the paper match reality, in the artifact. The checklist is meant to be used by reviewers while judging the paper, and by authors when carrying out their research and writing their paper.
