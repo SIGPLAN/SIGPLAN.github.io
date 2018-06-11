@@ -381,6 +381,10 @@
   year: 2017
   title: "Proceedings of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation"
 -
+  event: PLDI
+  year: 2018
+  title: "Proceedings of the 39th ACM SIGPLAN Conference on Programming Language Design and Implementation"
+-
   event: PLPV
   year: 2014
   title: "Proceedings of the 8th ACM SIGPLAN Workshop on Programming Languages meets Program Verification"
