@@ -3,7 +3,7 @@ layout: award
 title: "Distinguished Service Award"
 ---
 
-Awarded on the basis of value and degree of services to the
+Given by ACM SIGPLAN to recognize the value and degree of services to the
 Programming Languages Community. The award recognizes contributions to
 ACM SIGPLAN, its conferences, publications, or its local
 activities. The award includes a prize of $2,500. Current members of
