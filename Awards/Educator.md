@@ -1,6 +1,6 @@
 ---
 layout: award
-title: "Distinguished Service Award"
+title: "Distinguished Educator Award"
 ---
 
 Given by ACM SIGPLAN to recognize the value and degree of services to the
