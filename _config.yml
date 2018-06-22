@@ -1,6 +1,6 @@
 safe: true
 include: ['.htaccess','css','images','sites']
-exclude: ['link-checker-crawled-pages.pstore','ERRORs.txt','Gemfile','Gemfile.lock','vendor']
+exclude: ['link-checker-crawled-pages.pstore','ERRORs.txt','Gemfile','Gemfile.lock','Makefile','vendor']
 markdown: kramdown
 highlighter: rouge
 lsi: false
