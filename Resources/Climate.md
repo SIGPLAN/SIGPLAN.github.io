@@ -6,6 +6,7 @@ title: "SIGPLAN and Climate Change"
 Resources:
 - [Engaging with Climate Change: Possible Steps for SIGPLAN](http://www.cis.upenn.edu/~bcpierce/papers/sigplan-climate-report.pdf)
 - [Carbon Offsets: An Overview for Scientific Societies](http://www.cis.upenn.edu/~bcpierce/papers/carbon-offsets.pdf)
+- [ACM's CO2 Footprint Calculator for Conferences](https://co2calculator.acm.org)
 - [acm-climate](https://groups.google.com/forum/#!forum/acm-climate)
   mailing list
 
@@ -33,25 +34,14 @@ change is invited to join the
 [acm-climate](https://groups.google.com/forum/#!forum/acm-climate) email
 discussion group.
 
-## Current action: Carbon Offsets (POPL'18)
+## Current action: Carbon Offsets
 
 One recent major effort has been evaluating the idea of carbon offsets as a
 mechanism for reducing the conference's net carbon impact.  A
 [report](http://www.cis.upenn.edu/~bcpierce/papers/sigplan-climate-report.pdf)
 on what we have learned is available.
 
-Concretely, we are experimenting with offering carbon offsets to registrants
-for this year's POPL.  The POPL registration website included
-[a link](https://www.atmosfair.de/en/kompensieren/flug?locale=en) that
-participants could choose to follow to reach an offset purchase page at
-[atmosfair](https://www.atmosfair.de/en/kompensieren/flug?locale=en), a
-major carbon offset vendor.  Participation was voluntary, and ACM was not
-involved in the purchase in any way.  (We realize that offsets would have
-been easier to reimburse if they were included in the conference
-registration fee.  We are investigating whether this can be done for future
-conferences.)
-
-Carbon offsets have the potential to reduce POPL's net carbon impact
+Carbon offsets have the potential to reduce SIGPLAN's net carbon impact
 while furthering sustainability and developmental goals. They help
 fund projects that would not otherwise be economically feasible given
 start-up costs or the means of the communities they are
