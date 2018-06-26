@@ -17,6 +17,7 @@ Selected January 2018:
     represents an impressive application of programming language
     theory to a real-world problem, and is expected to have a
     substantial impact in making the Web more reliable and secure.
+  CACMSelection: true
 
 - Title: "_[Types from Data: Making Structured Data First-Class Citizens in F#](https://dl.acm.org/citation.cfm?doid=2908080.2908115)_"
   Authors: Tomas Petricek (University of Cambridge, UK), Gustavo Guerra (Microsoft, UK), Don Syme (Microsoft Research, UK)
