@@ -1,3 +1,52 @@
+2018:
+- Awardee: "Justin Hsu, University of Pennsylvania"
+  Other: |
+    _[Probabilistic Couplings for Probabilistic Reasoning](/Awards/Dissertation/2018_hsu.pdf)_
+  Advisor: Benjamin C. Pierce and Aaron Roth
+  Citation: |
+    The thesis explores and generalizes the COUPLING proof technique, for
+    establishing properties of randomized algorithms. A correspondence between
+    two different probabilistic programs (or two runs of the same program)
+    requires the specification of the c orrelation between corresponding pairs
+    of random draws and then extending this coupling on samples to a coupling on
+    the resulting output distributions, which can then be used to establish the
+    desired property on the programs. As Probabilistic Relation al Hoare Logic
+    has just the right structure to be able to formally encode these coupling
+    arguments, the thesis analyzes the structure of these arguments through this
+    formal lens, justifying the attractiveness of the coupling approach in terms
+    of compo sitionality.  It then considers an enriched logic and its
+    connection to approximate couplings, which in turn are directly connected to
+    differential privacy.  Working in this logic, it gives novel proofs of some
+    key constructions from differential priv acy, including the exponential and
+    sparse vector mechanisms. The proof for sparse vector is the first ever to
+    be carried out in a machine-checkable form.
+
+    Taken together, these results constitute a significant advance in our
+    ability to mechanize key properties of important randomized algorithms such
+    as those found in the differential privacy literature.
+
+- Awardee: "David Menendez, Rutgers University"
+  Other: |
+    _[Practical Formal Techniques and Tools for Developing LLVM's Peephole Optimizations](/Awards/Dissertation/2018_menendez.pdf)_
+  Advisor: Santosh Nagarakatte
+  Citation: |
+    This thesis proposes abstractions and formal tools to develop correct LLVM
+    peephole optimizations. A domain specific language (DSL) Alive enables the
+    specification and verification of peephole optimizations. An Alive
+    transformation is shown to be correct automatically by encoding the
+    transformation and correctness criteria as constraints in first-order logic,
+    which are automatically checked for validity using an SMT solver. It then
+    generates C++ code for an LLVM pass. Peephole optimizations in LLVM are
+    executed numerous times until no optimization is applicable and one
+    optimization could undo the effect of the other resulting in non-terminating
+    compilation. A novel algorithm based on directed-acyclic-graph (DAG)
+    composition determines whether such non-termination bugs can occur with a
+    suite of peephole optimizations. The Alive toolkit can generate concrete
+    input to demonstrate non-termination as well as automatically generating
+    weakest preconditions. It is actively used by the LLVM community and has
+    detected numerous bugs in existing passes and is preventing bugs from being
+    added to the compiler.
+
 2017:
 - Awardee: "Ramana Kumar, Cambridge University"
   Other: |
