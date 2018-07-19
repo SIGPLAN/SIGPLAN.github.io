@@ -67,7 +67,7 @@ include the following:
   information, publicity, mailing lists, and producing a proceedings,
   a percentage of conference income is budgeted for ACM services.
 - Critical decisions, such as setting the budget and selecting the
-  programme chair and the programme committee, have to be approved by
+  program chair and the program committee, have to be approved by
   the [SIGPLAN Executive Committee](/ContactUs).
 - A final post-event report is required.  
 
@@ -79,7 +79,7 @@ SIGPLAN policies and procedures, including the following:
 - [Republication Policy](/Resources/Policies/Republication)
 - [Guidelines for Steering Committee Formation/Management](/Resources/Guidelines/SCommittee)
 - [Guidelines for the General Chair](/Resources/Guidelines/GenChair)
-- [Guidelines for the Programme Chair](/Resources/Guidelines/ProChair)
+- [Guidelines for the Program Chair](/Resources/Guidelines/ProChair)
 - [Code of Conduct Policy](/Resources/Policies/CodeOfConduct/)
 
 In addition, event organizers are encouraged to contact the ACM
@@ -126,7 +126,7 @@ place. The request should include the following information, **in plain text** (
 5.  Plans for soliciting conference participation, such as a call
     for papers/panels, etc.
 6.  Submission review process, including size and expected
-    composition of the programme committee.
+    composition of the program committee.
 7.  Plans for publication.
 8.  Names and affiliations of the organizers.
 9.  Relevant information about any previous meeting,
@@ -180,12 +180,12 @@ conform to [SIGPLAN guidelines for SCs](http://www.sigplan.org/Resources/Guideli
 If an event is granted ongoing sponsored status, then:
 
 -   the Steering Committee must obtain approval for General Chair and
-    Programme Chair selections from the SIGPLAN EC, prior to inviting the
+    Program Chair selections from the SIGPLAN EC, prior to inviting the
     selected individuals;
 -   approval still needs to be sought from ACM via their TMRF for each event,
     as explained above;
--   the Programme Chair of each event must obtain
-    approval for Programme Committee members from the SIGPLAN EC, prior
+-   the Program Chair of each event must obtain
+    approval for Program Committee members from the SIGPLAN EC, prior
     to inviting the selected individuals, and the selection must conform to
     [SIGPLAN's Diversity Policy](/Resources/Policies/Diversity);
 -   the General Chair of each event must provide the SIGPLAN Vice

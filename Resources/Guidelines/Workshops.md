@@ -2,7 +2,7 @@
 layout: default
 title: "Guidelines about Workshops"
 ---
-SIGPLAN-sponsored conferences often organize a program of affiliated workshops in addition to the main conference programme. These workshops are beneficial to the community&mdash;attracting participants, fostering discussion, encouraging students, and so on&mdash;and are strongly supported by SIGPLAN. 
+SIGPLAN-sponsored conferences often organize a program of affiliated workshops in addition to the main conference program. These workshops are beneficial to the community&mdash;attracting participants, fostering discussion, encouraging students, and so on&mdash;and are strongly supported by SIGPLAN. 
 
 By and large, there are two kinds of such workshops. In a nutshell, the first kind require SIGPLAN EC approval, have a PC, use the SIGPLAN name, and any proceedings should go in the ACM DL; the second kind require approval only by the conference organizers and not by SIGPLAN EC, need not have a PC, may not use the SIGPLAN name, and should not publish proceedings. For want of better terms, in this document we call them *SIGPLAN-approved workshops* and *conference-approved workshops*. 
 
@@ -13,9 +13,9 @@ SIGPLAN-approved workshops
 **Prescriptions:**
 
 * A SIGPLAN-approved workshop has a call for submissions and a submission deadline.
-* Submissions are evaluated by a Programme Committee, and thus subject to peer review.
-* The Programme Committee respects the SIGPLAN Diversity Policy. 
-* The proposal for a SIGPLAN-approved workshop, including the composition of the Programme Committee, is approved by the SIGPLAN Executive Committee.
+* Submissions are evaluated by a Program Committee, and thus subject to peer review.
+* The Program Committee respects the SIGPLAN Diversity Policy. 
+* The proposal for a SIGPLAN-approved workshop, including the composition of the Program Committee, is approved by the SIGPLAN Executive Committee.
 * If there is a proceedings of any kind, the proceedings must be lodged in the ACM Digital Library, and the papers in it are considered published.
 
 
@@ -46,7 +46,7 @@ Commentary
 -----------
 
 * Whether SIGPLAN-approved or conference-approved, workshops located alongside a larger conference are typically organized through the host conference, either via the General Chair of the host conference or by delegation to a Workshops Chair.
-* A conference-approved workshop need not have a Programme Committee or a Call for Papers; it might be just a Birds-of-a-Feather session.
+* A conference-approved workshop need not have a Program Committee or a Call for Papers; it might be just a Birds-of-a-Feather session.
 * Accepted submissions often present work in progress for early access. Some will subsequently be extended into full papers for submission and peer review elsewhere.
 * In accordance with the SIGPLAN Republication Policy, if it is the intention that presentation at the workshop should not preclude publication elsewhere, then this should be clearly stated in the call for papers and in any workshop record.
 * A conference-approved workshop is not subject to approval by the SIGPLAN Executive Committee; it is sufficient for the organizers of the host conference to be satisfied as to the workshop's quality and integrity.
@@ -58,7 +58,7 @@ Guidelines for workshop organizers
 
 If you want to organize a SIGPLAN-sponsored workshop, by far the simplest way to do so is as part of a SIGPLAN-sponsored conference; otherwise, the effort of managing the finances is likely to be out of proportion with the size of the event. The main four SIGPLAN conferences (POPL, PLDI, ICFP, SPLASH) each have a Workshops Chair and a formal Call for Workshop Proposals; submit your proposal in response to this call, and the Workshops Chair will guide you through the process of setting up your workshop. For the other SIGPLAN conferences, the role of Workshops Chair is usually played by the General Chair; you should contact them directly, as there need be no formal call for proposals.
 
-The primary decision you need to make is whether your workshop should be "SIGPLAN-approved" or "conference-approved", in the sense discussed above. If you intend for submissions to be polished papers, lodged in the DL for posterity, and permanently citable, you should go the "SIGPLAN-approved" route; you will need to select a Programme Committee, have it approved by SIGPLAN EC, distribute a call for papers, review submissions, and so on. If instead you want to attract work in progress, and do not want to discourage authors from submitting substantially the same work as a full paper elsewhere, then you might go the "conference-approved" route. 
+The primary decision you need to make is whether your workshop should be "SIGPLAN-approved" or "conference-approved", in the sense discussed above. If you intend for submissions to be polished papers, lodged in the DL for posterity, and permanently citable, you should go the "SIGPLAN-approved" route; you will need to select a Program Committee, have it approved by SIGPLAN EC, distribute a call for papers, review submissions, and so on. If instead you want to attract work in progress, and do not want to discourage authors from submitting substantially the same work as a full paper elsewhere, then you might go the "conference-approved" route. 
 
 > **Warning for organizers of conference-approved workshops**:
 > You may choose to make submissions publicly available, for example on a workshop webpage. But do note that although SIGPLAN

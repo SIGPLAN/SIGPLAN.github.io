@@ -62,7 +62,7 @@ SIGPLAN policies and procedures, including the following:
 - [Republication Policy](/Resources/Policies/Republication)
 - [Guidelines for Steering Committee Formation/Management](/Resources/Guidelines/SCommittee)
 - [Guidelines for the General Chair](/Resources/Guidelines/GenChair)
-- [Guidelines for the Programme Chair](/Resources/Guidelines/ProChair)
+- [Guidelines for the Program Chair](/Resources/Guidelines/ProChair)
 - [Code of Conduct Policy](/Resources/Policies/CodeOfConduct/)
 
 In addition, event organizers are encouraged to contact the ACM

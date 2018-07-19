@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Guidelines for the Programme Chair of a SIGPLAN Event"
+title: "Guidelines for the Program Chair of a SIGPLAN Event"
 ---
 Executive Summary
 -----------------
 
-You may be an experienced Programme Chair, in which case much of
+You may be an experienced Program Chair, in which case much of
 the advice on this page may already be familiar to you. Nevertheless,
 even experienced chairs sometimes forget some important points, so
 please at least skim this page, paying particular attention to the following:
@@ -16,21 +16,21 @@ please at least skim this page, paying particular attention to the following:
 - SIGPLAN's [Republication Policy](/Resources/Policies/Republication)
 - SIGPLAN's [Code of Conduct Policy](/Resources/Policies/CodeOfConduct/)
 - SIGACCESS's [Guide to Creating a Conference Accessibility FAQ Page](http://www.sigaccess.org/welcome-to-sigaccess/resources/creating-a-conference-accessibility-faq-page/)
-- for a SIGPLAN-sponsored event, seek approval for the Programme Committee from the SIGPLAN Vice-Chair, *before* sending invitations
+- for a SIGPLAN-sponsored event, seek approval for the Program Committee from the SIGPLAN Vice-Chair, *before* sending invitations
 - consult with the conference Steering Committee before diverging from any existing conventions
 - make explicit in the Call for Papers that authors of accepted submissions are expected to transfer the copyright to the ACM
 
 Submission and Reviewing Policies
 ---------------------------------
 
-The Programme Chair may not submit papers to the conference, and
+The Program Chair may not submit papers to the conference, and
 SIGPLAN Executive Committee recommends that
 the General Chair also not be allowed to submit papers. If
-Programme Committee members are allowed to submit papers, their
+Program Committee members are allowed to submit papers, their
 papers should be held to a higher standard, in order to avoid the appearance
 of impropriety. 
 
-Make all Programme
+Make all Program
 Committee members and reviewers aware of SIGPLAN's policies on
 [reviewing of conference paper submissions](/Resources/Policies/Review)
 and on
@@ -40,8 +40,8 @@ The conference steering committee should be consulted for any
 changes to the accepted way of organizing and running the
 conference.  
 
-You, the Programme Chair, in consultation with the General Chair,
-should decide on any general policies relating to the programme
+You, the Program Chair, in consultation with the General Chair,
+should decide on any general policies relating to the program
 committee, such as:
 
 -   Will you have a physical PC meeting? If so,
@@ -55,21 +55,21 @@ committee, such as:
     funding for some/all of the members, these expenses must of course be
     included in the budget.
 
-The previous year's Programme Chair for the same conference is a good
+The previous year's Program Chair for the same conference is a good
 resource; contact them for suggestions.  
 
-Programme Committee
+Program Committee
 -------------------
 
 With help from the General Chair, develop a list of potential
-Programme Committee members. In formulating this list, be mindful
+Program Committee members. In formulating this list, be mindful
 of [SIGPLAN's diversity policy](/Resources/Policies/Diversity).
 Expect some people to decline
 the invitation, so have a list of alternates. 
 
 Send the list (including the alternates) to the SIGPLAN Vice
 Chair for their comments and approval (one year prior to the meeting).
-Make arrangements for the Programme Committee meeting: place, if
+Make arrangements for the Program Committee meeting: place, if
 physical, and time.  After SIGPLAN approval of PC members, invite the
 people on the list to serve. Explain what is expected of them,
 and any [policy decisions](/Resources/Policies/Review).  Give them the
@@ -113,7 +113,7 @@ the paper review process, and the general feedback concerning author
 response has been positive (see
 [Experiences with Author Response at PLDI and ICFP 2004](http://portalparts.acm.org/1060000/1052883/fm/frontmatter.pdf),
 Kathleen Fisher and Craig Chambers, *SIGPLAN Notices*, Dec. 2004).
-Programme Chairs and Steering Committees are encouraged to consider
+Program Chairs and Steering Committees are encouraged to consider
 allowing author response or rebuttals as part of the paper review
 process.  
 
@@ -160,17 +160,17 @@ During the PC meeting,
 -   decide what papers should be accepted
 -   plan the sessions and the session chairs
 
-It is *strongly* recommended that the Programme Chair have an
+It is *strongly* recommended that the Program Chair have an
 assistant during the PC
 meeting, to take on certain administrative
-and logistical tasks during the meeting and allow the Programme Chair to
+and logistical tasks during the meeting and allow the Program Chair to
 concentrate on leading the discussions of papers. Typical duties of
 the assistant would be to keep track of the disposition of
 papers for the PC, interface with the on-line review
 system, and record any relevant information about a particular
 paper (e.g., paper Y paper is being shepherded by committee member
 X, committee member X agrees to revise their on-line review, etc.).
-Past Programme Chairs have used graduate students or post-docs as
+Past Program Chairs have used graduate students or post-docs as
 assistants, with good results.  
 
 Any PC meeting expenses that are to be reimbursed by the conference should be
@@ -199,7 +199,7 @@ to begin the process. ACM will provide Sheridan with pertinent
 conference information. Sheridan will forward you a schedule and
 instructions on how to proceed.
 
-Draft a "Letter from the Programme Chair," which should
+Draft a "Letter from the Program Chair," which should
 include a description of the paper selection process (number of
 papers submitted and accepted, etc.). Forward the letter to
 Sheridan along with any other front matter (perhaps a "Letter from the
@@ -207,7 +207,7 @@ Conference Chair," a List of Reviewers, etc.) for inclusion
 in the proceedings. Sheridan will format all front matter; their
 schedule will include a deadline for front matter submission. They
 will also compile the table of contents/author index, using the
-schedule of talks/advanced programme that you provide to determine
+schedule of talks/advanced program that you provide to determine
 paper order.  
 
 Accepted authors will submit their papers directly to the Sheridan
@@ -240,13 +240,13 @@ After the Conference
 
 Help the Conference Chair prepare the post-event report for SIGPLAN EC.
 
-As former Programme Chair, you may be invited to serve on the
+As former Program Chair, you may be invited to serve on the
 conference's Steering Committee. For the steering committee formal
 rules for your particular conference, consult the relevant SIGPLAN
 conference web page. Links to these pages can be be found
 [here](/Conferences).  
 
-The programme chairs of the major SIGPLAN conferences, POPL, PLDI,
+The program chairs of the major SIGPLAN conferences, POPL, PLDI,
 OOPSLA, and ICFP, are automatically on the selection committee for
 the following year's
 [SIGPLAN Programming Languages Achievement Award](/Awards/Achievement).  
