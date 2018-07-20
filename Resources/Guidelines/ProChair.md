@@ -13,67 +13,65 @@ please at least skim this page, paying particular attention to the following:
 - SIGPLAN's [conference policies](https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/edit?usp=sharing_)
 - SIGPLAN's [conference submission review policy](/Resources/Policies/Review) 
 - SIGPLAN's [diversity policy](/Resources/Policies/Diversity)
-- SIGPLAN's [Republication Policy](/Resources/Policies/Republication)
-- SIGPLAN's [Code of Conduct Policy](/Resources/Policies/CodeOfConduct/)
+- SIGPLAN's [republication policy](/Resources/Policies/Republication)
+- SIGPLAN's [code of conduct policy](/Resources/Policies/CodeOfConduct/)
 - SIGACCESS's [Guide to Creating a Conference Accessibility FAQ Page](http://www.sigaccess.org/welcome-to-sigaccess/resources/creating-a-conference-accessibility-faq-page/)
-- for a SIGPLAN-sponsored event, seek approval for the Program Committee from the SIGPLAN Vice-Chair, *before* sending invitations
-- consult with the conference Steering Committee before diverging from any existing conventions
-- make explicit in the Call for Papers that authors of accepted submissions are expected to transfer the copyright to the ACM
+- For a SIGPLAN-sponsored event, seek approval for the Program Committee
+  from the SIGPLAN Vice-Chair, *before* sending invitations 
+- Consult with the conference Steering Committee before diverging from any
+  existing conventions 
+- Make explicit in the Call for Papers that authors of accepted submissions
+  are expected to transfer the copyright to the ACM 
 
 Submission and Reviewing Policies
 ---------------------------------
 
-The Program Chair may not submit papers to the conference, and
-SIGPLAN Executive Committee recommends that
-the General Chair also not be allowed to submit papers. If
-Program Committee members are allowed to submit papers, their
-papers should be held to a higher standard, in order to avoid the appearance
-of impropriety. 
+The Program Chair may not submit papers to the conference, and SIGPLAN
+Executive Committee recommends that the General Chair also not be allowed to
+submit papers. If Program Committee members are allowed to submit papers,
+their papers should be held to a higher standard, in order to avoid the
+appearance of impropriety.
 
-Make all Program
-Committee members and reviewers aware of SIGPLAN's policies on
-[reviewing of conference paper submissions](/Resources/Policies/Review)
-and on
-[plagiarism](http://www.acm.org/publications/policies/plagiarism_policy).  
+The PC Chair should make all program committee members and reviewers aware
+of SIGPLAN's policies on
+[reviewing of conference paper submissions](/Resources/Policies/Review) and
+on [plagiarism](http://www.acm.org/publications/policies/plagiarism_policy).
 
-The conference steering committee should be consulted for any
-changes to the accepted way of organizing and running the
-conference.  
+The conference steering committee should be consulted for any changes to the
+accepted way of organizing and running the conference.
 
-You, the Program Chair, in consultation with the General Chair,
-should decide on any general policies relating to the program
-committee, such as:
+You, the Program Chair, in consultation with the General Chair, should
+decide on any general policies relating to the program committee, such as:
 
--   Will you have a physical PC meeting? If so,
-    when and where will it be held?
-    (SIGPLAN expects PC members
-    to participate fully in the PC meeting, except in unusual circumstances.)
--   Who pays for the travel expenses of the PC members?
--   Who pays for the conference registration of the PC members?
-    Typically, the PC member is responsible for all of his/her
-    expenses, including registration. If a decision is made to provide
-    funding for some/all of the members, these expenses must of course be
-    included in the budget.
+- Will you have a physical PC meeting? If so, when and where will it be
+  held?  (SIGPLAN expects PC members to participate fully in the PC meeting,
+  except in unusual circumstances.)
+- Who pays for the travel expenses of the PC members?
+- Who pays for the conference registration of the PC members?  Typically,
+  the PC member is responsible for all of his/her expenses, including
+  registration. If a decision is made to provide funding for some/all of the
+  members, these expenses must of course be included in the budget.
 
 The previous year's Program Chair for the same conference is a good
-resource; contact them for suggestions.  
+resource; contact them for suggestions.
 
 Program Committee
 -------------------
 
-With help from the General Chair, develop a list of potential
-Program Committee members. In formulating this list, be mindful
-of [SIGPLAN's diversity policy](/Resources/Policies/Diversity).
-Expect some people to decline
-the invitation, so have a list of alternates. 
+With help from the General Chair, develop a list of potential Program
+Committee members. In formulating this list, be mindful of
+[SIGPLAN's diversity policy](/Resources/Policies/Diversity).  Expect some
+people to decline the invitation, so have a list of alternates.
 
-Send the list (including the alternates) to the SIGPLAN Vice
-Chair for their comments and approval (one year prior to the meeting).
-Make arrangements for the Program Committee meeting: place, if
-physical, and time.  After SIGPLAN approval of PC members, invite the
-people on the list to serve. Explain what is expected of them,
-and any [policy decisions](/Resources/Policies/Review).  Give them the
-date for the PC meeting.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Send the list (including the alternates) to the SIGPLAN Vice Chair for their
+comments and approval (one year prior to the meeting).  Make arrangements
+for the Program Committee meeting: place (if physical) and time.  After
+SIGPLAN approval of PC members, invite the people on the list to
+serve. Explain what is expected of them, and any
+[policy decisions](/Resources/Policies/Review).  Give them the date for the
+PC meeting.
 
 Call for Papers
 ---------------
