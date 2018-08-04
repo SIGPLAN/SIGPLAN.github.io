@@ -65,11 +65,12 @@ people to decline the invitation, so have a list of alternates.
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-Send the list (including the alternates) to the SIGPLAN Vice Chair for their
-comments and approval (one year prior to the meeting).  Make arrangements
-for the Program Committee meeting: place (if physical) and time.  After
-SIGPLAN approval of PC members, invite the people on the list to
-serve. Explain what is expected of them, and any
+At least one year prior to the meeting, send the list (including the
+alternates) to the SIGPLAN Vice Chair for comments and approval by the
+SIGPLAN Executive Committee.  At the same time, make arrangements for the
+Program Committee meeting: place (if physical) and time.  After SIGPLAN
+approval of PC members, invite the people on the list to serve.  Explain
+what is expected of them, and any
 [policy decisions](/Resources/Policies/Review).  Give them the date for the
 PC meeting.
 
