@@ -20,8 +20,9 @@ please at least skim this page, paying particular attention to the following:
   from the SIGPLAN Vice-Chair, *before* sending invitations 
 - Consult with the conference Steering Committee before diverging from any
   existing conventions 
-- Make explicit in the Call for Papers that authors of accepted submissions
-  are expected to transfer the copyright to the ACM 
+- Make sure the Call for Papers makes potential authors aware of SIGPLAN's
+  [Copyright policies](https://authors.acm.org/main.html) (including, if
+  appropriate, the fact that these changed substantially in 2017).  
 
 Submission and Reviewing Policies
 ---------------------------------
@@ -63,16 +64,18 @@ Committee members. In formulating this list, be mindful of
 [SIGPLAN's diversity policy](/Resources/Policies/Diversity).  Expect some
 people to decline the invitation, so have a list of alternates.
 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
 At least one year prior to the meeting, send the list (including the
-alternates) to the SIGPLAN Vice Chair for comments and approval by the
-SIGPLAN Executive Committee.  At the same time, make arrangements for the
-Program Committee meeting: place (if physical) and time.  After SIGPLAN
-approval of PC members, invite the people on the list to serve.  Explain
-what is expected of them, and any
-[policy decisions](/Resources/Policies/Review).  Give them the date for the
-PC meeting.
+alternates, clearly marked as such) to the SIGPLAN Vice Chair for comments
+and approval by the SIGPLAN Executive Committee.  At the same time, make
+arrangements for the Program Committee meeting: location (if physical) and
+date(s).
+
+After SIGPLAN approval of PC members, invite the people on the list to
+serve.  Explain what is expected of them and any
+[policy decisions](/Resources/Policies/Review), and give them the date for
+the PC meeting.  If more people than expected decline and you run out of
+alternates, send the SIGPLAN Vice Chair another list of candidates for
+approval.
 
 Call for Papers
 ---------------
@@ -89,13 +92,13 @@ Once the conference web page is in place, establish a link to the page
 from the SIGPLAN conference page by contacting the SIGPLAN
 [Information Director](mailto:infodir_sigplan@acm.org?subject=Conference%20Information).
   
-If the proceedings will be published by ACM, declare explicitly in the
-call for papers that authors of accepted submissions are expected to
-transfer the copyright to the ACM. If presentations are to be videoed,
-mention that presenters must sign a permission form in order for the
-video to be released online.  Mention that publication of auxiliary
-material is encouraged, and note the associated copyright policy (see
-'Auxiliary material', below).
+If the proceedings will be published by ACM, declare explicitly in the call
+for papers that authors of accepted submissions will have several choices
+(summarized [here](https://authors.acm.org/main.html)) for how copyrights
+are handled. If presentations are to be videoed, mention that presenters
+must sign a permission form in order for the video to be released online.
+Mention that publication of auxiliary material is encouraged, and note the
+associated copyright policy (see 'Auxiliary material', below).
 
 The conference web page should include information about the various
 benefits offered by the [SIGPLAN Professional Activities
@@ -267,20 +270,15 @@ Auxiliary material may include:
 -   Source code for automated theorem provers
 -   Test data
 
-or anything else relevant. It is SIGPLAN policy to encourage
-authors to publish adequate auxiliary material to enable others to
-reproduce their work.
-Authors retain copyright of their auxiliary material, while
-copyright of the paper is normally assigned to ACM. Referees may
-examine auxiliary material, if it accompanies the submission, but
-this should not be considered part of the review process. There are
-two reasons for this: one is to reduce burden on referees; the
-other is that ACM requests the copyright to reviewed material, but
-ceding copyright to software or other auxiliary material may be
-problematic. 
-For an example of auxiliary material in the Digital Library, see
-[here](http://portal.acm.org/citation.cfm?doid=1462173.1462178) and
-click on "source materials".   
+or anything else relevant. It is SIGPLAN policy to encourage authors to
+publish adequate auxiliary material to enable others to reproduce their
+work.  Authors retain copyright of their auxiliary material, while copyright
+of the paper can be either assigned to ACM or held by the authors. Referees
+may examine auxiliary material, if it accompanies the submission, but this
+should not be considered part of the review process. For an example of
+auxiliary material in the Digital Library, see
+[here](http://portal.acm.org/citation.cfm?doid=1462173.1462178) and click on
+"source materials".
 
 Important Email Addresses
 -------------------------
