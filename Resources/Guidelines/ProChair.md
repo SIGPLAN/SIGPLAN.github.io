@@ -21,8 +21,7 @@ please at least skim this page, paying particular attention to the following:
 - Consult with the conference Steering Committee before diverging from any
   existing conventions 
 - Make sure the Call for Papers makes potential authors aware of SIGPLAN's
-  [Copyright policies](https://authors.acm.org/main.html) (including, if
-  appropriate, the fact that these changed substantially in 2017).  
+  [Copyright policies](https://authors.acm.org/main.html).  
 
 Submission and Reviewing Policies
 ---------------------------------
