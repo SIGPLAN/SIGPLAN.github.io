@@ -5,10 +5,10 @@ title: "Guidelines for the Program Chair of a SIGPLAN Event"
 Executive Summary
 -----------------
 
-You may be an experienced Program Chair, in which case much of
-the advice on this page may already be familiar to you. Nevertheless,
-even experienced chairs sometimes forget some important points, so
-please at least skim this page, paying particular attention to the following:
+You may be an experienced Program Chair, in which case much of the advice on
+this page may already be familiar to you. Nevertheless, even experienced
+chairs sometimes forget some important points, so please at least skim this
+page, paying particular attention to the following:
 
 - SIGPLAN's [conference policies](https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/edit?usp=sharing_)
 - SIGPLAN's [conference submission review policy](/Resources/Policies/Review) 
@@ -58,19 +58,22 @@ resource; contact them for suggestions.
 Program Committee
 -------------------
 
-With help from the General Chair, develop a list of potential Program
+In consultation with the General Chair, develop a list of potential Program
 Committee members. In formulating this list, be mindful of
-[SIGPLAN's diversity policy](/Resources/Policies/Diversity).  Expect some
-people to decline the invitation, so have a list of alternates.
+[SIGPLAN's diversity policy](/Resources/Policies/Diversity).  Also, expect
+some people to decline the invitation, so have a list of alternates.  The
+list should be finalized at least one year prior to the meeting.
 
-At least one year prior to the meeting, send the list (including the
-alternates, clearly marked as such) to the SIGPLAN Vice Chair for comments
-and approval by the SIGPLAN Executive Committee.  At the same time, make
-arrangements for the Program Committee meeting: location (if physical) and
-date(s).
+Download the
+[PC proposal template](/Resources/Guidelines/sigplan-pc-proposal-template.xlsx)
+spreadsheet and enter the requested information for your proposed PC members
+and alternates.  Send the completed spreadsheet to the SIGPLAN Vice Chair
+([vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org)) for comments and approval
+by the SIGPLAN Executive Committee.  At the same time, make arrangements for
+the Program Committee meeting: location (if physical) and date(s).
 
-After SIGPLAN approval of PC members, invite the people on the list to
-serve.  Explain what is expected of them and any
+After SIGPLAN approval is confirmed, invite the people on the list to serve.
+Explain what is expected of them and any
 [policy decisions](/Resources/Policies/Review), and give them the date for
 the PC meeting.  If more people than expected decline and you run out of
 alternates, send the SIGPLAN Vice Chair another list of candidates for
