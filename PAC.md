@@ -177,7 +177,7 @@ site: [here](http://pac.sigplan.org/).
 
 ## PAC Contact Person
 
-> [Gabriele Keller](mailto:keller@cse.unsw.edu.au)
+> [Jeff Foster](jfoster@cs.tufts.edu)
 
 
 ## FAQ: Travel Expenses and Reimbursements
