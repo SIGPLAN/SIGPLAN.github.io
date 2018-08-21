@@ -47,8 +47,6 @@ These are in addition to the benefits available with in-cooperation status:
   of such adverts should be arranged through ACM Headquarters. Please
   check CACM as to the lead time required. Discounts on ACM mailing
   lists are also available.
-- You will also have space reserved in _SIGPLAN Notices_ for the final report
-  summarizing the meeting.
 
 Responsibilities
 ----------------
@@ -99,16 +97,6 @@ Publication
     is to produce the proceedings as an ACM publication. However,
     alternative publishers are occasionally acceptable, usually for
     historical reasons.  
--   If you wish, _SIGPLAN Notices_ will consider publishing short
-    abstracts of the papers presented at the meeting. This option
-    requires negotiation with the 
-    [_SIGPLAN Notices_ editor](mailto:infodir_sigplan@acm.org),
-    at least six months in advance.  
--   Only SIGPLAN-sponsored conferences can have a proceedings
-    published as an issue of _SIGPLAN Notices_. A request must be made to the
-    [SIGPLAN Executive Committee](/ContactUs) for this. Note that
-    proceedings can be published by ACM and included in the ACM Digital
-    Library without appearing in _SIGPLAN Notices_.
 
 How to Apply
 ------------

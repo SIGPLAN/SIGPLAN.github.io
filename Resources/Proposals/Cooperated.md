@@ -37,8 +37,6 @@ In-cooperation status provides a number of benefits:
   of such adverts should be arranged through ACM Headquarters. Please
   check CACM as to the lead time required. Discounts on ACM mailing
   lists are also available.
-- You will also have space reserved in _SIGPLAN Notices_ for the final report
-  summarizing the meeting.
 
 Responsibilities
 ----------------
