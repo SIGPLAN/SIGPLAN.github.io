@@ -41,11 +41,14 @@ The conference steering committee should be consulted for any changes to the
 accepted way of organizing and running the conference.
 
 You, the Program Chair, in consultation with the General Chair, should
-decide on any general policies relating to the program committee, such as:
+decide on general policies relating to the program committee, such as:
 
-- Will you have a physical PC meeting? If so, when and where will it be
-  held?  (SIGPLAN expects PC members to participate fully in the PC meeting,
-  except in unusual circumstances.)
+- Will you have a physical PC meeting?  If so, when and where will it be
+  held?  If not, will the PC discussion be a "synchronous" teleconference or
+  an extended discussion over email or moderated by some conference
+  management platform?  (Whichever you choose, SIGPLAN expects all PC
+  members to participate fully in the PC meeting, except in unusual
+  circumstances.)
 - Who pays for the travel expenses of the PC members?
 - Who pays for the conference registration of the PC members?  Typically,
   the PC member is responsible for all of his/her expenses, including
@@ -69,8 +72,12 @@ Download the
 spreadsheet and enter the requested information for your proposed PC members
 and alternates.  Send the completed spreadsheet to the SIGPLAN Vice Chair
 ([vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org)) for comments and approval
-by the SIGPLAN Executive Committee.  At the same time, make arrangements for
-the Program Committee meeting: location (if physical) and date(s).
+by the SIGPLAN Executive Committee.  The approval process normally takes ten
+days to two weeks.
+
+At the same time, make plans for the Program Committee meeting, so that
+these can be communicated to potential PC members when you invite them:
+choose the location (if physical) and finalize the date(s).
 
 After SIGPLAN approval is confirmed, invite the people on the list to serve.
 Explain what is expected of them and any
@@ -265,12 +272,12 @@ material as part of the publication process. (Some conferences also
 accept auxiliary material with submissions; this is an independent
 issue.)
 
-Auxiliary material may include:  
+Auxiliary material may include
 
--   A technical report with additional details
--   Source code for software
--   Source code for automated theorem provers
--   Test data
+-   a technical report with additional details
+-   source code for software
+-   proof scripts for automated theorem provers
+-   test data
 
 or anything else relevant. It is SIGPLAN policy to encourage authors to
 publish adequate auxiliary material to enable others to reproduce their
