@@ -83,7 +83,7 @@ After SIGPLAN approval is confirmed, invite the people on the list to serve.
 Explain what is expected of them and any
 [policy decisions](/Resources/Policies/Review), and give them the date for
 the PC meeting.  If more people than expected decline and you run out of
-alternates, send the SIGPLAN Vice Chair another list of candidates for
+alternates, send the SIGPLAN Vice Chair another set of candidates for
 approval.
 
 Call for Papers
