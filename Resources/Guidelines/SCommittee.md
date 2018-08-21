@@ -11,7 +11,7 @@ instance.
 Responsibilities of the SC
 --------------------------
 
-1.  To appoint the conference General Chair and Programme
+1.  To appoint the conference General Chair and Program
     Chair, after approval by the EC Chair and Vice-Chair.
 2.  To provide help and guidance to the General Chair in selecting
     the site and date and preparing the budget, in collaboration
@@ -36,7 +36,7 @@ SIGPLAN EC. These rules must include the following:
 1.  Composition of the SC: 
     the number of members serving, and the structure of the committee.
     (For example, the SC could be made up of the current
-    and previous two General Chairs and Programme Chairs.)
+    and previous two General Chairs and Program Chairs.)
 2.  Committee member rotation: how committee members are rotated 
     off the SC (how often, how many, and in
     what order).
