@@ -120,5 +120,5 @@ See Also
 [chair\_sigplan@acm.org](mailto:chair_sigplan@acm.org)  
 *SIGPLAN Vice Chair*:
 [vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org)  
-*Editor of _SIGPLAN Notices_*:
-[infodir_sigplan@acm.org](mailto:infodir_sigplan@acm.org)
+*SIGPLAN Information Director*:
+[infodir\_sigplan@acm.org](mailto:infodir_sigplan@acm.org?subject=Conference%20Information)
