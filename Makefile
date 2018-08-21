@@ -1,16 +1,16 @@
 
 .PHONY: build
-build: .bundle/config
+build: vendor/bundle
 	bundle exec jekyll build
 
 .PHONY: serve
-serve: .bundle/config
+serve: vendor/bundle
 	bundle exec jekyll serve
 
 .PHONY: update
-update: .bundle/config
+update: vendor/bundle
 	bundle update
 	bundle clean
 
-.bundle/config:
+vendor/bundle:
 	bundle install --path vendor/bundle
