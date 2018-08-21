@@ -7,11 +7,11 @@ DLS                 | Carl Friedrich Bolz   |
 GPCE                | Eelco Visser          |
 Haskell             | Koen Claessen         |
 ICFP                | Peter Thiemann        |
-ISMM                | Christoph Kirsch      |
+ISMM                | Hannes Payer          |
 LCTES               | Bruce Childers        |
 PEPM                | Oleg Kiselyov         | PEPM is not reprinted in SIGPLAN
 PLDI                | Kathleen Fisher       |
-POPL                | Roberto Giacobazzi    |
+POPL                | Giuseppe Castagna     |
 PPoPP               | Calin Cascaval        |
 SPLASH              | Antony Hosking        |
 VEE                 | Dilma da Silva        |

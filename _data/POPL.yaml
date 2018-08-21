@@ -1,3 +1,25 @@
+2018:
+- Awardee: Kohei Honda, Nobuko Yoshida, Marco Carbone
+  Other: |
+    (for 2008): _[Multiparty asynchronous session types](https://dl.acm.org/citation.cfm?doid=1328438.1328472)_
+  Citation: |
+    Session types are a type-based framework for codifying
+    communication structures and verifying protocols in concurrent,
+    message-passing programs.  Previously, session types could only
+    model binary (two-party) protocols.  This paper generalizes the
+    theory to the multiparty case with asynchronous communications,
+    preventing deadlock and communication errors in more sophisticated
+    communication protocols involving any number (two or more) of
+    participants.  The central idea was to introduce global types,
+    which describe multiparty conversations from a global perspective
+    and provide a means to check protocol compliance.  This work has
+    inspired numerous authors to build on its pioneering foundations
+    in the session types community and has initiated many applications
+    of multiparty session types in programming languages and tools. It
+    has also influenced other areas of research, such as software
+    contracts, runtime verification and hardware specifications.
+
+
 2017:
 - Awardee: Dachuan Yu, Ajay Chander, Nayeem Islam, Igor Serikov
   Other: |

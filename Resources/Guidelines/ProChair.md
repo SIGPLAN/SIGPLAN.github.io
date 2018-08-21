@@ -101,11 +101,24 @@ Once the conference web page is in place, establish a link to the page
 from the SIGPLAN conference page by contacting the SIGPLAN
 [Information Director](mailto:infodir_sigplan@acm.org?subject=Conference%20Information).
   
-If the proceedings will be published by ACM, declare explicitly in the call
-for papers that authors of accepted submissions will have several choices
-(summarized [here](https://authors.acm.org/main.html)) for how copyrights
-are handled. If presentations are to be videoed, mention that presenters
-must sign a permission form in order for the video to be released online.
+If the proceedings will be published by ACM, declare explicitly in the call for
+papers that authors of accepted submissions will be required to choose one of
+the following options: Author retains copyright of the work and grants ACM a
+non-exclusive permission-to-publish license (and, optionally, licenses the work
+with a [Creative Commons license](https://creativecommons.org)); Author retains
+copyright of the work and grants ACM an exclusive permssion-to-publish license;
+Author transfers copyright of the work to ACM.  For more information, please see
+[ACM Copyright
+Policy](http://www.acm.org/publications/policies/copyright-policy) and [ACM
+Author Rights](http://authors.acm.org/main.html).  Proceedings published by ACM
+as an issue of PACMPL are Gold Open Access and the PACMPL editorial board
+recommends the first option (author retains copyright of the work, licenses the
+work with a [Creative Commons license](https://creativecommons.org), and grants
+ACM a non-exclusive permission-to-publish license)
+
+If presentations are to be videoed, mention that presenters must sign a
+permission form in order for the video to be released online.
+
 Mention that publication of auxiliary material is encouraged, and note the
 associated copyright policy (see 'Auxiliary material', below).
 

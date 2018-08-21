@@ -71,10 +71,11 @@ SPLASH, shall each appoint a member to the Awards Committee. The
 committee shall also have the option to decline to make an award in
 a given year, if no suitable nominations are presented.
 
-At the discretion of the SIGPLAN Awards Committee, eligibility may be
-adjusted for special circumstances, such as, but not limited to,
-family leave or medical leave.  Questions about eligibility should be
-directed to the Secretary of SIGPLAN.
+At the discretion of the SIGPLAN Awards Committee, the 20-year
+eligibility may be adjusted for special circumstances, such as, but
+not limited to family leave, medical leave, or military service, that
+are documented and argued in the nomination.  Questions about
+eligibility should be directed to the SIGPLAN Awards Chair in advance.
 
 #### Nominations
 

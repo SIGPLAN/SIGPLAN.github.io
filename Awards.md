@@ -25,6 +25,14 @@ Programming Languages Community. The award recognizes contributions
 to ACM SIGPLAN, its conferences, publications, or its local
 activities. The award includes a prize of $2,500.
 
+**Distinguished Educator Award**  
+The
+[Distinguished Educator Award](/Awards/Educator) is given by
+ACM SIGPLAN to recognize pedagogical contributions to
+Programming Languages at any educational level.  The award
+recognizes contributions in both innovative content and
+delivery. The award includes a prize of $2,500.
+
 **Programming Languages Software Award**  
 The
 [Programming Languages Software Award](/Awards/Software) is
@@ -66,7 +74,7 @@ respective conference.
 -   [Most Influential OOPSLA Paper](/Awards/OOPSLA)
 
 **ACM Fellows**  
-The programming language community has many members who are
-[ACM Fellows](http://fellows.acm.org/). Click
+The programming language community has many members who are [ACM
+Fellows](https://awards.acm.org/fellows). Click
 [here](/Awards/ACMFellows) for a list of ACM Fellows who have made
 contributions to the field of programming languages.
