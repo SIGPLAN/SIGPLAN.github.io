@@ -67,9 +67,9 @@ Committee members. In formulating this list, be mindful of
 some people to decline the invitation, so have a list of alternates.  The
 list should be finalized at least one year prior to the meeting.
 
-Download the
-[PC proposal template](/Resources/Guidelines/sigplan-pc-proposal-template.xlsx)
-spreadsheet and enter the requested information for your proposed PC members
+Download the [PC proposal
+spreadsheet](/Resources/Guidelines/sigplan-pc-proposal-template.xlsx)
+template and enter the requested information for your proposed PC members
 and alternates.  Send the completed spreadsheet to the SIGPLAN Vice Chair
 ([vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org)) for comments and approval
 by the SIGPLAN Executive Committee.  The approval process normally takes ten
