@@ -177,7 +177,7 @@ site: [here](http://pac.sigplan.org/).
 
 ## PAC Contact Person
 
-> [Jeff Foster](jfoster@cs.tufts.edu)
+> [Jeff Foster](mailto:jfoster@cs.tufts.edu)
 
 
 ## FAQ: Travel Expenses and Reimbursements
