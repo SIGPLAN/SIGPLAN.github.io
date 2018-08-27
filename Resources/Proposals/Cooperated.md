@@ -32,13 +32,12 @@ In-cooperation status provides a number of benefits:
   SIGPLAN's mailing list. (Contact
   [infodir\_sigplan@acm.org](mailto:infodir_sigplan@acm.org?subject=SIGPLAN%20Mailing%20List).)
 - You will get entries in the _Call for Papers_
-  and _Professional Calendar_ sections of _Communications of the ACM_, free of charge.
-- You can also buy an advert in _CACM_ at a special rate. All placement
-  of such adverts should be arranged through ACM Headquarters. Please
+  and _Professional Calendar_ sections of _Communications of the ACM_, free
+  of charge. 
+- You can buy an advertisement in _CACM_ at a special rate. All placement
+  of such advertisements should be arranged through ACM Headquarters. Please
   check CACM as to the lead time required. Discounts on ACM mailing
   lists are also available.
-- You will also have space reserved in _SIGPLAN Notices_ for the final report
-  summarizing the meeting.
 
 Responsibilities
 ----------------
@@ -111,7 +110,6 @@ Manual](http://www.acm.org/sigs/volunteer_resources/conference_manual/incoop).
 ACM will inform you of their official approval decision within 
 two weeks of receiving this information.
 If you have questions, contact the ACM ([incoop@acm.org](mailto:incoop@acm.org)).
-
 
 See Also
 --------
