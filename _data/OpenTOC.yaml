@@ -226,7 +226,12 @@
   event: ICFP
   year: 2017
   title: "Proceedings of the 22nd ACM SIGPLAN International Conference on Functional Programming"
-  link: http://dl.acm.org/citation.cfm?id=3136534
+  link: https://dl.acm.org/citation.cfm?id=3136534
+-
+  event: ICFP
+  year: 2018
+  title: "Proceedings of the 23rd ACM SIGPLAN International Conference on Functional Programming"
+  link: https://dl.acm.org/citation.cfm?id=3243631
 -
   event: ISMM
   year: 2014
