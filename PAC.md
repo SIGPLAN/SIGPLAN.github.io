@@ -20,8 +20,9 @@ applications for the following activities:
 
 > -   A one-year SIGPLAN membership for ACM students that are
 >     currently not SIGPLAN members.
-> -   Registration fees and shared accommodation expenses for student
->     attendance at a [SIGPLAN sponsored conference](/Conferences)
+> -   Travel expenses (including airfare, shared accommodation, taxi/cab/shuttle, 
+>     meals (only if not provided by the event), registration, mileage, and parking) 
+>     at a [SIGPLAN sponsored conference](/Conferences)
 >     where the applicant is to present a paper, is co-author of a paper
 >     on the program, or is participating in a student poster session.
 >     **PAC expects institutions to share costs in the funding of students.**
