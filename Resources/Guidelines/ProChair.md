@@ -7,8 +7,8 @@ Executive Summary
 
 You may be an experienced Program Chair, in which case much of the advice on
 this page may already be familiar to you. Nevertheless, even experienced
-chairs sometimes forget some important points, so please at least skim this
-page, paying particular attention to the following:
+chairs sometimes forget some important points, so please at least skim the
+rest of this page and the following others:
 
 - SIGPLAN's [conference policies](https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/edit?usp=sharing_)
 - SIGPLAN's [conference submission review policy](/Resources/Policies/Review) 
@@ -26,7 +26,7 @@ page, paying particular attention to the following:
 Submission and Reviewing Policies
 ---------------------------------
 
-The Program Chair may not submit papers to the conference, and SIGPLAN
+The Program Chair may not submit papers to the conference; SIGPLAN's
 Executive Committee recommends that the General Chair also not be allowed to
 submit papers. If Program Committee members are allowed to submit papers,
 their papers should be held to a higher standard, in order to avoid the
@@ -62,10 +62,10 @@ Program Committee
 -------------------
 
 In consultation with the General Chair, develop a list of potential Program
-Committee members. In formulating this list, be mindful of
-[SIGPLAN's diversity policy](/Resources/Policies/Diversity).  Also, expect
-some people to decline the invitation, so have a list of alternates.  The
-list should be finalized at least one year prior to the meeting.
+Committee members. In formulating this list, be mindful of [SIGPLAN's
+diversity policy](/Resources/Policies/Diversity).  Also, some people will
+decline the invitation, so your list should includes sufficient alternates.
+The list should be finalized at least one year prior to the meeting.
 
 Download the [PC proposal
 spreadsheet](/Resources/Guidelines/sigplan-pc-proposal-template.xlsx)
@@ -80,7 +80,7 @@ these can be communicated to potential PC members when you invite them:
 choose the location (if physical) and finalize the date(s).
 
 After SIGPLAN approval is confirmed, invite the people on the list to serve.
-Explain what is expected of them and any
+Explain what is expected of them and any relevant
 [policy decisions](/Resources/Policies/Review), and give them the date for
 the PC meeting.  If more people than expected decline and you run out of
 alternates, send the SIGPLAN Vice Chair another set of candidates for
@@ -132,7 +132,7 @@ care-provider in order to attend.
 Author Response
 ---------------
 
-Many SIGPLAN conferences have included author response as part of
+Many SIGPLAN conferences have included author response mecbhanisms as part of
 the paper review process, and the general feedback concerning author
 response has been positive (see
 [Experiences with Author Response at PLDI and ICFP 2004](http://portalparts.acm.org/1060000/1052883/fm/frontmatter.pdf),
@@ -152,7 +152,7 @@ author feedback, and double-blind reviewing.
   
 Some advice: Many systems make it easy to include ratings on a
 large number of different scales, but please don't do this. Most
-experienced PC chairs use only two scales, an overall rating and an
+PC chairs use only two scales: an overall rating and an
 expertise rating. It also works best to have just two or three text
 fields: one for a summary of the paper (this is optional), one for
 comments for both the PC and the authors, and one for comments to
@@ -163,12 +163,16 @@ For more details see:
 [Conferences with improved management and style](http://portalparts.acm.org/1140000/1137933/fm/frontmatter.pdf),
 Philip Wadler, _SIGPLAN Notices_, Feb. 2006.
 
+[comment]: # (BCP) Some of the above may be outdated, now that HotCRP is standard
+
 Before papers are received, develop an evaluation procedure. Send
 submitted papers and a description of the evaluation procedure to
 the PC members.
 
 PC Meeting
 ----------
+
+[comment]: # (BCP) This applies only to physical PC meetings, which are no longer universal
 
 Before the PC meeting,
 decide on any policies that should be in effect, such as:
@@ -204,6 +208,8 @@ for reimbursement.
 
 After the PC Meeting
 --------------------
+
+[comment]: # (BCP) Some of this may be out of date now that some conferences are on PACMPL
 
 Send acceptance and rejection letters as soon as possible after the PC
 meeting. Authors using LaTeX should be directed to the [template
@@ -302,6 +308,8 @@ auxiliary material in the Digital Library, see
 [here](http://portal.acm.org/citation.cfm?doid=1462173.1462178) and click on
 "source materials".
 
+[comment]: # (BCP) Some of that may need updating for newer artifact evaluation procedures
+
 Important Email Addresses
 -------------------------
 
@@ -328,6 +336,8 @@ See Also
 
 Some columns containing useful advice for conference organizers have
 been published in _SIGPLAN Notices_ over the years:
+
+[comment]: # (BCP) Somewhat dated:
 
 - [Experiences with Author Response at PLDI and ICFP 2004](http://portalparts.acm.org/1060000/1052883/fm/frontmatter.pdf), Kathleen Fisher and Craig Chambers, (*SIGPLAN Notices*, Dec. 2004)
 - [Conferences with improved management and style](http://portalparts.acm.org/1140000/1137933/fm/frontmatter.pdf), Philip Wadler (*SIGPLAN Notices*, Feb. 2006)
