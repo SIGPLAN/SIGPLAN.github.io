@@ -172,16 +172,19 @@ If an event is granted ongoing sponsored status, then:
     selected individuals;
 -   approval still needs to be sought from ACM via their TMRF for each event,
     as explained above;
--   the Program Chair of each event must obtain
-    approval for Program Committee members from the SIGPLAN EC, prior
-    to inviting the selected individuals, and the selection must conform to
+-   the Program Chair of each event must obtain approval for Program Committee
+    members (by submitting a completed
+    [PC proposal 
+    spreadsheet](/Resources/Guidelines/sigplan-pc-proposal-template.xlsx))
+    from the SIGPLAN EC prior to inviting the selected individuals, and the
+    selection must conform to
     [SIGPLAN's Diversity Policy](/Resources/Policies/Diversity);
 -   the General Chair of each event must provide the SIGPLAN Vice
     Chair with a post-event report;
 -   the Steering Committee must contact the SIGPLAN Vice Chair when
     the composition or chair of the SC changes.  
 
-See Also
+Contacts
 --------
 
 _SIGPLAN Chair_:

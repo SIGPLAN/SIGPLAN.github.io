@@ -30,7 +30,7 @@ Steering Committee Bylaws
 -------------------------
 
 The SC operates under a set of rules, which must be
-established by the initial steering committee and approved by
+established by the initial steering committee and approved by the
 SIGPLAN EC. These rules must include the following:
 
 1.  Composition of the SC: 
