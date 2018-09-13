@@ -57,7 +57,7 @@ committees of their own.
 Approval and Call for Papers
 ----------------------------
 
-[comment]: # (BCP) How does a GC know whether their conference is part of a series which already has approval for ongoing sponsorship??
+<!--- (BCP) How does a GC know whether their conference is part of a series which already has approval for ongoing sponsorship?? --->
 
 Develop a timeline, at least eighteen months in advance of the conference date.
 Unless the conference is part of a series which already has approval
@@ -103,7 +103,7 @@ arrangements chair, publicity chair, publications chair, tutorial
 chair, etc). Send the names to the SIGPLAN Chair and Vice-Chair,
 one year before the event.
 
-[comment]: # (BCP) Do the chair and vice chair have to approve the names, or is this just FYI?
+<!--- (BCP) Do the chair and vice chair have to approve the names, or is this just FYI? --->
 
 Local arrangements (such as registration and hotel management) for the
 main SIGPLAN conferences PLDI, OOPSLA, POPL, and ICFP are usually
@@ -178,7 +178,7 @@ handed out at the on-site conference registration.
 Post-event Reporting
 --------------------
 
-[comment]: # (BCP) Does anybody actually do this?  Not much point in having a rule if it's universally ignored...
+<!--- (BCP) Does anybody actually do this?  Not much point in having a rule if it's universally ignored... --->
 
 Send a report at the end of the conference to the SIGPLAN 
 Vice-Chair. The report should include information about any

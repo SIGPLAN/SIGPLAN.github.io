@@ -163,7 +163,7 @@ For more details see:
 [Conferences with improved management and style](http://portalparts.acm.org/1140000/1137933/fm/frontmatter.pdf),
 Philip Wadler, _SIGPLAN Notices_, Feb. 2006.
 
-[comment]: # (BCP) Some of the above may be outdated, now that HotCRP is standard
+<!--- (BCP) Some of the above may be outdated, now that HotCRP is standard --->
 
 Before papers are received, develop an evaluation procedure. Send
 submitted papers and a description of the evaluation procedure to
@@ -172,7 +172,7 @@ the PC members.
 PC Meeting
 ----------
 
-[comment]: # (BCP) This applies only to physical PC meetings, which are no longer universal
+<!--- (BCP) This applies only to physical PC meetings, which are no longer universal --->
 
 Before the PC meeting,
 decide on any policies that should be in effect, such as:
@@ -209,7 +209,7 @@ for reimbursement.
 After the PC Meeting
 --------------------
 
-[comment]: # (BCP) Some of this may be out of date now that some conferences are on PACMPL
+<!--- (BCP) Some of this may be out of date now that some conferences are on PACMPL --->
 
 Send acceptance and rejection letters as soon as possible after the PC
 meeting. Authors using LaTeX should be directed to the [template
@@ -308,7 +308,7 @@ auxiliary material in the Digital Library, see
 [here](http://portal.acm.org/citation.cfm?doid=1462173.1462178) and click on
 "source materials".
 
-[comment]: # (BCP) Some of that may need updating for newer artifact evaluation procedures
+<!--- (BCP) Some of that may need updating for newer artifact evaluation procedures --->
 
 Important Email Addresses
 -------------------------
@@ -337,7 +337,7 @@ See Also
 Some columns containing useful advice for conference organizers have
 been published in _SIGPLAN Notices_ over the years:
 
-[comment]: # (BCP) Somewhat dated:
+<!--- (BCP) Somewhat dated: --->
 
 - [Experiences with Author Response at PLDI and ICFP 2004](http://portalparts.acm.org/1060000/1052883/fm/frontmatter.pdf), Kathleen Fisher and Craig Chambers, (*SIGPLAN Notices*, Dec. 2004)
 - [Conferences with improved management and style](http://portalparts.acm.org/1140000/1137933/fm/frontmatter.pdf), Philip Wadler (*SIGPLAN Notices*, Feb. 2006)
