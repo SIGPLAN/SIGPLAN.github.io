@@ -151,9 +151,14 @@ Satellite Events
 ----------------
 
 Co-located conferences or workshops make your event more attractive to
-participants.  Consider appointing a workshop chair to coordinate
-them. Establish a deadline for submission of workshop proposals. You
-should contact chairs of co-located events and plan the common advance
+participants.  Establish a deadline for submission of workshop
+proposals. Consider appointing a workshop chair to coordinate them.  (Make
+sure that whoever is handling this task -- whether you or a workshop chair
+-- has a conversation early in the process with the [SIGPLAN Vice
+Chair](mailto:vc_sigplan@acm.org?subject=Workshops) to get clear on
+SIGPLAN's expectations for how workshop PCs are formed and vetted.)
+
+You should contact chairs of co-located events and plan the common advance
 program, joint technical sessions, joint social events, etc. You
 should consider workshops on "hot" topics. Have the workshop chairs
 submit a proposal to the SIGPLAN Vice-Chair, as specified in the
