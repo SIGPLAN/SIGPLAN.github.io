@@ -107,8 +107,12 @@ The primary decision you need to make is whether your workshop should be
 above. If you intend for submissions to be polished papers, lodged in the DL
 for posterity, and permanently citable, you should go the "SIGPLAN-approved"
 route; you will need to select a Program Committee (paying attention to
-SIGPLAN's [Diversity Policy](/Resources/Policies/Diversity)), have it
-approved by the SIGPLAN Executive Committee, distribute a call for papers,
+SIGPLAN's [Diversity Policy](/Resources/Policies/Diversity)), Download the [PC proposal
+spreadsheet](/Resources/Guidelines/sigplan-pc-proposal-template.xlsx)
+template and enter the requested information for your proposed PC members
+and alternates, send the completed spreadsheet to the SIGPLAN Vice Chair
+([vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org)) for comments and approval
+by the SIGPLAN Executive Committee, distribute a call for papers,
 review submissions, and so on. If instead you want to attract work in
 progress and do not want to discourage authors from submitting substantially
 the same work as a full paper elsewhere, then you might go the
