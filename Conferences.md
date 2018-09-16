@@ -2,20 +2,23 @@
 layout: default
 title: "SIGPLAN Conferences"
 ---
-SIGPLAN [sponsors](/Resources/Proposals/Sponsored) or co-sponsors
-the premier conferences in the area of programming language
-research, providing the opportunity for researchers, developers,
-practitioners, and students to present the latest research
-advances. The conferences listed on this page are sponsored by
-SIGPLAN.
-ACM maintains a
+SIGPLAN organizes the
+premier conferences and workshops in the area of programming language
+research, providing opportunities for researchers, developers,
+practitioners, and students to present their latest research
+advances.  
+
+- ACM's 
 [master conference calendar](http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN)
 for SIGPLAN.
-
-SIGPLAN also supports conferences through
-[in-cooperation](/Resources/Proposals/Cooperated) status.
+- Information for [conference organizers](/Resources/Guidelines/ConferenceOrganizers) 
 
 * * * * *
+
+<!--- (BCP) Is this the correct list of "regularly sponsored" conferences? 
+      (E.g., should CGO be included?) --->
+
+The conferences listed below are regularly sponsored by SIGPLAN.
 
 **Principles of Programming Languages ([POPL](/Conferences/POPL))**  
 Principles of Programming Languages is the premier forum for the
