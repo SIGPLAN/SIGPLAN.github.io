@@ -1,0 +1,158 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>Erlang 2018- Proceedings of the 17th ACM SIGPLAN International Workshop on Erlang</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>Erlang 2018- Proceedings of the 17th ACM SIGPLAN International Workshop on Erlang</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3239332" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667412" title="Get the Full Text from the ACM Digital Library">iDeA: an immersive debugger for actors</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Aman Shankar Mathur</li>
+<li class="nameList">Burcu Kulahcioglu Ozkan</li>
+<li class="nameList Last">Rupak Majumdar</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present iDeA, an immersive user interface for debugging concurrent actor programs communicating through asynchronous message passing. iDeA is based on the hypothesis that debugging and understanding actor programs is a cognitive task which can be greatly facilitated by the visualization and interaction capabilities of modern immersive environments. The fundamental abstraction for visualization in iDeA is a concurrent trace: a partially ordered sequence of asynchronous messages exchanged in the execution. iDeA provides a 3D interface in virtual reality for users to visualize and manipulate program traces: users can set breakpoints, query actor state, step through traces forward and backward, and perform causal history of messages in a trace. </p> <p> While the modularity of iDeA enables debugging any actor program provided that the program events are collected and communicated to the visualization end, our implementation of iDeA targets actor programs written in Akka framework in Scala.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667413" title="Get the Full Text from the ACM Digital Library">Understanding formal specifications through good examples</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Alex Gerdes</li>
+<li class="nameList">John Hughes</li>
+<li class="nameList">Nicholas Smallbone</li>
+<li class="nameList">Stefan Hanenberg</li>
+<li class="nameList">Sebastian Ivarsson</li>
+<li class="nameList Last">Meng Wang</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Formal specifications of software applications are hard to understand, even for domain experts. Because a formal specification is abstract, reading it does not immediately convey the expected behaviour of the software. Carefully chosen examples of the software&#8217;s behaviour, on the other hand, are concrete and easy to understand&#8212;but poorly-chosen examples are more confusing than helpful. In order to understand formal specifications, software developers need <em>good examples</em>. </p> <p>We have created a method that automatically derives a suite of good examples from a formal specification. Each example is judged by our method to illustrate one feature of the specification. The generated examples give users a good understanding of the behaviour of the software. We evaluated our method by measuring how well students understood an API when given different sets of examples; the students given our examples showed significantly better understanding.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667414" title="Get the Full Text from the ACM Digital Library">Modelling distributed Erlang within a single node</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Stavros Aronis</li>
+<li class="nameList">Vikt&#243;ria F&#246;rd&#337;s</li>
+<li class="nameList Last">D&#225;niel Szoboszlay</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This paper was motivated by a challenge we faced while re-architecting a critical component in Klarna&#39;s software stack. We wanted to increase our confidence about correctness aspects of a new distributed algorithm, developed for an Erlang system at the very core of Klarna&#39;s business. Reasoning about the correctness of concurrent Erlang systems is a difficult task, but tools exist that can help, for instance, Concuerror. However, our algorithm was intimately linked to distributed Erlang&#39;s behaviours, which are not supported by Concuerror. The solution we came up with was to design and implement vnet, a modelling library which can be used to simulate the behaviour of distributed Erlang nodes within a single Erlang node. We discuss aspects of vnet showing its capabilities and limitations. We also report on two case studies, showing how vnet can be used to prototype, test and verify simple and advanced distributed Erlang systems. We finally demonstrate that we were able to find errors and verify properties in the systems of our case studies, using Concuerror.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667425" title="Get the Full Text from the ACM Digital Library">Automatic detection of core Erlang message passing errors</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Joseph Harrison</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Erlang&#39;s powerful communication model allows us to build high-level concurrent systems. These can, however, harbour subtle communication errors less severe than global deadlock or crashes: messages never received can degrade performance and consume swaths of memory. We believe that some of these errors can be quickly detected with static analysis. We have built a prototype tool which operates at the Core Erlang level to assist identification of some of these errors. </p> <p> We present a fragment of Erlang&#39;s type system as a subtyping relation, following up with type inference functions for a portion of Core Erlang&#39;s patterns, guards, and message syntax. The implementation of the prototype is detailed, noting specific behaviours of the Erlang compiler and nuances of Core Erlang&#39;s syntax along the way, some of which complicate our analysis. </p> <p> Although our tool is at a very early stage of development, we show examples of the errors we can identify, despite using a considerable over-approximation in our type inference system. After comparing our tool to other work in the Erlang community and beyond, we reflect on the current state of the prototype, before considering further applications of our concept of message compatibility.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667426" title="Get the Full Text from the ACM Digital Library">Typing the wild in Erlang</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Nachiappan Valliappan</li>
+<li class="nameList Last">John Hughes</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Developing a static type system suitable for Erlang has been of ongoing interest for almost two decades now. The challenge with retrofitting a static type system onto a dynamically typed language, such as Erlang, is the loss of flexibility in programming offered by the language. In light of this, many attempts to type Erlang trade sound type checking for the ability to retain flexibility. Hence, simple type errors which would be caught by the type checker of a statically typed language are easily missed in these developments. This has us wishing for a way to avoid such errors in Erlang programs. </p> <p> In this paper, we develop a static type system for Erlang which strives to remain sound without being too restrictive. Our type system is based on Hindley-Milner type inference, however it---unlike contemporary implementations of Hindley-Milner---is flexible enough to allow overloading of data constructors, branches of different types etc. Further, to allow Erlang&#39;s dynamic type behaviour, we employ a program specialization technique called partial evaluation. Partial evaluation simplifies programs prior to type checking, and hence enables the type system to type such behaviour under certain restricted circumstances.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667427" title="Get the Full Text from the ACM Digital Library">Modeling Erlang processes as Petri nets</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">J&#246;rgen Brandt</li>
+<li class="nameList Last">Wolfgang Reisig</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Distributed systems are more important in systems design than ever. Partitioning systems into independent, distributed components has many advantages but also brings about design challenges. The OTP framework addresses such challenges by providing process templates that separate application-dependent from application-specific logic. This way the OTP framework hosts a variety of modeling techniques, e.g., finite state machines. </p> <p> Petri nets are a modeling technique especially suited for distributed systems. We introduce gen_pnet, a behavior for designing Erlang processes as Petri nets. We give a short introduction to Petri net semantics and demonstrate how Erlang applications can be modeled as Petri nets. Furthermore, we discuss two Erlang applications modeled and implemented as Petri nets. For both applications we introduce a Petri net model and discuss design challenges.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667428" title="Get the Full Text from the ACM Digital Library">Towards secure Erlang systems</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Alexandre Jorge Barbosa Rodrigues</li>
+<li class="nameList Last">Vikt&#243;ria F&#246;rd&#337;s</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>At Klarna we handle customer&#39;s data with utmost care since we believe protecting data is one of the most basic obligations of any companies. Achieving our goal requires more effort since the Erlang ecosystem was designed for private networks where the concern about malicious users performing attacks was not given relevance. Therefore, every day we also put on our security hat to develop and review code changes going into production. In this paper, we show the challenges that today&#39;s Erlang systems are faced with and explain why all Erlang developers and operators must have a security aware mindset.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

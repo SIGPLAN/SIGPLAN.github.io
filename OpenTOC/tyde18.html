@@ -1,0 +1,156 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>TyDe 2018- Proceedings of the 3rd ACM SIGPLAN International Workshop on Type-Driven Development</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>TyDe 2018- Proceedings of the 3rd ACM SIGPLAN International Workshop on Type-Driven Development</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3240719" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667431" title="Get the Full Text from the ACM Digital Library">Authenticated modular maps in Haskell</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Victor Cacciari Miraldo</li>
+<li class="nameList">Harold Carr</li>
+<li class="nameList">Alex Kogan</li>
+<li class="nameList">Mark Moir</li>
+<li class="nameList Last">Maurice Herlihy</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present hamm, a Haskell library that enables programmers to easily configure authenticated map (key-value store) implementations. We use type level programming techniques to establish an extensible foundation, and provide an example base map and several example &#8220;add on&#8221; transformers supporting features such as caches, Bloom filters and paging structures. Another add-on enables a <em>prover</em> to provide&#8212;and a <em>verifier</em> to verify&#8212;a &#8220;summary&#8221; containing only a small subset of the map&#8217;s data, and a verifier to receive and verify additional data only if needed. Preliminary performance results demonstrate significant potential for authenticated maps configured using hamm to support our goal of enabling participants to join blockchain networks faster.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667432" title="Get the Full Text from the ACM Digital Library">Typing, representing, and abstracting control: functional pearl</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Philipp Schuster</li>
+<li class="nameList Last">Jonathan Immanuel Brachth&#228;user</li>
+
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>A well known technique to implement programming languages with delimited control operators <i>shift</i> and <i>reset</i> is to translate programs into continuation passing style (CPS). We can iterate the CPS translation to obtain the CPS hierarchy and to implement a family of control operators <i>shift</i><sub><i>i</i></sub> and <i>reset</i><sub><i>i</i></sub>. This functional pearl retells the story of a family of delimited control operators and their translation to lambda calculus via the CPS hierarchy. Prior work on the CPS hierarchy fixes a level of <i>n</i> control operators for the entire program upfront, but we allow different parts of the program to live at different levels. It turns out that taking <i>shift</i>0 rather than <i>shift</i> as the basis for the family of control operators is essential for this. Our source language is a typed embedding in the dependently typed language Idris. Our target language is a HOAS embedding in Idris. The translation avoids administrative beta- and eta-redexes at all levels of the CPS hierarchy, by iterating well-known techniques for the non-iterated CPS translation.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667433" title="Get the Full Text from the ACM Digital Library">Implementing resource-aware safe assembly for kernel probes as a dependently-typed DSL</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ilya Yanok</li>
+<li class="nameList Last">Nathaniel Nystrom</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present construction of resource-aware safe typed assembly language as an EDSL in dependently-typed Idris language. We use this assembly language to compile Linux kernel <i>probes</i> &#8212; small pieces of instrumentation code injected directly into the kernel and thus having to satisfy strict safety properties. We believe that the techniques presented can be generally applied to embedding a typed assembly language into a functional language with dependent types.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667434" title="Get the Full Text from the ACM Digital Library">Extensible type-directed editing</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Joomy Korkut</li>
+<li class="nameList Last">David Thrane Christiansen</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Dependently typed programming languages, such as Idris and Agda, feature rich interactive environments that use informative types to assist users with the construction of programs. However, these environments have been provided by the authors of the language, and users have not had an easy way to extend and customize them. We address this problem by extending Idris&#39;s metaprogramming facilities with primitives for describing new type-directed editing features, making Idris&#39;s editors as extensible as its elaborator.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667445" title="Get the Full Text from the ACM Digital Library">First class dynamic effect handlers: or, polymorphic heaps with dynamic effect handlers</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Daan Leijen</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Algebraic effect handlers are a powerful abstraction mechanism that can express many complex control-flow mechanisms. This article extends basic algebraic effect handlers with first class dynamic effects. Dynamic effects add a lot more expressiveness but surprisingly only need minimal changes to the original semantics. As such, dynamic effects are a powerful abstraction but can still be understood and reasoned about as regular effect handlers. We illustrate the expressiveness of dynamic effects with first class event streams in CorrL and also model full polymorphic heap references without requiring any further primitives.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667446" title="Get the Full Text from the ACM Digital Library">Sums of products for mutually recursive datatypes: the appropriationist&#8217;s view on generic programming</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Victor Cacciari Miraldo</li>
+<li class="nameList Last">Alejandro Serrano</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Generic programming for mutually recursive families of datatypes is hard. On the other hand, most interesting abstract syntax trees are described by a mutually recursive family of datatypes. We could give up on using that mutually recursive structure, but then we lose the ability to use those generic operations which take advantage of that same structure. We present a new approach to generic programming that uses modern Haskell features to handle mutually recursive families with explicit <em>sum-of-products</em> structure. This additional structure allows us to remove much of the complexity previously associated with generic programming over these types.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667447" title="Get the Full Text from the ACM Digital Library">From algebra to abstract machine: a verified generic construction</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Carlos Tom&#233; Corti&#241;as</li>
+<li class="nameList Last">Wouter Swierstra</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Many functions over algebraic datatypes can be expressed in terms of a fold. Doing so, however, has one notable drawback: folds are not tail-recursive. As a result, a function defined in terms of a fold may raise a stack overflow when executed. This paper defines a datatype generic, tail-recursive higher-order function that is guaranteed to produce the same result as the fold. Doing so combines the compositional nature of folds and the performance benefits of a hand-written tail-recursive function in a single setting.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

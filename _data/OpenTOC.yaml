@@ -101,11 +101,11 @@
 -
   event: Erlang
   year: 2014
-  title: "Proceedings of the 13th International Workshop on Erlang"
+  title: "Proceedings of the 13th ACM SIGPLAN International Workshop on Erlang"
 -
   event: Erlang
   year: 2015
-  title: "Proceedings of the 14th International Workshop on Erlang"
+  title: "Proceedings of the 14th ACM SIGPLAN International Workshop on Erlang"
 -
   event: Erlang
   year: 2016
@@ -113,7 +113,11 @@
 -
   event: Erlang
   year: 2017
-  title: "Proceedings of the 16th International Workshop on Erlang"
+  title: "Proceedings of the 16th ACM SIGPLAN International Workshop on Erlang"
+-
+  event: Erlang
+  year: 2018
+  title: "Proceedings of the 17th ACM SIGPLAN International Workshop on Erlang"
 -
   event: ETX
   year: 2014
@@ -139,6 +143,10 @@
   year: 2017
   title: "Proceedings of the 5th ACM SIGPLAN International Workshop on Functional Art, Music, Modeling and Design"
 -
+  event: FARM
+  year: 2018
+  title: "Proceedings of the 6th ACM SIGPLAN International Workshop on Functional Art, Music, Modeling and Design"
+-
   event: FHPC
   year: 2014
   title: "Proceedings of the 3rd ACM SIGPLAN Workshop on Functional High-Performance Computing"
@@ -154,6 +162,10 @@
   event: FHPC
   year: 2017
   title: "Proceedings of the 6th ACM SIGPLAN Workshop on Functional High-Performance Computing"
+-
+  event: FHPC
+  year: 2018
+  title: "Proceedings of the 7th ACM SIGPLAN Workshop on Functional High-Performance Computing"
 -
   event: FMS
   year: 2018
@@ -210,6 +222,10 @@
   event: Haskell
   year: 2017
   title: "Proceedings of the 10th ACM SIGPLAN Symposium on Haskell"
+-
+  event: Haskell
+  year: 2018
+  title: "Proceedings of the 11th ACM SIGPLAN Symposium on Haskell"
 -
   event: ICFP
   year: 2014
@@ -491,6 +507,10 @@
   year: 2017
   title: "Proceedings of the 8th ACM SIGPLAN Symposium on Scala"
 -
+  event: SCALA
+  year: 2018
+  title: "Proceedings of the 9th ACM SIGPLAN Symposium on Scala"
+-
   event: SEPS
   year: 2015
   title: "Proceedings of the 2nd International Workshop on Software Engineering for Parallel Systems"
@@ -557,7 +577,11 @@
 -
   event: TyDe
   year: 2017
-  title: "Proceedings of the 2nd International Workshop on Type-Driven Development"
+  title: "Proceedings of the 2nd ACM SIGPLAN International Workshop on Type-Driven Development"
+-
+  event: TyDe
+  year: 2018
+  title: "Proceedings of the 3rd ACM SIGPLAN International Workshop on Type-Driven Development"
 -
   event: VEE
   year: 2014
