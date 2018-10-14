@@ -45,14 +45,19 @@ The current POPL steering committee is:
 
 **Principles of POPL**
  
-  * [Principles of POPL](http://dl.acm.org/citation.cfm?doid=2502508.2502517),
-    ACM SIGPLAN Notices - Supplemental issue,
-    Volume 48 Issue 4S, April 2013, pp 12-16.
+  * Up-to-date organizational and reviewing policies of POPL are exposed
+     in [Principles of POPL](/Conferences/POPL/Principles/).
+     An outdated version is also available in the ACM digital library,
+     [ACM SIGPLAN Notices - Supplemental issue, Volume 48 Issue 4S, April 2013,
+     pp 12-16]((http://dl.acm.org/citation.cfm?doid=2502508.2502517).
+
 
 ----
 
 **Web Pages of Previous Conferences**
 
+
+> [POPL 2018](http://conf.researchr.org/home/POPL-2018) (Los Angeles, CA)
 > [POPL 2017](http://conf.researchr.org/home/POPL-2017) (Paris, France)  
 > [POPL 2016](http://conf.researchr.org/home/POPL-2016) (St Petersburg, FL)  
 > [POPL 2015](http://popl.mpi-sws.org/2015/) (Mumbai, India)  
