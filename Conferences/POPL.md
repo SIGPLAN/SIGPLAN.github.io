@@ -56,7 +56,6 @@ The current POPL steering committee is:
 
 **Web Pages of Previous Conferences**
 
-
 > [POPL 2018](http://conf.researchr.org/home/POPL-2018) (Los Angeles, CA)
 > [POPL 2017](http://conf.researchr.org/home/POPL-2017) (Paris, France)  
 > [POPL 2016](http://conf.researchr.org/home/POPL-2016) (St Petersburg, FL)  
