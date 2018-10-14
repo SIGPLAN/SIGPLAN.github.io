@@ -11,10 +11,10 @@ systems, and programming interfaces. POPL is in-cooperation with
 
 **POPL Fast Facts**
 
-> [POPL 2018 Web Page](http://popl18.sigplan.org)  
-> Location: Los Angeles, CA  
-> General Chair: [Ranjit Jhala](http://ranjitjhala.github.io) (University of California, San Diego)  
-> Program Chair: [Andrew Myers](http://www.cs.cornell.edu/andru/) (Cornell University)  
+> [POPL 2019 Web Page](http://popl19.sigplan.org)  
+> Location: Cascais/Lisbon, Portugal  
+> General Chair: [Fritz Henglein](http://www.diku.dk/~henglein/)(University of Copenhagen, Denmark)
+> Program Chair: [Stephanie Weirich](https://www.cis.upenn.edu/~sweirich/)(University of Pennsylvania, USA)
 > Dates: January 8-13, 2018  
 
 **Most Influential POPL Paper Award**
