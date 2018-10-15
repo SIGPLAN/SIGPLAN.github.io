@@ -7,7 +7,7 @@ title: "SIGPLAN Resources"
 
 SIGPLAN, the premier programming languages organization, promotes awareness and advancement of research and practice in programming languages. SIGPLAN accomplishes its mission by sponsoring conferences and publishing newsletters. The SIG also serves as a coordinating body for the volunteers who wish to undertake projects to further the goals of the SIG.
 
-**Other WWW sites on Programming Languages**
+**Other Web Sites on Programming Languages**
 
 -   [Ada Programming Language SIG](http://www.acm.org/sigada)
 -   [Ada-Europe](http://www.ada-europe.org)

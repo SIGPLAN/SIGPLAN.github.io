@@ -19,34 +19,34 @@ primary difference between the two is that SIGPLAN takes financial
 responsibility for the events it sponsors, and accordingly requires 
 a close working relationship with the organizers of the event. This page
 describes sponsored status; a separate page describes
-[in-cooperation status](/Resources/Proposals/Cooperated).  
+[in-cooperation status](/Resources/Proposals/Cooperated).
 
 Benefits
 --------
 
 Sponsored status provides a number of benefits:
 
-- You can use the name "The ACM SIGPLAN Conference/Workshop on ..." for
-  the event.
+- You can use the name "The ACM SIGPLAN Conference / Workshop on ..." for
+  the event. <!--- BCP: What about "symposium? What about other permutations
+  of these words? --->
 - SIGPLAN takes financial responsibility for the event.
-- You have access to the [PAC Fund](/PAC)
-  to support participation in the event.
-- Any proceedings will automatically be published in the Digital Library.
+- You have access to the [PAC Fund](/PAC) to support participation in the event.
+- Your proceedings (if any) will automatically be published in the Digital Library.
 - ACM can provide help with site selection, including venue negotiations.
 - You will receive help and guidance in organizing the event,
-  including an instruction manual.
+  including an instruction manual.  <!--- BCP: Where is this instruction
+  manual? Why don't we just make it available to everybody and link it here? --->
 
 These are in addition to the benefits available with in-cooperation status:
 
 - Announcements about the meeting can be disseminated via
-  SIGPLAN's mailing list. (Contact
-  [infodir\_sigplan@acm.org](mailto:infodir_sigplan@acm.org?subject=SIGPLAN%20Mailing%20List).)
+  SIGPLAN's mailing list. (Contact [infodir\_sigplan@acm.org](mailto:infodir_sigplan@acm.org?subject=SIGPLAN%20Mailing%20List).)
 - You will get entries in the _Call for Papers_
   and _Professional Calendar_ sections of _Communications of the ACM_, free of charge.
-- You can also buy an advert in _CACM_ at a special rate. All placement
-  of such adverts should be arranged through ACM Headquarters. Please
-  check CACM as to the lead time required. Discounts on ACM mailing
-  lists are also available.
+- You can also buy an advertisement in _CACM_ at a special rate. Placement
+  of such advertisements should be arranged through ACM Headquarters. Please
+  check CACM as to the lead time required. Discounts on ACM mailing lists
+  are also available.
 
 Responsibilities
 ----------------
@@ -69,16 +69,8 @@ include the following:
   the [SIGPLAN Executive Committee](/ContactUs).
 - A final post-event report is required.  
 
-Sponsored events are encouraged to follow
-SIGPLAN policies and procedures, including the following:
-
-- [Diversity Policy](/Resources/Policies/Diversity)
-- [Conference Submission Review Policy](/Resources/Policies/Review)
-- [Republication Policy](/Resources/Policies/Republication)
-- [Guidelines for Steering Committee Formation/Management](/Resources/Guidelines/SCommittee)
-- [Guidelines for the General Chair](/Resources/Guidelines/GenChair)
-- [Guidelines for the Program Chair](/Resources/Guidelines/ProChair)
-- [Code of Conduct Policy](/Resources/Policies/CodeOfConduct/)
+Sponsored events should follow 
+SIGPLAN [policies and procedures](/Resources/Guidelines/ConferenceOrganizers).
 
 In addition, event organizers are encouraged to contact the ACM
 Headquarters ([incoop@acm.org](mailto:incoop@acm.org)), to have
@@ -165,23 +157,27 @@ committee composition and evolution, the method for selecting the
 chair, and the responsibilities of the committee; these rules must
 conform to [SIGPLAN guidelines for SCs](http://www.sigplan.org/Resources/Guidelines/SCommittee).
 
-If an event is granted ongoing sponsored status, then:
+If an event is granted ongoing sponsored status, then, for each instance of
+the event:
 
 -   the Steering Committee must obtain approval for General Chair and
-    Program Chair selections from the SIGPLAN EC, prior to inviting the
-    selected individuals;
--   approval still needs to be sought from ACM via their TMRF for each event,
+    Program Chair selections for each event from the SIGPLAN EC, prior to
+    inviting the selected individuals;
+-   approval must be sought from ACM via their TMRF for each event,
     as explained above;
--   the Program Chair of each event must obtain
-    approval for Program Committee members from the SIGPLAN EC, prior
-    to inviting the selected individuals, and the selection must conform to
+-   the Program Chair of each event must obtain approval for Program Committee
+    members (by submitting a completed
+    [PC proposal 
+    spreadsheet](/Resources/Guidelines/sigplan-pc-proposal-template.xlsx))
+    from the SIGPLAN EC prior to inviting the selected individuals, and the
+    selection must conform to
     [SIGPLAN's Diversity Policy](/Resources/Policies/Diversity);
 -   the General Chair of each event must provide the SIGPLAN Vice
     Chair with a post-event report;
 -   the Steering Committee must contact the SIGPLAN Vice Chair when
     the composition or chair of the SC changes.  
 
-See Also
+Contacts
 --------
 
 _SIGPLAN Chair_:
