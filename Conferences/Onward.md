@@ -30,7 +30,7 @@ Awards
         Programming Language" brought the idea of Live Programming
         into focus by examining the necessary mechanisms, developing a
         good running example, displaying a contrarian attitude, and
-        explaining it all with admirably clear writing..
+        explaining it all with admirably clear writing.
 
 -   Most Notable Paper Award 2016 for 2006
     -   Recipient: Friedrich Steimann
@@ -268,8 +268,8 @@ Steering Committee Members
 * Cristina Videira Lopes, University of California at Irvine, USA (Essays Chair 2016)
 * Gail Murphy, University of British Columbia, Canada (Papers Chair 2015, SPLASH General Chair 2017)
 * Emerson Murphy-Hill, North Carolina State University, USA (Papers Chair 2016)
+* Benjamin C. Pierce, University of Pennsylvania, USA (SIGPLAN)
 * Kevin Sullivan, University of Virginia, USA (Past SC Chair 2015)
-* Peter Thiemann, University of Freiburg, Germany (SIGPLAN)
 * Emina Torlak, University of Washington, USA (Papers Chair 2017)
 * Eelco Visser, Delft University of Technology, The Netherlands (Papers Chair 2011, SPLASH General Chair 2016)
 * Jan Vitek, Northeastern University, USA (SPLASH General Chair 2018)
@@ -291,3 +291,4 @@ Steering Committee Members
 * James Noble, Victoria University of Wellington, New Zealand
 * Dirk Riehle, Friedrich-Alexander-Universit&#228;t Erlangen-N&#252;rnberg, Germany
 * Guy L. Steele Jr., Oracle Labs, USA
+* Peter Thiemann, University of Freiburg, Germany (SIGPLAN)
