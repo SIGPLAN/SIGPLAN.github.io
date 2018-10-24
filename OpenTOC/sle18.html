@@ -1,0 +1,319 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>SLE 2018- Proceedings of the 11th ACM SIGPLAN International Conference on Software Language Engineering</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>SLE 2018- Proceedings of the 11th ACM SIGPLAN International Conference on Software Language Engineering</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3276604" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Keynote</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661806" title="Get the Full Text from the ACM Digital Library">A new approach for software correctness and reliability (keynote)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Martin C. Rinard</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Software correctness and security have been a central issue in the field for decades. Researchers have developed a wide range of approaches to these problems, none of which has solved these problems to date. </p> <p> In this talk I consider two very different approaches to solving correctness and security problems, failure-oblivious computing and domain-specific languages. I will discuss how these approaches (as well as others) interact with the cognitive limitations and available technical skills of the human population of software developers that currently must be part of any solution for it to be successful. I&#8217;ll conclude by outlining a new approach that, by deploying automated programming language technology in an appropriately targeted way, may interact more productively with the characteristics of the developer population as a whole.</p></div> </div>
+<h2>SESSION: Parsing</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661807" title="Get the Full Text from the ACM Digital Library">Declarative specification of indentation rules: a tooling perspective on parsing and pretty-printing layout-sensitive languages</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Lu&#237;s Eduardo de Souza Amorim</li>
+<li class="nameList">Michael J. Steindorfer</li>
+<li class="nameList">Sebastian Erdweg</li>
+<li class="nameList Last">Eelco Visser</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In layout-sensitive languages, the indentation of an expression or statement can influence how a program is parsed. While some of these languages (e.g., Haskell and Python) have been widely adopted, there is little support for software language engineers in building tools for layout-sensitive languages. As a result, parsers, pretty-printers, program analyses, and refactoring tools often need to be handwritten, which decreases the maintainability and extensibility of these tools. Even state-of-the-art language workbenches have little support for layout-sensitive languages, restricting the development and prototyping of such languages. </p> <p>In this paper, we introduce a novel approach to declarative specification of layout-sensitive languages using <em>layout declarations</em>. Layout declarations are high-level specifications of indentation rules that abstract from low-level technicalities. We show how to derive an efficient layout-sensitive generalized parser and a corresponding pretty-printer automatically from a language specification with layout declarations. We validate our approach in a case-study using a syntax definition for the Haskell programming language, investigating the performance of the generated parser and the correctness of the generated pretty-printer against 22191 Haskell files.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661808" title="Get the Full Text from the ACM Digital Library">GLL parsing with flexible combinators</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">L. Thomas van Binsbergen</li>
+<li class="nameList">Elizabeth Scott</li>
+<li class="nameList Last">Adrian Johnstone</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p> At SLE in 2014, Ridge presented the P3 combinator library with which parsers can be developed for left-recursive, non-deterministic and ambiguous grammars. A combinator expression in P3 yields a binarised grammar reflecting the expression's structure. The grammar is given to an underlying, generalised parsing procedure computing all derivations. </p> <p> In this paper we present a combinator library with a similar architecture to P3, adjusting it to avoid grammar binarisation. Avoiding binarisation has a significant positive effect on the running times of the underlying parsing procedure, which we demonstrate using real-world grammars. Binarisation is avoided by restricting the applicability of combinators, resulting in combinator expressions closely resembling BNF fragments. Usability is recovered by defining coercions that automatically convert expressions where necessary. As the underlying parsing procedure, we use a purely functional variant of generalised top-down (GLL) parsing. </p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661809" title="Get the Full Text from the ACM Digital Library">Morbig: a static parser for POSIX shell</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Yann R&#233;gis-Gianas</li>
+<li class="nameList">Nicolas Jeannerod</li>
+<li class="nameList Last">Ralf Treinen</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The POSIX shell language defies conventional wisdom of compiler construction on several levels: The shell language was not designed for static parsing, but with an intertwining of syntactic analysis and execution by expansion in mind. Token recognition cannot be specified by regular expressions, lexical analysis depends on the parsing context and the evaluation context, and the shell grammar given in the specification is ambiguous. Besides, the unorthodox design choices of the shell language fit badly in the usual specification languages used to describe other programming languages. This makes the standard usage of LEX and YACC as a pipeline inadequate for the implementation of a parser for POSIX shell. </p> <p> The existing implementations of shell parsers are complex and use low-level character-level parsing code which is difficult to relate to the POSIX specification. We find it hard to trust such parsers, especially when using them for writing automatic verification tools for shell scripts. </p> <p> This paper offers an overview of the technical difficulties related to the syntactic analysis of the POSIX shell language. It also describes how we have resolved these difficulties using advanced parsing techniques (namely speculative parsing, parser state introspection, context-dependent lexical analysis and longest-prefix parsing) while keeping the implementation at a sufficiently high level of abstraction so that experts can check that the POSIX standard is respected. </p> <p> The resulting tool, called MORBIG, is an open-source static parser for a well-defined and realistic subset of the POSIX shell language. Its implementation crucially relies on the purity and incrementality of LR(1) parsers generated by MENHIR, a parser generator for OCaml.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661800" title="Get the Full Text from the ACM Digital Library">Input-driven regular expressions (vision paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Alexander Sakharov</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Regular expressions are extended by splitting the terminals into left brackets, right brackets, and neutral terminals. These extended regular expressions define a superset of regular languages. Their languages are parsed in linear time in the size of the input. The addition of annotations to these regular expressions results in more detailed parse trees.</p></div> </div>
+<h2>SESSION: Language Composition</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661801" title="Get the Full Text from the ACM Digital Library">Modular language composition for the masses</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Manuel Leduc</li>
+<li class="nameList">Thomas Degueule</li>
+<li class="nameList Last">Benoit Combemale</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The goal of modular language development is to enable the definition of new languages as assemblies of pre-existing ones. Recent approaches in this area are plentiful but usually suffer from two main problems: either they do not support modular language composition both at the specification and implementation levels, or they require advanced knowledge of specific paradigms which hampers wide adoption in the industry. In this paper, we introduce a non-intrusive approach to modular development of language concerns with well-defined interfaces that can be composed modularly at the specification and implementation levels. We present an implementation of our approach atop the Eclipse Modeling Framework, namely Alex, an object-oriented meta-language for semantics definition and language composition. We evaluate Alex in the development of a new DSL for IoT systems modeling resulting from the composition of three independently defined languages (UML activity diagrams, Lua, and the OMG Interface Description Language). We evaluate the effort required to implement and compose these languages using Alex with regards to similar approaches of the literature.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661802" title="Get the Full Text from the ACM Digital Library">Storm: a language platform for interacting and extensible languages (tool demo)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Filip Str&#246;mb&#228;ck</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The ability to extend programming languages with domain-specific concepts is becoming an essential technology for developing complex software. However, many domain-specific languages are implemented in a way that interact poorly with the host language. There are a number of tools that aim to improve the situation by simplifying the creation of domain-specific languages, and allow easier interactions between the host language and the domain-specific language. However, many of these tools are limited to a single host language, and rarely allow extending the language used for language creation. To improve the situation, we created the language platform Storm, which aims to make the creation and usage of multiple extensible languages easy and seamless. This is accomplished by means of a shared, standardized namespace and in-process code generation, which gives Storm a high degree of extensibility, making it possible to extend or replace the built-in languages at will.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661803" title="Get the Full Text from the ACM Digital Library">Languages as first-class citizens (vision paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Matteo Cimini</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In this paper, we introduce <em>languages as first-class citizens</em> as a sub-paradigm of language-oriented programming. In this approach, language definitions are in the context of a general purpose programming language with the same status as any other expression. In particular, language definitions are elevated to be <em>run-time values</em>, that can be assigned to variables, passed to functions, returned by functions, and inserted into lists, to name a few possibilities. This approach offers flexible features in the run-time creation and modification of languages, and may promote new idioms in language-oriented programming. As a proof of concept, we have designed and implemented lang-n-play, a functional language with languages as first-class citizens. We present the features of lang-n-play with an example, and show that they naturally enable dynamic programming scenarios.</p></div> </div>
+<h2>SESSION: Validation and Verification</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661804" title="Get the Full Text from the ACM Digital Library">Continuous model validation using reference attribute grammars</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Johannes Mey</li>
+<li class="nameList">Ren&#233; Sch&#246;ne</li>
+<li class="nameList">G&#246;rel Hedin</li>
+<li class="nameList">Emma S&#246;derberg</li>
+<li class="nameList">Thomas K&#252;hn</li>
+<li class="nameList">Niklas Fors</li>
+<li class="nameList">Jesper &#214;qvist</li>
+<li class="nameList Last">Uwe A&#223;mann</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Just like current software systems, models are characterised by increasing complexity and rate of change. Yet, these models only become useful if they can be continuously evaluated and validated. To achieve sufficiently low response times for large models, incremental analysis is required. Reference Attribute Grammars (RAGs) offer mechanisms to perform an incremental analysis efficiently using dynamic dependency tracking. However, not all features used in conceptual modelling are directly available in RAGs. In particular, support for non-containment model relations is only available through manual implementation. We present an approach to directly model uni- and bidirectional non-containment relations in RAGs and provide efficient means for navigating and editing them. This approach is evaluated using a scalable benchmark for incremental model editing and the JastAdd RAG system. Our work demonstrates the suitability of RAGs for validating complex and continuously changing models of current software systems.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661815" title="Get the Full Text from the ACM Digital Library">Migrating business logic to an incremental computing DSL: a case study</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Daco C. Harkes</li>
+<li class="nameList">Elmer van Chastelet</li>
+<li class="nameList Last">Eelco Visser</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>To provide empirical evidence to what extent migration of business logic to an incremental computing language (ICL) is useful, we report on a case study on a learning management system. Our contribution is to analyze a real-life project, how migrating business logic to an ICL affects information system validatability, performance, and development effort. </p> <p> We find that the migrated code has better validatability; it is straightforward to establish that a program &#8216;does the right thing&#8217;. Moreover, the performance is better than the previous hand-written incremental computing solution. The effort spent on modeling business logic is reduced, but integrating that logic in the application and tuning performance takes considerable effort. Thus, the ICL separates the concerns of business logic and performance, but does not reduce effort.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661816" title="Get the Full Text from the ACM Digital Library">An industrial case study in compiler testing (tool demo)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Vadim Zaytsev</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Compiler construction is one of the oldest areas of software engineering, yet despite its maturity it has underdeveloped sides such as compiler testing. There exist many disparate methods for testing parsers, optimisers and other components, but no unified methodology that consumable by practitioners from a book to be directly applied to fulfil their needs. </p> <p> Instead of striving to cover all theoretical aspects of compiler testing in one paper, we present a case study for an ongoing project of a relatively large size for our company (2 years, 3--6 devs, 500kLOC), a clean room compiler development effort in replicating a 4GL. We built a testing framework and a model-based test data generator, which consumes manually written specifications and generates all the necessary test code in the 4GL, in the host language, and in auxiliary DSLs (batch files, XML project descriptions), to both the developers&#39; and the customer&#39;s satisfaction. The number of specifications is 927 at the publication time, while the number of test cases generated from them, is 6268. All these tests have been run prior to shipping for the last 49 releases of the compiler, both to ensure the lack of regression and to report on the project overall progress. The generated tests are separated into 11 categories which the paper details in the hope that the classification will aid in seeking related work and in pushing this line of research forward.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661817" title="Get the Full Text from the ACM Digital Library">Messir: a text-first DSL-based approach for UML requirements engineering (tool demo)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Beno&#238;t Ries</li>
+<li class="nameList">Alfredo Capozucca</li>
+<li class="nameList Last">Nicolas Guelfi</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This tool paper presents the design and tool-support of Messir, an approach centered on textual domain-specific languages supported by our open-source UML requirements engineering tool, named Excalibur. The novelty of our approach is the actual integration in a single workbench (Excalibur) of textual DSLs richly covering the requirements and analysis phases, i.e. improved use-cases, environment, conceptual and operations models; <em>and</em> the read-only visualisation of the requirements with UML-compliant views; <em>and</em> the generation of scientific requirements analysis documents in L<sup>A</sup>T<sub>E</sub>X; <em>and</em> the formal simulation of test cases requirements. </p> <p>We designed our Messir language, with a grammar-based approach generating a textual editor, using the XText framework as an Eclipse plugin. Messir DSL&#8217;s static semantics is defined as a set of validation rules guiding end-users through the requirements analysis phase. Messir DSL&#8217;s semantics is given as a semi-automatic translation to prolog code. We also generate, from the requirements model elements, read-only graphical views (using the Sirius eclipse plugin) as well as a complete requirements analysis document in L<sup>A</sup>T<sub>E</sub>X. </p> <p>This approach and tool have been used as a requirements engineering educational tool in several bachelor and master semesters.</p></div> </div>
+<h2>SESSION: Types and Constraints</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661818" title="Get the Full Text from the ACM Digital Library">Constraint-based run-time state migration for live modeling</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ulyana Tikhonova</li> 
+<li class="nameList">Jouke Stoel</li>
+<li class="nameList">Tijs van der Storm</li>
+<li class="nameList Last">Thomas Degueule</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Live modeling enables modelers to incrementally update models as they are running and get immediate feedback about the impact of their changes. Changes introduced in a model may trigger inconsistencies between the model and its run-time state (e.g., deleting the current state in a statemachine); effectively requiring to migrate the run-time state to comply with the updated model. In this paper, we introduce an approach that enables to automatically migrate such run-time state based on declarative constraints defined by the language designer. We illustrate the approach using Nextep, a meta-modeling language for defining invariants and migration constraints on run-time state models. When a model changes, Nextep employs model finding techniques, backed by a solver, to automatically infer a new run-time model that satisfies the declared constraints. We apply Nextep to define migration strategies for two DSLs, and report on its expressiveness and performance.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661819" title="Get the Full Text from the ACM Digital Library">The next 700 unit of measurement checkers</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Oscar Bennich-Bj&#246;rkman</li>
+<li class="nameList Last">Steve McKeever</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In scientific applications, physical quantities and units of measurement are used regularly. If the inherent incompatibility between these units is not handled properly it can lead to major, sometimes catastrophic, problems. Although the risk of a miscalculation is high and the cost equally so, almost none of the major programming languages has support for physical quantities. Instead, scientific code developers often make their own tools or rely on external libraries to help them spot or prevent these mistakes. </p> <p> We employed a systematic approach to examine and analyse all available physical quantity open-source libraries. Approximately 3700 search results across seven repository hosting sites were condensed into a list of 82 of the most comprehensive and well-developed libraries currently available. In this group, 30 different programming languages are represented. Out of these 82 libraries, 38 have been updated within the last two years. These 38 are summarised in this paper as they are deemed the most relevant. </p> <p> The conclusion we draw from these results is that there is clearly too much diversity, duplicated efforts, and a lack of code sharing and harmonisation which discourages use and adoption.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661810" title="Get the Full Text from the ACM Digital Library">A practical type system for safe aliasing</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Dimitri Racordon</li>
+<li class="nameList Last">Didier Buchs</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Aliasing is a vital concept of programming, but it comes with a plethora of challenging issues, such as the problems related to race safety. This has motivated years of research, and promising solutions such as ownership or linear types have found their way into modern programming languages. Unfortunately, most current approaches are restrictive. In particular, they often enforce a single-writer constraint, which prohibits the creation of mutable self-referential structures. While this constraint is often indispensable in the context of preemptive multithreading, it can be worked around in the case of single threaded programs. With the recent resurgence of cooperative multitasking, where processes voluntarily share control over a single execution thread, this appears to be interesting trade-off. In this paper, we propose a type system that relaxes the usual single-writer constraint for single threaded programs, without sacrificing race safety properties. We present it in the form of a simple reference-based language, for which we provide a formal semantics, as well as an interpreter.</p></div> </div>
+<h2>SESSION: Grammars and Metamodeling</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661811" title="Get the Full Text from the ACM Digital Library">Facet-oriented modelling: open objects for model-driven engineering</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Juan de Lara</li>
+<li class="nameList">Esther Guerra</li>
+<li class="nameList">J&#246;rg Kienzle</li>
+<li class="nameList Last">Yanis Hattab</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Model-driven engineering (MDE) promotes models as the principal assets in software projects. Models are built using a modelling language whose syntax is defined by a metamodel. Hence, objects in models are typed by a metamodel class, and this typing relation is static as it is established at creation time and cannot be changed later. This way, objects in MDE are closed and fixed with respect to the type they conform to, the slots/properties they have, and the constraints they should obey. This hampers the reuse of model-related artefacts like model transformations, as well as the opportunistic or dynamic combination of metamodels. </p> <p> To alleviate this rigidity, we propose making model objects open so that they can acquire or drop so-called facets, each one contributing a type, slots and constraints to the object. Facets are defined by regular metamodels, hence being a lightweight extension of standard metamodelling. Facet metamodels may declare usage interfaces, and it is possible to specify laws that govern how facets are to be assigned to the instances of a metamodel. In this paper, we describe our proposal, report on an implementation, and illustrate scenarios where facets have advantages over other techniques.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661812" title="Get the Full Text from the ACM Digital Library">Analysing meta-model product lines</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Esther Guerra</li>
+<li class="nameList">Juan de Lara</li>
+<li class="nameList">Marsha Chechik</li>
+<li class="nameList Last">Rick Salay</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Model-driven engineering advocates the use of models to describe and automate many software development tasks. The syntax of modelling languages is defined by meta-models, making them essential artefacts. A combination of product line engineering methods and meta-models has been proposed to enable specification of modelling language variants, e.g., to describe a range of systems. However, there is a lack of techniques for ensuring syntactic correctness of all meta-models within a family (including their OCL constraints), and semantic correctness related to properties of individual instances of the different variants. The absence of verification methods at the product-line level can cause synthesis of ill-formed meta-models and problematic feature combinations whose effect at the instance level may go unnoticed. </p> <p> To attack this problem, we propose an approach to lifting both the meta-model syntax checking and the satisfiability checking of properties of individual meta-model instances, to the product-line level. We validate the approach via a prototype tool called Merlin, and report on several experiments that show the advantages of our method w.r.t. an enumerative analysis approach.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661813" title="Get the Full Text from the ACM Digital Library">Translating grammars to accurate metamodels</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Arvid Butting</li>
+<li class="nameList">Nico Jansen</li>
+<li class="nameList">Bernhard Rumpe</li>
+<li class="nameList Last">Andreas Wortmann</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>There is a software language engineering gap between metamodel-based languages and grammar-based languages. Grammars can support integrated definition of concrete syntax and abstract syntax, which facilitates processing models, but usually prevents reusing the variety of language tools operating on Ecore metamodels (such as editors, interpreters, debuggers, etc.). Existing work on translating grammars to Ecore metamodels features very cursory translations only, which requires re-engineering intricacies natural to grammars for the metamodels again. We conceived a translation from an EBNF-like syntax to Ecore metamodels that considers the grammars&#8217; intricacies. This translation is realized as a fully automated toolchain from grammars into Ecore &#38; OCL using the language workbench MontiCore. Using this translation enables grammar-based languages to leverage the benefits of Ecore-compatible language tools while supporting natural definition of concrete and abstract syntax.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661814" title="Get the Full Text from the ACM Digital Library">Deriving fluent internal domain-specific languages from grammars</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Arvid Butting</li>
+<li class="nameList">Manuela Dalibor</li>
+<li class="nameList">Gerrit Leonhardt</li>
+<li class="nameList">Bernhard Rumpe</li>
+<li class="nameList Last">Andreas Wortmann</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>A prime decision of engineering domain-specific languages (DSLs) is implementing these as external DSLs or internal DSLs. Agile language engineering benefits from easily switching between both shapes to provide rapidly developed prototypes before settling on a specific syntax. This switching, however, is rarely feasible due to the effort of re-implementing language tooling for both shapes. Current research in software language engineering focuses either on internal DSLs or external DSLs. We conceived a concept to automatically derive customizable internal DSLs from grammars that operate on the same abstract syntax as the external DSL. This supports reusing tooling (such as model checkers or code generators) between both shapes. We realized our concept with the MontiCore language workbench and Groovy as host language for internal DSLs. This concept is applicable to many grammar-based language definition</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661825" title="Get the Full Text from the ACM Digital Library">Fostering metamodels and grammars within a dedicated environment for HPC: the NabLab environment (tool demo)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Beno&#238;t Lelandais</li>
+<li class="nameList">Marie-Pierre Oudot</li>
+<li class="nameList Last">Benoit Combemale</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Advanced and mature language workbenches have been proposed in the past decades to develop Domain-Specific Languages (DSL) and rich associated environments. They all come in various flavors, mostly depending on the underlying technological space (e.g., grammarware or modelware). </p> <p> However, when the time comes to start a new DSL project, it often comes with the choice of a unique technological space which later bounds the possible expected features. </p> <p> In this tool paper, we introduce NabLab, a full-fledged industrial environment for scientific computing and High Performance Computing (HPC), involving several metamodels and grammars. </p> <p> Beyond the description of an industrial experience of the development and use of tool-supported DSLs, we report in this paper our lessons learned, and demonstrate the benefits from usefully combining metamodels and grammars in an integrated environment.</p></div> </div>
+<h2>SESSION: Language Workbenches</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661826" title="Get the Full Text from the ACM Digital Library">Migrating custom DSL implementations to a language workbench (tool demo)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Jasper Denkers</li>
+<li class="nameList">Louis van Gool</li>
+<li class="nameList Last">Eelco Visser</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present a tool architecture that supports migrating custom domain-specific language (DSL) implementations to a language workbench. We demonstrate an implementation of this architecture for models in the domains of defining component interfaces (IDL) and modeling system behavior (OIL) which are developed and used at a digital printer manufacturing company. Increasing complexity and the lack of DSL syntax and IDE support for existing implementations in Python based on XML syntax hindered their evolution and adoption. A reimplementation in Spoofax using modular language definition enables composition between IDL and OIL and introduces more concise DSL syntax and IDE support. The presented tool supports migrating to new implementations while being backward compatible with existing syntax and related tooling.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661827" title="Get the Full Text from the ACM Digital Library">Bacat&#225;: a language parametric notebook generator (tool demo)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Mauricio Verano Merino</li>
+<li class="nameList">Jurgen Vinju</li>
+<li class="nameList Last">Tijs van der Storm</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Interactive notebooks allow people to communicate and collaborate through a single rich document that might include live code, multimedia, computed results, and documentation, which is persisted as a whole for reproducibility. Notebooks are currently being used extensively in domains such as data science, data journalism, and machine learning. However, constructing a notebook interface for a new language requires a lot of effort. In this tool paper, we present Bacata&#769;, a language parametric notebook generator for domain-specific languages (DSL) based on the Jupyter framework. Bacata&#769; is designed so that language engineers may reuse existing language components (such as parsers, code generators, interpreters, etc.) as much as possible. Moreover, we explain the design of Bacata&#769; and how DSL notebooks can be generated with minimum effort in the context of the Rascal meta programming system and language workbench.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661828" title="Get the Full Text from the ACM Digital Library">Shape-diverse DSLs: languages without borders (vision paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Fabien Coulon</li>
+<li class="nameList">Thomas Degueule</li>
+<li class="nameList">Tijs van der Storm</li>
+<li class="nameList Last">Benoit Combemale</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Domain-Specific Languages (DSLs) manifest themselves in remarkably diverse shapes, ranging from internal DSLs embedded as a mere fluent API within a programming language, to external DSLs with dedicated syntax and tool support. Although different shapes have different pros and cons, combining them for a single language is problematic:&#160;language designers usually commit to a particular shape early in the design process, and it is hard to reconsider this choice later. In this <em>new ideas</em> paper, we envision a language engineering approach enabling (i) language users to manipulate language constructs in the most appropriate shape according to the task at hand, and (ii) language designers to combine the strengths of different technologies for a single DSL. We report on early experiments and lessons learned building , our prototype approach to this problem. We illustrate its applicability in the engineering of a simple shape-diverse DSL implemented conjointly in Rascal, EMF, and Java. We hope that our initial contribution will raise the awareness of the community and encourage future research.</p></div> </div>
+</div>
+</div>
+</body>
+</html>
