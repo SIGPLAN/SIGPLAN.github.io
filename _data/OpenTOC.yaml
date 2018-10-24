@@ -15,6 +15,14 @@
   year: 2017
   title: "Proceedings of the 7th International Workshop on Programming Based on Actors, Agents, and Decentralized Control"
 -
+  event: AGERE!
+  year: 2018
+  title: "Proceedings of the 8th International Workshop on Programming Based on Actors, Agents, and Decentralized Control"
+-
+  event: AI-SEPS
+  year: 2018
+  title: "Proceedings of the 5th ACM SIGPLAN International Workshop on Artificial Intelligence and Empirical Methods for Software Engineering and Parallel Computing Systems"
+-
   event: ARRAY
   year: 2014
   title: "Proceedings of the ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming"
@@ -81,6 +89,10 @@
 -
   event: DLS
   year: 2017
+  title: "Proceedings of the 13th Symposium on Dynamic Languages"
+-
+  event: DLS
+  year: 2018
   title: "Proceedings of the 13th Symposium on Dynamic Languages"
 -
   event: DSM
@@ -199,6 +211,10 @@
   year: 2017
   title: "Proceedings of the 16th International Conference on Generative Programming: Concepts and Experiences"
 -
+  event: GPCE
+  year: 2018
+  title: "Proceedings of the 17th International Conference on Generative Programming: Concepts and Experiences"
+-
   event: GPGPU
   year: 2017
   title: "Proceedings of the 10th Workshop on General Purpose Processing using Graphics Processing Units"
@@ -305,6 +321,10 @@
   year: 2017
   title: "Proceedings of the 2nd ACM SIGPLAN International Workshop on Meta-Programming Techniques and Reflection"
 -
+  event: META
+  year: 2018
+  title: "Proceedings of the 3rd ACM SIGPLAN International Workshop on Meta-Programming Techniques and Reflection"
+-
   event: Mobile!
   year: 2016
   title: "Proceedings of the 1st International Workshop on Mobile Development"
@@ -336,6 +356,10 @@
   event: Onward!
   year: 2017
   title: "Proceedings of the 2017 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software"
+-
+  event: Onward!
+  year: 2018
+  title: "Proceedings of the 2018 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software"
 -
   event: OOPSLA
   year: 2014
@@ -495,6 +519,10 @@
   year: 2017
   title: "Proceedings of the 4th International Workshop on Reactive and Event-Based Languages and Systems"
 -
+  event: REBLS
+  year: 2018
+  title: "Proceedings of the 5th International Workshop on Reactive and Event-Based Languages and Systems"
+-
   event: SCALA
   year: 2015
   title: "Proceedings of the 6th ACM SIGPLAN Symposium on Scala"
@@ -534,6 +562,10 @@
   event: SLE
   year: 2017
   title: "Proceedings of the 2017 ACM SIGPLAN International Conference on Software Language Engineering"
+-
+  event: SLE
+  year: 2018
+  title: "Proceedings of the 2018 ACM SIGPLAN International Conference on Software Language Engineering"
 -
   event: SOAP
   year: 2014
@@ -610,6 +642,10 @@
   event: VMIL
   year: 2017
   title: "Proceedings of the 9th International Workshop on Virtual Machines and Intermediate Languages"
+-
+  event: VMIL
+  year: 2018
+  title: "Proceedings of the 10th International Workshop on Virtual Machines and Intermediate Languages"
 -
   event: WGP
   year: 2014
