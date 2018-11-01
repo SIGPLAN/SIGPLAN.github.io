@@ -2,7 +2,7 @@
 layout: default
 title: "Object-oriented Programming, Systems, Languages, and Applications (OOPSLA)"
 ---
-OOPLSA (Object-oriented Programming, Systems, Languages, and
+OOPSLA (Object-oriented Programming, Systems, Languages, and
 Applications) is now part of SPLASH (Systems, Programming,
 Languages, and Applications: Software for Humanity). 
 
