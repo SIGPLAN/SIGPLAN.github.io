@@ -66,7 +66,7 @@ include the following:
   a percentage of conference income is budgeted for ACM services.
 - Critical decisions, such as setting the budget and selecting the
   program chair and the program committee, have to be approved by
-  the [SIGPLAN Executive Committee](/ContactUs).
+  the [SIGPLAN Executive Committee](/ContactUs).  (Concretely, proposals for these decisions should be emailed to the SIGPLAN vice chair, [vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org).  For program committee proposals, please use the [PC proposal spreadsheet](/Resources/Guidelines/sigplan-pc-proposal-template.xlsx).)
 - A final post-event report is required.  
 
 Sponsored events should follow 
