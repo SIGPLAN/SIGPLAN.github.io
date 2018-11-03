@@ -23,6 +23,20 @@ DLS 2018
 Awards
 ------
 
+-   Most Notable Paper Award 2018 for 2008
+    -   Recipients: Jeremy G. Siek and Manish Vachharajani
+    -   Title: Gradual Typing With Unification-based Inference
+    -   Conference: DLS 2008
+    -   Paper:
+        [https://dl.acm.org/citation.cfm?doid=1408681.1408688](https://dl.acm.org/citation.cfm?doid=1408681.1408688)
+    -   Citation: The 2008 DLS paper "Gradual Typing With
+        Unification-based Inference" showed that one can increase the
+        static guarantees made in a program through an ingenious
+        combination of gradual typing and unification-base type
+        inference. The ideas underlying this paper have found their way
+        into the design of many modern programming languages, and have
+        had a strong impact on the research community.
+
 -   Most Notable Paper Award 2017 for 2007
     -   Recipients: Stijn Mostinckx, Tom Van Cutsem, Stijn Timbermont, and Éric Tanter
     -   Title: Mirages--Behavioral Intercession in a Mirror-based Architecture
