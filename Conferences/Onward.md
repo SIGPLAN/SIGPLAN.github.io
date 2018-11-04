@@ -20,6 +20,19 @@ Onward! 2018
 Awards
 ------
 
+-   Most Notable Paper Award 2018 for 2008
+    -   Recipient: Richard P. Gabriel
+    -   Title: Designed as Designer
+    -   Conference: Onward! 2008
+    -   Paper:
+        [https://dl.acm.org/citation.cfm?id=1449813](https://dl.acm.org/citation.cfm?id=1449813)
+    -   Citation: The 2008 Onward! essay "Designed as Designer" examines
+        the nature of creativity and design, exploring poetry, architecture
+        and software. In particular, the paper sets out to explore questions
+        about our self-conception as computer scientists and programmers.
+        This paper is notable for paving the way for a new track that
+        became Essays at Onward!.
+
 -   Most Notable Paper Award 2017 for 2007
     -   Recipient: Sean McDirmid
     -   Title: Living it up with a Live Programming Language
