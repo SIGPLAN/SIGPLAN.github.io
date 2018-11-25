@@ -1,7 +1,25 @@
 2018:
 - Awardee: "Racket"
   Citation: |
-    Forthcoming.
+    Racket comprises a programming language, an IDE, and a large 
+    ecosystem of libraries and packages. Its contributions have been 
+    singularly significant both in research and education. Over the 
+    past 20 years, Racket has enabled a wide spectrum of programming 
+    language research: it initiated work on recursive, first-class 
+    modules, provided a test bed for functional reactive programming, 
+    generalized software contracts to higher-order settings, and 
+    participated in launching the area of gradual typing. Most 
+    importantly, Racket is a leading programming language for making 
+    programming languages, due to is results on language extensibility, 
+    an active area of research for the emerging language community. 
+    With DrRacket, the Racket community has innovated the design of 
+    pedagogic IDEs, introducing the transparent read-eval-print loop, 
+    algebraic stepping, and the idea of hierarchies of teaching languages. 
+    The IDE has played a key role in spreading the word about novel text 
+    books on programming ("How to Design Programs") and programming languages 
+    ("Programming Languages: Implementations and Applications" and “Semantics 
+    Engineering"), bringing concepts dear to SIGPLAN to students all over 
+    the world.
 
 2016:
 - Awardee: "V8 JavaScript Engine"
