@@ -1,0 +1,176 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>ARRAY 2018- Proceedings of the 5th ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>ARRAY 2018- Proceedings of the 5th ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3219753" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Array Language Commonalities</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650779" title="Get the Full Text from the ACM Digital Library">A Rosetta Stone for array languages</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Artjoms &#352;inkarovs</li>
+<li class="nameList">Robert Bernecky</li>
+<li class="nameList">Hans-Nikolai Vie&#223;mann</li>
+<li class="nameList Last">Sven-Bodo Scholz</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This paper aims to foster cross-fertilisation between programming language and compiler research performed on different array programming language infrastructures. We study how to enable better comparability of concepts and techniques by looking into generic translations between array languages. Our approach is based on the idea of a basic core language Heh which only captures the absolute essentials of array languages: multi-dimensional arrays and shape-invariant operations on them. Subsequently, we investigate how to map these constructs into several existing languages: SaC, APL, Julia, Python, and C. This approach provides us with some first understanding on how the peculiarities of these languages affect their suitability for expressing the basic building-blocks of array languages. We show that the existing tool-chains by-and-large are very sensitive to the way code is specified. Furthermore, we expose several fundamental programming patterns where optimisations missing in one or the other tool chain inhibit fair comparisons and, with it, cross-fertilisation.</p></div> </div>
+<h2>SESSION: Exploiting Dynamic Information</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650770" title="Get the Full Text from the ACM Digital Library">Petalisp: run time code generation for operations on strided arrays</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Marco Heisig</li>
+<li class="nameList Last">Harald K&#246;stler</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present the data parallel programming library Petalisp --- an extension of Common Lisp for data parallel programming. The core of Petalisp is deliberately simple. It features only a single data structure --- the strided array --- and four operations on such strided arrays, namely element-wise application of functions, reduction with a binary function, fusion of several arrays and affine-linear reshaping. </p> <p> The novelty of our approach is that the contents of each strided array are subject to lazy evaluation and that we delay performance analysis, optimization and code generation entirely to the run time. In doing so, we considerably increase the ability of our compiler to make qualified decisions, at the price of significant run time overhead. We show that this overhead is manageable and that Petalisp is able to execute several thousand explicit array evaluations per second.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650771" title="Get the Full Text from the ACM Digital Library">Profile-based vectorization for MATLAB</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Patryk Kiepas</li>
+<li class="nameList">Jaroslaw Kozlak</li>
+<li class="nameList">Claude Tadonki</li>
+<li class="nameList Last">Corinne Ancourt</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In recent years, MATLAB&#39;s just-in-time (JIT) interpreter has improved the execution time of for-loops to the extent that loops can outperform equivalent array operations in some scenarios. This has caused systematic translation of loops to array operations, a prevalent approach for performance improvement in MATLAB, to sometimes yield a performance loss. Therefore, we propose a selective strategy to loop translation with selection criteria guided by loop profiling data. As a result, only loops with a high-performance speedup potential are selected for translation to array operations. The results of our experiments confirm the efficiency of our approach and illustrate the cases where systematic translation leads to a performance degradation.</p></div> </div>
+<h2>SESSION: Types and Correctness</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650772" title="Get the Full Text from the ACM Digital Library">Parallel programming with arrays in Kappa</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Beatrice &#197;kerblom</li>
+<li class="nameList">Elias Castegren</li>
+<li class="nameList Last">Tobias Wrigstad</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Array algorithms where operations are applied to disjoint parts of an array lend themselves well to parallelism, since parallel threads can operate on the parts of the array without synchronisation. However, implementing such algorithms requires programmer diligence to verify that a thread does not accidentally access an element of the array while another thread is updating the same element. An off-by-one error can lead to data-races and non-deterministic bugs which are notoriously hard to track down. Previous work on Kappa, a capability-based type system, provides data-race freedom for concurrent, object-oriented programs, even in the presence of concurrent mutating accesses to the same object. In this paper we show how Kappa can be extended to handle concurrent programming with arrays. By defining array capabilities which grant access to (parts of) an array, we can piggy-back on the existing type system in a straightforward fashion. We illustrate how split and merge operations integrate with Kappa in practise by discussing the implementation of a divide-and-conquer quicksort algorithm. We explore the semantics of the Kappa extension by using a simple imperative calculus and sketch on how it could be implemented efficiently.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650773" title="Get the Full Text from the ACM Digital Library">Rank polymorphism viewed as a constraint problem</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Justin Slepak</li>
+<li class="nameList">Panagiotis Manolios</li>
+<li class="nameList Last">Olin Shivers</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Rank polymorphism serves as a type of control flow used in array-oriented languages, where functions are automatically lifted to operate on high-dimensional arguments. The iteration space is derived directly from the shape of the data, presenting a challenge to compilation. A type system can characterize data shape, though the level of detail is beyond what can be reasonably expected from entirely human-generated annotations. The task of checking or inferring shapes can be phrased as solving constraints in the theory of the free monoid over the natural numbers, but the constraints involve both universal and existential quantification. Here is a plan of attack for leveraging past work on decision procedures, which has generally focused on the purely existential fragment of the theory.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650774" title="Get the Full Text from the ACM Digital Library">Proving a core code for FDM correct by 2 + dw tests</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Magne Haveraaen</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Software correctness in general is a hard problem, and especially so for high performance computing (HPC). One problem being that array layout and traversal may depend on array size and hardware properties (cache size, core count, etc), making verification almost specific to every execution of the software. Can one of the reasons for the difficulties be that we are focussing too much on specific instances and low level detail, and not enough on abstraction and generic code? There exists several meta-theorems for generic code, one promising correctness by testing of minimal data sets, another free theorems. </p> <p>Here we present three generic array algorithms which can form the core when implementing explicit solvers for finite difference methods (FDM). Knowing the size for the computational grid, the first two generic algorithms requires one test each to ensure correctness. The third requires <i>dw</i> tests, where <i>d</i> is the number of dimensions, e.g., 3, and <i>w</i> is the width of the difference operator, e.g., 3 or 5. This verification is fast enough to be an integral part of a simulation run, which typically will have hundreds of calls with these parameter combinations. </p> <p>Generic implementations also provide free theorems, which gives rise to optimisation rules for the FDM code. </p> <p>We illustrate this on a 3D Burgers&#8217; solver using these generic core codes implemented for CPU and GPU.</p></div> </div>
+<h2>SESSION: Accessing the Memory System</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650785" title="Get the Full Text from the ACM Digital Library">Inner array inlining for structure of arrays layout</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Matthias Springer</li>
+<li class="nameList">Yaozhu Sun</li>
+<li class="nameList Last">Hidehiko Masuhara</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Previous work has shown how the well-studied and SIMD-friendly Structure of Arrays (SOA) data layout strategy can speed up applications in high-performance computing compared to a traditional Array of Structures (AOS) data layout. However, a standard SOA layout cannot handle structures with inner arrays; such structures appear frequently in graph-based applications and object-oriented designs with associations of high multiplicity. </p> <p> This work extends the SOA data layout to structures with array-typed fields. We present different techniques for inlining (embedding) inner arrays into an AOS or SOA layout, as well as the design and implementation of an embedded C++/CUDA DSL that lets programmers write such layouts in a notation close to standard C++. We evaluate several layout strategies with a traffic flow simulation, an important real-world application in transport planning.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650786" title="Get the Full Text from the ACM Digital Library">An array API for finite difference methods</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Eva Burrows</li>
+<li class="nameList">Helmer Andr&#233; Friis</li>
+<li class="nameList Last">Magne Haveraaen</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>As we move towards exascale computing, computer architecture is bound to see dramatic changes. Multiple nodes, with or without shared memory, multicore and accelerators (GPUs, FPGAs) will be the norm. For many domains, such as finite difference numerical simulations, the array used to represent a perfect match between the user level code and the hardware architecture&#8217;s uniform memory access, well supported by programming languages and compilers. Facing the exascale challenge, we propose replacing the compiler supported array by an array API, empowering the software developer to implement their own array-memory layout. Application code written towards such an API will be independent of underlying architecture changes, thus easily ported between architectures. Here we demonstrate the viability of this approach by demonstrating an array API for finite difference solvers.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

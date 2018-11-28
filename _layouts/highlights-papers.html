@@ -29,6 +29,9 @@
                   {% if paper.CACMHighlight <> nil %}
                     <span class="badge pull-right">CACM Research Highlight</span>
                   {% endif %}
+                  {% if paper.CACMSelection == true %}
+                    <span class="badge pull-right">CACM Research Highlight (Selected)</span>
+                  {% endif %}
                   {{ paper.Title | markdownify }}
                 </h4>
 

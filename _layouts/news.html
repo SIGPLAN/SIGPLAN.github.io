@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include header.html %}
+  <body>
+    {% include navbar.html %}
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-8  col-md-offset-2">
+          <h1> {{ page.title }} </h1>
+
+          <hr class="featurette-divider">
+
+          {% assign page_name = page.name | remove: ".md" %}
+          {% for news in site.data.News %}
+          {% if news.Page == page_name %}
+          <font size="+1">{{ news.Content | markdownify }}</font>
+          <font size="-2">{{ news.Date }}</font>
+          {% endif %}
+          {% endfor %}
+
+        </div>
+      </div>
+      
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

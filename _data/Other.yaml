@@ -1,0 +1,158 @@
+2018:
+- Award: ASPLOS Most Influential Paper Award
+  Awardee: John Kubiatowicz, David Bindel, Yan Chen, Steven Czerwinski, Patrick Eaton, Dennis Geels, Ramakrishan Gummadi, Sean Rhea, Hakim Weatherspoon, Westley Weimer, Chris Wells, and Ben Zhao
+  Other: |
+    _[OceanStore: an architecture for global-scale persistent storage](https://dl.acm.org/citation.cfm?id=357007)_
+
+2017:
+- Award: ASPLOS Most Influential Paper Award
+  Awardee: Timothy Sherwood, Erez Perelman, Greg Hamerly, and Brad Calder
+  Other: |
+    _[Automatically characterizing large scale program behavior](https://dl.acm.org/citation.cfm?id=605403)_
+
+2016:
+- Award: John Vlissides Award
+  Awardee: "Silvia Grewe, Technische Universität Darmstadt"
+  Citation: |
+    Silvia Grewe's work aims to provide better automation of type
+    soundness proofs for new languages, thus lowering the barrier to
+    developing sound general-purpose and domain-specific languages.
+    Theorem-proving systems are increasingly adept at automating
+    proofs, and soundness proofs based on progress and preservation
+    seem especially ripe for automation due to patterns that appear in
+    the proofs, but theorem-proving systems currently lack tactics to
+    directly support such proofs. Silvia is working to extract proof
+    patterns and integrate them into theorem provers to make
+    automation more effective and accessible.
+
+2015:
+- Award: John Vlissides Award
+  Awardee: "Chang Liu, University of Maryland"
+  Citation: |
+    Chang Liu's work explores programming language support for
+    oblivious applications, an important dimension of security in the
+    presence of side channels. His work bridges two disjoint efforts
+    on opposite ends of the hardware-software design spectrum --
+    oblivious RAM and oblivious algorithms -- and adopts a language
+    design approach to facilitate users in their development of
+    efficient oblivious applications. The new language is endowed with
+    a type system providing formal guarantees of obliviousness, and
+    can support both sequential and parallel applications. The
+    promising approach Chang proposed may significantly improve
+    development productivity and performance of oblivious
+    applications.
+
+2014:
+- Award: John Vlissides Award
+  Awardee: "Christopher Hall, UC Santa Barbara"
+  Citation: |
+    Christopher Hall's work explores the classic design tension
+    between user friendly versus expert friendly user interface design
+    as well as the classic design tension between binary versus
+    printable data format design. His work sets out to expose both
+    sets of design tensions as having the same cause and
+    solution. Information representations and user interface
+    architecture both lack a self descriptive capacity.  By raising
+    the common denominator of computing to a foundation that is
+    metadata friendly, structured editing can place human-readable
+    strings and graphical user interfaces on the same
+    spectrum. Smoothing out the gradients of interacting with
+    computation creates new opportunities for unifying software
+    systems as a developer and having an outlet for accruing and
+    applying computational literacy as an end-user.
+    
+2013:
+- Award: John Vlissides Award
+  Awardee: "Zalia Shams, Virginia Tech"
+  Citation: |
+    Zalia Shams' work is motivated by the observation that software
+    testing is frequently being added to programming courses at many
+    schools, but current assessment techniques for evaluating
+    student-written software tests are imperfect.  Code coverage
+    measures are typically used in practice, but that approach does
+    not assess how much of the expected behavior is checked by the
+    tests and sometimes overestimates the true quality of the
+    tests. Running one student’s tests against others’ code (known as
+    all-pairs testing) and mutation analysis are better indicators of
+    test quality but both of them posed a number of practical
+    obstacles to classroom use.  Her proposal describes technical
+    obstacles behind using these two approaches in automated
+    grading. Zalia has provided novel and practical solutions to apply
+    all-pairs testing and mutation analysis of student-written tests,
+    especially in an automated grading context.
+
+2012:
+- Award: John Vlissides Award
+  Awardee: "Gustavo Soares of the Federal University of Campina Grande, Brazil"
+  Citation: |
+    The winner of the Vlissides award is Gustavo Soares of the Federal
+    University of Campina Grande, Brazil. His proposed thesis is
+    entitled "Automated Behavioral Testing of Refactoring Engines"
+
+2011:
+- Award: John Vlissides Award
+  Awardee: "Hari K. Pyla, Virginia Tech"
+  Citation: |
+    Hari Pyla's work is motivated by the need to leverage concurrency
+    to achieve performance, and the challenge of avoiding deadlocks in
+    concurrent shared memory programs. He has introduced Sammati, a
+    new approach that transparently and deterministically detects and
+    recovers from deadlocks, without requiring modification to source
+    code. This approach not only avoids errors, but also allows more
+    effective composition of lock-based code. Hari's system also
+    supports coarse-grained speculative parallelism, supporting
+    difficult-to-parallelize applications and achieving significant
+    speedups in practice.
+
+2010:
+- Award: John Vlissides Award
+  Awardee: "M&#225;rcio Ribeiro, Federal University of Pernambuco (UFPE)"
+  Citation: |
+    M&#225;rcio Ribeiro's research addresses the problem of
+    maintaining software defined using "virtual separation of
+    concerns." The virtual separation of concerns technique presents
+    software with features defined using code between \#ifdef and
+    \#endif (as in the C preprocessor) to the programmer in a way that
+    hides various features that are not of immediate
+    interest. However, when maintaining such software, it is easy to
+    break code in hidden features. The solution approach uses a
+    specialized dataflow analysis that takes features and allowed
+    feature combinations into account. The results of this analysis
+    are used to warn the programmer if there are dependencies between
+    the changed code and any hidden features. These ideas are being
+    implemented in a tool that will allow independent development of
+    parallel features.
+
+2009:
+- Award: John Vlissides Award
+  Awardee: "Tudor Dumitras, Carnegie Mellon University"
+  Citation: |
+    Tudor Dumitras's research identifies and addresses the leading
+    causes of both unplanned failures and planned downtime resulting
+    from software upgrades in distributed systems. Traditional
+    fault-tolerance approaches concentrate almost entirely on
+    responding to, avoiding, or tolerating unexpected faults or
+    security violations. However, scheduled events such as software
+    upgrades account for most system unavailability and often
+    introduce data loss or latent errors. Tudor defines three abstract
+    properties required for improving the dependability of software
+    upgrades.  Building on empirically derived insights on current
+    upgrade practices and problems, Tudor's work harnesses the
+    opportunities provided by emerging technologies such as cloud
+    computing to simplify large-scale upgrades, to allow upgrades to
+    be executed efficiently online, and to improve their
+    dependability.
+
+2008:
+- Award: John Vlissides Award
+  Awardee: "Ciera Jaspan, Carnegie Mellon University"
+  Citation: |
+    Ciera Jaspan's research targets the programming difficulties
+    associated with using software frameworks. Plug-in writers need to
+    satisfy a variety of framework constraints, and Ciera is directly
+    motivated by the kinds of plug-in errors that frequently arise in
+    today's frameworks. She has defined a new abstraction for
+    expressing framework constraints as well as lightweight
+    annotations and an associated static analysis to enforce this
+    abstraction.  Ciera is focused on making the right tradeoffs to
+    ensure her solution is useful in practice.

@@ -1,8 +1,14 @@
 {% assign exec = site.data.Committees.[include.committee] %}
 {% assign def = "-" %}
 {% for i in exec %}
-   {% if i[include.role] <> nil %}
-     {{ i[include.role] | split: ',' | first | markdownify | | replace: 'p>', 'span>' }}
+   {% if i[include.role2] <> nil %}
+     {% if include.prefix %}
+       <b> {{ include.role1 }}: </b>
+       {{ i[include.role2] | split: ',' | first | markdownify | replace: 'p>', 'span>' }}
+     {% else %}
+       {{ i[include.role2] | split: ',' | first | markdownify | replace: '<p>', '<span>' | replace: '</p>', '</span>,' }}
+       {{ include.role1 }}
+     {% endif %}
      {% assign def = "" %}
     {% endif %}
 {% endfor %}

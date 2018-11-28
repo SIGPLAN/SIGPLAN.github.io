@@ -70,11 +70,12 @@ committees of the major SIGPLAN Conferences, POPL, PLDI, ICFP, and
 SPLASH, shall each appoint a member to the Awards Committee. The
 committee shall also have the option to decline to make an award in
 a given year, if no suitable nominations are presented.
- 
-At the discretion of the SIGPLAN Awards Committee, eligibility may
-be adjusted for documented family-related or medical leave from
-employment. Questions about eligibility should be directed to the
-Secretary of SIGPLAN.  
+
+At the discretion of the SIGPLAN Awards Committee, the 20-year
+eligibility may be adjusted for special circumstances, such as, but
+not limited to family leave, medical leave, or military service, that
+are documented and argued in the nomination.  Questions about
+eligibility should be directed to the SIGPLAN Awards Chair in advance.
 
 #### Nominations
 
@@ -93,5 +94,3 @@ the Milner Award eligibility requirement has been updated to clarify
 that the 20-year time frame is in relation to the nomination
 *deadline* (rather than the vague "time of nomination" as was
 originally written).
-
--- Derek Dreyer (on behalf of the SIGPLAN Executive Committee)

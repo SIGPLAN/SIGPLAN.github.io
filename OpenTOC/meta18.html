@@ -1,0 +1,137 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>META 2018- Proceedings of the 3rd ACM SIGPLAN International Workshop on Meta-Programming Techniques and Reflection</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>META 2018- Proceedings of the 3rd ACM SIGPLAN International Workshop on Meta-Programming Techniques and Reflection</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3281074" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661874" title="Get the Full Text from the ACM Digital Library">Through a glass, darkly (invited talk)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">James Noble</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Reflection gives us a mirror into our programs. Using this mirror, we can see our programs&#8217; structures, perhaps their execution, and maybe even reach through the mirror to change what our programs are and what they do. </p> <p> In this talk, I&#8217;ll consider what lives on each side of the mirror and what happens when we cross that boundary. I&#8217;ll describe how mirrors let us peer into the middle of our programs, what happens when we reflect on concepts rather than objects, and what happens when we hold up a mirror up to itself. I&#8217;ll discuss the way reflection works in the Grace language, and present some prospects for extending it in the future.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661885" title="Get the Full Text from the ACM Digital Library">SemanticDB: a common data model for Scala developer tools (invited talk)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Eugene Burmako</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Nowadays, there is a clear trend towards standards for communication between developer tools. Language Server Protocol (LSP), a protocol that connects programming language implementations and text editors, has gained strong industrial support and at the time of writing has implementations for many programming languages and editors. Build Server Protocol (BSP) follows in LSP&#8217;s tracks with an ambition to define a protocol for communication between language servers and build tools. </p> <p> While lots of work in the open-source community has been invested in unifying user experience (by codifying commonly used operations like go to definition or find all references), relatively less work went into unifying implementor experience. For example, at the moment, there exist five different LSP implementations for Scala. They all implement the same protocol that works with code, but they all use different data structures to represent that code. </p> <p> In this talk, we will present SemanticDB - a data model for semantic information such as symbols and types about programs in Scala and other languages. We will discuss our experience of building an ecosystem of developers tools around SemanticDB and using these tools on Twitter source code - arguably the largest Scala codebase on the planet. </p> <p> SemanticDB is joint work between Eugene Burmako, Twitter and &#211;lafur P&#225;ll Geirsson, EPFL who together developed and maintain the open-source specification and implementations at https://github.com/scalameta/scalameta. The project has received contributions from the Advanced Scala Tools team at Twitter - Eugene Burmako, Shane Delmore, Max Ovsiankin and Uma Srinivasan - as well as many open-source enthusiasts.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661886" title="Get the Full Text from the ACM Digital Library">GraalVM: metaprogramming inside a polyglot system (invited talk)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Daniele Bonetta</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>GraalVM is a polyglot virtual machine for running applications written in a variety of languages such as JavaScript, Ruby, Python, R, JVM-based languages like Java, Scala, Kotlin, and LLVM-based languages such as C and C++. </p> <p> GraalVM enables interoperability between different programming languages in a shared runtime, and can run either standalone or embedded in other software systems such as Node.js, the Oracle RDBMS, and MySQL. In this talk I will give an overview of GraalVM and present how polyglot features such as language interoperability and language-agnostic instrumentation are enabled in GraalVM by means of VM-internal metaprogramming.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661887" title="Get the Full Text from the ACM Digital Library">Recognizing heterogeneous sequences by rational type expression</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Jim E. Newton</li>
+<li class="nameList Last">Didier Verna</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We summarize a technique for writing functions which recognize types of heterogeneous sequences in Common Lisp. The technique employs sequence recognition functions, generated at compile time, and evaluated at run-time. The technique we demonstrate extends the Common Lisp type system, exploiting the theory of rational languages, Binary Decision Diagrams, and the Turing complete macro facility of Common Lisp. The resulting system uses meta-programming to move an Omega(2^n) complexity operation from run-time to a compile-time operation, leaving a highly optimized Theta(n) complexity operation for run-time.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661888" title="Get the Full Text from the ACM Digital Library">Does it make sense to have application-specific code conventions as a complementary approach to code annotations?</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Rodrigo Teixeira</li>
+<li class="nameList">Eduardo Guerra</li>
+<li class="nameList">Phyllipe Lima</li>
+<li class="nameList">Paulo Meirelles</li>
+<li class="nameList Last">Fabio Kon</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Code annotations are extensively used by Java developers, especially in enterprise frameworks and APIs such as Spring and Java EE. Different code elements that frequently share some similarities, sometimes, repeat the annotations. The goal of this paper is to evaluate whether a real-world system could use code conventions as a means to avoid replicating code annotations. We report on a study on the software used for the EMBRACE Space Weather program at INPE to search for similarities.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

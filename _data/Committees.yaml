@@ -14,25 +14,24 @@
 #   - POPL: ==> POPL SC Chair
 
 Elected Members:
-  - Chair: "[Michael Hicks ](http://www.cs.umd.edu/~mwh/) (University of Maryland)"
-  - Vice Chair: "Peter Thiemann (Universität Freiburg)"
-  - Treasurer: "[Cristina Lopes ](http://www.ics.uci.edu/~lopes/) (University of California, Irvine)"
-  - Secretary: "Kathryn S. McKinley (Microsoft Research)"
+  - Chair: "[Jens Palsberg](https://web.cs.ucla.edu/~palsberg/) University of California, Los Angeles"
+  - Vice Chair: "[Benjamin C. Pierce](http://www.cis.upenn.edu/~bcpierce/) (University of Pennsylvania)"
   - Members at Large:
-     - Research Highlights Chair: "[Emery Berger](http://www.emeryberger.org/) (University of Massachusetts Amherst)"
-     - Dissertation Award Chair: "[Susan Eisenbach](http://www-dse.doc.ic.ac.uk/cgi-bin/moin.cgi/sue) (Imperial College, London)"
-     - PAC Chair: "Gabriele Keller (University of New South Wales)"
-     - Best Practices Chair: "Kathryn S. McKinley (Microsoft Research)"
-     - Awards Chair: "Satnam Singh (Facebook)"
-     - Conference Services Chair: "Yannis Smaragdakis (University of Athens)"
-  - Past Chair: "Jan Vitek (Northeastern University)"
-  - Past Vice Chair: "[Jeremy Gibbons](http://www.cs.ox.ac.uk/jeremy.gibbons/) (University of Oxford)"
+     - Treasurer: "[Albert Cohen](https://who.rocq.inria.fr/Albert.Cohen) (INRIA)"
+     - Secretary: "[Ranjit Jhala](https://ranjitjhala.github.io/) (University of California, San Diego)"
+     - PAC Chair: "[Jeff Foster](https://www.eecs.tufts.edu/~jfoster/) (Tufts University)"
+     - Awards Co-Chair: "[Emery Berger](http://www.emeryberger.org/) (University of Massachusetts Amherst)"
+     - Awards Co-Chair: "[Mira Mezini](http://www.stg.tu-darmstadt.de/staff/mira_mezini/index.en.jsp) (Technische Universität Darmstadt)"
+     - Conference Services Chair: "[Azadeh Farzan](https://www.cs.toronto.edu/~azadeh/) (University of Toronto)"
+     - PLMW Liason: "[Cindy Rubio-Gonzalez](http://web.cs.ucdavis.edu/~rubio/) (University of California, Davis)"
+  - Past Chair: "[Michael Hicks ](http://www.cs.umd.edu/~mwh/) (University of Maryland)"
+  - Past Vice Chair: "[Peter Thiemann ](http://www2.informatik.uni-freiburg.de/~thiemann/) (Universität Freiburg)"
 
 Information Director:
-  - "[Matthew Fluet](http://www.cs.rit.edu/~mtf) (Rochester Institute of Technology)"
+  - "[Harry Xu](http://www.cs.ucla.edu/~harryxu) (University of California, Los Angeles)"
 
 "Ex-Officio Members":
-  - ACM Program Director:         "[Fran Spinola](mailto:spinola@hq.acm.org)"
+  - ACM Program Director:         "[Abigail Sumandal](mailto:sumandal@hq.acm.org)"
   - SIGPLAN Information Director: "[Matthew Fluet](mailto:infodir_sigplan@acm.org)"
   - Editor of FORTRAN Forum:      "[Ian Chivers](mailto:ian.chivers@chiversandbryan.co.uk)"
   - ACM TOPLAS Editors:           "[Jens Palsberg](http://www.cs.ucla.edu/~palsberg/)"
@@ -52,39 +51,47 @@ Information Director:
     - VEE:
 
 Other Past Members:
-  - "Past Past Chair": "Philip Wadler"
-  - "Past Past Vice Chair": "Graham Hutton"
+  - Past Past Chair: "Philip Wadler (University of Edinburgh)"
+  - Past Past Vice Chair: "Graham Hutton"
 
 ASPLOS Steering Committee:
-  -   Ras Bodik, UC Berkeley
-  -   Doug Burger, Microsoft
-  -   George Candea, EPFL
-  -   Timothy Harris, Oracle Labs
+  -   Sarita Adve, University of Illinois at Urbana-Champaign
+  -   John Carter, IBM
+  -   Yunji Chen, Chinese Academy of Sciences, China
+  -   Tom Conte, Georgia Tech
+  -   Sandhya Dwarkadas, University of Illinois at Urbana-Champaign
+  -   Kemal Ebcioglu, Global Supercomputing
+  -   Shan Lu, University of Chicago
+  -   Ozcan Ozturk, Bilkent University, Turkey
   -   SIGPLAN Vice Chair: #
-  -   Chair: Vivek Sarkar, Rice U.
-  -   Michael Scott, U. Rochester
-  -   David Wood, U. Wisconsin
+  -   Olivier Temam, Google, France
+  -   David Wood, University of Wisconsin, Madison
+  -   Yuanyuan Zhou, UCSD
 
 CGO Steering Committee:
   - Chair: Olivier Temam
 
 DLS Steering Committee:
-  - Carl Friedrich Bolz, King's College London, UK (SC Chair 2015)
-  - Richard Gabriel, IBM Research, USA (Emeritus 2014)
-  - Robert Hirschfeld, Hasso Plattner Institute Potsdam, Germany (Past SC Chair)
+  - Davide Ancona, Universit&agrave; degli studi di Genova, Italy (PC Chair 2017)
+  - Tim Felgentreff, Oracle Labs, Germany (PC Chair 2018)
+  - Carl Friedrich Bolz, Heinrich-Heine-Universit&auml;t D&uuml;sseldorf, Germany (SC Chair 2015)
+  - Robert Hirschfeld, Hasso Plattner Institute Potsdam, Germany (Past Chair, Emeritus Member 2016)
   - Roberto Ierusalimschy, Pontif&iacute;cia Universidade Cat&oacute;lica do Rio de Janeiro, Brazil (PC Chair 2016)
-  - Manuel Serrano, Inria Sophia-Antipolis, France (PC Chair 2015)
-  - Peter Thiemann, University of Freiburg, Germany (SIGPLAN)
-  - Laurence Tratt, King's College London, UK (PC Chair 2014)
+  - Stefan Marr, University of Kent, UK (PC Chair 2019)
+  - Benjamin C. Pierce, University of Pennsylvania, USA (SIGPLAN)
+  - Laurence Tratt, King's College London, UK (Emeritus Member 2016)
 
 DLS Steering Committee (Past):
   - Pascal Costanza, Intel ExaScience Lab, Belgium (SC Chair)
   - Theo D'Hondt, Vrije Universiteit Brussel, Belgium
+  - Richard Gabriel, IBM Research, USA
   - Jeremy Gibbons, Oxford University, UK (SIGPLAN)
+  - Robert Hirschfeld, Hasso Plattner Institute Potsdam, Germany (SC Chair)
+  - Manuel Serrano, Inria Sophia-Antipolis, France
+  - Peter Thiemann, University of Freiburg, Germany (SIGPLAN)
   - Dave Thomas, Bedarra Research Labs, Canada
   - Alessandro Warth, SAP, USA
   - Roel Wuyts, IMEC, Belgium
-
 
 FOOL Steering Committee:
 
@@ -104,13 +111,10 @@ ICFP Steering Committee:
   - Chair: Greg Morrisett
 
 ISMM Steering Committee:
-  -   "[Mike Bond](http://web.cse.ohio-state.edu/~mikebond)"
-  -   "[Perry Cheng](http://researcher.watson.ibm.com/researcher/view.php?person=us-perry)"
-  - Chair: Christine Flood (Red Hat)
-  -   "[Samuel Guyer](http://www.cs.tufts.edu/~sguyer)"
-  -   "[David Grove](http://researcher.ibm.com/view.php?person=us-groved)"
-  -   "[Tony Hosking](http://www.cs.purdue.edu/~hosking)"
-  -   "[Erez Petrank](http://www.cs.technion.ac.il/~erez/)"
+  -   Christine Flood (Red Hat)
+  -   "[Christoph Kirsch](http://www.cs.uni-salzburg.at/~ck)"
+  - Chair: "[Hannes Payer](https://ai.google/research/people/HannesPayer)"
+  -   "[Ben Titzer](https://ai.google/research/people/BenTitzer)"
   -   "[Zheng Zhang](http://www.cs.rutgers.edu/~zz124/)"
 
 
@@ -128,45 +132,45 @@ LCTES Steering Committee:
 
 PLDI Steering Committee:
   -   SIGPLAN Chair: #
-  -   Past SIGPLAN Chair: #
-  # -   Past Past SIGPLAN Chair: #
   -   SIGPLAN Vice Chair: #
-  -   Past SIGPLAN Vice Chair: #
-  -   Cormac Flanagan, PLDI Steering Committee Chair
-  -   Jan Vitek, past PLDI Steering Committee Chair
-  -   Michael O'Boyle, 2014 General Chair
-  -   Keshav Pingali, 2014 Program Chair
-  -   David Grove, 2015 General Chair
-  -   Steve Blackburn, 2015 Program Chair
-  -   Chandra Krintz, 2016 General Chair
-  -   Emery Berger, 2016 Program Chair
-
+  -   "[Cormac Flanagan](https://users.soe.ucsc.edu/~cormac/), PLDI Steering Committee Chair"
+  -   "[Chandra Krintz](www.cs.ucsb.edu/~ckrintz/), 2016 General Chair"
+  -   "[Emery Berger](https://emeryberger.com/), 2016 Program Chair"
+  -   "[Albert Cohen](https://who.rocq.inria.fr/Albert.Cohen/), 2017 General Chair"
+  -   "[Martin Vechev](https://eth-sri.github.io/people/martin), 2017 Program Chair"
+  -   "[Isil Dillig](https://www.cs.utexas.edu/~isil/), 2017 Member at Large"
+  -   "[Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), 2018 General Chair"
+  -   "[Dan Grossman](https://homes.cs.washington.edu/~djg/), 2018 Program Chair"
+  -   "[Emina Torlak](https://homes.cs.washington.edu/~emina/), 2018 Member at Large"
 
 POPL Steering Committee:
   -   SIGPLAN Chair: #
-  -   Past SIGPLAN Chair: #
   -   SIGPLAN Vice Chair: #
-  -   Past SIGPLAN Vice Chair: #
-  -   Giuseppe Castagna, 2017 General Chair
-  -   Ras Bodik, 2016 General Chair
-  -   Rupak Majumdar, 2016 Program Chair
-  -   Sriram Rajamani, 2015 General Chair
-  -   David Walker, 2015 Program Chair
-  -   Chair: Suresh Jagannathan, 2014 General Chair
-  -   Peter Sewell, 2014 Program Chair
-  -   Roberto Giacobazzi, 2013 General Chair
+  -   "[Michael Hicks ](http://www.cs.umd.edu/~mwh/), Steering Committee Chair (2018-2021)"
+  -   "[Giuseppe Castagna](https://www.irif.fr/~gc/), 2017 General Chair"
+  -   "[Brigitte Pientka](http://www.cs.mcgill.ca/~bpientka/), Member at large (2018-2021) and 2020 General Chair"
+  -   "[David Walker](http://www.cs.princeton.edu/~dpw/), Member at large and Industrial Relation Chair (2017-2020)"
+  -   "[Jeremy Gibbons](http://www.cs.ox.ac.uk/jeremy.gibbons/), Member a large (2015-2019)"
+  -   "[Andrew D. Gordon](https://onedrive.live.com/view.aspx/adg?cid=c6149b019d236bf5), 2017 Program Chair"
+  -   "[Ranjit Jhala](http://jacobsschool.ucsd.edu/faculty/faculty_bios/index.sfe?fmp_recid=235), 2018 General Chair"
+  -   "[Andrew Myers](http://www.cs.cornell.edu/andru/), 2018 Program Chair"
+  -   "[Fritz Henglein](http://www.diku.dk/~henglein/), 2019 General Chair"
+  -   "[Stephanie Weirich](https://www.cis.upenn.edu/~sweirich/), 2019 Program Chair"
+  -   "[Lars Birkedal](https://cs.au.dk/~birke/), 2020 Program Chair (Invited)"
 
-PPOPP Steering Committee:
-  - Chair: Calin Cascaval
+
+PPOPP Steering Committee: 
+  - Chair: Albert Cohen
   - Rafael Asenjo
-  - Albert Cohen
-  - David Grove
+  - Calin Cascaval
+  - Thomas Gross
   - Mary Hall
   - Tim Harris
-  - Jim Larus
-  - Jose Moreira
+  - Andreas Krall
   - David Padua
   - Keshav Pingali
+  - Lawrence Rauchwerger
+  - Vivek Sarkar
 
 SIGAPL Steering Committee:
   - Chair: Guy Larocque

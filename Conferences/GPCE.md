@@ -6,11 +6,11 @@ As the commercial production of software systems moves towards being a tradition
 
 **GPCE Fast Facts**  
 
-> [GPCE 2013](http://program-transformation.org/GPCE13/WebHome)  
-> Location: Indianapolis, USA  
-> General Chair: [Jaakko J&auml;rvi](https://parasol.tamu.edu/~jarvi/), Texas A&amp;M University, USA  
-> Program Chair: [Christian K&auml;stner](http://www.cs.cmu.edu/~ckaestne/), Carnegie Mellon University, USA  
-> Dates: October 27-28, 2013 
+> [GPCE 2018](https://conf.researchr.org/track/splash-2018/gpce-2018)  
+> Location: Boston, USA  
+> General Chair: [Eric Van Wyk](http://www.cs.umn.edu/~evw), University of Minnesota, USA  
+> Program Chair: [Tiark Rompf](http://tiarkrompf.github.io/), Purdue University, USA  
+> Dates: November 4-9, 2018
 
 **Steering Committee:**
  
@@ -18,6 +18,11 @@ As the commercial production of software systems moves towards being a tradition
 
 **Web Pages of Previous Conferences**  
 
+- [GPCE 2017](https://conf.researchr.org/track/gpce-2017/gpce-2017)
+- [GPCE 2016](https://conf.researchr.org/track/gpce-2016/gpce-2016-papers)
+- [GPCE 2015](https://2015.gpce.org/track/gpce2015)
+- [GPCE 2014](http://program-transformation.org/GPCE14)
+- [GPCE 2013](http://program-transformation.org/GPCE13/WebHome)
 - [GPCE 2012](http://program-transformation.org/GPCE12/WebHome)
 - [GPCE 2011](http://program-transformation.org/GPCE11/WebHome)
 - [GPCE 2010](http://program-transformation.org/GPCE10/WebHome)

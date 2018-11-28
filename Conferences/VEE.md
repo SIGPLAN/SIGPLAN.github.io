@@ -14,11 +14,11 @@ emulators, and simulators.
 
 **VEE Fast Facts**
 
-> Location: Istanbul, Turkey, co-located with ASPLOS  
-> General Chair: [Ada Gavrilovska](http://www.cc.gatech.edu/home/ada/) (Georgia Tech)  
-> Program co-Chairs: [Angela Demke Brown](http://www.cs.toronto.edu/~demke/) (University of Toronto) and [Bjarne Steensgaard](http://steensgaard.org/bjarne/) (Microsoft )  
-> Dates: March 14-15, 2015  
-> Website: [http://vee.sigops.org/vee15](http://vee.sigops.org/vee15)
+> Location: Providence, Rhode Island, USA, co-located with ASPLOS  
+> General Chair: [Jennifer B. Sartor](http://soft.vub.ac.be/~jsartor/index.html) (Ghent University and Vrije Universiteit Brussel)  
+> Program co-Chairs: [Mayur Naik](http://www.seas.upenn.edu/~mhnaik/) (University of Pennsylvania) and [Chris Rossbach](https://www.cs.utexas.edu/~rossbach) (UT Austin and VMware Research Group  
+> Dates: April 13-14, 2019  
+> Website: [https://conf.researchr.org/home/vee-2019](https://conf.researchr.org/home/vee-2019)
 
 **VEE Steering Committee**
 
@@ -28,7 +28,11 @@ The current VEE steering committee is:
 
 **Web Pages of Previous Conferences**
 
-> [VEE 2014](http://vee2014.org) (Salt Lake City, Utah)  
+> [VEE 2018](https://conf.researchr.org/home/vee-2018) (Williamsburg, VA)  
+> [VEE 2017](https://conf.researchr.org/home/vee-2017) (Xi'an China)  
+> [VEE 2016](https://conf.researchr.org/home/vee-2016) (Atlanta, GA)  
+> [VEE 2015](http://vee.sigops.org/vee15) (Istanbul, Turkey)  
+> [VEE 2014](http://vee2014.org) (Salt Lake City, UT)  
 > [VEE 2013](http://vee2013.org) (Houston, Texas)  
 > [VEE 2012](http://www.cl.cam.ac.uk/~smh22/vee_2012/) (London, UK)  
 > [VEE 2011](http://www.cs.technion.ac.il/~erez/vee11/VEE_2011/Home_Page.html) (Newport Beach, CA)  

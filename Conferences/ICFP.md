@@ -10,12 +10,11 @@ functional programming.
 
 **ICFP Fast Facts**
 
-> [ICFP 2016 Web Page](http://conf.researchr.org/home/icfp-2016)  
-> Location: Nara, Japan  
-> General Chair: Jacques Garrigue (Nagoya University) and Gabriele
-Keller (University of New South Wales)  
-> Program Chair: Eijiro Sumii (Tohoku University)  
-> Dates: Monday, 19 September - Wednesday, 21 September 2016  
+> [ICFP 2018 Web Page](http://icfp18.sigplan.org/)  
+> Location: St. Louis, MO, USA  
+> General Chair: Robby Finder (Northwestern University)  
+> Program Chair: Matthew Flatt (University of Utah)  
+> Dates: Monday, 24 September - Wednesday, 26 September 2018  
 
 **Most Influential ICFP Paper Award**
 Each year a "Most Influential" ICFP paper is chosen and an
@@ -28,6 +27,8 @@ these awards.&#160; More details about the SIGPLAN awards can be found
 
 **Web Pages of Previous Conferences**  
 
+> [ICFP 2017](http://icfp17.sigplan.org/) (Oxford, United Kingdom)  
+> [ICFP 2016](http://conf.researchr.org/home/icfp-2016/) (Nara, Japan)  
 > [ICFP 2015](http://www.icfpconference.org/icfp2015/) (Vancouver, British Columbia, Canada)  
 > [ICFP 2014](http://www.icfpconference.org/icfp2014/) (Gothenburg, Sweden)  
 > [ICFP 2013](http://www.icfpconference.org/icfp2013/) (Boston, Massachusetts)  

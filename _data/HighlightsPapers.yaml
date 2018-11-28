@@ -1,3 +1,66 @@
+Selected January 2018:
+
+- Title: _[Bringing the Web up to Speed with WebAssembly](https://dl.acm.org/citation.cfm?doid=3062341.3062363)_
+  Authors: Andreas Haas (Google, Germany), Andreas Rossberg (Google, Germany), Derek L. Schuff (Google, USA), Ben L. Titzer (Google, Germany), Michael Holman (Microsoft, USA), Dan Gohman (Mozilla, USA), Luke Wagner (Mozilla, USA), Alon Zakai (Mozilla, USA), JF Bastien (Apple, USA)
+  Venue: PLDI 2017
+  NominationStatement: |
+    This comprehensive paper describes the design and implementation
+    of WebAssembly, a low-level language implemented in major browsers
+    aiming to provide a portable, compact, fast and safe replacement
+    of JavaScript as the compilation target for web applications. The
+    work covers key aspects of programming language design and
+    implementation including formal operational semantics and typing
+    rules as well as design considerations that enable better code
+    readability and automated program reasoning.
+
+    The effort is a collaboration between all major browser vendors,
+    represents an impressive application of programming language
+    theory to a real-world problem, and is expected to have a
+    substantial impact in making the Web more reliable and secure.
+  CACMSelection: true
+
+- Title: "_[Types from Data: Making Structured Data First-Class Citizens in F#](https://dl.acm.org/citation.cfm?doid=2908080.2908115)_"
+  Authors: Tomas Petricek (University of Cambridge, UK), Gustavo Guerra (Microsoft, UK), Don Syme (Microsoft Research, UK)
+  Venue: PLDI 2016
+  NominationStatement: |
+    The paper presents a practical solution to a common challenge: web
+    programming with unstructured data in such formats as JSON, XML,
+    and CSV. The solution is principled and uses the known idea of
+    type inference in a new way, namely for external data at run
+    time. Specifically, the paper presents a type system for external
+    data that helps shorten access code and avoid unsafe lookups
+    during data traversal. The paper also shows how to infer a type
+    from example data, which makes the type system practical
+    useable. Type inference happens at run-time and maps example data
+    to a type that subsequent computation can use. In more detail,
+    type inference proceeds in two steps: first a shape inferencer
+    maps data to shapes via use of row variables, and then a type
+    provider maps shapes to types. A key technical aspect of the shape
+    inferencer is a preference relation that reflects both the
+    authors' design principles and the host language F#. The paper
+    proves the safety of code that uses the inferred types as long as
+    the input data is no crazier than the example data.
+
+- Title: _[Black-box Concurrent Data Structures for NUMA Architectures](https://dl.acm.org/citation.cfm?doid=3037697.3037721)_
+  Authors: Irina Calciu (VMware Research, Palo Alto, CA, USA), Siddhartha Sen (Microsoft Research, New York, NY, USA), Mahesh Balakrishnan (Yale University, New Haven, CT, USA), Marcos K. Aguilera (VMware Research, Palo Alto, CA, USA)
+  Venue: ASPLOS 2017
+  NominationStatement: |
+    The evolution of multicore hardware has reached the point in which
+    a single server divides its cores and memory into two or more Non
+    Uniform Memory Access (NUMA) domains. Designing concurrent data
+    structures is very challenging in general, and these NUMA
+    architectures make it harder. This paper exploits the observation
+    that NUMA multicore architectures increasingly resemble
+    distributed systems. It introduces an approach for transforming
+    sequential data structures into NUMA aware concurrent data
+    structures. The approach combines data replication with per NUMA
+    logging of updates, borrowed from distributed systems algorithms,
+    and shared memory data consistency protocols. The approach is
+    surprisingly effective for a range of data structures. This paper
+    is not the final word, but it points in a new direction for
+    designing concurrent algorithms for shared memory NUMA
+    architectures.
+
 Selected October 2016:
 
 - Title: _[Predicting Program Properties from "Big Code"](http://dl.acm.org/citation.cfm?doid=2676726.2677009)_
@@ -19,6 +82,7 @@ Selected October 2016:
     reasoning on programs and offer the first concrete evidence of the
     tremendous promise of the overall approach. A real-world product
     is JSNice: a practical, popular JavaScript de-obfuscation tool.
+  CACMSelection: true
 
 - Title: _[A Fast Compiler for NetKAT](http://dl.acm.org/citation.cfm?doid=2784731.2784761)_
   Authors: Steffen Smolka (Cornell University), Spiridon Eliopoulos (Inhabited Type), Nate Foster (Cornell University), Arjun Guha (University of Massachusetts Amherst)  
@@ -54,6 +118,14 @@ Selected October 2016:
     optimizations hits a sweet spot where one can both have practical,
     formal verification of the optimizations' correctness and generate
     efficient C++ implementations of the transformations.
+  CACMHighlight:
+    Date: February 2018
+    Title: Practical Verification of Peephole Optimizations with Alive
+    Link: https://dl.acm.org/citation.cfm?doid=3181977.3166064
+    TechnicalPerspective:
+      Title: Building Bug-Free Compilers
+      Link: https://dl.acm.org/citation.cfm?doid=3181977.3166062
+      Author: Steve Zdancewic
 
 
 Selected May 2015:
@@ -149,6 +221,14 @@ Selected July 2014:
     language routines that are widely recognized to be the fastest
     available and generally faster than what GCC can produce for
     hand-tuned C code).
+  CACMHighlight:
+    Date: May 2017
+    Title: "Exploiting Vector Instructions with Generalized Stream Fusion"
+    Link: http://dl.acm.org/citation.cfm?doid=3084186.3060597
+    TechnicalPerspective:
+      Title: Functional Compilers
+      Link: http://dl.acm.org/citation.cfm?doid=3084186.3060595
+      Author: Guy Blelloch
   
 - Title: "_[Fun with Semirings: A Functional Pearl on the Abuse of Linear Algebra](http://dl.acm.org/citation.cfm?doid=2500365.2500613)_"
   Author: Stephen Dolan (University of Cambridge)
@@ -1289,7 +1369,7 @@ Selected January 2008:
 
 Other SIGPLAN Papers Republished as CACM Research Highlights:
 
-- Title: "Ur/Web: A Simple Model for Programming the Web"
+- Title: "_[Ur/Web: A Simple Model for Programming the Web](https://dl.acm.org/citation.cfm?doid=2676726.2677004)_"
   Author: Adam Chlipala
   Venue: POPL 2015
   CACMHighlight:

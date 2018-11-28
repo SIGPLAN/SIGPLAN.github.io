@@ -1,31 +1,34 @@
 Primary Menu:
 - Home                                                          <>
-- Awards                                                        <Awards>
-- Calendar                                                      <Calendar>
 - Conferences                                                   <Conferences>
-- Resources                                                     <Resources>
+- Calendar                                                      <Calendar>
+- OpenTOC                                                       <OpenTOC>
+- Awards                                                        <Awards>
 - Research Highlights                                           <Highlights>
 - Membership                                                    <Membership>
-- Publications                                                  <Newsletters>
 
 Key Links:
-- Awards                                                        <Awards>
 - Conferences                                                   <Conferences>
 - Calendar                                                      <Calendar>
-- Resources                                                     <Resources>
-- SIGPLAN Research Highlights                                   <Highlights>
+- OpenTOC                                                       <OpenTOC>
+- Awards                                                        <Awards>
+- Research Highlights                                           <Highlights>
+- SIGPLAN By-laws                                               <http://www.acm.org/sigs/bylaws-contents/plan_bylaws>
+- SIGPLAN Officers                                              <ContactUs>
+- Open Meeting Presentations                                    <Resources/OMP>
+- Annual Reports                                                <Resources/AnnualReports>
 - Membership                                                    <Membership>
 - Student Membership                                            <Resources/Student>
-- SIGPLAN Publications                                          <Newsletters>
-- SIGPLAN Officers                                              <ContactUs>
 - Travel Support                                                <PAC>
-- Open Meeting Presentations                                    <Resources/OMP>
-- SIGPLAN By-laws                                               <http://www.acm.org/sigs/bylaws-contents/plan_bylaws>
-- Annual Reports                                                <Resources/AnnualReports>
+- SIGPLAN Publications                                          <Newsletters>
+- Resources                                                     <Resources>
+
+Ad Hoc Committees:
+- Climate Change                                                <Resources/Climate>
+- Empirical Evaluation                                          <Resources/EmpiricalEvaluation>
 
 Conference Information:
-- SIGPLAN Conferences Calendar                                  <http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN>
-- Information for Authors Submitting Papers                     <Resources/Author>
+- Author Information                                            <Resources/Author>
 - Steering Committee Guidelines                                 <Resources/Guidelines/SCommittee>
 - General Chair Guidelines                                      <Resources/Guidelines/GenChair>
 - Program Chair Guidelines                                      <Resources/Guidelines/ProChair>
@@ -33,10 +36,14 @@ Conference Information:
 - Sponsorship Proposal                                          <Resources/Proposals/Sponsored>
 - In-cooperation  Proposal                                      <Resources/Proposals/Cooperated>
 - Colocation Guidelines                                         <Resources/Guidelines/Colocation>
+
+Policies:
+- SIGPLAN Conference Policies                                   <https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/edit?usp=sharing>
 - Submission Review Policy                                      <Resources/Policies/Review>
 - Republication  Policy                                         <Resources/Policies/Republication>
 - Diversity Policy                                              <Resources/Policies/Diversity>
 - Code of Conduct Policy                                        <Resources/Policies/CodeOfConduct>
+# - Errata and Academic Disputes Policy                           <Resources/Policies/ErrataAndAcademicDisputes>
 
 SIGPLAN Sponsored Conferences:
 - Architectural Support for Programming Languages and Operating Systems (ASPLOS)        
@@ -69,7 +76,6 @@ SIGPLAN Awards:
 - Most Influential PLDI Paper Award                             <Awards/PLDI>
 - Most Influential OOPSLA Paper Award                           <Awards/OOPSLA>
 - Most Influential ICFP Paper Award                             <Awards/ICFP>
-- John Vlissides Award                                          <Awards/Vlissides>
 - Outstanding Doctoral Dissertation Award                       <Awards/Dissertation>
 - Distinguished Service Award                                   <Awards/Service>
 

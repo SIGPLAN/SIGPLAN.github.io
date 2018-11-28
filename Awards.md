@@ -25,6 +25,14 @@ Programming Languages Community. The award recognizes contributions
 to ACM SIGPLAN, its conferences, publications, or its local
 activities. The award includes a prize of $2,500.
 
+**Distinguished Educator Award**  
+The
+[Distinguished Educator Award](/Awards/Educator) is given by
+ACM SIGPLAN to recognize pedagogical contributions to
+Programming Languages at any educational level.  The award
+recognizes contributions in both innovative content and
+delivery. The award includes a prize of $2,500.
+
 **Programming Languages Software Award**  
 The
 [Programming Languages Software Award](/Awards/Software) is
@@ -34,7 +42,7 @@ programming language research, implementations, and tools. The
 impact may be reflected in the wide-spread adoption of the system
 or its underlying concepts by the wider programming language
 community either in research projects, in the open-source
-community, or commercially.The award includes a prize of $2,500.
+community, or commercially. The award includes a prize of $2,500.
 
 **Robin Milner Young Researcher Award**  
 The
@@ -65,20 +73,8 @@ respective conference.
 -   [Most Influential ICFP Paper](/Awards/ICFP)
 -   [Most Influential OOPSLA Paper](/Awards/OOPSLA)
 
-
-**John Vlissides Award**  
-The
-[John Vlissides Award](/Awards/Vlissides) is presented annually
-to a doctoral student participating in the OOPSLA Doctoral
-Symposium showing significant promise in applied software research.
-All doctoral candidates participating in the annual OOPSLA Doctoral
-Symposium are eligible. The award includes a prize of $2,000. This
-award was established with generous contributions from the
-following companies, individuals, and organizations: IBM, Addison
-Wesley, William Pugh, and SIGPLAN.
-
 **ACM Fellows**  
-The programming language community has many members who are
-[ACM Fellows](http://fellows.acm.org/). Click
+The programming language community has many members who are [ACM
+Fellows](https://awards.acm.org/fellows). Click
 [here](/Awards/ACMFellows) for a list of ACM Fellows who have made
 contributions to the field of programming languages.

@@ -11,7 +11,7 @@ instance.
 Responsibilities of the SC
 --------------------------
 
-1.  To appoint the conference General Chair and Programme
+1.  To appoint the conference General Chair and Program
     Chair, after approval by the EC Chair and Vice-Chair.
 2.  To provide help and guidance to the General Chair in selecting
     the site and date and preparing the budget, in collaboration
@@ -30,13 +30,13 @@ Steering Committee Bylaws
 -------------------------
 
 The SC operates under a set of rules, which must be
-established by the initial steering committee and approved by
+established by the initial steering committee and approved by the
 SIGPLAN EC. These rules must include the following:
 
 1.  Composition of the SC: 
     the number of members serving, and the structure of the committee.
     (For example, the SC could be made up of the current
-    and previous two General Chairs and Programme Chairs.)
+    and previous two General Chairs and Program Chairs.)
 2.  Committee member rotation: how committee members are rotated 
     off the SC (how often, how many, and in
     what order).
@@ -51,5 +51,7 @@ _SIGPLAN Chair_:
 [chair\_sigplan@acm.org](mailto:chair_sigplan@acm.org)  
 _SIGPLAN Vice Chair_:
 [vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org)  
-_ACM Representative to SIGPLAN_ (Fran Spinola):
-[spinola@hq.acm.org](mailto:spinola@hq.acm.org)
+_SIGPLAN Information Director_:
+[infodir\_sigplan@acm.org](mailto:infodir_sigplan@acm.org?subject=Conference%20Information)  
+_ACM Representative to SIGPLAN_ (Abigail Sumandal):
+[sumandal@hq.acm.org](mailto:sumandal@hq.acm.org)

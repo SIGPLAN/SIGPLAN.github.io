@@ -1,3 +1,98 @@
+2018:
+- Awardee: "Justin Hsu, University of Pennsylvania"
+  Other: |
+    _[Probabilistic Couplings for Probabilistic Reasoning](/Awards/Dissertation/2018_hsu.pdf)_
+  Advisor: Benjamin C. Pierce and Aaron Roth
+  Citation: |
+    The thesis explores and generalizes the COUPLING proof technique, for
+    establishing properties of randomized algorithms. A correspondence between
+    two different probabilistic programs (or two runs of the same program)
+    requires the specification of the c orrelation between corresponding pairs
+    of random draws and then extending this coupling on samples to a coupling on
+    the resulting output distributions, which can then be used to establish the
+    desired property on the programs. As Probabilistic Relation al Hoare Logic
+    has just the right structure to be able to formally encode these coupling
+    arguments, the thesis analyzes the structure of these arguments through this
+    formal lens, justifying the attractiveness of the coupling approach in terms
+    of compo sitionality.  It then considers an enriched logic and its
+    connection to approximate couplings, which in turn are directly connected to
+    differential privacy.  Working in this logic, it gives novel proofs of some
+    key constructions from differential priv acy, including the exponential and
+    sparse vector mechanisms. The proof for sparse vector is the first ever to
+    be carried out in a machine-checkable form.
+
+    Taken together, these results constitute a significant advance in our
+    ability to mechanize key properties of important randomized algorithms such
+    as those found in the differential privacy literature.
+
+- Awardee: "David Menendez, Rutgers University"
+  Other: |
+    _[Practical Formal Techniques and Tools for Developing LLVM's Peephole Optimizations](/Awards/Dissertation/2018_menendez.pdf)_
+  Advisor: Santosh Nagarakatte
+  Citation: |
+    This thesis proposes abstractions and formal tools to develop correct LLVM
+    peephole optimizations. A domain specific language (DSL) Alive enables the
+    specification and verification of peephole optimizations. An Alive
+    transformation is shown to be correct automatically by encoding the
+    transformation and correctness criteria as constraints in first-order logic,
+    which are automatically checked for validity using an SMT solver. It then
+    generates C++ code for an LLVM pass. Peephole optimizations in LLVM are
+    executed numerous times until no optimization is applicable and one
+    optimization could undo the effect of the other resulting in non-terminating
+    compilation. A novel algorithm based on directed-acyclic-graph (DAG)
+    composition determines whether such non-termination bugs can occur with a
+    suite of peephole optimizations. The Alive toolkit can generate concrete
+    input to demonstrate non-termination as well as automatically generating
+    weakest preconditions. It is actively used by the LLVM community and has
+    detected numerous bugs in existing passes and is preventing bugs from being
+    added to the compiler.
+
+2017:
+- Awardee: "Ramana Kumar, Cambridge University"
+  Other: |
+    _[Self-compilation and Self-verification](/Awards/Dissertation/2017_kumar.pdf)_
+  Advisor: Mike Gordon and Magnus Myreen
+  Citation: |
+    This thesis establishes end-to-end verification with a
+    comprehensive chain of connections all the way from the semantics
+    of a theorem prover expressed in set theory down to x86 machine
+    code running it. It also makes striking use of self-application
+    for both the compiler and the theorem prover.  The "CakeML"
+    compiler is compiled with itself. But more than that: it is
+    formally proved correct, and the core of the theorem prover used
+    to prove its correctness is also compiled using CakeML and
+    formally verified using itself. Not only is this a compelling
+    demonstration of the possibilities for formally correct software,
+    and the promise of the CakeML system as an enabling technology for
+    it, but gives perhaps the first really convincing correctness
+    proof for the core of a higher-order logic interactive theorem
+    prover. It is possible that this combination of theorem prover and
+    formally verified path to machine code will become one of the
+    primary platforms for developing high-assurance software.
+
+- Awardee: "Zachary Kincaid, University of Toronto (Honorable Mention)"
+  Other: |
+    _[Parallel Proofs for Parallel Programs](/Awards/Dissertation/2017_???.pdf)_
+  Advisor: Azadeh Farzan
+  Citation: |
+    This thesis proposes a new solution for the problem of concurrent
+    program verification introducing the use of explicitly parallel
+    models and logics to represent and reason about concurrent
+    programs. An effective way of finding a sweet spot in the
+    cost-precision spectrum is provided, weaving together the two
+    steps of constraint generation and cons traint resolution,
+    offering a new way to think about proofs of concurrent programs.
+    This paradigm shift has been missing in the space of "automated"
+    program verification of infinite-state programs, since despite the
+    absolute elegance of Owicki-Gries and Rely-Guarantee proof
+    techniques, the completeness of these techniques heavily relies on
+    the concept of auxiliary proof state. In this thesis, "inductive
+    data flow graphs" (iDFG) offer the same completeness and elegance
+    as the Owicki-Gries method minus the need for the auxiliary state
+    in generating provably "compact" proof arguments.  The elegance of
+    iDFGs are generalized into a proof method "proof spaces" for
+    concurrent programs with "unboundedly" many threads.
+
 2016:
 - Awardee: "Shachar Itzhaky, Tel Aviv University"
   Other: |
@@ -25,6 +120,37 @@
     important foundational and practical contributions to our
     understanding of the potential of automated program verification
     and its application to real-world programs.
+
+- Awardee: "Vilhelm Sjöberg, University of Pennsylvania"
+  Other: |
+    _[A Dependently Typed Language with Nontermination](/Awards/Dissertation/2016_sjoberg.pdf)_
+  Advisor: Stephanie Weirich
+  Citation: |
+    This work represents a major step toward the holy grail of
+    "general-purpose dependently typed programming" -- i.e., the
+    design of programming languages that allow programs to be written
+    using the full spectrum of standard features and idioms while,
+    supporting machine-checked correctness proofs for these programs,
+    expressed in the very same language. Such languages, combining the
+    logical power of full-spectrum dependent languages such as Coq and
+    Agda with the convenience and expressiveness of mainstream
+    functional languages and supporting "lightweight verification"
+    targeting just the most important properties of the most critical
+    parts of the code, have been imagined for decades, but realizing
+    this dream has proved technically challenging. The language and
+    its accompanying metatheory introduce two important
+    innovations. The first, and more technical, of these is the design
+    of a core language combining a call-by-value evaluation order, a
+    pragmatically motivated treatment of computational irrelevance (to
+    support compilation to efficient machine code), and a novel
+    treatment of propositional equality. The second is a new approach
+    to surface-language design, where two terms (including proof
+    terms) are considered to be equivalent if one can be rewritten to
+    the other by applying a set of "known equalities" arising from
+    previous definitions, which is quite convenient and intuitive for
+    programmers. This beautiful thesis will be a cornerstone of a new
+    generation of language designs supporting significantly more
+    robust and reliable software development.
 
 2015:
 - Awardee: "Mark Batty, University of Cambridge"

@@ -1,15 +1,14 @@
 <div class="navbar navbar-default" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" id="no-place-like-home" href="/">ACM SIGPLAN</a>
     </div>
-    <div class="navbar-collapse collapse">
+    <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="nav navbar-nav">
         {% for m1 in site.data.Links["Primary Menu"] %}
           {% assign tmp = m1 | remove: '>' | split: "<" %}

@@ -1,0 +1,246 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>Haskell 2018- Proceedings of the 11th ACM SIGPLAN International Symposium on Haskell</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>Haskell 2018- Proceedings of the 11th ACM SIGPLAN International Symposium on Haskell</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3242744" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Testing</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667406" title="Get the Full Text from the ACM Digital Library">Branching processes for QuickCheck generators</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Agust&#237;n Mista</li>
+<li class="nameList">Alejandro Russo</li>
+<li class="nameList Last">John Hughes</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In QuickCheck (or, more generally, random testing), it is challenging to control random data generators&#39; distributions---specially when it comes to user-defined algebraic data types (ADT). In this paper, we adapt results from an area of mathematics known as branching processes, and show how they help to analytically predict (at compile-time) the expected number of generated constructors, even in the presence of mutually recursive or composite ADTs. Using our probabilistic formulas, we design heuristics capable of automatically adjusting probabilities in order to synthesize generators which distributions are aligned with users&#39; demands. We provide a Haskell implementation of our mechanism in a tool called DRaGeN and perform case studies with real-world applications. When generating random values, our synthesized QuickCheck generators show improvements in code coverage when compared with those automatically derived by state-of-the-art tools.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667407" title="Get the Full Text from the ACM Digital Library">A promise checked is a promise kept: inspection testing</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Joachim Breitner</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Occasionally, developers need to ensure that the compiler treats their code in a specific way that is only visible by <em>inspecting</em> intermediate or final compilation artifacts. This is particularly common with carefully crafted compositional libraries, where certain usage patterns are expected to trigger an intricate sequence of compiler optimizations &#8211; stream fusion is a well-known example. </p> <p>The developer of such a library has to manually inspect build artifacts and check for the expected properties. Because this is too tedious to do often, it will likely go unnoticed if the property is broken by a change to the library code, its dependencies or the compiler. The lack of automation has led to released versions of such libraries breaking their documented promises. </p> <p>This indicates that there is an unrecognized need for a new testing paradigm, <em>inspection testing</em>, where the programmer declaratively describes non-functional properties of an compilation artifact and the compiler checks these properties. We define inspection testing abstractly, implement it in the context of the Haskell Compiler GHC and show that it increases the quality of such libraries.</p></div> </div>
+<h2>SESSION: Performance</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667408" title="Get the Full Text from the ACM Digital Library">AutoBench: comparing the time performance of Haskell programs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Martin A. T. Handley</li>
+<li class="nameList Last">Graham Hutton</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Two fundamental goals in programming are correctness (producing the right results) and efficiency (using as few resources as possible). Property-based testing tools such as QuickCheck provide a lightweight means to check the correctness of Haskell programs, but what about their efficiency? In this article, we show how QuickCheck can be combined with the Criterion benchmarking library to give a lightweight means to compare the time performance of Haskell programs. We present the design and implementation of the <em>AutoBench</em> system, demonstrate its utility with a number of case studies, and find that many QuickCheck correctness properties are also efficiency improvements.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667409" title="Get the Full Text from the ACM Digital Library">Autobahn 2.0: minimizing bangs while maintaining performance (system demonstration)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Marilyn Sun</li>
+<li class="nameList Last">Kathleen Fisher</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Lazy evaluation has many advantages, but it can cause bad performance. Consequently, Haskell allows users to force eager evaluation at certain program points by inserting strictness annotations, known and written as bangs (!). Unfortunately, manual bang placement is difficult. Autobahn 1.0 uses a genetic algorithm to infer bang annotations that improve performance. However, Autobahn 1.0 often generates large numbers of superfluous bangs, which is problematic because users must inspect each such bang to determine whether it is safe. We introduce Autobahn 2.0, which uses GHC profiling information to reduce the number of superfluous bangs. When evaluated on the NoFib benchmark suite, Autobahn 2.0 reduced the number of inferred bangs by 90.2% on average, while only degrading program performance by 15.7% compared with the performance produced by Autobahn 1.0. In a case study on a garbage collection simulator, Autobahn 2.0 eliminated 81.8% of the recommended bangs, with the same 15.7% optimization degradation.</p></div> </div>
+<h2>SESSION: Generic Programming</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667400" title="Get the Full Text from the ACM Digital Library">Generic programming of all kinds</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Alejandro Serrano</li>
+<li class="nameList Last">Victor Cacciari Miraldo</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Datatype-generic programming is a widely used technique to define functions that work regularly over a class of datatypes. Examples include deriving serialization of data, equality or even functoriality. The <em>state-of-the-art</em> of generic programming still lacks handling GADTs, multiple type variables, and some other features. This paper exploits modern GHC extensions, including &lt;pre&gt;TypeInType&lt;/pre&gt;, to handle arbitrary number of type variables, constraints, and existentials. We also provide an Agda model of our construction that does <em>not</em> require Russel&#8217;s paradox, proving the construction is consistent.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667401" title="Get the Full Text from the ACM Digital Library">Deriving via: or, how to turn hand-written instances into an anti-pattern</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Baldur Bl&#246;ndal</li>
+<li class="nameList">Andres L&#246;h</li>
+<li class="nameList Last">Ryan Scott</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Haskell&#39;s deriving construct is a cheap and cheerful way to quickly generate instances of type classes that follow common patterns. But at present, there is only a subset of such type class patterns that deriving supports, and if a particular class lies outside of this subset, then one cannot derive it at all, with no alternative except for laboriously declaring the instances by hand. </p> <p> To overcome this deficit, we introduce Deriving Via, an extension to deriving that enables programmers to compose instances from named programming patterns, thereby turning deriving into a high-level domain-specific language for defining instances. Deriving Via leverages newtypes---an already familiar tool of the Haskell trade---to declare recurring patterns in a way that both feels natural and allows a high degree of abstraction.</p></div> </div>
+<h2>SESSION: Type Classes</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667402" title="Get the Full Text from the ACM Digital Library">Improving typeclass relations by being open</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Guido Mart&#237;nez</li>
+<li class="nameList">Mauro Jaskelioff</li>
+<li class="nameList Last">Guido De Luca</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Mathematical concepts such as monads, functors, monoids, and semigroups are expressed in Haskell as typeclasses. Therefore, in order to exploit relations such as &#8220;every monad is a functor&#8221;, and &#8220;every monoid is a semigroup&#8221;, we need to be able to also express relations between typeclasses. </p> <p>Currently, the only way to do so is using <em>superclasses</em>. However, superclasses can be problematic due to their closed nature. Adding a superclass implies modifying the subclass&#8217; definition, which is either impossible if one does not own such code, or painful as it requires cascading changes and the introduction of boilerplate throughout the codebase. </p> <p>In this article, we introduce <em>class morphisms</em>, a way to relate classes in an open fashion, without changing class definitions. We show how class morphisms improve the expressivity, conciseness, and maintainability of code. Further, we show how to implement them while maintaining canonicity and coherence, two key properties of the Haskell type system. Extending a typechecker with class morphisms amounts to adding an elaboration phase and is an unintrusive change. We back this claim with a prototype extension of GHC.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667403" title="Get the Full Text from the ACM Digital Library">Coherent explicit dictionary application for Haskell</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Thomas Winant</li>
+<li class="nameList Last">Dominique Devriese</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Type classes are one of Haskell&#39;s most popular features and extend its type system with ad-hoc polymorphism. Since their conception, there were useful features that could not be offered because of the desire to offer two correctness properties: coherence and global uniqueness of instances. Coherence essentially guarantees that program semantics are independent from type-checker internals. Global uniqueness of instances is relied upon by libraries for enforcing, for example, that a single order relation is used for all manipulations of an ordered binary tree. </p> <p> The features that could not be offered include explicit dictionary application and local instances, which would be highly useful in practice. In this paper, we propose a new design for offering explicit dictionary application, without compromising coherence and global uniqueness. We introduce a novel criterion based on GHC&#39;s type argument roles to decide when a dictionary application is safe with respect to global uniqueness of instances. We preserve coherence by detecting potential sources of incoherence, and prove it formally. Moreover, our solution makes it possible to use local dictionaries. In addition to developing our ideas formally, we have implemented a working prototype in GHC.</p></div> </div>
+<h2>SESSION: Type Extensions</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667404" title="Get the Full Text from the ACM Digital Library">Type variables in patterns</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Richard A. Eisenberg</li>
+<li class="nameList">Joachim Breitner</li>
+<li class="nameList Last">Simon Peyton Jones</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>For many years, GHC has implemented an extension to Haskell that allows type variables to be bound in type signatures and patterns, and to scope over terms. This extension was never properly specified. We rectify that oversight here. With the formal specification in hand, the otherwise-labyrinthine path toward a design for binding type variables in patterns becomes blindingly clear. We thus extend ScopedTypeVariables to bind type variables explicitly, obviating the Proxy workaround to the dustbin of history.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667415" title="Get the Full Text from the ACM Digital Library">The Thoralf plugin: for your fancy type needs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Divesh Otwani</li>
+<li class="nameList Last">Richard A. Eisenberg</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Many fancy types (e.g., generalized algebraic data types, type families) require a type checker plugin. These fancy types have a type index (e.g., type level natural numbers) with an equality relation that is difficult or impossible to represent using GHC&#39;s built-in type equality. The most practical way to represent these equality relations is through a plugin that asserts equality constraints. However, such plugins are difficult to write and reason about. </p> <p> In this paper, we (1) present a formal theory of reasoning about the correctness of type checker plugins for type indices, and, (2) apply this theory in creating Thoralf, a generic and extensible plugin for type indices that translates GHC constraint problems to queries to an external SMT solver. By "generic and extensible", we mean the restrictions on extending Thoralf are slight, and, if some type index could be encoded as an SMT sort, then a programmer could extend Thoralf by providing this encoding function.</p></div> </div>
+<h2>SESSION: Pearls</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667416" title="Get the Full Text from the ACM Digital Library">Ghosts of departed proofs (functional pearl)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Matt Noonan</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Library authors often are faced with a design choice: should a function with preconditions be implemented as a partial function, or by returning a failure condition on incorrect use? Neither option is ideal. Partial functions lead to frustrating run-time errors. Failure conditions must be checked at the use-site, placing an unfair tax on the users who have ensured that the function&#39;s preconditions were correctly met. </p> <p> In this paper, we introduce an API design concept called ``ghosts of departed proofs&#39;&#39; based on the following observation: sophisticated preconditions can be encoded in Haskell&#39;s type system with no run-time overhead, by using proofs that inhabit phantom type parameters attached to newtype wrappers. The user expresses correctness arguments by constructing proofs to inhabit these phantom types. Critically, this technique allows the library user to decide when and how to validate that the API&#39;s preconditions are met. </p> <p> The ``ghosts of departed proofs&#39;&#39; approach to API design can achieve many of the benefits of dependent types and refinement types, yet only requires some minor and well-understood extensions to Haskell 2010. We demonstrate the utility of this approach through a series of case studies, showing how to enforce novel invariants for lists, maps, graphs, shared memory regions, and more.</p></div> </div>
+
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667417" title="Get the Full Text from the ACM Digital Library">Theorem proving for all: equational reasoning in liquid Haskell (functional pearl)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Niki Vazou</li>
+<li class="nameList">Joachim Breitner</li>
+<li class="nameList">Rose Kunkel</li>
+<li class="nameList">David Van Horn</li>
+<li class="nameList Last">Graham Hutton</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Equational reasoning is one of the key features of pure functional languages such as Haskell. To date, however, such reasoning always took place externally to Haskell, either manually on paper, or mechanised in a theorem prover. This article shows how equational reasoning can be performed directly and seamlessly within Haskell itself, and be checked using Liquid Haskell. In particular, language learners --- to whom external theorem provers are out of reach --- can benefit from having their proofs mechanically checked. Concretely, we show how the equational proofs and derivations from Graham&#39;s textbook can be recast as proofs in Haskell (spoiler: they look essentially the same).</p></div> </div>
+<h2>SESSION: Domain Specific Languages</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667418" title="Get the Full Text from the ACM Digital Library">Rhine: FRP with type-level clocks</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Manuel B&#228;renz</li>
+<li class="nameList Last">Ivan Perez</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Processing data at different rates is generally a hard problem in reactive programming. Buffering problems, lags, and concurrency issues often occur. Many of these problems are <em>clock errors</em>, where data at different rates is combined incorrectly. Techniques to avoid clock errors, such as type-level clocks and deterministic scheduling, exist in the field of synchronous programming, but are not implemented in general-purpose languages like Haskell. </p> <p>Rhine is a <em>clock-safe</em> library for synchronous and asynchronous Functional Reactive Programming (FRP). It separates the aspects of clocking, scheduling and resampling from each other, and ensures clock-safety at the type level. Concurrent communication is encapsulated safely. Diverse reactive subsystems can be combined in a coherent, declarative data-flow framework, while correct interoperability of data at different rates is guaranteed by type-level clocks. This provides a general-purpose framework that simplifies multi-rate FRP systems and can be used for game development, media applications, GUIs and embedded systems, through a flexible API with many reusable components.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667419" title="Get the Full Text from the ACM Digital Library">Embedding invertible languages with binders: a case of the FliPpr language</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Kazutaka Matsuda</li>
+<li class="nameList Last">Meng Wang</li>
+ </ul>
+<div class="DLabstract"><div style="display:inline"><p>This paper describes a new embedding technique of invertible programming languages, through the case of the FliPpr language. Embedded languages have the advantage of inheriting host languages&#39; features and supports; and one of the influential methods of embedding is the tagless-final style, which enables a high level of programmability and extensibility. However, it is not straightforward to apply the method to the family of invertible/reversible/bidirectional languages, due to the different ways functions in such domains are represented. We consider FliPpr, an invertible pretty-printing system, as a representative of such languages, and show that Atkey et al.&#39;s unembedding technique can be used to address the problem. Together with a reformulation of FliPpr, our embedding achieves a high level of interoperability with the host language Haskell, which is not found in any other invertible languages. We implement the idea and demonstrate the benefits of the approach with examples.</p></div> </div>
+<h2>SESSION: Experience Reports</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667410" title="Get the Full Text from the ACM Digital Library">A high-performance multicore IO manager based on libuv (experience report)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Dong Han</li>
+<li class="nameList Last">Tao He</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present a high performance multicore I/O manager based on libuv for Glasgow Haskell Compiler (GHC). The new I/O manager is packaged as an ordinary Haskell package rather than baked into GHC&#39;s runtime system(GHC RTS), yet takes advantage of GHC RTS&#39;s comprehensive concurrent support, such as lightweight threads and safe/unsafe FFI options. The new I/O manager&#39;s performance is comparable with existing implementation, with greater stability under high load. It also can be easily extended to support all of libuv&#39;s callback-based APIs, allowing us to write a complete high performance I/O toolkit without spending time on dealing with OS differences or low-level I/O system calls.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667411" title="Get the Full Text from the ACM Digital Library">Suggesting valid hole fits for typed-holes (experience report)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Matth&#237;as P&#225;ll Gissurarson</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Type systems allow programmers to communicate a partial specification of their program to the compiler using types, which can then be used to check that the implementation matches the specification. But can the types be used to aid programmers during development? In this experience report I describe the design and implementation of my lightweight and practical extension to the typed-holes of GHC that improves user experience by adding a list of <i>valid hole fits</i> and <i>refinement hole fits</i> to the error message of typed-holes. By leveraging the type checker, these fits are selected from identifiers in scope such that if the hole is substituted with a valid hole fit, the resulting expression is guaranteed to type check.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

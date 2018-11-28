@@ -38,11 +38,13 @@ a paper may be asked to leave the room for the duration of the
 discussion.
 
 Among the situations in which conflicts are typically considered to
-exist are between an advisor and their students (forever), an author
-and their co-authors (until two years after publication), and people
-in the same institution (until two years after; branches of large
+exist are between an advisor and an advisee (Ph.D. and post-doc;
+forever), between an author and a co-author (papers and proposals; for
+two years), between people at the same institution (branches of large
 companies or different locations of research institutes are considered
-to be the same institution). If a reviewer feels unable to render an
+to be the same institution; for two years after leaving an
+institution), between people with financial conflicts of interest, and
+between friends or relatives.  If a reviewer feels unable to render an
 objective judgement for any reason, he or she should notify the
 program chair.
 

@@ -11,7 +11,7 @@
         <div class="col-md-8">
           <div class="bigsig">SIGPLAN</div>
           <h3>Special Interest Group on Programming Languages</h3>
-          <p>SIGPLAN is a Special Interest Group of ACM that focuses on Programming Languages. In particular, SIGPLAN explores the  design, implementation, theory, and efficient use of programming languages and associated tools. Its members are programming language users, developers, implementers, theoreticians, researchers and educators.</p>
+          <p>The ACM Special Interest Group on Programming Languages (SIGPLAN) explores programming language concepts and tools, focusing on design, implementation, practice, and theory. Its members are programming language developers, educators, implementers, researchers, theoreticians, and users.</p>
         </div>
       </div>
     </div>
@@ -23,10 +23,25 @@
             {% include link-table.liquid data=site.data.Links links="Key Links" %}
           </div>
           <div style="margin-top: 25px;">
+            {% include link-table.liquid data=site.data.Links links="Ad Hoc Committees" %}
+          </div>
+          <div style="margin-top: 25px;">
             {% include link-table.liquid data=site.data.Links links="Conference Information" %}
+          </div>
+          <div style="margin-top: 25px;">
+            {% include link-table.liquid data=site.data.Links links="Policies" %}
           </div>
         </div>
         <div class="col-md-7 col-md-offset-1">
+          {% for news in site.data.News %}
+          {% if news.Active %}
+            <a href="News/{{news.Page}}"><h2>{{news.Title}}</h2></a>
+            <font size="+1">{{ news.Content | markdownify }}</font>
+            <font size="-2">{{ news.Date }}</font>
+            <hr>
+          {% endif %}
+          {% endfor %}
+
           <h3>Awards and Recent Recipients</h3>
 
           {% for award in site.data.Awards %}
@@ -57,7 +72,12 @@
             <ul>
               {% for recipient in recent_recipients %}
               <li>
-                <a href="{{path}}#{{year}}_{{ recipient["Awardee"] | replace: " ", "_" | replace: ",", "_" }}">{{ recipient["Awardee"] }}</a>
+                <a href="{{path}}#{{year}}_{{ recipient["Awardee"] | replace: " ", "_" | replace: ",", "_" }}">
+                  {% if recipient["Award"] <> nil %}
+                  <em>{{ recipient["Award"] }}:</em>
+                  {% endif %}
+                  {{ recipient["Awardee"] }}
+                </a>
                 {% if recipient["Other"] <> nil %}
                   {{ recipient["Other"] | markdownify}}
                 {% endif %}

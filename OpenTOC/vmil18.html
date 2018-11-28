@@ -1,0 +1,165 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>VMIL 2018- Proceedings of the 10th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>VMIL 2018- Proceedings of the 10th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3281287" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661836" title="Get the Full Text from the ACM Digital Library">On the self in selfie (invited talk)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Christoph M. Kirsch</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Selfie is a self-contained 64-bit, 10-KLOC implementation of (1) a self-compiling compiler written in a tiny subset of C called C* targeting a tiny subset of 64-bit RISC-V called RISC-U, (2) a self-executing RISC-U emulator, (3) a self-hosting hypervisor that virtualizes the emulated RISC-U machine, and (4) a prototypical symbolic execution engine that executes RISC-U symbolically. Selfie can compile, execute, and virtualize itself any number of times in a single invocation of the system given adequate resources. There is also a simple linker, disassembler, debugger, and profiler. C* supports only two data types, &lt;pre&gt;uint64_t&lt;/pre&gt; and &lt;pre&gt;uint64_t*&lt;/pre&gt;, and RISC-U features just 14 instructions, in particular for unsigned arithmetic only, which significantly simplifies reasoning about correctness. Selfie has originally been developed just for educational purposes but has by now become a research platform as well. We discuss how selfie leverages the synergy of integrating compiler, target machine, and hypervisor in one self-referential package while orthogonalizing bootstrapping, virtual and heap memory management, emulated and virtualized concurrency, and even replay debugging and symbolic execution.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661837" title="Get the Full Text from the ACM Digital Library">Beam: a virtual machine for handling millions of messages per second (invited talk)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Erik Stenman</li>
+ </ul>
+<div class="DLabstract"><div style="display:inline"><p>BEAM, the virtual machine for Erlang, was built by Ericsson to handle internet traffic. Today Erlang is used in many high volume settings like gaming, messaging and financial services. For example, WhatsApp uses Erlang to handle close to a 100 billion messages per day. </p> <p> The language and the machine was designed from the ground up to be robust, maintainable, and scalable. </p> <p> In this talk we will look at the BEAM in detail to see how it is implemented. We will look at the motivation behind the Erlang design and how it has affected the virtual machine. We will look closely at how the most central concepts, processes and concurrency, are implemented. We will also look at memory management, instruction dispatching, and some pragmatic optimizations.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661838" title="Get the Full Text from the ACM Digital Library">Efficient VM-independent runtime checks for parallel programming</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Michael Faes</li>
+<li class="nameList Last">Thomas R. Gross</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Many concurrent or parallel programming languages rely on runtime checking to ensure safety. To implement such a language on a virtual machine (VM), such runtime checks are often implemented in a VM-independent way, using source-to-source translation or bytecode instrumentation. This approach avoids modifying complex VM components like the just-in-time (JIT) compiler and offers great portability. However, obtaining good performance is challenging, as the approach cannot profit from custom JIT optimizations to eliminate redundant checks. </p> <p>In this paper, we present and evaluate two techniques to make the VM-independent approach efficient, using the example of a parallel programming language called <em>Rolez</em>. To guarantee that concurrent threads do not interfere, Rolez relies heavily on runtime checks: for <em>every</em> field access, the runtime system checks that the state of the target object currently permits this operation (unless the check is optimized away). The Rolez compiler we present here generates standard Java source code and the runtime system is implemented as a Java library. Nevertheless, many Rolez programs deliver performance roughly on par with manually synchronized Java implementations, which is achieved using these two techniques: 1)&#160;<em>code-managed runtime data</em>, which improves runtime check efficiency by passing performance-critical information from method to method, and 2)&#160;an&#160;interprocedural but modular <em>concurrency analysis</em>, which eliminates many runtime checks that are actually redundant.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661839" title="Get the Full Text from the ACM Digital Library">Using compiler snippets to exploit parallelism on heterogeneous hardware: a Java reduction case study</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Juan Fumero</li>
+<li class="nameList Last">Christos Kotselidis</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Parallel skeletons are essential structured design patterns for efficient heterogeneous and parallel programming. They allow programmers to express common algorithms in such a way that it is much easier to read, maintain, debug and implement for different parallel programming models and parallel architectures. Reductions are one of the most common parallel skeletons. Many programming frameworks have been proposed for accelerating reduction operations on heterogeneous hardware. However, for the Java programming language, little work has been done for automatically compiling and exploiting reductions in Java applications on GPUs. </p> <p> In this paper we present our work in progress in utilizing compiler snippets to express parallelism on heterogeneous hardware. In detail, we demonstrate the usage of Graal&#39;s snippets, in the context of the Tornado compiler, to express a set of Java reduction operations for GPU acceleration. The snippets are expressed in pure Java with OpenCL semantics, simplifying the JIT compiler optimizations and code generation. We showcase that with our technique we are able to execute a predefined set of reductions on GPUs within 85% of the performance of the native code and reach up to 20x over the Java sequential execution.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661830" title="Get the Full Text from the ACM Digital Library">A cost model for a graph-based intermediate-representation in a dynamic compiler</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">David Leopoldseder</li>
+<li class="nameList">Lukas Stadler</li>
+<li class="nameList">Manuel Rigger</li>
+<li class="nameList">Thomas W&#252;rthinger</li>
+<li class="nameList Last">Hanspeter M&#246;ssenb&#246;ck</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Compilers provide many architecture-agnostic, high-level optimizations trading off peak performance for code size. High-level optimizations typically cannot precisely reason about their impact, as they are applied before the final shape of the generated machine code can be determined. However, they still need a way to estimate their transformation&#8217;s impact on the performance of a compilation unit. Therefore, compilers typically resort to modelling these estimations as trade-off functions that heuristically guide optimization decisions. Compilers such as Graal implement many such handcrafted heuristic trade-off functions, which are tuned for one particular high-level optimization. Heuristic trade-off functions base their reasoning on limited knowledge of the compilation unit, often causing transformations that heavily increase code size or even decrease performance. To address this problem, we propose a cost model for Graal&#8217;s high-level intermediate representation that models relative operation latencies and operation sizes in order to be used in trade-off functions of compiler optimizations. We implemented the cost model in Graal and used it in two code-duplication-based optimizations. This allowed us to perform a more fine-grained code size trade-off in existing compiler optimizations, reducing the code size increase of our optimizations by up to 50% compared to not using the proposed cost model in these optimizations, without sacrificing performance. Our evaluation demonstrates that the cost model allows optimizations to perform fine-grained code size and performance trade-offs outperforming hard-coded heuristics.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661831" title="Get the Full Text from the ACM Digital Library">Building JIT compilers for dynamic languages with low development effort</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Baptiste Saleil</li>
+ <li class="nameList Last">Marc Feeley</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Building high performance virtual machines for dynamic languages usually requires significant development effort. They may require an interpreter and one or more compilation phases to generate efficient code. In addition, they may require several static analyses using custom intermediate representation(s). This paper presents techniques used to implement virtual machines for dynamic languages with relatively low development effort and good performance. These techniques allow compiling directly from the abstract syntax tree to target machine code while still enabling useful optimizations and without using any intermediate representation. We have used these techniques to implement a JIT compiler for Scheme. We show that performance of the generated code competes with the code generated by mature Scheme implementations.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661832" title="Get the Full Text from the ACM Digital Library">Towards compilation of an imperative language for FPGAs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Baptiste Pauget</li>
+<li class="nameList">David J. Pearce</li>
+<li class="nameList Last">Alex Potanin</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Field-Programmable Gate Arrays (FPGA&#39;s) have been around since the early 1980s and have now achieved relatively wide-spread use. For example, FPGAs are routinely used for high-performance computing, financial applications, seismic modelling, DNA sequence alignment, software defined networking and, occasionally, are even found in smartphones. And yet, despite their success, there still remains something of a gap between programming languages and circuit designs for an FPGA. We consider the compilation of an imperative programming language, Whiley, to VHDL for use on an FPGA. A key challenge lies in splitting an arbitrary function into a series of pipeline stages, as necessary to expose as much task parallelism as possible. To do this, we introduce a language construct which gives the programmer control over how the pipeline is constructed.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661833" title="Get the Full Text from the ACM Digital Library">Two decades of smalltalk VM development: live VM development through simulation tools</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Eliot Miranda</li>
+<li class="nameList">Cl&#233;ment B&#233;ra</li>
+<li class="nameList">Elisa Gonzalez Boix</li>
+<li class="nameList Last">Dan Ingalls</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>OpenSmalltalk-VM is a virtual machine (VM) for languages in the Smalltalk family (e.g. Squeak, Pharo) which is itself written in a subset of Smalltalk that can easily be translated to C. Development is done in Smalltalk, an activity we call &#8220;Simulation&#8221;. The production VM is derived by translating the core VM code to C. As a result, two execution models coexist: simulation, where the Smalltalk code is executed on top of a Smalltalk VM, and production, where the same code is compiled to an executable through a C compiler. In this paper, we detail the VM simulation infrastructure and we report our experience developing and debugging the garbage collector and the just-in-time compiler (JIT) within it. Then, we discuss how we use the simulation infrastructure to perform analysis on the runtime, directing some design decisions we have made to tune VM performance.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

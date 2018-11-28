@@ -32,7 +32,8 @@ committees from the pool of qualified candidates include:
 7.  Gender.
 8.  Ethnic background.
 
-Meeting organizers are required to submit their organizing and
-program committees to the
+Meeting organizers are required to submit their organizing and program
+committees to the
 [SIGPLAN Vice Chair](mailto:vc_sigplan@acm.org?subject=Program%20Committee%20Approval)
-for approval.
+for approval, in the form of a
+[PC proposal spreadsheet](/Resources/Guidelines/sigplan-pc-proposal-template.xlsx).

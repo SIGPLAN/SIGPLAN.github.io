@@ -12,20 +12,66 @@ provides a place for researchers and practitioners to come together and
 share their knowledge, experience, and ideas for future research and
 development.
 
-DLS 2016
+DLS 2018
 --------
 
--   Amsterdam, The Netherlands, November 1, 2016
--   Co-located with SPLASH 2016
--   PC chair: Roberto Ierusalimschy (Pontifícia Universidade Católica do Rio de Janeiro, Brazil)
--   [http://conf.researchr.org/home/dls-2016/](http://conf.researchr.org/home/dls-2016/)
--   [http://www.dynamic-languages-symposium.org/dls-16/](http://www.dynamic-languages-symposium.org/dls-16/)
+-   Boston, Massachusetts, USA, November 6, 2018
+-   Co-located with SPLASH 2018
+-   PC chair: Tim Felgentreff (Oracle Labs)
+-   [http://www.dynamic-languages-symposium.org/dls-18/](http://www.dynamic-languages-symposium.org/dls-18/)
 
 Awards
 ------
 
+-   Most Notable Paper Award 2018 for 2008
+    -   Recipients: Jeremy G. Siek and Manish Vachharajani
+    -   Title: Gradual Typing With Unification-based Inference
+    -   Conference: DLS 2008
+    -   Paper:
+        [https://dl.acm.org/citation.cfm?doid=1408681.1408688](https://dl.acm.org/citation.cfm?doid=1408681.1408688)
+    -   Citation: The 2008 DLS paper "Gradual Typing With
+        Unification-based Inference" showed that one can increase the
+        static guarantees made in a program through an ingenious
+        combination of gradual typing and unification-base type
+        inference. The ideas underlying this paper have found their way
+        into the design of many modern programming languages, and have
+        had a strong impact on the research community.
+
+-   Most Notable Paper Award 2017 for 2007
+    -   Recipients: Stijn Mostinckx, Tom Van Cutsem, Stijn Timbermont, and Éric Tanter
+    -   Title: Mirages--Behavioral Intercession in a Mirror-based Architecture
+    -   Conference: DLS 2007
+    -   Paper:
+        [http://dl.acm.org/citation.cfm?id=1297095](http://dl.acm.org/citation.cfm?id=1297095)
+    -   Citation: The 2007 DLS paper "Mirages: Behavioral Intercession
+        in a Mirror-based Architecture" combined the ideas of explicit
+        mirrors for reflective introspection and modification with
+        implicit mirrors for behavioral intercession. The work in this
+        paper influenced and inspired the design of proxies in the
+        JavaScript language, where it now has applications in areas
+        such as security, testing, and virtualization of the DOM.
+
+-   Most Notable Paper Award 2016 for 2006
+    -   Recipients: Armin Rigo and Samuele Pedroni
+    -   Title: PyPy's Approach to Virtual Machine Construction
+    -   Conference: DLS 2006
+    -   Paper:
+        [http://dl.acm.org/citation.cfm?id=1176753](http://dl.acm.org/citation.cfm?id=1176753)
+    -   Citation: The 2006 DLS paper "PyPy's Approach to Virtual Machine
+        Construction" introduced the PyPy Python interpreter and the
+        RPython framework. Both are still highly relevant in various
+        areas to this day and will continue to be influential for many
+        years, thus demonstrating highly impressive long-term vision
+        and impact. The paper laid the theoretical and practical
+        foundations of constructing a virtual machine from a
+        high-level description and was consequently built upon by
+        numerous follow-up publications. The software, which continues
+        to be developed by a large and active open source community,
+        proved extensively usable in multiple academic and industrial
+        contexts.
+
 -   Most Notable Paper Award 2015 for 2005
-    -   Recipient: Pascal Costanza and Robert Hirschfeld
+    -   Recipients: Pascal Costanza and Robert Hirschfeld
     -   Title: Language Constructs for Context-oriented Programming--An Overview of ContextL
     -   Conference: DLS 2005
     -   Paper:
@@ -42,11 +88,28 @@ Awards
 Past Events
 -----------
 
+-   DLS 2017
+    -   Vancouver, British Columbia, Canada, October 24, 2017
+    -   Co-located with SPLASH 2017
+    -   PC chair: Davide Ancona
+	-   Invited Speaker: Filip Pizlo
+    -   [http://2017.splashcon.org/track/dls-2017-DLS-2017](http://2017.splashcon.org/track/dls-2017-DLS-2017)
+    -   [http://www.dynamic-languages-symposium.org/dls-17/](http://www.dynamic-languages-symposium.org/dls-17/)
+
+-   DLS 2016
+    -   Amsterdam, The Netherlands, November 1, 2016
+    -   Co-located with SPLASH 2016
+    -   PC chair: Roberto Ierusalimschy
+	-   Invited speaker: Ross McIlroy
+    -   [http://2016.splashcon.org/track/dls-2016-papers](http://2016.splashcon.org/track/dls-2016-papers)
+    -   [http://www.dynamic-languages-symposium.org/dls-16/](http://www.dynamic-languages-symposium.org/dls-16/)
+
 -   DLS 2015
     -   Pittsburgh, Pennsylvania, USA, October 27, 2015
     -   Co-located with SPLASH 2015
     -   PC chair: Manuel Serrano
     -   Invited Speaker: Eelco Visser
+    -   [http://2015.splashcon.org/track/dls2015](http://2015.splashcon.org/track/dls2015)
     -   [http://www.dynamic-languages-symposium.org/dls-15/](http://www.dynamic-languages-symposium.org/dls-15/)
 
 -   DLS 2014
@@ -54,6 +117,7 @@ Past Events
     -   Co-located with SPLASH 2014
     -   PC chair: Laurence Tratt
     -   Invited speaker: Stefan Udo Hanenberg
+    -   [http://2014.splashcon.org/track/dls14-papers](http://2014.splashcon.org/track/dls14-papers)
     -   [http://www.dynamic-languages-symposium.org/dls-14/](http://www.dynamic-languages-symposium.org/dls-14/)
 
 -   DLS 2013
