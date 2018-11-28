@@ -13,6 +13,6 @@ PEPM                | Oleg Kiselyov         | PEPM is not reprinted in SIGPLAN
 PLDI                | Kathleen Fisher       |
 POPL                | Roberto Giacobazzi    |
 PPoPP               | Calin Cascaval        |
-SPLASH              | Antony Hosking        |
+SPLASH              | Jonathan Aldrich      |
 VEE                 | Dilma da Silva        |
 ONWARD              | Robert Hirschfeld     |
