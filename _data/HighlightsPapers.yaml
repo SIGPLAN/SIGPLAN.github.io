@@ -61,13 +61,13 @@ Selected January 2018:
     designing concurrent algorithms for shared memory NUMA
     architectures.
  CACMHighlight:
-    Date: December 2018
-    Title: How to implement any concurrent data structure
-    Link: https://dl.acm.org/citation.cfm?id=3282506
-TechnicalPerspective:
-    Title: Technical perspective: Node replication divides to conquer
-    Link: https://dl.acm.org/citation.cfm?id=3282504
-    Author: Tim Harris
+   Date: December 2018
+   Title: How to implement any concurrent data structure
+   Link: https://dl.acm.org/citation.cfm?id=3282506
+   TechnicalPerspective:
+     Title: Technical perspective: Node replication divides to conquer
+     Link: https://dl.acm.org/citation.cfm?id=3282504
+     Author: Tim Harris
 
 Selected October 2016:
 
