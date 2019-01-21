@@ -12,13 +12,13 @@ provides a place for researchers and practitioners to come together and
 share their knowledge, experience, and ideas for future research and
 development.
 
-DLS 2018
+DLS 2019
 --------
 
--   Boston, Massachusetts, USA, November 6, 2018
--   Co-located with SPLASH 2018
--   PC chair: Tim Felgentreff (Oracle Labs)
--   [http://www.dynamic-languages-symposium.org/dls-18/](http://www.dynamic-languages-symposium.org/dls-18/)
+-   Athens, Greece, October 22, 2019
+-   Co-located with SPLASH 2019
+-   PC chair: Stefan Marr (University of Kent)
+-   [https://conf.researchr.org/home/dls-2019](https://conf.researchr.org/home/dls-2019)
 
 Awards
 ------
@@ -88,11 +88,17 @@ Awards
 Past Events
 -----------
 
+- DLS 2018
+    -   Boston, Massachusetts, USA, November 6, 2018
+    -   Co-located with SPLASH 2018
+    -   PC chair: Tim Felgentreff
+    -   [http://www.dynamic-languages-symposium.org/dls-18/](http://www.dynamic-languages-symposium.org/dls-18/)
+
 -   DLS 2017
     -   Vancouver, British Columbia, Canada, October 24, 2017
     -   Co-located with SPLASH 2017
     -   PC chair: Davide Ancona
-	-   Invited Speaker: Filip Pizlo
+    -   Invited speaker: Filip Pizlo
     -   [http://2017.splashcon.org/track/dls-2017-DLS-2017](http://2017.splashcon.org/track/dls-2017-DLS-2017)
     -   [http://www.dynamic-languages-symposium.org/dls-17/](http://www.dynamic-languages-symposium.org/dls-17/)
 
@@ -108,7 +114,7 @@ Past Events
     -   Pittsburgh, Pennsylvania, USA, October 27, 2015
     -   Co-located with SPLASH 2015
     -   PC chair: Manuel Serrano
-    -   Invited Speaker: Eelco Visser
+    -   Invited speaker: Eelco Visser
     -   [http://2015.splashcon.org/track/dls2015](http://2015.splashcon.org/track/dls2015)
     -   [http://www.dynamic-languages-symposium.org/dls-15/](http://www.dynamic-languages-symposium.org/dls-15/)
 

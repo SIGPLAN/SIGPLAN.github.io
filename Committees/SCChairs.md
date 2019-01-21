@@ -3,7 +3,7 @@
 Conference          |  SC Chair             | Notes
 --------------------|-----------------------|-------
 ASPLOS              | Tim Harris            |
-DLS                 | Carl Friedrich Bolz   |
+DLS                 | Tim Felgentreff       |
 GPCE                | Eelco Visser          |
 Haskell             | Koen Claessen         |
 ICFP                | Peter Thiemann        |
@@ -15,4 +15,4 @@ POPL                | Roberto Giacobazzi    |
 PPoPP               | Calin Cascaval        |
 SPLASH              | Antony Hosking        |
 VEE                 | Dilma da Silva        |
-ONWARD              | Robert Hirschfeld     |
+ONWARD              | Jonathan Aldrich      |
