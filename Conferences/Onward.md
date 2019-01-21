@@ -8,14 +8,16 @@ aspect of programming. Welcomed are papers that propose and argue for
 new approaches to the creation of software as well as reflections on
 technology and ideas bearing on programming broadly construed.
 
-Onward! 2018
+Onward! 2019
 ------------
 
--   Boston, Massachusetts, USA, October 17-19, 2018
--   Co-located with SPLASH 2018
--   Papers chair: Elisa Gonzalez Boix (Vrije Universiteit Brussel)
--   Essays chair: Richard P. Gabriel (Dreamsongs and Hasso Plattner Institute)
--   [http://2018.splashcon.org](http://2018.splashcon.org)
+-   Athens, Greece, October 23-25, 2019
+-   Co-located with SPLASH 2019
+-   Papers chair: Hidehiko Masuhara (Tokyo Institute of Technology)
+-   Essays chair: Tomas Petricek (University of Kent)
+-   [http://2019.splashcon.org](http://2019.splashcon.org)
+-   [https://2019.onward-conference.org/track/onward-2019-papers](https://2019.onward-conference.org/track/onward-2019-papers)
+-   [https://2019.onward-conference.org/track/onward-2019-Onward-Essays](https://2019.onward-conference.org/track/onward-2019-Onward-Essays)
 
 Awards
 ------
@@ -125,8 +127,18 @@ Awards
 Past Events
 -----------
 
+- Onward! 2018
+    -   Boston, Massachusetts, USA, October 17-19, 2018
+    -   Co-located with SPLASH 2018
+    -   Papers chair: Elisa Gonzalez Boix
+    -   Essays chair: Richard P. Gabriel
+    -   [http://2018.splashcon.org](http://2018.splashcon.org)
+    -   Richard P. Gabriel (Dreamsongs and Hasso Plattner Institute)
+    -   [https://2018.onward-conference.org/track/onward-2018-papers](https://2018.onward-conference.org/track/onward-2018-papers)
+    -   [https://2018.onward-conference.org/track/onward-2018-Onward-Essays](https://2018.onward-conference.org/track/onward-2018-Onward-Essays)
+
 -   Onward! 2017
-    -   Vancouver, British Columbia, Canada, October 25-27, 2017
+    -   Vancouver, British Columbia, Canada, October) 25-27, 2017
     -   Co-located with SPLASH 2017
     -   Papers chair: Emina Torlak
     -   Papers co-chair: Tijs van der Storm
@@ -274,34 +286,42 @@ Steering Committee Members
 
 ### Present
 
-* Robert Hirschfeld, Hasso Plattner Institute Potsdam, Germany (SC Chair)
-* Robert Biddle, Carleton University, Canada (Essays Chair 2017)
-* Richard P. Gabriel, Dreamsongs and Hasso Plattner Institute, USA (Essays Chair 2018)
+* Jonathan Aldrich, Carnegie Mellon University, USA (SC Chair 2018-2021, SPLASH General Chair 2015)
+* Robert Biddle, Carleton University, Canada (Essays Chair 2017, Chair 2006)
+* Richard P. Gabriel, Dreamsongs and Hasso Plattner Institute, USA (Essays Chair 2018, General Co-chair 2011, Essays Assistant Chair 2009, Chair 2003, Chair 2002, Founding Chair)
 * Elisa Gonzalez Boix, Vrije Universiteit Brussel, Belgium (Papers Chair 2018)
-* Cristina Videira Lopes, University of California at Irvine, USA (Essays Chair 2016)
-* Gail Murphy, University of British Columbia, Canada (Papers Chair 2015, SPLASH General Chair 2017)
-* Emerson Murphy-Hill, North Carolina State University, USA (Papers Chair 2016)
-* Benjamin C. Pierce, University of Pennsylvania, USA (SIGPLAN)
-* Kevin Sullivan, University of Virginia, USA (Past SC Chair 2015)
+* Robert Hirschfeld, Hasso Plattner Institute and University of Potsdam, Germany (Past SC Chair 2018-2021, SC Chair 2015-2018, Papers Chair 2013, General Chair 2011)
+* Hidehiko Masuhara, Tokyo Institute of Technology, Japan (Papers Chair 2019)
+* Gail Murphy, University of British Columbia, Canada (SPLASH General Chair 2017, Papers Chair 2015)
+* Tomas Petricek, University of Kent, UK (Essays Chair 2019)
+* Benjamin C. Pierce, University of Pennsylvania, USA (SIGPLAN 2018-2021)
+* Yannis Smaragdakis, University of Athens, Greece (SPLASH General Chair 2019)
 * Emina Torlak, University of Washington, USA (Papers Chair 2017)
-* Eelco Visser, Delft University of Technology, The Netherlands (Papers Chair 2011, SPLASH General Chair 2016)
 * Jan Vitek, Northeastern University, USA (SPLASH General Chair 2018)
 
 ### Past
 
-* Jonathan Aldrich, Carnegie Mellon University, USA
-* Elisa Baniassad, Australian National University, Australia (SC Chair)
-* Andrew Black, Portland State University, USA
-* Bernd Bruegge, TU M&#252;nchen, Germany
-* Siobh&#225;n Clarke, Trinity College, Ireland
-* Yvonne Coady, University of Victoria, Canada
-* Geoff A. Cohen, Elysium Digital, USA
-* Jonathan Edwards, Massachusetts Institute of Technology, USA
-* Richard P. Gabriel, IBM Research, USA (SC Chair, Founder)
-* Jeremy Gibbons, University of Oxford, UK (SIGPLAN) 
-* Antony Hosking, Purdue University, USA
-* Shriram Krishnamurthi, Brown University, USA
-* James Noble, Victoria University of Wellington, New Zealand
-* Dirk Riehle, Friedrich-Alexander-Universit&#228;t Erlangen-N&#252;rnberg, Germany
-* Guy L. Steele Jr., Oracle Labs, USA
-* Peter Thiemann, University of Freiburg, Germany (SIGPLAN)
+* Elisa Baniassad, Australian National University, Australia (SC Chair 2011-2013, Co-chair 2005)
+* Andrew Black, Portland State University, USA (SPLASH General Chair 2014)
+* Bernd Bruegge, TU München, Germany (Essays Chair 2014, Essays Chair 2013, General Chair 2009)
+* Siobhán Clarke, Trinity College, Ireland (General Chair 2010)
+* Yvonne Coady, University of Victoria, Canada (Papers Chair 2009)
+* Geoff A. Cohen, Elysium Digital, USA (Chair 2004)
+* Jonathan Edwards, Massachusetts Institute of Technology, USA (Papers Chair 2012)
+* Jeremy Gibbons, University of Oxford, UK (SIGPLAN 2012-2015)
+* Antony Hosking, Purdue University, USA (SPLASH 2013 General Chair)
+* Shriram Krishnamurthi, Brown University, USA (Papers Chair 2014)
+* Cristina Videira Lopes, University of California at Irvine, USA (Essays Chair 2016, PC Chair 2007)
+* Brian Marick, Testing Foundations, USA (Essays Chair 2005)
+* Emerson Murphy-Hill, North Carolina State University, USA (Papers Chair 2016)
+* James Noble, Victoria University of Wellington, New Zealand (Co-chair 2005)
+* Simon Peyton-Jones, Microsoft Research Cambridge, UK (Essays Chair 2009)
+* Dirk Riehle, Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany (PC Chair 2008)
+* Guy L. Steele Jr., Oracle Labs, USA (Essays Chair 2015)
+* Julie Steele, O'Reilly Media, USA (Essays Chair 2012)
+* Daniel Steinberg, Dim Sum Thinking, USA (Essays Chair 2010)
+* Tijs van der Storm, Centrum Wiskunde &amp; Informatica and University of Groningen, Netherlands (Papers Co-chair 2017)
+* Kevin Sullivan, University of Virginia, USA (Past SC Chair 2015-2018, SC Chair 2013-2015, Papers Chair 2010)
+* Peter Thiemann, University of Freiburg, Germany (SIGPLAN 2015-2018)
+* Eelco Visser, Delft University of Technology, Netherlands (SPLASH General Chair 2016, Papers Chair 2011)
+* David West, New Mexico Highlands University, USA (Essays Chair 2011)
