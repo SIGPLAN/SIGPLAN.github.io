@@ -132,6 +132,7 @@ Past Events
     -   Co-located with SPLASH 2018
     -   Papers chair: Elisa Gonzalez Boix
     -   Essays chair: Richard P. Gabriel
+    -   Keynote speaker: Jenny Quillien
     -   [http://2018.splashcon.org](http://2018.splashcon.org)
     -   Richard P. Gabriel (Dreamsongs and Hasso Plattner Institute)
     -   [https://2018.onward-conference.org/track/onward-2018-papers](https://2018.onward-conference.org/track/onward-2018-papers)
