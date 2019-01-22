@@ -11,6 +11,18 @@
   year: 2016
   title: "Proceedings of the 6th International Workshop on Programming Based on Actors, Agents, and Decentralized Control"
 -
+  event: AGERE!
+  year: 2017
+  title: "Proceedings of the 7th International Workshop on Programming Based on Actors, Agents, and Decentralized Control"
+-
+  event: AGERE!
+  year: 2018
+  title: "Proceedings of the 8th International Workshop on Programming Based on Actors, Agents, and Decentralized Control"
+-
+  event: AI-SEPS
+  year: 2018
+  title: "Proceedings of the 5th ACM SIGPLAN International Workshop on Artificial Intelligence and Empirical Methods for Software Engineering and Parallel Computing Systems"
+-
   event: ARRAY
   year: 2014
   title: "Proceedings of the ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming"
@@ -27,6 +39,10 @@
   year: 2017
   title: "Proceedings of the 4th ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming"
 -
+  event: ARRAY
+  year: 2018
+  title: "Proceedings of the 5th ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming"
+-
   event: CC
   year: 2016
   title: "Proceedings of the 25th International Conference on Compiler Construction"
@@ -34,6 +50,10 @@
   event: CGO
   year: 2016
   title: "Proceedings of the 14th Annual IEEE/ACM International Symposium on Code Generation and Optimization"
+-
+  event: CoCoS
+  year: 2017
+  title: "Proceedings of the 2nd ACM SIGPLAN International Workshop on Comprehension of Complex Systems"
 -
   event: CPP
   year: 2015
@@ -46,6 +66,14 @@
   event: CPP
   year: 2017
   title: "Proceedings of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs"
+-
+  event: CPP
+  year: 2018
+  title: "Proceedings of the 7th ACM SIGPLAN Conference on Certified Programs and Proofs"
+-
+  event: CPP
+  year: 2019
+  title: "Proceedings of the 8th ACM SIGPLAN Conference on Certified Programs and Proofs"
 -
   event: DBPL
   year: 2015
@@ -62,6 +90,14 @@
   event: DLS
   year: 2016
   title: "Proceedings of the 12th Symposium on Dynamic Languages"
+-
+  event: DLS
+  year: 2017
+  title: "Proceedings of the 13th Symposium on Dynamic Languages"
+-
+  event: DLS
+  year: 2018
+  title: "Proceedings of the 13th Symposium on Dynamic Languages"
 -
   event: DSM
   year: 2014
@@ -81,15 +117,23 @@
 -
   event: Erlang
   year: 2014
-  title: "Proceedings of the 13th International Workshop on Erlang"
+  title: "Proceedings of the 13th ACM SIGPLAN International Workshop on Erlang"
 -
   event: Erlang
   year: 2015
-  title: "Proceedings of the 14th International Workshop on Erlang"
+  title: "Proceedings of the 14th ACM SIGPLAN International Workshop on Erlang"
 -
   event: Erlang
   year: 2016
   title: "Proceedings of the 15th International Workshop on Erlang"
+-
+  event: Erlang
+  year: 2017
+  title: "Proceedings of the 16th ACM SIGPLAN International Workshop on Erlang"
+-
+  event: Erlang
+  year: 2018
+  title: "Proceedings of the 17th ACM SIGPLAN International Workshop on Erlang"
 -
   event: ETX
   year: 2014
@@ -101,15 +145,23 @@
 -
   event: FARM
   year: 2014
-  title: "Proceedings of the 2nd ACM SIGPLAN International Workshop on Functional Art, Music, Modelling and Design"
+  title: "Proceedings of the 2nd ACM SIGPLAN International Workshop on Functional Art, Music, Modeling and Design"
 -
   event: FARM
   year: 2015
-  title: "Proceedings of the 3rd ACM SIGPLAN International Workshop on Functional Art, Music, Modelling and Design"
+  title: "Proceedings of the 3rd ACM SIGPLAN International Workshop on Functional Art, Music, Modeling and Design"
 -
   event: FARM
   year: 2016
-  title: "Proceedings of the 4th ACM SIGPLAN International Workshop on Functional Art, Music, Modelling and Design"
+  title: "Proceedings of the 4th ACM SIGPLAN International Workshop on Functional Art, Music, Modeling and Design"
+-
+  event: FARM
+  year: 2017
+  title: "Proceedings of the 5th ACM SIGPLAN International Workshop on Functional Art, Music, Modeling and Design"
+-
+  event: FARM
+  year: 2018
+  title: "Proceedings of the 6th ACM SIGPLAN International Workshop on Functional Art, Music, Modeling and Design"
 -
   event: FHPC
   year: 2014
@@ -123,9 +175,25 @@
   year: 2016
   title: "Proceedings of the 5th ACM SIGPLAN Workshop on Functional High-Performance Computing"
 -
+  event: FHPC
+  year: 2017
+  title: "Proceedings of the 6th ACM SIGPLAN Workshop on Functional High-Performance Computing"
+-
+  event: FHPC
+  year: 2018
+  title: "Proceedings of the 7th ACM SIGPLAN Workshop on Functional High-Performance Computing"
+-
+  event: FMS
+  year: 2018
+  title: "Proceedings of the 2018 ACM SIGPLAN International Workshop on Formal Methods and Security"
+-
   event: FOSD
   year: 2016
   title: "Proceedings of the 7th International Workshop on Feature-Oriented Software Development"
+-
+  event: FOSD
+  year: 2017
+  title: "Proceedings of the 8th International Workshop on Feature-Oriented Software Development"
 -
   event: FPW
   year: 2015
@@ -142,6 +210,14 @@
   event: GPCE
   year: 2016
   title: "Proceedings of the 15th International Conference on Generative Programming: Concepts and Experiences"
+-
+  event: GPCE
+  year: 2017
+  title: "Proceedings of the 16th International Conference on Generative Programming: Concepts and Experiences"
+-
+  event: GPCE
+  year: 2018
+  title: "Proceedings of the 17th International Conference on Generative Programming: Concepts and Experiences"
 -
   event: GPGPU
   year: 2017
@@ -163,6 +239,14 @@
   year: 2016
   title: "Proceedings of the 9th ACM SIGPLAN Symposium on Haskell"
 -
+  event: Haskell
+  year: 2017
+  title: "Proceedings of the 10th ACM SIGPLAN Symposium on Haskell"
+-
+  event: Haskell
+  year: 2018
+  title: "Proceedings of the 11th ACM SIGPLAN Symposium on Haskell"
+-
   event: ICFP
   year: 2014
   title: "Proceedings of the 19th ACM SIGPLAN International Conference on Functional Programming"
@@ -175,21 +259,35 @@
   year: 2016
   title: "Proceedings of the 21st ACM SIGPLAN International Conference on Functional Programming"
 -
+  event: ICFP
+  year: 2017
+  title: "Proceedings of the 22nd ACM SIGPLAN International Conference on Functional Programming"
+  link: https://dl.acm.org/citation.cfm?id=3136534
+-
+  event: ICFP
+  year: 2018
+  title: "Proceedings of the 23rd ACM SIGPLAN International Conference on Functional Programming"
+  link: https://dl.acm.org/citation.cfm?id=3243631
+-
   event: ISMM
   year: 2014
-  title: "Proceedings of the 13th ACM SIGPLAN International Symposium on Memory Management"
+  title: "Proceedings of the 2014 ACM SIGPLAN International Symposium on Memory Management"
 -
   event: ISMM
   year: 2015
-  title: "Proceedings of the 14th ACM SIGPLAN International Symposium on Memory Management"
+  title: "Proceedings of the 2015 ACM SIGPLAN International Symposium on Memory Management"
 -
   event: ISMM
   year: 2016
-  title: "Proceedings of the 15th ACM SIGPLAN International Symposium on Memory Management"
+  title: "Proceedings of the 2016 ACM SIGPLAN International Symposium on Memory Management"
 -
   event: ISMM
   year: 2017
-  title: "Proceedings of the 16th ACM SIGPLAN International Symposium on Memory Management"
+  title: "Proceedings of the 2017 ACM SIGPLAN International Symposium on Memory Management"
+-
+  event: ISMM
+  year: 2018
+  title: "Proceedings of the 2018 ACM SIGPLAN International Symposium on Memory Management"
 -
   event: ITSLE
   year: 2016
@@ -211,9 +309,25 @@
   year: 2017
   title: "Proceedings of the 18th ACM SIGPLAN/SIGBED Conference on Languages, Compilers, Tools, and Theory for Embedded Systems"
 -
+  event: LCTES
+  year: 2018
+  title: "Proceedings of the 19th ACM SIGPLAN/SIGBED Conference on Languages, Compilers, Tools, and Theory for Embedded Systems"
+-
   event: MAPL
   year: 2017
   title: "Proceedings of the 1st ACM SIGPLAN International Workshop on Machine Learning and Programming Languages"
+-
+  event: MAPL
+  year: 2018
+  title: "Proceedings of the 2nd ACM SIGPLAN International Workshop on Machine Learning and Programming Languages"
+-
+  event: META
+  year: 2017
+  title: "Proceedings of the 2nd ACM SIGPLAN International Workshop on Meta-Programming Techniques and Reflection"
+-
+  event: META
+  year: 2018
+  title: "Proceedings of the 3rd ACM SIGPLAN International Workshop on Meta-Programming Techniques and Reflection"
 -
   event: Mobile!
   year: 2016
@@ -243,6 +357,14 @@
   year: 2016
   title: "Proceedings of the 2016 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software"
 -
+  event: Onward!
+  year: 2017
+  title: "Proceedings of the 2017 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software"
+-
+  event: Onward!
+  year: 2018
+  title: "Proceedings of the 2018 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software"
+-
   event: OOPSLA
   year: 2014
   title: "Proceedings of the 2014 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications"
@@ -254,6 +376,16 @@
   event: OOPSLA
   year: 2016
   title: "Proceedings of the 2016 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+-
+  event: OOPSLA
+  year: 2017
+  title: "Proceedings of the 2017 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+  link: https://dl.acm.org/citation.cfm?id=3152284
+-
+  event: OOPSLA
+  year: 2018
+  title: "Proceedings of the 2018 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+  link: https://dl.acm.org/citation.cfm?id=3288538
 -
   event: PEPM
   year: 2014
@@ -270,6 +402,14 @@
   event: PEPM
   year: 2017
   title: "Proceedings of the 2017 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation"
+-
+  event: PEPM
+  year: 2018
+  title: "Proceedings of the 2018 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation"
+-
+  event: PEPM
+  year: 2019
+  title: "Proceedings of the 2019 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation"
 -
   event: PLATEAU
   year: 2014
@@ -298,6 +438,10 @@
   event: PLDI
   year: 2017
   title: "Proceedings of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation"
+-
+  event: PLDI
+  year: 2018
+  title: "Proceedings of the 39th ACM SIGPLAN Conference on Programming Language Design and Implementation"
 -
   event: PLPV
   year: 2014
@@ -330,6 +474,16 @@
   event: POPL
   year: 2017
   title: "Proceedings of the 44th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
+-
+  event: POPL
+  year: 2018
+  title: "Proceedings of the 45th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
+  link: https://dl.acm.org/citation.cfm?id=3177123
+-
+  event: POPL
+  year: 2019
+  title: "Proceedings of the 46th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
+  link: https://dl.acm.org/citation.cfm?id=3302515
 -
   event: PPAA
   year: 2014
@@ -371,9 +525,21 @@
   year: 2014
   title: "Proceedings of the 2014 Workshop on Privacy and Security in Programming"
 -
+  event: PX
+  year: 2017
+  title: "Proceedings of the 3rd ACM SIGPLAN International Workshop on Programming Experience"
+-
   event: REBLS
   year: 2016
   title: "Proceedings of the 3rd International Workshop on Reactive and Event-Based Languages and Systems"
+-
+  event: REBLS
+  year: 2017
+  title: "Proceedings of the 4th International Workshop on Reactive and Event-Based Languages and Systems"
+-
+  event: REBLS
+  year: 2018
+  title: "Proceedings of the 5th International Workshop on Reactive and Event-Based Languages and Systems"
 -
   event: SCALA
   year: 2015
@@ -383,6 +549,14 @@
   year: 2016
   title: "Proceedings of the 7th ACM SIGPLAN Symposium on Scala"
 -
+  event: SCALA
+  year: 2017
+  title: "Proceedings of the 8th ACM SIGPLAN Symposium on Scala"
+-
+  event: SCALA
+  year: 2018
+  title: "Proceedings of the 9th ACM SIGPLAN Symposium on Scala"
+-
   event: SEPS
   year: 2015
   title: "Proceedings of the 2nd International Workshop on Software Engineering for Parallel Systems"
@@ -391,6 +565,10 @@
   year: 2016
   title: "Proceedings of the 3rd International Workshop on Software Engineering for Parallel Systems"
 -
+  event: SEPS
+  year: 2017
+  title: "Proceedings of the 4th International Workshop on Software Engineering for Parallel Systems"
+-
   event: SLE
   year: 2015
   title: "Proceedings of the 2015 ACM SIGPLAN International Conference on Software Language Engineering"
@@ -398,6 +576,14 @@
   event: SLE
   year: 2016
   title: "Proceedings of the 2016 ACM SIGPLAN International Conference on Software Language Engineering"
+-
+  event: SLE
+  year: 2017
+  title: "Proceedings of the 2017 ACM SIGPLAN International Conference on Software Language Engineering"
+-
+  event: SLE
+  year: 2018
+  title: "Proceedings of the 2018 ACM SIGPLAN International Conference on Software Language Engineering"
 -
   event: SOAP
   year: 2014
@@ -427,6 +613,10 @@
   year: 2016
   title: "Companion Proceedings of the 2016 ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity"
 -
+  event: SPLASH
+  year: 2017
+  title: "Companion Proceedings of the 2017 ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity"
+-
   event: TRUST
   year: 2014
   title: "Proceedings of the 1st ACM SIGPLAN Workshop on Reproducible Research Methodologies and New Publication Models in Computer Engineering"
@@ -434,6 +624,14 @@
   event: TyDe
   year: 2016
   title: "Proceedings of the 1st International Workshop on Type-Driven Development"
+-
+  event: TyDe
+  year: 2017
+  title: "Proceedings of the 2nd ACM SIGPLAN International Workshop on Type-Driven Development"
+-
+  event: TyDe
+  year: 2018
+  title: "Proceedings of the 3rd ACM SIGPLAN International Workshop on Type-Driven Development"
 -
   event: VEE
   year: 2014
@@ -451,9 +649,21 @@
   year: 2017
   title: "Proceedings of the 13th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments"
 -
+  event: VEE
+  year: 2018
+  title: "Proceedings of the 14th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments"
+-
   event: VMIL
   year: 2016
   title: "Proceedings of the 8th International Workshop on Virtual Machines and Intermediate Languages"
+-
+  event: VMIL
+  year: 2017
+  title: "Proceedings of the 9th International Workshop on Virtual Machines and Intermediate Languages"
+-
+  event: VMIL
+  year: 2018
+  title: "Proceedings of the 10th International Workshop on Virtual Machines and Intermediate Languages"
 -
   event: WGP
   year: 2014

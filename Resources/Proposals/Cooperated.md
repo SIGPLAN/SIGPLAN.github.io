@@ -32,13 +32,12 @@ In-cooperation status provides a number of benefits:
   SIGPLAN's mailing list. (Contact
   [infodir\_sigplan@acm.org](mailto:infodir_sigplan@acm.org?subject=SIGPLAN%20Mailing%20List).)
 - You will get entries in the _Call for Papers_
-  and _Professional Calendar_ sections of _Communications of the ACM_, free of charge.
-- You can also buy an advert in _CACM_ at a special rate. All placement
-  of such adverts should be arranged through ACM Headquarters. Please
+  and _Professional Calendar_ sections of _Communications of the ACM_, free
+  of charge. 
+- You can buy an advertisement in _CACM_ at a special rate. All placement
+  of such advertisements should be arranged through ACM Headquarters. Please
   check CACM as to the lead time required. Discounts on ACM mailing
   lists are also available.
-- You will also have space reserved in _SIGPLAN Notices_ for the final report
-  summarizing the meeting.
 
 Responsibilities
 ----------------
@@ -62,7 +61,7 @@ SIGPLAN policies and procedures, including the following:
 - [Republication Policy](/Resources/Policies/Republication)
 - [Guidelines for Steering Committee Formation/Management](/Resources/Guidelines/SCommittee)
 - [Guidelines for the General Chair](/Resources/Guidelines/GenChair)
-- [Guidelines for the Programme Chair](/Resources/Guidelines/ProChair)
+- [Guidelines for the Program Chair](/Resources/Guidelines/ProChair)
 - [Code of Conduct Policy](/Resources/Policies/CodeOfConduct/)
 
 In addition, event organizers are encouraged to contact the ACM
@@ -112,7 +111,6 @@ ACM will inform you of their official approval decision within
 two weeks of receiving this information.
 If you have questions, contact the ACM ([incoop@acm.org](mailto:incoop@acm.org)).
 
-
 See Also
 --------
 
@@ -120,5 +118,5 @@ See Also
 [chair\_sigplan@acm.org](mailto:chair_sigplan@acm.org)  
 *SIGPLAN Vice Chair*:
 [vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org)  
-*Editor of _SIGPLAN Notices_*:
-[infodir_sigplan@acm.org](mailto:infodir_sigplan@acm.org)
+*SIGPLAN Information Director*:
+[infodir\_sigplan@acm.org](mailto:infodir_sigplan@acm.org?subject=Conference%20Information)

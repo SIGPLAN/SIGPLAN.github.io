@@ -17,10 +17,10 @@ should be directed to **<mailto:reynolds_award@sigplan.org>**.
 **Nominations**
 
 Nominations must be submitted via the SIGPLAN Awards Nomination Portal
-at <https://awards.sigplan.org/nominate/reynolds/> by January 5th 2017
-(anywhere on earth) to be considered for this year's award. The
-nominated dissertation must have been awarded in 2016 and be available
-in English (to facilitate evaluation by the selection committee).
+at <https://awards.sigplan.org/nominate/reynolds/> by January 15th 2019 
+(anywhere on earth) to be considered for this year’s award. The nominated 
+dissertation must have been awarded in 2018 and be available in English 
+(to facilitate evaluation by the selection committee).
 
 A nomination consists of the following items:
 
@@ -31,7 +31,7 @@ A nomination consists of the following items:
  *  Supporting statements from up to two people in addition to the nominator.
 
 
-** About **
+**About**
 
 This award recognizes the contributions to computer science that John
 C. Reynolds made during his life. It is a renaming of the SIGPLAN
@@ -39,6 +39,8 @@ Outstanding Doctoral Dissertation Award to encourage the clarity and
 rigor that Reynolds embodied and at the same time provide a reminder
 of Reynolds's legacy and the difference a person can make in the field
 of programming language research.
+
+{% comment %}
 
 Reynolds is renowned for his many technical contributions.
 
@@ -57,18 +59,21 @@ for helping colleagues and students work through ideas. But his
 influence went well beyond his immediate circle; many researchers who
 never worked with Reynolds nevertheless built on his ideas.
 
+{% endcomment %}
 
 **Selection Committee**
 
- * [Derek Dreyer](https://www.mpi-sws.org/~dreyer/) - Max Planck Institute for Software Systems <mailto:dreyer@mpi-sws.org>
- * [Susan Eisenbach](http://www.imperial.ac.uk/people/s.eisenbach) - Imperial College London (SIGPLAN member and Chair) <mailto:s.eisenbach@imperial.ac.uk>
- * [Martin Erwig](http://web.engr.oregonstate.edu/~erwig/) – Oregon State University <mailto:erwig@oregonstate.edu>
- * [Nate Foster](http://www.cs.cornell.edu/~jnfoster/) – Barefoot Networks / Cornell University <mailto:jnfoster@cs.cornell.edu>
- * [Georges Gonthier](http://www.msr-inria.fr/researchers/georges-gonthier/) – Inria <mailto:georges.gonthier@inria.fr>
- * [Arie Gurfinkel](https://uwaterloo.ca/electrical-computer-engineering/people-profiles/arie-gurfinkel)  - University of Waterloo <mailto:arie.gurfinkel@uwaterloo.ca>
- * [Mike Hicks](http://www.cs.umd.edu/~mwh/) - University of Maryland (ex officio member as SIGPLAN Chair) <mailto:mwh@cs.umd.edu>
- * [Mira Mezini](http://www.stg.tu-darmstadt.de/staff/mira_mezini/) - Technical University of Darmstadt <mailto:mezini@informatik.tu-darmstadt.de>
- * [Andreas Podelski](https://swt.informatik.uni-freiburg.de/staff/podelski) – University of Freiburg <mailto:podelski@informatik.uni-freiburg.de>
- * [Alexandra Silva](http://www.alexandrasilva.org/#/main.html) – University College London <mailto:alexandra.silva@ucl.ac.uk>
- * [Mooly Sagiv](http://www.cs.tau.ac.il/~msagiv/) – Tel Aviv University <mailto:msagiv@acm.org>
-
+ * [Emery Berger](https://emeryberger.com/) (<mailto:emery@cs.umass.edu>) - UMass Amherst (SIGPLAN EC member)
+ * [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/) (<mailto:steve.blackburn@anu.edu.au>) - Australian National University
+ * [Derek Dreyer](https://www.mpi-sws.org/~dreyer/) (<mailto:dreyer@mpi-sws.org>) - Max Planck Institute for Software  Systems
+ * [Susan Eisenbach](http://www.imperial.ac.uk/people/s.eisenbach) (<mailto:s.eisenbach@imperial.ac.uk>) - Imperial College  London
+ * [Nate Foster](http://www.cs.cornell.edu/~jnfoster/) (<mailto:jnfoster@cs.cornell.edu>) - Barefoot Networks / Cornell University
+ * [Georges Gonthier](http://www.msr-inria.fr/researchers/georges-gonthier/) (<mailto:georges.gonthier@inria.fr>) - Inria
+ * [Mira Mezini](https://www.stg.tu-darmstadt.de/staff/mira_mezini/) (<mailto:mezini@cs.tu-darmstadt.de>) - Technische Universität Darmstadt (SIGPLAN EC member and Chair)
+ * [Todd Millstein](http://web.cs.ucla.edu/~todd/) (<mailto:todd@cs.ucla.edu>) - University of California, Los Angeles
+ * [Jens Palsberg](https://web.cs.ucla.edu/~palsberg/) (<mailto:palsberg@cs.ucla.edu>) - University of California, Los Angeles (ex officio member as SIGPLAN Chair)
+ * [Andreas Podelski](https://swt.informatik.uni-freiburg.de/staff/podelski) (<mailto:podelski@informatik.uni-freiburg.de>) - University of Freiburg
+ * [Alexandra Silva](http://www.alexandrasilva.org/#/main.html) (<mailto:alexandra.silva@ucl.ac.uk>) - University College London
+ * [Armando Solar-Lezama](https://people.csail.mit.edu/asolar/) (<mailto:asolar@csail.mit.edu>) - M.I.T
+ * [Martin Vechev](http://www.srl.inf.ethz.ch/vechev.php) (<mailto:martin.vechev@inf.ethz.ch>) - ETH
+ * [Eran Yahav](http://www.cs.technion.ac.il/~yahave/) (<mailto:yahave@cs.technion.ac.il>) - Technion

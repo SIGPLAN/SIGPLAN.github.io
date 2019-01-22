@@ -22,6 +22,8 @@ programming languages free of restrictions on both access and use.
 - Publisher: ACM (electronic format via ACM Digital Library, no print format)
 - e-ISSN: 2475-1421
 - Annual Issues: POPL (January), ICFP (September), OOPSLA (October)
+- Website: [`pacmpl.acm.org`](https://pacmpl.acm.org)
+- Website: [`dl.acm.org/pub.cfm?id=J1568`](https://dl.acm.org/pub.cfm?id=J1568)
 
 ### Participating Conferences
 
@@ -81,4 +83,4 @@ to another are the last days of the conferences.
 - May 2016: [_PACMPL proposal_](/PACMPL/pacmpl_proposal.pdf) submitted
 - July 2016: <em>PACMPL</em> approved by the [ACM Publications Board](https://www.acm.org/publications/publications-board-committees)
 - November 2016 &ndash; present: [Philip Wadler](http://homepages.inf.ed.ac.uk/wadler) serves as Editor-in-Chief of <em>PACMPL</em>
-- September 2017: [First issue]() of <em>PACMPL</em> published
+- September 2017: [First issue](http://dl.acm.org/citation.cfm?id=3136534) of <em>PACMPL</em> published

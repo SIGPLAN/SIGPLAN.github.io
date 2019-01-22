@@ -2,20 +2,23 @@
 layout: default
 title: "SIGPLAN Conferences"
 ---
-SIGPLAN [sponsors](/Resources/Proposals/Sponsored) or co-sponsors
-the premier conferences in the area of programming language
-research, providing the opportunity for researchers, developers,
-practitioners, and students to present the latest research
-advances. The conferences listed on this page are sponsored by
-SIGPLAN.
-ACM maintains a
+SIGPLAN organizes the
+premier conferences and workshops in the area of programming language
+research, providing opportunities for researchers, developers,
+practitioners, and students to present their latest research
+advances.  
+
+- ACM's 
 [master conference calendar](http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN)
 for SIGPLAN.
-
-SIGPLAN also supports conferences through
-[in-cooperation](/Resources/Proposals/Cooperated) status.
+- Information for [conference organizers](/Resources/Guidelines/ConferenceOrganizers) 
 
 * * * * *
+
+<!--- (BCP) Is this the correct list of "regularly sponsored" conferences? 
+      (E.g., should CGO be included?) --->
+
+The conferences listed below are regularly sponsored by SIGPLAN.
 
 **Principles of Programming Languages ([POPL](/Conferences/POPL))**  
 Principles of Programming Languages is the premier forum for the
@@ -113,12 +116,10 @@ language. The scope of the symposium includes all aspects of the
 design, semantics, theory, application, implementation, and
 teaching of Haskell.
 
-**History of Programming Languages ([HOPL](http://research.ihost.com/hopl/HOPL.html))**  
+**History of Programming Languages ([HOPL](https://hopl4.sigplan.org/))**  
 The goal of the History of Programming Languages conference is to
 produce an accurate historical record of programming language
-design and development. HOPL-III will be held in 2007 in San Diego,
-CA as part of FCRC 2007. HOPL-III is in-cooperation with
-[SIGSOFT](http://www.sigsoft.org/).
+design and development. HOPL-IV will be held in 2020 with PLDI'20.
 HOPL-I was held in 1978 in Los Angeles, CA.
 HOPL-II was held in 1993 in Cambridge, MA.
 HOPL-III was held in 2007 in San Diego, CA.

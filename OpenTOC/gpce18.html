@@ -1,0 +1,261 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>GPCE 2018- Proceedings of the 17th ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>GPCE 2018- Proceedings of the 17th ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3278122" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Papers</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661889" title="Get the Full Text from the ACM Digital Library">A domain-specific language for exploratory data visualization</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Karl Smeltzer</li>
+<li class="nameList Last">Martin Erwig</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>With an ever-growing amount of collected data, the importance of visualization as an analysis component is growing in concert. The creation of good visualizations often doesn&#39;t happen in one step but is rather an iterative and exploratory process. However, this process is currently not well supported in most of the available visualization tools and systems. Visualization authors are forced to commit prematurely to particular design aspects of their creations, and when exploring potential variant visualizations, they are forced to adopt ad hoc techniques such as copying code snippets or keeping a collection of separate files. </p> <p> We propose variational visualizations as a model supporting open-ended exploration of the design space of information visualization. Together with that model, we present a prototype implementation in the form of a domain-specific language embedded in Purescript.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661880" title="Get the Full Text from the ACM Digital Library">A practical unification of multi-stage programming and macros</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Nicolas Stucki</li>
+<li class="nameList">Aggelos Biboudis</li>
+<li class="nameList Last">Martin Odersky</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Program generation is indispensable. We propose a novel unification of two existing metaprogramming techniques: multi-stage programming and hygienic generative macros. The former supports runtime code generation and execution in a type-safe manner while the latter offers compile-time code generation. </p> <p> In this work we draw upon a long line of research on metaprogramming, starting with Lisp, MetaML and MetaOCaml. We provide direct support for quotes, splices and top-level splices, all regulated uniformly by a level-counting Phase Consistency Principle. Our design enables the construction and combination of code values for both expressions and types. Moreover, code generation can happen either at runtime &#224; la MetaML or at compile time, in a macro fashion, &#224; la MacroML. </p> <p> We provide an implementation of our design in Scala and we present two case studies. The first implements the Hidden Markov Model, Shonan Challenge for HPC. The second implements the staged streaming library Strymonas.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661881" title="Get the Full Text from the ACM Digital Library">Rash: from reckless interactions to reliable programs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">William Gallard Hatch</li>
+<li class="nameList Last">Matthew Flatt</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Command languages like the Bourne Shell provide a terse syntax for exploratory programming and system interaction. Shell users can begin to write programs that automate their tasks by simply copying their interactions verbatim into a script file. However, command languages usually scale poorly beyond small scripts, and they can be difficult to integrate into larger programs. General-purpose languages scale well, but are verbose and unwieldy for common interactive actions such as process composition. </p> <p> We present Rash, a domain-specific command language embedded in Racket. Rash provides a terse and extensible syntax for interactive system administration and scripting, as well as easy composition of both Racket functions and operating system processes. Rash and normal Racket code can be nested together at the expression level, providing the benefits of a shell language and a general-purpose language together. Thus, Rash provides a gradual scale between shell-style interactions and general-purpose programming.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661882" title="Get the Full Text from the ACM Digital Library">Exploring feature interactions without specifications: a controlled experiment</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Larissa Rocha Soares</li>
+<li class="nameList">Jens Meinicke</li>
+<li class="nameList">Sarah Nadi</li>
+<li class="nameList">Christian K&#228;stner</li>
+<li class="nameList Last">Eduardo Santana de Almeida</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In highly configurable systems, features may interact unexpectedly and produce faulty behavior. Those faults are not easily identified from the analysis of each feature separately, especially when feature specifications are missing. We propose VarXplorer, a dynamic and iterative approach to detect suspicious interactions. It provides information on how features impact the control and data flow of the program. VarXplorer supports developers with a graph that visualizes this information, mainly showing suppress and require relations between features. To evaluate whether VarXplorer helps improve the performance of identifying suspicious interactions, we perform a controlled study with 24 subjects. We find that with our proposed feature-interaction graphs, participants are able to identify suspicious interactions more than 3 times faster compared to the state-of-the-art tool.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661883" title="Get the Full Text from the ACM Digital Library">Inferring ownership domains from refinements</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ebrahim Khalaj</li>
+<li class="nameList Last">Marwan Abi-Antoun</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Ownership type qualifiers clarify aliasing invariants that cannot be directly expressed in mainstream programming languages. Adding qualifiers to code, however, often involves significant overhead and difficult interaction. </p> <p>We propose an analysis to infer qualifiers in the code based on developer refinements that express strict encapsulation, logical containment and architectural tiers. Refinements include: &lt;pre&gt;makeOwnedBy&lt;/pre&gt;, to make an object strictly encapsulated by another; &lt;pre&gt;makePartOf&lt;/pre&gt;, to make an object logically contained in another; &lt;pre&gt;makePeer&lt;/pre&gt;, to make two objects peers; &lt;pre&gt;makeParam&lt;/pre&gt;, to make an object more accessible than the above choices; or &lt;pre&gt;makeShared&lt;/pre&gt;, to allow an object to be globally aliased. If the code as-written matches the requested refinements, the analysis generates qualifiers that type-check; otherwise, it reports that the refinements do not match the code, so developers must investigate unexpected aliasing, change their understanding of the code and pick different refinements, or change the code and re-run the analysis. </p> <p>We implement the analysis and confirm that refinements generate precise qualifiers that express strict encapsulation, logical containment and architectural tiers.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661884" title="Get the Full Text from the ACM Digital Library">Implementing a semi-causal domain-specific language for context detection over binary sensors</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Nic Volanschi</li>
+<li class="nameList">Bernard Serpette</li>
+<li class="nameList Last">Charles Consel</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In spite of the fact that many sensors in use today are binary (i.e. produce only values of 0 and 1), and that useful context-aware applications are built exclusively on top of them, there is currently no development approach specifically targeted to binary sensors. Dealing with notions of state and state combinators, central to binary sensors, is tedious and error-prone in current approaches. For instance, developing such applications in a general programming language requires writing code to process events, maintain state and perform state transitions on events, manage timers and/or event histories. </p> <p> In another paper, we introduced a domain specific language (DSL) called Allen, specifically targeted to binary sensors. Allen natively expresses states and state combinations, and detects contexts on line, on incoming streams of binary events. Expressing state combinations in Allen is natural and intuitive due to a key ingredient: semi-causal operators. That paper focused on the concept of the language and its main operators, but did not address its implementation challenges. Indeed, online evaluation of expressions containing semi-causal operators is difficult, because semi-causal sub-expressions may block waiting for future events, thus generating unknown values, besides 0 and 1. These unknown values may or may not propagate to the containing expressions, depending on the current value of the other arguments. </p> <p> This paper presents a compiler and runtime for the Allen language, and shows how they implement its state combining operators, based on reducing complex expressions to a core subset of operators, which are implemented natively. We define several assisted living applications both in Allen and in a general scripting language. We show that the former are much more concise in Allen, achieve more effective code reuse, and ease the checking of some domain properties.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661895" title="Get the Full Text from the ACM Digital Library">Meta-programming for cross-domain tensor optimizations</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Adilla Susungi</li>
+<li class="nameList">Norman A. Rink</li>
+<li class="nameList">Albert Cohen</li>
+<li class="nameList">Jeronimo Castrillon</li>
+<li class="nameList Last">Claude Tadonki</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Many modern application domains crucially rely on tensor operations. The optimization of programs that operate on tensors poses difficulties that are not adequately addressed by existing languages and tools. Frameworks such as TensorFlow offer good abstractions for tensor operations, but target a specific domain, i.e. machine learning, and their optimization strategies cannot easily be adjusted to other domains. General-purpose optimization tools such as Pluto and existing meta-languages offer more flexibility in applying optimizations but lack abstractions for tensors. This work closes the gap between domain-specific tensor languages and general-purpose optimization tools by proposing the Tensor optimizations Meta-Language (TeML). TeML offers high-level abstractions for both tensor operations and loop transformations, and enables flexible composition of transformations into effective optimization paths. This compositionality is built into TeML&#39;s design, as our formal language specification will reveal. We also show that TeML can express tensor computations as comfortably as TensorFlow and that it can reproduce Pluto&#39;s optimization paths. Thus, optimized programs generated by TeML execute at least as fast as the corresponding Pluto programs. In addition, TeML enables optimization paths that often allow outperforming Pluto.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661896" title="Get the Full Text from the ACM Digital Library">Model-based security analysis of feature-oriented software product lines</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Sven Peldszus</li>
+<li class="nameList">Daniel Str&#252;ber</li>
+ <li class="nameList Last">Jan J&#252;rjens</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Today&#39;s software systems are too complex to ensure security after the fact &#8211; security has to be built into systems by design. To this end, model-based techniques such as UMLsec support the design-time specification and analysis of security requirements by providing custom model annotations and checks. Yet, a particularly challenging type of complexity arises from the variability of software product lines. Analyzing the security of all products separately is generally infeasible. In this work, we propose SecPL, a methodology for ensuring security in a software product line. SecPL allows developers to annotate the system design model with product-line variability and security requirements. To keep the exponentially large configuration space tractable during security checks, SecPL provides a family-based security analysis. In our experiments, this analysis outperforms the naive strategy of checking all products individually. Finally, we present the results of a user study that indicates the usability of our overall methodology.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661897" title="Get the Full Text from the ACM Digital Library">Orchestrating dynamic analyses of distributed processes for full-stack JavaScript programs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Laurent Christophe</li>
+<li class="nameList">Coen De Roover</li>
+<li class="nameList">Elisa Gonzalez Boix</li>
+<li class="nameList Last">Wolfgang De Meuter</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Dynamic analyses are commonly implemented by instrumenting the program under analysis. Examples of such analyses for JavaScript range from checkers of user- defined invariants to concolic testers. For a full-stack JavaScript program, these analyses would benefit from reasoning about the state of the client-side and server-side processes it is comprised of. Lifting a dynamic analysis so that it supports full-stack programs can be challenging. It involves distributed communication to maintain the analysis state across all processes, which has to be deadlock-free. In this paper, we advocate maintaining distributed analysis state in a centralized analysis process instead &#8212; which is communicated with from the processes under analysis. The approach is supported by a dynamic analysis platform that provides abstractions for this communication. We evaluate the approach through a case study. We use the platform to build a distributed origin analysis, capable of tracking the expressions from which values originate from across process boundaries, and deploy it on collaborative drawing application. The results show that our approach greatly simplifies the lifting process at the cost of a computational overhead. We deem this overhead acceptable for analyses intended for use at development time.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661898" title="Get the Full Text from the ACM Digital Library">Measuring effectiveness of sample-based product-line testing</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Sebastian Ruland</li>
+<li class="nameList">Lars Luthmann</li>
+<li class="nameList">Johannes B&#252;rdek</li>
+
+<li class="nameList">Sascha Lity</li>
+<li class="nameList">Thomas Th&#252;m</li>
+<li class="nameList">Malte Lochau</li>
+<li class="nameList Last">M&#225;rcio Ribeiro</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Recent research on quality assurance (QA) of configurable software systems (e.g., software product lines) proposes different analysis strategies to cope with the inherent complexity caused by the well-known combinatorial-explosion problem. Those strategies aim at improving efficiency of QA techniques like software testing as compared to brute-force configuration-by-configuration analysis. Sampling constitutes one of the most established strategies, defining criteria for selecting a drastically reduced, yet sufficiently diverse subset of software configurations considered during QA. However, finding generally accepted measures for assessing the impact of sample-based analysis on the effectiveness of QA techniques is still an open issue. We address this problem by lifting concepts from single-software mutation testing to configurable software. Our framework incorporates a rich collection of mutation operators for product lines implemented in C to measure mutation scores of samples, including a novel family-based technique for product-line mutation detection. Our experimental results gained from applying our tool implementation to a collection of subject systems confirms the widely-accepted assumption that pairwise sampling constitutes the most reasonable efficiency/effectiveness trade-off for sample-based product-line testing.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661899" title="Get the Full Text from the ACM Digital Library">Pattern matching in an open world</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Weixin Zhang</li>
+<li class="nameList Last">Bruno C. d. S. Oliveira</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Pattern matching is a pervasive and useful feature in functional programming. There have been many attempts to bring similar notions to Object-Oriented Programming (OOP) in the past. However, a key challenge in OOP is how pattern matching can coexist with the open nature of OOP data structures, while at the same time guaranteeing other desirable properties for pattern matching. </p> <p>This paper discusses several desirable properties for pattern matching in an OOP context and shows how existing approaches are lacking some of these properties. We argue that the traditional semantics of pattern matching, which is based on the <em>order</em> of patterns and adopted by many approaches, is in conflict with the openness of data structures. Therefore we suggest that a more restricted, top-level pattern matching model, where the order of patterns is irrelevant, is worthwhile considering in an OOP context. To compensate for the absence of ordered patterns we propose a complementary mechanism for case analysis with defaults, which can be used when nested and/or multiple case analysis is needed. To illustrate our points we develop Castor: a meta-programming library inScala that adopts both ideas. Castor generates code that uses type-safe extensible visitors, and largely removes boilerplate code typically associated with visitors. We illustrate the applicability of our approach with a case study modularizing the interpreters in the famous book &#8221;Types and Programming Languages&#8221;.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661890" title="Get the Full Text from the ACM Digital Library">Verification of high-level transformations with inductive refinement types</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ahmad Salim Al-Sibahi</li>
+<li class="nameList">Thomas P. Jensen</li>
+<li class="nameList">Aleksandar S. Dimovski</li>
+<li class="nameList Last">Andrzej W&#261;sowski</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>High-level transformation languages like Rascal include expressive features for manipulating large abstract syntax trees: first-class traversals, expressive pattern matching, backtracking and generalized iterators. We present the design and implementation of an abstract interpretation tool, Rabit, for verifying inductive type and shape properties for transformations written in such languages. We describe how to perform abstract interpretation based on operational semantics, specifically focusing on the challenges arising when analyzing the expressive traversals and pattern matching. Finally, we evaluate Rabit on a series of transformations (normalization, desugaring, refactoring, code generators, type inference, etc.) showing that we can effectively verify stated properties.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661891" title="Get the Full Text from the ACM Digital Library">Explaining spreadsheets with spreadsheets (short paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">J&#225;come Cunha</li>
+<li class="nameList">Mihai Dan</li>
+<li class="nameList">Martin Erwig</li>
+<li class="nameList">Danila Fedorin</li>
+<li class="nameList Last">Alex Grejuc</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Based on the concept of explanation sheets, we present an approach to make spreadsheets easier to understand and thus easier to use and maintain. We identify the notion of explanation soundness and show that explanation sheets which conform to simple rules of formula coverage provide sound explanations. We also present a practical evaluation of explanation sheets based on samples drawn from widely used spreadsheet corpora and based on a small user study. </p> <p> In addition to supporting spreadsheet understanding and maintenance, our work on explanation sheets has also uncovered several general principles of explanation languages that can help guide the design of explanations for other programming and domain-specific languages.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661892" title="Get the Full Text from the ACM Digital Library">Funcons for HGMP: the fundamental constructs of homogeneous generative meta-programming (short paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">L. Thomas van Binsbergen</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The PLanCompS project proposes a component-based approach to programming-language development in which fundamental constructs (funcons) are reused across language definitions. Homogeneous Generative Meta-Programming (HGMP) enables writing programs that generate code as data, at run-time or compile-time, for manipulation and staged evaluation. Building on existing formalisations of HGMP, this paper introduces funcons for HGMP and demonstrates their usage in component-based semantics.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661893" title="Get the Full Text from the ACM Digital Library">RT-trust: automated refactoring for trusted execution under real-time constraints</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Yin Liu</li>
+<li class="nameList">Kijin An</li>
+<li class="nameList Last">Eli Tilevich</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Real-time systems must meet strict timeliness requirements. These systems also often need to protect their critical program information (CPI) from adversarial interference and intellectual property theft. Trusted execution environments (TEE) execute CPI tasks on a special-purpose processor, thus providing hardware protection. However, adapting a system written to execute in environments without TEE requires partitioning the code into the regular and trusted parts. This process involves complex manual program transformations that are not only laborious and intellectually tiresome, but also hard to validate and verify for the adherence to real-time constraints. To address these problems, this paper presents novel program analyses and transformation techniques, accessible to the developer via a declarative meta-programming model. The developer declaratively specifies the CPI portion of the system. A custom static analysis checks CPI specifications for validity, while probe-based profiling helps identify whether the transformed system would continue to meet the original real-time constraints, with a feedback loop suggesting how to modify the code, so its CPI can be isolated. Finally, an automated refactoring isolates the CPI portion for TEE-based execution, communicated with through generated calls to the TEE API. We have evaluated our approach by successfully enabling the trusted execution of the CPI portions of several microbenchmarks and a drone autopilot. Our approach shows the promise of declarative meta-programming in reducing the programmer effort required to adapt systems for trusted execution under real-time constraints.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661894" title="Get the Full Text from the ACM Digital Library">Anomaly analyses for feature-model evolution</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Michael Nieke</li>
+<li class="nameList">Jacopo Mauro</li>
+<li class="nameList">Christoph Seidl</li>
+<li class="nameList">Thomas Th&#252;m</li>
+<li class="nameList">Ingrid Chieh Yu</li>
+<li class="nameList Last">Felix Franzke</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Software Product Lines (SPLs) are a common technique to capture families of software products in terms of commonalities and variabilities. On a conceptual level, functionality of an SPL is modeled in terms of features in Feature Models (FMs). As other software systems, SPLs and their FMs are subject to evolution that may lead to the introduction of anomalies (e.g., non-selectable features). To fix such anomalies, developers need to understand the cause for them. However, for large evolution histories and large SPLs, explanations may become very long and, as a consequence, hard to understand. In this paper, we present a method for anomaly detection and explanation that, by encoding the entire evolution history, identifies the evolution step of anomaly introduction and explains which of the performed evolution operations lead to it. In our evaluation, we show that our method significantly reduces the complexity of generated explanations.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661805" title="Get the Full Text from the ACM Digital Library">Regenerate: a language generator for extended regular expressions</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Gabriel Radanne</li>
+<li class="nameList Last">Peter Thiemann</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Regular expressions are part of every programmer&#8217;s toolbox. They are used for a wide variety of language-related tasks and there are many algorithms for manipulating them. In particular, matching algorithms that detect whether a word belongs to the language described by a regular expression are well explored, yet new algorithms appear frequently. However, there is no satisfactory methodology for testing such matchers. We propose a testing methodology which is based on generating positive as well as negative examples of words in the language. To this end, we present a new algorithm to generate the language described by a generalized regular expression with intersection and complement operators. The complement operator allows us to generate both positive and negative example words from a given regular expression. We implement our generator in Haskell and OCaml and show that its performance is more than adequate for testing.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

@@ -8,24 +8,26 @@ Executive Summary
 You may be an experienced conference organizer, in which case much of
 the advice on this page may already be familiar to you. Nevertheless,
 even experienced organizers sometimes forget some important points, so
-please at least skim this page, paying particular attention to the following:
+please at least skim this page as well as the following ones:
 
-- SIGPLAN's [conference policies](https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/edit?usp=sharing_
+- SIGPLAN's [conference policies](https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/edit?usp=sharing_)
 - SIGPLAN's [conference submission review policy](/Resources/Policies/Review) 
 - SIGPLAN's [diversity policy](/Resources/Policies/Diversity)
 - SIGPLAN's [Republication Policy](/Resources/Policies/Republication)
 - SIGPLAN's [Code of Conduct Policy](/Resources/Policies/CodeOfConduct/)
+- SIGACCESS's [Guide to Creating a Conference Accessibility FAQ Page](http://www.sigaccess.org/welcome-to-sigaccess/resources/creating-a-conference-accessibility-faq-page/)
 - if you plan to request in-cooperation or sponsored status, do so well in advance (twelve or eighteen months, respectively)
 - seek approval for important roles (PC Chair, and for a sponsored event also PC members) from SIGPLAN Vice-Chair, *before* sending invitations
 - consult with the conference Steering Committee before diverging from any existing conventions
 
-Programme Chair
+Program Chair
 ---------------
 
-Select potential Programme Chair(s) and send their names to SIGPLAN
-Chair and Vice-Chair for approval. Get approval before asking the
-person to serve (18 months prior to the event). Make sure the
-Programme Chair reviews SIGPLAN's [conference submission review
+Select potential Program Chair(s) and send their names to the [SIGPLAN
+Chair](mailto:chair_sigplan@acm.org) and
+[Vice-Chair](mailto:vc_sigplan@acm.org)  for approval. Do this _before_ asking the
+person to serve, 18 months prior to the event. Make sure the
+Program Chair reviews SIGPLAN's [conference submission review
 policy](/Resources/Policies/Review) and [diversity
 policy](/Resources/Policies/Diversity).
 
@@ -34,26 +36,28 @@ Date and Location
 
 Select three potential sites for the conference and send them to the
 ACM representative and the SIGPLAN Vice-Chair. If the event is part of
-a series, then the date of the conference has probably been
+a series, then the date of the conference may have been
 established by the time you agreed to serve as chair (two years prior
 to the meeting). Please be careful about what information you provide
-directly to the hotels, so as not to reduce ACM's negotiating
+directly to hotels so as not to reduce ACM's negotiating
 leverage.
 
 Submission and Review Policies
 ------------------------------
 
-The Programme Chair may not submit papers to the conference, and
+The Program Chair may not submit papers to the conference, and the
 SIGPLAN Executive Committee recommends that
 the General Chair also not be allowed to submit papers. 
 The conference steering committee should be consulted for any
 changes to the accepted way of organizing and running the
 conference. The SIGPLAN Executive Committee serves as the steering
-committee for those conferences without steering
+committee for conferences without steering
 committees of their own.
 
 Approval and Call for Papers
 ----------------------------
+
+<!--- (BCP) How does a GC know whether their conference is part of a series which already has approval for ongoing sponsorship?? --->
 
 Develop a timeline, at least eighteen months in advance of the conference date.
 Unless the conference is part of a series which already has approval
@@ -64,7 +68,7 @@ need to submit a request form, ask the [SIGPLAN Vice
 Chair](mailto:vc_sigplan@acm.org?subject=SIGPLAN%20Sponsorship).  An
 ACM [preliminary approval
 form](http://cms.acm.org/tmrf/cms_paf.cfm) (PAF)
-must be submitted in order to issue a call for papers.  Submitting a
+must be submitted in order to issue a call for papers.  Approval of a
 PAF also causes the conference to be added to ACM's master calendar.
 
 Website
@@ -74,7 +78,7 @@ Establish a web site for the conference and send the URL to the
 SIGPLAN [Information
 Director](mailto:infodir_sigplan@acm.org?subject=Conference%20Information)
 (as soon as date and site are determined). You can put a preliminary
-call on the web without listing the programme committee, but a PAF
+call on the web without listing the program committee, but a PAF
 must have been approved.
 
 Financial Support for Students
@@ -83,7 +87,7 @@ Financial Support for Students
 The Professional Activities Committee of SIGPLAN has been established
 to award [travel grants](/PAC) for students to present at
 SIGPLAN-sponsored events. Please mention its availability on your web
-page.  PAC also has supported programmes for underrepresented
+page.  PAC also has supported programs for underrepresented
 groups. If you would like to explore this possibility, please contact
 the PAC chair, listed on the PAC web page.
 
@@ -98,6 +102,8 @@ Select other members of the organizational team (e.g., local
 arrangements chair, publicity chair, publications chair, tutorial
 chair, etc). Send the names to the SIGPLAN Chair and Vice-Chair,
 one year before the event.
+
+<!--- (BCP) Do the chair and vice chair have to approve the names, or is this just FYI? --->
 
 Local arrangements (such as registration and hotel management) for the
 main SIGPLAN conferences PLDI, OOPSLA, POPL, and ICFP are usually
@@ -128,23 +134,32 @@ the
 Andrew Black wrote a [document](/sites/default/files/SIGPLAN_conference_finances_for_beginners.pdf)
 after SPLASH 2014 explaining where the money was spent.
 
-Programme Committee
+Program Committee
 -------------------
 
-Help the Programme Chair to select the programme committee. The list
-of potential committee members has to be approved by the SIGPLAN Chair
-and Vice-Chair before the members are invited. You and the PC Chair
+Help the Program Chair to select the program committee. The list
+of potential committee members has to be approved by the SIGPLAN Vice-Chair
+(who will consult the whole SIGPLAN Executive Committee) before the members
+are invited. You and the PC Chair 
 should decide on policies for submission and revewing (see
 [Guidelines for Program Committee Chair](/Resources/Guidelines/ProChair)).
+Please use the [PC proposal
+spreadsheet](/Resources/Guidelines/sigplan-pc-proposal-template.xlsx)
+to expedite the approval process.
 
 Satellite Events
 ----------------
 
 Co-located conferences or workshops make your event more attractive to
-participants.  Consider appointing a workshop chair to coordinate
-them. Establish a deadline for submission of workshop proposals. You
-should contact chairs of co-located events and plan the common advance
-programme, joint technical sessions, joint social events, etc. You
+participants.  Establish a deadline for submission of workshop
+proposals. Consider appointing a workshop chair to coordinate them.  (Make
+sure that whoever is handling this task -- whether you or a workshop chair
+-- has a conversation early in the process with the [SIGPLAN Vice
+Chair](mailto:vc_sigplan@acm.org?subject=Workshops) to get clear on
+SIGPLAN's expectations for how workshop PCs are formed and vetted.)
+
+You should contact chairs of co-located events and plan the common advance
+program, joint technical sessions, joint social events, etc. You
 should consider workshops on "hot" topics. Have the workshop chairs
 submit a proposal to the SIGPLAN Vice-Chair, as specified in the
 [In-Cooperation](/Resources/Proposals/Cooperated) or
@@ -154,19 +169,21 @@ web pages.
 SIGPLAN's general guideline is that the conference does not provide
 additional funds to workshops to pay travel or registration costs for
 workshop organizers, keynote speakers, or other dignitaries. This
-guideline is not strict, and may be broken under certain
+guideline is not strict, and may be relaxed under certain
 circumstances.
 
-Preparing the Programme
+Preparing the Program
 -----------------------
 
-Once the conference programme is set, prepare an advance programme that
-can be posted on the conference's web page. The advance programme can
+Once the conference program is set, work with the PC chair to prepare an advance program that
+can be posted on the conference's web page. The advance program can
 also be used to create a schedule of events to be
 handed out at the on-site conference registration.  
 
 Post-event Reporting
 --------------------
+
+<!--- (BCP) Does anybody actually do this?  Not much point in having a rule if it's universally ignored... --->
 
 Send a report at the end of the conference to the SIGPLAN 
 Vice-Chair. The report should include information about any

@@ -1,3 +1,68 @@
+2018:
+- Awardee: Ranjit Jhala
+  Citation: |
+    Ranjit Jhala has demonstrated a long track-record of producing foundational
+    and impactful contributions to our understanding of programming language
+    theory and implementation. Jhala was one of the principal developers of the
+    BLAST automatic verification tool for checking temporal safety properties of
+    C programs. A key contribution was the notion of lazy abstraction which
+    integrates three phases of the software model checking loop: abstraction,
+    checking and refinement. Jhala developed an algorithm for model checking
+    safety properties that continuously builds and refines a single abstract
+    model on demand by the model checker. This allows different parts of the
+    model to exhibit just the degrees of freedom required to verify a desired
+    property. The work on lazy abstraction has proved to be very influential in
+    the verification community. Jhala also used Craig interpolation to
+    efficiently construct, from a given abstract error trace that cannot be
+    concretized, a parsimonious abstraction that removes the trace. He developed
+    the method for programs with arithmetic and pointer expressions, and
+    call-by-value function calls. This resulting technique was successfully
+    applied to programs over 130,000 lines which was previously not possible. 
+
+    Jhala has significantly advanced the practical application of refinement
+    types which allow programmers to attach additional specifications to
+    existing types. These additional specifications allow interesting properties
+    to be proved about code, such as invariants over recursively defined data
+    structures. The problem with such specifications is that they can be too
+    onerous to write down and get right. Jhala's work on Liquid Types showed
+    that a useful and expressive class of these specifications can be inferred
+    in a largely automatic way, making the approach far more practical at a
+    reasonable cost. Jhala's work with Liquid Types has significantly extended
+    the state-of-the-art, adding a notion of predictability and decidability
+    often not found in SMT-based software verification, and extending the
+    usability and expressiveness of formal type systems.
+
+    Jhala has also worked on data race detection, information flow and timing
+    analysis for Javascript and code analytics. Jhala has also written a lengthy
+    tutorial on Liquid Haskell, proved to be an excellent communicator and
+    mentor who has given many engaging and inspiring presentations, and served
+    extensively on program committees of top conferences.
+
+    Selection committee: Anthony Hosking, Chandra Krintz, Xavier Leroy,
+    François Pottier and Satnam Singh.
+
+2017:
+- Awardee: Derek Dreyer
+  Citation: |
+    Derek Dreyer has made deep, creative research contributions of
+    great breadth. His areas of impact are as diverse as module
+    systems, data abstraction in higher-order languages, mechanized
+    proof systems and techniques, and concurrency models and
+    semantics. He has refactored and generalized the complex module
+    systems of SML and OCaml; devised logical relations and techniques
+    that enabled advances in reasoning about higher-order imperative
+    programs; and developed novel separation logics for modular
+    verification of low-level concurrent programs. His research papers
+    are a model of clarity and depth, and he has worked actively to
+    translate his foundational ideas into practice – most recently
+    with the RustBelt project to provide formal foundations for the
+    Rust language. Additionally, Dreyer has contributed leadership,
+    support, and mentorship in activities such as the PLMW series of
+    workshops, which are instrumental in growing the next generation
+    of PL researchers.
+
+    Selection committee: Kathleen Fisher, Antony Hosking, Chandra Krintz, Xavier Leroy, Yannis Smaragdakis.
+
 2016:
 - Awardee: Stephanie Weirich
   Citation: |
@@ -22,6 +87,8 @@
     venues including POPL, PLDI, ICFP, and SPLASH; Weirich was one of
     the original organizers of PLMW at POPL 2012, and continues to
     serve on the workshop's steering committee.
+
+    Selection committee: Tom Ball, Matthew Flatt, Antony Hosking, Sorin Lerner, Yannis Smaragdakis.
 
 2015:
 - Awardee: David Walker

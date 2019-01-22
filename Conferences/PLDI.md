@@ -9,15 +9,15 @@ implementation.
 
 **PLDI Fast Facts**
 
-> [PLDI 2017 Web Page](http://conf.researchr.org/home/pldi-2017)  
-> Location: Barcelona, Spain  
-> General Chair: [Albert Cohen](https://who.rocq.inria.fr/Albert.Cohen)  
-> Program Chair: [Martin Vechev](http://www.srl.inf.ethz.ch/vechev.php)  
-> Dates:  June 19-23, 2017  
+> [PLDI 2019 Web Page](http://pldi19.sigplan.org)  
+> Location: Phoenix, Arizona  
+> General Chair: [Kathryn S. McKinley](https://www.cs.utexas.edu/users/mckinley/)  
+> Program Chair: [Kathleen Fisher](http://www.cs.tufts.edu/~kfisher)  
+> Dates:  June 22-28, 2019  
 
 **Practices of PLDI**
 
-The document [Practices of PLDI](http://www.sigplan.org/sites/default/files/PracticesofPLDI.pdf) describes the contract between PLDI organizers and the broader community.  The document was approved in June 2013 and revised in August 2015.  The Chair of the PLDI Steering Committee has the source for the document and is responsible for maintaining it in consultation with the PLDI Steering Committee and the broader community.
+The document [Practices of PLDI](http://www.sigplan.org/sites/default/files/PracticesofPLDI.pdf) describes the contract between PLDI organizers and the broader community.  The document was approved in June 2013 and revised in August 2015 and September 2017.  The Chair of the PLDI Steering Committee has the source for the document and is responsible for maintaining it in consultation with the PLDI Steering Committee and the broader community.
 
 **Most Influential PLDI Paper Award**
 
@@ -37,6 +37,8 @@ The PLDI Steering Committee is chosen according the [Practices of PLDI](http://w
 
 **Web Pages of Previous Conferences**  
 
+- [PLDI 2018](http://pldi18.sigplan.org) (Philadelphia, PA)
+- [PLDI 2017](http://pldi17.sigplan.org) (Barcelona, Spain)
 - [PLDI 2016](http://conf.researchr.org/home/pldi-2016) (Santa Barbara, CA)
 - [PLDI 2015](http://conf.researchr.org/home/pldi2015) (Portland, OR)
 - [PLDI 2014](http://conferences.inf.ed.ac.uk/pldi2014/)  (Edinburgh, UK)

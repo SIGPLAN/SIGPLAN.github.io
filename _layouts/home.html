@@ -23,6 +23,9 @@
             {% include link-table.liquid data=site.data.Links links="Key Links" %}
           </div>
           <div style="margin-top: 25px;">
+            {% include link-table.liquid data=site.data.Links links="Ad Hoc Committees" %}
+          </div>
+          <div style="margin-top: 25px;">
             {% include link-table.liquid data=site.data.Links links="Conference Information" %}
           </div>
           <div style="margin-top: 25px;">
@@ -69,7 +72,12 @@
             <ul>
               {% for recipient in recent_recipients %}
               <li>
-                <a href="{{path}}#{{year}}_{{ recipient["Awardee"] | replace: " ", "_" | replace: ",", "_" }}">{{ recipient["Awardee"] }}</a>
+                <a href="{{path}}#{{year}}_{{ recipient["Awardee"] | replace: " ", "_" | replace: ",", "_" }}">
+                  {% if recipient["Award"] <> nil %}
+                  <em>{{ recipient["Award"] }}:</em>
+                  {% endif %}
+                  {{ recipient["Awardee"] }}
+                </a>
                 {% if recipient["Other"] <> nil %}
                   {{ recipient["Other"] | markdownify}}
                 {% endif %}

@@ -3,7 +3,8 @@ layout: default
 title: "The SIGPLAN Professional Activities Committee"
 ---
 
-**Student Members**  
+## Student Members
+
 Are you a student who is a presenter or co-author of a paper, but
 need money to attend the conference?  The SIGPLAN Professional
 Activities Committee (PAC) provides support to help advance
@@ -19,8 +20,9 @@ applications for the following activities:
 
 > -   A one-year SIGPLAN membership for ACM students that are
 >     currently not SIGPLAN members.
-> -   Registration fees and shared accommodation expenses for student
->     attendance at a [SIGPLAN sponsored conference](/Conferences)
+> -   Travel expenses (including airfare, shared accommodation, taxi/cab/shuttle, 
+>     meals (only if not provided by the event), registration, mileage, and parking) 
+>     at a [SIGPLAN sponsored conference](/Conferences)
 >     where the applicant is to present a paper, is co-author of a paper
 >     on the program, or is participating in a student poster session.
 >     **PAC expects institutions to share costs in the funding of students.**
@@ -50,7 +52,7 @@ attend it.
 
 See the FAQ about Travel Expenses and Reimbursements below.
 
-**Professional Members**
+## Professional Members
 
 Are you a SIGPLAN member and want to participate in SIGPLAN-related
 standards work or other important or unique SIGPLAN efforts, but
@@ -65,7 +67,7 @@ applications for the following activities:
 > -   Any other activity deemed appropriate by the committee.
 
 Submit your application by sending email to the
-[PAC contact persons](mailto:PAC_grants@acm.org?subject=SIGPLAN%20PAC).
+[PAC Contact Persons](mailto:PAC_grants@acm.org?subject=SIGPLAN%20PAC).
 Your email should include the following information:
 
 > 1.  A statement that you are a member of SIGPLAN (include your ACM
@@ -87,11 +89,7 @@ reservation deadline of the conference. Also, please check the
 website of the specific conference for additional details about
 other sources of funding and deadlines.
 
-**PAC Contact Person**
-
-> [Gabriele Keller](mailto:keller@cse.unsw.edu.au)
-
-**Child-care Travel Support**
+## Child-care Travel Support
 
 Would you like to attend a SIGPLAN-sponsored event, but cannot
 because the cost of child-care is prohibitive? SIGPLAN provides
@@ -132,7 +130,7 @@ If multiple parents are attending the same event, please indicate
 this in your email. Only one parent should request support in this
 case.
 
-**Companion Travel Grant**
+## Companion Travel Grant
 
 Would you like to attend a SIGPLAN-sponsored event, but require
 assistance to travel or have a small child in your care? SIGPLAN
@@ -152,7 +150,7 @@ board, are not covered. For more information about this program,
 please send e-mail to the
 [PAC Contact Persons](mailto:PAC_grants@acm.org?subject=Companion%20Travel%20Grant).
 
-**Long Distance International Travel**
+## Long Distance International Travel
 
 Are you a member of SIGPLAN who is unable to participate in SIGPLAN
 events because you are located in parts of the world that make it
@@ -178,7 +176,12 @@ information:
 Please apply for this grant by visiting the PAC application web
 site: [here](http://pac.sigplan.org/).
 
-####Frequently Asked Questions about Travel Expenses and Reimbursements
+## PAC Contact Person
+
+> [Jeff Foster](mailto:jfoster@cs.tufts.edu)
+
+
+## FAQ: Travel Expenses and Reimbursements
 
 **Q:** Can I reimbursed for a rental car?   
 **A:** ACM does not reimburse for rental cars unless prior approval
@@ -188,32 +191,31 @@ expensive transport getting between airport and conference nearly
 always.
 
 **Q:** Can I drive to the conference?  
-**A:** If driving is cheaper than flying, sure. For longer
-distances, flying is nearly always cheaper than driving (unless it
-is a very short driving distance). ACM reimburses at the IRS
-business rate, currently 48.5 cents per mile. The rate changes every
-January 1.
+**A:** If driving is cheaper than flying, sure. For longer distances,
+flying is nearly always cheaper than driving (unless it is a very
+short driving distance). ACM reimburses at the IRS business rate,
+currently 48.5 cents per mile. The rate changes every January 1.
 
 **Q:** Do I need receipts for every expense?  
 **A:** ACM policy requires a receipt for any expense over US$25.
-Expenses under $25 are reimbursable without receipt, by submitting
-a  
+Expenses under $25 are reimbursable without receipt, by submitting a
 description--most frequently things like, "9/10/07, breakfast at
-airport Starbucks, $8.45" and "9/10/07, shuttle bus to hotel,
-$16".  
+airport Starbucks, $8.45" and "9/10/07, shuttle bus to hotel, $16".
+
 **Q:** What is the limit on reimbursement for meals?  
-**A:** There is a maximum for reimbursable meals of $50 per day in
-the U.S., and $60 outside; these maximums are enforced by our
-Finance Department. Note: We do not reimburse for meals when that
-meal is served as part of the conference activities.   
+**A:** There is a maximum for reimbursable meals of $50 per day in the
+U.S., and $60 outside; these maximums are enforced by our Finance
+Department. Note: We do not reimburse for meals when that meal is
+served as part of the conference activities.
+
 **Q:** Some of my expenses are being reimbursed by my University
 and they require original receipts. How should I handle this?  
-**A:** There are several ways to work this out, including having
-the University reimburse the student and a department administrator
-send a bill to ACM asking to have the department reimbursed in the
-amount of the SIGPLAN grant. Sometimes there are other reasons that
-make sense for the University to reimburse the student then bill
-ACM.  
+**A:** There are several ways to work this out, including having the
+University reimburse the student and a department administrator send a
+bill to ACM asking to have the department reimbursed in the amount of
+the SIGPLAN grant. Sometimes there are other reasons that make sense
+for the University to reimburse the student then bill ACM.
+
 **Q:** Can I be reimbursed in other currencies?  
 **A:** Reimbursement can be made in US$ (most frequent); other
 currencies (CA$, Euros, GBP most frequent); or by bank transfer
@@ -223,9 +225,9 @@ get moving, which is about two weeks. Sometimes bank transfers are
 really quick, but not always.
 
 **Q:** Is it possible to get reimbursements via wire transfer?  
-**A:** Yes, wire transfers are available for payments outside of
-North America. The following information is needed to execute a
-wire transfer.
+**A:** Yes, wire transfers are available for payments outside of North
+America. The following information is needed to execute a wire
+transfer.
 
 Name on bank account  
 Address on bank account  
@@ -233,9 +235,9 @@ Phone (PAC recipient)
 IBAN or Account number  
   
 Name and address of bank SWIFT or BIC code (a bank routing code,
-which is available from bank)  
+which is available from bank)__
 Additional information requested by bank (such as intermediary bank
-info)  
+info)
   
 **Q:** Can I get a travel advance?  
 **A:** We do not do travel advances for student travel.

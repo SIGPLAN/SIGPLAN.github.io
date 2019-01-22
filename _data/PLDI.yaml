@@ -1,3 +1,22 @@
+2018:
+- Awardee: Uday Bondhugula, Albert Hartono, J. Ramanujam, and P. Sadayappan
+  Other: |
+    (for 2008) _[A Practical Automatic Polyhedral Parallelizer and Locality Optimizer](https://dl.acm.org/citation.cfm?id=1375595)_
+  Citation: |
+    The PLDI 2008 paper "A Practical Automatic Polyhedral Parallelizer and
+    Locality Optimizer" significantly advanced the power and practical automatic
+    application of polyhedral analysis to automatically determine parallelism
+    and locality improving affine transforms of regular programs expressed as
+    sequences of possibly imperfect loops. The work presented in this paper
+    produced practical implementations that could automatically generate OpenMP
+    parallel programs from sequential nested loops written in C. This inspired a
+    large number of other researchers to further develop polyhedral
+    optimizations based on this approach, like automatic code generation for
+    GPUs and FPGA circuits by high level synthesis from nested sequential
+    loops. The ideas in this paper have proved to be enduring and widely
+    applicable and even to this day keep finding new applications, e.g., for
+    mapping machine learning algorithms to specialized accelerators.
+
 2017:
 - Awardee: Nicholas Nethercote and Julian Seward
   Other: |

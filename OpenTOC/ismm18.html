@@ -1,0 +1,192 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>ISMM 2018- Proceedings of the 2018 ACM SIGPLAN International Symposium on Memory Management</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>ISMM 2018- Proceedings of the 2018 ACM SIGPLAN International Symposium on Memory Management</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3210563" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Reference Counting and Techniques for C-Family Languages</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650784" title="Get the Full Text from the ACM Digital Library">Detailed heap profiling</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Stuart Byma</li>
+<li class="nameList Last">James R. Larus</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Modern software systems heavily use the memory heap. As systems grow more complex and compute with increasing amounts of data, it can be difficult for developers to understand how their programs actually use the bytes that they allocate on the heap and whether improvements are possible. To answer this question of heap usage efficiency, we have built a new, detailed heap profiler called Memoro. Memoro uses a combination of static instrumentation, subroutine interception, and runtime data collection to build a clear picture of exactly when and where a program performs heap allocation, and crucially <i>how</i> it actually uses that memory. Memoro also introduces a new visualization application that can distill collected data into <i>scores</i> and visual cues that allow developers to quickly pinpoint and eliminate inefficient heap usage in their software. Our evaluation and experience with several applications demonstrates that Memoro can reduce heap usage and produce runtime improvements of 10%.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650795" title="Get the Full Text from the ACM Digital Library">FRC: a high-performance concurrent parallel deferred reference counter for C++</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Charles Tripp</li>
+<li class="nameList">David Hyde</li>
+
+<li class="nameList Last">Benjamin Grossman-Ponemon</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present FRC, a high-performance concurrent parallel reference counter for unmanaged languages. It is well known that high-performance garbage collectors help developers write memory-safe, highly concurrent systems and data structures. While C++, C, and other unmanaged languages are used in high-performance applications, adding concurrent memory management to these languages has proven to be difficult. Unmanaged languages like C++ use pointers instead of references, and have uncooperative mutators which do not pause easily at a safe point. Thus, scanning mutator stack root references is challenging. </p> <p> FRC only defers decrements and does not require mutator threads to pause during collection. By deferring only decrements, FRC avoids much of the synchronization overhead of a fully-deferred implementation. Root references are scanned without interrupting the mutator by publishing these references to a thread-local array. FRC&#39;s performance can exceed that of the C++ standard library&#39;s shared pointer by orders of magnitude. FRC&#39;s thread-safety guarantees and low synchronization overhead enable significant throughput gains for concurrently-readable shared data structures. </p> <p> We describe the components of FRC, including our static tree router data structure: a novel barrier which improves the scalability of parallel collection workers. FRC&#39;s performance is evaluated on several concurrent data structures. We release FRC and our tests as open-source code and expect FRC will be useful for many concurrent C++ software systems.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650796" title="Get the Full Text from the ACM Digital Library">Distributed garbage collection for general graphs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Steven R. Brandt</li>
+<li class="nameList">Hari Krishnan</li>
+<li class="nameList">Costas Busch</li>
+<li class="nameList Last">Gokarna Sharma</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We propose a scalable, cycle-collecting, decentralized, reference counting garbage collector with partial tracing. The algorithm is based on the Brownbridge system but uses four different types of references to label edges. Memory usage is O (log n) bits per node, where n is the number of nodes in the graph. The algorithm assumes an asynchronous network model with a reliable reordering channel. It collects garbage in O (E a ) time, where E a is the number of edges in the in- duced subgraph. The algorithm uses termination detection to manage the distributed computation, a unique identifier to break the symmetry among multiple collectors, and a transaction-based approach when multiple collectors conflict. Unlike existing algorithms, ours is not centralized, does not require barriers, does not require migration of nodes, does not require back-pointers on every edge, and is stable against concurrent mutation.</p></div> </div>
+<h2>SESSION: Optimizing for the Web and the Cloud</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650797" title="Get the Full Text from the ACM Digital Library">Hardware-software co-optimization of memory management in dynamic languages</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Mohamed Ismail</li>
+<li class="nameList Last">G. Edward Suh</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Dynamic programming languages are becoming increasingly popular, yet often show a significant performance slowdown compared to static languages. In this paper, we study the performance overhead of automatic memory management in dynamic languages. We propose to improve the performance and memory bandwidth usage of dynamic languages by co-optimizing garbage collection overhead and cache performance for newly-initialized and dead objects. Our study shows that less frequent garbage collection results in a large number of cache misses for initial stores to new objects. We solve this problem by directly placing uninitialized objects into on-chip caches without off-chip memory accesses. We further optimize the garbage collection by reducing unnecessary cache pollution and write-backs through partial tracing that invalidates dead objects between full garbage collections. Experimental results on PyPy and V8 show that less frequent garbage collection along with our optimizations can significantly improve the performance of dynamic languages.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650798" title="Get the Full Text from the ACM Digital Library">Dynamic vertical memory scalability for OpenJDK cloud applications</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Rodrigo Bruno</li>
+<li class="nameList">Paulo Ferreira</li>
+<li class="nameList">Ruslan Synytsky</li>
+<li class="nameList">Tetiana Fydorenchyk</li>
+<li class="nameList">Jia Rao</li>
+<li class="nameList">Hang Huang</li>
+<li class="nameList Last">Song Wu</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The cloud is an increasingly popular platform to deploy applications as it lets cloud users to provide resources to their applications as needed. Furthermore, cloud providers are now starting to offer a "pay-as-you-use" model in which users are only charged for the resources that are really used instead of paying for a statically sized instance. This new model allows cloud users to save money, and cloud providers to better utilize their hardware. </p> <p> However, applications running on top of runtime environments such as the Java Virtual Machine (JVM) cannot benefit from this new model because they cannot dynamically adapt the amount of used resources at runtime. In particular, if an application needs more memory than what was initially predicted at launch time, the JVM will not allow the application to grow its memory beyond the maximum value defined at launch time. In addition, the JVM will hold memory that is no longer being used by the application. This lack of dynamic vertical scalability completely prevents the benefits of the "pay-as-you-use" model, and forces users to over-provision resources, and to lose money on unused resources. </p> <p> We propose a new JVM heap sizing strategy that allows the JVM to dynamically scale its memory utilization according to the application&#39;s needs. First, we provide a configurable limit on how much the application can grow its memory. This limit is dynamic and can be changed at runtime, as opposed to the current static limit that can only be set at launch time. Second, we adapt current Garbage Collection policies that control how much the heap can grow and shrink to better fit what is currently being used by the application. </p> <p> The proposed solution is implemented in the OpenJDK 9 HotSpot JVM, the new release of OpenJDK. Changes were also introduced inside the Parallel Scavenge collector and the Garbage First collector (the new by-default collector in HotSpot). Evaluation experiments using real workloads and data show that, with negligible throughput and memory overhead, dynamic vertical memory scalability can be achieved. This allows users to save significant amounts of money by not paying for unused resources, and cloud providers to better utilize their physical machines.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650799" title="Get the Full Text from the ACM Digital Library">OMR: out-of-core MapReduce for large data sets</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Gurneet Kaur</li>
+<li class="nameList">Keval Vora</li>
+<li class="nameList">Sai Charan Koduru</li>
+<li class="nameList Last">Rajiv Gupta</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>While single machine MapReduce systems can squeeze out maximum performance from available multi-cores, they are often limited by the size of main memory and can thus only process small datasets. Our experience shows that the state-of-the-art single-machine in-memory MapReduce system Metis frequently experiences out-of-memory crashes. Even though today&#39;s computers are equipped with efficient secondary storage devices, the frameworks do not utilize these devices mainly because disk access latencies are much higher than those for main memory. Therefore, the single-machine setup of the Hadoop system performs much slower when it is presented with the datasets which are larger than the main memory. Moreover, such frameworks also require tuning a lot of parameters which puts an added burden on the programmer. In this paper we present OMR, an Out-of-core MapReduce system that not only successfully handles datasets that are far larger than the size of main memory, it also guarantees linear scaling with the growing data sizes. OMR actively minimizes the amount of data to be read/written to/from disk via on-the-fly aggregation and it uses block sequential disk read/write operations whenever disk accesses become necessary to avoid running out of memory. We theoretically prove OMR&#39;s linear scalability and empirically demonstrate it by processing datasets that are up to 5x larger than main memory. Our experiments show that in comparison to the standalone single-machine setup of the Hadoop system, OMR delivers far higher performance. Also in contrast to Metis, OMR avoids out-of-memory crashes for large datasets as well as delivers higher performance when datasets are small enough to fit in main memory.</p></div> </div>
+<h2>SESSION: Analyzing the Cache and Scheduling</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650790" title="Get the Full Text from the ACM Digital Library">mPart: miss-ratio curve guided partitioning in key-value stores</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Daniel Byrne</li>
+<li class="nameList">Nilufer Onder</li>
+<li class="nameList Last">Zhenlin Wang</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Web applications employ key-value stores to cache the data that is most commonly accessed. The cache improves an web application&#39;s performance by serving its requests from memory, avoiding fetching them from the backend database. Since the memory space is limited, maximizing the memory utilization is a key to delivering the best performance possible. This has lead to the use of multi-tenant systems, allowing applications to share cache space. In addition, application data access patterns change over time, so the system should be adaptive in its memory allocation. </p> <p> In this work, we address both multi-tenancy (where a single cache is used for multiple applications) and dynamic workloads (changing access patterns) using a model that relates the cache size to the application miss ratio, known as a miss ratio curve. Intuitively, the larger the cache, the less likely the system will need to fetch the data from the database. Our efficient, online construction of the miss ratio curve allows us to determine a near optimal memory allocation given the available system memory, while adapting to changing data access patterns. We show that our model outperforms an existing state-of-the-art sharing model, Memshare, in terms of overall cache hit ratio and does so at a lower time cost. We show that for a typical system, overall hit ratio is consistently 1 percentage point greater and 99.9th percentile latency is reduced by as much as 2.9% under standard web application workloads containing millions of requests.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650791" title="Get the Full Text from the ACM Digital Library">Prediction and bounds on shared cache demand from memory access interleaving</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Jacob Brock</li>
+<li class="nameList">Chen Ding</li>
+<li class="nameList">Rahman Lavaee</li>
+<li class="nameList">Fangzhou Liu</li>
+<li class="nameList Last">Liang Yuan</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Cache in multicore machines is often shared, and the cache performance depends on how memory accesses belonging to different programs interleave with one another. The full range of performance possibilities includes all possible interleavings, which are too numerous to be studied by experiments for any mix of non-trivial programs. </p> <p> This paper presents a theory to characterize the effect of memory access interleaving due to parallel execution of non-data-sharing programs. The theory uses an established metric called the footprint (which can be used to calculate miss ratios in fully-associative LRU caches) to measure cache demand, and considers the full range of interleaving possibilities. The paper proves a lower bound for footprints of interleaved traces, and then formulates an upper bound in terms of the footprints of the constituent traces. It also shows the correctness of footprint composition used in a number of existing techniques, and places precise bounds on its accuracy.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N650792" title="Get the Full Text from the ACM Digital Library">Balanced double queues for GC work-stealing on weak memory models</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Michihiro Horie</li>
+<li class="nameList">Hiroshi Horii</li>
+<li class="nameList">Kazunori Ogata</li>
+<li class="nameList Last">Tamiya Onodera</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Work-stealing is promising for scheduling and balancing parallel workloads. It has a wide range of applicability on middleware, libraries, and runtime systems of programming languages. OpenJDK uses work-stealing for copying garbage collection (GC) to balance copying tasks among GC threads. Each thread has its own queue to store tasks. When a thread has no task in its queue, it acts as a thief and attempts to steal a task from another thread&#39;s queue. However, this work-stealing algorithm requires expensive memory fences for pushing, popping, and stealing tasks, especially on weak memory models such as POWER and ARM. To address this problem, we propose a work-stealing algorithm that uses double queues. Each GC thread has a public queue that is accessible from other GC threads and a private queue that is only accessible by itself. Pushing and popping tasks in the private queue are free from expensive memory fences. The most significant point in our algorithm is providing a mechanism to maintain the load balance on the basis of the use of double queues. We developed a prototype implementation for parallel GC in OpenJDK8 for ppc64le. We evaluated our algorithm by using SPECjbb2015, SPECjvm2008, TPC-DS, and Apache DayTrader.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

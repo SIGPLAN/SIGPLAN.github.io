@@ -23,5 +23,5 @@ All questions about the Programming Languages Software Award should be directed 
 
 **Committee Chair**: [Emery Berger](mailto:emery@cs.umass.edu) (University of Massachusetts Amherst)
 
-**Committee Members**: Andrew Appel (Princeton), Steve Blackburn (ANU), Manuel Serrano (INRIA), Yannis Smaragdakis (Univ of Athens)
+**Committee Members**: [Francesco Logozzo](mailto:logozzo@fb.com) (Facebook), [Steve Blackburn](mailto:Steve.Blackburn@anu.edu.au) (ANU), [Manuel Serrano](mailto:Manuel.Serrano@inria.fr) (INRIA), [Patrick Eugster](mailto:peugster@dsp.tu-darmstadt.de) (TU Darmstadt)
 

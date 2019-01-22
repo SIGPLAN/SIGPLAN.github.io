@@ -2,6 +2,7 @@
 layout: award
 title: "Programming Languages Achievement Award"
 ---
+
 Given by ACM SIGPLAN to recognize an individual or individuals who
 has made a significant and lasting contribution to the field of
 programming languages. The contribution can be a single event or a
@@ -20,4 +21,4 @@ All questions about the Programming Languages Achievement Award should be direct
 
 **Committee Chair**: [Emery Berger](mailto:emery@cs.umass.edu) (University of Massachusetts Amherst)
 
-**Committee Members**: Dan Grossman (University of Washington), Frank Tip (Northeastern University), Kathleen Fisher (Tufts Unviersity), Jonathan Aldrich (Carnegie Mellon University)
+**Committee Members**: Dan Grossman (University of Washington), Frank Tip (Northeastern University), Kathleen Fisher (Tufts University), Jonathan Aldrich (Carnegie Mellon University)
