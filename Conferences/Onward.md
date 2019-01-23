@@ -67,11 +67,11 @@ Awards
 
 -   Most Notable Paper Award 2015 for 2005
     -   Recipient: Jonathan Edwards
-    -   Title: Subtext--Uncovering the Simplicity of Programming
+    -   Title: Subtext&#8212;Uncovering the Simplicity of Programming
     -   Conference: Onward! 2005
     -   Paper:
         [http://dl.acm.org/citation.cfm?id=1094811.1094851](http://dl.acm.org/citation.cfm?id=1094811.1094851)
-    -   Citation: The 2005 Onward! paper "Subtext--Uncovering the
+    -   Citation: The 2005 Onward! paper "Subtext&#8212;Uncovering the
         Simplicity of Programming" presented a new kind of
         programming, unifying programs and their execution, and which
         helped establish Onward! as a forum for high-end, lateral
@@ -207,13 +207,13 @@ Past Events
     -   General co-chair: Richard P. Gabriel
     -   Papers chair: Eelco Visser
     -   Essays chair: David West
-    -   Keynote speaker: Markus P&#252;schel
+    -   Keynote speaker: Markus Püschel
     -   [http://onward-conference.org/2011/](http://onward-conference.org/2011/)
 
 -   Onward! 2010
     -   Reno, Nevada, USA, October 19-21, 2010
     -   Co-located with SPLASH 2010
-    -   General chair: Siobh&#225;n Clarke
+    -   General chair: Siobhán Clarke
     -   Papers chair: Kevin Sullivan
     -   Essays chair: Daniel Steinberg
     -   Keynote speaker: Benjamin C. Pierce
@@ -238,7 +238,7 @@ Past Events
     -   [http://www.oopsla.org/oopsla2008/program-overview/onward-papers.html](http://www.oopsla.org/oopsla2008/program-overview/onward-papers.html)
 
 -   Onward! 2007
-    -   Montr&#233;al, Quebec, Canada, October 23-25, 2007
+    -   Montréal, Quebec, Canada, October 23-25, 2007
     -   Co-located with OOPSLA 2007
     -   PC chair: Cristina Videira Lopes
     -   Keynote speakers: Jim Purbrick and Mark Lentczner
@@ -302,27 +302,27 @@ Steering Committee Members
 
 ### Past
 
-* Elisa Baniassad, Australian National University, Australia (SC Chair 2011-2013, Co-chair 2005)
-* Andrew Black, Portland State University, USA (SPLASH General Chair 2014)
-* Bernd Bruegge, TU München, Germany (Essays Chair 2014, Essays Chair 2013, General Chair 2009)
-* Siobhán Clarke, Trinity College, Ireland (General Chair 2010)
-* Yvonne Coady, University of Victoria, Canada (Papers Chair 2009)
-* Geoff A. Cohen, Elysium Digital, USA (Chair 2004)
-* Jonathan Edwards, Massachusetts Institute of Technology, USA (Papers Chair 2012)
-* Jeremy Gibbons, University of Oxford, UK (SIGPLAN 2012-2015)
-* Antony Hosking, Purdue University, USA (SPLASH 2013 General Chair)
-* Shriram Krishnamurthi, Brown University, USA (Papers Chair 2014)
-* Cristina Videira Lopes, University of California at Irvine, USA (Essays Chair 2016, PC Chair 2007)
-* Brian Marick, Testing Foundations, USA (Essays Chair 2005)
-* Emerson Murphy-Hill, North Carolina State University, USA (Papers Chair 2016)
-* James Noble, Victoria University of Wellington, New Zealand (Co-chair 2005)
-* Simon Peyton-Jones, Microsoft Research Cambridge, UK (Essays Chair 2009)
-* Dirk Riehle, Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany (PC Chair 2008)
-* Guy L. Steele Jr., Oracle Labs, USA (Essays Chair 2015)
-* Julie Steele, O'Reilly Media, USA (Essays Chair 2012)
-* Daniel Steinberg, Dim Sum Thinking, USA (Essays Chair 2010)
-* Tijs van der Storm, Centrum Wiskunde &amp; Informatica and University of Groningen, Netherlands (Papers Co-chair 2017)
-* Kevin Sullivan, University of Virginia, USA (Past SC Chair 2015-2018, SC Chair 2013-2015, Papers Chair 2010)
-* Peter Thiemann, University of Freiburg, Germany (SIGPLAN 2015-2018)
-* Eelco Visser, Delft University of Technology, Netherlands (SPLASH General Chair 2016, Papers Chair 2011)
-* David West, New Mexico Highlands University, USA (Essays Chair 2011)
+* Elisa Baniassad (SC Chair 2011-2013, Co-chair 2005)
+* Andrew Black (SPLASH General Chair 2014)
+* Bernd Bruegge (Essays Chair 2014, Essays Chair 2013, General Chair 2009)
+* Siobhán Clarke (General Chair 2010)
+* Yvonne Coady (Papers Chair 2009)
+* Geoff A. Cohen (Chair 2004)
+* Jonathan Edwards (Papers Chair 2012)
+* Jeremy Gibbons (SIGPLAN 2012-2015)
+* Antony Hosking (SPLASH 2013 General Chair)
+* Shriram Krishnamurthi (Papers Chair 2014)
+* Cristina Videira Lopes (Essays Chair 2016, PC Chair 2007)
+* Brian Marick (Essays Chair 2005)
+* Emerson Murphy-Hill (Papers Chair 2016)
+* James Noble (Co-chair 2005)
+* Simon Peyton-Jones (Essays Chair 2009)
+* Dirk Riehle (PC Chair 2008)
+* Julie Steele (Essays Chair 2012)
+* Guy L. Steele Jr. (Essays Chair 2015)
+* Daniel Steinberg (Essays Chair 2010)
+* Tijs van der Storm (Papers Co-chair 2017)
+* Kevin Sullivan (Past SC Chair 2015-2018, SC Chair 2013-2015, Papers Chair 2010)
+* Peter Thiemann (SIGPLAN 2015-2018)
+* Eelco Visser (SPLASH General Chair 2016, Papers Chair 2011)
+* David West (Essays Chair 2011)
