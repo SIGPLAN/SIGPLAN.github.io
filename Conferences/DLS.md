@@ -195,9 +195,28 @@ Past Events
 Steering Committee Members
 --------------------------
 
-{% include committee.liquid name="DLS Steering Committee" %}
+### Present
 
-Past Steering Committee Members
--------------------------------
+* Chair: Tim Felgentreff, Oracle Labs, Germany (SC Chair 2018-2021, PC Chair 2018)
+* Davide Ancona, Universit&agrave; degli studi di Genova, Italy (PC Chair 2017)
+* Carl Friedrich Bolz-Tereick, Heinrich-Heine-Universit&auml;t D&uuml;sseldorf, Germany (Past SC Chair 2018-2021, SC Chair 2015-2018, PC Chair 2013)
+* Robert Hirschfeld, Hasso Plattner Institute and University of Potsdam, Germany (Member at Large 2018-2020, Past SC Chair 2015-2018, SC Chair 2007-2015, PC Chair 2007, PC Chair 2006)
+* Stefan Marr, University of Kent, UK (PC Chair 2019)
+* Benjamin C. Pierce, University of Pennsylvania, USA (SIGPLAN 2018-2021)
+* Laurence Tratt, King's College London, UK (Emeritus Member 2018-2020, Emeritus Member 2016-2018, PC Chair 2014)
 
-{% include committee.liquid name="DLS Steering Committee (Past)" %}
+### Past
+
+* Johan Brichau (PC Chair 2008)
+* William D. Clinger (PC Chair 2010)
+* Pascal Costanza (SC Chair 2007-2013, PC Chair 2007)
+* Theo D'Hondt (PC Chair 2011)
+* Richard P. Gabriel (Member at Large 2007-2013)
+* Jeremy Gibbons (SIGPLAN 2012-2015)
+* Roberto Ierusalimschy (PC Chair 2016)
+* James Noble (PC Chair 2009)
+* Manuel Serrano (PC Chair 2015)
+* Peter Thiemann (SIGPLAN 2015-2018)
+* Dave Thomas (Member at Large 2007-2013)
+* Alessandro Warth (PC Chair 2012)
+* Roel Wuyts (PC Chair 2005)

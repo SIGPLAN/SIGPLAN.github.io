@@ -44,6 +44,7 @@ Information Director:
     - ICFP:
     - ISMM:
     - LCTES:
+    - Onward!:
     - PLDI:
     - POPL:
     - PPOPP:
@@ -72,28 +73,13 @@ CGO Steering Committee:
   - Chair: Olivier Temam
 
 DLS Steering Committee:
-  - Chair: Tim Felgentreff, Oracle Labs, Germany (SC Chair 2018-2021, PC Chair 2018)
-  - Davide Ancona, Universit&agrave; degli studi di Genova, Italy (PC Chair 2017)
-  - Carl Friedrich Bolz-Tereick, Heinrich-Heine-Universit&auml;t D&uuml;sseldorf, Germany (Past SC Chair 2018-2021, SC Chair 2015-2018, PC Chair 2013)
-  - Robert Hirschfeld, Hasso Plattner Institute and University of Potsdam, Germany (Member at Large 2018-2020, Past SC Chair 2015-2018, SC Chair 2007-2015, PC Chair 2007, PC Chair 2006)
-  - Stefan Marr, University of Kent, UK (PC Chair 2019)
-  - Benjamin C. Pierce, University of Pennsylvania, USA (SIGPLAN 2018-2021)
-  - Laurence Tratt, King's College London, UK (Emeritus Member 2018-2020, Emeritus Member 2016-2018, PC Chair 2014)
-
-DLS Steering Committee (Past):
-  - Johan Brichau (PC Chair 2008)
-  - William D. Clinger (PC Chair 2010)
-  - Pascal Costanza (SC Chair 2007-2013, PC Chair 2007)
-  - Theo D'Hondt (PC Chair 2011)
-  - Richard P. Gabriel (Member at Large 2007-2013)
-  - Jeremy Gibbons (SIGPLAN 2012-2015)
-  - Roberto Ierusalimschy (PC Chair 2016)
-  - James Noble (PC Chair 2009)
-  - Manuel Serrano (PC Chair 2015)
-  - Peter Thiemann (SIGPLAN 2015-2018)
-  - Dave Thomas (Member at Large 2007-2013)
-  - Alessandro Warth (PC Chair 2012)
-  - Roel Wuyts (PC Chair 2005)
+    - Chair: Tim Felgentreff
+    - Davide Ancona
+    - Carl Friedrich Bolz-Tereick
+    - Robert Hirschfeld
+    - Stefan Marr
+    - Benjamin C. Pierce
+    - Laurence Tratt
 
 FOOL Steering Committee:
 
@@ -119,7 +105,6 @@ ISMM Steering Committee:
   -   "[Ben Titzer](https://ai.google/research/people/BenTitzer)"
   -   "[Zheng Zhang](http://www.cs.rutgers.edu/~zz124/)"
 
-
 LCTES Steering Committee:
   -   "[Koen De Bosschere](http://www.elis.ugent.be/~kdb/)"
   -   "[Krisztian Flautner](http://www.eecs.umich.edu/~manowar/)"
@@ -131,6 +116,20 @@ LCTES Steering Committee:
   -   "[Yunheung Paek](http://compiler.snu.ac.kr/ypaek/)"
   -   "[Santosh Pande](http://www.cc.gatech.edu/~santosh/)"
   -   "[John Regehr](http://www.cs.utah.edu/~regehr/)"
+
+Onward! Steering Committee:
+    - Chair: Jonathan Aldrich
+    - Robert Biddle
+    - Richard P. Gabriel
+    - Elisa Gonzalez Boix
+    - Robert Hirschfeld
+    - Hidehiko Masuhara
+    - Gail Murphy
+    - Tomas Petricek
+    - Benjamin C. Pierce
+    - Yannis Smaragdakis
+    - Emina Torlak
+    - Jan Vitek
 
 PLDI Steering Committee:
   -   SIGPLAN Chair: #
@@ -159,7 +158,6 @@ POPL Steering Committee:
   -   "[Fritz Henglein](http://www.diku.dk/~henglein/), 2019 General Chair"
   -   "[Stephanie Weirich](https://www.cis.upenn.edu/~sweirich/), 2019 Program Chair"
   -   "[Lars Birkedal](https://cs.au.dk/~birke/), 2020 Program Chair (Invited)"
-
 
 PPOPP Steering Committee: 
   - Chair: Albert Cohen
