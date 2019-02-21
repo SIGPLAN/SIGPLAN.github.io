@@ -509,6 +509,10 @@
   year: 2017
   title: "Proceedings of the 22nd ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming"
 -
+  event: PPoPP
+  year: 2019
+  title: "Proceedings of the 24th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming"
+-
   event: PPREW
   year: 2014
   title: "Proceedings of the 3rd ACM SIGPLAN Program Protection and Reverse Engineering Workshop"
