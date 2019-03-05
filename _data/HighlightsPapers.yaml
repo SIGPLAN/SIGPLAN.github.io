@@ -77,7 +77,6 @@ Selected January 2018:
       Link: https://dl.acm.org/citation.cfm?id=3282504
       Author: Tim Harris
 
-
 Selected October 2016:
 
 - Title: _[Predicting Program Properties from "Big Code"](http://dl.acm.org/citation.cfm?doid=2676726.2677009)_
@@ -99,7 +98,14 @@ Selected October 2016:
     reasoning on programs and offer the first concrete evidence of the
     tremendous promise of the overall approach. A real-world product
     is JSNice: a practical, popular JavaScript de-obfuscation tool.
-  CACMSelection: true
+  CACMHighlight:
+    Date: March 2019
+    Title: Predicting program properties from big code
+    Link: https://dl.acm.org/citation.cfm?id=3306204
+    TechnicalPerspective:
+      Title: Borrowing big code to automate programming activities
+      Link: https://dl.acm.org/citation.cfm?id=3306206
+      Author: Martin C. Rinard
 
 - Title: _[A Fast Compiler for NetKAT](http://dl.acm.org/citation.cfm?doid=2784731.2784761)_
   Authors: Steffen Smolka (Cornell University), Spiridon Eliopoulos (Inhabited Type), Nate Foster (Cornell University), Arjun Guha (University of Massachusetts Amherst)  

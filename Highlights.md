@@ -29,8 +29,8 @@ Nominations can be made at this [website](http://cacm.sigplan.org).
 
 
 As of January 2018, 51 papers have been recognized by the SIGPLAN
-Research Highlights committee, and 27 SIGPLAN papers have appeared in
-CACM, 15 from the SIGPLAN committee and 12 that were solicited directly
+Research Highlights committee, and 30 SIGPLAN papers have appeared in
+CACM, 18 from the SIGPLAN committee and 12 that were solicited directly
 by the CACM committee.  This [webpage](/Highlights/Papers) contains
 the full list of papers.
 
