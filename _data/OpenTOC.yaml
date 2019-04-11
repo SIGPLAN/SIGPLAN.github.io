@@ -621,6 +621,10 @@
   year: 2017
   title: "Companion Proceedings of the 2017 ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity"
 -
+  event: SPLASH-E
+  year: 2018
+  title: "Proceedings of the 2018 ACM SIGPLAN Workshop on SPLASH-E"
+-
   event: TRUST
   year: 2014
   title: "Proceedings of the 1st ACM SIGPLAN Workshop on Reproducible Research Methodologies and New Publication Models in Computer Engineering"
@@ -656,6 +660,10 @@
   event: VEE
   year: 2018
   title: "Proceedings of the 14th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments"
+-
+  event: VEE
+  year: 2019
+  title: "Proceedings of the 15th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments"
 -
   event: VMIL
   year: 2016
