@@ -63,17 +63,11 @@ never worked with Reynolds nevertheless built on his ideas.
 
 **Selection Committee**
 
- * [Emery Berger](https://emeryberger.com/) (<mailto:emery@cs.umass.edu>) - UMass Amherst (SIGPLAN EC member)
- * [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/) (<mailto:steve.blackburn@anu.edu.au>) - Australian National University
- * [Derek Dreyer](https://www.mpi-sws.org/~dreyer/) (<mailto:dreyer@mpi-sws.org>) - Max Planck Institute for Software  Systems
- * [Susan Eisenbach](http://www.imperial.ac.uk/people/s.eisenbach) (<mailto:s.eisenbach@imperial.ac.uk>) - Imperial College  London
+ * [Mira Mezini](https://www.stg.tu-darmstadt.de/staff/mira_mezini/) (<mailto:mezini@cs.tu-darmstadt.de>) - Technische Universität Darmstadt (SIGPLAN EC member and Chair)
+ * [Alexandra Silva] (alexandra.silva@ucl.ac.uk) (<mailto:alexandra.silva@ucl.ac.uk>) - University College London
  * [Nate Foster](http://www.cs.cornell.edu/~jnfoster/) (<mailto:jnfoster@cs.cornell.edu>) - Barefoot Networks / Cornell University
  * [Georges Gonthier](http://www.msr-inria.fr/researchers/georges-gonthier/) (<mailto:georges.gonthier@inria.fr>) - Inria
- * [Mira Mezini](https://www.stg.tu-darmstadt.de/staff/mira_mezini/) (<mailto:mezini@cs.tu-darmstadt.de>) - Technische Universität Darmstadt (SIGPLAN EC member and Chair)
- * [Todd Millstein](http://web.cs.ucla.edu/~todd/) (<mailto:todd@cs.ucla.edu>) - University of California, Los Angeles
- * [Jens Palsberg](https://web.cs.ucla.edu/~palsberg/) (<mailto:palsberg@cs.ucla.edu>) - University of California, Los Angeles (ex officio member as SIGPLAN Chair)
- * [Andreas Podelski](https://swt.informatik.uni-freiburg.de/staff/podelski) (<mailto:podelski@informatik.uni-freiburg.de>) - University of Freiburg
- * [Alexandra Silva](http://www.alexandrasilva.org/#/main.html) (<mailto:alexandra.silva@ucl.ac.uk>) - University College London
- * [Armando Solar-Lezama](https://people.csail.mit.edu/asolar/) (<mailto:asolar@csail.mit.edu>) - M.I.T
- * [Martin Vechev](http://www.srl.inf.ethz.ch/vechev.php) (<mailto:martin.vechev@inf.ethz.ch>) - ETH
  * [Eran Yahav](http://www.cs.technion.ac.il/~yahave/) (<mailto:yahave@cs.technion.ac.il>) - Technion
+ * [Jens Palsberg](https://web.cs.ucla.edu/~palsberg/) (<mailto:palsberg@cs.ucla.edu>) - University of California, Los Angeles (ex officio member as SIGPLAN Chair)
+ * [Steve Zdancewic](stevez@cis.upenn.edu) (<mailto:stevez@cis.upenn.edu>) - University of Pennsylvania
+
