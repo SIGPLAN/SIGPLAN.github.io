@@ -64,7 +64,7 @@ never worked with Reynolds nevertheless built on his ideas.
 **Selection Committee**
 
  * [Mira Mezini](https://www.stg.tu-darmstadt.de/staff/mira_mezini/) (<mailto:mezini@cs.tu-darmstadt.de>) - Technische Universität Darmstadt (SIGPLAN EC member and Chair)
- * [Alexandra Silva] (alexandra.silva@ucl.ac.uk) (<mailto:alexandra.silva@ucl.ac.uk>) - University College London
+ * [Alexandra Silva](http://www.alexandrasilva.org/) (<mailto:alexandra.silva@ucl.ac.uk>) - University College London
  * [Nate Foster](http://www.cs.cornell.edu/~jnfoster/) (<mailto:jnfoster@cs.cornell.edu>) - Barefoot Networks / Cornell University
  * [Georges Gonthier](http://www.msr-inria.fr/researchers/georges-gonthier/) (<mailto:georges.gonthier@inria.fr>) - Inria
  * [Eran Yahav](http://www.cs.technion.ac.il/~yahave/) (<mailto:yahave@cs.technion.ac.il>) - Technion
