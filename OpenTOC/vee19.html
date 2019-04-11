@@ -1,0 +1,269 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>VEE 2019- Proceedings of the 15th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>VEE 2019- Proceedings of the 15th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3313808" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Keynote</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N678861" title="Get the Full Text from the ACM Digital Library">The changing face of enterprise virtualization (keynote)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Josh Simons</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>As Enterprise IT infrastructure broadens beyond the traditional core data center and as new workloads move into the virtual realm, new opportunities and challenges emerge. In this talk we will focus on the changes being wrought in the virtual world by the growth of the edge, the emergence of multicloud, and the amplifying affects of the incorporation of Machine Learning and High Performance Computing into these evolving environments.</p></div> </div>
+<h2>SESSION: Session 1</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N678862" title="Get the Full Text from the ACM Digital Library">TEEv: virtualizing trusted execution environments on mobile platforms</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Wenhao Li</li>
+<li class="nameList">Yubin Xia</li>
+<li class="nameList">Long Lu</li>
+<li class="nameList">Haibo Chen</li>
+<li class="nameList Last">Binyu Zang</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Trusted Execution Environments (TEE) are widely deployed, especially on smartphones. A recent trend in TEE development is the transition from vendor-controlled, single-purpose TEEs to open TEEs that host Trusted Applications (TAs) from multiple sources with independent tasks. This transition is expected to create a TA ecosystem needed for providing stronger and customized security to apps and OS running in the Rich Execution Environment (REE). However, the transition also poses two security challenges: enlarged attack surface resulted from the increased complexity of TAs and TEEs; the lack of trust (or isolation) among TAs and the TEE. </p> <p> In this paper, we first present a comprehensive analysis on the recent CVEs related to TEE and the need of multiple TEE scheme. We then propose TEEv, a TEE virtualization architecture that supports multiple isolated, restricted TEE instances (i.e., vTEEs) running concurrently. Relying on a tiny hypervisor (we call it TEE-visor), TEEv allows TEE instances from different vendors to run in isolation on the same smartphone and to host their own TAs. Therefore, a compromised vTEE cannot affect its peers or REE; TAs no longer have to run in untrusted/unsuitable TEEs. We have implemented TEEv on a development board and a real smartphone, which runs multiple commercial TEE instances from different vendors with very small porting effort. Our evaluation results show that TEEv can isolate vTEEs and defend all known attacks on TEE with only mild performance overhead.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N678863" title="Get the Full Text from the ACM Digital Library">Secure guest virtual machine support in apparition</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ethan Johnson</li>
+<li class="nameList">Komail Dharsee</li>
+<li class="nameList Last">John Criswell</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Recent research utilizing Secure Virtual Architecture (SVA) has demonstrated that compiler-based virtual machines can protect applications from side-channel attacks launched by compromised operating system kernels. However, SVA provides no instructions for using hardware virtualization features such as Intel&#8217;s Virtual Machine Extensions (VMX) and AMD&#8217;s Secure Virtual Machine (SVM). Consequently, operating systems running on top of SVA cannot run guest operating systems using features such as Linux&#8217;s Kernel Virtual Machine (KVM) and FreeBSD&#8217;s bhyve. </p> <p>This paper presents a set of new SVA instructions that allow an operating system kernel to configure and use the Intel VMX hardware features. Additionally, we use these new instructions to create <em>Shade</em>. Shade extends Apparition (an SVA-based system) to ensure that a compromised host operating system cannot use the new VMX virtual instructions to attack host applications (either directly or via page-fault and last-level-cache side-channel attacks).</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N678864" title="Get the Full Text from the ACM Digital Library">ACRN: a big little hypervisor for IoT development</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Hao Li</li>
+<li class="nameList">Xuefei Xu</li>
+<li class="nameList">Jinkui Ren</li>
+<li class="nameList Last">Yaozu Dong</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>With the rapid growth of Internet of Things (IoT) and the new emerging IoT computing paradigm such as edge computing, it is prevalent to see that today&#8217;s real-time and functional safety devices, particularly in industrial IoT and automotive scenarios, are getting multi-functional by combining multiple platforms into single product. The new trend potentially prompts embedded virtualization as a promising solution in terms of workload consolidation, separation, and cost- effective. However, hypervisors, such as KVM and XEN, are designed to run on a server and can not be easily restructured to fulfill the requirements such as real-time constrains from IoT products. Meanwhile, existing embedded virtualization solutions are normally tailored towards specific IoT scenarios, which makes them hard to extend towards various scenarios. In addition, most commercial solutions are mature and appealing but expensive and closed-source. This paper presents ACRN, a flexible, lightweight, scalable, and open source embedded hypervisor for IoT development. By focusing on CPU and memory partitioning, and mean- while optionally offloading embedded I/O virtualization to a tiny user space device model, ACRN presents a consolidated system satisfying real-time and general-purpose needs simultaneously. By adopting customer-friendly permissive BSD license, ACRN provides a practical industry-grade solution with immediate readiness. In this paper we will de- scribe the design and implementation of ACRN, and conduct thorough evaluations to demonstrate its feasibility and effectiveness. The source code of ACRN has been released at https://github.com/projectacrn/acrn-hypervisor.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N678875" title="Get the Full Text from the ACM Digital Library">Fast and live hypervisor replacement</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Spoorti Doddamani</li>
+<li class="nameList">Piush Sinha</li>
+<li class="nameList">Hui Lu</li>
+<li class="nameList">Tsu-Hsiang K. Cheng</li>
+<li class="nameList">Hardik H. Bagdi</li>
+<li class="nameList Last">Kartik Gopalan</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Hypervisors are increasingly complex and must be often updated for applying security patches, bug fixes, and feature upgrades. However, in a virtualized cloud infrastructure, updates to an operational hypervisor can be highly disruptive. Before being updated, virtual machines (VMs) running on a hypervisor must be either migrated away or shut down, resulting in downtime, performance loss, and network overhead. We present a new technique, called HyperFresh, to transparently replace a hypervisor with a new updated instance without disrupting any running VMs. A thin shim layer, called the hyperplexor, performs live hypervisor replacement by remapping guest memory to a new updated hypervisor on the same machine. The hyperplexor leverages nested virtualization for hypervisor replacement while minimizing nesting overheads during normal execution. We present a prototype implementation of the hyperplexor on the KVM/QEMU platform that can perform live hypervisor replacement within 10ms. We also demonstrate how a hyperplexor-based approach can used for sub-second relocation of containers for live OS replacement.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N678876" title="Get the Full Text from the ACM Digital Library">A binary-compatible unikernel</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Pierre Olivier</li>
+
+<li class="nameList">Daniel Chiba</li>
+<li class="nameList">Stefan Lankes</li>
+<li class="nameList">Changwoo Min</li>
+<li class="nameList Last">Binoy Ravindran</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Unikernels are minimal single-purpose virtual machines. They are highly popular in the research domain due to the benefits they provide. A barrier to their widespread adoption is the difficulty/impossibility to port existing applications to current unikernels. HermiTux is the first unikernel providing binary-compatibility with Linux applications. It is composed of a hypervisor and lightweight kernel layer emulating OS interfaces at load- and runtime in accordance with the Linux ABI. HermiTux relieves application developers from the burden of porting software, while providing unikernel benefits such as security through hardware-assisted virtualized isolation, swift boot time, and low disk/memory footprint. Fast system calls and kernel modularity are enabled through binary rewriting and analysis techniques, as well as shared library substitution. Compared to other unikernels, HermiTux boots faster and has a lower memory/disk footprint. We demonstrate that over a range of native C/C++/Fortran/Python Linux applications, HermiTux performs similarly to Linux in most cases: its performance overhead averages 3% in memory- and compute-bound scenarios.</p></div> </div>
+<h2>SESSION: Session 2</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N678877" title="Get the Full Text from the ACM Digital Library">Cross-ISA machine instrumentation using fast and scalable dynamic binary translation</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Emilio G. Cota</li>
+<li class="nameList Last">Luca P. Carloni</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The rise in instruction set architecture (ISA) diversity and the growing adoption of virtual machines are driving a need for fast, scalable, full-system, cross-ISA emulation and instrumentation tools. Unfortunately, achieving high performance for these cross-ISA tools is challenging due to dynamic binary translation (DBT) overhead and the complexity of instrumenting full-system emulators. </p> <p>In this paper we improve cross-ISA emulation and instrumentation performance through three novel techniques. First, we increase floating point (FP) emulation performance by observing that most FP operations can be correctly emulated by surrounding the use of the host FP unit with a minimal amount of non-FP code. Second, we introduce the design of a translator with a shared code cache that scales for multi-core guests, even when they generate translated code in parallel at a high rate. Third, we present an ISA-agnostic instrumentation layer that can instrument guest operations that occur outside of the DBT&#8217;s intermediate representation (IR), which are common in full-system emulators. </p> <p>We implement our approach in Qelt, a high-performance cross-ISA machine emulator and instrumentation tool based on QEMU. Our results show that Qelt scales to 32 cores when emulating a guest machine used for parallel compilation, which demonstrates scalable code translation. Furthermore, experiments based on SPEC06 show that Qelt (1) outperforms QEMU as a full-system cross-ISA machine emulator by 1.76&#215;/2.18&#215; for integer/FP workloads, (2) outperforms state-of-the-art, cross-ISA, full-system instrumentation tools by 1.5&#215;-3&#215;, and (3) can match the performance of Pin, a state-of-the-art, same-ISA DBI tool, when used for complex instrumentation such as cache simulation.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N678878" title="Get the Full Text from the ACM Digital Library">The janus triad: exploiting parallelism through dynamic binary modification</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ruoyu Zhou</li>
+<li class="nameList">George Wort</li>
+<li class="nameList">M&#225;rton Erd&#337;s</li>
+<li class="nameList Last">Timothy M. Jones</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present a unified approach for exploiting thread-level, data-level, and memory-level parallelism through a same-ISA dynamic binary modifier guided by static binary analysis. A static binary analyser first examines an executable and determines the operations required to extract parallelism at runtime, encoding them as a series of rewrite rules that a dynamic binary modifier uses to perform binary transformation. We demonstrate this framework by exploiting three different kinds of parallelism to perform automatic vectorisation, software prefetching, and automatic parallelisation together on legacy application binaries. Software prefetch insertion alone achieves an average speedup of 1.2x, comparing favourably with an automatic compiler pass. Automatic vectorisation brings speedups of 2.7x on the TSVC benchmarks, significantly beating a compiler approach for some workloads. Finally, combining prefetching, vectorisation, and parallelisation realises a speedup of 3.8x on a representative application loop.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N678879" title="Get the Full Text from the ACM Digital Library">Mitigating JIT compilation latency in virtual execution environments</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Martin Kristien</li>
+<li class="nameList">Tom Spink</li>
+<li class="nameList">Harry Wagstaff</li>
+<li class="nameList">Bj&#246;rn Franke</li>
+<li class="nameList">Igor B&#246;hm</li>
+<li class="nameList Last">Nigel Topham</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Many Virtual Execution Environments (VEEs) rely on Just-in-time (JIT) compilation technology for code generation at runtime, e.g. in Dynamic Binary Translation (DBT) systems or language Virtual Machines (VMs). While JIT compilation improves native execution performance as opposed to e.g. interpretive execution, the JIT compilation process itself introduces latency. In fact, for highly optimizing JIT compilers or compilers not specifically designed for JIT compilation, e.g. LLVM, this latency can cause a substantial overhead. While existing work has introduced asynchronously decoupled JIT compilation task farms to hide this JIT compilation latency, we show that this on its own is not sufficient to mitigate the impact of JIT compilation latency on overall performance. In this paper, we introduce a novel JIT compilation scheduling policy, which performs continuous low-cost profiling of code regions already dispatched for JIT compilation, right up to the point where compilation commences. We have integrated our novel JIT compilation scheduling approach into a commercial LLVM-based DBT system and demonstrate speedups of 1.32x on average, and up to 2.31x, over its state-of-the-art concurrent task-farm based JIT compilation scheme across the SPEC CPU2006 and BioPerf benchmark suites.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N678870" title="Get the Full Text from the ACM Digital Library">ScissorGC: scalable and efficient compaction for Java full garbage collection</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Haoyu Li</li>
+<li class="nameList">Mingyu Wu</li>
+<li class="nameList">Binyu Zang</li>
+<li class="nameList Last">Haibo Chen</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Java runtime frees applications from manual memory management through automatic garbage collection (GC). This, however, is usually at the cost of stop-the-world pauses. State-of-the-art collectors leverage multiple generations, which will inevitably suffer from a full GC phase scanning and compacting the whole heap. This induces a pause tens of times longer than normal collections, which largely affects both throughput and latency of applications. </p> <p>In this paper, we comprehensively analyze the full GC performance of the Parallel Scavenge garbage collector in HotSpot. We find that chain-like dependencies among heap regions cause low thread utilization and poor scalability. Furthermore, many heap regions are filled with live objects (referred to as <em>dense regions</em>), which are unnecessary to collect. To address these two problems, we provide , which contains two main optimizations: dynamically allocating shadow regions as compaction destinations to eliminate region dependencies and skipping dense regions to reduce GC workload. Evaluation results against the HotSpot JVM of OpenJDK 8/11 show that works on most benchmarks and leads to 5.6X/5.1X improvement at best in full GC throughput and thereby boost the application performance by up to 61.8%/49.0%.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N678871" title="Get the Full Text from the ACM Digital Library">Stochastic resource allocation</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Liran Funaro</li>
+<li class="nameList">Orna Agmon Ben-Yehuda</li>
+<li class="nameList Last">Assaf Schuster</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Suboptimal resource utilization among public and private cloud providers prevents them from maximizing their economic potential. Long-term allocated resources are often idle when they might have been subleased for a short period. Alternatively, arbitrary resource overcommitment may lead to unpredictable client performance. </p> <p> We propose a mechanism for fixed availability (traditional) resource allocation alongside stochastic resource allocation in the form of shares. We show its benefit for private and public cloud providers and for a wide range of clients. Our simulations show that our mechanism can increase server consolidation by 5.6 times on average compared with selling only fixed performance resources, and by 1.7 times compared with burstable instances, which is the most prevalent flexible allocation method. Our mechanism also yields better performance (i.e., higher revenues) or a lower cost than burstable instances for a wide range of clients, making it more profitable for them.</p></div> </div>
+<h2>SESSION: Session 3</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N678872" title="Get the Full Text from the ACM Digital Library">QuickCheck: using speculation to reduce the overhead of checks in NVM frameworks</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Thomas Shull</li>
+<li class="nameList">Jian Huang</li>
+<li class="nameList Last">Josep Torrellas</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Byte addressable, Non-Volatile Memory (NVM) is emerging as a revolutionary technology that provides near-DRAM performance and scalable memory capacity. To facilitate the usability of NVM, new programming frameworks have been proposed to automatically or semi-automatically maintain crash-consistent data structures, relieving much of the burden of developing persistent applications from programmers. </p> <p> While these new frameworks greatly improve programmer productivity, they also require many runtime checks for correct execution on persistent objects, which significantly affect the application performance. With a characterization study of various workloads, we find that the overhead of these persistence checks in these programmer-friendly NVM frameworks can be substantial and reach up to 214%. Furthermore, we find that programs nearly always access exclusively either a persistent or a non-persistent object at a given site, making the behavior of these checks highly predictable. </p> <p> In this paper, we propose QuickCheck, a technique that biases persistence checks based on their expected behavior, and exploits speculative optimizations to further reduce the overheads of these persistence checks. We evaluate QuickCheck with a variety of data intensive applications such as a key-value store. Our experiments show that QuickCheck improves the performance of a persistent Java framework on average by 48.2% for applications that do not require data persistence, and by 8.0% for a persistent memcached implementation running YCSB.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N678873" title="Get the Full Text from the ACM Digital Library">Tail latency in node.js: energy efficient turbo boosting for long latency requests in event-driven web services</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Wenzhi Cui</li>
+<li class="nameList">Daniel Richins</li>
+<li class="nameList">Yuhao Zhu</li>
+<li class="nameList Last">Vijay Janapa Reddi</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Cloud-based Web services are shifting to the event-driven, scripting language-based programming model to achieve productivity, flexibility, and scalability. Implementations of this model, however, generally suffer from long tail latencies, which we measure using Node.js as a case study. Unlike in traditional thread-based systems, reducing long tails is difficult in event-driven systems due to their inherent asynchronous programming model. We propose a framework to identify and optimize tail latency sources in scripted event-driven Web services. We introduce profiling that allows us to gain deep insights into not only how asynchronous event-driven execution impacts application tail latency but also how the managed runtime system overhead exacerbates the tail latency issue further. Using the profiling framework, we propose an event-driven execution runtime design that orchestrates the hardware&#8217;s boosting capabilities to reduce tail latency. We achieve higher tail latency reductions with lower energy overhead than prior techniques that are unaware of the underlying event-driven program execution model. The lessons we derive from Node.js apply to other event-driven services based on scripting language frameworks.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N678874" title="Get the Full Text from the ACM Digital Library">Dynamic application reconfiguration on heterogeneous hardware</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Juan Fumero</li>
+<li class="nameList">Michail Papadimitriou</li>
+<li class="nameList">Foivos S. Zakkak</li>
+<li class="nameList">Maria Xekalaki</li>
+<li class="nameList">James Clarkson</li>
+<li class="nameList Last">Christos Kotselidis</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>By utilizing diverse heterogeneous hardware resources, developers can significantly improve the performance of their applications. Currently, in order to determine which parts of an application suit a particular type of hardware accelerator better, an offline analysis that uses a priori knowledge of the target hardware configuration is necessary. To make matters worse, the above process has to be repeated every time the application or the hardware configuration changes. </p> <p> This paper introduces TornadoVM, a virtual machine capable of reconfiguring applications, at runtime, for hardware acceleration based on the currently available hardware resources. Through TornadoVM, we introduce a new level of compilation in which applications can benefit from heterogeneous hardware. We showcase the capabilities of TornadoVM by executing a complex computer vision application and six benchmarks on a heterogeneous system that includes a CPU, an FPGA, and a GPU. Our evaluation shows that by using dynamic reconfiguration, we achieve an average of 7.7&#215; speedup over the statically-configured accelerated code.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N678885" title="Get the Full Text from the ACM Digital Library">vSocket: virtual socket interface for RDMA in public clouds</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Dongyang Wang</li>
+<li class="nameList">Binzhang Fu</li>
+<li class="nameList">Gang Lu</li>
+<li class="nameList">Kun Tan</li>
+<li class="nameList Last">Bei Hua</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>RDMA has been widely adopted as a promising solution for high performance networks, but is still unavailable for a large number of socket-based applications running in public clouds due to the following reasons. There is no available virtualization technique of RDMA that can meet the cloud&#39;s requirements. Moreover, it is cost prohibitive to rewrite the socket-based applications with the Verbs API. To address the above problems, we present vSocket, a software-based RDMA virtualization framework for socket-based applications in public clouds. vSocket takes into account the demands of clouds such as security rules and network isolation, so it can be deployed in the current public clouds. Furthermore, vSocket provides native socket API so that socket-based applications can use it without any modifications. Finally, to validate the performance gains, we implemented a prototype and compared it with current virtual network solutions against 1) basic network benchmarks and 2) the Redis, a typical I/O intensive application. Experimental results show that the latency of basic benchmarks can be reduced by 88% and the throughput of Redis is improved by 4 times.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N678886" title="Get the Full Text from the ACM Digital Library">vCPU as a container: towards accurate CPU allocation for VMs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Li Liu</li>
+<li class="nameList">Haoliang Wang</li>
+<li class="nameList">An Wang</li>
+<li class="nameList">Mengbai Xiao</li>
+<li class="nameList">Yue Cheng</li>
+<li class="nameList Last">Songqing Chen</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>With our increasing reliance on cloud computing, accurate resource allocation of virtual machines&#160;(or domains) in the cloud have become more and more important. However, the current design of hypervisors (or virtual machine monitors) fails to accurately allocate resources to the domains in the virtualized environment. In this paper, we claim the root cause is that the protection scope is erroneously used as the resource scope for a domain in the current virtualization design. Such design flaw prevents the hypervisor from accurately accounting resource consumption of each domain. In this paper, using virtual CPUs as a container we propose to redefine the resource scope of a domain, so that the new resource scope is aligned with all the CPU consumption incurred by this domain. As a demonstration, we implement a novel system, called VASE (<b>v</b>CPU <b>as</b> a contain<b>e</b>r), on top of the Xen hypervisor. Evaluations on our testbed have shown our proposed approach is effective in accounting system-wide CPU consumption incurred by domains, while introducing negligible overhead to the system.</p></div> </div>
+</div>
+</div>
+</body>
+</html>
