@@ -38,7 +38,7 @@ the full list of papers.
 ### SIGPLAN Research Highlights Committee
 
 Chair, [Emery Berger](http://www.emeryberger.org/), [emery@cs.umass.edu](mailto:emery@cs.umass.edu)  
-POPL, [Jens Palsberg](http://www.cs.ucla.edu/~palsberg)  
+POPL, [Dimitrios Vytiniotis](https://github.com/dimitriv)  
 PLDI, [Martin Vechev](http://www.srl.inf.ethz.ch/vechev.php)  
 ICFP, [John Hughes](https://www.chalmers.se/en/staff/Pages/rjmh.aspx)  
 OOPSLA, [Todd Millstein](http://web.cs.ucla.edu/~todd/)  
