@@ -1,0 +1,158 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>MAPL 2019- Proceedings of the 3rd ACM SIGPLAN International Workshop on Machine Learning and Programming Languages</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>MAPL 2019- Proceedings of the 3rd ACM SIGPLAN International Workshop on Machine Learning and Programming Languages</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3315508" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Papers</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674264" title="Get the Full Text from the ACM Digital Library">Machine learning in Python with no strings attached</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Guillaume Baudart</li>
+<li class="nameList">Martin Hirzel</li>
+<li class="nameList">Kiran Kate</li>
+<li class="nameList">Louis Mandel</li>
+<li class="nameList Last">Avraham Shinnar</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Machine-learning frameworks in Python, such as scikit-learn, Keras, Spark, or Pyro, use embedded domain specific languages (EDSLs) to assemble a computational graph. Unfortunately, these EDSLs make heavy use of strings as names for computational graph nodes and other entities, leading to repetitive and hard-to-maintain code that does not benefit from standard Python tooling. This paper proposes eliminating strings where possible, reusing Python variable names instead. We demonstrate this on two examples from opposite ends of the design space: Keras.na, a light-weight wrapper around the Keras library, and , a new embedding of Stan into Python. Our techniques do not require modifications to the underlying library. Avoiding strings removes redundancy, simplifies maintenance, and enables Python tooling to better reason about the code and assist users.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674275" title="Get the Full Text from the ACM Digital Library">Triton: an intermediate language and compiler for tiled neural network computations</a>
+</h3>
+<ul class="DLauthors">
+ <li class="nameList First">Philippe Tillet</li>
+<li class="nameList">H. T. Kung</li>
+<li class="nameList Last">David Cox</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The validation and deployment of novel research ideas in the field of Deep Learning is often limited by the availability of efficient compute kernels for certain basic primitives. In particular, operations that cannot leverage existing vendor libraries (e.g., cuBLAS, cuDNN) are at risk of facing poor device utilization unless custom implementations are written by experts &#8211; usually at the expense of portability. For this reason, the development of new programming abstractions for specifying custom Deep Learning workloads at a minimal performance cost has become crucial. </p> <p>We present <em>Triton</em>, a language and compiler centered around the concept of <i>tile</i>, i.e., statically shaped multi-dimensional sub-arrays. Our approach revolves around (1) a C-based language and an LLVM-based intermediate representation (IR) for expressing tensor programs in terms of operations on parametric tile variables and (2) a set of novel tile-level optimization passes for compiling these programs into efficient GPU code. We demonstrate how Triton can be used to build portable implementations of matrix multiplication and convolution kernels on par with hand-tuned vendor libraries (cuBLAS / cuDNN), or for efficiently implementing recent research ideas such as shift convolutions.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674276" title="Get the Full Text from the ACM Digital Library">HackPPL: a universal probabilistic programming language</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Jessica Ai</li>
+<li class="nameList">Nimar S. Arora</li>
+<li class="nameList">&#65279;Ning Dong</li>
+<li class="nameList">&#65279;Beliz Gokkaya</li>
+<li class="nameList">Thomas Jiang</li>
+<li class="nameList">&#65279;Anitha Kubendran</li>
+<li class="nameList">&#65279;Arun Kumar</li>
+<li class="nameList">Michael Tingley</li>
+<li class="nameList Last">&#65279;Narjes Torabi</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>HackPPL is a probabilistic programming language (PPL) built within the Hack programming language. Its universal inference engine allows developers to perform inference across a diverse set of models expressible in arbitrary Hack code. Through language-level extensions and direct integration with developer tools, HackPPL aims to bridge the gap between domain-specific and embedded PPLs. This paper overviews the design and implementation choices for the HackPPL toolchain and presents findings by applying it to a representative problem faced by social media companies.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674277" title="Get the Full Text from the ACM Digital Library">Neural query expansion for code search</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Jason Liu</li>
+<li class="nameList">Seohyun Kim</li>
+
+<li class="nameList">Vijayaraghavan Murali</li>
+<li class="nameList">Swarat Chaudhuri</li>
+<li class="nameList Last">Satish Chandra</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Searching repositories of existing source code for code snippets is a key task in software engineering. Over the years, many approaches to this problem have been proposed. One recent tool called <i>NCS</i>, takes in a natural language query and outputs relevant code snippets, often being able to correctly answer Stack Overflow questions. But what happens when the developer doesn&#8217;t provide a query with a clear intent? What if shorter queries are used to demonstrate a more vague intent? </p> <p>We find that the performance of <i>NCS</i> regresses with shorter queries. Furthermore, data from developers&#8217; code search history logs shows that shorter queries have a less successful code search session: there are more query reformulations and more time is spent browsing the results. These observations lead us to believe that using <i>NCS</i> alone with short queries may not be productive enough. </p> <p>In this paper, we explore an additional way of using neural networks in code search: the <i>automatic expansion of queries</i>. We present <i>NQE</i>, a neural model that takes in a set of keywords and predicts a set of keywords to expand the query to <i>NCS</i>. <i>NQE</i> learns to predict keywords that co-occur with the query keywords in the underlying corpus, which helps expand the query in a productive way. Our results show that with query expansion, <i>NQE</i> + <i>NCS</i> is able to perform better than using <i>NCS</i> alone.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674278" title="Get the Full Text from the ACM Digital Library">A case study on machine learning for synthesizing benchmarks</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Andr&#233;s Goens</li>
+<li class="nameList">Alexander Brauckmann</li>
+<li class="nameList">Sebastian Ertel</li>
+<li class="nameList">Chris Cummins</li>
+<li class="nameList">Hugh Leather</li>
+<li class="nameList Last">Jeronimo Castrillon</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Good benchmarks are hard to find because they require a substantial effort to keep them representative for the constantly changing challenges of a particular field. Synthetic benchmarks are a common approach to deal with this, and methods from machine learning are natural candidates for synthetic benchmark generation. In this paper we investigate the usefulness of machine learning in the prominent CLgen benchmark generator. We re-evaluate CLgen by comparing the benchmarks generated by the model with the raw data used to train it. This re-evaluation indicates that, for the use case considered, machine learning did not yield additional benefit over a simpler method using the raw data. We investigate the reasons for this and provide further insights into the challenges the problem could pose for potential future generators.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

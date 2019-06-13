@@ -1,0 +1,174 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>SOAP 2019- Proceedings of the 8th ACM SIGPLAN International Workshop on State Of the Art in Program Analysis</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>SOAP 2019- Proceedings of the 8th ACM SIGPLAN International Workshop on State Of the Art in Program Analysis</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3315568" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Keynote</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674279" title="Get the Full Text from the ACM Digital Library">Adventures in commercial-grade static analysis (keynote)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Simon Goldsmith</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Building a commercial grade static analysis presents a lot of interesting problems. Everything not forbidden is compulsory: language specifications are wonderful documents, but in reality anything the user&#39;s compiler and runtime accepts is fair game. Analysis abstractions that scale "except in pathological cases" don&#39;t scale: analyzing tens of thousands of code bases that routinely exceed millions of lines of code means that those pathological cases inevitably arise. Build a good analysis that runs overnight, and users will ask you to run it in their IDE for near-immediate feedback. A bug finding tool needs a low false positive rate, but a tool aimed at finding security vulnerabilities needs a low false negative rate. Only analyzing "source" code and only starting from main() is insufficient for understanding modern web and mobile applications: frameworks imply a different programming model with a lot of auto-magical program behavior, often including idiosyncratic configuration regimes and various template languages. We&#39;ll talk about these problems and how we tackle them.</p></div> </div>
+<h2>SESSION: Papers</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674270" title="Get the Full Text from the ACM Digital Library">Fixpoint reuse for incremental JavaScript analysis</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Lawton Nichols</li>
+
+<li class="nameList">Mehmet Emre</li>
+<li class="nameList Last">Ben Hardekopf</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Frequently updated programs cause the cost of static analysis to be multiplied by the number of program versions. When the baseline cost is high (for example, analyzing JavaScript), this multiplicative factor can be prohibitive. As an example, JavaScript-based browser addons are continually updated and there are known instances where malicious code has been injected into such updates; thus the addons must be repeatedly vetted each time an update happens. </p> <p> Incremental analysis reduces this cumulative cost by reusing analysis results of previous versions to reduce the cost of analyzing an updated version. However, existing incremental analyses are not applicable to dynamic programming languages such as JavaScript because they make assumptions that don&#39;t hold in this setting. In this paper, we propose the first incremental static analysis for JavaScript. We do not require perfect precision, but we show empirically that there is negligible precision loss in practice. Our technique includes a method for matching code between JavaScript program versions, a non-trivial problem which existing techniques do not solve. For our benchmarks, drawn from real browser addons and node.js programs, our incremental analysis performance is on average within a factor of two of an optimal incremental analysis.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674271" title="Get the Full Text from the ACM Digital Library">Know your analysis: how instrumentation aids understanding static analysis</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Philipp Dominik Schubert</li>
+<li class="nameList">Richard Leer</li>
+<li class="nameList">Ben Hermann</li>
+<li class="nameList Last">Eric Bodden</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The development of a high-quality data-flow analysis---one that is precise and scalable---is a challenging task. A concrete client analysis not only requires data-flow but, in addition, type-hierarchy, points-to, and call-graph information, all of which need to be obtained by wisely chosen and correctly parameterized algorithms. Therefore, many static analysis frameworks have been developed that provide analysis writers with generic data-flow solvers as well as those additional pieces of information. Such frameworks ease the development of an analysis by requiring only a description of the data-flow problem to be solved and a set of framework parameters. Yet, analysis writers often struggle when an analysis does not behave as expected on real-world code. It is usually not apparent what causes a failure due to the complex interplay of the several algorithms and the client analysis code within such frameworks. In this work, we present some of the insights we gained by instrumenting the LLVM-based static analysis framework PhASAR for C/C++ code and show the broad area of applications at which flexible instrumentation supports analysis and framework developers. We present five cases in which instrumentation gave us valuable insights to debug and improve both, the concrete analyses and the underlying PhASAR framework.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674272" title="Get the Full Text from the ACM Digital Library">SootDiff: bytecode comparison across different Java compilers</a>
+
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Andreas Dann</li>
+<li class="nameList">Ben Hermann</li>
+<li class="nameList Last">Eric Bodden</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Different Java compilers and compiler versions, e.g., javac or ecj, produce different bytecode from the same source code. This makes it hard to trace if the bytecode of an open-source library really matches the provided source code. Moreover, it prevents one from detecting which open-source libraries have been re-compiled and rebundled into a single jar, which is a common way to distribute an application. Such rebundling is problematic because it prevents one to check if the jar file contains open-source libraries with known vulnerabilities. To cope with these problems, we propose the tool SootDiff that uses Soot&#39;s intermediate representation Jimple, in combination with code clone detection techniques, to reduce dissimilarities introduced by different compilers, and to identify clones. Our results show that SootDiff successfully identifies clones in 102 of 144 cases, whereas bytecode comparison succeeds in 58 cases only.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674273" title="Get the Full Text from the ACM Digital Library">Modernizing parsing tools: parsing and analysis with object-oriented programming</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Steven O&#39;Hara</li>
+<li class="nameList Last">Rocky Slavin</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Software Engineering tools today are hampered by weaknesses in parsing and analysis tools. For example, there are no standard repositories of grammars for the most popular programming languages. If an organization has software written in Python, Java, Bash, SQL, HTML, CSS, JavaScript and so on, there is no readily available mechanism to parse and analyze all of the software in a unified manner. This paper describes a collection of tools for parsing and analyzing many different languages, including legacy languages like COBOL and Fortran. The primary goal is scalability; dealing with a single programming language and a limited number of programs is far simpler than dealing with millions of lines of code written in many different languages.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674274" title="Get the Full Text from the ACM Digital Library">Commit-time incremental analysis</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Padmanabhan Krishnan</li>
+<li class="nameList">Rebecca O&#39;Donoghue</li>
+<li class="nameList">Nicholas Allen</li>
+<li class="nameList Last">Yi Lu</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Most changes to large systems that have been deployed are quite small compared to the size of the entire system. While standard summary-based analyses reduce the code that is reanalysed, they, nevertheless, analyse code that is not changed. For example, a backward summary-based analysis, will examine all the callers of the changed code even if the callers themselves have not changed. In this paper we present a novel approach of having summaries of the callers (called forward summaries) that enables one to analyse only the changed code. An evaluation of this approach on two representative examples, demonstrates that the overheads associated with the generation of the forward summaries is recovered by performing just one or two incremental analyses. Thus this technique can be used at commit-time where only the changed code is available.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674285" title="Get the Full Text from the ACM Digital Library">Program analysis for process migration</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Buse Yilmaz</li>
+<li class="nameList">Ilyas Turimbetov</li>
+<li class="nameList Last">Didem Unat</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Today&#39;s computer systems have become increasingly heterogeneous. Data centers integrate accelerators, CPUs with heterogeneous cores and with various ISAs which exhibit different performance and power characteristics. Mobile phones, following a similar trend, switch between fast and energy-efficient cores. Process migration is an important technique to leverage such specialization and heterogeneity. In this work, we target process migration enabled OS-capable heterogeneous platforms and address how to obtain better performance by program analysis: we address the challenge of defining migration points at which the program state is the same across machines and whether these will match phase changes, changes in the program behavior. Our tool-chain employs both static and dynamic analysis to compensate for disadvantages of both techniques to reduce the analyses overhead. Six out of ten benchmarks from different benchmark suites benefit from migration and the migration cost is compensated by the performance gained from migrating.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674286" title="Get the Full Text from the ACM Digital Library">MetaDL: analysing Datalog in Datalog</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Alexandru Dura</li>
+<li class="nameList">Hampus Balldin</li>
+<li class="nameList Last">Christoph Reichenbach</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Datalog has emerged as a powerful tool for expressing static program analyses. Program analysis researchers have built nontrivial code bases in Datalog, but tool support for working with Datalog itself has been lacking. In this paper, we introduce MetaDL, a language extension to Datalog that enables source-level Datalog program analysis within Datalog. We describe several program analyses implemented in MetaDL and report on initial experiences. Our findings show that the language is effective for real-life Datalog analysis and can simplify working with Datalog source code.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

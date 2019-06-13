@@ -1,0 +1,193 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>DBPL 2019- Proceedings of the 17th ACM SIGPLAN International Symposium on Database Programming Languages</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>DBPL 2019- Proceedings of the 17th ACM SIGPLAN International Symposium on Database Programming Languages</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3315507" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Invited Talks</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674327" title="Get the Full Text from the ACM Digital Library">Comprehending Ringads (keynote)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Jeremy Gibbons</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>List comprehensions are a widely used programming construct, in languages such as Haskell and Python and in technologies such as Microsoft&#39;s Language Integrated Query. They generalize from lists to arbitrary monads, yielding a lightweight idiom of imperative programming in a pure functional language. When the monad has the additional structure of a so-called ringad, corresponding to "empty" and "union" operations, then it can be seen as some kind of collection type, and the comprehension notation can also be extended to incorporate aggregations. Ringad comprehensions represent a convenient notation for expressing database queries. The ringad structure alone does not provide a good explanation or an efficient implementation of relational joins; but by allowing heterogeneous comprehensions, involving both bag and indexed table ringads, we can accommodate these too.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674328" title="Get the Full Text from the ACM Digital Library">Programming support for database schema refactoring (keynote)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Isil Dillig</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Database-driven applications typically undergo several schema changes during their life cycle due to performance and maintainability reasons. Such changes to the database schema not only require migrating the underlying the data to a new schema but also necessitate re-implementing large chunks of the application code that query and update the database. In this talk, we describe our recent work on programming languages support for evolving database applications. Specifically, we first describe our work on verifying equivalence between database applications that operate over different schema, such as those that arise before and after schema refactoring. Next, we describe how to use this verification procedure to solve the corresponding synthesis problem: That is, given a database application and a new schema, we present a technique that can automatically synthesize a new, equivalent version of the program that operates over the new target schema.</p></div> </div>
+<h2>SESSION: Novel Data Applications</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674329" title="Get the Full Text from the ACM Digital Library">Fluid data structures</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Darshana Balakrishnan</li>
+<li class="nameList">Lukasz Ziarek</li>
+<li class="nameList Last">Oliver Kennedy</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Functional (aka immutable) data structures are used extensively in data management systems. From distributed systems to data persistence, immutability makes complex programs significantly easier to reason about and implement. However, immutability also makes many runtime optimizations like tree rebalancing, or adaptive organizations, unreasonably expensive. In this paper, we propose Fluid data structures, an approach to data structure design that allows limited physical changes that preserve logical equivalence. As we will show, this approach retains many of the desirable properties of functional data structures, while also allowing runtime adaptation. To illustrate Fluid data structures, we work through the design of a lazy-loading map that we call a Fluid Cog. A Fluid Cog is a lock-free data structure that incrementally organizes itself in the background by applying equivalence-preserving structural transformations. Our experimental analysis shows that the resulting map structure is flexible enough to adapt to a variety of performance goals, while remaining competitive with existing structures like the C++ standard template library map.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674320" title="Get the Full Text from the ACM Digital Library">Detecting unsatisfiable CSS rules in the presence of DTDs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Nobutaka Suzuki</li>
+<li class="nameList">Takuya Okada</li>
+<li class="nameList Last">Yeondae Kwon</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Cascading Style Sheets (CSS) is a popular language for describing the styles of XML documents as well as HTML documents. For a DTD <i>D</i> and a list <i>R</i> of CSS rules, due to specificity <i>R</i> may contain &#8220;unsatisfiable&#8221; rules under <i>D</i>, e.g., rules that are not applied to any element of any document valid to <i>D</i>. In this paper, we consider the problem of detecting unsatisfiable CSS rules under DTDs. We focus on CSS fragments in which descendant, child, adjacent sibling, and general sibling combinators are allowed. We show that the problem is coNP-hard in most cases, even if only one of the four combinators is allowed. We also show that the problem is in coNP or PSPACE depending on restrictions on DTDs and CSS. Finally, we present two conditions under which the problem can be solved in polynomial time.</p></div> </div>
+<h2>SESSION: Graphs and Streams</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674321" title="Get the Full Text from the ACM Digital Library">Towards compiling graph queries in relational engines</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ruby Y. Tahboub</li>
+<li class="nameList">Xilun Wu</li>
+<li class="nameList">Gr&#233;gory M. Essertel</li>
+<li class="nameList Last">Tiark Rompf</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The increasing demand for graph query processing has prompted the addition of support for graph workloads on top of standard relational database management systems (RDBMS). Although this appears like a good idea --- after all, graphs are just relations --- performance is typically suboptimal since graph workloads are naturally iterative and rely extensively on efficient traversal of adjacency structures that are not typically implemented in an RDBMS. Adding such specialized adjacency structures is not at all straightforward due to the complexity of typical RDBMS implementations. The iterative nature of graph queries also practically requires a form of runtime compilation and native code generation which adds another dimension of complexity to the RDBMS implementation and any potential extensions. </p> <p> In this paper, we demonstrate how the idea of the first Futamura projection, which links interpreted query engines and compilers through specialization, can be applied to compile graph workloads in an efficient way that simplifies the construction of relational engines which also support graph workloads. We extend the LB2 main-memory query compiler with graph adjacency structures and operators. We implement a subset of the Datalog logical query language evaluation to enable processing graph and recursive queries efficiently. The graph extension matches, and sometimes outperforms, best-of-breed low-level graph engines.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674322" title="Get the Full Text from the ACM Digital Library">Streaming saturation for large RDF graphs with dynamic schema information</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Mohammad Amin Farvardin</li>
+<li class="nameList">Dario Colazzo</li>
+<li class="nameList">Khalid Belhajjame</li>
+<li class="nameList Last">Carlo Sartiani</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In the Big Data era, RDF data are produced in high volumes. While there exist proposals for reasoning over large RDF graphs using big data platforms, there is a dearth of solutions that do so in environments where RDF data are dynamic, and where new instance and schema triples can arrive at any time. In this work, we present the first solution for reasoning over large streams of RDF data using big data platforms. In doing so, we focus on the saturation operation, which seeks to infer implicit RDF triples given RDF schema constraints. Indeed, unlike existing solutions which saturate RDF data in bulk, our solution carefully identifies the fragment of the existing (and already saturated) RDF dataset that needs to be considered given the fresh RDF statements delivered by the stream. Thereby, it performs the saturation in an incremental manner. Experimental analysis shows that our solution outperforms existing bulk-based saturation solutions.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674323" title="Get the Full Text from the ACM Digital Library">Arc: an IR for batch and stream programming</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Lars Kroll</li>
+<li class="nameList">Klas Segeljakt</li>
+<li class="nameList">Paris Carbone</li>
+<li class="nameList">Christian Schulte</li>
+<li class="nameList Last">Seif Haridi</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In big data analytics, there is currently a large number of data programming models and their respective frontends such as relational tables, graphs, tensors, and streams. This has lead to a plethora of runtimes that typically focus on the efficient execution of just a single frontend. This fragmentation manifests itself today by highly complex pipelines that bundle multiple runtimes to support the necessary models. Hence, joint optimization and execution of such pipelines across these frontend-bound runtimes is infeasible. We propose Arc as the first unified Intermediate Representation (IR) for data analytics that incorporates stream semantics based on a modern specification of streams, windows and stream aggregation, to combine batch and stream computation models. Arc extends Weld, an IR for batch computation and adds support for partitioned, out-of-order stream and window operators which are the most fundamental building blocks in contemporary data streaming.</p></div> </div>
+<h2>SESSION: Semantics and Analysis</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674324" title="Get the Full Text from the ACM Digital Library">On the semantics of Cypher&#39;s implicit group-by</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Filip Murlak</li>
+<li class="nameList">Jan Posiada&#322;a</li>
+<li class="nameList Last">Pawe&#322; Susicki</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Cypher is a popular declarative query language for property graphs. Despite having been adopted by several graph database vendors, it lacks a comprehensive semantics other than the reference implementation. This paper stems from Cypher.PL, a project aimed at creating an executable (and readable) semantics of Cypher in Prolog, and focuses on Cypher&#39;s implicit group-by feature. Rather than being explicitly specified in the query, in Cypher the grouping key is derived from the return expressions. We show how this becomes problematic when a single return expression mixes unaggregated property references and aggregating functions, and discuss ways of giving this construct a proper semantics without defying common sense.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674335" title="Get the Full Text from the ACM Digital Library">Mixing set and bag semantics</a>
+</h3>
+ <ul class="DLauthors">
+<li class="nameList First">Wilmer Ricciotti</li>
+<li class="nameList Last">James Cheney</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The conservativity theorem for nested relational calculus implies that query expressions can freely use nesting and unnesting, yet as long as the query result type is a flat relation, these capabilities do not lead to an increase in expressiveness over flat relational queries. Moreover, Wong showed how such queries can be translated to SQL via a constructive rewriting algorithm. While this result holds for queries over either set or multiset semantics, to the best of our knowledge, the questions of conservativity and ormalization have not been studied for queries that mix set and bag collections, or provide duplicate-elimination operations such as SQL&#39;s SELECT DISTINCT. In this paper we formalize the problem, and present partial progress: specifically, we introduce a calculus with both set and multiset collection types, along with natural mappings from sets to bags and vice versa, present a set of valid rewrite rules for normalizing such queries, and give an inductive characterization of a set of queries whose normal forms can be translated to SQL. We also consider examples that do not appear straightforward to translate to SQL, illustrating that the relative expressiveness of flat and nested queries with mixed set and multiset semantics remains an open question.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674336" title="Get the Full Text from the ACM Digital Library">Language-integrated provenance by trace analysis</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Stefan Fehrenbach</li>
+<li class="nameList Last">James Cheney</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Language-integrated provenance builds on language-integrated query techniques to make provenance information explaining query results readily available to programmers. In previous work we have explored language-integrated approaches to provenance in and . However, implementing a new form of provenance in a language-integrated way is still a major challenge. We propose a self-tracing transformation and trace analysis features that, together with existing techniques for type-directed generic programming, make it possible to define different forms of provenance as user code. We present our design as an extension to a core language for Links called TLinks, give examples showing its capabilities, and outline its metatheory and key correctness properties.</p></div> </div>
+</div>
+</div>
+</body>
+</html>
