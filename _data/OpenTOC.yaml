@@ -43,6 +43,10 @@
   year: 2018
   title: "Proceedings of the 5th ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming"
 -
+  event: ARRAY
+  year: 2019
+  title: "Proceedings of the 6th ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming"
+-
   event: CC
   year: 2016
   title: "Proceedings of the 25th International Conference on Compiler Construction"
@@ -50,6 +54,10 @@
   event: CGO
   year: 2016
   title: "Proceedings of the 14th Annual IEEE/ACM International Symposium on Code Generation and Optimization"
+-
+  event: CHIUW
+  year: 2019
+  title: "Proceedings of the 6th ACM SIGPLAN Workshop on Chapel Implementers and Users"  
 -
   event: CoCoS
   year: 2017
@@ -78,6 +86,10 @@
   event: DBPL
   year: 2015
   title: "Proceedings of the 15th Symposium on Database Programming Languages"
+-
+  event: DBPL
+  year: 2019
+  title: "Proceedings of the 17th Symposium on Database Programming Languages"
 -
   event: DLS 
   year: 2014
@@ -313,6 +325,10 @@
   year: 2018
   title: "Proceedings of the 19th ACM SIGPLAN/SIGBED Conference on Languages, Compilers, Tools, and Theory for Embedded Systems"
 -
+  event: LCTES
+  year: 2019
+  title: "Proceedings of the 20th ACM SIGPLAN/SIGBED Conference on Languages, Compilers, Tools, and Theory for Embedded Systems"
+-
   event: MAPL
   year: 2017
   title: "Proceedings of the 1st ACM SIGPLAN International Workshop on Machine Learning and Programming Languages"
@@ -320,6 +336,10 @@
   event: MAPL
   year: 2018
   title: "Proceedings of the 2nd ACM SIGPLAN International Workshop on Machine Learning and Programming Languages"
+-
+  event: MAPL
+  year: 2019
+  title: "Proceedings of the 3nd ACM SIGPLAN International Workshop on Machine Learning and Programming Languages"
 -
   event: META
   year: 2017
@@ -442,6 +462,10 @@
   event: PLDI
   year: 2018
   title: "Proceedings of the 39th ACM SIGPLAN Conference on Programming Language Design and Implementation"
+-
+  event: PLDI
+  year: 2019
+  title: "Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation"
 -
   event: PLPV
   year: 2014
@@ -604,6 +628,10 @@
   event: SOAP
   year: 2017
   title: "Proceedings of the 6th ACM SIGPLAN International Workshop on State Of the Art in Program Analysis"
+-
+  event: SOAP
+  year: 2019
+  title: "Proceedings of the 8th ACM SIGPLAN International Workshop on State Of the Art in Program Analysis"
 -
   event: SPLASH
   year: 2014
