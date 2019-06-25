@@ -1,0 +1,206 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>ISMM 2019- Proceedings of the 2019 ACM SIGPLAN International Symposium on Memory Management</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>ISMM 2019- Proceedings of the 2019 ACM SIGPLAN International Symposium on Memory Management</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3315573" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Scaling Up</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674287" title="Get the Full Text from the ACM Digital Library">Automatic GPU memory management for large neural models in TensorFlow</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Tung D. Le</li>
+<li class="nameList">Haruki Imai</li>
+<li class="nameList">Yasushi Negishi</li>
+<li class="nameList Last">Kiyokuni Kawachiya</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Deep learning models are becoming larger and will not fit in the limited memory of accelerators such as GPUs for training. Though many methods have been proposed to solve this problem, they are rather ad-hoc in nature and difficult to extend and integrate with other techniques. In this paper, we tackle the problem in a formal way to provide a strong foundation for supporting large models. We propose a method of formally rewriting the computational graph of a model where swap-out and swap-in operations are inserted to temporarily store intermediate results on CPU memory. By introducing a categorized topological ordering for simulating graph execution, the memory consumption of a model can be easily analyzed by using operation distances in the ordering. As a result, the problem of fitting a large model into a memory-limited accelerator is reduced to the problem of reducing operation distances in a categorized topological ordering. We then show how to formally derive swap-out and swap-in operations from an existing graph and present rules to optimize the graph. Finally, we propose a simulation-based auto-tuning to automatically find suitable graph-rewriting parameters for the best performance. We developed a module in TensorFlow, called <em>LMS</em>, by which we successfully trained ResNet-50 with a 4.9x larger mini-batch size and 3D U-Net with a 5.6x larger image resolution.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674288" title="Get the Full Text from the ACM Digital Library">Massively parallel GPU memory compaction</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Matthias Springer</li>
+<li class="nameList Last">Hidehiko Masuhara</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Memory fragmentation is a widely studied problem of dynamic memory allocators. It is well known that fragmentation can lead to premature out-of-memory errors and poor cache performance. </p> <p> With the recent emergence of dynamic memory allocators for SIMD accelerators, memory fragmentation is becoming an increasingly important problem on such architectures. Nevertheless, it has received little attention so far. Memory-bound applications on SIMD architectures such as GPUs can experience an additional slowdown due to less efficient vector load/store instructions. </p> <p> We propose CompactGpu, an incremental, fully-parallel, in-place memory defragmentation system for GPUs. CompactGpu is an extension to the DynaSOAr dynamic memory allocator and defragments the heap in a fully parallel fashion by merging partly occupied memory blocks. We developed several implementation techniques for memory defragmentation that are efficient on SIMD/GPU architectures, such as finding defragmentation block candidates and fast pointer rewriting based on bitmaps. </p> <p> Benchmarks indicate that our implementation is very fast with typically higher performance gains than compaction overheads. It can also decrease the overall memory usage.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674289" title="Get the Full Text from the ACM Digital Library">Scaling up parallel GC work-stealing in many-core environments</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Michihiro Horie</li>
+<li class="nameList">Kazunori Ogata</li>
+<li class="nameList">Mikio Takeuchi</li>
+<li class="nameList Last">Hiroshi Horii</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Parallel copying garbage collection (GC) is widely used in the de facto Java virtual machines such as OpenJDK and OpenJ9. OpenJDK uses work-stealing for copying objects in the Parallel GC and Garbage-First (G1) GC policies to balance the copying task among GC threads. When a thread has no task in its own queue, it tries to steal a task from another thread&#39;s queue as a thief. When a thief succeeds in stealing a task, it processes the task and enqueues the children of the task into its queue, which is accessible from other thieves.Unfortunately, the overhead of the work-stealing framework becomes non-negligible when we aim to achieve a minimum GC pause time by increasing the number of GC threads. Since the number of tasks processed per thread decreases, thieves frequently try to steal tasks from others at a low success rate. When a thief fails in steals continuously, it needs to wait in a spin loop on the termination protocol of the work-stealing framework. Spinning in a loop frequently results in high CPU utilization, which is not acceptable in a large-scale data center where severe power management is required. This paper proposes two approaches named steal-best-of-many selection and spin-less termination to reduce the overhead in the work-stealing framework. Steal-best-of-many selection reduces steal failures by changing the number of queue selections to steal in accordance with the number of GC threads. Spin-less termination moves a part of the object copies into a spin loop by changing the procedure of copying GC. It reduces part of the GC pause time for the object copy as well as the CPU utilization for the spin loop. We developed a prototype on OpenJDK8 and evaluated it using SPECjbb2015 and SPECjvm2008 benchmarks. Critical-jOPS performance of SPECjbb2015 improved by 18% at maximum and scores of the SPECjvm2008 benchmarks improved by 1-5%.</p></div> </div>
+<h2>SESSION: Exotica</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674280" title="Get the Full Text from the ACM Digital Library">Exploration of memory hybridization for RDD caching in Spark</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Md Muhib Khan</li>
+<li class="nameList">Muhammad Ahad Ul Alam</li>
+<li class="nameList">Amit Kumar Nath</li>
+<li class="nameList Last">Weikuan Yu</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Apache Spark is a popular cluster computing framework for iterative analytics workloads due to its use of Resilient Distributed Datasets (RDDs) to cache data for in-memory processing. We have revealed that the performance of Spark RDD cache can be severely limited if its capacity falls short to the needs of the workloads. In this paper, we have explored different memory hybridization strategies to leverage emergent Non-Volatile Memory (NVM) devices for Spark&#39;s RDD cache. We have found that a simple layered hybridization approach does not offer an effective solution. Therefore, we have designed a flat hybridization scheme to leverage NVM for caching RDD blocks, along with several architectural optimizations such as dynamic memory allocation for block unrolling, asynchronous migration with preemption, and opportunistic eviction to disk. We have performed an extensive set of experiments to evaluate the performance of our proposed flat hybridization strategy and found it to be robust in handling different system and NVM characteristics. Our proposed approach uses DRAM for a fraction of the hybrid memory system and yet manages to keep the increase in execution time to be within 10% on average. Moreover, our opportunistic eviction of blocks to disk improves performance by up to 7.5% when utilized alongside the current mechanism.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674281" title="Get the Full Text from the ACM Digital Library">Learning when to garbage collect with random forests</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Nicholas Jacek</li>
+<li class="nameList Last">J. Eliot B. Moss</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Generational garbage collectors are one of the most common types of automatic memory management. We can minimize the costs they incur by carefully choosing the points in a program&#39;s execution at which they run. However, this decision is generally based on simple, crude heuristics. Instead, we train random forest classifiers to decide when to collect based on features gathered from a running program. This reduces the total cost of collection in both time and space. We demonstrate useful generalization of learned policies to unseen traces of the same program, showing this approach may be fruitful for further investigation.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674282" title="Get the Full Text from the ACM Digital Library">Timescale functions for parallel memory allocation</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Pengcheng Li</li>
+<li class="nameList">Hao Luo</li>
+<li class="nameList Last">Chen Ding</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Memory allocation is increasingly important to parallel performance, yet it is challenging because a program has data of many sizes, and the demand differs from thread to thread. Modern allocators use highly tuned heuristics but do not provide uniformly good performance when the level of concurrency increases from a few threads to hundreds of threads. </p> <p> This paper presents a new timescale theory to model the memory demand in real time. Using the new theory, an allocator can adjust its synchronization frequency using a single parameter called allocations per fetch (apf ). The paper presents the timescale theory, the design and implementation of APF tuning in an existing allocator, and evaluation of the effect on program speed and memory efficiency. APF tuning improves the throughput of MongoDB by 55%, reduces the tail latency of a Web server by over 60%, and increases the speed of a selection of synthetic benchmarks by up to 24&#215; while using the same amount of memory.</p></div> </div>
+<h2>SESSION: Mechanics</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674283" title="Get the Full Text from the ACM Digital Library">A lock-free coalescing-capable mechanism for memory management</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ricardo Leite</li>
+<li class="nameList Last">Ricardo Rocha</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>One common characteristic among current lock-free memory allocators is that they rely on the operating system to manage memory since they lack a lower-level mechanism capable of splitting and coalescing blocks of memory. In this paper, we discuss this problem and we propose a generic scheme for an efficient lock-free best-fit coalescing-capable mechanism that is able of satisfying memory allocation requests with desirable low fragmentation characteristics.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674284" title="Get the Full Text from the ACM Digital Library">Concurrent marking of shape-changing objects</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ulan Degenbaev</li>
+<li class="nameList">Michael Lippautz</li>
+<li class="nameList Last">Hannes Payer</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Efficient garbage collection is a key goal in engineering high-performance runtime systems. To reduce pause times, many collector designs traverse the object graph concurrently with the application, an optimization known as concurrent marking. Traditional concurrent marking imposes strict invariants on the object shapes: 1) static type layout of objects, 2) static object memory locations, 3) static object sizes. High performance virtual machines for dynamic languages, for example, the V8 JavaScript virtual machine used in the Google Chrome web browser, generally violate these constraints in pursuit of high throughput for a single thread. Taking V8 as an example, we show that some object shape changes are safe and can be handled by traditional concurrent marking algorithms. For unsafe shape changes, we introduce novel wait-free object snapshotting and lock-based concurrent marking algorithms and prove that they preserve key invariants. We implemented both algorithms in V8 and achieved performance improvements on various JavaScript benchmark suites and real-world web workloads. Concurrent marking of shape-changing objects using the wait-free object snapshotting algorithm is enabled by default in Chrome since version 64.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674295" title="Get the Full Text from the ACM Digital Library">Design and analysis of field-logging write barriers</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Stephen M. Blackburn</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Write barriers are a fundamental mechanism that most production garbage collection algorithms depend on. They inform the collector of mutations to the object graph, enabling partial heap collections, concurrent collection, and reference counting. While in principle, write barriers remember only the pointers within the object graph that were changed and do so just once, widely-used write barriers are less precise, sacrificing temporal and/or spatial precision to performance. The idea of precisely remembering just the pointers that were changed is not new, however implementing performant field-precise barriers has proved elusive. We describe a technique for efficiently implementing field-logging barriers. We implement a number of barriers and evaluate them on a range of x86 hardware. A generational field-logging barrier performs with 0.1% to 1% mutator overhead compared to a highly tuned object-logging barrier, while a preliminary implementation of a reference counting field-logging barrier performs with around 1% to 2% overhead compared to a highly tuned object-logging reference counting barrier. These results suggest that garbage collection algorithms that require the precision of exactly remembering field mutations without sacrificing performance may now be possible, adding a new mechanism to the design toolkit available to garbage collection researchers.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674296" title="Get the Full Text from the ACM Digital Library">Gradual write-barrier insertion into a Ruby interpreter</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Koichi Sasada</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Ruby is a popular object-oriented programming language, and the performance of the Ruby garbage collector (GC) directly affects the execution time of Ruby programs. Ruby 2.0 and earlier versions employed an inefficient non-generational conservative mark-and-sweep GC. To improve this and make it a generational collector, it is necessary to introduce write barriers (WBs), but this requires huge modification to existing source code, including third-party C-extensions. To avoid the need for adding WBs around legacy code, we invented a new concept called ``WB-unprotected objects&#39;&#39;, which indicates to the GC to treat such objects more conservatively. By leveraging this design, we were able to improve the performance of Ruby 2.1 with a generational GC and of Ruby 2.2 with an incremental GC while preserving compatibility with existing C-extensions. Another significant advantage of this approach is that WBs can be added gradually, which reduces the difficulties associated with updating existing code.</p></div> </div>
+<h2>SESSION: Message Passing</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674297" title="Get the Full Text from the ACM Digital Library">snmalloc: a message passing allocator</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Paul Li&#233;tar</li>
+<li class="nameList">Theodore Butler</li>
+<li class="nameList">Sylvan Clebsch</li>
+<li class="nameList">Sophia Drossopoulou</li>
+<li class="nameList">Juliana Franco</li>
+<li class="nameList">Matthew J. Parkinson</li>
+<li class="nameList">Alex Shamis</li>
+<li class="nameList">Christoph M. Wintersteiger</li>
+<li class="nameList Last">David Chisnall</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p><i>snmalloc</i> is an implementation of <i>malloc</i> aimed at workloads in which objects are typically deallocated by a different thread than the one that had allocated them. We use the term <i>producer/consumer</i> for such workloads. <i>snmalloc</i> uses a novel message passing scheme which returns deallocated objects to the originating allocator in batches without taking any locks. It also uses a novel <i>bump pointer-free list</i> data structure with which just 64-bits of meta-data are sufficient for each 64 KiB slab. On such producer/consumer benchmarks our approach performs better than existing allocators. Snmalloc is available at &lt;a href="https://github.com/Microsoft/snmalloc">https://github.com/Microsoft/snmalloc&lt;/a&gt;.</p></div> </div>
+</div>
+</div>
+</body>
+</html>
