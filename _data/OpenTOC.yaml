@@ -301,6 +301,10 @@
   year: 2018
   title: "Proceedings of the 2018 ACM SIGPLAN International Symposium on Memory Management"
 -
+  event: ISMM
+  year: 2019
+  title: "Proceedings of the 2019 ACM SIGPLAN International Symposium on Memory Management"
+-
   event: ITSLE
   year: 2016
   title: "Proceedings of the 1st Industry Track on Software Language Engineering"
