@@ -1,0 +1,931 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>PLDI 2019- Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>PLDI 2019- Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3314221" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Concurrency I</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674241" title="Get the Full Text from the ACM Digital Library">Promising-ARM/RISC-V: a simpler and faster operational concurrency model</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Christopher Pulte</li>
+<li class="nameList">Jean Pichon-Pharabod</li>
+<li class="nameList">Jeehoon Kang</li>
+<li class="nameList">Sung-Hwan Lee</li>
+<li class="nameList Last">Chung-Kil Hur</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>For ARMv8 and RISC-V, there are concurrency models in two styles, extensionally equivalent: axiomatic models, expressing the concurrency semantics in terms of global properties of complete executions; and operational models, that compute incrementally. The latter are in an abstract microarchitectural style: they execute each instruction in multiple steps, out-of-order and with explicit branch speculation. This similarity to hardware implementations has been important in developing the models and in establishing confidence, but involves complexity that, for programming and model-checking, one would prefer to avoid. </p> <p> We present new more abstract operational models for ARMv8 and RISC-V, and an exploration tool based on them. The models compute the allowed concurrency behaviours incrementally based on thread-local conditions and are significantly simpler than the existing operational models: executing instructions in a single step and (with the exception of early writes) in program order, and without branch speculation. We prove the models equivalent to the existing ARMv8 and RISC-V axiomatic models in Coq. The exploration tool is the first such tool for ARMv8 and RISC-V fast enough for exhaustively checking the concurrency behaviour of a number of interesting examples. We demonstrate using the tool for checking several standard concurrent datastructure and lock implementations, and for interactively stepping through model-allowed executions for debugging.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674242" title="Get the Full Text from the ACM Digital Library">Accelerating sequential consistency for Java with speculative compilation</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Lun Liu</li>
+<li class="nameList">Todd Millstein</li>
+<li class="nameList Last">Madanlal Musuvathi</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>A memory consistency model (or simply a memory model) specifies the granularity and the order in which memory accesses by one thread become visible to other threads in the program. We previously proposed the volatile-by-default (VBD) memory model as a natural form of sequential consistency (SC) for Java. VBD is significantly stronger than the Java memory model (JMM) and incurs relatively modest overheads in a modified HotSpot JVM running on Intel x86 hardware. However, the x86 memory model is already quite close to SC. It is expected that the cost of VBD will be much higher on the other widely used hardware platform today, namely ARM, whose memory model is very weak. </p> <p>In this paper, we quantify this expectation by building and evaluating a baseline volatile-by-default JVM for ARM called VBDA-HotSpot, using the same technique previously used for x86. Through this baseline we report, to the best of our knowledge, the first comprehensive study of the cost of providing language-level SC for a production compiler on ARM. VBDA-HotSpot indeed incurs a considerable performance penalty on ARM, with average overheads on the DaCapo benchmarks on two ARM servers of 57% and 73% respectively. </p> <p>Motivated by these experimental results, we then present a novel speculative technique to optimize language-level SC. While several prior works have shown how to optimize SC in the context of an offline, whole-program compiler, to our knowledge this is the first optimization approach that is compatible with modern implementation technology, including dynamic class loading and just-in-time (JIT) compilation. The basic idea is to modify the JIT compiler to treat each object as thread-local initially, so accesses to its fields can be compiled without fences. If an object is ever accessed by a second thread, any speculatively compiled code for the object is removed, and future JITed code for the object will include the necessary fences in order to ensure SC. We demonstrate that this technique is effective, reducing the overhead of enforcing VBD by one-third on average, and additional experiments validate the thread-locality hypothesis that underlies the approach.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674243" title="Get the Full Text from the ACM Digital Library">Renaissance: benchmarking suite for parallel applications on the JVM</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Aleksandar Prokopec</li>
+<li class="nameList">Andrea Ros&#224;</li>
+<li class="nameList">David Leopoldseder</li>
+<li class="nameList">Gilles Duboscq</li>
+<li class="nameList">Petr T&#367;ma</li>
+<li class="nameList">Martin Studener</li>
+<li class="nameList">Lubom&#237;r Bulej</li>
+<li class="nameList">Yudi Zheng</li>
+<li class="nameList">Alex Villaz&#243;n</li>
+<li class="nameList">Doug Simon</li>
+<li class="nameList">Thomas W&#252;rthinger</li>
+<li class="nameList Last">Walter Binder</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Established benchmark suites for the Java Virtual Machine (JVM), such as DaCapo, ScalaBench, and SPECjvm2008, lack workloads that take advantage of the parallel programming abstractions and concurrency primitives offered by the JVM and the Java Class Library. However, such workloads are fundamental for understanding the way in which modern applications and data-processing frameworks use the JVM&#39;s concurrency features, and for validating new just-in-time (JIT) compiler optimizations that enable more efficient execution of such workloads. We present Renaissance, a new benchmark suite composed of modern, real-world, concurrent, and object-oriented workloads that exercise various concurrency primitives of the JVM. We show that the use of concurrency primitives in these workloads reveals optimization opportunities that were not visible with the existing workloads. We use Renaissance to compare performance of two state-of-the-art, production-quality JIT compilers (HotSpot C2 and Graal), and show that the performance differences are more significant than on existing suites such as DaCapo and SPECjvm2008. We also use Renaissance to expose four new compiler optimizations, and we analyze the behavior of several existing ones. We use Renaissance to compare performance of two state-of-the-art, production-quality JIT compilers (HotSpot C2 and Graal), and show that the performance differences are more significant than on existing suites such as DaCapo and SPECjvm2008. We also use Renaissance to expose four new compiler optimizations, and we analyze the behavior of several existing ones.</p></div> </div>
+<h2>SESSION: Language Design I</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674244" title="Get the Full Text from the ACM Digital Library">LoCal: a language for programs operating on serialized data</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Michael Vollmer</li>
+<li class="nameList">Chaitanya Koparkar</li>
+<li class="nameList">Mike Rainey</li>
+<li class="nameList">Laith Sakka</li>
+<li class="nameList">Milind Kulkarni</li>
+<li class="nameList Last">Ryan R. Newton</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In a typical data-processing program, the representation of data <em>in memory</em> is distinct from its representation in a <em>serialized</em> form on disk. The former has pointers and arbitrary, sparse layout, facilitating easy manipulation by a program, while the latter is packed contiguously, facilitating easy I/O. We propose a language, LoCal, to unify in-memory and serialized formats. LoCal extends a region calculus into a <em>location calculus</em>, employing a type system that tracks the byte-addressed layout of all heap values. We formalize LoCal and prove type safety, and show how LoCal programs can be inferred from unannotated source terms. </p> <p>We transform the existing Gibbon compiler to use LoCal as an <em>intermediate language</em>, with the goal of achieving a balance between code speed and data compactness by introducing <em>just enough</em> indirection into heap layouts, preserving the asymptotic complexity of traditional representations, but working with mostly or completely serialized data. We show that our approach yields significant performance improvement over prior approaches to operating on packed data, without abandoning idiomatic programming with recursive functions.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674355" title="Get the Full Text from the ACM Digital Library">Scenic: a language for scenario specification and scene generation</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Daniel J. Fremont</li>
+<li class="nameList">Tommaso Dreossi</li>
+<li class="nameList">Shromona Ghosh</li>
+<li class="nameList">Xiangyu Yue</li>
+<li class="nameList">Alberto L. Sangiovanni-Vincentelli</li>
+<li class="nameList Last">Sanjit A. Seshia</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We propose a new probabilistic programming language for the design and analysis of perception systems, especially those based on machine learning. Specifically, we consider the problems of training a perception system to handle rare events, testing its performance under different conditions, and debugging failures. We show how a probabilistic programming language can help address these problems by specifying distributions encoding interesting types of inputs and sampling these to generate specialized training and test sets. More generally, such languages can be used for cyber-physical systems and robotics to write environment models, an essential prerequisite to any formal analysis. In this paper, we focus on systems like autonomous cars and robots, whose environment is a scene, a configuration of physical objects and agents. We design a domain-specific language, Scenic, for describing scenarios that are distributions over scenes. As a probabilistic programming language, Scenic allows assigning distributions to features of the scene, as well as declaratively imposing hard and soft constraints over the scene. We develop specialized techniques for sampling from the resulting distribution, taking advantage of the structure provided by Scenic&#39;s domain-specific syntax. Finally, we apply Scenic in a case study on a convolutional neural network designed to detect cars in road images, improving its performance beyond that achieved by state-of-the-art synthetic data generation methods.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674356" title="Get the Full Text from the ACM Digital Library">Compiling KB-sized machine learning models to tiny IoT devices</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Sridhar Gopinath</li>
+<li class="nameList">Nikhil Ghanathe</li>
+<li class="nameList">Vivek Seshadri</li>
+<li class="nameList Last">Rahul Sharma</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Recent advances in machine learning (ML) have produced KiloByte-size models that can directly run on constrained IoT devices. This approach avoids expensive communication between IoT devices and the cloud, thereby enabling energy-efficient real-time analytics. However, ML models are expressed typically in floating-point, and IoT hardware typically does not support floating-point. Therefore, running these models on IoT devices requires simulating IEEE-754 floating-point using software, which is very inefficient. </p> <p>We present SeeDot, a domain-specific language to express ML inference algorithms and a compiler that compiles SeeDot programs to fixed-point code that can efficiently run on constrained IoT devices. We propose 1)&#160;a novel compilation strategy that reduces the search space for some key parameters used in the fixed-point code, and 2)&#160;new efficient implementations of expensive operations. SeeDot compiles state-of-the-art KB-sized models to various microcontrollers and low-end FPGAs. We show that SeeDot outperforms 1) software emulation of floating-point (Arduino), 2) high-bitwidth fixed-point (MATLAB), 3) post-training quantization (TensorFlow-Lite), and 4) floating- and fixed-point FPGA implementations generated using high-level synthesis tools.</p></div> </div>
+<h2>SESSION: Concurrency II</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674357" title="Get the Full Text from the ACM Digital Library">Model checking for weakly consistent libraries</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Michalis Kokologiannakis</li>
+<li class="nameList">Azalea Raad</li>
+<li class="nameList Last">Viktor Vafeiadis</li>
+</ul>
+
+<div class="DLabstract"><div style="display:inline"><p>We present GenMC, a model checking algorithm for concurrent programs that is parametric in the choice of memory model and can be used for verifying clients of concurrent libraries. Subject to a few basic conditions about the memory model, our algorithm is sound, complete and optimal, in that it explores each consistent execution of the program according to the model exactly once, and does not explore inconsistent executions or embark on futile exploration paths. We implement GenMC as a tool for verifying C programs. Despite the generality of the algorithm, its performance is comparable to the state-of-art specialized model checkers for specific memory models, and in certain cases exponentially faster thanks to its coarse partitioning of executions.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674358" title="Get the Full Text from the ACM Digital Library">Towards certified separate compilation for concurrent programs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Hanru Jiang</li>
+<li class="nameList">Hongjin Liang</li>
+<li class="nameList">Siyang Xiao</li>
+<li class="nameList">Junpeng Zha</li>
+<li class="nameList Last">Xinyu Feng</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Certified separate compilation is important for establishing end-to-end guarantees for certified systems consisting of multiple program modules. There has been much work building certified compilers for sequential programs. In this paper, we propose a language-independent framework consisting of the key semantics components and lemmas that bridge the verification gap between the compilers for sequential programs and those for (race-free) concurrent programs, so that the existing verification work for the former can be reused. One of the key contributions of the framework is a novel footprint-preserving compositional simulation as the compilation correctness criterion. The framework also provides a new mechanism to support confined benign races which are usually found in efficient implementations of synchronization primitives. </p> <p> With our framework, we develop CASCompCert, which extends CompCert for certified separate compilation of race-free concurrent Clight programs. It also allows linking of concurrent Clight modules with x86-TSO implementations of synchronization primitives containing benign races. All our work has been implemented in the Coq proof assistant.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674359" title="Get the Full Text from the ACM Digital Library">Robustness against release/acquire semantics</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ori Lahav</li>
+<li class="nameList Last">Roy Margalit</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present an algorithm for automatically checking robustness of concurrent programs against C/C++11 release/acquire semantics, namely verifying that all program behaviors under release/acquire are allowed by sequential consistency. Our approach reduces robustness verification to a reachability problem under (instrumented) sequential consistency. We have implemented our algorithm in a prototype tool called Rocker and applied it to several challenging concurrent algorithms. To the best of our knowledge, this is the first precise method for verifying robustness against a high-level programming language weak memory semantics.</p></div> </div>
+<h2>SESSION: Language Design II</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674350" title="Get the Full Text from the ACM Digital Library">CHET: an optimizing compiler for fully-homomorphic neural-network inferencing</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Roshan Dathathri</li>
+<li class="nameList">Olli Saarikivi</li>
+<li class="nameList">Hao Chen</li>
+<li class="nameList">Kim Laine</li>
+<li class="nameList">Kristin Lauter</li>
+<li class="nameList">Saeed Maleki</li>
+<li class="nameList">Madanlal Musuvathi</li>
+<li class="nameList Last">Todd Mytkowicz</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Fully Homomorphic Encryption (FHE) refers to a set of encryption schemes that allow computations on encrypted data without requiring a secret key. Recent cryptographic advances have pushed FHE into the realm of practical applications. However, programming these applications remains a huge challenge, as it requires cryptographic domain expertise to ensure correctness, security, and performance. </p> <p> CHET is a domain-specific optimizing compiler designed to make the task of programming FHE applications easier. Motivated by the need to perform neural network inference on encrypted medical and financial data, CHET supports a domain-specific language for specifying tensor circuits. It automates many of the laborious and error prone tasks of encoding such circuits homomorphically, including encryption parameter selection to guarantee security and accuracy of the computation, determining efficient tensor layouts, and performing scheme-specific optimizations. </p> <p> Our evaluation on a collection of popular neural networks shows that CHET generates homomorphic circuits that outperform expert-tuned circuits and makes it easy to switch across different encryption schemes. We demonstrate its scalability by evaluating it on a version of SqueezeNet, which to the best of our knowledge, is the deepest neural network to be evaluated homomorphically.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674351" title="Get the Full Text from the ACM Digital Library">Usuba: high-throughput and constant-time ciphers, by construction</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Darius Mercadier</li>
+<li class="nameList Last">Pierre-&#201;variste Dagand</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Cryptographic primitives are subject to diverging imperatives. Functional correctness and auditability pushes for the use of a high-level programming language. Performance and the threat of timing attacks push for using no more abstract than an assembler to exploit (or avoid!) the micro-architectural features of a given machine. We believe that a suitable programming language can reconcile both views and actually improve on the state of the art of both. Usuba is an opinionated dataflow programming language in which block ciphers become so simple as to be &#8220;obviously correct&#8221; and whose types document and enforce valid parallelization strategies at the granularity of individual bits. Its optimizing compiler, Usubac, produces high-throughput, constant-time implementations performing on par with hand-tuned reference implementations. The cornerstone of our approach is a systematization and generalization of bitslicing, an implementation trick frequently used by cryptographers.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674352" title="Get the Full Text from the ACM Digital Library">FaCT: a DSL for timing-sensitive computation</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Sunjay Cauligi</li>
+<li class="nameList">Gary Soeller</li>
+<li class="nameList">Brian Johannesmeyer</li>
+<li class="nameList">Fraser Brown</li>
+<li class="nameList">Riad S. Wahby</li>
+<li class="nameList">John Renner</li>
+<li class="nameList">Benjamin Gr&#233;goire</li>
+<li class="nameList">Gilles Barthe</li>
+<li class="nameList">Ranjit Jhala</li>
+<li class="nameList Last">Deian Stefan</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Real-world cryptographic code is often written in a subset of C intended to execute in constant-time, thereby avoiding timing side channel vulnerabilities. This C subset eschews structured programming as we know it: if-statements, looping constructs, and procedural abstractions can leak timing information when handling sensitive data. The resulting obfuscation has led to subtle bugs, even in widely-used high-profile libraries like OpenSSL. </p> <p>To address the challenge of writing constant-time cryptographic code, we present FaCT, a crypto DSL that provides high-level but safe language constructs. The FaCT compiler uses a secrecy type system to automatically transform potentially timing-sensitive high-level code into low-level, constant-time LLVM bitcode. We develop the language and type system, formalize the constant-time transformation, and present an empirical evaluation that uses FaCT to implement core crypto routines from several open-source projects including OpenSSL, libsodium, and curve25519-donna. Our evaluation shows that FaCT&#8217;s design makes it possible to write <em>readable</em>, high-level cryptographic code, with <em>efficient</em>, <em>constant-time</em> behavior.</p></div> </div>
+<h2>SESSION: Probabilistic Programming</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674353" title="Get the Full Text from the ACM Digital Library">Scalable verification of probabilistic networks</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Steffen Smolka</li>
+<li class="nameList">Praveen Kumar</li>
+<li class="nameList">David M. Kahn</li>
+<li class="nameList">Nate Foster</li>
+<li class="nameList">Justin Hsu</li>
+<li class="nameList">Dexter Kozen</li>
+<li class="nameList Last">Alexandra Silva</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This paper presents McNetKAT, a scalable tool for verifying probabilistic network programs. McNetKAT is based on a new semantics for the guarded and history-free fragment of Probabilistic NetKAT in terms of finite-state, absorbing Markov chains. This view allows the semantics of all programs to be computed exactly, enabling construction of an automatic verification tool. Domain-specific optimizations and a parallelizing backend enable McNetKAT to analyze networks with thousands of nodes, automatically reasoning about general properties such as probabilistic program equivalence and refinement, as well as networking properties such as resilience to failures. We evaluate McNetKAT&#39;s scalability using real-world topologies, compare its performance against state-of-the-art tools, and develop an extended case study on a recently proposed data center network design.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674354" title="Get the Full Text from the ACM Digital Library">Cost analysis of nondeterministic probabilistic programs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Peixin Wang</li>
+<li class="nameList">Hongfei Fu</li>
+<li class="nameList">Amir Kafshdar Goharshady</li>
+<li class="nameList">Krishnendu Chatterjee</li>
+<li class="nameList">Xudong Qin</li>
+<li class="nameList Last">Wenjun Shi</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We consider the problem of expected cost analysis over nondeterministic probabilistic programs, which aims at automated methods for analyzing the resource-usage of such programs. Previous approaches for this problem could only handle nonnegative bounded costs. However, in many scenarios, such as queuing networks or analysis of cryptocurrency protocols, both positive and negative costs are necessary and the costs are unbounded as well. </p> <p> In this work, we present a sound and efficient approach to obtain polynomial bounds on the expected accumulated cost of nondeterministic probabilistic programs. Our approach can handle (a) general positive and negative costs with bounded updates in variables; and (b) nonnegative costs with general updates to variables. We show that several natural examples which could not be handled by previous approaches are captured in our framework. </p> <p> Moreover, our approach leads to an efficient polynomial-time algorithm, while no previous approach for cost analysis of probabilistic programs could guarantee polynomial runtime. Finally, we show the effectiveness of our approach using experimental results on a variety of programs for which we efficiently synthesize tight resource-usage bounds.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674365" title="Get the Full Text from the ACM Digital Library">Gen: a general-purpose probabilistic programming system with programmable inference</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Marco F. Cusumano-Towner</li>
+<li class="nameList">Feras A. Saad</li>
+<li class="nameList">Alexander K. Lew</li>
+<li class="nameList Last">Vikash K. Mansinghka</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Although probabilistic programming is widely used for some restricted classes of statistical models, existing systems lack the flexibility and efficiency needed for practical use with more challenging models arising in fields like computer vision and robotics. This paper introduces Gen, a general-purpose probabilistic programming system that achieves modeling flexibility and inference efficiency via several novel language constructs: (i) the generative function interface for encapsulating probabilistic models; (ii) interoperable modeling languages that strike different flexibility/efficiency trade-offs; (iii) combinators that exploit common patterns of conditional independence; and (iv) an inference library that empowers users to implement efficient inference algorithms at a high level of abstraction. We show that Gen outperforms state-of-the-art probabilistic programming systems, sometimes by multiple orders of magnitude, on diverse problems including object tracking, estimating 3D body pose from a depth image, and inferring the structure of a time series.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674366" title="Get the Full Text from the ACM Digital Library">Incremental precision-preserving symbolic inference for probabilistic programs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Jieyuan Zhang</li>
+<li class="nameList Last">Jingling Xue</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present ISymb an incremental symbolic inference framework for probabilistic programs in situations when some loop-manipulated array data, upon which their probabilistic models are conditioned, undergoes small changes. To tackle the path explosion challenge, ISymb is intra-procedurally path-sensitive except that it conducts a &#8220;meet-over-all-paths&#8221; analysis within an iteration of a loop (conditioned on some observed array data). By recomputing only the probability distributions for the paths affected, ISymb avoids expensive symbolic inference from scratch while also being precision-preserving. Our evaluation with a set of existing benchmarks shows that ISymb can lead to orders of magnitude performance improvements compared to its non-incremental counterpart (under small changes in observed array data).</p></div> </div>
+<h2>SESSION: Synthesis</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674367" title="Get the Full Text from the ACM Digital Library">Resource-guided program synthesis</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Tristan Knoth</li>
+<li class="nameList">Di Wang</li>
+<li class="nameList">Nadia Polikarpova</li>
+<li class="nameList Last">Jan Hoffmann</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This article presents resource-guided synthesis, a technique for synthesizing recursive programs that satisfy both a functional specification and a symbolic resource bound. The technique is type-directed and rests upon a novel type system that combines polymorphic refinement types with potential annotations of automatic amortized resource analysis. The type system enables efficient constraint-based type checking and can express precise refinement-based resource bounds. The proof of type soundness shows that synthesized programs are correct by construction. By tightly integrating program exploration and type checking, the synthesizer can leverage the user-provided resource bound to guide the search, eagerly rejecting incomplete programs that consume too many resources. An implementation in the resource-guided synthesizer ReSyn is used to evaluate the technique on a range of recursive data structure manipulations. The experiments show that ReSyn synthesizes programs that are asymptotically more efficient than those generated by a resource-agnostic synthesizer. Moreover, synthesis with ReSyn is faster than a naive combination of synthesis and resource analysis. ReSyn is also able to generate implementations that have a constant resource consumption for fixed input sizes, which can be used to mitigate side-channel attacks.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674368" title="Get the Full Text from the ACM Digital Library">Using active learning to synthesize models of applications that access databases</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Jiasi Shen</li>
+<li class="nameList Last">Martin C. Rinard</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present Konure, a new system that uses active learning to infer models of applications that access relational databases. Konure comprises a domain-specific language (each model is a program in this language) and associated inference algorithm that infers models of applications whose behavior can be expressed in this language. The inference algorithm generates inputs and database configurations, runs the application, then observes the resulting database traffic and outputs to progressively refine its current model hypothesis. Because the technique works with only externally observable inputs, outputs, and database configurations, it can infer the behavior of applications written in arbitrary languages using arbitrary coding styles (as long as the behavior of the application is expressible in the domain-specific language). Konure also implements a regenerator that produces a translated Python implementation of the application that systematically includes relevant security and error checks.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674369" title="Get the Full Text from the ACM Digital Library">Synthesizing database programs for schema refactoring</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Yuepeng Wang</li>
+<li class="nameList">James Dong</li>
+<li class="nameList">Rushi Shah</li>
+<li class="nameList Last">Isil Dillig</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Many programs that interact with a database need to undergo schema refactoring several times during their life cycle. Since this process typically requires making significant changes to the program&#39;s implementation, schema refactoring is often non-trivial and error-prone. Motivated by this problem, we propose a new technique for automatically synthesizing a new version of a database program given its original version and the source and target schemas. Our method does not require manual user guidance and ensures that the synthesized program is equivalent to the original one. Furthermore, our method is quite efficient and can synthesize new versions of database programs (containing up to 263 functions) that are extracted from real-world web applications with an average synthesis time of 69.4 seconds.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674360" title="Get the Full Text from the ACM Digital Library">Synthesis and machine learning for heterogeneous extraction</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Arun Iyer</li>
+<li class="nameList">Manohar Jonnalagedda</li>
+<li class="nameList">Suresh Parthasarathy</li>
+<li class="nameList">Arjun Radhakrishna</li>
+<li class="nameList Last">Sriram K. Rajamani</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present a way to combine techniques from the program synthesis and machine learning communities to extract structured information from heterogeneous data. Such problems arise in several situations such as extracting attributes from web pages, machine-generated emails, or from data obtained from multiple sources. Our goal is to extract a set of structured attributes from such data. </p> <p> We use machine learning models ("ML models") such as conditional random fields to get an initial labeling of potential attribute values. However, such models are typically not interpretable, and the noise produced by such models is hard to manage or debug. We use (noisy) labels produced by such ML models as inputs to program synthesis, and generate interpretable programs that cover the input space. We also employ type specifications (called "field constraints") to certify well-formedness of extracted values. Using synthesized programs and field constraints, we re-train the ML models with improved confidence on the labels. We then use these improved labels to re-synthesize a better set of programs. We iterate the process of re-synthesizing the programs and re-training the ML models, and find that such an iterative process improves the quality of the extraction process. This iterative approach, called HDEF, is novel, not only the in way it combines the ML models with program synthesis, but also in the way it adapts program synthesis to deal with noise and heterogeneity. </p> <p> More broadly, our approach points to ways by which machine learning and programming language techniques can be combined to get the best of both worlds --- handling noise, transferring signals from one context to another using ML, producing interpretable programs using PL, and minimizing user intervention.</p></div> </div>
+<h2>SESSION: Memory Management</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674361" title="Get the Full Text from the ACM Digital Library">AutoPersist: an easy-to-use Java NVM framework based on reachability</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Thomas Shull</li>
+<li class="nameList">Jian Huang</li>
+<li class="nameList Last">Josep Torrellas</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Byte-addressable, non-volatile memory (NVM) is emerging as a revolutionary memory technology that provides persistency, near-DRAM performance, and scalable capacity. To facilitate its use, many NVM programming models have been proposed. However, most models require programmers to explicitly specify the data structures or objects that should reside in NVM. Such requirement increases the burden on programmers, complicates software development, and introduces opportunities for correctness and performance bugs. </p> <p> We believe that requiring programmers to identify the data structures that should reside in NVM is untenable. Instead, programmers should only be required to identify durable roots - the entry points to the persistent data structures at recovery time. The NVM programming framework should then automatically ensure that all the data structures reachable from these roots are in NVM, and stores to these data structures are persistently completed in an intuitive order. </p> <p> To this end, we present a new NVM programming framework, named AutoPersist, that only requires programmers to identify durable roots. AutoPersist then persists all the data structures that can be reached from the durable roots in an automated and transparent manner. We implement AutoPersist as a thread-safe extension to the Java language and perform experiments with a variety of applications running on Intel Optane DC persistent memory. We demonstrate that AutoPersist requires minimal code modifications, and significantly outperforms expert-marked Java NVM applications.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674362" title="Get the Full Text from the ACM Digital Library">Mesh: compacting memory management for C/C++ applications</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Bobby Powers</li>
+<li class="nameList">David Tench</li>
+<li class="nameList">Emery D. Berger</li>
+<li class="nameList Last">Andrew McGregor</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Programs written in C/C++ can suffer from serious memory fragmentation, leading to low utilization of memory, degraded performance, and application failure due to memory exhaustion. This paper introduces Mesh, a plug-in replacement for malloc that, for the first time, eliminates fragmentation in unmodified C/C++ applications. Mesh combines novel randomized algorithms with widely-supported virtual memory operations to provably reduce fragmentation, breaking the classical Robson bounds with high probability. Mesh generally matches the runtime performance of state-of-the-art memory allocators while reducing memory consumption; in particular, it reduces the memory of consumption of Firefox by 16% and Redis by 39%.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674363" title="Get the Full Text from the ACM Digital Library">Panthera: holistic memory management for big data processing over hybrid memories</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Chenxi Wang</li>
+<li class="nameList">Huimin Cui</li>
+<li class="nameList">Ting Cao</li>
+<li class="nameList">John Zigman</li>
+<li class="nameList">Haris Volos</li>
+<li class="nameList">Onur Mutlu</li>
+<li class="nameList">Fang Lv</li>
+<li class="nameList">Xiaobing Feng</li>
+<li class="nameList Last">Guoqing Harry Xu</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Modern data-parallel systems such as Spark rely increasingly on in-memory computing that can significantly improve the efficiency of iterative algorithms. To process real-world datasets, modern data-parallel systems often require extremely large amounts of memory, which are both costly and energy-inefficient. Emerging non-volatile memory (NVM) technologies offers high capacity compared to DRAM and low energy compared to SSDs. Hence, NVMs have the potential to fundamentally change the dichotomy between DRAM and durable storage in Big Data processing. However, most Big Data applications are written in managed languages (e.g., Scala and Java) and executed on top of a managed runtime (e.g., the Java Virtual Machine) that already performs various dimensions of memory management. Supporting hybrid physical memories adds in a new dimension, creating unique challenges in data replacement and migration. </p> <p> This paper proposes Panthera, a semantics-aware, fully automated memory management technique for Big Data processing over hybrid memories. Panthera analyzes user programs on a Big Data system to infer their coarse-grained access patterns, which are then passed down to the Panthera runtime for efficient data placement and migration. For Big Data applications, the coarse-grained data division is accurate enough to guide GC for data layout, which hardly incurs data monitoring and moving overhead. We have implemented Panthera in OpenJDK and Apache Spark. An extensive evaluation with various datasets and applications demonstrates that Panthera reduces energy by 32 &#8211; 52% at only a 1 &#8211; 9% execution time overhead.</p></div> </div>
+<h2>SESSION: Parsing</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674364" title="Get the Full Text from the ACM Digital Library">Lightweight multi-language syntax transformation with parser parser combinators</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Rijnard van Tonder</li>
+<li class="nameList Last">Claire Le Goues</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Automatically transforming programs is hard, yet critical for automated program refactoring, rewriting, and repair. Multi-language syntax transformation is especially hard due to heterogeneous representations in syntax, parse trees, and abstract syntax trees (ASTs). Our insight is that the problem can be decomposed such that (1) a common grammar expresses the central context-free language (CFL) properties shared by many contemporary languages and (2) open extension points in the grammar allow customizing syntax (e.g., for balanced delimiters) and hooks in smaller parsers to handle language-specific syntax (e.g., for comments). Our key contribution operationalizes this decomposition using a Parser Parser combinator (PPC), a mechanism that generates parsers for matching syntactic fragments in source code by parsing declarative user-supplied templates. This allows our approach to detach from translating input programs to any particular abstract syntax tree representation, and lifts syntax rewriting to a modularly-defined parsing problem. A notable effect is that we skirt the complexity and burden of defining additional translation layers between concrete user input templates and an underlying abstract syntax representation. We demonstrate that these ideas admit efficient and declarative rewrite templates across 12 languages, and validate effectiveness of our approach by producing correct and desirable lightweight transformations on popular real-world projects (over 50 syntactic changes produced by our approach have been merged into 40+). Our declarative rewrite patterns require an order of magnitude less code compared to analog implementations in existing, language-specific tools.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674375" title="Get the Full Text from the ACM Digital Library">A typed, algebraic approach to parsing</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Neelakantan R. Krishnaswami</li>
+<li class="nameList Last">Jeremy Yallop</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In this paper, we recall the definition of the <em>context-free expressions</em> (or &#181;-regular expressions), an algebraic presentation of the context-free languages. Then, we define a core type system for the context-free expressions which gives a compositional criterion for identifying those context-free expressions which can be parsed unambiguously by predictive algorithms in the style of recursive descent or LL(1). </p> <p>Next, we show how these typed grammar expressions can be used to derive a parser combinator library which both guarantees linear-time parsing with no backtracking and single-token lookahead, and which respects the natural denotational semantics of context-free expressions. Finally, we show how to exploit the type information to write a staged version of this library, which produces dramatic increases in performance, even outperforming code generated by the standard parser generator tool ocamlyacc.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674376" title="Get the Full Text from the ACM Digital Library">Genie: a generator of natural language semantic parsers for virtual assistant commands</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Giovanni Campagna</li>
+<li class="nameList">Silei Xu</li>
+<li class="nameList">Mehrad Moradshahi</li>
+<li class="nameList">Richard Socher</li>
+<li class="nameList Last">Monica S. Lam</li>
+</ul>
+
+<div class="DLabstract"><div style="display:inline"><p>To understand diverse natural language commands, virtual assistants today are trained with numerous labor-intensive, manually annotated sentences. This paper presents a methodology and the Genie toolkit that can handle new compound commands with significantly less manual effort. We advocate formalizing the capability of virtual assistants with a Virtual Assistant Programming Language (VAPL) and using a neural semantic parser to translate natural language into VAPL code. Genie needs only a small realistic set of input sentences for validating the neural model. Developers write templates to synthesize data; Genie uses crowdsourced paraphrases and data augmentation, along with the synthesized data, to train a semantic parser. We also propose design principles that make VAPL languages amenable to natural language translation. We apply these principles to revise ThingTalk, the language used by the Almond virtual assistant. We use Genie to build the first semantic parser that can support compound virtual assistants commands with unquoted free-form parameters. Genie achieves a 62% accuracy on realistic user inputs. We demonstrate Genie&#8217;s generality by showing a 19% and 31% improvement over the previous state of the art on a music skill, aggregate functions, and access control.</p></div> </div>
+<h2>SESSION: Bug Finding and Testing I</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674377" title="Get the Full Text from the ACM Digital Library">Lazy counterfactual symbolic execution</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">William T. Hallahan</li>
+<li class="nameList">Anton Xue</li>
+<li class="nameList">Maxwell Troy Bland</li>
+<li class="nameList">Ranjit Jhala</li>
+<li class="nameList Last">Ruzica Piskac</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present counterfactual symbolic execution, a new approach that produces counterexamples that localize the causes of failure of static verification. First, we develop a notion of <em>symbolic weak head normal form</em> and use it to define lazy symbolic execution reduction rules for non-strict languages like Haskell. Second, we introduce <em>counterfactual branching</em>, a new method to identify places where verification fails due to imprecise specifications (as opposed to incorrect code). Third, we show how to use counterfactual symbolic execution to <em>localize</em> refinement type errors, by translating refinement types into assertions. We implement our approach in a new Haskell symbolic execution engine, G2, and evaluate it on a corpus of 7550 errors gathered from users of the LiquidHaskell refinement type system. We show that for <em>97.7%</em> of these errors, G2 is able to quickly find counterexamples that show how the code or specifications must be fixed to enable verification.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674378" title="Get the Full Text from the ACM Digital Library">Sound regular expression semantics for dynamic symbolic execution of JavaScript</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Blake Loring</li>
+<li class="nameList">Duncan Mitchell</li>
+<li class="nameList Last">Johannes Kinder</li>
+</ul>
+
+<div class="DLabstract"><div style="display:inline"><p>Support for regular expressions in symbolic execution-based tools for test generation and bug finding is insufficient. Common aspects of mainstream regular expression engines, such as backreferences or greedy matching, are ignored or imprecisely approximated, leading to poor test coverage or missed bugs. In this paper, we present a model for the complete regular expression language of ECMAScript 2015 (ES6), which is sound for dynamic symbolic execution of the test and exec functions. We model regular expression operations using string constraints and classical regular expressions and use a refinement scheme to address the problem of matching precedence and greediness. We implemented our model in ExpoSE, a dynamic symbolic execution engine for JavaScript, and evaluated it on over 1,000 Node.js packages containing regular expressions, demonstrating that the strategy is effective and can significantly increase the number of successful regular expression queries and therefore boost coverage.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674379" title="Get the Full Text from the ACM Digital Library">Effective floating-point analysis via weak-distance minimization</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Zhoulai Fu</li>
+<li class="nameList Last">Zhendong Su</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This work studies the connection between the problem of analyzing floating-point code and that of function minimization. It formalizes this connection as a reduction theory, where the semantics of a floating-point program is measured as a generalized metric, called weak distance, which faithfully captures any given analysis objective. It is theoretically guaranteed that minimizing the weak distance (e.g., via mathematical optimization) solves the underlying problem. This reduction theory provides a general framework for analyzing numerical code. Two important separate analyses from the literature, branch-coverage-based testing and quantifier-free floating-point satisfiability, are its instances. </p> <p> To further demonstrate our reduction theory&#8217;s generality and power, we develop three additional applications, including boundary value analysis, path reachability and overflow detection. Critically, these analyses do not rely on the modeling or abstraction of floating-point semantics; rather, they explore a program&#8217;s input space guided by runtime computation and minimization of the weak distance. This design, combined with the aforementioned theoretical guarantee, enables the application of the reduction theory to real-world floating-point code. In our experiments, our boundary value analysis is able to find all reachable boundary conditions of the GNU sin function, which is complex with several hundred lines of code, and our floating-point overflow detection detects a range of overflows and inconsistencies in the widely-used numerical library GSL, including two latent bugs that developers have already confirmed.</p></div> </div>
+<h2>SESSION: Parallelism and Super Computing I</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674370" title="Get the Full Text from the ACM Digital Library">Huron: hybrid false sharing detection and repair</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Tanvir Ahmed Khan</li>
+<li class="nameList">Yifan Zhao</li>
+<li class="nameList">Gilles Pokam</li>
+<li class="nameList">Barzan Mozafari</li>
+<li class="nameList Last">Baris Kasikci</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Writing efficient multithreaded code that can leverage the full parallelism of underlying hardware is difficult. A key impediment is insidious cache contention issues, such as false sharing. False sharing occurs when multiple threads from different cores access disjoint portions of the same cache line, causing it to go back and forth between the caches of different cores and leading to substantial slowdown. </p> <p> Alas, existing techniques for detecting and repairing false sharing have limitations. On the one hand, in-house (i.e., offline) techniques are limited to situations where falsely-shared data can be determined statically, and are otherwise inaccurate. On the other hand, in-production (i.e., run-time) techniques incur considerable overhead, as they constantly monitor a program to detect false sharing. In-production repair techniques are also limited by the types of modifications they can perform on the fly, and are therefore less effective. </p> <p> We present Huron, a hybrid in-house/in-production false sharing detection and repair system. Huron detects and repairs as much false sharing as it can in-house, and relies on its lightweight in-production mechanism for remaining cases. The key idea behind Huron&#39;s in-house false sharing repair is to group together data that is accessed by the same set of threads, to shift falsely-shared data to different cache lines. Huron&#39;s in-house repair technique can generalize to previously-unobserved inputs. Our evaluation shows that Huron can detect more false sharing bugs than all state-of-the-art techniques, and with a lower overhead. Huron improves runtime performance by 3.82&#215; on average (up to 11&#215;), which is 2.11-2.27&#215; better than the state of the art.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674371" title="Get the Full Text from the ACM Digital Library">Model-driven transformations for multi- and many-core CPUs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Martin Kong</li>
+<li class="nameList Last">Louis-No&#235;l Pouchet</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Modern polyhedral compilers excel at aggressively optimizing codes with static control parts, but the state-of-practice to find high-performance polyhedral transformations especially for different hardware targets still largely involves auto-tuning. In this work we propose a novel customizable polyhedral scheduling technique, with the aim of delivering high performance for several hardware targets. We design constraints and objectives that model several crucial aspects of performance such as stride optimization or the trade-off between parallelism and reuse, while considering important architectural features of the target machine. We evaluate our work using the PolyBench/C benchmark suite and experimentally validate it against large optimization spaces generated with the Pluto compiler on 3 representative architectures: an IBM Power9, an Intel Xeon Phi and an Intel Core-i9. Our results show we can achieve comparable or superior performance to Pluto on the majority of benchmarks, without implementing tiling in the source code nor using experimental autotuning.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674372" title="Get the Full Text from the ACM Digital Library">Parallelism-centric what-if and differential analyses</a>
+
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Adarsh Yoga</li>
+<li class="nameList Last">Santosh Nagarakatte</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This paper proposes TaskProf2, a parallelism profiler and an adviser for task parallel programs. As a parallelism profiler, TaskProf2 pinpoints regions with serialization bottlenecks, scheduling overheads, and secondary effects of execution. As an adviser, TaskProf2 identifies regions that matter in improving parallelism. To accomplish these objectives, it uses a performance model that captures series-parallel relationships between various dynamic execution fragments of tasks and includes fine-grained measurement of computation in those fragments. Using this performance model, TaskProf2&#8217;s what-if analyses identify regions that improve the parallelism of the program while considering tasking overheads. Its differential analyses perform fine-grained differencing of an oracle and the observed performance model to identify static regions experiencing secondary effects. We have used TaskProf2 to identify regions with serialization bottlenecks and secondary effects in many applications.</p></div> </div>
+<h2>SESSION: Type Systems I</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674373" title="Get the Full Text from the ACM Digital Library">Verifying message-passing programs with dependent behavioural types</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Alceste Scalas</li>
+<li class="nameList">Nobuko Yoshida</li>
+<li class="nameList Last">Elias Benussi</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Concurrent and distributed programming is notoriously hard. Modern languages and toolkits ease this difficulty by offering message-passing abstractions, such as actors (e.g., Erlang, Akka, Orleans) or processes (e.g., Go): they allow for simpler reasoning w.r.t. shared-memory concurrency, but do not ensure that a program implements a given specification. </p> <p>To address this challenge, it would be desirable to <em>specify and verify the intended behaviour of message-passing applications using types</em>, and ensure that, if a program type-checks and compiles, then it will run and communicate as desired. </p> <p>We develop this idea in theory and practice. We formalise a concurrent functional language &#955;<sub>&#8804;</sub><sup>&#960;</sup>, with a new blend of <em>behavioural types</em> (from &#960;-calculus theory), and <em>dependent function types</em> (from the Dotty programming language, a.k.a. the future Scala 3). Our theory yields four main payoffs: (1) it verifies safety and liveness properties of programs via <em>type-level model checking</em>; (2) unlike previous work, it accurately verifies channel-passing (covering a typical pattern of actor programs) and higher-order interaction (i.e., sending/receiving mobile code); (3) it is directly embedded in Dotty, as a toolkit called Effpi, offering a simplified actor-based API; (4) it enables an efficient runtime system for Effpi, for highly concurrent programs with millions of processes/actors.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674374" title="Get the Full Text from the ACM Digital Library">Toward efficient gradual typing for structural types via coercions</a>
+</h3>
+<ul class="DLauthors">
+ <li class="nameList First">Andre Kuhlenschmidt</li>
+<li class="nameList">Deyaaeldeen Almahallawi</li>
+<li class="nameList Last">Jeremy G. Siek</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Gradual typing combines static and dynamic typing in the same program. Siek et al. (2015) describe five criteria for gradually typed languages, including type soundness and the gradual guarantee. A significant number of languages have been developed in academia and industry that support some of these criteria (TypeScript, Typed Racket, Safe TypeScript, Transient Reticulated Python, Thorn, etc.) but relatively few support all the criteria (Nom, Gradualtalk, Guarded Reticulated Python). Of those that do, only Nom does so efficiently. The Nom experiment shows that one can achieve efficient gradual typing in languages with only nominal types, but many languages have structural types: function types, tuples, record and object types, generics, etc. </p> <p> In this paper we present a compiler, named Grift, that addresses the difficult challenge of efficient gradual typing for structural types. The input language includes a selection of difficult features: first-class functions, mutable arrays, and recursive types. We show that a close-to-the-metal implementation of run-time casts inspired by Henglein&#39;s coercions eliminates all of the catastrophic slowdowns without introducing significant average-case overhead. As a result, Grift exhibits lower overheads than those of Typed Racket.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674385" title="Get the Full Text from the ACM Digital Library">Bidirectional type checking for relational properties</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ezgi &#199;i&#231;ek</li>
+<li class="nameList">Weihao Qu</li>
+<li class="nameList">Gilles Barthe</li>
+<li class="nameList">Marco Gaboardi</li>
+<li class="nameList Last">Deepak Garg</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Relational type systems have been designed for several applications including information flow, differential privacy, and cost analysis. In order to achieve the best results, these systems often use relational refinements and relational effects to maximally exploit the similarity in the structure of the two programs being compared. Relational type systems are appealing for relational properties because they deliver simpler and more precise verification than what could be derived from typing the two programs separately. However, relational type systems do not yet achieve the practical appeal of their non-relational counterpart, in part because of the lack of a general foundation for implementing them. </p> <p> In this paper, we take a step in this direction by developing bidirectional relational type checking for systems with relational refinements and effects. Our approach achieves the benefits of bidirectional type checking, in a relational setting. In particular, it significantly reduces the need for typing annotations through the combination of type checking and type inference. In order to highlight the foundational nature of our approach, we develop bidirectional versions of several relational type systems which incrementally combine many different components needed for expressive relational analysis.</p></div> </div>
+<h2>SESSION: Bug Finding and Testing II</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674386" title="Get the Full Text from the ACM Digital Library">Parser-directed fuzzing</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Bj&#246;rn Mathis</li>
+<li class="nameList">Rahul Gopinath</li>
+<li class="nameList">Micha&#235;l Mera</li>
+<li class="nameList">Alexander Kampmann</li>
+<li class="nameList">Matthias H&#246;schele</li>
+<li class="nameList Last">Andreas Zeller</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>To be effective, software test generation needs to well cover the space of possible inputs. Traditional <em>fuzzing</em> generates large numbers of random inputs, which however are unlikely to contain keywords and other specific inputs of non-trivial input languages. <em>Constraint-based test generation</em> solves conditions of paths leading to uncovered code, but fails on programs with complex input conditions because of path explosion. In this paper, we present a test generation technique specifically directed at <em>input parsers.</em> We systematically produce inputs for the parser and track comparisons made; after every rejection, we satisfy the comparisons leading to rejection. This approach effectively covers the input space: Evaluated on five subjects, from CSV files to JavaScript, our pFuzzer prototype covers more tokens than both random-based and constraint-based approaches, while requiring no symbolic analysis and far fewer tests than random fuzzers.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674387" title="Get the Full Text from the ACM Digital Library">Continuously reasoning about programs using differential Bayesian inference</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Kihong Heo</li>
+<li class="nameList">Mukund Raghothaman</li>
+<li class="nameList">Xujie Si</li>
+<li class="nameList Last">Mayur Naik</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Programs often evolve by continuously integrating changes from multiple programmers. The effective adoption of program analysis tools in this continuous integration setting is hindered by the need to only report alarms relevant to a particular program change. We present a probabilistic framework, Drake, to apply program analyses to continuously evolving programs. Drake is applicable to a broad range of analyses that are based on deductive reasoning. The key insight underlying Drake is to compute a graph that concisely and precisely captures differences between the derivations of alarms produced by the given analysis on the program before and after the change. Performing Bayesian inference on the graph thereby enables to rank alarms by likelihood of relevance to the change. We evaluate Drake using Sparrow&#8212;a static analyzer that targets buffer-overrun, format-string, and integer-overflow errors&#8212;on a suite of ten widely-used C programs each comprising 13k&#8211;112k lines of code. Drake enables to discover all true bugs by inspecting only 30 alarms per benchmark on average, compared to 85 (3&#215; more) alarms by the same ranking approach in batch mode, and 118 (4&#215; more) alarms by a differential approach based on syntactic masking of alarms which also misses 4 of the 26 bugs overall.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674388" title="Get the Full Text from the ACM Digital Library">Sparse record and replay with controlled scheduling</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Christopher Lidbury</li>
+<li class="nameList Last">Alastair F. Donaldson</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Modern applications include many sources of nondeterminism, e.g. due to concurrency, signals, and system calls that interact with the external environment. Finding and reproducing bugs in the presence of this nondeterminism has been the subject of much prior work in three main areas: (1) controlled concurrency-testing, where a custom scheduler replaces the OS scheduler to find subtle bugs; (2) record and replay, where sources of nondeterminism are captured and logged so that a failing execution can be replayed for debugging purposes; and (3) dynamic analysis for the detection of data races. We present a dynamic analysis tool for C++ applications, tsan11rec, which brings these strands of work together by integrating controlled concurrency testing <em>and</em> record and replay into the tsan11 framework for C++11 data race detection. Our novel twist on record and replay is a <em>sparse</em> approach, where the sources of nondeterminism to record can be configured per application. We show that our approach is effective at finding subtle concurrency bugs in small applications; is competitive in terms of performance with the state-of-the-art record and replay tool rr on larger applications; succeeds (due to our sparse approach) in replaying the I/O-intensive Zandronum and QuakeSpasm video games, which are out of scope for rr; but (due to limitations of our sparse approach) cannot faithfully replay applications where memory layout nondeterminism significantly affects application behaviour.</p></div> </div>
+<h2>SESSION: Parallelism and Super Computing II</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674389" title="Get the Full Text from the ACM Digital Library">Sparse computation data dependence simplification for efficient compiler-generated inspectors</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Mahdi Soltan Mohammadi</li>
+<li class="nameList">Tomofumi Yuki</li>
+<li class="nameList">Kazem Cheshmi</li>
+<li class="nameList">Eddie C. Davis</li>
+<li class="nameList">Mary Hall</li>
+<li class="nameList">Maryam Mehri Dehnavi</li>
+<li class="nameList">Payal Nandy</li>
+<li class="nameList">Catherine Olschanowsky</li>
+<li class="nameList">Anand Venkat</li>
+<li class="nameList Last">Michelle Mills Strout</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This paper presents a combined compile-time and runtime loop-carried dependence analysis of sparse matrix codes and evaluates its performance in the context of wavefront parallellism. Sparse computations incorporate indirect memory accesses such as x[col[j]] whose memory locations cannot be determined until runtime. The key contributions of this paper are two compile-time techniques for significantly reducing the overhead of runtime dependence testing: (1) identifying new equality constraints that result in more efficient runtime inspectors, and (2) identifying subset relations between dependence constraints such that one dependence test subsumes another one that is therefore eliminated. New equality constraints discovery is enabled by taking advantage of domain-specific knowledge about index arrays, such as col[j]. These simplifications lead to automatically-generated inspectors that make it practical to parallelize such computations. We analyze our simplification methods for a collection of seven sparse computations. The evaluation shows our methods reduce the complexity of the runtime inspectors significantly. Experimental results for a collection of five large matrices show parallel speedups ranging from 2x to more than 8x running on a 8-core CPU.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674380" title="Get the Full Text from the ACM Digital Library">Modular divide-and-conquer parallelization of nested loops</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Azadeh Farzan</li>
+<li class="nameList Last">Victor Nicolet</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We propose a methodology for automatic generation of divide-and-conquer parallel implementations of sequential nested loops. We focus on a class of loops that traverse read-only multidimensional collections (lists or arrays) and compute a function over these collections. Our approach is modular, in that, the inner loop nest is abstracted away to produce a simpler loop nest for parallelization. The summarized version of the loop nest is then parallelized. The main challenge addressed by this paper is that to perform the code transformations necessary in each step, the loop nest may have to be augmented (automatically) with extra computation to make possible the abstraction and/or the parallelization tasks. We present theoretical results to justify the correctness of our modular approach, and algorithmic solutions for automation. Experimental results demonstrate that our approach can parallelize highly non-trivial loop nests efficiently.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674381" title="Get the Full Text from the ACM Digital Library">Generating piecewise-regular code from irregular structures</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Travis Augustine</li>
+<li class="nameList">Janarthanan Sarma</li>
+<li class="nameList">Louis-No&#235;l Pouchet</li>
+<li class="nameList Last">Gabriel Rodr&#237;guez</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Irregular data structures, as exemplified with sparse matrices, have proved to be essential in modern computing. Numerous sparse formats have been investigated to improve the overall performance of Sparse Matrix-Vector multiply (SpMV). But in this work we propose instead to take a fundamentally different approach: to automatically build sets of regular sub-computations by mining for regular sub-regions in the irregular data structure. Our approach leads to code that is specialized to the sparsity structure of the input matrix, but which does not need anymore any indirection array, thereby improving SIMD vectorizability. We particularly focus on small sparse structures (below 10M nonzeros), and demonstrate substantial performance improvements and compaction capabilities compared to a classical CSR implementation and Intel MKL IE&#39;s SpMV implementation, evaluating on 200+ different matrices from the SuiteSparse repository.</p></div> </div>
+<h2>SESSION: Type Systems II</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674382" title="Get the Full Text from the ACM Digital Library">ILC: a calculus for composable, computational cryptography</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Kevin Liao</li>
+<li class="nameList">Matthew A. Hammer</li>
+<li class="nameList Last">Andrew Miller</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The universal composability (UC) framework is the established standard for analyzing cryptographic protocols in a modular way, such that security is preserved under concurrent composition with arbitrary other protocols. However, although UC is widely used for on-paper proofs, prior attempts at systemizing it have fallen short, either by using a symbolic model (thereby ruling out computational reduction proofs), or by limiting its expressiveness. </p> <p>In this paper, we lay the groundwork for building a concrete, executable implementation of the UC framework. Our main contribution is a process calculus, dubbed the Interactive Lambda Calculus (ILC). ILC faithfully captures the computational model underlying UC&#8212;interactive Turing machines (ITMs)&#8212;by adapting ITMs to a subset of the &#960;-calculus through an affine typing discipline. In other words, <em>well-typed ILC programs are expressible as ITMs.</em> In turn, ILC&#8217;s strong confluence property enables reasoning about cryptographic security reductions. We use ILC to develop a simplified implementation of UC called SaUCy.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674383" title="Get the Full Text from the ACM Digital Library">Proving differential privacy with shadow execution</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Yuxin Wang</li>
+<li class="nameList">Zeyu Ding</li>
+<li class="nameList">Guanhong Wang</li>
+<li class="nameList">Daniel Kifer</li>
+<li class="nameList Last">Danfeng Zhang</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Recent work on formal verification of differential privacy shows a trend toward usability and expressiveness -- generating a correctness proof of sophisticated algorithm while minimizing the annotation burden on programmers. Sometimes, combining those two requires substantial changes to program logics: one recent paper is able to verify Report Noisy Max automatically, but it involves a complex verification system using customized program logics and verifiers. </p> <p> In this paper, we propose a new proof technique, called shadow execution, and embed it into a language called ShadowDP. ShadowDP uses shadow execution to generate proofs of differential privacy with very few programmer annotations and without relying on customized logics and verifiers. In addition to verifying Report Noisy Max, we show that it can verify a new variant of Sparse Vector that reports the gap between some noisy query answers and the noisy threshold. Moreover, ShadowDP reduces the complexity of verification: for all of the algorithms we have evaluated, type checking and verification in total takes at most 3 seconds, while prior work takes minutes on the same algorithms.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674384" title="Get the Full Text from the ACM Digital Library">Data-trace types for distributed stream processing systems</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Konstantinos Mamouras</li>
+<li class="nameList">Caleb Stanford</li>
+<li class="nameList">Rajeev Alur</li>
+<li class="nameList">Zachary G. Ives</li>
+<li class="nameList Last">Val Tannen</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Distributed architectures for efficient processing of streaming data are increasingly critical to modern information processing systems. The goal of this paper is to develop type-based programming abstractions that facilitate correct and efficient deployment of a logical specification of the desired computation on such architectures. In the proposed model, each communication link has an associated type specifying tagged data items along with a dependency relation over tags that captures the logical partial ordering constraints over data items. The semantics of a (distributed) stream processing system is then a function from input data traces to output data traces, where a data trace is an equivalence class of sequences of data items induced by the dependency relation. This data-trace transduction model generalizes both acyclic synchronous data-flow and relational query processors, and can specify computations over data streams with a rich variety of partial ordering and synchronization characteristics. We then describe a set of programming templates for data-trace transductions: abstractions corresponding to common stream processing tasks. Our system automatically maps these high-level programs to a given topology on the distributed implementation platform Apache Storm while preserving the semantics. Our experimental evaluation shows that (1) while automatic parallelization deployed by existing systems may not preserve semantics, particularly when the computation is sensitive to the ordering of data items, our programming abstractions allow a natural specification of the query that contains a mix of ordering constraints while guaranteeing correct deployment, and (2) the throughput of the automatically compiled distributed code is comparable to that of hand-crafted distributed implementations.</p></div> </div>
+<h2>SESSION: ML</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674395" title="Get the Full Text from the ACM Digital Library">An inductive synthesis framework for verifiable reinforcement learning</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">He Zhu</li>
+<li class="nameList">Zikang Xiong</li>
+<li class="nameList">Stephen Magill</li>
+<li class="nameList Last">Suresh Jagannathan</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Despite the tremendous advances that have been made in the last decade on developing useful machine-learning applications, their wider adoption has been hindered by the lack of strong assurance guarantees that can be made about their behavior. In this paper, we consider how formal verification techniques developed for traditional software systems can be repurposed for verification of reinforcement learning-enabled ones, a particularly important class of machine learning systems. Rather than enforcing safety by examining and altering the structure of a complex neural network implementation, our technique uses blackbox methods to synthesizes deterministic programs, simpler, more interpretable, approximations of the network that can nonetheless guarantee desired safety properties are preserved, even when the network is deployed in unanticipated or previously unobserved environments. Our methodology frames the problem of neural network verification in terms of a counterexample and syntax-guided inductive synthesis procedure over these programs. The synthesis procedure searches for both a deterministic program and an inductive invariant over an infinite state transition system that represents a specification of an application&#39;s control logic. Additional specifications defining environment-based constraints can also be provided to further refine the search space. Synthesized programs deployed in conjunction with a neural network implementation dynamically enforce safety conditions by monitoring and preventing potentially unsafe actions proposed by neural policies. Experimental results over a wide range of cyber-physical applications demonstrate that software-inspired formal verification techniques can be used to realize trustworthy reinforcement learning systems with low overhead.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674396" title="Get the Full Text from the ACM Digital Library">Programming support for autonomizing software</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Wen-Chuan Lee</li>
+<li class="nameList">Peng Liu</li>
+<li class="nameList">Yingqi Liu</li>
+<li class="nameList">Shiqing Ma</li>
+<li class="nameList Last">Xiangyu Zhang</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Most traditional software systems are not built with the artificial intelligence support (AI) in mind. Among them, some may require human interventions to operate, e.g., the manual specification of the parameters in the data processing programs, or otherwise, would behave poorly. We propose a novel framework called Autonomizer to autonomize these systems by installing the AI into the traditional programs. Autonomizeris general so it can be applied to many real-world applications. We provide the primitives and the run-time support, where the primitives abstract common tasks of autonomization and the runtime support realizes them transparently. With the support of Autonomizer, the users can gain the AI support with little engineering efforts. Like many other AI applications, the challenge lies in the feature selection, which we address by proposing multiple automated strategies based on the program analysis. Our experiment results on nine real-world applications show that the autonomization only requires adding a few lines to the source code.Besides, for the data-processing programs, Autonomizer improves the output quality by 161% on average over the default settings. For the interactive programs such as game/driving,Autonomizer achieves higher success rate with lower training time than existing autonomized programs.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674397" title="Get the Full Text from the ACM Digital Library">Wootz: a compiler-based framework for fast CNN pruning via composability</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Hui Guan</li>
+<li class="nameList">Xipeng Shen</li>
+<li class="nameList Last">Seung-Hwan Lim</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Convolutional Neural Networks (CNN) are widely used for Deep Learning tasks. CNN pruning is an important method to adapt a large CNN model trained on general datasets to fit a more specialized task or a smaller device. The key challenge is on deciding which filters to remove in order to maximize the quality of the pruned networks while satisfying the constraints. It is time-consuming due to the enormous configuration space and the slowness of CNN training. </p> <p> The problem has drawn many efforts from the machine learning field, which try to reduce the set of network configurations to explore. This work tackles the problem distinctively from a programming systems perspective, trying to speed up the evaluations of the remaining configurations through computation reuse via a compiler-based framework. We empirically uncover the existence of composability in the training of a collection of pruned CNN models, and point out the opportunities for computation reuse. We then propose composability-based CNN pruning, and design a compression-based algorithm to efficiently identify the set of CNN layers to pre-train for maximizing their reuse benefits in CNN pruning. We further develop a compiler-based framework named Wootz, which, for an arbitrary CNN, automatically generates code that builds a Teacher-Student scheme to materialize composability-based pruning. Experiments show that network pruning enabled by Wootz shortens the state-of-art pruning process by up to 186X while producing significantly better pruning results.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674398" title="Get the Full Text from the ACM Digital Library">Optimization and abstraction: a synergistic approach for analyzing neural network robustness</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Greg Anderson</li>
+<li class="nameList">Shankara Pailoor</li>
+<li class="nameList">Isil Dillig</li>
+<li class="nameList Last">Swarat Chaudhuri</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In recent years, the notion of local robustness (or robustness for short) has emerged as a desirable property of deep neural networks. Intuitively, robustness means that small perturbations to an input do not cause the network to perform misclassifications. In this paper, we present a novel algorithm for verifying robustness properties of neural networks. Our method synergistically combines gradient-based optimization methods for counterexample search with abstraction-based proof search to obtain a sound and (&#948; -)complete decision procedure. Our method also employs a data-driven approach to learn a verification policy that guides abstract interpretation during proof search. We have implemented the proposed approach in a tool called Charon and experimentally evaluated it on hundreds of benchmarks. Our experiments show that the proposed approach significantly outperforms three state-of-the-art tools, namely AI^2, Reluplex, and Reluval.</p></div> </div>
+<h2>SESSION: Specification</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674399" title="Get the Full Text from the ACM Digital Library">Unsupervised learning of API aliasing specifications</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Jan Eberhardt</li>
+<li class="nameList">Samuel Steffen</li>
+<li class="nameList">Veselin Raychev</li>
+<li class="nameList Last">Martin Vechev</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Real world applications make heavy use of powerful libraries and frameworks, posing a significant challenge for static analysis as the library implementation may be very complex or unavailable. Thus, obtaining specifications that summarize the behaviors of the library is important as it enables static analyzers to precisely track the effects of APIs on the client program, without requiring the actual API implementation. </p> <p> In this work, we propose a novel method for discovering aliasing specifications of APIs by learning from a large dataset of programs. Unlike prior work, our method does not require manual annotation, access to the library&#39;s source code or ability to run its APIs. Instead, it learns specifications in a fully unsupervised manner, by statically observing usages of APIs in the dataset. The core idea is to learn a probabilistic model of interactions between API methods and aliasing objects, enabling identification of additional likely aliasing relations, and to then infer aliasing specifications of APIs that explain these relations. The learned specifications are then used to augment an API-aware points-to analysis. </p> <p> We implemented our approach in a tool called USpec and used it to automatically learn aliasing specifications from millions of source code files. USpec learned over 2000 specifications of various Java and Python APIs, in the process improving the results of the points-to analysis and its clients.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674390" title="Get the Full Text from the ACM Digital Library">Scalable taint specification inference with big code</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Victor Chibotaru</li>
+<li class="nameList">Benjamin Bichsel</li>
+<li class="nameList">Veselin Raychev</li>
+<li class="nameList Last">Martin Vechev</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present a new scalable, semi-supervised method for inferring taint analysis specifications by learning from a large dataset of programs. Taint specifications capture the role of library APIs (source, sink, sanitizer) and are a critical ingredient of any taint analyzer that aims to detect security violations based on information flow. </p> <p>The core idea of our method is to formulate the taint specification learning problem as a linear optimization task over a large set of information flow constraints. The resulting constraint system can then be efficiently solved with state-of-the-art solvers. Thanks to its scalability, our method can infer many new and interesting taint specifications by simultaneously learning from a large dataset of programs (e.g., as found on GitHub), while requiring few manual annotations. </p> <p>We implemented our method in an end-to-end system, called Seldon, targeting Python, a language where static specification inference is particularly hard due to lack of typing information. We show that Seldon is practically effective: it learned almost 7,000 API roles from over 210,000 candidate APIs with very little supervision (less than 300 annotations) and with high estimated precision (67%). Further, using the learned specifications, our taint analyzer flagged more than 20,000 violations in open source projects, 97% of which were undetectable without the inferred specifications.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674391" title="Get the Full Text from the ACM Digital Library">Learning stateful preconditions modulo a test generator</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Angello Astorga</li>
+<li class="nameList">P. Madhusudan</li>
+<li class="nameList">Shambwaditya Saha</li>
+<li class="nameList">Shiyu Wang</li>
+<li class="nameList Last">Tao Xie</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In this paper, we present a novel learning framework for inferring stateful preconditions (i.e., preconditions constraining not only primitive-type inputs but also non-primitive-type object states) modulo a test generator, where the quality of the preconditions is based on their safety and maximality with respect to the test generator. We instantiate the learning framework with a specific learner and test generator to realize a precondition synthesis tool for C#. We use an extensive evaluation to show that the tool is highly effective in synthesizing preconditions for avoiding exceptions as well as synthesizing conditions under which methods commute.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674392" title="Get the Full Text from the ACM Digital Library">SLING: using dynamic analysis to infer program invariants in separation logic</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ton Chanh Le</li>
+<li class="nameList">Guolong Zheng</li>
+<li class="nameList Last">ThanhVu Nguyen</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We introduce a new dynamic analysis technique to discover invariants in separation logic for heap-manipulating programs. First, we use a debugger to obtain rich program execution traces at locations of interest on sample inputs. These traces consist of heap and stack information of variables that point to dynamically allocated data structures. Next, we iteratively analyze separate memory regions related to each pointer variable and search for a formula over predefined heap predicates in separation logic to model these regions. Finally, we combine the computed formulae into an invariant that describes the shape of explored memory regions. </p> <p> We present SLING, a tool that implements these ideas to automatically generate invariants in separation logic at arbitrary locations in C programs, e.g., program pre and postconditions and loop invariants. Preliminary results on existing benchmarks show that SLING can efficiently generate correct and useful invariants for programs that manipulate a wide variety of complex data structures.</p></div> </div>
+<h2>SESSION: Static Analysis</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674393" title="Get the Full Text from the ACM Digital Library">Abstract interpretation under speculative execution</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Meng Wu</li>
+<li class="nameList Last">Chao Wang</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Analyzing the behavior of a program running on a processor that supports speculative execution is crucial for applications such as execution time estimation and side channel detection. Unfortunately, existing static analysis techniques based on abstract interpretation do not model speculative execution since they focus on functional properties of a program while speculative execution does not change the functionality. To fill the gap, we propose a method to make abstract interpretation sound under speculative execution. There are two contributions. First, we introduce the notion of virtual control flow to augment instructions that may be speculatively executed and thus affect subsequent instructions. Second, to make the analysis efficient, we propose optimizations to handle merges and loops and to safely bound the speculative execution depth. We have implemented and evaluated the proposed method in a static cache analysis for execution time estimation and side channel detection. Our experiments show that the new method, while guaranteed to be sound under speculative execution, outperforms state-of-the-art abstract interpretation techniques that may be unsound.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674394" title="Get the Full Text from the ACM Digital Library">A fast analytical model of fully associative caches</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Tobias Gysi</li>
+<li class="nameList">Tobias Grosser</li>
+<li class="nameList">Laurin Brandner</li>
+<li class="nameList Last">Torsten Hoefler</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>While the cost of computation is an easy to understand local property, the cost of data movement on cached architectures depends on global state, does not compose, and is hard to predict. As a result, programmers often fail to consider the cost of data movement. Existing cache models and simulators provide the missing information but are computationally expensive. We present a lightweight cache model for fully associative caches with least recently used (LRU) replacement policy that gives fast and accurate results. We count the cache misses without explicit enumeration of all memory accesses by using symbolic counting techniques twice: 1) to derive the stack distance for each memory access and 2) to count the memory accesses with stack distance larger than the cache size. While this technique seems infeasible in theory, due to non-linearities after the first round of counting, we show that the counting problems are sufficiently linear in practice. Our cache model often computes the results within seconds and contrary to simulation the execution time is mostly problem size independent. Our evaluation measures modeling errors below 0.6% on real hardware. By providing accurate data placement information we enable memory hierarchy aware software development.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674305" title="Get the Full Text from the ACM Digital Library">Sound, fine-grained traversal fusion for heterogeneous trees</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Laith Sakka</li>
+<li class="nameList">Kirshanthan Sundararajah</li>
+<li class="nameList">Ryan R. Newton</li>
+<li class="nameList Last">Milind Kulkarni</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Applications in many domains are based on a series of traversals of tree structures, and <em>fusing</em> these traversals together to reduce the total number of passes over the tree is a common, important optimization technique. In applications such as compilers and render trees, these trees are heterogeneous: different nodes of the tree have different types. Unfortunately, prior work for fusing traversals falls short in different ways: they do not handle heterogeneity; they require using domain-specific languages to express an application; they rely on the programmer to aver that fusing traversals is safe, without any soundness guarantee; or they can only perform coarse-grain fusion, leading to missed fusion opportunities. This paper addresses these shortcomings to build a framework for fusing traversals of heterogeneous trees that is automatic, sound, and fine-grained. We show across several case studies that our approach is able to allow programmers to write simple, intuitive traversals, and then automatically fuse them to substantially improve performance.</p></div> </div>
+<h3> 
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674306" title="Get the Full Text from the ACM Digital Library">Size-change termination as a contract: dynamically and statically enforcing termination for higher-order programs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ph&#250;c C. Nguy&#7877;n</li>
+<li class="nameList">Thomas Gilray</li>
+<li class="nameList">Sam Tobin-Hochstadt</li>
+<li class="nameList Last">David Van Horn</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Termination is an important but undecidable program property, which has led to a large body of work on static methods for conservatively predicting or enforcing termination. One such method is the <em>size-change termination</em> approach of Lee, Jones, and Ben-Amram, which operates in two phases: (1) abstract programs into &#8220;size-change graphs,&#8221; and (2) check these graphs for the <em>size-change property</em>: the existence of paths that lead to infinite decreasing sequences. </p> <p>We transpose these two phases with an operational semantics that accounts for the <em>run-time enforcement of the size-change property</em>, postponing (or entirely avoiding) program abstraction. This choice has two key consequences: (1) size-change termination can be checked at run-time and (2) termination can be rephrased as a safety property analyzed using existing methods for systematic abstraction. </p> <p>We formulate run-time size-change checks as <em>contracts</em> in the style of Findler and Felleisen. The result compliments existing contracts that enforce partial correctness specifications to obtain <em>contracts for total correctness</em>. Our approach combines the robustness of the size-change principle for termination with the precise information available at run-time. It has tunable overhead and can check for nontermination without the conservativeness necessary in static checking. To obtain a sound and computable termination analysis, we apply existing abstract interpretation techniques directly to the operational semantics, avoiding the need for custom abstractions for termination. The resulting analyzer is competitive with with existing, purpose-built analyzers.</p></div> </div>
+<h2>SESSION: Dynamics: Analysis and Compilation</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674307" title="Get the Full Text from the ACM Digital Library">SemCluster: clustering of imperative programming assignments based on quantitative semantic features</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">David M. Perry</li>
+<li class="nameList">Dohyeong Kim</li>
+<li class="nameList">Roopsha Samanta</li>
+<li class="nameList Last">Xiangyu Zhang</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>A fundamental challenge in automated reasoning about programming assignments at scale is clustering student submissions based on their underlying algorithms. State-of-the-art clustering techniques are sensitive to control structure variations, cannot cluster buggy solutions with similar correct solutions, and either require expensive pair-wise program analyses or training efforts. We propose a novel technique that can cluster small imperative programs based on their algorithmic essence: (A) how the input space is partitioned into equivalence classes and (B) how the problem is uniquely addressed within individual equivalence classes. We capture these algorithmic aspects as two quantitative semantic program features that are merged into a program&#39;s vector representation. Programs are then clustered using their vector representations. The computation of our first semantic feature leverages model counting to identify the number of inputs belonging to an input equivalence class. The computation of our second semantic feature abstracts the program&#39;s data flow by tracking the number of occurrences of a unique pair of consecutive values of a variable during its lifetime. The comprehensive evaluation of our tool SemCluster on benchmarks drawn from solutions to small programming assignments shows that SemCluster (1) generates far fewer clusters than other clustering techniques, (2) precisely identifies distinct solution strategies, and (3) boosts the performance of clustering-based program repair, all within a reasonable amount of time.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674308" title="Get the Full Text from the ACM Digital Library">Computing summaries of string loops in C for better testing and refactoring</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Timotej Kapus</li>
+<li class="nameList">Oren Ish-Shalom</li>
+<li class="nameList">Shachar Itzhaky</li>
+<li class="nameList">Noam Rinetzky</li>
+<li class="nameList Last">Cristian Cadar</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Analysing and comprehending C programs that use strings is hard: using standard library functions for manipulating strings is not enforced and programs often use complex loops for the same purpose. We introduce the notion of memoryless loops that capture some of these string loops and present a counterexample-guided synthesis approach to summarise memoryless loops using C standard library functions, which has applications to testing, optimisation and refactoring. </p> <p> We prove our summarisation is correct for arbitrary input strings and evaluate it on a database of loops we gathered from thirteen open-source programs. Our approach can summarise over two thirds of memoryless loops in less than five minutes of computation time per loop. We then show that these summaries can be used to (1) improve symbolic execution (2) optimise native code, and (3) refactor code.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674309" title="Get the Full Text from the ACM Digital Library">Reusable inline caching for JavaScript performance</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Jiho Choi</li>
+<li class="nameList">Thomas Shull</li>
+<li class="nameList Last">Josep Torrellas</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>JavaScript performance is paramount to a user&#8217;s browsing experience. Browser vendors have gone to great lengths to improve JavaScript&#8217;s steady-state performance. This has led to sophisticated web applications. However, as users increasingly expect instantaneous page load times, another important goal for JavaScript engines is to attain minimal startup times. </p> <p> In this paper, we reduce the startup time of JavaScript programs by enhancing the reuse of compilation and optimization information across different executions. Specifically, we propose a new scheme to increase the startup performance of Inline Caching (IC), a key optimization for dynamic type systems. The idea is to represent a substantial portion of the IC information in an execution in a context-independent way, and reuse it in subsequent executions. We call our enhanced IC design Reusable Inline Caching (RIC). We integrate RIC into the state-of-the-art Google V8 JavaScript engine and measure its impact on the initialization time of popular JavaScript libraries. By recycling IC information collected from a previous execution, RIC reduces the average initialization time per library by 17%.</p></div> </div>
+<h2>SESSION: Performance</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674300" title="Get the Full Text from the ACM Digital Library">Composable, sound transformations of nested recursion and loops</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Kirshanthan Sundararajah</li>
+<li class="nameList Last">Milind Kulkarni</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Scheduling transformations reorder a program&#8217;s operations to improve locality and/or parallelism. The polyhedral model is a general framework for composing and applying <em>instance-wise</em> scheduling transformations for loop-based programs, but there is no analogous framework for recursive programs. This paper presents an approach for composing and applying scheduling transformations&#8212;like inlining, interchange, and code motion&#8212;to nested recursive programs. This paper describes the phases of the approach&#8212;representing dynamic instances, composing and applying transformations, reasoning about correctness&#8212;and shows that these techniques can verify the soundness of composed transformations.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674301" title="Get the Full Text from the ACM Digital Library">Low-latency graph streaming using compressed purely-functional trees</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Laxman Dhulipala</li>
+<li class="nameList">Guy E. Blelloch</li>
+<li class="nameList Last">Julian Shun</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>There has been a growing interest in the graph-streaming setting where a continuous stream of graph updates is mixed with graph queries. In principle, purely-functional trees are an ideal fit for this setting as they enable safe parallelism, lightweight snapshots, and strict serializability for queries. However, directly using them for graph processing leads to significant space overhead and poor cache locality. </p> <p> This paper presents C-trees, a compressed purely-functional search tree data structure that significantly improves on the space usage and locality of purely-functional trees. We design theoretically-efficient and practical algorithms for performing batch updates to C-trees, and also show that we can store massive dynamic real-world graphs using only a few bytes per edge, thereby achieving space usage close to that of the best static graph processing frameworks. </p> <p> To study the efficiency and applicability of our data structure, we designed Aspen, a graph-streaming framework that extends the interface of Ligra with operations for updating graphs. We show that Aspen is faster than two state-of-the-art graph-streaming systems, Stinger and LLAMA, while requiring less memory, and is competitive in performance with the state-of-the-art static graph frameworks, Galois, GAP, and Ligra+. With Aspen, we are able to efficiently process the largest publicly-available graph with over two hundred billion edges in the graph-streaming setting using a single commodity multicore server with 1TB of memory.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674302" title="Get the Full Text from the ACM Digital Library">Co-optimizing memory-level parallelism and cache-level parallelism</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Xulong Tang</li>
+<li class="nameList">Mahmut Taylan Kandemir</li>
+<li class="nameList">Mustafa Karakoy</li>
+<li class="nameList Last">Meenakshi Arunachalam</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Minimizing cache misses has been the traditional goal in optimizing cache performance using compiler based techniques. However, continuously increasing dataset sizes combined with large numbers of cache banks and memory banks connected using on-chip networks in emerging manycores/accelerators makes cache hit&#8211;miss latency optimization as important as cache miss rate minimization. In this paper, we propose compiler support that optimizes both the latencies of last-level cache (LLC) hits and the latencies of LLC misses. Our approach tries to achieve this goal by improving the parallelism exhibited by LLC hits and LLC misses. More specifically, it tries to maximize both cache-level parallelism (CLP) and memory-level parallelism (MLP). This paper presents different incarnations of our approach, and evaluates them using a set of 12 multithreaded applications. Our results indicate that (i) optimizing MLP first and CLP later brings, on average, 11.31% performance improvement over an approach that already minimizes the number of LLC misses, and (ii) optimizing CLP first and MLP later brings 9.43% performance improvement. In comparison, balancing MLP and CLP brings 17.32% performance improvement on average.</p></div> </div>
+<h2>SESSION: Type Systems III</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674303" title="Get the Full Text from the ACM Digital Library">Characterising renaming within OCaml&#8217;s module system: theory and implementation</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Reuben N. S. Rowe</li>
+<li class="nameList">Hugo F&#233;r&#233;e</li>
+<li class="nameList">Simon J. Thompson</li>
+<li class="nameList Last">Scott Owens</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present an abstract, set-theoretic denotational semantics for a significant subset of OCaml and its module system, allowing to reason about the correctness of renaming value bindings. Our semantics captures information about the binding structure of programs, as well as about which declarations are related by the use of different language constructs (e.g. functors, module types and module constraints). Correct renamings are precisely those that preserve this structure. We show that our abstract semantics is sound with respect to a (domain-theoretic) denotational model of the operational behaviour of programs, and that it allows us to prove various high-level, intuitive properties of renamings. This formal framework has been implemented in a prototype refactoring tool for OCaml that performs renaming.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674304" title="Get the Full Text from the ACM Digital Library">Type-level computations for Ruby libraries</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Milod Kazerounian</li>
+<li class="nameList">Sankha Narayan Guria</li>
+<li class="nameList">Niki Vazou</li>
+<li class="nameList">Jeffrey S. Foster</li>
+<li class="nameList Last">David Van Horn</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Many researchers have explored ways to bring static typing to dynamic languages. However, to date, such systems are not precise enough when types depend on values, which often arises when using certain Ruby libraries. For example, the type safety of a database query in Ruby on Rails depends on the table and column names used in the query. To address this issue, we introduce CompRDL, a type system for Ruby that allows library method type signatures to include <em>type-level computations</em> (or <em>comp types</em> for short). Combined with singleton types for table and column names, comp types let us give database query methods type signatures that compute a table&#8217;s schema to yield very precise type information. Comp types for hash, array, and string libraries can also increase precision and thereby reduce the need for type casts. We formalize CompRDL and prove its type system sound. Rather than type check the bodies of library methods with comp types&#8212;those methods may include native code or be complex&#8212;CompRDL inserts run-time checks to ensure library methods abide by their computed types. We evaluated CompRDL by writing annotations with type-level computations for several Ruby core libraries and database query APIs. We then used those annotations to type check two popular Ruby libraries and four Ruby on Rails web apps. We found the annotations were relatively compact and could successfully type check 132 methods across our subject programs. Moreover, the use of type-level computations allowed us to check more expressive properties, with fewer manually inserted casts, than was possible without type-level computations. In the process, we found two type errors and a documentation error that were confirmed by the developers. Thus, we believe CompRDL is an important step forward in bringing precise static type checking to dynamic languages.</p></div> </div>
+<h2>SESSION: Systems I</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674315" title="Get the Full Text from the ACM Digital Library">Replication-aware linearizability</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Chao Wang</li>
+<li class="nameList">Constantin Enea</li>
+<li class="nameList">Suha Orhun Mutluergil</li>
+<li class="nameList Last">Gustavo Petri</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Distributed systems often replicate data at multiple locations to achieve availability despite network partitions. These systems accept updates at any replica and propagate them asynchronously to every other replica. Conflict-Free Replicated Data Types (CRDTs) provide a principled approach to the problem of ensuring that replicas are eventually consistent despite the asynchronous delivery of updates. </p> <p> We address the problem of specifying and verifying CRDTs, introducing a new correctness criterion called Replication-Aware Linearizability. This criterion is inspired by linearizability, the de-facto correctness criterion for (shared-memory) concurrent data structures. We argue that this criterion is both simple to understand, and it fits most known implementations of CRDTs. We provide a proof methodology to show that a CRDT satisfies replication-aware linearizability that we apply on a wide range of implementations. Finally, we show that our criterion can be leveraged to reason modularly about the composition of CRDTs.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674316" title="Get the Full Text from the ACM Digital Library">DFix: automatically fixing timing bugs in distributed systems</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Guangpu Li</li>
+<li class="nameList">Haopeng Liu</li>
+<li class="nameList">Xianglan Chen</li>
+<li class="nameList">Haryadi S. Gunawi</li>
+<li class="nameList Last">Shan Lu</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Distributed systems nowadays are the backbone of computing society, and are expected to have high availability. Unfortunately, distributed timing bugs, a type of bugs triggered by non-deterministic timing of messages and node crashes, widely exist. They lead to many production-run failures, and are difficult to reason about and patch. Although recently proposed techniques can automatically detect these bugs, how to automatically and correctly fix them still remains as an open problem. This paper presents DFix, a tool that automatically processes distributed timing bug reports, statically analyzes the buggy system, and produces patches. Our evaluation shows that DFix is effective in fixing real-world distributed timing bugs.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674317" title="Get the Full Text from the ACM Digital Library">Ignis: scaling distribution-oblivious systems with light-touch distribution</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Nikos Vasilakis</li>
+<li class="nameList">Ben Karel</li>
+<li class="nameList">Yash Palkhiwala</li>
+<li class="nameList">John Sonchack</li>
+<li class="nameList">Andr&#233; DeHon</li>
+<li class="nameList Last">Jonathan M. Smith</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Distributed systems offer notable benefits over their centralized counterparts. Reaping these benefits, however, requires burdensome developer effort to identify and rewrite bottlenecked components. Light-touch distribution is a new approach that converts a legacy system into a distributed one using automated transformations. Transformations operate at the boundaries of bottlenecked modules and are parametrizable by light distribution recipes that guide the intended semantics of the resulting distribution. Transformations and recipes operate at runtime, adapting to load by scaling out only saturated components. Our Ignis prototype shows substantial speedups, attractive elasticity characteristics, and memory gains over full replication, achieved by small and backward-compatible code changes.</p></div> </div>
+<h2>SESSION: Verification I</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674318" title="Get the Full Text from the ACM Digital Library">Semantic program alignment for equivalence checking</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Berkeley Churchill</li>
+<li class="nameList">Oded Padon</li>
+<li class="nameList">Rahul Sharma</li>
+<li class="nameList Last">Alex Aiken</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We introduce a robust semantics-driven technique for program equivalence checking. Given two functions we find a trace alignment over a set of concrete executions of both programs and construct a product program particularly amenable to checking equivalence. </p> <p> We demonstrate that our algorithm is applicable to challenging equivalence problems beyond the scope of existing techniques. For example, we verify the correctness of the hand-optimized vector implementation of strlen that ships as part of the GNU C Library, as well as the correctness of vectorization optimizations for 56 benchmarks derived from the Test Suite for Vectorizing Compilers.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674319" title="Get the Full Text from the ACM Digital Library">Verified compilation on a verified processor</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Andreas L&#246;&#246;w</li>
+<li class="nameList">Ramana Kumar</li>
+<li class="nameList">Yong Kiam Tan</li>
+<li class="nameList">Magnus O. Myreen</li>
+<li class="nameList">Michael Norrish</li>
+<li class="nameList">Oskar Abrahamsson</li>
+<li class="nameList Last">Anthony Fox</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Developing technology for building verified stacks, i.e., computer systems with comprehensive proofs of correctness, is one way the science of programming languages furthers the computing discipline. While there have been successful projects verifying complex, realistic system components, including compilers (software) and processors (hardware), to date these verification efforts have not been compatible to the point of enabling a single end-to-end correctness theorem about running a verified compiler on a verified processor. </p> <p> In this paper we show how to extend the trustworthy development methodology of the CakeML project, including its verified compiler, with a connection to verified hardware. Our hardware target is Silver, a verified proof-of-concept processor that we introduce here. The result is an approach to producing verified stacks that scales to proving correctness, at the hardware level, of the execution of realistic software including compilers and proof checkers. Alongside our hardware-level theorems, we demonstrate feasibility by hosting and running our verified artefacts on an FPGA board.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674310" title="Get the Full Text from the ACM Digital Library">Argosy: verifying layered storage systems with recovery refinement</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Tej Chajed</li>
+<li class="nameList">Joseph Tassarotti</li>
+<li class="nameList">M. Frans Kaashoek</li>
+<li class="nameList Last">Nickolai Zeldovich</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Storage systems make persistence guarantees even if the system crashes at any time, which they achieve using recovery procedures that run after a crash. We present Argosy, a framework for machine-checked proofs of storage systems that supports layered recovery implementations with modular proofs. Reasoning about layered recovery procedures is especially challenging because the system can crash in the middle of a more abstract layer&#8217;s recovery procedure and must start over with the lowest-level recovery procedure. </p> <p>This paper introduces <em>recovery refinement</em>, a set of conditions that ensure proper implementation of an interface with a recovery procedure. Argosy includes a proof that recovery refinements compose, using Kleene algebra for concise definitions and metatheory. We implemented Crash Hoare Logic, the program logic used by FSCQ, to prove recovery refinement, and demonstrated the whole system by verifying an example of layered recovery featuring a write-ahead log running on top of a disk replication system. The metatheory of the framework, the soundness of the program logic, and these examples are all verified in the Coq proof assistant.</p></div> </div>
+<h2>SESSION: Systems II</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674311" title="Get the Full Text from the ACM Digital Library">Simple and precise static analysis of untrusted Linux kernel extensions</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Elazar Gershuni</li>
+<li class="nameList">Nadav Amit</li>
+<li class="nameList">Arie Gurfinkel</li>
+<li class="nameList">Nina Narodytska</li>
+<li class="nameList">Jorge A. Navas</li>
+<li class="nameList">Noam Rinetzky</li>
+<li class="nameList">Leonid Ryzhyk</li>
+<li class="nameList Last">Mooly Sagiv</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Extended Berkeley Packet Filter (eBPF) is a Linux subsystem that allows safely executing untrusted user-defined extensions inside the kernel. It relies on static analysis to protect the kernel against buggy and malicious extensions. As the eBPF ecosystem evolves to support more complex and diverse extensions, the limitations of its current verifier, including high rate of false positives, poor scalability, and lack of support for loops, have become a major barrier for developers. </p> <p> We design a static analyzer for eBPF within the framework of abstract interpretation. Our choice of abstraction is based on common patterns found in many eBPF programs. We observed that eBPF programs manipulate memory in a rather disciplined way which permits analyzing them successfully with a scalable mixture of very-precise abstraction of certain bounded regions with coarser abstractions of other parts of the memory. We use the Zone domain, a simple domain that tracks differences between pairs of registers and offsets, to achieve precise and scalable analysis. We demonstrate that this abstraction is as precise in practice as more costly abstract domains like Octagon and Polyhedra. </p> <p> Furthermore, our evaluation, based on hundreds of real-world eBPF programs, shows that the new tool generates no more false alarms than the existing Linux verifier, while it supports a wider class of programs (including programs with loops) and has better asymptotic complexity.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674312" title="Get the Full Text from the ACM Digital Library">Transactional concurrency control for intermittent, energy-harvesting computing systems</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Emily Ruppel</li>
+<li class="nameList Last">Brandon Lucia</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Batteryless energy-harvesting devices are computing platforms that operate in environments where batteries are not viable for energy storage. Energy-harvesting devices operate intermittently, only as energy is available. Prior work developed software execution models robust to intermittent power failures but no existing intermittent execution model allows interrupts to update global persistent state without allowing incorrect behavior or requiring complex programming. We present Coati, a system that supports event-driven concurrency via interrupts in an intermittent software execution model. Coati exposes a task-based interface for synchronous computations and an event interface for asynchronous interrupts. Coati supports synchronizing tasks and events using transactions, which allow for multi-task atomic regions that extend across multiple power failures. This work explores two different models for serializing events and tasks that both safely provide intuitive semantics for event-driven intermittent programs. We implement a prototype of Coati as C language extensions and a runtime library. Using energy-harvesting hardware, we evaluate Coati on benchmarks adapted from prior work. We show that Coati prevents failures when interrupts are introduced, while the baseline fails in just seconds. Moreover, Coati operates with a reasonable run time overhead that is often comparable to an idealized baseline.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674313" title="Get the Full Text from the ACM Digital Library">Supporting peripherals in intermittent systems with just-in-time checkpoints</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Kiwan Maeng</li>
+<li class="nameList Last">Brandon Lucia</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Batteryless energy-harvesting devices have the potential to be the foundation of applications for which batteries are infeasible. Just-In-Time checkpointing supports intermittent execution on energy-harvesting devices by checkpointing processor state right before a power failure. While effective for software execution, Just-In-Time checkpointing remains vulnerable to unrecoverable failures involving peripherals(e.g., sensors and accelerators) because checkpointing during a peripheral operation may lead to inconsistency between peripheral and program state. Additionally, a peripheral operation that uses more energy than a device can buffer never completes, causing non-termination. </p> <p> This paper presents Samoyed, a Just-In-Time checkpointing system that safely supports peripherals. Samoyed correctly runs user-annotated peripheral functions by selectively disabling checkpoints and undo-logging. Samoyed guarantees progress by energy profiling, dynamic peripheral workload scaling, and a user-provided software fallback routine. Our evaluation shows that Samoyed correctly executes peripheral operations that fail with existing systems, achieving up to 122.9x speedup by using accelerators. Samoyed preserves the performance benefit of Just-In-Time checkpointing, showing 4.11x mean speedup compared to a recent possible alternative. Moreover, Samoyed&#8217;s unique ability to profile energy and to dynamically scale large peripheral operations simplifies programming.</p></div> </div>
+<h2>SESSION: Verification II</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674314" title="Get the Full Text from the ACM Digital Library">Verification of programs under the release-acquire semantics</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Parosh Aziz Abdulla</li>
+<li class="nameList">Jatin Arora</li>
+<li class="nameList">Mohamed Faouzi Atig</li>
+<li class="nameList Last">Shankaranarayanan Krishna</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We address the verification of concurrent programs running under the release-acquire (RA) semantics. We show that the reachability problem is undecidable even in the case where the input program is finite-state. Given this undecidability, we follow the spirit of the work on context-bounded analysis for detecting bugs in programs under the classical SC model, and propose an under-approximate reachability analysis for the case of RA. To this end, we propose a novel notion, called view-switching, and provide a code-to-code translation from an input program under RA to a program under SC. This leads to a reduction, in polynomial time, of the bounded view-switching reachability problem under RA to the bounded context-switching problem under SC. We have implemented a prototype tool VBMC and tested it on a set of benchmarks, demonstrating that many bugs in programs can be found using a small number of view switches.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674325" title="Get the Full Text from the ACM Digital Library">A complete formal semantics of x86-64 user-level instruction set architecture</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Sandeep Dasgupta</li>
+<li class="nameList">Daejun Park</li>
+<li class="nameList">Theodoros Kasampalis</li>
+<li class="nameList">Vikram S. Adve</li>
+<li class="nameList Last">Grigore Ro&#351;u</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present the most complete and thoroughly tested formal semantics of x86-64 to date. Our semantics faithfully formalizes all the non-deprecated, sequential user-level instructions of the x86-64 Haswell instruction set architecture. This totals 3155 instruction variants, corresponding to 774 mnemonics. The semantics is fully executable and has been tested against more than 7,000 instruction-level test cases and the GCC torture test suite. This extensive testing paid off, revealing bugs in both the x86-64 reference manual and other existing semantics. We also illustrate potential applications of our semantics in different formal analyses, and discuss how it can be useful for processor verification.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674326" title="Get the Full Text from the ACM Digital Library">An applied quantum Hoare logic</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Li Zhou</li>
+<li class="nameList">Nengkun Yu</li>
+<li class="nameList Last">Mingsheng Ying</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We derive a variant of quantum Hoare logic (QHL), called applied quantum Hoare logic (aQHL for short), by: 1. restricting QHL to a special class of preconditions and postconditions, namely projections, which can significantly simplify verification of quantum programs and are much more convenient when used in debugging and testing; and 2. adding several rules for reasoning about robustness of quantum programs, i.e. error bounds of outputs. The effectiveness of aQHL is shown by its applications to verify two sophisticated quantum algorithms: HHL (Harrow-Hassidim-Lloyd) for solving systems of linear equations and qPCA (quantum Principal Component Analysis).</p></div> </div>
+</div>
+</div>
+</body>
+</html>

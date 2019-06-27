@@ -10,11 +10,11 @@ access behavior in programs.
 
 **ISMM Fast Facts**  
 
-> [ISMM 2018](http://conf.researchr.org/home/ismm-2018)  
-> Location: Philadelphia, Pennsylvania, United States co-located with [PLDI'18](http://conf.researchr.org/home/pldi-2018)  
-> General Chair: [Hannes Payer](https://research.google.com/pubs/HannesPayer.html)  
-> Program Chair: [Jennifer B. Sartor](https://users.elis.ugent.be/~jsartor)  
-> Date: June 18, 2018  
+> [ISMM 2019](http://conf.researchr.org/home/ismm-2019)  
+> Location: Phoenix, Arizona, United States, co-located with [PLDI'19](http://conf.researchr.org/home/pldi-2019)  
+> General Chair: [Jeremy Singer](http://www.dcs.gla.ac.uk/~jsinger/)  
+> Program Chair: [Harry Xu](http://www.cs.ucla.edu/~harryxu )  
+> Date: June 23, 2019  
 
 **Other ISMM Information**  
 
@@ -26,6 +26,7 @@ Steering Committee
 
 **Web Pages of Previous Conferences**  
 
+- [ISMM 2018](http://conf.researchr.org/home/ismm-2018) (Barcelona, Spain)
 - [ISMM 2017](http://conf.researchr.org/home/ismm-2017) (Barcelona, Spain)
 - [ISMM 2016](http://conf.researchr.org/home/ismm-2016) (Santa Barbara, California)
 - [ISMM 2015](http://conf.researchr.org/home/ismm-2015) (Portland, Oregon)

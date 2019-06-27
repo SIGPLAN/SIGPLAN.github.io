@@ -44,6 +44,7 @@ Information Director:
     - ICFP:
     - ISMM:
     - LCTES:
+    - Onward!:
     - PLDI:
     - POPL:
     - PPOPP:
@@ -55,38 +56,30 @@ Other Past Members:
   - Past Past Vice Chair: "Graham Hutton"
 
 ASPLOS Steering Committee:
-  -   Ras Bodik, UC Berkeley
-  -   Doug Burger, Microsoft
-  -   George Candea, EPFL
-  -   Timothy Harris, Oracle Labs
+  -   Sarita Adve, University of Illinois at Urbana-Champaign
+  -   John Carter, IBM
+  -   Yunji Chen, Chinese Academy of Sciences, China
+  -   Tom Conte, Georgia Tech
+  -   Sandhya Dwarkadas, University of Illinois at Urbana-Champaign
+  -   Kemal Ebcioglu, Global Supercomputing
+  -   Shan Lu, University of Chicago
+  -   Ozcan Ozturk, Bilkent University, Turkey
   -   SIGPLAN Vice Chair: #
-  -   Chair: Vivek Sarkar, Rice U.
-  -   Michael Scott, U. Rochester
-  -   David Wood, U. Wisconsin
+  -   Olivier Temam, Google, France
+  -   David Wood, University of Wisconsin, Madison
+  -   Yuanyuan Zhou, UCSD
 
 CGO Steering Committee:
   - Chair: Olivier Temam
 
 DLS Steering Committee:
-  - Davide Ancona, Universit&agrave; degli studi di Genova, Italy (PC Chair 2017)
-  - Tim Felgentreff, Oracle Labs, Germany (PC Chair 2018)
-  - Carl Friedrich Bolz, Heinrich-Heine-Universit&auml;t D&uuml;sseldorf, Germany (SC Chair 2015)
-  - Robert Hirschfeld, Hasso Plattner Institute Potsdam, Germany (Emeritus Member 2016)
-  - Roberto Ierusalimschy, Pontif&iacute;cia Universidade Cat&oacute;lica do Rio de Janeiro, Brazil (PC Chair 2016)
-  - Peter Thiemann, University of Freiburg, Germany (SIGPLAN)
-  - Laurence Tratt, King's College London, UK (Emeritus Member 2016)
-
-DLS Steering Committee (Past):
-  - Pascal Costanza, Intel ExaScience Lab, Belgium (SC Chair)
-  - Theo D'Hondt, Vrije Universiteit Brussel, Belgium
-  - Richard Gabriel, IBM Research, USA
-  - Jeremy Gibbons, Oxford University, UK (SIGPLAN)
-  - Robert Hirschfeld, Hasso Plattner Institute Potsdam, Germany (SC Chair)
-  - Manuel Serrano, Inria Sophia-Antipolis, France
-  - Dave Thomas, Bedarra Research Labs, Canada
-  - Alessandro Warth, SAP, USA
-  - Roel Wuyts, IMEC, Belgium
-
+    - Chair: Tim Felgentreff
+    - Davide Ancona
+    - Carl Friedrich Bolz-Tereick
+    - Robert Hirschfeld
+    - Stefan Marr
+    - Benjamin C. Pierce
+    - Laurence Tratt
 
 FOOL Steering Committee:
 
@@ -112,7 +105,6 @@ ISMM Steering Committee:
   -   "[Ben Titzer](https://ai.google/research/people/BenTitzer)"
   -   "[Zheng Zhang](http://www.cs.rutgers.edu/~zz124/)"
 
-
 LCTES Steering Committee:
   -   "[Koen De Bosschere](http://www.elis.ugent.be/~kdb/)"
   -   "[Krisztian Flautner](http://www.eecs.umich.edu/~manowar/)"
@@ -125,34 +117,46 @@ LCTES Steering Committee:
   -   "[Santosh Pande](http://www.cc.gatech.edu/~santosh/)"
   -   "[John Regehr](http://www.cs.utah.edu/~regehr/)"
 
+Onward! Steering Committee:
+    - Chair: Jonathan Aldrich
+    - Robert Biddle
+    - Richard P. Gabriel
+    - Elisa Gonzalez Boix
+    - Robert Hirschfeld
+    - Hidehiko Masuhara
+    - Gail Murphy
+    - Tomas Petricek
+    - Benjamin C. Pierce
+    - Yannis Smaragdakis
+    - Emina Torlak
+    - Jan Vitek
+
 PLDI Steering Committee:
   -   SIGPLAN Chair: #
   -   SIGPLAN Vice Chair: #
-  -   Cormac Flanagan, PLDI Steering Committee Chair
-  -   David Grove, 2015 General Chair
-  -   Steve Blackburn, 2015 Program Chair
-  -   Chandra Krintz, 2016 General Chair
-  -   Emery Berger, 2016 Program Chair
-  -   Albert Cohen, 2017 General Chair
-  -   Martin Vechev, 2017 Program Chair
-  -   Isil Dillig, 2017 Member at Large
-
+  -   "[Cormac Flanagan](https://users.soe.ucsc.edu/~cormac/), PLDI Steering Committee Chair"
+  -   "[Chandra Krintz](www.cs.ucsb.edu/~ckrintz/), 2016 General Chair"
+  -   "[Emery Berger](https://emeryberger.com/), 2016 Program Chair"
+  -   "[Albert Cohen](https://who.rocq.inria.fr/Albert.Cohen/), 2017 General Chair"
+  -   "[Martin Vechev](https://eth-sri.github.io/people/martin), 2017 Program Chair"
+  -   "[Isil Dillig](https://www.cs.utexas.edu/~isil/), 2017 Member at Large"
+  -   "[Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), 2018 General Chair"
+  -   "[Dan Grossman](https://homes.cs.washington.edu/~djg/), 2018 Program Chair"
+  -   "[Emina Torlak](https://homes.cs.washington.edu/~emina/), 2018 Member at Large"
 
 POPL Steering Committee:
   -   SIGPLAN Chair: #
   -   SIGPLAN Vice Chair: #
   -   "[Michael Hicks ](http://www.cs.umd.edu/~mwh/), Steering Committee Chair (2018-2021)"
-  -   "[Giuseppe Castagna](https://www.irif.fr/~gc/), 2017 General Chair"
-  -   "[Brigitte Pientka](http://www.cs.mcgill.ca/~bpientka/), Member at large (2018-2021) and 2020 General Chair"
   -   "[David Walker](http://www.cs.princeton.edu/~dpw/), Member at large and Industrial Relation Chair (2017-2020)"
   -   "[Jeremy Gibbons](http://www.cs.ox.ac.uk/jeremy.gibbons/), Member a large (2015-2019)"
-  -   "[Andrew D. Gordon](https://onedrive.live.com/view.aspx/adg?cid=c6149b019d236bf5), 2017 Program Chair"
   -   "[Ranjit Jhala](http://jacobsschool.ucsd.edu/faculty/faculty_bios/index.sfe?fmp_recid=235), 2018 General Chair"
   -   "[Andrew Myers](http://www.cs.cornell.edu/andru/), 2018 Program Chair"
   -   "[Fritz Henglein](http://www.diku.dk/~henglein/), 2019 General Chair"
   -   "[Stephanie Weirich](https://www.cis.upenn.edu/~sweirich/), 2019 Program Chair"
-  -   "[Lars Birkedal](https://cs.au.dk/~birke/), 2020 Program Chair (Invited)"
-
+  -   "[Brigitte Pientka](http://www.cs.mcgill.ca/~bpientka/), 2020 General Chair"
+  -   "[Lars Birkedal](https://cs.au.dk/~birke/), 2020 Program Chair"
+  -   "[Andreas Podelski](https://swt.informatik.uni-freiburg.de/staff/podelski), 2021 General Chair [observer]"
 
 PPOPP Steering Committee: 
   - Chair: Albert Cohen
@@ -173,14 +177,15 @@ SIGAPL Steering Committee:
 SPLASH Steering Committee:
   -  SIGPLAN Chair: #
   -  SIGPLAN Vice Chair: #
-  -  Chair: Tony Hosking, 2013 SPLASH General Co-Chair
-  -  Patrick Eugster, 2015 OOPSLA PC Chair and 2013 SPLASH General Co-Chair
-  -  Eelco Visser, 2016 SPLASH General Chair
-  -  Yannis Smaragdakis, 2016 OOPSLA PC Chair
+  -  Chair: Jonathan Aldrich, 2017 OOPSLA PC Chair and 2015 SPLASH General Chair
   -  Emerson Murphy-Hill, 2016 Onward! PC Chair
   -  Gail Murphy, 2017 SPLASH General Chair and 2015 Onward! Papers Chair
-  -  Jonathan Aldrich, 2017 OOPSLA PC Chair and 2015 SPLASH General Chair
   -  Emina Torlak, 2017 Onward! PC Chair
+  -  Manu Sridharan, 2018 OOPSLA PC Chair
+  -  Jan Vitek, 2018 General Chair
+  -  Elisa Gonzalez-Boix, 2018 Onward! PC Chair
+  -  Eelco Visser, 2019 OOPSLA PC CHair, 2016 SPLASH General Chair
+  -  Yannis Smaragdakis, 2019 General Chair, 2016 OOPSLA PC Chair
 
 "VEE Steering Committee":
   -  Chair: "[Martin Hirzel](http://hirzels.com/martin/)       (IBM Research)"

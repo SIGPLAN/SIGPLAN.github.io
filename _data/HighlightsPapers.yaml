@@ -17,7 +17,15 @@ Selected January 2018:
     represents an impressive application of programming language
     theory to a real-world problem, and is expected to have a
     substantial impact in making the Web more reliable and secure.
-  CACMSelection: true
+  CACMHighlight:
+    Date: December 2018
+    Title: Bringing the web up to speed with WebAssembly
+    Link: https://dl.acm.org/citation.cfm?id=3282510
+    TechnicalPerspective:
+      Title: WebAssembly--a quiet revolution of the web
+      Link: https://dl.acm.org/citation.cfm?id=3282508
+      Author: Anders Møller
+
 
 - Title: "_[Types from Data: Making Structured Data First-Class Citizens in F#](https://dl.acm.org/citation.cfm?doid=2908080.2908115)_"
   Authors: Tomas Petricek (University of Cambridge, UK), Gustavo Guerra (Microsoft, UK), Don Syme (Microsoft Research, UK)
@@ -60,6 +68,14 @@ Selected January 2018:
     is not the final word, but it points in a new direction for
     designing concurrent algorithms for shared memory NUMA
     architectures.
+  CACMHighlight:
+    Date: December 2018
+    Title: How to implement any concurrent data structure
+    Link: https://dl.acm.org/citation.cfm?id=3282506
+    TechnicalPerspective:
+      Title: Node replication divides to conquer
+      Link: https://dl.acm.org/citation.cfm?id=3282504
+      Author: Tim Harris
 
 Selected October 2016:
 
@@ -82,7 +98,14 @@ Selected October 2016:
     reasoning on programs and offer the first concrete evidence of the
     tremendous promise of the overall approach. A real-world product
     is JSNice: a practical, popular JavaScript de-obfuscation tool.
-  CACMSelection: true
+  CACMHighlight:
+    Date: March 2019
+    Title: Predicting program properties from big code
+    Link: https://dl.acm.org/citation.cfm?id=3306204
+    TechnicalPerspective:
+      Title: Borrowing big code to automate programming activities
+      Link: https://dl.acm.org/citation.cfm?id=3306206
+      Author: Martin C. Rinard
 
 - Title: _[A Fast Compiler for NetKAT](http://dl.acm.org/citation.cfm?doid=2784731.2784761)_
   Authors: Steffen Smolka (Cornell University), Spiridon Eliopoulos (Inhabited Type), Nate Foster (Cornell University), Arjun Guha (University of Massachusetts Amherst)  

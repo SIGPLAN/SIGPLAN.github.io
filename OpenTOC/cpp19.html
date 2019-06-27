@@ -1,0 +1,289 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>CPP 2019- Proceedings of the 8th ACM SIGPLAN International Conference on Certified Programs and Proofs</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>CPP 2019- Proceedings of the 8th ACM SIGPLAN International Conference on Certified Programs and Proofs</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3293880" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Invited Talks</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675187" title="Get the Full Text from the ACM Digital Library">Formalizing the metatheory of logical calculi and automatic provers in Isabelle/HOL (invited talk)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Jasmin Christian Blanchette</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>IsaFoL (Isabelle Formalization of Logic) is an undertaking that aims at developing formal theories about logics, proof systems, and automatic provers, using Isabelle/HOL. At the heart of the project is the conviction that proof assistants have become mature enough to actually help researchers in automated reasoning when they develop new calculi and tools. In this paper, I describe and reflect on three verification subprojects to which I contributed: a first-order resolution prover, an imperative SAT solver, and generalized term orders for &#955;-free higher-order logic.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675188" title="Get the Full Text from the ACM Digital Library">A linear logical framework in hybrid (invited talk)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Amy P. Felty</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present a linear logical framework implemented within the Hybrid system [Felty and Momigliano 2012]. Hybrid is designed to support the use of higher-order abstract syntax for representing and reasoning about formal systems, implemented in the Coq Proof Assistant. In this work, we extend the system with a linear specification logic, which provides infrastructure for reasoning directly about object languages with linear features. </p> <p> We developed this framework in order to address the challenges of reasoning about the type system of a quantum lambda calculus. In particular, we started by considering the Proto-Quipper language [Ross 2015], which contains the core of Quipper [Green et al. 2013; Selinger and Val- iron 2006]. Quipper is a new quantum programming language under active development with a linear type system. We have completed a formal proof of type soundness for Proto-Quipper [Mahmoud and Felty 2018b]. Our current work includes extending this work to other properties of Proto-Quipper as well as reasoning about other quantum programming languages [Mahmoud and Felty 2018a]. It also includes reasoning about other object languages with linear features in areas such as meta-theory of low-level abstract machine code, proof theory of focused linear sequent calculi, and modeling biological processes as transition systems and proving properties about them [Despeyroux et al. 2018].</p></div> </div>
+<h2>SESSION: Formalization of Mathematics and Computer Algebra</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675189" title="Get the Full Text from the ACM Digital Library">A formal proof of hensel&#39;s lemma over the p-adic integers</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Robert Y. Lewis</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The field of <i>p</i>-adic numbers &#8474;<sub><i>p</i></sub> and the ring of <i>p</i>-adic integers &#8484;<sub><i>p</i></sub> are essential constructions of modern number theory. Hensel&#8217;s lemma, described by Gouv&#234;a as the &#8220;most important algebraic property of the <i>p</i>-adic numbers,&#8221; shows the existence of roots of polynomials over &#8484;<sub><i>p</i></sub> provided an initial seed point. The theorem can be proved for the <i>p</i>-adics with significantly weaker hypotheses than for general rings. We construct &#8474;<sub><i>p</i></sub> and &#8484;<sub><i>p</i></sub> in the Lean proof assistant, with various associated algebraic properties, and formally prove a strong form of Hensel&#8217;s lemma. The proof lies at the intersection of algebraic and analytic reasoning and demonstrates how the Lean mathematical library handles such a heterogeneous topic.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675180" title="Get the Full Text from the ACM Digital Library">Verified solving and asymptotics of linear recurrences</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Manuel Eberl</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Linear recurrences with constant coefficients are an interesting class of recurrence equations that can be solved explicitly. The most famous example are certainly the Fibonacci numbers with the equation <i>f</i>(<i>n</i>) = <i>f</i>(<i>n</i>&#8722;1) + <i>f</i>(<i>n</i>&#8722;2) and the quite non-obvious closed form &lt;table class="display dcenter">&lt;tr style="vertical-align:middle">&lt;td class="dcell">&lt;table class="display">&lt;tr&gt;&lt;td class="dcell" style="text-align:center">1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="hbar">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="dcell" style="text-align:center">&lt;table class="display">&lt;tr style="vertical-align:middle">&lt;td class="dcell">&#8730;&lt;/td&gt;&lt;td class="dcell">&lt;table style="border:0;border-spacing:1;border-collapse:separate;" class="cellpadding0">&lt;tr&gt;&lt;td class="hbar">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="text-align:center;white-space:nowrap" &gt;5&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;td class="dcell">&#160;(&#981;<sup><i>n</i></sup>&#160;&#8722;&#160;(&#8722;&#981;)<sup>&#8722;<i>n</i></sup>)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; where &#981; is the golden ratio. </p> <p>This work builds on existing tools in Isabelle &#8211; such as formal power series and polynomial factorisation algorithms &#8211; to develop a theory of these recurrences and derive a fully executable solver for them that can be exported to programming languages like Haskell. </p> <p>Based on this development, I also provide an efficient method to prove &#8216;Big-O&#8217; asymptotics of a solution automatically without explicitly finding the closed-form solution first.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675181" title="Get the Full Text from the ACM Digital Library">On synthetic undecidability in coq, with an application to the entscheidungsproblem</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Yannick Forster</li>
+<li class="nameList">Dominik Kirst</li>
+<li class="nameList Last">Gert Smolka</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We formalise the computational undecidability of validity, satisfiability, and provability of first-order formulas following a synthetic approach based on the computation native to Coq&#39;s constructive type theory. Concretely, we consider Tarski and Kripke semantics as well as classical and intuitionistic natural deduction systems and provide compact many-one reductions from the Post correspondence problem (PCP). Moreover, developing a basic framework for synthetic computability theory in Coq, we formalise standard results concerning decidability, enumerability, and reducibility without reference to a concrete model of computation. For instance, we prove the equivalence of Post&#39;s theorem with Markov&#39;s principle and provide a convenient technique for establishing the enumerability of inductive predicates such as the considered proof systems and PCP.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675182" title="Get the Full Text from the ACM Digital Library">Counting polynomial roots in isabelle/hol: a formal proof of the budan-fourier theorem</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Wenda Li</li>
+<li class="nameList Last">Lawrence C. Paulson</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Many problems in computer algebra and numerical analysis can be reduced to counting or approximating the real roots of a polynomial within an interval. Existing verified root-counting procedures in major proof assistants are mainly based on the classical Sturm theorem, which only counts distinct roots. </p> <p> In this paper, we have strengthened the root-counting ability in Isabelle/HOL by first formally proving the Budan-Fourier theorem. Subsequently, based on Descartes&#39; rule of signs and Taylor shift, we have provided a verified procedure to efficiently over-approximate the number of real roots within an interval, counting multiplicity. For counting multiple roots exactly, we have extended our previous formalisation of Sturm&#39;s theorem. Finally, we combine verified components in the developments above to improve our previous certified complex-root-counting procedures based on Cauchy indices. We believe those verified routines will be crucial for certifying programs and building tactics.</p></div> </div>
+
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675183" title="Get the Full Text from the ACM Digital Library">Smooth manifolds and types to sets for linear algebra in Isabelle/HOL</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Fabian Immler</li>
+<li class="nameList Last">Bohua Zhan</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We formalize the definition and basic properties of smooth manifolds in Isabelle/HOL. Concepts covered include partition of unity, tangent and cotangent spaces, and the fundamental theorem for line integrals. We also construct some concrete manifolds such as spheres and projective spaces. The formalization makes extensive use of the existing libraries for topology and analysis. The existing library for linear algebra is not flexible enough for our needs. We therefore set up the first systematic and large scale application of ``types to sets&#39;&#39;. It allows us to automatically transform the existing (type based) library of linear algebra to one with explicit carrier sets.</p></div> </div>
+<h2>SESSION: Proof Theory, Theory of Programming Languages</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675184" title="Get the Full Text from the ACM Digital Library">A proof-theoretic approach to certifying skolemization</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Kaustuv Chaudhuri</li>
+<li class="nameList">Matteo Manighetti</li>
+<li class="nameList Last">Dale Miller</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>When presented with a formula to prove, most theorem provers for classical first-order logic process that formula following several steps, one of which is commonly called skolemization. That process eliminates quantifier alternation within formulas by extending the language of the underlying logic with new Skolem functions and by instantiating certain quantifiers with terms built using Skolem functions. In this paper, we address the problem of checking (i.e., certifying) proof evidence that involves Skolem terms. Our goal is to do such certification without using the mathematical concepts of model-theoretic semantics (i.e., preservation of satisfiability) and choice principles (i.e., epsilon terms). Instead, our proof checking kernel is an implementation of Gentzen&#39;s sequent calculus, which directly supports quantifier alternation by using eigenvariables. We shall describe deskolemization as a mapping from client-side terms, used in proofs generated by theorem provers, into kernel-side terms, used within our proof checking kernel. This mapping which associates skolemized terms to eigenvariables relies on using outer skolemization. We also point out that the removal of Skolem terms from a proof is influenced by the polarities given to propositional connectives.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675195" title="Get the Full Text from the ACM Digital Library">Eliminating reflection from type theory</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Th&#233;o Winterhalter</li>
+<li class="nameList">Matthieu Sozeau</li>
+<li class="nameList Last">Nicolas Tabareau</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Type theories with equality reflection, such as extensional type theory (ETT), are convenient theories in which to formalise mathematics, as they make it possible to consider provably equal terms as convertible. Although type-checking is undecidable in this context, variants of ETT have been implemented, for example in NuPRL and more recently in Andromeda. </p> <p> The actual objects that can be checked are not proof-terms, but derivations of proof-terms. This suggests that any derivation of ETT can be translated into a typecheckable proof term of intensional type theory (ITT). </p> <p> However, this result, investigated categorically by Hofmann in 1995, and 10 years later more syntactically by Oury, has never given rise to an effective translation. </p> <p> In this paper, we provide the first effective syntactical translation from ETT to ITT with uniqueness of identity proofs and functional extensionality. This translation has been defined and proven correct in Coq and yields an executable plugin that translates a derivation in ETT into an actual Coq typing judgment. Additionally, we show how this result is extended in the context of homotopy type theory to a two-level type theory.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675196" title="Get the Full Text from the ACM Digital Library">Certified undecidability of intuitionistic linear logic via binary stack machines and minsky machines</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Yannick Forster</li>
+<li class="nameList Last">Dominique Larchey-Wendling</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We formally prove the undecidability of entailment in intuitionistic linear logic in Coq. We reduce the Post correspondence problem (PCP) via binary stack machines and Minsky machines to intuitionistic linear logic. The reductions rely on several technically involved formalisations, amongst them a binary stack machine simulator for PCP, a verified low-level compiler for instruction-based languages and a soundness proof for intuitionistic linear logic with respect to trivial phase semantics. We exploit the computability of all functions definable in constructive type theory and thus do not have to rely on a concrete model of computation, enabling the reduction proofs to focus on correctness properties.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675197" title="Get the Full Text from the ACM Digital Library">Call-by-push-value in coq: operational, equational, and denotational theory</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Yannick Forster</li>
+<li class="nameList">Steven Sch&#228;fer</li>
+<li class="nameList">Simon Spies</li>
+<li class="nameList Last">Kathrin Stark</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Call-by-push-value (CBPV) is an idealised calculus for functional and imperative programming, introduced as a subsuming paradigm for both call-by-value (CBV) and call-by-name (CBN). We formalise weak and strong operational semantics for (effect-free) CBPV, define its equational theory, and verify adequacy for the standard set/algebra denotational semantics. Furthermore, we prove normalisation of the standard reduction, confluence of strong reduction, strong normalisation using Kripke logical relations, and soundness of the equational theory using logical equivalence. We adapt and verify the known translations from CBV and CBN into CBPV for strong reduction. This yields, for instance, proofs of strong normalisation and confluence for the full &#955;-calculus with sums and products. Thanks to the automation provided by Coq and the Autosubst 2 framework, there is little formalisation overhead compared to detailed paper proofs.</p></div> </div>
+<h2>SESSION: Rewriting, Automated Reasoning</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675198" title="Get the Full Text from the ACM Digital Library">A verified ground confluence tool for linear variable-separated rewrite systems in Isabelle/HOL</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Bertram Felgenhauer</li>
+<li class="nameList">Aart Middeldorp</li>
+<li class="nameList">T. V. H. Prathamesh</li>
+<li class="nameList Last">Franziska Rapp</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>It is well known that (ground) confluence is a decidable property of ground term rewrite systems, and that this extends to larger classes. Here we present a formally verified ground confluence checker for linear, variable-separated rewrite systems. To this end, we formalize procedures for ground tree transducers and so-called RR<sub><i>n</i></sub> relations. The ground confluence checker is an important milestone on the way to formalizing the decidability of the first-order theory of ground rewriting for linear, variable-separated rewrite systems. It forms the basis for a formalized confluence checker for left-linear, right-ground systems.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675199" title="Get the Full Text from the ACM Digital Library">Certified ACKBO</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Alexander Lochmann</li>
+<li class="nameList Last">Christian Sternagel</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Term rewriting in the presence of associative and commutative function symbols constitutes a highly expressive model of computation, which is for example well suited to reason about parallel computations. However, it is well known that the standard notion of termination does not apply any more: any term rewrite system containing a commutativity rule is nonterminating. Thus, instead of adding AC-rules to a rewrite system, we switch to the notion of AC-termination. AC-termination can for example be shown using AC-compatible reduction orders. One specific example of such an order is ACKBO. We present our Isabelle/HOL formalization of the ACKBO order. On an abstract level this gives us a mechanized proof of the fact that ACKBO is indeed an AC-compatible reduction order. Moreover, we integrated corresponding check functions into the verified certifier CeTA. This has the more practical consequence of enabling the machine certification of AC-termination proofs generated by automated termination tools.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675190" title="Get the Full Text from the ACM Digital Library">A verified prover based on ordered resolution</a>
+</h3>
+<ul class="DLauthors">
+ <li class="nameList First">Anders Schlichtkrull</li>
+<li class="nameList">Jasmin Christian Blanchette</li>
+<li class="nameList Last">Dmitriy Traytel</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The superposition calculus, which underlies first-order theorem provers such as E, SPASS, and Vampire, combines ordered resolution and equality reasoning. As a step towards verifying modern provers, we specify, using Isabelle/HOL, a purely functional first-order ordered resolution prover and establish its soundness and refutational completeness. Methodologically, we apply stepwise refinement to obtain, from an abstract nondeterministic specification, a verified deterministic program, written in a subset of Isabelle/HOL from which we extract purely functional Standard ML code that constitutes a semidecision procedure for first-order logic.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675191" title="Get the Full Text from the ACM Digital Library">Autosubst 2: reasoning with multi-sorted de Bruijn terms and vector substitutions</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Kathrin Stark</li>
+<li class="nameList">Steven Sch&#228;fer</li>
+<li class="nameList Last">Jonas Kaiser</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Formalising metatheory in the Coq proof assistant is tedious as reasoning with binders without native support requires a lot of uninteresting technicalities. To relieve users from so-produced boilerplate, the Autosubst framework automates working with de Bruijn terms: For each annotated inductive type, Autosubst generates a corresponding instantiation operation for parallel substitutions and a decision procedure for assumption-free substitution lemmas. However, Autosubst is implemented in Ltac, Coq&#39;s tactic language, and thus suffers from Ltac&#39;s limitations. In particular, Autosubst is restricted to Coq and unscoped, non-mutual inductive types with a single sort of variables. In this paper, we present a new version of Autosubst that overcomes these restrictions. Autosubst 2 is an external code generator, which translates second-order HOAS specifications into potentially mutual inductive term sorts. We extend the equational theory of Autosubst to the case of mutual inductive sorts by combining the application of multiple parallel substitutions into exactly one instantiation operation for each sort, i.e. we parallelise substitutions to vector substitutions. The resulting equational theory is both simpler and more expressive than that of the original Autosubst framework and allows us to present an even more elegant proof of part A of the POPLMark challenge.</p></div> </div>
+<h2>SESSION: Program Verification</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675192" title="Get the Full Text from the ACM Digital Library">Formally verified big step semantics out of x86-64 binaries</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ian Roessle</li>
+<li class="nameList">Freek Verbeek</li>
+<li class="nameList Last">Binoy Ravindran</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This paper presents a methodology for generating formally proven equivalence theorems between decompiled x86-64 machine code and big step semantics. These proofs are built on top of two additional contributions. First, a robust and tested formal x86-64 machine model containing small step semantics for 1625 instructions. Second, a decompilation-into-logic methodology supporting both x86-64 assembly and machine code at large scale. This work enables black-box binary verification, i.e., formal verification of a binary where source code is unavailable. As such, it can be applied to safety-critical systems that consist of legacy components, or components whose source code is unavailable due to proprietary reasons. The methodology minimizes the trusted code base by leveraging machine-learned semantics to build a formal machine model. We apply the methodology to several case studies, including binaries that heavily rely on the SSE2 floating-point instruction set, and binaries that are obtained by compiling code that is obtained by inlining assembly into C code.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675193" title="Get the Full Text from the ACM Digital Library">Formal verification of a program obfuscation based on mixed Boolean-arithmetic expressions</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Sandrine Blazy</li>
+<li class="nameList Last">R&#233;mi Hutin</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The insertion of expressions mixing arithmetic operators and bitwise boolean operators is a widespread protection of sensitive data in source programs. This recent advanced obfuscation technique is one of the less studied among program obfuscations even if it is commonly found in binary code. In this paper, we formally verify in Coq this data obfuscation. It operates over a generic notion of mixed boolean-arithmetic expressions and on properties of bitwise operators operating over machine integers. Our obfuscation performs two kinds of program transformations: rewriting of expressions and insertion of modular inverses. To facilitate its proof of correctness, we define boolean semantic tables, a data structure inspired from truth tables. </p> <p> Our obfuscation is integrated into the CompCert formally verified compiler where it operates over Clight programs. The automatic extraction of our program obfuscator into OCaml yields a program with competitive results.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675194" title="Get the Full Text from the ACM Digital Library">Dynamic class initialization semantics: a jinja extension</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Susannah Mansky</li>
+<li class="nameList Last">Elsa L. Gunter</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The Java Virtual Machine (JVM) postpones running class initialization methods until their classes are first referenced, such as by a &lt;pre&gt;new&lt;/pre&gt; or static instruction. This process is called <em>dynamic class initialization</em>. Jinja is a semantic framework for Java and JVM developed in the theorem prover Isabelle that includes several semantics: Java-level big-step and small-step semantics, JVM-level small-step semantics, and an intermediate compilation step, J1, between these two levels. In this paper, we extend Jinja to include support for static instructions and dynamic class initialization. We also extend and re-prove related proofs, including Java-level type safety, equivalence between Java-level big-step and small-step semantics, and the correctness of a compilation from the Java level to the JVM level through J1. This work is based on the Java SE 8 specification.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675105" title="Get the Full Text from the ACM Digital Library">A verified protocol buffer compiler</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Qianchuan Ye</li>
+<li class="nameList Last">Benjamin Delaware</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The code responsible for serializing and deserializing untrusted external data is a vital component of any software that communicates with the outside world, as any bugs in these components can compromise the entire system. This is particularly true for verified systems which rely on trusted code to process external data, as any defects in the parsing code can invalidate any formal proofs about the system. One way to reduce the trusted code base of these systems is to use interface generators like Protocol Buffer and ASN.1 to generate serializers and deserializers from data descriptors. Of course, these generators are not immune to bugs. </p> <p> In this work, we formally verify a compiler for a realistic subset of the popular Protocol Buffer serialization format using the Coq proof assistant, proving once and for all the correctness of every generated serializer and deserializer. One of the challenges we had to overcome was the extreme flexibility of the Protocol Buffer format: the same source data can be encoded in an infinite number of ways, and the deserializer must faithfully recover the original source value from each. We have validated our verified system using the official conformance tests.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675106" title="Get the Full Text from the ACM Digital Library">From C to interaction trees: specifying, verifying, and testing a networked server</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Nicolas Koh</li>
+<li class="nameList">Yao Li</li>
+<li class="nameList">Yishuai Li</li>
+<li class="nameList">Li-yao Xia</li>
+<li class="nameList">Lennart Beringer</li>
+<li class="nameList">Wolf Honor&#233;</li>
+<li class="nameList">William Mansky</li>
+<li class="nameList">Benjamin C. Pierce</li>
+<li class="nameList Last">Steve Zdancewic</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present the first formal verification of a networked server implemented in C. <em>Interaction trees</em>, a general structure for representing reactive computations, are used to tie together disparate verification and testing tools (Coq, VST, and QuickChick) and to axiomatize the behavior of the operating system on which the server runs (CertiKOS). The main theorem connects a specification of acceptable server behaviors, written in a straightforward &#8220;one client at a time&#8221; style, with the CompCert semantics of the C program. The variability introduced by low-level buffering of messages and interleaving of multiple TCP connections is captured using <em>network refinement</em>, a variant of observational refinement.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N675107" title="Get the Full Text from the ACM Digital Library">A Coq mechanised formal semantics for realistic SQL queries: formally reconciling SQL and bag relational algebra</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">V&#233;ronique Benzaken</li>
+<li class="nameList Last">&#201;velyne Contejean</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In this article, we provide a Coq mechanised, executable, formal semantics for a realistic fragment of SQL consisting of "select [distinct] from where group by having" queries with null values, functions, aggregates, quantifiers and nested potentially correlated sub-queries. Relying on the Coq extraction mechanism to Ocaml, we further produce a Coq certified semantic analyser for a SQL compiler. We then relate this fragment to a Coq formalised (extended) relational algebra that enjoys a bag semantics hence recovering all well-known algebraic equivalences upon which are based most of compilation optimisations. By doing so, we provide the first formally mechanised proof of the equivalence of SQL and extended relational algebra.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

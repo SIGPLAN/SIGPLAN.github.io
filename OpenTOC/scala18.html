@@ -1,0 +1,188 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>Scala 2018- Proceedings of the 9th ACM SIGPLAN International Symposium on Scala</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>Scala 2018- Proceedings of the 9th ACM SIGPLAN International Symposium on Scala</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3241653" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Keynote</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667429" title="Get the Full Text from the ACM Digital Library">Cross-platform language design in Scala.js (keynote)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">S&#233;bastien Doeraene</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Have you ever wondered what is the secret sauce of Scala.js? What defines Scala.js, above all else, is the overarching will to make it cross-platform. A cross-platform language is both <b>portable</b>&#8212;most source code cross-compiles and behaves the same way on multiple platforms&#8212;and <b>interoperable</b>&#8212;code written in that language can interoperate with other languages on the target platforms. Most multi-platform languages are designed with one of those two properties in mind, and only address the other one as an afterthought. This results in poor integration, difficulty to write portable code, or even the impossibility to use some platform-specific libraries. This talk shows how Scala.js was designed as a cross-platform language. We show how portability and interoperability drive every design decision, from which language feature to include to performance considerations. We state a criteria of completeness for interoperability, and show how Scala.js satisfies it (with the exception of one JavaScript language feature, still work-in-progress). We give insights about what features are critical for portability, and which ones can be relaxed in the name of performance. In particular, we stress the importance of the ecosystem of libraries: existing assumptions in the ecosystem can force the language designer into reproducing behaviors of Scala/JVM, even when they are accidental. As a practical exercise, we study the main language changes that made it into Scala.js 1.x wrt. 0.6.x&#8212;as well as possible future developments&#8212;and how they fit into the cross-platform language design methodology.</p></div> </div>
+<h2>SESSION: DSLs and Parsing</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667420" title="Get the Full Text from the ACM Digital Library">A domain-specific language for microservices</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Jacob Donham</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>A common architectural pattern for complex online systems is a collection of &#38;ldquo;microservices&#38;rdquo; communicating via RPC interfaces. A service architecture provides autonomy for teams to develop, deploy, and operate system modules without centralized coordination. But this autonomy comes at a cost in leverage&#38;mdash;the fixed costs of running a service are high, and the desire to avoid them can lead to poor design choices. </p> <p> In this paper we describe Strato, a system built at Twitter that runs many microservices hosted in a shared service platform&#38;mdash;trading a little autonomy for a lot of leverage. Hosted microservices are written in a Scala-like DSL that supports transparent concurrency and native access to Thrift data (the common currency of services at Twitter). The DSL compiles to a concurrency library written in Scala with an arrows-based interface. We detail the design and implementation of the DSL and concurrency library, and evaluate the effectiveness of Strato in improving leverage at Twitter.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667421" title="Get the Full Text from the ACM Digital Library">Parser combinators for context-free path querying</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ekaterina Verbitskaia</li>
+<li class="nameList">Ilya Kirillov</li>
+<li class="nameList">Ilya Nozkin</li>
+<li class="nameList Last">Semyon Grigorev</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Transparent integration of a domain-specific language for specification of context-free path queries (CFPQs) into a general-purpose programming language as well as static checking of errors in queries may greatly simplify the development of applications using CFPQs. LINQ and ORM can be used for the integration, but they have issues with flexibility: query decomposition and reusing of subqueries are a challenge. Adaptation of parser combinators technique for paths querying may solve these problems. Conventional parser combinators process linear input, and only the Trails library is known to apply this technique for path querying. Trails suffers the common parser combinators issue: it does not support left-recursive grammars and also experiences problems in cycles handling. We demonstrate that it is possible to create general parser combinators for CFPQ which support arbitrary context-free grammars and arbitrary input graphs. We implement a library of such parser combinators and show that it is applicable for realistic tasks.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667422" title="Get the Full Text from the ACM Digital Library">Garnishing parsec with parsley</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Jamie Willis</li>
+<li class="nameList Last">Nicolas Wu</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Parser combinators are a clean and powerful abstraction which can provide reasonably efficient means of parsing a grammar into a form which the programmer desires. They remain close to the domain of grammars whilst at the same time offering enormous flexibility. In Haskell, the Parsec library is a prime example of such a library. However, a direct translation to Scala proves to be unbearably slow. This paper describes the semantics and design of a new library, called Parsley, which retains a close resemblance to Parsec style whilst providing very competitive performance.</p></div> </div>
+<h2>SESSION: Scala Foundations</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667423" title="Get the Full Text from the ACM Digital Library">Path dependent types with path-equality</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Jaemin Hong</li>
+<li class="nameList">Jihyeok Park</li>
+<li class="nameList Last">Sukyoung Ryu</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>While the Scala type system provides expressive features like objects with type members, the lack of equality checking between path-dependent types prohibits some programming idioms. One such an example is abstract domain combinators in implementing static analyzers. In this paper, we propose to extend the Scala type system with path-equality, and formalize it as a DOT variant, &#960; DOT, which supports records with type members and elds. We show that &#960; DOT has the normalization property and prove its type soundness.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667424" title="Get the Full Text from the ACM Digital Library">&#954;DOT: scaling DOT with mutation and constructors</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ifaz Kabir</li>
+<li class="nameList Last">Ond&#345;ej Lhot&#225;k</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Scala unifies concepts from object and module systems by allowing for objects with type members which are referenced via path-dependent types. The Dependent Object Types (DOT) calculus of Amin et al. models only this core part of Scala, but does not have many fundamental features of Scala such as strict and mutable fields. Since the most commonly used field types in Scala are strict,the correspondence between DOT and Scala is too weak for us to meaningfully prove static analyses safe for Scala by proving them safe for DOT. </p> <p>A DOT calculus that can support strict and mutable fields together with constructors that do field initialization would be more suitable for analysis of Scala. Toward this goal, we present &#954;DOT, an extension of DOT that supports constructors and field mutation and can emulate the different types of fields in Scala. We have proven &#954;DOT sound through a mechanized proof in Coq. We present the key features of &#954;DOT and its operational semantics and discuss work-in-progress toward making &#954;DOT fully strict.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667435" title="Get the Full Text from the ACM Digital Library">Initialization patterns in Dotty</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Fengyun Liu</li>
+<li class="nameList">Aggelos Biboudis</li>
+<li class="nameList Last">Martin Odersky</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Safe object initialization is important to avoid a category of runtime errors in programming languages. In this paper, we provide a case study of the initialization patterns on the Dotty compiler. In particular, we find that calling dynamic-dispatching methods, the usage of closures and instantiating nested classes are important for initialization of Scala objects. Based on the study, we conclude that existing proposals for safe initialization are inadequate for Scala.</p></div> </div>
+<h2>SESSION: Scala Extensions</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667436" title="Get the Full Text from the ACM Digital Library">Truly abstract interfaces for algebraic data types: the extractor typing problem</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Nicolas Stucki</li>
+<li class="nameList">Paolo G. Giarrusso</li>
+<li class="nameList Last">Martin Odersky</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Pattern matching enables inspecting algebraic data types, but typically prevents hiding the implementation of the matched algebraic data type. In Scala, instead, extractors also allow pattern matching on non-algebraic data types and invoking methods on the obtained objects, while <em>partially</em> decoupling API consumers from the API implementation. </p> <p>But as we show in this paper, pattern matching using extractors is restricted compared to matching against case classes. We argue this violates the appropriate variant of the <em>uniform access principle</em>. To address this problem, we propose a small language extension, which enables defining <em>truly abstract interfaces</em> and freely evolve their implementation.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667437" title="Get the Full Text from the ACM Digital Library">Interflow: interprocedural flow-sensitive type inference and method duplication</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Denys Shabalin</li>
+<li class="nameList Last">Martin Odersky</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Scala heavily relies on a number of object-oriented abstractions to support its feature-rich collections library. There are known techniques that optimize those abstractions away in just-in-time (JIT) compilers, but applying them in the ahead-of-time (AOT) setting is problematic. Profile-guided optimization (PGO) lets AOT compilers apply some of the same optimizations that JIT compilers employ, but it comes at a high complexity cost. </p> <p> In this paper, we introduce Interflow, an alternative approach towards ahead-of-time optimization of Scala programs which relies on interprocedural flow-sensitive type inference and method duplication. Our evaluation shows that an Interflow-based optimizing compiler built on top of the Scala Native toolchain outperforms existing PGO-based optimizing compilers for Scala. </p> <p> Moreover, we demonstrate that Interflow and PGO can be combined to achieve further improvements. On our benchmarks, with both Interflow and PGO enabled, the Scala Native toolchain approaches the performance of the HotSpot JVM.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N667438" title="Get the Full Text from the ACM Digital Library">Extending Scala with records: design, implementation, and evaluation</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Olof Karlsson</li>
+<li class="nameList Last">Philipp Haller</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This paper presents a design for extensible records in Scala satisfying design goals such as structural subtyping, typesafe polymorphic operations, and separate compilation without runtime bytecode generation. Using new features of Scala 3, the design requires only minimal, local changes to the Scala 3 reference compiler Dotty as well as a small library component. Runtime performance is evaluated experimentally using a novel benchmarking suite generator, showing that the design is competitive with Scala 2&#39;s cached reflection for structural field access, and excels at immutable extension and update operations.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

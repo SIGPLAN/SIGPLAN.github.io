@@ -9,11 +9,11 @@ implementation.
 
 **PLDI Fast Facts**
 
-> [PLDI 2018 Web Page](http://pldi18.sigplan.org)  
-> Location: Philadelphia, PA  
-> General Chair: [Jeffrey S. Foster](http://www.cs.umd.edu/~jfoster)  
-> Program Chair: [Dan Grossman](http://homes.cs.washington.edu/~djg/)  
-> Dates:  June 18-22, 2018  
+> [PLDI 2019 Web Page](http://pldi19.sigplan.org)  
+> Location: Phoenix, Arizona  
+> General Chair: [Kathryn S. McKinley](https://www.cs.utexas.edu/users/mckinley/)  
+> Program Chair: [Kathleen Fisher](http://www.cs.tufts.edu/~kfisher)  
+> Dates:  June 22-28, 2019  
 
 **Practices of PLDI**
 
@@ -37,6 +37,7 @@ The PLDI Steering Committee is chosen according the [Practices of PLDI](http://w
 
 **Web Pages of Previous Conferences**  
 
+- [PLDI 2018](http://pldi18.sigplan.org) (Philadelphia, PA)
 - [PLDI 2017](http://pldi17.sigplan.org) (Barcelona, Spain)
 - [PLDI 2016](http://conf.researchr.org/home/pldi-2016) (Santa Barbara, CA)
 - [PLDI 2015](http://conf.researchr.org/home/pldi2015) (Portland, OR)

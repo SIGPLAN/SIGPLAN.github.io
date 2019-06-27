@@ -1,0 +1,178 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>DLS 2018- Proceedings of the 14th ACM SIGPLAN International Symposium on Dynamic Languages</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>DLS 2018- Proceedings of the 14th ACM SIGPLAN International Symposium on Dynamic Languages</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3276945" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Semantics</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661735" title="Get the Full Text from the ACM Digital Library">The behavior of gradual types: a user study</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Preston Tunnell Wilson</li>
+<li class="nameList">Ben Greenman</li>
+<li class="nameList">Justin Pombrio</li>
+<li class="nameList Last">Shriram Krishnamurthi</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>There are several different gradual typing semantics, reflecting different trade-offs between performance and type soundness guarantees. Notably absent, however, are any data on which of these semantics developers actually prefer. </p> <p> We begin to rectify this shortcoming by surveying professional developers, computer science students, and Mechanical Turk workers on their preferences between three gradual typing semantics. These semantics reflect important points in the design space, corresponding to the behaviors of Typed Racket, TypeScript, and Reticulated Python. Our most important finding is that our respondents prefer a runtime semantics that fully enforces statically declared types.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661736" title="Get the Full Text from the ACM Digital Library">A trustworthy mechanized formalization of R</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Martin Bodin</li>
+<li class="nameList">Tom&#225;s Diaz</li>
+<li class="nameList Last">&#201;ric Tanter</li>
+</ul>
+
+<div class="DLabstract"><div style="display:inline"><p>The R programming language is very popular for developing statistical software and data analysis, thanks to rich libraries, concise and expressive syntax, and support for interactive programming. Yet, the semantics of R is fairly complex, contains many subtle corner cases, and is not formally specified. This makes it difficult to reason about R programs. In this work, we develop a big-step operational semantics for R in the form of an interpreter written in the Coq proof assistant. We ensure the trustworthiness of the formalization by introducing a monadic encoding that allows the Coq interpreter, CoqR, to be in direct visual correspondence with the reference R interpreter, GNU R. Additionally, we provide a testing framework that supports systematic comparison of CoqR and GNU R. In its current state, CoqR covers the nucleus of the R language as well as numerous additional features, making it pass a significant number of realistic test cases from the GNU R and FastR projects. To exercise the formal specification, we prove in Coq the preservation of memory invariants in selected parts of the interpreter. This work is an important first step towards a robust environment for formal verification of R programs.</p></div> </div>
+<h2>SESSION: Optimization</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661737" title="Get the Full Text from the ACM Digital Library">Log++ logging for a cloud-native world</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Mark Marron</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Logging is a fundamental part of the software development and deployment lifecycle but logging support is often provided as an afterthought via limited library APIs or third-party modules. Given the critical nature of logging in modern cloud, mobile, and IoT development workflows, the unique needs of the APIs involved, and the opportunities for optimization using semantic knowledge, we argue logging should be included as a central part of the language and runtime designs. This paper presents a rethinking of the logger for modern cloud-native workflows. </p> <p> Based on a set of design principles for modern logging we build a logging system, that supports near zero-cost for disabled log statements, low cost lazy-copying for enabled log statements, selective persistence of logging output, unified control of logging output across different libraries, and DevOps integration for use with modern cloud-based deployments. To evaluate these concepts we implemented the Log++ logger for Node.js hosted JavaScript applications.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661738" title="Get the Full Text from the ACM Digital Library">HorseIR: bringing array programming languages together with database query processing</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Hanfeng Chen</li>
+<li class="nameList">Joseph Vinish D&#39;silva</li>
+<li class="nameList">Hongji Chen</li>
+<li class="nameList">Bettina Kemme</li>
+<li class="nameList Last">Laurie Hendren</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Relational database management systems (RDBMS) are operationally similar to a dynamic language processor. They take SQL queries as input, dynamically generate an optimized execution plan, and then execute it. In recent decades, the emergence of in-memory databases with columnar storage, which use array-like storage structures, has shifted the focus on optimizations from the traditional I/O bottleneck to CPU and memory. However, database research so far has primarily focused on CPU cache optimizations. The similarity in the computational characteristics of such database workloads and array programming language optimizations are largely unexplored. We believe that these database implementations can benefit from merging database optimizations with dynamic array-based programming language approaches. Therefore, in this paper, we propose a novel approach to optimize database query execution using a new array-based intermediate representation, HorseIR, that resides between database queries and compiled code. Furthermore, we provide a translator to generate HorseIR from database execution plans and a compiler that optimizes HorseIR and generates efficient code. We compare HorseIR with the MonetDB RDBMS, by testing standard SQL queries, and show how our approach and compiler optimizations improve the runtime of complex queries.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661739" title="Get the Full Text from the ACM Digital Library">JavaScript AOT compilation</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Manuel Serrano</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Static compilation, <em>a.k.a.,</em> ahead-of-time (AOT) compilation, is an alternative approach to JIT compilation that can combine good speed and lightweight memory footprint, and that can accommodate read-only memory constraints that are imposed by some devices and some operating systems. Unfortunately the highly dynamic nature of JavaScript makes it hard to compile statically and all existing AOT compilers have either gave up on good performance or full language support. We have designed and implemented an AOT compiler that aims at satisfying both. It supports full unrestricted ECMAScript 5.1 plus many ECMAScript 2017 features and the majority of benchmarks are within 50</p></div> </div>
+<h2>SESSION: Systems</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661730" title="Get the Full Text from the ACM Digital Library">Query-based object-oriented programming: a declarative web of objects</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Yoav Seginer</li>
+<li class="nameList">Theo Vosse</li>
+<li class="nameList">Gil Harari</li>
+<li class="nameList Last">Uri Kolodny</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present a declarative, object-oriented language in which queries play a central role. Queries are used not only to access data, but also to refer to the application&#8217;s object members and as a means of program control. The language is fully declarative, with queries and other pure functions defining the relations between the attributes of different objects. A rule-base-like write operation allows state to be updated. Control is achieved by queries selecting the class variants (mixin classes) which are active in each object. The dynamic activation and deactivation of declarative mixin classes allows decomposition of functionality into small reusable classes. </p> <p>The programming style in the language is functional and reactive, with function applications defining object members. Queries are one type of function, which also serves as the glue which puts these functions together, providing them with their input. Since queries describe declaratively <em>what</em> they return, they leave it to the system to implement the <em>how</em> of getting it. Combining this with an organization around objects makes the language highly suitable for complex interactive applications driven by large amounts of data from multiple sources. </p> <p>Our implementation of the language includes a strong display component. It can be seen as a conceptual extension of HTML and CSS in a way which replaces the need for the JavaScript imperative component in web applications. The work described here is not restricted, however, to front-end development and can be applied elsewhere as well.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661731" title="Get the Full Text from the ACM Digital Library">Self-contained development environments</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Guido Chari</li>
+<li class="nameList">Javier Pim&#225;s</li>
+<li class="nameList">Jan Vitek</li>
+<li class="nameList Last">Olivier Fl&#252;ckiger</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Operating systems are traditionally implemented in low- level, performance-oriented programming languages. These languages typically rely on minimal runtime support and provide unfettered access to the underlying hardware. Tra- dition has benefits: developers control the resources that the operating system manages and few performance bottle- necks cannot be overcome with clever feats of programming. On the other hand, this makes operating systems harder to understand and maintain. Furthermore, those languages have few built-in barriers against bugs. This paper is an ex- periment in side-stepping operating systems, and pushing functionality into the runtime of high-level programming languages. The question we try to answer is how much sup- port is needed to run an application written in, say, Smalltalk or Python on bare metal, that is, with no underlying oper- ating system. We present a framework named NopSys that allows this, and we validate it with the implementation of CogNos a Smalltalk virtual machine running on bare x86 hardware. Experimental results suggest that this approach is promising.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661732" title="Get the Full Text from the ACM Digital Library">Numerical computing on the web: benchmarking for the future</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">David Herrera</li>
+<li class="nameList">Hanfeng Chen</li>
+<li class="nameList">Erick Lavoie</li>
+<li class="nameList Last">Laurie Hendren</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Recent advances in execution environments for JavaScript and WebAssembly that run on a broad range of devices, from workstations and mobile phones to IoT devices, provide new opportunities for portable and web-based numerical computing. Indeed, numerous numerical libraries and applications are emerging on the web, including Tensorflow.js, JSMapReduce, and the NLG Protein Viewer. This paper evaluates the current performance of numerical computing on the web, including both JavaScript and WebAssembly, over a wide range of devices from workstations to IoT devices. We developed a new benchmarking approach, which allowed us to perform centralized benchmarking, including benchmarking on mobile and IoT devices. Using this approach we performed four performance studies using the Ostrich benchmark suite, a collection of numerical programs representing the numerical dwarf categories identified by Colella. We studied the performance evolution of JavaScript, the relative performance of WebAssembly, the performance of server-side Node.js, and a comprehensive performance showdown for a wide range of devices.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

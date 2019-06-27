@@ -8,17 +8,32 @@ aspect of programming. Welcomed are papers that propose and argue for
 new approaches to the creation of software as well as reflections on
 technology and ideas bearing on programming broadly construed.
 
-Onward! 2018
+Onward! 2019
 ------------
 
--   Boston, Massachusetts, USA, October 17-19, 2018
--   Co-located with SPLASH 2018
--   Papers chair: Elisa Gonzalez Boix (Vrije Universiteit Brussel)
--   Essays chair: Richard P. Gabriel (Dreamsongs and Hasso Plattner Institute)
--   [http://2018.splashcon.org](http://2018.splashcon.org)
+-   Athens, Greece, October 23-25, 2019
+-   Co-located with SPLASH 2019
+-   Papers chair: Hidehiko Masuhara (Tokyo Institute of Technology)
+-   Essays chair: Tomas Petricek (University of Kent)
+-   [http://2019.splashcon.org](http://2019.splashcon.org)
+-   [https://2019.onward-conference.org/track/onward-2019-papers](https://2019.onward-conference.org/track/onward-2019-papers)
+-   [https://2019.onward-conference.org/track/onward-2019-Onward-Essays](https://2019.onward-conference.org/track/onward-2019-Onward-Essays)
 
 Awards
 ------
+
+-   Most Notable Paper Award 2018 for 2008
+    -   Recipient: Richard P. Gabriel
+    -   Title: Designed as Designer
+    -   Conference: Onward! 2008
+    -   Paper:
+        [https://dl.acm.org/citation.cfm?id=1449813](https://dl.acm.org/citation.cfm?id=1449813)
+    -   Citation: The 2008 Onward! essay "Designed as Designer" examines
+        the nature of creativity and design, exploring poetry, architecture
+        and software. In particular, the paper sets out to explore questions
+        about our self-conception as computer scientists and programmers.
+        This paper is notable for paving the way for a new track that
+        became Essays at Onward!.
 
 -   Most Notable Paper Award 2017 for 2007
     -   Recipient: Sean McDirmid
@@ -30,7 +45,7 @@ Awards
         Programming Language" brought the idea of Live Programming
         into focus by examining the necessary mechanisms, developing a
         good running example, displaying a contrarian attitude, and
-        explaining it all with admirably clear writing..
+        explaining it all with admirably clear writing.
 
 -   Most Notable Paper Award 2016 for 2006
     -   Recipient: Friedrich Steimann
@@ -52,11 +67,11 @@ Awards
 
 -   Most Notable Paper Award 2015 for 2005
     -   Recipient: Jonathan Edwards
-    -   Title: Subtext--Uncovering the Simplicity of Programming
+    -   Title: Subtext&#8212;Uncovering the Simplicity of Programming
     -   Conference: Onward! 2005
     -   Paper:
         [http://dl.acm.org/citation.cfm?id=1094811.1094851](http://dl.acm.org/citation.cfm?id=1094811.1094851)
-    -   Citation: The 2005 Onward! paper "Subtext--Uncovering the
+    -   Citation: The 2005 Onward! paper "Subtext&#8212;Uncovering the
         Simplicity of Programming" presented a new kind of
         programming, unifying programs and their execution, and which
         helped establish Onward! as a forum for high-end, lateral
@@ -112,8 +127,19 @@ Awards
 Past Events
 -----------
 
+- Onward! 2018
+    -   Boston, Massachusetts, USA, October 17-19, 2018
+    -   Co-located with SPLASH 2018
+    -   Papers chair: Elisa Gonzalez Boix
+    -   Essays chair: Richard P. Gabriel
+    -   Keynote speaker: Jenny Quillien
+    -   [http://2018.splashcon.org](http://2018.splashcon.org)
+    -   Richard P. Gabriel (Dreamsongs and Hasso Plattner Institute)
+    -   [https://2018.onward-conference.org/track/onward-2018-papers](https://2018.onward-conference.org/track/onward-2018-papers)
+    -   [https://2018.onward-conference.org/track/onward-2018-Onward-Essays](https://2018.onward-conference.org/track/onward-2018-Onward-Essays)
+
 -   Onward! 2017
-    -   Vancouver, British Columbia, Canada, October 25-27, 2017
+    -   Vancouver, British Columbia, Canada, October) 25-27, 2017
     -   Co-located with SPLASH 2017
     -   Papers chair: Emina Torlak
     -   Papers co-chair: Tijs van der Storm
@@ -181,13 +207,13 @@ Past Events
     -   General co-chair: Richard P. Gabriel
     -   Papers chair: Eelco Visser
     -   Essays chair: David West
-    -   Keynote speaker: Markus P&#252;schel
+    -   Keynote speaker: Markus Püschel
     -   [http://onward-conference.org/2011/](http://onward-conference.org/2011/)
 
 -   Onward! 2010
     -   Reno, Nevada, USA, October 19-21, 2010
     -   Co-located with SPLASH 2010
-    -   General chair: Siobh&#225;n Clarke
+    -   General chair: Siobhán Clarke
     -   Papers chair: Kevin Sullivan
     -   Essays chair: Daniel Steinberg
     -   Keynote speaker: Benjamin C. Pierce
@@ -212,7 +238,7 @@ Past Events
     -   [http://www.oopsla.org/oopsla2008/program-overview/onward-papers.html](http://www.oopsla.org/oopsla2008/program-overview/onward-papers.html)
 
 -   Onward! 2007
-    -   Montr&#233;al, Quebec, Canada, October 23-25, 2007
+    -   Montréal, Quebec, Canada, October 23-25, 2007
     -   Co-located with OOPSLA 2007
     -   PC chair: Cristina Videira Lopes
     -   Keynote speakers: Jim Purbrick and Mark Lentczner
@@ -261,33 +287,42 @@ Steering Committee Members
 
 ### Present
 
-* Robert Hirschfeld, Hasso Plattner Institute Potsdam, Germany (SC Chair)
-* Robert Biddle, Carleton University, Canada (Essays Chair 2017)
-* Richard P. Gabriel, Dreamsongs and Hasso Plattner Institute, USA (Essays Chair 2018)
+* Jonathan Aldrich, Carnegie Mellon University, USA (SC Chair 2018-2021, SPLASH General Chair 2015)
+* Robert Biddle, Carleton University, Canada (Essays Chair 2017, Chair 2006)
+* Richard P. Gabriel, Dreamsongs and Hasso Plattner Institute, USA (Essays Chair 2018, General Co-chair 2011, Essays Assistant Chair 2009, Chair 2003, Chair 2002, Founding Chair)
 * Elisa Gonzalez Boix, Vrije Universiteit Brussel, Belgium (Papers Chair 2018)
-* Cristina Videira Lopes, University of California at Irvine, USA (Essays Chair 2016)
-* Gail Murphy, University of British Columbia, Canada (Papers Chair 2015, SPLASH General Chair 2017)
-* Emerson Murphy-Hill, North Carolina State University, USA (Papers Chair 2016)
-* Kevin Sullivan, University of Virginia, USA (Past SC Chair 2015)
-* Peter Thiemann, University of Freiburg, Germany (SIGPLAN)
+* Robert Hirschfeld, Hasso Plattner Institute and University of Potsdam, Germany (Past SC Chair 2018-2021, SC Chair 2015-2018, Papers Chair 2013, General Chair 2011)
+* Hidehiko Masuhara, Tokyo Institute of Technology, Japan (Papers Chair 2019)
+* Gail Murphy, University of British Columbia, Canada (SPLASH General Chair 2017, Papers Chair 2015)
+* Tomas Petricek, University of Kent, UK (Essays Chair 2019)
+* Benjamin C. Pierce, University of Pennsylvania, USA (SIGPLAN 2018-2021)
+* Yannis Smaragdakis, University of Athens, Greece (SPLASH General Chair 2019)
 * Emina Torlak, University of Washington, USA (Papers Chair 2017)
-* Eelco Visser, Delft University of Technology, The Netherlands (Papers Chair 2011, SPLASH General Chair 2016)
 * Jan Vitek, Northeastern University, USA (SPLASH General Chair 2018)
 
 ### Past
 
-* Jonathan Aldrich, Carnegie Mellon University, USA
-* Elisa Baniassad, Australian National University, Australia (SC Chair)
-* Andrew Black, Portland State University, USA
-* Bernd Bruegge, TU M&#252;nchen, Germany
-* Siobh&#225;n Clarke, Trinity College, Ireland
-* Yvonne Coady, University of Victoria, Canada
-* Geoff A. Cohen, Elysium Digital, USA
-* Jonathan Edwards, Massachusetts Institute of Technology, USA
-* Richard P. Gabriel, IBM Research, USA (SC Chair, Founder)
-* Jeremy Gibbons, University of Oxford, UK (SIGPLAN) 
-* Antony Hosking, Purdue University, USA
-* Shriram Krishnamurthi, Brown University, USA
-* James Noble, Victoria University of Wellington, New Zealand
-* Dirk Riehle, Friedrich-Alexander-Universit&#228;t Erlangen-N&#252;rnberg, Germany
-* Guy L. Steele Jr., Oracle Labs, USA
+* Elisa Baniassad (SC Chair 2011-2013, Co-chair 2005)
+* Andrew Black (SPLASH General Chair 2014)
+* Bernd Bruegge (Essays Chair 2014, Essays Chair 2013, General Chair 2009)
+* Siobhán Clarke (General Chair 2010)
+* Yvonne Coady (Papers Chair 2009)
+* Geoff A. Cohen (Chair 2004)
+* Jonathan Edwards (Papers Chair 2012)
+* Jeremy Gibbons (SIGPLAN 2012-2015)
+* Antony Hosking (SPLASH 2013 General Chair)
+* Shriram Krishnamurthi (Papers Chair 2014)
+* Cristina Videira Lopes (Essays Chair 2016, PC Chair 2007)
+* Brian Marick (Essays Chair 2005)
+* Emerson Murphy-Hill (Papers Chair 2016)
+* James Noble (Co-chair 2005)
+* Simon Peyton-Jones (Essays Chair 2009)
+* Dirk Riehle (PC Chair 2008)
+* Julie Steele (Essays Chair 2012)
+* Guy L. Steele Jr. (Essays Chair 2015)
+* Daniel Steinberg (Essays Chair 2010)
+* Tijs van der Storm (Papers Co-chair 2017)
+* Kevin Sullivan (Past SC Chair 2015-2018, SC Chair 2013-2015, Papers Chair 2010)
+* Peter Thiemann (SIGPLAN 2015-2018)
+* Eelco Visser (SPLASH General Chair 2016, Papers Chair 2011)
+* David West (Essays Chair 2011)

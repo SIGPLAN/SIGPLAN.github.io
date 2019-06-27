@@ -1,0 +1,193 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>ARRAY 2019- Proceedings of the 6th ACM SIGPLAN International Workshop on Libraries, Languages and Compilers for Array Programming</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>ARRAY 2019- Proceedings of the 6th ACM SIGPLAN International Workshop on Libraries, Languages and Compilers for Array Programming</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3315454" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Keynote</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674337" title="Get the Full Text from the ACM Digital Library">Array processing on steroids for the SKA radio-telescope (keynote)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Peter J. Braam</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The Square Kilometre Array (SKA) radio telescope will be a massive scientific instrument entering service in the late 2020&#39;s. The conversion of its antenna signals to images and the detection of transient phenomena is a massive computational undertaking, requiring 200PB/sec of memory bandwidth, all dedicated to array processing. In this talk we will give an overview of the data processing in the telescope and the process that has been followed to design suitable algorithms and systems. We will highlight parts of the challenge that have interesting relationships to computer science, and then transition to review recent technological developments such as memory, machine learning accelerators, and new floating point formats that may prove helpful.</p></div> </div>
+<h2>SESSION: Papers</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674338" title="Get the Full Text from the ACM Digital Library">Finite difference methods fengshui: alignment through a mathematics of arrays</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Benjamin Chetioui</li>
+<li class="nameList">Lenore Mullin</li>
+<li class="nameList">Ole Abusdal</li>
+<li class="nameList">Magne Haveraaen</li>
+
+<li class="nameList">Jaakko J&#228;rvi</li>
+<li class="nameList Last">Sandra Maci&#224;</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Numerous scientific-computational domains make use of array data. The core computing of the numerical methods and the algorithms involved is related to multi-dimensional array manipulation. Memory layout and the access patterns of that data are crucial to the optimal performance of the array-based computations. As we move towards exascale computing, writing portable code for efficient data parallel computations is increasingly requiring an abstract productive working environment. To that end, we present the design of a framework for optimizing scientific array-based computations, building a case study for a Partial Differential Equations solver. By embedding the Mathematics of Arrays formalism in the Magnolia programming language, we assemble a software stack capable of abstracting the continuous high-level application layer from the discrete formulation of the collective array-based numerical methods and algorithms and the final detailed low-level code. The case study lays the groundwork for achieving optimized memory layout and efficient computations while preserving a stable abstraction layer independent of underlying algorithms and changes in the architecture.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674339" title="Get the Full Text from the ACM Digital Library">Data-parallel flattening by expansion</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Martin Elsman</li>
+<li class="nameList">Troels Henriksen</li>
+<li class="nameList Last">Niels Gustav Westphal Serup</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present a higher-order programmer-level technique for compiling particular kinds of irregular data-parallel problems to parallel hardware. The technique, which we have named ``flattening-by-expansion&#39;&#39; builds on a number of segmented data-parallel operations but is itself implemented as a higher-order generic function, which makes it useful for many irregular problems. Concretely, the implementation is given in Futhark and we demonstrate the usefulness of the functionality for a number of irregular problems and show that, in practice, the irregular problems are compiled to efficient parallel code that can be executed on GPUs. The technique is useful in any data-parallel language that provides a key set of primitives.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674330" title="Get the Full Text from the ACM Digital Library">ALPyNA: acceleration of loops in Python for novel architectures</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Dejice Jacob</li>
+<li class="nameList Last">Jeremy Singer</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present ALPyNA, an automatic loop parallelization framework for Python, which analyzes data dependences within nested loops and dynamically generates CUDA kernels for GPU execution. The ALPyNA system applies classical dependence analysis techniques to discover and exploit potential parallelism. The skeletal structure of the dependence graph is determined statically (if possible) or at runtime; this is combined with type and bounds information discovered at runtime, to auto-generate high-performance kernels for offload to GPU. </p> <p> We demonstrate speedups of up to 1000x relative to the native CPython interpreter across four array-intensive numerical Python benchmarks. Performance improvement is related to both iteration domain size and dependence graph complexity. Nevertheless, this approach promises to bring the benefits of manycore parallelism to application developers.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674331" title="Get the Full Text from the ACM Digital Library">High-level synthesis of functional patterns with Lift</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Martin Kristien</li>
+<li class="nameList">Bruno Bodin</li>
+<li class="nameList">Michel Steuwer</li>
+<li class="nameList Last">Christophe Dubach</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>High-level languages are commonly seen as a good fit to tackle the problem of performance portability across parallel architectures. The Lift framework is a recent approach which combines high-level, array-based programming abstractions, with a system of rewrite-rules that express algorithmic as well as low-level hardware optimizations. Lift has successfully demonstrated its ability to address the challenge of performance portability across multiple types of CPU and GPU devices by automatically generating code that is on-par with highly optimized hand-written code. </p> <p> This paper demonstrates the potential of Lift for targeting FPGA-based platforms. It presents the design of new Lift parallel patterns operating on data streams, and describes the implementation of a Lift VHDL backend. This approach is evaluated on a Xilinx XC7Z010 FPGA using matrix multiplication, leading to a 10x speed-up over highly optimized CPU code and a commercial HLS tool. Furthermore, by considering the potential of design space exploration enabled by Lift, this work is a stepping stone towards automatically generated competitive code for FPGAs.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674332" title="Get the Full Text from the ACM Digital Library">Toward generalized tensor algebra for ab initio quantum chemistry methods</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Erdal Mutlu</li>
+<li class="nameList">Karol Kowalski</li>
+<li class="nameList Last">Sriram Krishnamoorthy</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The widespread use of tensor operations in describing electronic structure calculations has motivated the design of software frameworks for productive development of scalable optimized tensor-based electronic structure methods. Whereas prior work focused on Cartesian abstractions for dense tensors, we present an algebra to specify and perform tensor operations on a larger class of block-sparse tensors. We illustrate the use of this framework in expressing real-world computational chemistry calculations beyond the reach of existing frameworks.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674333" title="Get the Full Text from the ACM Digital Library">TeIL: a type-safe imperative tensor intermediate language</a>
+</h3>
+<ul class="DLauthors">
+
+<li class="nameList First">Norman A. Rink</li>
+<li class="nameList Last">Jeronimo Castrillon</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Each of the popular tensor frameworks from the machine learning domain comes with its own language for expressing tensor kernels. Since these tensor languages lack precise specifications, it is impossible to understand and reason about tensor kernels that exhibit unexpected behaviour. In this paper, we give examples of such kernels. </p> <p> The tensor languages are superficially similar to the well-known functional array languages, for which formal definitions often exist. However, the tensor languages are inherently imperative. In this paper we present TeIL, an imperative tensor intermediate language with precise formal semantics. For the popular tensor languages, TeIL can serve as a common ground on the basis of which precise reasoning about kernels becomes possible. Based on TeIL&#39;s formal semantics we develop a type-safety result in the Coq proof assistant.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674334" title="Get the Full Text from the ACM Digital Library">Convolutional neural networks in APL</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Artjoms &#352;inkarovs</li>
+<li class="nameList">Robert Bernecky</li>
+<li class="nameList Last">Sven-Bodo Scholz</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This paper shows how a Convolutional Neural Network (CNN) can be implemented in APL. Its first-class array support ideally fits that domain, and the operations of APL facilitate rapid and concise creation of generically reusable building blocks. For our example, only ten blocks are needed, and they can be expressed as ten lines of native APL. All these blocks are purely functional, and they are built out of a small number of builtin operators, resulting in a highly portable specification that is immediately runnable and should be suitable for high-performance optimizations and parallel execution. This implies that APL can be seen as a framework to define shallowly-embedded machine learning DSLs without any external dependencies, making them useful at least for experiments and prototyping. We explain the construction of each CNN building block, and briefly discuss the performance of the resulting specification.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674345" title="Get the Full Text from the ACM Digital Library">Records with rank polymorphism</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Justin Slepak</li>
+<li class="nameList">Olin Shivers</li>
+<li class="nameList Last">Panagiotis Manolios</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In a rank-polymorphic programming language, all functions automatically lift to operate on arbitrarily high-dimensional aggregate data. By adding records to such a language, we can support computation on data frames, a tabular data structure containing heterogeneous data but in which individual columns are homogeneous. In such a setting, a data frame is a vector of records, subject to both ordinary array operations (, filtering, reducing, sorting) and lifted record operations&#8212;projecting a field lifts to projecting a column. Data frames have become a popular tool for exploratory data analysis, but fluidity of interacting with data frames via lifted record operations depends on how the language&#8217;s records are designed. </p> <p>We investigate three languages with different notions of record data: Racket, Standard ML, and Python. For each, we examine several common tasks for working with data frames and how the language&#8217;s records make these tasks easy or hard. Based on their advantages and disadvantages, we synthesize their ideas to produce a design for record types which is flexible for both scalar and lifted computation.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674346" title="Get the Full Text from the ACM Digital Library">Linear algebraic depth-first search</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Daniele G. Spampinato</li>
+<li class="nameList">Upasana Sridhar</li>
+<li class="nameList Last">Tze Meng Low</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>There is a recent push by a segment of the graph community to implement graph algorithms in the language of linear algebra. However, graph algorithms that depend on depth-first search (DFS) techniques are often highlighted as limitations of the linear algebraic approach as linear algebraic formulation of DFS algorithms are few, if any. This paper provides a linear algebraic approach for developing DFS graph algorithms and demonstrates its use for defining three classical DFS-based computations: Binary tree traversal, topological sort, and biconnected components.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

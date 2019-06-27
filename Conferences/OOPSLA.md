@@ -2,7 +2,7 @@
 layout: default
 title: "Object-oriented Programming, Systems, Languages, and Applications (OOPSLA)"
 ---
-OOPLSA (Object-oriented Programming, Systems, Languages, and
+OOPSLA (Object-oriented Programming, Systems, Languages, and
 Applications) is now part of SPLASH (Systems, Programming,
 Languages, and Applications: Software for Humanity). 
 
@@ -26,7 +26,8 @@ these awards.&#160; More details about the SIGPLAN awards can be found
 
 Web Pages of Previous Conferences
 ---------------------------------
-
+> [OOPSLA 2019](http://2019.splashcon.org/) (Athens, Greece)  
+> [OOPSLA 2018](http://2018.splashcon.org/) (Boston, MA)  
 > [OOPSLA 2017](http://2017.splashcon.org/) (Vancouver, Candada)  
 > [OOPSLA 2016](http://2016.splashcon.org/) (Amsterdam, The Netherlands)  
 > [OOPSLA 2015](http://2015.splashcon.org/) (Pittsburgh, PA)  

@@ -1,0 +1,321 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>LCTES 2019- Proceedings of the 20th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>LCTES 2019- Proceedings of the 20th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3316482" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Keynotes</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674298" title="Get the Full Text from the ACM Digital Library">New models and methods for programming cyber-physical systems (keynote)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Rajesh K. Gupta</li>
+<li class="nameList">Jason Koh</li>
+<li class="nameList Last">Dezhi Hong</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Emerging cyber-physical systems are distributed systems in constant interaction with their physical environments through sensing and actuation at network edges. Over the past decade, the embedded and control systems community have vigorously pursued a vision of coupled feedback-controlled systems with a broad range of real-life applications from transportation, smart buildings to human health. These efforts have continued to push intelligent processing to edge and near-edge devices, provide new capabilities for improved sensing with high quality timing information, establish limits on the quality of time and its impact on the stability of control algorithms etc. </p> <p> It is now time to put these capabilities to use through the emerging &#8220;stack&#8221; of capabilities, software and systems for emerging applications such as interactive spaces, buildings, smart cities etc. In this talk I will review our efforts related to pushing intelligent processing to edge or near-edge devices, our strategies to lighten the computational and memory demands of recognition tasks, and strategies to ensure high quality of timing information. I will focus on detailing our vision of how we can treat physical spaces and built environments as consisting of sensing, actuation, processing and communication resources that are dynamically discovered and put to use through emerging meta-data schema and methods. </p> <p> The talk represents ongoing work under the CONIX center (conix.io) and BRICK schema consortium (brickschema.org)</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674299" title="Get the Full Text from the ACM Digital Library">An open, transparent, industry-driven approach to AV safety (keynote)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Jack Weast</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>At Intel and Mobileye, saving lives drives us. But in the world of automated driving, we believe safety is not merely an impact of AD, but the bedrock on which we will build this industry. And so we have proposed Responsibility-Sensitive Safety (RSS), a formal model to define what it means to drive safely - a formulation of the implicit traffic rules that enable human-like negotiation on roads that will contain a bix of machine and human driven vehicles. We intend this open, industry driven model to drive industry, academic and government discussion; let&#8217;s come together as an industry and use RSS as a starting point to clarify safety today, to enable the autonomous tomorrow.</p></div> </div>
+<h2>SESSION: Memory Management</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674290" title="Get the Full Text from the ACM Digital Library">Optimizing tensor contractions for embedded devices with racetrack memory scratch-pads</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Asif Ali Khan</li>
+<li class="nameList">Norman A. Rink</li>
+<li class="nameList">Fazal Hameed</li>
+<li class="nameList Last">Jeronimo Castrillon</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Tensor contraction is a fundamental operation in many algorithms with a plethora of applications ranging from quantum chemistry over fluid dynamics and image processing to machine learning. The performance of tensor computations critically depends on the efficient utilization of on-chip memories. In the context of low-power embedded devices, efficient management of the memory space becomes even more crucial, in order to meet energy constraints. This work aims at investigating strategies for performance- and energy-efficient tensor contractions on embedded systems, using racetrack memory (RTM)-based scratch-pad memory (SPM). Compiler optimizations such as the loop access order and data layout transformations paired with architectural optimizations such as prefetching and preshifting are employed to reduce the shifting overhead in RTMs. Experimental results demonstrate that the proposed optimizations improve the SPM performance and energy consumption by 24% and 74% respectively compared to an iso-capacity SRAM.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674291" title="Get the Full Text from the ACM Digital Library">SHAKTI-MS: a RISC-V processor for memory safety in C</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Sourav Das</li>
+<li class="nameList">R. Harikrishnan Unnithan</li>
+<li class="nameList">Arjun Menon</li>
+<li class="nameList">Chester Rebeiro</li>
+<li class="nameList Last">Kamakoti Veezhinathan</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In this era of IoT devices, security is very often traded off for smaller device footprint and low power consumption. Considering the exponentially growing security threats of IoT and cyber-physical systems, it is important that these devices have built-in features that enhance security. In this paper, we present Shakti-MS, a lightweight RISC-V processor with built-in support for both temporal and spatial memory protection. At run time, Shakti-MS can detect and stymie memory misuse in C and C++ programs, with minimum runtime overheads. The solution uses a novel implementation of fat-pointers to efficiently detect misuse of pointers at runtime. Our proposal is to use stack-based cookies for crafting fat-pointers instead of having object-based identifiers. We store the fat-pointer on the stack, which eliminates the use of shadow memory space, or any table to store the pointer metadata. This reduces the storage overheads by a great extent. The cookie also helps to preserve control flow of the program by ensuring that the return address never gets modified by vulnerabilities like buffer overflows. Shakti-MS introduces new instructions in the microprocessor hardware, and also a modified compiler that automatically inserts these new instructions to enable memory protection. This co-design approach is intended to reduce runtime and area overheads, and also provides an end-to-end solution. The hardware has an area overhead of 700 LUTs on a Xilinx Virtex Ultrascale FPGA and 4100 cells on an open 55nm technology node. The clock frequency of the processor is not affected by the security extensions, while there is a marginal increase in the code size by 11% with an average runtime overhead of 13%.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674292" title="Get the Full Text from the ACM Digital Library">Crash recoverable ARMv8-oriented B+-tree for byte-addressable persistent memory</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Chundong Wang</li>
+<li class="nameList">Sudipta Chattopadhyay</li>
+<li class="nameList Last">Gunavaran Brihadiswarn</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The byte-addressable non-volatile memory (NVM) promises persistent memory. Concretely, ARM processors have incorporated architectural supports to utilize NVM. In this paper, we consider tailoring the important B+-tree for NVM operated by a 64-bit ARMv8 processor. We first conduct an empirical study of performance overheads in writing and reading data for a B+-tree with an ARMv8 processor, including the time cost of cache line flushes and memory fences for crash consistency as well as the execution time of binary search compared to that of linear search. We hence identify the key weaknesses in the design of B+-tree with ARMv8 architecture. Accordingly, we develop a new B+-tree variant, namely, crash recoverable ARMv8-oriented B+-tree (Crab-tree). To insert and delete data at runtime, Crab-tree selectively chooses one of two strategies, i.e., copy on write and shifting in place, depending on which one causes less consistency cost to performance. Crab-tree regulates a strict execution order in both strategies and recovers the tree structure in case of crashes. We have evaluated Crab-tree in Raspberry Pi 3 Model B+ with emulated NVM. Experiments show that Crab-tree significantly outperforms state-of-the-art B+-trees designed for persistent memory by up to 2.6x and 3.2x in write and read performances, respectively, with both consistency and scalability achieved.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674293" title="Get the Full Text from the ACM Digital Library">1+1&#62;2: variation-aware lifetime enhancement for embedded 3D NAND flash systems</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Yejia Di</li>
+<li class="nameList">Liang Shi</li>
+<li class="nameList">Shuo-Han Chen</li>
+<li class="nameList">Chun Jason Xue</li>
+<li class="nameList Last">Edwin H.-M. Sha</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Three-dimensional (3D) NAND flash has been developed to boost the storage capacity by stacking memory cells vertically. One critical characteristic of 3D NAND flash is its large endurance variation. With this characteristic, the lifetime will be determined by the unit with the worst endurance. However, few works can exploit the variations with acceptable overhead for lifetime improvement. In this paper, a variation-aware lifetime improvement framework is proposed. The basic idea is motivated by an observation that there is an elegant matching between unit endurance and wearing variations when wear leveling and implicit compression are applied together. To achieve the matching goal, the framework is designed from three-type-unit levels, including cell, line, and block, respectively. Series of evaluations are conducted, and the evaluation results show that the lifetime improvement is encouraging, better than that of the combination with the state-of-the-art schemes.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674294" title="Get the Full Text from the ACM Digital Library">SA-SPM: an efficient compiler for security aware scratchpad memory (invited paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Thomas Haywood Dadzie</li>
+<li class="nameList">Jiwon Lee</li>
+<li class="nameList">Jihye Kim</li>
+<li class="nameList Last">Hyunok Oh</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Scratchpad memories (SPM) are often used to boost the performance of application-specific embedded systems. In embedded systems, main memories are vulnerable to external attacks such as bus snooping or memory extraction. Therefore it is desirable to guarantee the security of data in a main memory. In software-managed SPM, it is possible to provide security in main memory by performing software-assistant encryption. </p> <p>In this paper, we present an efficient compiler for <em>security aware scratch pad Memory (SA-SPM)</em>, which ensures the security of main memories in SPM-based embedded systems. Our compiler is the first approach to support full encryption of memory regions (i.e. stack, heap, code, and static variables) in a SPM-based system. Furthermore, to reduce the energy consumption and improve the lifetime of a non-volatile main memory by decreasing the number of bit flips, we propose a new dual encryption scheme for a SPM-based system. Our experimental results show that the proposed dual encryption scheme reduces the number of bit flips by 31.8% compared with the whole encryption.</p></div> </div>
+<h2>SESSION: Architecture and Compilers</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674205" title="Get the Full Text from the ACM Digital Library">Efficient intermittent computing with differential checkpointing</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Saad Ahmed</li>
+<li class="nameList">Naveed Anwar Bhatti</li>
+<li class="nameList">Muhammad Hamad Alizai</li>
+<li class="nameList">Junaid Haroon Siddiqui</li>
+<li class="nameList Last">Luca Mottola</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Embedded devices running on ambient energy perform computations intermittently, depending upon energy availability. System support ensures forward progress of programs through state checkpointing in non-volatile memory. Checkpointing is, however, expensive in energy and adds to execution times. To reduce this overhead, we present DICE, a system design that efficiently achieves differential checkpointing in intermittent computing. Distinctive traits of DICE are its software-only nature and its ability to only operate in volatile main memory to determine differentials. DICE works with arbitrary programs using automatic code instrumentation, thus requiring no programmer intervention, and can be integrated with both reactive (Hibernus) or proactive (MementOS, HarvOS) checkpointing systems. By reducing the cost of checkpoints, performance markedly improves. For example, using DICE, Hibernus requires one order of magnitude shorter time to complete a fixed workload in real-world settings.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674206" title="Get the Full Text from the ACM Digital Library">SPECTRUM: a software defined predictable many-core architecture for LTE baseband processing</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Vanchinathan Venkataramani</li>
+<li class="nameList">Aditi Kulkarni</li> 
+<li class="nameList">Tulika Mitra</li>
+<li class="nameList Last">Li-Shiuan Peh</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Wireless communication standards such as Long Term Evolution (LTE) are rapidly changing to support the high data rate of wireless devices. The physical layer baseband processing has strict real-time deadlines, especially in the next-generation applications enabled by the 5G standard. Existing base station transceivers utilize customized Digital Signal Processing (DSP) cores or fixed-function hardware accelerators for physical layer baseband processing. However, these approaches incur significant non-recurring engineering costs and are inflexible to newer standards or updates. Software programmable processors offer more adaptability. However, it is challenging to sustain guaranteed worst-case latency and throughput at reasonably low-power on shared-memory many-core architectures featuring inherently unpredictable design choices, such as caches and network-on chip. We propose SPECTRUM, a predictable software defined many-core architecture that exploits the massive parallelism of the LTE baseband processing. The focus is on designing a scalable lightweight hardware that can be programmed and defined by sophisticated software mechanisms. SPECTRUM employs hundreds of lightweight in-order cores augmented with custom instructions that provide predictable timing, a purely software-scheduled on-chip network that orchestrates the communication to avoid any contention and per-core software controlled scratchpad memory with deterministic access latency. Compared to a many-core architecture like Skylake-SP (average power 215W) that drops 14% packets at high traffic load, 256-core SPECTRUM by definition has zero packet drop rate at significantly lower average power of 24W. SPECTRUM consumes 2.11x lower power than C66x DSP cores+accelerator platform in baseband processing. SPECTRUM is also well-positioned to support future 5G workloads.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674207" title="Get the Full Text from the ACM Digital Library">The betrayal of constant power &#215; time: finding the missing Joules of transiently-powered computers</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Saad Ahmed</li>
+<li class="nameList">Abu Bakar</li>
+<li class="nameList">Naveed Anwar Bhatti</li>
+<li class="nameList">Muhammad Hamad Alizai</li>
+<li class="nameList">Junaid Haroon Siddiqui</li>
+<li class="nameList Last">Luca Mottola</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Transiently-powered computers (TPCs) lay the basis for a battery-less Internet of Things, using energy harvesting and small capacitors to power their operation. This power supply is characterized by extreme variations in supply voltage, as capacitors charge when harvesting energy and discharge when computing. We experimentally find that these variations cause marked fluctuations in clock speed and power consumption, which determine energy efficiency. We demonstrate that it is possible to accurately model and concretely capitalize on these fluctuations. We derive an energy model as a function of supply voltage and develop EPIC, a compile-time energy analysis tool. We use EPIC to substitute for the constant power assumption in existing analysis techniques, giving programmers accurate information on worst-case energy consumption of programs. When using EPIC with existing TPC system support, run-time energy efficiency drastically improves, eventually leading up to a 350% speedup in the time to complete a fixed workload. Further, when using EPIC with existing debugging tools, programmers avoid unnecessary program changes that hurt energy efficiency.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674208" title="Get the Full Text from the ACM Digital Library">WCET-aware hyper-block construction for clustered VLIW processors</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Xuesong Su</li>
+<li class="nameList">Hui Wu</li>
+<li class="nameList Last">Jingling Xue</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Hyper-blocks can significantly improve instruction level parallelism on a wide range of super-scalar and VLIW processors. However, most hyper-block construction approaches aim at minimizing the average-case execution time of a program. In real-time embedded systems, minimizing the worst-case execution time (WCET) of a program is the primary goal of an optimizing compiler. We investigate the hyper-block construction problem for a program executed on a clustered VLIW processor such that the WCET of the program is minimized, and propose a novel heuristic approach considering tail duplications. Our approach is underpinned by a novel priority scheme and a precise tail duplication cost model for computing the WCET of a program. We have implemented our approach in Trimaran 4.0, and compared it with the state-of-the-art approach by using a set of 8 benchmark suites. The experimental results show that our approach achieves the maximum WCET improvement of 20.37% and the average WCET improvement of 11.59%, respectively.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674209" title="Get the Full Text from the ACM Digital Library">From Java to real-time Java: a model-driven methodology with automated toolchain (invited paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Wanli Chang</li>
+<li class="nameList">Shuai Zhao</li>
+<li class="nameList">Ran Wei</li>
+<li class="nameList">Andy Wellings</li>
+<li class="nameList Last">Alan Burns</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Real-time systems are receiving increasing attention with the emerging application scenarios that are safety-critical, complex in functionality, high on timing-related performance requirements, and cost-sensitive, such as autonomous vehicles. Development of real-time systems is error-prone and highly dependent on the sophisticated domain expertise, making it a costly process. There is a trend of the existing software without the real-time notion being re-developed to realise real-time features, e.g., in the big data technology. This paper utilises the principles of model-driven engineering (MDE) and proposes the first methodology that automatically converts standard time-sharing Java applications to real-time Java applications. It opens up a new research direction on development automation of real-time programming languages and inspires many research questions that can be jointly investigated by the embedded systems, programming languages as well as MDE communities.</p></div> </div>
+<h2>SESSION: Applications</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674200" title="Get the Full Text from the ACM Digital Library">IA-graph based inter-app conflicts detection in open IoT systems</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Xinyi Li</li>
+<li class="nameList">Lei Zhang</li>
+<li class="nameList Last">Xipeng Shen</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This paper tackles the problem of detecting potential conflicts among independently developed apps that are to be installed into an open Internet of Things (IoT) environment. It provides a new set of definitions and categorizations of the conflicts to more precisely characterize the nature of the problem, and employs a graph representation (named IA Graph) for formally representing IoT controls and inter-app interplays. It provides an efficient conflicts detection algorithm implemented on a SmartThings compiler and shows significantly improved efficacy over prior solutions.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674201" title="Get the Full Text from the ACM Digital Library">ApproxSymate: path sensitive program approximation using symbolic execution</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Himeshi De Silva</li>
+<li class="nameList">Andrew E. Santosa</li>
+<li class="nameList">Nhut-Minh Ho</li>
+<li class="nameList Last">Weng-Fai Wong</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Approximate computing, a technique that forgoes quantifiable output accuracy in favor of performance gains, is useful for improving the energy efficiency of error-resilient software, especially in the embedded setting. The identification of program components that can tolerate error plays a crucial role in balancing the energy vs. accuracy trade off in approximate computing. Manual analysis for approximability is not scalable and therefore automated tools which employ static or dynamic analysis have been proposed. However, static techniques are often coarse in their approximations while dynamic efforts incur high overhead. In this work we present <em>ApproxSymate</em>, a framework for automatically identifying program approximations using symbolic execution. ApproxSymate first statically computes symbolic error expressions for program components and then uses a dynamic sensitivity analysis to compute their approximability. A unique feature of this tool is that it explores the previously not considered dimension of <em>program path</em> for approximation which enables safer transformations. Our evaluation shows that ApproxSymate averages about 96% accuracy in identifying the same approximations found in manually annotated benchmarks, outperforming existing automated techniques.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674202" title="Get the Full Text from the ACM Digital Library">Automating the generation of hardware component knowledge bases</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Luke Hsiao</li>
+<li class="nameList">Sen Wu</li>
+ <li class="nameList">Nicholas Chiang</li>
+<li class="nameList">Christopher R&#233;</li>
+<li class="nameList Last">Philip Levis</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Hardware component databases are critical resources in designing embedded systems. Since generating these databases requires hundreds of thousands of hours of manual data entry, they are proprietary, limited in the data they provide, and have many random data entry errors. </p> <p> We present a machine-learning based approach for automating the generation of component databases directly from datasheets. Extracting data directly from datasheets is challenging because: (1) the data is relational in nature and relies on non-local context, (2) the documents are filled with technical jargon, and (3) the datasheets are PDFs, a format that decouples visual locality from locality in the document. The proposed approach uses a rich data model and weak supervision to address these challenges. </p> <p> We evaluate the approach on datasheets of three classes of hardware components and achieve an average quality of 75 F1 points which is comparable to existing human-curated knowledge bases. We perform two applications studies that demonstrate the extraction of multiple data modalities such as numerical properties and images. We show how different sources of supervision such as heuristics and human labels have distinct advantages which can be utilized together within a single methodology to automatically generate hardware component knowledge bases.</p></div> </div>
+<h2>SESSION: Benchmarking and In-Progress Works</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674203" title="Get the Full Text from the ACM Digital Library">BitBench: a benchmark for bitstream computing</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Kyle Daruwalla</li>
+<li class="nameList">Heng Zhuo</li>
+<li class="nameList">Carly Schulz</li>
+<li class="nameList Last">Mikko Lipasti</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>With the recent increase in ultra-low power applications, researchers are investigating alternative architectures that can operate on streaming input data. These target use cases require complex algorithms that must be evaluated under a real-time deadline, but also satisfy the <em>strict</em> available power budget. Stochastic computing (SC) is an example of an alternative paradigm where the data is represented as single bitstreams, allowing designers to implement operations such as multiplication using a simple AND gate. Consequently, the resulting design is both low area and low power. Similarly, traditional digital filters can take advantage of streaming inputs to effectively choose coefficients, resulting in a low cost implementation. In this work, we construct six key algorithms to characterize bitstream computing. We present these algorithms as a new benchmark suite: BitBench.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674204" title="Get the Full Text from the ACM Digital Library">An empirical comparison between monkey testing and human testing (WIP paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Mostafa Mohammed</li>
+<li class="nameList">Haipeng Cai</li>
+<li class="nameList Last">Na Meng</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Android app testing is challenging and time-consuming because fully testing all feasible execution paths is difficult. Nowadays apps are usually tested in two ways: human testing or automated testing. Prior work compared different automated tools. However, some fundamental questions are still unexplored, including (1) how automated testing behaves differently from human testing, and (2) whether automated testing can fully or partially substitute human testing. </p> <p> This paper presents our study to explore the open questions. Monkey has been considered one of the best automated testing tools due to its usability, reliability, and competitive coverage metrics, so we applied Monkey to five Android apps and collected their dynamic event traces. Meanwhile, we recruited eight users to manually test the same apps and gathered the traces. By comparing the collected data, we revealed that i.) on average, the two methods generated similar numbers of unique events; ii.) Monkey created more system events while humans created more UI events; iii.) Monkey could mimic human behaviors when apps have UIs full of clickable widgets to trigger logically independent events; and iv.) Monkey was insufficient to test apps that require information comprehension and problem-solving skills. Our research sheds light on future research that combines human expertise with the agility of Monkey testing.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674215" title="Get the Full Text from the ACM Digital Library">A compiler-based approach for GPGPU performance calibration using TLP modulation (WIP paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Yongseung Yu</li>
+<li class="nameList">Seokwon Kang</li>
+<li class="nameList Last">Yongjun Park</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Modern GPUs are the most successful accelerators as they provide outstanding performance gain by using CUDA or OpenCL programming models. For maximum performance, programmers typically try to maximize the number of thread blocks of target programs, and GPUs also generally attempt to allocate the maximum number of thread blocks to their GPU cores. However, many recent studies have pointed out that simply allocating the maximum number of thread blocks to GPU cores does not always guarantee the best performance, and identifying proper number of thread blocks per GPU core is a major challenge. Despite these studies, most existing architectural techniques cannot be directly applied to current GPU hardware, and the optimal number of thread blocks can vary significantly depending on the target GPU and application characteristics. To solve these problems, this study proposes a just-in-time thread block number adjustment system using CUDA binary modification upon an LLVM compiler framework, referred to as the CTA-Limiter, in order to dynamically maximize GPU performance on real GPUs without reprogramming. The framework gradually reduces the number of concurrent thread blocks of target CUDA workloads using extra shared memory allocation, and compares the execution time with the previous version to automatically identify the optimal number of co-running thread blocks per GPU Core. The results showed meaningful performance improvements, averaging at 30%, 40%, and 44%, in GTX 960, GTX 1050, and GTX 1080 Ti, respectively.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674216" title="Get the Full Text from the ACM Digital Library">PANDORA: a parallelizing approximation-discovery framework (WIP paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Greg Stitt</li>
+<li class="nameList Last">David Campbell</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In this paper, we introduce PANDORA---a framework that complements existing parallelizing compilers by automatically discovering application- and architecture-specialized approximations. We demonstrate that PANDORA creates approximations that extract massive amounts of parallelism from inherently sequential code by eliminating loop-carried dependencies---a long-time goal of the compiler research community. Compared to exact parallel baselines, preliminary results show speedups ranging from 2.3x to 81x with acceptable error for many usage scenarios.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674217" title="Get the Full Text from the ACM Digital Library">On intermittence bugs in the battery-less internet of things (WIP paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Andrea Maioli</li>
+<li class="nameList">Luca Mottola</li>
+<li class="nameList">Muhammad Hamad Alizai</li>
+<li class="nameList Last">Junaid Haroon Siddiqui</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The resource-constrained devices of the battery-less Internet of Things are powered off energy harvesting and compute <i>intermittently</i>, as energy is available. Forward progress of programs is ensured by creating persistent state. Mixed-volatile platforms are thus an asset, as they map slices of the address space onto non-volatile memory. However, these platforms also possibly introduce <i>intermittence bugs</i>, where intermittent and continuous executions differ. </p> <p>Our ongoing work on intermittence bugs includes [label=()] an analysis that demonstrates their presence <i>in settings that current literature overlooks</i>; the design of efficient testing techniques to <i>check their presence in arbitrary code</i>, which would be otherwise prohibitive given the sheer number of different executions to check; the implementation of <i>an offline tool called</i> &lt;pre&gt;ScEpTIC&lt;/pre&gt; that implements these techniques. &lt;pre&gt;ScEpTIC&lt;/pre&gt; finds the same bugs as a brute-force approach, but is <i>six orders of magnitude faster</i>.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674218" title="Get the Full Text from the ACM Digital Library">Imprecision in WCET estimates due to library calls and how to reduce it (WIP paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Martin Becker</li>
+<li class="nameList">Samarjit Chakraborty</li>
+<li class="nameList">Ravindra Metta</li>
+<li class="nameList Last">R. Venkatesh</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>One of the main difficulties in estimating the Worst Case Execution Time (WCET) at the binary level is that machine instructions do not allow inferring call contexts as precisely as source code, since compiler optimizations obfuscate control flow and type information. On the other hand, WCET estimation at source code level can be precise in tracking call contexts, but it is pessimistic for functions that are not available as source code. </p> <p> In this paper we propose approaches to join binary-level and source-level analyses, to get the best out of both. We present the arising problems in detail, evaluate the approaches qualitatively, and highlight their trade-offs.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674219" title="Get the Full Text from the ACM Digital Library">Raising binaries to LLVM IR with MCTOLL (WIP paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">S. Bharadwaj Yadavalli</li>
+<li class="nameList Last">Aaron Smith</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The need to analyze and execute binaries from legacy ISAs on new or different ISAs has been addressed in a variety of ways over the past few decades. Solutions using complementary static and dynamic binary translation techniques have been deployed in most real-world situations. As new ISAs are designed and legacy ISAs re-examined, the need for binary translation infrastructure re-emerges, and needs to be re- engineered all over again. </p> <p> Work is in progress with a goal to make such re-engineering efforts easier by using some of the software tools that would irrespectively be developed or available for a new or existing ISA. To that end, this paper presents a static binary raiser that translates binaries to LLVM IR. Native binaries for a new ISA are generated from the raised LLVM IR using the LLVM compiler backend. This technique enables development of a single raiser per legacy ISA, irrespective of the new target ISA. The result of such a raiser can then leverage compiler back-ends of new ISAs, thus simplifying the development of binary translator for the new ISA . </p> <p> This work leverages the existing LLVM infrastructure to implement a static raiser that currently supports raising x64 and Arm32 binaries to LLVM IR. The raiser is built as an LLVM tool &#8211; similar to llvm-objdump or clang and does not have any dependencies outside of those needed to build LLVM. This paper describes the phases of the raiser and gives the current status and limitations.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

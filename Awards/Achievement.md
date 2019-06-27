@@ -19,6 +19,6 @@ All questions about the Programming Languages Achievement Award should be direct
 
 - Please use <http://awards.sigplan.org/> to submit nominations.
 
-**Committee Chair**: [Emery Berger](mailto:emery@cs.umass.edu) (University of Massachusetts Amherst)
+**Committee Chair**: [Mira Mezini](mailto:mezini@informatik.tu-darmstadt.de) (Technische Universität Darmstadt)
 
 **Committee Members**: Dan Grossman (University of Washington), Frank Tip (Northeastern University), Kathleen Fisher (Tufts University), Jonathan Aldrich (Carnegie Mellon University)

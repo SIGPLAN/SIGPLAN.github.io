@@ -1,0 +1,182 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>CHIUW 2019- Proceedings of the ACM SIGPLAN 6th on Chapel Implementers and Users Workshop</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>CHIUW 2019- Proceedings of the ACM SIGPLAN 6th on Chapel Implementers and Users Workshop</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3329722" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Keynote</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674232" title="Get the Full Text from the ACM Digital Library">Programming abstractions for orchestration of HPC scientific computing (keynote)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Anshu Dubey</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Application developers are confronted with three axes of increasing complexity going forward; increasing heterogeneity in computing platforms at all levels, increasing heterogeneity in solvers and data management, and moving existing code bases to future programming models. While the first two will dictate which future programming models may deliver the needed performance, the third will determine their adoption. However, it is clear that the infrastructure backbone of large scale Multiphysics software has to orchestrate data and task movement between devices. The lifecycle of scientific software is several times that of platforms, therefore, any orchestration mechanism must have flexibility and configurability to remain usable on future platforms. In this presentation I will outline a model of an orchestration framework and the demands that it will place on programming models and languages.</p></div> </div>
+<h2>SESSION: Chapel Implementation Improvements</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674233" title="Get the Full Text from the ACM Digital Library">GPUIterator: bridging the gap between Chapel and GPU platforms</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Akihiro Hayashi</li>
+<li class="nameList">Sri Raj Paul</li>
+<li class="nameList Last">Vivek Sarkar</li>
+
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>PGAS (Partitioned Global Address Space) programming models were originally designed to facilitate productive parallel programming at both the intra-node and inter-node levels in homogeneous parallel machines. However, there is a growing need to support accelerators, especially GPU accelerators, in heterogeneous nodes in a cluster. Among high-level PGAS programming languages, Chapel is well suited for this task due to its use of locales and domains to help abstract away low-level details of data and compute mappings for different compute nodes, as well as for different processing units (CPU vs. GPU) within a node. </p> <p> In this paper, we address some of the key limitations of past approaches on mapping Chapel on to GPUs as follows. First, we introduce a Chapel module, GPUIterator, which is a portable programming interface that supports GPU execution of a Chapel forall loop. This module makes it possible for Chapel programmers to easily use hand-tuned native GPU programs/libraries, which is an important requirement in practice since there is still a big performance gap between compiler-generated GPU code and hand-turned GPU code; hand-optimization of CPU-GPU data transfers is also an important contributor to this performance gap. Second, though Chapel programs are regularly executed on multi-node clusters, past work on GPU enablement of Chapel programs mainly focused on single-node execution. In contrast, our work supports execution across multiple CPU+GPU nodes by accepting Chapel&#39;s distributed domains. Third, our approach supports hybrid execution of a Chapel parallel (forall) loop across both a GPU and CPU cores, which is beneficial for specific platforms. </p> <p> Our preliminary performance evaluations show that the use of the GPUIterator is a promising approach for Chapel programmers to easily utilize a single or multiple CPU+GPU node(s) while maintaining portability.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674234" title="Get the Full Text from the ACM Digital Library">Calling Chapel code: interoperability improvements</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Lydia Duncan</li>
+<li class="nameList Last">David Iten</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Since CHIUW last year, the Chapel team has undertaken an effort to improve the ability to call Chapel code from other languages. This talk will cover a few areas of improvement: using Chapel code as a library from C, Python, and Fortran; and in addition, improvements to array interoperation.</p></div> </div>
+<h2>SESSION: Chapel Performance and Optimization</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674245" title="Get the Full Text from the ACM Digital Library">Towards radix sorting in the Chapel standard library</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Michael Ferguson</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This talk will discuss recent work improving the Sort module of the Chapel programming language. It will discuss an interface design to support radix sort, describe the implementation of radix sort, compare the performance of this implementation to sort libraries in other language, and finally discuss distributed sorting.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674246" title="Get the Full Text from the ACM Digital Library">Implementing stencil problems in Chapel: an experience report</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Per Fuchs</li>
+<li class="nameList">Pieter Hijma</li>
+<li class="nameList Last">Clemens Grelck</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Stencil operations represent a fundamental class of algorithms in high-performance computing. We are interested in what level of performance can be expected from a high-productivity language such as Chapel. To this effect we discuss four different implementations of a generic stencil operation with a convergence check after each iteration. We start with a sequential implementation followed by a global-view implementation that we experiment with both on a 16-core multi-core system as well as on a cluster with up to 16 such nodes using domain maps. We finish with a local-view implementation that explicitly encodes all design decisions with respect to parallel execution. This paper is set up as a two stage experience report: We mainly report our findings from the users&#39; perspective without any feedback from the Chapel implementers. We then report additional analysis performed under guidance of the Chapel team. </p> <p> Our experimental findings show that Chapel performs as expected on a single node. However, it does not achieve the expected levels of performance on our multi-node system, neither with the data-parallel global-view approach, nor with the task-parallel local-view code. We discuss the root causes of our reduced performance in detail and report possible solutions.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674247" title="Get the Full Text from the ACM Digital Library">Chapel unblocked: recent communication optimizations in Chapel</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Elliot Ronaghan</li>
+<li class="nameList">Ben Harshbarger</li>
+<li class="nameList">Gregory Titus</li>
+<li class="nameList Last">Michael Ferguson</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This talk will highlight communication optimizations made to the Chapel compiler and runtime over the past year. It will focus on improvements to core benchmarks that have benefited from fine-grained and bulk communication optimizations as well as remote task-spawning improvements. Several benchmarks including HPC Challenge (HPCC) RandomAccess, HPCC Stream Triad, and an integer sort code ISx will be briefly introduced, and a relevant performance optimization will be showcased. These benchmarks represent core idioms that are common in many HPC applications. Performance results on up to 1,024 nodes (25,000 cores) will demonstrate that with each release Chapel is becoming more competitive against hand tuned MPI+OpenMP, SHMEM, and UPC.</p></div> </div>
+<h2>SESSION: Applications of Chapel</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674248" title="Get the Full Text from the ACM Digital Library">Arkouda: interactive data exploration backed by Chapel</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Michael Merrill</li>
+<li class="nameList">William Reus</li>
+<li class="nameList Last">Timothy Neumann</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Exploratory data analysis (EDA) is the prerequisite for all data science. EDA is non-negotiably interactive&#8212;by far the most popular environment for EDA is a Jupyter notebook&#8212;and, as datasets grow, increasingly computationally intensive. Several existing projects attempt to combine interactivity and distributed computation using programming paradigms and tools from cloud computing, but none of these projects have come close to meeting our needs for high-performance EDA. To fill this gap, we have developed a prototype, called <em>arkouda</em>, that allows a user to interactively issue massively parallel computations on distributed data.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674249" title="Get the Full Text from the ACM Digital Library">Chapel graph library (CGL)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Louis Jenkins</li>
+<li class="nameList Last">Marcin Zalewski</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In this talk, I summarize prior work on the Chapel HyperGraph Library (CHGL), the Chapel Aggregation Library (CAL), and introduce the more general Chapel Graph Library (CGL). CGL is being designed to enable global-view programming, such that locality is abstracted from the user. CGL is also being designed in a way that is similar to Chapel&#39;s multiresolution design philosophy, where graphs are implemented in terms of hyper graphs, and where both the underlying hypergraph and overlying graphs are available for use. Some of the kinds of graphs being designed are bipartite graphs, directed and undirected graphs, and even trees.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N674240" title="Get the Full Text from the ACM Digital Library">Chapel in Cray HPO</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Benjamin Albrecht</li>
+<li class="nameList">Alex Heye</li>
+<li class="nameList Last">Benjamin Robbins</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Cray HPO is a component of the data science workflow framework, CrayAI, which provides functionality for Hyperparameter Optimization (HPO) at scale. Machine learning models are commonly defined by a set of hyperparameters that can control aspects such as learning rate, depth or kernel functions that have a large impact on the quality of the trained model. These hyperparameters require tuning in applications where the hyperparameter space is large and model quality is a priority. Cray HPO provides three approaches, the more traditional random and grid searches, as well as a genetic based optimization technique. These are made available through a python interface made possible by Chapel&#39;s recently developed python-interoperability features, and the underlying implementations were built using chapel under the hood.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

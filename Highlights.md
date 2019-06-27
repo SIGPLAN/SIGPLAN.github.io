@@ -29,8 +29,8 @@ Nominations can be made at this [website](http://cacm.sigplan.org).
 
 
 As of January 2018, 51 papers have been recognized by the SIGPLAN
-Research Highlights committee, and 27 SIGPLAN papers have appeared in
-CACM, 15 from the SIGPLAN committee and 12 that were solicited directly
+Research Highlights committee, and 30 SIGPLAN papers have appeared in
+CACM, 18 from the SIGPLAN committee and 12 that were solicited directly
 by the CACM committee.  This [webpage](/Highlights/Papers) contains
 the full list of papers.
 
@@ -38,15 +38,15 @@ the full list of papers.
 ### SIGPLAN Research Highlights Committee
 
 Chair, [Emery Berger](http://www.emeryberger.org/), [emery@cs.umass.edu](mailto:emery@cs.umass.edu)  
-POPL, [Jens Palsberg](http://www.cs.ucla.edu/~palsberg)  
+POPL, [Dimitrios Vytiniotis](https://github.com/dimitriv)  
 PLDI, [Martin Vechev](http://www.srl.inf.ethz.ch/vechev.php)  
-ICFP, [Robby Findler](http://www.eecs.northwestern.edu/~robby/)  
-OOPSLA, [Yannis Smaragdakis](https://yanniss.github.io/)  
+ICFP, [John Hughes](https://www.chalmers.se/en/staff/Pages/rjmh.aspx)  
+OOPSLA, [Todd Millstein](http://web.cs.ucla.edu/~todd/)  
 PPDP/GPCE/Haskell, [Jose Calderon](http://galois.com/team/jose-calderon/)  
-PPoPP/VEE/ISMM, [Hans Boehm](http://www.hpl.hp.com/personal/Hans_Boehm/)  
-LCTES/ASPLOS/CGO, Kathryn McKinley  
-SIGPLAN Chair, [Michael Hicks](http://www.cs.umd.edu/~mwh/)  
-Past SIGPLAN Chair, [Jan Vitek](http://www.ccs.neu.edu/people/faculty/member/jan-vitek/)  
+PPoPP/VEE/ISMM, [Erez Petrank](http://www.cs.technion.ac.il/~erez/)  
+LCTES/ASPLOS/CGO, [Kathryn McKinley](http://www.cs.utexas.edu/~mckinley/)  
+SIGPLAN Chair, [Jens Palsberg](http://www.cs.ucla.edu/~palsberg) 
+Past SIGPLAN Chair, [Michael Hicks](http://www.cs.umd.edu/~mwh/)  
 
 
 Further information about the review process that the committee uses

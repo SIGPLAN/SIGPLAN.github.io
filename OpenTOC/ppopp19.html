@@ -1,0 +1,715 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>PPoPP '19- Proceedings of the 24th Symposium on Principles and Practice of Parallel Programming</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>PPoPP '19- Proceedings of the 24th Symposium on Principles and Practice of Parallel Programming</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3293883" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676103" title="Get the Full Text from the ACM Digital Library">Beyond human-level accuracy: computational challenges in deep learning</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Joel Hestness</li>
+<li class="nameList">Newsha Ardalani</li>
+<li class="nameList Last">Gregory Diamos</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Deep learning (DL) research yields accuracy and product improvements from both model architecture changes and scale: larger data sets and models, and more computation. For hardware design, it is difficult to predict DL model changes. However, recent prior work shows that as dataset sizes grow, DL model accuracy and model size grow predictably. This paper leverages the prior work to project the dataset and model size growth required to advance DL accuracy beyond human-level, to frontier targets defined by machine learning experts. Datasets will need to grow 33--971&times;, while models will need to grow 6.6--456&times; to achieve target accuracies.</p> <p>We further characterize and project the computational requirements to train these applications at scale. Our characterization reveals an important segmentation of DL training challenges for recurrent neural networks (RNNs) that contrasts with prior studies of deep convolutional networks. RNNs will have comparatively moderate operational intensities and very large memory footprint requirements. In contrast to emerging accelerator designs, large-scale RNN training characteristics suggest designs with significantly larger memory capacity and on-chip caches.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676104" title="Get the Full Text from the ACM Digital Library">S-EnKF: co-designing for scalable ensemble Kalman filter</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Junmin Xiao</li>
+<li class="nameList">Shijie Wang</li>
+<li class="nameList">Weiqiang Wan</li>
+<li class="nameList">Xuehai Hong</li>
+<li class="nameList Last">Guangming Tan</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Ensemble Kalman filter (EnKF) is one of the most important methods for data assimilation, which is widely applied to the reconstruction of observed historical data for providing initial conditions of numerical atmospheric and oceanic models. With the improvement of data resolution and the increase in the amount of model data, the scalability of recent parallel implementations suffers from high overhead on data transfer. In this paper, we propose, S-EnKF: a scalable and distributed EnKF adaptation for modern clusters. With an in-depth analysis of new requirements brought forward by recent frameworks and limitations of current designs, we present a co-design of S-EnKF. For fully exploiting the resources available in modern parallel file systems, we design a concurrent access approach to accelerate the process of reading large amounts of background data. Through a deeper investigation of the data dependence relations, we modify EnKF's workflow to maximize the overlap of file reading and local analysis with a new multi-stage computation approach. Furthermore, we push the envelope of performance further with aggressive co-design of auto-tuning through tradeoff between the benefit on runtime and the cost on processors based on classic cost models. The experimental evaluation of S-EnKF demonstrates nearly ideal strong scalability on up to 12,000 processors. The largest run sustains a performance of 3x-speedup compared with P-EnKF, which represents the state-of-art parallel implementation of EnKF.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676115" title="Get the Full Text from the ACM Digital Library">Throughput-oriented GPU memory allocation</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Isaac Gelado</li>
+<li class="nameList Last">Michael Garland</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Throughput-oriented architectures, such as GPUs, can sustain three orders of magnitude more concurrent threads than multicore architectures. This level of concurrency pushes typical synchronization primitives (e.g., mutexes) over their scalability limits, creating significant performance bottlenecks in modules, such as memory allocators, that use them. In this paper, we develop concurrent programming techniques and synchronization primitives, in support of a dynamic memory allocator, that are efficient for use with very high levels of concurrency.</p> <p>We formulate resource allocation as a two-stage process, that decouples accounting for the number of available resources from the tracking of the available resources themselves. To facilitate the accounting stage, we introduce a novel bulk semaphore abstraction that extends traditional semaphore semantics by optimizing for the case where threads operate on the semaphore simultaneously. We also similarly design new collective synchronization primitives that enable groups of cooperating threads to enter critical sections together. Finally, we show that delegation of deferred reclamation to threads already blocked greatly improves efficiency.</p> <p>Using all these techniques, our throughput-oriented memory allocator delivers both high allocation rates and low memory fragmentation on modern GPUs. Our experiments demonstrate that it achieves allocation rates that are on average 16.56 times higher than the counterpart implementation in the CUDA 9 toolkit.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676116" title="Get the Full Text from the ACM Digital Library">SEP-graph: finding shortest execution paths for graph processing under a hybrid framework on GPU</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Hao Wang</li>
+<li class="nameList">Liang Geng</li>
+<li class="nameList">Rubao Lee</li>
+<li class="nameList">Kaixi Hou</li>
+<li class="nameList">Yanfeng Zhang</li>
+<li class="nameList Last">Xiaodong Zhang</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In general, the performance of parallel graph processing is determined by three pairs of critical parameters, namely synchronous or asynchronous execution mode (Sync or Async), Push or Pull communication mechanism (Push or Pull), and Data-driven or Topology-driven traversing scheme (DD or TD), which increases the complexity and sophistication of programming and system implementation of GPU. Existing graph-processing frameworks mainly use a single combination in the entire execution for a given application, but we have observed their variable and suboptimal performance. In this paper, we present SEP-Graph, a highly efficient software framework for graph-processing on GPU. The hybrid execution mode is automatically switched among three pairs of parameters, with an objective to achieve the shortest execution time in each iteration. We also apply a set of optimizations to SEP-Graph, considering the characteristics of graph algorithms and underlying GPU architectures. We show the effectiveness of SEP-Graph based on our intensive and comparative performance evaluation on NVIDIA 1080, P100, and V100 GPUs. Compared with existing and representative GPU graph-processing framework Groute and Gunrock, SEP-Graph can reduce execution time up to 45.8 times and 39.4 times.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676117" title="Get the Full Text from the ACM Digital Library">Incremental flattening for nested data parallelism</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Troels Henriksen</li>
+<li class="nameList">Frederik Thor&#248;e</li>
+<li class="nameList">Martin Elsman</li>
+<li class="nameList Last">Cosmin Oancea</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Compilation techniques for nested-parallel applications that can adapt to hardware and dataset characteristics are vital for unlocking the power of modern hardware. This paper proposes such a technique, which builds on flattening and is applied in the context of a functional data-parallel language. Our solution uses the degree of utilized parallelism as the driver for generating a multitude of code versions, which together cover all possible mappings of the application's regular nested parallelism to the levels of parallelism supported by the hardware. These code versions are then combined into one program by guarding them with predicates, whose threshold values are automatically tuned to hardware and dataset characteristics. Our unsupervised method---of statically clustering datasets to code versions---is different from autotuning work that typically searches for the combination of code transformations producing a single version, best suited for a specific dataset or on average for all datasets.</p> <p>We demonstrate---by fully integrating our technique in the repertoire of a compiler for the Futhark programming language---significant performance gains on two GPUs for three real-world applications, from the financial domain, and for six Rodinia benchmarks.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676118" title="Get the Full Text from the ACM Digital Library">Adaptive sparse matrix-matrix multiplication on the GPU</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Martin Winter</li>
+<li class="nameList">Daniel Mlakar</li>
+<li class="nameList">Rhaleb Zayer</li>
+<li class="nameList">Hans-Peter Seidel</li>
+<li class="nameList Last">Markus Steinberger</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In the ongoing efforts targeting the vectorization of linear algebra primitives, sparse matrix-matrix multiplication (SpGEMM) has received considerably less attention than sparse Matrix-Vector multiplication (SpMV). While both are equally important, this disparity can be attributed mainly to the additional formidable challenges raised by SpGEMM.</p> <p>In this paper, we present a dynamic approach for addressing SpGEMM on the GPU. Our approach works directly on the standard compressed sparse rows (CSR) data format. In comparison to previous SpGEMM implementations, our approach guarantees a homogeneous, load-balanced access pattern to the first input matrix and improves memory access to the second input matrix. It adaptively re-purposes GPU threads during execution and maximizes the time efficient on-chip scratchpad memory can be used. Adhering to a completely deterministic scheduling pattern guarantees bit-stable results during repetitive execution, a property missing from other approaches. Evaluation on an extensive sparse matrix benchmark suggests our approach being the fastest SpGEMM implementation for highly sparse matrices (80% of the set). When bit-stable results are sought, our approach is the fastest across the entire test set.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676119" title="Get the Full Text from the ACM Digital Library">Modular transactions: bounding mixed races in space and time</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Brijesh Dongol</li>
+<li class="nameList">Radha Jagadeesan</li>
+<li class="nameList Last">James Riely</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We define <i>local transactional race freedom</i> (LTRF), which provides a <i>programmer model</i> for <i>software transactional memory</i>. LTRF programs satisfy the <i>SC-LTRF</i> property, thus allowing the programmer to focus on sequential executions in which transactions execute atomically. Unlike previous results, <i>SC-LTRF</i> does not require global race freedom. We also provide a lower-level <i>implementation model</i> to reason about <i>quiescence fences</i> and validate numerous compiler optimizations.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676110" title="Get the Full Text from the ACM Digital Library">Leveraging hardware TM in Haskell</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ryan Yates</li>
+<li class="nameList Last">Michael L. Scott</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Transactional memory (TM) is heavily used for synchronization in the Haskell programming language, but its performance has historically been poor. We set out to improve this performance using hardware TM (HTM) on Intel processors. This task is complicated by Haskell's retry mechanism, which requires information to escape aborted transactions, and by the heavy use of indirection in the Haskell runtime, which means that even small transactions are likely to over-flow hardware buffers. It is eased by functional semantics, which preclude irreversible operations; by the static separation of transactional state, which precludes privatization; and by the error containment of strong typing, which enables so-called <i>lazy subscription</i> to the lock that protects the "fallback" code path.</p> <p>We describe a three-level hybrid TM system for the Glasgow Haskell Compiler (GHC). Our system first attempts to perform an entire transaction in hardware. Failing that, it falls back to software tracking of read and write sets combined with a commit-time hardware transaction. If necessary, it employs a global lock to serialize commits (but still not the bodies of transactions). To get good performance from hardware TM while preserving Haskell semantics, we use Bloom filters for read and write set tracking. We also implemented and extended the newly proposed <i>mutable constructor fields</i> language feature to significantly reduce indirection. Experimental results with complex data structures show significant improvements in throughput and scalability.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676111" title="Get the Full Text from the ACM Digital Library">Stretching the capacity of hardware transactional memory in IBM POWER architectures</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ricardo Filipe</li>
+<li class="nameList">Shady Issa</li>
+<li class="nameList">Paolo Romano</li>
+<li class="nameList Last">Jo&#227;o Barreto</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The hardware transactional memory (HTM) implementations in commercially available processors are significantly hindered by their tight capacity constraints. In practice, this renders current HTMs unsuitable to many real-world workloads of in-memory databases.</p> <p>This paper proposes SI-HTM, which stretches the capacity bounds of the underlying HTM, thus opening HTM to a much broader class of applications. SI-HTM leverages the HTM implementation of the IBM POWER architecture with a software layer to offer a single-version implementation of Snapshot Isolation. When compared to HTM- and software-based concurrency control alternatives, SI-HTM exhibits improved scalability, achieving speedups of up to 300% relatively to HTM on in-memory database benchmarks.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676112" title="Get the Full Text from the ACM Digital Library">Processing transactions in a predefined order</a>
+</h3>
+<ul class="DLauthors">
+ <li class="nameList First">Mohamed M. Saad</li>
+<li class="nameList">Masoomeh Javidi Kishi</li>
+<li class="nameList">Shihao Jing</li>
+<li class="nameList">Sandeep Hans</li>
+<li class="nameList Last">Roberto Palmieri</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In this paper we provide a high performance solution to the problem of committing transactions while enforcing a pre-defined order. We provide the design and implementation of three algorithms, which deploy a specialized cooperative transaction execution model. This model permits the propagation of written values along the chain of ordered transactions. We show that, even in the presence of data conflicts, the proposed algorithms outperform single threaded execution, and other baseline and specialized state-of-the-art competitors (e.g., STMLite). The maximum speedup achieved in micro benchmarks, STAMP, PARSEC and SPEC200 applications is in the range of 4.3x -- 16.5x.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676113" title="Get the Full Text from the ACM Digital Library">Harmonia: a high throughput B+tree for GPUs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Zhaofeng Yan</li>
+<li class="nameList">Yuzhe Lin</li>
+<li class="nameList">Lu Peng</li>
+<li class="nameList Last">Weihua Zhang</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>B+tree is one of the most important data structures and has been widely used in different fields. With the increase of concurrent queries and data-scale in storage, designing an efficient B+tree structure has become critical. Due to abundant computation resources, GPUs provide potential opportunities to achieve high query throughput for B+tree. However, prior methods cannot achieve satisfactory performance results due to low resource utilization and poor memory performance.</p> <p>In this paper, we first identify the gaps between B+tree and GPUs. Concurrent B+tree queries involve many global memory accesses and different divergences, which mismatch with GPU features. Based on this observation, we propose Harmonia, a novel B+tree structure to bridge the gap. In Harmonia, a B+tree structure is divided into a key region and a child region. The key region stores the nodes with its keys in a breadth-first order. The child region is organized as a prefix-sum array, which only stores each node's first child index in the key region. Since the prefix-sum child region is small and the children's index can be retrieved through index computations, most of it can be stored in on-chip caches, which can achieve good cache locality. To make it more efficient, Harmonia also includes two optimizations: partially-sorted aggregation and narrowed thread-group traversal, which can mitigate memory and warp divergence and improve resource utilization. Evaluations on a TITAN V GPU show that Harmonia can achieve up to 3.6 billion queries per second, which is about 3.4X faster than that of HB+Tree [39], a recent state-of-the-art GPU solution.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676114" title="Get the Full Text from the ACM Digital Library">Engineering a high-performance GPU B-Tree</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Muhammad A. Awad</li>
+<li class="nameList">Saman Ashkiani</li>
+<li class="nameList">Rob Johnson</li>
+<li class="nameList">Mart&#237;n Farach-Colton</li>
+<li class="nameList Last">John D. Owens</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We engineer a GPU implementation of a B-Tree that supports concurrent queries (point, range, and successor) and updates (insertions and deletions). Our B-tree outperforms the state of the art, a GPU log-structured merge tree (LSM) and a GPU sorted array. In particular, point and range queries are significantly faster than in a GPU LSM (the GPU LSM does not implement successor queries). Furthermore, B-Tree insertions are also faster than LSM and sorted array insertions unless insertions come in batches of more than roughly 100k. Because we cache the upper levels of the tree, we achieve lookup throughput that exceeds the DRAM bandwidth of the GPU. We demonstrate that the key limiter of performance on a GPU is contention and describe the design choices that allow us to achieve this high performance.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676125" title="Get the Full Text from the ACM Digital Library">QTLS: high-performance TLS asynchronous offload framework with Intel&reg; QuickAssist technology</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Xiaokang Hu</li>
+<li class="nameList">Changzheng Wei</li>
+<li class="nameList">Jian Li</li>
+<li class="nameList">Brian Will</li>
+<li class="nameList">Ping Yu</li>
+<li class="nameList">Lu Gong</li>
+<li class="nameList Last">Haibing Guan</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Hardware accelerators are a promising solution to optimize the Total Cost of Ownership (TCO) of cloud datacenters. This paper targets the costly Transport Layer Security (TLS) and investigates the TLS acceleration for the widely-deployed event-driven TLS servers or terminators. Our study reveals an important fact: the straight offloading of TLS-involved crypto operations suffers from the frequent long-lasting blockings in the offload I/O, leading to the underutilization of both CPU and accelerator resources.</p> <p>To achieve efficient TLS acceleration for the event-driven web architecture, we propose QTLS, a high-performance TLS asynchronous offload framework based on Intel&reg; QuickAssist Technology (QAT). QTLS re-engineers the TLS software stack and divides the TLS offloading into four phases to eliminate blockings. Then, multiple crypto operations from different TLS connections can be offloaded concurrently in one process/thread, bringing a performance boost. Moreover, QTLS is built with a heuristic polling scheme to retrieve accelerator responses efficiently and timely, and a kernel-bypass notification scheme to avoid expensive switches between user mode and kernel mode while delivering async events. The comprehensive evaluation shows that QTLS can provide up to 9x connections per second (CPS) with TLS-RSA (2048bit), 2x secure data transfer throughput and 85% reduction of average response time compared to the software baseline.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676126" title="Get the Full Text from the ACM Digital Library">Data-flow/dependence profiling for structured transformations</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Fabian Gruber</li>
+<li class="nameList">Manuel Selva</li>
+<li class="nameList">Diogo Sampaio</li>
+<li class="nameList">Christophe Guillon</li>
+<li class="nameList">Antoine Moynault</li>
+<li class="nameList">Louis-No&#235;l Pouchet</li>
+<li class="nameList Last">Fabrice Rastello</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Profiling feedback is an important technique used by developers for performance debugging, where it is usually used to pinpoint performance bottlenecks and also to find optimization opportunities. Assessing the validity and potential benefit of a program transformation requires accurate knowledge of the data flow and dependencies, which can be uncovered by profiling a particular execution of the program.</p> <p>In this work we develop <scp>poly-prof</scp>, an end-to-end infrastructure for dynamic binary analysis, which produces feedback about the potential to apply complex program rescheduling. Our tool can handle both inter- and intraprocedural aspects of the program in a unified way, thus providing interprocedural transformation feedback.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676127" title="Get the Full Text from the ACM Digital Library">Lightweight hardware transactional memory profiling</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Qingsen Wang</li>
+<li class="nameList">Pengfei Su</li>
+<li class="nameList">Milind Chabbi</li>
+<li class="nameList Last">Xu Liu</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Programs that use hardware transactional memory (HTM) demand sophisticated performance analysis tools when they suffer from performance losses. We have developed T<scp>x</scp>S<scp>ampler</scp>---a lightweight profiler for programs that use HTM. T<scp>x</scp>S<scp>ampler</scp> measures performance via sampling and provides a structured performance analysis to guide intuitive optimization with a novel decision-tree model. T<scp>x</scp>S<scp>ampler</scp> computes metrics that drive the investigation process in a systematic way. It not only pinpoints hot transactions with time quantification of transactional and fallback paths, but also identifies causes of transaction aborts such as data contention, capacity overflow, false sharing, and problematic instructions. T<scp>x</scp>S<scp>ampler</scp> associates metrics with full call paths that are even deeply embedded inside transactions and maps them to the program's source code. Our evaluation of more than 30 HTM benchmarks and applications shows that T<scp>x</scp>S<scp>ampler</scp> incurs ~4% runtime overhead and negligible memory overhead for its insightful analyses. Guided by T<scp>x</scp>S<scp>ampler</scp>, we are able to optimize several HTM programs and obtain nontrivial speedups.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676128" title="Get the Full Text from the ACM Digital Library">A pattern based algorithmic autotuner for graph processing on GPUs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ke Meng</li>
+<li class="nameList">Jiajia Li</li>
+<li class="nameList">Guangming Tan</li>
+<li class="nameList Last">Ninghui Sun</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This paper proposes G<scp>switch</scp>, a pattern-based algorithmic auto-tuning system that dynamically switches between optimization variants with negligible overhead. Its novelty lies in a small set of algorithmic patterns that allow for the configurable assembly of variants of the algorithm. The fast transition of G<scp>switch</scp> is based on a machine learning model trained using 644 real graphs. Moreover, G<scp>switch</scp> provides a simple programming interface that conceals low-level tuning details from the user. We evaluate G<scp>switch</scp> on typical graph algorithms (BFS, CC, PR, SSSP, and BC) using Nvidia Kepler and Pascal GPUs. The results show that G<scp>switch</scp> runs up to 10&times; faster than the best configuration of the state-of-the-art programmable GPU-based graph processing libraries on 10 representative graphs. G<scp>switch</scp> outperforms Gunrock on 92.4% cases of 644 graphs which is the largest dataset evaluation reported to date.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676129" title="Get the Full Text from the ACM Digital Library">Provably and practically efficient granularity control</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Umut A. Acar</li>
+<li class="nameList">Vitaly Aksenov</li>
+<li class="nameList">Arthur Chargu&#233;raud</li>
+<li class="nameList Last">Mike Rainey</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Over the past decade, many programming languages and systems for parallel-computing have been developed, e.g., Fork/Join and Habanero Java, Parallel Haskell, Parallel ML, and X10. Although these systems raise the level of abstraction for writing parallel codes, performance continues to require labor-intensive optimizations for coarsening the granularity of parallel executions. In this paper, we present provably and practically efficient techniques for controlling granularity within the run-time system of the language. Our starting point is "oracle-guided scheduling", a result from the functional-programming community that shows that granularity can be controlled by an "oracle" that can predict the execution time of parallel codes. We give an algorithm for implementing such an oracle and prove that it has the desired theoretical properties under the nested-parallel programming model. We implement the oracle in C++ by extending Cilk and evaluate its practical performance. The results show that our techniques can essentially eliminate hand tuning while closely matching the performance of hand tuned codes.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676120" title="Get the Full Text from the ACM Digital Library">A coordinated tiling and batching framework for efficient GEMM on GPUs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Xiuhong Li</li>
+<li class="nameList">Yun Liang</li>
+ <li class="nameList">Shengen Yan</li>
+<li class="nameList">Liancheng Jia</li>
+<li class="nameList Last">Yinghan Li</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>General matrix multiplication (GEMM) plays a paramount role in a broad range of domains such as deep learning, scientific computing, and image processing. The primary optimization method is to partition the matrix into many tiles and exploit the parallelism within and between tiles. The tiling hierarchy closely mirrors the thread hierarchy on GPUs. In practice, GPUs can fully unleash its computing power only when the matrix size is large and there are sufficient number of tiles and workload for each tile. However, in many real-world applications especially deep learning domain, the matrix size is small. To this end, prior work proposes batched GEMM to process a group of small independent GEMMs together by designing a single CUDA kernel for all of these GEMMs.</p> <p>However, the current support for batched GEMM is still rudimentary. Tiling and batching are tightly correlated. A large tile size can increase the data reuse, but it will decrease the thread-level parallelism, which further decrease the optimization space for the batching. A small tile size can increase the thread-level parallelism and then provide larger optimization space for the batching, but at the cost of sacrificing data reuse. In this paper, we propose a coordinated tiling and batching framework for accelerating GEMMs on GPUs. It is a two-phase framework, which consists of a tiling engine and a batching engine to perform efficient batched GEMM on GPUs. Tiling engine partitions the GEMMs into independent tiles and batching engine assigns the tiles to thread blocks. Moreover, we propose a general programming interface for the coordinated tiling and batching solution. Finally, experiment evaluation results on synthetic batched GEMM cases show that our framework can achieve about 1.40X performance speedup on average over the state-of-the-art technique. We also use GoogleNet as a real-world case study and our framework can achieve 1.23X speedup.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676121" title="Get the Full Text from the ACM Digital Library">Semantics-aware scheduling policies for synchronization determinism</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Qi Zhao</li>
+<li class="nameList">Zhengyi Qiu</li>
+<li class="nameList Last">Guoliang Jin</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>A common task for all deterministic multithreading (DMT) systems is to enforce synchronization determinism. However, synchronization determinism has not been the focus of existing DMT research. Instead, most DMT systems focused on how to order data races remained after synchronization determinism is enforced. Consequently, existing scheduling policies for synchronization determinism all have limitations. They may either require performance annotations to achieve good performance or fail to provide schedule stability.</p> <p>In this paper, we argue that synchronization determinism is more fundamental to DMT systems than existing research suggests and propose efficient and effective scheduling policies. Our key insight is that synchronization operations actually encode programmers' intention on how inter-thread communication should be done and can be used as hints while scheduling synchronization operations. Based on this insight, we have built Q<scp>i</scp>T<scp>hread</scp>, a synchronization-determinism system with semantics-aware scheduling policies. Results of a diverse set of 108 programs show that Q<scp>i</scp>T<scp>hread</scp> is able to achieve comparable low overhead as state-of-the-art synchronization-determinism systems without the limitations associated with them.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676122" title="Get the Full Text from the ACM Digital Library">Proactive work stealing for futures</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Kyle Singer</li>
+<li class="nameList">Yifan Xu</li>
+<li class="nameList Last">I-Ting Angelina Lee</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The use of futures provides a flexible way to express parallelism and can generate arbitrary dependences among parallel subcomputations. The additional flexibility that futures provide comes with a cost, however. When scheduled using classic work stealing, a program with futures, compared to a program that uses only fork-join parallelism, can incur a much higher number of "deviations," a metric for evaluating the performance of parallel executions. All prior works assume a <b><i>parsimonious</i></b> work-stealing scheduler, however, where a worker thread (surrogate of a processor) steals work only when its local deque becomes empty.</p> <p>In this work, we investigate an alternative scheduling approach, called ProWS, where the workers perform <b><i>proactive</i></b> work stealing when handling future operations. We show that ProWS, for programs that use futures, can provide provably efficient execution time and equal or better bounds on the number of deviations compared to classic parsimonious work stealing. Given a computation with <i>T</i><sub>1</sub> work and <i>T</i><sub>&infin;</sub> span, ProWS executes the computation on <i>P</i> processors in expected time <i>O(T</i><sub>1</sub>/<i>P</i> + <i>T</i><sub>&infin;</sub> lg <i>P</i>), with an additional lg <i>P</i> overhead on the span term compared to the parsimonious variant. For structured use of futures, where each future is single touch with no race on the future handle, the algorithm incurs deviations, matching that of the parsimonious variant. For general use of futures, the algorithm incurs <i>O</i>(<i>m<sub>k</sub>T</i><sub>&infin;</sub> + <i>PT</i><sub>&infin;</sub> lg <i>P</i>) deviations, where <i>m<sub>k</sub></i> is the maximum number of future touches that are logically parallel. Compared to the bound for the parsimonious variant, <i>O</i>(<i>kT</i><sub>&infin;</sub> + <i>PT</i><sub>&infin;</sub>), with <i>k</i> being the total number of touches in the entire computation, this bound is better assuming <i>m<sub>k</sub></i> = &Omega;(<i>P</i> lg <i>P</i>)<i></i> and is smaller than <i>k,</i> which holds true for all the benchmarks we examined.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676123" title="Get the Full Text from the ACM Digital Library">A round-efficient distributed betweenness centrality algorithm</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Loc Hoang</li>
+<li class="nameList">Matteo Pontecorvi</li>
+<li class="nameList">Roshan Dathathri</li>
+<li class="nameList">Gurbinder Gill</li>
+<li class="nameList">Bozhi You</li>
+<li class="nameList">Keshav Pingali</li>
+ <li class="nameList Last">Vijaya Ramachandran</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present Min-Rounds BC (MRBC), a distributed-memory algorithm in the CONGEST model that computes the betweenness centrality (BC) of every vertex in a directed unweighted <i>n</i>-node graph in <i>O</i>(<i>n</i>) rounds. Min-Rounds BC also computes all-pairs-shortest-paths (APSP) in such graphs. It improves the number of rounds by at least a constant factor over previous results for unweighted directed APSP and for unweighted BC, both directed and undirected.</p> <p>We implemented MRBC in D-Galois, a state-of-the-art distributed graph analytics system, incorporated additional optimizations enabled by the D-Galois model, and evaluated its performance on a production cluster with up to 256 hosts using power-law and road networks. Compared to the BC algorithm of Brandes, on average, MRBC reduces the number of rounds by 14.0&times; and the communication time by 2.8&times; for the graphs in our test suite. As a result, MRBC is 2.1&times; faster on average than Brandes BC for real-world web-crawls on 256 hosts.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676124" title="Get the Full Text from the ACM Digital Library">Corrected trees for reliable group communication</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Martin K&#252;ttler</li>
+<li class="nameList">Maksym Planeta</li>
+<li class="nameList">Jan Bierbaum</li>
+<li class="nameList">Carsten Weinhold</li>
+<li class="nameList">Hermann H&#228;rtig</li>
+<li class="nameList">Amnon Barak</li>
+<li class="nameList Last">Torsten Hoefler</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Driven by ever increasing performance demands of compute-intensive applications, supercomputing systems comprise more and more nodes. This growth is a significant burden for fast group communication primitives and also makes those systems more susceptible to failures of individual nodes. In this paper we present a two-phase fault-tolerant scheme for group communication. Using broadcast as an example, we provide a full-spectrum discussion of our approach --- from a formal analysis to LogP-based simulations to a message-passing-based implementation running on a large cluster. Ultimately, we are able to reduce the complex problem of reliable and fault-tolerant collective group communication to a graph theoretical renumbering problem. Both, simulations and measurements, show our solution to achieve a latency reduction of 50% with up to six times fewer messages sent in comparison to existing schemes.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676135" title="Get the Full Text from the ACM Digital Library">Adaptive sparse tiling for sparse matrix multiplication</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Changwan Hong</li>
+<li class="nameList">Aravind Sukumaran-Rajam</li>
+<li class="nameList">Israt Nisa</li>
+<li class="nameList">Kunal Singh</li>
+<li class="nameList Last">P. Sadayappan</li>
+ </ul>
+<div class="DLabstract"><div style="display:inline"><p>Tiling is a key technique for data locality optimization and is widely used in high-performance implementations of dense matrix-matrix multiplication for multicore/manycore CPUs and GPUs. However, the irregular and matrix-dependent data access pattern of sparse matrix multiplication makes it challenging to use tiling to enhance data reuse. In this paper, we devise an adaptive tiling strategy and apply it to enhance the performance of two primitives: SpMM (product of sparse matrix and dense matrix) and SDDMM (sampled dense-dense matrix multiplication). In contrast to studies that have resorted to non-standard sparse-matrix representations to enhance performance, we use the standard Compressed Sparse Row (CSR) representation, within which intra-row reordering is performed to enable adaptive tiling. Experimental evaluation using an extensive set of matrices from the Sparse Suite collection demonstrates significant performance improvement over currently available state-of-the-art alternatives.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676136" title="Get the Full Text from the ACM Digital Library">Encapsulated open nesting for STM: fine-grained higher-level conflict detection</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Martin B&#228;ttig</li>
+<li class="nameList Last">Thomas R. Gross</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Open nesting allows replacing the automatic detection of conflicting memory accesses used in transactional memory (TM) with programmer-specified higher-level conflict detection. Higher-level conflict detection allows removing conflicts of commuting operations where the automatic conflict detection is too conservative. Different conflict detection schemes are incompatible with each other and thus must operate on separate memory locations to prevent inconsistencies. Using open nesting, a programmer implements this separation manually using source code modifications possibly assisted by static checks.</p> <p>Encapsulated open nesting extends open nesting by automatically preventing concurrent accesses to the same memory location using different conflict detection schemes unless all accesses are reads. This approach uses an additional synchronization layer with the same granularity as the existing synchronization of TM. This automatism reduces programming effort by allowing fine-grained use of open nesting and extends the scope of open nesting to abstractions with unknown implementation.</p> <p>We extend the TLRW algorithm to support encapsulated open nesting. An evaluation using an implementation of this algorithm within the Deuce framework shows an average overhead of 21.7% for encapsulated open nesting (compared to regular open nesting) for nine benchmarks while simplifying programming.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676137" title="Get the Full Text from the ACM Digital Library">A specialized B-tree for concurrent datalog evaluation</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Herbert Jordan</li>
+<li class="nameList">Pavle Suboti&#263;</li>
+<li class="nameList">David Zhao</li>
+<li class="nameList Last">Bernhard Scholz</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Modern Datalog engines are employed in industrial applications such as graph-databases, networks, and static program analysis. To cope with vast amount of data, Datalog engines must employ parallel execution strategies, for which specialized concurrent data structures are of paramount importance.</p> <p>In this paper, we introduce a specialized B-tree data structure for an open-source Datalog compiler written in C++. Our data structure has been specialized for Datalog workloads running on shared-memory multi-core computers. It features (1) an optimistic locking protocol for scalability, (2) is highly tuned, and (3) uses the notion of "hints" to re-use the results of previously performed tree traversals to exploit data ordering properties exhibited by Datalog evaluation. In parallel micro-benchmarks, the new data structure achieves up to 59&times; higher performance than state-of-the-art industrial standards, while integrated into a Datalog engine it accounts for 3&times; higher, overall system performance.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676138" title="Get the Full Text from the ACM Digital Library">Efficient race detection with futures</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Robert Utterback</li>
+<li class="nameList">Kunal Agrawal</li>
+<li class="nameList">Jeremy Fineman</li>
+<li class="nameList Last">I-Ting Angelina Lee</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This paper addresses the problem of provably efficient and practically good on-the-fly determinacy race detection in task parallel programs that use futures. Prior works on determinacy race detection have mostly focused on either task parallel programs that follow a series-parallel dependence structure or ones with unrestricted use of futures that generate arbitrary dependences. In this work, we consider a restricted use of futures and show that we can detect races more efficiently than with general use of futures.</p> <p>Specifically, we present two algorithms: MultiBags and MultiBags+. MultiBags targets programs that use futures in a restricted fashion and runs in time <i>O</i>(<i>T</i><sub>1</sub>&alpha;(<i>m, n</i>)), where <i>T</i><sub>1</sub> is the sequential running time of the program, &alpha; is the inverse Ackermann's function, <i>m</i> is the total number of memory accesses, <i>n</i> is the dynamic count of places at which parallelism is created. Since &alpha; is a very slowly growing function (upper bounded by 4 for all practical purposes), it can be treated as a close-to-constant overhead. MultiBags+ is an extension of MultiBags that target programs with general use of futures. It runs in time <i>O</i>((<i>T</i><sub>1</sub> + <i>k</i><sup>2</sup>)&alpha;(<i>m, n</i>)) where <i>T</i><sub>1</sub>, &alpha;, <i>m</i> and <i>n</i> are defined as before, and <i>k</i> is the number of future operations in the computation. We implemented both algorithms and empirically demonstrate their efficiency.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676139" title="Get the Full Text from the ACM Digital Library">Verifying C11 programs operationally</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Simon Doherty</li>
+<li class="nameList">Brijesh Dongol</li>
+<li class="nameList">Heike Wehrheim</li>
+<li class="nameList Last">John Derrick</li>
+</ul>
+ <div class="DLabstract"><div style="display:inline"><p>This paper develops an operational semantics for a release-acquire fragment of the C11 memory model with relaxed accesses. We show that the semantics is both sound and complete with respect to the axiomatic model of Batty et al. The semantics relies on a per-thread notion of observability, which allows one to reason about a weak memory C11 program in program order. On top of this, we develop a proof calculus for invariant-based reasoning, which we use to verify the release-acquire version of Peterson's mutual exclusion algorithm.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676130" title="Get the Full Text from the ACM Digital Library">Checking linearizability using hitting families</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Burcu Kulahcioglu Ozkan</li>
+<li class="nameList">Rupak Majumdar</li>
+<li class="nameList Last">Filip Niksic</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Linearizability is a key correctness property for concurrent data types. Linearizability requires that the behavior of concurrently invoked operations of the data type be equivalent to the behavior in an execution where each operation takes effect at an instantaneous point of time between its invocation and return. Given an execution trace of operations, the problem of verifying its linearizability is NP-complete, and current exhaustive search tools scale poorly.</p> <p>In this work, we empirically show that linearizability of an execution trace is often witnessed by a schedule that orders only a small number of operations (the "linearizability depth") in a specific way, independently of other operations. Accordingly, one can structure the search for linearizability witnesses by exploring schedules of low linearizability depth first. We provide such an algorithm. Key to our algorithm is a procedure to generate a <i>strong d-hitting family</i> of schedules, which is guaranteed to cover all linearizability witnesses of depth <i>d</i>. A strong <i>d</i>-hitting family of schedules of an execution trace consists of a set of schedules, such that for each tuple of <i>d</i> operations in the trace, there is a schedule in the family that (i) executes these operations in the order they appear in the tuple, and (ii) as late as possible in the execution.</p> <p>We show that most linearizable execution traces from existing benchmarks can be witnessed by strongly <i>d</i>-hitting schedules for <i>d</i> &le; 5. Our result suggests a practical and automated method for showing linearizability of a trace based on a prioritization of schedules parameterized by the lineariz-ability depth.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676131" title="Get the Full Text from the ACM Digital Library">Transitive joins: a sound and efficient online deadlock-avoidance policy</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Caleb Voss</li>
+<li class="nameList">Tiago Cogumbreiro</li>
+<li class="nameList Last">Vivek Sarkar</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We introduce a new online deadlock-avoidance policy, Transitive Joins (TJ), that targets programs with dynamic task parallelism and arbitrary join operations. In this model, a computation task can asynchronously spawn new tasks and selectively join (block) on any task for which it has a handle. We prove that TJ soundly guarantees the absence of deadlock cycles among the blocking join operations. We present an algorithm for dynamically verifying TJ and show that TJ results in fewer false positives than the state-of-the-art policy, Known Joins (KJ). We evaluate an implementation of our verifier in comparison to prior work. The evaluation results show that instrumenting a program with a TJ verifier incurs geometric mean overheads of only 1.06&times; in execution time and 1.09&times; in memory usage, which is better overall than existing KJ verifiers. TJ is a practical online deadlock-avoidance policy that is applicable to a wide range of parallel programming models.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676132" title="Get the Full Text from the ACM Digital Library">VEBO: a vertex- and edge-balanced ordering heuristic to load balance parallel graph processing</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Jiawen Sun</li>
+<li class="nameList">Hans Vandierendonck</li>
+<li class="nameList Last">Dimitrios S. Nikolopoulos</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This work proposes Vertex- and Edge-Balanced Ordering (VEBO): balance the number of edges and the number of unique destinations of those edges. VEBO balances edges and vertices for graphs with a power-law degree distribution, and ensures an equal degree distribution between partitions. Experimental evaluation on three shared-memory graph processing systems (Ligra, Polymer and GraphGrind) shows that VEBO achieves excellent load balance and improves performance by 1.09&times; over Ligra, 1.41&times; over Polymer and 1.65&times; over GraphGrind, compared to their respective partitioning algorithms, averaged across 8 algorithms and 7 graphs. VEBO improves GraphGrind performance with a speedup of 2.9&times; over Ligra on average.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676133" title="Get the Full Text from the ACM Digital Library">GPOP: a cache and memory-efficient framework for graph processing over partitions</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Kartik Lakhotia</li>
+<li class="nameList">Rajgopal Kannan</li>
+<li class="nameList">Sourav Pati</li>
+<li class="nameList Last">Viktor Prasanna</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Graph analytics frameworks, typically based on Vertex-centric or Edge-centric paradigms suffer from poor cache utilization, irregular memory accesses, heavy use of synchronization primitives or theoretical inefficiency, that deteriorate overall performance and scalability. In this paper, we generalize the partition-centric PageRank computation approach [1] to develop a novel Graph Processing Over Partitions (GPOP) framework that enables cache-efficient, work-efficient and scalable implementations of several graph algorithms. For large graphs, we observe that GPOP is upto 19&times; and 6.1&times; faster than Ligra and GraphMat, respectively.</p> <p>This work is supported by DARPA under Contract Number FA8750-17-C-0086, NSF under Contract Numbers CNS-1643351 and ACI-1339756 and AFRL under Grant Number FA8750-18-2-0034.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676134" title="Get the Full Text from the ACM Digital Library">Optimizing graph processing on GPUs using approximate computing: poster</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Somesh Singh</li>
+<li class="nameList Last">Rupesh Nasre</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Parallelizing graph algorithms on GPUs is challenging due to the irregular memory accesses and control-flow involved in graph traversals. In this work, we tame these challenges by injecting approximations. In particular, we improve memory coalescing by renumbering and replicating nodes, memory latency by adding edges among specific nodes brought into shared memory, and thread-divergence by normalizing degrees across nodes assigned to a warp. Using a suite of graphs with varied characteristics and five popular algorithms, we demonstrate the effectiveness of our proposed techniques. Our approximations for coalescing, memory latency and thread-divergence lead to mean speedups of 1.3&times;, 1.41&times; and 1.06&times; achieving accuracies of 83%, 78% and 84%, respectively.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676145" title="Get the Full Text from the ACM Digital Library">A GPU memory efficient speed-up scheme for training ultra-deep neural networks: poster</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Jinrong Guo</li>
+<li class="nameList">Wantao Liu</li>
+<li class="nameList">Wang Wang</li>
+<li class="nameList">Qu Lu</li>
+<li class="nameList">Songlin Hu</li>
+<li class="nameList">Jizhong Han</li>
+<li class="nameList Last">Ruixuan Li</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Ultra-deep neural network(UDNN) tends to yield higher-quality model but its training process is often difficult to handle. Scarce GPU DRAM capacity is the primary bottleneck that limits the depth of neural network and the range of trainable minibatch size. In this paper, we present a scheme that dedicates to make the utmost use of finite GPU memory resource to speed up the training process for UDNN. Firstly, a performance-model guided dynamic swap out/in strategy between GPU and host memory is carefully orchestrated to tackle the out-of-memory problem without introducing performance penalty. Then, a hyperparameter (minibatch size, learning rate) tuning policy is designed to explore the optimal configuration after applying the swap strategy from the perspectives of training time and final accuracy simultaneously. Finally, we verify the effectiveness of our scheme in both single and distributed GPU mode.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676146" title="Get the Full Text from the ACM Digital Library">&lt;u&gt;P&lt;/u&gt;rofiling based &lt;u&gt;o&lt;/u&gt;ut-&lt;u&gt;o&lt;/u&gt;f-&lt;u&gt;c&lt;/u&gt;ore &lt;u&gt;h&lt;/u&gt;ybrid method for large neural networks: poster</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Yuki Ito</li>
+<li class="nameList">Haruki Imai</li>
+<li class="nameList">Tung Le Duc</li>
+<li class="nameList">Yasushi Negishi</li>
+<li class="nameList">Kiyokuni Kawachiya</li>
+<li class="nameList">Ryo Matsumiya</li>
+<li class="nameList Last">Toshio Endo</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Neural networks (NNs) have archived high accuracy in many fields of machine learning such as image recognition. Since computations of NNs are heavy tasks, GPUs have been widely used to accelerate them. However, the problem sizes of NNs that can be computed are limited by GPU memory capacity.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676147" title="Get the Full Text from the ACM Digital Library">Exploiting the input sparsity to accelerate deep neural networks: poster</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Xiao Dong</li>
+<li class="nameList">Lei Liu</li>
+<li class="nameList">Guangli Li</li>
+<li class="nameList">Jiansong Li</li>
+<li class="nameList">Peng Zhao</li>
+<li class="nameList">Xueying Wang</li>
+<li class="nameList Last">Xiaobing Feng</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Efficient inference of deep learning models are challenging and of great value in both academic and industrial community. In this paper, we focus on exploiting the sparsity in input data to improve the performance of deep learning models. We propose an end-to-end optimization pipeline to generate programs for the inference with sparse input. The optimization pipeline contains both domain-specific and general optimization techniques and is capable of generating efficient code without relying on the off-the-shelf libraries. Evaluations show that we achieve significant speedups over the state-of-the-art frameworks and libraries on a real-world application, e.g., 9.8&times; over TensorFlow and 3.6&times; over Intel MKL on the detection in autonomous driving.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676148" title="Get the Full Text from the ACM Digital Library">Accelerating distributed stochastic gradient descent with adaptive periodic parameter averaging: poster</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Peng Jiang</li>
+<li class="nameList Last">Gagan Agrawal</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Communication overhead is a well-known performance bottleneck in distributed Stochastic Gradient Descent (SGD), which is a popular algorithm to perform optimization in large-scale machine learning tasks. In this work, we propose a practical and effective technique, named Adaptive Periodic Parameter Averaging, to reduce the communication overhead of distributed SGD, without impairing its convergence property.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676149" title="Get the Full Text from the ACM Digital Library">Optimizing GPU programs by register demotion: poster</a>
+</h3>
+<ul class="DLauthors">
+ <li class="nameList First">Putt Sakdhnagool</li>
+<li class="nameList">Amit Sabne</li>
+<li class="nameList Last">Rudolf Eigenmann</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>GPU utilization, measured as <i>occupancy</i>, is limited by the parallel threads' combined usage of on-chip resources. If the resource demand cannot be met, GPUs will reduce the number of concurrent threads, impacting the program performance. We have observed that registers are the occupancy limiters while shared metmory tends to be underused. The de facto approach spills excessive registers to the out-of-chip memory, ignoring the shared memory and leaving the on-chip resources underutilized. To mitigate the register demand, our work presents a novel compiler technique, called <i>register demotion</i>, that allows data in the register to be placed into the underutilized shared memory by transforming the GPU assembly code (SASS). Register demotion achieves up to 18% speedup over the nvcc compiler, with a geometric mean of 7%.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676140" title="Get the Full Text from the ACM Digital Library">A distributed hypervisor for resource aggregation: poster</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Yubin Chen</li>
+<li class="nameList">Zhuocheng Ding</li>
+<li class="nameList">Jin Zhang</li>
+<li class="nameList">Yun Wang</li>
+<li class="nameList">Zhengwei Qi</li>
+<li class="nameList Last">Haibing Guan</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Scale-out has become the standard answer to data analysis, machine learning and many other fields. Contrary to common belief, scale-up machines can outperform scale-out clusters for a considerable portion of tasks. However, those scale-up machines are not economical and may not be affordable for small businesses. This paper presents GiantVM, a distributed hypervisor that aggregates resources from multiple physical machines, providing the guest OS with a uniform hardware abstraction. We propose techniques to deal with the challenges of CPU, Memory, and I/O virtualization in distributed environments.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676141" title="Get the Full Text from the ACM Digital Library">Scheduling HPC workloads on heterogeneous-ISA architectures: poster</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Mohamed L. Karaoui</li>
+<li class="nameList">Anthony Carno</li>
+<li class="nameList">Rob Lyerly</li>
+<li class="nameList">Sang-Hoon Kim</li>
+<li class="nameList">Pierre Olivier</li>
+<li class="nameList">Changwoo Min</li>
+<li class="nameList Last">Binoy Ravindran</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In this paper, we investigate the effectiveness of multiprocessor architectures with ISA-different cores for executing HPC workloads. Our envisioned design point in the heterogeneous architecture space is one with multiple cache-coherency domains, with each domain hosting cores of a different ISA and no coherency between domains. We prototype such an architecture using an Intel Xeon x86-64 server and a Cavium ThunderX ARMv8 server, interconnected using a high-speed network fabric. We design, implement, and evaluate policies for scheduling HPC applications with the goal of maximizing workload makespan. Our results reveal that such an architecture is most effective for workloads that exhibit diverse execution times on ISA-different CPUs, with gains exceeding 60% over ISA-homogeneous architectures. Furthermore, cross-ISA execution migration can yield gains up to 38%.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676142" title="Get the Full Text from the ACM Digital Library">T-thinker: a task-centric distributed framework for compute-intensive divide-and-conquer algorithms</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Da Yan</li>
+<li class="nameList">Guimu Guo</li>
+<li class="nameList">Md Mashiur Rahman Chowdhury</li>
+<li class="nameList">M. Tamer &#214;zsu</li>
+<li class="nameList">John C. S. Lui</li>
+<li class="nameList Last">Weida Tan</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Many computationally expensive problems are solved by a divide-and-conquer algorithm: a problem over a big dataset can be recursively divided into independent tasks over smaller subsets of the dataset. We present a distributed general-purpose framework called T-thinker which effectively utilizes the CPU cores in a cluster by properly decomposing an expensive problem into smaller independent tasks for parallel computation. T-thinker well overlaps CPU processing with network communication, and its superior performance is verified over a re-engineered graph mining system G-thinker available at http://cs.uab.edu/yanda/gthinker/.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676143" title="Get the Full Text from the ACM Digital Library">Toward efficient architecture-independent algorithms for dynamic programs: poster</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Mohammad Mahdi Javanmard</li>
+<li class="nameList">Pramod Ganapathr</li>
+<li class="nameList">Rathish Das</li>
+<li class="nameList">Zafar Ahmad</li>
+<li class="nameList">Stephen Tschudi</li>
+<li class="nameList Last">Rezaul Chowdhury</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Recursive divide-&#38;-conquer algorithms are known for solving dynamic programming (DP) problems efficiently on shared-memory multicore machines. In this work, we extend them to run efficiently also on manycore GPUs and distributed-memory machines without changing their basic structure.</p> <p>Our GPU algorithms work efficiently even when the data is too large to fit into the host RAM. These are external-memory algorithms based on recursive <i>r</i>-way divide and conquer, where <i>r</i> (&ge; 2) varies based on the current depth of the recursion. Our distributed-memory algorithms are also based on multi-way recursive divide and conquer that extends naturally inside each shared-memory multicore/manycore compute node. We show that these algorithms are work-optimal and have low latency and bandwidth bounds.</p> <p>We also report empirical results for our algorithms.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676144" title="Get the Full Text from the ACM Digital Library">Optimizing computation-communication overlap in asynchronous task-based programs: poster</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Emilio Castillo</li>
+<li class="nameList">Nikhil Jain</li>
+<li class="nameList">Marc Casas</li>
+<li class="nameList">Miquel Moreto</li>
+<li class="nameList">Martin Schulz</li>
+<li class="nameList">Ramon Beivide</li>
+<li class="nameList">Mateo Valero</li>
+<li class="nameList Last">Abhinav Bhatele</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Asynchronous task-based programming models are gaining popularity to address programmability and performance challenges in high performance computing. One of the main attractions of these models and runtimes is their potential to automatically expose and exploit overlap of computation with communication. However, inefficient interactions between such programming models and the underlying messaging layer (in most cases, MPI) limit the achievable computation-communication overlap and negatively impact the performance of parallel programs. We propose to expose information about MPI internals to a task-based runtime system to make better scheduling decisions. In particular, we show how existing mechanisms used to profile MPI implementations can be used to share information between MPI and a task-based runtime. Further, an evaluation of the proposed method shows performance improvements of up to 30.7% for applications with collective communication.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676255" title="Get the Full Text from the ACM Digital Library">Lock-free channels for programming via communicating sequential processes: poster</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Nikita Koval</li>
+<li class="nameList">Dan Alistarh</li>
+<li class="nameList Last">Roman Elizarov</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Traditional concurrent programming involves manipulating shared mutable state. Alternatives to this programming style are communicating sequential processes (CSP) [1] and actor [2] models, which share data via explicit communication. <i>Rendezvous channel</i> is the common abstraction for communication between several processes, where senders and receivers perform a rendezvous handshake as a part of their protocol (senders wait for receivers and vice versa). Additionally to this, channels support the select expression.</p> <p>In this work, we present the first efficient lock-free channel algorithm, and compare it against Go [3] and Kotlin [4] baseline implementations.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676256" title="Get the Full Text from the ACM Digital Library">Making concurrent algorithms detectable: poster</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Naama Ben-David</li>
+<li class="nameList">Guy E. Blelloch</li>
+<li class="nameList">Michal Friedman</li>
+<li class="nameList Last">Yuanhao Wei</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Non-volatile memory (NVM) promises persistent main memory that remains correct despite loss of power. Since caches are expected to remain volatile, concurrent algorithms must be redesigned to ensure a consistent state after a system crash, and to continue the execution upon recovery.</p> <p>We give the first general construction to make any concurrent program persistent, and show that the persistent version is guaranteed to have at most a constant factor blow-up in both steps and contention. We also provide an optimized transformation for normalized lock-free data structures. We experimentally evaluate our transformation by comparing it to a persistent transactional memory, as well as a hand-tuned persistent algorithm. We show that our transformation's performance is reasonable given its generality.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676257" title="Get the Full Text from the ACM Digital Library">GPU-based 3D cryo-EM reconstruction with key-value streams: poster</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Kunpeng Wang</li>
+<li class="nameList">Shizhen Xu</li>
+<li class="nameList">Hongkun Yu</li>
+<li class="nameList">Haohuan Fu</li>
+<li class="nameList Last">Guangwen Yang</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The 3D reconstruction of cryo-electron microscopy (cryo-EM) structural determination process is highly compute-intensive. It inherently requires accesses of a large 3D model in different and variable orientations, brings tough challenges to GPU architecture and has no effective solutions currently. To fill this gap, we propose a novel GPU-based parallel design for cryo-EM 3D reconstruction. The major idea is to reorganize the related problem space as streams of key-value pairs, so that we can achieve both the flexibility and efficiency to compute and accumulate the contribution to the final 3D model from all different 2D image inputs. In addition, we design a hybrid communication mechanism to reduce intra-node communications and enable the solving process on a larger scale.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676258" title="Get the Full Text from the ACM Digital Library">BASMAT: bottleneck-aware sparse matrix-vector multiplication auto-tuning on GPGPUs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Athena Elafrou</li>
+<li class="nameList">Georgios Goumas</li>
+<li class="nameList Last">Nectarios Koziris</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In this work, we present a bottleneck-aware sparse matrix-vector multiplication auto-tuner (BASMAT) for general purpose graphics processing units (GPGPUs) that targets both fast execution and low preprocessing overheads.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676259" title="Get the Full Text from the ACM Digital Library">LOFT: lock-free transactional data structures</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Avner Elizarov</li>
+<li class="nameList">Guy Golan-Gueta</li>
+<li class="nameList Last">Erez Petrank</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Concurrent data structures are widely used in modern multicore architectures, providing atomicity (linearizability) for each concurrent operation. However, it is often desirable to execute several operations on multiple data structures atomically. We present a design of a transactional framework supporting linearizable transactions of multiple operations on multiple data structures in a lock-free manner. Our design uses a helping mechanism to obtain lock-freedom, and an advanced lock-free contention management mechanism to mitigate the effects of aborting transactions. When cyclic helping conflicts are detected, the contention manager reorders the conflicting transactions execution allowing all transactions to complete with minimal delay. To exemplify this framework we implement a transactional set using a skip-list, a transactional queue, and a transactional register. We present an evaluation of the system showing that we outperform general software transactional memory, and are competitive with lock-based transactional data structures.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676250" title="Get the Full Text from the ACM Digital Library">Automated multi-dimensional elasticity for streaming runtimes: poster</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Xiang Ni</li>
+<li class="nameList">Scott Schneider</li>
+<li class="nameList">Raju Pavuluri</li>
+<li class="nameList">Jonathan Kaus</li>
+<li class="nameList Last">Kun-Lung Wu</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present the multi-dimensional elasticity support in IBM Streams 4.3. Automatic operator fusion and dynamic threading were introduced in IBM Streams 4.2, which made it easier to map distributed stream processing to multicore systems through a low-cost operator scheduler and thread count elasticity. To enable these features, the same threading model was applied to the entire application. However, in practice, we have found that some applications have regions best executed under different threading models. In this poster, we introduce threading model elasticity and design a coherent ecosystem for both threading model elasticity and thread count elasticity. We propose an online, stable multidimensional elastic control algorithm that adapts different regions of a streaming application to different threading models and number of threads.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676251" title="Get the Full Text from the ACM Digital Library">Compiler-assisted adaptive program scheduling in big.LITTLE systems: poster</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Marcelo Novaes</li>
+<li class="nameList">Vin&#237;cius Petrucci</li>
+<li class="nameList">Abdoulaye Gamati&#233;</li>
+<li class="nameList Last">Fernando Magno Quint&#227;o Pereira</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Energy-aware architectures provide applications with a mix of low and high frequency cores. Selecting the best core configurations for running programs is very challenging. Here, we leverage compilation, runtime monitoring and machine learning to map program phases to their best matching configurations. As a proof-of-concept, we devise the Astro system to show that our approach can outperform a state-of-the-art Linux scheduler for heterogeneous architectures.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676252" title="Get the Full Text from the ACM Digital Library">GOPipe: a granularity-oblivious programming framework for pipelined stencil executions on GPU</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Chanyoung Oh</li>
+<li class="nameList">Zhen Zheng</li>
+<li class="nameList">Xipeng Shen</li>
+<li class="nameList">Jidong Zhai</li>
+<li class="nameList Last">Youngmin Yi</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Recent studies have shown promising performance benefits of pipelined stencil applications. An important factor for the computing efficiency of such pipelines is the granularity of a task. We presents GOPipe, the first granularity-oblivious programming framework for efficient pipelined stencil executions. With GOPipe, programmers no longer need to specify the appropriate task granularity. GOPipe automatically finds it, and schedules tasks of that granularity while observing all inter-task and inter-stage data dependencies. In our experiments on four real-life applications, GOPipe outperforms the state-of-the-art by up to 4.57&times; with a much better programming productivity.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676253" title="Get the Full Text from the ACM Digital Library">High-throughput image alignment for connectomics using frugal snap judgments: poster</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Tim Kaler</li>
+<li class="nameList">Brian Wheatman</li>
+<li class="nameList Last">Sarah Wooders</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Accurate and computationally efficient image alignment is a vital step in scientific efforts to understand the structure of the brain through electron microscopy images of neurological tissue. Connectomics is an emerging area of neurobiology that uses cutting edge machine learning and image processing algorithms to extract brain connectivity graphs from electron microscopy images.</p> <p>This poster abstract describes a high-throughput image alignment system that is designed to run on commodity multicore machines. We achieve alignments that differ by no more than 2 pixels from state-of-the-art alignment pipelines while achieving 40x additional throughput. The tools employed to achieve this performance boost include application-specific optimizations and the use of <i>frugal snap judgments</i>: a general purpose technique for optimizing computations that have strict accuracy-performance trade-offs.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676254" title="Get the Full Text from the ACM Digital Library">CuLDA_CGS: solving large-scale LDA problems on GPUs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Xiaolong Xie</li>
+<li class="nameList">Yun Liang</li>
+<li class="nameList">Xiuhong Li</li>
+<li class="nameList Last">Wei Tan</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>GPUs have benefited many ML algorithms. However, we observe that the performance of existing Latent Dirichlet Allocation(LDA) solutions on GPUs are not satisfying. We present CuLDA_CGS, an efficient approach to accelerate large-scale LDA problems. We delicately design workload partition and synchronization mechanism to exploit multiple GPUs. We also optimize the algorithm from the sampling algorithm, parallelization, and data compression perspectives. Experiment evaluations show that compared with the state-of-the-art LDA solutions, CuLDA_CGS outperforms them by a large margin (up to 7.3X) on a single GPU.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676265" title="Get the Full Text from the ACM Digital Library">Managing application parallelism via parallel efficiency regulation: poster</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Sharanyan Srikanthan</li>
+<li class="nameList">Princeton Ferro</li>
+<li class="nameList">Sayak Chakraborti</li>
+<li class="nameList Last">Sandhya Dwarkadas</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Modern multiprocessor systems contain a wealth of compute, memory, and communication network resources, such that multiple applications can often successfully execute on and compete for these resources. Unfortunately, good performance for individual applications in addition to achieving overall system efficiency proves a difficult task, especially for applications with low parallel efficiency (speedup per utilized computational core). Limitations to parallel efficiency arise out of factors such as algorithm design, excess synchronization, limitations in hardware resources, and sub-optimal task placement on CPUs.</p> <p>In this work, we introduce MAPPER, a Manager of Application Parallelism via Parallel Efficiency Regulation. MAPPER monitors and coordinates all participating applications by making two coupled decisions: how much parallelism to afford to each application, and which specific CPU cores to schedule applications on. While MAPPER can work for generic applications without modifying their parallel runtimes, we introduce a simple interface that can be used by parallel runtime systems for a tighter integration, resulting in better task granularity control. Using MAPPER can result in up to 3.3X speedup, with an average performance improvement of 20%.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676266" title="Get the Full Text from the ACM Digital Library">Blockchain abstract data type: poster</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Emmanuelle Anceaume</li>
+<li class="nameList">Antonella Del Pozzo</li>
+<li class="nameList">Romaric Ludinard</li>
+<li class="nameList">Maria Potop-Butucaru</li>
+<li class="nameList Last">Sara Tucci-Piergiovanni</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This paper is the first to specify blockchains as a composition of <i>abstract data types</i> all together with a hierarchy of <i>consistency criteria</i> that formally characterizes the histories admissible for distributed programs that use them. The paper presents as well some results on implementability of the presented abstractions and a mapping of representative existing blockchains from both academia and industry in our framework.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676267" title="Get the Full Text from the ACM Digital Library">Creating repeatable, reusable experimentation pipelines with popper: tutorial</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Ivo Jimenez</li>
+<li class="nameList">Jay Lofstead</li>
+<li class="nameList Last">Carlos Maltzahn</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Popper is an experimentation protocol for conducting scientific explorations and writing academic articles following a DevOps approach. The Popper CLI tool helps researchers automate the execution and validation of an experimentation pipeline. In this tutorial we give an introduction to the concepts and CLI tool, and go over hands-on exercises that help.</p></div> </div>
+<h3>
+
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676268" title="Get the Full Text from the ACM Digital Library">Building parallel programming language constructs in the AbleC extensible C compiler framework: a PPoPP tutorial</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Travis Carlson</li>
+<li class="nameList Last">Eric Van Wyk</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In this tutorial participants learn how to build their own parallel programming language features by developing them as language extensions in the <scp>able</scp>C [4] extensible C compiler framework. By implementing new parallel programming abstractions as language extensions one can build on an existing host language and thus avoid re-implementing common language features such as the type checking and code generation of arithmetic expressions and control flow statements. Using <scp>able</scp>C, one can build expressive language features that fit seamlessly into the C11 host language.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676269" title="Get the Full Text from the ACM Digital Library">Implementing parallel and concurrent tree structures</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Yihan Sun</li>
+<li class="nameList Last">Guy Blelloch</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>As one of the most important data structures used in algorithm design and programming, balanced search trees are widely used in real-world applications for organizing data. Answering the challenges thrown up by modern large-volume and ever-changing data, it is important to consider parallelism, concurrency, and persistence. This tutorial will introduce techniques for supporting functionalities on trees, including various parallel algorithms, concurrency, multiversioning, etc. In particular, this tutorial will focus on an algorithmic framework for parallel balanced binary trees, which works for multiple balancing schemes, including AVL trees, red-black trees, weight-based trees, and treaps. This framework allows for theoretically-efficient algorithms. The corresponding implementation is available as a library, which demonstrates good performance both sequentially and in parallel in various use scenarios.</p> <p>This tutorial will focus on the following topics: 1) the algorithms and techniques used in the PAM library; 2) the interface of the library and a hands-on introduction to the download/installation of the library; 3) examples of applying the library to various applications and 4) introduction about other useful techniques for parallel tree structures and performance comparisons with PAM.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/citation.cfm?id=3302578" title="Full Citation in the ACM Digital Library">Programming quantum computers: a primer with IBM Q and D-Wave exercises</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Frank Mueller</li>
+<li class="nameList">Greg Byrd</li>
+<li class="nameList Last">Patrick Dreher</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This tutorial provides a hands-on introduction to quantum computing. It will feature the three pillars, architectures, programming, and algorithms/applications of quantum computing. Its focus is on the applicability of problems to quantum computing from a practical point, with only the necessary foundational coverage of the physics and theoretical aspects to understand quantum computing. Simulation software will be utilized complemented by access to actual quantum computers to prototype problem solutions. This should develop a better understanding of how problems are transformed into quantum algorithms and what programming language support is best suited for a given application area. As a first of its kind, to the best of our knowledge, the tutorial includes hands-on programming experience with IBM Q and D-Wave hardware.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676260" title="Get the Full Text from the ACM Digital Library">High performance distributed deep learning: a beginner's guide</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Dhabaleswar K. (DK) Panda</li>
+<li class="nameList">Ammar Ahmad Awan</li>
+<li class="nameList Last">Hari Subramoni</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The current wave of advances in Deep Learning (DL) has led to many exciting challenges and opportunities for Computer Science and Artificial Intelligence researchers alike. Modern DL frameworks like Caffe2, TensorFlow, Cognitive Toolkit (CNTK), PyTorch, and several others have emerged that offer ease of use and flexibility to describe, train, and deploy various types of Deep Neural Networks (DNNs). In this tutorial, we will provide an overview of interesting trends in DNN design and how cutting-edge hardware architectures are playing a key role in moving the field forward. We will also present an overview of different DNN architectures and DL frameworks. Most DL frameworks started with a single-node/single-GPU design. However, approaches to parallelize the process of DNN training are also being actively explored. The DL community has moved along different distributed training designs that exploit communication runtimes like gRPC, MPI, and NCCL. In this context, we will highlight new challenges and opportunities for communication runtimes to efficiently support distributed DNN training. We also highlight some of our co-design efforts to utilize CUDA-Aware MPI for large-scale DNN training on modern GPU clusters. Finally, we include hands-on exercises in this tutorial to enable the attendees to gain first-hand experience of running distributed DNN training experiments on a modern GPU cluster.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N676261" title="Get the Full Text from the ACM Digital Library">Performance portable C++ programming with RAJA</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">David Beckingsale</li>
+<li class="nameList">Richard Hornung</li>
+<li class="nameList">Tom Scogland</li>
+<li class="nameList Last">Arturo Vargas</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>With the rapid change of computing architectures, and variety of programming models; the ability to develop performance portable applications has become of great importance. This is particularly true in large production codes where developing and maintaining hardware specific versions is untenable.</p> <p>To simplify the development of performance portable code, we introduce RAJA, our C++ library that allows developers to write single-source applications that can target multiple hardware and programming model back-ends. We provide a thorough introduction to all of RAJA features, and walk through some hands-on examples that will allow attendees to understand how RAJA might benefit their own applications. Attendees should bring a laptop computer to participate in the hands-on exercises.</p> <p>This tutorial will introduce attendees to RAJA, a C++ library for developing performance portable applications. Attendees will learn how to write performance portable code that can execute on a range of programming models (OpenMP, CUDA, Intel TBB, and HCC) and hardware (CPU, GPU, Xeon Phi).</p> <p>Specifically, attendees will learn how to convert existing C++ applications to use RAJA, and how to use RAJA's programming abstractions to expose existing parallelism in their applications without complex algorithm rewrites. We will also cover specific guidelines for using RAJA in a large application, including some common "gotchas" and how to handle memory management. Finally, attendees will learn how to categorize loops to allow for simple and systematic performance tuning on any architecture.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

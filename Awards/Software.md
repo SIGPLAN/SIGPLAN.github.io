@@ -3,7 +3,7 @@ layout: award
 title: "Programming Languages Software Award"
 ---
 Given by ACM SIGPLAN to an institution or individual(s) to
-recognize the development a software system that has had a
+recognize the development of a software system that has had a
 significant impact on programming language research,
 implementations, and tools. The impact may be reflected in the
 wide-spread adoption of the system or its underlying concepts by

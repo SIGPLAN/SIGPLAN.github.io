@@ -1,0 +1,165 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>AGERE 2018- Proceedings of the 8th ACM SIGPLAN International Workshop on Programming Based on Actors, Agents, and Decentralized Control</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>AGERE 2018- Proceedings of the 8th ACM SIGPLAN International Workshop on Programming Based on Actors, Agents, and Decentralized Control</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3281366" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Distributed Systems</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661877" title="Get the Full Text from the ACM Digital Library">A configurable transport layer for CAF</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Raphael Hiesgen</li>
+<li class="nameList">Dominik Charousset</li>
+<li class="nameList Last">Thomas C. Schmidt</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The message-driven nature of actors lays a foundation for developing scalable and distributed software. While the actor itself has been thoroughly modeled, the message passing layer lacks a common definition. Properties and guarantees of message exchange often shift with implementations and contexts. This adds complexity to the development process, limits portability, and removes transparency from distributed actor systems. </p> <p> In this work, we examine actor communication, focusing on the implementation and runtime costs of reliable and ordered delivery. Both guarantees are often based on TCP for remote messaging, which mixes network transport with the semantics of messaging. However, the choice of transport may follow different constraints and is often governed by deployment. As a first step towards re-architecting actor-to-actor communication, we decouple the messaging guarantees from the transport protocol. We validate our approach by redesigning the network stack of the C++ Actor Framework (CAF) so that it allows to combine an arbitrary transport protocol with additional functions for remote messaging. An evaluation quantifies the cost of composability and the impact of individual layers on the entire stack.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661878" title="Get the Full Text from the ACM Digital Library">Distributed functional reactive programming on actor-based runtime</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Kazuhiro Shibanai</li>
+<li class="nameList Last">Takuo Watanabe</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Reactive programming over a network is a challenging task because efficient elimination of temporary violations of data flow invariants, known as glitches, in a distributed setting is still an open issue. In this paper, we propose a method for constructing a distributed reactive programming system of which runtime guarantees the properties of single source glitch-freedom and the robustness against out-of-order messages. Based on the method, we developed a purely functional reactive programming language XFRP whose compiler produces Erlang code. Using some examples, we show that the proposed method is beneficial for constructing distributed reactive applications without suffering from inconsistencies.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661879" title="Get the Full Text from the ACM Digital Library">Observable atomic consistency for CvRDTs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Xin Zhao</li>
+<li class="nameList Last">Philipp Haller</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The development of distributed systems requires developers to balance the need for consistency, availability, and partition tolerance. Conflict-free replicated data types (CRDTs) are widely used in eventually consistent systems to reduce concurrency control. However, CRDTs lack consistent totally-ordered operations which can make them difficult to use. </p> <p> In this paper, we propose a new consistency protocol, the observable atomic consistency protocol (OACP). OACP enables a principled relaxation of strong consistency to improve performance in specific scenarios. OACP combines the advantages of mergeable data types, specifically, convergent replicated data types, and reliable total order broadcast to provide on-demand strong consistency. By providing observable atomic consistency, OACP avoids the anomalies of related protocols. </p> <p> We provide a distributed implementation of OACP based on Akka, a widely-used actor-based middleware. Our experimental evaluation shows that OACP can reduce coordination overhead compared to other protocols providing atomic consistency. Our results also suggest that OACP increases availability through mergeable data types and provides acceptable latency for achieving strong consistency.</p></div> </div>
+<h2>SESSION: Parallel Systems</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661870" title="Get the Full Text from the ACM Digital Library">Chocola: integrating futures, actors, and transactions</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Janwillem Swalens</li>
+<li class="nameList">Joeri De Koster</li>
+<li class="nameList Last">Wolfgang De Meuter</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Developers often combine different concurrency models in a single program, in each part of the program using the model that fits best. Many programming languages, such as Clojure, Scala, and Haskell, cater to this need by supporting different concurrency models. However, they are often combined in an ad hoc way and the semantics of the combination is not always well defined. </p> <p> This paper studies the combination of three concurrency models: futures, actors, and transactions. We show that a naive combination of these models invalidates the guarantees they normally provide, thereby breaking the assumptions of developers. Hence, we present Chocola: a unified framework of futures, actors, and transactions that maintains the guarantees of all models wherever possible, even when they are combined. We present the semantics of this model and its implementation in Clojure, and have evaluated its performance and expressivity using three benchmark applications.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661871" title="Get the Full Text from the ACM Digital Library">Concurrent garbage collection in the actor model</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Dan Plyukhin</li>
+<li class="nameList Last">Gul Agha</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In programming languages where memory may be allocated dynamically, automatic garbage collection (GC) can improve the efficiency of program execution while preventing program errors caused by incorrectly removed memory locations. In actor systems, GC poses some challenges that make it much costlier than in the sequential setting: Besides references from reachable actors, we have to consider inverse references from potentially active actors to reachable actors. One proposal, adopted in the runtime for the actor programming language Pony, uses causal message delivery and a centralized detection algorithm. While this is efficient in a multicore setting, the solution is too expensive for a distributed actor runtime. In this work, we show how the causal order message delivery requirement may be removed. Specifically, we describe a tracing collector of distributed actor garbage with centralized and decentralized variants. Both are guaranteed not to collect any non-garbage actors (safety) and to eventually collect all garbage actors (liveness).</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661872" title="Get the Full Text from the ACM Digital Library">Attached and detached closures in actors</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Elias Castegren</li>
+<li class="nameList">Dave Clarke</li>
+<li class="nameList">Kiko Fernandez-Reyes</li>
+<li class="nameList">Tobias Wrigstad</li>
+<li class="nameList Last">Albert Mingkun Yang</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Expressive actor models combine aspects of functional programming into the pure actor model enriched with futures. Such functional features include first-class closures which can be passed between actors and chained on futures. Combined with mutable objects, this opens the door to race conditions. In some situations, closures may not be evaluated by the actor that created them yet may access fields or objects owned by that actor. In other situations, closures may be safely fired off to run as a separate task. </p> <p> This paper discusses the problem of who can safely evaluate a closure to avoid race conditions, and presents the current solution to the problem adopted by the Encore language. The solution integrates with Encore&#39;s capability type system, which influences whether a closure is attached and must be evaluated by the creating actor, or whether it can be detached and evaluated independently of its creator. </p> <p> Encore&#39;s current solution to this problem is not final or optimal. We conclude by discussing a number of open problems related to dealing with closures in the actor model.</p></div> </div>
+<h2>SESSION: Agents</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N661873" title="Get the Full Text from the ACM Digital Library">A scripting language for practical agent-oriented programming</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Federico Bergenti</li>
+<li class="nameList">Stefania Monica</li>
+<li class="nameList Last">Giuseppe Petrosino</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This paper describes the features of a scripting language proposed to support the practical implementation of agents and multi-agent systems using an agent-oriented programming approach. Agents are programmed in terms of procedures to be executed when interesting events occur, and the language provides specific constructs to describe managed events and related procedures. Among possible events, those related to communication are supported by specific constructs because of their relevance for the implementation of multi-agent systems. The proposed language is characterised by a strongly expressive syntax largely inspired by modern scripting languages to promote readability and to make agent programs similar to pseudocodes. Such a feature ensures that the programmer can use the language to describe the reactions of agents to events at a high level of abstraction, with all the advantages that it brings in terms of software quality.</p></div> </div>
+</div>
+</div>
+</body>
+</html>
