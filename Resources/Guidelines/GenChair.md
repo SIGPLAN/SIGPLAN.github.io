@@ -166,6 +166,8 @@ submit a proposal to the SIGPLAN Vice-Chair, as specified in the
 [Sponsorship](/Resources/Proposals/Sponsored) 
 web pages.
 
+<!--- (BCP) This policy seems to be out of date... We do now give satellite -->
+<!--- events a budget based on theri attendance. --->
 SIGPLAN's general guideline is that the conference does not provide
 additional funds to workshops to pay travel or registration costs for
 workshop organizers, keynote speakers, or other dignitaries. This
