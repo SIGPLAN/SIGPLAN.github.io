@@ -3,16 +3,35 @@ NOTES AND THINGS TO DO
 * Tasks
 
   - Figure out which documents are dead (not reachable from the web page)
+  - Skim all documents
   - Read through all documents under /Resources, especially
        Resources/Guidelines
        Resources/Policies
-  - update the "Conference Information" column of the left bar of sigplan.org.  
+  - Read through the Google doc, incorporate what's useful, and mark it
+    deprecated (Tell GCs and PCCs how to edit these documents!)
+  - Read through the conference-specific documents (Principles of POPL, etc.)
+    and see if there are any duplications / inconsistencies
+  - Add a pointer, somewhere in the PCC or GC guidelines, to https://www.acm.org/special-interest-groups/volunteer-resources/conference-planning/opening-slide-on-acm-activities-policy
+  - (Azadeh) Trim the "private information for GCs" document and make sure
+    that it ONLY contains sensitive information that does not belong in 
+    public places
+  - update the "Conference Information" column of the left bar of
+    sigplan.org if needed
+        - Remove the "Conference Policies" reference (to the Google doc at
+          the bottom)!
+  - Check why sigplan.org is so slow
+
+* Plan
+
+BCP will take the lead till mid July
+Azadeh will work in early August
+aim to reach a checkpoint by mid August
 
 * Documents
 
-    - A google doc that somebody wrote
+    - A google doc that Yannis wrote
 
-       https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/edit
+https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/edit
 
 - For each the major conferences, a document that codifies
   its contract with the community.  (Principles of POPL,
@@ -23,8 +42,6 @@ NOTES AND THINGS TO DO
      https://www.icfpconference.org/TheFunctioningofICFP.pdf
      (what about OOPSLA)
 
-- A document I haven?t seen that apparently you were asked to
-  create codifying commonalities between these contracts.
 
 * Yannis's explanation
 

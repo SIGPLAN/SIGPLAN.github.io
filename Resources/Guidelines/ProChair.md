@@ -5,12 +5,13 @@ title: "Guidelines for the Program Chair of a SIGPLAN Event"
 Executive Summary
 -----------------
 
-You may be an experienced Program Chair, in which case much of the advice on
-this page may already be familiar to you. Nevertheless, even experienced
-chairs sometimes forget some important points, so please at least skim the
-rest of this page and the following others:
+You may be an experienced Program Chair, in which case much of the
+advice on this page may already be familiar to you. Nevertheless, even
+experienced chairs sometimes forget some important points, and some
+policies and guidelines are specific to SIGPLAN, so please at least
+skim the rest of this page and the following others:
 
-- SIGPLAN's [conference policies](https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/edit?usp=sharing_)
+- SIGPLAN's [conference policies](https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/edit?usp=sharing_) <!-- (BCP) slated for deletion --> 
 - SIGPLAN's [conference submission review policy](/Resources/Policies/Review) 
 - SIGPLAN's [diversity policy](/Resources/Policies/Diversity)
 - SIGPLAN's [republication policy](/Resources/Policies/Republication)
