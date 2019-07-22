@@ -1,3 +1,25 @@
+Selected July 2019:
+
+- Title: _[BioScript: Programming Safe Chemistry on Laboratories-on-a-chip](https://dl.acm.org/citation.cfm?id=3276498)_
+  Authors: Jason Ott (UC Riverside), Tyson Loveless (UC Riverside), Chris Curtis (UC Riverside), Mohsen Lesani (UC Riverside), and Philip Brisk (UC Riverside)
+  Venue: OOPSLA 2018
+  NominationStatement: |
+    Laboratories on a chip (LoCs) can be seen as the 'general-purpose' 
+    CPU of microfluidic devices. This paper describes the design and 
+    implementation of "BioScript", a programming language for LoCs that 
+    allows biochemists to express microfluid experiments as programs. 
+    This research exemplifies the use of techniques from programming 
+    language theory and practice in order to satisfy the constraints 
+    imposed by these systems while producing a language that is fit 
+    for its purpose. This includes designing a type systems that helps 
+    prevent scientists from accidentally causing unsafe chemical reactions 
+    that could damage the lab itself or produce toxic gas.
+    
+    The authors demonstrate that as more platforms require programming 
+    — increasingly by non-computer scientists — the creative mix and 
+    application of well-studied theory can provide meaningful design 
+    guidance.
+
 Selected January 2018:
 
 - Title: _[Bringing the Web up to Speed with WebAssembly](https://dl.acm.org/citation.cfm?doid=3062341.3062363)_
