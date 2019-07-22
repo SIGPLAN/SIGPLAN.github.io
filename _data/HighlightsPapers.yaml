@@ -31,7 +31,7 @@ Selected July 2019:
   Authors: John Vilk (University of Massachusetts at Amherst), Emery Berger (University of Massachusetts at Amherst)
   Venue: PLDI 2018
   NominationStatement: |
-    The paper presents a manifestly extremely useful framework for detecting 
+    This paper presents a manifestly extremely useful framework for detecting 
     memory leaks in web applications.  The programmer provides a script that 
     specifies a “visible loop” in terms of states in a web application, and 
     the BLeak system flags objects that consistently exhibit a growing set of 
