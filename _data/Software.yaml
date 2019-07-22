@@ -1,3 +1,20 @@
+2019:
+- Awardee: "Scala"
+  Citation: |
+    Scala is one of the few programming languages from academia that 
+    has had a significant impact on the world as well as on programming 
+    languages research. It enjoys significant industrial adoption, with 
+    early adopters like Twitter and LinkedIn serving as catalysts; it 
+    forms the basis of the widely used Apache Spark data analytics 
+    platform. Scala's impact on PL research includes the idiom of 
+    implicits, which have found their way into other languages; attempts
+    to formalize Scala’s type system have pushed the boundaries of type 
+    systems research, culminating in the Dependent Object Types (DOT) 
+    calculus. In addition, Scala has been a fertile research ground for m
+    etaprogramming, macros, staging, and embedded domain-specific languages, 
+    including DSLs for machine learning and GPU execution (Delite and OptiML).
+ 
+
 2018:
 - Awardee: "Racket"
   Citation: |
