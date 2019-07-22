@@ -20,6 +20,67 @@ Selected July 2019:
     — increasingly by non-computer scientists — the creative mix and 
     application of well-studied theory can provide meaningful design 
     guidance.
+    
+- Title: "_[MadMax: surviving out-of-gas conditions in Ethereum smart contracts](https://dl.acm.org/citation.cfm?id=3276486)_"
+  Authors: Neville Grech (University of Athens, Greece / University of Malta, Malta), Michael Kong (University of Sydney, Australia), Anton Jurisevic (University of Sydney, Australia), 	Lexi Brent (University of Sydney, Australia), Bernhard Scholz (University of Sydney, Australia), Yannis Smaragdakis (University of Athens, Greece)
+  Venue: OOPSLA 2018
+  NominationStatement: |
+    To be updated
+
+- Title: "_[BLeak: automatically debugging memory leaks in web applications](https://dl.acm.org/citation.cfm?id=3192376)_"
+  Authors: John Vilk (University of Massachusetts at Amherst), Emery Berger (University of Massachusetts at Amherst)
+  Venue: PLDI 2018
+  NominationStatement: |
+    The paper presents a manifestly extremely useful framework for detecting 
+    memory leaks in web applications.  The programmer provides a script that 
+    specifies a “visible loop” in terms of states in a web application, and 
+    the BLeak system flags objects that consistently exhibit a growing set of 
+    outgoing references as potential leaks. Via appropriate hooks, any addition 
+    of such a growth reference triggers the collection of a stack trace for 
+    debugging.  In addition, the tool attributes importance to leak roots by 
+    counting the sizes of reachable nodes (normalized by their count) in order 
+    to help programmers identify where they should be focusing their debugging 
+    effort first.  The results demonstrate great effectiveness: nearly 60 actual 
+    and never-found-before bugs were identified and fixed in real-world applications, 
+    leading to significant reductions in memory.
+
+- Title: "Watching for Software Inefficiencies with Witch](https://dl.acm.org/citation.cfm?id=3177159)_"
+  Authors: 	Shasha Wen (College of William and Mary), Xu Liu (College of William and Mary), John Byrne (Hewlett Packard Labs), 	Milind Chabbi (Baidu Research & Scalable Machines Research)
+  Venue: ASPLOS 2018
+  NominationStatement: |
+    This paper makes a substantial improvement to the state of production performance 
+    profiling tools. The paper is widely accessible and will be of interest to 
+    application, tool, and system developers. 
+    
+    Understanding application performance while it runs in production remains an open 
+    problem with implications on what we can compute at any given time scale and how 
+    we compute it. Historically, developers had two types of performance profilers at 
+    their disposal. (1) Coarse-grained profiles interrupt programs and sample performance 
+    counters or software events infrequently (e.g., gprof). (2) Fine-grained profilers 
+    instrument programs (e.g., DeadSpy) or require an additional thread and software 
+    configuration (e.g., SHIM). These types of tools make different trade offs. 
+    Coarse-grained profilers are efficient, but they only detect only a limited class 
+    of performance trends, e.g., the dominant method or thread that holds a lock for a 
+    long time. Fine-grained profilers detect more nuanced performance issues, such as 
+    useless writes, poor cache behavior, or program critical paths, but most have high 
+    overhead because they require program instrumentation or require lots of state, 
+    making them impractical for finding problems in deployment, where software is 
+    exercised in hard to reproduce and unexpected ways.
+
+    This paper introduces a new extremely low-overhead reservoir sampling approach that 
+    requires no program instrumentation and limited state. It uses hardware debugging 
+    registers and perfomance monitoring units (PMU) to capture values of memory locations.
+    They prove the efficacy of the sampling approach to capture events that happen 
+    frequently enough to cause performance problems. (Rare events are important for 
+    correctness tools, but less so for performance tools.) The paper demonstrates their 
+    approach is low overhead and yet reveals performance problems. It shows their tool 
+    reveals actionable performance bugs related to consecutive reads and writes to the 
+    same memory location (e.g., dead writes, silent stores, and redundant loads), but the 
+    approach is general and will apply to many other pre-configured performance pathologies. 
+    They show practical impact through changes they or developers make to a range of large 
+    complicated multithreaded applications. Application and system developers will want to 
+    use it.
+
 
 Selected January 2018:
 
