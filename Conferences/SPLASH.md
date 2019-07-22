@@ -7,7 +7,12 @@ SPLASH (Systems, Programming, Languages, and Applications: Software for Humanity
 SPLASH fast facts
 -----------------
 
-> [SPLASH Web Site](http://splashcon.org/)  
+> [SPLASH 2019 Web Page](http://splashcon.org/)
+
+> General Chair: [Yannis Smaragdakis](https://yanniss.github.io/)
+> Program Chair: [Eelco Visser](https://eelcovisser.org/)
+> Location: Athens, Greece
+> Dates: Sun 20 - Fri 25 October 2019
 
 **SPLASH Steering Committee**
 
@@ -37,6 +42,7 @@ The current SPLASH steering committee is:
 
 Web Pages of Previous Conferences
 ---------------------------------
+> [SPLASH 2018](http://2018.splashcon.org/) (Boston, MA)  
 > [SPLASH 2017](http://2017.splashcon.org/) (Vancouver, Canada)  
 > [SPLASH 2016](http://2016.splashcon.org/) (Amsterdam, The Netherlands)  
 > [SPLASH 2015](http://2015.splashcon.org/) (Pittsburgh, PA)  
