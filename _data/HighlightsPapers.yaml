@@ -25,7 +25,34 @@ Selected July 2019:
   Authors: Neville Grech (University of Athens, Greece / University of Malta, Malta), Michael Kong (University of Sydney, Australia), Anton Jurisevic (University of Sydney, Australia), 	Lexi Brent (University of Sydney, Australia), Bernhard Scholz (University of Sydney, Australia), Yannis Smaragdakis (University of Athens, Greece)
   Venue: OOPSLA 2018
   NominationStatement: |
-    To be updated
+    Ethereum is the world's second largest cryptocurrency, with a current 
+    market capitalization over $20 billion. It was the first to support 
+    smart contracts---Turing complete programs stored on the blockchain, 
+    and executed by the Ethereum Virtual Machine, which perform transactions 
+    with no human interaction. Bugs in these contracts can enable theft, 
+    or render the managed funds permanently inaccessible.
+    
+    This paper addresses a particular kind of bug, exploiting the fact that 
+    smart contracts consume “gas” as they run, and calls that run out of gas 
+    are aborted. If an attacker can corrupt the state of a contract so that 
+    all future calls run out of gas, then the funds it manages are permanently lost.
+    MadMax can analyze any Ethereum contract by decompiling its byte code, then 
+    searching for code patterns that are likely to be associated with three common 
+    kinds of “out of gas” vulnerabilities, using the successful Datalog approach to 
+    implement a data-flow analysis, context sensitive flow analysis, and memory 
+    modeling for data structures. The result is an accurate and scalable analysis 
+    that the authors applied to every smart contract on the Ethereum blockchain---over 
+    90,000 of them. In 10 hours of analysis, MadMax flagged over 5% of these contracts 
+    (managing about $2.8 billion) as potentially vulnerable to one of the three attacks. 
+    Inspection of the first 13 flagged contracts, with 16 flagged vulnerabilities, 
+    showed that 13 vulnerabilities were real---so only around 20% of flagged 
+    vulnerabilities are false positives.
+    
+    Blockchain technology is currently attracting significant interest, and security 
+    requirements are at its core. This paper shows beautifully how state-of-the-art 
+    programming-language techniques can be brought to bear to improve the security of 
+    the blockchain infrastructure we may all depend on in the future.
+
 
 - Title: "_[BLeak: automatically debugging memory leaks in web applications](https://dl.acm.org/citation.cfm?id=3192376)_"
   Authors: John Vilk (University of Massachusetts at Amherst), Emery Berger (University of Massachusetts at Amherst)
