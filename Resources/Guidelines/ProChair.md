@@ -28,10 +28,11 @@ Submission and Reviewing Policies
 ---------------------------------
 
 The Program Chair may not submit papers to the conference; SIGPLAN's
-Executive Committee recommends that the General Chair also not be allowed to
-submit papers. If Program Committee members are allowed to submit papers,
-their papers should be held to a higher standard, in order to avoid the
-appearance of impropriety.
+Executive Committee recommends that the General Chair also not be
+allowed to submit papers. If Program Committee members are allowed to
+submit papers, either their papers should be held to a higher standard
+or other EC-approved measures should be taken, to avoid the appearance
+of impropriety.
 
 The PC Chair should make all program committee members and reviewers aware
 of SIGPLAN's policies on

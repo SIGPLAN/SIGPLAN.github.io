@@ -28,7 +28,8 @@ SIGPLAN-approved workshops
   review.
 * The Program Committee respects the SIGPLAN Diversity Policy.
 * The proposal for a SIGPLAN-approved workshop, including the composition of
-  the Program Committee, is approved by the SIGPLAN Executive Committee.
+  the Program Committee, is approved (prior to issuing invitations) by
+  the SIGPLAN Executive Committee. 
 * If there is a proceedings of any kind, the proceedings must be lodged in
   the ACM Digital Library, and the papers in it are considered published.
 
@@ -49,10 +50,14 @@ Conference-approved workshops
 
 * A conference-approved workshop is organized under the aegis of a SIGPLAN
   host conference.
-* Accepted submissions must not be published in any way, and they do not
-  become part of the ACM Digital Library.
 * A conference-approved workshop may not use the SIGPLAN name or logo.  It
   may, however, use the name of the host conference.
+* A conference-approved workshop need not have an open call for
+  contributions, nor a programme committee. But if it does have a PC,
+  that PC must respect the SIGPLAN Diversity Policy and be approved by
+  the SIGPLAN Executive Committee prior to issuing invitations.
+* Accepted submissions must not be published in any way, and they do not
+  become part of the ACM Digital Library.
 
 **Suggestions:**
 
