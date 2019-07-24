@@ -26,7 +26,7 @@ committees from the pool of qualified candidates include:
 4.  Type of institution: Industry, Academia, Government Laboratory,
     etc.
 5.  Years of experience: committees should be a mix of junior,
-    mid-level, and senior members of the community.
+    mid-level, and senior members of the community.  (Workshop PCs may include at most one PhD student in their final year; please include a comment detailing their qualifications.  Conference PC members should all have PhDs by the submission deadline.) 
 6.  Geographic distribution: members should come from all parts of
     the world active in the given research area.
 7.  Gender.
