@@ -103,7 +103,7 @@ arrangements chair, publicity chair, publications chair, tutorial
 chair, etc). Send the names to the SIGPLAN Chair and Vice-Chair,
 one year before the event.
 
-<!--- (BCP) Do the chair and vice chair have to approve the names, or is this just FYI? --->
+<!--- (BCP) Do the chair and vice chair have to approve the names, or is this just FYI? (Or is this step needed at all?) --->
 
 Local arrangements (such as registration and hotel management) for the
 main SIGPLAN conferences PLDI, OOPSLA, POPL, and ICFP are usually
