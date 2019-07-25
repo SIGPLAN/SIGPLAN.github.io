@@ -39,6 +39,10 @@ policy](/Resources/Policies/Diversity).
 Date and Location
 -----------------
 
+<!-- BCP: No conference has yet submitted sites to me, and if _all_
+     SIGPLAN-sponsored conferences did this, it would be a problem!
+     Just delete this advice? -->
+
 Select three potential sites for the conference and send them to the
 ACM representative and the SIGPLAN Vice-Chair. If the event is part of
 a series, then the date of the conference may have been
@@ -62,7 +66,9 @@ committees of their own.
 Approval and Call for Papers
 ----------------------------
 
-<!--- (BCP) How does a GC know whether their conference is part of a series which already has approval for ongoing sponsorship?? --->
+<!--- BCP: How does a GC know whether their conference is part of a
+      series which already has approval for ongoing sponsorship??  (I
+      guess look at the SIGPLAN Conferences page?) --->
 
 Develop a timeline, at least eighteen months in advance of the conference date.
 Unless the conference is part of a series which already has approval
@@ -108,10 +114,12 @@ arrangements chair, publicity chair, publications chair, tutorial
 chair, etc). Send the names to the SIGPLAN Chair and Vice-Chair,
 one year before the event.
 
-<!--- (BCP) Do the chair and vice chair have to approve the names, or is this just FYI? (Or is this step needed at all?) --->
+<!--- (BCP) Do the chair and vice chair have to approve the names, or
+      is this just FYI? (Or is this step needed at all?)  Nobody does
+      this.  Propose to delete. --->
 
 Local arrangements (such as registration and hotel management) for the
-main SIGPLAN conferences PLDI, OOPSLA, POPL, and ICFP are usually
+main SIGPLAN conferences (PLDI, OOPSLA, POPL, and ICFP) are usually
 handled by a professional organization.
 
 The conference steering committee should be consulted about any
@@ -144,7 +152,7 @@ Program Committee
 
 Help the Program Chair to select the program committee. The list
 of potential committee members has to be approved by the SIGPLAN Vice-Chair
-(who will consult the whole SIGPLAN Executive Committee) before the members
+(who will consult the SIGPLAN Executive Committee) before the members
 are invited. You and the PC Chair 
 should decide on policies for submission and revewing (see
 [Guidelines for Program Committee Chair](/Resources/Guidelines/ProChair)).
@@ -157,11 +165,13 @@ Satellite Events
 
 Co-located conferences or workshops make your event more attractive to
 participants.  Establish a deadline for submission of workshop
-proposals. Consider appointing a workshop chair to coordinate them.  (Make
-sure that whoever is handling this task -- whether you or a workshop chair
--- has a conversation early in the process with the [SIGPLAN Vice
-Chair](mailto:vc_sigplan@acm.org?subject=Workshops) to get clear on
-SIGPLAN's expectations for how workshop PCs are formed and vetted.)
+proposals. Consider appointing a workshop chair to coordinate them.
+(Make sure that whoever is handling this task -- whether you or a
+workshop chair -- has a conversation early in the process with the
+[SIGPLAN Vice Chair](mailto:vc_sigplan@acm.org?subject=Workshops) to
+get clear on SIGPLAN's expectations for how workshop PCs are formed
+and vetted.<!-- BCP: No GC has asked me for such a conversation.  I
+suspect no one is reading this document at the moment. -->)
 
 You should contact chairs of co-located events and plan the common advance
 program, joint technical sessions, joint social events, etc. You
@@ -171,8 +181,8 @@ submit a proposal to the SIGPLAN Vice-Chair, as specified in the
 [Sponsorship](/Resources/Proposals/Sponsored) 
 web pages.
 
-<!--- (BCP) This policy seems to be out of date... We do now give satellite -->
-<!--- events a budget based on theri attendance. --->
+<!--- (BCP) This policy seems to be out of date... We do now, I believe, give satellite
+      events a budget based on their attendance. --->
 SIGPLAN's general guideline is that the conference does not provide
 additional funds to workshops to pay travel or registration costs for
 workshop organizers, keynote speakers, or other dignitaries. This
@@ -190,7 +200,9 @@ handed out at the on-site conference registration.
 Post-event Reporting
 --------------------
 
-<!--- (BCP) Does anybody actually do this?  Not much point in having a rule if it's universally ignored... --->
+<!--- (BCP) Does anybody actually do this?  I have never seen one.
+      Not much point in having a rule if it's universally
+      ignored... --->
 
 Send a report at the end of the conference to the SIGPLAN 
 Vice-Chair. The report should include information about any
@@ -216,6 +228,7 @@ _SIGPLAN Information Director_:
 [infodir\_sigplan@acm.org](mailto:infodir_sigplan@acm.org?subject=Conference%20Information)  
 _ACM Representative to SIGPLAN_ (Abigail Sumandal):
 [sumandal@hq.acm.org](mailto:sumandal@hq.acm.org)
+<!-- BCP: Out of date.  Delete? -->
 
 See Also
 --------
