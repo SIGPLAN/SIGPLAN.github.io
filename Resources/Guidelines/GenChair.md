@@ -13,12 +13,15 @@ please at least skim this page as well as the following ones:
 - SIGPLAN's [conference policies](https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/edit?usp=sharing_)
 - SIGPLAN's [conference submission review policy](/Resources/Policies/Review) 
 - SIGPLAN's [diversity policy](/Resources/Policies/Diversity)
+- ACM's [policy against harassment at ACM activities](https://www.acm.org/special-interest-groups/volunteer-resources/conference-planning/opening-slide-on-acm-activities-policy)
 - SIGPLAN's [Republication Policy](/Resources/Policies/Republication)
 - SIGPLAN's [Code of Conduct Policy](/Resources/Policies/CodeOfConduct/)
 - SIGACCESS's [Guide to Creating a Conference Accessibility FAQ Page](http://www.sigaccess.org/welcome-to-sigaccess/resources/creating-a-conference-accessibility-faq-page/)
 - if you plan to request in-cooperation or sponsored status, do so well in advance (twelve or eighteen months, respectively)
 - seek approval for important roles (PC Chair, and for a sponsored event also PC members) from SIGPLAN Vice-Chair, *before* sending invitations
 - consult with the conference Steering Committee before diverging from any existing conventions
+
+_Please help us keep this document (and the rest of this site) up to date:_ If you notice any errors, duplications, inconsistencies, etc., please inform the [SIGPLAN vice chair](mailto:vc_sigplan@acm.org).
 
 Program Chair
 ---------------

@@ -24,6 +24,8 @@ skim the rest of this page and the following others:
 - Make sure the Call for Papers makes potential authors aware of SIGPLAN's
   [Copyright policies](https://authors.acm.org/main.html).  
 
+_Please help us keep this document (and the rest of this site) up to date:_ If you notice any errors, duplications, inconsistencies, etc., please inform the [SIGPLAN vice chair](mailto:vc_sigplan@acm.org).
+
 Submission and Reviewing Policies
 ---------------------------------
 

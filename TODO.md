@@ -1,25 +1,45 @@
-NOTES AND THINGS TO DO
+NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
 
-* Tasks
+* Pending tasks
 
-  - Figure out which documents are dead (not reachable from the web page)
   - Skim all documents
   - Read through all documents under /Resources, especially
        Resources/Guidelines
        Resources/Policies
-  - Read through the Google doc, incorporate what's useful, and mark it
-    deprecated (Tell GCs and PCCs how to edit these documents!)
+  - Read through the Google doc, incorporate what's useful elsewhere, and
+    mark it deprecated
+      - update the "Conference Information" column of the left bar of
+        sigplan.org if needed
+            - Remove the "Conference Policies" reference (to the Google doc
+              at the bottom)!
   - Read through the conference-specific documents (Principles of POPL, etc.)
     and see if there are any duplications / inconsistencies
-  - Add a pointer, somewhere in the PCC or GC guidelines, to https://www.acm.org/special-interest-groups/volunteer-resources/conference-planning/opening-slide-on-acm-activities-policy
   - (Azadeh) Trim the "private information for GCs" document and make sure
     that it ONLY contains sensitive information that does not belong in 
     public places
-  - update the "Conference Information" column of the left bar of
-    sigplan.org if needed
-        - Remove the "Conference Policies" reference (to the Google doc at
-          the bottom)!
-  - Check why sigplan.org is so slow
+  - Try to check / inquire why sigplan.org is so slow!
+
+* Tidying to do
+
+Dead / outdated pages (delete)
+  ./Committees/SCChairs.md
+     - not referenced at all, and out of date
+  ./Resources/OMP.md
+     - referenced from Links.yaml but way out of date
+  ./Resources/Policies/ErrataAndAcademicDisputes.md
+     - commented out in _data/Links.yaml
+  ./Resources/AnnualReports.md
+     - referenced from Links.yaml but way out of date
+
+On the front page:
+  - some of the award information is out of date (e.g., the OOPSLA most
+    influential paper award, the list of ACM fellows)
+  - the CC conference is missing, and the rest of the list should be
+    reordered with the flagship conferences at the top -- the current order
+    is kind of random.
+  - the "author information" item doesn't really fit with the rest of
+    "conference information".  How about we break it out into a separate
+    category all by itself?  
 
 * Plan
 
@@ -42,8 +62,7 @@ https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/
      https://www.icfpconference.org/TheFunctioningofICFP.pdf
      (what about OOPSLA)
 
-
-* Yannis's explanation
+** Yannis's explanation
 
 1) A SIGPLAN Conference Policies google doc (https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/edit)
 2) For each the major conferences, a document that
@@ -100,8 +119,7 @@ via search.
 Hope this helps...
    Yannis.
 
-
-* Full email from Yannis
+** Full email from Yannis
 
 Yannis:  Many thanks for your list of 
   "topics that people die to know about".
@@ -341,14 +359,14 @@ We've seen or heard mention of several documents
 that seem to have overlapping purposes and
 audiences?
 
-* A SIGPLAN Conference Policies google doc
+-  A SIGPLAN Conference Policies google doc
   (https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/edit)
-* For each the major conferences, a document that codifies
+-  For each the major conferences, a document that codifies
   its contract with the community.  (Principles of POPL,
   Practices of PLDI, etc.)
-* A document I haven?t seen that apparently you were asked to
+-  A document I haven?t seen that apparently you were asked to
   create codifying commonalities between these contracts.
-* Several public web pages listing policies and guides on the
+-  Several public web pages listing policies and guides on the
   SIGPLAN web site ? e.g., Guidelines for the General Chair
   of a SIGPLAN Event
   <http://www.sigplan.org/Resources/Guidelines/GenChair/> and
