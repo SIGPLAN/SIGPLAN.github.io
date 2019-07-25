@@ -19,6 +19,21 @@ NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
     public places
   - Try to check / inquire why sigplan.org is so slow!
 
+  - fix http://www.sigplan.org/Resources/Proposals/Sponsored/
+       to make the steps clearer, esp in "what happens next"
+
+  - make sure that a pointer to the PC template is included in all
+         conference-specific documents
+
+  - These pages say that the PC Chair is for EC Chair and Vice-Chair to approve:
+       http://sigplan.org/Resources/Guidelines/SCommittee/
+       http://sigplan.org/Resources/Guidelines/GenChair/
+
+  - the ProChair page seems to have bitrotted a bit, for instance in
+    assuming all submissions are using two-column format (no mention
+    of PACMPL) and being processed by Sheridan.
+
+
 * Tidying to do
 
 Dead / outdated pages (delete)
@@ -31,12 +46,12 @@ Dead / outdated pages (delete)
   ./Resources/AnnualReports.md
      - referenced from Links.yaml but way out of date
 
-On the front page:
+On the front page (coordinate with Harry Xu about changes here):
   - some of the award information is out of date (e.g., the OOPSLA most
     influential paper award, the list of ACM fellows)
   - the CC conference is missing, and the rest of the list should be
     reordered with the flagship conferences at the top -- the current order
-    is kind of random.
+    is kind of random.  (Harry will do this one.)
   - the "author information" item doesn't really fit with the rest of
     "conference information".  How about we break it out into a separate
     category all by itself?  
