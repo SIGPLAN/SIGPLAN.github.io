@@ -1,11 +1,12 @@
 NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
 
+* Conventions
+
+- Comments and questions from Benjamin are in HTML comments in the
+  respective .md files, marked BCP.  Do "grep -R BCP ." to find them.
+
 * Pending tasks
 
-  - Skim all documents
-  - Read through all documents under /Resources, especially
-       Resources/Guidelines
-       Resources/Policies
   - Read through the Google doc, incorporate what's useful elsewhere, and
     mark it deprecated
       - update the "Conference Information" column of the left bar of
@@ -17,24 +18,12 @@ NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
   - (Azadeh) Trim the "private information for GCs" document and make sure
     that it ONLY contains sensitive information that does not belong in 
     public places
-  - Try to check / inquire why sigplan.org is so slow!
+  - Make sure that the main documents (esp. ProChair, GenChair, and
+    Workshops) are clearly identified as starting points for
+    organizers.  Make sure that someone starting at the SIGPLAN main
+    page can easily tell where to begin.
 
-  - fix http://www.sigplan.org/Resources/Proposals/Sponsored/
-       to make the steps clearer, esp in "what happens next"
-
-  - make sure that a pointer to the PC template is included in all
-         conference-specific documents
-
-  - These pages say that the PC Chair is for EC Chair and Vice-Chair to approve:
-       http://sigplan.org/Resources/Guidelines/SCommittee/
-       http://sigplan.org/Resources/Guidelines/GenChair/
-
-  - the ProChair page seems to have bitrotted a bit, for instance in
-    assuming all submissions are using two-column format (no mention
-    of PACMPL) and being processed by Sheridan.
-
-
-* Tidying to do
+* Pending tidying
 
 Dead / outdated pages (delete)
   ./Committees/SCChairs.md
@@ -45,6 +34,14 @@ Dead / outdated pages (delete)
      - commented out in _data/Links.yaml
   ./Resources/AnnualReports.md
      - referenced from Links.yaml but way out of date
+  ./Resources/Database.md
+     - I can't figure out where this is referenced from, but it is
+       decades out of date!!
+  ./Resources/Events/Cooperated.md
+     - I think it is not referenced from anywhere.  Way out of date.
+  ./Resources/Guidelines/Colocation.md
+     - This is not linked from any of the other guidelines documents,
+       though it _is_ linked from the main SIGPLAN page via _data/Links.yaml
 
 On the front page (coordinate with Harry Xu about changes here):
   - some of the award information is out of date (e.g., the OOPSLA most

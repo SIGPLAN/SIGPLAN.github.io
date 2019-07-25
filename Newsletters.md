@@ -4,11 +4,14 @@ title: "SIGPLAN Publications"
 ---
 **SIGPLAN produces two publications:**  
 
--   [SIGPLAN Notices](http://portal.acm.org/browse_dl.cfm?idx=J706) is the primary monthly
-    publication of SIGPLAN.
+<!-- BCP: What about PACMPL?? -->
 
--   Fortran Forum which addresses the Fortran language, its use,
-    and the implementation of Fortran processors.
+-   [SIGPLAN Notices](http://portal.acm.org/browse_dl.cfm?idx=J706) is the primary monthly
+    publication of SIGPLAN.  <!-- BCP: Dead -->
+
+-   Fortran Forum addresses the Fortran language, its use,
+    and the implementation of Fortran processors.  
+    <!-- BCP: There should be a link to it -->
 
 The publications can be subscribed to independently of
 [membership](/Membership). Old issues of publications and

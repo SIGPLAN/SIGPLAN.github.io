@@ -3,7 +3,9 @@ layout: default
 title: "Instructions for Preparing a SIGPLAN PC Proposal"
 ---
 
-The SIGPLAN PC proposal spreadsheet is intended both to help PC Chairs review the coverage and diversity of proposed PCs and to help the SIGPLAN EC quickly evaluate and approve proposals.  
+The SIGPLAN PC proposal spreadsheet is intended both (1) to help PC
+Chairs review coverage and diversity while developing a PC proposal
+and (2) to help the SIGPLAN EC quickly evaluate and approve proposals.
 
 - Start by downloading the [PC proposal
   spreadsheet](/Resources/Guidelines/sigplan-pc-proposal-template.xlsx)
@@ -47,3 +49,4 @@ The SIGPLAN PC proposal spreadsheet is intended both to help PC Chairs review th
 - The "Optional" columns to the right of the vertical gray bar are
   truly optional: the EC will appreciate this information (especially
   links to websites), but it is not required.
+  

@@ -3,19 +3,22 @@ layout: default
 title: "Guidelines about Workshops"
 ---
 
+<!-- BCP: We had some discussion about eliminating the distinction between 
+     these two flavors of workshops, but I do not think we converged on a
+     decision.  I am still in favor of simplifying if we can! --> 
+
 SIGPLAN-sponsored conferences often organize a program of affiliated
 workshops in addition to the main conference program. These workshops are
 beneficial to the community&mdash;attracting participants, fostering
 discussion, encouraging students, and so on&mdash;and are strongly supported
 by SIGPLAN.
 
-By and large, there are two kinds of workshops.  The first kind require
-SIGPLAN EC approval, have a PC, use the SIGPLAN name, and publish their
-proceedings (if any) in the ACM DL; the second kind require approval only by
-the conference organizers and not by SIGPLAN EC, need not have a PC, cannot
-use the SIGPLAN name, and should not publish proceedings. In this document
-we call them *SIGPLAN-approved workshops* and *conference-approved
-workshops*.
+There are two kinds of workshops: *SIGPLAN-approved workshops* and
+*conference-approved workshops*.  The first kind require SIGPLAN EC
+approval, have a PC, use the SIGPLAN name, and publish their proceedings (if
+any) in the ACM DL; the second kind require approval only by the conference
+organizers and not by SIGPLAN EC, need not have a PC, cannot use the SIGPLAN
+name, and should not publish proceedings.
 
 SIGPLAN-approved workshops
 --------------------------
@@ -29,8 +32,9 @@ SIGPLAN-approved workshops
 * The Program Committee respects the SIGPLAN Diversity Policy.
 * The proposal for a SIGPLAN-approved workshop, including the composition of
   the Program Committee, is approved (prior to issuing invitations) by
-  the SIGPLAN Executive Committee. 
-* If there is a proceedings of any kind, the proceedings must be lodged in
+  the SIGPLAN Executive Committee. <!-- BCP: Are the PC Chair and the GC 
+  also approved by the EC?? -->
+* If there is a proceedings of any kind, it must be lodged in
   the ACM Digital Library, and the papers in it are considered published.
 
 **Suggestions:**
@@ -53,9 +57,10 @@ Conference-approved workshops
 * A conference-approved workshop may not use the SIGPLAN name or logo.  It
   may, however, use the name of the host conference.
 * A conference-approved workshop need not have an open call for
-  contributions, nor a programme committee. But if it does have a PC,
+  contributions, nor a programme committee. However, if it does have a PC,
   that PC must respect the SIGPLAN Diversity Policy and be approved by
-  the SIGPLAN Executive Committee prior to issuing invitations.
+  the SIGPLAN Executive Committee prior to issuing invitations.  
+  <!-- BCP: Does the PC Chair have to be approved by the EC?  Does the GC? -->
 * Accepted submissions must not be published in any way, and they do not
   become part of the ACM Digital Library.
 
@@ -66,7 +71,7 @@ Conference-approved workshops
   appropriate.
 * Organizers may wish to select participants by explicitly soliciting
   abstracts or position statements, and directly issuing invitations to
-  panellists or discussion leaders.
+  panelists or discussion leaders.
 * Although a conference-approved workshop may not collect submissions into a
   proceedings, it may create a "workshop summary" that is not peer-reviewed,
   but which is included within the host conference "companion" or posted on
@@ -96,6 +101,8 @@ Comments
 * A conference-approved workshop is not subject to approval by the SIGPLAN
   Executive Committee; it is sufficient for the organizers of the host
   conference to be satisfied as to the workshop's quality and integrity.
+  <!-- This is inconsistent with the rule we added above, saying that the
+  PC must be vetted by the EC if there is one. -->
 * Both kinds of workshop are valuable, and SIGPLAN encourages them
   equally. But clarity about the two distinct kinds is valuable too, and
   "hybrid" arrangements risk causing confusion among the community. SIGPLAN
@@ -108,10 +115,10 @@ Guidelines for Workshop Organizers
 ----------------------------------
 
 The primary decision you need to make is whether your workshop should be
-"SIGPLAN-approved" or "conference-approved", in the sense discussed
-above. If you intend for submissions to be polished papers, lodged in the DL
+"SIGPLAN-approved" or "conference-approved". If you intend for submissions
+to be polished papers, lodged in the DL 
 for posterity, and permanently citable, you should go the "SIGPLAN-approved"
-route; you will need to select a Program Committee (paying attention to
+route; you will need to select a Program Committee <!-- BCP: And PC chair?? --> (paying attention to
 SIGPLAN's [Diversity Policy](/Resources/Policies/Diversity)), Download the [PC proposal
 spreadsheet](/Resources/Guidelines/sigplan-pc-proposal-template.xlsx)
 template and enter the requested information for your proposed PC members
@@ -120,7 +127,7 @@ and alternates, send the completed spreadsheet to the SIGPLAN Vice Chair
 by the SIGPLAN Executive Committee, distribute a call for papers,
 review submissions, and so on. If instead you want to attract work in
 progress and do not want to discourage authors from submitting substantially
-the same work as a full paper elsewhere, then you might go the
+the same work as a full paper elsewhere, then you might prefer the
 "conference-approved" route.
 
 If you want to organize a SIGPLAN-sponsored workshop, by far the simplest
@@ -131,14 +138,15 @@ SPLASH) each have a Workshops Chair and a formal Call for Workshop
 Proposals; submit your proposal in response to this call, and the Workshops
 Chair will guide you through the process of setting up your workshop. For
 the other SIGPLAN conferences, the role of Workshops Chair is usually played
-by the General Chair; you should contact them directly, as there need be no
+by the General Chair; you should contact them directly, as there may be no
 formal call for proposals.
 
 **Warning for organizers of conference-approved workshops**: You may choose
 to make submissions publicly available, for example by linking them on a
 workshop webpage. But please be aware that, although SIGPLAN encourages
 presentation and discussion of work in progress in this way, it has no
-control over subsequent publication venues. The only way to be sure that a
+control over the policies of subsequent publication venues. The only way to
+be sure that a 
 presentation of work in progress at your workshop does not preclude later
 publication of a closely related paper is not to make submissions publicly
 available.
@@ -163,7 +171,8 @@ Instructions for Workshop Chairs of SIGPLAN Conferences
   page&mdash;except for item 10 on finances. Collate this information and
   submit it to the SIGPLAN Vice Chair for approval.
 * Conference-approved workshops need only the approval of the conference
-  General Chair. Note that such informal workshops cannot use the name
+  General Chair. <!--BCP: ... except for PCs --> Note that such informal
+  workshops cannot use the name 
   "SIGPLAN" in their title, nor the SIGPLAN logo on their webpage. Accepted
   submissions will not appear in the ACM DL, although a combined "workshop
   summary" may.

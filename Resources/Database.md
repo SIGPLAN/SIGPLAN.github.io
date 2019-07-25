@@ -2,6 +2,9 @@
 layout: default
 title: "SIGPLAN Conference Program Committee Database"
 ---
+<!-- BCP: I can't figure out where this is referenced from, but it is
+     decades out of date!! --> 
+
 The SIGPLAN Conference Program Committee Database contains
 information about organizers and program committees of
 SIGPLAN-sponsored conferences. You can search the database to see

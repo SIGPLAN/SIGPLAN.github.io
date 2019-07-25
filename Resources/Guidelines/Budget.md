@@ -4,20 +4,23 @@ title: "Contingencies and Return-to-SIG lines in Conference Budgets"
 ---
 
 ACM conference budgets are expected to 
-include two kinds of costs which are often misunderstood. We briefly explain 
+include two kinds of costs that are often misunderstood. We briefly explain 
 their purpose below. In both cases the amount budgeted is a percentage of 
 other conference expenses. The exact amount will vary somewhat from 
 year-to-year and conference to conference, depending on perceived risk. It 
 also varies somewhat between different SIGs. <i>
 For SIGPLAN conferences, it is important to check with the Vice Chair for 
-Conferences to determine the applicable rate. For conferences cosponsored 
+Conferences to determine the applicable rate. 
+<!-- BCP: No one has ever asked me for this information, 
+     nor would I know what to say if they did! -->
+For conferences cosponsored 
 with other SIGs, please also check with the cosponsoring SIG.</i>
 
 
 ### Contingency
 
 This is intended to cover unexpected costs 
-incurred by the conference, to cover slightly worse-than-expected 
+incurred by the conference, to cover worse-than-expected 
 attendance, or sometimes just to provide funding for some extra opportunity 
 that arises during later planning stages. The SIGPLAN Executive Committee 
 establishes a rate for &quot;low risk&quot; conferences, i.e. conferences that have 
@@ -31,7 +34,7 @@ Any amount left over from the
 contingency budget becomes part of the conference profit, which goes into 
 SIGPLAN's fund balance. That in turn is used to pay for a variety of SIGPLAN 
 projects to benefit SIGPLAN members and future conference attendees. 
-Correspondingly, SIGPLAN must cover an conference losses.
+Correspondingly, SIGPLAN must cover conference losses, if any.
 
 ### Return-to-SIG
 

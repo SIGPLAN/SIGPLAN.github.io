@@ -3,6 +3,14 @@ layout: default
 title: "Guidelines for Colocation"
 ---
 
+<!-- BCP: This is not linked from any of the other guidelines documents,
+     though it _is_ linked from the main SIGPLAN page via _data/Links.yaml.
+     I question whether many people are going to find it that way, so if we
+     want to keep it (I find it rather perplexing, personally, but perhaps
+     it is useful to somebody) we should link it from at least the GenChair
+     and ConfereceOrganizers documents.  My preference would be just to
+     delete it. -->
+
 In case a conference/workshop (CoLo) wants to co-locate with a SIGPLAN
 conference (Main Event), there are guidelines to follow that depend
 upon whether or not the CoLo is

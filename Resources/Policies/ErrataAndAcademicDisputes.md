@@ -5,6 +5,9 @@ title: "SIGPLAN Errata and Academic Disputes Policy"
 
 <p style="text-align: center; font-size: x-large;">DRAFT DRAFT DRAFT DRAFT DRAFT</p>
 
+<!-- BCP: Is this still a draft?? It does not seem to have changed  -->
+<!-- since 2017! -->
+
 When a published work is subsequently found to be incorrect or
 misleading, the authors should correct the record, following [ACM's
 policy for updating published

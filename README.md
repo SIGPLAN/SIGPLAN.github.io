@@ -9,7 +9,7 @@ To edit the webpage, see <https://github.com/SIGPLAN/SIGPLAN.github.io/wiki/Edit
 The content of each file is in markdown, and the layout of markdown files mirrors the final layout.
 
 Jekyll:
- * Jekyll is a ruby program for generating static web pages, as use by github
+ * Jekyll is a ruby program for generating static web pages, as used by github
  * http://jekyllrb.com/
 
 Liquid:

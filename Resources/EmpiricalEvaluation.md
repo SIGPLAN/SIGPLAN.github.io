@@ -61,7 +61,7 @@ members of the community literally on the same page.
 
 ### Request for Feedback
 
-The current checklist dates from October 26, 2018. It and the FAQ below have incorporated feedback we have received since the initial checklist was released in January; thanks to those who commented!  We continue to solicit feedback and suggestions for improvement. We are particularly interested in
+The current checklist dates from October 26, 2018. <!-- BCP: Still true? --> It and the FAQ below have incorporated feedback we have received since the initial checklist was released in January; thanks to those who commented!  We continue to solicit feedback and suggestions for improvement. We are particularly interested in
 
 - Clarifications on category and example descriptions
 - Suggestions for new categories and/or examples, or consolidations. For the former, we would request specific references to the published literature demonstrating the issue

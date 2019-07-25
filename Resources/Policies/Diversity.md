@@ -35,5 +35,5 @@ committees from the pool of qualified candidates include:
 Meeting organizers are required to submit their organizing and program
 committees to the
 [SIGPLAN Vice Chair](mailto:vc_sigplan@acm.org?subject=Program%20Committee%20Approval)
-for approval, in the form of a
+for approval by the Executive Committee, in the form of a
 [PC proposal spreadsheet](/Resources/Guidelines/sigplan-pc-proposal-template.xlsx).

@@ -2,6 +2,9 @@
 layout: default
 title: "In-cooperation Events"
 ---
+
+<!-- BCP: This page seems dead -->
+
 [30 Years of Abstract Interpretation](http://profs.sci.univr.it/~Y30AI)
 Jan 9, 2008  
 San Francisco, CA  

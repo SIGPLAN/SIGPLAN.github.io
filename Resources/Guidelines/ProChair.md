@@ -2,6 +2,11 @@
 layout: default
 title: "Guidelines for the Program Chair of a SIGPLAN Event"
 ---
+
+<!-- BCP: the ProChair page seems to have bitrotted a bit, for instance in
+     assuming all submissions are using two-column format (no mention of
+     PACMPL) and being processed by Sheridan. -->
+
 Executive Summary
 -----------------
 
@@ -65,19 +70,20 @@ resource; contact them for suggestions.
 Program Committee
 -------------------
 
-In consultation with the General Chair, develop a list of potential Program
-Committee members. In formulating this list, be mindful of [SIGPLAN's
-diversity policy](/Resources/Policies/Diversity).  Also, some people will
-decline the invitation, so your list should includes sufficient alternates.
-The list should be finalized at least one year prior to the meeting.
+In consultation with the General Chair<!-- And the rest of the SC? -->,
+develop a list of potential Program Committee members. In formulating this
+list, be mindful of [SIGPLAN's diversity
+policy](/Resources/Policies/Diversity).  Also, some people will decline the
+invitation, so your list should includes sufficient alternates.  The list
+should be finalized at least one year prior to the meeting.
 
 Download the [PC proposal
 spreadsheet](/Resources/Guidelines/sigplan-pc-proposal-template.xlsx)
 template and enter the requested information for your proposed PC members
 and alternates.  Send the completed spreadsheet to the SIGPLAN Vice Chair
 ([vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org)) for comments and approval
-by the SIGPLAN Executive Committee.  The approval process normally takes ten
-days to two weeks.
+by the SIGPLAN Executive Committee.  The approval process normally takes
+less than two weeks.
 
 At the same time, make plans for the Program Committee meeting, so that
 these can be communicated to potential PC members when you invite them:
@@ -85,7 +91,7 @@ choose the location (if physical) and finalize the date(s).
 
 After SIGPLAN approval is confirmed, invite the people on the list to serve.
 Explain what is expected of them and any relevant
-[policy decisions](/Resources/Policies/Review), and give them the date for
+[policy decisions](/Resources/Policies/Review), and give them the date(s) for
 the PC meeting.  If more people than expected decline and you run out of
 alternates, send the SIGPLAN Vice Chair another set of candidates for
 approval.
@@ -105,6 +111,7 @@ Once the conference web page is in place, establish a link to the page
 from the SIGPLAN conference page by contacting the SIGPLAN
 [Information Director](mailto:infodir_sigplan@acm.org?subject=Conference%20Information).
   
+<!-- BCP: Somebody (Jens?) should check that this is up to date... -->
 If the proceedings will be published by ACM, declare explicitly in the call for
 papers that authors of accepted submissions will be required to choose one of
 the following options: Author retains copyright of the work and grants ACM a
@@ -150,7 +157,7 @@ Submission and Review
 
 Set up the paper submission web site. Many services are available
 for this purpose. Most include support for the [ABCD rating scale][Nier00], 
-author feedback, and double-blind reviewing.  
+author feedback, and double-blind reviewing.  <!-- Should we mention HotCRP? -->
 
 [Nier00]: http://www.iam.unibe.ch/~oscar/Champion/champion.pdf "Oscar Nierstrasz, _Identify the Champion_"
   
@@ -167,7 +174,7 @@ For more details see:
 [Conferences with improved management and style](http://portalparts.acm.org/1140000/1137933/fm/frontmatter.pdf),
 Philip Wadler, _SIGPLAN Notices_, Feb. 2006.
 
-<!--- (BCP) Some of the above may be outdated, now that HotCRP is standard --->
+<!-- (BCP) Some of the above may be outdated, now that HotCRP is standard -->
 
 Before papers are received, develop an evaluation procedure. Send
 submitted papers and a description of the evaluation procedure to
@@ -176,7 +183,7 @@ the PC members.
 PC Meeting
 ----------
 
-<!--- (BCP) This applies only to physical PC meetings, which are no longer universal --->
+<!-- (BCP) This applies only to physical PC meetings, which are no longer universal -->
 
 Before the PC meeting,
 decide on any policies that should be in effect, such as:
@@ -192,7 +199,7 @@ During the PC meeting,
 -   decide what papers should be accepted
 -   plan the sessions and the session chairs
 
-It is *strongly* recommended that the Program Chair have an
+For physical PC meetings, it is *strongly* recommended that the Program Chair have an
 assistant during the PC
 meeting, to take on certain administrative
 and logistical tasks during the meeting and allow the Program Chair to
@@ -226,6 +233,8 @@ SIGPLAN style easier to read).
 Managing the Proceedings
 ------------------------
 
+<!-- BCP: Do we still use Sheridan for PACMPL conferences? -->
+
 The Sheridan proceedings service can be initiated once you decide
 that you want formal proceedings. Please contact the 
 [ACM Publications Coordinator](mailto:griscti@acm.org), Adrienne Griscti,
@@ -233,6 +242,7 @@ to begin the process. ACM will provide Sheridan with pertinent
 conference information. Sheridan will forward you a schedule and
 instructions on how to proceed.
 
+<!-- BCP: Not relevant for PACMPL conferences? -->
 Draft a "Letter from the Program Chair," which should
 include a description of the paper selection process (number of
 papers submitted and accepted, etc.). Forward the letter to
@@ -273,15 +283,16 @@ After the Conference
 --------------------
 
 Help the Conference Chair prepare the post-event report for SIGPLAN EC.
+<!-- BCP: Do we really care about these? -->
 
 As former Program Chair, you may be invited to serve on the
-conference's Steering Committee. For the steering committee formal
-rules for your particular conference, consult the relevant SIGPLAN
+conference's Steering Committee. For the  formal
+rules for your particular conference's steering committee, consult the relevant SIGPLAN
 conference web page. Links to these pages can be be found
 [here](/Conferences).  
 
-The program chairs of the major SIGPLAN conferences, POPL, PLDI,
-OOPSLA, and ICFP, are automatically on the selection committee for
+The program chairs of the major SIGPLAN conferences (POPL, PLDI,
+OOPSLA, and ICFP) are automatically on the selection committee for
 the following year's
 [SIGPLAN Programming Languages Achievement Award](/Awards/Achievement).  
 
@@ -312,8 +323,6 @@ auxiliary material in the Digital Library, see
 [here](http://portal.acm.org/citation.cfm?doid=1462173.1462178) and click on
 "source materials".
 
-<!--- (BCP) Some of that may need updating for newer artifact evaluation procedures --->
-
 Important Email Addresses
 -------------------------
 
@@ -323,6 +332,7 @@ _SIGPLAN Vice Chair_:
 [vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org)  
 _SIGPLAN Information Director_:
 [infodir\_sigplan@acm.org](mailto:infodir_sigplan@acm.org?subject=Conference%20Information)  
+<!-- Out of date: (Maybe just delete it?) -->
 _ACM Representative to SIGPLAN_ (Abigail Sumandal):
 [sumandal@hq.acm.org](mailto:sumandal@hq.acm.org)
 
@@ -341,7 +351,7 @@ See Also
 Some columns containing useful advice for conference organizers have
 been published in _SIGPLAN Notices_ over the years:
 
-<!--- (BCP) Somewhat dated: --->
+<!--- (BCP) Somewhat dated... --->
 
 - [Experiences with Author Response at PLDI and ICFP 2004](http://portalparts.acm.org/1060000/1052883/fm/frontmatter.pdf), Kathleen Fisher and Craig Chambers, (*SIGPLAN Notices*, Dec. 2004)
 - [Conferences with improved management and style](http://portalparts.acm.org/1140000/1137933/fm/frontmatter.pdf), Philip Wadler (*SIGPLAN Notices*, Feb. 2006)

@@ -3,6 +3,8 @@ layout: default
 title: SIGPLAN Notices
 ---
 
+<!-- BCP: Dead... -->
+
 ACM SIGPLAN Notices is an informal monthly publication of the Special Interest Group on Programming Languages (SIGPLAN) of ACM.
 
 How to contact the ACM SIGPLAN Notices Editor:
