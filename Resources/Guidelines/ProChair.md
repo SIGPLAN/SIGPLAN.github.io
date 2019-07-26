@@ -3,7 +3,7 @@ layout: default
 title: "Guidelines for the Program Chair of a SIGPLAN Event"
 ---
 
-<!-- BCP: the ProChair page seems to have bitrotted a bit, for instance in
+<!-- BCP: This page seems to have bitrotted a bit, for instance in
      assuming all submissions are using two-column format (no mention of
      PACMPL) and being processed by Sheridan. -->
 
@@ -28,11 +28,16 @@ skim the rest of this page and the following others:
   existing conventions 
 - Make sure the Call for Papers makes potential authors aware of SIGPLAN's
   [Copyright policies](https://authors.acm.org/main.html).  
+- Some special considerations for organizers of workshops and similar events
+  can be found on [this page](/Resources/Guidelines/Workshops).
 
 _Please help us keep this document (and the rest of this site) up to date:_ If you notice any errors, duplications, inconsistencies, etc., please inform the [SIGPLAN vice chair](mailto:vc_sigplan@acm.org).
 
 Submission and Reviewing Policies
 ---------------------------------
+
+<!-- BCP: Everything to do with reviewing should be moved to
+     Policies/Review.md -->
 
 The Program Chair may not submit papers to the conference; SIGPLAN's
 Executive Committee recommends that the General Chair also not be

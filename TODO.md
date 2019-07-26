@@ -1,31 +1,86 @@
 NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
 
-* Conventions
+# Conventions
 
-- Comments and questions from Benjamin are in HTML comments in the
-  respective .md files, marked BCP.  Do "grep -R BCP ." to find them.
+  - Comments and questions from Benjamin are in HTML comments in the
+    respective .md files, marked BCP.  Do "grep -R -n BCP ." to find them.
 
-* Pending tasks
+# Pending tasks
 
-  - Read through the Google doc, incorporate what's useful elsewhere, and
-    mark it deprecated
-      - update the "Conference Information" column of the left bar of
-        sigplan.org if needed
-            - Remove the "Conference Policies" reference (to the Google doc
-              at the bottom)!
   - Read through the conference-specific documents (Principles of POPL, etc.)
     and see if there are any duplications / inconsistencies
   - (Azadeh) Trim the "private information for GCs" document and make sure
     that it ONLY contains sensitive information that does not belong in 
     public places
-  - Make sure that the main documents (esp. ProChair, GenChair, and
-    Workshops) are clearly identified as starting points for
-    organizers.  Make sure that someone starting at the SIGPLAN main
-    page can easily tell where to begin.
 
-* Pending tidying
+# Suggestions from Yannis
 
-Dead / outdated pages (delete)
+    - If one wants to identify the real needs of the community, I'd say
+    these are the clarification and codification of what event
+    organizers need to do in terms of
+    sponsorship/in-cooperation/co-location status and what control
+    SIGPLAN exerts. (Multiple people have told me this at conferences
+    and I've raised the topic before.)
+
+    Basically, I'm saying that it's perhaps wrong to focus on the
+    Steering <http://sigplan.org/Resources/Guidelines/SCommittee>/GC
+    <http://sigplan.org/Resources/Guidelines/GenChair>/PC
+    <http://sigplan.org/Resources/Guidelines/ProChair> part of the
+    SIGPLAN Conference Information. That's kind of commonplace info, and
+    well-codified. The real wasp's nest over people's heads is the
+    Sponsorship
+    <http://sigplan.org/Resources/Proposals/Sponsored>/In-cooperation
+    <http://sigplan.org/Resources/Proposals/Cooperated>/colocation
+    <http://sigplan.org/Resources/Guidelines/Colocation> documents.
+    Although they don't seem to say anything wrong, there is a lot of
+    important information implied, or just omitted.
+
+    Here are is a sampling of specific topics that people die to know
+    about (also some include SIGPLAN policy decisions):
+
+      * There is the concept of "standing sponsorship" by SIGPLAN, such
+    as that enjoyed by most of the long-running conferences we all know.
+    Where is this documented? How is it differentiated from the normal
+    sponsorship forms, as far as the SC or the GC of the year is
+    concerned? What freedom does a conference *lose* if they apply for
+    such sponsorship?
+
+      * I have a secondary conference that I want to affiliate with one
+    of the main SIGPLAN conferences. Do I apply for SIGPLAN sponsorship
+    <http://sigplan.org/Resources/Proposals/Sponsored/>? Or do I just
+    talk to the main conference's GC for the specific year and he/she
+    assumes financial responsibility? (Both are legitimate ways, which
+    is confusing, and people just don't know about this.) Also, for
+    workshops there is a clear distinction between SIGPLAN-approved and
+    conference-approved
+    <http://sigplan.org/Resources/Guidelines/Workshops/>, but the name
+    "workshop" is a problem for many events--see next point.
+
+      * We have an event that we fear that, if it gets SIGPLAN status,
+    it will be demoted to a "workshop", because it only gets <100
+    attendees. But it's very important to us that the event be called a
+    "conference": otherwise it doesn't count as a publication for
+    anyone. What options do we have? Only special deals every year for
+    co-location with one of ICFP/OOPSLA/PLDI/POPL? (Note that some of
+    the norms about the naming of events have to do with tradition,
+    which is opaque and does not reassure people.) Also, what are the
+    specific rules for naming an event a "symposium"? (Neither a
+    "conference" nor a "workshop" but synonym to "conference" for most
+    purposes.) If the rule is that it's a workshop with tons of
+    attendees (see "Haskell Symposium") why does ISMM get to be called a
+    "symposium"? How about the DLS (Dynamic Languages Symposium)? (Just
+    that they have it in the acronym? Nice loophole that others may want
+    to exploit!) How about the "Scala Symposium"? Can *any* workshop
+    call themselves a symposium if they commit to run forever? What
+    repercussions does this have for proceedings publishing? (Also see a
+    related Piazza discussion
+    <https://piazza.com/group/hi3oetct4zo4lo?cid=503>, which implies a
+    decision on more liberal "Symposium" naming has been made, just not
+    communicated to anyone.)
+
+# Pending tidying
+
+## Dead / outdated pages (delete)
   ./Committees/SCChairs.md
      - not referenced at all, and out of date
   ./Resources/OMP.md
@@ -43,7 +98,7 @@ Dead / outdated pages (delete)
      - This is not linked from any of the other guidelines documents,
        though it _is_ linked from the main SIGPLAN page via _data/Links.yaml
 
-On the front page (coordinate with Harry Xu about changes here):
+## On the front page (coordinate with Harry Xu about changes here?):
   - some of the award information is out of date (e.g., the OOPSLA most
     influential paper award, the list of ACM fellows)
   - the CC conference is missing, and the rest of the list should be
@@ -52,18 +107,29 @@ On the front page (coordinate with Harry Xu about changes here):
   - the "author information" item doesn't really fit with the rest of
     "conference information".  How about we break it out into a separate
     category all by itself?  
+  - Remove the "Conference Policies" reference (to the Google doc
+    at the bottom)!
+  - Actually, I propose replacing _all_ the links to conference organization
+    pages (from "Steering Committee Guidelines" to "Colocation guidelines")
+    with just a single link to ConferenceOrganzers.md.  This will leave us
+    with one clearly marked landing page for authors and one clearly marked
+    page for organizers.  Both of these landing pages should include links
+    to critical policies (reviewing, code of conduct, etc.).
+  - The "Policies" box should include a link to the Errata policy.
 
-* Plan
+# Plan
 
 BCP will take the lead till mid July
 Azadeh will work in early August
 aim to reach a checkpoint by mid August
 
-* Documents
+# Documents
 
     - A google doc that Yannis wrote
 
 https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/edit
+
+(This will be deleted)
 
 - For each the major conferences, a document that codifies
   its contract with the community.  (Principles of POPL,
@@ -74,7 +140,9 @@ https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/
      https://www.icfpconference.org/TheFunctioningofICFP.pdf
      (what about OOPSLA)
 
-** Yannis's explanation
+(These may want trimming.)
+
+## Yannis's explanation
 
 1) A SIGPLAN Conference Policies google doc (https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/edit)
 2) For each the major conferences, a document that
@@ -131,7 +199,7 @@ via search.
 Hope this helps...
    Yannis.
 
-** Full email from Yannis
+## Full email from Yannis
 
 Yannis:  Many thanks for your list of 
   "topics that people die to know about".
