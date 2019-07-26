@@ -7,13 +7,72 @@ NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
 
 # Pending tasks
 
-  - Read through the conference-specific documents (Principles of POPL, etc.)
-    and see if there are any duplications / inconsistencies
-  - (Azadeh) Trim the "private information for GCs" document and make sure
-    that it ONLY contains sensitive information that does not belong in 
-    public places
+  - (Benjamin) Read through the conference-specific
+    documents (Principles of POPL, etc.)  and see if there are any
+    duplications / inconsistencies
+       - put the edited / commented versions into the repo
 
-# Suggestions from Yannis
+  - (Azadeh) Trim the "private information for GCs" document and make
+    sure that it ONLY contains sensitive information that does not
+    belong in public places; all information that can be public should
+    go in .md files someplace, and this document should include a note
+    asking that this be maintained as an invariant going forward.
+
+  - (Azadeh and Jens)
+       - look through all BCP comments and either fix things or leave
+         responses for further discussion
+       - reintegrate Yannis's Google doc with the .md files (either
+         following or adapting BCP's suggestions in comments in the
+         Google doc)
+
+# Pending tidying
+
+## Dead / outdated pages (delete)
+  ./Committees/SCChairs.md
+     - not referenced at all, and out of date
+  ./Resources/OMP.md
+     - referenced from Links.yaml but way out of date
+  ./Resources/Policies/ErrataAndAcademicDisputes.md
+     - commented out in _data/Links.yaml
+  ./Resources/AnnualReports.md
+     - referenced from Links.yaml but way out of date
+  ./Resources/Database.md
+     - I can't figure out where this is referenced from, but it is
+       decades out of date!!
+  ./Resources/Events/Cooperated.md
+     - I think it is not referenced from anywhere.  Way out of date.
+  ./Resources/Guidelines/Colocation.md
+     - This is not linked from any of the other guidelines documents,
+       though it _is_ linked from the main SIGPLAN page via _data/Links.yaml
+
+## On the front page (coordinate with Harry Xu about changes here?):
+  - some of the award information is out of date (e.g., the OOPSLA most
+    influential paper award, the list of ACM fellows)
+  - the CC conference is missing, and the rest of the list should be
+    reordered with the flagship conferences at the top -- the current order
+    is kind of random.  (Harry will do this one.)
+  - the "author information" item doesn't really fit with the rest of
+    "conference information".  How about we break it out into a separate
+    category all by itself?  
+  - Remove the "Conference Policies" reference (to the Google doc
+    at the bottom)!
+  - Actually, I propose replacing _all_ the links to conference organization
+    pages (from "Steering Committee Guidelines" to "Colocation guidelines")
+    with just a single link to ConferenceOrganzers.md.  This will leave us
+    with one clearly marked landing page for authors and one clearly marked
+    page for organizers.  Both of these landing pages should include links
+    to critical policies (reviewing, code of conduct, etc.).
+  - The "Policies" box should include a link to the Errata policy.
+
+# Plan
+
+BCP will take the lead till mid July
+Azadeh will work in early August
+aim to reach a checkpoint by mid August
+
+# Compact list of suggestions from Yannis
+
+(BCP: We should consider these after one round of consolidation is done.)
 
     - If one wants to identify the real needs of the community, I'd say
     these are the clarification and codification of what event
@@ -78,52 +137,7 @@ NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
     decision on more liberal "Symposium" naming has been made, just not
     communicated to anyone.)
 
-# Pending tidying
-
-## Dead / outdated pages (delete)
-  ./Committees/SCChairs.md
-     - not referenced at all, and out of date
-  ./Resources/OMP.md
-     - referenced from Links.yaml but way out of date
-  ./Resources/Policies/ErrataAndAcademicDisputes.md
-     - commented out in _data/Links.yaml
-  ./Resources/AnnualReports.md
-     - referenced from Links.yaml but way out of date
-  ./Resources/Database.md
-     - I can't figure out where this is referenced from, but it is
-       decades out of date!!
-  ./Resources/Events/Cooperated.md
-     - I think it is not referenced from anywhere.  Way out of date.
-  ./Resources/Guidelines/Colocation.md
-     - This is not linked from any of the other guidelines documents,
-       though it _is_ linked from the main SIGPLAN page via _data/Links.yaml
-
-## On the front page (coordinate with Harry Xu about changes here?):
-  - some of the award information is out of date (e.g., the OOPSLA most
-    influential paper award, the list of ACM fellows)
-  - the CC conference is missing, and the rest of the list should be
-    reordered with the flagship conferences at the top -- the current order
-    is kind of random.  (Harry will do this one.)
-  - the "author information" item doesn't really fit with the rest of
-    "conference information".  How about we break it out into a separate
-    category all by itself?  
-  - Remove the "Conference Policies" reference (to the Google doc
-    at the bottom)!
-  - Actually, I propose replacing _all_ the links to conference organization
-    pages (from "Steering Committee Guidelines" to "Colocation guidelines")
-    with just a single link to ConferenceOrganzers.md.  This will leave us
-    with one clearly marked landing page for authors and one clearly marked
-    page for organizers.  Both of these landing pages should include links
-    to critical policies (reviewing, code of conduct, etc.).
-  - The "Policies" box should include a link to the Errata policy.
-
-# Plan
-
-BCP will take the lead till mid July
-Azadeh will work in early August
-aim to reach a checkpoint by mid August
-
-# Documents
+# Pointers to Documents
 
     - A google doc that Yannis wrote
 
@@ -138,7 +152,6 @@ https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/
      https://popl.mpi-sws.org/PrinciplesofPOPL.pdf
      http://www.sigplan.org/sites/default/files/PracticesofPLDI.pdf
      https://www.icfpconference.org/TheFunctioningofICFP.pdf
-     (what about OOPSLA)
 
 (These may want trimming.)
 
