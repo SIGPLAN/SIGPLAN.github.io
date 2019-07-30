@@ -354,9 +354,9 @@ See Also
 - [Guidelines for Referees](/Resources/Guidelines/Referees)
 
 Some columns containing useful advice for conference organizers have
-been published in _SIGPLAN Notices_ over the years:
+been published in _SIGPLAN Notices_ and elsewhere over the years:
 
-<!--- (BCP) Somewhat dated... --->
+<!--- (BCP) Somewhat dated... at least sort in reverse chronological order? --->
 
 - [Experiences with Author Response at PLDI and ICFP 2004](http://portalparts.acm.org/1060000/1052883/fm/frontmatter.pdf), Kathleen Fisher and Craig Chambers, (*SIGPLAN Notices*, Dec. 2004)
 - [Conferences with improved management and style](http://portalparts.acm.org/1140000/1137933/fm/frontmatter.pdf), Philip Wadler (*SIGPLAN Notices*, Feb. 2006)
@@ -367,3 +367,6 @@ been published in _SIGPLAN Notices_ over the years:
 - [Artifact evaluation for software conferences](http://dl.acm.org/citation.cfm?id=2502518), Shriram Krishnamurthi (*SIGPLAN Notices*, April 2013)
 - [The OOPSLA two-phase review process](http://dl.acm.org/citation.cfm?id=2641648), Cristina V. Lopes (*SIGPLAN Notices*, April 2014)
 - [A Handbook for [ECOOP] PC Chairs](http://www.pps.univ-paris-diderot.fr/~gc/papers/pc-handbook.pdf), Giuseppe Castagna
+- [Refreshing ATC – USENIX ATC 2019 Program Co-Chairs Message](https://www.usenix.org/sites/default/files/atc19_message.pdf), Dan
+  Tsafrir and Dahlia Malkhi
+
