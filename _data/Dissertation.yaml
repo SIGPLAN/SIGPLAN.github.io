@@ -1,3 +1,41 @@
+2019:
+- Awardee: "Ryan Beckett, Princeton University"
+  Other: |
+    _[Network Control Plane Synthesis and Verification](/Awards/Dissertation/2019_beckett.pdf)_
+  Advisor: David Walker
+  Citation: |
+    Ryan Beckett's thesis addresses the highly relevant topic of ensuring the correctness of 
+    computer network configurations. Computer networks connect key components of the world's 
+    critical infrastructure - their misconfiguration may have severe consequences for our society. 
+    While the problems Ryan considers are from the networking community, the methods that he 
+    uses to solve them are drawn from the programming languages and formal methods communities, 
+    including declarative languages, automata, logic, compilers, bisimulation, static analysis, 
+    abstraction. Using these methods Ryan thesis describes new principles, algorithms, and tools 
+    for both verification and synthesis of network control plane algorithms.
+    
+    On the verification side, Ryan's key insight is that one can characterize the fixed points 
+    to which routing algorithms converge. By carefully representing the constraints that define 
+    such fixed points as SMT formula, he developed the world's most general and efficient control 
+    plane verification engine. To further speed up verification, he defined clever new algorithms 
+    capable of computing small, abstract networks that are behaviorally equivalent to much larger 
+    ones. On the synthesis side, Ryan defines a new programming language called Propane for specifying 
+    network control plane behavior. The work demonstrates that it takes just 50 lines of code in 
+    the right high-level programming language (as opposed to 1000s of lines of configuration, per 
+    device, for hundreds of separate devices) to specify core network requirements that are compiled 
+    to industry-standard devices. Ryan also defines new analyses that guarantee correctness in the 
+    presence of device failures.
+    
+    Ryan's results have been published in top programming languages and networking conferences. While 
+    all aspects of the work could easily have been submitted to programming languages or formal methods
+    venues, submitting his work to networking conferences has certainly maximized his impact in his 
+    domain of study. Most notably, his work on the Propane language won the best paper award at SIGCOMM 
+    in 2016.  With his thesis, Ryan Beckett has demonstrated his capability to conduct truly 
+    interdisciplinary research of the highest scientific quality: The results were possible only with a 
+    deep knowledge across the programming languages, formal methods and networking domains. Moreover, 
+    the thesis is an excellent witness of the profound impact that programming language and formal 
+    reasoning methods can have on other research areas.
+
+
 2018:
 - Awardee: "Justin Hsu, University of Pennsylvania"
   Other: |
