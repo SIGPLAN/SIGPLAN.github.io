@@ -147,6 +147,10 @@
   year: 2018
   title: "Proceedings of the 17th ACM SIGPLAN International Workshop on Erlang"
 -
+  event: Erlang
+  year: 2019
+  title: "Proceedings of the 17th ACM SIGPLAN International Workshop on Erlang"
+-
   event: ETX
   year: 2014
   title: "Proceedings of the 2014 Workshop on Eclipse Technology eXchange"
@@ -175,6 +179,10 @@
   year: 2018
   title: "Proceedings of the 6th ACM SIGPLAN International Workshop on Functional Art, Music, Modeling and Design"
 -
+  event: FARM
+  year: 2019
+  title: "Proceedings of the 7th ACM SIGPLAN International Workshop on Functional Art, Music, Modeling and Design"
+-
   event: FHPC
   year: 2014
   title: "Proceedings of the 3rd ACM SIGPLAN Workshop on Functional High-Performance Computing"
@@ -194,6 +202,10 @@
   event: FHPC
   year: 2018
   title: "Proceedings of the 7th ACM SIGPLAN Workshop on Functional High-Performance Computing"
+-
+  event: FHPC
+  year: 2019
+  title: "Proceedings of the 8th ACM SIGPLAN Workshop on Functional High-Performance Computing"
 -
   event: FMS
   year: 2018
