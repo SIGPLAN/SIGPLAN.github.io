@@ -24,6 +24,8 @@ NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
        - reintegrate Yannis's Google doc with the .md files (either
          following or adapting BCP's suggestions in comments in the
          Google doc)
+         
+   - Investigate why the site is always so slow to load (created by Azadeh).
 
 # Pending tidying
 

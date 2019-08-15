@@ -7,6 +7,10 @@ title: "SIGPLAN Errata and Academic Disputes Policy"
 
 <!-- BCP: Is this still a draft?? It does not seem to have changed  -->
 <!-- since 2017! -->
+<!-- AF: I could not find where this is linked on the main page. I think 
+     this should be discussed, because I am not sure how it fits with 
+     the broader ACM policy. -->
+
 
 When a published work is subsequently found to be incorrect or
 misleading, the authors should correct the record, following [ACM's

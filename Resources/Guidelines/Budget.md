@@ -13,6 +13,9 @@ For SIGPLAN conferences, it is important to check with the Vice Chair for
 Conferences to determine the applicable rate. 
 <!-- BCP: No one has ever asked me for this information, 
      nor would I know what to say if they did! -->
+<!-- AF: My guess? It is there to make sure that we can complain if someone
+         does something overly lavish by incurring an unusually high registration
+         rate. If so, we can reword to make it more precise for that purpose. -->     
 For conferences cosponsored 
 with other SIGs, please also check with the cosponsoring SIG.</i>
 

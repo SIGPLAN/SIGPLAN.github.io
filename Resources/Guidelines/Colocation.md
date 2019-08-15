@@ -11,6 +11,11 @@ title: "Guidelines for Colocation"
      and ConfereceOrganizers documents.  My preference would be just to
      delete it. -->
 
+<!-- AF: I found it fairly quickly through the left tab. I would err 
+     on the side of not having to get an email about this in the future and
+     keep it as is. But, not strongly opposed to the suggestion. -->
+
+
 In case a conference/workshop (CoLo) wants to co-locate with a SIGPLAN
 conference (Main Event), there are guidelines to follow that depend
 upon whether or not the CoLo is

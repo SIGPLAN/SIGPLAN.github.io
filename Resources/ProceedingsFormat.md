@@ -8,6 +8,8 @@ title: "SIGPLAN Proceedings Format"
 <!-- might be be better for conferences to each do it themselves, since they -->
 <!-- have an incentive to keep the information up to date? -->
 
+<!-- AF: It is best to leave it to individual conferences IMO -->
+
 This page summarizes the formatting guidelines for ACM SIGPLAN
 Proceedings.  The goal is to ensure that proceedings have a
 consistent, high-quality appearance.

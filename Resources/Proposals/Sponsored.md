@@ -28,7 +28,8 @@ Sponsored status provides a number of benefits:
 
 - You can use the name "The ACM SIGPLAN Conference / Workshop on ..." for
   the event. <!--- BCP: What about "symposium? What about other permutations
-  of these words? --->
+  of these words? ---> 
+  <!--- AF: The concept is clear, do we have to over-specify? --->
 - SIGPLAN takes financial responsibility for the event.
 - You have access to the [PAC Fund](/PAC) to support participation in the event.
 - Your proceedings (if any) will automatically be published in the Digital Library.
@@ -36,6 +37,7 @@ Sponsored status provides a number of benefits:
 - You will receive help and guidance in organizing the event,
   including an instruction manual.  <!--- BCP: Where is this instruction
   manual? Why don't we just make it available to everybody and link it here? --->
+  <!--- AF: no idea. Annabel knows? --->
 
 These are in addition to the benefits available with in-cooperation status:
 
@@ -66,13 +68,15 @@ include the following:
   a percentage of conference income is budgeted for ACM services.
 - Critical decisions, such as setting the budget and selecting the
   program chair and the program committee<!-- BCP: But not the general
-  chair?? -->, have to be approved by
+  chair?? -->, have to additionally be approved by
   the [SIGPLAN Executive Committee](/ContactUs).  (Concretely, proposals for
   these decisions should be emailed to the SIGPLAN vice chair,
   [vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org), who will forward them to
   the EC.  For program committee proposals, please use the [PC proposal spreadsheet](/Resources/Guidelines/sigplan-pc-proposal-template.xlsx).)
+  <!--- AF: I added "additionally". I think the consultation with the general
+        chair is given, since the financials go through them? --->
 - A final post-event report is required. <!-- BCP: This requirement seems to
-  be universally ignored --> 
+  be universally ignored --> <!-- AF: left a response in another document. --> 
 
 Sponsored events must follow 
 SIGPLAN [policies and procedures](/Resources/Guidelines/ConferenceOrganizers).
@@ -146,6 +150,8 @@ are available from the ACM website;
      mentioned anywhere above.  I do not think this is what we intend!
      (There may be some other things that can be made a bit clearer here
      too...) -->
+     
+<!--- AF: Do we need an entire page rewrite? --->
 
 Event Series
 ------------

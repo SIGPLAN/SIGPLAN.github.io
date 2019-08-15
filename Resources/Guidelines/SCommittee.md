@@ -14,6 +14,7 @@ Responsibilities of the SC
 1.  To appoint the conference General Chair and Program
     Chair, after approval by the EC Vice-Chair.  
     <!-- BCP: Here we say that the GC does need to be approved by the EC. -->
+    <!-- AF: the problem? -->
 2.  To provide help and guidance to the General Chair in selecting
     the site and date and preparing the budget, in collaboration
     with SIGPLAN's liaison at ACM. Also to provide help and
@@ -21,10 +22,7 @@ Responsibilities of the SC
     conference.
 3.  To request approval from the EC Chair and Vice-Chair
     whenever a major change is planned for the conference.
-4.  To notify the EC Chair and Vice-Chair when the membership
-    of the SC changes.  <!-- BCP: Nobody does this, and indeed it does not
-    really seem important. -->
-5.  To have a representative attend SIGPLAN EC
+4.  To have a representative attend SIGPLAN EC
     meetings when issues relevant to the conference are under
     consideration.
 
@@ -59,3 +57,4 @@ _ACM Representative to SIGPLAN_ (Abigail Sumandal):
 [sumandal@hq.acm.org](mailto:sumandal@hq.acm.org)
 
 <-- (BCP) Abbi is no longer at ACM.  Is there a "permalink" for this role? -->
+<-- AF: no clue. -->

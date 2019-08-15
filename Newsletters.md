@@ -4,6 +4,7 @@ title: "SIGPLAN Publications"
 ---
 **SIGPLAN produces two publications:**  
 
+<!--- AF: I propose deleting this page altogether --->
 <!-- BCP: What about PACMPL?? -->
 
 -   [SIGPLAN Notices](http://portal.acm.org/browse_dl.cfm?idx=J706) is the primary monthly
