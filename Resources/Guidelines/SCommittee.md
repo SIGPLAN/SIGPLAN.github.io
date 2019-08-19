@@ -43,6 +43,19 @@ SIGPLAN EC. These rules must include the following:
 3.  How the chair of the SC is determined.
 4.  The schedule for the conference: how often and
     what time of year.
+5. Suggestion: The SC can include the current SIGPLAN EC Chair and 
+   Vice Chair as members.
+
+
+
+Managing Changes
+----------------
+
+It is recommended that pending changes are communicated to the community in advance, e.g., at the open meeting of the previous conference.
+
+Surveys of authors, reviewers and attendees are a good mechanism for gathering community feedback.   Careful alignment of survey questions from year to year and with those from other SIGPLAN conferences may allow meaningful comparisons to be drawn longitudinally and among the conferences.
+
+
 
 Important Email Addresses
 -------------------------
