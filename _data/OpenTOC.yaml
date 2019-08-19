@@ -293,6 +293,11 @@
   title: "Proceedings of the 23rd ACM SIGPLAN International Conference on Functional Programming"
   link: https://dl.acm.org/citation.cfm?id=3243631
 -
+  event: ICFP
+  year: 2019
+  title: "Proceedings of the 24th ACM SIGPLAN International Conference on Functional Programming"
+  link: https://dl.acm.org/citation.cfm?id=3352468
+-
   event: ISMM
   year: 2014
   title: "Proceedings of the 2014 ACM SIGPLAN International Symposium on Memory Management"
@@ -683,6 +688,10 @@
 -
   event: TyDe
   year: 2018
+  title: "Proceedings of the 3rd ACM SIGPLAN International Workshop on Type-Driven Development"
+-
+  event: TyDe
+  year: 2019
   title: "Proceedings of the 3rd ACM SIGPLAN International Workshop on Type-Driven Development"
 -
   event: VEE
