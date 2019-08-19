@@ -27,17 +27,17 @@ Benefits
 Sponsored status provides a number of benefits:
 
 - You can use the name "The ACM SIGPLAN Conference / Workshop on ..." for
-  the event. <!--- BCP: What about "symposium? What about other permutations
-  of these words? ---> 
-  <!--- AF: The concept is clear, do we have to over-specify? --->
+  the event. <!-- BCP: What about "symposium? What about other permutations
+  of these words? --> 
+  <!-- AF: The concept is clear, do we have to over-specify? -->
 - SIGPLAN takes financial responsibility for the event.
 - You have access to the [PAC Fund](/PAC) to support participation in the event.
 - Your proceedings (if any) will automatically be published in the Digital Library.
 - ACM can provide help with site selection, including venue negotiations.
 - You will receive help and guidance in organizing the event,
-  including an instruction manual.  <!--- BCP: Where is this instruction
-  manual? Why don't we just make it available to everybody and link it here? --->
-  <!--- AF: no idea. Annabel knows? --->
+  including an instruction manual.  <!-- BCP: Where is this instruction
+  manual? Why don't we just make it available to everybody and link it here? -->
+  <!-- AF: no idea. Annabel knows? -->
 
 These are in addition to the benefits available with in-cooperation status:
 
@@ -73,8 +73,8 @@ include the following:
   these decisions should be emailed to the SIGPLAN vice chair,
   [vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org), who will forward them to
   the EC.  For program committee proposals, please use the [PC proposal spreadsheet](/Resources/Guidelines/sigplan-pc-proposal-template.xlsx).)
-  <!--- AF: I added "additionally". I think the consultation with the general
-        chair is given, since the financials go through them? --->
+  <!-- AF: I added "additionally". I think the consultation with the general
+        chair is given, since the financials go through them? -->
 - A final post-event report is required. <!-- BCP: This requirement seems to
   be universally ignored --> <!-- AF: left a response in another document. --> 
 
@@ -151,7 +151,7 @@ are available from the ACM website;
      (There may be some other things that can be made a bit clearer here
      too...) -->
      
-<!--- AF: Do we need an entire page rewrite? --->
+<!-- AF: Do we need an entire page rewrite? -->
 
 Event Series
 ------------

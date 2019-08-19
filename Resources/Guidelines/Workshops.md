@@ -36,9 +36,9 @@ SIGPLAN-approved workshops
 * The proposal for a SIGPLAN-approved workshop, including the composition of
   the Program Committee, is approved (prior to issuing invitations) by
   the SIGPLAN Executive Committee. <!-- BCP: Are the PC Chair and the GC 
-  also approved by the EC?? --> <!--- AF: tricky to say. The question is 
+  also approved by the EC?? --> <!-- AF: tricky to say. The question is 
   valid for a series, less so for a one-off. In those cases, the person
-  proposing the event is often the GC and the PC at the same time. --->
+  proposing the event is often the GC and the PC at the same time. -->
 * If there is a proceedings of any kind, it must be lodged in
   the ACM Digital Library, and the papers in it are considered published.
 

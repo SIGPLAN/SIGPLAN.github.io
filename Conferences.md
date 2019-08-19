@@ -15,13 +15,13 @@ for SIGPLAN.
 
 * * * * *
 
-<!--- (BCP) Is this the correct list of "regularly sponsored" conferences? 
-      (E.g., should CGO be included?  Should CC?) --->
+<!-- (BCP) Is this the correct list of "regularly sponsored" conferences? 
+      (E.g., should CGO be included?  Should CC?) -->
       
-<!--- (AF) What does "regularly" mean? Permanently? If I remember correctly we 
+<!-- (AF) What does "regularly" mean? Permanently? If I remember correctly we 
       issued CC a 2-3 year sponsorship to be revisited later. Is that "regular"?
       Also, I don't have a way of checking the list, other than sending an
-      email to everyone to report discrepancies. Shall we? --->
+      email to everyone to report discrepancies. Shall we? -->
 
 The conferences listed below are regularly sponsored by SIGPLAN.
 

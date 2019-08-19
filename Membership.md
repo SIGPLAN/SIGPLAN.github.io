@@ -22,7 +22,7 @@ Other membership benefits include:
 
 <!-- BCP: Are the prices up to date?  Is there any reason to mention them -->
 <!-- here at all?  Do the links work? -->
-<!--- AF: I think we can delete this. ---> 
+<!-- AF: I think we can delete this. --> 
 
 Cost: $25.00 ($15.00 for students). Click [here](https://campus.acm.org/public/gensigqj/gensigqj_control.cfm?promo=QJSIG&offering=423&form_type=SIG) to apply.
 
@@ -35,7 +35,7 @@ Cost: $110.00. Click [here](https://campus.acm.org/public/gensigqj/gensigqj_cont
 **TOC Service Available**
 
 <!-- BCP: Probably dead? -->
-<!--- AF: Yes, delete? --->
+<!-- AF: Yes, delete? -->
 
 To receive the table of contents for each issue of SIGPLAN Notices as it is posted to the ACM Digital Library, sign up for the TOC Service. To do this, sign in using your ACM Web Log-In at www.acm.org or the ACM Digital Library. This step will automatically authenticate you as a member of SIGPLAN. In the [ACM Digital Library](http://www.acm.org/dl), on the right side of the page select Newsletters, and scroll down to SIGPLAN Notices. The link to the TOC Service is under the title in the box on the left.
 Notice the TOC Service is also available for proceedings from SIGPLAN conferences.

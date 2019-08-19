@@ -4,6 +4,7 @@ NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
 
   - Comments and questions from Benjamin are in HTML comments in the
     respective .md files, marked BCP.  Do "grep -R -n BCP ." to find them.
+    (Similarly for AF.)
 
 # Pending tasks
 
@@ -46,6 +47,8 @@ NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
   ./Resources/Guidelines/Colocation.md
      - This is not linked from any of the other guidelines documents,
        though it _is_ linked from the main SIGPLAN page via _data/Links.yaml
+  ./Notices.md
+     - Content is dead (but might be linked from other places)
 
 ## On the front page (coordinate with Harry Xu about changes here?):
   - some of the award information is out of date (e.g., the OOPSLA most
@@ -65,12 +68,6 @@ NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
     page for organizers.  Both of these landing pages should include links
     to critical policies (reviewing, code of conduct, etc.).
   - The "Policies" box should include a link to the Errata policy.
-
-# Plan
-
-BCP will take the lead till mid July
-Azadeh will work in early August
-aim to reach a checkpoint by mid August
 
 # Compact list of suggestions from Yannis
 

@@ -3,14 +3,14 @@ layout: default
 title: "Policies Regarding Review of Conference Papers"
 ---
 
-<!--- AF: I think the title of this page may have to change to accommodate the
-          new content --->
+<!-- AF: I think the title of this page may have to change to accommodate the
+          new content -->
 
 **Confidentiality**
 
-<!--- AF: I know for a fact that this is not strictly followed and PC 
+<!-- AF: I know for a fact that this is not strictly followed and PC 
 members are allowed to solicit external reviews on their own. If we 
-are serious about this, this should be made clear --->
+are serious about this, this should be made clear -->
 
 Papers under consideration for publication should not be distributed
 or disclosed to any individual, except with the explicit authorization
@@ -78,8 +78,8 @@ learning their identity:
 2. Authors are not required to "hide" their submissions: they can put them on web pages and give talks about them.
 3. Reviewers should notify the PCC if  anonymity is an obstacle to sound and objective reviewing of a paper.
 
-Given the use of DBR, the PCC must vet any external reviewers suggested by a PC member. <!--- AF: this is not observed and is dependent on how far people go with
-DBR --->
+Given the use of DBR, the PCC must vet any external reviewers suggested by a PC member. <!-- AF: this is not observed and is dependent on how far people go with
+DBR -->
 
 _Recommendations:_
 
@@ -137,7 +137,7 @@ _Recommendation:_
 PC submissions can be problematic to manage, but, on balance, the benefits of allowing PC submissions exceed the costs. Conferences should allow PC submissions, but disallow submissions by the GC  and PCC.
 
 
-<!--- AF: this paragraph now is conflict with the new wording we recently approved --->
+<!-- AF: this paragraph now is conflict with the new wording we recently approved -->
 PC members should not be allowed to review or discuss other PC papers; hence all reviews of PC submissions must be external. The PCC will designate the roster of external reviewers for PC papers, manage the review process, and make the final acceptance decision, in consultation with the reviewers. SIGPLAN requires that PC papers be held to a higher standard than other papers. 
 
 Acceptance decisions for PC papers will be announced at the same time as other author decisions are announced; i.e., the PC will not be aware of any PC paper decisions until the PC meeting is complete.

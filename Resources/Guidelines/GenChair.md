@@ -46,10 +46,10 @@ Date and Location
      SIGPLAN-sponsored conferences did this, it would be a problem!
      Just delete this advice? -->
      
-<!--- AF: OK with delete. Something to consider: if ever SIGPLAN decides 
+<!-- AF: OK with delete. Something to consider: if ever SIGPLAN decides 
      on location policies based on the ease of entry to the country 
      (e.g. recent US visa bans, etc), then we may want to replace 
-     this with some other location guidelines --->
+     this with some other location guidelines -->
 
 Select three potential sites for the conference and send them to the
 ACM representative and the SIGPLAN Vice-Chair. If the event is part of
@@ -74,10 +74,10 @@ committees of their own.
 Approval and Call for Papers
 ----------------------------
 
-<!--- BCP: How does a GC know whether their conference is part of a
+<!-- BCP: How does a GC know whether their conference is part of a
       series which already has approval for ongoing sponsorship??  (I
-      guess look at the SIGPLAN Conferences page?) --->
-<!--- AF: as their SC! --->
+      guess look at the SIGPLAN Conferences page?) -->
+<!-- AF: as their SC! -->
 
 Develop a timeline, at least eighteen months in advance of the conference date.
 Unless the conference is part of a series which already has approval
@@ -123,10 +123,10 @@ arrangements chair, publicity chair, publications chair, tutorial
 chair, etc). Send the names to the SIGPLAN Chair and Vice-Chair,
 one year before the event.
 
-<!--- (BCP) Do the chair and vice chair have to approve the names, or
+<!-- (BCP) Do the chair and vice chair have to approve the names, or
       is this just FYI? (Or is this step needed at all?)  Nobody does
-      this.  Propose to delete. --->
-<!--- (AF): OK with delete, but leaving for Jens to comment --->
+      this.  Propose to delete. -->
+<!-- (AF): OK with delete, but leaving for Jens to comment -->
 
 Local arrangements (such as registration and hotel management) for the
 main SIGPLAN conferences (PLDI, OOPSLA, POPL, and ICFP) are usually
@@ -183,7 +183,7 @@ get clear on SIGPLAN's expectations for how workshop PCs are formed
 and vetted.<!-- BCP: No GC has asked me for such a conversation.  I
 suspect no one is reading this document at the moment. -->)
 
-<!--- AF: replace it with a link to a workshop guidelines page? --->
+<!-- AF: replace it with a link to a workshop guidelines page? -->
 
 You should contact chairs of co-located events and plan the common advance
 program, joint technical sessions, joint social events, etc. You
@@ -193,9 +193,9 @@ submit a proposal to the SIGPLAN Vice-Chair, as specified in the
 [Sponsorship](/Resources/Proposals/Sponsored) 
 web pages.
 
-<!--- (BCP) This policy seems to be out of date... We do now, I believe, give satellite
-      events a budget based on their attendance. --->
-<!--- (AF) has no information on this topic! --->
+<!-- (BCP) This policy seems to be out of date... We do now, I believe, give satellite
+      events a budget based on their attendance. -->
+<!-- (AF) has no information on this topic! -->
       
 SIGPLAN's general guideline is that the conference does not provide
 additional funds to workshops to pay travel or registration costs for
@@ -216,13 +216,13 @@ handed out at the on-site conference registration.
 Post-event Reporting
 --------------------
 
-<!--- (BCP) Does anybody actually do this?  I have never seen one.
+<!-- (BCP) Does anybody actually do this?  I have never seen one.
       Not much point in having a rule if it's universally
-      ignored... --->
-<!--- (AF) if funding depends on the number of attendees, then where 
+      ignored... -->
+<!-- (AF) if funding depends on the number of attendees, then where 
       do we get the information if it is not reported to us? At the
       beginning of the next cycle? We need some/all of this information
-      reported at some stage. We need to decide when! --->
+      reported at some stage. We need to decide when! -->
 
 Send a report at the end of the conference to the SIGPLAN 
 Vice-Chair. The report should include information about any
