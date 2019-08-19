@@ -1,0 +1,217 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>Haskell 2019- Proceedings of the 12th ACM SIGPLAN International Symposium on Haskell</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>Haskell 2019- Proceedings of the 12th ACM SIGPLAN International Symposium on Haskell</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3331545" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Papers</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689219" title="Get the Full Text from the ACM Digital Library">Modular effects in Haskell through effect polymorphism and explicit dictionary applications: a new approach and the &#956;VeriFast verifier as a case study</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Dominique Devriese</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In applications with a complex structure of side effects, effects should be dealt with modularly: components should be programmed against abstract effect interfaces that other components can instantiate as required, and reusable effect patterns should be factored out from the rest of the application. In this paper, we study a new, general approach to achieve this in Haskell by combining effect polymorphism and the recently proposed coherent explicit dictionary applications. We demonstrate the elegance and generality of our approach in &#956;VeriFast: a Haskell-based reimplementation of the semi-automatic separation-logic-based verification tool VeriFast. This implementation features a complex interplay of advanced side effects: a backtracking search of program paths with angelic and demonic non-determinism, interaction with an underlying off-the-shelf SMT solver, and mutable state that is either backtracked or not during the search. Our use of effect polymorphism improves over the current non-modular implementation of VeriFast, allows us to nicely factor out the backtracking search pattern as a new AssumeAssert monad, and enables advanced features involving effects, such as the non-intrusive addition of a graphical symbolic debugger based on delimited continuations.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689210" title="Get the Full Text from the ACM Digital Library">Generic and flexible defaults for verified, law-abiding type-class instances</a>
+ </h3>
+<ul class="DLauthors">
+<li class="nameList First">Ryan G. Scott</li>
+<li class="nameList Last">Ryan R. Newton</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Dependently typed languages allow programmers to state and prove type class laws by simply encoding the laws as class methods. But writing implementations of these methods frequently give way to large amounts of routine, boilerplate code, and depending on the law involved, the size of these proofs can grow superlinearly with the size of the datatypes involved. </p> <p>We present a technique for automating away large swaths of this boilerplate by leveraging datatype-generic programming. We observe that any algebraic data type has an equivalent <i>representation type</i> that is composed of simpler, smaller types that are simpler to prove theorems over. By constructing an isomorphism between a datatype and its representation type, we derive proofs for the original datatype by reusing the corresponding proof over the representation type. Our work is designed to be general-purpose and does not require advanced automation techniques such as tactic systems. As evidence for this claim, we implement these ideas in a Haskell library that defines generic, canonical implementations of the methods and proof obligations for classes in the standard base library.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689211" title="Get the Full Text from the ACM Digital Library">Bidirectional type class instances</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Koen Pauwels</li>
+<li class="nameList">Georgios Karachalias</li>
+<li class="nameList">Michiel Derhaeg</li>
+<li class="nameList Last">Tom Schrijvers</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>GADTs were introduced in Haskell&#8217;s eco-system more than a decade ago, but their interaction with several mainstream features such as type classes and functional dependencies has a lot of room for improvement. More specifically, for some GADTs it can be surprisingly difficult to provide an instance for even the simplest of type classes. </p> <p>In this paper we identify the source of this shortcoming and address it by introducing a conservative extension to Haskell&#8217;s type classes: <em>Bidirectional Type Class Instances</em>. In essence, under our interpretation class instances correspond to logical bi-implications, in contrast to their traditional unidirectional interpretation. </p> <p>We present a fully-fledged design of bidirectional instances, covering the specification of typing and elaboration into System FC, as well as an algorithm for type inference and elaboration. We provide a proof-of-concept implementation of our algorithm, and revisit the meta-theory of type classes in the presence of our extension.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689212" title="Get the Full Text from the ACM Digital Library">G2Q: Haskell constraint solving</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">William T. Hallahan</li>
+<li class="nameList">Anton Xue</li>
+<li class="nameList Last">Ruzica Piskac</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Constraint solvers give programmers a useful interface to solve challenging constraints at runtime. In particular, SMT solvers have been used for a vast variety of different, useful applications, ranging from strengthening Haskell&#39;s type system to verifying network protocols. </p> <p> Unfortunately, interacting with constraint solvers directly from Haskell requires a great deal of manual effort. Data must be represented in and translated between two forms: that understood by Haskell, and that understood by the SMT solver. Such a translation is often done via printing and parsing text, meaning that any notion of type safety is lost. Furthermore, direct translations are rarely sufficient, as it typically takes many iterations on a design in order to get optimal -- or even acceptable -- performance from a SMT solver on large scale problems. This need for iteration complicates the translation issue: it is easy to introduce a runtime bug and frustrating to fix said bug. </p> <p> To address these problems, we introduce a new constraint solving library, G2Q. G2Q includes a quasiquoter that allows solving constraints written in Haskell itself, thus unifying data representation, ensuring correct typing, and simplifying development iteration. We describe the API to our library and its backend. Rather than a direct translation to SMT formulas, G2Q makes use of the G2 symbolic execution engine. This allows G2Q to solve problems that are out of scope when directly encoded as SMT formulas. Finally, we demonstrate the usability of G2Q via four example programs.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689213" title="Get the Full Text from the ACM Digital Library">Making a faster Curry with extensional types</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Paul Downen</li>
+<li class="nameList">Zachary Sullivan</li>
+<li class="nameList">Zena M. Ariola</li>
+<li class="nameList Last">Simon Peyton Jones</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Curried functions apparently take one argument at a time, which is slow. So optimizing compilers for higher-order languages invariably have some mechanism for working around currying by passing several arguments at once, as many as the function can handle, which is known as its <em>arity</em>. But such mechanisms are often ad-hoc, and do not work at all in higher-order functions. We show how extensional, call-by-name functions have the correct behavior for directly expressing the arity of curried functions. And these extensional functions can stand side-by-side with functions native to practical programming languages, which do not use call-by-name evaluation. Integrating call-by-name with other evaluation strategies in the same intermediate language expresses the arity of a function in its type and gives a principled and compositional account of multi-argument curried functions. An unexpected, but significant, bonus is that our approach is equally suitable for a call-by-value language and a call-by-need language, and it can be readily integrated into an existing compilation framework.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689214" title="Get the Full Text from the ACM Digital Library">Multi-stage programs in context</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Matthew Pickering</li>
+<li class="nameList">Nicolas Wu</li>
+ <li class="nameList Last">Csongor Kiss</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Cross-stage persistence is an essential aspect of multi-stage programming that allows a value defined in one stage to be available in another. However, difficulty arises when implicit information held in types, type classes and implicit parameters needs to be persisted. Without a careful treatment of such implicit information---which are pervasive in Haskell---subtle yet avoidable bugs lurk beneath the surface. </p> <p> This paper demonstrates that in multi-stage programming care must be taken when representing quoted terms so that important implicit information is kept in context and not discarded. The approach is formalised with a type-system, and an implementation in GHC is presented that fixes problems of the previous incarnation.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689225" title="Get the Full Text from the ACM Digital Library">Working with source plugins</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Matthew Pickering</li>
+<li class="nameList">Nicolas Wu</li>
+<li class="nameList Last">Boldizs&#225;r N&#233;meth</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>A modern compiler calculates and constructs a large amount of information about the programs it compiles. Tooling authors want to take advantage of this information in order to extend the compiler in interesting ways. Source plugins are a mechanism implemented in the Glasgow Haskell Compiler (GHC) which allow inspection and modification of programs as they pass through the compilation pipeline. </p> <p> This paper is about how to write source plugins. Due to their nature&#8212;they are ways to extend the compiler&#8212;at least basic knowledge about how the compiler works is critical to designing and implementing a robust and therefore successful plugin. The goal of the paper is to equip would-be plugin authors with inspiration about what kinds of plugins they should write and most importantly with the basic techniques which should be used in order to write them.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689226" title="Get the Full Text from the ACM Digital Library">Monad transformers and modular algebraic effects: what binds them together</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Tom Schrijvers</li>
+<li class="nameList">Maciej Pir&#243;g</li>
+<li class="nameList">Nicolas Wu</li>
+<li class="nameList Last">Mauro Jaskelioff</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>For over two decades, monad transformers have been the main <em>modular</em> approach for expressing purely functional side-effects in Haskell. Yet, in recent years algebraic effects have emerged as an alternative whose popularity is growing. </p> <p>While the two approaches have been well-studied, there is still confusion about their relative merits and expressiveness, especially when it comes to their comparative modularity. This paper clarifies the connection between the two approaches&#8212;some of which is folklore&#8212;and spells out consequences that we believe should be better known. </p> <p>We characterise a class of algebraic effects that is modular, and show how these correspond to a specific class of monad transformers. In particular, we show that our modular algebraic effects gives rise to monad transformers. Moreover, every monad transformer for algebraic operations gives rise to a modular effect handler.</p></div> </div>
+<h3>
+ <a class="DLtitleLink" href="https://dl.acm.org/authorize?N689227" title="Get the Full Text from the ACM Digital Library">Scoping monadic relational database queries</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Anton Ekblad</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present a novel method for ensuring that relational database queries in monadic embedded languages are well-scoped, even in the presence of arbitrarily nested joins and aggregates. Demonstrating our method, we present a simplified version of <em>Selda</em>, a monadic relational database query language embedded in Haskell, with full support for nested inner queries. To our knowledge, Selda is the first relational database query language to support fully general inner queries using a monadic interface. </p> <p>In the Haskell community, monads are the de facto standard interface to a wide range of libraries and EDSLs. They are well understood by researchers and practitioners alike, and they enjoy first class support by the standard libraries. Due to the difficulty of ensuring that inner queries are well-scoped, database interfaces in Haskell have previously either been forced to forego the benefits of monadic interfaces, or have had to do without the generality afforded by inner queries.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689228" title="Get the Full Text from the ACM Digital Library">Verifying effectful Haskell programs in Coq</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Jan Christiansen</li>
+<li class="nameList">Sandra Dylus</li>
+<li class="nameList Last">Niels Bunkenburg</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We show how various Haskell language features that are related to ambient effects can be modeled in Coq. For this purpose we build on previous work that demonstrates how to reason about existing Haskell programs by translating them into monadic Coq programs. A model of Haskell programs in Coq that is polymorphic over an arbitrary monad results in non-strictly positive types when transforming recursive data types likes lists. Such non-strictly positive types are not accepted by Coq&#39;s termination checker. Therefore, instead of a model that is generic over any monad, the approach we build on uses a specific monad instance, namely the free monad in combination with containers, to model various kinds of effects. This model allows effect-generic proofs. </p> <p> In this paper we consider ambient effects that may occur in Haskell, namely partiality, errors, and tracing, in detail. We observe that, while proving propositions that hold for all kinds of effects is attractive, not all propositions of interest hold for all kinds of effects. Some propositions fail for certain effects because the usual monadic translation models call-by-name and not call-by-need. Since modeling the evaluation semantics of call-by-need in the presence of effects like partiality is complex and not necessary to prove propositions for a variety of effects, we identify a specific class of effects for which we cannot observe a difference between call-by-name and call-by-need. Using this class of effects we can prove propositions for all effects that do not require a model of sharing.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689229" title="Get the Full Text from the ACM Digital Library">Formal verification of spacecraft control programs (experience report)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Andrey Mokhov</li>
+<li class="nameList">Georgy Lukyanov</li>
+<li class="nameList Last">Jakob Lechner</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Verification of correctness of control programs is an essential task in the development of space electronics; it is difficult and typically outweighs design and programming tasks in terms of development hours. This experience report presents a verification approach designed to help spacecraft engineers reduce the effort required for formal verification of low-level control programs executed on custom hardware. </p> <p> The verification approach is demonstrated on an industrial case study. We present REDFIN, a processing core used in space missions, and its formal semantics expressed using the proposed metalanguage for state transformers, followed by examples of verification of simple control programs.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689220" title="Get the Full Text from the ACM Digital Library">STCLang: state thread composition as a foundation for monadic dataflow parallelism</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Sebastian Ertel</li>
+<li class="nameList">Justus Adam</li>
+<li class="nameList">Norman A. Rink</li>
+<li class="nameList">Andr&#233;s Goens</li>
+<li class="nameList Last">Jeronimo Castrillon</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Dataflow execution models are used to build highly scalable parallel systems. A programming model that targets parallel dataflow execution must answer the following question: How can parallelism between two dependent nodes in a dataflow graph be exploited? This is difficult when the dataflow language or programming model is implemented by a monad, as is common in the functional community, since expressing dependence between nodes by a monadic bind suggests sequential execution. </p> <p> Even in monadic constructs that explicitly separate state from computation, problems arise due to the need to reason about opaquely defined state. Specifically, when abstractions of the chosen programming model do not enable adequate reasoning about state, it is difficult to detect parallelism between composed stateful computations. </p> <p> In this paper, we propose a programming model that enables the composition of stateful computations and still exposes opportunities for parallelization. We also introduce smap, a higher-order function that can exploit parallelism in stateful computations. We present an implementation of our programming model and smap in Haskell and show that basic concepts from functional reactive programming can be built on top of our programming model with little effort. We compare these implementations to a state-of-the-art approach using monad-par and LVars to expose parallelism explicitly and reach the same level of performance, showing that our programming model successfully extracts parallelism that is present in an algorithm. Further evaluation shows that smap is expressive enough to implement parallel reductions and our programming model resolves short-comings of the stream-based programming model for current state-of-the-art big data processing systems.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689221" title="Get the Full Text from the ACM Digital Library">Synthesizing functional reactive programs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Bernd Finkbeiner</li>
+<li class="nameList">Felix Klein</li>
+<li class="nameList">Ruzica Piskac</li>
+<li class="nameList Last">Mark Santolucito</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Functional Reactive Programming (FRP) is a paradigm that has simplified the construction of reactive programs. There are many libraries that implement incarnations of FRP, using abstractions such as Applicative, Monads, and Arrows. However, finding a good control flow, that correctly manages state and switches behaviors at the right times, still poses a major challenge to developers. An attractive alternative is specifying the behavior instead of programming it, as made possible by the recently developed logic: Temporal Stream Logic (TSL). However, it has not been explored so far how Control Flow Models (CFMs), resulting from TSL synthesis, are turned into executable code that is compatible with libraries building on FRP. We bridge this gap, by showing that CFMs are a suitable formalism to be turned into Applicative, Monadic, and Arrowized FRP. We demonstrate the effectiveness of our translations on a real-world kitchen timer application, which we translate to a desktop application using the Arrowized FRP library Yampa, a web application using the Monadic Threepenny-GUI library, and to hardware using the Applicative hardware description language ClaSH.</p></div> </div>
+</div>
+</div>
+</body>
+</html>
