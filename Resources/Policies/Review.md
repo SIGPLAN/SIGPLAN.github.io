@@ -5,6 +5,7 @@ title: "Policies Regarding Review of Conference Papers"
 
 <!-- AF: I think the title of this page may have to change to accommodate the
           new content -->
+<!-- BCP: Suggestion? -->
 
 **Confidentiality**
 

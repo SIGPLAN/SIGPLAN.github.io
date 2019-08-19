@@ -23,11 +23,13 @@ Other membership benefits include:
 <!-- BCP: Are the prices up to date?  Is there any reason to mention them -->
 <!-- here at all?  Do the links work? -->
 <!-- AF: I think we can delete this. --> 
+<!-- BCP: Yes, let's given this page a big haircut... --> 
 
 Cost: $25.00 ($15.00 for students). Click [here](https://campus.acm.org/public/gensigqj/gensigqj_control.cfm?promo=QJSIG&offering=423&form_type=SIG) to apply.
 
 **Print Option**
 
+<!-- BCP: Out of date -->
 This option includes all the benefits of the electronic option listed above. Additionally members receive a full-year print subscription to ACM SIGPLAN Notices, the monthly SIGPLAN publication, which includes print versions of the proceedings of the four major conferences SIGPLAN sponsors: the OOPSLA Conference on Object-Oriented Technology, the Conference on Programming Language Design and Implementation (PLDI)-the major professional conference in the field, the Symposium on Principles of Programming Languages (POPL), and the International Conference on Functional Programming (ICFP).
 
 Cost: $110.00. Click [here](https://campus.acm.org/public/gensigqj/gensigqj_control.cfm?promo=QJSIG&offering=023&form_type=SIG) to apply.

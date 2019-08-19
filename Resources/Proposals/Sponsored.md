@@ -30,6 +30,7 @@ Sponsored status provides a number of benefits:
   the event. <!-- BCP: What about "symposium? What about other permutations
   of these words? --> 
   <!-- AF: The concept is clear, do we have to over-specify? -->
+  <!-- AF: I am nervous that we are over-specifying at the moment! -->
 - SIGPLAN takes financial responsibility for the event.
 - You have access to the [PAC Fund](/PAC) to support participation in the event.
 - Your proceedings (if any) will automatically be published in the Digital Library.
@@ -75,6 +76,8 @@ include the following:
   the EC.  For program committee proposals, please use the [PC proposal spreadsheet](/Resources/Guidelines/sigplan-pc-proposal-template.xlsx).)
   <!-- AF: I added "additionally". I think the consultation with the general
         chair is given, since the financials go through them? -->
+  <!-- BCP: "Setting the budget" is something that I have never yet been
+       involved in! -->
 - A final post-event report is required. <!-- BCP: This requirement seems to
   be universally ignored --> <!-- AF: left a response in another document. --> 
 

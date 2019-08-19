@@ -15,6 +15,7 @@ Responsibilities of the SC
     Chair, after approval by the EC Vice-Chair.  
     <!-- BCP: Here we say that the GC does need to be approved by the EC. -->
     <!-- AF: the problem? -->
+    <!-- BCP: That we are not consistent about whether we insist on this. -->
 2.  To provide help and guidance to the General Chair in selecting
     the site and date and preparing the budget, in collaboration
     with SIGPLAN's liaison at ACM. Also to provide help and

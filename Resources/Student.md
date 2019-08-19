@@ -8,7 +8,7 @@ ACM and SIGPLAN offers many benefits for both undergraduate and graduate student
 
 -   Large discounts on registration at SIGPLAN-sponsored
     conferences and workshops.  
--   Student SIGPLAN membership includes full access to all SIGPLAN
+-   <!-- BCP: Out of date: -->Student SIGPLAN membership includes full access to all SIGPLAN
     material in ACM's Digital Library and an annual CD that contains
     all SIGPLAN conferences and workshop proceedings and the issues of
     SIGPLAN Notices for that year. More details are available on

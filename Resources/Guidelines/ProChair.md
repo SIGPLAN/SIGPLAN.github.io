@@ -3,9 +3,9 @@ layout: default
 title: "Guidelines for the Program Chair of a SIGPLAN Event"
 ---
 
-<!-- BCP: This page seems to have bitrotted a bit, for instance in
-     assuming all submissions are using two-column format (no mention of
-     PACMPL) and being processed by Sheridan. -->
+<!-- BCP: This page seems to have bitrotted a bit, for instance in assuming
+     all submissions are using two-column format (no mention of PACMPL) and
+     being processed by Sheridan.  Needs a careful updating pass. -->
 
 Executive Summary
 -----------------
@@ -110,7 +110,11 @@ Recommendations: <!-- AF: I don't think anything below can be a strict requireme
 
 - The PCC should strive to avoid the appearance of favoring current and former students, postdocs, colleagues, or collaborators for membership on the PC or ERC.
 - The size of the PC should be such that, given the expected number of submissions, will yield a reasonable reviewing load per PC member. Exceeding 25 papers per PC members is strongly discouraged.
-- If there is an ERC, the same diversity criteria listed above should apply to them, scaled to the size of each committee. <!-- AF: confirm this -->
+- If there is an ERC, the same diversity criteria listed above should apply
+  to them, scaled to the size of each committee. 
+  <!-- AF: confirm this -->
+  <!-- BCP: Or better yet, change it to say that "the diversity criteria
+       NEED NOT apply..."! -->
 - PC members should generally not serve on the PC more often than every four years. Exceptions may be made to enable a small overlap (<10%) from year to year to provide continuity. It is advisable that no one should serve on the PC for more than two years in a row. <!-- AF: The language is vague and PLDI is certainly breaking the four year rule -->
 - The PCC of year X+1 can be invited to serve on the PC (with a lighter reviewing load) for year X as soon as he or she is selected.
 - The PCC should strive to avoid selecting PC members that collaborate regularly with each other or with the PCC, or PC members from the same institution in the exact same area.
@@ -179,7 +183,8 @@ Submission and Review
 
 Set up the paper submission web site. Many services are available
 for this purpose. Most include support for the [ABCD rating scale][Nier00], 
-author feedback, and double-blind reviewing.  <!-- Should we mention HotCRP? -->
+author feedback, and double-blind reviewing.
+<!-- BCP: Should we mention HotCRP? -->
 
 [Nier00]: http://www.iam.unibe.ch/~oscar/Champion/champion.pdf "Oscar Nierstrasz, _Identify the Champion_"
   
@@ -196,7 +201,7 @@ For more details see:
 [Conferences with improved management and style](http://portalparts.acm.org/1140000/1137933/fm/frontmatter.pdf),
 Philip Wadler, _SIGPLAN Notices_, Feb. 2006.
 
-<!-- (BCP) Some of the above may be outdated, now that HotCRP is standard -->
+<!-- BCP: Some of the above may be outdated, now that HotCRP is standard -->
 
 Before papers are received, develop an evaluation procedure. After the
 submission deadline, send submitted papers and a description of the
@@ -333,7 +338,8 @@ After the Conference
 --------------------
 
 Help the Conference Chair prepare the post-event report for SIGPLAN EC.
-<!-- BCP: Do we really care about these? -->
+<!-- BCP: Do we really care about these?  Everybody seems to ignore this
+     rule. -->
 
 As former Program Chair, you may be invited to serve on the
 conference's Steering Committee. For the  formal
@@ -457,7 +463,9 @@ See Also
 Some columns containing useful advice for conference organizers have
 been published in _SIGPLAN Notices_ and elsewhere over the years:
 
-<!-- (BCP) Somewhat dated... at least sort in reverse chronological order? -->
+<!-- (BCP) Somewhat dated... at least sort in reverse chronological order?
+     (Also, the above list and this one appear both here and in GenChair.md;
+     that's silly!) -->
 
 - [Experiences with Author Response at PLDI and ICFP 2004](http://portalparts.acm.org/1060000/1052883/fm/frontmatter.pdf), Kathleen Fisher and Craig Chambers, (*SIGPLAN Notices*, Dec. 2004)
 - [Conferences with improved management and style](http://portalparts.acm.org/1140000/1137933/fm/frontmatter.pdf), Philip Wadler (*SIGPLAN Notices*, Feb. 2006)

@@ -5,6 +5,7 @@ title: SIGPLAN Notices
 
 <!-- BCP: Dead... -->
 <!-- AF: Agreed, delete? -->
+<!-- BCP: Yep -->
 
 ACM SIGPLAN Notices is an informal monthly publication of the Special Interest Group on Programming Languages (SIGPLAN) of ACM.
 

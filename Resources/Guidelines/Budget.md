@@ -3,21 +3,19 @@ layout: default
 title: "Contingencies and Return-to-SIG lines in Conference Budgets"
 ---
 
-ACM conference budgets are expected to 
-include two kinds of costs that are often misunderstood. We briefly explain 
-their purpose below. In both cases the amount budgeted is a percentage of 
-other conference expenses. The exact amount will vary somewhat from 
-year-to-year and conference to conference, depending on perceived risk. It 
-also varies somewhat between different SIGs. <i>
-For SIGPLAN conferences, it is important to check with the Vice Chair for 
-Conferences to determine the applicable rate. 
-<!-- BCP: No one has ever asked me for this information, 
-     nor would I know what to say if they did! -->
-<!-- AF: My guess? It is there to make sure that we can complain if someone
-         does something overly lavish by incurring an unusually high registration
-         rate. If so, we can reword to make it more precise for that purpose. -->     
-For conferences cosponsored 
-with other SIGs, please also check with the cosponsoring SIG.</i>
+ACM conference budgets are expected to include two kinds of costs that are
+often misunderstood. We briefly explain their purpose below. In both cases
+the amount budgeted is a percentage of other conference expenses. The exact
+amount will vary somewhat from year-to-year and conference to conference,
+depending on perceived risk. It also varies somewhat between different
+SIGs. <i> For SIGPLAN conferences, it is important to check with the Vice
+Chair for Conferences to determine the applicable rate.  <!-- BCP: No one
+has ever asked me for this information, nor would I know what to say if they
+did! --> <!-- AF: My guess? It is there to make sure that we can complain if
+someone does something overly lavish by incurring an unusually high
+registration rate. If so, we can reword to make it more precise for that purpose. -->
+For conferences cosponsored with other SIGs, please also check with the
+cosponsoring SIG.</i>
 
 
 ### Contingency

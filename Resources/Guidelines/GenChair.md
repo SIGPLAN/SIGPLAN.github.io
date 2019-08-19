@@ -10,7 +10,6 @@ the advice on this page may already be familiar to you. Nevertheless,
 even experienced organizers sometimes forget some important points, so
 please at least skim this page as well as the following ones:
 
-- SIGPLAN's [conference policies](https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/edit?usp=sharing_) <!-- BCP: Old! Delete! --> <!-- AF: OK, but when the page is deleted! -->
 - SIGPLAN's [conference submission review policy](/Resources/Policies/Review) 
 - SIGPLAN's [diversity policy](/Resources/Policies/Diversity)
 - ACM's [policy against harassment at ACM activities](https://www.acm.org/special-interest-groups/volunteer-resources/conference-planning/opening-slide-on-acm-activities-policy)
@@ -51,13 +50,12 @@ Date and Location
      (e.g. recent US visa bans, etc), then we may want to replace 
      this with some other location guidelines -->
 
-Select three potential sites for the conference and send them to the
-ACM representative and the SIGPLAN Vice-Chair. If the event is part of
-a series, then the date of the conference may have been
-established by the time you agreed to serve as chair (two years prior
-to the meeting). Please be careful about what information you provide
-directly to hotels so as not to reduce ACM's negotiating
-leverage.
+Select three potential sites for the conference and send them to the ACM
+representative to SIGPLAN and the SIGPLAN Vice-Chair. If the event is part
+of a series, then the date of the conference may have been established by
+the time you agreed to serve as chair (two years prior to the
+meeting). Please be careful about what information you provide directly to
+hotels so as not to reduce ACM's negotiating leverage.
 
 Submission and Review Policies
 ------------------------------
@@ -149,11 +147,12 @@ complimentary registration and travel/lodging for keynote speakers and
 may offer complimentary registration for one tutorial speaker per
 tutorial.
 
-ACM handles the bank accounts for sponsored conferences. Send email to
-the [ACM Representative to SIGPLAN](mailto:spinola@hq.acm.org?subject=Conference%20advance)
-for an advance. Expenses for reimbursement should also be sent to
-the
-[ACM Representative to SIGPLAN](mailto:spinola@hq.acm.org?subject=Conference%20expenses).
+ACM handles the bank accounts for sponsored conferences. Send email to the
+ACM Representative to SIGPLAN (the [SIGPLAN Vice
+Chair](mailto:vc_sigplan@acm.org) can tell you who this is at the moment)
+for an advance. Expenses for reimbursement should also be sent to the ACM
+Representative to SIGPLAN.
+
 Andrew Black wrote a [document](/sites/default/files/SIGPLAN_conference_finances_for_beginners.pdf)
 after SPLASH 2014 explaining where the money was spent.
 
@@ -180,10 +179,12 @@ proposals. Consider appointing a workshop chair to coordinate them.
 workshop chair -- has a conversation early in the process with the
 [SIGPLAN Vice Chair](mailto:vc_sigplan@acm.org?subject=Workshops) to
 get clear on SIGPLAN's expectations for how workshop PCs are formed
-and vetted.<!-- BCP: No GC has asked me for such a conversation.  I
-suspect no one is reading this document at the moment. -->)
+and vetted.
 
+<!-- BCP: No GC has asked me for such a conversation.  I
+     suspect no one is reading this document at the moment. -->)
 <!-- AF: replace it with a link to a workshop guidelines page? -->
+<!-- BCP: Fine -->
 
 You should contact chairs of co-located events and plan the common advance
 program, joint technical sessions, joint social events, etc. You
@@ -246,14 +247,12 @@ _SIGPLAN Vice Chair_:
 [vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org)  
 _SIGPLAN Information Director_:
 [infodir\_sigplan@acm.org](mailto:infodir_sigplan@acm.org?subject=Conference%20Information)  
-_ACM Representative to SIGPLAN_ (Abigail Sumandal):
-[sumandal@hq.acm.org](mailto:sumandal@hq.acm.org)
-<!-- BCP: Out of date.  Delete? -->
-<!-- AF: There is no representative anymore? -->
 
 
 See Also
 --------
+
+<
 
 - [Calendar of Upcoming SIGPLAN Conferences](http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN)
 - ACM's *[How to Organize a Conference](http://www.acm.org/sigs/volunteer_resources/conference_manual/conference_manual-toc)* manual
@@ -261,7 +260,10 @@ See Also
 - SIGPLAN conference style [LaTeX class file](/sites/default/files/Author/sigplanconf.cls),
   [article template](/sites/default/files/Author/sigplanconf-template.tex), and
   [user guide](/sites/default/files/Author/sigplanconf-guide.pdf)
-- "[Where did all the money go? SIGPLAN conference finances for beginners](/sites/default/files/SIGPLAN_conference_finances_for_beginners.pdf)", Andrew Black, to appear in SIGPLAN Notices.
+- "[Where did all the money go? SIGPLAN conference finances for
+beginners](/sites/default/files/SIGPLAN_conference_finances_for_beginners.pdf)",
+  Andrew Black, to appear in SIGPLAN Notices.
+  <!-- BCP: Presumably it did appear? -->
 
 Some columns containing useful advice for conference organizers have
 been published in _SIGPLAN Notices_ and elsewhere over the years:

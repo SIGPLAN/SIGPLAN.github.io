@@ -11,6 +11,10 @@ NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
 
 # Pending tasks
 
+  - Weird stuff to check
+      - SIGPLAN Notices articles listed twice in GenChair and ProChair?
+      - By-laws.md seems to be an ancient LCETS thing?
+
   - (Benjamin) Read through the conference-specific
     documents (Principles of POPL, etc.)  and see if there are any
     duplications / inconsistencies
@@ -52,6 +56,8 @@ NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
        though it _is_ linked from the main SIGPLAN page via _data/Links.yaml
   ./Notices.md
      - Content is dead (but might be linked from other places)
+  ./Newsletters.md
+     - Content mostly dead (linked from _data/Links.yaml)
 
 ## On the front page (coordinate with Harry Xu about changes here?):
   - some of the award information is out of date (e.g., the OOPSLA most

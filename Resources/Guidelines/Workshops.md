@@ -39,6 +39,7 @@ SIGPLAN-approved workshops
   also approved by the EC?? --> <!-- AF: tricky to say. The question is 
   valid for a series, less so for a one-off. In those cases, the person
   proposing the event is often the GC and the PC at the same time. -->
+  <!-- BCP: Exactly. -->
 * If there is a proceedings of any kind, it must be lodged in
   the ACM Digital Library, and the papers in it are considered published.
 
@@ -107,8 +108,8 @@ Comments
 * A conference-approved workshop is not subject to approval by the SIGPLAN
   Executive Committee; it is sufficient for the organizers of the host
   conference to be satisfied as to the workshop's quality and integrity.
-  <!-- This is inconsistent with the rule we added above, saying that the
-  PC must be vetted by the EC if there is one. -->
+  <!-- BCP: This is inconsistent with the rule we added above, saying that the
+       PC must be vetted by the EC if there is one. -->
 * Both kinds of workshop are valuable, and SIGPLAN encourages them
   equally. But clarity about the two distinct kinds is valuable too, and
   "hybrid" arrangements risk causing confusion among the community. SIGPLAN
@@ -178,7 +179,11 @@ Instructions for Workshop Chairs of SIGPLAN Conferences
   page&mdash;except for item 10 on finances. Collate this information and
   submit it to the SIGPLAN Vice Chair for approval.
 * Conference-approved workshops need only the approval of the conference
-  General Chair. <!--BCP: ... except for PCs --> <!-- AF: I am confused! --> Note that such informal
+  General Chair. <!--BCP: ... except for PCs --> <!-- AF: I am confused! -->
+  <!-- BCP: From discussion on the EC, it seemed that people felt that _all_
+  workshop PCs should be vetted by the EC, whether they are SIGPLAN- or
+  conference-sponsored. -->
+  Note that such informal
   workshops cannot use the name 
   "SIGPLAN" in their title, nor the SIGPLAN logo on their webpage. Accepted
   submissions will not appear in the ACM DL, although a combined "workshop
