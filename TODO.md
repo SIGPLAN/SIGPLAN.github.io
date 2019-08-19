@@ -2,9 +2,12 @@ NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
 
 # Conventions
 
-  - Comments and questions from Benjamin are in HTML comments in the
-    respective .md files, marked BCP.  Do "grep -R -n BCP ." to find them.
-    (Similarly for AF.)
+  - Comments and questions are in HTML comments in the respective .md
+    files, marked BCP/AF as appropriate.  Do
+
+        grep -R -n --exclude *.html '<!-- ' .
+
+    to find them.
 
 # Pending tasks
 
