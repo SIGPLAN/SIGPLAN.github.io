@@ -271,6 +271,10 @@
   year: 2018
   title: "Proceedings of the 11th ACM SIGPLAN Symposium on Haskell"
 -
+  event: Haskell
+  year: 2019
+  title: "Proceedings of the 12th ACM SIGPLAN Symposium on Haskell"
+-
   event: ICFP
   year: 2014
   title: "Proceedings of the 19th ACM SIGPLAN International Conference on Functional Programming"
