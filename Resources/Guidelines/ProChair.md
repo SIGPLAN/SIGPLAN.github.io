@@ -275,7 +275,12 @@ Additional suggestions:
 After the PC Meeting
 --------------------
 
-<!-- BCP: Some of this may be out of date now that some conferences are on PACMPL -->
+<!-- BCP: This text is a bit out of date now that some conferences are on
+     PACMPL, though the Author.md page itself seems OK. -->
+<!-- BCP: However, putting the link to the latex style here seems dumb: it
+     should be earlier, in the advice about writing the CFP.  The only bit
+     here that is relevant _after_ the PC meeting is the first sentence,
+     which seems kind of obvious. -->
 
 Send acceptance and rejection letters as soon as possible after the PC
 meeting. Authors using LaTeX should be directed to the [template
