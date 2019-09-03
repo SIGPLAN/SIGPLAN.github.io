@@ -32,15 +32,16 @@ _Please help us keep this document (and the rest of this site) up to date:_ If y
 Program Chair
 ---------------
 
-Select potential Program Chair(s) and send their names to the [SIGPLAN
-Chair](mailto:chair_sigplan@acm.org)<!-- BCP: Most places, we do not ask
-people to submit these to the SIGPLAN Chair, just the Vice Chair.  Just the
-VC seems like the actual (and correct) practice. --> and
-[Vice-Chair](mailto:vc_sigplan@acm.org) for approval. Do this _before_
-asking the person to serve, 18 months prior to the event. Make sure the
-Program Chair reviews SIGPLAN's [conference submission review
+<span class=".sigplan_rule">Select potential Program Chair(s) and send their
+names to the [SIGPLAN Chair](mailto:chair_sigplan@acm.org)<!-- BCP: Most
+places, we do not ask people to submit these to the SIGPLAN Chair, just the
+Vice Chair.  Just the VC seems like the actual (and correct) practice. -->
+and [Vice-Chair](mailto:vc_sigplan@acm.org) for approval. Do this _before_
+asking the person to serve, at least 18 months prior to the event.</span>
+Make sure the Program Chair reviews SIGPLAN's [conference submission review
 policy](/Resources/Policies/Review) and [diversity
-policy](/Resources/Policies/Diversity).
+policy](/Resources/Policies/Diversity) and point them to the web page
+describing [program-chair responsibilities](/Resources/Guidelines/ProChair).
 
 Date and Location
 -----------------

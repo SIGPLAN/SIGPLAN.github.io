@@ -7,6 +7,8 @@ NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
 
 # Pending tasks
 
+## Reorganization
+
   - (Benjamin) Read through the conference-specific
     documents (Principles of POPL, etc.)  and see if there are any
     duplications / inconsistencies
@@ -24,6 +26,31 @@ NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
        - reintegrate Yannis's Google doc with the .md files (either
          following or adapting BCP's suggestions in comments in the
          Google doc)
+
+## Fixes / additions to clarify code of conduct
+
+[Requests from Kathryn]
+
+1. On this web page, http://sigplan.org/Resources/Policies/Review/ where it says Contacts, I suggest starting with Authors (versus now it starts with Reviewers).
+ 
+       Contacts
+
+       Authors may contact only the Program Chair about submitted papers
+       during and after the review process. Contacting PC, EPC, or ERC
+       members about submitted paper(s) is an ethical violation and may be
+       grounds for summary rejection. 
+
+       Reviewers should not interact with authors about their submitted
+       papers. Any interaction should go through the program chair. 
+
+
+2. Please also add it also to the advice Program Chairs, that they should link to the above page from the CFP http://sigplan.org/Resources/Guidelines/ProChair/
+
+3. In this page, it should also just copy the above about Contacts.
+http://sigplan.org/Resources/Author/
+
+4. Also, we should add a top level page with the code of conduct we expect from participation at our events, that includes a link to the ACM page.
+
 
 # Pending tidying
 

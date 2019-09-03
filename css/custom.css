@@ -46,3 +46,8 @@ table th {
 .list-group-item {
   padding: 5px 15px;
 }
+
+/* Benjamin Pierce, Sep 2019: A custom style for official sigplan
+   rules (as opposed to guidelines, recommendations, or discussion) in
+   conference organizer documents: */
+.sigplan_rule { color: red; }
