@@ -11,24 +11,29 @@ NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
 
 # Pending tasks
 
-<<<<<<< HEAD
 ## Reorganization
-=======
   - Weird stuff to check
       - SIGPLAN Notices articles listed twice in GenChair and ProChair?
       - By-laws.md seems to be an ancient LCETS thing?
->>>>>>> 69a697976c08d845fc537c91e6daa40ae8858ce8
 
   - (Benjamin) Read through the conference-specific
     documents (Principles of POPL, etc.)  and see if there are any
     duplications / inconsistencies
-       - put the edited / commented versions into the repo
+       - put the edited / commented versions into the repo (it was sent in
+         email) 
 
   - (Azadeh) Trim the "private information for GCs" document and make
     sure that it ONLY contains sensitive information that does not
     belong in public places; all information that can be public should
     go in .md files someplace, and this document should include a note
     asking that this be maintained as an invariant going forward.
+      - Basically, all that should remain in the secret document is the
+        "Per-Workshop or Symposium Fund" section: everything else can be
+        moved to GenChair
+      - The trimmed secret document should have a little note prepended
+        saying that it was written by Jeremy for ICFP and adapted by Yannis
+        for general distribution, and explaining that Annabel or somebody
+        should give it to each GC that needs it.
 
   - (Azadeh and Jens)
        - look through all BCP comments and either fix things or leave
