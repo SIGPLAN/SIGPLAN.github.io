@@ -4,6 +4,10 @@ title: "SIGPLAN Conference Program Committee Database"
 ---
 <!-- BCP: I can't figure out where this is referenced from, but it is
      decades out of date!! --> 
+<!-- AF: Agreed. This page has to go. But, on a related note, I would like 
+     to discuss a database for program committee selections as a longterm 
+     investment. --> 
+<!-- BCP: OK. --> 
 
 The SIGPLAN Conference Program Committee Database contains
 information about organizers and program committees of

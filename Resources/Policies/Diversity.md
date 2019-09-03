@@ -18,6 +18,10 @@ committees from the pool of qualified candidates include:
 
 <!-- BCP: Are these rules just for PCs, or also for EPCs, ERCs, etc.?? I am 
      inclined to leave the language as-is for now. -->
+<!-- AF: My memory says that we discussed ERC specifically not having to stick
+     to strict rules, since it is expertise-based. EPC is something that 
+     only PLDI has. I think it should apply to it. -->
+
 
 1.  Coverage of meeting topics
 2.  Turnover: each year's committee should be substantially

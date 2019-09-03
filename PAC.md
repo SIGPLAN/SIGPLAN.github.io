@@ -240,5 +240,4 @@ Additional information requested by bank (such as intermediary bank
 info)
   
 **Q:** Can I get a travel advance?  
-**A:** We do not do travel advances for student travel.
-<!-- BCP: What about for other categories of travel? -->
+**A:** Unfortunately, we do not do travel advances.

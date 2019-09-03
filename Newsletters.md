@@ -6,6 +6,9 @@ title: "SIGPLAN Publications"
 
 <!-- BCP: What about PACMPL?? -->
 
+<!-- AF: I propose deleting this page altogether -->
+<!-- BCP: Agreed -->
+
 -   [SIGPLAN Notices](http://portal.acm.org/browse_dl.cfm?idx=J706) is the primary monthly
     publication of SIGPLAN.  <!-- BCP: Dead -->
 

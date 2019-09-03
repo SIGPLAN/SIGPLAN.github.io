@@ -14,6 +14,8 @@ Responsibilities of the SC
 1.  To appoint the conference General Chair and Program
     Chair, after approval by the EC Vice-Chair.  
     <!-- BCP: Here we say that the GC does need to be approved by the EC. -->
+    <!-- AF: the problem? -->
+    <!-- BCP: That we are not consistent about whether we insist on this. -->
 2.  To provide help and guidance to the General Chair in selecting
     the site and date and preparing the budget, in collaboration
     with SIGPLAN's liaison at ACM. Also to provide help and
@@ -21,10 +23,7 @@ Responsibilities of the SC
     conference.
 3.  To request approval from the EC Chair and Vice-Chair
     whenever a major change is planned for the conference.
-4.  To notify the EC Chair and Vice-Chair when the membership
-    of the SC changes.  <!-- BCP: Nobody does this, and indeed it does not
-    really seem important. -->
-5.  To have a representative attend SIGPLAN EC
+4.  To have a representative attend SIGPLAN EC
     meetings when issues relevant to the conference are under
     consideration.
 
@@ -45,6 +44,19 @@ SIGPLAN EC. These rules must include the following:
 3.  How the chair of the SC is determined.
 4.  The schedule for the conference: how often and
     what time of year.
+5. Suggestion: The SC can include the current SIGPLAN EC Chair and 
+   Vice Chair as members.
+
+
+
+Managing Changes
+----------------
+
+It is recommended that pending changes are communicated to the community in advance, e.g., at the open meeting of the previous conference.
+
+Surveys of authors, reviewers and attendees are a good mechanism for gathering community feedback.   Careful alignment of survey questions from year to year and with those from other SIGPLAN conferences may allow meaningful comparisons to be drawn longitudinally and among the conferences.
+
+
 
 Important Email Addresses
 -------------------------
@@ -59,3 +71,4 @@ _ACM Representative to SIGPLAN_ (Abigail Sumandal):
 [sumandal@hq.acm.org](mailto:sumandal@hq.acm.org)
 
 <-- (BCP) Abbi is no longer at ACM.  Is there a "permalink" for this role? -->
+<-- AF: no clue. -->

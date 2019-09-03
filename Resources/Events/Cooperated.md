@@ -4,6 +4,8 @@ title: "In-cooperation Events"
 ---
 
 <!-- BCP: This page seems dead -->
+<!-- AF: Agreed. I could not find it linked anywhere, let's remove. -->
+
 
 [30 Years of Abstract Interpretation](http://profs.sci.univr.it/~Y30AI)
 Jan 9, 2008  

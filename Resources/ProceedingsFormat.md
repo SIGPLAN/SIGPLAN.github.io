@@ -4,9 +4,11 @@ title: "SIGPLAN Proceedings Format"
 ---
 
 <!-- BCP: Is this page up to date with PACMPL formatting requirements?  More -->
-<!-- genreally, is it a good idea to have a SIGPLAN-wide formatting page? Or -->
+<!-- generally, is it a good idea to have a SIGPLAN-wide formatting page? Or -->
 <!-- might be be better for conferences to each do it themselves, since they -->
 <!-- have an incentive to keep the information up to date? -->
+
+<!-- AF: It is best to leave it to individual conferences IMO -->
 
 This page summarizes the formatting guidelines for ACM SIGPLAN
 Proceedings.  The goal is to ensure that proceedings have a

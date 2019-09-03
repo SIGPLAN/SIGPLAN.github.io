@@ -3,20 +3,19 @@ layout: default
 title: "Guidelines for the Program Chair of a SIGPLAN Event"
 ---
 
-<!-- BCP: This page seems to have bitrotted a bit, for instance in
-     assuming all submissions are using two-column format (no mention of
-     PACMPL) and being processed by Sheridan. -->
+<!-- BCP: This page seems to have bitrotted a bit, for instance in assuming
+     all submissions are using two-column format (no mention of PACMPL) and
+     being processed by Sheridan.  Needs a careful updating pass. -->
 
 Executive Summary
 -----------------
 
-You may be an experienced Program Chair, in which case much of the
+You may be an experienced Program Chai, in which case much of the
 advice on this page may already be familiar to you. Nevertheless, even
 experienced chairs sometimes forget some important points, and some
 policies and guidelines are specific to SIGPLAN, so please at least
 skim the rest of this page and the following others:
 
-- SIGPLAN's [conference policies](https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/edit?usp=sharing_) <!-- (BCP) slated for deletion --> 
 - SIGPLAN's [conference submission review policy](/Resources/Policies/Review) 
 - SIGPLAN's [diversity policy](/Resources/Policies/Diversity)
 - SIGPLAN's [republication policy](/Resources/Policies/Republication)
@@ -39,7 +38,7 @@ Submission and Reviewing Policies
 <!-- BCP: Everything to do with reviewing should be moved to
      Policies/Review.md -->
 
-The Program Chair may not submit papers to the conference; SIGPLAN's
+The Program Chair (PCC) may not submit papers to the conference; SIGPLAN's
 Executive Committee recommends that the General Chair also not be
 allowed to submit papers. If Program Committee members are allowed to
 submit papers, either their papers should be held to a higher standard
@@ -70,10 +69,10 @@ decide on general policies relating to the program committee, such as:
   members, these expenses must of course be included in the budget.
 
 The previous year's Program Chair for the same conference is a good
-resource; contact them for suggestions.
+resource.
 
-Program Committee
--------------------
+Program Committee Selection
+---------------------------
 
 In consultation with the General Chair<!-- And the rest of the SC? -->,
 develop a list of potential Program Committee members. In formulating this
@@ -88,7 +87,13 @@ template and enter the requested information for your proposed PC members
 and alternates.  Send the completed spreadsheet to the SIGPLAN Vice Chair
 ([vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org)) for comments and approval
 by the SIGPLAN Executive Committee.  The approval process normally takes
-less than two weeks.
+less than two weeks. The same approval process applies to all other
+reviewing committees for conferences such as ERC and EPC.  
+
+<!-- BCP: It's not clear that this last bit (EC must approve the ERC and
+EPC) is either (a) the actual SIGPLAN policy as I or other EC members
+understand it, or (b) consistent with current practice, or (c) a good 
+idea! -->
 
 At the same time, make plans for the Program Committee meeting, so that
 these can be communicated to potential PC members when you invite them:
@@ -100,6 +105,22 @@ Explain what is expected of them and any relevant
 the PC meeting.  If more people than expected decline and you run out of
 alternates, send the SIGPLAN Vice Chair another set of candidates for
 approval.
+
+Recommendations: <!-- AF: I don't think anything below can be a strict requirement -->
+
+- The PCC should strive to avoid the appearance of favoring current and former students, postdocs, colleagues, or collaborators for membership on the PC or ERC.
+- The size of the PC should be such that, given the expected number of submissions, will yield a reasonable reviewing load per PC member. Exceeding 25 papers per PC members is strongly discouraged.
+- If there is an ERC, the same diversity criteria listed above should apply
+  to them, scaled to the size of each committee. 
+  <!-- AF: confirm this -->
+  <!-- BCP: Or better yet, change it to say that "the diversity criteria
+       NEED NOT apply..."! -->
+- PC members should generally not serve on the PC more often than every four years. Exceptions may be made to enable a small overlap (<10%) from year to year to provide continuity. It is advisable that no one should serve on the PC for more than two years in a row. <!-- AF: The language is vague and PLDI is certainly breaking the four year rule -->
+- The PCC of year X+1 can be invited to serve on the PC (with a lighter reviewing load) for year X as soon as he or she is selected.
+- The PCC should strive to avoid selecting PC members that collaborate regularly with each other or with the PCC, or PC members from the same institution in the exact same area.
+- For conferences, all PC members should have PhDs by the submission deadline of the conference.  For affiliated workshops, the PC can include PhD students in their final year, as long as the total number does not exceed 10% (rounded up) the PC.
+
+
 
 Call for Papers
 ---------------
@@ -162,7 +183,8 @@ Submission and Review
 
 Set up the paper submission web site. Many services are available
 for this purpose. Most include support for the [ABCD rating scale][Nier00], 
-author feedback, and double-blind reviewing.  <!-- Should we mention HotCRP? -->
+author feedback, and double-blind reviewing.
+<!-- BCP: Should we mention HotCRP? -->
 
 [Nier00]: http://www.iam.unibe.ch/~oscar/Champion/champion.pdf "Oscar Nierstrasz, _Identify the Champion_"
   
@@ -179,53 +201,86 @@ For more details see:
 [Conferences with improved management and style](http://portalparts.acm.org/1140000/1137933/fm/frontmatter.pdf),
 Philip Wadler, _SIGPLAN Notices_, Feb. 2006.
 
-<!-- (BCP) Some of the above may be outdated, now that HotCRP is standard -->
+<!-- BCP: Some of the above may be outdated, now that HotCRP is standard -->
 
-Before papers are received, develop an evaluation procedure. Send
-submitted papers and a description of the evaluation procedure to
-the PC members.
+Before papers are received, develop an evaluation procedure. After the
+submission deadline, send submitted papers and a description of the
+evaluation procedure to the PC members.
+
+The PCC should identify another PC member (a “COI-PCC”) to handle papers for
+which the Chair is in conflict. 
+
 
 PC Meeting
 ----------
 
-<!-- (BCP) This applies only to physical PC meetings, which are no longer universal -->
+Some SIGPLAN conferences have in-person PC meetings; others have moved to
+virtual meetings (to reduce carbon footprint, wear and tear on PC members,
+or both).  
 
-Before the PC meeting,
-decide on any policies that should be in effect, such as:
+For both kinds of meetings, PC members should be allowed to participate in
+the discussion (both online and in-person) of papers that they didn't
+review, and with which they have no conflicts. The PCC should strive to
+ensure, prior to the PC meeting, that every competitive paper has at least
+two PC reviews at least one, and preferably two expert reviews
 
--   What defines a conflict of interest?
--   What happens if a PC member has a conflict of interest?
--   What are the rules of confidentiality?
--   Do you want to have a best paper award?
+During the online discussion period (whether or not followed by an in-person
+meeting), the PC should be allowed to see all papers with which they have no
+conflicts, and participate in the discussion. Online discussion must be
+actively facilitated by the PCC, and (if applicable) paper guardians.
 
-During the PC meeting,
+Before the PC meeting, decide on any policies that should be in effect, such as:
+- What defines a conflict of interest?
+- What happens if a PC member has a conflict of interest?
+- What are the rules of confidentiality?
+- Do you want to have a best paper award?
 
--   decide how many papers you want to accept
--   decide what papers should be accepted
--   plan the sessions and the session chairs
+### In-Person PC Meetings
 
-For physical PC meetings, it is *strongly* recommended that the Program Chair have an
-assistant during the PC
-meeting, to take on certain administrative
-and logistical tasks during the meeting and allow the Program Chair to
-concentrate on leading the discussions of papers. Typical duties of
-the assistant would be to keep track of the disposition of
-papers for the PC, interface with the on-line review
-system, and record any relevant information about a particular
-paper (e.g., paper Y paper is being shepherded by committee member
-X, committee member X agrees to revise their on-line review, etc.).
-Past Program Chairs have used graduate students or post-docs as
-assistants, with good results.  
+A physical PC meeting should be preceded by an extensive online discussion
+period. The online discussion period should be a minimum of one week, but
+two (or more) is strongly preferred.
 
-Any PC meeting expenses that are to be reimbursed by the conference should be
-put in the conference budget. Send receipts to the
-[ACM Representative to SIGPLAN](mailto:spinola@hq.acm.org?subject=Expenses)
-for reimbursement.  
+The designated COI-PCC (see COI policies) should handle papers the PCC is
+conflicted with during the meeting. 
+
+At the end of the PC meeting, the PCC may want to take a bit of time to plan the
+sessions and the session chairs.
+
+It is strongly recommended that the PCC have an assistant during
+the physical PC meeting, to take on certain administrative and logistical
+tasks during the meeting and allow the PCC to concentrate on
+leading the discussions of papers. Typical duties of the assistant would be
+to keep track of the disposition of papers for the PC, interface with the
+on-line review system, and record any relevant information about a
+particular paper (e.g., paper Y paper is being shepherded by committee
+member X, committee member X agrees to revise their on-line review,
+etc.). Past PCCs have used graduate students or post-docs as
+assistants, with good results.
+
+Any PC meeting expenses that are to be reimbursed by the conference should
+be put in the conference budget. Send receipts to the ACM Representative to
+SIGPLAN for reimbursement (the [SIGPLAN Vice
+Chair](mailto:vc_sigplan@acm.org) can tell you who this is at the moment).
+
+Additional suggestions:
+- Experience has shown that a two day PC meeting provides adequate time for deliberation while avoiding PC burnout.
+- The GC may play the role of "COI-PCC".
+- The PCC is encouraged to have one or two dedicated assistants to deal with timekeeping and bookkeeping in order to allow the PCC  to focus entirely on the discussion rather than logistical concerns.    A senior non-PC member such as the GC or next PCC can fulfill this role.
+- Instead of considering the papers in order from highest-ranked to lowest, consider the papers in a quasi-random order (see article by Kathleen Fisher in SIGPLAN Notices, 46(4):17, April 2011).
+- If the most positive reviewer for a paper is external, the chair may wish to ensure that the paper is discussed on day one of the PC meeting and the outcome summarized by the PCC so that the external reviewer can provide additional feedback prior to a final decision.
+- The PCC is encouraged to use a multi-round discussion process for papers where an initial consensus is not apparent.
+- The PCC can distinguish between contentious and marginal papers and  table all marginal papers until the end of the meeting to allow them to be systematically considered in the context of the emergent acceptance standard.
 
 After the PC Meeting
 --------------------
 
-<!--- (BCP) Some of this may be out of date now that some conferences are on PACMPL --->
+<!-- BCP: This text is a bit out of date now that some conferences are on
+     PACMPL, though the Author.md page itself seems OK. -->
+<!-- BCP: However, putting the link to the latex style here seems dumb: it
+     should be earlier, in the advice about writing the CFP.  The only bit
+     here that is relevant _after_ the PC meeting is the first sentence,
+     which seems kind of obvious. -->
 
 Send acceptance and rejection letters as soon as possible after the PC
 meeting. Authors using LaTeX should be directed to the [template
@@ -288,7 +343,8 @@ After the Conference
 --------------------
 
 Help the Conference Chair prepare the post-event report for SIGPLAN EC.
-<!-- BCP: Do we really care about these? -->
+<!-- BCP: Do we really care about these?  Everybody seems to ignore this
+     rule. -->
 
 As former Program Chair, you may be invited to serve on the
 conference's Steering Committee. For the  formal
@@ -328,6 +384,65 @@ auxiliary material in the Digital Library, see
 [here](http://portal.acm.org/citation.cfm?doid=1462173.1462178) and click on
 "source materials".
 
+
+Shepherding
+-----------
+
+
+Papers may be accepted conditionally, in which case, such papers require  shepherds. The role of the shepherd is to compile a list of required changes to the paper that are required for the paper to be accepted, in consultation with all reviewers, and subject to the approval of the PCC.  Authors are expected to modify their papers appropriately; in the event that the reviewers and the shepherds do not come to an agreement that a paper has been revised satisfactorily, the PCC should have the ultimate decision as to whether the paper will be accepted.
+
+
+Additionally, the shepherds can ensure that outstanding work is not rejected on the basis of a problem that can easily be fixed with minor modifications to the paper. 
+
+
+Distinguished Papers
+--------------------
+Up to 10% of the accepted papers may be designated for ACM SIGPLAN Distinguished Paper Awards.
+- Nominations may be solicited from the PC and ERC, and will also include the top 10% papers in terms of numeric scores.  PC/ERC members should not nominate papers  by authors they are conflicted with.
+- PC papers may be nominated.
+- The PC/ERC (excluding the authors of any nominated papers) should vote on this set of nominated papers. Each PC member may cast as many votes as the target number of Distinguished Papers. The usual conflict-of-interest rules will apply (e.g., PC/ERC members cannot vote on papers with which they have a conflict of interest).
+- The PCC and GC should decide which papers will receive the award. While the number of votes received by nominated papers is an important factor, the PCC and GC may exercise their judgment in making their decision.
+
+PC Member Responsibilities
+--------------------------
+
+PC members must commit to reading all of their assigned papers and writing their own reviews.  PC members  may also suggest additional reviewers, but they should not subcontract reading or review writing duties to others. The PCC should be consulted before additional reviewers are contacted to avoid conflicts and to ensure topical balance.
+
+If there is an in-person PC meeting, then PC members must attend the PC meeting in-person. If the meeting is virtual, PC members must participate in the manner described in the invitation to join the PC.  Invited members who cannot commit to attending or participating in the meeting in person in the way the PC chair has specified should decline the invitation. 
+
+_Recommendations:_ 
+
+The PCC should consider whether to explicitly allow PC members to share and discuss papers with their own students (subject to the usual confidentiality and COI provisions), and to incorporate information from such discussions into their review. If this is permitted, the PC member should still be responsible for writing the review. When a student is involved in this capacity, the PCC should be informed so that the student receives appropriate credit.
+
+PC members should consult the SIGPLAN Republication Policy.  If a related version of the paper appeared in a workshop, PC members should take into account whether its call for papers stated that publication in the workshop is not intended to preclude later publication.
+
+
+Recommendations for Reviewing Process Management
+------------------------------------------------
+
+Keeping the same reviewing form has benefit for authors and reviewers as they can more easily calibrate  and interpret scores if the ratings are well understood. Nierstrasz' Identify the Champion scoring process has stood the test of time. A typical review form in the spirit of this process has (at least) the following fields:
+- Paper score:
+     --A: Good paper. I will champion it at the PC meeting.
+     --B: OK paper, but I will not champion it.
+     --C: Weak paper, though I will not fight strongly against it.
+     --D: Serious problems. I will argue to reject this paper.
+- Reviewer expertise:
+             --X: I am an expert in the subject area of this paper.
+             --Y: I am knowledgeable in the area, though not an expert.
+             --Z: I am not an expert. My evaluation is that of an informed outsider.
+- Paper summary (reviewer’s synopsis provides a useful sanity check)
+- Points in favor (encourage positive reviewing)
+- Points against (be clear about principal objections)
+- Detailed comments for authors (body of review)
+
+Additionally:
+- It is useful for the PCC to acquaint themselves ahead of time with the conference management system (currently HotCRP), and the facilities it offers.
+- A two-phase reviewing process can be used, in order to avoid PC overload, by identifying weaker papers earlier.
+- PC members should be strongly encouraged to submit reviews as they are completed; this makes it easier for the PCC to monitor progress and identify problems early.
+- The PCC may wish to identify major reviewer disagreements and papers without sufficient expertise and seek second opinions where necessary to help resolve the disagreements.
+- The PCC should allow all reviewers to see decisions for the papers they have reviewed before decisions are publicly announced.
+
+
 Important Email Addresses
 -------------------------
 
@@ -337,9 +452,6 @@ _SIGPLAN Vice Chair_:
 [vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org)  
 _SIGPLAN Information Director_:
 [infodir\_sigplan@acm.org](mailto:infodir_sigplan@acm.org?subject=Conference%20Information)  
-<!-- Out of date: (Maybe just delete it?) -->
-_ACM Representative to SIGPLAN_ (Abigail Sumandal):
-[sumandal@hq.acm.org](mailto:sumandal@hq.acm.org)
 
 See Also
 --------
@@ -356,7 +468,9 @@ See Also
 Some columns containing useful advice for conference organizers have
 been published in _SIGPLAN Notices_ and elsewhere over the years:
 
-<!--- (BCP) Somewhat dated... at least sort in reverse chronological order? --->
+<!-- (BCP) Somewhat dated... at least sort in reverse chronological order?
+     (Also, the above list and this one appear both here and in GenChair.md;
+     that's silly!) -->
 
 - [Experiences with Author Response at PLDI and ICFP 2004](http://portalparts.acm.org/1060000/1052883/fm/frontmatter.pdf), Kathleen Fisher and Craig Chambers, (*SIGPLAN Notices*, Dec. 2004)
 - [Conferences with improved management and style](http://portalparts.acm.org/1140000/1137933/fm/frontmatter.pdf), Philip Wadler (*SIGPLAN Notices*, Feb. 2006)

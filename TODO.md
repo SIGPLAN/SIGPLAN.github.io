@@ -2,12 +2,22 @@ NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
 
 # Conventions
 
-  - Comments and questions from Benjamin are in HTML comments in the
-    respective .md files, marked BCP.  Do "grep -R -n BCP ." to find them.
+  - Comments and questions are in HTML comments in the respective .md
+    files, marked BCP/AF as appropriate.  Do
+
+        grep -R -n --exclude *.html '<!-- ' .
+
+    to find them.
 
 # Pending tasks
 
+<<<<<<< HEAD
 ## Reorganization
+=======
+  - Weird stuff to check
+      - SIGPLAN Notices articles listed twice in GenChair and ProChair?
+      - By-laws.md seems to be an ancient LCETS thing?
+>>>>>>> 69a697976c08d845fc537c91e6daa40ae8858ce8
 
   - (Benjamin) Read through the conference-specific
     documents (Principles of POPL, etc.)  and see if there are any
@@ -26,6 +36,8 @@ NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
        - reintegrate Yannis's Google doc with the .md files (either
          following or adapting BCP's suggestions in comments in the
          Google doc)
+         
+   - Investigate why the site is always so slow to load (created by Azadeh).
 
 ## Fixes / additions to clarify code of conduct
 
@@ -71,6 +83,10 @@ http://sigplan.org/Resources/Author/
   ./Resources/Guidelines/Colocation.md
      - This is not linked from any of the other guidelines documents,
        though it _is_ linked from the main SIGPLAN page via _data/Links.yaml
+  ./Notices.md
+     - Content is dead (but might be linked from other places)
+  ./Newsletters.md
+     - Content mostly dead (linked from _data/Links.yaml)
 
 ## On the front page (coordinate with Harry Xu about changes here?):
   - some of the award information is out of date (e.g., the OOPSLA most
@@ -90,12 +106,6 @@ http://sigplan.org/Resources/Author/
     page for organizers.  Both of these landing pages should include links
     to critical policies (reviewing, code of conduct, etc.).
   - The "Policies" box should include a link to the Errata policy.
-
-# Plan
-
-BCP will take the lead till mid July
-Azadeh will work in early August
-aim to reach a checkpoint by mid August
 
 # Compact list of suggestions from Yannis
 
