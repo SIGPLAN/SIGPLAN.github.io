@@ -1,3 +1,23 @@
+2019:
+- Awardee: Simon Marlow, Simon Peyton Jones, and Satnam Singh
+  Other: |
+   (for 2009) _[Runtime Support for Multicore Haskell](https://dl.acm.org/citation.cfm?id=1596563)_
+  Citation: |
+    One may think that purely functional programs should run well on parallel 
+    hardware without much extra effort. But, at the time the paper was published 
+    it had proved hard to realize this potential in practice. This state of the 
+    affairs changed with the work presented in the paper. Due to this work, 
+    runtime multicore support is one of the GHC's unique features today. The 
+    language and runtime make it very simple to exploit degrees of parallelism. 
+    The multicore support features are widely used in real-world Haskell - the 
+    package implementing the multicore support is itself downloaded widely and 
+    most of Haskell's top packages that are widely used in web-servers and web 
+    frameworks make use of some form of GHC's parallel and concurrent runtime. 
+    Thanks to the multicore support, Haskell is perhaps one of the few languages, 
+    where STM is actually widely used in practice. Overall, the paper has a strong 
+    case for helping make and cement the case for why functional programming is 
+    a happy match for the multicore era. 
+
 2018:
 - Awardee: Adam Chlipala
   Other: |
