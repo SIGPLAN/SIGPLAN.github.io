@@ -12,9 +12,9 @@ systems, and programming interfaces. POPL is in-cooperation with
 **POPL Fast Facts**
 
 > [POPL 2020 Web Page](http://popl20.sigplan.org)  
-> Location: New Orleans, Louisiana 
-> General Chair: [Brigitte Pientka](http://www.cs.mcgill.ca/~bpientka/)(McGill University, Canada) 
-> Program Chair: [Lars Birkedal](http://cs.au.dk/~birke/)(Aarhus University, Denmark) 
+> Location: New Orleans, Louisiana  
+> General Chair: [Brigitte Pientka](http://www.cs.mcgill.ca/~bpientka/)(McGill University, Canada)  
+> Program Chair: [Lars Birkedal](http://cs.au.dk/~birke/)(Aarhus University, Denmark)  
 > Dates: January 19-25, 2020
 
 **Most Influential POPL Paper Award**
@@ -55,7 +55,7 @@ The current POPL steering committee is:
 ----
 
 **Web Pages of Previous Conferences**
-> [POPL 2019](http://conf.researchr.org/home/POPL-2019) (Cascais/Lisbon, Portugal)
+> [POPL 2019](http://conf.researchr.org/home/POPL-2019) (Cascais/Lisbon, Portugal)   
 > [POPL 2018](http://conf.researchr.org/home/POPL-2018) (Los Angeles, CA)  
 > [POPL 2017](http://conf.researchr.org/home/POPL-2017) (Paris, France)  
 > [POPL 2016](http://conf.researchr.org/home/POPL-2016) (St Petersburg, FL)  
