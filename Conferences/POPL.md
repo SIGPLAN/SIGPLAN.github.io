@@ -13,8 +13,8 @@ systems, and programming interfaces. POPL is in-cooperation with
 
 > [POPL 2020 Web Page](http://popl20.sigplan.org)  
 > Location: New Orleans, Louisiana 
-> General Chair: [Brigitte Pientka](http://www.cs.mcgill.ca/~bpientka/)(McGill University, Canada)
-> Program Chair: [Lars Birkedal](http://cs.au.dk/~birke/)(Aarhus University, Denmark)
+> General Chair: [Brigitte Pientka](http://www.cs.mcgill.ca/~bpientka/)(McGill University, Canada) 
+> Program Chair: [Lars Birkedal](http://cs.au.dk/~birke/)(Aarhus University, Denmark) 
 > Dates: January 19-25, 2020
 
 **Most Influential POPL Paper Award**
