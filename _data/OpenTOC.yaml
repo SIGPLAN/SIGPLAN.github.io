@@ -111,6 +111,10 @@
   year: 2018
   title: "Proceedings of the 13th Symposium on Dynamic Languages"
 -
+  event: DLS
+  year: 2019
+  title: "Proceedings of the 14th Symposium on Dynamic Languages"
+-
   event: DSM
   year: 2014
   title: "Proceedings of the 14th Workshop on Domain-Specific Modeling"
@@ -242,6 +246,10 @@
   event: GPCE
   year: 2018
   title: "Proceedings of the 17th International Conference on Generative Programming: Concepts and Experiences"
+-
+  event: GPCE
+  year: 2019
+  title: "Proceedings of the 18th International Conference on Generative Programming: Concepts and Experiences"
 -
   event: GPGPU
   year: 2017
@@ -386,6 +394,10 @@
   year: 2015
   title: "Proceedings of the 3rd International Workshop on Mobile Development Lifecycle"
 -
+  event: MPLR
+  year: 2019
+  title: "Proceedings of the 16th ACM SIGPLAN International Conference on Managed Programming Languages and Runtimes"
+-  
   event: MSPC
   year: 2014
   title: "Proceedings of the 2014 ACM SIGPLAN Workshop on Memory Systems Performance and Correctness"
@@ -594,6 +606,10 @@
   year: 2018
   title: "Proceedings of the 5th International Workshop on Reactive and Event-Based Languages and Systems"
 -
+  event: REBLS
+  year: 2019
+  title: "Proceedings of the 6th International Workshop on Reactive and Event-Based Languages and Systems"
+-
   event: SCALA
   year: 2015
   title: "Proceedings of the 6th ACM SIGPLAN Symposium on Scala"
@@ -638,6 +654,10 @@
   year: 2018
   title: "Proceedings of the 2018 ACM SIGPLAN International Conference on Software Language Engineering"
 -
+  event: SLE
+  year: 2019
+  title: "Proceedings of the 2018 ACM SIGPLAN International Conference on Software Language Engineering"
+-
   event: SOAP
   year: 2014
   title: "Proceedings of the 3rd ACM SIGPLAN International Workshop on State Of the Art in Program Analysis"
@@ -677,6 +697,10 @@
   event: SPLASH-E
   year: 2018
   title: "Proceedings of the 2018 ACM SIGPLAN Workshop on SPLASH-E"
+-
+  event: SPLASH-E
+  year: 2019
+  title: "Proceedings of the 2019 ACM SIGPLAN Workshop on SPLASH-E"
 -
   event: TRUST
   year: 2014
@@ -732,6 +756,10 @@
 -
   event: VMIL
   year: 2018
+  title: "Proceedings of the 10th International Workshop on Virtual Machines and Intermediate Languages"
+-
+  event: VMIL
+  year: 2019
   title: "Proceedings of the 10th International Workshop on Virtual Machines and Intermediate Languages"
 -
   event: WGP
