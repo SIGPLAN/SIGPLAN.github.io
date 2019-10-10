@@ -1,0 +1,276 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>SLE 2019- Proceedings of the 12th ACM SIGPLAN International Conference on Software Language Engineering</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>SLE 2019- Proceedings of the 12th ACM SIGPLAN International Conference on Software Language Engineering</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3357766" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Papers</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684825" title="Get the Full Text from the ACM Digital Library">A feature-based classification of triple graph grammar variants</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Nils Weidmann</li>
+<li class="nameList">Robin Oppermann</li>
+<li class="nameList Last">Patrick Robrecht</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Bidirectional model transformations are a way to keep two models synchronized and propagate changes in one model to the other one. Triple Graph Grammars (TGGs) are a rule-based approach to define consistency bidirectionally, with applications e.g. in the development of textual and visual languages. Although the underlying formalism is relatively uniform in different TGG tools, there are various TGG variants supporting different sets of language features, such as attribute conditions, (negative) application conditions, and multi-amalgamation. This makes it difficult to evaluate the expressiveness of a specific TGG tool, to check whether the tool supports all features required to specify a given consistency relation. </p> <p>In this paper, we provide an overview of the most common language features of TGGs. Based on this, we discuss different TGG variants formally and develop a classification of TGG approaches with respect to their expressiveness. We evaluate whether certain language features increase the expressiveness of TGGs or just improve the usability and simplify the specification, which can be important when choosing a software tool depending on the concrete problem at hand. Additionally, examples implemented in the TGG tool eMoflon::IBeX are discussed, which particularly illustrate how the various TGG variants differ in their expressiveness.</p></div> </div>
+<h3>
+ <a class="DLtitleLink" href="https://dl.acm.org/authorize?N684826" title="Get the Full Text from the ACM Digital Library">Spectrum-based fault localization for context-free grammars</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Moeketsi Raselimo</li>
+<li class="nameList Last">Bernd Fischer</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We describe and evaluate the first spectrum-based fault localization method aimed at finding faulty rules in a context-free grammar. It takes as input a test suite and a modified parser for the grammar that can collect grammar spectra, i.e., the sets of rules used in attempts to parse the individual test cases, and returns as output a ranked list of suspicious rules. We show how grammar spectra can be collected for both LL and LR parsers, and how the ANTLR and CUP parser generators can be modified and used to automate the collection of the grammar spectra. We evaluate our method over grammars with seeded faults as well as real world grammars and student grammars submitted in compiler engineering courses that contain real faults. The results show that our method ranks the seeded faults within the top five rules in more than half of the cases and can pinpoint them in 10%&#8211;40% of the cases. On average, it ranks the faults at around 25% of all rules, and better than 15% for a very large test suite. It also allowed us to identify deviations and faults in the real world and student grammars.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684827" title="Get the Full Text from the ACM Digital Library">Consistency management via a combination of triple graph grammars and linear programming</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Nils Weidmann</li>
+<li class="nameList">Anthony Anjorin</li>
+<li class="nameList">Erhan Leblebici</li>
+<li class="nameList Last">Andy Sch&#252;rr</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Consistency management is an important task in the context of Domain-Specific Language (DSL) development. It involves operations such as program (model) transformation, synchronisation, integration, and consistency checking, which are all tasks required to enable concurrent engineering using multiple DSLs. Even though consistency management is a well-researched topic, existing approaches either implement a fixed strategy for each consistency management operation, or do not scale for large models. This has been criticised in the literature, as practical applications require not only reasonable scalability with model size, but also unite multiple consistency management tasks within one tool. To raise the adaptability of such a tool to an appropriate level, a uniform way of performing these tasks is a desirable goal. In this paper, we propose an approach to consistency management that leverages a synergetic combination of Triple Graph Grammars and Integer Linear Programming. By modelling consistency management as an optimisation problem with a configurable objective function, we are able to uniformly address a wide range of consistency management operations. We show that our approach scales acceptably in practice, while still guaranteeing that a consistent solution is found if and only if one exists.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684828" title="Get the Full Text from the ACM Digital Library">Operationalizing the integration of user interaction specifications in the synthesis of modeling editors</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Vasco Sousa</li>
+<li class="nameList">Eugene Syriani</li>
+<li class="nameList Last">Khady Fall</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>A long shortcoming in the automatic generation of domain-specific modeling (DSM) editors has been the lack of user experience, in particular, user interaction adapted to its user. The current practice relies solely on the abstract and concrete syntax of the language, restricting the user interaction with the editor to a set of generic interactions built-in the tool. To increase the user experience with DSM editors, we propose to specify the different viewpoints of interactions (e.g., I/O devices, component of the interface, behavior of the editor) each modeled at the right level of abstraction for its user expert. The goal of this paper is to demonstrate the feasibility of the approach, by anchoring the operational semantics of all these viewpoints in a Statecharts model that controls the DSM editor. We report on the complex transformation that takes as input different viewpoints are expressed in at distinct levels of abstraction, to produce a custom interaction with the DSM editor based on a RETE algorithm. Our implementation shows that we can produce correct and responsive results by emulating existing DSM editors.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684829" title="Get the Full Text from the ACM Digital Library">A vision of miking: interactive programmatic modeling, sound language composition, and self-learning compilation</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">David Broman</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This paper introduces a vision of Miking, a language framework for constructing efficient and sound language environments and compilers for domain-specific modeling languages. In particular, this language framework has three key objectives: (i) to automatically generate interactive programmatic modeling environments, (ii) to guarantee sound compositions of language fragments that enable both rapid and safe domain-specific language development, (iii) to include first-class support for self-learning compilation, targeting heterogeneous execution platforms. The initiative is motivated in the domain of mathematical modeling languages. Specifically, two different example domains are discussed: (i) modeling, simulation, and verification of cyber-physical systems, and (ii) domain-specific differentiable probabilistic programming. The paper describes the main objectives of the vision, as well as concrete research challenges and research directions.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684820" title="Get the Full Text from the ACM Digital Library">Shadow models: incremental transformations for MPS</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Markus Voelter</li>
+<li class="nameList">Klaus Birken</li>
+<li class="nameList">Sascha Lisson</li>
+<li class="nameList Last">Alexander Rimer</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Shadow Models is an incremental transformation framework for MPS. The name is motivated by the realization that many analyses are easier to do on an model whose structure is different from what the user edits. To be able to run such analyses interactively in an IDE, these ``shadows&#39;&#39; of the user-facing model must be maintained in realtime, and incrementality can deliver the needed short response times. Shadow Models is an incremental model transformation engine for MPS. In the paper we motivate the system through example use cases, and outline the transformation framework.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684821" title="Get the Full Text from the ACM Digital Library">The lands platform: lan.guages and d.omain s.yntax</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Nick Papoulias</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Lan.d.s is a new solution for language design. From general purpose languages like Lise (short for (list (embedding)) to Domain-Specific Languages using the MOODs framework, and everything else in between. Lan.d.s is build around the formalism of Multi-Ordered Grammars, which are a possible alternative to CFGs and PEGs in wider use today. Multi- ordered grammars (or simply MOGs) aim for a better explo- ration of ambiguity, recursion, ordering and associativity during language design. They can be parsed using the Gray algorithm. After parsing in order to ease the production of executable code Lan.d.s introduces the Abstract Syntax Language (ASL), which is an OO solution for compile-time meta-programming. Finally in order to promote language ex- tension and re-use Lan.d.s employs GrammarTraits, as units of composition for both MOG rules and ASL actions.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684822" title="Get the Full Text from the ACM Digital Library">Multiple lexicalisation (a Java based study)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Elizabeth Scott</li>
+<li class="nameList Last">Adrian Johnstone</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We consider the possibility of making the lexicalisation phase of compilation more powerful by avoiding the need for the lexer to return a single token string from the input character string. This has the potential to empower language design by softening the boundaries between lexical and phrase level specification. The large number of lexicalisations makes it impractical to parse each one individually, but it is possible to share the parsing of common subparts, reducing the number of tokens parsed from the product of the token numbers associated with the components to their sum. We report total numbers of lexicalisations of example Java strings, and the impact on these numbers of various lexical disambiguation strategies, and we introduce a new generalised parsing technique that can efficiently parse multiple lexicalisations of character string simultaneously. We then use this technique on Java, reporting on the number of lexicalisations that correspond to syntactically correct Java strings and the degree to which the standard Java lexer is safe in the sense that it does not remove all the syntactically correct lexicalisations of an input character string. Our multi-lexer parser is an alternative to scannerless parsing of a character level grammar, retaining the separation between grammar terminals and the corresponding lexical tokens. This has the advantages of allowing the parser to use terminal level lookahead and keeping lexical level disambiguation separate from the context free grammar.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684823" title="Get the Full Text from the ACM Digital Library">Breaking parsers: mutation-based generation of programs with guaranteed syntax errors</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Moeketsi Raselimo</li>
+<li class="nameList">Jan Taljaard</li>
+<li class="nameList Last">Bernd Fischer</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Grammar-based test case generation has focused almost exclusively on generating syntactically correct programs (i.e., positive tests) from a context-free reference grammar but a positive test suite cannot detect when the unit under test accepts words outside the language (i.e., false positives). Here, we investigate the converse problem and describe two mutation-based approaches for generating programs with guaranteed syntax errors (i.e., negative tests). % Word mutation systematically modifies positive tests by deleting, inserting, substituting, and transposing tokens in such a way that at least one impossible token pair emerges. % Rule mutation applies such operations to the symbols of the right-hand sides of productions in such a way that each derivation that uses the mutated rule yields a word outside the language.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684824" title="Get the Full Text from the ACM Digital Library">Default disambiguation for online parsers</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Lukas Diekmann</li>
+<li class="nameList Last">Laurence Tratt</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Since composed grammars are often ambiguous, grammar composition requires a mechanism for dealing with ambiguity: either ruling it out by using delimiters (which are awkward to work with), or by using disambiguation operators to filter a parse forest down to a single parse tree (where, in general, we cannot be sure that we have covered all possible parse forests). In this paper, we show that default disambiguation, which is inappropriate for batch parsing, works well for online parsing, where it can be overridden by the user if necessary. We extend language boxes &#8211; a delimiter-based algorithm atop incremental parsing &#8211; in such a way that default disambiguation can automatically insert, remove, or resize, language boxes, leading to the <em>automatic language boxes</em> algorithm. The nature of the problem means that default disambiguation cannot always match a user&#8217;s intention. However, our experimental evaluation shows that automatic language boxes behave acceptably in 96.8% of tests involving compositions of real-world programming languages.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684835" title="Get the Full Text from the ACM Digital Library">Domain-specific model differencing in visual concrete syntax</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Manouchehr Zadahmad</li>
+<li class="nameList">Eugene Syriani</li>
+<li class="nameList">Omar Alam</li>
+<li class="nameList">Esther Guerra</li>
+<li class="nameList Last">Juan de Lara</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Like any other software artifact, models evolve and need to be versioned. In the last few years, dedicated support for model versioning has been proposed to improve the default text-based versioning that version control systems offer. However, there is still the need to comprehend model differences in terms of the semantics of the modeling language. For this purpose, we propose a comprehensive approach that considers both abstract and concrete syntax, to express model differences in terms of the domain-specific language (DSL) used and define domain-specific semantics for specific difference patterns. The approach is based on the automatic extension of the DSL to enable the representation of changes, on the definition of rules to capture recurrent domain-specific difference patterns, and on the automatic adaptation of the graphical concrete syntax to visualize the differences. We present a prototype tool support and discuss its application on versioned models created by third parties.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684836" title="Get the Full Text from the ACM Digital Library">Detecting and exploring side effects when repairing model inconsistencies</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Djamel Eddine Khelladi</li>
+<li class="nameList">Roland Kretschmer</li>
+<li class="nameList Last">Alexander Egyed</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>When software models change, developers often fail in keeping them consistent. Automated support in repairing inconsistencies is widely addressed. Yet, merely enumerating repairs for developers is not enough. A repair can as a side effect cause new unexpected inconsistencies (negative) or even fix other inconsistencies as well (positive). To make matters worse, repairing negative side effects can in turn cause further side effects. Current approaches do not detect and track such side effects in depth, which can increase developers&#39; effort and time spent in repairing inconsistencies. This paper presents an automated approach for detecting and tracking the consequences of repairs, i.e. side effects. It recursively explores in depth positive and negative side effects and identifies paths and cycles of repairs. This paper further ranks repairs based on side effect knowledge so that developers may quickly find the relevant ones. Our approach and its tool implementation have been empirically assessed on 14 case studies from industry, academia, and GitHub. Results show that both positive and negative side effects occur frequently. A comparison with three versioned models showed the usefulness of our ranking strategy based on side effects. It showed that our approach&#39;s top prioritized repairs are those that developers would indeed choose. A controlled experiment with 24 participants further highlights the significant influence of side effects and of our ranking of repairs on developers. Developers who received side effect knowledge chose far more repairs with positive side effects and far less with negative side effects, while being 12.3% faster, in contrast to developers who did not receive side effect knowledge.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684837" title="Get the Full Text from the ACM Digital Library">High-level mission specification for multiple robots</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Sergio Garc&#237;a</li>
+<li class="nameList">Patrizio Pelliccione</li>
+<li class="nameList">Claudio Menghi</li>
+<li class="nameList">Thorsten Berger</li>
+<li class="nameList Last">Tomas Bures</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Mobile robots are increasingly used in our everyday life to autonomously realize missions. A variety of languages has been proposed to support roboticists in the systematic development of robotic applications, ranging from logical languages with well-defined semantics to domain-specific languages with user-friendly syntax. The characteristics of both of them have distinct advantages, however, developing a language that combines those advantages remains an elusive task. We present PROMISE, a novel language that enables domain experts to specify missions on a high level of abstraction for teams of autonomous robots in a user-friendly way, while having well-defined semantics. Our ambition is to permit users to specify high-level goals instead of a series of specific actions the robots should perform. The language contains a set of atomic tasks that can be executed by robots and a set of operators that allow the composition of these tasks in complex missions. The language is supported by a standalone tool that permits mission specification through a textual and a graphical interface and that can be integrated within a variety of frameworks. We integrated PROMISE with a software platform providing functionalities such as motion control and planning. We conducted experiments to evaluate the correctness of the specification and execution of complex robotic missions with both simulators and real robots. We also conducted two user studies to assess the simplicity of PROMISE. The results show that PROMISE effectively supports users to specify missions for robots in a user-friendly manner.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684838" title="Get the Full Text from the ACM Digital Library">Efficient late binding of dynamic function compositions</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Lars Sch&#252;tze</li>
+<li class="nameList Last">Jeronimo Castrillon</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Adaptive software becomes more and more important as computing is increasingly context-dependent. Runtime adaptability can be achieved by dynamically selecting and applying context-specific code. Role-oriented programming has been proposed as a paradigm to enable runtime adaptive software by design. Roles change the objects&#8217; behavior at runtime and thus allow adapting the software to a given context. However, this increased variability and expressiveness has a direct impact on performance and memory consumption. We found a high overhead in the steady-state performance of executing compositions of adaptations. This paper presents a new approach to use run-time information to construct a dispatch plan that can be executed efficiently by the JVM. The concept of late binding is extended to dynamic function compositions. We evaluated the implementation with a benchmark for role-oriented programming languages leveraging context-dependent role semantics achieving a mean speedup of 2.79&#215; over the regular implementation.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684839" title="Get the Full Text from the ACM Digital Library">Empirical study on the usage of graph query languages in open source Java projects</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Philipp Seifer</li>
+<li class="nameList">Johannes H&#228;rtel</li>
+<li class="nameList">Martin Leinberger</li>
+<li class="nameList">Ralf L&#228;mmel</li>
+<li class="nameList Last">Steffen Staab</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Graph data models are interesting in various domains, in part because of the intuitiveness and flexibility they offer compared to relational models. Specialized query languages, such as Cypher for property graphs or SPARQL for RDF, facilitate their use. In this paper, we present an empirical study on the usage of graph-based query languages in open-source Java projects on GitHub. We investigate the usage of SPARQL, Cypher, Gremlin and GraphQL in terms of popularity and their development over time. We select repositories based on dependencies related to these technologies and employ various popularity and source-code based filters and ranking features for a targeted selection of projects. For the concrete languages SPARQL and Cypher, we analyze the activity of repositories over time. For SPARQL, we investigate common application domains, query use and existence of ontological data modeling in applications that query for concrete instance data. Our results show, that the usage of graph query languages in open-source projects increased over the last years, with SPARQL and Cypher being by far the most popular. SPARQL projects are more active in terms of query related artifact changes and unique developers involved, but Cypher is catching up. Relatively few applications use SPARQL to query for concrete instance data: A majority of those applications employ multiple different ontologies, including project and domain specific ones. Common application domains are management systems and data visualization tools.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684830" title="Get the Full Text from the ACM Digital Library">From DSL specification to interactive computer programming environment</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Pierre Jeanjean</li>
+<li class="nameList">Benoit Combemale</li>
+<li class="nameList Last">Olivier Barais</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The adoption of Domain-Specific Languages (DSLs) relies on the capacity of language workbenches to automate the development of advanced and customized environments. While DSLs are usually well tailored for the main scenarios, the cost of developing mature tools prevents the ability to develop additional capabilities for alternative scenarios targeting specific tasks (e.g., API testing) or stakeholders (e.g., education). In this paper, we propose an approach to automatically generate interactive computer programming environments from existing specifications of textual interpreted DSLs. The approach provides abstractions to complement the DSL specification, and combines static analysis and language transformations to automate the transformation of the language syntax, the execution state and the execution semantics. We evaluate the approach over a representative set of DSLs, and demonstrate the ability to automatically transform a textual syntax to load partial programs limited to a single statement, and to derive a Read-Eval-Print-Loop (REPL) from the specification of a language interpreter.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684831" title="Get the Full Text from the ACM Digital Library">Analysis and modeling of the governance in general programming languages</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Javier Luis C&#225;novas Izquierdo</li>
+<li class="nameList Last">Jordi Cabot</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>General Programming Languages (GPLs) continuously evolve to adapt to the ever changing technology landscape. The evolution is rooted on technical aspects but it is ultimately decided by the group of people governing the language and working together to solve, vote and approve the new language extensions and modifications. As in any community, governance rules are used to manage the community, help to prioritize their tasks and come to a decision. Typically, these rules specify the decision-making mechanism used in the project, thus contributing to its long-term sustainability by clarifying how core language developers (external contributors and even end-users of the language) can work together. Despite their importance, this core topic has been largely ignored in the study of GPLs. In this paper we study eight well-known GPLs and analyze how they govern their evolution. We believe this study helps to clarify the different approaches GPLs use in this regard. These governance models, depicted as a feature model, can then be reused and mixed by developers of new languages to define their own governance.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684832" title="Get the Full Text from the ACM Digital Library">Developing a monadic type checker for an object-oriented language: an experience report</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Elias Castegren</li>
+<li class="nameList Last">Kiko Fernandez-Reyes</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Functional programming languages are well-suited for developing compilers, and compilers for functional languages are often themselves written in a functional language. Functional abstractions, such as monads, allow abstracting away some of the repetitive structure of a compiler, removing boilerplate code and making extensions simpler. Even so, functional languages are rarely used to implement compilers for languages of other paradigms. </p> <p> This paper reports on the experience of a four-year long project where we developed a compiler for a concurrent, object-oriented language using the functional language Haskell. The focus of the paper is the implementation of the type checker, but the design works well in static analysis tools, such as tracking uniqueness of variables to ensure data-race freedom. The paper starts from a simple type checker to which we add more complex features, such as type state, with minimal changes to the overall initial design.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684833" title="Get the Full Text from the ACM Digital Library">Generating incremental type services</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Andr&#233; Pacak</li>
+<li class="nameList Last">Sebastian Erdweg</li>
+</ul>
+
+<div class="DLabstract"><div style="display:inline"><p>In this vision paper, we propose a method for generating fully functional incremental type services from declarations of type rules. Our general strategy is to translate type rules into Datalog, for which efficient incremental solvers are already available. However, many aspects of type rules don&#39;t naturally translate to Datalog and need non-trivial translation. We demonstrate that such translation may be feasible by outlining the translation rules needed for a language with typing contexts (name binding) and bidirectional type rules (local type inference). We envision that even rich type systems of DSLs can be incrementalized by translation to Datalog in the future.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684834" title="Get the Full Text from the ACM Digital Library">Transactional editing: giving ACID to programmers</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Friedrich Steimann</li>
+<li class="nameList Last">Nils Kurowsky</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Collaboration among programmers today mostly relies on file-based version control systems. These systems typically use optimistic locking to enable parallel work, meaning that competing edits (edit conflicts) are detected and have to be resolved at update or commit time. While merging edits can partly be automated, it is an error-prone task that can introduce inconsistencies. Pessimistic locking of the files to be edited does not appear to be a popular alternative, however, and in any case is insufficient to avoid inconsistency, since it does not account for the dependence of (code in) files on others. To address these problems, we show how the notions of atomicity, consistency, and isolation known from transactional databases can be enforced in the context of collaborative programming. We do so by presenting editing as a set of primitive edit operations applied to an abstract syntax graph overlaid by a constraint graph expressing the consistency criteria mandated by the rules of well-formedness of a language, and by deriving for every sequence of primitive edit operations the write- and read-locks sufficient to: perform the edit sequence, either completely or not at all, in isolation from others; and to achieve global consistency before committing.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

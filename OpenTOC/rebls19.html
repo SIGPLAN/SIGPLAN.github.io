@@ -1,0 +1,137 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>REBLS 2019- Proceedings of the 6th ACM SIGPLAN International Workshop on Reactive and Event-Based Languages and Systems</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>REBLS 2019- Proceedings of the 6th ACM SIGPLAN International Workshop on Reactive and Event-Based Languages and Systems</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3358503" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Language Design and Implementation</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684977" title="Get the Full Text from the ACM Digital Library">Concurrency control of JavaScript with arrows</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Tian Zhao</li>
+<li class="nameList">Adam Berger</li>
+<li class="nameList Last">Yonglun Li</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Concurrency control is difficult in JavaScript programs, where event race due to asynchronous computation is a major source of errors. While methods such as promises, cancellation tokens, and reactive programming offer their own advantages in addressing this problem, none offer a complete solution. </p> <p> In this work, we present an integrated solution for concurrency control of JavaScript using a library, arrowjs, which is based on the abstraction of arrows. Arrowjs uses continuation passing style to chain callbacks and it implicitly generates progress objects to manage concurrency. Arrowjs can implement a form of push-based reactive programming, where event streams are arrow loops communicating through shared memory. Arrowjs thus provides interoperability between thread-like callback chains and event streams with a uniform concurrency control mechanism.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684978" title="Get the Full Text from the ACM Digital Library">Towards a statically scheduled parallel execution of an FRP language for embedded systems</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Yoshitaka Sakurai</li>
+<li class="nameList Last">Takuo Watanabe</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This paper presents an automatic parallelization method for a pure FRP language designed for embedded systems. Recent advances in microprocessor technology make it possible to use multicore processors even in resource-constrained embedded systems. To fully utilize such processors with a pure FRP language, we propose a method for parallelizing signal graph updates. The method is based on a static scheduling algorithm because it should run with a simple RTOS or without the help of operating systems. To evaluate the proposed method, we implemented a parallelizing compiler for XFRP, a pure FRP language for embedded systems. In this paper, we describe the parallelizing method and show some preliminary evaluation results using Linux-based systems that demonstrate the effectiveness of the method.</p></div> </div>
+<h2>SESSION: Domain Specific Applications</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684979" title="Get the Full Text from the ACM Digital Library">GRASS: generic reactive application-specific scheduling</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Marcel Bl&#246;cher</li>
+<li class="nameList">Matthias Eichholz</li>
+<li class="nameList">Pascal Weisenburger</li>
+<li class="nameList">Patrick Eugster</li>
+<li class="nameList">Mira Mezini</li>
+<li class="nameList Last">Guido Salvaneschi</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>High resource utilization is important to operate compute infrastructures and data centers efficiently. High utilization is achieved by multiplexing several applications over the same physical infrastructure. Yet, with this approach, the different requirements of each application have to be taken into account when scheduling resources. We propose GRASS, a reactive domain-specific abstraction that allows specifying application-tailored resource scheduling policies. We demonstrate how the declarative approach of GRASS enables extension and composition of scheduling policies. Our evaluation shows the performance benefits of considering application-specific information in a composition of scheduling policies that adapt at run time.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684970" title="Get the Full Text from the ACM Digital Library">Event-based parsing</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Vadim Zaytsev</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Event-based parsing is a largely unexplored problem. Despite several hugely popular event-based parsers like SAX, there is very little research on the ways grammar engineers can be given explicit control over handling input tokens, and the consequences of exposing this control. Tool support is also underwhelming, with no language workbenches and very few libraries to help a parser developer to get started quickly and efficiently. To explore this paradigm, we have designed a language for event-based parsing and developed a prototype that translates specifications written in that language, to parsers in C#. We also report on the comparative performance of one of the parsers we generated, and a previously used PEG parser extracted from a real compiler.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

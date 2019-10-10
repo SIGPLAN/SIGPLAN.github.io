@@ -1,0 +1,187 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>DLS 2019- Proceedings of the 15th ACM SIGPLAN International Symposium on Dynamic Languages</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>DLS 2019- Proceedings of the 15th ACM SIGPLAN International Symposium on Dynamic Languages</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3359619" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Research Papers</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684893" title="Get the Full Text from the ACM Digital Library">First-class dynamic types</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Michael Homer</li>
+<li class="nameList">Timothy Jones</li>
+<li class="nameList Last">James Noble</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Since LISP, dynamic languages have supported dynamically-checked type annotations. Even in dynamic languages, these annotations are typically static: tests are restricted to checking low-level features of objects and values, such as primitive types or membership of an explicit programmer-defined class. </p> <p> We propose much more dynamic types for dynamic languages &#8212; first-class objects that programmers can customise, that can be composed with other types and depend on computed values &#8212; and to use these first-class type-like values <em>as</em> types. In this way programs can define their own conceptual models of types, extending both the kinds of tests programs can make via types, and the guarantees those tests can provide. Building on a comprehensive pattern-matching system and leveraging standard language syntax lets these types be created, composed, applied, and reused straightforwardly, so programmers can use these truly dynamic first-class types to make their programs easier to read, understand, and debug.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684894" title="Get the Full Text from the ACM Digital Library">Lazy pointer update for low heap compaction pause times</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Cl&#233;ment B&#233;ra</li>
+ <li class="nameList">Eliot Miranda</li>
+<li class="nameList Last">Elisa Gonzalez Boix</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>To keep applications highly responsive, garbage collectors (GCs) try to minimize interruptions of the application threads. While pauses due to non moving GCs can be drastically reduced through concurrent or incremental strategies, compaction pauses remain a big problem. </p> <p> A strategy to decrease stop the world compaction pauses is to compact subsets of the heap at any one time. But this only reduces the time spent in moving compacted objects, not the time spent updating all references to those objects, which may be significant in large heaps. In this paper, we propose to only move compacted objects during the compaction pause, replacing moved objects by low-overhead forwarding objects. References to compacted objects are lazily updated while the application is running and during the next GC marking phase, outside of the compaction pause. </p> <p> We evaluate our technique on a suite of high workload (2 to 14Gb) benchmarks built from a real industrial application. Results show that not updating pointers during the compaction pause decreases the median pause up to 31% and the longest pause up to 71% on these benchmarks, while the forwarding objects slow down execution time without GC by no more than 1%.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684805" title="Get the Full Text from the ACM Digital Library">Optimizing and evaluating transient gradual typing</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Michael M. Vitousek</li>
+<li class="nameList">Jeremy G. Siek</li>
+<li class="nameList Last">Avik Chaudhuri</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Gradual typing enables programmers to combine static and dynamic typing in the same language. However, ensuring sound interaction between the static and dynamic parts can incur runtime cost. In this paper, we analyze the performance of the transient design for gradual typing in Reticulated Python, a gradually typed variant of Python. This approach inserts lightweight checks throughout a program rather than installing proxies on higher order values. We show that, when using CPython as a host, performance decreases as programs evolve from dynamic to static types, up to a 6x slowdown compared to equivalent Python programs. </p> <p> To reduce this overhead, we design a static analysis and optimization that removes redundant runtime checks, employing a type inference algorithm that solves traditional subtyping constraints and also a new kind of check constraint. We evaluate the resulting performance and find that for many programs, the efficiency of partially typed programs is close to their untyped counterparts, removing most of the cost of transient checks. Finally, we measure the efficiency of Reticulated Python programs when running on PyPy, a tracing JIT. We find that combining PyPy with our type inference algorithm results in an average overhead of less than 1%.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684806" title="Get the Full Text from the ACM Digital Library">Python programmers have GPUs too: automatic Python loop parallelization with staged dependence analysis</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Dejice Jacob</li>
+<li class="nameList">Phil Trinder</li>
+<li class="nameList Last">Jeremy Singer</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Python is a popular language for end-user software development in many application domains. End-users want to harness parallel compute resources effectively, by exploiting commodity manycore technology including GPUs. However, existing approaches to parallelism in Python are esoteric, and generally seem too complex for the typical end-user developer. We argue that implicit, or automatic, parallelization is the <em>best</em> way to deliver the benefits of manycore to end-users, since it avoids domain-specific languages, specialist libraries, complex annotations or restrictive language subsets. Auto-parallelization fits the Python philosophy, provides effective performance, and is convenient for non-expert developers. </p> <p>Despite being a dynamic language, we show that Python is a suitable target for auto-parallelization. In an empirical study of 3000+ open-source Python notebooks, we demonstrate that typical loop behaviour &#8216;in the wild&#8217; is amenable to auto-parallelization. We show that <em>staging</em> the dependence analysis is an effective way to maximize performance. We apply classical dependence analysis techniques, then leverage the Python runtime&#8217;s rich introspection capabilities to resolve additional loop bounds and variable types in a just-in-time manner. The parallel loop nest code is then converted to CUDA kernels for GPU execution. We achieve orders of magnitude speedup over baseline interpreted execution and some speedup (up to 50x, although not consistently) over CPU JIT-compiled execution, across 12 loop-intensive standard benchmarks.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684807" title="Get the Full Text from the ACM Digital Library">R melts brains: an IR for first-class environments and lazy effectful arguments</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Olivier Fl&#252;ckiger</li>
+<li class="nameList">Guido Chari</li>
+<li class="nameList">Jan Je&#269;men</li>
+<li class="nameList">Ming-Ho Yee</li>
+<li class="nameList">Jakob Hain</li>
+<li class="nameList Last">Jan Vitek</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The R programming language combines a number of features considered hard to analyze and implement efficiently: dynamic typing, reflection, lazy evaluation, vectorized primitive types, first-class closures, and extensive use of native code. Additionally, variable scopes are reified at runtime as first-class environments. The combination of these features renders most static program analysis techniques impractical, and thus, compiler optimizations based on them ineffective. We present our work on PIR, an intermediate representation with explicit support for first-class environments and effectful lazy evaluation. We describe two dataflow analyses on PIR: the first enables reasoning about variables and their environments, and the second infers where arguments are evaluated. Leveraging their results, we show how to elide environment creation and inline functions.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684808" title="Get the Full Text from the ACM Digital Library">Sindarin: a versatile scripting API for the Pharo debugger</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Thomas Dupriez</li>
+<li class="nameList">Guillermo Polito</li>
+<li class="nameList">Steven Costiou</li>
+<li class="nameList">Vincent Aranega</li>
+<li class="nameList Last">St&#233;phane Ducasse</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Debugging is one of the most important and time consuming activities in software maintenance, yet mainstream debuggers are not well-adapted to several debugging scenarios. This has led to the research of new techniques covering specific families of complex bugs. Notably, recent research proposes to empower developers with scripting DSLs, plugin-based and moldable debuggers. However, these solutions are tailored to specific use-cases, or too costly for one-time-use scenarios. In this paper we argue that exposing a debugging scripting interface in mainstream debuggers helps in solving many challenging debugging scenarios. For this purpose, we present Sindarin, a scripting API that eases the expression and automation of different strategies developers pursue during their debugging sessions. Sindarin provides a GDB-like API, augmented with AST-bytecode-source code mappings and object-centric capabilities. To demonstrate the versatility of Sindarin, we reproduce several advanced breakpoints and non-trivial debugging mechanisms from the literature.</p></div> </div>
+<h2>SESSION: Experience Papers</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684809" title="Get the Full Text from the ACM Digital Library">Language-independent development environment support for dynamic runtimes</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Daniel Stolpe</li>
+<li class="nameList">Tim Felgentreff</li>
+<li class="nameList">Christian Humer</li>
+<li class="nameList">Fabio Niephaus</li>
+<li class="nameList Last">Robert Hirschfeld</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>There are many factors for the success of a new programming language implementation. Existing language implementation frameworks such as Truffle or RPython have focused on run-time performance and security, or on providing a comprehensive set of libraries. </p> <p> The tools that language users need to be productive are also an important factor for the adoption of a programming language. The aforementioned frameworks, however, provide limited support for creating comprehensive development tools. This is an impediment to language adoption that can be as serious as performance issues or lack of libraries. Both Truffle and RPython already provide run-time tools such as for debugging, profiling, or coverage in a language-independent manner, but neither support static development tasks carried out in code editors. </p> <p> In this work, we propose a language-agnostic approach to add this missing tooling by making the LSP available automatically to all language implementations on the Truffle framework. Furthermore, we show how our approach can utilize runtime information to provide IDE features rarely available for dynamic programming languages.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684800" title="Get the Full Text from the ACM Digital Library">Reflections on the compatibility, performance, and scalability of parallel Python</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Remigius Meier</li>
+<li class="nameList Last">Thomas R. Gross</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Today&#39;s hardware is increasingly parallel, and to increase performance, applications must be able to use this parallelism. Hence, programming languages must provide the means for parallel execution. The language Python offers a multithreading, shared-memory model for concurrency. However, simultaneous execution of threads, i.e., parallel execution, is not a standard feature of current virtual machines (VM) for Python. Instead, the predominant Python VMs depend on a global interpreter lock, which serializes the execution. </p> <p> In a parallel VM, replicating Python&#39;s concurrency semantics is challenging. Today, there are three parallel VMs, which use one of two approaches to address the challenges: Jython, IronPython, and PyPy-STM. These VMs use two fundamentally different approaches to synchronize parallel execution under Python&#39;s concurrency semantics: Jython and IronPython use fine-grained locking, and PyPy-STM uses software transactional memory (STM). </p> <p> The two approaches result in different performance characteristics and levels of Python compatibility for these VMs. In this paper, we report on our experience with the three parallel VMs by comparing their compatibility, performance, and scalability. The comparison shows that fine-grained locking can yield better scalability than the STM approach. However, regarding the faithful reproduction of Python&#39;s concurrency semantics and the absolute performance, the STM approach currently has the advantage.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684801" title="Get the Full Text from the ACM Digital Library">Standard object out: streaming objects with polymorphic write streams</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Marcel Weiher</li>
+<li class="nameList Last">Robert Hirschfeld</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We propose <em>standard object out</em>, an object-oriented analog to the output part of the Unix standard input output library. </p> <p><em>Polymorphic Write Streams</em> (PWS) act as architectural adapters between the object-oriented architectural style and the pipes and filters architectural style in the same way that stdio acts as an architectural adapter between the call/return architectural style and the pipes and filters architectural style. </p> <p>Current object-oriented interfaces to the Unix I/O system mimic their procedural counterparts so closely that they manage to be neither polymorphic nor streaming, at least not for objects. Specifically the object is first converted to a fixed byte-representation by sending it a specific message and the result is then output on the underlying byte stream. </p> <p>With this approach, these APIs do not allow for streaming behaviour: the entire result has to be constructed in-memory before it can be output. In addition, output of nested structures can require large multiples of time and space compared to the final output size, and fails completely if there are cycles in the object graph. It also does not allow for polymorphic behaviour. </p> <p>To solve these problems, we propose <em>Polymorphic Write-Streams</em> (PWS). PWSs represent a hierarchy of classes that decouple encoding from specific streaming destinations. Using <em>triple dispatch</em> they provide streaming behaviour and allow each stream to react specifically to each kind of object and vice versa: sharing of common functionality is enabled by chaining messages along the streams&#8217; inheritance chain.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

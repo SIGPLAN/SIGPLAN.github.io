@@ -1,0 +1,215 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>GPCE 2019- Proceedings of the 18th ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>GPCE 2019- Proceedings of the 18th ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3357765" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Papers</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684845" title="Get the Full Text from the ACM Digital Library">Foreign language interfaces by code migration</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Shigeru Chiba</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>A foreign function interface (FFI) is a classical abstraction used for interfacing a programming language with another foreign language to reuse its libraries. This interface is important for a new (or non prevailing) language because it lacks libraries and thus needs to borrow libraries written in a foreign language when the programmer develops a practical application in that new language. However, a modern library often exploits unique language mechanisms of the implementation language. This makes the use of the library difficult through a simple function call from that new language. This paper presents our approach to this problem. We use an embedded domain specific language (DSL), which is designed to resemble the foreign language, and migrate the DSL code to access to the library written in the foreign language. This paper also presents our framework Yadriggy for developing the DSL from Ruby to a foreign language environment. The framework supports DSL-specific syntax checking for the migrated DSL code.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684846" title="Get the Full Text from the ACM Digital Library">A language feature to unbundle data at will (short paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Musa Al-hassy</li>
+<li class="nameList">Jacques Carette</li>
+<li class="nameList Last">Wolfram Kahl</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Programming languages with sufficiently expressive type systems provide users with different means of data &#8216;bundling&#8217;. Specifically, in dependently-typed languages such as Agda, Coq, Lean and Idris, one can choose to encode information in a record either as a parameter or a field. For example, we can speak of graphs <em>over</em> a particular vertex set, or speak of arbitrary graphs where the vertex set is a component. These create isomorphic types, but differ with respect to intended use. Traditionally, a library designer would make this choice (between parameters and fields); if a user wants a different variant, they are forced to build conversion utilities, as well as duplicate functionality. For a graph data type, if a library only provides a Haskell-like typeclass view of graphs <em>over</em> a vertex set, yet a user wishes to work with the category of graphs, they must now package a vertex set as a component in a record along with a graph over that set. </p> <p>We design and implement a language feature that allows both the library designer and the user to make the choice of information exposure only when necessary, and otherwise leave the distinguishing line between parameters and fields unspecified. Our language feature is currently implemented as a prototype meta-program incorporated into Agda&#8217;s Emacs ecosystem, in a way that is unobtrusive to Agda users.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684847" title="Get the Full Text from the ACM Digital Library">Parallel nondeterministic programming as a language extension to C (short paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Lucas Kramer</li>
+<li class="nameList Last">Eric Van Wyk</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This paper explores parallel nondeterministic programming as an extension to the C programming language; it provides constructs for specifying code containing ambiguous choice as introduced by McCarthy. A translator to plain C code was implemented as an extension to the ableC language specification. Translation involves a transformation to continuation passing style, providing lazy choice by storing continuation closures in a separate task buffer. This exploration considers various search evaluation approaches and their impact on correctness and performance. Multiple search drivers were implemented, including single-threaded depth-first search, a combined breadth- and depth-first approach, as well as two approaches to parallelism. Several benchmark applications were created using the extension, including n-Queens, SAT, and triangle peg solitaire. The simplest parallel search driver, using independent threads, showed the best performance in most cases, providing a significant speedup over the sequential versions. Adding task sharing between threads showed similar or slightly improved performance.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684848" title="Get the Full Text from the ACM Digital Library">Agile construction of data science DSLs (tool demo)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Artur Andrzejak</li>
+<li class="nameList">Kevin Kiefer</li>
+<li class="nameList">Diego Elias Costa</li>
+<li class="nameList Last">Oliver Wenz</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Domain Specific Languages (DSLs) have proven useful in the domain of data science, as witnessed by the popularity of SQL. However, implementing and maintaining a DSL incurs a significant effort which limits their utility in context of fast-changing data science frameworks and libraries. </p> <p> We propose an approach and a Python-based library/tool NLDSL which simplifies and streamlines implementation of DSLs modeling pipelines of operations. In particular, syntax description and operation implementation are bundled together as annotated and terse Python functions, which simplifies extending and maintaining a DSL. To support ad hoc DSL elements, NLDSL offers a mechanism to define DSL-level functions as first-class DSL elements. </p> <p> Our tool automatically supports each DSL by code completions and in-editor documentation in a multitude of IDEs implementing the Microsoft&#39;s Language Server Protocol. To circumvent the problem of a limited expressiveness of a external DSL, our tool allows embedding DSL statements in the source code comments of a general purpose language and to translate the DSL to such a language during editing. </p> <p> We demonstrate and evaluate our approach and tool by implementing a DSL for data tables which is translated to either Pandas or to PySpark code. A preliminary evaluation shows that this DSL can be defined in a concise and maintainable way, and that it can cover a majority of processing steps of popular Spark/Pandas tutorials.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684849" title="Get the Full Text from the ACM Digital Library">A stage-polymorphic IR for compiling MATLAB-style dynamic tensor expressions</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Alen Stojanov</li>
+<li class="nameList">Tiark Rompf</li>
+<li class="nameList Last">Markus P&#252;schel</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We propose a novel approach for compiling MATLAB and similar languages that are characterized by tensors with dynamic shapes and types. We stage an evaluator for a subset of MATLAB using the Lightweight Modular Staging (LMS) framework to produce a compiler that generates C code. But the first Futamura projection alone does not lead to efficient code: we need to refine the rigid stage distinction based on type and shape inference to remove costly runtime checks. </p> <p> To this end, we introduce a stage-polymorphic data structure, that we refer to as metacontainer, to represent MATLAB tensors and their type and shape information. We use metacontainers to efficiently "inject" constructs into a high-level intermediate representation (IR) to infer shape and type information. Once inferred, metacontainers are also used as the primary abstraction for lowering the computation, performing type, shape, and ISA specialization. Our prototype MATLAB compiler MGen produces static C code that supports all primitive types, heavily overloaded operators, many other dynamic aspects of the language, and explicit vectorization for SIMD architectures.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684840" title="Get the Full Text from the ACM Digital Library">Reflection in attribute grammars</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Lucas Kramer</li>
+<li class="nameList">Ted Kaminski</li>
+<li class="nameList Last">Eric Van Wyk</li>
+
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This paper shows how reflection on (undecorated) syntax trees used in attribute grammars can significantly reduce the amount of boiler-plate specifications that must be written. It is implemented in the Silver attribute grammar system in the form of a reflect function mapping syntax trees and other values into a generic representation and a reify function for the inverse mapping. We demonstrate its usefulness in several ways. The first is in an extension to Silver itself that simplifies writing language extensions for the ableC extensible C specification by allowing language engineers to specify C-language syntax trees using the concrete syntax of C (with typed holes) instead of writing abstract syntax trees. Secondly, a scrap-your-boilerplate style substitution mechanism is described. The third use is in serialization and de-serialization of the interface files Silver generates to support separate compilation; a custom interface language was replaced by a generic reflection-based implementation. Finally, an experimental implementation of staged interpreters for a small staged functional language is discussed.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684841" title="Get the Full Text from the ACM Digital Library">Polymorphic extractors for semantic and portable pattern matching (short paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Amir Shaikhha</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This paper introduces polymorphic extractors, a technique for tackling two main issues with the existing pattern matching techniques in functional languages. First, this technique defines semantic pattern matching rather than a syntactic one. Second, this technique solves the portability issue when defining a set of patterns based on different underlying data-structure design choices. Furthermore, polymorphic extractors can be further improved by performing optimizations and multi-stage programming. The key technique behind polymorphic extractors is using the tagless-final technique (a.k.a. polymorphic embedding/object algebras) for defining different extraction semantics over expression terms.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684842" title="Get the Full Text from the ACM Digital Library">Automated metamodel augmentation for seamless model evolution tracking and planning</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Michael Nieke</li>
+<li class="nameList">Adrian Hoff</li>
+<li class="nameList Last">Christoph Seidl</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In model-based software engineering, models are central artifacts used for management, design and implementation. To meet new requirements, engineers need to plan and perform model evolution. So far, model evolution histories are captured using Version Control Systems (VCSs), e.g., Git. However, these systems are unsuitable for planning model evolution as they do not have a notion of future changes. Furthermore, formally assigning responsibilities to engineers for performing evolution of model parts is achieved by using additional tools for access control. To remedy these shortcomings, we provide a method to generate evolution-aware modeling notations by augmenting existing metamodels with concepts for capturing past and planned evolution as first-class entity. Our method enables engineers to seamlessly plan future model evolution while actively developing the current model state, both using a centralized access point for evolution. In our evaluation, we provide an implementation of our method in the tool TemporalRegulator3000, show applicability for real-world metamodels, and capture the entire evolution time line of corresponding models.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684843" title="Get the Full Text from the ACM Digital Library">Floorplan: spatial layout in memory management systems</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Karl Cronburg</li>
+<li class="nameList Last">Samuel Z. Guyer</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In modern runtime systems, memory layout calculations are hand-coded in systems languages. Primitives in these languages are not powerful enough to describe a rich set of layouts, leading to reliance on ad-hoc macros, numerous interrelated static constants, and other boilerplate code. Memory management policies must also carefully orchestrate their application of address calculations in order to modify memory cooperatively, a task ill-suited to low-level systems languages at hand which lack proper safety mechanisms. </p> <p> In this paper we introduce Floorplan, a declarative language for specifying high level memory layouts. Constraints formerly implemented by describing how to compute locations are, in Floorplan, defined declaratively using explicit layout constructs. The challenge here was to discover constructs capable of sufficiently enabling the automatic generation of address calculations. Floorplan is implemented as a compiler for generating a Rust library. In a case study of an existing implementation of the immix garbage collection algorithm, Floorplan eliminates 55 out of the 63 unsafe lines of code: 100% of unsafe lines pertaining to memory safety.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684844" title="Get the Full Text from the ACM Digital Library">Compiler generation for performance-oriented embedded DSLs (short paper)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Amir Shaikhha</li>
+<li class="nameList">Vojin Jovanovic</li>
+<li class="nameList Last">Christoph E. Koch</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In this paper, we present a framework for generating optimizing compilers for performance-oriented embedded DSLs (EDSLs). This framework provides facilities to automatically generate the boilerplate code required for building DSL compilers on top of the existing extensible optimizing compilers. We evaluate the practicality of our framework by demonstrating a real-world use-case successfully built with it.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684955" title="Get the Full Text from the ACM Digital Library">Lifted static analysis using a binary decision diagram abstract domain</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Aleksandar S. Dimovski</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Many software systems are today variational. They can produce a potentially large variety of related programs (variants) by selecting suitable configuration options (features) at compile time. Specialized variability-aware (lifted, family-based) static analyses allow analyzing all variants of the family, simultaneously, in a single run without generating any of the variants explicitly. In effect, they produce precise analysis results for all individual variants. The elements of the lifted analysis domain represent tuples (i.e. disjunction of properties), which maintain one property from an existing single-program analysis domain per variant. Nevertheless, explicit property enumeration in tuples, one by one for all variants, immediately yields to combinatorial explosion given that the number of variants can grow exponentially with the number of features. Therefore, such lifted analyses may be too costly or even infeasible for families with a large number of variants. </p> <p>In this work, we propose a more efficient lifted static analysis where sharing is explicitly possible between analysis elements corresponding to different variants. This is achieved by giving a symbolic representation of the lifted analysis domain, which can efficiently handle disjunctive properties in program families. The elements of the new lifted domain are binary decision diagrams where decision nodes are labeled with features, and the leaf nodes belong to an existing single-program analysis domain. We have developed a lifted static analysis which uses APRON and BDDAPRON libraries for implementing the new lifted analysis domain. The APRON library, used for the leaves, is a widely accepted API for numerical abstract domains (e.g. polyhedra, octagons, intervals), while the BDDAPRON is an extension of &#160; which adds the power domain of Boolean formulae and any APRON domain. Through experiments applied to C program families, we show that our new BDD-based approach outperforms the old tuple-based approach for lifted analysis.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684956" title="Get the Full Text from the ACM Digital Library">Harmonized temporal feature modeling to uniformly perform, track, analyze, and replay software product line evolution</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Daniel Hinterreiter</li>
+<li class="nameList">Michael Nieke</li>
+<li class="nameList">Lukas Linsbauer</li>
+<li class="nameList">Christoph Seidl</li>
+<li class="nameList">Herbert Pr&#228;hofer</li>
+<li class="nameList Last">Paul Gr&#252;nbacher</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>A feature model (FM) describes commonalities and variability within a software product line (SPL) and represents the configuration options at one point in time. A temporal feature model (TFM) additionally represents FM evolution, e.g., the change history or the planning of future releases. The increasing number of different TFM notations hampers research collaborations due to a lack of interoperability regarding notations, editors, and analyses. We present a common API for TFMs, which provides the core of a TFM ecosystem, to harmonize notations. We identified the requirements for the API based on systematically classifying and comparing the capabilities of existing TFM approaches. Our approach allows to work seamlessly with different TFM notations to perform, track, analyze and replay evolution. Our evaluation investigates two research questions on the expressiveness (RQ1) and utility (RQ2) of our approach by presenting implementations for several existing FM and TFM notations and replaying evolution histories from two case study systems.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684957" title="Get the Full Text from the ACM Digital Library">Supporting feature model evolution by suggesting constraints from code-level dependency analyses</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Kevin Feichtinger</li>
+<li class="nameList">Daniel Hinterreiter</li>
+<li class="nameList">Lukas Linsbauer</li>
+<li class="nameList">Herbert Pr&#228;hofer</li>
+<li class="nameList Last">Paul Gr&#252;nbacher</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Feature models are a de facto standard for representing the commonalities and variability of product lines and configurable software systems. Requirements-level features are commonly implemented in multiple source code artifacts, which results in complex dependencies at the code level. As developers change and evolve features frequently, it is challenging to keep feature models consistent with their implementation. We thus present an approach combining feature-to-code mappings and code dependency analyses to inform engineers about possible inconsistencies. Our focus is on code-level changes requiring updates in feature dependencies and constraints. Our approach uses static code analysis and a variation control system to lift complex code-level dependencies to feature models. We present the suggested dependencies to the engineer in two ways: directly as links between features in a feature model and as a heatmap visualizing the dependency changes of all features in a model. We present results of an evaluation on the Pick-and-Place Unit system, which demonstrates the utility and performance of our approach and the quality of the suggestions.</p></div> </div>
+</div>
+</div>
+</body>
+</html>
