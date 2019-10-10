@@ -444,6 +444,11 @@
   title: "Proceedings of the 2018 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications"
   link: https://dl.acm.org/citation.cfm?id=3288538
 -
+  event: OOPSLA
+  year: 2019
+  title: "Proceedings of the 2019 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+  link: https://dl.acm.org/citation.cfm?id=3366395
+-
   event: PEPM
   year: 2014
   title: "Proceedings of the 2014 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation"
