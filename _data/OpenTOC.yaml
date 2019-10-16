@@ -19,9 +19,17 @@
   year: 2018
   title: "Proceedings of the 8th International Workshop on Programming Based on Actors, Agents, and Decentralized Control"
 -
+  event: AGERE!
+  year: 2019
+  title: "Proceedings of the 9th International Workshop on Programming Based on Actors, Agents, and Decentralized Control"
+-
   event: AI-SEPS
   year: 2018
   title: "Proceedings of the 5th ACM SIGPLAN International Workshop on Artificial Intelligence and Empirical Methods for Software Engineering and Parallel Computing Systems"
+-
+  event: AI-SEPS
+  year: 2019
+  title: "Proceedings of the 6th ACM SIGPLAN International Workshop on Artificial Intelligence and Empirical Methods for Software Engineering and Parallel Computing Systems"
 -
   event: ARRAY
   year: 2014
@@ -126,6 +134,10 @@
   event: DSM
   year: 2016
   title: "Proceedings of the 16th Workshop on Domain-Specific Modeling"
+-
+  event: DSM
+  year: 2019
+  title: "Proceedings of the 19th Workshop on Domain-Specific Modeling"
 -
   event: DYLA
   year: 2014
@@ -381,6 +393,10 @@
   event: META
   year: 2018
   title: "Proceedings of the 3rd ACM SIGPLAN International Workshop on Meta-Programming Techniques and Reflection"
+-
+  event: META
+  year: 2019
+  title: "Proceedings of the 4th ACM SIGPLAN International Workshop on Meta-Programming Techniques and Reflection"
 -
   event: Mobile!
   year: 2016
@@ -698,6 +714,14 @@
   event: SPLASH
   year: 2017
   title: "Companion Proceedings of the 2017 ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity"
+-
+  event: SPLASH
+  year: 2018
+  title: "Companion Proceedings of the 2018 ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity"
+-
+  event: SPLASH
+  year: 2019
+  title: "Companion Proceedings of the 2019 ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity"
 -
   event: SPLASH-E
   year: 2018
