@@ -1,0 +1,135 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>META 2019- Proceedings of the 4th ACM SIGPLAN International Workshop on Meta-Programming Techniques and Reflection</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>META 2019- Proceedings of the 4th ACM SIGPLAN International Workshop on Meta-Programming Techniques and Reflection</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3358502" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Papers</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684925" title="Get the Full Text from the ACM Digital Library">Ambiguous, informal, and unsound: metaprogramming for naturalness</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Toni Mattis</li>
+<li class="nameList">Patrick Rein</li>
+<li class="nameList Last">Robert Hirschfeld</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Program code needs to be understood by both machines and programmers. While the goal of executing programs requires the unambiguity of a formal language, programmers use natural language within these formal constraints to explain implemented concepts to each other. This so called <em>naturalness</em> &#8211; the property of programs to resemble human communication &#8211; motivated many statistical and machine learning (ML) approaches with the goal to improve software engineering activities. </p> <p>The metaprogramming facilities of most programming environments model the formal elements of a program (meta-objects). If ML is used to support engineering or analysis tasks, complex infrastructure needs to bridge the gap between meta-objects and ML models, changes are not reflected in the ML model, and the mapping from an ML output back into the program&#8217;s meta-object domain is laborious. </p> <p>In the scope of this work, we propose to extend metaprogramming facilities to give tool developers access to the <em>representations</em> of program elements within an exchangeable ML model. We demonstrate the usefulness of this abstraction in two case studies on test prioritization and refactoring. We conclude that aligning ML representations with the program&#8217;s formal structure lowers the entry barrier to exploit statistical properties in tool development.</p></div> </div>
+ <h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684926" title="Get the Full Text from the ACM Digital Library">From definitional interpreter to symbolic executor</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Adrian D. Mensing</li>
+<li class="nameList">Hendrik van Antwerpen</li>
+<li class="nameList">Casper Bach Poulsen</li>
+<li class="nameList Last">Eelco Visser</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Symbolic execution is a technique for automatic software validation and verification. New symbolic executors regularly appear for both existing and new languages and such symbolic executors are generally manually (re)implemented each time we want to support a new language. We propose to automatically generate symbolic executors from language definitions, and present a technique for mechanically (but as yet, manually) deriving a symbolic executor from a definitional interpreter. The idea is that language designers define their language as a monadic definitional interpreter, where the monad of the interpreter defines the meaning of branch points. Developing a symbolic executor for a language is a matter of changing the monadic interpretation of branch points. In this paper, we illustrate the technique on a language with recursive functions and pattern matching, and use the derived symbolic executor to automatically generate test cases for definitional interpreters implemented in our defined language.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684927" title="Get the Full Text from the ACM Digital Library">Squirrel: an extensible distributed key-value store</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Kevin De Porre</li>
+<li class="nameList Last">Elisa Gonzalez Boix</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Distributed key-value (KV) stores are a rising alternative to traditional relational databases since they provide a flexible yet simple data model. Recent KV stores use eventual consistency to ensure fast reads and writes as well as high availability. Support for eventual consistency is however still very limited as typically only a handful of replicated data types are provided. Moreover, modern applications maintain various types of data, some of which require strong consistency whereas other require high availability. Implementing such applications remains cumbersome due to the lack of support for data consistency in today&#39;s KV stores. In this paper we propose Squirrel, an open implementation of an in-memory distributed KV store. The core idea is to reify distribution through consistency models and protocols. We implement two families of consistency models (strong consistency and strong eventual consistency) and several consistency protocols, including two-phase commit and CRDTs.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684928" title="Get the Full Text from the ACM Digital Library">FlashFreeze: low-overhead JavaScript instrumentation for function serialization</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Jonathan Van der Cruysse</li>
+<li class="nameList">Lode Hoste</li>
+<li class="nameList Last">Wolfgang Van Raemdonck</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Object serialization is important to a variety of applications, including session migration and distributed computing. A general JavaScript object serializer must support function serialization as functions are first-class objects. However, JavaScript offers no built-in function serialization and limits custom serializers by exposing no meta operator to query a function&#8217;s captured variables. Code instrumentation can expose captured variables but state-of-the-art instrumentation techniques introduce high overheads, vary in supported syntax and/or use complex (de)serialization algorithms. </p> <p>We introduce FlashFreeze, an instrumentation technique based on capture lists. FlashFreeze achieves a tiny run time overhead: an Octane score reduction of 3% compared to 76% for the state-of-the-art ThingsMigrate tool and 1% for the work-in-progress FSM tool. FlashFreeze supports all self-contained ECMAScript 5 programs except for specific uses of eval, with, and source code inspection. FlashFreeze&#8217;s construction gives rise to simple (de)serialization algorithms.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

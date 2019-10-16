@@ -1,0 +1,145 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>AGERE 2019- Proceedings of the 9th ACM SIGPLAN International Workshop on Programming Based on Actors, Agents, and Decentralized Control</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>AGERE 2019- Proceedings of the 9th ACM SIGPLAN International Workshop on Programming Based on Actors, Agents, and Decentralized Control</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3358499" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Papers</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684929" title="Get the Full Text from the ACM Digital Library">Actor-based incremental tree data processing for large-scale machine learning applications</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Kouhei Sakurai</li>
+<li class="nameList Last">Taiki Shimizu</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>A number of online machine learning techniques based on tree model have been studied in order to cope with today&#39;s requirements of quickly processing large scale data-sets. We present a design pattern for incremental tree data processing as gradually constructing on-demand tree-model on memory. Our approach adopts the actor model as making use of multi-cores and distributed computers without largely rewriting code for algorithms. The pattern basically defines a node in the tree as an actor which is the unit of asynchronous processes and each data instance flows between actor nodes as a message. We study concrete two machine learning algorithms, VFDT for decision tree&#39;s top-down growth and BIRCH for hierarchical clustering&#39;s bottom up growth. For supporting VFDT, we propose an extension mechanism of replicating root nodes so that it can address bottleneck as starting of inputs. For supporting BIRCH, we split processes of recursive construction into asynchronous steps with correcting target node by traversing extra horizontal links between sibling nodes. We carried out machine learning tasks with our implementation on top of Akka Java, and we confirmed reasonable performance for the tasks with large scale data-sets.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684920" title="Get the Full Text from the ACM Digital Library">Modal assertions for actor correctness</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Colin S. Gordon</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The actor model is a well-established way to approach to modularly designing and implementing concurrent and/or distributed systems, seeing increasing adoption in industry. But deductive verification tailored to actor programs remains underexplored; general concurrent logics could be used, but the logics are complex and full of features to reason about behaviors the actor model strives to avoid. </p> <p>We explore a relatively lightweight approach of extending a system for proving sequential program correctness with means to prove safety properties of actor programs (currently, assuming no faults). We borrow ideas from hybrid logic, a modal logic for stating assertions are true at a particular point in a model (in this case, a particular actor&#8217;s local state). To make such assertions useful, we stabilize them using rely-guarantee-style reasoning over local actor states, and only permit sending stable versions of these assertions to other actors. By carefully restricting the formation of assertions that a proposition is true at a certain actor, we avoid the need for actors to handle each others&#8217; rely-guarantee relations explicitly. Finally, we argue that the approach requires only modest adjustments beyond applying traditional sequential techniques to actors with immutable messages, by implementing most of the logic as a Dafny library.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684921" title="Get the Full Text from the ACM Digital Library">Static local coordination avoidance for distributed objects</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Tim Soethout</li>
+<li class="nameList">Tijs van der Storm</li>
+<li class="nameList Last">Jurgen J. Vinju</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In high-throughput, distributed systems, such as large-scale banking infrastructure, synchronization between actors becomes a bottle-neck in high-contention scenarios. This results in delays for users, and reduces opportunities for scaling such systems. This paper proposes Static Local Coordination Avoidance, which analyzes application invariants at compile time to detect whether messages are independent, so that synchronization at run time is avoided, and parallelism is increased. Analysis shows that in industry scenarios up to 60% of operations are independent. Initial performance evaluation shows that, in comparison to a standard 2-phase commit baseline, throughput is increased, and latency is reduced. As a result, scalability bottlenecks in high-contention scenarios in distributed actor systems are reduced for independent messages.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684922" title="Get the Full Text from the ACM Digital Library">Locations and session types in a language with higher-order reflection</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Michael Tran</li>
+<li class="nameList">Alexander R&#248;nning Bendixen</li>
+<li class="nameList">Bjarke Bredow Bojesen</li>
+<li class="nameList">Hans H&#252;ttel</li>
+ <li class="nameList Last">Stian Lasse Lybech</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We propose the localised &#961;-calculus, a process calculus that uses an identification of processes and names in higher-order communication along with a notion of <em>locations</em>. These are named, bounded areas for computation, organised in a hierarchy, and processes can move from one to another by crossing their boundaries. Process migration becomes higher-order communication. To control the usage of channels we develop a type system with binary session types for the localised &#961;-calculus, based on work by Giunti and Vasconcelos, and prove that it is sound.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684923" title="Get the Full Text from the ACM Digital Library">Run, actor, run: towards cross-actor language benchmarking</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Sebastian Blessing</li>
+<li class="nameList">Kiko Fernandez-Reyes</li>
+<li class="nameList">Albert Mingkun Yang</li>
+<li class="nameList">Sophia Drossopoulou</li>
+<li class="nameList Last">Tobias Wrigstad</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The actor paradigm supports the natural expression of concurrency. It has inspired the development of several actor-based languages, whose adoption depends, to a large extent, on the <em>runtime characteristics</em> ( the performance and scaling behaviour) of programs written in these languages. </p> <p>This paper investigates the relative runtime characteristics of Akka, CAF and Pony, based on the Savina benchmarks. We observe that the scaling of many of the Savina benchmarks does not reflect their categorization (into essentially sequential, concurrent and parallel), that many programs have similar runtime characteristics, and that their runtime behaviour may drastically change nature ( go from essentially sequential to parallel) by tweaking some parameters. </p> <p>These observations lead to our proposal of a single benchmark program which we designed so that through tweaking of some knobs (we hope) we can simulate most of the programs of the Savina suite.</p></div> </div>
+</div>
+</div>
+</body>
+</html>
