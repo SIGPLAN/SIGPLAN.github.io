@@ -26,19 +26,14 @@ Benefits
 
 Sponsored status provides a number of benefits:
 
-- You can use the name "The ACM SIGPLAN Conference / Workshop on ..." for
-  the event. <!-- BCP: What about "symposium? What about other permutations
-  of these words? --> 
-  <!-- AF: The concept is clear, do we have to over-specify? -->
-  <!-- AF: I am nervous that we are over-specifying at the moment! -->
+- You can use the name "The ACM SIGPLAN [Conference / Workshop / Symposium /
+  etc.] on ..." for the event. 
 - SIGPLAN takes financial responsibility for the event.
 - You have access to the [PAC Fund](/PAC) to support participation in the event.
-- Your proceedings (if any) will automatically be published in the Digital Library.
-- ACM can provide help with site selection, including venue negotiations.
-- You will receive help and guidance in organizing the event,
-  including an instruction manual.  <!-- BCP: Where is this instruction
-  manual? Why don't we just make it available to everybody and link it here? -->
-  <!-- AF: no idea. Annabel knows? -->
+- Your proceedings (if any) will automatically be published in the Digital
+  Library.
+- ACM may be able to provide help with site selection, including venue
+  negotiations. 
 
 These are in addition to the benefits available with in-cooperation status:
 
@@ -156,15 +151,17 @@ are available from the ACM website;
      
 <!-- AF: Do we need an entire page rewrite? -->
 
-Event Series
-------------
+Ongoing Sponsorship for Event Series
+------------------------------------
 
-For SIGPLAN-sponsored events that occur on a
-regular basis as part of a series (for example, every year),
-SIGPLAN offers ongoing sponsorship. Such events must be
-organized by a Steering Committee (SC). The SC, working
-in partnership with the SIGPLAN Executive Committee (EC), is
-responsible for the overall organization and financial plan of each
+For SIGPLAN-sponsored events that occur on a regular basis as part of a
+series (for example, every year), SIGPLAN offers ongoing sponsorship.  The
+current list of SIGPLAN events with ongoing sponsorship can be found
+[here](/Conferences).
+
+Events with ongoing sponsorship must be organized by a Steering Committee
+(SC). The SC, working in partnership with the SIGPLAN Executive Committee
+(EC), is responsible for the overall organization and financial plan of each
 instance of the series. SIGPLAN has
 [guidelines for steering committee organization](/Resources/Guidelines/SCommittee).  
 
@@ -175,7 +172,7 @@ previous (up to) three instances and any planned future instances.
 The request should also specify the proposed rules for the steering
 committee composition and evolution, the method for selecting the
 chair, and the responsibilities of the committee; these rules must
-conform to [SIGPLAN guidelines for SCs](http://www.sigplan.org/Resources/Guidelines/SCommittee).
+conform to [SIGPLAN guidelines for SCs](/Resources/Guidelines/SCommittee).
 
 If an event is granted ongoing sponsored status, then, for each instance of
 the event:

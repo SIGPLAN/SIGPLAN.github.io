@@ -6,24 +6,26 @@ SIGPLAN organizes the
 premier conferences and workshops in the area of programming language
 research, providing opportunities for researchers, developers,
 practitioners, and students to present their latest research
-advances.  
+advances.
 
-- ACM's 
-[master conference calendar](http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN)
-for SIGPLAN.
-- Information for [conference organizers](/Resources/Guidelines/ConferenceOrganizers) 
+- ACM's [master conference calendar](http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN)
+  for SIGPLAN.
+- Information for [conference
+  organizers](/Resources/Guidelines/ConferenceOrganizers) 
 
 * * * * *
 
-<!-- (BCP) Is this the correct list of "regularly sponsored" conferences? 
-      (E.g., should CGO be included?  Should CC?) -->
+<!-- (BCP) Is this the correct list of "regularly sponsored" conferences?
+      (E.g., should CGO be included?  Should CC?)  How should the list be
+      sorted? -->
       
 <!-- (AF) What does "regularly" mean? Permanently? If I remember correctly we 
       issued CC a 2-3 year sponsorship to be revisited later. Is that "regular"?
       Also, I don't have a way of checking the list, other than sending an
       email to everyone to report discrepancies. Shall we? -->
 
-The conferences listed below are regularly sponsored by SIGPLAN.
+The conferences listed below are regularly sponsored by
+SIGPLAN. 
 
 **Principles of Programming Languages ([POPL](/Conferences/POPL))**  
 Principles of Programming Languages is the premier forum for the
@@ -45,13 +47,6 @@ systems.
 The International Conference on Functional Programming is the
 premier forum for the design, implementations, and uses of
 functional programming.
-
-**Principles and Practices of Parallel Programming ([PPOPP](/Conferences/PPOPP))**  
-Principles and Practices of Parallel Programming provides a forum
-for papers on the principles and foundations of parallel
-programming, tools and techniques for parallel programming, and
-experiences in using parallel programming to solve applications
-problems.
 
 **Architectural Support for Programming Languages and Operating Systems ([ASPLOS](/Conferences/ASPLOS))**  
 The International Conference on Architectural Support for
@@ -127,6 +122,13 @@ technology and ideas bearing on programming broadly construed.
 The International Conference on Software Language Engineering (SLE) is
 devoted to the engineering principles of software languages: their
 design, their implementation, and their evolution.
+
+**Principles and Practices of Parallel Programming ([PPOPP](/Conferences/PPOPP))**  
+Principles and Practices of Parallel Programming provides a forum
+for papers on the principles and foundations of parallel
+programming, tools and techniques for parallel programming, and
+experiences in using parallel programming to solve applications
+problems.
 
 **Virtual Execution Environments ([VEE](/Conferences/VEE))**  
 The goal of the International Conference on Virtual Execution
