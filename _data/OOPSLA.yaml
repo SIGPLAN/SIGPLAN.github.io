@@ -1,3 +1,16 @@
+2018:
+- Awardee: Dino Distefano, Matthew Parkinson
+  Other: |
+    (for 2008) _[jStar: towards practical verification for Java](https://dl.acm.org/citation.cfm?id=1449782)_
+  Citation: |
+    The jStar paper is notable for introducing an approach to specifying 
+    OO design patterns that has since become standard and is used in 
+    modern tools such as VeriFast.  The approach is amenable to 
+    automation and extends to patterns such as Subject-Observer, in 
+    which there is not a strict hierarchical relationship between objects.  
+    The paper also describes a fully automated verification approach that 
+    required no proof hints within methods, inspiring the development of 
+    a number of later verification tools for separation logic.
 2017:
 - Awardee: Andy Georges, Dries Buytaert, Lieven Eeckhout
   Other: |

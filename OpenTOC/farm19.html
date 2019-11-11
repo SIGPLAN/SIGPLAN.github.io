@@ -1,0 +1,202 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>FARM 2019- Proceedings of the 7th ACM SIGPLAN International Workshop on Functional Art, Music, Modeling, and Design</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>FARM 2019- Proceedings of the 7th ACM SIGPLAN International Workshop on Functional Art, Music, Modeling, and Design</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3331543" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Music Generation</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689471" title="Get the Full Text from the ACM Digital Library">Music as language: putting probabilistic temporal graph grammars to good use</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Orestis Melkonian</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Music composers have long been attracted by the idea of an automated tool for music generation, that is able to aid them in their day-to-day compositional process. We focus on algorithmic composition techniques that do not aim to produce complete music pieces, but rather provide an expert composer with a source of copious amounts of musical ideas to explore. </p> <p> A promising formalism towards this direction are <i>probabilistic temporal graph grammars</i> (PTGGs), which allow for the automatic generation of musical structures by defining a set of expressive rewrite rules. </p> <p> However, the primary focus so far has been on generating harmonic structures, setting aside the other two main pillars of music: melody and rhythm. We utilize the expressiveness of PTGGs to transcribe grammars found in the musicology literature. In order to do so, we make slight modifications to the original PTGG formalism and provide a concise domain-specific language (DSL) embedded in Haskell to define such grammars. Furthermore, we employ a heuristics-driven post-processing step that interprets the abstract musical structures produced by our grammars into concrete musical output. </p> <p> Lastly, parametrizing over different musical configurations enables more user control over the generative process. We produce multiple variations of four configurations to demonstrate the flexibility of our framework and motivate the use of <i>formal grammars</i> in automated music composition.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689472" title="Get the Full Text from the ACM Digital Library">A functional model of jazz improvisation</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Donya Quick</li>
+<li class="nameList Last">Kelland Thomas</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present a model of jazz improvisation where short-term decision making by each performer is modeled as a function from contexts to music. Contexts can be shared, such as an agreed-upon chord progression, or they can also be private---a current state for each musician. We formalize this model in Haskell to generate potentially infinitely long jazz improvisations, and we have also used the same model in Python to support real-time human-computer interaction through jazz.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689473" title="Get the Full Text from the ACM Digital Library">Demo: counterpoint by construction</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Youyou Cong</li>
+<li class="nameList Last">John Leo</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present Music Tools, an Agda library for analyzing and synthesizing music. The library uses dependent types to simplify encoding of music rules, thus improving existing approaches based on simply typed languages. As an application of the library, we demonstrate an implementation of first-species counterpoint, where we use dependent types to constrain the motion of two parallel voices.</p></div> </div>
+<h2>SESSION: Games and Graphics</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689474" title="Get the Full Text from the ACM Digital Library">Fun with interfaces (SVG interfaces for musical expression)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Benedict R. Gaster</li>
+<li class="nameList">Nathan Renney</li>
+<li class="nameList Last">Carinna Parraman</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In this paper we address the design and implementation of custom controller interfaces, bridging the issue of user mapping between action and sound in interactive music systems. A simple framework utilizing functional specifications for musical interfaces and their mappings is presented, in terms of a subset of Scalable Vector Graphics (SVG); interfaces can be described using a simple Haskell based `controller DSL&#39; or equally using a vector drawing application (i.e. Illustrator). </p> <p> We demonstrate the practical use of our system for specifying interfaces as SVGs combined with Faust, a functional DSL for Digital Signal Processing (DSP), in the context of building digital musical instruments. We combine these into a hardware and software audio toolkit, with synthesizers, a sampler, effects, and sequencers. Written in the systems programming language Rust, it demonstrates utilizing the output of our DSLs, providing a type safe and high-level framework for DSP and interface development, with the performance benefits of Rust. Working examples of custom interfaces are described, using ROLI&#39;s Lightpad and Sensel&#39;s Morph.</p></div> </div>
+<h3>
+ <a class="DLtitleLink" href="https://dl.acm.org/authorize?N689485" title="Get the Full Text from the ACM Digital Library">Mobile game programming in Haskell</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Christina Zeller</li>
+<li class="nameList Last">Ivan Perez</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The use of pure functional languages for interactive applications, especially mobile applications and games, is still rare. Reasons include the lack of libraries and frameworks that implement necessary features, poor integration with existing toolchains, and the lack of examples that demonstrate how to best structure large interactive applications in a way that is scalable in terms of performance and modularity. </p> <p>In this paper we identify three specific challenges that limit the application of functional programming specifically to mobile apps and games: <em>purity</em>, <em>compositionality</em>, and <em>abstraction</em>. We discuss solutions to these problems, and propose a framework for mobile app programming that completely separates logic from IO, resulting in an architecture that is referentially transparent, modular, scalable, backend agnostic and trivial to test. We implement this proposal in FAWN, a collection of libraries that provide higher-level notions needed in commercial applications, like resource management, widgets, storing user preferences, audio playing, image rendering, and composable applications. We have verified the suitability of this approach by using it to build, in Haskell, six mobile games for iOS and Android.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689486" title="Get the Full Text from the ACM Digital Library">Demo: kaleidogen</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Joachim Breitner</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Kaleidogen lets you breed abstract circular patterns. You can crossbreed two and add their offspring to your stock. The game has no end, no score, no time pressure, the only goal is to please your personal sense of aesthetics. </p> <p> The mechanisms behind Kaleidogen imitate genetic inheritance. It is written in Haskell, compiled to JavaScript, runs in the browser and generates GL shader programs on the fly.</p></div> </div>
+<h2>SESSION: Live-Coding</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689487" title="Get the Full Text from the ACM Digital Library">Demo: functors and music</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Heinrich Apfelmus</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present work-in-progress on two projects whose combination enables live coding music in Haskell: <em>cnoidal</em>, a library for representing and transforming music, and <em>HyperHaskell</em>, a Haskell interpreter with a worksheet interface and graphical output. The library represents music as a collection of time intervals tagged with values, a data structure known as <em>temporal media</em>. Parametric polymorphism suggests various functor instances, like Applicative Functor, which we find to be highly useful for live coding. However, a lawful Monad instance can only be defined for some variants of the data type. We stress that these projects are not a specialized music environment, instead we compose a library with a general purpose interpreter.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689488" title="Get the Full Text from the ACM Digital Library">The sound of lambda</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Felipe Ignacio Noriega</li>
+<li class="nameList Last">Anne Veinberg</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>&lt;blockquote&gt;<b>Abstract: </b> Can lambda calculus be transformed to an artistic expression and if so, what could it sound like? This paper discusses the CodeKlavier&#8217;s Ckalcu&#955;ator: an arithmetic calculator for the piano following lambda calculus principles. The CodeKlavier is aspiring to become a performative programming language for the piano and the Ckalcu&#955;ator is the fourth sub-system in its development. As a well understood formalisation of computation, lambda calculus is utilised as the foundation of the Ckalcu&#955;ator in order to help us achieve a transition from a coding system to a computer programming language. Performing lambda calculus with the piano adds a conceptual, creative and performative dimension to otherwise simple arithmetic operations. This paper gives a brief introduction to the project, discusses the motivation, the system, and its artistic application before reflecting on the project&#8217;s future. &lt;/blockquote&gt;</p></div> </div>
+<h2>SESSION: Sound</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689489" title="Get the Full Text from the ACM Digital Library">Csound-expression: Haskell framework for computer music</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Anton Kholomiov</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The csound-expression library provides tools for sound design and electronic music composition. It embeds the powerful audio programming language Csound in Haskell, staying as close as possible to pure functional programming. In this paper we show and discuss how functional programming concepts can enhance creativity and reduce the complexity of music creation.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689480" title="Get the Full Text from the ACM Digital Library">Screaming in the IO monad: a realtime audio processing and control experiment in Haskell</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">David Janin</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We investigate in this paper the applicability of the notion monad streams to media stream programming, and, more specifically, audio processing and control. Simply said, a monad stream is sort of a list guarded by a monad action that returns either nothing when the stream is over, or, otherwise, just the current value of the stream and the guarding action of its continuation. Applied to the IO monad, it appears that monad streams can be used for modeling both input streams and output streams, with full control of the possibly synchronism between input and output streams in stream functions. This allows for defining both synchronous or asynchronous func- tions, or any combination of both notions. In the abstract, this opens quite intriguing and generic solutions towards programming systems that are globally asynchronous and locally synchronous (GALS). In the concrete, applied to real-time audio, this allows for combining, in a fairly simple and unified way, both (synchronous) audio processing and (asynchronous) audio control. As far as performance are concerned, our proposal allows non-trivial transformation of audio streams at 44100 Hz with a 10 ms latency, a performance comparable to functional programing languages dedicated to real-time audio processing such as Faust.</p></div> </div>
+<h2>SESSION: Musical Patterns</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689481" title="Get the Full Text from the ACM Digital Library">Representing music with prefix trees</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Yan Han</li>
+<li class="nameList">Nada Amin</li>
+<li class="nameList Last">Neel Krishnaswami</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Tonal music contains repeating or varying patterns that occur at various scales, exist at multiple locations, and embody diverse properties of musical notes. We define a language for representing music that expresses such patterns as musical transformations applied to multiple locations in a score. To concisely represent collections of patterns with shared structure, we organize them into prefix trees. We demonstrate the effectiveness of this approach by using it to recreate a complete piece of tonal music.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689482" title="Get the Full Text from the ACM Digital Library">What constitutes a musical pattern?</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Orestis Melkonian</li>
+<li class="nameList">Iris Yuping Ren</li>
+<li class="nameList">Wouter Swierstra</li>
+<li class="nameList Last">Anja Volk</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>There is a plethora of computational systems designed for alagorithmic discovery of musical patterns, ranging from geometrical methods to machine learning based approaches. These algorithms often disagree on what constitutes a pattern, mainly due to the lack of a broadly accepted definition of musical patterns. </p> <p> On the other side of the spectrum, human-annotated musical patterns also often do not reach a consensus, partly due to the subjectivity of each individual expert, but also due to the elusive definition of a musical pattern in general. </p> <p> In this work, we propose a framework of music-theoretic transformations, through which one can easily define predicates which dictate when two musical patterns belong to a particular equivalence class. We exploit simple notions from category theory to assemble transformations compositionally, allowing us to define complex transformations from simple and well-understood ones. </p> <p> Additionally, we provide a prototype implementation of our theoretical framework as an embedded domain-specific language in Haskell and conduct a meta-analysis on several algorithms submitted to a pattern extraction task of the the Music Information Retrieval Evaluation eXchange (MIREX) over the previous years.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

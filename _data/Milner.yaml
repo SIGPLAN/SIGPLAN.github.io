@@ -1,3 +1,19 @@
+2019:
+- Awardee: Martin Vechev
+  Citation: |
+    Martin Vechev is a prolific researcher who has made major contributions to 
+    many areas of programming languages. He is a pioneer who is often one of 
+    the first in the PL community to move into a new area. He is particularly 
+    well known for his seminal papers and tools at the interface of programming 
+    languages and machine learning. An example tool is JSNice, which deobfuscates 
+    JavaScript code by learning a probabilistic graphical model from a large 
+    corpus of programs, which is then used to predict improved variable names 
+    and perform statistical type inference. Another example at this interface is 
+    his work on using abstract interpretation for proving safety properties of 
+    deep neural networks, such as robustness. His many other contributions include 
+    significant advances in concurrent memory management, synthesis of 
+    synchronization code for concurrent programs, and efficient program analysis.
+    
 2018:
 - Awardee: Ranjit Jhala
   Citation: |

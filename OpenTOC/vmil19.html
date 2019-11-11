@@ -1,0 +1,161 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>VMIL 2019- Proceedings of the 11th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>VMIL 2019- Proceedings of the 11th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3358504" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Papers</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684971" title="Get the Full Text from the ACM Digital Library">Designing a low-level virtual machine for implementing real-time managed languages</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Javad Ebrahimian Amiri</li>
+<li class="nameList">Stephen M. Blackburn</li>
+<li class="nameList">Antony L. Hosking</li>
+<li class="nameList Last">Michael Norrish</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Applications of real-time systems have grown significantly in both diversity and popularity, and the appetite for real-time software has never been higher. In contrast, the choice of programming languages used to develop such systems has stagnated, mostly limited to decades-old languages, specifically Ada and C/C++, and more recently real-time Java. We posit that the high cost and difficulty of developing new programming languages for real-time systems is the main reason for this mono-culture. </p> <p> To tackle the lack of diversity, we propose the design of a micro virtual machine on which managed programming languages for real-time systems can be developed. Our design facilitates bringing the advantages of correct managed languages to the real-time domain. We build on a previously published micro virtual machine specification, named Mu, and propose a set of modifications to its abstractions over concurrency and memory management to make it suitable for real-time systems. </p> <p> The resulting design is a basis for a new micro virtual machine specification we call RTMu, designed as a reliable and efficient foundation for the development of managed languages for real-time systems.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684972" title="Get the Full Text from the ACM Digital Library">Implementing a language with explicit assignment semantics</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Dimitri Racordon</li>
+<li class="nameList Last">Didier Buchs</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Anzen is a multi-paradigm programming language that aims to provide explicit and controllable assignment semantics. It is based on the observation that abstractions over memory management and data representation, as commonly adopted by contemporary programming languages, often transpire relics of the underlying memory model and lead to confusing assignment semantics in the presence of aliases. In response, Anzen&#8217;s goal is to offer a modern approach to programming, built on a sound and unambiguous semantics.This paper describes the implementation of a compiler for Anzen. Our implementation transpiles sources to an intermediate language inspired by the LLVM IR, designed to ease further analysis on Anzen&#8217;s statements. This intermediate representation is then consumed by a register-based virtual machine. We present the Anzen compiler&#8217;s architecture, introduce its intermediate language and describe the latter&#8217;s evaluation. Our work aims to set a reference implementation for future developments and extensions of the language.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684973" title="Get the Full Text from the ACM Digital Library">Scalable comparison of JavaScript V8 bytecode traces</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Javier Cabrera Arteaga</li>
+<li class="nameList">Martin Monperrus</li>
+<li class="nameList Last">Benoit Baudry</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The comparison and alignment of runtime traces are essential, e.g., for semantic analysis or debugging. However, naive sequence alignment algorithms cannot address the needs of the modern web: (i) the bytecode generation process of V8 is not deterministic; (ii) bytecode traces are large. </p> <p> We present STRAC, a scalable and extensible tool tailored to compare bytecode traces generated by the V8 JavaScript engine. Given two V8 bytecode traces and a distance function between trace events, STRAC computes and provides the best alignment. The key insight is to split access between memory and disk. STRAC can identify semantically equivalent web pages and is capable of processing huge V8 bytecode traces whose order of magnitude matches today&#39;s web like https://2019.splashcon.org, which generates approx. 150k of V8 bytecode instructions.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684974" title="Get the Full Text from the ACM Digital Library">Efficient fail-fast dynamic subtype checking</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Rohan Padhye</li>
+<li class="nameList Last">Koushik Sen</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We address the problem of dynamically checking if an instance of class S is also an instance of class T. Researchers have designed various strategies to perform constant-time subtype tests. Yet, well-known production implementations degrade to linear search in the worst case, in order to achieve other goals such as constant space and/or efficient dynamic class loading. The fast path is usually optimized for subtype tests that succeed. However, in workloads where dynamic type tests are common, such as Scala&#39;s pattern matching and LLVM compiler passes, we observe that 74%--93% of dynamic subtype tests return a negative result. We thus propose a scheme for fail-fast dynamic subtype checking. We assign each type a randomly generated type identifier with fixed size and fixed parity. In the compiled version of each class, we store a fixed-width bloom filter, which combines the type identifiers of all its transitive supertypes. At run-time, the bloom filters enable fast refutation of dynamic subtype tests with high probability. If such a refutation cannot be made, the scheme falls back to conventional techniques. This scheme works with multiple inheritance, separate compilation, and dynamic class loading. A prototype implementation of fail-fasts in the JVM provides provides 1.44x--2.74x speedup over HotSpot&#39;s native instanceof, on micro-benchmarks where worst-case behavior is likely.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684985" title="Get the Full Text from the ACM Digital Library">Towards seamless interfacing between dynamic languages and native code</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Guillaume Bertholon</li>
+<li class="nameList Last">Stephen Kell</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Existing approaches to interfacing high- and low-level code push considerable burdens onto the programmer, such as wrapper maintenance, explicit code generation, interface re-declaration, and/or signalling to garbage collectors. We note that run-time information on data layout and allocations in native code is available, and may be extended with knowledge of object lifetimes to assist in automating garbage collection. We describe work in progress towards an extension of the CPython virtual machine along these lines. We report initial experience building a first working prototype, and some early performance experiments.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684986" title="Get the Full Text from the ACM Digital Library">Memory efficient CRDTs in dynamic environments</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Jim Bauwens</li>
+<li class="nameList Last">Elisa Gonzalez Boix</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Modern distributed applications increasingly replicate data in order to guarantee both high availability of systems and an optimal user experience. Conflict-Free Replicated Data Types (CRDTs) are a family of data types specially designed for highly available systems which guarantee some form of eventual consistency. However, memory usage may grow unboundedly in their implementations, as garbage collection of meta-data is not tackled in most approaches. </p> <p> In this paper, we explore a memory management model for operation-based CRDTs in dynamic setting, where nodes can dynamically join a network, and where the implementation can remove unnecessary meta-data employed by CRDTs used to determine the order of operations applied in different replicas. We first describe how new nodes will be brought up-to-date and fully linked with other replicas, and later we introduce our memory management model which allows meta-data to be removed. </p> <p> We benchmark the memory usage of an add-wins set using different garbage collection techniques in various situations and show how our approach can be beneficial in comparison to state of the art techniques.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684987" title="Get the Full Text from the ACM Digital Library">Which of my transient type checks are not (almost) free?</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Isaac Oscar Gariano</li>
+<li class="nameList">Richard Roberts</li>
+<li class="nameList">Stefan Marr</li>
+<li class="nameList">Michael Homer</li>
+<li class="nameList Last">James Noble</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>One form of type checking used in gradually typed language is <em>transient type checking</em>: whenever an object &#8216;flows&#8217; through code with a type annotation, the object is dynamically checked to ensure it has the methods required by the annotation. Just-in-time compilation and optimisation in virtual machines can eliminate much of the overhead of run-time transient type checks. Unfortunately this optimisation is not uniform: some type checks will significantly decrease, or even increase, a program&#8217;s performance. </p> <p>In this paper, we refine the so called &#8220;Takikawa&#8221; protocol, and use it to identify which type annotations have the greatest effects on performance. In particular, we show how graphing the performance of such benchmarks when varying which type annotations are present in the source code can be used to discern potential patterns in performance. We demonstrate our approach by testing the Moth virtual machine: for many of the benchmarks where Moth&#8217;s transient type checking impacts performance, we have been able to identify one or two specific type annotations that are the likely cause. Without these type annotations, the performance impact of transient type checking becomes negligible. </p> <p>Using our technique programmers can optimise programs by removing expensive type checks, and VM engineers can identify new opportunities for compiler optimisation.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

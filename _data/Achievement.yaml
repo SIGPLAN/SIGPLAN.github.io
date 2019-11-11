@@ -1,3 +1,46 @@
+2019:
+- Awardee: Alex Aiken
+  Citation: |
+    Alex Aiken has made fundamental, pioneering or breakthrough 
+    contributions on a number of topics, including constraint-based 
+    program analysis, statistical bug localization, super optimization, 
+    program synthesis, and parallel programming systems, among others. 
+    Alex's research combines foundational theoretical results with 
+    practical implementations and thorough empirical evaluations.
+    
+    Perhaps Alex's most significant work is on constraint-based analysis. 
+    Starting with early work on soft typing for functional programs, he 
+    subsequently developed the theory and practice of constraint-based 
+    analysis for several key applications. He developed what was at the 
+    time the most scalable and precise points-to analysis for C and 
+    subsequently exploited distributed, SAT-based constraint solving to 
+    perform static analysis at a level of precision and scalability that 
+    had not been seen before. Alex's research on cooperative bug isolation 
+    introduced the idea of using lightweight dynamic analysis at scale to 
+    find the causes of bugs in software systems that have been fielded. 
+    His work on data representation synthesis showed how to automatically 
+    construct low-level data structure implementations from high-level 
+    descriptions. His STOKE project revitalizes the old idea of 
+    super-optimization by using stochastic search to find significantly 
+    better code than general-purpose compilers. Finally, Alex is the 
+    developer of Moss (&quot;a Measure of Software Similarity&quot;), a web 
+    service that finds duplicate code, even if it has been alpha-converted or 
+    transformed in other ways. Most notably, Moss continues to be used for 
+    plagiarism detection by many Computer Science departments and others 
+    around the world. 
+    
+    Not only has Alex's research led the field in important new directions, 
+    but his publications exemplify high-quality work in programming languages.
+    To date, he is likely the most prolific author in POPL and PLDI, two 
+    flagship programming languages venues, and his publications have received 
+    many recognitions. Alex also stands out for his outstanding mentorship. He 
+    has graduated 24 PhD students, many of whom have won awards for their work 
+    and gone on to distinguished careers in academia and industry. Last but not 
+    least, Alex has provided dedicated service and strong leadership to the 
+    SIGPLAN community, serving as the program chair for both POPL and PLDI, the 
+    general chair for POPL, as an associate editor for TOPLAS, and chair and 
+    member on various SIGPLAN award committees.
+
 2017:
 - Awardee: Thomas W. Reps
   Citation: |

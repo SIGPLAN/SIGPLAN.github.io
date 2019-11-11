@@ -1,3 +1,22 @@
+2019:
+- Awardee: Cormac Flanagan (UC Santa Cruz) and Stephen N. Freund (Williams College)
+  Other: |
+    (for 2009) _[FastTrack: Efficient and Precise Dynamic Race Detection](https://dl.acm.org/citation.cfm?id=1542490)_
+  Citation: |
+    FastTrack had both an immediate and a permanent impact on how dynamic data-race 
+    detection is done.  Prior work either used lock-set algorithms for performance 
+    despite false positives or were slow due to algorithms that required space 
+    proportional to the number of threads times the size of the heap and read/write 
+    operations that took time proportional to the number of threads.  FastTrack 
+    contributed an algorithm and implementation that was truly the best of both 
+    worlds in most cases: a set of a natural and elegant choices for optimizing 
+    data structures and algorithms for dynamic data-race detection leads to a system 
+    that is as fast as lock-set algorithms whenever lock-set algorithms would not 
+    produce false positives but that gracefully falls back to slower approaches 
+    for objects where lock-set algorithms would lead to false positives.  In both 
+    theory and practice, the FastTrack algorithm became the baseline against which 
+    all subsequent dynamic data-race detectors are judged. 
+
 2018:
 - Awardee: Uday Bondhugula, Albert Hartono, J. Ramanujam, and P. Sadayappan
   Other: |

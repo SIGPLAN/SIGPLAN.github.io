@@ -1,0 +1,231 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>MPLR 2019- Proceedings of the 16th ACM SIGPLAN International Conference on Managed Programming Languages and Runtimes</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>MPLR 2019- Proceedings of the 16th ACM SIGPLAN International Conference on Managed Programming Languages and Runtimes</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3357390" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Virtual Machines</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684889" title="Get the Full Text from the ACM Digital Library">Supporting on-stack replacement in unstructured languages by loop reconstruction and extraction</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Raphael Mosaner</li>
+<li class="nameList">David Leopoldseder</li>
+<li class="nameList">Manuel Rigger</li>
+<li class="nameList">Roland Schatz</li>
+<li class="nameList Last">Hanspeter M&#246;ssenb&#246;ck</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>On-stack replacement (OSR) is a common technique employed by dynamic compilers to reduce program warm-up time. OSR allows switching from interpreted to compiled code during the execution of this code. The main targets are long running loops, which need to be represented explicitly, with dedicated information about condition and body, to be optimized at run time. Bytecode interpreters, however, represent control flow implicitly via unstructured jumps and thus do not exhibit the required high-level loop representation. To enable OSR also for jump-based - often called unstructured - languages, we propose the partial reconstruction of loops in order to explicitly represent them in a bytecode interpreter. Besides an outline of the general idea, we implemented our approach in Sulong, a bytecode interpreter for LLVM bitcode, which allows the execution of C/C++. We conducted an evaluation with a set of C benchmarks, which showed speed-ups in warm-up of up to 9x for certain benchmarks. This facilitates execution of programs with long-running loops in rarely called functions, which would yield significant slowdown without OSR. While shown with a prototype implementation, the overall idea of our approach is generalizable for all bytecode interpreters.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684880" title="Get the Full Text from the ACM Digital Library">GraalSqueak: toward a smalltalk-based tooling platform for polyglot programming</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Fabio Niephaus</li>
+<li class="nameList">Tim Felgentreff</li>
+<li class="nameList Last">Robert Hirschfeld</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Polyglot programming provides software developers with a broader choice in terms of software libraries and frameworks available for building applications. Previous research and engineering activities have focused on language interoperability and the design and implementation of fast polyglot runtimes. To make polyglot programming more approachable for developers, novel software development tools are needed that help them build polyglot applications. We believe a suitable prototyping platform helps to more quickly evaluate new ideas for such tools. In this paper we present GraalSqueak, a Squeak/Smalltalk virtual machine implementation for the GraalVM. We report our experience implementing GraalSqueak, evaluate the performance of the language and the programming environment, and discuss how the system can be used as a tooling platform for polyglot programming.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684881" title="Get the Full Text from the ACM Digital Library">WARDuino: a dynamic WebAssembly virtual machine for programming microcontrollers</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Robbert Gurdeep Singh</li>
+<li class="nameList Last">Christophe Scholliers</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>It is extremely hard and time-consuming to make correct and efficient programs for microcontrollers. Usually microcontrollers are programmed in a low level programming language such as C which makes them hard to debug and maintain. To raise the abstraction level, many high level programming languages have provided support for programming microcontrollers. Examples include Python, Lua, C# and JavaScript. Using these languages has the downside that they are orders of magnitude slower than the low-level languages. Moreover, they often provide no remote debugging support. </p> <p>In this paper we investigate the feasibility of using WebAssembly to program Arduino compatible microcontrollers. Our experiments lead to extending the standard WebAssembly VM with: 1) safe live code updates for functions and data 2) remote debugging support at the VM level 3) programmer configurable (Arduino) modules in order to keep the virtual machine&#8217;s footprint as small as possible. The resulting WARDuino VM enables the programmer to have better performance than an interpreted approach while simultaneously increasing the ease of development. </p> <p>To evaluate our approach, we implemented a simple breakout game and conducted micro benchmarks which show that the VM runs approximately 5 times faster than Espruino, a popular JavaScript interpreter for the ESP32 microcontroller.</p></div> </div>
+<h2>SESSION: Concurrency and Parallelism</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684882" title="Get the Full Text from the ACM Digital Library">Dynamic one-to-one mapping of ownership records for STM using versioned weak references</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Martin B&#228;ttig</li>
+<li class="nameList Last">Thomas R. Gross</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Software transactional memory (STM) stores information regarding ownership of memory locations in ownership records. We present a scheme to realize a one-to-one mapping of ownership records to memory locations that has moderate memory overhead and is suitable for STM implementations on top of managed runtimes. </p> <p> To reduce memory overhead, STM implementations typically map multiple memory locations to a single ownership record. These one-to-many mappings reduce conflict detection granularity and result in false sharing. Further, one-to-many mappings based on hashes of memory addresses suffer from performance anomalies. The proposed mapping scheme works without knowledge of memory addresses and thus avoids these performance anomalies. The scheme uses weak references and chunking to map memory locations to ownership records. Weak references allow recycling of unused ownership records and thus reduce memory overhead. To enable a fast garbage collection, the scheme uses a versioned managed heap and versioned weak references. Further, we describe optimizations enabled by the one-to-one mapping that compensate overhead introduced by the additional managed heap. </p> <p> An evaluation of the method using the Deuce framework and JStamp benchmarks shows that, on average, the dynamic one-to-one mapping provides better performance than hash-based one-to-many mappings at the cost of a moderate memory overhead.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684883" title="Get the Full Text from the ACM Digital Library">A type system for data independence of loop iterations in a directive-based PGAS language</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Tatsuya Abe</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Data independence of iterations of a loop statement in a partitioned global address space (PGAS) language is a sufficient condition to enable parallel processing of the loop iterations on distributed memories. However, checking data independence is generally difficult. In this paper, we propose the non-interference property of statements and design a sub-language of a directive-based PGAS language XcalableMP with a type system using the notion of vertex centricity. Although data independence and non-interference are generally mutually orthogonal, non-interference of a statement in the sub-language, which can be checked easily on the type system, implies data independence. We also implemented type checking on the Omni compiler for XcalableMP and confirmed the effectiveness of our approach using case studies of directive-based parallelization and temporal blocking optimization of stencil kernels.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684884" title="Get the Full Text from the ACM Digital Library">Hosting OpenMP programs on Java virtual machines</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Swapnil Gaikwad</li>
+<li class="nameList">Andy Nisbet</li>
+<li class="nameList Last">Mikel Luj&#225;n</li>
+ </ul>
+<div class="DLabstract"><div style="display:inline"><p>To leverage existing virtual machine infrastructures is attractive for programming language implementors because competitive runtime performance may be achieved with a reduced effort. For example, the Truffle framework has enabled Ruby (TruffleRuby), and C (Sulong)guest language implementations to be hosted on a Java Virtual Machine(JVM). In this paper, we present Sulong-OpenMP, the first Truffle-based implementation to support parallel programs written in C/C++ and OpenMP. Our implementation adds OpenMP support to Sulongthat executes LLVM Intermediate Representation (LLVM IR) for C/C++ programs on a JVM. We outline the challenges faced in supporting OpenMP execution semantics, and the current limitations of Sulong-OpenMP. The geometric mean overhead of 1 thread Sulong-OpenMP compared to sequential Sulong execution was 2.6% for the NAS Parallel Benchmark suite, at peak runtime performance. Although this paper focuses on the correctness of our implementation concerning the OpenMP memory model, we also highlight the diminishing performance gap between the native execution with clang -O2 and our Sulong-OpenMP as only 1.2x in the best case using 4 OpenMP threads.</p></div> </div>
+<h2>SESSION: Program Analysis</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684895" title="Get the Full Text from the ACM Digital Library">Predicting all data race pairs for a specific schedule</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Martin Sulzmann</li>
+<li class="nameList Last">Kai Stadtm&#252;ller</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We consider the problem of data race prediction where the program&#39;s behavior is represented by a trace. A trace is a sequence of program events recorded during the execution of the program. We employ the schedulable happens-before relation to characterize all pairs of events that are in a race for the schedule as manifested in the trace. Compared to the classic happens-before relation, the schedulable happens-before relations properly takes care of write-read dependencies and thus avoids false positives. The challenge is to efficiently identify all (schedulable) data race pairs. We present a refined linear time vector clock algorithm to predict many of the schedulable data race pairs. We introduce a quadratic time post-processing algorithm to predict all remaining data race pairs. This improves the state of the art in the area and our experiments show that our approach scales to real-world examples. Thus, the user can systematically examine and fix all program locations that are in a race for a particular schedule.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684896" title="Get the Full Text from the ACM Digital Library">Towards efficient, multi-language dynamic taint analysis</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Jacob Kreindl</li>
+<li class="nameList">Daniele Bonetta</li>
+<li class="nameList Last">Hanspeter M&#246;ssenb&#246;ck</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Dynamic taint analysis is a program analysis technique in which data is marked and its propagation is tracked while the program is executing. It is applied to solve problems in many fields, especially in software security. Current taint analysis platforms are limited to a single programming language, and therefore cannot support programs which, as is common today, are implemented in multiple programming languages. Current implementations of dynamic taint analysis also incur a significant performance overhead. </p> <p> In this paper we address both these limitations (1) by presenting our vision of a multi-language dynamic taint analysis platform, which is built around a language-agnostic core framework that is extended by language-specific front-ends and (2) by discussing the use of speculative optimization and dynamic compilation to reduce the execution overhead of dynamic taint analysis applications. An implementation of such a platform would enable dynamic taint analyses that can target multiple languages in one analysis implementation and can track tainted data across language boundaries. We describe this approach in the context of the GraalVM runtime and its included JIT compiler, Graal, which allows us to target both dynamic and static languages.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684897" title="Get the Full Text from the ACM Digital Library">Detection of suspicious time windows in memory monitoring</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Markus Weninger</li>
+<li class="nameList">Elias Gander</li>
+<li class="nameList Last">Hanspeter M&#246;ssenb&#246;ck</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Modern memory monitoring tools do not only offer analyses at a single point in time, but also offer features to analyze the memory evolution over time. These features provide more detailed insights into an application&#39;s behavior, yet they also make the tools more complex and harder to use. </p> <p> Analyses over time are typically performed on certain time windows within which the application behaves abnormally. Such suspicious time windows first have to be detected by the users, which is a non-trivial task, especially for novice users that have no experience in memory monitoring. </p> <p> In this paper, we present algorithms to automatically detect suspicious time windows that exhibit (1) continuous memory growth, (2) high GC utilization, or (3) high memory churn. For each of these problems we also discuss its root causes and implications. </p> <p> To show the feasibility of our detection techniques, we integrated them into AntTracks, a memory monitoring tool developed by us. Throughout the paper, we present their usage on various problems and real-world applications.</p></div> </div>
+<h2>SESSION: Compilation and Code Manipulation</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684898" title="Get the Full Text from the ACM Digital Library">Static TypeScript: an implementation of a static compiler for the TypeScript language</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Thomas Ball</li>
+<li class="nameList">Peli de Halleux</li>
+<li class="nameList Last">Micha&#322; Moskal</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>While the programming of microcontroller-based embeddable devices typically is the realm of the C language, such devices are now finding their way into the classroom for CS education, even at the level of middle school. As a result, the use of scripting languages (such as JavaScript and Python) for microcontrollers is on the rise. </p> <p> We present Static TypeScript (STS), a subset of TypeScript (itself, a gradually typed superset of JavaScript), and its compiler/linker toolchain, which is implemented fully in TypeScript and runs in the web browser. STS is designed to be useful in practice (especially in education), while being amenable to static compilation targeting small devices. A user&#8217;s STS program is compiled to machine code in the browser and linked against a precompiled C++ runtime, producing an executable that is more efficient than the prevalent embedded interpreter approach, extending battery life and making it possible to run on devices with as little as 16 kB of RAM (such as the BBC micro:bit). </p> <p> This paper is primarily a description of the STS system and the technical challenges of implementing embedded programming platforms in the classroom.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684899" title="Get the Full Text from the ACM Digital Library">PorcE: a deparallelizing compiler</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Arthur Michener Peters</li>
+<li class="nameList">John A. Thywissen</li>
+<li class="nameList Last">Christopher J. Rossbach</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Concurrent and parallel programming environments must balance three competing goals: performance, productivity, and generality. Most current environments take a sequential specification and parallelize it through a series of program analyses and transformations. Programmer <em>productivity</em> is determined by how much the programmer is involved in specifying the transform. A programming environment&#8217;s <em>generality</em> is determined by how much it restricts its programming model to enable the transform to be more automatic or provide better performance. Productivity and generality impact the <em>performance</em> of the resulting code, giving rise to a performance&#8211;productivity&#8211;generality trade-off space. </p> <p>PorcE takes a different approach: PorcE starts from a maximally concurrent program, which it <em>de</em>parallelizes. We hypothesize that this dramatically changes the accessible regions of the performance&#8211;productivity&#8211;generality space, because the complexity of deparallelization is quite different than for parallelization. PorcE uses a novel combination of optimizations that enable multicore scaling with performance similar to popular high-level languages, such as Python. Benchmarks show that optimized PorcE is 56&#160;times faster than unoptimized excessively parallel PorcE. It is 4&#160;times slower than hand-parallelized Scala, on average, when using existing Scala code for core sequential computations, which is similar to Python. This shows the potential for practical performance of pervasively concurrent programs.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684890" title="Get the Full Text from the ACM Digital Library">An analysis of call-site patching without strong hardware support for self-modifying-code</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Tim Hartley</li>
+<li class="nameList">Foivos S. Zakkak</li>
+<li class="nameList">Christos Kotselidis</li>
+<li class="nameList Last">Mikel Luj&#225;n</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>With micro-services continuously gaining popularity and low-power processors making their way into data centers, efficient execution of managed runtime systems on low-power architectures is also gaining interest. Apart from the inherent performance differences between high and low power processors, porting a managed runtime system to a low-power architecture may result in spuriously introducing additional overheads and design trade-offs. In this work we investigate how the lack of strong hardware support for Self Modifying Code (SMC) in low-power architectures, influences Just-In-Time (JIT) compilation and execution in modern virtual machines. In particular, we examine how low-power architectures, with no or limited hardware support for SMC, impose restrictions on call-site implementations, when the latter need to be patchable by the runtime system. We present four different memory-safe implementations for call-site generation and discuss their advantages and disadvantages in the absence of strong hardware support for SMC. Finally, we evaluate each technique on different workloads using micro-benchmarks and we evaluate the best two techniques on the Dacapo benchmark suite showcasing performance differences up to 15%.</p></div> </div>
+<h2>SESSION: Applications</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684891" title="Get the Full Text from the ACM Digital Library">Performance of an OO compute kernel on the JVM: revisiting Java as a language for scientific computing applications</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Malin K&#228;ll&#233;n</li>
+<li class="nameList Last">Tobias Wrigstad</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The study of Java as a programming language for scientific computing is warranted by simpler, more extensible and more easily maintainable code. Previous work on refactoring a C++ scientific computing code base to follow best practises of object-oriented software development revealed a coupling of such practises and considerable slowdowns due to indirections introduced by abstractions. In this paper, we explore how Java&#39;s JIT compiler handle such abstraction-induced indirection using a typical scientific computing compute kernel extracted from a linear solver written in C++. We find that the computation times for large workloads on one machine can be on-pair for C++ and Java. However, for distributed computations, a better parallelisation strategy needs to be found for non-blocking communication. We also report on the impact on performance for common "gripes": garbage collection, array bounds checking, and dynamic binding.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684892" title="Get the Full Text from the ACM Digital Library">Asynchronous snapshots of actor systems for latency-sensitive applications</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Dominik Aumayr</li>
+<li class="nameList">Stefan Marr</li>
+<li class="nameList">Elisa Gonzalez Boix</li>
+<li class="nameList Last">Hanspeter M&#246;ssenb&#246;ck</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>The actor model is popular for many types of server applications. Efficient snapshotting of applications is crucial in the deployment of pre-initialized applications or moving running applications to different machines, e.g for debugging purposes. A key issue is that snapshotting blocks all other operations. In modern latency-sensitive applications, stopping the application to persist its state needs to be avoided, because users may not tolerate the increased request latency. In order to minimize the impact of snapshotting on request latency, our approach persists the application&#8217;s state asynchronously by capturing partial heaps, completing snapshots step by step. Additionally, our solution is transparent and supports arbitrary object graphs. We prototyped our snapshotting approach on top of the Truffle/Graal platform and evaluated it with the Savina benchmarks and the Acme Air microservice application. When performing a snapshot every thousand Acme Air requests, the number of slow requests ( 0.007% of all requests) with latency above 100ms increases by 5.43%. Our Savina microbenchmark results detail how different utilization patterns impact snapshotting cost. To the best of our knowledge, this is the first system that enables asynchronous snapshotting of actor applications, i.e. without stop-the-world synchronization, and thereby minimizes the impact on latency. We thus believe it enables new deployment and debugging options for actor systems.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,145 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>TyDe 2019- Proceedings of the 4th ACM SIGPLAN International Workshop on Type-Driven Development</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>TyDe 2019- Proceedings of the 4th ACM SIGPLAN International Workshop on Type-Driven Development</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3331554" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Papers</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689222" title="Get the Full Text from the ACM Digital Library">How to do proofs: practically proving properties about effectful programs&#39; results (functional pearl)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Koen Jacobs</li>
+<li class="nameList">Andreas Nuyts</li>
+<li class="nameList Last">Dominique Devriese</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Dependently-typed languages are great for stating and proving properties of pure functions. We can reason about them modularly (state and prove their properties independently of other functions) and non-intrusively (without modifying their implementation). But what if we are interested in properties about the results of effectful computations? Ideally, we could keep on stating and proving them just as nicely. </p> <p> This pearl shows we can. We formalise a way to lift a property about values to a property about effectful computations producing such values, and we demonstrate that we need not make any sacrifices when reasoning about them. In addition to this modular and non-intrusive reasoning, our approach offers independence of the underlying monad and allows for readable proofs whose structure follows that of the code.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689223" title="Get the Full Text from the ACM Digital Library">Generic level polymorphic n-ary functions</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Guillaume Allais</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Agda&#39;s standard library struggles in various places with n-ary functions and relations. It introduces congruence and substitution operators for functions of arities one and two, and provides users with convenient combinators for manipulating indexed families of arity exactly one. </p> <p> After a careful analysis of the kinds of problems the unifier can easily solve, we design a unifier-friendly representation of n-ary functions. This allows us to write generic programs acting on n-ary functions which automatically reconstruct the representation of their inputs&#39; types by unification. In particular, we can define fully level polymorphic n-ary versions of congruence, substitution and the combinators for indexed families, all requiring minimal user input.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689224" title="Get the Full Text from the ACM Digital Library">Deferring the details and deriving programs</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Liam O&#39;Connor</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>A commonly-used technique in dependently-typed programming is to encode invariants about a data structure into its type, thus ensuring that the data structure is correct by construction. Unfortunately, this often necessitates the embedding of explicit proof terms within the data structure, which are not part of the structure conceptually, but merely supplied to ensure that the data invariants are maintained. As the complexity of the specifications in the types increases, these additional terms tend to clutter definitions, reducing readability. We introduce a technique where these proof terms can be supplied later, by constructing the data structure within a <em>proof delay</em> applicative functor. We apply this technique to Trip, our new language for Hoare-logic verification of imperative programs embedded in Agda, where our applicative functor is used as the basis for a verification condition generator, turning the typed holes of Agda into a method for stepwise derivation of a program from its specification in the form of a Hoare triple.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689235" title="Get the Full Text from the ACM Digital Library">Tic tac types: a gentle introduction to dependently typed programming (functional pearl)</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Sean Innes</li>
+<li class="nameList Last">Nicolas Wu</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Tic-Tac-Toe is a simple, familiar, classic game enjoyed by many. This pearl is designed to give a flavour of the world of dependent types to the uninitiated functional programmer. We cover a journey from Tic-Tac-Terrible implementations in the harsh world of virtually untyped |Strings|, through the safe haven of vectors that know their own length, and into a Tic-Tac-Titanium version that is too strongly typed for its own good. Along the way we discover something we knew all along; types are great, but in moderation. This lesson is quickly put to use in a more complex recursive version.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689236" title="Get the Full Text from the ACM Digital Library">Inductive types deconstructed: the calculus of united constructions</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Stefan Monnier</li>
+</ul>
+
+<div class="DLabstract"><div style="display:inline"><p>Algebraic data types and inductive types like those of the Calculus of Inductive Constructions (CIC) are the bread and butter of statically typed functional programming languages. They conveniently combine in a single package product types, sum types, recursive types, and indexed types. But this also makes them somewhat heavyweight: for example, tuples have to be defined as "degenerate" single constructor inductive types, and extraction of a single field becomes a laborious full case-analysis on the object. We consider this to be unsatisfactory. In this article, we develop an alternative presentation of CIC&#39;s inductive types where the various elements are provided separately, such that inductive types are built on top of tuples and sums rather than the other way around. The resulting language is lower-level yet we show it can be translated to to a predicative version of the Calculus of Inductive Constructions in a type-preserving way. An additional benefit is that it can conveniently give a precise type to the default branch of "case" statements.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689237" title="Get the Full Text from the ACM Digital Library">Constraint-based type-directed program synthesis</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Peter-Michael Osera</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We explore an approach to type-directed program synthesis rooted in constraint-based type inference techniques. By doing this, we aim to more efficiently synthesize polymorphic code while also tackling advanced typing features such as GADTs that build upon polymorphism. Along the way, we also present an implementation of these techniques in Scythe, a prototype live, type-directed programming tool for the Haskell programming language and reflect on our initial experience with the tool.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

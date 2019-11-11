@@ -1,3 +1,33 @@
+2019:
+- Awardee: Cristiano Calcagno, Dino Distefano, Peter W. O'Hearn, Hongseok Yang
+  Other: |
+    (for 2009): _[Compositional shape analysis by means of bi-abduction](https://dl.acm.org/citation.cfm?id=1480917)_
+  Citation: |
+    Shape Analysis is the problem of precisely predicting, at compile-time, 
+    the contents of mutable, pointer-based data structures. It holds the key 
+    to identifying, and hence eliminating, a wide variety of classes of 
+    software defects, from null-dereference errors, to use-after-free bugs 
+    and memory leaks to subtle data races that complicate concurrency. 
+    
+    This paper showed how to use compositionality to scale shape analysis up  
+    to large code bases, by introducing *bi-abduction*: a new technique for 
+    analyzing each procedure in isolation, independent of its callees. 
+    
+    Bi-abduction allows an analysis to determine separation logic 
+    *pre-conditions* under which the procedure executes safely, and 
+    corresponding *post-conditions* that describe how the procedure mutates 
+    the heap when executed from a configuration satisfying the precondition. 
+    We can then use separation logic to compose the pre- and post-conditions 
+    for different functions, yielding the first precise shape analyses capable 
+    of running on millions of lines of code. 
+    
+    This work directly led to the 
+    development of the `Infer` static analyzer which has been used to find 
+    and fix tens of thousands of defects across multiple industrial code bases. 
+    Further, it rekindled interest in the notion of abduction, leading to new 
+    techniques for interactive exploration of the results of static analysis, 
+    and compositional program synthesis.
+
 2018:
 - Awardee: Kohei Honda, Nobuko Yoshida, Marco Carbone
   Other: |

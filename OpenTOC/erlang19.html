@@ -1,0 +1,166 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>Erlang 2019- Proceedings of the 18th ACM SIGPLAN International Workshop on Erlang</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>Erlang 2019- Proceedings of the 18th ACM SIGPLAN International Workshop on Erlang</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3331542" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Papers</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689201" title="Get the Full Text from the ACM Digital Library">Erlang as an enabling technology for resilient general-purpose applications on edge IoT networks</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Igor Kopestenski</li>
+<li class="nameList Last">Peter Van Roy</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Edge computing is one of the key success factors for future Internet solutions that intend to support the ongoing IoT evolution. By offloading central areas using resources that are closer to clients, providers can offer reliable services with higher quality. But even industry standards are still lacking a valid solution for edge systems with actual sense-making capabilities when no preexisting infrastructure whatsoever is available. The current edge model involves a tight coupling with gateway devices and Internet access, even when autonomous ad hoc IoT networks could perform partial or even complete tasks correctly. </p> <p> In our previous research efforts, we have introduced Achlys, an Erlang programming framework that takes advantage of the GRiSP embedded system capabilities in order to bring edge computing one step further. GRiSP is an embedded board that can easily be programmed directly in Erlang without requiring deep low level knowledge, which offers the extensive toolset of the Erlang ecosystem directly on bare metal hardware. We have been able to demonstrate that our framework allows building reliable applications on unreliable networks of unreliable GRiSP nodes with a very simple programming API. In this paper, we present how Erlang can successfully be used to address edge computing challenges directly on IoT sensor nodes, taking advantage of our existing framework. We display results of deployed distributed programs at the edge and examples of the unique advantage that is offered by Erlang higher-order and concurrent programming in order to achieve reliable general-purpose computing through Achlys.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689202" title="Get the Full Text from the ACM Digital Library">Towards online profiling of Erlang systems</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Micha&#322; &#346;laski</li>
+<li class="nameList Last">Wojciech Turek</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Recent releases of Erlang/OTP introduced features, which can be used to improve profiling tools for systems executed on the BEAM virtual machine. We discuss the need to introduce improvements into profiling tools with the Erlang-style concurrency in mind, so that they can help to understand performance of message passing and utilization of processes. We propose a new approach to implementation of the crucial element of such tools: the concurrent counters updates mechanism. To demonstrate the limitations of current tools in this area and verify the proposed approach, we present the results of a synthetic benchmark. The results clearly show that the proposed approach is a step towards a new generation of online profiling tools.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689203" title="Get the Full Text from the ACM Digital Library">Intro to web prolog for erlangers</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Torbj&#246;rn Lager</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We describe a programming language called <i>Web Prolog</i>. We think of it as a <i>web programming language</i>, or, more specifically, as a web <em>logic</em> programming language. The language is based on Prolog, with a good pinch of Erlang added. We stay close to traditional Prolog, so close that the vast majority of programs in Prolog textbooks will run without modification. Towards Erlang we are less faithful, picking only features we regard as useful in a web programming language, e.g. features that support concurrency, distribution and intra-process communication. In particular, we borrow features that make Erlang into an <i>actor programming language</i>, and on top of these we define the concept of a <i>pengine</i> &#8211; a programming abstraction in the form of a special kind of actor which closely mirrors the behaviour of a Prolog top-level. On top of the pengine abstraction we develop a notion of <i>non-deterministic RPC</i> and the concept of <i>the Prolog Web</i>.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689204" title="Get the Full Text from the ACM Digital Library">Tools supporting green computing in Erlang</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Gergely Nagy</li>
+<li class="nameList">&#193;ron Attila M&#233;sz&#225;ros</li>
+<li class="nameList">Istv&#225;n Boz&#243;</li>
+<li class="nameList Last">Melinda T&#243;th</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Energy efficiency is one of the key aspects of modern software. Therefore, we present a tool for measuring the energy consumption of Erlang programs. Using this tool, we measured the energy consumption of different basic language elements, such as data structures, higher-order functions and parallel language constructs. Based on the results of our measurements, we present refactorings that may help to decrease the energy consumption of Erlang software. The refactorings are part of the well-known RefactorErl static analyser and transformer framework for Erlang.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689215" title="Get the Full Text from the ACM Digital Library">Runtime type safety for erlang/otp behaviours</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Joseph Harrison</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Callback-oriented Erlang/OTP behaviours such as the gen_server library are susceptible to malformed requests and ill-typed messages, causing server processes to crash unless a defensive programming style is used. We contribute an alternative approach in the form of a fully automatic hybrid analysis of callback modules using a notion of type safety based upon a sub-typing relation for Erlang. A combination of compile-time type inference, automatic code injection, and modifications to the request dispatch code of gen_server are used to demonstrate how generic server processes can be protected from client-side type errors.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689216" title="Get the Full Text from the ACM Digital Library">Scaling Erlang distribution: going beyond the fully connected mesh</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Adam Lindberg</li>
+<li class="nameList">S&#233;bastien Merle</li>
+<li class="nameList Last">Peer Stritzinger</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Distributed Erlang, the process of transparently running Erlang programs over networks, has a long history of immense usefulness but has problems when distributed systems reach certain scales. We explain the issues and show research done towards the goal of transparently enhancing Erlang distribution, so that changes to existing applications and systems can be avoided. We propose several research directions together with prototype implementations that all serve the purpose of improving the current status quo. This includes using different transport protocols, generalizing implementation efforts and incorporating routing protocols for more dynamic node constellations. We then describe some background and history of various work to solve Erlang distribution scalability issues. We show that there is much room for improvement on the Erlang distribution layer without breaking abstractions that developers are used to and rely on.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689217" title="Get the Full Text from the ACM Digital Library">Gaining trust by tracing security protocols</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Lars-&#197;ke Fredlund</li>
+<li class="nameList">Clara Benac Earle</li>
+<li class="nameList">Thomas Arts</li>
+<li class="nameList Last">Hans Svensson</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>In this article we test an Erlang implementation of the Noise Protocol Framework, using a novel form of white-box testing. We extend interoperability testing of an Erlang enoise implementation against an implementation of Noise in C. Testing typically performs a noise protocol handshake between the two implementations. If successful, then both implementations are somehow compatible. But this does, for example, not detect whether we reuse keys that have to be newly generated. Therefore we extend such operability testing: During the handshake the Erlang noise implementation is traced. The resulting protocol trace is refactored, obtaining as the end result a symbolic description (a functional term) of how key protocol values are constructed using cryptographic operations and keys. Therafter, this symbolic term is compared, using term rewriting, with a symbolic term representing the ideal symbolic execution of the tested noise protocol handshake (i.e., the "semantics" of the handshake). The semantic symbolic term is obtained by executing a symbolic implementation of the noise protocol that we have developed.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N689218" title="Get the Full Text from the ACM Digital Library">Lux: an expect-like test tool written in Erlang: synchronised testing of multiple sessions</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">H&#229;kan Mattsson</li>
+<li class="nameList Last">Cons T. &#197;hs</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present Lux, an open source system level test tool with expect-like properties and support for debugging. Lux solves the problem of testing real world scenarios with multiple concurrent sessions. A typical scenario is a server and multiple clients, with synchronisation between sessions (interaction with server and/or clients). Lux is written (almost) entirely in Erlang, with no use of additional libraries, proving Erlang to be a very good fit for this problem. Nevertheless, Lux is not limited to the testing of systems written in Erlang, but can test any system with text based interfaces or where writing text based adapters is feasible.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

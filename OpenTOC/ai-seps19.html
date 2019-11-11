@@ -1,0 +1,120 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>AI-SEPS 2019- Proceedings of the 6th ACM SIGPLAN International Workshop on AI-Inspired and Empirical Methods for Software Engineering on Parallel Computing Systems</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>AI-SEPS 2019- Proceedings of the 6th ACM SIGPLAN International Workshop on AI-Inspired and Empirical Methods for Software Engineering on Parallel Computing Systems</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3358500" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Papers</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684913" title="Get the Full Text from the ACM Digital Library">&#8220;It looks like you&#8217;re writing a parallel loop&#8221;: a machine learning based parallelization assistant</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Aleksandr Maramzin</li>
+<li class="nameList">Christos Vasiladiotis</li>
+<li class="nameList">Roberto Casta&#241;eda Lozano</li>
+<li class="nameList">Murray Cole</li>
+<li class="nameList Last">Bj&#246;rn Franke</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Despite decades of research into parallelizing compiler technology, software parallelization remains a largely manual task where the key resource is expert time. In this paper we focus on the time-consuming task of identifying those loops in a program, which are both worthwhile and feasible to parallelize. We present a methodology and tool which make better use of expert time by guiding their effort directly towards those loops, where the largest performance gains can be expected while keeping analysis and transformation effort at a minimum. </p> <p>We have developed a novel parallelization assistant that provides programmers with a ranking of all loops in a program based on their overall merit. For each loop this metric combines its potential contribution to speedup and an estimated probability for its successful parallelization. This probability is predicted using a machine learning model, which has been trained, validated, and tested on 1415 labelled loops, achieving a prediction accuracy greater than 90%. </p> <p>We have evaluated our parallelization assistant against sequential C applications from the SNU NAS benchmark suite. We show that our novel methodology achieves parallel performance levels comparable to those from expert programmers while requiring less expert time. On average, our assistant reduces the number of lines of code that have to be inspected manually before reaching expert-level parallel speedup by 20%.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684914" title="Get the Full Text from the ACM Digital Library">Automatic identification of standard template algorithms in raw loops</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Yannic Fischler</li>
+<li class="nameList">Jan-Patrick Lehr</li>
+<li class="nameList">Matth&#228;us Magnus Kiehn</li>
+<li class="nameList Last">Christian Bischof</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>This paper explains a tool-based approach to detect sourcecode patterns that can be substituted with calls to the C++ standard template library (STL). The goal of the tool is to support developers in the process of refactoring a legacy code base to make use of modern library interfaces and standardized algorithms. This way, the intention of the programmer is encoded more explicitly in the code to increase readability. In addition, the STL is well tested, i.e., its use can improve robustness. We show early results from applying our tool to the High-Performance Conjugate Gradient (HPCG) benchmark. The current prototype creates roughly 50% false positives, all of which a human can easily identify.</p></div> </div>
+</div>
+</div>
+</body>
+</html>

@@ -3,15 +3,24 @@ layout: default
 title: "SIGPLAN and Climate Change"
 ---
 
-Useful Links:
+## Useful Links:
+
 - ACM's new (as of 2019) [Carbon Offset Program](https://www.acm.org/special-interest-groups/volunteer-resources/conference-planning/conference-registration#h-carbon-offset-program)
 - [ACM's CO2 Footprint Calculator for Conferences](https://co2calculator.acm.org)
 - [acm-climate](https://groups.google.com/forum/#!forum/acm-climate)
   mailing list
 
-Resources:
-- [Engaging with Climate Change: Possible Steps for SIGPLAN](http://www.cis.upenn.edu/~bcpierce/papers/sigplan-climate-report.pdf)
-- [Carbon Offsets: An Overview for Scientific Societies](http://www.cis.upenn.edu/~bcpierce/papers/carbon-offsets.pdf)
+## Resources
+
+- A [ACM Conferences and the Cost of
+Carbon](https://blog.sigplan.org/2019/07/17/acm-conferences-and-the-cost-of-carbon/)
+  (a post on the SIGPLAN blog)
+- [Engaging with Climate Change: Possible Steps for
+  SIGPLAN](http://www.cis.upenn.edu/~bcpierce/papers/sigplan-climate-report.pdf)
+  (white paper)
+- [Carbon Offsets: An Overview for Scientific
+  Societies](http://www.cis.upenn.edu/~bcpierce/papers/carbon-offsets.pdf)
+  (survey)
 
 ## Climate Committee
 
@@ -37,7 +46,7 @@ change is invited to join the
 [acm-climate](https://groups.google.com/forum/#!forum/acm-climate) email
 discussion group.
 
-## Current action: Carbon Offsets
+## Carbon Offsets
 
 One recent major effort has been evaluating the idea of carbon offsets as a
 mechanism for reducing the conference's net carbon impact.  A
@@ -60,40 +69,17 @@ can be found in a [recent
 report](https://www.sei-international.org/mediamanager/documents/Publications/Climate/SEI-WP-2016-03-ICAO-aviation-offsets-biofuels.pdf)
 from the Stockholm Environmental Institute.
 
-[Atmosfair](https://www.atmosfair.de/en/organisationsform) is a
-non-profit originally created as part of a research project by the
-German Federal Ministry for the Environment. Its carbon offset
-projects are
-[registered](https://www.atmosfair.de/en/organisationsform) through
-the UN Clean Development Mechanism (CDM) standard and are either
-approved by or awaiting approval under the Gold Standard — these are
-widely recognized vetting groups.  Projects that atmosfair supports
-include:
-
-- [Creating decentralized waste management
-  systems](https://www.atmosfair.de/en/biogas_und_biomasse/indonesien)
-  in Indonesia, which reduce the amount of methane released into the
-  atmosphere.
-- [Building biogas plants](https://www.atmosfair.de/en/nepal-biogas)
-  in Nepal, which allow the conversion of animal manure into cooking
-  gas. This means that people no longer need to use firewood to cook,
-  decreasing deforestation and improving indoor air quality.
-- [Distributing solar home
-  systems](https://www.atmosfair.de/en/athiopien-solarhomesystems) in
-  Ethiopia, allowing families to stop using carbon-emitting and
-  inefficient kerosene lamps.
-
-Atmosfair has worked with companies and organizations such as
-[Cisco](https://www.atmosfair.de/en/unternehmen),
-[Dolby](https://www.atmosfair.de/en/unternehmen),
-[Merck](https://www.atmosfair.de/en/unternehmen), and
-[Greenpeace](https://www.atmosfair.de/en/verwaltung-ngos-politik). Its
-web site provides detailed background on its organization, policies,
-standards, and projects.
-
-For those that like comparison shopping, we can recommend
-[CoolEffect](https://www.cooleffect.org) as another excellent carbon
-offset vendor — for example, their project that funds [building
-converters from cow manure to
+The carbon offset vendor that SIGPLAN currently works with is
+[CoolEffect](https://www.cooleffect.org). For example, check out their
+project that funds [building converters from cow manure to
 biogas](https://www.cooleffect.org/content/project/community-biogas-program#What-it-does).
 
+For those that like comparison shopping,
+[Atmosfair](https://www.atmosfair.de/en/organisationsform) is another
+excellent vendor.  It is a non-profit originally created as part of a
+research project by the German Federal Ministry for the Environment. Its
+carbon offset projects are
+[registered](https://www.atmosfair.de/en/organisationsform) through the UN
+Clean Development Mechanism (CDM) standard and are either approved by or
+awaiting approval under the Gold Standard — these are widely recognized
+vetting groups.  
