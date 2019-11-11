@@ -3,12 +3,15 @@ layout: default
 title: "SIGPLAN and Climate Change"
 ---
 
-Resources:
-- [Engaging with Climate Change: Possible Steps for SIGPLAN](http://www.cis.upenn.edu/~bcpierce/papers/sigplan-climate-report.pdf)
-- [Carbon Offsets: An Overview for Scientific Societies](http://www.cis.upenn.edu/~bcpierce/papers/carbon-offsets.pdf)
+Useful Links:
+- ACM's new (as of 2019) [Carbon Offset Program](https://www.acm.org/special-interest-groups/volunteer-resources/conference-planning/conference-registration#h-carbon-offset-program)
 - [ACM's CO2 Footprint Calculator for Conferences](https://co2calculator.acm.org)
 - [acm-climate](https://groups.google.com/forum/#!forum/acm-climate)
   mailing list
+
+Resources:
+- [Engaging with Climate Change: Possible Steps for SIGPLAN](http://www.cis.upenn.edu/~bcpierce/papers/sigplan-climate-report.pdf)
+- [Carbon Offsets: An Overview for Scientific Societies](http://www.cis.upenn.edu/~bcpierce/papers/carbon-offsets.pdf)
 
 ## Climate Committee
 
