@@ -42,6 +42,9 @@ NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
          following or adapting BCP's suggestions in comments in the
          Google doc)
          
+   - Add a note to the GC (and PCC and SC?) documents about the relationship
+     between this document and the conference-specific ones
+
    - Investigate why the site is always so slow to load (created by Azadeh).
 
 ## Fixes / additions to clarify code of conduct

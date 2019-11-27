@@ -50,4 +50,4 @@ table th {
 /* Benjamin Pierce, Sep 2019: A custom style for official sigplan
    rules (as opposed to guidelines, recommendations, or discussion) in
    conference organizer documents: */
-.sigplan_rule { color: red; }
+.sigplan_rule { color: rgb(97, 0, 0); }

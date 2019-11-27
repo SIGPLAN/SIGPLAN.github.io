@@ -7,6 +7,10 @@ title: "Guidelines for the Program Chair of a SIGPLAN Event"
      all submissions are using two-column format (no mention of PACMPL) and
      being processed by Sheridan.  Needs a careful updating pass. -->
 
+[N.b.: SIGPLAN rules are <span class="sigplan_rule>highlighted like
+this</span> to distinguish them from general recommendations and
+discussion.]
+
 Executive Summary
 -----------------
 

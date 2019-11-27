@@ -2,6 +2,11 @@
 layout: default
 title: "Guidelines for the General Chair of a SIGPLAN Event"
 ---
+
+[N.b.: SIGPLAN rules are <span class="sigplan_rule>highlighted like
+this</span> to distinguish them from general recommendations and
+discussion.]
+
 Executive Summary
 -----------------
 
@@ -31,14 +36,14 @@ _Please help us keep this document (and the rest of this site) up to date:_ If y
 Program Chair
 ---------------
 
-<span class=".sigplan_rule">Select potential Program Chair(s) and send their
+<span class="sigplan_rule">Select potential Program Chair(s) and send their
 names to the [SIGPLAN Vice-Chair](mailto:vc_sigplan@acm.org) for
 approval. Do this _before_ asking the person to serve, at least 18 months
-prior to the event.</span> Make sure the Program Chair reviews SIGPLAN's
+prior to the event. Make sure the Program Chair reviews SIGPLAN's
 [conference submission review policy](/Resources/Policies/Review) and
 [diversity policy](/Resources/Policies/Diversity) and point them to the web
 page describing [program-chair
-responsibilities](/Resources/Guidelines/ProChair).
+responsibilities](/Resources/Guidelines/ProChair).</span>
 
 Date and Location
 -----------------
