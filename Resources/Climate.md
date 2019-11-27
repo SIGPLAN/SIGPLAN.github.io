@@ -22,7 +22,12 @@ Carbon](https://blog.sigplan.org/2019/07/17/acm-conferences-and-the-cost-of-carb
   Societies](http://www.cis.upenn.edu/~bcpierce/papers/carbon-offsets.pdf)
   (survey)
 
-## Climate Committee
+<!--
+Yannick's repo of scripts
+  https://github.com/YaZko/acm-climate
+-->
+
+## SIGPLAN's ad hoc Climate Committee
 
 Air travel is a significant source of greenhouse gas emissions, which in
 turn are a significant contributor to climate change.  SIGPLAN hosts a
@@ -82,4 +87,4 @@ carbon offset projects are
 [registered](https://www.atmosfair.de/en/organisationsform) through the UN
 Clean Development Mechanism (CDM) standard and are either approved by or
 awaiting approval under the Gold Standard — these are widely recognized
-vetting groups.  
+vetting groups.
