@@ -15,6 +15,9 @@ the advice on this page may already be familiar to you. Nevertheless,
 even experienced organizers sometimes forget some important points, so
 please at least skim this page as well as the following ones:
 
+- ACM's [conference planning
+  guide](https://www.acm.org/special-interest-groups/volunteer-resources/conference-planning/table-of-contents)
+  <!-- BCP: At some point we should check for redundancies (or conflicts!) between our documents and this. -->
 - SIGPLAN's [conference submission review policy](/Resources/Policies/Review) 
 - SIGPLAN's [diversity policy](/Resources/Policies/Diversity)
 - ACM's [policy against harassment at ACM activities](https://www.acm.org/special-interest-groups/volunteer-resources/conference-planning/opening-slide-on-acm-activities-policy)

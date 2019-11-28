@@ -16,12 +16,9 @@ Key Links:
 - Research Highlights                                           <Highlights>
 - SIGPLAN By-laws                                               <http://www.acm.org/sigs/bylaws-contents/plan_bylaws>
 - SIGPLAN Officers                                              <ContactUs>
-- Open Meeting Presentations                                    <Resources/OMP>
-- Annual Reports                                                <Resources/AnnualReports>
 - Membership                                                    <Membership>
 - Student Membership                                            <Resources/Student>
 - Travel Support                                                <PAC>
-- SIGPLAN Publications                                          <Newsletters>
 - Resources                                                     <Resources>
 
 Ad Hoc Committees:
@@ -36,7 +33,6 @@ Conference Information:
 - Workshop  Guidelines                                          <Resources/Guidelines/Workshops>
 - Sponsorship Proposal                                          <Resources/Proposals/Sponsored>
 - In-cooperation  Proposal                                      <Resources/Proposals/Cooperated>
-- Colocation Guidelines                                         <Resources/Guidelines/Colocation>
 
 Policies:
 - SIGPLAN Conference Policies                                   <https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/edit?usp=sharing>
@@ -44,16 +40,15 @@ Policies:
 - Republication  Policy                                         <Resources/Policies/Republication>
 - Diversity Policy                                              <Resources/Policies/Diversity>
 - Code of Conduct Policy                                        <Resources/Policies/CodeOfConduct>
-# - Errata and Academic Disputes Policy                           <Resources/Policies/ErrataAndAcademicDisputes>
 
 SIGPLAN Sponsored Conferences:
-- Architectural Support for Programming Languages and Operating Systems (ASPLOS)        
+- Architectural Support for Programming Languages and Operating Systems (ASPLOS)
                                                                 <Conferences/ASPLOS>
 - International Symposium on Memory Management (ISMM)           <Conferences/ISMM>
 - Virtual Execution Environments (VEE)                          <Conferences/VEE>
 - Programming Language Design and Implementation (PLDI)         <Conferences/PLDI>
 - Principles of Programming Languages (POPL)                    <Conferences/POPL>
-- Object-oriented Programming, Systems, Languages, and Applications (OOPSLA)    
+- Object-oriented Programming, Systems, Languages, and Applications (OOPSLA)
                                                                 <Conferences/OOPSLA>
 - International Conference on Functional Programming (ICFP)     <Conferences/ICFP>
 - Languages, Compilers, and Tools for Embedded Systems (LCTES)  <Conferences/LCTES>
@@ -68,7 +63,7 @@ SIGPLAN Sponsored Conferences:
 
 #
 # Is this used?
-# 
+#
 SIGPLAN Awards:
 - Programming Languages Software Award                          <Awards/Software>
 - Programming Languages Achievement Award                       <Awards/Achievement>
@@ -83,7 +78,7 @@ SIGPLAN Awards:
 
 #
 # Is this used?
-# 
+#
 Other:
  - Students                                                     <Students>
  - Student Information

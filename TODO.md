@@ -20,7 +20,7 @@ NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
     documents (Principles of POPL, etc.)  and see if there are any
     duplications / inconsistencies
        - put the edited / commented versions into the repo (it was sent in
-         email) 
+         email)
 
   - (Azadeh) Trim the "private information for GCs" document and make
     sure that it ONLY contains sensitive information that does not
@@ -41,7 +41,7 @@ NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
        - reintegrate Yannis's Google doc with the .md files (either
          following or adapting BCP's suggestions in comments in the
          Google doc)
-         
+
    - Add a note to the GC (and PCC and SC?) documents about the relationship
      between this document and the conference-specific ones
 
@@ -52,16 +52,16 @@ NOTES AND THINGS TO DO TO THE SIGPLAN WEB PAGES
 [Requests from Kathryn]
 
 1. On this web page, http://sigplan.org/Resources/Policies/Review/ where it says Contacts, I suggest starting with Authors (versus now it starts with Reviewers).
- 
+
        Contacts
 
        Authors may contact only the Program Chair about submitted papers
        during and after the review process. Contacting PC, EPC, or ERC
        members about submitted paper(s) is an ethical violation and may be
-       grounds for summary rejection. 
+       grounds for summary rejection.
 
        Reviewers should not interact with authors about their submitted
-       papers. Any interaction should go through the program chair. 
+       papers. Any interaction should go through the program chair.
 
 
 2. Please also add it also to the advice Program Chairs, that they should link to the above page from the CFP http://sigplan.org/Resources/Guidelines/ProChair/
@@ -74,28 +74,6 @@ http://sigplan.org/Resources/Author/
 
 # Pending tidying
 
-## Dead / outdated pages (delete)
-  ./Committees/SCChairs.md
-     - not referenced at all, and out of date
-  ./Resources/OMP.md
-     - referenced from Links.yaml but way out of date
-  ./Resources/Policies/ErrataAndAcademicDisputes.md
-     - commented out in _data/Links.yaml
-  ./Resources/AnnualReports.md
-     - referenced from Links.yaml but way out of date
-  ./Resources/Database.md
-     - I can't figure out where this is referenced from, but it is
-       decades out of date!!
-  ./Resources/Events/Cooperated.md
-     - I think it is not referenced from anywhere.  Way out of date.
-  ./Resources/Guidelines/Colocation.md
-     - This is not linked from any of the other guidelines documents,
-       though it _is_ linked from the main SIGPLAN page via _data/Links.yaml
-  ./Notices.md
-     - Content is dead (but might be linked from other places)
-  ./Newsletters.md
-     - Content mostly dead (linked from _data/Links.yaml)
-
 ## On the front page (coordinate with Harry Xu about changes here?):
   - some of the award information is out of date (e.g., the OOPSLA most
     influential paper award, the list of ACM fellows)
@@ -104,7 +82,7 @@ http://sigplan.org/Resources/Author/
     is kind of random.  (Harry will do this one.)
   - the "author information" item doesn't really fit with the rest of
     "conference information".  How about we break it out into a separate
-    category all by itself?  
+    category all by itself?
   - Remove the "Conference Policies" reference (to the Google doc
     at the bottom)!
   - Actually, I propose replacing _all_ the links to conference organization
@@ -193,7 +171,7 @@ https://docs.google.com/document/d/1w5T6bGmUO-8vjHSHpwegkpyFzYypi9HcheUxMTjo-Jw/
 - For each the major conferences, a document that codifies
   its contract with the community.  (Principles of POPL,
   Practices of PLDI, etc.)
-  
+
      https://popl.mpi-sws.org/PrinciplesofPOPL.pdf
      http://www.sigplan.org/sites/default/files/PracticesofPLDI.pdf
      https://www.icfpconference.org/TheFunctioningofICFP.pdf
@@ -259,14 +237,14 @@ Hope this helps...
 
 ## Full email from Yannis
 
-Yannis:  Many thanks for your list of 
+Yannis:  Many thanks for your list of
   "topics that people die to know about".
 I am on board: we gotta have policies and improved documents
 about those topics.
 
 Azadeh: Let us work us on this!  We need a process;
 what do you suggest?  You might run Yannis' points by
-the SIGPLAN EC, which includes many experienced conference 
+the SIGPLAN EC, which includes many experienced conference
 and workshop organizers.
 --Jens
 
