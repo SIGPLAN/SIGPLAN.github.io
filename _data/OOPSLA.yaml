@@ -1,3 +1,27 @@
+2019:
+- Awardee: Leo A. Meyerovich, Arjun Guha, Jacob Baskin, Gregory H. Cooper, Michael Greenberg, Aleks Bromfield, 	Shriram Krishnamurthi
+  Other: |
+    (for 2009) _[Flapjax: a programming language for Ajax applications](https://dl.acm.org/citation.cfm?id=1640091)_
+  Citation: |
+    Flapjax reimagines how to program client-based web applications by 
+    using abstractions dedicated to facilitating communication intensive 
+    applications with interactive interfaces. There are two central such 
+    abstractions in Flapjax, which were adopted from functional reactive 
+    programming: Event streams and so-called behaviors, with the latter 
+    modeling computations that bring themselves automatically up-to-date 
+    whenever data and computations they depend on change. This lets 
+    callbacks that are typically used in applications with interactive 
+    interfaces disappear from their designs … and with them also the hell 
+    of complexity they cause. Flapjax seamlessly builds on top of JavaScript 
+    without requiring a dedicated runtime and thus interoperates with 
+    existing applications written in JavaScript. This design choice lowers 
+    the barrier to entry and makes the language approachable to novice users. 
+    In terms of modern usage, the reactive style and event stream abstraction 
+    advocated by Flapjax have been adopted widely, both in mobile apps and on 
+    the web. Moreover, recent research has shown that beyond interactivity, 
+    behavior abstractions also facilitate correct-by-design distributed 
+    applications in presence of concurrency as well as crash and communication 
+    faults.
 2018:
 - Awardee: Dino Distefano, Matthew Parkinson
   Other: |
