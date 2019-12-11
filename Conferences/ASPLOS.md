@@ -17,7 +17,7 @@ SIGARCH and SIGOPS.
 > [ASPLOS 2020](https://asplos-conference.org/)  
 > Location: Lausanne, Switzerland  
 > General Chair: [James Larus](mailto:ald@cs.utah.edu), EPFL  
-> Program Co-Chairs: [Luis Ceze](mailto:luisceze@cs.washington.edu), University of Washington, and [Karin Strauss](mailto:kstrauss@microsoft.com), MSR 
+> Program Co-Chairs: [Luis Ceze](mailto:luisceze@cs.washington.edu), University of Washington, and [Karin Strauss](mailto:kstrauss@microsoft.com), MSR  
 > Dates: 16st to 20th March 2020
 
 **ASPLOS Steering Committee**
