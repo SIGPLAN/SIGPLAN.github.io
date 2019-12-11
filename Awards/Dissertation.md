@@ -17,9 +17,9 @@ should be directed to **<mailto:reynolds_award@sigplan.org>**.
 **Nominations**
 
 Nominations must be submitted via the SIGPLAN Awards Nomination Portal
-at <https://awards.sigplan.org/nominate/reynolds/> by January 15th 2019 
+at <https://awards.sigplan.org/nominate/reynolds/> by January 15th 2020 
 (anywhere on earth) to be considered for this year’s award. The nominated 
-dissertation must have been awarded in 2018 and be available in English 
+dissertation must have been awarded in 2019 and be available in English 
 (to facilitate evaluation by the selection committee).
 
 A nomination consists of the following items:
