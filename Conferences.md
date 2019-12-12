@@ -6,32 +6,32 @@ SIGPLAN organizes the
 premier conferences and workshops in the area of programming language
 research, providing opportunities for researchers, developers,
 practitioners, and students to present their latest research
-advances.  
+advances.
 
-- ACM's 
-[master conference calendar](http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN)
-for SIGPLAN.
-- Information for [conference organizers](/Resources/Guidelines/ConferenceOrganizers) 
+- ACM's [master conference calendar](http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN)
+  for SIGPLAN.
+- Information for [conference
+  organizers](/Resources/Guidelines/ConferenceOrganizers) 
 
 * * * * *
 
-<!--- (BCP) Is this the correct list of "regularly sponsored" conferences? 
-      (E.g., should CGO be included?) --->
+<!-- (BCP) Is this the correct list of "regularly sponsored" conferences?
+      (E.g., should CGO be included?  Should CC?)  How should the list be
+      sorted? -->
+      
+<!-- (AF) What does "regularly" mean? Permanently? If I remember correctly we 
+      issued CC a 2-3 year sponsorship to be revisited later. Is that "regular"?
+      Also, I don't have a way of checking the list, other than sending an
+      email to everyone to report discrepancies. Shall we? -->
 
-The conferences listed below are regularly sponsored by SIGPLAN.
+The conferences listed below are regularly sponsored by
+SIGPLAN. 
 
 **Principles of Programming Languages ([POPL](/Conferences/POPL))**  
 Principles of Programming Languages is the premier forum for the
 fundamental innovations in design, definition, analysis,
 transformation, and implementation of programming languages,
 programming systems, and programming abstractions.
-
-**Principles and Practices of Parallel Programming ([PPOPP](/Conferences/PPOPP))**  
-Principles and Practices of Parallel Programming provides a forum
-for papers on the principles and foundations of parallel
-programming, tools and techniques for parallel programming, and
-experiences in using parallel programming to solve applications
-problems.
 
 **Programming Language Design and Implementation ([PLDI](/Conferences/PLDI))**  
 Programming Language Design and Implementation is the premier forum
@@ -47,18 +47,6 @@ systems.
 The International Conference on Functional Programming is the
 premier forum for the design, implementations, and uses of
 functional programming.
-
-**The Programming Languages Mentoring Workshop ([PLMW](/Conferences/PLMW))**  
-The purpose of this mentoring workshop is to encourage graduate
-students (PhD and MSc) and senior undergraduate students to pursue
-careers in programming language research. This workshop will provide
-technical sessions on cutting-edge research in programming languages,
-and mentoring sessions on how to prepare for a research career. We
-will bring together leaders in programming language research from
-academia and industry to give talks on their research areas. The
-workshop will engage students in a process of imagining how they might
-contribute to our research community.
-
 
 **Architectural Support for Programming Languages and Operating Systems ([ASPLOS](/Conferences/ASPLOS))**  
 The International Conference on Architectural Support for
@@ -135,6 +123,13 @@ The International Conference on Software Language Engineering (SLE) is
 devoted to the engineering principles of software languages: their
 design, their implementation, and their evolution.
 
+**Principles and Practices of Parallel Programming ([PPOPP](/Conferences/PPOPP))**  
+Principles and Practices of Parallel Programming provides a forum
+for papers on the principles and foundations of parallel
+programming, tools and techniques for parallel programming, and
+experiences in using parallel programming to solve applications
+problems.
+
 **Virtual Execution Environments ([VEE](/Conferences/VEE))**  
 The goal of the International Conference on Virtual Execution
 Environments is to be a first-rate research forum that brings
@@ -146,3 +141,15 @@ Previously, research results on these topics have been scattered
 among a number of different venues in the languages (VM, PLDI,
 OOPSLA, IVME), operating systems (SOSP, OSDI, USENIX), and
 architecture (ASPLOS, CGO, PACT) communities.
+
+**The Programming Languages Mentoring Workshop ([PLMW](/Conferences/PLMW))**  
+The purpose of this mentoring workshop is to encourage graduate
+students (PhD and MSc) and senior undergraduate students to pursue
+careers in programming language research. This workshop features
+technical sessions on cutting-edge research in programming languages
+and mentoring sessions on how to prepare for a research career. It
+brings together leaders in programming language research from
+academia and industry to give talks on their research areas. The
+workshop engages students in a process of imagining how they might
+contribute to our research community.
+

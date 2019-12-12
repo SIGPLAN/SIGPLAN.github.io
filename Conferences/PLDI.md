@@ -65,5 +65,4 @@ The PLDI Steering Committee is chosen according the [Practices of PLDI](http://w
 Click [here](http://www.cs.utexas.edu/users/mckinley/20-years.html)
 to view a selection of 50 influential papers that appeared in the
 Conference on Programming Language Design and Implementation and
-its predecessors from 1979 to 1999. The selected papers will
-appear in special issue of SIGPLAN Notices.
+its predecessors from 1979 to 1999. 

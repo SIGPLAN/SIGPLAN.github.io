@@ -26,16 +26,14 @@ Benefits
 
 Sponsored status provides a number of benefits:
 
-- You can use the name "The ACM SIGPLAN Conference / Workshop on ..." for
-  the event. <!--- BCP: What about "symposium? What about other permutations
-  of these words? --->
+- You can use the name "The ACM SIGPLAN [Conference / Workshop / Symposium /
+  etc.] on ..." for the event. 
 - SIGPLAN takes financial responsibility for the event.
 - You have access to the [PAC Fund](/PAC) to support participation in the event.
-- Your proceedings (if any) will automatically be published in the Digital Library.
-- ACM can provide help with site selection, including venue negotiations.
-- You will receive help and guidance in organizing the event,
-  including an instruction manual.  <!--- BCP: Where is this instruction
-  manual? Why don't we just make it available to everybody and link it here? --->
+- Your proceedings (if any) will automatically be published in the Digital
+  Library.
+- ACM may be able to provide help with site selection, including venue
+  negotiations. 
 
 These are in addition to the benefits available with in-cooperation status:
 
@@ -65,14 +63,23 @@ include the following:
   information, publicity, mailing lists, and producing a proceedings,
   a percentage of conference income is budgeted for ACM services.
 - Critical decisions, such as setting the budget and selecting the
-  program chair and the program committee, have to be approved by
-  the [SIGPLAN Executive Committee](/ContactUs).  (Concretely, proposals for these decisions should be emailed to the SIGPLAN vice chair, [vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org).  For program committee proposals, please use the [PC proposal spreadsheet](/Resources/Guidelines/sigplan-pc-proposal-template.xlsx).)
-- A final post-event report is required.  
+  program chair and the program committee<!-- BCP: But not the general
+  chair?? -->, have to additionally be approved by
+  the [SIGPLAN Executive Committee](/ContactUs).  (Concretely, proposals for
+  these decisions should be emailed to the SIGPLAN vice chair,
+  [vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org), who will forward them to
+  the EC.  For program committee proposals, please use the [PC proposal spreadsheet](/Resources/Guidelines/sigplan-pc-proposal-template.xlsx).)
+  <!-- AF: I added "additionally". I think the consultation with the general
+        chair is given, since the financials go through them? -->
+  <!-- BCP: "Setting the budget" is something that I have never yet been
+       involved in! -->
+- A final post-event report is required. <!-- BCP: This requirement seems to
+  be universally ignored --> <!-- AF: left a response in another document. --> 
 
-Sponsored events should follow 
+Sponsored events must follow 
 SIGPLAN [policies and procedures](/Resources/Guidelines/ConferenceOrganizers).
 
-In addition, event organizers are encouraged to contact the ACM
+Event organizers are encouraged to contact the ACM
 Headquarters ([incoop@acm.org](mailto:incoop@acm.org)), to have
 SIGPLAN membership materials sent directly to the conference
 location for display there.   
@@ -93,8 +100,8 @@ Publication
 How to Apply
 ------------
 
-To attain SIGPLAN sponsored status, you need SIGPLAN to endorse your proposal.
-To achieve this, send a request to the
+To receive SIGPLAN-sponsored status, you need SIGPLAN to endorse your proposal.
+To apply, send a request to the
 [SIGPLAN Vice Chair](mailto:vc_sigplan@acm.org),
 preferably at least **eighteen months before** the event is to take
 place. The request should include the following information, **in plain text** (not PDF or Word, please):
@@ -121,8 +128,8 @@ What Happens Next
 -----------------
 
 The request will be considered by the
-[SIGPLAN Executive Committee](/ContactUs). A response to
-the request is usually given within two weeks. The Executive Committee
+[SIGPLAN Executive Committee](/ContactUs); a response is usually given
+within two weeks. The Executive Committee 
 can only endorse the request; final approval
 comes from ACM, with the acceptance of the budget submitted with the
 Technical Meeting Request Form.
@@ -135,16 +142,26 @@ contracts.
 are available from the ACM website; 
 [contact them](mailto:paf_tmrf@acm.org) if you have any questions.
 
+<!-- BCP: My reading of the above is that events that are _not_ part of a
+     series (as described below) do not need to submit their PCs (or
+     proposed PC chairs, or GCs) to the EC for approval -- it's not
+     mentioned anywhere above.  I do not think this is what we intend!
+     (There may be some other things that can be made a bit clearer here
+     too...) -->
+     
+<!-- AF: Do we need an entire page rewrite? -->
 
-Event Series
-------------
+Ongoing Sponsorship for Event Series
+------------------------------------
 
-For SIGPLAN-sponsored events that occur on a
-regular basis as part of a series (for example, every year),
-SIGPLAN offers on-going sponsorship. Such events must be
-organized by a Steering Committee (SC). The SC, working
-in partnership with the SIGPLAN Executive Committee (EC), is
-responsible for the overall organization and financial plan of each
+For SIGPLAN-sponsored events that occur on a regular basis as part of a
+series (for example, every year), SIGPLAN offers ongoing sponsorship.  The
+current list of SIGPLAN events with ongoing sponsorship can be found
+[here](/Conferences).
+
+Events with ongoing sponsorship must be organized by a Steering Committee
+(SC). The SC, working in partnership with the SIGPLAN Executive Committee
+(EC), is responsible for the overall organization and financial plan of each
 instance of the series. SIGPLAN has
 [guidelines for steering committee organization](/Resources/Guidelines/SCommittee).  
 
@@ -155,7 +172,7 @@ previous (up to) three instances and any planned future instances.
 The request should also specify the proposed rules for the steering
 committee composition and evolution, the method for selecting the
 chair, and the responsibilities of the committee; these rules must
-conform to [SIGPLAN guidelines for SCs](http://www.sigplan.org/Resources/Guidelines/SCommittee).
+conform to [SIGPLAN guidelines for SCs](/Resources/Guidelines/SCommittee).
 
 If an event is granted ongoing sponsored status, then, for each instance of
 the event:
@@ -169,11 +186,14 @@ the event:
     members (by submitting a completed
     [PC proposal 
     spreadsheet](/Resources/Guidelines/sigplan-pc-proposal-template.xlsx))
-    from the SIGPLAN EC prior to inviting the selected individuals, and the
+    from the SIGPLAN vice chair prior to inviting the selected individuals,
+    and the 
     selection must conform to
     [SIGPLAN's Diversity Policy](/Resources/Policies/Diversity);
+    <!-- BCP: Even here, we don't require that PC Chairs or GCs be vetted
+         with the EC! -->
 -   the General Chair of each event must provide the SIGPLAN Vice
-    Chair with a post-event report;
+    Chair with a post-event report; <!-- BCP: I have not seen even one of these! -->
 -   the Steering Committee must contact the SIGPLAN Vice Chair when
     the composition or chair of the SC changes.  
 

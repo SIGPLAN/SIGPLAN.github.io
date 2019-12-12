@@ -8,7 +8,7 @@ Executive Summary
 Events organized in cooperation with ACM SIGPLAN benefit from
 SIGPLAN's name and oversight, and from publicity disseminated to
 SIGPLAN members. There is a lightweight application process, and there
-are no financial implications.  
+are no financial implications.
 
 Rationale
 ---------
@@ -19,7 +19,7 @@ primary difference between the two is that SIGPLAN takes a more
 hands-off approach to in-cooperation events than to the ones it
 sponsors, and in particular does not take financial responsibility for
 them. This page describes in-cooperation status; a separate page describes
-[sponsored status](http://www.sigplan.org/Resources/Proposals/Sponsored).  
+[sponsored status](http://www.sigplan.org/Resources/Proposals/Sponsored).
 
 Benefits
 --------
@@ -33,7 +33,7 @@ In-cooperation status provides a number of benefits:
   [infodir\_sigplan@acm.org](mailto:infodir_sigplan@acm.org?subject=SIGPLAN%20Mailing%20List).)
 - You will get entries in the _Call for Papers_
   and _Professional Calendar_ sections of _Communications of the ACM_, free
-  of charge. 
+  of charge.
 - You can buy an advertisement in _CACM_ at a special rate. All placement
   of such advertisements should be arranged through ACM Headquarters. Please
   check CACM as to the lead time required. Discounts on ACM mailing
@@ -64,14 +64,16 @@ SIGPLAN policies and procedures, including the following:
 - [Guidelines for the Program Chair](/Resources/Guidelines/ProChair)
 - [Code of Conduct Policy](/Resources/Policies/CodeOfConduct/)
 
+<!-- BCP: There has been some confusion on the EC about whether in-cooperation events need to submit PCs to the VC/EC for approval. The rules here should make this clear. -->
+
 In addition, event organizers are encouraged to contact the ACM
 Headquarters ([incoop@acm.org](mailto:incoop@acm.org)), to have
 SIGPLAN membership materials sent directly to the conference
-location for display there.   
+location for display there.
 
 How to Apply
 ------------
-  
+
 To attain SIGPLAN in-cooperation status, you need SIGPLAN to endorse your proposal.
 To achieve this, send a request to the
 [SIGPLAN Vice Chair](mailto:vc_sigplan@acm.org),
@@ -97,8 +99,8 @@ What Happens Next
 -----------------
 
 The request will be considered by the
-[SIGPLAN Executive Committee](/ContactUs). 
-A response to the request is usually given within two weeks. 
+[SIGPLAN Executive Committee](/ContactUs).
+A response to the request is usually given within two weeks.
 The Executive Committee can only endorse the request; you still need to apply
 for ACM approval. Your event will not receive SIGPLAN in-cooperation
 status or be included on the ACM calendar until this step is completed
@@ -107,7 +109,7 @@ Guidelines_, then submit for ACM approval the online _In Coop TMRF_;
 both of these are accessible from the [ACM Conference
 Manual](http://www.acm.org/sigs/volunteer_resources/conference_manual/incoop).
 
-ACM will inform you of their official approval decision within 
+ACM will inform you of their official approval decision within
 two weeks of receiving this information.
 If you have questions, contact the ACM ([incoop@acm.org](mailto:incoop@acm.org)).
 
@@ -115,8 +117,8 @@ See Also
 --------
 
 *SIGPLAN Chair*:
-[chair\_sigplan@acm.org](mailto:chair_sigplan@acm.org)  
+[chair\_sigplan@acm.org](mailto:chair_sigplan@acm.org)
 *SIGPLAN Vice Chair*:
-[vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org)  
+[vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org)
 *SIGPLAN Information Director*:
 [infodir\_sigplan@acm.org](mailto:infodir_sigplan@acm.org?subject=Conference%20Information)

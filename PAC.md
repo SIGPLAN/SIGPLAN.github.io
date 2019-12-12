@@ -29,7 +29,7 @@ applications for the following activities:
 > -   Any other activity deemed appropriate by the committee.
 
 Please note that the ACM Student Research Competition is not a SIGPLAN 
-sponsored event.  Furthermore, sometimes a non-SIGPLAN conference is 
+sponsored event.  Furthermore, sometimes non-SIGPLAN conferences are
 co-located with a SIGPLAN conference. Only SIGPLAN sponsored events are 
 eligible for PAC funding.
 
@@ -240,4 +240,4 @@ Additional information requested by bank (such as intermediary bank
 info)
   
 **Q:** Can I get a travel advance?  
-**A:** We do not do travel advances for student travel.
+**A:** Unfortunately, we do not do travel advances.

@@ -5,6 +5,10 @@ title: "Author Information"
 
 ## `acmart` Format
 
+<-- (BCP) Lots of stuff out of date here!  I propose to just delete it and tell people to look at the submission instructions for each conference. -->
+
+<-- (AF) Agreed, specially since there is no uniformity across conferences. -->
+
 ACM commissioned the construction of a [Master Article
 Template](http://www.acm.org/publications/proceedings-template) that
 consolidates all previous ACM journal and proceedings formats
