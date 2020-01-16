@@ -192,7 +192,7 @@ get clear on SIGPLAN's expectations for how workshop PCs are formed
 and vetted.
 
 <!-- BCP: No GC has asked me for such a conversation.  I
-     suspect no one is reading this document at the moment. -->)
+     suspect no one is reading this document at the moment. -->
 <!-- AF: replace it with a link to a workshop guidelines page? -->
 <!-- BCP: Fine -->
 
@@ -261,8 +261,6 @@ _SIGPLAN Information Director_:
 
 See Also
 --------
-
-<
 
 - [Calendar of Upcoming SIGPLAN Conferences](http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN)
 - ACM's *[How to Organize a Conference](http://www.acm.org/sigs/volunteer_resources/conference_manual/conference_manual-toc)* manual
