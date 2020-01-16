@@ -3,7 +3,7 @@ layout: default
 title: "Guidelines for the General Chair of a SIGPLAN Event"
 ---
 
-[N.b.: SIGPLAN rules are <span class="sigplan_rule>highlighted like
+[N.B.: SIGPLAN rules are <span class="sigplan_rule>highlighted like
 this</span> to distinguish them from general recommendations and
 discussion.]
 
