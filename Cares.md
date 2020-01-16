@@ -69,20 +69,19 @@ expands in membership, it may add conferences to the guaranteed list.
   <tr>
     <td></td>
     <td></td>
-    <td></td>
   </tr>
 </table>
 
 
 ### SIGPLAN CARES Committee Members
 
-Co-Chair, [Kathryn McKinley](https://www.cs.utexas.edu/users/mckinley/), 2019-2021
-Co-Chair, [David Walker](https://www.cs.princeton.edu/~dpw/), 2019-2022
-Member, [Vikram Adve](https://vikram.cs.illinois.edu/)  
-Member, [Shriram Krishnamurthi](https://cs.brown.edu/~sk/)  
-Member, [Simon Peyton Jones](https://www.microsoft.com/en-us/research/people/simonpj/)  
-Member, [Alexandra Silva](https://www.alexandrasilva.org/#/main.html)  
-Member, [Michelle Strout](http://cgi.cs.arizona.edu/~mstrout/)  
-Member, [Stephanie Weirich](https://www.cis.upenn.edu/~sweirich/)  
-Member, [Peng Wu](https://pengwu.wordpress.com/)  
-Member, [Hongseok Yang](https://sites.google.com/view/hongseokyang/home)  
+Co-Chair, [Kathryn McKinley](https://www.cs.utexas.edu/users/mckinley/), Google, 2019-2021  
+Co-Chair, [David Walker](https://www.cs.princeton.edu/~dpw/), Princeton University, 2019-2022  
+Member, [Vikram Adve](https://vikram.cs.illinois.edu/), University of Illinois  
+Member, [Shriram Krishnamurthi](https://cs.brown.edu/~sk/), Brown University  
+Member, [Simon Peyton Jones](https://www.microsoft.com/en-us/research/people/simonpj/), Microsoft Research Cambridge  
+Member, [Alexandra Silva](https://www.alexandrasilva.org/#/main.html), University College London   
+Member, [Michelle Strout](http://cgi.cs.arizona.edu/~mstrout/), University of Arizona  
+Member, [Stephanie Weirich](https://www.cis.upenn.edu/~sweirich/), University of Pennsylvania  
+Member, [Peng Wu](https://pengwu.wordpress.com/), Huawei  
+Member, [Hongseok Yang](https://sites.google.com/view/hongseokyang/home), KAIST  
