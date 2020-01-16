@@ -3,7 +3,7 @@ layout: default
 title: "SIGPLAN CARES Bylaws"
 ---
 
-Bylaws of the Committee to Aid REporting on discrimination and haraSsment policy violations.  Approved by the SIGPLAN Executive Committee on Jan 15, 2020.
+Bylaws of the Committee to Aid REporting on discrimination and haraSsment policy violations ([CARES](http://www.sigplan.org/Cares/)).  Approved by the SIGPLAN Executive Committee on Jan 15, 2020.
 
 ### CARES mission statement
  
