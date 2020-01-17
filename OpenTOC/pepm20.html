@@ -1,0 +1,142 @@
+
+<!doctype html>
+<head>
+<META http-equiv="Content-Style-Type" content="text/css">
+<title>PEPM 2020- Proceedings of the 2020 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation</title>
+<STYLE type="text/css">
+#DLtoc {
+	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+	}
+
+#DLheader {
+	}
+#DLheader h1 {
+	font-size:16px;	
+}
+	
+#DLcontent {
+	 font-size:12px;
+	}
+#DLcontent h2 {
+	 font-size:14px;
+	 margin-bottom:5px;
+	}
+#DLcontent h3 {
+	 font-size:12px;
+	 padding-left:20px;
+	 margin-bottom:0px;
+	}
+
+#DLcontent ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+		
+.DLauthors li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLauthors li:after{
+	content:",";
+	}
+.DLauthors li.nameList.Last:after{
+	content:"";
+	}		
+
+.DLabstract {
+	 padding-left:40px;
+	 padding-right:20px;
+	 display:block;
+	}
+
+.DLformats li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 5px;
+	}
+	
+.DLformats li:after{
+	content:",";
+	}
+.DLformats li.formatList.Last:after{
+	content:"";
+	}		
+
+.DLlogo {
+	vertical-align:middle; 
+	padding-right:5px;
+	border:none;
+	}
+	
+.DLcitLink {
+	margin-left:20px;
+	}	
+
+.DLtitleLink {
+	margin-left:20px;
+	}	
+
+.DLotherLink {
+	margin-left:0px;
+	}		
+   
+</STYLE>
+</head>
+<body>
+<div id="DLtoc">
+<div id="DLheader">
+<h1>PEPM 2020- Proceedings of the 2020 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation</h1>
+<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3372884" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
+</div>
+<div id="DLcontent">
+<h2>SESSION: Research Papers</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N690057" title="Get the Full Text from the ACM Digital Library">Module generation without regret</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Yuhi Sato</li>
+<li class="nameList">Yukiyoshi Kameyama</li>
+<li class="nameList Last">Takahisa Watanabe</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Modules are an indispensable mechanism for providing abstraction to programming languages. To reduce the abstraction overhead in the usage of modules, Watanabe et al. proposed a language for generating and manipulating code of modules, and implemented it via a translation to plain MetaOCaml. Unfortunately, their solution has a serious problem of code explosion if functors are repeatedly applied to modules. Another problem in their solution is that it does not allow nested modules. </p> <p> This paper proposes a refined translation for a two-stage typed language with module generation where nested modules are allowed. Our translation does not suffer from the code-duplication problem. The key idea is to use the genlet operator in latest MetaOCaml, which performs let insertion at the code-generation time to allow sharing of code fragments. To our knowledge, our work is the first to apply genlet to code generation for modules. We conduct an experiment using a microbenchmark, and the result shows that our method is effective to reduce the size of generated code that would have been exponentially large.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N690058" title="Get the Full Text from the ACM Digital Library">Symbolic bisimulation for open and parameterized systems</a>
+</h3>
+<ul class="DLauthors">
+ <li class="nameList First">Zechen Hou</li>
+<li class="nameList Last">Eric Madelaine</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p><em>Open Automata</em> (OA) are symbolic and parameterized models for open concurrent systems. Here <em>open</em> means partially specified systems, that can be instantiated or assembled to build bigger systems. An important property for such systems is &#8221;compositionality&#8221;, meaning that logical properties, and equivalences, can be checked locally, and will be preserved by composition. In previous work, a notion of equivalence named <em>FH-Bisimulation</em> was defined for open-automata, and proved to be a congruence for their composition. But this equivalence was defined for a variant of open-automata that are intrinsically infinite, making it unsuitable for algorithmic treatment. </p> <p>We define a new form of equivalence named <em>StrFH-Bisimulation</em>, working on finite encodings of OAs. We prove that StrFH-Bisimulation is consistent and complete with respect to the FH-Bisimulation. </p> <p>Then we propose two algorithms to check <em>StrFH-Bisimulation</em>: the first one requires a (user-defined) relation between the states of two finite OAs, and checks whether it is a StrFH-Bisimulation. The second one takes two finite OAs as input, and builds a &#8221;weakest StrFH-bisimulation&#8221; such that their initial states are bisimilar. We prove that this algorithm terminates when the data domains are finite. Both algorithms use an SMT-solver as a basis to solve the proof obligations.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N690059" title="Get the Full Text from the ACM Digital Library">High-fidelity metaprogramming with separator syntax trees</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Rodin T. A. Aarssen</li>
+<li class="nameList Last">Tijs van der Storm</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>Many metaprogramming tasks, such as refactorings, automated bug fixing, or large-scale software renovation, require high-fidelity source code transformations -- transformations which preserve comments and layout as much as possible. Abstract syntax trees (ASTs) typically abstract from such details, and hence would require pretty printing, destroying the original program layout. Concrete syntax trees (CSTs) preserve all layout information, but transformation systems or parsers that support CSTs are rare and can be cumbersome to use. </p> <p> In this paper we present separator syntax trees (SSTs), a lightweight syntax tree format, that sits between AST and CSTs, in terms of the amount of information they preserve. SSTs extend ASTs by recording textual layout information separating AST nodes. This information can be used to reconstruct the textual code after parsing, but can largely be ignored when implementing high-fidelity transformations. </p> <p> We have implemented SSTs in Rascal, and show how it enables the concise definition of high-fidelity source code transformations using a simple refactoring for C++.</p></div> </div>
+<h2>SESSION: Short Papers</h2>
+<div class="DLabstract"> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N690050" title="Get the Full Text from the ACM Digital Library">An approach to generate text-based IDEs for syntax completion based on syntax specification</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList Last">Isao Sasano</li>
+ </ul>
+<div class="DLabstract"><div style="display:inline"><p>The integrated development environments provide several types of functionalities. Herein, we intend to generate a syntax completion functionality from the grammar of the target language as long as the sentences of the language can be analyzed via LR parsing. We specify the syntax candidates to be completed based on the sentential forms and reductions in LR parsing. Furthermore, we implement a prototype system for computing the syntax candidates to be completed at the cursor position in the source code written in a small subset of Standard ML; the system only uses the program text up to the cursor position to ensure simplicity.</p></div> </div>
+<h3>
+<a class="DLtitleLink" href="https://dl.acm.org/authorize?N690051" title="Get the Full Text from the ACM Digital Library">GOOL: a generic object-oriented language</a>
+</h3>
+<ul class="DLauthors">
+<li class="nameList First">Jacques Carette</li>
+<li class="nameList">Brooks MacLachlan</li>
+<li class="nameList Last">Spencer Smith</li>
+</ul>
+<div class="DLabstract"><div style="display:inline"><p>We present GOOL, a Generic Object-Oriented Language. GOOL shows that with the right abstractions, a language can capture the essence of object-oriented programs. GOOL generates human-readable, documented and idiomatic code in Python, Java, C#, and C++. In it, we can express common programming idioms and patterns.</p></div> </div>
+</div>
+</div>
+</body>
+</html>
