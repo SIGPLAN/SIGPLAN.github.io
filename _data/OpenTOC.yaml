@@ -489,6 +489,10 @@
   year: 2019
   title: "Proceedings of the 2019 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation"
 -
+  event: PEPM
+  year: 2020
+  title: "Proceedings of the 2020 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation"
+-
   event: PLATEAU
   year: 2014
   title: "Proceedings of the 5th Workshop on Evaluation and Usability of Programming Languages and Tools"
@@ -566,6 +570,11 @@
   year: 2019
   title: "Proceedings of the 46th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
   link: https://dl.acm.org/citation.cfm?id=3302515
+-
+  event: POPL
+  year: 2020
+  title: "Proceedings of the 47th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
+  link: https://dl.acm.org/toc/pacmpl/2020/4/POPL
 -
   event: PPAA
   year: 2014
