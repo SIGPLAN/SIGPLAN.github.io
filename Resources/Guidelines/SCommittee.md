@@ -70,5 +70,5 @@ _SIGPLAN Information Director_:
 _ACM Representative to SIGPLAN_ (Abigail Sumandal):
 [sumandal@hq.acm.org](mailto:sumandal@hq.acm.org)
 
-<-- (BCP) Abbi is no longer at ACM.  Is there a "permalink" for this role? -->
-<-- AF: no clue. -->
+<!-- (BCP) Abbi is no longer at ACM.  Is there a "permalink" for this role? -->
+<!-- AF: no clue. -->

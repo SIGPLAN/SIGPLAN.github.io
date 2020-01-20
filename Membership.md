@@ -5,7 +5,7 @@ title: "Membership Information and Benefits"
 SIGPLAN offers two membership options (electronic and print).
 
 **Electronic Option**
-<--- AF: I edited the paragraph below, based on BCP's comments. Also,
+<!-- AF: I edited the paragraph below, based on BCP's comments. Also,
 I changed the order to alphabetical. There was a random order before. --->
 
 SIGPLAN members have access to all SIGPLAN publications in ACM’s Digital
