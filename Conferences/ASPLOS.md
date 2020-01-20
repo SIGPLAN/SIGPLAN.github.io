@@ -14,11 +14,11 @@ SIGARCH and SIGOPS.
 
 **ASPLOS Fast Facts**
 
-> [ASPLOS 2014](http://www.cs.utah.edu/asplos14/)  
-> Location: Salt Lake City, UT  
-> General Chair: [Al Davis](mailto:ald@cs.utah.edu) and [Rajeev Balasubramonian](mailto:rajeev@cs.utah.edu), University of Utah  
-> Program Chair: [Sarita Adve](mailto:sadve@illinois.edu), University of Illinois at Urbana-Champaign  
-> Dates: 1st to 5th March 2014
+> [ASPLOS 2020](https://asplos-conference.org/)  
+> Location: Lausanne, Switzerland  
+> General Chair: [James Larus](mailto:ald@cs.utah.edu), EPFL  
+> Program Co-Chairs: [Luis Ceze](mailto:luisceze@cs.washington.edu), University of Washington, and [Karin Strauss](mailto:kstrauss@microsoft.com), MSR  
+> Dates: 16st to 20th March 2020
 
 **ASPLOS Steering Committee**
 
@@ -26,6 +26,12 @@ SIGARCH and SIGOPS.
 
 **Web Pages of Previous Conferences**  
 
+> [ASPLOS 2019](https://asplos-conference.org/2019/index.html) (Providence, RI)  
+> [ASPLOS 2018](https://www.asplos2018.org/) (Williamsburg, VA)  
+> [ASPLOS 2017](http://novel.ict.ac.cn/ASPLOS2017/) (Xi'an, China)  
+> [ASPLOS 2016](https://research.ece.cmu.edu/~calcm/asplos2016/) (Atlanta, GA)  
+> [ASPLOS 2015](http://asplos15.bilkent.edu.tr/) (Istanbul, Turkey)  
+> [ASPLOS 2014](http://www.cs.utah.edu/asplos14/) (Salt Lake City, UT)  
 > [ASPLOS 2013](http://asplos13.rice.edu/) (Houston, TX)  
 > [ASPLOS 2012](http://research.microsoft.com/asplos_2012) (London)  
 > [ASPLOS 2011](http://asplos11.cs.ucr.edu/) (Newport Beach, CA)  

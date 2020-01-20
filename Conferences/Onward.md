@@ -8,19 +8,30 @@ aspect of programming. Welcomed are papers that propose and argue for
 new approaches to the creation of software as well as reflections on
 technology and ideas bearing on programming broadly construed.
 
-Onward! 2019
+Onward! 2020
 ------------
 
--   Athens, Greece, October 23-25, 2019
--   Co-located with SPLASH 2019
--   Papers chair: Hidehiko Masuhara (Tokyo Institute of Technology)
--   Essays chair: Tomas Petricek (University of Kent)
--   [http://2019.splashcon.org](http://2019.splashcon.org)
--   [https://2019.onward-conference.org/track/onward-2019-papers](https://2019.onward-conference.org/track/onward-2019-papers)
--   [https://2019.onward-conference.org/track/onward-2019-Onward-Essays](https://2019.onward-conference.org/track/onward-2019-Onward-Essays)
+-   Chicago, Illinois, USA, November 18-20, 2020
+-   Co-located with SPLASH 2020
+-   [http://2020.splashcon.org](http://2020.splashcon.org)
 
 Awards
 ------
+
+-   Most Notable Paper Award 2019 for 2009
+    -   Recipient: William R. Cook
+    -   Title: On Understanding Data Abstraction, Revisited
+    -   Conference: Onward! 2009
+    -   Paper:
+        [https://dl.acm.org/citation.cfm?id=1640133](https://dl.acm.org/citation.cfm?id=1640133)
+    - Citation: The 2009 Onward! essay "On Understanding Data
+      Abstraction, Revisited" compares abstract data types and objects
+      as two forms of data abstraction. In particular, the paper
+      describes many points of differences and similarities between
+      them clearly and comprehensively. The paper is not only most
+      notable for summarizing a long history of discussions, but also
+      for letting many programming language designers reflect on this
+      topic again.
 
 -   Most Notable Paper Award 2018 for 2008
     -   Recipient: Richard P. Gabriel
@@ -127,6 +138,15 @@ Awards
 Past Events
 -----------
 
+- Onward! 2019
+    -   Athens, Greece, October 23-25, 2019
+    -   Co-located with SPLASH 2019
+    -   Papers chair: Hidehiko Masuhara (Tokyo Institute of Technology)
+    -   Essays chair: Tomas Petricek (University of Kent)
+    -   [http://2019.splashcon.org](http://2019.splashcon.org)
+    -   [https://2019.onward-conference.org/track/onward-2019-papers](https://2019.onward-conference.org/track/onward-2019-papers)
+    -   [https://2019.onward-conference.org/track/onward-2019-Onward-Essays](https://2019.onward-conference.org/track/onward-2019-Onward-Essays)
+
 - Onward! 2018
     -   Boston, Massachusetts, USA, October 17-19, 2018
     -   Co-located with SPLASH 2018
@@ -158,8 +178,6 @@ Past Events
     -   [http://2016.onward-conference.org](http://2016.onward-conference.org)
     -   [http://2016.onward-conference.org/track/onward-2016-papers](http://2016.onward-conference.org/track/onward-2016-papers)
     -   [http://2016.onward-conference.org/track/onward2016-essays](http://2016.onward-conference.org/track/onward2016-essays)
-
-
 
 -   Onward! 2015
     -   Pittsburgh, Pennsylvania, USA, October 28-30, 2015
