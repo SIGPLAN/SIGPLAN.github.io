@@ -83,5 +83,5 @@ Member, [Simon Peyton Jones](https://www.microsoft.com/en-us/research/people/sim
 Member, [Alexandra Silva](https://www.alexandrasilva.org/#/main.html), University College London   
 Member, [Michelle Strout](http://cgi.cs.arizona.edu/~mstrout/), University of Arizona  
 Member, [Stephanie Weirich](https://www.cis.upenn.edu/~sweirich/), University of Pennsylvania  
-Member, [Peng Wu](https://pengwu.wordpress.com/), Huawei  
+Member, [Peng Wu](https://pengwu.wordpress.com/), Futurewei Technologies  
 Member, [Hongseok Yang](https://sites.google.com/view/hongseokyang/home), KAIST  
