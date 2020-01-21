@@ -67,8 +67,8 @@ expands in membership, it may add conferences to the guaranteed list.
     <th><b>CARES member attendees</b></th>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>POPL 2020</td>
+    <td>David Walker, Alexandra Silva, and Hongseok Yang</td>
   </tr>
 </table>
 
