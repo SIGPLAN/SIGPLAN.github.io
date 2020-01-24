@@ -63,12 +63,16 @@ expands in membership, it may add conferences to the guaranteed list.
 
 <table style="width:100%">
   <tr>
-    <th><b>Conference</b></th>
+    <th><b>Conference/Meeting</b></th>
     <th><b>CARES member attendees</b></th>
   </tr>
   <tr>
     <td>POPL 2020</td>
     <td>David Walker, Alexandra Silva, and Hongseok Yang</td>
+  </tr>
+ <tr>
+    <td>PLDI 2020 PC Meeting</td>
+    <td>Michelle Strout</td>
   </tr>
 </table>
 
