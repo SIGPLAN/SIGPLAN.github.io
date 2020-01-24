@@ -91,6 +91,10 @@
   year: 2019
   title: "Proceedings of the 8th ACM SIGPLAN Conference on Certified Programs and Proofs"
 -
+  event: CPP
+  year: 2020
+  title: "Proceedings of the 9th ACM SIGPLAN Conference on Certified Programs and Proofs"
+-
   event: DBPL
   year: 2015
   title: "Proceedings of the 15th Symposium on Database Programming Languages"
