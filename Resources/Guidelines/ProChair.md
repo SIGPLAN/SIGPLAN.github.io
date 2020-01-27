@@ -141,7 +141,6 @@ Once the conference web page is in place, establish a link to the page
 from the SIGPLAN conference page by contacting the SIGPLAN
 [Information Director](mailto:infodir_sigplan@acm.org?subject=Conference%20Information).
 
-<!-- BCP: Somebody (Jens?) should check that this is up to date... -->
 If the proceedings will be published by ACM, declare explicitly in the call for
 papers that authors of accepted submissions will be required to choose one of
 the following options: Author retains copyright of the work and grants ACM a
@@ -151,25 +150,17 @@ copyright of the work and grants ACM an exclusive permssion-to-publish license;
 Author transfers copyright of the work to ACM.  For more information, please see
 [ACM Copyright
 Policy](http://www.acm.org/publications/policies/copyright-policy) and [ACM
-Author Rights](http://authors.acm.org/main.html).  Proceedings published by ACM
-as an issue of PACMPL are Gold Open Access and the PACMPL editorial board
-recommends the first option (author retains copyright of the work, licenses the
-work with a [Creative Commons license](https://creativecommons.org), and grants
-ACM a non-exclusive permission-to-publish license)
-<!-- BCP: Something like the following (currently included in the Functioning of ICFP) should be included somewhere in this document:
+Author Rights](http://authors.acm.org/main.html).  
 
-The PACM Steering Committee require conferences to collect statistics about the review process:
-- Number of submissions and typical number of pages of each submission (stating that we currently use a one-column format).
-- Size and structure of the editorial board (program committee) handling the submissions (ie that it is flat rather than hierarchical, but explaining the PC/ERC distinction when we have one).
-- Number of reviews for each paper; if this is variable, provide additional information about the review process and the circumstances under which the number of reviews can vary.
-- Duration of initial review cycle.
-- Outcome of initial review cycle, i.e., number of rejects,  direct accepts, minor revisions, and major revisions.  For rejects, identify if there are multiple levels with differences in the underlying review process, e.g., quick/desk rejects by the editor vs. reject after full review, and provide numbers for each category.
-- Duration of revision cycle (for both minor and major revisions if different).  When the duration of the revision cycle is variable, e.g., as in the case of rolling or multiple deadlines, provide both minimum and maximum values.
-- Duration of second review cycle for minor and major revisions.
-- Number of minor and major revision papers ultimately accepted.
--->
+Proceedings published by ACM as an issue of PACMPL are Gold Open Access, and
+the PACMPL editorial board recommends the first option (author retains
+copyright of the work, licenses the work with a [Creative Commons
+license](https://creativecommons.org), and grants
+ACM a non-exclusive permission-to-publish license).  
+The PACM Steering Committee also requires conferences to collect statistics
+about the review process---see [here](https://www.acm.org/publications/pacm/title-assessment) for details.
 
-If presentations are to be videoed, mention that presenters must sign a
+If presentations are to be recorded, mention that presenters must sign a
 permission form in order for the video to be released online.
 
 Mention that publication of auxiliary material is encouraged, and note the
