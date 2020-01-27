@@ -7,30 +7,30 @@ title: "Guidelines for the Program Chair of a SIGPLAN Event"
      all submissions are using two-column format (no mention of PACMPL) and
      being processed by Sheridan.  Needs a careful updating pass. -->
 
-[N.B.: SIGPLAN rules are <span class="sigplan_rule">highlighted like
+[N.b.: SIGPLAN rules are <span class="sigplan_rule">highlighted like
 this</span> to distinguish them from general recommendations and
 discussion.]
 
 Executive Summary
 -----------------
 
-You may be an experienced Program Chai, in which case much of the
+You may be an experienced Program Chair, in which case much of the
 advice on this page may already be familiar to you. Nevertheless, even
 experienced chairs sometimes forget some important points, and some
 policies and guidelines are specific to SIGPLAN, so please at least
 skim the rest of this page and the following others:
 
-- SIGPLAN's [conference submission review policy](/Resources/Policies/Review) 
+- SIGPLAN's [conference submission review policy](/Resources/Policies/Review)
 - SIGPLAN's [diversity policy](/Resources/Policies/Diversity)
 - SIGPLAN's [republication policy](/Resources/Policies/Republication)
 - SIGPLAN's [code of conduct policy](/Resources/Policies/CodeOfConduct/)
 - SIGACCESS's [Guide to Creating a Conference Accessibility FAQ Page](http://www.sigaccess.org/welcome-to-sigaccess/resources/creating-a-conference-accessibility-faq-page/)
 - For a SIGPLAN-sponsored event, seek approval for the Program Committee
-  from the SIGPLAN Vice-Chair, *before* sending invitations 
+  from the SIGPLAN Vice-Chair, *before* sending invitations
 - Consult with the conference Steering Committee before diverging from any
-  existing conventions 
+  existing conventions
 - Make sure the Call for Papers makes potential authors aware of SIGPLAN's
-  [Copyright policies](https://authors.acm.org/main.html).  
+  [Copyright policies](https://authors.acm.org/main.html).
 - Some special considerations for organizers of workshops and similar events
   can be found on [this page](/Resources/Guidelines/Workshops).
 
@@ -92,11 +92,11 @@ and alternates.  Send the completed spreadsheet to the SIGPLAN Vice Chair
 ([vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org)) for comments and approval
 by the SIGPLAN Executive Committee.  The approval process normally takes
 less than two weeks. The same approval process applies to all other
-reviewing committees for conferences such as ERC and EPC.  
+reviewing committees for conferences such as ERC and EPC.
 
 <!-- BCP: It's not clear that this last bit (EC must approve the ERC and
 EPC) is either (a) the actual SIGPLAN policy as I or other EC members
-understand it, or (b) consistent with current practice, or (c) a good 
+understand it, or (b) consistent with current practice, or (c) a good
 idea! -->
 
 At the same time, make plans for the Program Committee meeting, so that
@@ -115,7 +115,7 @@ Recommendations: <!-- AF: I don't think anything below can be a strict requireme
 - The PCC should strive to avoid the appearance of favoring current and former students, postdocs, colleagues, or collaborators for membership on the PC or ERC.
 - The size of the PC should be such that, given the expected number of submissions, will yield a reasonable reviewing load per PC member. Exceeding 25 papers per PC members is strongly discouraged.
 - If there is an ERC, the same diversity criteria listed above should apply
-  to them, scaled to the size of each committee. 
+  to them, scaled to the size of each committee.
   <!-- AF: confirm this -->
   <!-- BCP: Or better yet, change it to say that "the diversity criteria
        NEED NOT apply..."! -->
@@ -140,8 +140,7 @@ and to ACM's
 Once the conference web page is in place, establish a link to the page
 from the SIGPLAN conference page by contacting the SIGPLAN
 [Information Director](mailto:infodir_sigplan@acm.org?subject=Conference%20Information).
-  
-<!-- BCP: Somebody (Jens?) should check that this is up to date... -->
+
 If the proceedings will be published by ACM, declare explicitly in the call for
 papers that authors of accepted submissions will be required to choose one of
 the following options: Author retains copyright of the work and grants ACM a
@@ -151,13 +150,17 @@ copyright of the work and grants ACM an exclusive permssion-to-publish license;
 Author transfers copyright of the work to ACM.  For more information, please see
 [ACM Copyright
 Policy](http://www.acm.org/publications/policies/copyright-policy) and [ACM
-Author Rights](http://authors.acm.org/main.html).  Proceedings published by ACM
-as an issue of PACMPL are Gold Open Access and the PACMPL editorial board
-recommends the first option (author retains copyright of the work, licenses the
-work with a [Creative Commons license](https://creativecommons.org), and grants
-ACM a non-exclusive permission-to-publish license)
+Author Rights](http://authors.acm.org/main.html).  
 
-If presentations are to be videoed, mention that presenters must sign a
+Proceedings published by ACM as an issue of PACMPL are Gold Open Access, and
+the PACMPL editorial board recommends the first option (author retains
+copyright of the work, licenses the work with a [Creative Commons
+license](https://creativecommons.org), and grants
+ACM a non-exclusive permission-to-publish license).  
+The PACM Steering Committee also requires conferences to collect statistics
+about the review process---see [here](https://www.acm.org/publications/pacm/title-assessment) for details.
+
+If presentations are to be recorded, mention that presenters must sign a
 permission form in order for the video to be released online.
 
 Mention that publication of auxiliary material is encouraged, and note the
@@ -180,18 +183,19 @@ response has been positive (see
 Kathleen Fisher and Craig Chambers, *SIGPLAN Notices*, Dec. 2004).
 Program Chairs and Steering Committees are encouraged to consider
 allowing author response or rebuttals as part of the paper review
-process.  
+process.
 
 Submission and Review
 ---------------------
 
-Set up the paper submission web site. Many services are available
-for this purpose. Most include support for the [ABCD rating scale][Nier00], 
-author feedback, and double-blind reviewing.
-<!-- BCP: Should we mention HotCRP? -->
+Set up the paper submission web site. Many services are available for this
+purpose; most SIGPLAN conferences these days use
+[HotCRP](https://hotcrp.com) (which is free for us because ACM has a bulk
+deal).  If you choose a different one, look for support for the [ABCD rating
+scale][Nier00], author feedback, and double-blind reviewing.
 
 [Nier00]: http://www.iam.unibe.ch/~oscar/Champion/champion.pdf "Oscar Nierstrasz, _Identify the Champion_"
-  
+
 Some advice: Many systems make it easy to include ratings on a
 large number of different scales, but please don't do this. Most
 PC chairs use only two scales: an overall rating and an
@@ -212,7 +216,7 @@ submission deadline, send submitted papers and a description of the
 evaluation procedure to the PC members.
 
 The PCC should identify another PC member (a “COI-PCC”) to handle papers for
-which the Chair is in conflict. 
+which the Chair is in conflict.
 
 
 PC Meeting
@@ -220,7 +224,7 @@ PC Meeting
 
 Some SIGPLAN conferences have in-person PC meetings; others have moved to
 virtual meetings (to reduce carbon footprint, wear and tear on PC members,
-or both).  
+or both).
 
 For both kinds of meetings, PC members should be allowed to participate in
 the discussion (both online and in-person) of papers that they didn't
@@ -246,7 +250,7 @@ period. The online discussion period should be a minimum of one week, but
 two (or more) is strongly preferred.
 
 The designated COI-PCC (see COI policies) should handle papers the PCC is
-conflicted with during the meeting. 
+conflicted with during the meeting.
 
 At the end of the PC meeting, the PCC may want to take a bit of time to plan the
 sessions and the session chairs.
@@ -300,7 +304,7 @@ Managing the Proceedings
 <!-- BCP: Do we still use Sheridan for PACMPL conferences? -->
 
 The Sheridan proceedings service can be initiated once you decide
-that you want formal proceedings. Please contact the 
+that you want formal proceedings. Please contact the
 [ACM Publications Coordinator](mailto:griscti@acm.org), Adrienne Griscti,
 to begin the process. ACM will provide Sheridan with pertinent
 conference information. Sheridan will forward you a schedule and
@@ -316,7 +320,7 @@ in the proceedings. Sheridan will format all front matter; their
 schedule will include a deadline for front matter submission. They
 will also compile the table of contents/author index, using the
 schedule of talks/advanced program that you provide to determine
-paper order.  
+paper order.
 
 Accepted authors will submit their papers directly to the Sheridan
 web site. Once Sheridan have collected all of the papers/copyright
@@ -327,7 +331,7 @@ has been approved. It is a good idea to send
 the table of contents to the contributing authors to confirm the
 spelling of their names and affiliations. You then will be asked to
 provide conference shipping information and the number of proceedings
-needed for the conference.   
+needed for the conference.
 
 At the Conference
 -----------------
@@ -341,7 +345,7 @@ You should also explain the review process, e.g, how many PC
 members reviewed each paper and the organization of the PC meeting.
 You might want to talk about the geographic distribution of
 submissions and any unusual trends. The summary should take about
-15 minutes.  
+15 minutes.
 
 After the Conference
 --------------------
@@ -354,12 +358,12 @@ As former Program Chair, you may be invited to serve on the
 conference's Steering Committee. For the  formal
 rules for your particular conference's steering committee, consult the relevant SIGPLAN
 conference web page. Links to these pages can be be found
-[here](/Conferences).  
+[here](/Conferences).
 
 The program chairs of the major SIGPLAN conferences (POPL, PLDI,
 OOPSLA, and ICFP) are automatically on the selection committee for
 the following year's
-[SIGPLAN Programming Languages Achievement Award](/Awards/Achievement).  
+[SIGPLAN Programming Languages Achievement Award](/Awards/Achievement).
 
 Auxiliary Material
 ------------------
@@ -396,7 +400,7 @@ Shepherding
 Papers may be accepted conditionally, in which case, such papers require  shepherds. The role of the shepherd is to compile a list of required changes to the paper that are required for the paper to be accepted, in consultation with all reviewers, and subject to the approval of the PCC.  Authors are expected to modify their papers appropriately; in the event that the reviewers and the shepherds do not come to an agreement that a paper has been revised satisfactorily, the PCC should have the ultimate decision as to whether the paper will be accepted.
 
 
-Additionally, the shepherds can ensure that outstanding work is not rejected on the basis of a problem that can easily be fixed with minor modifications to the paper. 
+Additionally, the shepherds can ensure that outstanding work is not rejected on the basis of a problem that can easily be fixed with minor modifications to the paper.
 
 
 Distinguished Papers
@@ -412,9 +416,9 @@ PC Member Responsibilities
 
 PC members must commit to reading all of their assigned papers and writing their own reviews.  PC members  may also suggest additional reviewers, but they should not subcontract reading or review writing duties to others. The PCC should be consulted before additional reviewers are contacted to avoid conflicts and to ensure topical balance.
 
-If there is an in-person PC meeting, then PC members must attend the PC meeting in-person. If the meeting is virtual, PC members must participate in the manner described in the invitation to join the PC.  Invited members who cannot commit to attending or participating in the meeting in person in the way the PC chair has specified should decline the invitation. 
+If there is an in-person PC meeting, then PC members must attend the PC meeting in-person. If the meeting is virtual, PC members must participate in the manner described in the invitation to join the PC.  Invited members who cannot commit to attending or participating in the meeting in person in the way the PC chair has specified should decline the invitation.
 
-_Recommendations:_ 
+_Recommendations:_
 
 The PCC should consider whether to explicitly allow PC members to share and discuss papers with their own students (subject to the usual confidentiality and COI provisions), and to incorporate information from such discussions into their review. If this is permitted, the PC member should still be responsible for writing the review. When a student is involved in this capacity, the PCC should be informed so that the student receives appropriate credit.
 
@@ -451,11 +455,11 @@ Important Email Addresses
 -------------------------
 
 _SIGPLAN Chair_:
-[chair\_sigplan@acm.org](mailto:chair_sigplan@acm.org)  
+[chair\_sigplan@acm.org](mailto:chair_sigplan@acm.org)
 _SIGPLAN Vice Chair_:
-[vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org)  
+[vc\_sigplan@acm.org](mailto:vc_sigplan@acm.org)
 _SIGPLAN Information Director_:
-[infodir\_sigplan@acm.org](mailto:infodir_sigplan@acm.org?subject=Conference%20Information)  
+[infodir\_sigplan@acm.org](mailto:infodir_sigplan@acm.org?subject=Conference%20Information)
 
 See Also
 --------
@@ -487,4 +491,3 @@ been published in _SIGPLAN Notices_ and elsewhere over the years:
 - [A Handbook for [ECOOP] PC Chairs](http://www.pps.univ-paris-diderot.fr/~gc/papers/pc-handbook.pdf), Giuseppe Castagna
 - [Refreshing ATC – USENIX ATC 2019 Program Co-Chairs Message](https://www.usenix.org/sites/default/files/atc19_message.pdf), Dan
   Tsafrir and Dahlia Malkhi
-

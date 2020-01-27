@@ -3,27 +3,28 @@ layout: default
 title: "SIGPLAN and Climate Change"
 ---
 
-<!-- Needs an intro -->
+<!-- <div style=”float:right”> -->
 
-## Useful Links:
+## Quick Links
 
 - ACM's new (as of 2019) [Carbon Offset Program](https://www.acm.org/special-interest-groups/volunteer-resources/conference-planning/conference-registration#h-carbon-offset-program)
 - [ACM's CO2 Footprint Calculator for Conferences](https://co2calculator.acm.org)
-- [acm-climate](https://groups.google.com/forum/#!forum/acm-climate)
-  mailing list
+- [acm-climate](https://groups.google.com/forum/#!forum/acm-climate) mailing list
+<!-- - [More resources](#More Resources) -->
+<!-- </div> -->
 
-## Resources
 
-- [ACM Conferences and the Cost of
-Carbon](https://blog.sigplan.org/2019/07/17/acm-conferences-and-the-cost-of-carbon/)
-  (a post on the SIGPLAN blog)
-- [Engaging with Climate Change: Possible Steps for
-  SIGPLAN](http://www.cis.upenn.edu/~bcpierce/papers/sigplan-climate-report.pdf)
-  (white paper)
-- [Carbon Offsets: An Overview for Scientific
-  Societies](http://www.cis.upenn.edu/~bcpierce/papers/carbon-offsets.pdf)
-  (survey)
-- [Flying Less in Academia: A Resource Guide](https://docs.google.com/document/d/e/2PACX-1vSLG573KG2YrLhpT8SBgTKNvrEUBtTCN_NBVtdEl8jqHK_vY6MhonM4DeiEoMoh18CdyyfNdxCfp6gp/pub#h.rmhkb9hxuob)
+## Introduction
+
+Climate change due to human emissions of greenhouse gases is an urgent
+threat, one that requires massive efforts at every level of society. SIGPLAN
+(and ACM and other scientific societies more broadly) contribute
+disproportionately to this threat by hosting conferences that are
+responsible for large amounts of carbon emissions, primarily as a result of
+participants' air travel.
+
+The SIGPLAN Climate Committee recognizes this dilemma and consequently seeks
+to study and address SIGPLAN and ACM's role in climate change.
 
 <!--
   - recap what committee has done / is doing
@@ -36,29 +37,79 @@ Carbon](https://blog.sigplan.org/2019/07/17/acm-conferences-and-the-cost-of-carb
   - CACM article forthcoming
 -->
 
-## SIGPLAN's ad hoc Climate Committee
+## About the SIGPLAN Climate Committee
+
+In 2017, SIGPLAN formed an ad hoc committee to study the climate impact of
+conferences and possible steps that SIGPLAN might take in response.
+
+The SIGPLAN Climate Committee is chaired by SIGPLAN Vice-Chair [Benjamin
+Pierce](http://www.cis.upenn.edu/~bcpierce/); its other members are SIGPLAN
+Chair [Jens Palsberg](http://web.cs.ucla.edu/~palsberg/), Past EC member
+[Crista Lopes](http://www.ics.uci.edu/~lopes/), and Past SIGPLAN Chair
+[Michael Hicks](http://www.cs.umd.edu/~mwh/).
 
 Air travel is a significant source of greenhouse gas emissions, which in
-turn are a significant contributor to climate change.  SIGPLAN hosts a
-number of annual scientific meetings at various locations throughout the
-world.  While such meetings are important for furthering important research,
-we need to explore possible mitigations. Accordingly,
-SIGPLAN has formed an ad hoc committee to study the climate impact of
-conferences and possible steps that SIGPLAN might take in response. The
-committee chair is [Benjamin Pierce](http://www.cis.upenn.edu/~bcpierce/);
-its other members are [Jens Palsberg](http://web.cs.ucla.edu/~palsberg/) and
-[SIGPLAN EC](/ContactUs) members
-[Crista Lopes](http://www.ics.uci.edu/~lopes/) and
-[Michael Hicks](http://www.cs.umd.edu/~mwh/). An
-[interim report](http://www.cis.upenn.edu/~bcpierce/papers/sigplan-climate-report.pdf)
-summarizes a number of ideas under consideration and some experiments
-currently underway, following intensive discussions within the committee and
-with the overall community at town hall meetings.
+turn are a significant contributor to climate change. SIGPLAN hosts a number
+of annual scientific meetings at various locations throughout the world.
+While such meetings are important for furthering important research, we need
+to explore possible mitigations. Accordingly, the SIGPLAN Climate Committee
+has taken several steps in examining and addressing this issue.
+
+
+### What the Climate Committee has done so far
+
+In 2017, the Climate Committee began raising issues of climate change and
+air travel with the SIGPLAN community, conducting surveys and
+discussions. The Committee also began its own research and studies into the
+issue.
+
+In 2018, the Climate Committee issued an [interim report](http://www.cis.upenn.edu/~bcpierce/papers/sigplan-climate-report.pdf) (current version June 2018), which summarizes a number of ideas under consideration and some experiments currently underway, following intensive discussions within the committee and
+with the overall community at town hall meetings. The Climate Committee also issued a [white paper on carbon offset purchasing](http://www.cis.upenn.edu/~bcpierce/papers/carbon-offsets.pdf).
+
+In the fall of 2018, the Committee asked the SIG Governing Board to make a
+request to ACM to investigate legal barriers to ACM conferences’ directly
+purchasing carbon offsets or offering the purchase of carbon offsets to
+conference attendees at registration. The result was [ACM’s new carbon
+offset
+policy](https://www.acm.org/special-interest-groups/volunteer-resources/conference-planning/conference-registration#h-carbon-offset-program). 
+Work continues on implementing and improving the policy.
+
+The Climate Committee also initiated the development of ACM's Carbon
+Calculator for conferences. This tool allows a conference planner to upload
+a spreadsheet of attendees’ origin cities to estimate the emissions due to
+air travel for an entire conference.
+
+In summer 2019, The Climate Committee authored a [SIGPLAN blog
+post](https://blog.sigplan.org/2019/07/17/acm-conferences-and-the-cost-of-carbon/)
+calling for (1) public accounting of carbon emissions by every ACM
+conference, and (2) pricing of carbon in conference budgets.
+
+### What the Climate Committee is doing
+
+The Committee will be publishing an upcoming article on these topics in
+Communications of the ACM (CACM) journal.
+
+We are working with other SIGs on a data gathering and analytics project
+around measuring carbon emissions from past conferences and calculating
+emissions for future conferences. For instance, we may be able to predict
+relative carbon emissions from different conference locations, or from
+co-locating several conferences. [Some scripts written for these
+purposes](https://github.com/YaZko/acm-climate) can be found on Github.
+
+We continue to
+- make sure that climate change is on the agenda at the SGB level
+- investigate how ACM conferences might directly purchase carbon offsets
+- make presentations at major SIGPLAN conferences
+
+## How you can help
 
 Anyone interested in participating in discussions about SIGPLAN and climate
 change is invited to join the
 [acm-climate](https://groups.google.com/forum/#!forum/acm-climate) email
 discussion group.
+
+If you'd like to contribute time and energy, let us know -- we've got plenty
+of things to work on!
 
 ## Carbon Offsets
 
@@ -97,3 +148,21 @@ carbon offset projects are
 Clean Development Mechanism (CDM) standard and are either approved by or
 awaiting approval under the Gold Standard — these are widely recognized
 vetting groups.
+
+## More Resources
+
+### SIGPLAN Climate Committee Publications and Talks
+
+- [ACM Conferences and the Cost of
+Carbon](https://blog.sigplan.org/2019/07/17/acm-conferences-and-the-cost-of-carbon/)
+  (a post on the SIGPLAN blog, July 2019)
+- [Engaging with Climate Change: Possible Steps for
+  SIGPLAN](http://www.cis.upenn.edu/~bcpierce/papers/sigplan-climate-report.pdf)
+  (report, June 2018)
+- [Carbon Offsets: An Overview for Scientific
+  Societies](http://www.cis.upenn.edu/~bcpierce/papers/carbon-offsets.pdf) (white paper, June 2018)
+- [SIGPLAN Climate Committee Report, POPL 2019](https://popl19.sigplan.org/details/POPL-2019-Research-Papers/52/SIGPLAN-Climate-Committee-Report) (video of talk, January 2019)
+- [SIGPLAN Climate Committee Report, PLDI 2018](https://youtu.be/Cw09GnsLeN8?t=1110) (video of talk, June 2018)
+
+### Related Links
+- [Flying Less in Academia: A Resource Guide (FlyingLessResourceGuide.info)](http://http://flyinglessresourceguide.info/)

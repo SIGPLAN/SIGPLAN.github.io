@@ -22,3 +22,8 @@ Maruku:
  * http://maruku.rubyforge.org/
  * https://github.com/bhollis/maruku/blob/master/docs/markdown_syntax.md
  
+To run the server locally, you should be able to just do `make serve` in the
+root directory of the SIGPLAN.github.io repository.  The first time may take
+a few minutes as the requisite ruby libraries are installed and built.  At
+the end, it should print out the URL at which it is serving -- probably
+localhost:4000 or some such.  
