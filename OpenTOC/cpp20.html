@@ -1,0 +1,975 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>CPP 2020: Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs
+         and Proofs
+      </title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>CPP 2020: Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs
+               and Proofs
+            </h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="http://dl.acm.org/doi/proceedings/10.1145/3372885"><img class="DLlogo" alt="Digital Library logo" height="30" src="http://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Invited Talks</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3378574">Matching logic: the foundation of the K framework (invited talk)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Roşu
+                  Grigore
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The K framework (kframework.org) is an effort in realizing the ideal language framework,
+                     where programming languages must have formal semantics and all language tools are
+                     automatically generated from the formal semantics. Until recently, K has been developed
+                     as an engineering endeavor driven by challenges such as formalizing the complete semantics
+                     of large languages (C, Java, JavaScript, Python, etc), but deriving its semantics
+                     from translations to various formalisms, such as rewriting logic, graph transformations,
+                     or Coq. This semantics borrowing approach came not only at a notational cost, where
+                     the original language meaning was ``lost in translation'', but also at a foundational
+                     cost: the target formalisms were more complicated than necessary, yet more restricted
+                     due to their prescribed ways to define language semantics. 
+                  </p> 
+                  <p> In this talk I will present matching logic as the new and direct foundation of K.
+                     I will also discuss some of its applications in defining constructors, transition
+                     systems, modal mu-logic and temporal logic variants, reachability logic and thus Hoare
+                     logics, and separation-logic-style recursive predicates and patterns. Matching logic
+                     can therefore be regarded as an expressive foundation for programming languages, and
+                     K as a best effort implementation. An appealing aspect of matching logic’s Hilbert-style
+                     proof system is that it admits a small proof checker, in the order of 200 LOC including
+                     parsing.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3378575">Proof assistants at the hardware-software interface (invited talk)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Chlipala
+                  Adam
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Some of the earliest applications of proof assistants were to correctness of digital
+                     hardware designs, but the subject doesn’t come up too frequently today at venues like
+                     CPP. I will try to make the case that proof assistants are a crucial tool for resolving
+                     both classical problems and new ones at <em>the hardware-software interface</em>. That is, it is important to understand exactly what guarantees a processor exports
+                     to software, it is important to verify that hardware exports those guarantees correctly,
+                     and it is important to prove end-to-end theorems covering both hardware and software.
+                     A few social developments make this an exciting time to tackle these problems: open
+                     instruction sets and open-source hardware designs are growing in real-world relevance,
+                     and surprising new classes of security vulnerabilities have gotten more practitioners
+                     thinking about precise hardware-software contracts. I will sketch the state of the
+                     research area and go into detail on a few of my own related projects. An ancillary
+                     goal is to convey that programming or proving digital hardware is a lot like programming
+                     or proving software, with a few fun distinctions, so more of the CPP crowd might want
+                     to give it a try!
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Program Verification</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373836">A verified packrat parser interpreter for parsing expression grammars</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Blaudeau
+                  Clement
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Parsing expression grammars (PEGs) offer a natural opportunity for building verified
+                     parser interpreters based on higher-order parsing combinators. PEGs are expressive,
+                     unambiguous, and efficient to parse in a top-down recursive descent style. We use
+                     the rich type system of the PVS specification language and verification system to
+                     formalize the metatheory of PEGs and define a reference implementation of a recursive
+                     parser interpreter for PEGs. In order to ensure termination of parsing, we define
+                     a notion of a well-formed grammar. Rather than relying on an inductive definition
+                     of parsing, we use abstract syntax trees that represent the computational trace of
+                     the parser to provide an effective proof certificate for correct parsing and ensure
+                     that parsing properties including soundness and completeness are maintained. The correctness
+                     properties are embedded in the types of the operations so that the proofs can be easily
+                     constructed from local proof obligations. Building on the reference parser interpreter,
+                     we define a packrat parser interpreter as well as an extension that is capable of
+                     semantic interpretation. Both these parser interpreters are proved equivalent to the
+                     reference one. All of the parsers are executable. The proofs are formalized in mathematical
+                     terms so that similar parser interpreters can be defined in any specification language
+                     with a type system similar to PVS.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373834">Proof pearl: Braun trees</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Nipkow
+                  Tobias
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Braun trees are functional data structures for implementing extensible arrays and
+                     priority queues (and sorting functions based on the latter) efficiently. Some well-known
+                     functions on Braun trees have not yet been verified, including especially Okasaki’s
+                     linear time conversion from lists to Braun trees. We supply the missing proofs and
+                     verify all of these algorithms in Isabelle, including non-obvious time complexity
+                     claims. In particular we provide the first linear-time conversion from Braun trees
+                     to lists. We also state and verify a new characterization of Braun trees as the trees
+                     <em>t</em> whose index set is the interval {1, …, size of&nbsp;<em>t</em>}.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373812">FreeSpec: specifying, verifying, and executing impure computations in Coq</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Letan
+                  Thomas
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>FreeSpec is a framework for the Coq theorem prover which allows for specifying and
+                     verifying complex systems as hierarchies of components verified both in isolation
+                     and in composition. While FreeSpec was originally introduced for reasoning about hardware
+                     architectures, in this article we propose a novel iteration of FreeSpec formalism
+                     specifically designed to write certified programs and libraries. Then, we present
+                     in depth how we use this formalism to verify a static files webserver. We use this
+                     opportunity to present FreeSpec proof automation tactics, and to demonstrate how they
+                     successfully erase FreeSpec internal definitions to let users focus on the core of
+                     their proofs. Finally, we introduce FreeSpec.Exec, a plugin for Coq to seamlessly
+                     execute certified programs written with FreeSpec.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Automated Verification and SAT Solving</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373811">Verifying x86 instruction implementations</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Goel
+                  Shilpi
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Verification of modern microprocessors is a complex task that requires a substantial
+                     allocation of resources. Despite significant progress in formal verification, the
+                     goal of complete verification of an industrial design has not been achieved. In this
+                     paper, we describe a current contribution of formal methods to the validation of modern
+                     x86 microprocessors at Centaur Technology. We focus on proving correctness of instruction
+                     implementations, which includes the decoding of an instruction, its translation into
+                     a sequence of micro-operations, any subsequent execution of traps to microcode ROM,
+                     and the implementation of these micro-operations in execution units. All these tasks
+                     are performed within one verification framework, which includes a theorem prover,
+                     a verified symbolic simulator, and SAT solvers. We describe the work of defining the
+                     needed formal models for both the architecture and micro-architecture in this framework,
+                     as well as tools for decomposing the requisite properties into smaller lemmas which
+                     can be automatically checked. We additionally cover the advantages and limitations
+                     of our approach. To our knowledge, there are no similar results in the verification
+                     of implementations of an x86 microprocessor.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373821">Frying the egg, roasting the chicken: unit deletions in DRAT proofs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Altmanninger
+                  Johannes
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The clausal proof format DRAT is the standard de facto to certify SAT solvers' unsatisfiability
+                     results. DRAT proofs act as logs of clause inferences and clause deletions in the
+                     solver. The non-monotonic nature of the proof system makes deletions relevant. State-of-the-art
+                     proof checkers ignore deletions of unit clauses, differing from the standard in meaningful
+                     ways that require adaptions when proofs are generated or used for purposes other than
+                     checking. On the other hand, dealing with unit deletions in the proof checker breaks
+                     many of the usual invariants used for efficiency reasons. Furthermore, many SAT solvers
+                     introduce spurious unit deletions in proofs. These deletions are never intended to
+                     be applied in the checker but are nevertheless introduced, making many proofs generated
+                     by state-of-the-art solvers incorrect. We present the first competitive DRAT checker
+                     that honors unit deletions, as well as fixes for the spurious deletion issue in proof
+                     generation. Our experimental results confirm that unit deletions can be applied with
+                     similar average performance to state-of-the-art checkers. We also confirm that a large
+                     fraction of the proofs generated during the last SAT solving competition do not respect
+                     the DRAT standard. This result was confirmed with proof incorrectness certificates
+                     that were independently validated. We find that our proof incorrectness certificates
+                     can be of help when debugging SAT solvers and DRAT checkers.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Proof Engineering and User Interaction</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373813">An equational theory for weak bisimulation via generalized parameterized coinduction</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Zakowski
+                  Yannick
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Coinductive reasoning about infinitary structures such as streams is widely applicable.
+                     However, practical frameworks for developing coinductive proofs and finding reasoning
+                     principles that help structure such proofs remain a challenge, especially in the context
+                     of machine-checked formalization. 
+                  </p> 
+                  <p>This paper gives a novel presentation of an equational theory for reasoning about
+                     structures up to weak bisimulation. The theory is both compositional, making it suitable
+                     for defining general-purpose lemmas, and also incremental, meaning that the bisimulation
+                     can be created interactively. To prove the theory’s soundness, this paper also introduces
+                     <em>generalized parameterized coinduction</em>, which addresses expressivity problems of earlier works and provides a practical
+                     framework for coinductive reasoning. The paper presents the resulting equational theory
+                     for streams, but the technique applies to other structures too. 
+                  </p> 
+                  <p>All of the results in this paper have been proved in Coq, and the generalized parameterized
+                     coinduction framework is available as a Coq library.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373827">Exploration of neural machine translation in autoformalization of mathematics in Mizar</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Wang
+                  Qingxiang
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In this paper we share several experiments trying to automatically translate informal
+                     mathematics into formal mathematics. In our context informal mathematics refers to
+                     human-written mathematical sentences in the LaTeX format; and formal mathematics refers
+                     to statements in the Mizar language. We conducted our experiments against three established
+                     neural network-based machine translation models that are known to deliver competitive
+                     results on translating between natural languages. To train these models we also prepared
+                     four informal-to-formal datasets. We compare and analyze our results according to
+                     whether the model is supervised or unsupervised. In order to augment the data available
+                     for auto-formalization and improve the results, we develop a custom type-elaboration
+                     mechanism and integrate it in the supervised translation.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373823">REPLica: REPL instrumentation for Coq analysis</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Ringer
+                  Talia
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Proof engineering tools make it easier to develop and maintain large systems verified
+                     using interactive theorem provers. Developing useful proof engineering tools hinges
+                     on understanding the development processes of proof engineers. This paper breaks down
+                     one barrier to achieving that understanding: remotely collecting granular data on
+                     proof developments as they happen. 
+                  </p> 
+                  <p>We have built a tool called REPLica that instruments Coq’s interaction model in order
+                     to collect fine-grained data on proof developments. It is decoupled from the user
+                     interface, and designed in a way that generalizes to other interactive theorem provers
+                     with similar interaction models. 
+                  </p> 
+                  <p>We have used REPLica to collect data over the span of a month from a group of intermediate
+                     through expert proof engineers—enough data to reconstruct hundreds of interactive
+                     sessions. The data reveals patterns in fixing proofs and in changing programs and
+                     specifications useful for the improvement of proof engineering tools. Our experiences
+                     conducting this study suggest design considerations both at the level of the study
+                     and at the level of the interactive theorem prover that can facilitate future studies
+                     of this kind.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Decidability and Complexity</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373816">Verified programming of Turing machines in Coq</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Forster
+                  Yannick
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We present a framework for the verified programming of multi-tape Turing machines
+                     in Coq. Improving on prior work by Asperti and Ricciotti in Matita, we implement multiple
+                     layers of abstraction. The highest layer allows a user to implement nontrivial algorithms
+                     as Turing machines and verify their correctness, as well as time and space complexity
+                     compositionally. The user can do so without ever mentioning states, symbols on tapes
+                     or transition functions: They write programs in an imperative language with registers
+                     containing values of encodable data types, and our framework constructs corresponding
+                     Turing machines. 
+                  </p> 
+                  <p> As case studies, we verify a translation from multi-tape to single-tape machines
+                     as well as a universal Turing machine, both with polynomial time overhead and constant
+                     factor space overhead.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373837">A functional proof pearl: inverting the Ackermann hierarchy</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Tran
+                  Linh
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We implement in Gallina a hierarchy of functions that calculate the upper inverses
+                     to the hyperoperation/Ackermann hierarchy. Our functions run in Θ(<em>b</em>) for inputs expressed in unary, and in <em>O</em>(<em>b</em><sup>2</sup>) for inputs expressed in binary (where <em>b</em> = bitlength). We use our inverses to define linear-time functions—Θ(<em>b</em>) for both unary-represented and binary-represented inputs—that compute the upper
+                     inverse of the diagonal Ackermann function <em>A</em>(<em>n</em>). We show that these functions are consistent with the usual definition of the inverse
+                     Ackermann function α(<em>n</em>).
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373832">Undecidability of higher-order unification formalised in Coq</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Spies
+                  Simon
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We formalise undecidability results concerning higher-order unification in the simply-typed
+                     λ-calculus with β-conversion in Coq. We prove the undecidability of general higher-order
+                     unification by reduction from Hilbert’s tenth problem, the solvability of Diophantine
+                     equations, following a proof by Dowek. We sharpen the result by establishing the undecidability
+                     of second-order and third-order unification following proofs by Goldfarb and Huet,
+                     respectively. 
+                  </p> 
+                  <p>Goldfarb’s proof for second-order unification is by reduction from Hilbert’s tenth
+                     problem. Huet’s original proof uses the Post correspondence problem (PCP) to show
+                     the undecidability of third-order unification. We simplify and formalise his proof
+                     as a reduction from modified PCP. We also verify a decision procedure for first-order
+                     unification. 
+                  </p> 
+                  <p>All proofs are carried out in the setting of synthetic undecidability and rely on
+                     Coq’s built-in notion of computation.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Homotopy Type Theory</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373825">Cubical synthetic homotopy theory</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Mörtberg
+                  Anders
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Homotopy type theory is an extension of type theory that enables synthetic reasoning
+                     about spaces and homotopy theory. This has led to elegant computer formalizations
+                     of multiple classical results from homotopy theory. However, many proofs are still
+                     surprisingly complicated to formalize. One reason for this is the axiomatic treatment
+                     of univalence and higher inductive types which complicates synthetic reasoning as
+                     many intermediate steps, that could hold simply by computation, require explicit arguments.
+                     Cubical type theory offers a solution to this in the form of a new type theory with
+                     native support for both univalence and higher inductive types. In this paper we show
+                     how the recent cubical extension of Agda can be used to formalize some of the major
+                     results of homotopy type theory in a direct and elegant manner.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373835">Three equivalent ordinal notation systems in cubical Agda</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Forsberg
+                  Fredrik Nordvall
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We present three ordinal notation systems representing ordinals below ε<sub>0</sub> in type theory, using recent type-theoretical innovations such as mutual inductive-inductive
+                     definitions and higher inductive types. We show how ordinal arithmetic can be developed
+                     for these systems, and how they admit a transfinite induction principle. We prove
+                     that all three notation systems are equivalent, so that we can transport results between
+                     them using the univalence principle. All our constructions have been implemented in
+                     cubical Agda.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Mechanized Metatheory</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373817">Coq à la carte: a practical approach to modular syntax with binders</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Forster
+                  Yannick
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The mechanisation of the meta-theory of programming languages is still considered
+                     hard and requires considerable effort. When formalising properties of the extension
+                     of a language, one hence wants to reuse definitions and proofs. But type-theoretic
+                     proof assistants use inductive types and predicates to formalise syntax and type systems,
+                     and these definitions are closed to extensions. Available approaches for modular syntax
+                     are either inapplicable to type theory or add a layer of indirectness by requiring
+                     complicated encodings of types. 
+                  </p> 
+                  <p> We present a concise, transparent, and accessible approach to modular syntax with
+                     binders by adapting Swierstra's Data Types à la Carte approach to the Coq proof assistant.
+                     Our approach relies on two phases of code generation: We extend the Autosubst 2 tool
+                     and allow users to specify modular syntax with binders in a HOAS-like input language.
+                     To state and automatically compose modular functions and lemmas, we implement commands
+                     based on MetaCoq. We support modular syntax, functions, predicates, and theorems.
+                     
+                  </p> 
+                  <p> We demonstrate the practicality of our approach by modular proofs of preservation,
+                     weak head normalisation, and strong normalisation for several variants of mini-ML.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373822">A mechanized formalization of GraphQL</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Díaz
+                  Tomás
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>GraphQL is a novel language for specifying and querying web APIs, allowing clients
+                     to flexibly and efficiently retrieve data of interest. The GraphQL language specification
+                     is unfortunately only available in prose, making it hard to develop robust formal
+                     results for this language. Recently, Hartig and Pérez proposed a formal semantics
+                     for GraphQL in order to study the complexity of GraphQL queries. The semantics is
+                     however not mechanized and leaves certain key aspects unverified. We present GraphCoQL,
+                     the first mechanized formalization of GraphQL, developed in the Coq proof assistant.
+                     GraphCoQL covers the schema definition DSL, query definitions, validation of both
+                     schema and queries, as well as the semantics of queries over a graph data model. We
+                     illustrate the application of GraphCoQL by formalizing the key query transformation
+                     and interpretation techniques of Hartig and Pérez, and proving them correct, after
+                     addressing some imprecisions and minor issues. We hope that GraphCoQL can serve as
+                     a solid formal baseline for both language design and verification efforts for GraphQL.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373829">ConCert: a smart contract certification framework in Coq</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Annenkov
+                  Danil
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We present a new way of embedding functional languages into the Coq proof assistant
+                     by using meta-programming. This allows us to develop the meta-theory of the language
+                     using the deep embedding and provides a convenient way for reasoning about concrete
+                     programs using the shallow embedding. We connect the deep and the shallow embeddings
+                     by a soundness theorem. As an instance of our approach, we develop an embedding of
+                     a core smart contract language into Coq and verify several important properties of
+                     a crowdfunding contract based on a previous formalisation of smart contract execution
+                     in blockchains.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Verified Cryptography</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373815">Formalising oblivious transfer in the semi-honest and malicious model in CryptHOL</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Butler
+                  David
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Multi-Party Computation (MPC) allows multiple parties to compute a function together
+                     while keeping their inputs private. Large scale implementations of MPC protocols are
+                     becoming practical thus it is important to have strong guarantees for the whole development
+                     process, from the underlying cryptography to the implementation. Computer aided proofs
+                     are a way to provide such guarantees. 
+                  </p> 
+                  <p>We use CryptHOL to formalise a framework for reasoning about two party protocols using
+                     the security definitions for MPC. In particular we consider protocols for 1-out-of-2
+                     Oblivious Transfer (<em>OT</em><sub>2</sub><sup>1</sup>) — a fundamental MPC protocol — in both the semi-honest and malicious models. We
+                     then extend our semi-honest formalisation to <em>OT</em><sub>4</sub><sup>1</sup> which is a building block for our proof of security for the two party GMW protocol
+                     — a protocol that can securely compute any Boolean circuit. 
+                  </p> 
+                  <p>The semi-honest <em>OT</em><sub>2</sub><sup>1</sup> protocol we formalise is constructed from Extended Trapdoor Permutations (ETP), we
+                     first prove the general construction secure and then instantiate for the RSA collection
+                     of functions — a known ETP. Our general proof assumes only the existence of ETPs,
+                     meaning any instantiated results come without needing to prove any security properties,
+                     only that the requirements of an ETP are met.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373828">Verified security of BLT signature scheme</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Firsov
+                  Denis
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The majority of real-world applications of digital signatures use timestamping to
+                     ensure non-repudiation in face of possible key revocations. This observation led Buldas,
+                     Laanoja, and Truu to a server-assisted digital signature scheme built around cryptographic
+                     timestamping. 
+                  </p> 
+                  <p> In this paper, we report on the machine-checked proofs of existential unforgeability
+                     under the chosen-message attack (EUF-CMA) of some variations of BLT digital signature
+                     scheme. The proofs are developed and verified using the EasyCrypt framework, which
+                     provides interactive theorem proving supported by the state-of-the-art SMT solvers.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Concurrency and Linearity</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373820">Formalizing determinacy of concurrent revisions</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Overbeek
+                  Roy
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Concurrent revisions is a concurrency control model designed to guarantee <em>determinacy</em>, meaning that the outcomes of programs are uniquely determined. This paper describes
+                     an Isabelle/HOL formalization of the model’s operational semantics and proof of determinacy.
+                     We discuss and resolve subtle ambiguities in the operational semantics and simplify
+                     the proof of determinacy. Although our findings do not appear to correspond to bugs
+                     in implementations, the formalization highlights some of the challenges involved in
+                     the design and verification of concurrency control models.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373814">Formalizing 𝜋-calculus in guarded cubical Agda</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Veltri
+                  Niccolò
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Dependent type theories with guarded recursion have shown themselves suitable for
+                     the development of denotational semantics of programming languages. In particular
+                     Ticked Cubical Type Theory (TCTT) has been used to show that for guarded labelled
+                     transition systems (GLTS) interpretation into the denotational semantics maps bisimilar
+                     processes to equal values. In fact the two notions are proved equivalent, allowing
+                     one to reason about equality in place of bisimilarity. 
+                  </p> 
+                  <p>We extend that result to the π-calculus, picking early congruence as the syntactic
+                     notion of equivalence between processes, showing that denotational models based on
+                     guarded recursive types can handle the dynamic creation of channels that goes beyond
+                     the scope of GLTSs. 
+                  </p> 
+                  <p>Hence we present a fully abstract denotational model for the early π-calculus, formalized
+                     as an extended example for Guarded Cubical Agda: a novel implementation of Ticked
+                     Cubical Type Theory based on Cubical Agda.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373818">Intrinsically-typed definitional interpreters for linear, session-typed languages</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Rouvoet
+                  Arjen
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>An intrinsically-typed definitional interpreter is a concise specification of dynamic
+                     semantics, that is executable and type safe by construction. Unfortunately, scaling
+                     intrinsically-typed definitional interpreters to more complicated object languages
+                     often results in definitions that are cluttered with manual proof work. For linearly-typed
+                     languages (including session-typed languages) one has to prove that the interpreter,
+                     as well as all the operations on semantic components, treat values linearly. We present
+                     new methods and tools that make it possible to implement intrinsically-typed definitional
+                     interpreters for linearly-typed languages in a way that hides the majority of the
+                     manual proof work. Inspired by separation logic, we develop reusable and composable
+                     abstractions for programming with linear operations using dependent types. Using these
+                     abstractions, we define interpreters for linear lambda calculi with strong references,
+                     concurrency, and session-typed communication in Agda.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Formalized Mathematics 1</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373830">Formalising perfectoid spaces</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Buzzard
+                  Kevin
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Perfectoid spaces are sophisticated objects in arithmetic geometry introduced by Peter
+                     Scholze in 2012. We formalised enough definitions and theorems in topology, algebra
+                     and geometry to define perfectoid spaces in the Lean theorem prover. This experiment
+                     confirms that a proof assistant can handle complexity in that direction, which is
+                     rather different from formalising a long proof about simple objects. It also confirms
+                     that mathematicians with no computer science training can become proficient users
+                     of a proof assistant in a relatively short period of time. Finally, we observe that
+                     formalising a piece of mathematics that is a trending topic boosts the visibility
+                     of proof assistants amongst pure mathematicians.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373819">A constructive formalization of the weak perfect graph theorem</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Singh
+                  Abhishek Kr
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The Perfect Graph Theorems are important results in graph theory describing the relationship
+                     between clique number ω(<em>G</em>) and chromatic number χ(<em>G</em>) of a graph <em>G</em>. A graph <em>G</em> is called <em>perfect</em> if χ(<em>H</em>)=ω(<em>H</em>) for every induced subgraph <em>H</em> of <em>G</em>. The Strong Perfect Graph Theorem (SPGT) states that a graph is perfect if and only
+                     if it does not contain an odd hole (or an odd anti-hole) as its induced subgraph.
+                     The Weak Perfect Graph Theorem (WPGT) states that a graph is perfect if and only if
+                     its complement is perfect. In this paper, we present a formal framework for working
+                     with finite simple graphs. We model finite simple graphs in the Coq Proof Assistant
+                     by representing its vertices as a finite set over a countably infinite domain. We
+                     argue that this approach provides a formal framework in which it is convenient to
+                     work with different types of graph constructions (or expansions) involved in the proof
+                     of the Lovász Replication Lemma (LRL), which is also the key result used in the proof
+                     of Weak Perfect Graph Theorem. Finally, we use this setting to develop a constructive
+                     formalization of the Weak Perfect Graph Theorem.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373831">Completeness of an axiomatization of graph isomorphism via graph rewriting in Coq</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Doczkal
+                  Christian
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The labeled multigraphs of treewidth at most two can be described using a simple term
+                     language over which isomorphism of the denoted graphs can be finitely axiomatized.
+                     We formally verify soundness and completeness of such an axiomatization using Coq
+                     and the mathematical components library. The completeness proof is based on a normalizing
+                     and confluent rewrite system on term-labeled graphs. While for most of the development
+                     a dependently typed representation of graphs based on finite types of vertices and
+                     edges is most convenient, we switch to a graph representation employing a fixed type
+                     of vertices shared among all graphs for establishing confluence of the rewrite system.
+                     The completeness result is then obtained by transferring confluence from the fixed-type
+                     setting to the dependently typed setting.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Formalized Mathematics 2</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373833">The Poincaré-Bendixson theorem in Isabelle/HOL</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Immler
+                  Fabian
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The Poincaré-Bendixson theorem is a classical result in the study of (continuous)
+                     dynamical systems. Colloquially, it restricts the possible behaviors of planar dynamical
+                     systems: such systems cannot be chaotic. In practice, it is a useful tool for proving
+                     the existence of (limiting) periodic behavior in planar systems. The theorem is an
+                     interesting and challenging benchmark for formalized mathematics because proofs in
+                     the literature rely on geometric sketches and only hint at symmetric cases. It also
+                     requires a substantial background of mathematical theories, e.g., the Jordan curve
+                     theorem, real analysis, ordinary differential equations, and limiting (long-term)
+                     behavior of dynamical systems. 
+                  </p> 
+                  <p> We present a proof of the theorem in Isabelle/HOL and highlight the main challenges,
+                     which include: i) combining large and independently developed mathematical libraries,
+                     namely the Jordan curve theorem and ordinary differential equations, ii) formalizing
+                     fundamental concepts for the study of dynamical systems, namely the α, ω-limit sets,
+                     and periodic orbits, iii) providing formally rigorous arguments for the geometric
+                     sketches paramount in the literature, and iv) managing the complexity of our formalization
+                     throughout the proof, e.g., appropriately handling symmetric cases.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373826">A formal proof of the independence of the continuum hypothesis</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  Han
+                  Jesse Michael
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We describe a formal proof of the independence of the continuum hypothesis (<em>CH</em>) in the Lean theorem prover. We use Boolean-valued models to give forcing arguments
+                     for both directions, using Cohen forcing for the consistency of ¬ <em>CH</em> and a σ-closed forcing for the consistency of <em>CH</em>.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="http://dl.acm.org/doi/abs/10.1145/3372885.3373824">The lean mathematical library</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">
+                  The mathlib Community
+                  
+               </li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This paper describes mathlib, a community-driven effort to build a unified library
+                     of mathematics formalized in the Lean proof assistant. Among proof assistant libraries,
+                     it is distinguished by its dependently typed foundations, focus on classical mathematics,
+                     extensive hierarchy of structures, use of large- and small-scale automation, and distributed
+                     organization. We explain the architecture and design decisions of the library and
+                     the social organization that has led to its development.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+         </div>
+      </div>
+   </body>
+</html>
