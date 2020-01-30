@@ -1,3 +1,22 @@
+2020:
+- Awardee: Saurabh Srivastava, Sumit Gulwani, Jeffrey Foster
+  Other: |
+    (for 2010): _[From program verification to program synthesis](https://dl.acm.org/doi/10.1145/1706299.1706337)_
+  Citation: |
+    The paper greatly advanced our ability to synthesize programs from logical
+    specifications. It was based on the insight that much of the work carried out
+    by a program verifier could be repurposed not just for checking that code
+    matches a specification, but also to synthesize code that does. The user
+    specifies the input-output behavior as a logical formula, and also provides
+    structural and resource constraints, which describe a template language for the
+    space of possible programs. In later works, such domain-specific languages
+    (DSLs) became the norm for restricting the search space to make synthesis
+    tractable. The verifier then scaffolds the synthesized code onto this
+    structure, adhering to the prescribed resources. The authors were able to
+    synthesize a range of clever algorithms, which served as inspiration for some
+    of the massive effort on verification-based program synthesis over the past
+    decade.
+
 2019:
 - Awardee: Cristiano Calcagno, Dino Distefano, Peter W. O'Hearn, Hongseok Yang
   Other: |
