@@ -76,13 +76,13 @@ CARES committee members may also attend other workshops and conferences sponsore
 
 ### SIGPLAN CARES Committee Members
 
-<table style="width:100%; border-collapse: collapse; border: none;">
+<table style="width:100%">
   <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/mckinley.png" alt="Kathryn McKinley" width="60%" height="60%"><br><a href="https://www.cs.utexas.edu/users/mckinley/">Kathryn McKinley</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/mckinley.png" alt="Kathryn McKinley"  height="60%"><br><a href="https://www.cs.utexas.edu/users/mckinley/">Kathryn McKinley</a></td>
    <td>Co-Chair, <a href="mailto:mckinley@cs.utexas.edu">mckinley@cs.utexas.edu</a>, Google, 2019-2021 </td>
   </tr> 
    <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/walker.png" alt="David Walker" width="60%" height="60%"><br><a href="https://www.cs.princeton.edu/~dpw/">David Walker</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/walker.png" alt="David Walker" height="60%"><br><a href="https://www.cs.princeton.edu/~dpw/">David Walker</a></td>
    <td>Co-Chair, <a href="mailto:dpw@cs.princeton.edu">dpw@cs.princeton.edu</a>, Princeton University, 2019-2022 </td>
   </tr>
   <tr>
@@ -90,11 +90,11 @@ CARES committee members may also attend other workshops and conferences sponsore
    <td>Member, <a href="mailto:vadve@illinois.edu">vadve@illinois.edu</a>, University of Illinois </td>
   </tr>
  <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/krishnamurthi.png" alt="Shriram Krishnamurthi" width="60%" height="60%"><br><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/krishnamurthi.png" alt="Shriram Krishnamurthi" height="60%"><br><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a></td>
    <td>Member, <a href="mailto:sk@cs.brown.edu">sk@cs.brown.edu</a>, Brown University </td>
   </tr> 
  <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/jones.png" alt="Simon Peyton Jones" width="60%" height="60%"><br><a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/jones.png" alt="Simon Peyton Jones"  height="60%"><br><a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a></td>
    <td>Member, <a href="mailto:simonpj@microsoft.com">simonpj@microsoft.com</a>, Microsoft Research Cambridge </td>
   </tr>
   <tr>
