@@ -76,7 +76,7 @@ CARES committee members may also attend other workshops and conferences sponsore
 
 ### SIGPLAN CARES Committee Members
 
-<table style="width:100%">
+<table style="width:100% border:0">
   <tr>
    <td><img src="images/cares-photos/mckinley.png" alt="Kathryn McKinley" width="60%" height="60%"><br><a href="https://www.cs.utexas.edu/users/mckinley/">Kathryn McKinley</a></td>
    <td>Co-Chair, <a href="mailto:mckinley@cs.utexas.edu">mckinley@cs.utexas.edu</a>, Google, 2019-2021 </td>
