@@ -78,7 +78,7 @@ CARES committee members may also attend other workshops and conferences sponsore
 
 <table style="width:100%">
   <tr>
-   <td><img src="images/cares-photos/mckinley.png"><br><a href="https://www.cs.utexas.edu/users/mckinley/">Kathryn McKinley</a></td>
+   <td><img src="images/cares-photos/mckinley.png" alt="Kathryn McKinley" style="width:70%;height:70%;border:0;"><br><a href="https://www.cs.utexas.edu/users/mckinley/">Kathryn McKinley</a></td>
    <td>Co-Chair, <a href="mailto:mckinley@cs.utexas.edu">mckinley@cs.utexas.edu</a>, Google, 2019-2021 </td>
  </table>  
 Co-Chair, [David Walker](https://www.cs.princeton.edu/~dpw/), dpw@cs.princeton.edu, Princeton University, 2019-2022  
