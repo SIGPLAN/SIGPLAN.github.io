@@ -86,35 +86,35 @@ CARES committee members may also attend other workshops and conferences sponsore
    <td>Co-Chair, <a href="mailto:dpw@cs.princeton.edu">dpw@cs.princeton.edu</a>, Princeton University, 2019-2022 </td>
   </tr>
   <tr>
-   <td><img src="images/cares-photos/adve.png" alt="Vikram Adve" width="60%" height="60%"><br><a href="https://vikram.cs.illinois.edu/">Vikram Adve</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/adve.png" alt="Vikram Adve" width="60%" height="60%"><br><a href="https://vikram.cs.illinois.edu/">Vikram Adve</a></td>
    <td>Member, <a href="mailto:vadve@illinois.edu">vadve@illinois.edu</a>, University of Illinois </td>
   </tr>
  <tr>
-   <td><img src="images/cares-photos/krishnamurthi.png" alt="Shriram Krishnamurthi" width="60%" height="60%"><br><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/krishnamurthi.png" alt="Shriram Krishnamurthi" width="60%" height="60%"><br><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a></td>
    <td>Member, <a href="mailto:sk@cs.brown.edu">sk@cs.brown.edu</a>, Brown University </td>
   </tr> 
  <tr>
-   <td><img src="images/cares-photos/jones.png" alt="Simon Peyton Jones" width="60%" height="60%"><br><a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/jones.png" alt="Simon Peyton Jones" width="60%" height="60%"><br><a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a></td>
    <td>Member, <a href="mailto:simonpj@microsoft.com">simonpj@microsoft.com</a>, Microsoft Research Cambridge </td>
   </tr>
   <tr>
-   <td><img src="images/cares-photos/silva.png" alt="Alexandra Silva" width="60%" height="60%"><br><a href="https://www.alexandrasilva.org/#/main.html">Alexandra Silva</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/silva.png" alt="Alexandra Silva" width="60%" height="60%"><br><a href="https://www.alexandrasilva.org/#/main.html">Alexandra Silva</a></td>
    <td>Member, <a href="mailto:alexandra.silva@ucl.ac.uk">alexandra.silva@ucl.ac.uk</a>, University College London </td>
   </tr> 
  <tr>
-   <td><img src="images/cares-photos/strout.png" alt="Michelle Strout" width="60%" height="60%"><br><a href="http://cgi.cs.arizona.edu/~mstrout/">Michelle Strout</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/strout.png" alt="Michelle Strout" width="60%" height="60%"><br><a href="http://cgi.cs.arizona.edu/~mstrout/">Michelle Strout</a></td>
    <td>Member, <a href="mailto:mstrout@cs.arizon.edu">mstrout@cs.arizon.edu</a>, University of Arizona </td>
   </tr> 
  <tr>
-   <td><img src="images/cares-photos/weirich.png" alt="Stephanie Weirich" width="60%" height="60%"><br><a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/weirich.png" alt="Stephanie Weirich" width="60%" height="60%"><br><a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a></td>
    <td>Member, <a href="mailto:sweirich@cis.upenn.edu">sweirich@cis.upenn.edu</a>, University of Pennsylvania</td>
   </tr> 
  <tr>
-   <td><img src="images/cares-photos/wu.png" alt="Peng Wu" width="60%" height="60%"><br><a href="https://pengwu.wordpress.com/">Peng Wu</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/wu.png" alt="Peng Wu" width="60%" height="60%"><br><a href="https://pengwu.wordpress.com/">Peng Wu</a></td>
    <td>Member, <a href="mailto:peng.wu@futurewei.com">peng.wu@futurewei.com</a>, Futurewei Technologies </td>
   </tr> 
  <tr>
-   <td><img src="images/cares-photos/yang.png" alt="Hongseok Yang" width="60%" height="60%"><br><a href="https://sites.google.com/view/hongseokyang/home">Hongseok Yang</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/yang.png" alt="Hongseok Yang" width="60%" height="60%"><br><a href="https://sites.google.com/view/hongseokyang/home">Hongseok Yang</a></td>
    <td>Member, <a href="mailto:hongseok00@gmail.com">hongseok00@gmail.com</a>, KAIST </td>
   </tr> 
  </table>  
