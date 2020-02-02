@@ -49,17 +49,14 @@ The SIGPLAN CARES Bylaws can be found [here](http://www.sigplan.org/CaresBylaws)
 
 ### SIGPLAN CARES Operations
 
-Initially, one or more CARES members will cover the following list of guaranteed sponsored conferences and 
-their PC meetings, as invited.
+CARES members are always available by email to correspond and to set up a call with anyone who would like to speak with us about harassment or other concerns related to sustaining and building an inclusive research community.  One or more CARES members will “cover” conferences by announcing their presence at the beginning of the meeting and at the business meeting, and being available throughout the meeting at sessions and breaks, etc. A CARES member will be available for email and phone calls for on-line PC meetings and in person at physical PC meetings. We will announce the CARES members attending below.  At conferences, we will typically set up a table for at least an hour  a day and announce the time and location. Initially, the following SIGPLAN conferences will have guaranteed coverage.
 
 - ICFP
 - PLDI
 - POPL
 - SPLASH
 
-CARES committee members may also cover other workshops and conferences sponsored or co-sponsored 
-by SIGPLAN, when they normally would attend.  As the sponsoring organizations and/or committee 
-expands in membership, it may add conferences to the guaranteed list.
+CARES committee members may also attend other workshops and conferences sponsored or co-sponsored by SIGPLAN, when they normally would attend. As the sponsoring organizations and/or committee expands in membership, it may add conferences to the guaranteed list.
 
 <table style="width:100%">
   <tr>
