@@ -64,11 +64,11 @@ CARES committee members may also attend other workshops and conferences sponsore
     <th><b>CARES member attendees</b></th>
  </tr>
  <tr>
-    <td>[PLDI 2020](https://pldi20.sigplan.org) PC Meeting</td>
+    <td><a href="https://pldi20.sigplan.org">PLDI 2020</a> PC Meeting</td>
     <td>Michelle Strout</td>
   </tr>
  <tr>
-    <td>[POPL 2020](https://popl20.sigplan.org/)</td>
+    <td><a href="https://popl20.sigplan.org/">POPL 2020</a></td>
     <td>David Walker, Alexandra Silva, and Hongseok Yang</td>
   </tr>
 </table>
