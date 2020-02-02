@@ -47,7 +47,7 @@ committee led to foundation of the SIGPLAN committee.
 
 The SIGPLAN CARES Bylaws can be found [here](http://www.sigplan.org/CaresBylaws). 
 
-### SIGPLAN CARES Conferences Covered, Operations, and History
+### SIGPLAN CARES Operations
 
 Initially, one or more CARES members will cover the following list of guaranteed sponsored conferences and 
 their PC meetings, as invited.
@@ -65,27 +65,27 @@ expands in membership, it may add conferences to the guaranteed list.
   <tr>
     <th><b>Conference/Meeting</b></th>
     <th><b>CARES member attendees</b></th>
-  </tr>
-  <tr>
-    <td>POPL 2020</td>
-    <td>David Walker, Alexandra Silva, and Hongseok Yang</td>
+ </tr>
+ <tr>
+    <td>[PLDI 2020](https://pldi20.sigplan.org) PC Meeting</td>
+    <td>Michelle Strout</td>
   </tr>
  <tr>
-    <td>PLDI 2020 PC Meeting</td>
-    <td>Michelle Strout</td>
+    <td>[POPL 2020](https://popl20.sigplan.org/)</td>
+    <td>David Walker, Alexandra Silva, and Hongseok Yang</td>
   </tr>
 </table>
 
 
 ### SIGPLAN CARES Committee Members
 
-Co-Chair, [Kathryn McKinley](https://www.cs.utexas.edu/users/mckinley/), Google, 2019-2021  
-Co-Chair, [David Walker](https://www.cs.princeton.edu/~dpw/), Princeton University, 2019-2022  
-Member, [Vikram Adve](https://vikram.cs.illinois.edu/), University of Illinois  
-Member, [Shriram Krishnamurthi](https://cs.brown.edu/~sk/), Brown University  
-Member, [Simon Peyton Jones](https://www.microsoft.com/en-us/research/people/simonpj/), Microsoft Research Cambridge  
-Member, [Alexandra Silva](https://www.alexandrasilva.org/#/main.html), University College London   
-Member, [Michelle Strout](http://cgi.cs.arizona.edu/~mstrout/), University of Arizona  
-Member, [Stephanie Weirich](https://www.cis.upenn.edu/~sweirich/), University of Pennsylvania  
-Member, [Peng Wu](https://pengwu.wordpress.com/), Futurewei Technologies  
-Member, [Hongseok Yang](https://sites.google.com/view/hongseokyang/home), KAIST  
+Co-Chair, [Kathryn McKinley](https://www.cs.utexas.edu/users/mckinley/), mckinley@cs.utexas.edu, Google, 2019-2021  
+Co-Chair, [David Walker](https://www.cs.princeton.edu/~dpw/), dpw@cs.princeton.edu, Princeton University, 2019-2022  
+Member, [Vikram Adve](https://vikram.cs.illinois.edu/), vadve@illinois.edu, University of Illinois  
+Member, [Shriram Krishnamurthi](https://cs.brown.edu/~sk/), sk@cs.brown.edu, Brown University  
+Member, [Simon Peyton Jones](https://www.microsoft.com/en-us/research/people/simonpj/), simonpj@microsoft.com, Microsoft Research Cambridge  
+Member, [Alexandra Silva](https://www.alexandrasilva.org/#/main.html), alexandra.silva@ucl.ac.uk, University College London   
+Member, [Michelle Strout](http://cgi.cs.arizona.edu/~mstrout/), mstrout@cs.arizon.edu, University of Arizona  
+Member, [Stephanie Weirich](https://www.cis.upenn.edu/~sweirich/), sweirich@cis.upenn.edu, University of Pennsylvania  
+Member, [Peng Wu](https://pengwu.wordpress.com/), peng.wu@futurewei.com, Futurewei Technologies  
+Member, [Hongseok Yang](https://sites.google.com/view/hongseokyang/home), hongseok00@gmail.com, KAIST  
