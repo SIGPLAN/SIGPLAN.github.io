@@ -64,7 +64,9 @@ never worked with Reynolds nevertheless built on his ideas.
 **Selection Committee**
 
  * [Mira Mezini](https://www.stg.tu-darmstadt.de/staff/mira_mezini/) (<mailto:mezini@cs.tu-darmstadt.de>) - Technische Universität Darmstadt (SIGPLAN EC member and Chair)
+ * [Jonathan Aldrich](https://www.cs.cmu.edu/~aldrich/) (<mailto:jonathan.aldrich@cs.cmu.edu>) - CMU
  * [Nada Amin](https://namin.seas.harvard.edu/people/nada-amin) (<mailto:namin@seas.harvard.edu>) - Harvard
+ * [Azadeh Farzan](https://www.cs.toronto.edu/~azadeh/) (<mailto:azadeh@cs.toronto.edu>) - Univeresity of Toronto
  * [Georges Gonthier](http://www.msr-inria.fr/researchers/georges-gonthier/) (<mailto:georges.gonthier@inria.fr>) - Inria
  * [Eran Yahav](http://www.cs.technion.ac.il/~yahave/) (<mailto:yahave@cs.technion.ac.il>) - Technion
  * [Jens Palsberg](https://web.cs.ucla.edu/~palsberg/) (<mailto:palsberg@cs.ucla.edu>) - University of California, Los Angeles (ex officio member as SIGPLAN Chair)
