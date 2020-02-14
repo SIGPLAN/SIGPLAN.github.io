@@ -64,6 +64,10 @@ CARES committee members may also attend other workshops and conferences sponsore
     <th><b>CARES member attendees</b></th>
  </tr>
  <tr>
+    <td><a href="https://icfp20.sigplan.org/">ICFP 2020</a> PC Meeting</td>
+    <td>Shriram Krishnamurthi</td>
+  </tr>
+ <tr>
     <td><a href="https://pldi20.sigplan.org">PLDI 2020</a> PC Meeting</td>
     <td>Michelle Strout</td>
   </tr>
