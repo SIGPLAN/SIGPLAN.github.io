@@ -42,7 +42,7 @@ POPL, [Dimitrios Vytiniotis](https://github.com/dimitriv)
 PLDI, [Martin Vechev](http://www.srl.inf.ethz.ch/vechev.php)  
 ICFP, [John Hughes](https://www.chalmers.se/en/staff/Pages/rjmh.aspx)  
 OOPSLA, [Todd Millstein](http://web.cs.ucla.edu/~todd/)  
-ASPLOS, [Kathryn McKinley](http://www.cs.utexas.edu/~mckinley/)  
+ASPLOS, TBD
 PPoPP, [Erez Petrank](http://www.cs.technion.ac.il/~erez/)  
 SIGPLAN Chair, [Jens Palsberg](http://www.cs.ucla.edu/~palsberg)  
 Past SIGPLAN Chair, [Michael Hicks](http://www.cs.umd.edu/~mwh/)  
