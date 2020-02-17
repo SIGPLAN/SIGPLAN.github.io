@@ -64,6 +64,11 @@ CARES committee members may also attend other workshops and conferences sponsore
     <th><b>CARES member attendees</b></th>
  </tr>
  <tr>
+    <td><a href="https://icfp20.sigplan.org/">HPCA/PPOPP/CGO 2020</a></td>
+    <td>Peng Wu (<a href=".">SIGPLAN CARES</a>), Lieven Eeckhout and Timothy Pinkston (<a href="https://www.sigarch.org/benefit/cares/">SIGARCH/SIGMICRO CARES</a>)</td>
+  </tr>
+ <tr>
+ <tr>
     <td><a href="https://icfp20.sigplan.org/">ICFP 2020</a> PC Meeting</td>
     <td>Shriram Krishnamurthi</td>
   </tr>
