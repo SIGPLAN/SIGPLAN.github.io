@@ -49,7 +49,9 @@ The SIGPLAN CARES Bylaws can be found [here](http://www.sigplan.org/CaresBylaws)
 
 ### SIGPLAN CARES Operations
 
-CARES members are always available by email to correspond and to set up a call with anyone who would like to speak with us about harassment or other concerns related to sustaining and building an inclusive research community.  One or more CARES members will “cover” conferences by announcing their presence at the beginning of the meeting and at the business meeting, and being available throughout the meeting at sessions and breaks, etc. A CARES member will be available for email and phone calls for on-line PC meetings and in person at physical PC meetings. We will announce the CARES members attending below.  At conferences, we will typically set up a table for at least an hour  a day and announce the time and location. Initially, the following SIGPLAN conferences will have guaranteed coverage.
+CARES members are always available by email to correspond and to set up a call with anyone who would like to speak with us about harassment, discrimination, or other concerns related to building and sustaining an inclusive research community. 
+
+In addition, one or more CARES members will “cover” conferences by announcing their presence at the beginning of the meeting and at the business meeting, and being available for in-person conversations throughout the meeting at sessions and breaks, etc. A CARES member will be available for email and phone calls for on-line PC meetings and in person at physical PC meetings. We will announce the CARES members attending below. At conferences, we will typically set up a table for at least an hour a day and announce the time and location. Initially, the following conferences will have guaranteed coverage.
 
 - ICFP
 - PLDI
@@ -64,7 +66,7 @@ CARES committee members may also attend other workshops and conferences sponsore
     <th><b>CARES member attendees</b></th>
  </tr>
  <tr>
-    <td><a href="https://icfp20.sigplan.org/">HPCA/PPOPP/CGO 2020</a></td>
+    <td><a href="https://ppopp20.sigplan.org/">HPCA/PPOPP/CGO 2020</a></td>
     <td>Peng Wu (<a href=".">SIGPLAN CARES</a>), Lieven Eeckhout and Timothy Pinkston (<a href="https://www.sigarch.org/benefit/cares/">SIGARCH/SIGMICRO CARES</a>)</td>
   </tr>
  <tr>
