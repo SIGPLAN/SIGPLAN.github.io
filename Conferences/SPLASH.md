@@ -7,11 +7,11 @@ SPLASH (Systems, Programming, Languages, and Applications: Software for Humanity
 SPLASH fast facts
 -----------------
 
-> [SPLASH 2019 Web Page](http://splashcon.org/)  
-> General Chair: [Yannis Smaragdakis](https://yanniss.github.io/)  
-> Program Chair: [Eelco Visser](https://eelcovisser.org/)  
-> Location: Athens, Greece  
-> Dates: Sun 20 - Fri 25 October 2019  
+> [SPLASH 2020 Web Page](https://2020.splashcon.org/)  
+> General Chair: [Hridesh Rajan](http://web.cs.iastate.edu/~hridesh/)
+> Program Chair: [David Grove](https://researcher.watson.ibm.com/researcher/view.php?person=us-groved)  
+> Location: Chicago, IL
+> Dates: Sun, November 15 - Fri, November 20, 2020 
 
 **SPLASH Steering Committee**
 
@@ -21,7 +21,7 @@ members:
 -   current SIGPLAN Chair,
 -   current SIGPLAN Vice chair,
 -   current and past three SPLASH General Chairs,
--   current and past three OOPSLA Program Chairs, 
+-   current and past three OOPSLA Program Chairs,
 -   current and past three Onward! Program Chairs, and
 -   the outgoing Chair of the Steering Committee, for one year past the end of
     his or her term as Chair.
@@ -41,6 +41,8 @@ The current SPLASH steering committee is:
 
 Web Pages of Previous Conferences
 ---------------------------------
+> [SPLASH 2020](https://2020.splashcon.org/) (Chicago, IL)
+> [SPLASH 2019](https://2019.splashcon.org/) (Athens, Greece)
 > [SPLASH 2018](http://2018.splashcon.org/) (Boston, MA)  
 > [SPLASH 2017](http://2017.splashcon.org/) (Vancouver, Canada)  
 > [SPLASH 2016](http://2016.splashcon.org/) (Amsterdam, The Netherlands)  
@@ -60,5 +62,3 @@ Web Pages of Previous Conferences
 > [OOPSLA 2002](http://oopsla.acm.org/oopsla2002/) (Seattle, WA)  
 > [OOPSLA 2001](http://oopsla.acm.org/oopsla2001/) (Tampa Bay, FL)  
 > [OOPSLA 2000](http://oopsla.acm.org/oopsla2k/) (Minneapolis, MN)   
-
-
