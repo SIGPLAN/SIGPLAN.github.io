@@ -7,26 +7,26 @@ The purpose of this mentoring workshop is to encourage graduate students (PhD an
 We especially encourage women and underrepresented minority students to attend PLMW.
 
 
-**PLMW organisers  2019-2020**
+## PLMW series  2019-2020
 
-> [PLMW @ ICFP'20](https://popl18.sigplan.org/track/PLMW-POPL-2018)  
-> Location:  Jersey City, NJ, USA  
-> Organizers/Chairs: Nate Foster, Lindsey Kuper, Talia Ringer
+[PLMW @ ICFP'20](https://popl18.sigplan.org/track/PLMW-POPL-2018)  
+- **Location**:  Jersey City, NJ, USA  
+- **Organizers/Chairs**: Nate Foster, Lindsey Kuper, Talia Ringer
 
-> [PLMW @ SPLASH'20](https://2020.splashcon.org/track/splash-2020-PLMW)  
-> Location:  Jersey City, NJ, USA  
-> Organizers/Chairs: Jon Bell, Karim Ali, Malavika Samak 
+[PLMW @ SPLASH'20](https://2020.splashcon.org/track/splash-2020-PLMW)  
+- **Location**:  Chicago, IL, USA  
+- **Organizers/Chairs**: Jon Bell, Karim Ali, Malavika Samak 
 
-> [PLMW @ PLDI'20](https://popl18.sigplan.org/track/PLMW-POPL-2018)  
-> Location:  London, UK 
-> Organizers/Chairs:  Milink Kulkarni, Nadia Polikarpova, Stephen Chong, Adrian Sampson
+[PLMW @ PLDI'20](https://popl18.sigplan.org/track/PLMW-POPL-2018)  
+- **Location**:  London, UK 
+- **Organizers/Chairs**:  Milink Kulkarni, Nadia Polikarpova, Stephen Chong, Adrian Sampson
 
-> [PLMW @ POPL'21](https://popl21.sigplan.org/track/PLMW-POPL-2018)  
-> Location: Copenhagen, Denmark  
-> Organizers/Chairs:  Justin Hsu, Stephanie Balzer, Azalea Raad, Gabriel Scherer 
+[PLMW @ POPL'21](https://popl21.sigplan.org/track/PLMW-POPL-2018)  
+- **Location**: Copenhagen, Denmark  
+- **Organizers/Chairs**:  Justin Hsu, Stephanie Balzer, Azalea Raad, Gabriel Scherer 
 
 
-**PLMW Steering Committee Membership for 2020**
+## PLMW Steering Committee Membership for 2020
 
 - **ICFP Reps**: Nate Foster, David van Horn
 - **POPL Reps**: Justin Hsu, Nobuko Yoshida
@@ -42,7 +42,7 @@ We especially encourage women and underrepresented minority students to attend P
 - **Previous Chair**: Amal Ahmed
 
 
-**Web Pages of Previous Conferences**
+## Web Pages of Previous Conferences
 - [PLMW @ SPLASH'19](https://conf.researchr.org/home/PLMW-ICFP-2019) (Athens, Greece)
 - [PLMW @ ICFP'19](https://conf.researchr.org/home/PLMW-ICFP-2019) (Berlin, Germany)
 - [PLMW @ PLDI'19](https://conf.researchr.org/home/PLMW-PLDI-2019) (Phoenix, AZ, United States)
