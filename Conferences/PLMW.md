@@ -6,22 +6,51 @@ The purpose of this mentoring workshop is to encourage graduate students (PhD an
 
 We especially encourage women and underrepresented minority students to attend PLMW.
 
-**PLMW Fast Facts**
 
-> [PLMW @ POPL'18](https://popl18.sigplan.org/track/PLMW-POPL-2018)  
-> Location: Los Angeles, CA, USA  
-> Organizers/Chairs: Alexandra Silva (University College London), Steve Zdancewic (University of Pennsylvania), Nadia Polikarpova (University of California, San Diego), Viktor Vafeiadis (MPI-SWS)  
-> Date: January 9, 2018  
+**PLMW organisers  2019-2020**
 
-{::comment}
-> [PLMW @ PLDI'18]()
-> Location: Los Angeles, CA, USA
-> Organizers/Chairs: ???  
-> Date: ???
-{:/comment}
+> [PLMW @ ICFP'20](https://popl18.sigplan.org/track/PLMW-POPL-2018)  
+> Location:  Jersey City, NJ, USA  
+> Organizers/Chairs: Nate Foster, Lindsey Kuper, Talia Ringer
 
-**Web Pages of Previous Conferences**  
+> [PLMW @ SPLASH'20](https://2020.splashcon.org/track/splash-2020-PLMW)  
+> Location:  Jersey City, NJ, USA  
+> Organizers/Chairs: Jon Bell, Karim Ali, Malavika Samak 
 
+> [PLMW @ PLDI'20](https://popl18.sigplan.org/track/PLMW-POPL-2018)  
+> Location:  London, UK 
+> Organizers/Chairs:  Milink Kulkarni, Nadia Polikarpova, Stephen Chong, Adrian Sampson
+
+> [PLMW @ POPL'21](https://popl21.sigplan.org/track/PLMW-POPL-2018)  
+> Location: Copenhagen, Denmark  
+> Organizers/Chairs:  Justin Hsu, Stephanie Balzer, Azalea Raad, Gabriel Scherer 
+
+
+**PLMW Steering Committee Membership for 2020**
+
+- **ICFP Reps**: Nate Foster, David van Horn
+- **POPL Reps**: Justin Hsu, Nobuko Yoshida
+- **SPLASH Reps**: Karim Ali, Jon Bell
+- **PLDI Reps**: Milind Kulkarni
+- **Industrial Relations Rep**: Anil Madhavapeddy
+- **Social media**: Hila Peleg (new role 2020)
+- **SIGPLAN EC Rep**: Cindy Rubio Gonzalez
+- **Ad hoc Members**: Kathleen Fisher
+
+- **Chair**: Alexandra Silva
+- **Chair-Elect**: Steve Zdancewic
+- **Previous Chair**: Amal Ahmed
+
+
+**Web Pages of Previous Conferences**
+- [PLMW @ SPLASH'19](https://conf.researchr.org/home/PLMW-ICFP-2019) (Athens, Greece)
+- [PLMW @ ICFP'19](https://conf.researchr.org/home/PLMW-ICFP-2019) (Berlin, Germany)
+- [PLMW @ PLDI'19](https://conf.researchr.org/home/PLMW-PLDI-2019) (Phoenix, AZ, United States)
+- [PLMW @ POPL'19](https://popl19.sigplan.org/track/PLMW-2019-papers)  (Lisbon, Portugal)
+- [PLMW @ SPLASH'18](https://2018.splashcon.org/track/splash-2018-PLMW) (Boston, MA, United States)
+- [PLMW @ ICFP'18](https://icfp18.sigplan.org/track/PLMW-ICFP-2018) (St. Louis, MO, United States)
+- [PLMW @ PLDI'18](https://pldi18.sigplan.org/track/PLMW-PLDI-2018) (Philadelphia, PA, United States)
+- [PLMW @ POPL'18](https://popl18.sigplan.org/track/PLMW-POPL-2018)  (Los Angeles, CA, USA)
 - [PLMW @ SPLASH'17](http://2017.splashcon.org/track/splash-2017-PLMW) (Vancouver, Candada)
 - [PLMW @ ICFP'17](http://icfp17.sigplan.org/track/PLMW-ICFP-2017-papers) (Oxford, United Kingdom)
 - [PLMW @ PLDI'17](http://conf.researchr.org/track/pldi-ecoop-2017/PLMW-PLDI-2017) (Barcelona, Spain)
@@ -31,7 +60,7 @@ We especially encourage women and underrepresented minority students to attend P
 - [PLMW @ PLDI'16](http://conf.researchr.org/track/pldi-2016/PLMW-PLDI-2016) (Santa Barbara, CA, USA)
 - [PLMW @ POPL'16](http://conf.researchr.org/track/POPL-2016/PLMW-2016-home) (St. Petersburg, FL, USA)
 - [PLMW @ SPLASH'15](http://2015.splashcon.org/track/splash2015-plmw) (Pittsburgh, PA, USA)
-- [PLMW @ ICFP'15](https://www.cis.upenn.edu/~sweirich/icfp-plmw15) (Vancouver, Candada)
+- [PLMW @ ICFP'15](https://www.cis.upenn.edu/~sweirich/icfp-plmw15) (Vancouver, Canada)
 - [PLMW @ POPL'15](http://plmw15.iisc-seal.net) (Mumbai, India)
 - [PLMW @ POPL'14](http://plmw2014.inria.fr/) (San Diego, CA, USA)
 - [PLMW @ POPL'13](http://www.doc.ic.ac.uk/~gds/PLMW/) (Rome, Italy)
