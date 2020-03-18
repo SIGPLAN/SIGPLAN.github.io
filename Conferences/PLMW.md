@@ -9,7 +9,7 @@ We especially encourage women and underrepresented minority students to attend P
 
 ## PLMW series  2019-2020
 
-[PLMW @ ICFP'20](https://popl18.sigplan.org/track/PLMW-POPL-2018)  
+[PLMW @ ICFP'20](https://icfp20.sigplan.org0)  
 - **Location**:  Jersey City, NJ, USA  
 - **Organizers/Chairs**: Nate Foster, Lindsey Kuper, Talia Ringer
 
@@ -17,11 +17,11 @@ We especially encourage women and underrepresented minority students to attend P
 - **Location**:  Chicago, IL, USA  
 - **Organizers/Chairs**: Jon Bell, Karim Ali, Malavika Samak 
 
-[PLMW @ PLDI'20](https://popl18.sigplan.org/track/PLMW-POPL-2018)  
+[PLMW @ PLDI'20](https://pldi20.sigplan.org/home/PLMW-PLDI-2020)  
 - **Location**:  London, UK 
 - **Organizers/Chairs**:  Milink Kulkarni, Nadia Polikarpova, Stephen Chong, Adrian Sampson
 
-[PLMW @ POPL'21](https://popl21.sigplan.org/track/PLMW-POPL-2018)  
+[PLMW @ POPL'21](https://popl21.sigplan.org)  
 - **Location**: Copenhagen, Denmark  
 - **Organizers/Chairs**:  Justin Hsu, Stephanie Balzer, Azalea Raad, Gabriel Scherer 
 
