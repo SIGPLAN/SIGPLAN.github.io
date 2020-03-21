@@ -10,11 +10,11 @@ access behavior in programs.
 
 **ISMM Fast Facts**  
 
-> [ISMM 2019](http://conf.researchr.org/home/ismm-2019)  
-> Location: Phoenix, Arizona, United States, co-located with [PLDI'19](http://conf.researchr.org/home/pldi-2019)  
-> General Chair: [Jeremy Singer](http://www.dcs.gla.ac.uk/~jsinger/)  
-> Program Chair: [Harry Xu](http://www.cs.ucla.edu/~harryxu )  
-> Date: June 23, 2019  
+> [ISMM 2020](http://conf.researchr.org/home/ismm-2020)
+> Location: London, UK, co-located with [PLDI'20](http://conf.researchr.org/home/pldi-2020)  
+> General Chair: [Chen Ding](https://www.cs.rochester.edu/~cding/)
+> Program Chair: [Martin Maas](http://www.martin-maas.com/)
+> Date: June 16, 2020
 
 **Other ISMM Information**  
 
@@ -26,7 +26,8 @@ Steering Committee
 
 **Web Pages of Previous Conferences**  
 
-- [ISMM 2018](http://conf.researchr.org/home/ismm-2018) (Barcelona, Spain)
+- [ISMM 2019](http://conf.researchr.org/home/ismm-2019) (Phoenix, Arizona)
+- [ISMM 2018](http://conf.researchr.org/home/ismm-2018) (Philadelphia, Pennsylvania)
 - [ISMM 2017](http://conf.researchr.org/home/ismm-2017) (Barcelona, Spain)
 - [ISMM 2016](http://conf.researchr.org/home/ismm-2016) (Santa Barbara, California)
 - [ISMM 2015](http://conf.researchr.org/home/ismm-2015) (Portland, Oregon)
