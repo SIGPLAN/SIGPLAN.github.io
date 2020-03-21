@@ -65,11 +65,9 @@ typesetting.)
 
 The `screen` option adds colors to hyperlinks and cross references.
 
-### Word templates
+### Microsoft Word
 
-For Word users, the `acmart` format is available from ACM's [Master
-Article
-Template](http://www.acm.org/publications/proceedings-template) page.
+The `acmart` format is not supported by Microsoft Word, as of March 2020.
 
 - - -
 
