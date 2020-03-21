@@ -9,6 +9,10 @@ title: "Author Information"
 
 <!-- (AF) Agreed, specially since there is no uniformity across conferences. -->
 
+<!-- (DB) Either delete, or ask all conferences to simply point to here.
+          The non-uniformity problem got eliminated over the last three years.
+          All SIGPLAN conferences now have to use the same style (and font size). -->
+
 ACM commissioned the construction of a [Master Article
 Template](http://www.acm.org/publications/proceedings-template) that
 consolidates all previous ACM journal and proceedings formats
@@ -33,39 +37,33 @@ Director](mailto:infodir_sigplan@acm.org?subject=ACM%20acmart%20format).
 
 ### LaTeX class, bibliography style, and template files
 
-For LaTeX users, the [PACMPL package
-(`acmart-pacmpl.zip`)](/sites/default/files/acmart/current/acmart-pacmpl.zip)
-and [SIGPLAN proceedings package
-(`acmart-sigplanproc.zip`)](/sites/default/files/acmart/current/acmart-sigplanproc.zip)
-are light-weight packages that include only the essential files for an
+For LaTeX users, the [`acmart` package](https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-master.zip) includes the following essential files for an
 author:
 
- * [PACMPL template (`acmart-pacmpl-template.tex`)](/sites/default/files/acmart/current/acmart-pacmpl-template.tex)  
-   or [SIGPLAN proceedings template (`acmart-sigplanproc-template.tex`)](/sites/default/files/acmart/current/acmart-sigplanproc-template.tex)
- * [class file (`acmart.cls`)](/sites/default/files/acmart/current/acmart.cls)
- * [class file documentation (`acmart.pdf`)](/sites/default/files/acmart/current/acmart.pdf)
- * [bibliography style file (`ACM-Reference-Format.bst`)](/sites/default/files/acmart/current/ACM-Reference-Format.bst)
+ * class file (`acmart.cls`)
+ * bibliography style file (`ACM-Reference-Format.bst`)
 
-The `acmart` format is also available from ACM's [Master Article
+The `acmart` format is available from ACM's [Master Article
 Template](http://www.acm.org/publications/proceedings-template) page
-and as a [CTAN package](http://ctan.org/pkg/acmart) (and is
-distributed with most popular TeX distributions).  However, these are
-heavy-weight packages, including the documented LaTeX (`.dtx`) file,
-samples of all of the different sub-formats, and bibliography and
-image files used by the samples, that most authors won't want or need.
-The [PACMPL template
-(`acmart-pacmpl-template.tex`)](/sites/default/files/acmart/current/acmart-pacmpl-template.tex)
-and [SIGPLAN proceedings template
-(`acmart-sigplanproc-template.tex`)](/sites/default/files/acmart/current/acmart-sigplanproc-template.tex)
-are not distributed in the heavy-weight packages; authors are
-encouraged to use the templates if they obtain the `acmart` format via
-the heavy-weight packages (or through their TeX distribution).
+and from [CTAN](http://ctan.org/pkg/acmart) (and is
+distributed with most popular TeX distributions).
+The [package documentation](http://mirrors.ctan.org/macros/latex/contrib/acmart/acmart.pdf)
+provides a detailed description of all features.
+The `acmart` format is maintained in a
+[GitHub repository](https://github.com/borisveytsman/acmart).
+
+Please use the following LaTeX commands:
+* PACMPL journal issues: `\documentclass[sigplan,screen]{acmart}`;
+  PACMPL requires author-year citation style: `\citestyle{acmauthoryear}`
+* SIGPLAN proceedings: `\documentclass[acmsmall,screen]{acmart}`
 
 The `review` option is strongly encouraged, but not required, for
 submissions. (The `review` option will add line numbers, which make it
 easier for reviewers to reference specific parts of the paper in their
 comments, but should have absolutely no other effect on the
 typesetting.)
+
+The `screen` option adds colors to hyperlinks and cross references.
 
 ### Word templates
 
