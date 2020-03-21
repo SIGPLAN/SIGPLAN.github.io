@@ -67,7 +67,7 @@ The `screen` option adds colors to hyperlinks and cross references.
 
 ### Microsoft Word
 
-The `acmart` format is not supported by Microsoft Word.
+The `acmart` format is not supported by Microsoft Word. [2020-03-21]
 
 - - -
 
