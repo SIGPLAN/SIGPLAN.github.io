@@ -116,6 +116,20 @@ some suggestions by
 -   Joel E. Cohen:
     [To A Young Scientist](/Resources/Advice/Cohen)
 
+## Third-Party Material
+
+Third-party material requires to be acknowledged at two places:
+
+- The *paper* needs to provide attribution.
+  For figures, add a credit line at the end of the caption
+  (ideally containing year, creator, copyright holder, license, source URL).
+
+- The *publishing-rights agreement* needs to list all third-party materials.
+
+See [ACM Instructions for Including Third-Party Material](https://www.acm.org/publications/authors/third-party-material)
+and [ACM Guidance for Authors on Fair Use](https://www.acm.org/publications/authors/guidance-for-authors-on-fair-use)
+for more details.
+
 ## Additional Support
 
 Are you a student needing additional support to present your paper
