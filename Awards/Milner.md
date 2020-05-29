@@ -94,3 +94,10 @@ the Milner Award eligibility requirement has been updated to clarify
 that the 20-year time frame is in relation to the nomination
 *deadline* (rather than the vague "time of nomination" as was
 originally written).
+
+#### Committee
+
+* [Michelle Strout](http://cgi.cs.arizona.edu/~mstrout/), University of Arizona (PLDI)
+* [Derek Dreyer](https://people.mpi-sws.org/~dreyer/), MPI-SWS (POPL)
+* [Eijiro Sumii](http://www.kb.ecei.tohoku.ac.jp/~sumii/), Tohoku University (ICFP)
+* [Todd Millstein](http://web.cs.ucla.edu/~todd/), UCLA (OOPSLA)
