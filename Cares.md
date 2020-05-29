@@ -47,6 +47,8 @@ committee led to foundation of the SIGPLAN committee.
 
 The SIGPLAN CARES Bylaws can be found [here](http://www.sigplan.org/CaresBylaws). 
 
+A collection of CARES resources can be found [here](https://www.sigarch.org/benefit/cares/cares-resources/).
+
 ### SIGPLAN CARES Operations
 
 CARES members are always available by email to correspond and to set up a call with anyone who would like to speak with us about harassment, discrimination, or other concerns related to building and sustaining an inclusive research community. 
