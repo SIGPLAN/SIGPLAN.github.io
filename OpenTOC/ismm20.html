@@ -1,0 +1,376 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>ISMM 2020: Proceedings of the 2020 ACM SIGPLAN International Symposium on Memory Management</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>ISMM 2020: Proceedings of the 2020 ACM SIGPLAN International Symposium on Memory Management</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3381898"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381898.3397208">Garbage collection using a finite liveness domain</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Aman Bansal</li>
+               <li class="nameList">Saksham Goel</li>
+               <li class="nameList">Preey Shah</li>
+               <li class="nameList">Amitabha Sanyal</li>
+               <li class="nameList Last">Prasanna Kumar</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Functional languages manage heap data through garbage collection. Since static analysis
+                     of heap data is difficult, garbage collectors conservatively approximate the <em>liveness</em> of heap objects by <em>reachability</em> i.e. every object that is reachable from the root set is considered live. Consequently,
+                     a large amount of memory that is reachable but not used further during execution is
+                     left uncollected by the collector. 
+                  </p> 
+                  <p> Earlier attempts at liveness-based garbage collection for languages supporting structured
+                     types were based on analyses that considered arbitrary liveness values, i.e. they
+                     assumed that any substructure of the data could be potentially live. This made the
+                     analyses complex and unscalable. However, functional programs traverse structured
+                     data like lists in identifiable patterns. We identify a set of eight usage patterns
+                     that we use as liveness values. The liveness analysis that accompanies our garbage
+                     collector is based on this set; liveness arising out of other patterns of traversal
+                     are conservatively approximated by this set. 
+                  </p> 
+                  <p> This restriction to a small set of liveness values reaps several benefits -- it results
+                     in a simple liveness analysis which scales to much larger programs with minimal loss
+                     of precision, enables the use of a faster collection technique, and is extendable
+                     to higher-order programs. 
+                  </p> 
+                  <p> Our experiments with a purely functional subset of Scheme show a reduction in the
+                     analysis time by orders of magnitude. In addition, the minimum heap size required
+                     to run programs is comparable with a liveness-based collector with unrestricted liveness
+                     values, and in situations where memory is limited, the garbage collection time is
+                     lower than its reachability counterpart.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381898.3397209">Prefetching in functional languages</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Sam Ainsworth</li>
+               <li class="nameList Last">Timothy M. Jones</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Functional programming languages contain a number of runtime and language features,
+                     such as garbage collection, indirect memory accesses, linked data structures and immutability,
+                     that interact with a processor’s memory system. These conspire to cause a variety
+                     of unintuitive memory-performance effects. For example, it is slower to traverse through
+                     linked lists and arrays of data that have been sorted than to traverse the same data
+                     accessed in the order it was allocated. 
+                  </p> 
+                  <p>We seek to understand these issues and mitigate them in a manner consistent with functional
+                     languages, taking advantage of the features themselves where possible. For example,
+                     immutability and garbage collection force linked lists to be allocated roughly sequentially
+                     in memory, even when the data pointed to within each node is not. We add language
+                     primitives for software-prefetching to the OCaml language to exploit this, and observe
+                     significant performance improvements a variety of micro- and macro-benchmarks, resulting
+                     in speedups of up to 2× on the out-of-order superscalar Intel Haswell and Xeon Phi
+                     Knights Landing systems, and up to 3× on the in-order Arm Cortex-A53.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381898.3397210">Improving phase change memory performance with data content aware access</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Shihao Song</li>
+               <li class="nameList">Anup Das</li>
+               <li class="nameList">Onur Mutlu</li>
+               <li class="nameList Last">Nagarajan Kandasamy</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Phase change memory (PCM) is a scalable non-volatile memory technology that has low
+                     access latency (like DRAM) and high capacity (like Flash). Writing to PCM incurs significantly
+                     higher latency and energy penalties compared to reading its content. A prominent characteristic
+                     of PCM’s write operation is that its latency and energy are sensitive to the data
+                     to be written as well as the content that is overwritten. We observe that overwriting
+                     unknown memory content can incur significantly higher latency and energy compared
+                     to overwriting known all-zeros or all-ones content. This is because all-zeros or all-ones
+                     content is overwritten by programming the PCM cells only in one direction, i.e., using
+                     either SET or RESET operations, not both. 
+                  </p> 
+                  <p> In this paper, we propose data content aware PCM writes (DATACON), a new mechanism
+                     that reduces the latency and energy of PCM writes by redirecting these requests to
+                     overwrite memory locations containing all-zeros or all-ones. DATACON operates in three
+                     steps. First, it estimates how much a PCM write access would benefit from overwriting
+                     known content (e.g., all-zeros, or all-ones) by comprehensively considering the number
+                     of set bits in the data to be written, and the energy-latency trade-offs for SET and
+                     RESET operations in PCM. Second, it translates the write address to a physical address
+                     within memory that contains the best type of content to overwrite, and records this
+                     translation in a table for future accesses. We exploit data access locality in work-
+                     loads to minimize the address translation overhead. Third, it re-initializes unused
+                     memory locations with known all- zeros or all-ones content in a manner that does not
+                     interfere with regular read and write accesses. DATACON overwrites unknown content
+                     only when it is absolutely necessary to do so. We evaluate DATACON with workloads
+                     from state- of-the-art machine learning applications, SPEC CPU2017, and NAS Parallel
+                     Benchmarks. Results demonstrate that DATACON improves the effective access latency
+                     by 31%, overall system performance by 27%, and total memory system energy consumption
+                     by 43% compared to the best of performance-oriented state-of-the-art techniques.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381898.3397211">Verified sequential Malloc/Free</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Andrew W. Appel</li>
+               <li class="nameList Last">David A. Naumann</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We verify the functional correctness of an array-of-bins (segregated free-lists) single-thread
+                     malloc/free system with respect to a correctness specification written in separation
+                     logic. The memory allocator is written in standard C code compatible with the standard
+                     API; the specification is in the Verifiable C program logic, and the proof is done
+                     in the Verified Software Toolchain within the Coq proof assistant. Our "resource-aware"
+                     specification can guarantee when malloc will successfully return a block, unlike the
+                     standard Posix specification that allows malloc to return NULL whenever it wants to.
+                     We also prove subsumption (refinement): the resource-aware specification implies a
+                     resource-oblivious spec.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381898.3397212">Understanding and optimizing persistent memory allocation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Wentao Cai</li>
+               <li class="nameList">Haosen Wen</li>
+               <li class="nameList">H. Alan Beadle</li>
+               <li class="nameList">Chris Kjellqvist</li>
+               <li class="nameList">Mohammad Hedayati</li>
+               <li class="nameList Last">Michael L. Scott</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The proliferation of fast, dense, byte-addressable nonvolatile memory suggests that
+                     data might be kept in pointer-rich "in-memory" format across program runs and even
+                     process and system crashes. For full generality, such data requires dynamic memory
+                     allocation, and while the allocator could in principle be "rolled into" each data
+                     structure, it is desirable to make it a separate abstraction. 
+                  </p> 
+                  <p> Toward this end, we introduce <em>recoverability</em>, a correctness criterion for persistent allocators, together with a nonblocking allocator,
+                     <em>Ralloc</em>, that satisfies this criterion. Ralloc is based on the <em>LRMalloc</em> of Leite and Rocha, with three key innovations. First, we persist just enough information
+                     during normal operation to permit correct reconstruction of the heap after a full-system
+                     crash. Our reconstruction mechanism performs garbage collection (GC) to identify and
+                     remedy any failure-induced memory leaks. Second, we introduce the notion of <em>filter functions</em>, which identify the locations of pointers within persistent blocks to mitigate the
+                     limitations of conservative GC. Third, to allow persistent regions to be mapped at
+                     an arbitrary address, we employ position-independent (offset-based) pointers for both
+                     data and metadata. 
+                  </p> 
+                  <p> Experiments show Ralloc to be performance-competitive with both <em>Makalu</em>, the state-of-the-art lock-based persistent allocator, and such transient allocators
+                     as LRMalloc and JEMalloc. In particular, reliance on GC and offline metadata reconstruction
+                     allows Ralloc to pay almost nothing for persistence during normal operation.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381898.3397213">ThinGC: complete isolation with marginal overhead</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Albert Mingkun Yang</li>
+               <li class="nameList">Erik Österlund</li>
+               <li class="nameList">Jesper Wilhelmsson</li>
+               <li class="nameList">Hanna Nyblom</li>
+               <li class="nameList Last">Tobias Wrigstad</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Previous works on leak-tolerating GC and write-rationing GC show that most reads/writes
+                     in an application are concentrated to a small number of objects. This suggests that
+                     many applications enjoy a clear and stable clustering of hot (recently read and/or
+                     written) and cold (the inverse of hot) objects. These results have been shown in the
+                     context of Jikes RVM, for stop-the-world collectors. This paper explores a similar
+                     design for a concurrent collector in the context of OpenJDK, plus a separate collector
+                     to manage cold objects in their own subheap. We evaluate the design and implementation
+                     of ThinGC using algorithms from JGraphT and the DaCapo suite. The results show that
+                     ThinGC considers fewer objects cold than previous work, and maintaining separate subheaps
+                     of hot and cold objects induces marginal overhead for most benchmarks except one,
+                     where large slowdown due to excessive reheats is observed.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381898.3397214">Alligator collector: a latency-optimized garbage collector for functional programming
+                  languages</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Ben Gamari</li>
+               <li class="nameList Last">Laura Dietz</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Modern hardware and applications require runtime systems that can operate under large-heap
+                     and low-latency requirements. For many client/server or interactive applications,
+                     reducing average and maximum pause times is more important than maximizing throughput.
+                     
+                  </p> 
+                  <p> The GHC Haskell runtime system version 8.10.1 offers a new latency-optimized garbage
+                     collector as an alternative to the existing throughput-optimized copying garbage collector.
+                     This paper details the latency-optimized GC design, which is a generational collector
+                     integrating GHC's existing collector and bump-pointer allocator with a non-moving
+                     collector and non-moving heap suggested by Ueno and Ohori. We provide an empirical
+                     analysis on the latency/throughput tradeoffs. We augment the established nofib micro
+                     benchmark with a response-time focused benchmark that simulates real-world applications
+                     such as LRU caches, web search, and key-value stores.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381898.3397215">Exploiting inter- and intra-memory asymmetries for data mapping in hybrid tiered-memories</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Shihao Song</li>
+               <li class="nameList">Anup Das</li>
+               <li class="nameList Last">Nagarajan Kandasamy</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Modern computing systems are embracing hybrid memory comprising of DRAM and non-volatile
+                     memory (NVM) to combine the best properties of both memory technologies, achieving
+                     low latency, high reliability, and high density. A prominent characteristic of DRAM-NVM
+                     hybrid memory is that it has NVM access latency much higher than DRAM access latency.
+                     We call this inter-memory asymmetry. We observe that parasitic components on a long
+                     bitline are a major source of high latency in both DRAM and NVM, and a significant
+                     factor contributing to high-voltage operations in NVM, which impact their reliability.
+                     We propose an architectural change, where each long bitline in DRAM and NVM is split
+                     into two segments by an isolation transistor. One segment can be accessed with lower
+                     latency and operating voltage than the other. By introducing tiers, we enable non-uniform
+                     accesses within each memory type (which we call intra-memory asymmetry), leading to
+                     performance and reliability trade-offs in DRAM-NVM hybrid memory. 
+                  </p> 
+                  <p> We show that our hybrid tiered-memory architecture has a tremendous potential to
+                     improve performance and reliability, if exploited by an efficient page management
+                     policy at the operating system (OS). Modern OSes are already aware of inter-memory
+                     asymmetry. They migrate pages between the two memory types during program execution,
+                     starting from an initial allocation of the page to a randomly-selected free physical
+                     address in the memory. We extend existing OS awareness in three ways. First, we exploit
+                     both inter- and intra-memory asymmetries to allocate and migrate memory pages between
+                     the tiers in DRAM and NVM. Second, we improve the OS’s page allocation decisions by
+                     predicting the access intensity of a newly-referenced memory page in a program and
+                     placing it to a matching tier during its initial allocation. This minimizes page migrations
+                     during program execution, lowering the performance overhead. Third, we propose a solution
+                     to migrate pages between the tiers of the same memory without transferring data over
+                     the memory channel, minimizing channel occupancy and improving performance. Our overall
+                     approach, which we call MNEME, to enable and exploit asymmetries in DRAM-NVM hybrid
+                     tiered memory improves both performance and reliability for both single-core and multi-programmed
+                     workloads.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+         </div>
+      </div>
+   </body>
+</html>

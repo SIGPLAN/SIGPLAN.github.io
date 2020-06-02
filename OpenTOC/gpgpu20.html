@@ -1,0 +1,338 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>GPGPU '20: Proceedings of the 13th Annual Workshop on General Purpose Processing using Graphics
+         Processing Unit
+      </title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>GPGPU '20: Proceedings of the 13th Annual Workshop on General Purpose Processing using Graphics
+               Processing Unit
+            </h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3366428"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3366428.3380770">The Minos Computing Library: efficient parallel programming for extremely heterogeneous systems</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Roberto Gioiosa</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Hardware specialization has become the silver bullet to achieve efficient high performance,
+                     from Systems-on-Chip systems, where hardware specialization can be "extreme", to large-scale
+                     HPC systems. As the complexity of the systems increases, so does the complexity of
+                     programming such architectures in a portable way.
+                  </p> 
+                  <p>This work introduces the Minos Computing Library (MCL), as system software, programming
+                     model, and programming model runtime that facilitate programming extremely heterogeneous
+                     systems. MCL supports the execution of several multi-threaded applications within
+                     the same compute node, performs asynchronous execution of application tasks, efficiently
+                     balances computation across hardware resources, and provides performance portability.
+                  </p> 
+                  <p>We show that code developed on a personal desktop automatically scales up to fully
+                     utilize powerful workstations with 8 GPUs and down to power-efficient embedded systems.
+                     MCL provides up to 17.5x speedup over OpenCL on NVIDIA DGX-1 systems and up to 1.88x
+                     speedup on single-GPU systems. In multi-application workloads, MCL's dynamic resource
+                     allocation provides up to 2.43x performance improvement over manual, static resources
+                     allocation.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3366428.3380773">Unveiling kernel concurrency in multiresolution filters on GPUs with an image processing
+                  DSL</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Bo Qiao</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Multiresolution filters, analyzing information at different scales, are crucial for
+                     many applications in digital image processing. The different space and time complexity
+                     at distinct scales in the unique pyramidal structure poses a challenge as well as
+                     an opportunity to implementations on modern accelerators such as GPUs with an increasing
+                     number of compute units. In this paper, we exploit the potential of concurrent kernel
+                     execution in multiresolution filters. As a major contribution, we present a model-based
+                     approach for performance analysis of as well single- as multi-stream implementations,
+                     combining both application- and architecture-specific knowledge. As a second contribution,
+                     the involved transformations and code generators using CUDA streams on Nvidia GPUs
+                     have been integrated into a compiler-based approach using an image processing DSL
+                     called Hipacc. We then apply our approach to evaluate and compare the achieved performance
+                     for four real-world applications on three GPUs. The results show that our method can
+                     achieve a geometric mean speedup of up to 2.5 over the original Hipacc implementation
+                     without our approach, up to 2.0 over the other state-of-the-art DSL Halide, and up
+                     to 1.3 over the recently released programming model CUDA Graph from Nvidia.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3366428.3380769">High-level hardware feature extraction for GPU performance prediction of stencils</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Toomas Remmelg</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>High-level functional programming abstractions have started to show promising results
+                     for HPC (High-Performance Computing). Approaches such as Lift, Futhark or Delite have
+                     shown that it is possible to have both, high-level abstractions and performance, even
+                     for HPC workloads such as stencils. In addition, these high-level functional abstractions
+                     can also be used to represent programs and their optimized variants, within the compiler
+                     itself. However, such high-level approaches rely heavily on the compiler to optimize
+                     programs which is notoriously hard when targeting GPUs.
+                  </p> 
+                  <p>Compilers either use hand-crafted heuristics to direct the optimizations or iterative
+                     compilation to search the optimization space. The first approach has fast compile
+                     times, however, it is not performance-portable across different devices and requires
+                     a lot of human effort to build the heuristics. Iterative compilation, on the other
+                     hand, has the ability to search the optimization space automatically and adapts to
+                     different devices. However, this process is often very time-consuming as thousands
+                     of variants have to be evaluated. Performance models based on statistical techniques
+                     have been proposed to speedup the optimization space exploration. However, they rely
+                     on low-level hardware features, in the form of performance counters or low-level static
+                     code features.
+                  </p> 
+                  <p>Using the Lift framework, this paper demonstrates how low-level, GPU-specific features
+                     are extractable directly from a high-level functional representation. The Lift IR
+                     (Intermediate Representation) is in fact a very suitable choice since all optimization
+                     choices are exposed at the IR level. This paper shows how to extract low-level features
+                     such as number of unique cache lines accessed per warp, which is crucial for building
+                     accurate GPU performance models. Using this approach, we are able to speedup the exploration
+                     of the space by a factor 2000<em>x</em> on an AMD GPU and 450<em>x</em> on Nvidia on average across many stencil applications.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3366428.3380767">GPGPU performance estimation for frequency scaling using cross-benchmarking</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Qiang Wang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Dynamic Voltage and Frequency Scaling (D VFS) on General-Purpose Graphics Processing
+                     Units (GPGPUs) is now becoming one of the most significant techniques to balance computational
+                     performance and energy consumption. However, there are still few fast and accurate
+                     models for predicting GPU kernel execution time under different core and memory frequency
+                     settings, which is important to determine the best frequency configuration for energy
+                     saving. Accordingly, a novel GPGPU performance estimation model with both core and
+                     memory frequency scaling is herein proposed. We design a cross-benchmarking suite,
+                     which simulates kernels with a wide range of instruction distributions. The synthetic
+                     kernels generated by this suite can be used for model pre-training or as supplementary
+                     training samples. Then we apply two different machine learning algorithms, Support
+                     Vector Regression (SVR) and Gradient Boosting Decision Tree (GBDT), to study the correlation
+                     between kernel performance counters and kernel performance. The models trained only
+                     with our cross-benchmarking suite achieve satisfying accuracy (16%~22% mean absolute
+                     error) on 24 unseen real application kernels. Validated on three modern GPUs with
+                     a wide frequency scaling range, by using a collection of 24 real application kernels,
+                     the proposed model is able to achieve accurate results (5.1%, 2.8%, 6.5% mean absolute
+                     error) for the target GPUs (GTX 980, Titan X Pascal and Tesla P100).
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3366428.3380771">Automatic generation of specialized direct convolutions for mobile GPUs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Naums Mogers</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Convolutional Neural Networks (CNNs) are a powerful and versatile tool for performing
+                     computer vision tasks in both resource constrained settings and server-side applications.
+                     Most GPU hardware vendors provide highly tuned libraries for CNNs such as Nvidia's
+                     cuDNN or ARM Compute Library. Such libraries are the basis for higher-level, commonly-used,
+                     machine-learning frameworks such as PyTorch or Caffe, abstracting them away from vendor-specific
+                     implementation details. However, writing optimized parallel code for GPUs is far from
+                     trivial. This places a significant burden on hardware-specific library writers which
+                     have to continually play catch-up with rapid hardware and network evolution.
+                  </p> 
+                  <p>To reduce effort and reduce time to market, new approaches are needed based on automatic
+                     code generation, rather than manual implementation. This paper describes such an approach
+                     for direct convolutions using Lift, a new data-parallel intermediate language and
+                     compiler. Lift uses a high-level intermediate language to express algorithms which
+                     are then automatically optimized using a system of rewrite-rules. Direct convolution,
+                     as opposed to the matrix multiplication approach used commonly by machine-learning
+                     frameworks, uses an order of magnitude less memory, which is critical for mobile devices.
+                     Using Lift, we show that it is possible to generate automatically code that is X10
+                     faster than the direct convolution while using X3.6 less space than the GEMM-based
+                     convolution of the very specialized ARM Compute Library on the latest generation of
+                     ARM Mali GPU.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3366428.3380772">Custom code generation for a graph DSL</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Bikash Gogoi</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We present challenges faced in making a domain-specific language (DSL) for graph algorithms
+                     adapt to varying requirements of generating a spectrum of efficient parallel codes.
+                     Graph algorithms are at the heart of several applications, and achieving high performance
+                     on graph applications has become critical due to the tremendous growth of irregular
+                     data. However, irregular algorithms are quite challenging to auto-parallelize, due
+                     to access patterns influenced by the input graph - which is unavailable until execution.
+                     Former research has addressed this issue by designing DSLs for graph algorithms, which
+                     restrict generality but allow efficient codegeneration for various backends. Such
+                     DSLs are, however, too rigid, and do not adapt to changes. For instance, these DSLs
+                     are incapable of changing the way of processing if the underlying graph changes. As
+                     another instance, most of the DSLs do not support more than one backends. We narrate
+                     our experiences in making an existing DSL, named Falcon, adaptive. The biggest challenge
+                     in the process is to retain the DSL code for specifying the underlying algorithm,
+                     and still generate different backend codes. We illustrate the effectiveness of our
+                     proposal by auto-generating codes for vertex-based versus edge-based graph processing,
+                     synchronous versus asynchronous execution, and CPU versus GPU backends from the same
+                     specification.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3366428.3380768">Automated test generation for OpenCL kernels using fuzzing and constraint solving</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Chao Peng</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Graphics Processing Units (GPUs) are massively parallel processors offering performance
+                     acceleration and energy efficiency unmatched by current processors (CPUs) in computers.
+                     These advantages along with recent advances in the programmability of GPUs have made
+                     them attractive for general-purpose computations. Despite the advances in programmability,
+                     GPU kernels are hard to code and analyse due to the high complexity of memory sharing
+                     patterns, striding patterns for memory accesses, implicit synchronisation, and combinatorial
+                     explosion of thread interleavings. Existing few techniques for testing GPU kernels
+                     use symbolic execution for test generation that incur a high overhead, have limited
+                     scalability and do not handle all data types.
+                  </p> 
+                  <p>We propose a test generation technique for OpenCL kernels that combines mutation-based
+                     fuzzing and selective constraint solving with the goal of being fast, effective and
+                     scalable. Fuzz testing for GPU kernels has not been explored previously. Our approach
+                     for fuzz testing randomly mutates input kernel argument values with the goal of increasing
+                     branch coverage. When fuzz testing is unable to increase branch coverage with random
+                     mutations, we gather path constraints for uncovered branch conditions and invoke the
+                     Z3 constraint solver to generate tests for them.
+                  </p> 
+                  <p>In addition to the test generator, we also present a schedule amplifier that simulates
+                     multiple work-group schedules, with which to execute each of the generated tests.
+                     The schedule amplifier is designed to help uncover inter work-group data races. We
+                     evaluate the effectiveness of the generated tests and schedule amplifier using 217
+                     kernels from open source projects and industry standard benchmark suites measuring
+                     branch coverage and fault finding. We find our test generation technique achieves
+                     close to 100% coverage and mutation score for majority of the kernels. Overhead incurred
+                     in test generation is small (average of 0.8 seconds). We also confirmed our technique
+                     scales easily to large kernels, and can support all OpenCL data types, including complex
+                     data structures.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+         </div>
+      </div>
+   </body>
+</html>

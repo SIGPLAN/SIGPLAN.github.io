@@ -1,0 +1,690 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>CC 2020: Proceedings of the 29th International Conference on Compiler Construction</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>CC 2020: Proceedings of the 29th International Conference on Compiler Construction</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3377555"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Optimizations</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3377555.3377890">Vectorization-aware loop unrolling with seed forwarding</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Rodrigo C. O. Rocha</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Loop unrolling is a widely adopted loop transformation, commonly used for enabling
+                     subsequent optimizations. Straight-line-code vectorization (SLP) is an optimization
+                     that benefits from unrolling. SLP converts isomorphic instruction sequences into vector
+                     code. Since unrolling generates repeatead isomorphic instruction sequences, it enables
+                     SLP to vectorize more code. However, most production compilers apply these optimizations
+                     independently and uncoordinated. Unrolling is commonly tuned to avoid code bloat,
+                     not maximizing the potential for vectorization, leading to missed vectorization opportunities.
+                     
+                  </p> 
+                  <p>We are proposing VALU, a novel loop unrolling heuristic that takes vectorization into
+                     account when making unrolling decisions. Our heuristic is powered by an analysis that
+                     estimates the potential benefit of SLP vectorization for the unrolled version of the
+                     loop. Our heuristic then selects the unrolling factor that maximizes the utilization
+                     of the vector units. VALU also forwards the vectorizable code to SLP, allowing it
+                     to bypass its greedy search for vectorizable seed instructions, exposing more vectorization
+                     opportunities. 
+                  </p> 
+                  <p>Our evaluation on a production compiler shows that VALU uncovers many vectorization
+                     opportunities that were missed by the default loop unroller and vectorizers. This
+                     results in more vectorized code and significant performance speedups for 17 of the
+                     kernels of the TSVC benchmarks suite, reaching up to 2× speedup over the already highly
+                     optimized -O3. Our evaluation on full benchmarks from FreeBench and MiBench shows
+                     that VALU results in a geo-mean speedup of 1.06×.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3377555.3377897">Secure delivery of program properties through optimizing compilation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Son Tuan Vu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Annotations and assertions capturing static program properties are ubiquitous, from
+                     robust software engineering to safety-critical or secure code. These may be functional
+                     or non-functional properties of control and data flow, memory usage, I/O and real
+                     time. We propose an approach to encode, translate, and preserve the semantics of both
+                     functional and non-functional properties along the optimizing compilation of C to
+                     machine code. The approach involves (1) capturing and translating source-level properties
+                     through lowering passes and intermediate representations, such that data and control
+                     flow optimizations will preserve their consistency with the transformed program, and
+                     (2) carrying properties and their translation as debug information down to machine
+                     code. Our experiments using LLVM validate the soundness, expressiveness and efficiency
+                     of the approach, considering a reference suite of functional properties as well as
+                     established security properties and applications hardened against side-channel attacks.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3377555.3377902">Mix your contexts well: opportunities unleashed by recent advances in scaling context-sensitivity</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Manas Thakur</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Existing precise context-sensitive heap analyses do not scale well for large OO programs.
+                     Further, identifying the right context abstraction becomes quite intriguing as two
+                     of the most popular categories of context abstractions (call-site- and object-sensitive)
+                     lead to theoretically incomparable precision. In this paper, we address this problem
+                     by first doing a detailed comparative study (in terms of precision and efficiency)
+                     of the existing approaches, both with and without heap cloning. In addition, we propose
+                     novel context abstractions that lead to a new sweet-spot in the arena. 
+                  </p> 
+                  <p>We first enhance the precision of level-summarized relevant value (LSRV) contexts
+                     (a highly scalable abstraction with precision matching that of call-site-sensitivity)
+                     using heap cloning. Then, motivated by the resultant scalability, we propose the idea
+                     of mixing various context abstractions, and add the advantages of <em>k</em>-object-sensitive analyses to LSRV contexts, in an efficient manner. The resultant
+                     context abstraction, which we call <em>lsrvkobjH</em>, also leads to a novel connection between the two broad variants of otherwise incomparable
+                     context-sensitive analyses. Our evaluation shows that the newer proposals not only
+                     enhance the precision of both LSRV contexts and object-sensitive analyses (to perform
+                     control-flow analysis of Java programs), but also scale well to large programs.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3377555.3377885">Scalable pointer analysis of data structures using semantic models</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Pratik Fegade</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Pointer analysis is widely used as a base for different kinds of static analyses and
+                     compiler optimizations. Designing a scalable pointer analysis with acceptable precision
+                     for use in production compilers is still an open question. Modern object oriented
+                     languages like Java and Scala promote abstractions and code reuse, both of which make
+                     it difficult to achieve precision. Collection data structures are an example of a
+                     pervasively used component in such languages. But analyzing collection implementations
+                     with full context sensitivity leads to prohibitively long analysis times. 
+                  </p> 
+                  <p>We use <em>semantic models</em> to reduce the complex internal implementation of, e.g., a collection to a small and
+                     concise model. Analyzing the model with context sensitivity leads to precise results
+                     with only a modest increase in analysis time. The models must be written manually,
+                     which is feasible because a model method usually consists of only a few statements.
+                     Our implementation in GraalVM Native Image shows a rise in useful precision (1.35X
+                     rise in the number of checkcast statements that can be elided over the default analysis
+                     configuration) with a manageable performance cost (19% rise in analysis time).
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Techniques for Specific Domains</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3377555.3377887">A study of event frequency profiling with differential privacy</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Hailong Zhang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Program profiling is widely used to measure run-time execution properties---for example,
+                     the frequency of method and statement execution. Such profiling could be applied to
+                     deployed software to gain performance insights about the behavior of many instances
+                     of the analyzed software. However, such data gathering raises privacy concerns: for
+                     example, it reveals whether (and how often) a software user accesses a particular
+                     software functionality. There is growing interest in adding privacy protections for
+                     many categories of data analyses, but such techniques have not been studied sufficiently
+                     for program event profiling. 
+                  </p> 
+                  <p> We propose the design of privacy-preserving event frequency profiling for deployed
+                     software. Each instance of the targeted software gathers its own event frequency profile
+                     and then randomizes it. The resulting noisy data has well-defined privacy properties,
+                     characterized via the powerful machinery of differential privacy. After gathering
+                     this data from many software instances, the profiling infrastructure computes estimates
+                     of population-wide frequencies while adjusting for the effects of the randomization.
+                     The approach employs static analysis to determine constraints that must hold in all
+                     valid run-time profiles, and uses quadratic programming to reduce the error of the
+                     estimates under these constraints. Our experiments study different choices for randomization
+                     and the resulting effects on the accuracy of frequency estimates. Our conclusion is
+                     that well-designed solutions can achieve both high accuracy and principled privacy-by-design
+                     for the fundamental problem of event frequency profiling.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3377555.3377892">Improving database query performance with automatic fusion</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Hanfeng Chen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Array-based programming languages have shown significant promise for improving performance
+                     of column-based in-memory database systems, allowing elegant representation of query
+                     execution plans that are also amenable to standard compiler optimization techniques.
+                     Use of loop fusion, however, is not straightforward, due to the complexity of built-in
+                     functions for implementing complex database operators. In this work, we apply a compiler
+                     approach to optimize SQL query execution plans that are expressed in an array-based
+                     intermediate representation. We analyze this code to determine shape properties of
+                     the data being processed, and use a subsequent optimization phase to fuse multiple
+                     database operators into single, compound operations, reducing the need for separate
+                     computation and storage of intermediate values. Experimental results on a range of
+                     TPC-H queries show that our fusion technique is effective in generating efficient
+                     code, improving query time over a baseline system.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3377555.3377900">Robust quantization of deep neural networks</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Youngseok Kim</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We studied robust quantization of deep neural networks (DNNs) for embedded devices.
+                     Existing compression techniques often generate DNNs that are sensitive to external
+                     errors. Because embedded devices may be affected by external lights and outside weather,
+                     DNNs running on those devices must be robust to such errors. For robust quantization
+                     of DNNs, we formulate an optimization problem that finds the bit width for each layer
+                     minimizing the robustness loss. To efficiently find the solution, we design a dynamic
+                     programming based algorithm, called Qed. We also propose an incremental algorithm,
+                     Q* that quickly finds a reasonably robust quantization and then gradually improves
+                     it. We have evaluated Qed and Q* with three DNN models (LeNet, AlexNet, and VGG-16)
+                     and with Gaussian random errors and realistic errors. For comparison, we also evaluate
+                     universal quantization that uses equal bit width for all layers and Deep Compression,
+                     a weight-sharing based compression technique. When tested with increasing size of
+                     errors, Qed most robustly gives correct inference output. Even if a DNN is optimized
+                     for robustness, its quantizations may not be robust unless Qed is used. Moreover,
+                     we evaluate Q* for its trade off in execution time and robustness. In one tenth of
+                     Qed’s execution time, Q* gives a quantization 98% as robust as the one by Qed.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3377555.3377896">Generating fast sparse matrix vector multiplication from a high level generic functional
+                  IR</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Federico Pizzuti</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Usage of high-level intermediate representations promises the generation of fast code
+                     from a high-level description, improving the productivity of developers while achieving
+                     the performance traditionally only reached with low-level programming approaches.
+                     
+                  </p> 
+                  <p>High-level IRs come in two flavors: 1) domain-specific IRs designed only for a specific
+                     application area; or 2) generic high-level IRs that can be used to generate high-performance
+                     code across many domains. Developing generic IRs is more challenging but offers the
+                     advantage of reusing a common compiler infrastructure across various applications.
+                     
+                  </p> 
+                  <p>In this paper, we extend a generic high-level IR to enable efficient computation with
+                     sparse data structures. Crucially, we encode sparse representation using reusable
+                     dense building blocks already present in the high-level IR. We use a form of dependent
+                     types to model sparse matrices in CSR format by expressing the relationship between
+                     multiple dense arrays explicitly separately storing the length of rows, the column
+                     indices, and the non-zero values of the matrix. 
+                  </p> 
+                  <p>We achieve high-performance compared to sparse low-level library code using our extended
+                     generic high-level code generator. On an Nvidia GPU, we outperform the highly tuned
+                     Nvidia cuSparse implementation of spmv multiplication across 28 sparse matrices of
+                     varying sparsity on average by 1.7×.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Runtime Techniques</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3377555.3377886">Runtime multi-versioning and specialization inside a memoized speculative loop optimizer</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Raquel Lazcano</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In this paper, we propose a runtime framework that implements code multi-versioning
+                     and specialization to optimize and parallelize loop kernels that are invoked many
+                     times with varying parameters. These parameters may influence the code structure,
+                     the touched memory locations, the workload, and the runtime performance. They may
+                     also impact the validity of the parallelizing and optimizing polyhedral transformations
+                     that are applied on-the-fly. 
+                  </p> 
+                  <p> For a target loop kernel and its associated parameters, a different optimizing and
+                     parallelizing transformation is evaluated at each invocation, among a finite set of
+                     transformations (multi-versioning and specialization). The best performing transformed
+                     code version is stored and indexed using its associated parameters. When every optimizing
+                     transformation has been evaluated, the best performing code version regarding the
+                     current parameters, which has been stored, is relaunched at next invocations (memoization).
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3377555.3377888">Dynamic property caches: a step towards faster JavaScript proxy objects</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Manuel Serrano</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Inline caches and hidden classes are two essential components for closing the performance
+                     gap between static languages such as Java, Scheme, or ML and dynamic languages such
+                     as JavaScript or Python. They rely on the observation that for a particular object
+                     access located at a particular point of the program, the shapes, usually referred
+                     to as <em>the hidden classes</em>, of accessed objects are likely to be the same. Taking benefit of that invariant,
+                     they replace the expensive lookup the semantics of these languages normally demand
+                     with one test, the <em>inline cache</em>, and a memory read indexed by an offset computed during the last cache miss. These
+                     optimizations are essential but they are not general enough to cope with JavaScript’s
+                     proxies. In particular, when the property name is itself unknown statically, inline
+                     cache-based optimizations always take a slow path. 
+                  </p> 
+                  <p>In this paper, we show how to generalize inline caches to cope with an unknown property
+                     name. The paper first discusses the general principle of the extension and then presents
+                     the experimental results we collected using a modified version of the Hop JavaScript
+                     compiler, demonstrating how the optimization is crucial for improving the performance
+                     of proxy objects (as they naturally use dynamic property names extensively). The evaluation
+                     report shows that the modified Hop outperforms all other implementations of the language,
+                     including the most efficient commercial ones, by a factor ranging from 2× to 100×.
+                     Even better, our optimizations are applicable to existing compilers as they require
+                     only straightforward changes to runtime data structures; no complex analyses are required.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3377555.3377891">Mixed-data-model heterogeneous compilation and OpenMP offloading</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Andreas Kurth</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Heterogeneous computers combine a general-purpose host processor with domain-specific
+                     programmable many-core accelerators, uniting high versatility with high performance
+                     and energy efficiency. While the host manages ever-more application memory, accelerators
+                     are designed to work mainly on their local memory. This difference in addressed memory
+                     leads to a discrepancy between the optimal address width of the host and the accelerator.
+                     Today 64-bit host processors are commonplace, but few accelerators exceed 32-bit addressable
+                     local memory, a difference expected to increase with 128-bit hosts in the exascale
+                     era. Managing this discrepancy requires support for multiple data models in heterogeneous
+                     compilers. So far, compiler support for multiple data models has not been explored,
+                     which hampers the programmability of such systems and inhibits their adoption. 
+                  </p> 
+                  <p> In this work, we perform the first exploration of the feasibility and performance
+                     of implementing a mixed-data-model heterogeneous system. To support this, we present
+                     and evaluate the first mixed-data-model compiler, supporting arbitrary address widths
+                     on host and accelerator. To hide the inherent complexity and to enable high programmer
+                     productivity, we implement transparent offloading on top of OpenMP. The proposed compiler
+                     techniques are implemented in LLVM and evaluated on a 64+32-bit heterogeneous SoC.
+                     Results on benchmarks from the PolyBench-ACC suite show that memory can be transparently
+                     shared between host and accelerator at overheads below 0.7% compared to 32-bit-only
+                     execution, enabling mixed-data-model computers to execute at near-native performance.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3377555.3377895">Balancing performance and productivity for the development of dynamic binary instrumentation
+                  tools: a case study on Arm systems</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Cosmin Gorgovan</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Dynamic Binary Instrumentation (DBI) is a well-established approach for analysing
+                     the execution of applications at the level of machine code. DBI frameworks implement
+                     a runtime system capable of modifying running applications without access to their
+                     source code. These frameworks provide APIs used by DBI tools to plug in their specific
+                     analysis and instrumentation routines. However, the dynamic instrumentation needed
+                     by these DBI tools is either challenging to implement, and/or introduces a significant
+                     performance overhead. 
+                  </p> 
+                  <p> An added complexity beyond the well studied scenario of x86 and x86-64, is that state-of-the-art
+                     Arm systems (i.e. Arm v8) introduced a distinct 64-bit execution mode with a new redesigned
+                     instruction set. Thus, Arm v8 is a computer architecture which contains three instruction
+                     sets. This further complicates the development of DBI tools which can work for both
+                     32-bit Arm (includes the A32 and T32 instruction sets), and 64-bit (the A64 instruction
+                     set). 
+                  </p> 
+                  <p> This paper presents the design of a novel DBI framework API that provides support
+                     both for portable (across A32, T32 and A64), and for native-code-level analysis and
+                     instrumentation, which can be intermixed freely. This API allows DBI tool developers
+                     to balance performance and productivity at a fine-grain level. The API is implemented
+                     on top of the MAMBO DBI system.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Novel Language Constructs</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3377555.3377889">Compiling first-order functions to session-typed parallel code</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">David Castro-Perez</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Building correct and efficient message-passing parallel programs still poses many
+                     challenges. The incorrect use of message-passing constructs can introduce deadlocks,
+                     and a bad task decomposition will not achieve good speedups. Current approaches focus
+                     either on correctness or efficiency, but limited work has been done on ensuring both.
+                     In this paper, we propose a new parallel programming framework, PAlg, which is a first-order
+                     language with participant annotations that ensures deadlock-freedom by construction.
+                     PAlg programs are coupled with an abstraction of their communication structure, a
+                     global type from the theory of multiparty session types (MPST). This global type serves
+                     as an output for the programmer to assess the efficiency of their achieved parallelisation.
+                     PAlg is implemented as an EDSL in Haskell, from which we: 1. compile to low-level
+                     message-passing C code; 2. compile to sequential C code, or interpret as sequential
+                     Haskell functions; and, 3. infer the communication protocol followed by the compiled
+                     message-passing program. We use the properties of global types to perform message
+                     reordering optimisations to the compiled C code. We prove the extensional equivalence
+                     of the compiled code, as well as protocol compliance. We achieve linear speedups on
+                     a shared-memory 12-core machine, and a speedup of 16 on a 2-node, 24-core NUMA.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3377555.3377898">Is stateful packrat parsing really linear in practice? a counter-example, an improved
+                  grammar, and its parsing algorithms</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Nariyoshi Chida</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Stateful packrat parsing is an algorithm for parsing syntaxes that have context-sensitive
+                     features. It is a well-known knowledge among researchers that the running time of
+                     stateful packrat parsing is linear for real-world grammars, as demonstrated in existing
+                     studies. However, we have found the cases in real-world grammars and tools that lead
+                     its running time to become exponential. 
+                  </p> 
+                  <p>This paper proposes a new grammar, <em>parsing expression grammar with variable bindings</em>, and two parsing algorithms for the grammar, <em>stateful packrat parsing with selected global states</em> and <em>stateful packrat parsing with conditional memoization</em>. Our proposal overcomes the exponential behavior that appears in parsers and guarantees
+                     polynomial running time. The key idea behind our algorithms is to memoize the information
+                     relevant to the use of the global states in order to avoid memoizing the full global
+                     states. We implemented our algorithms as a parser generator and evaluated them on
+                     real-world grammars. Our evaluation shows that our algorithms significantly outperform
+                     an existing stateful packrat parsing algorithm in terms of both running time and space
+                     consumption. In particular, stateful packrat parsing with conditional memoization
+                     improves the running time and space consumption for malicious inputs that lead to
+                     exponential behavior with the existing algorithm by 260x and 217x, respectively, compared
+                     to the existing algorithm.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3377555.3377899">Bitwidth customization in image processing pipelines using interval analysis and SMT
+                  solvers</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Suresh Purini</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Unlike CPUs and GPUs, it is possible to use custom fixed-point data types, specified
+                     as a tuple (α, β), on FPGAs. The parameters α and β denote the number of integral
+                     and fractional bitwidths respectively. The power and area savings while performing
+                     arithmetic operations on fixed-point data types are well known to be significant over
+                     using floating-point data types. 
+                  </p> 
+                  <p>In this paper, we propose a hybrid approach involving interval analysis and SMT solvers,
+                     for estimating integral bitwidths at different compute stages, in an image processing
+                     pipeline, specified using a domain-specific language (DSL) such as PolyMage. The DSL
+                     specification facilitates the compiler analysis to infer the underlying computational
+                     structure with ease. We also propose a simple and practical profile-driven greedy
+                     heuristic search technique for fractional bitwidth analysis. Using the Horn-Schunck
+                     Optical Flow benchmark program, we demonstrate where the conventional range analysis
+                     approaches fail, and how we overcome them using the hybrid technique proposed in this
+                     paper. The integral bitwidth estimates provided by the hybrid technique on the optical
+                     flow benchmark are up to 3x times better when compared with interval analysis.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3377555.3377893">Automatically harnessing sparse acceleration</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Philip Ginsbach</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Sparse linear algebra is central to many scientific programs, yet compilers fail to
+                     optimize it well. High-performance libraries are available, but adoption costs are
+                     significant. Moreover, libraries tie programs into vendor-specific software and hardware
+                     ecosystems, creating non-portable code. 
+                  </p> 
+                  <p>In this paper, we develop a new approach based on our <em>specification Language for implementers of Linear Algebra Computations</em> (LiLAC). Rather than requiring the application developer to (re)write every program
+                     for a given library, the burden is shifted to a <em>one-off</em> description by the library implementer. The LiLAC-enabled compiler uses this to insert
+                     appropriate library routines without source code changes. 
+                  </p> 
+                  <p>LiLAC provides automatic data marshaling, maintaining state between calls and minimizing
+                     data transfers. Appropriate places for library insertion are detected in compiler
+                     intermediate representation, independent of source languages. 
+                  </p> 
+                  <p>We evaluated on large-scale scientific applications written in FORTRAN; standard C/C++
+                     and FORTRAN benchmarks; and C++ graph analytics kernels. Across heterogeneous platforms,
+                     applications and data sets we show speedups of 1.1×to over 10×without user intervention.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Graphs and More</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3377555.3377884">Postcondition-preserving fusion of postorder tree transformations</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Eleanor Davies</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Tree transformations are common in applications such as program rewriting in compilers.
+                     Using a series of simple transformations to build a more complex system can make the
+                     resulting software easier to understand, maintain, and reason about. Fusion strategies
+                     for combining such successive tree transformations promote this modularity, whilst
+                     mitigating the performance impact from increased numbers of tree traversals. However,
+                     it is important to ensure that fused transformations still perform their intended
+                     tasks. Existing approaches to fusing tree transformations tend to take an informal
+                     approach to soundness, or be too restrictive to consider the kind of transformations
+                     needed in a compiler. We use postconditions to define a more useful formal notion
+                     of successful fusion, namely postcondition-preserving fusion. We also present criteria
+                     that are sufficient to ensure postcondition-preservation and facilitate modular reasoning
+                     about the success of fusion.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3377555.3377894">Compiler-based graph representations for deep learning models of code</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Alexander Brauckmann</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In natural language processing, novel methods in deep learning, like recurrent neural
+                     networks (RNNs) on sequences of words, have been very successful. In contrast to natural
+                     languages, programming languages usually have a well-defined structure. With this
+                     structure compilers can reason about programs, using graphs such as abstract syntax
+                     trees (ASTs) or control-data flow graphs (CDFGs). In this paper, we argue that we
+                     should use these graph structures instead of sequences for learning compiler optimization
+                     tasks. To this end, we use graph neural networks (GNNs) for learning predictive compiler
+                     tasks on two representations based on ASTs and CDFGs. Experiments show that this improves
+                     upon the state-of-the-art in the task of heterogeneous OpenCL mapping, while providing
+                     orders of magnitude faster inference times, crucial for compiler optimizations. When
+                     testing on benchmark suites not included for training, our AST-based model significantly
+                     outperforms the state-of-the-art by over 12 percentage points in terms of accuracy.
+                     It is the only one to perform clearly better than a random mapping. On the task of
+                     predicting thread coarsening factors, we show that all of the methods fail to produce
+                     an overall speedup.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3377555.3377901">Relaxing the one definition rule in interpreted C++</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Javier López-Gómez</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Most implementations of the C++ programming language generate binary executable code.
+                     However, interpreted execution of C++ sources has its own use cases as the Cling interpreter
+                     from CERN's ROOT project has shown. Some limitations are derived from the ODR (One
+                     Definition Rule) that rules out multiple definitions of entities within a single translation
+                     unit (TU). ODR is there to ensure uniform view of a given C++ entity across translation
+                     units. Ensuring uniform view of C++ entities helps when producing ABI compatible binaries.
+                     Interpreting C++ presumes a single ever-growing translation unit that define away
+                     some of the ODR use-cases. Therefore, it may well be desirable to relax the ODR and,
+                     consequently, to support the ability of developers to override any existing definition
+                     for a given declaration. This approach is especially well-suited for iterative prototyping.
+                     In this paper, we extend Cling, a Clang/LLVM-based C++ interpreter, to enable redefinitions
+                     of C++ entities at the prompt. To achieve this, top-level declarations are nested
+                     into inline namespaces and the translation unit lookup table is adjusted to invalidate
+                     previous definitions that would otherwise result in ambiguities. Formally, this technique
+                     refactors the code to an equivalent that does not violate the ODR, as each definition
+                     is nested in a different namespace. Furthermore, any previous definition that has
+                     been shadowed is still accessible by means of its fully-qualified name. A prototype
+                     implementation of the presented technique has been integrated into the Cling C++ interpreter,
+                     showing that our technique is feasible and usable.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+         </div>
+      </div>
+   </body>
+</html>

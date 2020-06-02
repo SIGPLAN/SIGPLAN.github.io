@@ -1,0 +1,556 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>VEE '20: Proceedings of the 16th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution
+         Environments
+      </title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>VEE '20: Proceedings of the 16th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution
+               Environments
+            </h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3381052"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381052.3381318">GCPersist: an efficient GC-assisted lazy persistency framework for resilient Java applications
+                  on NVM</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Mingyu Wu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The emergence of non-volatile memory (NVM) has stimulated broad interests in building
+                     efficient and persistent systems and programming models. However, most prior work
+                     is built atop an <em>eager persistency model</em>, which mandates applications to persist their data as soon as possible and thus causes
+                     considerable overhead. Besides, prior work mainly focuses on native languages and
+                     overlooks the interactions with the managed runtime system in a high-level language.
+                     Such issues limit the scope of applications on NVM, especially for resilient applications
+                     that already have reliable but inefficient recovery mechanisms. This paper proposes
+                     <em>GCPersist</em>, an easy-to-use NVM programming framework atop a <em>lazy persistency model</em> to defer the persistency of user data for better performance, with the assistance
+                     of the garbage collection (GC) module in the managed runtime. GCPersist further provides
+                     differentiated persistency modes to reduce the runtime overhead. We have implemented
+                     <em>GCPersist</em> on the HotSpot JVM of OpenJDK and the evaluation results on Intel Optane DC persistent
+                     memory devices show that <em>GCPersist</em> performs well with resilient applications (like Spark) by reducing the recovery time
+                     by up to 3.26X while introducing only 1--6% runtime overhead during normal execution.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381052.3381320">Deconstructing the garbage-first collector</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Wenyu Zhao</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Garbage-First is among today's most widely used garbage collectors. It is used in
+                     the HotSpot and OpenJDK virtual machines, and shares algorithmic foundations with
+                     three other important contemporary collectors: Shenandoah, C4, and ZGC. However, the
+                     design of the core algorithms and the performance tradeoffs they manifest have not
+                     been carefully analyzed in the literature. In this work, we deconstruct the G1 algorithm
+                     and re-implement it from first principles. We retrospectively develop a concurrent,
+                     region-based evacuating collector, CRE, which captures the principal design elements
+                     shared by G1, Shenandoah, C4, and ZGC. We then evaluate the impact of each of the
+                     major elements of G1 on performance, including pause time, remembered set footprint
+                     and barrier overheads. We find that G1's concurrent marking and generational collection
+                     reduces the 95-percentile GC pauses by 64% and 93% respectively. We find that the
+                     space overhead of G1's remembered sets is very low, typically under 1%. We also independently
+                     measure the barriers used by G1 and find that they have an overhead of around 12%
+                     with respect to total performance. This analysis gives users and collector designers
+                     insights into the garbage-first collector and the other fixed-size region-based concurrent
+                     evacuating collectors, which we hope will lead to better use of the collectors and
+                     provoke future improvements.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381052.3381324">GiantVM: a type-II hypervisor implementing many-to-one virtualization</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Jin Zhang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In recent years, since scale-up machines are not economical and may not be affordable
+                     for small businesses, scale-out has become the standard answer to data analysis, machine
+                     learning, and many other fields. However, these frameworks introduce complex programming
+                     models that put a burden on developers. Therefore, Single System Image (SSI), which
+                     means a cluster of machines that appears to be one single system, has been proposed
+                     to hide the complexity of distributed systems. Unfortunately, due to the mature ecosystem
+                     of current mainstream Operating Systems (OSes), it might be non-trivial and even unaffordable
+                     to modify the current OS to implement SSI. With the wide use of virtualization, we
+                     believe that it is appealing to support SSI at the hypervisor, without modifying guest
+                     OSes.
+                  </p> 
+                  <p>This paper presents GiantVM, an open-source distributed hypervisor that provides the
+                     many-to-one virtualization to aggregate resources from multiple physical machines,
+                     as well as providing a uniform hardware abstraction for guest OS. GiantVM combines
+                     the benefits of scale-up and scale-out solutions, which means unmodified applications
+                     are able to run with a huge amount of physical resources. Furthermore, GiantVM leverages
+                     distributed shared memory to achieve aggregation of memory. We also propose techniques
+                     to deal with the challenges of CPU and I/O virtualization in distributed environments.
+                     We have implemented GiantVM based on a state-of-the-art type-II hypervisor QEMU-KVM,
+                     and it can currently host conventional OSes such as Linux. Evaluations identify the
+                     performance bottleneck and show that GiantVM outperforms Spark by up to 3.4X with
+                     two text-processing programs.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381052.3381317">Directvisor: virtualization for bare-metal cloud</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Kevin Cheng</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Bare-metal cloud platforms allow customers to rent remote physical servers and install
+                     their preferred operating systems and software to make the best of servers' raw hardware
+                     capabilities. However, this quest for bare-metal performance compromises cloud manageability.
+                     To avoid overheads, cloud operators cannot install traditional hypervisors that provide
+                     common manageability functions such as live migration and introspection. We aim to
+                     bridge this gap between performance, isolation, and manageability for bare-metal clouds.
+                     Traditional hypervisors are designed to limit and emulate hardware access by virtual
+                     machines (VM). In contrast, we propose Directvisor - a hypervisor that maximizes a
+                     VM's ability to directly access hardware for near-native performance, yet retains
+                     hardware control and manageability. Directvisor goes beyond traditional direct-assigned
+                     (pass-through) I/O devices by allowing VMs to directly control and receive hardware
+                     timer interrupts and inter-processor interrupts (IPIs) besides eliminating most VM
+                     exits. At the same time, Directvisor supports seamless (low-downtime) live migration
+                     and introspection for such VMs having direct hardware access.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381052.3381323">Obtaining hard real-time performance and rich Linux features in a compounded real-time
+                  operating system by a partitioning hypervisor</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Chung-Fan Yang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In this study, we describe obtaining hard real-time performance and rich Linux features
+                     together in a compounded real-time operating system (cRTOS). This system creates two
+                     realms with a partitioning hypervisor: a normal realm of Linux and a hard real-time
+                     realm of a swift RTOS (sRTOS). A rich real-time process running in the real-time realm
+                     can use not only the hard real-time performance of the RTOS but also the rich features
+                     of Linux through remote system calls. Unlike existing approaches for real-time Linux
+                     including the PREEMPT_RT patch and using interrupt-dispatching layers, this approach
+                     requires no modifications to Linux.
+                  </p> 
+                  <p>We implemented the cRTOS by running Nuttx, a POSIX-compliant RTOS as an sRTOS and
+                     Jailhouse as the partitioning hypervisor. We ported base Nuttx to the x86-64 architecture
+                     and added support for multiple address spaces with MMU. This allows developers of
+                     rich real-time applications to use the same toolchains and executables with Linux,
+                     which reduces the cost and complexity of developing real-time applications.
+                  </p> 
+                  <p>We measured the timing accuracy and interrupt latency of the proposed cRTOS and other
+                     existing systems, the PREEMPT_RT patched Linux and Xenomai 3. The experimental results
+                     show that the proposed cRTOS could deliver a hard real-time performance with about
+                     4 μs jitter and well bounded maximum latency, while the others could not. The experimental
+                     results also show that the proposed cRTOS with a real-time device yielded the best
+                     interrupt response in both latency and jitter. The RTOS could execute complex Linux
+                     executables with graphical user interfaces through the X window system.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381052.3381321">Edge computing: the case for heterogeneous-ISA container migration</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Antonio Barbalace</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Edge computing is a recent computing paradigm that brings cloud services closer to
+                     the client. Among other features, edge computing offers extremely low client/server
+                     latencies. To consistently provide such low latencies, services need to run on edge
+                     nodes that are physically as close as possible to their clients. Thus, when a client
+                     changes its physical location, a service should migrate between edge nodes to maintain
+                     proximity. Differently from cloud nodes, edge nodes are built with CPUs of different
+                     Instruction Set Architectures (ISAs), hence a server program natively compiled for
+                     one ISA cannot migrate to another. This hinders migration to the closest node.
+                  </p> 
+                  <p>We introduce H-Container, which migrates natively-compiled containerized applications
+                     across compute nodes featuring CPUs of different ISAs. H-Container advances over existing
+                     heterogeneous-ISA migration systems by being a) highly compatible - no source code
+                     nor compiler toolchain modifications are needed; b) easily deployable - fully implemented
+                     in user space, thus without any OS or hypervisor dependency, and c) largely Linux
+                     compliant - can migrate most Linux software, including server applications and dynamically
+                     linked binaries. H-Container targets Linux, adopts LLVM, extends CRIU, and integrates
+                     with Docker. Experiments demonstrate that H-Container adds no overhead on average
+                     during program execution, while between 10<em>ms</em> and 100<em>ms</em> are added during migration. Furthermore, we show the benefits of H-Container in real
+                     scenarios, proving for example up to 94% increase in Redis throughput when unlocking
+                     heterogeneity.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381052.3381325">TruffleWasm: a WebAssembly interpreter on GraalVM</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Salim S. Salim</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>WebAssembly is a binary format originally designed for web-based deployment and execution
+                     combined with JavaScript. WebAssembly can also be used for standalone programs provided
+                     a WebAssembly runtime environment is available.
+                  </p> 
+                  <p>This paper describes the design and implementation of <em>TruffleWasm</em>, a <em>guest</em> language implementation of a WebAssembly hosted on Truffle and GraalVM. Truffle is
+                     a Java framework capable of constructing and interpreting an <em>Abstract Syntax Tree (AST)</em> representing a program on standard JVMs. GraalVM is a JVM with a JIT compiler which
+                     optimises the execution of ASTs from Truffle.
+                  </p> 
+                  <p>Our work is motivated by trying to understand the advantages and disadvantages of
+                     using GraalVM, and its support for multiple programming languages, to build a standalone
+                     WebAssembly runtime. This contrast with developing a new runtime, as Wasmtime and
+                     other projects are undertaking. TruffleWasm can execute standalone WebAssembly modules,
+                     while offering also interoperability with other GraalVM hosted languages, such as
+                     Java, JavaScript, R, Python and Ruby.
+                  </p> 
+                  <p>The experimental results compare the peak performance of TruffleWasm to the standalone
+                     Wasmtime runtime for the Shootout, C benchmarks in JetStream, and the Poly-BenchC
+                     benchmarks. The results show the geo-mean peak performance of TruffleWasm is 4% slower
+                     than Wasmtime for Shootout/JetStream, and 4% faster for PolyBenchC.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381052.3381315">Blending containers and virtual machines: a study of firecracker and gVisor</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last"> Anjali</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>With serverless computing, providers deploy application code and manage resource allocation
+                     dynamically, eliminating infrastructure management from application development.
+                  </p> 
+                  <p>Serverless providers have a variety of virtualization platforms to choose from for
+                     isolating functions, ranging from native Linux processes to Linux containers to lightweight
+                     isolation platforms, such as Google gVisor [7] and AWS Firecracker [5]. These platforms
+                     form a spectrum as they move functionality out of the host kernel and into an isolated
+                     guest environment. For example, gVisor handles many system calls in a user-mode Sentry
+                     process while Firecracker runs a full guest operating system in each microVM. A common
+                     theme across these platforms are the twin goals of strong isolation and high performance.
+                  </p> 
+                  <p>In this paper, we perform a comparative study of Linux containers (LXC), gVisor secure
+                     containers, and Firecracker microVMs to understand how they use Linux kernel services
+                     differently: <em>how much does their use of host kernel functionality vary?</em> We also evaluate the performance costs of the designs with a series of microbenchmarks
+                     targeting different kernel subsystems.
+                  </p> 
+                  <p>Our results show that despite moving much functionality out of the kernel, both Firecracker
+                     and gVisor execute substantially more kernel code than native Linux. gVisor and Linux
+                     containers execute substantially the same code, although with different frequency.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381052.3381316">LibrettOS: a dynamically adaptable multiserver-library OS</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Ruslan Nikolaev</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We present LibrettOS, an OS design that fuses two paradigms to simultaneously address
+                     issues of isolation, performance, compatibility, failure recoverability, and run-time
+                     upgrades. LibrettOS acts as a microkernel OS that runs servers in an isolated manner.
+                     LibrettOS can also act as a library OS when, for better performance, selected applications
+                     are granted exclusive access to virtual hardware resources such as storage and networking.
+                     Furthermore, applications can switch between the two OS modes with no interruption
+                     at runtime. LibrettOS has a uniquely distinguishing advantage in that, the two paradigms
+                     seamlessly coexist in the same OS, enabling users to simultaneously exploit their
+                     respective strengths (i.e., greater isolation, high performance). Systems code, such
+                     as device drivers, network stacks, and file systems remain identical in the two modes,
+                     enabling dynamic mode switching and reducing development and maintenance costs.
+                  </p> 
+                  <p>To illustrate these design principles, we implemented a prototype of LibrettOS using
+                     rump kernels, allowing us to reuse existent, hardened NetBSD device drivers and a
+                     large ecosystem of POSIX/BSD-compatible applications. We use hardware (VM) virtualization
+                     to strongly isolate different rump kernel instances from each other. Because the original
+                     rumprun unikernel targeted a much simpler model for uniprocessor systems, we redesigned
+                     it to support multicore systems. Unlike kernel-bypass libraries such as DPDK, applications
+                     need not be modified to benefit from direct hardware access. LibrettOS also supports
+                     indirect access through a network server that we have developed. Instances of the
+                     TCP/IP stack always run directly inside the address space of applications. Unlike
+                     the original rumprun or monolithic OSes, applications remain uninterrupted even when
+                     network components fail or need to be upgraded. Finally, to efficiently use hardware
+                     resources, applications can dynamically switch between the indirect and direct modes
+                     based on their I/O load at run-time. We evaluate LibrettOS with 10GbE and NVMe using
+                     Nginx, NFS, memcached, Redis, and other applications. LibrettOS's performance typically
+                     exceeds that of NetBSD, especially when using direct access.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381052.3381327">A robust and flexible operating system compatibility architecture</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Takaya Saeki</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Running applications for one operating system (OS) on another OS is useful in many
+                     cases. However, porting applications requires high development costs and running applications
+                     in a virtual machine poses resource sharing problems. A promising approach is to use
+                     an OS compatibility layer that converts the guest application's interface into the
+                     host one. Unfortunately, existing OS compatibility layers sacrifice either robustness
+                     or flexibility due to in-kernel subsystems or user-space-only implementations. This
+                     paper proposes a new architecture of OS compatibility layers that achieves robustness
+                     with almost user-level implementations while improving flexibility by exploiting standardized
+                     virtualization interfaces supported by most modern OSs. Our implementation of a Linux
+                     compatibility layer for macOS called Noah can run many of Ubuntu Linux binary applications,
+                     and a prototype implementation of a Linux compatibility layer for Windows confirmed
+                     the generality of our approach. Our experimental results demonstrated that the overhead
+                     of Linux kernel build time on Noah was 16%.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381052.3381326">Intra-unikernel isolation with Intel memory protection keys</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Mincheol Sung</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Unikernels are minimal, single-purpose virtual machines. This new operating system
+                     model promises numerous benefits within many application domains in terms of lightweightness,
+                     performance, and security. Although the isolation between unikernels is generally
+                     recognized as strong, there is no isolation within a unikernel itself. This is due
+                     to the use of a single, unprotected address space, a basic principle of unikernels
+                     that provide their lightweightness and performance benefits. In this paper, we propose
+                     a new design that brings memory isolation inside a unikernel instance while keeping
+                     a single address space. We leverage Intel's Memory Protection Key to do so without
+                     impacting the lightweightness and performance benefits of unikernels. We implement
+                     our isolation scheme within an existing unikernel written in Rust and use it to provide
+                     isolation between trusted and untrusted components: we isolate (1) safe kernel code
+                     from unsafe kernel code and (2) kernel code from user code. Evaluation shows that
+                     our system provides such isolation with very low performance overhead. Notably, the
+                     unikernel with our isolation exhibits only 0.6% slowdown on a set of macro-benchmarks.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381052.3381328">Lightweight kernel isolation with virtualization and VM functions</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Vikram Narayanan</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Commodity operating systems execute core kernel subsystems in a single address space
+                     along with hundreds of dynamically loaded extensions and device drivers. Lack of isolation
+                     within the kernel implies that a vulnerability in any of the kernel subsystems or
+                     device drivers opens a way to mount a successful attack on the entire kernel.
+                  </p> 
+                  <p>Historically, isolation within the kernel remained prohibitive due to the high cost
+                     of hardware isolation primitives. Recent CPUs, however, bring a new set of mechanisms.
+                     Extended page-table (EPT) switching with VM functions and memory protection keys (MPKs)
+                     provide memory isolation and invocations across boundaries of protection domains with
+                     overheads comparable to system calls. Unfortunately, neither MPKs nor EPT switching
+                     provide architectural support for isolation of privileged ring 0 kernel code, i.e.,
+                     control of privileged instructions and well-defined entry points to securely restore
+                     state of the system on transition between isolated domains.
+                  </p> 
+                  <p>Our work develops a collection of techniques for lightweight isolation of privileged
+                     kernel code. To control execution of privileged instructions, we rely on a minimal
+                     hypervisor that transparently deprivileges the system into a non-root VT-x guest.
+                     We develop a new isolation boundary that leverages extended page table (EPT) switching
+                     with the VMFUNC instruction. We define a set of invariants that allows us to isolate
+                     kernel components in the face of an intricate execution model of the kernel, e.g.,
+                     provide isolation of preemptable, concurrent interrupt handlers. To minimize overheads
+                     of virtualization, we develop support for exitless interrupt delivery across isolated
+                     domains. We evaluate our approach by developing isolated versions of several device
+                     drivers in the Linux kernel.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381052.3381319">Instrew: leveraging LLVM for high performance dynamic binary instrumentation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Alexis Engelke</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Dynamic binary instrumentation frameworks are popular tools to enhance programs with
+                     additional analysis, debugging, or profiling facilities or to add optimizations or
+                     translations without requiring recompilation or access to source code. They analyze
+                     the binary code, translate into a---typically low-level---intermediate representation,
+                     add the needed instrumentation or transformation and then generate new code on-demand
+                     and at run-time. Most tools thereby focus on a fast code rewriting process at the
+                     cost of lower quality code, leading to a significant slowdown in the instrumented
+                     code. Further, most tools run in the application's address space, making their development
+                     cumbersome.
+                  </p> 
+                  <p>We propose a novel dynamic binary instrumentation framework, <em>Instrew</em>, which closes these gaps by (a) leveraging the LLVM compiler infrastructure for high-quality
+                     code optimization and generation and (b) enables process isolation between the target
+                     code and the instrumenter. Instead of using our own non-portable and low-level intermediate
+                     representation, our framework directly lifts the original machine code into LLVM-IR,
+                     where instrumentation and behavioral changes may be performed, and from which high
+                     quality code can be produced. Results on the SPEC CPU2017 benchmarks show that the
+                     rewriting overhead is only 1/5 of the overhead incurred using the state-of-the-art
+                     toolchain Valgrind.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3381052.3381322">Optimising dynamic binary modification across 64-bit Arm microarchitectures</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Guillermo Callaghan</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>A common optimisation used in most Dynamic Binary Modification (DBM) systems is <em>trace generation</em> as these traces improve locality and code layout. We describe an optimised code layout
+                     for traces as well as present how to adapt the runtime algorithm to generate it. In
+                     this way, we manage to reduce the overhead on all the Arm systems evaluated; 5 different
+                     microarchitectures.
+                  </p> 
+                  <p>A major source of overhead for DBMs comes from handling indirect branches. Indirect
+                     Branch Inlining (IBI) is a mechanism that attempts to avoid this overhead by using
+                     predictions about the target of the indirect branch. We analyse the behaviour of the
+                     indirect branch inlining and propose a new predictor, <em>Trace Restricted IBI (TRIBI)</em>, and how to optimise IBI given the new trace generation algorithm.
+                  </p> 
+                  <p>Our evaluation shows a geometric mean overhead for SPEC CPU2006 of 9% for a Cortex-A53
+                     (in-order core), and for out-of-order cores 11% on an X-Gene-2, 10% on a Cortex-A57,
+                     7% on a Cortex-A72 and 8% on a Cortex-A73, when compared to native execution. This
+                     is a reduction of the overhead between 30% to 50% compared to the publicly available
+                     DBM systems MAMBO, and, even higher, against DynamoRIO. Using PARSEC 3.0, we evaluate
+                     the scalability across threads on the X-Gene-2 system (server machine with the highest
+                     number of cores) and show a geomean overhead between 6--8%.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+         </div>
+      </div>
+   </body>
+</html>
