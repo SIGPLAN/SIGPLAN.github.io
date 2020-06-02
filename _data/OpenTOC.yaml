@@ -59,6 +59,10 @@
   year: 2016
   title: "Proceedings of the 25th International Conference on Compiler Construction"
 -
+  event: CC
+  year: 2020
+  title: "Proceedings of the 29th International Conference on Compiler Construction"
+-
   event: CGO
   year: 2016
   title: "Proceedings of the 14th Annual IEEE/ACM International Symposium on Code Generation and Optimization"
@@ -350,6 +354,10 @@
   year: 2019
   title: "Proceedings of the 2019 ACM SIGPLAN International Symposium on Memory Management"
 -
+  event: ISMM
+  year: 2020
+  title: "Proceedings of the 2020 ACM SIGPLAN International Symposium on Memory Management"
+-
   event: ITSLE
   year: 2016
   title: "Proceedings of the 1st Industry Track on Software Language Engineering"
@@ -389,6 +397,10 @@
   event: MAPL
   year: 2019
   title: "Proceedings of the 3nd ACM SIGPLAN International Workshop on Machine Learning and Programming Languages"
+-
+  event: MAPL
+  year: 2020
+  title: "Proceedings of the 4th ACM SIGPLAN International Workshop on Machine Learning and Programming Languages"
 -
   event: META
   year: 2017
@@ -605,8 +617,16 @@
   title: "Proceedings of the 22nd ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming"
 -
   event: PPoPP
+  year: 2018
+  title: "Proceedings of the 23rd ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming"
+-
+  event: PPoPP
   year: 2019
   title: "Proceedings of the 24th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming"
+-
+  event: PPoPP
+  year: 2020
+  title: "Proceedings of the 25th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming"
 -
   event: PPREW
   year: 2014
@@ -787,6 +807,10 @@
   event: VEE
   year: 2019
   title: "Proceedings of the 15th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments"
+-
+  event: VEE
+  year: 2020
+  title: "Proceedings of the 16th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments"
 -
   event: VMIL
   year: 2016
