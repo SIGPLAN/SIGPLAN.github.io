@@ -279,6 +279,10 @@
   year: 2016
   title: "Proceedings of the 9th Workshop on General Purpose Processing using Graphics Processing Units"
 -
+  event: GPGPU
+  year: 2020
+  title: "Proceedings of the 13rd Workshop on General Purpose Processing using Graphics Processing Units"
+-
   event: Haskell
   year: 2014
   title: "Proceedings of the 7th ACM SIGPLAN Symposium on Haskell"
