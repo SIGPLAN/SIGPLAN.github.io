@@ -9,7 +9,7 @@ We especially encourage women and underrepresented minority students to attend P
 
 ## PLMW series  2019-2020
 
-[PLMW @ ICFP'20](https://icfp20.sigplan.org0)  
+[PLMW @ ICFP'20](https://icfp20.sigplan.org)  
 - **Location**:  Jersey City, NJ, USA  
 - **Organizers/Chairs**: Nate Foster, Lindsey Kuper, Talia Ringer
 
