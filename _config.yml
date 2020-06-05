@@ -5,3 +5,5 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 permalink: pretty
+plugins:
+  - jekyll-redirect-from
