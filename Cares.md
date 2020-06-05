@@ -2,8 +2,8 @@
 layout: default
 title: "SIGPLAN CARES"
 redirect_from:
-  - /cares
-  - /CARES
+  - /cares/
+  - /CARES/
 ---
 
 ### Purpose of SIGPLAN CARES 
