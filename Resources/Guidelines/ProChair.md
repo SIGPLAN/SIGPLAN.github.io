@@ -464,7 +464,7 @@ _SIGPLAN Information Director_:
 See Also
 --------
 
-- [Calendar of Upcoming SIGPLAN Conferences](http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN)
+- [Calendar of Upcoming SIGPLAN Conferences](https://www.sigplan.org/Calendar/)
 - ACM's *[How to Organize a Conference](http://www.acm.org/sigs/volunteer_resources/conference_manual/conference_manual-toc)* manual
 - [ACM's How to Organize a Conference](http://www.acm.org/sigs/volunteer_resources/conference_manual/manual_read_me)
 - SIGPLAN conference style [LaTeX class file](http://www.sigplan.org/sites/default/files/sigplanconf.cls),
