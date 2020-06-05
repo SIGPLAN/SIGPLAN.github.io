@@ -115,7 +115,7 @@ CARES committee members may also attend other workshops and conferences sponsore
   </tr> 
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/strout.png" alt="Michelle Strout"  height="60%"><br><a href="http://cgi.cs.arizona.edu/~mstrout/">Michelle Strout</a></td>
-   <td>Member, <a href="mailto:mstrout@cs.arizon.edu">mstrout@cs.arizon.edu</a>, University of Arizona </td>
+   <td>Member, <a href="mailto:mstrout@cs.arizona.edu">mstrout@cs.arizon.edu</a>, University of Arizona </td>
   </tr> 
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/weirich.png" alt="Stephanie Weirich"  height="60%"><br><a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a></td>
