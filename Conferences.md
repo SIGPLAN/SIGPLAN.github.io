@@ -60,6 +60,12 @@ and network-storage system designs). ASPLOS is co-sponsored with
 [SIGARCH](http://www.acm.org/sigs/sigarch/) and
 [SIGOPS](http://www.sigops.org/).&#160;
 
+**Compiler Construction ([CC](https://conf.researchr.org/home/CC-2021))**  
+The International Conference on Compiler Construction (CC) is 
+interested in work on processing programs in the most general sense: 
+analyzing, transforming or executing input that describes how a system 
+operates, including traditional compiler construction as a special case.
+
 **Code Generation and Optimization ([CGO](http://www.cgo.org))**  
 The International Symposium on Code Generation and Optimization
 (CGO) provides a premier venue to bring together researchers and
@@ -69,12 +75,6 @@ related issues. The conferences spans the spectrum from purely
 static to fully dynamic approaches, including techniques ranging
 from pure software-based methods to architectural features and
 support.
-
-**Compiler Construction ([CC](https://conf.researchr.org/home/CC-2021))**  
-The International Conference on Compiler Construction (CC) is 
-interested in work on processing programs in the most general sense: 
-analyzing, transforming or executing input that describes how a system 
-operates, including traditional compiler construction as a special case.
 
 **Dynamic Languages Symposium ([DLS](/Conferences/DLS) @ [SPLASH](/Conferences/SPLASH))**  
 The Dynamic Languages Symposium (DLS) is a forum for discussion of
