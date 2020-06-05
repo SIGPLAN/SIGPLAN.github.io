@@ -1,1 +1,1 @@
-redirect_to: /Cares
+<meta http-equiv=refresh content="0;url=http://sigplan.org/cares">
