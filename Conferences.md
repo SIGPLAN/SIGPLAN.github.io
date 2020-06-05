@@ -70,7 +70,7 @@ static to fully dynamic approaches, including techniques ranging
 from pure software-based methods to architectural features and
 support.
 
-**Compiler Construction ([CC](https://conf.researchr.org/home/CC-2021))**
+**Compiler Construction ([CC](https://conf.researchr.org/home/CC-2021))**  
 The International Conference on Compiler Construction (CC) is 
 interested in work on processing programs in the most general sense: 
 analyzing, transforming or executing input that describes how a system 
