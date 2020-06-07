@@ -60,7 +60,7 @@ and network-storage system designs). ASPLOS is co-sponsored with
 [SIGARCH](http://www.acm.org/sigs/sigarch/) and
 [SIGOPS](http://www.sigops.org/).&#160;
 
-**Compiler Construction ([CC](https://conf.researchr.org/home/CC-2021))**  
+**Compiler Construction ([CC](https://conf.researchr.org/series/CC))**  
 The International Conference on Compiler Construction (CC) is 
 interested in work on processing programs in the most general sense: 
 analyzing, transforming or executing input that describes how a system 
