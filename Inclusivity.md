@@ -36,5 +36,4 @@ rights, and condemn systemic racism and discrimination of any kind. We're
 eager to work to educate ourselves and help others make at least this
 little corner of the world a better place.
 
-If you are a scholar who'd like to talk, please get in touch: we're [here] 
-(https://www.sigplan.org/Cares/) for you.  
+If you are a scholar who'd like to talk, please get in touch: we're [here](https://www.sigplan.org/Cares/) for you.  
