@@ -307,6 +307,10 @@
   year: 2019
   title: "Proceedings of the 12th ACM SIGPLAN Symposium on Haskell"
 -
+  event: HOPL
+  year: 2020
+  title: "Proceedings of the 4th ACM SIGPLAN History of Programming Language Conference"
+-
   event: ICFP
   year: 2014
   title: "Proceedings of the 19th ACM SIGPLAN International Conference on Functional Programming"
