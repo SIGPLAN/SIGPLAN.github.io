@@ -1,0 +1,848 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style></head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>Proceedings of the ACM on Programming Languages: Vol. 4, No. HOPL. 2020</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/toc/PACMPL/2020/4/HOPL"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" width="30" height="30">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SECTION: Articles</h2>
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3386319">APL since 1978</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Roger K. W. Hui</li>
+               <li class="nameList Last">Morten J. Kromberg</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p><em>The Evolution of APL</em>, the HOPL I paper by Falkoff and Iverson on APL, recounted the fundamental design
+                     principles which shaped the implementation of the APL language in 1966, and the early
+                     uses and other influences which shaped its first decade of enhancements.
+                  </p> 
+                  <p>In the 40 years that have elapsed since HOPL I, several dozen APL implementations
+                     have come and gone. In the first decade or two, interpreters were typically born and
+                     buried along with the hardware or operating system that they were created for. More
+                     recently, the use of C as an implementation language provided APL interpreters with
+                     greater longevity and portability.
+                  </p> 
+                  <p>APL started its life on IBM mainframes which were time-shared by multiple users. As
+                     the demand for computing resources grew and costs dropped, APL first moved <em>in-house</em> to mainframes, then to <em>mini</em>- and <em>micro</em>-computers. Today, APL runs on PCs and tablets, Apples and Raspberry Pis, smartphones
+                     and watches.
+                  </p> 
+                  <p>The operating systems, and the software application platforms that APL runs on, have
+                     evolved beyond recognition. Tools like database systems have taken over many of the
+                     tasks that were initially implemented in APL or provided by the APL system, and new
+                     capabilities like parallel hardware have also changed the focus of design and implementation
+                     efforts through the years.
+                  </p> 
+                  <p>The first wave of significant language enhancements occurred shortly after HOPL I,
+                     resulting in so-called second-generation APL systems. The most important feature of
+                     the second generation is the addition of general arrays—in which any item of an array
+                     can be another array—and a number of new functions and operators aligned with, if
+                     not always motivated by, the new data structures.
+                  </p> 
+                  <p>The majority of implementations followed IBM’s path with APL2 “floating” arrays; others
+                     aligned themselves with SHARP APL and “grounded” arrays. While the APL2 style of APL
+                     interpreters came to dominate the mainstream of the APL community, two new cousins
+                     of APL descended from the SHARP APL family tree: J (created by Iverson and Hui) and
+                     k (created by Arthur Whitney).
+                  </p> 
+                  <p>We attempt to follow a reasonable number of threads through the last 40 years, to
+                     identify the most important factors that have shaped the evolution of APL. We will
+                     discuss the details of what we believe are the most significant language features
+                     that made it through the occasionally unnatural selection imposed by the loss of habitats
+                     that disappeared with hardware, software platforms, and business models.
+                  </p> 
+                  <p>The history of APL now spans six decades. It is still the case, as Falkoff and Iverson
+                     remarked at the end of the HOPL I paper, that:
+                  </p> 
+                  <p>&lt;blockquote&gt;Although this is not the place to discuss the future, it should be remarked
+                     that the evolution of APL is far from finished.&lt;/blockquote&gt;
+                  </p>
+                  	
+               </div>
+            </div>
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3386320">Thriving in a crowded and changing world: C++ 2006–2020</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Bjarne Stroustrup</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>By 2006, C++ had been in widespread industrial use for 20 years. It contained parts
+                     that had survived unchanged since introduced into C in the early 1970s as well as
+                     features that were novel in the early 2000s. From 2006 to 2020, the C++ developer
+                     community grew from about 3 million to about 4.5 million. It was a period where new
+                     programming models emerged, hardware architectures evolved, new application domains
+                     gained massive importance, and quite a few well-financed and professionally marketed
+                     languages fought for dominance. How did C++ -- an older language without serious commercial
+                     backing -- manage to thrive in the face of all that? 
+                  </p> 
+                  <p> This paper focuses on the major changes to the ISO C++ standard for the 2011, 2014,
+                     2017, and 2020 revisions. The standard library is about 3/4 of the C++20 standard,
+                     but this paper's primary focus is on language features and the programming techniques
+                     they support. 
+                  </p> 
+                  <p> The paper contains long lists of features documenting the growth of C++. Significant
+                     technical points are discussed and illustrated with short code fragments. In addition,
+                     it presents some failed proposals and the discussions that led to their failure. It
+                     offers a perspective on the bewildering flow of facts and features across the years.
+                     The emphasis is on the ideas, people, and processes that shaped the language. 
+                  </p> 
+                  <p> Themes include efforts to preserve the essence of C++ through evolutionary changes,
+                     to simplify its use, to improve support for generic programming, to better support
+                     compile-time programming, to extend support for concurrency and parallel programming,
+                     and to maintain stable support for decades' old code. 
+                  </p> 
+                  <p> The ISO C++ standard evolves through a consensus process. Inevitably, there is competition
+                     among proposals and clashes (usually polite ones) over direction, design philosophies,
+                     and principles. The committee is now larger and more active than ever, with as many
+                     as 250 people turning up to week-long meetings three times a year and many more taking
+                     part electronically. We try (not always successfully) to mitigate the effects of design
+                     by committee, bureaucratic paralysis, and excessive enthusiasm for a variety of language
+                     fashions. 
+                  </p> 
+                  <p> Specific language-technical topics include the memory model, concurrency and parallelism,
+                     compile-time computation, move-semantics, exceptions, lambda expressions, and modules.
+                     Designing a mechanism for specifying a template's requirements on its arguments that
+                     is sufficiently flexible and precise yet doesn't impose run-time costs turned out
+                     to be hard. The repeated attempts to design ``concepts'' to do that have their roots
+                     back in the 1980s and touch upon many key design issues for C++ and for generic programming.
+                     
+                  </p> 
+                  <p> The description is based on personal participation in the key events and design decisions,
+                     backed by the thousands of papers and hundreds of meeting minutes in the ISO C++ standards
+                     committee's archives.
+                  </p>
+                  	
+               </div>
+            </div>
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3386321">A history of Clojure</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Rich Hickey</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Clojure was designed to be a general-purpose, practical functional language, suitable
+                     for use by professionals wherever its host language, e.g., Java, would be. Initially
+                     designed in 2005 and released in 2007, Clojure is a dialect of Lisp, but is not a
+                     direct descendant of any prior Lisp. It complements programming with pure functions
+                     of immutable data with concurrency-safe state management constructs that support writing
+                     correct multithreaded programs without the complexity of mutex locks. 
+                  </p> 
+                  <p> Clojure is intentionally hosted, in that it compiles to and runs on the runtime of
+                     another language, such as the JVM. This is more than an implementation strategy; numerous
+                     features ensure that programs written in Clojure can leverage and interoperate with
+                     the libraries of the host language directly and efficiently. 
+                  </p> 
+                  <p> In spite of combining two (at the time) rather unpopular ideas, functional programming
+                     and Lisp, Clojure has since seen adoption in industries as diverse as finance, climate
+                     science, retail, databases, analytics, publishing, healthcare, advertising and genomics,
+                     and by consultancies and startups worldwide, much to the career-altering surprise
+                     of its author. 
+                  </p> 
+                  <p> Most of the ideas in Clojure were not novel, but their combination puts Clojure in
+                     a unique spot in language design (functional, hosted, Lisp). This paper recounts the
+                     motivation behind the initial development of Clojure and the rationale for various
+                     design decisions and language constructs. It then covers its evolution subsequent
+                     to release and adoption.
+                  </p>
+                  	
+               </div>
+            </div>
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3386322">History of coarrays and SPMD parallelism in Fortran</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">John Reid</li>
+               <li class="nameList">Bill Long</li>
+               <li class="nameList Last">Jon Steidel</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The coarray programming model is an expression of the Single-Program-Multiple-Data
+                     (SPMD) programming model through the simple device of adding a codimension to the
+                     Fortran language. A data object declared with a codimension is a coarray object. Codimensions
+                     express the idea that some objects are located in local memory while others are located
+                     in remote memory. Coarray syntax obeys most of the same rules for normal array syntax.
+                     It is familiar to the Fortran programmer so the use of coarray syntax is natural and
+                     intuitive. Although the basic idea is quite simple, inserting it into the language
+                     definition turned out to be difficult. 
+                  </p> 
+                  <p> In addition, the process was complicated by rapidly changing hardware and heated
+                     arguments over whether parallelism should be supported best as an interface to language-independent
+                     libraries, as a set of directives superimposed on languages, or as a set of specific
+                     extensions to existing languages. 
+                  </p> 
+                  <p> In this paper, we review both the early history of coarrays and also their development
+                     into a part of Fortran 2008 and eventually into a larger part of Fortran 2018. Coarrays
+                     have been used, for example, in weather forecasting and in neural networks and deep
+                     learning.
+                  </p>
+                  	
+               </div>
+            </div>
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3386323">Origins of the D programming language</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Walter Bright</li>
+               <li class="nameList">Andrei Alexandrescu</li>
+               <li class="nameList Last">Michael Parker</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>As its name suggests, the initial motivation for the D programming language was to
+                     improve on C and C++ while keeping their spirit. The D language was to preserve those
+                     languages' efficiency, low-level access, and Algol-style syntax. The areas D set out
+                     to improve focused initially on rapid development, convenience, and simplifying the
+                     syntax without hampering expressiveness. 
+                  </p> 
+                  <p> The genesis of D has its peculiarities, as is the case with many other languages.
+                     Walter Bright, D's creator, is a mechanical engineer by education who started out
+                     working for Boeing designing gearboxes for the 757. He was programming games on the
+                     side, and in trying to make his game Empire run faster, became interested in compilers.
+                     Despite having no experience, Bright set out in 1982 to implement a compiler that
+                     produced better code than those on the market at the time. 
+                  </p> 
+                  <p> This interest materialized into a C compiler, followed by compilers for C++, Java,
+                     and JavaScript. Best known of these would be the Zortech C++ compiler, the first (and
+                     to date only) C++-to-native compiler developed by a single person. The D programming
+                     language began in 1999 as an effort to pull the best features of these languages into
+                     a new one. Fittingly, D would use the by that time mature C/C++ back end (optimizer
+                     and code generator) that had been under continued development and maintenance since
+                     1982. 
+                  </p> 
+                  <p> Between 1999 and 2006, Bright worked alone on the D language definition and its implementation,
+                     although a steadily increasing volume of patches from users was incorporated. The
+                     new language would be based on the past successes of the languages he'd used and implemented,
+                     but would be clearly looking to the future. D started with choices that are obvious
+                     today but were less clear winners back in the 1990s: full support for Unicode, IEEE
+                     floating point, 2s complement arithmetic, and flat memory addressing (memory is treated
+                     as a linear address space with no segmentation). It would do away with certain compromises
+                     from past languages imposed by shortages of memory (for example, forward declarations
+                     would not be required). It would primarily appeal to C and C++ users, as expertise
+                     with those languages would be readily transferrable. The interface with C was designed
+                     to be zero cost. 
+                  </p> 
+                  <p> The language design was begun in late 1999. An alpha version appeared in 2001 and
+                     the initial language was completed, somewhat arbitrarily, at version 1.0 in January
+                     2007. During that time, the language evolved considerably, both in capability and
+                     in the accretion of a substantial worldwide community that became increasingly involved
+                     with contributing. The front end was open-sourced in April 2002, and the back end
+                     was donated by Symantec to the open source community in 2017. Meanwhile, two additional
+                     open-source back ends became mature in the 2010s: `gdc` (using the same back end as
+                     the GNU C++ compiler) and `ldc` (using the LLVM back end). 
+                  </p> 
+                  <p> The increasing use of the D language in the 2010s created an impetus for formalization
+                     and development management. To that end, the D Language Foundation was created in
+                     September 2015 as a nonprofit corporation overseeing work on D's definition and implementation,
+                     publications, conferences, and collaborations with universities.
+                  </p>
+                  	
+               </div>
+            </div>
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3386324">Evolution of Emacs Lisp</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Stefan Monnier</li>
+               <li class="nameList Last">Michael Sperber</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>While Emacs proponents largely agree that it is the world’s greatest text editor,
+                     it is almost as much a Lisp machine disguised as an editor. Indeed, one of its chief
+                     appeals is that it is <em>programmable</em> via its own programming language. Emacs Lisp is a Lisp in the classic tradition.
+                     In this article, we present the history of this language over its more than 30 years
+                     of evolution. Its core has remained remarkably stable since its inception in 1985,
+                     in large part to preserve compatibility with the many third-party packages providing
+                     a multitude of extensions. Still, Emacs Lisp has evolved and continues to do so. 
+                  </p> 
+                  <p>Important aspects of Emacs Lisp have been shaped by concrete requirements of the editor
+                     it supports as well as implementation constraints. These requirements led to the choice
+                     of a Lisp dialect as Emacs’s language in the first place, specifically its simplicity
+                     and dynamic nature: Loading additional Emacs packages or changing the ones in place
+                     occurs frequently, and having to restart the editor in order to re-compile or re-link
+                     the code would be unacceptable. Fulfilling this requirement in a more static language
+                     would have been difficult at best. 
+                  </p> 
+                  <p>One of Lisp’s chief characteristics is its malleability through its uniform syntax
+                     and the use of macros. This has allowed the language to evolve much more rapidly and
+                     substantively than the evolution of its core would suggest, by letting Emacs packages
+                     provide new surface syntax alongside new functions. In particular, Emacs Lisp can
+                     be customized to look much like Common Lisp, and additional packages provide multiple-dispatch
+                     object systems, legible regular expressions, programmable pattern-matching constructs,
+                     generalized variables, and more. Still, the core has also evolved, albeit slowly.
+                     Most notably, it acquired support for lexical scoping. 
+                  </p> 
+                  <p>The timeline of Emacs Lisp development is closely tied to the projects and people
+                     who have shaped it over the years: We document Emacs Lisp history through its predecessors,
+                     Mocklisp and MacLisp, its early development up to the “Emacs schism” and the fork
+                     of Lucid Emacs, the development of XEmacs, and the subsequent rennaissance of Emacs
+                     development.
+                  </p>
+                  	
+               </div>
+            </div>
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3386325">The early history of F#</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Don Syme</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This paper describes the genesis and early history of the F# programming language.
+                     I start with the origins of strongly-typed functional programming (FP) in the 1970s,
+                     80s and 90s. During the same period, Microsoft was founded and grew to dominate the
+                     software industry. In 1997, as a response to Java, Microsoft initiated internal projects
+                     which eventually became the .NET programming framework and the C# language. From 1997
+                     the worlds of academic functional programming and industry combined at Microsoft Research,
+                     Cambridge. The researchers engaged with the company through Project 7, the initial
+                     effort to bring multiple languages to .NET, leading to the initiation of .NET Generics
+                     in 1998 and F# in 2002. F# was one of several responses by advocates of strongly-typed
+                     functional programming to the "object-oriented tidal wave" of the mid-1990s. The development
+                     of the core features of F# 1.0 happened from 2004-2007, and I describe the decision-making
+                     process that led to the "productization" of F# by Microsoft in 2007-10 and the release
+                     of F# 2.0. The origins of F#'s characteristic features are covered: object programming,
+                     quotations, statically resolved type parameters, active patterns, computation expressions,
+                     async, units-of-measure and type providers. I describe key developments in F# since
+                     2010, including F# 3.0-4.5, and its evolution as an open source, cross-platform language
+                     with multiple delivery channels. I conclude by examining some uses of F# and the influence
+                     F# has had on other languages so far.
+                  </p>
+                  	
+               </div>
+            </div>
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3386326">A history of the Groovy programming language</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Paul King</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This paper describes the history of the Groovy programming language. At the time of
+                     Groovy’s inception, Java was a dominant programming language with a wealth of useful
+                     libraries. Despite this, it was perceived by some to be evolving slowing and to have
+                     shortcomings for scripting, rapid prototyping and when trying to write minimalistic
+                     code. Other languages seemed to be innovating faster than Java and, while overcoming
+                     some of Java’s shortcomings, used syntax that was less familiar to Java developers.
+                     Integration with Java libraries was also non-optimal. 
+                  </p> 
+                  <p>Groovy was created as a complementary language to Java—its dynamic counterpart. It
+                     would look and feel like Java but focus on extensibility and rapid innovation. Groovy
+                     would borrow ideas from dynamic languages like Ruby, Python and Smalltalk where needed
+                     to provide compelling JVM solutions for some of Java’s shortcomings. 
+                  </p> 
+                  <p>Groovy supported innovation through its runtime and compile-time metaprogramming capabilities.
+                     It supported simple operator overloading, had a flexible grammar and was extensible.
+                     These characteristics made it suitable for growing the language to have new commands
+                     (verbs) and properties (nouns) specific to a particular domain, a so called Domain
+                     Specific Language (DSL). While still intrinsically linked with Java, over time Groovy
+                     has evolved from a niche dynamic scripting language into a compelling mainstream language.
+                     
+                  </p> 
+                  <p>After many years as a principally dynamically-typed language, a static nature was
+                     added to Groovy. Code could be statically type checked or when dynamic features weren’t
+                     needed, they could be turned off entirely for Java-like performance. A number of nuances
+                     to the static nature came about to support the style of coding used by Groovy developers.
+                     
+                  </p> 
+                  <p>Many choices made by Groovy in its design, later appeared in other languages (Swift,
+                     C#, Kotlin, Ceylon, PHP, Ruby, Coffeescript, Scala, Frege, TypeScript and Java itself).
+                     This includes Groovy’s dangling closure, Groovy builders, null-safe navigation, the
+                     Elvis operator, ranges, the spaceship operator, and flow typing. For most languages,
+                     we don’t know to what extent Groovy played a part in their choices. We do know that
+                     Kotlin took inspiration from Groovy’s dangling closures, builder concept, default
+                     <em>it</em> parameter for closures, templates and interpolated strings, null-safe navigation
+                     and the Elvis operator. 
+                  </p> 
+                  <p>The leadership, governance and sponsorship arrangements of Groovy have evolved over
+                     time, but Groovy has always been a successful highly collaborative open source project
+                     driven more by the needs of the community than by a vision of a particular company
+                     or person.
+                  </p>
+                  	
+               </div>
+            </div>
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3386327">JavaScript: the first 20 years</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Allen Wirfs-Brock</li>
+               <li class="nameList Last">Brendan Eich</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>How a sidekick scripting language for Java, created at Netscape in a ten-day hack,
+                     ships first as a de facto Web standard and eventually becomes the world's most widely
+                     used programming language. This paper tells the story of the creation, design, evolution,
+                     and standardization of the JavaScript language over the period of 1995--2015. But
+                     the story is not only about the technical details of the language. It is also the
+                     story of how people and organizations competed and collaborated to shape the JavaScript
+                     language which dominates the Web of 2020.
+                  </p>
+                  	
+               </div>
+            </div>
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3386328">LabVIEW</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Jeffrey Kodosky</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>LabVIEW™ is unusual among programming languages in that we did not intend to create
+                     a new language but rather to develop a tool for non-programmer scientists and engineers
+                     to assist them in automating their test and measurement systems. 
+                  </p> 
+                  <p>Prior experience creating software for controlling instruments led us to the perspective
+                     that the software ought to be modeled as a hierarchy of ”virtual instruments”. The
+                     lowest level virtual instruments were simply reflections of the individual physical
+                     instruments they controlled. Higher level virtual instruments combined lower level
+                     ones to deliver more complex measurements. A frequency response virtual instrument
+                     could be implemented using a voltmeter and a sine-wave generator inside a loop that
+                     stepped through a frequency range. This was mostly an abstract concept at the time
+                     because it was hard to imagine how an existing language or tool could provide the
+                     rich yet intuitive experience of using a real instrument. 
+                  </p> 
+                  <p>Inspired by the first Macintosh computer, we quickly realized the graphical user interface
+                     would be a natural way to interact with a virtual instrument, but it also sparked
+                     our imaginations about using graphics for creating software at a higher level of abstraction.
+                     
+                  </p> 
+                  <p>The February 1982 issue of IEEE Computer was devoted to data-flow models of computation,
+                     and it convinced us that graphical data-flow diagrams needed to be part of the solution.
+                     The major difficulty we saw, however, was the need to use cycles in the data-flow
+                     diagram to represent loops. Cycles increased complexity and made diagrams hard to
+                     understand and even harder to create. 
+                  </p> 
+                  <p>This concern led to a major innovation in creating LabVIEW: merging structured programming
+                     concepts with data-flow. We represented control-flow structures as boxes in a data-flow
+                     diagram. We knew how to reason about loops, so we could introduce them as first class
+                     elements of the graphical representation rather than being constructed from lower-level
+                     elements. A box could encapsulate the semantics of the iterative behavior; it could
+                     clearly separate the body of the loop (the diagram inside the box) from the code before
+                     and after the loop (the diagram outside the box); and, its boundary could hold iteration
+                     state information. 
+                  </p> 
+                  <p>Those fundamental concepts of ”graphical”, ”structured” and ”data-flow” enabled us
+                     to propose a software product. We staffed up a small skunkworks team to implement
+                     it. We called it LabVIEW. It was to be an engineer’s tool for automating measurement
+                     systems. At first, we were reluctant to admit that we had created a graphical programming
+                     language. When we finally did, we nicknamed it G, for Graphical language, so we could
+                     talk about the language as distinct from the integrated development environment (IDE),
+                     LabVIEW. In practice, almost everyone refers to both the language and the IDE as LabVIEW.
+                     
+                  </p> 
+                  <p>Without intending to do so, we created a programming language radically different
+                     from those that came before, pioneering techniques of graphically creating and viewing
+                     code, eliminating manual memory management without adding garbage collection overhead,
+                     and anticipating the massively parallel systems of the modern era. LabVIEW continues
+                     to evolve and thrive after more than 30 years.
+                  </p>
+                  	
+               </div>
+            </div>
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3386329">History of Logo</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Cynthia Solomon</li>
+               <li class="nameList">Brian Harvey</li>
+               <li class="nameList">Ken Kahn</li>
+               <li class="nameList">Henry Lieberman</li>
+               <li class="nameList">Mark L. Miller</li>
+               <li class="nameList">Margaret Minsky</li>
+               <li class="nameList">Artemis Papert</li>
+               <li class="nameList Last">Brian Silverman</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Logo is more than a programming language. It is a learning environment where children
+                     explore mathematical ideas and create projects of their own design. Logo, the first
+                     computer language explicitly designed for children, was invented by Seymour Papert,
+                     Wallace Feurzeig, Daniel Bobrow, and Cynthia Solomon in 1966 at Bolt, Beranek and
+                     Newman, Inc. (BBN).
+                  </p> 
+                  <p>Logo’s design drew upon two theoretical frameworks: Jean Piaget’s constructivism and
+                     Marvin Minsky’s artificial intelligence research at MIT. One of Logo’s foundational
+                     ideas was that children should have a powerful programming environment. Early Lisp
+                     served as a model with its symbolic computation, recursive functions, operations on
+                     linked lists, and dynamic scoping of variables.
+                  </p> 
+                  <p>Logo became a symbol for change in elementary mathematics education and in the nature
+                     of school itself. The search for harnessing the computer’s potential to provide new
+                     ways of teaching and learning became a central focus and guiding principle in the
+                     Logo language development as it encompassed a widening scope that included natural
+                     language, music, graphics, animation, story telling, turtle geometry, robots, and
+                     other physical devices.
+                  </p>
+                  	
+               </div>
+            </div>
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3386330">Hygienic macro technology</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">William D. Clinger</li>
+               <li class="nameList Last">Mitchell Wand</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The fully parenthesized Cambridge Polish syntax of Lisp, originally regarded as a
+                     temporary expedient to be replaced by more conventional syntax, possesses a peculiar
+                     virtue: A read procedure can parse it without knowing the syntax of any expressions,
+                     statements, definitions, or declarations it may represent. The result of that parsing
+                     is a list structure that establishes a standard representation for uninterpreted abstract
+                     syntax trees. 
+                  </p> 
+                  <p>This representation provides a convenient basis for macro processing, which allows
+                     the programmer to specify that some simple piece of abstract syntax should be replaced
+                     by some other, more complex piece of abstract syntax. As is well-known, this yields
+                     an abstraction mechanism that does things that procedural abstraction cannot, such
+                     as introducing new binding structures. 
+                  </p> 
+                  <p>The existence of that standard representation for uninterpreted abstract syntax trees
+                     soon led Lisp to a greater reliance upon macros than was common in other high-level
+                     languages. The importance of those features is suggested by the ten pages devoted
+                     to macros in an earlier ACM HOPL paper, “The Evolution of Lisp.” 
+                  </p> 
+                  <p>However, na'ive macro expansion was a leaky abstraction, because the movement of a
+                     piece of syntax from one place to another might lead to the accidental rebinding of
+                     a program’s identifiers. Although this problem was recognized in the 1960s, it was
+                     20 years before a reliable solution was discovered, and another 10 before a solution
+                     was discovered that was reliable, flexible, and efficient. 
+                  </p> 
+                  <p>In this paper, we summarize that early history with greater focus on hygienic macros,
+                     and continue the story by describing the further development, adoption, and influence
+                     of hygienic and partially hygienic macro technology in Scheme. The interplay between
+                     the desire for standardization and the development of new algorithms is a major theme
+                     of that story. 
+                  </p> 
+                  <p>We then survey the ways in which hygienic macro technology has been adapted into recent
+                     non-parenthetical languages. Finally, we provide a short history of attempts to provide
+                     a formal account of macro processing.
+                  </p>
+                  	
+               </div>
+            </div>
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3386331">A history of MATLAB</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Cleve Moler</li>
+               <li class="nameList Last">Jack Little</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The first MATLAB (the name is short for “Matrix Laboratory”) was not a programming
+                     language. Written in Fortran in the late 1970s, it was a simple interactive matrix
+                     calculator built on top of about a dozen subroutines from the LINPACK and EISPACK
+                     matrix software libraries. There were only 71 reserved words and built-in functions.
+                     It could be extended only by modifying the Fortran source code and recompiling it.
+                     
+                  </p> 
+                  <p>The programming language appeared in 1984 when MATLAB became a commercial product.
+                     The calculator was reimplemented in C and significantly enhanced with the addition
+                     of user functions, toolboxes, and graphics. It was available initially on the IBM
+                     PC and clones; versions for Unix workstations and the Apple Macintosh soon followed.
+                     
+                  </p> 
+                  <p>In addition to the matrix functions from the calculator, the 1984 MATLAB included
+                     fast Fourier transforms (FFT). The Control System Toolbox appeared in 1985 and the
+                     Signal Processing Toolbox in 1987. Built-in support for the numerical solution of
+                     ordinary differential equations also appeared in 1987. 
+                  </p> 
+                  <p>The first significant new data structure, the sparse matrix, was introduced in 1992.
+                     The Image Processing Toolbox and the Symbolic Math Toolbox were both introduced in
+                     1993. 
+                  </p> 
+                  <p>Several new data types and data structures, including single precision floating point,
+                     various integer and logical types, cell arrays, structures, and objects were introduced
+                     in the late 1990s. 
+                  </p> 
+                  <p>Enhancements to the MATLAB computing environment have dominated development in recent
+                     years. Included are extensions to the desktop, major enhancements to the object and
+                     graphics systems, support for parallel computing and GPUs, and the “Live Editor”,
+                     which combines programs, descriptive text, output and graphics into a single interactive,
+                     formatted document. 
+                  </p> 
+                  <p>Today there are over 60 Toolboxes, many programmed in the MATLAB language, providing
+                     extended capabilities in specialized technical fields.
+                  </p>
+                  	
+               </div>
+            </div>
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3386332">The origins of Objective-C at PPI/Stepstone and its evolution at NeXT</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Brad J. Cox</li>
+               <li class="nameList">Steve Naroff</li>
+               <li class="nameList Last">Hansen Hsu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The roots of Objective-C began at ITT in the early 1980s in a research group led by
+                     Tom Love investigating improving programmer productivity by an order of magnitude,
+                     a concern motivated by the perceived "software crisis" articulated in the late 1960s.
+                     In 1981, Brad Cox, a member of this group, began to investigate Smalltalk and object-oriented
+                     programming for this purpose, but needed a language compatible with the Unix and C
+                     environments used by ITT. That year, Cox quickly wrote up the Object-Oriented Pre-Compiler
+                     (OOPC) that would translate a Smalltalk-like syntax into C. 
+                  </p> 
+                  <p> Love felt there was a market for object-oriented solutions that could coexist with
+                     legacy languages and platforms, and after a brief stint at Schlumberger-Doll, co-founded
+                     with Cox Productivity Products International (PPI), later renamed as Stepstone, to
+                     pursue this. At PPI, Cox developed OOPC into Objective-C. Cox saw Objective-C as a
+                     crucial link in his larger vision of creating a market for "pre-fabricated" software
+                     components ("software-ICs"), which could be bought off the shelf and which, Cox believed,
+                     would unleash a "software industrial revolution." 
+                  </p> 
+                  <p> Steve Naroff joined Stepstone in 1986 as Steve Jobs' NeXT Computer became an important
+                     customer for Objective-C, as it was being used in its NeXTSTEP operating system. Naroff
+                     became the primary Stepstone developer addressing NeXT's issues with Objective-C,
+                     solving a key fragility problem preventing NeXT from deploying forwards-compatible
+                     object libraries. Impressed with NeXT, Naroff left Stepstone for NeXT in 1988, and
+                     once there, added Objective-C support to Richard Stallman's GNU GCC compiler, which
+                     NeXT was using as its C compiler, removing the need to use Stepstone's ObjC to C translator.
+                     Over the next several years, Naroff and others would add significant new features
+                     to Objective-C, such as "categories," "protocols," and the ability to mix in C++ code.
+                     When Stepstone folded in 1994, all rights to Objective-C were acquired by NeXT. This
+                     eventually transferred to Apple when NeXT was acquired by Apple in 1997. Objective-C
+                     became the basis for Apple's Mac OS X and then iOS platforms, and Naroff and others
+                     at Apple added additional features to the language in the late 2000s as the iPhone
+                     App Store greatly expanded Objective-C's user base.
+                  </p>
+                  	
+               </div>
+            </div>
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3386333">A history of the Oz multiparadigm language</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Peter Van Roy</li>
+               <li class="nameList">Seif Haridi</li>
+               <li class="nameList">Christian Schulte</li>
+               <li class="nameList Last">Gert Smolka</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Oz is a programming language designed to support multiple programming paradigms in
+                     a clean factored way that is easy to program despite its broad coverage. It started
+                     in 1991 as a collaborative effort by the DFKI (Germany) and SICS (Sweden) and led
+                     to an influential system, Mozart, that was released in 1999 and widely used in the
+                     2000s for practical applications and education. We give the history of Oz as it developed
+                     from its origins in logic programming, starting with Prolog, followed by concurrent
+                     logic programming and constraint logic programming, and leading to its two direct
+                     precursors, the concurrent constraint model and the Andorra Kernel Language (AKL).
+                     We give the lessons learned from the Oz effort including successes and failures and
+                     we explain the principles underlying the Oz design. Oz is defined through a kernel
+                     language, which is a formal model similar to a foundational calculus, but that is
+                     designed to be directly useful to the programmer. The kernel language is organized
+                     in a layered structure, which makes it straightforward to write programs that use
+                     different paradigms in different parts. Oz is a key enabler for the book <em>Concepts, Techniques, and Models of Computer Programming</em> (MIT Press, 2004). Based on the book and the implementation, Oz has been used successfully
+                     in university-level programming courses starting from 2001 to the present day.
+                  </p>
+                  	
+               </div>
+            </div>
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3386334">S, R, and data science</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">John M. Chambers</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Data science is increasingly important and challenging. It requires computational
+                     tools and programming environments that handle big data and difficult computations,
+                     while supporting creative, high-quality analysis. The R language and related software
+                     play a major role in computing for data science. R is featured in most programs for
+                     training in the field. R packages provide tools for a wide range of purposes and users.
+                     The description of a new technique, particularly from research in statistics, is frequently
+                     accompanied by an R package, greatly increasing the usefulness of the description.
+                     
+                  </p> 
+                  <p> The history of R makes clear its connection to data science. R was consciously designed
+                     to replicate in open-source software the contents of the S software. S in turn was
+                     written by data analysis researchers at Bell Labs as part of the computing environment
+                     for research in data analysis and collaborations to apply that research, rather than
+                     as a separate project to create a programming language. The features of S and the
+                     design decisions made for it need to be understood in this broader context of supporting
+                     effective data analysis (which would now be called data science). These characteristics
+                     were all transferred to R and remain central to its effectiveness. Thus, R can be
+                     viewed as based historically on a domain-specific language for the domain of data
+                     science.
+                  </p>
+                  	
+               </div>
+            </div>
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3386335">The evolution of Smalltalk: from Smalltalk-72 through Squeak</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Daniel Ingalls</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This paper presents a personal view of the evolution of six generations of Smalltalk
+                     in which the author played a part, starting with Smalltalk-72 and progressing through
+                     Smalltalk-80 to Squeak and Etoys. It describes the forces that brought each generation
+                     into existence, the technical innovations that characterized it, and the growth in
+                     understanding of object-orientation and personal computing that emerged. It summarizes
+                     what that generation achieved and how it affected the future, both within the evolving
+                     group of developers and users, and in the outside world. 
+                  </p> 
+                  <p> The early Smalltalks were not widely accessible because they ran only on proprietary
+                     Xerox hardware; because of this, few people have experience with these important historical
+                     artifacts. To make them accessible, the paper provides links to live simulations that
+                     can be run in present-day web browsers. These simulations offer the ability to run
+                     pre-defined scripts, but also allow the user to go off-script, browse the details
+                     of the implementation, and try anything that could be done in the original system.
+                     An appendix includes anecdotal and technical aspects of how examples of each generation
+                     of Smalltalk were recovered, and how order was teased out of chaos to the point that
+                     these old systems could be brought back to life.
+                  </p>
+                  	
+               </div>
+            </div>
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3386336">The history of Standard ML</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">David MacQueen</li>
+               <li class="nameList">Robert Harper</li>
+               <li class="nameList Last">John Reppy</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The ML family of strict functional languages, which includes F#, OCaml, and Standard
+                     ML, evolved from the <em>Meta Language</em> of the LCF theorem proving system developed by Robin Milner and his research group
+                     at the University of Edinburgh in the 1970s. This paper focuses on the history of
+                     Standard ML, which plays a central role in this family of languages, as it was the
+                     first to include the complete set of features that we now associate with the name
+                     “ML” (i.e., polymorphic type inference, datatypes with pattern matching, modules,
+                     exceptions, and mutable state). 
+                  </p> 
+                  <p>Standard ML, and the ML family of languages, have had enormous influence on the world
+                     of programming language design and theory. ML is the foremost exemplar of a functional
+                     programming language with strict evaluation (call-by-value) and static typing. The
+                     use of parametric polymorphism in its type system, together with the automatic inference
+                     of such types, has influenced a wide variety of modern languages (where polymorphism
+                     is often referred to as <em>generics</em>). It has popularized the idea of datatypes with associated case analysis by pattern
+                     matching. The module system of Standard ML extends the notion of type-level parameterization
+                     to large-scale programming with the notion of parametric modules, or <em>functors</em>. 
+                  </p> 
+                  <p>Standard ML also set a precedent by being a language whose design included a formal
+                     definition with an associated metatheory of mathematical proofs (such as soundness
+                     of the type system). A formal definition was one of the explicit goals from the beginning
+                     of the project. While some previous languages had rigorous definitions, these definitions
+                     were not integral to the design process, and the formal part was limited to the language
+                     syntax and possibly dynamic semantics or static semantics, but not both. 
+                  </p> 
+                  <p>The paper covers the early history of ML, the subsequent efforts to define a <em>standard</em> ML language, and the development of its major features and its formal definition.
+                     We also review the impact that the language had on programming-language research.
+                  </p>
+                  	
+               </div>
+            </div>
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3386337">Verilog HDL and its ancestors and descendants</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Peter Flake</li>
+               <li class="nameList">Phil Moorby</li>
+               <li class="nameList">Steve Golson</li>
+               <li class="nameList">Arturo Salz</li>
+               <li class="nameList Last">Simon Davidmann</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This paper describes the history of the Verilog hardware description language (HDL),
+                     including its influential predecessors and successors. Since its creation in 1984
+                     and first sale in 1985, Verilog has completely revolutionized the design of hardware.
+                     Verilog enabled the development and wide acceptance of logic synthesis. For large-scale
+                     digital logic design, previous schematic-based techniques have transformed into textual
+                     register-transfer level (RTL) descriptions written in Verilog. As of 2018 about 80%
+                     of integrated circuit design teams worldwide use Verilog and its compatible descendant
+                     SystemVerilog.
+                  </p>
+                  	
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
