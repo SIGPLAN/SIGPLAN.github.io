@@ -744,6 +744,10 @@
   year: 2019
   title: "Proceedings of the 8th ACM SIGPLAN International Workshop on State Of the Art in Program Analysis"
 -
+  event: SOAP
+  year: 2020
+  title: "Proceedings of the 9th ACM SIGPLAN International Workshop on State Of the Art in Program Analysis"
+-
   event: SPLASH
   year: 2014
   title: "Companion Proceedings of the 2014 ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity"
