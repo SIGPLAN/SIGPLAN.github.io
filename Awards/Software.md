@@ -23,5 +23,5 @@ All questions about the Programming Languages Software Award should be directed 
 
 **Committee Chair**: [Emery Berger](mailto:emery@cs.umass.edu) (University of Massachusetts Amherst)
 
-**Committee Members**: [Francesco Logozzo](mailto:logozzo@fb.com) (Facebook), [Steve Blackburn](mailto:Steve.Blackburn@anu.edu.au) (ANU), [Patrick Eugster](mailto:peugster@dsp.tu-darmstadt.de) (TU Darmstadt), [Matthew Flat](mailto:mflatt@cs.utah.edu) (Utah)
+**Committee Members**: [Francesco Logozzo](mailto:logozzo@fb.com) (Facebook), [Steve Blackburn](mailto:Steve.Blackburn@anu.edu.au) (ANU), [Patrick Eugster](mailto:peugster@dsp.tu-darmstadt.de) (TU Darmstadt), [Matthew Flatt](mailto:mflatt@cs.utah.edu) (Utah)
 
