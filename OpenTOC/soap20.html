@@ -1,0 +1,224 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>SOAP 2020: Proceedings of the 9th ACM SIGPLAN International Workshop on the State Of the Art
+         in Program Analysis
+      </title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>SOAP 2020: Proceedings of the 9th ACM SIGPLAN International Workshop on the State Of the Art
+               in Program Analysis
+            </h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3394451"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Keynote</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3394451.3401953">Formal reasoning and the hacker way (keynote)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Peter W. O'Hearn</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In 2013 I moved from to industry after over 25 years in academia, when Facebook acquired
+                     a verification startup, Monoidics, that I was involved with. In this talk I’ll recount
+                     the clash of cultures I encountered, where traditionally calm and cool formal reasoning
+                     techniques came in contact with a heated software development methodology based on
+                     rapid modification of large codebases (thousands of modifications per day on 10s MLOC).
+                     I will tell how we found that static formal reasoning could thrive, if certain technical
+                     approaches (based on compositionality), how the industrial experience caused me to
+                     question some of the assumptions I learned in academic static analysis, and how I’ve
+                     come out the other side with new science spurred by that experience (most recently,
+                     incorrectness logic). Overall, I hope to convey that having science and engineering
+                     playing off one another in a tight feedback loop is possible, even advantageous, when
+                     practicing static analysis in industry at present.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3394451.3397204">TACAI: an intermediate representation based on abstract interpretation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Michael Reif</li>
+               <li class="nameList">Florian Kübler</li>
+               <li class="nameList">Dominik Helm</li>
+               <li class="nameList">Ben Hermann</li>
+               <li class="nameList">Michael Eichberg</li>
+               <li class="nameList Last">Mira Mezini</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Most Java static analysis frameworks provide an intermediate presentation (IR) of
+                     Java Bytecode to facilitate the development of static analyses. While such IRs are
+                     often based on three-address code, the transformation itself is a great opportunity
+                     to apply optimizations to the transformed code, such as constant propagation. 
+                  </p> 
+                  <p> In this paper, we propose TACAI, a refinable IR that is based on abstract interpretation
+                     results of a method's bytecode. Exchanging the underlying abstract interpretation
+                     domains enables the creation of various IRs of different precision levels. Our evaluation
+                     shows that TACAI can be efficiently computed and provides slightly more precise receiver-type
+                     information than Soot's Shimple representation. Furthermore, we show how exchanging
+                     the underlying abstract domains directly impacts the generated IR.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3394451.3397205">Value and allocation sensitivity in static Python analyses</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Raphaël Monat</li>
+               <li class="nameList">Abdelraouf Ouadjaout</li>
+               <li class="nameList Last">Antoine Miné</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Sound static analyses for large subsets of static programming languages such as C
+                     are now widespread. For example the Astrée static analyzer soundly overapproximates
+                     the behavior of C programs that do not contain any dynamic code loading, longjmp statements
+                     nor recursive functions. The sound and precise analysis of widely used dynamic programming
+                     languages like JavaScript and Python remains a challenge. This paper examines the
+                     variation of static analyses of Python – in precision, time and memory usage – by
+                     adapting three parameters: the value sensitivity, the allocation sensitivity and the
+                     activation of an abstract garbage collector . It is not clear yet which level of sensitivity
+                     constitutes a sweet spot in terms of precision versus efficiency to achieve a meaningful
+                     Python analysis. We thus perform an experimental evaluation using a prototype static
+                     analyzer on benchmarks a few thousand lines long. Key findings are: the value analysis
+                     does not improve the precision over type-related alarms; the value analysis is three
+                     times costlier than the type analysis; the allocation sensitivity depends on the value
+                     sensitivity; using an abstract garbage collector lowers memory usage and running times,
+                     but does not affect precision.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3394451.3397206">Explaining bug provenance with trace witnesses</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jixiang Shen</li>
+               <li class="nameList">Xi Wu</li>
+               <li class="nameList">Neville Grech</li>
+               <li class="nameList">Bernhard Scholz</li>
+               <li class="nameList Last">Yannis Smaragdakis</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Bug finders are mainstream tools used during software development that significantly
+                     improve the productivity of software engineers and lower maintenance costs. These
+                     tools search for software anomalies by scrutinising the program's code using static
+                     program analysis techniques, i.e., without executing the code. However, current bug
+                     finders do not explain why bugs were found, primarily due to coarse-grain abstractions
+                     that abstract away large portions of the operational semantics of programming languages.
+                     To further improve the utility of bug finders, it is paramount to explain reported
+                     bugs to the end-users. 
+                  </p> 
+                  <p> In this work, we devise a new technique that produces a program trace for a reported
+                     bug giving insight into the root cause for the reported bug. For the generation of
+                     the program trace, we use an abstracted flow-based semantics for programs to overcome
+                     the undecidability of the problem. We simplify the semantic problem by mapping an
+                     input program with a reported bug to a Constant Copy Machine (CCM) for the trace construction.
+                     Using CCM the semantics of the program can be weakened, and thus bug provenance can
+                     be solved in polynomial time, producing a shortest trace in the process which gives
+                     the shortest explanation. The technique is reified in the bug tracing tool Digger
+                     and is evaluated on several open-source Java programs.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+         </div>
+      </div>
+   </body>
+</html>
