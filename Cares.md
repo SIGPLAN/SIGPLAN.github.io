@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 
-<video width="320" height="240" class="center" controls>
+<video width="640" height="480" class="center" controls>
   <source src="http://www.sigplan.org/sites/default/files/cares-intro.mp4" type="video/mp4">
 </video>
 
