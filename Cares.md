@@ -8,6 +8,11 @@ redirect_from:
 
 ### Purpose of SIGPLAN CARES 
 
+<video width="320" height="240" controls>
+  <source src="http://www.sigplan.org/sites/default/files/cares-intro.mp4" type="video/mp4">
+Co-chairs' introduction to SIGPLAN CARES.
+</video>
+
 SIGPLAN CARES is a subcommittee of SIGPLAN. All SIG events and communications 
 abide by ACM’s policy against discrimination and harassment. If a violation 
 of this policy occurs, ACM urges reporting the incident to the event chair or 
