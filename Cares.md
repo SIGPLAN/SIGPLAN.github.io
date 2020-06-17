@@ -4,8 +4,11 @@ title: "SIGPLAN CARES"
 ---
 
 
-<video width="640" height="480" class="center" controls>
+<video width="640" height="480" controls>
   <source src="http://www.sigplan.org/sites/default/files/cares-intro.mp4" type="video/mp4">
+  <source src="http://www.sigplan.org/sites/default/files/cares-intro.ogv" type="video/ogv">
+  <source src="http://www.sigplan.org/sites/default/files/cares-intro.webm" type="video/webm">
+  Your browser does not support the video tag.
 </video>
 
 ### Purpose of SIGPLAN CARES 
