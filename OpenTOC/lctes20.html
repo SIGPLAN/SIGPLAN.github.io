@@ -1,0 +1,651 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>LCTES '20: The 21st ACM SIGPLAN/SIGBED Conference on Languages, Compilers, and Tools for Embedded
+         Systems
+      </title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>LCTES '20: The 21st ACM SIGPLAN/SIGBED Conference on Languages, Compilers, and Tools for Embedded
+               Systems
+            </h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3372799"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Keynote Address</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3372799.3397167">Compiler 2.0: Using Machine Learning to Modernize Compiler Technology</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Saman Amarasinghe</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Modern compilers are still built using technology that existed decades ago. These
+                     include basic algorithms and techniques for lexing, parsing, data-flow analysis, data
+                     dependence analysis, vectorization, register allocation, instruction selection, and
+                     instruction scheduling. It is high time that we modernize our compiler toolchain.
+                  </p> 
+                  <p>In this talk, I will show the path to the modernization of one important compiler
+                     technique -- vectorization. Vectorization was first introduced in the era of Cray
+                     vector processors during the 1980's.
+                  </p> 
+                  <p>In modernizing vectorization, I will first show how to use new techniques that better
+                     target modern hardware. While vector supercomputers need large vectors, which are
+                     only available by parallelizing loops, modern SIMD instructions efficiently work on
+                     short vectors. Thus, in 2000, we introduced Superword Level Parallelism (SLP) based
+                     vectorization. SLP finds short vector instructions within basic blocks, and by loop
+                     unrolling we can convert vector parallelism to SLP.
+                  </p> 
+                  <p>Next, I will show how we can take advantage of the power of modern computers for compilation,
+                     by using more accurate but expensive techniques to improve SLP vectorization. Due
+                     to the hardware resource constraints of the era, like many other compiler optimizations,
+                     SLP implementation was a greedy algorithm. In 2018, we introduced goSLP, which uses
+                     integer linear programming to find an optimal instruction packing strategy and achieves
+                     7.58% geomean performance improvement over the LLVM's SLP implementation on SPEC2017fp
+                     C/C++ programs.
+                  </p> 
+                  <p>Finally, I will show how to truly modernize a compiler by automatically learning the
+                     necessary components of the compiler with Ithemal and Vemal. The optimality of goSLP
+                     is under LLVM's simple per instruction additive cost model that fits within the Integer
+                     programming framework. However, the actual cost of execution in a modern out-of-order,
+                     pipelined, superscalar processor is much more complex. Manually building such cost
+                     models as well as manually developing compiler optimizations is costly, tedious, error-prone
+                     and is hard to keep up with the architectural changes. Ithemal is the first learnt
+                     cost model for predicting the throughput of x86 basic blocks. It not only significantly
+                     outperforms (more than halves the error) state-of-the-art analytical hand-written
+                     tools like llvm-mca, but also is learnt from data requiring minimal human effort.
+                     Vemal is a learnt policy for end-to-end vectorization as opposed to tuning heuristics,
+                     which outperforms LLVM's SLP vectorizer. These data-driven techniques can help achieve
+                     state-of-the-art results while also reducing the development and maintenance burden
+                     of the compiler developer.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Performance</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3372799.3394359">PAQSIM: Fast Performance Model for Graphics Workload on Mobile GPUs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Xiang Gong</li>
+               <li class="nameList">Chunling Hu</li>
+               <li class="nameList Last">Chu-Cheow Lim</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>As the popularity of GPU in embedded systems keeps increasing, there is a growing
+                     demand for performance models for rapid estimation and tuning. One major challenge
+                     of developing a GPU performance model is the balance between accuracy and speed. The
+                     analytical model and the architectural model, two prevailing performance models, both
+                     have their weaknesses. The analytical model is fast to execute and simple to implement
+                     but usually suffers from low simulation accuracy. On the other hand, the cycle-level
+                     architectural model can offer high accuracy, but often at the expense of the execution
+                     time.
+                  </p> 
+                  <p>In this work, we present a hybrid performance model for core-level performance studies.
+                     Our model takes advantage of the speed of the analytical model and the accuracy of
+                     the cycle-level architectural model. We model the resource contention as in traditional
+                     architectural models but reduce the pipeline stages when no contention is expected.
+                     The graphics workloads have shown uniform characteristics, which allows us to replace
+                     some detailed simulation with analytical models for latency estimation in key events
+                     such as memory accesses, texture fetches, and synchronizations. Such design greatly
+                     reduces the simulation time while maintains decent simulation accuracy.
+                  </p> 
+                  <p>We evaluate our performance model against commercial mobile GPUs. The experiments
+                     using graphics workloads from popular games show great simulation speed and high accuracy
+                     in predicting the GPU performance. For simulations using the aggressive mode, the
+                     simulator can achieve an average 4.1x slowdown, with an average error rate at 6% and
+                     the peak error rate at 27.9%.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3372799.3394361">A Collaborative Filtering Approach for the Automatic Tuning of Compiler Optimisations</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Stefano Cereda</li>
+               <li class="nameList">Gianluca Palermo</li>
+               <li class="nameList">Paolo Cremonesi</li>
+               <li class="nameList Last">Stefano Doni</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Selecting the right compiler optimisations has a severe impact on programs' performance.
+                     Still, the available optimisations keep increasing, and their effect depends on the
+                     specific program, making the task human intractable. Researchers proposed several
+                     techniques to search in the space of compiler optimisations. Some approaches focus
+                     on finding better search algorithms, while others try to speed up the search by leveraging
+                     previously collected knowledge. The possibility to effectively reuse previous compilation
+                     results inspired us toward the investigation of techniques derived from the Recommender
+                     Systems field. The proposed approach exploits previously collected knowledge and improves
+                     its characterisation over time. Differently from current state-of-the-art solutions,
+                     our approach is not based on performance counters but relies on Reaction Matching,
+                     an algorithm able to characterise programs looking at how they react to different
+                     optimisation sets. The proposed approach has been validated using two widely used
+                     benchmark suites, cBench and PolyBench, including 54 different programs. Our solution,
+                     on average, extracted 90% of the available performance improvement 10 iterations before
+                     current state-of-the-art solutions,which corresponds to 40% fewer compilations and
+                     performance tests to perform.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3372799.3394362">ApproxRefresh: Enabling Uncorrectable Data Reuse on Flash Memory with Approximate Read Awareness</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jinhua Cui</li>
+               <li class="nameList">Junwei Liu</li>
+               <li class="nameList">Jianhang Huang</li>
+               <li class="nameList">Haoran Zhu</li>
+               <li class="nameList Last">Laurence Tianruo Yang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>With the increased density and the technology scaling, flash memory is more vulnerable
+                     to noise effects, overwhelmingly lowering the data retention time. The periodic data
+                     refresh technique is commonly used to retain the long-term data integrity. However,
+                     the frequent refresh requests also introduce the increased access conflict and severe
+                     write amplification, leading to sub-optimal performance and lifetime improvement.
+                  </p> 
+                  <p>In this paper, we propose ApproxRefresh, which enables the uncorrectable data reuse
+                     with the assistance of approximate-computing applications in order to reduce the refresh
+                     costs. Specifically, we design a lightweight remapping-free refresh technique, called
+                     RFR, to periodically correct, compute an enhanced ECC and only remap new ECC parity
+                     bits, which dramatically reduces the refresh costs. Then, with approximate-read and
+                     precise-read hotness awareness, ApproxRefresh selectively adopts RFR or the traditional
+                     remapping-based refresh technique to reduce the refresh costs and the read disturbance.
+                     In addition, a corresponding ApproxRefresh-aware garbage collection algorithm is proposed
+                     to complete the design. Evaluations show that ApproxRefresh reduces the refresh latency
+                     by 35.09% over the state-of-the-art.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3372799.3394364">Compiling Spiking Neural Networks to Neuromorphic Hardware</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Shihao Song</li>
+               <li class="nameList">Adarsha Balaji</li>
+               <li class="nameList">Anup Das</li>
+               <li class="nameList">Nagarajan Kandasamy</li>
+               <li class="nameList Last">James Shackleford</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Machine learning applications that are implemented with spike-based computation model,
+                     e.g., Spiking Neural Network (SNN), have a great potential to lower the energy consumption
+                     when executed on a neuromorphic hardware. How- ever, compiling and mapping an SNN
+                     to the hardware is challenging, especially when compute and storage resources of the
+                     hardware (viz. crossbars) need to be shared among the neurons and synapses of the
+                     SNN. We propose an approach to analyze and compile SNNs on resource-constrained neuromorphic
+                     hardware, providing guarantees on key performance metrics such as execution time and
+                     throughput. Our approach makes the following three key contributions. First, we propose
+                     a greedy technique to partition an SNN into clusters of neurons and synapses such
+                     that each cluster can fit on to the resources of a crossbar. Second, we exploit the
+                     rich semantics and expressiveness of Synchronous Dataflow Graphs (SDFGs) to represent
+                     a clustered SNN and analyze its performance using Max-Plus Algebra, considering the
+                     available compute and storage capacities, buffer sizes, and communication bandwidth.
+                     Third, we propose a self-timed execution-based fast technique to compile and admit
+                     SNN-based applications to a neuromorphic hardware at run-time, adapting dynamically
+                     to the available resources on the hard- ware. We evaluate our approach with standard
+                     SNN-based applications and demonstrate a significant performance improvement compared
+                     to current practices.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3372799.3394370">Performance Optimization on big.LITTLE Architectures: A Memory-latency Aware Approach</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Willy Wolff</li>
+               <li class="nameList Last">Barry Porter</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The energy demands of modern mobile devices have driven a trend towards heterogeneous
+                     multi-core systems which include various types of core tuned for performance or energy
+                     efficiency, offering a rich optimization space for software. On such systems, data
+                     coherency between cores is automatically ensured by an interconnect between processors.
+                     On some chip designs the performance of this interconnect, and by extension of the
+                     entire CPU cluster, is highly dependent on the software's memory access characteristics
+                     and on the set of frequencies of each CPU core. Existing frequency scaling mechanisms
+                     in operating systems use a simple load-based heuristic to tune CPU frequencies, and
+                     so fail to achieve a holistically good configuration across such diverse clusters.
+                     We propose a new adaptive governor to solve this problem, which uses a simple trained
+                     hardware model of cache interconnect characteristics, along with real-time hardware
+                     monitors, to continually adjust core frequencies to maximize system performance. We
+                     evaluate our governor on the Exynos5422 SoC, as used in the Samsung Galaxy S5, across
+                     a range of standard benchmarks. This shows that our approach achieves a speedup of
+                     up to 40%, and a 70% energy saving, including a 30% speedup in common mobile applications
+                     such as video decoding and web browsing.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Reliability</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3372799.3394360">Path Sensitive Signatures for Control Flow Error Detection</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Ze Zhang</li>
+               <li class="nameList">Sunghyun Park</li>
+               <li class="nameList Last">Scott Mahlke</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Transistors' performance has been improving by shrinking feature sizes, lowering voltage
+                     levels, and reducing noise margins. However, these changes also make transistors more
+                     vulnerable and susceptible to transient faults. As a result, transient fault protection
+                     has become a crucial aspect of designing reliable systems. According to previous research,
+                     it is about 2.5x harder to mask control flow errors than data flow errors, making
+                     control flow protection critical. In this paper, we present Path Sensitive Signatures
+                     (PaSS), a low overhead and high fault coverage software method to detect illegal control
+                     flows. PaSS targets off-the-shelf embedded systems and combines two different methods
+                     to detect control flow errors that incorrectly jump to both nearby and faraway locations.
+                     In addition, it provides a lightweight technique to protect inter-procedural control
+                     flow transfers including calls and returns. PaSS is evaluated on the SPEC2006 benchmarks.
+                     The experimental results demonstrate that with the same level of fault coverage, PaSS
+                     only incurs 15.5% average performance overhead compared to 64.7% overhead incurred
+                     by the traditional signature-based technique. PaSS can also further extend fault coverage
+                     by providing inter-procedural protection at an additional 3.6% performance penalty.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3372799.3394363">Exploiting the Trust Between Boundaries: Discovering Memory Corruptions in Printers via Driver-Assisted Testing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Xiaoyu He</li>
+               <li class="nameList">Erick Bauman</li>
+               <li class="nameList">Feng Li</li>
+               <li class="nameList">Lei Yu</li>
+               <li class="nameList">Linyu Li</li>
+               <li class="nameList">Bingchang Liu</li>
+               <li class="nameList">Aihua Piao</li>
+               <li class="nameList">Kevin W. Hamlen</li>
+               <li class="nameList">Wei Huo</li>
+               <li class="nameList Last">Wei Zou</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>TrustScope is a new, a practical approach to identifying vulnerabilities in printer
+                     firmware without actually touching the firmware. By exploiting the trust between the
+                     firmware and the device drivers, TrustScope analyzes driver software to identify the
+                     driver endpoints that output the page description language (PDL) code to be sent to
+                     the printer, extracts key constraints for this output, generates new inputs violating
+                     these constraints, and fuzzes the printer firmware with malicious PDL code composed
+                     with these inputs yet conforming to the grammar of the PDL accepted by the printer.
+                     To accommodate the black-box nature of printers, printer behavior is observed strictly
+                     externally, allowing TrustScope to detect more vulnerabilities than only those that
+                     produce crashes. A variety of key optimizations, such as fuzzing without consuming
+                     paper and ink, and offline test case generation, make printer vulnerability detection
+                     feasible and practical. An implementation of TrustScope tested with 8 different printers
+                     reveals at least one test case causing anomalous behavior in every printer tested.
+                     For most printers it finds multiple vulnerabilities, 6 of which have been assigned
+                     CVE numbers, including buffer overflow and information disclosure.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3372799.3394365">Intermittent Computing with Peripherals, Formally Verified</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Gautier Berthou</li>
+               <li class="nameList">Pierre-Évariste Dagand</li>
+               <li class="nameList">Delphine Demange</li>
+               <li class="nameList">Rémi Oudin</li>
+               <li class="nameList Last">Tanguy Risset</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Transiently-powered systems featuring non-volatile memory as well as external peripherals
+                     enable the development of new low-power sensor applications. However, as programmers,
+                     we are ill-equipped to reason about systems where power failures are the norm rather
+                     than the exception. A first challenge consists in being able to capture all the volatile
+                     state of the application -- external peripherals included -- to ensure progress. A
+                     second, more fundamental, challenge consists in specifying how power failures may
+                     interact with peripheral operations. In this paper, we propose a formal specification
+                     of intermittent computing with peripherals, an axiomatic model of interrupt-based
+                     checkpointing as well as its proof of correctness, machine-checked in the Coq proof
+                     assistant. We also illustrate our model with several systems proposed in the literature.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Predictability</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3372799.3394367">CITTA: Cache Interference-aware Task Partitioning for Real-time Multi-core Systems</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jun Xiao</li>
+               <li class="nameList Last">Andy D. Pimentel</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Shared caches in multi-core processors introduce serious difficulties in providing
+                     guarantees on the real-time properties of embedded software due to the interaction
+                     and the resulting contention in the shared caches. Prior work has studied the schedulability
+                     analysis of global scheduling for real-time multi-core systems with shared caches.
+                     This paper considers another common scheduling paradigm: partitioned scheduling in
+                     the presence of shared cache interference. To achieve this, we propose CITTA, a cache-interference
+                     aware task partitioning algorithm. An integer programming formulation is constructed
+                     to calculate the upper bound on cache interference exhibited by a task, which is required
+                     by CITTA. We conduct schedulability analysis of CITTA and formally prove its correctness.
+                     A set of experiments is performed to evaluate the schedulability performance of CITTA
+                     against global EDF scheduling over randomly generated tasksets. Our empirical evaluations
+                     show that CITTA outperforms global EDF scheduling in terms of task sets deemed schedulable.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3372799.3394369">A Synergistic Approach to Predictable Compilation and Scheduling on Commodity Multi-Cores</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Björn Forsberg</li>
+               <li class="nameList">Maxim Mattheeuws</li>
+               <li class="nameList">Andreas Kurth</li>
+               <li class="nameList">Andrea Marongiu</li>
+               <li class="nameList Last">Luca Benini</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Commodity multi-cores are still uncommon in real-time systems, as resource sharing
+                     complicates traditional timing analysis. The Predictable Execution Model (PREM) tackles
+                     this issue in software, through scheduling and code refactoring. State-of-the-art
+                     PREM compilers analyze tasks one at a time, maximizing task-level performance metrics,
+                     and are oblivious to system-level scheduling effects (e.g. memory serialization when
+                     tasks are co-scheduled). We propose a solution that allows PREM code generation and
+                     system scheduling to interact, based on a genetic algorithm aimed at maximizing overall
+                     system performance. Experiments on commodity hardware show that the performance increase
+                     can be as high as 31% compared to standard PREM code generation, without negatively
+                     impacting the predictability guarantees.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3372799.3394371">Improving the Performance of WCET Analysis in the Presence of Variable Latencies</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Zhenyu Bai</li>
+               <li class="nameList">Hugues Cassé</li>
+               <li class="nameList">Marianne De Michiel</li>
+               <li class="nameList">Thomas Carle</li>
+               <li class="nameList Last">Christine Rochange</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Due to the dynamic behaviour of acceleration mechanisms such as caches and branch
+                     predictors, static Worst-Case Execution Time (wcet) analysis methods tend to scale
+                     poorly to modern hardware architectures. As a result, a tradeoff must be made between
+                     the duration and the precision of the analysis, leading to an overesti- mation of
+                     the wcet bounds. This in turn reduces the schedulability and resource usage of the
+                     system. In this paper we present a new data structure to speed up the analysis: the
+                     eXecution Decision Diagram (xdd), which is an ad-hoc extension of Binary Decision
+                     Diagrams tailored for wcet analysis problems. We show how xdds can be used to represent
+                     efficiently execution states and durations of instruction sequencesn a modern hardware
+                     platform. We demon- strate on realistic applications how the use of an xdd substantially
+                     increases the scalability of wcet analysis.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Work-in-progress</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3372799.3394358">A Synthesis-Aided Compiler for DSP Architectures (WiP Paper)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Alexa VanHattum</li>
+               <li class="nameList">Rachit Nigam</li>
+               <li class="nameList">Vincent T. Lee</li>
+               <li class="nameList">James Bornholt</li>
+               <li class="nameList Last">Adrian Sampson</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Digital signal processors (DSPs) offer cutting-edge energy efficiency for embedded
+                     multimedia computations, but writing high-performance DSP code requires expert tuning.
+                     Programmers need to work at a low level of abstraction, manually tailoring vendor-specific
+                     instructions to enable vector and VLIW parallelism. Diospyros is a synthesizing compiler
+                     that searches for optimal data layouts to enable efficient vectorized code on DSPs.
+                     Preliminary results show that for small fixed-size matrix multiply and 2D convolution,
+                     Diospyros achieves a 6.4--7.6x speedup compared to vendor-provided optimized kernels,
+                     and a 6.5--31.3x speedup over loop-based kernels optimized with the vendor's included
+                     compiler.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3372799.3394366">Towards Real-time CNN Inference from a Video Stream on a Mobile GPU (WiP Paper)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Chanyoung Oh</li>
+               <li class="nameList">Gunju Park</li>
+               <li class="nameList">Sumin Kim</li>
+               <li class="nameList">Dohee Kim</li>
+               <li class="nameList Last">Youngmin Yi</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>While there are several frameworks for CNN inference on mobile GPUs, they do not achieve
+                     real-time processing for the most of the CNNs that aim at reasonable accuracy since
+                     they all employ kernel-by-kernel execution model and do not effectively support INT8
+                     quantization yet. In this paper, we reveal that mobile GPUs suffer from large kernel
+                     launch overhead unlike server GPUs, and then propose an on-device deep learning inference
+                     framework that can achieve real-time inference of CNNs on mobile GPUs by removing
+                     kernel launch overhead and by effectively exploiting INT8 quantization. We have evaluated
+                     the proposed framework with a state-of-the-art CNN based face detector (RetinaFace),
+                     and observed up to 2.01X of speedup compared to ARM Compute Library (ACL) on a commodity
+                     smartphone.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3372799.3394368">Beyond Base-2 Logarithmic Number Systems (WiP Paper)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Syed Asad Alam</li>
+               <li class="nameList Last">David Gregg</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Logarithmic number systems (LNS) reduce hardware complexity for multiplication and
+                     division in embedded systems, at the cost of more complicated addition and subtraction.
+                     Existing LNS typically use base-2, meaning that representable numbers are some (often
+                     fractional) power of two. We argue that other bases should be considered. The base
+                     of the LNS determines the distribution of values and may reduce representation errors
+                     when converting inputs to LNS in domain-specific embedded hardware accelerators. Further,
+                     LNS addition and subtraction are normally implemented with lookup tables whose properties
+                     may be a function of the base.
+                  </p> 
+                  <p>We show that other bases can lower both representation and addition and subtraction
+                     error. We consider the case of 8-bit LNS, when converting from 8-bit floating point
+                     (FP). We find that base-1.984 significantly reduces the conversion error. Where we
+                     can scale values, base-1.851 reduces the error to just 0.011 units of least precision
+                     (ULP). A suitable base can also reduce average arithmetic errors. For example, base-1.802
+                     LNS has an average error of 0.242 ULP and 0.212 ULP as compared to 0.243 ULP and 0.226
+                     ULP for addition and subtraction, respectively, for base-2.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3372799.3394372">Towards Building Better Mobile Web Browsers for Ad Blocking: The Energy Perspective (WiP Paper)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Nadja Heitmann</li>
+               <li class="nameList">Benedikt Pirker</li>
+               <li class="nameList">Sangyoung Park</li>
+               <li class="nameList Last">Samarjit Chakraborty</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Advertisements, or ads, are a major source of income for Internet-related service
+                     companies. Meanwhile, ads and trackers consume significant computing resources and
+                     power, which are crucial for mobile devices, and can drain a phone's battery. Moreover,
+                     most users find ads annoying, which led to the development of ad blockers. In this
+                     paper, we characterize the energy consumption of different ads. We find that ad blocking
+                     may either not affect the power consumption at all, or result in power savings of
+                     up to 50% dependent on the web site, reducing the battery life of the mobile device.
+                     Our studies are based on the ad blocking engines provided by the Brave browser. We
+                     believe that our results might impact how such engines can be designed in the future.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3372799.3394373">FPGA-based Near Data Processing Platform Selection Using Fast Performance Modeling
+                  (WiP Paper)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Nazanin Farahpour</li>
+               <li class="nameList">Zhenman Fang</li>
+               <li class="nameList Last">Glenn Reinman</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>With the trend of adopting FPGAs in data centers, various FPGA acceleration platforms
+                     have been developed in recent years. Each server could incorporate one or many of
+                     these FPGAs at different compute hierarchy levels to match its workload intensity.
+                     FPGAs could either be used as IO-attached accelerators or be closely integrated with
+                     CPU as on-chip co-processors. For a more data-centric approach, an FPGA could be moved
+                     closer to the data medium (RAM or disk) and serve as a near-memory or near-storage
+                     accelerator.
+                  </p> 
+                  <p>In this work, we present a quantitative model and in-depth analysis of application
+                     characteristics to determine when an application is more suitable for each acceleration
+                     hierarchy. We analyze 18 benchmarks from six domains and create a preliminary guideline
+                     for both application and hardware developers.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+         </div>
+      </div>
+   </body>
+</html>
