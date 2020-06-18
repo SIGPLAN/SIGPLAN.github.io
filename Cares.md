@@ -47,9 +47,9 @@ serve as a deterrent for behavior that violates the ACM code of conduct, as well
 encourage us all to be aware of and speak up if we observe such behavior.
 
 
-A [blog post](https://www.sigarch.org/what-happens-to-us-does-not-happen-to-most-of-you/) 
+A [blog post](https://www.sigarch.org/sigarch-cares-to-report-on-discrimination-and-harassment/) 
 provides background about the formation of the first CARES committee 
-in the architecture community and this blog post talks about harassment some members 
+in the architecture community and [this blog post](https://www.sigarch.org/what-happens-to-us-does-not-happen-to-most-of-you/) talks about harassment some members 
 of our community have experienced.  The [SIGARCH/SIGMICRO CARES](https://www.sigarch.org/benefit/cares/) 
 committee led to foundation of the SIGPLAN committee.
 
