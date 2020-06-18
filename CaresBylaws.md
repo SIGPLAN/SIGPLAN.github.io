@@ -47,5 +47,5 @@ If an incident is reported to the ACM, Title IX, or other institutional body aga
  
 If the person accused of harassment has a conflict of interest with the committee member who initially receives a report (e.g., a close friend, a close collaborator, an advisor/advisee, same institution, etc.), the committee member will refer the reporter to another committee member immediately.
  
-Reporting to and oversight by SIGPLAN
+### Reporting to and oversight by SIGPLAN
 Although CARES will work autonomously, the final responsibility for its appropriate functioning rests with SIGPLAN. The CARES co-chairs will submit an annual report to SIGPLAN indicating the conferences covered and the committee members attending these meetings. Individual incident reports and conversations with committee members are unequivocally private.  The CARES report will therefore summarize the nature and scale of climate and harassment concerns within the community brought to their attention, but without names or any details, confidential or otherwise. To align with other ACM reporting requirements, the report will be due July 15 and will cover the ACM fiscal year period of July 1 of the prior year to June 30th.
