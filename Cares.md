@@ -13,38 +13,11 @@ title: "SIGPLAN CARES"
 
 ### Purpose of SIGPLAN CARES 
 
-SIGPLAN CARES is a subcommittee of SIGPLAN. All SIG events and communications 
-abide by ACM’s policy against discrimination and harassment. If a violation 
-of this policy occurs, ACM urges reporting the incident to the event chair or 
-the ACM President, CEO, or COO. We recognize that reporting to a conference 
-chair or an upper level ACM administrator can be intimidating, especially 
-in the face of an already unpleasant experience. We have therefore established 
-CARES: Committee to Aid REporting on discrimination and harassment policy 
-violations.
- 
-The role of CARES is to serve as a resource consisting of well-known and 
-respected people in the programming languages community who are approachable 
-and willing to listen to and help people who experience discrimination and 
-harassment at our events; the committee members can be a sounding board for 
-these people and can provide advice on the steps necessary to have the matter 
-further investigated by ACM. It is important to understand that for the matter 
-to be reported, the person experiencing the incident must still themselves send 
-the complaint to ACM where it will be handled according to ACM’s policy. The 
-CARES committee cannot serve as an intermediary in that official process and it 
-cannot be involved in any aspect of the handling of the complaint by ACM.
- 
-The motivation in providing a standing CARES committee is: (1) people are more 
-likely to report harassment or discrimination incidents if familiar and respected 
-members of the community are available for support, (2) unlike conference chairs, 
-the members of the CARES committee will be chosen largely for their commitment and 
-record on the targeted issues, (3) longer membership terms and an (eventually) 
-established committee enable building experience and a record that inspires more 
-trust for those considering coming forward about an incident, (4) committee members 
-are expected to be physically present at our main events and work with event leaders 
-to publicize their role, and (5) the presence of such a committee with respected 
-and trusted members from the community assigned to watch for these issues should 
-serve as a deterrent for behavior that violates the ACM code of conduct, as well as 
-encourage us all to be aware of and speak up if we observe such behavior.
+SIGPLAN CARES is a subcommittee of SIGPLAN. All SIG events and communications abide by ACM’s [policy against discrimination and harassment](https://www.acm.org/diversity-inclusion/stop-harassment). All SIG publications abide by ACM’s [policies on plagiarism, misrepresentation, and falsification](https://www.acm.org/publications/policies/plagiarism-overview); on [coercion and abuse in the ACM publications process](https://www.acm.org/publications/policies/coercion-and-abuse); and on [roles and responsibilities in ACM publishing](https://www.acm.org/publications/policies/roles-and-responsibilities). If a violation of any of these policies occur, ACM urges reporting the incident to the event chair or to ACM leadership, as indicated on those webpages. We recognize that reporting to a conference chair or an upper level ACM administrator can be intimidating, especially in the face of an already unpleasant experience. We have therefore established CARES: Committee to Aid REporting on discrimination, harassment, and related ethical policy violations.
+
+The role of CARES is to serve as a resource comprising of well-known and respected people in the programming languages community who are approachable and willing to listen to and help people who experience or witness discrimination, harassment, or other ethical policy violations either at our events or related to ACM publications; the committee members can be a sounding board for these people and can provide advice on the steps necessary to have the matter further investigated by ACM. It is important to understand that for the matter to be reported, the person experiencing the incident must still themselves send the complaint to ACM where it will be handled according to ACM’s policies. The CARES committee cannot serve as an intermediary in that official process and it cannot be involved in any aspect of the handling of the complaint by ACM.
+
+The motivation in providing a standing CARES committee is: (1) people are more likely to report harassment, discrimination, or other ethical policy violations if familiar and respected members of the community are available for support, (2) unlike conference chairs, the members of the CARES committee will be chosen largely for their commitment and record on the targeted issues, (3) longer membership terms and an (eventually) established committee enable building experience and a record that inspires more trust for those considering coming forward about an incident, (4) committee members are expected to be physically present at our main events and work with event leaders to publicize their role, and (5) the presence of such a committee with respected and trusted members from the community assigned to watch for these issues should serve as a deterrent for behavior that violates the ACM code of conduct, as well as encourage us all to be aware of and speak up if we observe such behavior.
 
 
 A [blog post](https://www.sigarch.org/sigarch-cares-to-report-on-discrimination-and-harassment/) 
