@@ -1,3 +1,23 @@
+2020:
+- Awardee: Woongki Baek (Ulsan National Institute of Science and Technology) and Trishul M. Chilimbi (Amazon)
+  Other: |
+    (for 2010) _[Green: A Framework for Supporting Energy-Conscious Programming using Controlled Approximation](https://dl.acm.org/doi/10.1145/1806596.1806620)_
+  Citation: |
+    The PLDI 2010 paper “Green: A Framework for Supporting
+    Energy-Conscious Programming using Controlled Approximation” by
+    Woongki Baek and Trishul Chilimbi demonstrated conclusively two
+    important things: (1) that frameworks supporting approximations that
+    trade energy/performance costs for quality of service could be
+    generalized and automated, and (2) applying this approach in data
+    center search workloads could result in significant energy reduction
+    and cost, saving millions of dollars in practice.  Green proved that
+    systematic approaches to approximate computing could have enormous
+    commercial impact and predated and informed many subsequent machine
+    learning optimizations, such as using reduced precision arithmetic in
+    deep learning models.  Green also inspired subsequent efforts, to more
+    deeply encode approximation semantics into the underlying programming
+    language design. 
+    
 2019:
 - Awardee: Cormac Flanagan (UC Santa Cruz) and Stephen N. Freund (Williams College)
   Other: |
