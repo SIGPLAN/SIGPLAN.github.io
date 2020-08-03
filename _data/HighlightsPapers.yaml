@@ -43,6 +43,23 @@ Selected July 2020:
     learnt attention over the paths of a program, comes with an open-source 
     implementation, as well as online interactive demos.
 
+- Title: "_[PlanAlyzer: assessing threats to the validity of online experiments](https://dl.acm.org/doi/10.1145/3290353)_"
+  Authors: Emma Tosch (UMass), Eytan Bakshy(Facebook), Emery Berger (UMass), David D. Jensen (UMass), and J. Eliot B. Moss (UMass)
+  Venue: OOPSLA 2019
+  NominationStatement: |
+    The paper presents PlanAlyzer, a first-of-its-kind static analyzer for the
+    domain specific language (DSL) PlanOut. PlanOut is a leading DSL for expressing
+    online experiments, which are a critical tool for designing and engineering
+    online processes by internet companies. PlanAlyzer detects errors that can
+    impact the validity of statistical conclusions. Previously, such experiments
+    were only validated and analyzed by a human ad hoc effort. The paper lists
+    various frequent potential pitfalls that would lead to an erroneous analysis of
+    experiments, including failures of randomization, treatment assignment, or
+    causal sufficiency. PlanAlyzer statically checks whether an input program
+    involves one of these bad practices. Experimental results are provided for a
+    few years' worth of real PlanOut programs from Facebook. A subset of these
+    programs are mutated and PlanAlyzer yields precision and recall of 92% on the
+    mutated corpus.
 
 Selected July 2019:
 
