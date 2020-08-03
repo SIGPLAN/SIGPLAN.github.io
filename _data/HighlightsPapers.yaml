@@ -1,7 +1,7 @@
 Selected July 2020:
 
 - Title: "_[Provably and Practically Efficient Granularity Control](https://dl.acm.org/doi/10.1145/3293883.3295725)_"
-  Authors: Umut A. Acar (CMU and Inria), Vitaly Aksenov (Inria and ITMO University), Arthur Charguéraud (Inria & Université de Strasbourg, CNRS, ICube), Mike Rainey (Indiana University and Inria)
+  Authors: Umut A. Acar (CMU and Inria), Vitaly Aksenov (Inria and ITMO University), Arthur Chargueraud (Inria & Universite de Strasbourg, CNRS, ICube), Mike Rainey (Indiana University and Inria)
   Venue: PPoPP 2019
   NominationStatement: |
     Determining the granularity of parallel tasks is a long-standing 
