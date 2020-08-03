@@ -1,0 +1,242 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>Erlang 2020: Proceedings of the 19th ACM SIGPLAN International Workshop on Erlang</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>Erlang 2020: Proceedings of the 19th ACM SIGPLAN International Workshop on Erlang</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3406085"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3406085.3409008">Machine-checked natural semantics for Core Erlang: exceptions and side effects</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Péter Bereczky</li>
+               <li class="nameList">Dániel Horpácsi</li>
+               <li class="nameList Last">Simon J. Thompson</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This research is part of a wider project that aims to investigate and reason about
+                     the correctness of scheme-based source code transformations of Erlang programs. In
+                     order to formally reason about the definition of a programming language and the software
+                     built using it, we need a mathematically rigorous description of that language. 
+                  </p> 
+                  <p> In this paper, we present an extended natural semantics for Core Erlang based on
+                     our previous formalisation implemented with the Coq Proof Assistant. This extension
+                     includes the concepts of exceptions and side effects, moreover, some modifications
+                     and updates are also discussed. Then we describe theorems about the properties of
+                     this formalisation (e.g. determinism), formal expression evaluation and equivalence
+                     examples. These equivalences can be interpreted as simple local refactorings.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3406085.3409009">Teaching practical realistic verification of distributed algorithms in Erlang with
+                  TLA+</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Peter Zeller</li>
+               <li class="nameList">Annette Bieniusa</li>
+               <li class="nameList Last">Carla Ferreira</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Distributed systems are inherently complex as they need to address the interplay between
+                     features like communication, concurrency, and failure. Due to the inherent complexity
+                     of these interacting features, it is typically not possible to systematically test
+                     these kind of systems; yet, unexpected and unlikely combinations of events might cause
+                     corner cases that are hard to find. But since these systems are running typically
+                     for long durations, these events are likely to materialize eventually and must be
+                     handled correctly. Caught in such a dilemma, students are able to experience the benefits
+                     of applying verification tools to check their own algorithms and implementations.
+                     Having executable models with automatically generated executions allows them to experiment
+                     with different solutions by iteratively adapting and refining their algorithms. 
+                  </p> 
+                  <p> In this experience report, we report on our experience of teaching verification in
+                     a (hands-on) distributed systems course. We argue that broadcast algorithms provide
+                     a sweet spot in design and verification complexity. To this end, we give an implementation
+                     of these algorithms in Erlang and derive a TLA+ specification. TLA+ is a formal language
+                     for describing and reasoning about distributed and concurrent systems and provides
+                     a model checker, TLC, among other things. Our study reveals interesting parallels
+                     between the Erlang and TLA+ code, while exposing the challenges of formally modeling
+                     communication and parallelism in distributed systems. Presenting selected aspects
+                     of our course design, we aim to motivate the feasibility and need for introducing
+                     verification in close correspondence to programming tasks.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3406085.3409010">Transformations towards clean functional code</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Boldizsár Poór</li>
+               <li class="nameList">Melinda Toth</li>
+               <li class="nameList Last">István Bozó</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The programming style has an impact on the readability and comprehensibility of the
+                     source code, and it may also affect run-time performance. This statement also holds
+                     for functional languages when the functional style is mixed with imperative design.
+                     In this paper, we present a couple of methods that can refactor imperatively styled
+                     Erlang source-code into a more functionally styled one. This can be done by transforming
+                     unnecessary calls to length, hd and tl into pattern matching or by lifting particular
+                     nested expressions. The results of our investigations indicate that these refactorings
+                     can not only shorten the length of the source code but also affect the complexity/readability.
+                     In this paper, we present some refactorings; moreover, real-life examples and data
+                     for its validation.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3406085.3409011">Secure design and verification of Erlang systems</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Viktória Fördős</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Security is a critical part of software development, companies have the utmost responsibility
+                     to protect their customers data against any threat. Secure design is a key enabler,
+                     since it cultivates security awareness in software projects from day zero. In this
+                     paper it is shown how to apply the principles of secure design to Erlang software
+                     projects. An Erlang specific method to identify trust zones is presented. The high
+                     risk vulnerabilities of the Erlang ecosystem are reviewed and grouped together using
+                     the CIA triad model. A dataflow based static analysis together with a prototype to
+                     verify security posture of a trust zone are introduced and evaluated using Riak Core
+                     as a case study.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3406085.3409012">Clojerl: the expressive power of Clojure on the BEAM</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Juan Facorro</li>
+               <li class="nameList Last">Natalia Chechina</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The development of new features and approaches in programming languages is a continuous
+                     and never-ending task, as languages are ultimately tools for expressing and solving
+                     problems. The past decade has seen a surge in languages implemented for the BEAM as
+                     part of a search to combine the fault-tolerance and scalability of the BEAM with a
+                     set of desired language features. 
+                  </p> 
+                  <p> In this paper we present Clojerl, an implementation of the Clojure language with
+                     a rich set of data processing capabilities and the expressive power of Lisp for the
+                     BEAM. The main design principles of Clojerl are to provide (1) seamless interoperability
+                     with the BEAM to enable frictionless interaction with other BEAM languages and (2)
+                     portability with Clojure to enable existing Clojure code to run on the BEAM with little
+                     or no modifications. We evaluate Clojerl by running a set of experiments that analyse
+                     the performance of eight most widely used expressions. While the results of complex
+                     expressions show that Clojerl requires further optimisations, Clojerl significantly
+                     outperforms Clojure in a set of basic expressions, confirming that Clojerl has the
+                     potential to provide a competitive performance while offering a rich set of programming
+                     language features.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+         </div>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,391 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>Haskell 2020: Proceedings of the 13th ACM SIGPLAN International Symposium on Haskell</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>Haskell 2020: Proceedings of the 13th ACM SIGPLAN International Symposium on Haskell</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3406088"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Experience Reports</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3406088.3409018">Describing microservices using modern Haskell (experience report)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Alejandro Serrano</li>
+               <li class="nameList Last">Flavio Corpa</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We present Mu, a domain specific language to describe and develop microservices in
+                     Haskell. At its core, Mu provides a type level representation of schemas, which we
+                     leverage in various ways. These schemas can be automatically imported from industry-standard
+                     interface definition languages. 
+                  </p> 
+                  <p> Mu uses many of the type level extensions to GHC, and techniques such as (data type)
+                     generic programming and attribute grammars. Apart from the description of the library,
+                     we discuss a series of shortcomings in current GHC/Haskell, mostly related to the
+                     friendliness of the exposed library interface once complex types enter the scene.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3406088.3409020">Eliminating bugs with dependent Haskell (experience report)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Noam Zilberstein</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Using dependent types in production code is a practical way to eliminate errors. While
+                     there are many examples of using dependent Haskell to prove invariants about code,
+                     few of these are applied to large scale production systems. Critics claim that dependent
+                     types are only useful in toy examples and that they are impractical for use in the
+                     real world. This experience report analyzes real world examples where dependent types
+                     have enabled us to find and eliminate bugs in production Haskell code.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Functional Pearls</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3406088.3409024">A graded Monad for deadlock-free concurrency (functional pearl)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Andrej Ivašković</li>
+               <li class="nameList Last">Alan Mycroft</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We present a new type-oriented framework for writing shared memory multithreaded programs
+                     that the Haskell type system guarantees are deadlock-free. The implementation wraps
+                     all concurrent computation inside a <em>graded monad</em> and assumes a total order is defined between locks. The grades within the type of
+                     such a computation specify which locks it acquires and releases. This information
+                     is drawn from an algebra that ensures that types can, in principle, be inferred in
+                     polynomial time.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3406088.3409026">Finger trees explained anew, and slightly simplified (functional pearl)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Koen Claessen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We explicitly motivate the subtle intricacies of Hinze and Paterson's Finger Tree
+                     datastructure, by step-wise refining a naive implementation. The result is a new explanation
+                     of how Finger Trees work and why they have the particular structure they have, and
+                     also a small simplification of the original implementation.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3406088.3409015">Stitch: the sound type-indexed type checker (functional pearl)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Richard A. Eisenberg</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>A classic example of the power of generalized algebraic datatypes (GADTs) to verify
+                     a delicate implementation is the type-indexed expression AST. This functional pearl
+                     refreshes this example, casting it in modern Haskell using many of GHC's bells and
+                     whistles. The Stitch interpreter is a full executable interpreter, with a parser,
+                     type checker, common-subexpression elimination, and a REPL. Making heavy use of GADTs
+                     and type indices, the Stitch implementation is clean Haskell code and serves as an
+                     existence proof that Haskell's type system is advanced enough for the use of fancy
+                     types in a practical setting. The paper focuses on guiding the reader through these
+                     advanced topics, enabling them to adopt the techniques demonstrated here.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3406088.3409019">Type your matrices for great good: a Haskell library of typed matrices and applications
+                  (functional pearl)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Armando Santos</li>
+               <li class="nameList Last">José N. Oliveira</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We study a simple inductive data type for representing correct-by-construction matrices.
+                     Despite its simplicity, it can be used to implement matrix-manipulation algorithms
+                     efficiently and safely, performing in some cases faster than existing alternatives
+                     even though the algorithms are written in a direct and purely functional style. A
+                     rich collection of laws makes it possible to derive and optimise these algorithms
+                     using equational reasoning, avoiding the notorious off-by-one indexing errors when
+                     fiddling with matrix dimensions. We demonstrate the usefulness of the data type on
+                     several examples, and highlight connections to related topics in category theory.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Research Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3406088.3409014">Assessing the quality of evolving Haskell systems by measuring structural inequality</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Sander Kamps</li>
+               <li class="nameList">Bastiaan Heeren</li>
+               <li class="nameList Last">Johan Jeuring</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Software metrics are used to measure the quality of a software system, and to understand
+                     the evolution of the system's quality over time. In this paper we report on an empirical
+                     study that investigates whether structural degradation in Haskell systems is related
+                     to decreasing software quality. For our study we use three metrics that measure internal
+                     attributes at the level of Haskell modules: intra-modular complexity (cohesion), inter-modular
+                     complexity (coupling), and module size. For these metrics, we calculate the Gini coefficient,
+                     which is a measure of the inequality in a distribution of values within a certain
+                     population, and the deviation of the population's central tendency from an empirically
+                     established ideal value. We develop a method to track the evolution, and measure the
+                     correlation between the calculated system-level information and post-release defects.
+                     
+                  </p> 
+                  <p> The results show that: (1) post-release defects are significantly correlated with
+                     the degree of inequality between the size of modules, (2) the inequality measure is
+                     able to indicate significant structural shifts in Haskell source code, and (3) the
+                     deviation of a population's central tendency from an ideal value can serve as a benchmark
+                     to evaluate the structural characteristics of a Haskell system. The results, however,
+                     do not show that a combined measure for inequality and ideal value deviation increases
+                     the ability to indicate the defect proneness of Haskell source code.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3406088.3409023">Composing effects into tasks and workflows</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yves Parès</li>
+               <li class="nameList">Jean-Philippe Bernardy</li>
+               <li class="nameList Last">Richard A. Eisenberg</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Data science applications tend to be built by composing <em>tasks</em>: discrete manipulations of data. These tasks are arranged in directed acyclic graphs,
+                     and many frameworks exist within the data science community supporting such a structure,
+                     which is called a <em>workflow</em>. In realistic applications, we want to be able to both <em>analyze</em> a workflow in the absence of data, and to <em>execute</em> the workflow with data. 
+                  </p> 
+                  <p>This paper combines effect handlers with arrow-like structures to abstract out data
+                     science tasks. This combination of techniques enables a modular design of workflows.
+                     Additionally, these workflows can both be analyzed prior to running (e.g., to provide
+                     early failure) and run conveniently. Our work is directly motivated by real-world
+                     scenarios, and we believe that our approach is applicable to new data science and
+                     machine learning applications and frameworks.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3406088.3409022">Effect handlers in Haskell, evidently</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Ningning Xie</li>
+               <li class="nameList Last">Daan Leijen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Algebraic effect handlers offer an alternative to monads to incorporate effects in
+                     Haskell. In recent work Xie _et al._ show how to give semantics to effect handlers
+                     in terms of plain polymorphic lambda calculus through _evidence translation_. Besides
+                     giving precise semantics, this translation also allows for potentially more efficient
+                     implementations. Here we present the first implementation of this technique as a library
+                     for effect handlers in Haskell. We show how the design naturally leads to a concise
+                     effect interface and how evidence translation enables evaluating _tail resumptive_
+                     operations _in-place_. We give detailed benchmark results where our library performs
+                     well with respect to other approaches.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3406088.3409016">Scripted signal functions</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">David A. Stuart</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Programming time-dependent signals like animations involves expressing both continuous
+                     and discrete changes in signal values. The method of functional reactive programming
+                     (FRP) represents this simply and effectively as discrete modes of an otherwise continuous
+                     signal. In variants of FRP based on arrows, programs are composed not of signals but
+                     rather functions on signals. Accordingly, these signal functions can switch between
+                     discrete modes of operation. However, the literature emphasizes expressions of mode
+                     switching that are unnecessarily limited. An analysis of their limitations indicates
+                     the need for two new, primitive transformations of signal functions. These transformations
+                     help to define a monad that represents signal function modes, and this allows programmers
+                     to express switching in an imperative, script-like style. This scripting interface
+                     gains flexibility and power from several novel operations, including a general-purpose
+                     mapping between modes and a combination that mixes two concurrent modes into one.
+                     We demonstrate its usefulness with several examples.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3406088.3409021">Staged sums of products</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Matthew Pickering</li>
+               <li class="nameList">Andres Löh</li>
+               <li class="nameList Last">Nicolas Wu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Generic programming libraries have historically traded efficiency in return for convenience,
+                     and the generics-sop library is no exception. It offers a simple, uniform, representation
+                     of all datatypes precisely as a sum of products, making it easy to write generic functions.
+                     We show how to finally make generics-sop fast through the use of staging with Typed
+                     Template Haskell.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/abs/10.1145/3406088.3409027">Towards secure IoT programming in Haskell</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Nachiappan Valliappan</li>
+               <li class="nameList">Robert Krook</li>
+               <li class="nameList">Alejandro Russo</li>
+               <li class="nameList Last">Koen Claessen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>IoT applications are often developed in programming languages with low-level abstractions,
+                     where a seemingly innocent mistake might lead to severe security vulnerabilities.
+                     Current IoT development tools make it hard to identify these vulnerabilities as they
+                     do not provide end-to-end guarantees about how data flows within and between appliances.
+                     In this work we present Haski, an embedded domain specific language in Haskell (eDSL)
+                     for secure programming of IoT devices. Haski enables developers to write Haskell programs
+                     that generate C code without falling into many of C’s pitfalls. Haski is designed
+                     after the synchronous programming language Lustre, and sports a backwards compatible
+                     information-flow control extension to restrict how sensitive data is propagated and
+                     modified within the application. We present a novel eDSL design which uses recursive
+                     monadic bindings and allows a natural use of functions and pattern-matching in Haskell
+                     to write Haski programs. To showcase Haski, we implement a simple smart house controller
+                     where communication is done via low-energy Bluetooth on Zephyr OS.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+         </div>
+      </div>
+   </body>
+</html>
