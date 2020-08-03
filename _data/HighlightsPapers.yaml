@@ -24,10 +24,10 @@ Selected July 2020:
     within a small constant factor of the optimal solution (under some assumptions
     that are met by a wide variety of programs).
     
- - Title: "_[code2vec: Learning Distributed Representations of Code](https://dl.acm.org/doi/10.1145/3290353)_"
-   Authors: Uri Alon (Technion, Isreal), Meital Zilberstein (Technion, Isreal), Omer Levy (Facebook AI), Eran Yahav (Technion, Isreal)
-   Venue: POPL 2019
-   NominationStatement: |
+- Title: "_[code2vec: Learning Distributed Representations of Code](https://dl.acm.org/doi/10.1145/3290353)_"
+  Authors: Uri Alon (Technion, Isreal), Meital Zilberstein (Technion, Isreal), Omer Levy (Facebook AI), Eran Yahav (Technion, Isreal)
+  Venue: POPL 2019
+  NominationStatement: |
     Given a code snippet, what is the likely name of the function it implements? 
     Can we predict properties of this snippet, such as how similar it is to other 
     code snippets? Can we answer these questions without executing any code, given 
