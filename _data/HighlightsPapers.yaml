@@ -1,5 +1,67 @@
 Selected July 2020:
 
+- Title: "_[Provably and Practically Efficient Granularity Control](https://dl.acm.org/doi/10.1145/3293883.3295725)_"
+  Authors: Umut A. Acar (CMU and Inria), Vitaly Aksenov (Inria and ITMO University), Arthur Charguéraud (Inria & Université de Strasbourg, CNRS, ICube), Mike Rainey (Indiana University and Inria)
+  Venue: PPoPP 2019
+  NominationStatement: |
+    Determining the granularity of parallel tasks is a long-standing 
+    challenge for parallelizing programs. Overly fine-grained parallelization 
+    incurs excessive overhead due to synchronization and control. Overly 
+    coarse-grained parallelism limits parallelism by impeding load balancing. 
+    Finding the grain size that hits the sweet spot usually requires non-trivial 
+    tuning effort. Almost all parallel programming models (Cilk, OpenMP, TBB, 
+    etc.) require the programmer to manually identify this grain size, which is 
+    usually program and machine dependent. 
+    
+    This paper presents a solution to this problem: a practical and provably 
+    efficient general automatic mechanism for finding the right granularity size 
+    for parallel programs. Their approach works by gradually coarsening the 
+    granularity until parity is achieved between the parallel and sequential 
+    versions. Its practical usability is evaluated against hand tuned granularity 
+    selection on the PBBS benchmark. The results often come close to hand-picked 
+    grain sizes and even outperform them in some cases. The authors provide a 
+    theorem that shows that their control algorithm achieves an execution time of 
+    within a small constant factor of the optimal solution (under some assumptions
+    that are met by a wide variety of programs).
+    
+- Title: "_[code2vec: Learning Distributed Representations of Code](https://dl.acm.org/doi/10.1145/3290353)_"
+  Authors: Uri Alon (Technion, Isreal), Meital Zilberstein (Technion, Isreal), Omer Levy (Facebook AI), Eran Yahav (Technion, Isreal)
+  Venue: POPL 2019
+  NominationStatement: |
+    Given a code snippet, what is the likely name of the function it implements? 
+    Can we predict properties of this snippet, such as how similar it is to other 
+    code snippets? Can we answer these questions without executing any code, given 
+    that we have access to large code databases? This work presents a novel 
+    methodology for addressing these questions by learning from data a so-called 
+    distributed representation of code snippets, similar to the distributed 
+    representations of words or documents from the natural language processing domain. 
+    The key technical innovation is a model that applies soft attention to the 
+    representations of all paths in a code snippet; and can thus learn to identify 
+    the most relevant paths for the task in hand. This highly-cited paper reports 
+    significant advances over previous work in predicting method names compared to 
+    previous work, includes a qualitative evaluation of the interpretability of the 
+    learnt attention over the paths of a program, comes with an open-source 
+    implementation, as well as online interactive demos.
+    
+ - Title: "_[PlanAlyzer: assessing threats to the validity of online experiments](https://dl.acm.org/doi/10.1145/3290353)_"
+   Authors: Emma Tosch (UMass), Eytan Bakshy(Facebook), Emery Berger (UMass), David D. Jensen (UMass), and J. Eliot B. Moss (UMass)
+   Venue: OOPSLA 2019
+   NominationStatement: |
+    The paper presents PlanAlyzer, a first-of-its-kind static analyzer for the
+    domain specific language (DSL) PlanOut. PlanOut is a leading DSL for expressing
+    online experiments, which are a critical tool for designing and engineering
+    online processes by internet companies. PlanAlyzer detects errors that can
+    impact the validity of statistical conclusions. Previously, such experiments
+    were only validated and analyzed by a human ad hoc effort. The paper lists
+    various frequent potential pitfalls that would lead to an erroneous analysis of
+    experiments, including failures of randomization, treatment assignment, or
+    causal sufficiency. PlanAlyzer statically checks whether an input program
+    involves one of these bad practices. Experimental results are provided for a
+    few years' worth of real PlanOut programs from Facebook. A subset of these
+    programs are mutated and PlanAlyzer yields precision and recall of 92% on the
+    mutated corpus.
+
+
 Selected July 2019:
 
 - Title: "_[BioScript: Programming Safe Chemistry on Laboratories-on-a-chip](https://dl.acm.org/citation.cfm?id=3276498)_"
