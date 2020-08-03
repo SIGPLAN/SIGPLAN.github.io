@@ -175,6 +175,10 @@
   year: 2019
   title: "Proceedings of the 17th ACM SIGPLAN International Workshop on Erlang"
 -
+  event: Erlang
+  year: 2020
+  title: "Proceedings of the 18th ACM SIGPLAN International Workshop on Erlang"
+-
   event: ETX
   year: 2014
   title: "Proceedings of the 2014 Workshop on Eclipse Technology eXchange"
@@ -306,6 +310,10 @@
   event: Haskell
   year: 2019
   title: "Proceedings of the 12th ACM SIGPLAN Symposium on Haskell"
+-
+  event: Haskell
+  year: 2020
+  title: "Proceedings of the 13th ACM SIGPLAN Symposium on Haskell"
 -
   event: HOPL
   year: 2020
