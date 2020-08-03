@@ -23,7 +23,26 @@ Selected July 2020:
     theorem that shows that their control algorithm achieves an execution time of 
     within a small constant factor of the optimal solution (under some assumptions
     that are met by a wide variety of programs).
-    
+
+- Title: "_[code2vec: Learning Distributed Representations of Code](https://dl.acm.org/doi/10.1145/3290353)_"
+  Authors: Uri Alon (Technion, Isreal), Meital Zilberstein (Technion, Isreal), Omer Levy (Facebook AI), Eran Yahav (Technion, Isreal)
+  Venue: POPL 2019
+  NominationStatement: |
+    Given a code snippet, what is the likely name of the function it implements? 
+    Can we predict properties of this snippet, such as how similar it is to other 
+    code snippets? Can we answer these questions without executing any code, given 
+    that we have access to large code databases? This work presents a novel 
+    methodology for addressing these questions by learning from data a so-called 
+    distributed representation of code snippets, similar to the distributed 
+    representations of words or documents from the natural language processing domain. 
+    The key technical innovation is a model that applies soft attention to the 
+    representations of all paths in a code snippet; and can thus learn to identify 
+    the most relevant paths for the task in hand. This highly-cited paper reports 
+    significant advances over previous work in predicting method names compared to 
+    previous work, includes a qualitative evaluation of the interpretability of the 
+    learnt attention over the paths of a program, comes with an open-source 
+    implementation, as well as online interactive demos.
+
 
 Selected July 2019:
 
