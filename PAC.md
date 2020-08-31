@@ -89,6 +89,27 @@ reservation deadline of the conference. Also, please check the
 website of the specific conference for additional details about
 other sources of funding and deadlines.
 
+## Students and Scholars from Historically Marginalized Groups
+
+Are you a student or scholar from a historically marginalized group?
+For example, specific to the United States, are you from
+a Historically Black College or University or Minority Serving Institution?
+Would you like to attend a SIGPLAN-sponsored conference,
+but need additional funding to do so?
+The SIGPLAN Professional Activities Committee (PAC) provides support
+to help advance professional goals such as these.
+Even if you are not a SIGPLAN member, you can apply, as long as the
+event you are participating in is sponsored by SIGPLAN.
+
+If you are a student, please follow the instructions above under
+Student Members, and indicate that you are from a historically
+marginalized group in the application form, and indicate which one.
+Neither you nor your advisor needs to be a member of SIGPLAN.
+If you are not a student, please follow the instructions
+above under Professional Members and indicate you are from
+a historically marginalized group in your email, and indicate which one.
+You need not be a member of SIGPLAN.
+
 ## Child-care Travel Support
 
 Would you like to attend a SIGPLAN-sponsored event, but cannot
@@ -175,6 +196,7 @@ information:
 
 Please apply for this grant by visiting the PAC application web
 site: [here](http://pac.sigplan.org/).
+
 
 ## PAC Contact Person
 
