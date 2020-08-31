@@ -9,6 +9,6 @@ title: "SIGPLAN Sponsored Summer Schools"
 
 - [Programming Language Implementation Summer School](https://pliss2019.github.io)
 
-- [Coq Andes Summer School] (https://cass.pleiad.cl/)
+- [Coq Andes Summer School](https://cass.pleiad.cl/)
 
-- [ModPro Summer School] (https://na.eventscloud.com/ereg/inactive.php?eventid=478621)
+- [ModPro Summer School](https://na.eventscloud.com/ereg/inactive.php?eventid=478621)
