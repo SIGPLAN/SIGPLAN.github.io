@@ -812,6 +812,10 @@
   year: 2019
   title: "Proceedings of the 3rd ACM SIGPLAN International Workshop on Type-Driven Development"
 -
+  event: TyDe
+  year: 2020
+  title: "Proceedings of the 4th ACM SIGPLAN International Workshop on Type-Driven Development"
+-
   event: VEE
   year: 2014
   title: "Proceedings of the 10th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments"
