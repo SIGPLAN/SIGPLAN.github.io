@@ -11,8 +11,11 @@ instance.
 Responsibilities of the SC
 --------------------------
 
-1.  To appoint the conference General Chair and Program
-    Chair, after approval by the EC Vice-Chair.  
+1.  To appoint the conference General Chair and Program Chair.
+    The conference General Chair, Program Chair, and program committee
+    members must be approved by the Vice Chair of SIGPLAN.
+    Conference leaders and program committee members may be removed in
+    exceptional circumstances by the SIGPLAN EC or the conference SC.
     <!-- BCP: Here we say that the GC does need to be approved by the EC. -->
     <!-- AF: the problem? -->
     <!-- BCP: That we are not consistent about whether we insist on this. -->
