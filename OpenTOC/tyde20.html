@@ -1,0 +1,162 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>TyDe 2020: Proceedings of the 5th ACM SIGPLAN International Workshop on Type-Driven Development</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>TyDe 2020: Proceedings of the 5th ACM SIGPLAN International Workshop on Type-Driven Development</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3406089"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3406089.3409029">Strongly bounded termination with applications to security and hardware synthesis</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Thomas Reynolds</li>
+               <li class="nameList">William L. Harrison</li>
+               <li class="nameList">Rohit Chadha</li>
+               <li class="nameList Last">Gerard Allwein</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Termination checking is a classic static analysis, and, within this focus, there are
+                     type-based approaches that formalize termination analysis as type systems (i.e., so
+                     that all well-typed programs terminate). But there are situations where a stronger
+                     termination property (which we call strongly-bounded termination) must be determined
+                     and, accordingly, we explore this property via a variant of the simply-typed λ-calculus
+                     called the bounded-time λ-calculus (BTC). This paper presents the BTC and its semantics
+                     and metatheory through a Coq formalization. Important examples (e.g., hardware synthesis
+                     from functional languages and detection of covert timing channels) motivating strongly-bounded
+                     termination and BTC are described as well.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3406089.3409030">Practical dependent type checking using twin types</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Víctor López Juan</li>
+               <li class="nameList Last">Nils Anders Danielsson</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>People writing proofs or programs in dependently typed languages can omit some function
+                     arguments in order to decrease the code size and improve readability. Type checking
+                     such a program involves filling in each of these implicit arguments in a type-correct
+                     way. This is typically done using some form of unification. 
+                  </p> 
+                  <p> One approach to unification, taken by Agda, involves sometimes starting to unify
+                     terms before their types are known to be equal: in some cases one can make progress
+                     on unifying the terms, and then use information gleaned in this way to unify the types.
+                     This flexibility allows Agda to solve implicit arguments that are not found by several
+                     other systems. However, Agda's implementation is buggy: sometimes the solutions chosen
+                     are ill-typed, which can cause the type checker to crash. 
+                  </p> 
+                  <p> With Gundry and McBride's twin variable technique one can also start to unify terms
+                     before their types are known to be equal, and furthermore this technique is accompanied
+                     by correctness proofs. However, so far this technique has not been tested in practice
+                     as part of a full type checker. 
+                  </p> 
+                  <p> We have reformulated Gundry and McBride's technique without twin variables, using
+                     only twin types, with the aim of making the technique easier to implement in existing
+                     type checkers (in particular Agda). We have also introduced a type-agnostic syntactic
+                     equality rule that seems to be useful in practice. The reformulated technique has
+                     been tested in a type checker for a tiny variant of Agda. This type checker handles
+                     at least one example that Coq, Idris, Lean and Matita cannot handle, and does so in
+                     time and space comparable to that used by Agda. This suggests that the reformulated
+                     technique is usable in practice.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+         </div>
+      </div>
+   </body>
+</html>
