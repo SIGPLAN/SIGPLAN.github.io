@@ -1,3 +1,26 @@
+2020:
+- Awardee: David Van Horn and Matthew Might
+  Other: |
+   (for 2010) _[Abstracting Abstract Machines](https://dl.acm.org/doi/10.1145/1863543.1863553)_
+  Citation: |
+    The idea is to systematically go from a high-level program semantics
+    to a nondeterministic finite-state machine that can be implemented not
+    only efficiently but in a relatively straightforward manner.
+
+    The paper showed how this works for a wide variety of language
+    constructs such as mutable state, first-class continuations and
+    laziness, and how careful choices lead to analyses with tunable
+    computational complexity.
+
+    A key advantage of the approach is that ideas from programming
+    language design and implementation can be directly imported and
+    applied to the design and implementation of abstract interpreters.
+
+    The approach has influenced static analyses for Erlang, JavaScript and
+    other languages, and it has influenced many researchers who work on
+    sound static analyses.
+
+
 2019:
 - Awardee: Simon Marlow, Simon Peyton Jones, and Satnam Singh
   Other: |
