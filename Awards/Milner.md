@@ -97,6 +97,7 @@ originally written).
 
 #### Committee
 
+* [Emery Berger](https://emeryberger.com/), UMass (Chair)
 * [Michelle Strout](http://cgi.cs.arizona.edu/~mstrout/), University of Arizona (PLDI)
 * [Derek Dreyer](https://people.mpi-sws.org/~dreyer/), MPI-SWS (POPL)
 * [Eijiro Sumii](http://www.kb.ecei.tohoku.ac.jp/~sumii/), Tohoku University (ICFP)
