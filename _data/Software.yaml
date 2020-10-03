@@ -1,3 +1,25 @@
+2020:
+- Awardee: "Pin"
+  Citation: |
+    Pin is a dynamic binary instrumentation platform, developed and 
+    actively supported for over 15 years by Intel. Through an extensive 
+    API for instrumentation of applications at different abstraction levels, 
+    Pin supports the creation of custom program analysis and profiling tools, 
+    hardware simulators, or binary translators. By supporting such scenarios 
+    for complex production applications, Pin has enabled research across many 
+    domains including programming languages, computer architecture, security, 
+    mobile systems, networking, embedded systems, operating systems, and 
+    high-performance computing. In particular, Pin opened the door for 
+    instrumentation of x86 binaries across a wide range of platforms and 
+    operating systems, thus changing the landscape of computer architecture 
+    and programming language research. To maintain transparency towards 
+    applications while achieving unprecedented low runtime overheads, Pin 
+    uses a wide array of optimizations rooted in the dynamic binary translation
+    and instrumentation technology pioneered by the SIGPLAN community, such as 
+    just in time compilation of basic blocks, and trampolines from such code 
+    fragments to others. Pin is also widely used in the classroom of numerous 
+    universities at both undergraduate and graduate levels.
+    
 2019:
 - Awardee: "Scala"
   Citation: |
