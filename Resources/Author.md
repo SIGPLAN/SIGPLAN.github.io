@@ -65,7 +65,7 @@ typesetting.)
 
 The `screen` option adds colors to hyperlinks and cross references.
 
-The ACM Publishing System (TAPS) maintains [a list of accepted LaTeX packages](https://www.acm.org/publications/taps/whitelist-of-latex-packages) that are compatible with TAPS production processing of your LaTeX source files. Please note that for the successful conversion of your article to HTML, the use of LaTeX packages must be restricted to the below list.
+The ACM Publishing System (TAPS) maintains [a list of accepted LaTeX packages](https://www.acm.org/publications/taps/whitelist-of-latex-packages) that are compatible with TAPS production processing of your LaTeX source files. Please note that for the successful conversion of your article to HTML, the use of LaTeX packages must be restricted to the  list.
 
 ### Microsoft Word
 
