@@ -55,6 +55,10 @@
   year: 2019
   title: "Proceedings of the 6th ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming"
 -
+  event: BID
+  year: 2020
+  title: "Proceedings of the 1st Workshop on Benchmarking in the Datacenter"
+-
   event: CC
   year: 2016
   title: "Proceedings of the 25th International Conference on Compiler Construction"
