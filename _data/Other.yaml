@@ -1,4 +1,22 @@
 2019:
+- Award: John Vlissides Award
+  Awardee: "Junwen Yang, University of Chicago"
+  Citation: |
+    Junwen Yang’s PhD work illuminates and addresses performance
+    problems that affect applications that use Object Relational
+    Mapping (ORM) frameworks as the interface to databases. The work
+    uses profiling and repository mining to study performance issues
+    in open-source projects, and generalizes them into a small suite
+    of performance anti-patterns. It then presents static analyses to
+    help programmers identify and resolve performance problems. The
+    analyses suggest semantics-preserving refactorings when possible,
+    but also allow programmers to tradeoff functionality for
+    performance if necessary. The evaluation shows that this work is
+    usable by programmers, uncovers hundreds of previously unknown
+    performance problems, and can lead to significant performance
+    gains.
+
+2019:
 - Award: ASPLOS Most Influential Paper Award
   Awardee: Emery D. Berger, Kathryn S. McKinley, Robert D. Blumofe, and Paul R. Wilson
   Other: |
