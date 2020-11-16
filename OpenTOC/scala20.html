@@ -1,0 +1,231 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>SCALA 2020: Proceedings of the 11th ACM SIGPLAN International Symposium on Scala</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>SCALA 2020: Proceedings of the 11th ACM SIGPLAN International Symposium on Scala</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3426426"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Keynote</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426426.3434065">Towards a sound approximating compiler for numerical kernels (keynote)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Eva Darulova</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Computing resources are fundamentally limited and sometimes an exact solution may
+                     not even exist. Thus, when implementing real-world systems, approximations are inevitable,
+                     as are the errors they introduce. The magnitude of errors is problem-dependent but
+                     higher accuracy generally comes at a cost in terms of memory, energy or runtime, effectively
+                     creating an accuracy-efficiency tradeoff. To take advantage of this tradeoff, we need
+                     to ensure that the computed results are sufficiently accurate, otherwise we risk disastrously
+                     incorrect results or system failures. 
+                  </p> 
+                  <p> In this talk, we present the current state of the tool Daisy which approximates numerical
+                     kernels in an automated and trustworthy fashion. Daisy allows a programmer to write
+                     exact high-level code and generates an efficient implementation satisfying a given
+                     accuracy specification. We discuss Daisy's verification techniques for bounding the
+                     effects of numerical errors, and the approximations Daisy can synthesize fully automatically.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426426.3428485">ScalaPy: seamless Python interoperability for cross-platform Scala programs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Shadaj Laddad</li>
+               <li class="nameList Last">Koushik Sen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In recent years, Python has become the language of choice for data scientists with
+                     its many high-quality scientific libraries and Scala has become the go-to language
+                     for big data systems. In this paper, we bridge these languages with ScalaPy, a system
+                     for interoperability between Scala and Python. With ScalaPy, developers can use Python
+                     libraries in Scala by treating Python values as Scala objects and exposing Scala values
+                     to Python. ScalaPy supports both Scala on the JVM and Scala Native, enabling its usage
+                     from data experiments in interactive notebook environments to performance-critical
+                     production systems. In this paper, we explore the challenges involved with mixing
+                     the semantics and implementations of these two disparate languages.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426426.3428486">Semantics-preserving inlining for metaprogramming</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Nicolas Stucki</li>
+               <li class="nameList">Aggelos Biboudis</li>
+               <li class="nameList">Sébastien Doeraene</li>
+               <li class="nameList Last">Martin Odersky</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Inlining is used in many different ways in programming languages: some languages use
+                     it as a compiler-directive solely for optimization, some use it as a metaprogramming
+                     feature, and others lay their design in-between. This paper presents inlining through
+                     the lens of metaprogramming and we describe a powerful set of metaprogramming constructs
+                     that help programmers to unfold domain-specific decisions at compile-time. In a multi-paradigm
+                     language like Scala, the concern for generality of inlining poses several interesting
+                     questions and the challenge we tackle is to offer inlining without changing the model
+                     seen by the programmer. In this paper, we explore these questions by explaining the
+                     rationale behind the design of Scala-3's inlining capability and how it relates to
+                     its metaprogramming architecture.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426426.3428487">Kaizen: a scalable concolic fuzzing tool for Scala</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Mohammadreza Ashouri</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Scala is an open-source programming language created by Martin Odersky in 2001 and
+                     released under the BSD or Berkeley Software Distribution license. The language consolidates
+                     object-oriented and functional programming in one high-level and robust language.
+                     Scala also maintains static types that help to reduce tricky errors during the execution
+                     time. In this paper, we introduce ”Kaizen” as a practical security analysis tool that
+                     works based on concolic fuzzing for evaluating real-world Scala applications. 
+                  </p> 
+                  <p>To evaluated our approach, we analyzed 1,000 popular Scala projects existing on GitHub.
+                     As a result, Kaizen could report and exploit 101 security issues; some of those have
+                     not been reported before. Furthermore, our performance analysis outcome on the ScalaBench
+                     test suite demonstrates a 49% runtime overhead that proves Kaizen’s usefulness for
+                     security testing in the Scala ecosystem.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426426.3434120">ONNX-Scala: typeful, functional deep learning / Dotty meets an open AI standard (open-source
+                  talk)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Alexander Merritt</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>ONNX (Open Neural Network eXchange) is an open standard for machine learning interoperability,
+                     supported by the most widely used tools and frameworks. ONNX-Scala (https://github.com/EmergentOrder/onnx-scala)
+                     brings full support for the ONNX specification, and hence for state-of-the-art deep
+                     learning models as well as numerical computing more generally to the Scala ecosystem.
+                     Backed by the optimized native CPU/GPU backend ONNX Runtime, with a Scala.js backend
+                     coming soon, it offers 2 APIs: A) For off-the-shelf models / performance-critical
+                     scenarios, a simple black-box API, B) for everything else (pre/post processing, model
+                     customization, internal parameter streaming, etc.) a fine grained API that exposes
+                     each ONNX operator as a pure function with type-level encoding of, and constraints
+                     on, shapes, axis semantics and data type for each input and output tensor / ndarray.
+                     The latter API synthesizes recent progress toward more typeful and functional approaches
+                     from across the (Python-dominated) AI ecosystem, implemented using a variety of new
+                     features in Dotty / Scala 3 and forms the basis of NDScala (https://github.com/SciScala/NDScala),
+                     a NumPy-like API enabling seamless interoperation between ONNX-Scala and other JVM-based
+                     offerings via an ndarray type class.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+         </div>
+      </div>
+   </body>
+</html>

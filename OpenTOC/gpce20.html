@@ -1,0 +1,454 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>GPCE 2020: Proceedings of the 19th ACM SIGPLAN International Conference on Generative Programming:
+         Concepts and Experiences
+      </title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>GPCE 2020: Proceedings of the 19th ACM SIGPLAN International Conference on Generative Programming:
+               Concepts and Experiences
+            </h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3425898"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3425898.3426952">Modeling black-box components with probabilistic synthesis</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Bruce Collie</li>
+               <li class="nameList">Jackson Woodruff</li>
+               <li class="nameList Last">Michael F. P. O'Boyle</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This paper is concerned with synthesizing programs based on black-box oracles: we
+                     are interested in the case where there exists an executable implementation of a component
+                     or library, but its internal structure is unknown. We are provided with just an API
+                     or function signature, and aim to synthesize a program with equivalent behavior. 
+                  </p> 
+                  <p> To attack this problem, we detail Presyn: a program synthesizer designed for flexible
+                     interoperation with existing programs and compiler toolchains. Presyn uses high-level
+                     imperative control-flow structures and a pair of cooperating predictive models to
+                     efficiently narrow the space of potential programs. These models can be trained effectively
+                     on small corpora of synthesized examples. 
+                  </p> 
+                  <p> We evaluate Presyn against five leading program synthesizers on a collection of 112
+                     synthesis benchmarks collated from previous studies and real-world software libraries.
+                     We show that Presyn is able to synthesize a wider range of programs than each of them
+                     with less human input. We demonstrate the application of our approach to real-world
+                     code and software engineering problems with two case studies: accelerator library
+                     porting and detection of duplicated library reimplementations.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3425898.3426957">Automated variability injection for graphical modelling languages</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Antonio Garmendia</li>
+               <li class="nameList">Manuel Wimmer</li>
+               <li class="nameList">Esther Guerra</li>
+               <li class="nameList">Elena Gómez-Martínez</li>
+               <li class="nameList Last">Juan de Lara</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Model-based development approaches, such as Model-Driven Engineering (MDE), heavily
+                     rely on the use of modelling languages to achieve and automate software development
+                     tasks. To enable the definition of model variants (e.g., supporting the compact description
+                     of system families), one solution is to combine MDE with Software Product Lines. However,
+                     this is technically costly as it requires adapting many MDE artefacts associated to
+                     the modelling language -- especially the meta-models and graphical environments. To
+                     alleviate this situation, we propose a method for the automated injection of variability
+                     into graphical modelling languages. Given the meta-model and graphical environment
+                     of a particular language, our approach permits configuring the allowed model variability,
+                     and the graphical environment is automatically adapted to enable creating models with
+                     variability. Our solution is implemented atop the Eclipse Modeling Framework and Sirius,
+                     and synthesizes adapted graphical editors integrated with FeatureIDE.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3425898.3426959">Correctness-by-construction for feature-oriented software product lines</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Tabea Bordis</li>
+               <li class="nameList">Tobias Runge</li>
+               <li class="nameList Last">Ina Schaefer</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Software product lines are increasingly used to handle the growing demand of custom-tailored
+                     software variants. They provide systematic reuse of software paired with variability
+                     mechanisms in the code to implement whole product families rather than single software
+                     products. A common domain of application for product lines are safety-critical systems,
+                     which require behavioral correctness to avoid dangerous situations in-field. While
+                     most approaches concentrate on post-hoc verification for product lines, we argue that
+                     a stepwise approach to create correct programs may be beneficial for developers to
+                     manage the growing variability. Correctness-by-construction is such a stepwise approach
+                     to create programs using a set of small, tractable refinement rules that guarantee
+                     the correctness of the program with regard to its specification. In this paper, we
+                     propose the first approach to develop correct-by-construction software product lines
+                     using feature-oriented programming. First, we extend correctness-by-construction by
+                     two refinement rules for variation points in the code. Second, we give a proof for
+                     the soundness of the proposed rules. Third, we implement our technique in a tool called
+                     VarCorC and show the applicability of the tool by conducting two case studies.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3425898.3426961">Multi-stage programming in the large with staged classes</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Lionel Parreaux</li>
+               <li class="nameList Last">Amir Shaikhha</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Multi-stage programming (MSP) holds great promise, allowing the reliable generation
+                     of specialized, partially-evaluated code with static type- and scope-safety guarantees.
+                     Yet, we argue that MSP has not reached its full potential yet, as it has been traditionally
+                     limited to generating expressions, and has lacked principled facilities for generating
+                     modular programs and data structures. In that sense, we argue that MSP has been reserved
+                     for programming “in the small,” focused on generating efficient kernels of computation
+                     on the scale of single function bodies. We present a novel technique called staged
+                     classes, which extends MSP with the ability to manipulate class definitions as first-class
+                     constructs. This lets programmers use MSP “in the large,” on the level of applications,
+                     rather than mere functions. This way, applications can be designed in an abstract
+                     and modular way without runtime cost, as staged classes guarantee the removal of all
+                     staging-time abstractions, resulting in the generation of efficient specialized modules
+                     and data structures. We describe the design of a prototype relational database system
+                     in Scala, which uses several stages of runtime compilation to maximize the efficiency
+                     of query execution and data storage. We also show that staged classes can be used
+                     for defining type- and scope-safe implementations of type providers.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3425898.3426960">Reorganizing queries with grouping</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Rui Okura</li>
+               <li class="nameList Last">Yukiyoshi Kameyama</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Language-integrated query has attracted much attention from researchers and engineers.
+                     It enables one to write a database query with high-level abstractions, which makes
+                     it possible to compose, iterate, and reuse queries. An important issue in language-integrated
+                     query is the N+1 query problem, and Cheney et al. proposed a program-transformation
+                     approach to solve it for a core language of Microsoft’s LINQ. In our previous work,
+                     we extended their language to grouping (GROUP BY in SQL) and aggregate functions,
+                     and showed that any term can be transformed to a single SQL query. It still has a
+                     problem in that the resulting queries may be unnecessarily large and inefficient.
+                     
+                  </p> 
+                  <p> This paper solves the problem. Our key idea is re-organization of queries with nested
+                     control structures. While our previous work decomposes grouping into finer primitives
+                     before transformation, the new algorithm fuses nested control structures after transformation,
+                     while keeping the absence of nested data structures. Our algorithm also eliminates
+                     correlated subqueries as much as possible, to obtain better performance. We have conducted
+                     performance measurements, which shows that our new algorithm reduces the size of generated
+                     queries and improves the performance for several examples.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3425898.3426956">Manipulating GUI structures declaratively</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Knut Anders Stokke</li>
+               <li class="nameList">Mikhail Barash</li>
+               <li class="nameList Last">Jaakko Järvi</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>GUIs often contain structures that are incidental, not properly manipulatable through
+                     well-defined APIs. For example, modifying a list of items in a GUI's model may require
+                     extraneous bookkeeping operations in the view, such as adding and removing event handlers,
+                     and updating the menu structure. Observing GUIs in practice gives an indication that
+                     programmers may find it difficult or tedious to implement complete and convenient
+                     sets of operations for manipulating various structures: useful operations for adding,
+                     inserting, swapping, or reordering elements are often missing, inconsistent, or limited.
+                     This paper introduces a DSL for programming operations that manipulate such incidental
+                     structures. The programmer specifies structures via relations between elements, concretely
+                     by defining methods that unestablish and establish a relation. This gives the programmer
+                     an ability to describe structural transformations via rules that control which relations
+                     should hold before and after a rule is applied. The API for structure manipulation
+                     is generated from these rules. Our DSL can give an abstract view on ad-hoc structures,
+                     making it easier to provide the necessary set of operations for their convenient manipulation.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3425898.3426954">PReGO: a generative methodology for satisfying real-time requirements on COTS-based
+                  systems: definition and experience report</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Benjamin Rouxel</li>
+               <li class="nameList">Ulrik Pagh Schultz</li>
+               <li class="nameList">Benny Akesson</li>
+               <li class="nameList">Jesper Holst</li>
+               <li class="nameList">Ole Jørgensen</li>
+               <li class="nameList Last">Clemens Grelck</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Satisfying real-time requirements in cyber-physical systems is challenging as timing
+                     behaviour depends on the application software, the embedded hardware, as well as the
+                     execution environment. This challenge is exacerbated as real-world, industrial systems
+                     often use unpredictable hardware and software libraries or operating systems with
+                     timing hazards and proprietary device drivers. All these issues limit or entirely
+                     prevent the application of established real-time analysis techniques. 
+                  </p> 
+                  <p> In this paper we propose PReGO, a generative methodology for satisfying real-time
+                     requirements in industrial commercial-off-the-shelf (COTS) systems. We report on our
+                     experience in applying PReGO to a use-case: a Search &amp; Rescue application running
+                     on a fixed-wing drone with COTS components, including an NVIDIA Jetson board and a
+                     stock Ubuntu/Linux. We empirically evaluate the impact of each integration step and
+                     demonstrate the effectiveness of our methodology in meeting real-time application
+                     requirements in terms of deadline misses and energy consumption.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3425898.3426962">VarSem: declarative expression and automated inference of variable usage semantics</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yin Liu</li>
+               <li class="nameList Last">Eli Tilevich</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Programmers declare variables to serve specific implementation purposes that we refer
+                     to as variable usage semantics (VUS). Understanding VUS is required for various software
+                     engineering tasks, including program comprehension, code audits, and vulnerability
+                     detection. To help programmers understand VUS, we present a new program analysis that
+                     infers a variable's usage semantics from its textual and context information (e.g.,
+                     symbolic name, type, scope, information flow). To support this analysis, we introduce
+                     VarSem, a domain-specific language, in which a variable's semantic category is expressed
+                     as a set of declarative rules. VarSem's execution determines which program variables
+                     belong to a given semantic category. VarSem translates high-level declarative rules
+                     into low-level program analysis techniques, including natural language processing
+                     and data flow, and provides a highly extensible architecture for specifying new rules
+                     and analysis techniques. We evaluate VarSem with eight real-world systems to identify
+                     their personally identifiable information variables. The evaluation results show that
+                     VarSem infers variable semantics with satisfying accuracy/precision and passable recall,
+                     thus potentially benefiting both software and security engineers.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3425898.3426953">Fluid quotes: metaprogramming across abstraction boundaries with dependent types</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Shadaj Laddad</li>
+               <li class="nameList Last">Koushik Sen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Object-oriented programming, functional programming, and metaprogramming each offer
+                     a unique axis of abstraction that enables modular code. Macros, a common technique
+                     for metaprogramming, capture ASTs as quotes to let users manipulate them in the host
+                     language. However, macros are often at odds with other programming techniques since
+                     they can only process code written at the call-site and cannot analyze code behind
+                     abstraction boundaries such as variables and methods. Furthermore, the quotes generated
+                     for macro expansion exist only at compile-time and cannot be passed around in user
+                     code. Multi-stage programming treats quotes as runtime values to address this problem,
+                     but introduces the cost of running the compiler when splicing quotes. This forces
+                     developers to choose between low runtime overhead and modularity. What if we could
+                     have the best of both worlds? We introduce fluid quotes, a new technique that uses
+                     dependent types to let users pass quotes through abstraction boundaries in runtime
+                     code while splicing them ahead-of-time. This technique enables new metaprogramming
+                     capabilities by eliminating the traditional requirement of co-locating parameter expressions
+                     with call-sites. Fluid quotes capture not only source code but also associated runtime
+                     context to ensure correctness. In addition, they can be composed into larger expressions
+                     without any macro code. We demonstrate the capabilities of fluid quotes through two
+                     specific applications: optimizing data processing pipelines and making language integrated
+                     queries more flexible.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3425898.3426955">A domain-specific language for filtering in application-level gateways</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Hampus Balldin</li>
+               <li class="nameList Last">Christoph Reichenbach</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Application-level packet filtering is a technique for network access control in which
+                     an “application-level gateway” intercepts network packets at the application level
+                     (e.g., HTTP, FTP), scans them for security concerns and optionally logs, rewrites
+                     or discards them. Existing application-level filters express their filtering rules
+                     in general-purpose languages, which limits the correctness guarantees available for
+                     them. 
+                  </p> 
+                  <p>We present the first declarative language for application-level network filtering,
+                     developed at Advenica AB. Our DSL uses <em>security assertions</em> to express properties that packets must have to be allowed through the network (e.g.,
+                     “IMAP packet contains no executable attachment” or “SQL reply contains only explicitly
+                     permitted columns”), along with remedies that either reject or rewrite undesirable
+                     packets. 
+                  </p> 
+                  <p>We have designed the language around the needs of network filter developers, with
+                     a focus on correctness: our language can statically verify several properties of filter
+                     programs, such as well-formedness of the outcome, confluence, and termination, with
+                     the help of an off-the-shelf SMT solver. 
+                  </p> 
+                  <p>Our initial results show that the language can express many typical filtering tasks,
+                     closely maps to the application domain, and provides strong correctness guarantees.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3425898.3426958">eFLINT: a domain-specific language for executable norm specifications</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">L. Thomas van Binsbergen</li>
+               <li class="nameList">Lu-Chi Liu</li>
+               <li class="nameList">Robert van Doesburg</li>
+               <li class="nameList Last">Tom van Engers</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Software systems that share potentially sensitive data are subjected to laws, regulations,
+                     policies and/or contracts. The monitoring, control and enforcement processes applied
+                     to these systems are currently to a large extent manual, which we rather automate
+                     by embedding the processes as dedicated and adaptable software services in order to
+                     improve efficiency and effectiveness. This approach requires such regulatory services
+                     to be closely aligned with a formal description of the relevant norms. 
+                  </p> 
+                  <p> This paper presents eFLINT, a domain-specific language developed for formalizing
+                     norms. The theoretical foundations of the language are found in transition systems
+                     and in Hohfeld's framework of legal fundamental conceptions. The language can be used
+                     to formalize norms from a large variety of sources. The resulting specifications are
+                     executable and support several forms of reasoning such as automatic case assessment,
+                     manual exploration and simulation. Moreover, the specifications can be used to develop
+                     regulatory services for several types of monitoring, control and enforcement. The
+                     language is evaluated through a case study formalizing articles 6(1)(a) and 16 of
+                     the General Data Protection Regulation (GDPR). A prototype implementation of eFLINT
+                     is discussed and is available online.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+         </div>
+      </div>
+   </body>
+</html>

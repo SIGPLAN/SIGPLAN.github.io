@@ -1,0 +1,771 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>SLE 2020: Proceedings of the 13th ACM SIGPLAN International Conference on Software Language
+         Engineering
+      </title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>SLE 2020: Proceedings of the 13th ACM SIGPLAN International Conference on Software Language
+               Engineering
+            </h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3426425"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426928">Gradually typing strategies</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jeff Smits</li>
+               <li class="nameList Last">Eelco Visser</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The Stratego language supports program transformation by means of term rewriting with
+                     programmable rewriting strategies. Stratego's traversal primitives support concise
+                     definition of generic tree traversals. Stratego is a dynamically typed language because
+                     its features cannot be captured fully by a static type system. While dynamic typing
+                     makes for a flexible programming model, it also leads to unintended type errors, code
+                     that is harder to maintain, and missed opportunities for optimization. 
+                  </p> 
+                  <p> In this paper, we introduce a gradual type system for Stratego that combines the
+                     flexibility of dynamically typed generic programming, where needed, with the safety
+                     of statically declared and enforced types, where possible. To make sure that statically
+                     typed code cannot go wrong, all access to statically typed code from dynamically typed
+                     code is protected by dynamic type checks (casts). The type system is backwards compatible
+                     such that types can be introduced incrementally to existing Stratego programs. We
+                     formally define a type system for Core Gradual Stratego, discuss its implementation
+                     in a new type checker for Stratego, and present an evaluation of its impact on Stratego
+                     programs.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426929">A family of languages for trustworthy agent-based simulation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Steffen Zschaler</li>
+               <li class="nameList Last">Fiona A. C. Polack</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Simulation is a key tool for researching complex system behaviour. Agent-based simulation
+                     has been applied across domains, such as biology, health, economics and urban sciences.
+                     However, engineering robust, efficient, maintainable, and reliable agent-based simulations
+                     is challenging. We present a vision for engineering agent simulations comprising a
+                     family of domain-specific modelling languages (DSMLs) that integrates core software
+                     engineering, validation and simulation experimentation. We relate the vision to examples
+                     of principled simulation, to show how the DSMLs would improve robustness, efficiency,
+                     and maintainability of simulations. Focusing on how to demonstrate the fitness for
+                     purpose of a simulator, the envisaged approach supports bi-directional transparency
+                     and traceability between the original domain understanding to the implementation,
+                     interpretation of results and evaluation of hypotheses.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426930">Annotating executable DSLs with energy estimation formulas</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Thibault Béziers la Fosse</li>
+               <li class="nameList">Massimo Tisi</li>
+               <li class="nameList">Jean-Marie Mottu</li>
+               <li class="nameList Last">Gerson Sunyé</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Reducing the energy consumption of a complex, especially cyber-physical, system is
+                     a cross-cutting concern through the system layers, and typically requires long feedback
+                     loops between experts in several engineering disciplines. Having an immediate automatic
+                     estimation of the global system consumption at design-time would significantly accelerate
+                     this process, but cross-layer tools are missing in several domains. 
+                  </p> 
+                  <p> Executable domain-specific modeling languages (xDSLs) can be used to design several
+                     layers of the system under development in an integrated view. By including the behavioral
+                     specification for software and physical components of the system, they are an effective
+                     source artifact for cross-layer energy estimation. 
+                  </p> 
+                  <p> In this paper we propose EEL, a language for annotating xDSL primitives with energy-related
+                     properties, i.e. how their execution would contribute to the energy consumption on
+                     a specific runtime platform. Given an xDSL, energy specialists create EEL models of
+                     that xDSL for each considered runtime platform. The models are used at design time,
+                     to predict the energy consumption of the real systems. This avoids the need of energetic
+                     analysis by deployment and measurement on all runtime platforms, that is slow and
+                     expensive. 
+                  </p> 
+                  <p> We augment an existing language workbench for xDSLs with an editor for EEL models
+                     and a component that computes energy-consumption estimations during model editing.
+                     The evaluation shows that EEL can be used to represent estimation models from literature,
+                     and provide useful predictions.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426931">A precedence-driven approach for concurrent model synchronization scenarios using
+                  triple graph grammars</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Lars Fritsche</li>
+               <li class="nameList">Jens Kosiol</li>
+               <li class="nameList">Adrian Möller</li>
+               <li class="nameList">Andy Schürr</li>
+               <li class="nameList Last">Gabriele Taentzer</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Concurrent model synchronization is the task of restoring consistency between two
+                     correlated models after they have been changed concurrently and independently. To
+                     determine whether such concurrent model changes conflict with each other and to resolve
+                     these conflicts taking domain- or user-specific preferences into account is highly
+                     challenging. In this paper, we present a framework for concurrent model synchronization
+                     algorithms based on Triple Graph Grammars (TGGs). TGGs specify the consistency of
+                     correlated models using grammar rules; these rules can be used to derive different
+                     consistency restoration operations. Using TGGs, we infer a causal dependency relation
+                     for model elements that enables us to detect conflicts non-invasively. Different kinds
+                     of conflicts are detected first and resolved by the subsequent conflict resolution
+                     process. Users configure the overall synchronization process by orchestrating the
+                     application of consistency restoration fragments according to several conflict resolution
+                     strategies to achieve individual synchronization goals. As proof of concept, we have
+                     implemented this framework in the model transformation tool eMoflon. Our initial evaluation
+                     shows that the runtime of our presented approach scales with the size of model changes
+                     and conflicts, rather than model size.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426932">A search-based and fault-tolerant approach to concurrent model synchronisation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Nils Weidmann</li>
+               <li class="nameList">Lars Fritsche</li>
+               <li class="nameList Last">Anthony Anjorin</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In collaboration scenarios, we often encounter situations in which semantically interrelated
+                     models are changed concurrently. Concurrent model synchronization denotes the task
+                     of keeping these models consistent by propagating changes between them. This is challenging
+                     as changes can contradict each other and thus be in conflict. A problem with current
+                     synchronisation approaches is that they are often nondeterministic, i.e., the order
+                     in which changes are propagated is essential for the result. Furthermore, a common
+                     limitation is that the involved models must have been in a consistent state at some
+                     point, and that the applied changes are at least valid for the domain in which they
+                     were made. We propose a hybrid approach based on Triple Graph Grammars (TGGs) and
+                     Integer Linear Programming (ILP) to overcome these issues: TGGs are a grammar-based
+                     means that supplies us with a superset of possible synchronization solutions, forming
+                     a search space from which an optimum solution incorporating user-defined preferences
+                     can be chosen by ILP. Therefore, the proposed method combines configurability by comprising
+                     expert knowledge via TGGs with the flexible input handling of search-based techniques:
+                     By accepting arbitrary graph structures as input models, the approach is tolerant
+                     towards errors induced during the modelling process, i.e., it can cope with input
+                     models which do not conform to their metamodel or which cannot be generated by the
+                     TGG at hand. The approach is implemented in the model transformation tool eMoflon
+                     and evaluated regarding scalability for growing model sizes and an increasing number
+                     of changes.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426933">Software language engineers’ worst nightmare</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Vadim Zaytsev</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Many techniques in software language engineering get their first validation by being
+                     prototyped to work on one particular language such as Java, Scala, Scheme, or ML,
+                     or a subset of such a language. Claims of their generalisability, as well as discussion
+                     on potential threats to their external validity, are often based on authors' ad hoc
+                     understanding of the world outside their usual comfort zone. To facilitate and simplify
+                     such discussions by providing a solid measurable ground, we propose a language called
+                     BabyCobol, which was specifically designed to contain features that turn processing
+                     legacy programming languages such as COBOL, FORTRAN, PL/I, REXX, CLIST, and 4GLs (fourth
+                     generation languages), into such a challenge. The language is minimal by design so
+                     that it can help to quickly find weaknesses in frameworks making them inapplicable
+                     to dealing with legacy software. However, applying new techniques of software language
+                     engineering and reverse engineering to such a small language will not be too tedious
+                     and overwhelming. BabyCobol was designed in collaboration with industrial compiler
+                     developers by systematically traversing features of several second, third and fourth
+                     generation languages to identify the core culprits in making development of compiler
+                     for legacy languages difficult.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426934">Principles and patterns of JastAdd-style reference attribute grammars</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Niklas Fors</li>
+               <li class="nameList">Emma Söderberg</li>
+               <li class="nameList Last">Görel Hedin</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Reference attribute grammars (RAGs) have reached a level of maturity where they are
+                     supported by several tools, and have gained traction in both academic and industrial
+                     language tool development. However, despite a lot of accumulated knowledge of how
+                     to best develop RAGs in practice, there is limited support to guide practitioners.
+                     
+                  </p> 
+                  <p> In this paper, we address this issue by focusing on one RAG tool, JastAdd, and by
+                     defining principles and patterns for development of RAGs with this tool. We evaluate
+                     the proposed principles and patterns with an exploratory empirical study with 14 practitioners,
+                     with a mix of beginners and experienced users from both academia and industry. The
+                     results indicate that the principles and patterns capture the practice of developing
+                     JastAdd RAGs well, help practitioners to become aware of useful patterns, and provide
+                     a common language to more efficiently reason about the practice of developing JastAdd
+                     RAGs.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426935">An interactive feedback system for grammar development (tool paper)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Chelsea Barraball</li>
+               <li class="nameList">Moeketsi Raselimo</li>
+               <li class="nameList Last">Bernd Fischer</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We describe gtutr, an interactive feedback system designed to assist students in developing
+                     context-free grammars and corresponding ANTLR parsers. It intelligently controls students'
+                     access to a large test suite for the target language. After each submission, gtutr
+                     analyzes any failing tests and uses the Needleman-Wunsch sequence alignment algorithm
+                     over the tests' rule traces to identify and eliminate similar failing tests. This
+                     reduces the redundancy in the feedback 
+                  </p> 
+                  <p> given to the students and prevents them from being overloaded. gtutr uses simple
+                     gamification to encourage independent problem solving by students: it gives as little
+                     information as possible, and students need to prompt the system for further details
+                     such as failing tests similar to or different from already seen tests, or even for
+                     hints about rules that are the most likely to contain faults. It tracks the students'
+                     information requests and uses this to attenuate marks following an instructor-set
+                     penalty schema. The system also visualizes test outcomes over multiple submissions,
+                     helping students to keep track of the effects of their changes as their grammar development
+                     progresses.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426936">Extrinsically typed operational semantics for functional languages</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Matteo Cimini</li>
+               <li class="nameList">Dale Miller</li>
+               <li class="nameList Last">Jeremy G. Siek</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We present a type system over language definitions that classifies parts of the operational
+                     semantics of a language in input, and models a common language design organization.
+                     The resulting typing discipline guarantees that the language at hand is automatically
+                     type sound. 
+                  </p> 
+                  <p>Thanks to the use of types to model language design, our type checker has a high-level
+                     view on the language being analyzed and can report messages using the same jargon
+                     of language designers. 
+                  </p> 
+                  <p>We have implemented our type system in the lang-n-check tool, and we have applied
+                     it to derive the type soundness of several functional languages, including those with
+                     recursive types, polymorphism, exceptions, lists, sums, and several common types and
+                     operators.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426937">Towards the optical character recognition of DSLs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jorge Perianez-Pascual</li>
+               <li class="nameList">Roberto Rodriguez-Echeverria</li>
+               <li class="nameList">Loli Burgueño</li>
+               <li class="nameList Last">Jordi Cabot</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>OCR engines aim to identify and extract text strings fromdocuments or images. While
+                     current efforts focus mostly inmainstream languages, there is little support for program-ming
+                     or domain-specific languages (DSLs). In this paper, wepresent our vision about the
+                     current state of OCR recognitionfor DSLs and its challenges. We discuss some strategies
+                     toimprove the OCR quality applied to DSL textual expressionsby leveraging DSL specifications
+                     and domain data. To bettersupport our ideas we present the preliminary results of
+                     anempirical study and outline a research roadmap.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426938">Test case generation from context-free grammars using generalized traversal of LR-automata</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Christoff Rossouw</li>
+               <li class="nameList Last">Bernd Fischer</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Test case generation from context-free grammars typically uses the grammar's production
+                     rules to directly construct words that cover specific sets of derivations. Here, we
+                     investigate test case generation by traversing graphs derived from the LR-automata
+                     corresponding to the grammars. We develop a new algorithm that generates positive
+                     test cases by covering all edges between pairs of directly connected states in a two-phase
+                     breadth-first path search. The algorithm iterates over all edges stemming from shift/reduce
+                     and reduce/reduce conflicts, using a technique similar to the stack duplication used
+                     in GLR parsing. We then extend our algorithm to generate negative (i.e., syntactically
+                     invalid) test cases, by applying different edge mutation operations during the extraction
+                     of test cases from paths.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426939">Featherweight Swift: a Core calculus for Swift’s type system</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Dimitri Racordon</li>
+               <li class="nameList Last">Didier Buchs</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Swift is a modern general-purpose programming language, designed to be a replacement
+                     for C-based languages. Although primarily directed at development of applications
+                     for Apple's operating systems, Swift's adoption has been growing steadily in other
+                     domains, ranging from server-side services to machine learning. This success can be
+                     partly attributed to a rich type system that enables the design of safe, fast, and
+                     expressive programming interfaces. Unfortunately, this richness comes at the cost
+                     of complexity, setting a high entry barrier to exploit Swift's full potential. Furthermore,
+                     existing documentation typically only relies on examples, leaving new users with little
+                     help to build a deeper understanding of the underlying rules and mechanisms. 
+                  </p> 
+                  <p> This paper aims to tackle this issue by laying out the foundations for a formal framework
+                     to reason about Swift's type system. We introduce Featherweight Swift, a minimal language
+                     stripped of all features not essential to describe its typing rules. Featherweight
+                     Swift features classes and protocol inheritance, supports retroactive modeling, and
+                     emulates Swift's overriding mechanisms. Yet its formalization fits on a few pages.
+                     We present Featherweight Swift's syntax and semantics. We then elaborate on the usability
+                     of our framework to reason about Swift's features, future extensions, and implementation
+                     by discussing a bug in Swift's compiler, discovered throughout the design of our calculus.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426940">Untangling mechanized proofs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Clément Pit-Claudel</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Proof assistants like Coq, Lean, or HOL4 rely heavily on stateful meta-programs called
+                     <em>scripts</em> to assemble proofs. Unlike pen-and-paper proofs, proof scripts only describe the
+                     steps to take (induct on <em>x</em>, apply a theorem, …), not the <em>states</em> that these steps lead to; as a result, plain proof scripts are essentially incomprehensible
+                     without the assistance of an interactive user interface able to run the script and
+                     show the corresponding proof states. 
+                  </p> 
+                  <p>Until now, the standard process to communicate a proof without forcing readers to
+                     execute its script was to manually copy-paste intermediate proof states into the script,
+                     as source code comments — a tedious and error-prone exercise. Additional prose (such
+                     as for a book or tutorial) was likewise embedded in comments, preserving executability
+                     at the cost of a mediocre text-editing experience. 
+                  </p> 
+                  <p>This paper describes a new approach to the development and dissemination of literate
+                     proof scripts, with a focus on the Coq proof assistant. Specifically, we describe
+                     two contributions: a compiler that interleaves Coq’s output with the original proof
+                     script to produce interactive webpages that are complete, self-contained presentations
+                     of Coq proofs; and a new literate programming toolkit that allows authors to switch
+                     seamlessly between prose- and code-oriented views of the same sources, by translating
+                     back and forth between reStructuredText documents and literate Coq source files. In
+                     combination, these tools offer a new way to write, communicate, and preserve proofs,
+                     combining the flexibility of procedural proof scripts and the intelligibility of declarative
+                     proofs.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426941">Monadification of attribute grammars</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Dawn Michaelson</li>
+               <li class="nameList Last">Eric Van Wyk</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We describe a monadification process for attribute grammars for more concisely written
+                     attribute equations, closer to the style of inference rules used in traditional typing
+                     and evaluation specifications. Inference rules specifying, for example, a typing relation
+                     typically consider only typable expressions, whereas well-defined attribute grammars
+                     explicitly determine attribute values for any term, including untypable ones. The
+                     monadification approach lets one represent, for example, types as monadic optional/maybe
+                     values, but write non-monadic equations over the value inside the monad that only
+                     specify the rules for a correct typing, leading to more concise specifications. The
+                     missing failure cases are handled by a rewriting that inserts monadic return, bind,
+                     and failure operations to produce a well-defined attribute grammar that handles untypable
+                     trees. Thus, one can think in terms of a type T and not the actual monadic type M(T).
+                     To formalize this notion, typing and evaluation relations are given for the original
+                     and rewritten equations. The rewriting is total, preserves types, and a correctness
+                     property relating values of original and rewritten equations is given. A prototype
+                     implementation illustrates the benefits with examples such as typing of the simply-typed
+                     lambda calculus with Booleans, evaluation of the same, and type inference in Caml
+                     Light.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426942">Behavior trees in action: a study of robotics applications</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Razan Ghzouli</li>
+               <li class="nameList">Thorsten Berger</li>
+               <li class="nameList">Einar Broch Johnsen</li>
+               <li class="nameList">Swaib Dragule</li>
+               <li class="nameList Last">Andrzej Wąsowski</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Autonomous robots combine a variety of skills to form increasingly complex behaviors
+                     called missions. While the skills are often programmed at a relatively low level of
+                     abstraction, their coordination is architecturally separated and often expressed in
+                     higher-level languages or frameworks. Recently, the language of Behavior Trees gained
+                     attention among roboticists for this reason. Originally designed for computer games
+                     to model autonomous actors, Behavior Trees offer an extensible tree-based representation
+                     of missions. However, even though, several implementations of the language are in
+                     use, little is known about its usage and scope in the real world. How do behavior
+                     trees relate to traditional languages for describing behavior? How are behavior tree
+                     concepts used in applications? What are the benefits of using them? 
+                  </p> 
+                  <p> We present a study of the key language concepts in Behavior Trees and their use in
+                     real-world robotic applications. We identify behavior tree languages and compare their
+                     semantics to the most well-known behavior modeling languages: state and activity diagrams.
+                     We mine open source repositories for robotics applications that use the language and
+                     analyze this usage. We find that Behavior Trees are a pragmatic language, not fully
+                     specified, allowing projects to extend it even for just one model. Behavior trees
+                     clearly resemble the models-at-runtime paradigm. We contribute a dataset of real-world
+                     behavior models, hoping to inspire the community to use and further develop this language,
+                     associated tools, and analysis techniques.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426943">Strategic tree rewriting in attribute grammars</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Lucas Kramer</li>
+               <li class="nameList Last">Eric Van Wyk</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This paper presents strategy attributes, a seamless integration of strategic term
+                     rewriting into attribute grammars. Strategy attributes are specified using rewrite
+                     rules with strategies that control their application. The rules can reference contextual
+                     information held in attributes on the trees being rewritten. This use of attributes
+                     leads to rewriting on decorated trees instead of undecorated terms. During rewriting,
+                     attributes are (lazily) computed on new trees to ensure they are correct with respect
+                     to their defining equations. Attributes and strategic rewriting can each be used where
+                     most appropriate, thus avoiding the cumbersome aspects of each. 
+                  </p> 
+                  <p> Strategy attributes are essentially higher-order attributes for which the defining
+                     equations are automatically generated from the attributes' strategy expressions. They
+                     are thus compatible with other attribute grammar features such as reference attributes,
+                     forwarding, and attribute flow analyses for well-definedness. A conservative static
+                     analysis checks if a strategy is intended to always succeed or to be partial, thus
+                     simplifying its use and optimizing its translation. Strategy attributes are demonstrated
+                     in the optimization of a simple expression language, evaluation of the lambda calculus,
+                     and optimization of strategy attribute translations.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426944">A semantic framework for PEGs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Sérgio Queiroz de Medeiros</li>
+               <li class="nameList Last">Carlos Olarte</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Parsing Expression Grammars (PEGs) are a recognition-based formalism which allows
+                     to describe the syntactical and the lexical elements of a language. The main difference
+                     between Context-Free Grammars (CFGs) and PEGs relies on the interpretation of the
+                     choice operator: while the CFGs’ unordered choice <em>e</em> ∣ <em>e</em>′ is interpreted as the union of the languages recognized by <em>e</em> and <em>e</em>′, the PEGs’ prioritized choice <em>e</em> / <em>e</em>′ discards <em>e</em>′ if <em>e</em> succeeds. Such subtle, but important difference, changes the language recognized
+                     and yields more efficient parsing algorithms. This paper proposes a rewriting logic
+                     semantics for PEGs. We start with a rewrite theory giving meaning to the usual constructs
+                     in PEGs. Later, we show that cuts, a mechanism for controlling backtracks in PEGs,
+                     finds also a natural representation in our framework. We generalize such mechanism,
+                     allowing for both local and global cuts with a precise, unified and formal semantics.
+                     Hence, our work strives at better understanding and controlling backtracks in parsers
+                     for PEGs. The semantics we propose is executable and, besides being a parser with
+                     modest efficiency, it can be used as a playground to test different optimization ideas.
+                     More importantly, it is a mathematical tool that can be used for different analyses.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426945">Example-driven software language engineering</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Mikhail Barash</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Language workbenches---tools to define software languages together with their IDEs---are
+                     designed to simplify language engineering and implementation: they free language engineers
+                     from many meticulous tasks, but oftentimes have a very steep learning curve even for
+                     experienced software professionals. With the assumption that meta-definitions are
+                     one of the key factors that hinder language engineering, we introduce an example-driven
+                     approach to language definition. We describe in this paper our vision of a web-based
+                     tool aimed at beginner language engineers, and list possible requirements for such
+                     a tool. A language is defined by giving examples of code written in it using illustrative
+                     syntax definition. These examples are then annotated to specify different concerns
+                     of language definition---abstract syntax, typing rules, validation rules, formatting
+                     rules, and dynamic semantics.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426946">Grammar-based testing for little languages: an experience report with student compilers</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Phillip van Heerden</li>
+               <li class="nameList">Moeketsi Raselimo</li>
+               <li class="nameList">Konstantinos Sagonas</li>
+               <li class="nameList Last">Bernd Fischer</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We report on our experience in using various grammar-based test suite generation methods
+                     to test 61 single-pass compilers that undergraduate students submitted for the practical
+                     project of a computer architecture course. 
+                  </p> 
+                  <p> We show that (1) all test suites constructed systematically following different grammar
+                     coverage criteria fall far behind the instructor's test suite in achieved code coverage,
+                     in the number of triggered semantic errors, and in detected failures and crashes;
+                     (2) a medium-sized positive random test suite triggers more crashes than the instructor's
+                     test suite, but achieves lower code coverage and triggers fewer non-crashing errors;
+                     and (3) a combination of the systematic and random test suites performs as well or
+                     better than the instructor's test suite in all aspects and identifies errors or crashes
+                     in every single submission. 
+                  </p> 
+                  <p> We then develop a light-weight extension of the basic grammar-based testing framework
+                     to capture contextual constraints, by encoding scoping and typing information as ``semantic
+                     mark-up tokens'' in the grammar rules. These mark-up tokens are interpreted by a small
+                     generic core engine when the tests are rendered, and tests with a syntactic structure
+                     that cannot be completed into a valid program by choosing appropriate identifiers
+                     are discarded. % We formalize individual error models by overwriting individual mark-up
+                     tokens, and generate tests that are guaranteed to break specific contextual properties
+                     of the language. We show that a fully automatically generated random test suite with
+                     15 error models achieves roughly the same coverage as the instructor's test suite,
+                     and outperforms it in the number of triggered semantic errors and detected failures
+                     and crashes. Moreover, all failing tests indicate real errors, and we have detected
+                     errors even in the instructor's reference implementation.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426947">Modular and distributed IDE</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Fabien Coulon</li>
+               <li class="nameList">Alex Auvolat</li>
+               <li class="nameList">Benoit Combemale</li>
+               <li class="nameList">Yérom-David Bromberg</li>
+               <li class="nameList">François Taïani</li>
+               <li class="nameList">Olivier Barais</li>
+               <li class="nameList Last">Noël Plouzeau</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Integrated Development Environments (IDEs) are indispensable companions to programming
+                     languages. They are increasingly turning towards Web-based infrastructure. The rise
+                     of a protocol such as the Language Server Protocol (LSP) that standardizes the separation
+                     between a language-agnostic IDE, and a language server that provides all language
+                     services (<em>e.g.,</em> auto completion, compiler...) has allowed the emergence of high quality generic Web
+                     components to build the IDE part that runs in the browser. However, all language services
+                     require different computing capacities and response times to guarantee a user-friendly
+                     experience within the IDE. The monolithic distribution of all language services prevents
+                     to leverage on the available execution platforms (e.g., local platform, application
+                     server, cloud). In contrast with the current approaches that provide IDEs in the form
+                     of a monolithic client-server architecture, we explore in this paper the modularization
+                     of all language services to support their individual deployment and dynamic adaptation
+                     within an IDE. We evaluate the performance impact of the distribution of the language
+                     services across the available execution platforms on four EMF-based languages, and
+                     demonstrate the benefit of a custom distribution.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426425.3426948">Block-based syntax from context-free grammars</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Mauricio Verano Merino</li>
+               <li class="nameList Last">Tijs van der Storm</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Block-based programming systems employ a jigsaw metaphor to write programs. They are
+                     popular in the domain of programming education (e.g., Scratch), but also used as a
+                     programming interface for end-users in other disciplines, such as arts, robotics,
+                     and configuration management. In particular, block-based environments promise a convenient
+                     interface for Domain-Specific Languages (DSLs) for domain experts who might lack a
+                     traditional programming education. However, building a block-based environment for
+                     a DSL from scratch requires significant effort. 
+                  </p> 
+                  <p> This paper presents an approach to engineer block-based language interfaces by reusing
+                     existing language artifacts. We present Kogi, a tool for deriving block-based environments
+                     from context-free grammars. We identify and define the abstract structure for describing
+                     block-based environments. Kogi transforms a context-free grammar into this structure,
+                     which then generates a block-based environment based on Google Blockly. The approach
+                     is illustrated with four case studies, a DSL for state machines, Sonification Blocks
+                     (a DSL for sound synthesis), Pico (a simple programming language), and QL (a DSL for
+                     questionnaires). The results show that usable block-based environments can be derived
+                     from context-free grammars, and with an order of magnitude reduction in effort.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+         </div>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,266 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>REBLS 2020: Proceedings of the 7th ACM SIGPLAN International Workshop on Reactive and Event-Based
+         Languages and Systems
+      </title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>REBLS 2020: Proceedings of the 7th ACM SIGPLAN International Workshop on Reactive and Event-Based
+               Languages and Systems
+            </h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3427763"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Keynote</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3427763.3432350">An overview of Scade, a synchronous language for safety-critical software (keynote)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Jean-Louis Colaço</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>ANSYS® SCADE Suite® is a development environment for safety critical embedded software
+                     used for more than twenty years in various application domains like avionics, nuclear
+                     plants, transportation, automotive. Its code generator is qualified for several industrial
+                     standards (DO-178C, IEC 61508, EN 50128, IEC 60880 and ISO 26262) to be used in the
+                     development of the most safety critical systems. 
+                  </p> 
+                  <p> Scade is historically based on the synchronous language Lustre designed in Grenoble
+                     in the VERIMAG laboratory by its two mains authors Paul Caspi and Nicolas Halbwachs.
+                     In its early days, it was mainly seen as a graphical notation for this academic language.
+                     
+                  </p> 
+                  <p> In 2008, a major new version was released, based on the language Scade 6 that extended
+                     the dataflow point of view offered by Lustre to integrate new constructs inspired
+                     by Esterel and SyncCharts in order to allow more control oriented design style. This
+                     language is formally specified following the work of Marc Pouzet on the design of
+                     Lucid Synchrone, in particular on the static correction of programs. The formalized
+                     aspects cover mainly the static semantics i.e. the type systems that define what a
+                     correct program is; this correction is based on four type systems: Types (in the most
+                     classical sense), Clocks, Initialization analysis and Causality analyses. 
+                  </p> 
+                  <p> As a formal language, Scade is also well suited to apply formal verification on the
+                     applications developed with it. Programs are guaranteed to run in finite memory which
+                     allows to use state of the art model checking techniques. 
+                  </p> 
+                  <p> The talk will go through this history, giving some insights on the new Scade 6 constructs,
+                     its differences with Lustre and on the development of its qualified code generator.
+                     
+                  </p> 
+                  <p> The formal verification of Scade 6 programs will also be illustrated.</p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3427763.3428312">The essence of live coding: change the program, keep the state!</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Manuel Bärenz</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>One rarely encounters programming languages and frameworks that provide general-purpose
+                     and type-safe hot code swap. It is demonstrated here that this is entirely possible
+                     in Haskell, by faithfully following the motto of live coding: "Change the program,
+                     keep the state." 
+                  </p> 
+                  <p> With generic programming, one easily arrives at an automatic state migration function.
+                     The approach can be generalised to an arrowized Functional Reactive Programming framework
+                     that is parametrized by its side effects. It allows for building up complete live
+                     programs from reusable, modular components, and to separate data flow cleanly from
+                     control flow. Useful utilities for debugging and quickchecking are presented.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3427763.3428313">Debugging of RxJS-based applications</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Manuel Alabor</li>
+               <li class="nameList Last">Markus Stolze</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>RxJS is a popular library to implement data-flow-oriented applications with JavaScript
+                     using reactive programming principles. This way of programming bears new challenges
+                     for traditional debuggers: Their focus on imperative programming limits their applicability
+                     to problems originated in the declarative programming paradigm. The goals of this
+                     paper are: (i) to understand how software engineers debug RxJS-based applications,
+                     what tools do they use, what techniques they apply; (ii) to understand what are the
+                     most prevalent challenges they face while doing so; and (iii) to provide a course
+                     of action to resolve these challenges in a future iteration on the topic. We learned
+                     about the debugging habits of ten professionals using interviews, and hands-on war
+                     story reports. Based on this data, we designed and executed an observational study
+                     with four subjects to verify that engineers predominantly augment source code with
+                     manual trace logs instead of using specialized debugging utilities. In the end, we
+                     identified the lack of fully integrated RxJS-specific debugging solutions in existing
+                     development environments as the most significant reason why engineers do not make
+                     use of such tools. We decided to elaborate on how to resolve this situation in our
+                     future work.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3427763.3428314">Asynchronous monad for reactive IoT programming</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Tian Zhao</li>
+               <li class="nameList">Adam Berger</li>
+               <li class="nameList Last">Yonglun Li</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Many industrial IoT applications process sensor data over distributed networks to
+                     monitor devices in real-time. Since the sensor telemetries are transmitted over networks
+                     as events, imperative and event-driven programs are often used to handle IoT data.
+                     However, the inverted control flow and shared global states of these imperative programs
+                     make them difficult to interface with synchronized computation on IoT data. This problem
+                     is further complicated for high-frequency data such as electric signals, which may
+                     require dynamic adjustment to data sampling rate to operate under the constraints
+                     of network and system. 
+                  </p> 
+                  <p> In this paper, we propose a push-pull reactive programming model for IoT application
+                     to address this challenge. This model uses push-streams for asynchronous computation
+                     such as data capturing and user controls and uses pull streams for synchronized computation
+                     such as data analysis. This model is simpler than push-based models by avoiding the
+                     complexity of glitch prevention through re-sampling in pull-streams. It is also more
+                     flexible than pull-based models by allowing dynamic adjustment of the sampling rate
+                     to maintain real-time speed of the IoT computation. The push-stream has a monadic
+                     interface, which converts to a pull stream through buffering. A pull stream converts
+                     to a push-stream when driven by a clock. The dynamic switching of our streams is based
+                     on a monadic abstraction called AsyncM that uses continuation passing style and a
+                     form of cancellation token for asynchronous control. Our model is simple and can use
+                     threads or event callbacks for concurrency.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3427763.3428316">Reactive sorting networks</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Bjarno Oeyen</li>
+               <li class="nameList">Sam Van den Vonder</li>
+               <li class="nameList Last">Wolfgang De Meuter</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Sorting is a central problem in computer science and one of the key components of
+                     many applications. To the best of our knowledge, no reactive programming implementation
+                     of sorting algorithms has ever been presented. 
+                  </p> 
+                  <p> In this paper we present reactive implementations of so-called sorting networks.
+                     Sorting networks are networks of comparators that are wired up in a particular order.
+                     Data enters a sorting network along various input wires and leaves the sorting network
+                     on the same number of output wires that carry the data in sorted order. 
+                  </p> 
+                  <p> This paper shows how sorting networks can be expressed elegantly in a reactive programming
+                     language by aligning the visual representation of a sorting network with the canonical
+                     DAG representation of reactive programs. We use our own experimental language called
+                     Haai to do so. With a limited number of built-in higher-order reactive programs, we
+                     are able to express sorting networks for bubble sort, insertion sort, bitonic sort,
+                     pairwise sort and odd-even merge sort.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+         </div>
+      </div>
+   </body>
+</html>
