@@ -279,6 +279,10 @@
   year: 2019
   title: "Proceedings of the 18th International Conference on Generative Programming: Concepts and Experiences"
 -
+  event: GPCE
+  year: 2020
+  title: "Proceedings of the 19th International Conference on Generative Programming: Concepts and Experiences"
+-
   event: GPGPU
   year: 2017
   title: "Proceedings of the 10th Workshop on General Purpose Processing using Graphics Processing Units"
@@ -505,6 +509,10 @@
   title: "Proceedings of the 2019 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications"
   link: https://dl.acm.org/citation.cfm?id=3366395
 -
+  event: OOPSLA
+  year: 2020
+  title: "Proceedings of the 2019 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+-
   event: PEPM
   year: 2014
   title: "Proceedings of the 2014 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation"
@@ -692,6 +700,10 @@
   year: 2019
   title: "Proceedings of the 6th International Workshop on Reactive and Event-Based Languages and Systems"
 -
+  event: REBLS
+  year: 2020
+  title: "Proceedings of the 7th International Workshop on Reactive and Event-Based Languages and Systems"
+-
   event: SCALA
   year: 2015
   title: "Proceedings of the 6th ACM SIGPLAN Symposium on Scala"
@@ -707,6 +719,10 @@
   event: SCALA
   year: 2018
   title: "Proceedings of the 9th ACM SIGPLAN Symposium on Scala"
+-
+  event: SCALA
+  year: 2020
+  title: "Proceedings of the 11th ACM SIGPLAN Symposium on Scala"
 -
   event: SEPS
   year: 2015
@@ -738,7 +754,11 @@
 -
   event: SLE
   year: 2019
-  title: "Proceedings of the 2018 ACM SIGPLAN International Conference on Software Language Engineering"
+  title: "Proceedings of the 2019 ACM SIGPLAN International Conference on Software Language Engineering"
+-
+  event: SLE
+  year: 2020
+  title: "Proceedings of the 2020 ACM SIGPLAN International Conference on Software Language Engineering"
 -
   event: SOAP
   year: 2014
@@ -787,6 +807,10 @@
   event: SPLASH
   year: 2019
   title: "Companion Proceedings of the 2019 ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity"
+-
+  event: SPLASH
+  year: 2020
+  title: "Companion Proceedings of the 2020 ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity"
 -
   event: SPLASH-E
   year: 2018
