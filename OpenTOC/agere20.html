@@ -1,0 +1,186 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>AGERE 2020: Proceedings of the 10th ACM SIGPLAN International Workshop on Programming Based on
+         Actors, Agents, and Decentralized Control
+      </title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>AGERE 2020: Proceedings of the 10th ACM SIGPLAN International Workshop on Programming Based on
+               Actors, Agents, and Decentralized Control
+            </h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3427760"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3427760.3428338">High-throughput stream processing with actors</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Luca Rinaldi</li>
+               <li class="nameList">Massimo Torquati</li>
+               <li class="nameList">Gabriele Mencagli</li>
+               <li class="nameList Last">Marco Danelutto</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The steady growth of data volume produced as continuous streams makes paramount the
+                     development of software capable of providing timely results to the users. The Actor
+                     Model (AM) offers a high-level of abstraction suited for developing scalable message-passing
+                     applications. It allows the application developer to focus on the application logic
+                     moving the burden of implementing fast and reliable inter-Actors message-exchange
+                     to the implementation framework. 
+                  </p> 
+                  <p> In this paper, we focus on evaluating the model in high data rate streaming applications
+                     targeting scale-up servers. Our approach leverages Parallel Patterns (PP) abstractions
+                     to model streaming computations and introduces optimizations that otherwise could
+                     be challenging to implement without violating the Actor Model's semantics. The experimental
+                     analysis demonstrates that the new implementation skeletons we propose for our PPs
+                     can bring significant performance boosts (more than 2X) in high data rate streaming
+                     applications implemented in CAF.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3427760.3428339">Run, agent, run! architecture and benchmarking of actor-based agents</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Mostafa Mohajeri Parizi</li>
+               <li class="nameList">Giovanni Sileno</li>
+               <li class="nameList">Tom van Engers</li>
+               <li class="nameList Last">Sander Klous</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The paper introduces an Agent-Oriented Programming (AOP) framework based on the Belief-Desire-Intention
+                     (BDI) model of agency. The novelty of this framework is in relying on the Actor model,
+                     instantiating each intentional agent as an autonomous micro-system run by actors.
+                     The working hypothesis behind this choice is that defining the agents via actors results
+                     in a more fine-grained modular architecture and that the execution of agent-oriented
+                     programs is enhanced (in scalability as well as in performance) by relying on robust
+                     implementations of Actor models such as Akka. The framework is benchmarked and analyzed
+                     quantitatively and qualitatively against three other AOP frameworks: Jason, ASTRA
+                     and Sarl.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3427760.3428340">Revisiting the network stack in CAF</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jakob Otto</li>
+               <li class="nameList">Raphael Hiesgen</li>
+               <li class="nameList">Dominik Charousset</li>
+               <li class="nameList Last">Thomas C. Schmidt</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Applications increasingly demand distribution across the global Internet. The Actor
+                     model of computation has been wisely designed to abstract communication between actors
+                     and hence remains transparent w.r.t. distribution. Performance, security, and deployment
+                     considerations, however, make it difficult to define a specific communication transport
+                     that should be hardcoded into an actor framework. It is rather desirable to design
+                     appropriate transport abstractions, which allow for flexible choices and configurations
+                     of transport functions on the Internet. In this paper, we report about our ongoing
+                     work of redesigning, implementing, and evaluating a network stack that abstracts transport
+                     for the C++ Actor Framework (CAF). The stack allows for the exchanging of transport
+                     protocols and adds configuration options as well as compositions of protocols. First
+                     comparisons of TCP versus UDP with configurable reliability options are provided,
+                     as well as an early evaluation of its performance.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+         </div>
+      </div>
+   </body>
+</html>

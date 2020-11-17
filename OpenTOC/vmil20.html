@@ -1,0 +1,224 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>VMIL 2020: Proceedings of the 12th ACM SIGPLAN International Workshop on Virtual Machines and
+         Intermediate Languages
+      </title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>VMIL 2020: Proceedings of the 12th ACM SIGPLAN International Workshop on Virtual Machines and
+               Intermediate Languages
+            </h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3427765"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Invited Talks</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3427765.3432352">Racket’s intermediate language for control (invited talk)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Matthew Flatt</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>As a language that is intended for building languages in a composable way, Racket
+                     provides an especially rich set of constructs for control, including delimited continuations
+                     and efficient reflection on continuations. This talk will explain Racket’s constructs
+                     for control and describe how the implementation is built in layers.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3427765.3432353">In pursuit of easy(er) JITs (invited talk)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Mark Stoodley</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>n the early days of the Eclipse OMR project, we created the unimaginatively named
+                     JitBuilder API aiming to make it easier to build a JIT compiler. JitBuilder has been
+                     used to create prototype JIT compilers in a few thousand lines of C++ for WebAssembly,
+                     Lua, Smalltalk, Javascript, the Rosie Pattern Language, BF, Kaleidoscope, and Base9,
+                     as well as a number of other less language-centric dynamic code generators (including
+                     an alternative code generator for LLVM IR). Although it brings key facilities for
+                     privatizing virtual machine state and translating bytecode handlers, the JitBuilder
+                     API did not completely meet the “easy” goal particularly in the areas of extensibility
+                     and debuggability and did not offer strong DSL optimization possibilities. In this
+                     talk, I’ll explain and summarize the key features of the JitBuilder API before introducing
+                     some recent exploratory work to create the next version: JitBuilder2. This new fully-fledged
+                     (if currently in complete) compiler IL shares some directions with MLIR, but has some
+                     unique challenges and features, all designed around the pursuit of “easy” JIT compiler
+                     construction. Through the talk, I’ll show off some of these features (that’s right,
+                     I’ll demo a compiler IL!) and highlight some of the interesting directions I think
+                     we could take it from here.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3427765.3432354">Understanding Graal IR (invited talk)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Chris Seaton</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The Graal compiler uses a graphical sea-of-nodes IR that can be difficult to understand
+                     and work with when trying to improve performance of complicated programs. When used
+                     with an automatic partial evaluator, such as Truffle, and with a high-level language
+                     with complex semantics such as Ruby, the resulting IR graphs become even harder to
+                     work with. At Shopify, we’re working on new tools to understand complex Graal IR graphs
+                     generated from the TruffleRuby and Sulong interpreters, as used to run a large, complex,
+                     production application. We’ll show what these tools enable us to do and what innovative
+                     ideas we can bring to understand the relevant parts of the graph without getting swamped
+                     in the expanse of it.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3427765.3432355">10 years of Dart (invited talk)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Vyacheslav Egorov</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Dart might be the only contemporary programming language that changed its core principles
+                     so radically between two major versions. 10 years ago, in 2010, it was born as a dynamically
+                     typed programming language with optional static types - ideas of Strongtalk wrapped
+                     into familiar C-like syntax. A language destined to be executed in a native VM with
+                     an adaptive JIT compiler. Yet over the years Dart has evolved into a language with
+                     a sound static type system, and is being deployed in contexts that require ahead-of-time
+                     compilation and prohibit JITing. Now, it is even trying to get rid of the “billion-dollar
+                     mistake” - null - and incrementally transition to non-nullable by default reference
+                     types. This talk focuses on the architecture of Dart Virtual Machine and how it followed
+                     the evolution of the Dart language, adapting to the new semantics and new execution
+                     environments, where users wanted to bring Dart to.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Paper</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3427765.3428495">Programming microcontrollers through high-level abstractions</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Steven Varoumas</li>
+               <li class="nameList">Basile Pesin</li>
+               <li class="nameList">Benoît Vaugon</li>
+               <li class="nameList Last">Emmanuel Chailloux</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In this paper, we present an approach for programming microcontrollers that provides
+                     more expressivity and safety than a low-level language approach traditionally used
+                     to program such devices. To this end, we provide various abstraction layers (abstraction
+                     of the microcontroller, of the electronic components of the circuit, and of concurrency)
+                     which, while being adapted to the scarce resources of the hardware, offer high-level
+                     programming traits for the development of embedded applications. The various presented
+                     abstractions make use of an OCaml virtual machine able to run on devices with limited
+                     resources and take advantage of the expressivity and extensibility of the language.
+                     We illustrate the interest of our work on both entertainment applications and embedded
+                     software examples.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+         </div>
+      </div>
+   </body>
+</html>
