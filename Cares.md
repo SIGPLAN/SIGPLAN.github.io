@@ -104,7 +104,7 @@ CARES committee members may also attend other workshops and conferences sponsore
   </tr> 
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/wu.png" alt="Peng Wu" height="60%"><br><a href="https://pengwu.wordpress.com/">Peng Wu</a></td>
-   <td>Member, <a href="mailto:peng.wu@futurewei.com">peng.wu@futurewei.com</a>, Futurewei Technologies </td>
+   <td>Member, <a href="mailto:pengwu@fb.com">pengwu@fb.com</a>, Facebook </td>
   </tr> 
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/yang.png" alt="Hongseok Yang" height="60%"><br><a href="https://sites.google.com/view/hongseokyang/home">Hongseok Yang</a></td>
