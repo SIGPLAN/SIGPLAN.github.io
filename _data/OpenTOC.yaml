@@ -23,6 +23,10 @@
   year: 2019
   title: "Proceedings of the 9th International Workshop on Programming Based on Actors, Agents, and Decentralized Control"
 -
+  event: AGERE!
+  year: 2020
+  title: "Proceedings of the 10th International Workshop on Programming Based on Actors, Agents, and Decentralized Control"
+-
   event: AI-SEPS
   year: 2018
   title: "Proceedings of the 5th ACM SIGPLAN International Workshop on Artificial Intelligence and Empirical Methods for Software Engineering and Parallel Computing Systems"
@@ -134,6 +138,10 @@
   event: DLS
   year: 2019
   title: "Proceedings of the 14th Symposium on Dynamic Languages"
+-
+  event: DLS
+  year: 2020
+  title: "Proceedings of the 15th Symposium on Dynamic Languages"
 -
   event: DSM
   year: 2014
@@ -820,6 +828,10 @@
   year: 2019
   title: "Proceedings of the 2019 ACM SIGPLAN Workshop on SPLASH-E"
 -
+  event: TAPAS
+  year: 2020
+  title: "Proceedings of the 11th ACM SIGPLAN International Workshop on Tools for Automatic Program Analysis"
+-
   event: TRUST
   year: 2014
   title: "Proceedings of the 1st ACM SIGPLAN Workshop on Reproducible Research Methodologies and New Publication Models in Computer Engineering"
@@ -887,6 +899,10 @@
   event: VMIL
   year: 2019
   title: "Proceedings of the 10th International Workshop on Virtual Machines and Intermediate Languages"
+-
+  event: VMIL
+  year: 2020
+  title: "Proceedings of the 11th International Workshop on Virtual Machines and Intermediate Languages"
 -
   event: WGP
   year: 2014
