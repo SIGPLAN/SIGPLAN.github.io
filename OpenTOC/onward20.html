@@ -1,0 +1,554 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>Onward! 2020: Proceedings of the 2020 ACM SIGPLAN International Symposium on New Ideas, New Paradigms,
+         and Reflections on Programming and Software
+      </title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>Onward! 2020: Proceedings of the 2020 ACM SIGPLAN International Symposium on New Ideas, New Paradigms,
+               and Reflections on Programming and Software
+            </h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3426428"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426428.3426919">Example-based live programming for everyone: building language-agnostic tools for
+                  live programming with LSP and GraalVM</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Fabio Niephaus</li>
+               <li class="nameList">Patrick Rein</li>
+               <li class="nameList">Jakob Edding</li>
+               <li class="nameList">Jonas Hering</li>
+               <li class="nameList">Bastian König</li>
+               <li class="nameList">Kolya Opahle</li>
+               <li class="nameList">Nico Scordialo</li>
+               <li class="nameList Last">Robert Hirschfeld</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Our community has explored various approaches to improve the programming experience.
+                     Although many of them, such as Example-Based Live Programming (ELP), have shown to
+                     be effective, they are still not widespread in conventional programming environments.
+                     A reason for that is the effort required to provide sophisticated tools that rely
+                     on run-time information. To target multiple language ecosystems, it is often necessary
+                     to implement the same concepts, but for different languages and runtimes. Two emerging
+                     technologies present an opportunity to reduce this effort significantly: the Language
+                     Server Protocol (LSP) and language implementation frameworks such as GraalVM's Truffle.
+                     In this paper, we show how an ELP system can be built in a language-agnostic way by
+                     leveraging these two technologies. Based on our approach, we implemented the Babylonian
+                     Programming system, an ELP system that has previously only been implemented for exploratory
+                     ecosystems. Our system, on the other hand, brings ELP for all languages supported
+                     by the GraalVM to Visual Studio Code (VS Code). Moreover, we outline what a language-agnostic
+                     infrastructure needs to provide and how the LSP could be extended to support ELP also
+                     independently from programming environments. Further, we demonstrate how our approach
+                     enables the use of ELP in the context of polyglot programming. We illustrate the consequences
+                     of our approach by discussing its advantages and limitations and by comparing the
+                     features of our system to other ELP systems. Moreover, we give an outlook of how tools
+                     that rely on run-time information could be built in the future. This in turn might
+                     motivate future tool builders and researchers to consider implementing more tools
+                     in a language-agnostic way from the start to make them available to a broader audience.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426428.3426914">End-user software customization by direct manipulation of tabular data</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Geoffrey Litt</li>
+               <li class="nameList">Daniel Jackson</li>
+               <li class="nameList">Tyler Millis</li>
+               <li class="nameList Last">Jessica Quaye</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Customizing software should be as easy as using it. Unfortunately, most customization
+                     methods require users to abruptly shift from using a graphical interface to writing
+                     scripts in a programming language. 
+                  </p> 
+                  <p> We introduce data-driven customization, a new way for end users to extend software
+                     by direct manipulation without doing traditional programming. We augment existing
+                     user interfaces with a table view showing the structured data inside the application.
+                     When users edit the table, their changes are reflected in the original UI. This simple
+                     model accommodates a spreadsheet formula language and custom data-editing widgets,
+                     providing enough power to implement a variety of useful extensions. 
+                  </p> 
+                  <p> We illustrate the approach with Wildcard, a browser extension that implements data-driven
+                     customization on the web using web scraping. Through concrete examples, we show that
+                     this paradigm can support useful extensions to many real websites, and we share reflections
+                     from our experiences using the tool. 
+                  </p> 
+                  <p> Finally, we share our broader vision for data-driven customization: a future where
+                     end users have more access to the data inside their applications, and can more flexibly
+                     repurpose that data as part of everyday software usage.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426428.3426913">A case study in language-based security: building an I/O library for Wyvern</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jennifer A. Fish</li>
+               <li class="nameList">Darya Melicher</li>
+               <li class="nameList Last">Jonathan Aldrich</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>As the impact of vulnerabilities increases in practice, it is imperative for programming
+                     languages to include security as a first-class design consideration. While a number
+                     of security-related language features have been proposed to address this need, in
+                     many cases, we do not know enough about whether it is practical and useful to build
+                     software systems in languages with these features. 
+                  </p> 
+                  <p> In this paper, we begin to investigate this question, using a case study methodology.
+                     The setting of our case study is Wyvern, a recently designed language we selected
+                     because it incorporates three advanced security-related features: capability safety
+                     for enforcing the principle of least privilege, an effect system for tracking the
+                     secure use of resources, and a language extension feature that mitigates command injection.
+                     In our case study, we built a small standard I/O library, seeking to use the new language
+                     features to create a library that is less vulnerable to misuse and can serve as a
+                     building block for more secure programs, compared to conventional I/O library designs.
+                     Our study suggests that these features are indeed practicable and useful, and thus
+                     potentially promising for inclusion in other future language designs. It also sheds
+                     light on the value and cost of these features and suggests directions for future research
+                     on security-focused language design.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426428.3426916">Demystifying dependence</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">James Koppel</li>
+               <li class="nameList Last">Daniel Jackson</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Programmers are told "depend on interfaces, not implementations." But, given a program,
+                     is it possible even to assess objectively whether such advice has been followed? 
+                  </p> 
+                  <p> Programmers frequently talk in ways like this about dependence, but the very term,
+                     like many used in software engineering, has hitherto eluded precise definition. In
+                     this work, we resolve a variety of confusions about dependence, and present a formal
+                     definition unifying multiple varieties of software dependence, grounded in Halpern
+                     and Pearl's theory of actual causation. This definition is parameterized by the formal
+                     system characterizing the property of interest, and by constraints on "reasonable
+                     changes" to the program. By picking different choices of formal system, one can specialize
+                     our definition to characterize several notions of dependence, including build, correctness,
+                     and performance dependences. Overall, our work provides a path to making conversations
+                     about software dependence fully objective, and might serve as a basis for future work
+                     that automatically checks forms of dependence that were previously too abstract or
+                     high-level to be candidates for tools.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426428.3426915">Intrepydd: performance, productivity, and portability for data science application
+                  kernels</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Tong Zhou</li>
+               <li class="nameList">Jun Shirako</li>
+               <li class="nameList">Anirudh Jain</li>
+               <li class="nameList">Sriseshan Srikanth</li>
+               <li class="nameList">Thomas M. Conte</li>
+               <li class="nameList">Richard Vuduc</li>
+               <li class="nameList Last">Vivek Sarkar</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Major simultaneous disruptions are currently under way in both hardware and software.
+                     In hardware, ``extreme heterogeneity'' has become critical to sustaining cost and
+                     performance improvements after Moore's Law, but poses productivity and portability
+                     challenges for developers. In software, the rise of large-scale data science is driven
+                     by developers who come from diverse backgrounds and, moreover, who demand the rapid
+                     prototyping and interactive-notebook capabilities of high-productivity languages like
+                     Python. 
+                  </p> 
+                  <p> We introduce the Intrepydd programming system, which enables data scientists to write
+                     application kernels with high performance, productivity, and portability on current
+                     and future hardware. Intrepydd is based on Python, though the approach can be applied
+                     to other base languages as well. To deliver high performance, the Intrepydd toolchain
+                     uses ahead-of-time (AOT) compilation and high-level compiler optimizations of Intrepydd
+                     kernels. Intrepydd achieves portability by its ability to compile kernels for execution
+                     on different hardware platforms, and for invocation from Python or C++ main programs.
+                     
+                  </p> 
+                  <p> An empirical evaluation shows significant performance improvements relative to Python,
+                     and the suitability of Intrepydd for mapping on to post-Moore accelerators and architectures
+                     with relative ease. We believe that Intrepydd represents a new direction of ``Discipline-Aware
+                     Languages'' (DiALs), which brings us closer to the holy grail of obtaining productivity
+                     and portability with higher performance than current Python-like languages, and with
+                     more generality than current domain-specific languages and libraries.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426428.3426917">A principled approach to REPL interpreters</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">L. Thomas van Binsbergen</li>
+               <li class="nameList">Mauricio Verano Merino</li>
+               <li class="nameList">Pierre Jeanjean</li>
+               <li class="nameList">Tijs van der Storm</li>
+               <li class="nameList">Benoit Combemale</li>
+               <li class="nameList Last">Olivier Barais</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Read-eval-print-loops (REPLs) allow programmers to test out snippets of code, explore
+                     APIs, or even incrementally construct code, and get immediate feedback on their actions.
+                     However, even though many languages provide a REPL, the relation between the language
+                     as is and what is accepted at the REPL prompt is not always well-defined. Furthermore,
+                     implementing a REPL for new languages, such as DSLs, may incur significant language
+                     engineering cost. 
+                  </p> 
+                  <p> In this paper we survey the domain of REPLs and investigate the (formal) principles
+                     underlying REPLs. We identify and define the class of sequential languages, which
+                     admit a sound REPL implementation based on a definitional interpreter, and present
+                     design guidelines for extending existing language implementations to support REPL-style
+                     interfaces (including computational notebooks). The obtained REPLs can then be generically
+                     turned into an exploring interpreter, to allow exploration of the user's interaction.
+                     
+                  </p> 
+                  <p> The approach is illustrated using three case studies, based on MiniJava, QL (a DSL
+                     for questionnaires), and eFLINT (a DSL for normative rules). We expect sequential
+                     languages, and the consequent design principles, to be stepping stones towards a better
+                     understanding of the essence of REPLs.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426428.3426918">Analogy-making as a Core primitive in the software engineering toolbox</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Matthew Sotoudeh</li>
+               <li class="nameList Last">Aditya V. Thakur</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>An analogy is an identification of structural similarities and correspondences between
+                     two objects. Computational models of analogy making have been studied extensively
+                     in the field of cognitive science to better understand high-level human cognition.
+                     For instance, Melanie Mitchell and Douglas Hofstadter sought to better understand
+                     high-level perception by developing the Copycat algorithm for completing analogies
+                     between letter sequences. In this paper, we argue that analogy making should be seen
+                     as a core primitive in software engineering. We motivate this argument by showing
+                     how complex software engineering problems such as program understanding and source-code
+                     transformation learning can be reduced to an instance of the analogy-making problem.
+                     We demonstrate this idea using Sifter, a new analogy-making algorithm suitable for
+                     software engineering applications that adapts and extends ideas from Copycat. In particular,
+                     Sifter reduces analogy-making to searching for a sequence of update rule applications.
+                     Sifter uses a novel representation for mathematical structures capable of effectively
+                     representing the wide variety of information embedded in software.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Essays</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426428.3426926">Discussion of aviation software oversight improvement</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Marc Ronell</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The paper describes and critiques the certification of U.S. aviation software. Flight-critical
+                     software certification and regulation need external academic review and intervention.
+                     Industry is driven to generate profits over prioritizing public safety concerns and
+                     has failed to develop adequately proven methods of certifying that flight-critical
+                     software is safe to deploy. 
+                  </p> 
+                  <p> The opinions expressed in this paper are the views of the author and do not reflect
+                     the official policy or position of any agency of the U.S. government.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426428.3426923">How (not) to write Java pointer analyses after 2020</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Manas Thakur</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Despite being a very old discipline, pointer analysis still attracts several research
+                     papers every year in premier programming language venues. While a major goal of contemporary
+                     pointer analysis research is to improve its efficiency without sacrificing precision,
+                     we also see works that introduce novel ways of solving the problem itself. What does
+                     this mean? Research in this area is not going to die soon. 
+                  </p> 
+                  <p> I too have been writing pointer analyses of various kinds, specially for object-oriented
+                     languages such as Java. While some standard ways of writing such analyses are clear,
+                     I have realized that there are an umpteen number of nooks and pitfalls that make the
+                     task difficult and error prone. In particular, there are several misconceptions and
+                     undocumented practices, being aware of which would save significant research time.
+                     On the other hand, there are lessons from my own research that might go a long way
+                     in writing correct, precise and efficient pointer analyses, faster. This paper summarizes
+                     some such learnings, with a hope to help readers beat the state-of-the-art in (Java)
+                     pointer analysis, as they move into their research careers beyond 2020.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426428.3426921">The wonderful wizard of LoC: paying attention to the man behind the curtain of lines-of-code
+                  metrics</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Kalev Alpernas</li>
+               <li class="nameList">Yotam M. Y. Feldman</li>
+               <li class="nameList Last">Hila Peleg</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Lines-of-code metrics (loc) are commonly reported in Programming Languages (PL), Software
+                     Engineering (SE), and Systems papers. This convention has several different, often
+                     contradictory, goals, including demonstrating the `hardness' of a problem, and demonstrating
+                     the `easiness' of a problem. In many cases, the reporting of loc metrics is done not
+                     with a clearly communicated intention, but instead in an automatic, checkbox-ticking,
+                     manner. 
+                  </p> 
+                  <p> In this paper we investigate the uses of code metrics in PL, SE, and System papers.
+                     We consider the different goals that reporting metrics aims to achieve, several various
+                     domains wherein metrics are relevant, and various alternative metrics and their pros
+                     and cons for the different goals and domains. We argue that communicating claims about
+                     research software is usually best achieved not by reporting quantitative metrics,
+                     but by reporting the qualitative experience of researchers, and propose guidelines
+                     for the cases when quantitative metrics are appropriate. 
+                  </p> 
+                  <p> We end with a case study of the one area in which lines of code are not the default
+                     measurement---code produced by papers' solutions---and identify how measurements offered
+                     are used to support an explicit claim about the algorithm. Inspired by this positive
+                     example, we call for other cogent measures to be developed to support other claims
+                     authors wish to make.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426428.3426922">Putting the semantics into semantic versioning</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Patrick Lam</li>
+               <li class="nameList">Jens Dietrich</li>
+               <li class="nameList Last">David J. Pearce</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The long-standing aspiration for software reuse has made astonishing strides in the
+                     past few years. Many modern software development ecosystems now come with rich sets
+                     of publicly-available components contributed by the community. Downstream developers
+                     can leverage these upstream components, boosting their productivity. 
+                  </p> 
+                  <p> However, components evolve at their own pace. This imposes obligations on and yields
+                     benefits for downstream developers, especially since changes can be breaking, requiring
+                     additional downstream work to adapt to. Upgrading too late leaves downstream vulnerable
+                     to security issues and missing out on useful improvements; upgrading too early results
+                     in excess work. Semantic versioning has been proposed as an elegant mechanism to communicate
+                     levels of compatibility, enabling downstream developers to automate dependency upgrades.
+                     
+                  </p> 
+                  <p> While it is questionable whether a version number can adequately characterize version
+                     compatibility in general, we argue that developers would greatly benefit from tools
+                     such as semantic version calculators to help them upgrade safely. The time is now
+                     for the research community to develop such tools: large component ecosystems exist
+                     and are accessible, component interactions have become observable through automated
+                     builds, and recent advances in program analysis make the development of relevant tools
+                     feasible. In particular, contracts (both traditional and lightweight) are a promising
+                     input to semantic versioning calculators, which can suggest whether an upgrade is
+                     likely to be safe.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426428.3426924">Notes on notebooks: is Jupyter the bringer of jollity?</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Jeremy Singer</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>As the interactive computational notebook becomes a more prominent code development
+                     medium, we examine advantages and disadvantages of this particular source code format.
+                     We specify the structure of a coding notebook layout. We describe complexities in
+                     notebook programming; some of these are incidental whereas others may be inherent
+                     complexities. We outline how we envisage research and development might proceed to
+                     advance the cause of notebook programming.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426428.3426927">A rhetorical framework for programming language evaluation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Stefan K. Muller</li>
+               <li class="nameList Last">Hannah Ringler</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Programming languages researchers make a variety of different kinds of claims about
+                     the design of languages and related tools and calculi. Each type of claim requires
+                     different kinds of reasons and evidence to justify. Claims regarding the aesthetics
+                     or elegance of a design, or its effects on people, are especially tricky to justify
+                     because they are less strictly defined and thus are subject to change depending on
+                     the exact audience. In this essay, we take an interdisciplinary approach to this problem
+                     by drawing on the fields of argument theory and rhetorical analysis to develop a framework
+                     for justifying audience-dependent claims. In particular, we argue that researchers
+                     should provide descriptions of specific features of their systems that connect to
+                     effects on audience in order to justify these claims. To demonstrate this framework,
+                     we show several examples of how this is already being practiced in some programming
+                     languages research, and conclude by calling for authors to provide descriptive evidence
+                     to bolster such claims and to frame and strengthen other evaluation methods such as
+                     user studies.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426428.3426925">Software design as story telling: reflecting on the work of Italo Calvino</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Paolo Ciancarini</li>
+               <li class="nameList">Sergey Masyagin</li>
+               <li class="nameList Last">Giancarlo Succi</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Are we really <em>writing software</em>? 
+                  </p> 
+                  <p>What do software writers have in common with other professional writers? What can
+                     we software developers learn from professional writers? This paper proposes a reflection
+                     on such topics using as a reference the book “<em>Six Memos for the Next Millennium</em>”, a posthumous essay by the Italian novelist, editor, and literary critic Italo Calvino.
+                     A comparison is drawn between such work and the current principles ruling how software
+                     should be written and developed, and a claim is made that this is an area worth further
+                     exploration.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+         </div>
+      </div>
+   </body>
+</html>
