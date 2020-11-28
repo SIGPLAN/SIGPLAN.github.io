@@ -50,7 +50,7 @@ CARES committee members may also attend other workshops and conferences sponsore
  </tr>
    <tr>
     <td><a href="https://icfp20.sigplan.org/">ICFP 2020</a></td>
-    <td>David Walker, Shriram Krishnamurthi, Stephanie Weirich, and Simon Peyton-Jones</a>)</td>
+    <td>David Walker, Shriram Krishnamurthi, Stephanie Weirich, and Simon Peyton-Jones</a></td>
  </tr>
  <tr>
     <td><a href="https://2020.splashcon.org/">OOPSLA 2020</a></td>
