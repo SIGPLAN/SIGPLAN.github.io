@@ -1,0 +1,410 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>DLS 2020: Proceedings of the 16th ACM SIGPLAN International Symposium on Dynamic Languages</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>DLS 2020: Proceedings of the 16th ACM SIGPLAN International Symposium on Dynamic Languages</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3426422"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426422.3426977">Amalgamating different JIT compilations in a meta-tracing JIT compiler framework</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yusuke Izawa</li>
+               <li class="nameList Last">Hidehiko Masuhara</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Most virtual machines employ just-in-time (JIT) compilers to achieve high-performance.
+                     Trace-based compilation and method-based compilation are two major compilation strategies
+                     in JIT compilers. In general, the former excels in compiling programs with more in-depth
+                     method calls and more dynamic branches, while the latter is suitable for a wide range
+                     of programs. Some previous studies have suggested that each strategy has its advantages
+                     and disadvantages, and there is no clear winner. 
+                  </p> 
+                  <p> In this paper, we present a new approach, namely, the meta-hybrid JIT compilation
+                     strategy. It combines trace-based and method-based compilations to utilize the advantages
+                     of both strategies. Moreover, it is realized as a meta JIT compiler framework; thus,
+                     we can generate a VM with a hybrid JIT compiler that can apply different program parts
+                     by merely writing an interpreter with our framework. 
+                  </p> 
+                  <p> We chose to extend a meta-tracing JIT compiler and supported the two compilations
+                     on it. As a prototype, we implemented a simple meta-tracing JIT compiler framework
+                     called BacCaml based on the MinCaml compiler by following RPython’s architecture.
+                     
+                  </p> 
+                  <p> We evaluated its performance by creating a small functional programming language
+                     with BacCaml and running microbenchmark programs. Furthermore, we performed a synthetic
+                     experiment to confirm that there are programs that run faster by hybrid compilation.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426422.3426978">Wasm/k: delimited continuations for WebAssembly</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Donald Pinckney</li>
+               <li class="nameList">Arjun Guha</li>
+               <li class="nameList Last">Yuriy Brun</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>WebAssembly is designed to be an alternative to JavaScript that is a safe, portable,
+                     and efficient compilation target for a variety of languages. The performance of high-level
+                     languages depends not only on the underlying performance of WebAssembly, but also
+                     on the quality of the generated WebAssembly code. In this paper, we identify several
+                     features of high-level languages that current approaches can only compile to WebAssembly
+                     by generating complex and inefficient code. We argue that these problems could be
+                     addressed if WebAssembly natively supported first-class continuations. We then present
+                     Wasm/k, which extends WebAssembly with delimited continuations. Wasm/k introduces
+                     no new value types, and thus does not require significant changes to the WebAssembly
+                     type system (validation). Wasm/k is safe, even in the presence of foreign function
+                     calls (e.g., to and from JavaScript). Finally, Wasm/k is amenable to efficient implementation:
+                     we implement Wasm/k as a local change to Wasmtime, an existing WebAssembly JIT. We
+                     evaluate Wasm/k by implementing C/k, which adds delimited continuations to C/C++.
+                     C/k uses Emscripten and its implementation serves as a case study on how to use Wasm/k
+                     in a compiler that targets WebAssembly. We present several case studies using C/k,
+                     and show that on implementing green threads, it can outperform the state-of-the-art
+                     approach Asyncify with an 18% improvement in performance and a 30% improvement in
+                     code size.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426422.3426979">Pricing Python parallelism: a dynamic language cost model for heterogeneous platforms</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Dejice Jacob</li>
+               <li class="nameList">Phil Trinder</li>
+               <li class="nameList Last">Jeremy Singer</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Execution times may be reduced by offloading parallel loop nests to a GPU. Auto-parallelizing
+                     compilers are common for static languages, often using a cost model to determine when
+                     the GPU execution speed will outweigh the offload overheads. Nowadays scientific software
+                     is increasingly written in dynamic languages and would benefit from compute accelerators.
+                     The ALPyNA framework analyses moderately complex Python loop nests and automatically
+                     JIT compiles code for heterogeneous CPU and GPU architectures. 
+                  </p> 
+                  <p> We present the first analytical cost model for auto-parallelizing loop nests in a
+                     dynamic language on heterogeneous architectures. Predicting execution time in a language
+                     like Python is extremely challenging, since aspects like the element types, size of
+                     the iteration space, and amenability to parallelization can only be determined at
+                     runtime. Hence the cost model must be both staged, to combine compile and run-time
+                     information, and lightweight to minimize runtime overhead. GPU execution time prediction
+                     must account for factors like data transfer, block-structured execution, and starvation.
+                     
+                  </p> 
+                  <p> We show that a comparatively simple, staged analytical model can accurately determine
+                     during execution when it is profitable to offload a loop nest. We evaluate our model
+                     on three heterogeneous platforms across 360 experiments with 12 loop-intensive Python
+                     benchmark programs. The results show small misprediction intervals and a mean slowdown
+                     of just 13.6%, relative to the optimal (oracular) offload strategy.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426422.3426980">DelayRepay: delayed execution for kernel fusion in Python</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">John Magnus Morton</li>
+               <li class="nameList">Kuba Kaszyk</li>
+               <li class="nameList">Lu Li</li>
+               <li class="nameList">Jiawen Sun</li>
+               <li class="nameList">Christophe Dubach</li>
+               <li class="nameList">Michel Steuwer</li>
+               <li class="nameList">Murray Cole</li>
+               <li class="nameList Last">Michael F. P. O'Boyle</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Python is a popular, dynamic language for data science and scientific computing. To
+                     ensure efficiency, significant numerical libraries are implemented in static native
+                     languages. However, performance suffers when switching between native and non-native
+                     code, especially if data has to be converted between native arrays and Python data
+                     structures. As GPU accelerators are increasingly used, this problem becomes particularly
+                     acute. Data and control has to be repeatedly transferred between the accelerator and
+                     the host. 
+                  </p> 
+                  <p>In this paper, we present DelayRepay, a delayed execution framework for numeric Python
+                     programs. It avoids excessive switching and data transfer by using lazy evaluation
+                     and kernel fusion. Using DelayRepay, operations on NumPy arrays are executed lazily,
+                     allowing multiple calls to accelerator kernels to be fused together dynamically. DelayRepay
+                     is available as a drop-in replacement for existing Python libraries. This approach
+                     enables significant performance improvement over the state-of-the-art and is invisible
+                     to the application programmer. We show that our approach provides a maximum 377× speedup
+                     over NumPy - a 409% increase over the state of the art.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426422.3426981">Python 3 types in the wild: a tale of two type systems</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Ingkarat Rak-amnouykit</li>
+               <li class="nameList">Daniel McCrevan</li>
+               <li class="nameList">Ana Milanova</li>
+               <li class="nameList">Martin Hirzel</li>
+               <li class="nameList Last">Julian Dolby</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Python 3 is a highly dynamic language, but it has introduced a syntax for expressing
+                     types with PEP484. This paper explores how developers use these type annotations,
+                     the type system semantics provided by type checking and inference tools, and the performance
+                     of these tools. We evaluate the types and tools on a corpus of public GitHub repositories.
+                     We review MyPy and PyType, two canonical static type checking and inference tools,
+                     and their distinct approaches to type analysis. We then address three research questions:
+                     (i) How often and in what ways do developers use Python 3 types? (ii) Which type errors
+                     do developers make? (iii) How do type errors from different tools compare? 
+                  </p> 
+                  <p> Surprisingly, when developers use static types, the code rarely type-checks with
+                     either of the tools. MyPy and PyType exhibit false positives, due to their static
+                     nature, but also flag many useful errors in our corpus. Lastly, MyPy and PyType embody
+                     two distinct type systems, flagging different errors in many cases. Understanding
+                     the usage of Python types can help guide tool-builders and researchers. Understanding
+                     the performance of popular tools can help increase the adoption of static types and
+                     tools by practitioners, ultimately leading to more correct and more robust Python
+                     code.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426422.3426982">Framework-aware debugging with stack tailoring</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Matteo Marra</li>
+               <li class="nameList">Guillermo Polito</li>
+               <li class="nameList Last">Elisa Gonzalez Boix</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Debugging applications that execute within a framework is not always easy: the call-stack
+                     offered to developers is often a mix-up of stack frames that belong to different frameworks,
+                     introducing an unnecessary noise that prevents developers from focusing on the debugging
+                     task. Moreover, relevant application code is not always available in the call-stack
+                     because it may have already returned, or is available in another thread. In such cases,
+                     manually gathering all relevant information from these different sources is not only
+                     cumbersome but also costly. 
+                  </p> 
+                  <p> In this paper we introduce Sarto, a call-stack instrumentation layer that allows
+                     developers to tailor the stack to make debugging framework-aware. The goal is to improve
+                     the quality and amount information present in the call-stack to reduce debugging time
+                     without impacting the execution time. Sarto proposes a set of six stack operations
+                     that combined hide irrelevant information, introduce missing information, and relate
+                     dispersed debugging sources before this is fed to the debugger. 
+                  </p> 
+                  <p> We validate Sarto by applying it to four application cases using inherently different
+                     frameworks: unit testing, web server, remote promises and big data processing. We
+                     showcase our experiences in using Sarto in the different frameworks, and perform some
+                     performance benchmarks to demonstrate that Sarto does not generate noticeable overhead
+                     when instrumenting a call-stack. We also show that our solution reduces by half the
+                     amount of data stored to debug similar exceptions happening in a parallel setup.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426422.3426983">Dynamic pattern matching with Python</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Tobias Kohn</li>
+               <li class="nameList">Guido van Rossum</li>
+               <li class="nameList">Gary Brandt Bucher II</li>
+               <li class="nameList"> Talin</li>
+               <li class="nameList Last">Ivan Levkivskyi</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Pattern matching allows programs both to extract specific information from complex
+                     data types, as well as to branch on the structure of data and thus apply specialized
+                     actions to different forms of data. Originally designed for strongly typed functional
+                     languages with algebraic data types, pattern matching has since been adapted for object-oriented
+                     and even dynamic languages. This paper discusses how pattern matching can be included
+                     in the dynamically typed language <em>Python</em> in line with existing features that support extracting values from sequential data
+                     structures.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426422.3426984">Sampling optimized code for type feedback</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Olivier Flückiger</li>
+               <li class="nameList">Andreas Wälchli</li>
+               <li class="nameList">Sebastián Krynski</li>
+               <li class="nameList Last">Jan Vitek</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>To efficiently execute dynamically typed languages, many language implementations
+                     have adopted a two-tier architecture. The first tier aims for low-latency startup
+                     times and collects dynamic profiles, such as the dynamic types of variables. The second
+                     tier provides high-throughput using an optimizing compiler that specializes code to
+                     the recorded type information. If the program behavior changes to the point that not
+                     previously seen types occur in specialized code, that specialized code becomes invalid,
+                     it is deoptimized, and control is transferred back to the first tier execution engine
+                     which will start specializing anew. However, if the program behavior becomes more
+                     specific, for instance, if a polymorphic variable becomes monomorphic, nothing changes.
+                     Once the program is running optimized code, there are no means to notice that an opportunity
+                     for optimization has been missed. 
+                  </p> 
+                  <p>We propose to employ a sampling-based profiler to monitor native code without any
+                     instrumentation. The absence of instrumentation means that when the profiler is not
+                     active, no overhead is incurred. We present an implementation is in the context of
+                     the Ř just-in-time, optimizing compiler for the R language. Based on the sampled profiles,
+                     we are able to detect when the native code produced by Ř is specialized for stale
+                     type feedback and recompile it to more type-specific code. We show that sampling adds
+                     an overhead of less than 3
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3426422.3426985">Sound, heuristic type annotation inference for Ruby</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Milod Kazerounian</li>
+               <li class="nameList">Brianna M. Ren</li>
+               <li class="nameList Last">Jeffrey S. Foster</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Many researchers have explored retrofitting static type systems to dynamic languages.
+                     This raises the question of how to add type annotations to code that was previously
+                     untyped. One obvious solution is type inference. However, in complex type systems,
+                     in particular those with structural types, type inference typically produces most
+                     general types that are large, hard to understand, and unnatural for programmers. To
+                     solve this problem, we introduce InferDL, a novel Ruby type inference system that
+                     infers sound and useful type annotations by incorporating heuristics that guess types.
+                     For example, we might heuristically guess that a parameter whose name ends in “count”
+                     is an integer. InferDL works by first running standard type inference and then applying
+                     heuristics to any positions for which standard type inference produces overly-general
+                     types. Heuristic guesses are added as constraints to the type inference problem to
+                     ensure they are consistent with the rest of the program and other heuristic guesses;
+                     inconsistent guesses are discarded. We formalized InferDL in a core type and constraint
+                     language. We implemented InferDL on top of RDL, an existing Ruby type checker. To
+                     evaluate InferDL, we applied it to four Ruby on Rails apps that had been previously
+                     type checked with RDL, and hence had type annotations. We found that, when using heuristics,
+                     InferDL inferred 22% more types that were as or more precise than the previous annotations,
+                     compared to standard type inference without heuristics. We also found one new type
+                     error. We further evaluated InferDL by applying it to six additional apps, finding
+                     five additional type errors. Thus, we believe InferDL represents a promising approach
+                     for inferring type annotations in dynamic languages.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+         </div>
+      </div>
+   </body>
+</html>
