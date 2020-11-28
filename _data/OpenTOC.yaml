@@ -469,6 +469,10 @@
   event: MSPC
   year: 2014
   title: "Proceedings of the 2014 ACM SIGPLAN Workshop on Memory Systems Performance and Correctness"
+-  
+  event: NSAD
+  year: 2020
+  title: "Proceedings of the 9th ACM SIGPLAN International Workshop on Numerical and Symbolic Abstract Domains"
 -
   event: Onward!
   year: 2014
@@ -489,6 +493,10 @@
   event: Onward!
   year: 2018
   title: "Proceedings of the 2018 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software"
+-
+  event: Onward!
+  year: 2020
+  title: "Proceedings of the 2020 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software"
 -
   event: OOPSLA
   year: 2014
