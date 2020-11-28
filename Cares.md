@@ -48,6 +48,14 @@ CARES committee members may also attend other workshops and conferences sponsore
     <th><b>Conference/Meeting</b></th>
     <th><b>CARES member attendees</b></th>
  </tr>
+   <tr>
+    <td><a href="https://icfp20.sigplan.org/">ICFP 2020</a></td>
+    <td>David Walker, Shriram Krishnamurthi, Stephanie Weirich, and Simon Peyton-Jones</a>)</td>
+ </tr>
+ <tr>
+    <td><a href="https://2020.splashcon.org/">OOPSLA 2020</a></td>
+    <td>Alexandra Silva, Shriram Krishnamurthi, Vikram Adve, Peng Wu, and Kathryn McKinley</a>)</td>
+ </tr>
  <tr>
     <td><a href="https://ppopp20.sigplan.org/">HPCA/PPOPP/CGO 2020</a></td>
     <td>Peng Wu (<a href=".">SIGPLAN CARES</a>), Lieven Eeckhout and Timothy Pinkston (<a href="https://www.sigarch.org/benefit/cares/">SIGARCH/SIGMICRO CARES</a>)</td>
