@@ -33,26 +33,34 @@ Advisory Board:
     Vice-Chair of SIGPLAN
 
 Senior Editors:
-  - [Matthew Flatt](https://www.cs.utah.edu/~mflatt/), University of Utah, USA <br>
-    Editor for Volume 2, Issue ICFP (September 2018)
-  - [Andrew Myers](https://www.cs.cornell.edu/andru/), Cornell University, USA <br>
-    Editor for Volume 2, Issue POPL (January 2018)
+  - [Stephanie Weirich](https://www.cis.upenn.edu/~sweirich/), University of Pennsylvania, USA<br>
+    Editor for Volume 3, Issue POPL (January 2019)
   - [François Pottier](http://pauillac.inria.fr/~fpottier/), Inria, France<br>
     Editor for Volume 3, Issue ICFP (September 2019)
   - [Manu Sridharan](https://manu.sridharan.net/), UC Riverside, USA <br>
-    Editor for Volume 2, Issue OOPSLA (October 2018)
-  - [Eelco Visser](https://eelcovisser.org/), Delft University of Technology, Netherlands <br>
     Editor for Volume 3, Issue OOPSLA (October 2019)
-  - [Stephanie Weirich](https://www.cis.upenn.edu/~sweirich/), University of Pennsylvania, USA<br>
-    Editor for Volume 3, Issue POPL (January 2019)
 
 Associate Editors:
   - [Lars Birkedal](https://cs.au.dk/~birke/), Aarhus University, Denmark <br>
     Editor for Volume 4, Issue POPL (January 2020)
   - [Richard Gabriel](https://www.dreamsongs.com/RPG.html), Dream Songs, Inc. & HPI, USA <br>
-    Editor for Volume 4, Issue HOPL
+    Editor for Volume 4, Issue HOPL (June 2020)
   - [Guy Steele](https://labs.oracle.com/pls/apex/f?p=labs:bio:0:120), Oracle Labs, USA <br>
-    Editor for Volume 4, Issue HOPL
+    Editor for Volume 4, Issue HOPL (June 2020)
+  - [Adam Chlipala](http://adam.chlipala.net/), Massachusetts Institute of Technology, USA <br>
+    Editor for Volume 4, Issue ICFP (August 2020)
+  - [David Grove](https://researcher.watson.ibm.com/researcher/view.php?person=us-groved), IBM Research, USA <br>
+    Editor for Volume 4, Issue OOPSLA (November 2020)
+
+Assistant Editors:
+  - [Azadeh Farzan](https://www.cs.toronto.edu/~azadeh/), University of Toronto, Canada <br>
+    Editor for Volume 5, Issue POPL (January 2021)
+  - [Ronald Garcia](https://www.cs.ubc.ca/~rxg/), University of British Columbia, Canada <br>
+    Editor for Volume 5, Issue ICFP (August 2021)
+  - [Sophia Drossopoulou](https://wp.doc.ic.ac.uk/sd/), Imperial College London, UK <br>
+    Editor for Volume 5, Issue OOPSLA (October 2021)
+
+
 
 Information Director:
   - [Harry Xu](http://www.cs.ucla.edu/~harryxu), University of California, Los Angeles <br>
