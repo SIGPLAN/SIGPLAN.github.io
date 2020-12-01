@@ -29,7 +29,7 @@ Advisory Board:
     Member at Large (Issue OOPSLA)
   - [Jens Palsberg](https://web.cs.ucla.edu/~palsberg/), University of California, Los Angeles, USA <br>
     Chair of SIGPLAN
-  - [Benjamin C. Pierce](https://www.cis.upenn.edu/~bcpierce/), University of Pennsylvania, USA <br>
+  - [Ranjit Jhala](https://ranjitjhala.github.io/), University of California at San Diego, USA <br>
     Vice-Chair of SIGPLAN
 
 Senior Editors:
