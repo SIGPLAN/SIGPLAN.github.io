@@ -1,220 +1,498 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
 
-<!doctype html>
-<head>
-<META http-equiv="Content-Style-Type" content="text/css">
-<title>Onward! 2019- Proceedings of the 2019 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software</title>
-<STYLE type="text/css">
-#DLtoc {
-	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
-	}
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
 
-#DLheader {
-	}
-#DLheader h1 {
-	font-size:16px;	
-}
-	
-#DLcontent {
-	 font-size:12px;
-	}
-#DLcontent h2 {
-	 font-size:14px;
-	 margin-bottom:5px;
-	}
-#DLcontent h3 {
-	 font-size:12px;
-	 padding-left:20px;
-	 margin-bottom:0px;
-	}
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
 
-#DLcontent ul{
-	margin-top:0px;
-	margin-bottom:0px;
-	}
-		
-.DLauthors li{
-	display: inline;
-	list-style-type: none;
-	padding-right: 5px;
-	}
-	
-.DLauthors li:after{
-	content:",";
-	}
-.DLauthors li.nameList.Last:after{
-	content:"";
-	}		
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
 
-.DLabstract {
-	 padding-left:40px;
-	 padding-right:20px;
-	 display:block;
-	}
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
 
-.DLformats li{
-	display: inline;
-	list-style-type: none;
-	padding-right: 5px;
-	}
-	
-.DLformats li:after{
-	content:",";
-	}
-.DLformats li.formatList.Last:after{
-	content:"";
-	}		
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
 
-.DLlogo {
-	vertical-align:middle; 
-	padding-right:5px;
-	border:none;
-	}
-	
-.DLcitLink {
-	margin-left:20px;
-	}	
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
 
-.DLtitleLink {
-	margin-left:20px;
-	}	
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
 
-.DLotherLink {
-	margin-left:0px;
-	}		
-   
-</STYLE>
-</head>
-<body>
-<div id="DLtoc">
-<div id="DLheader">
-<h1>Onward! 2019- Proceedings of the 2019 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software</h1>
-<a class="DLcitLink" href="https://dl.acm.org/citation.cfm?id=3359591" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
-</div>
-<div id="DLcontent">
-<h2>SESSION: Papers</h2>
-<div class="DLabstract"> </div>
-<h3>
-<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684802" title="Get the Full Text from the ACM Digital Library">Deployable probabilistic programming</a>
-</h3>
-<ul class="DLauthors">
-<li class="nameList Last">David Tolpin</li>
-</ul>
-<div class="DLabstract"><div style="display:inline"><p>We propose design guidelines for a probabilistic programming facility suitable for deployment as a part of a production software system. As a reference implementation, we introduce Infergo, a probabilistic programming facility for Go, a modern programming language of choice for server-side software development. We argue that a similar probabilistic programming facility can be added to most modern general-purpose programming languages. </p> <p> Probabilistic programming enables automatic tuning of program parameters and algorithmic decision making through probabilistic inference based on the data. To facilitate addition of probabilistic programming capabilities to other programming languages, we share implementation choices and techniques employed in development of Infergo. We illustrate applicability of Infergo to various use cases on case studies, and evaluate Infergo&#39;s performance on several benchmarks, comparing Infergo to dedicated inference-centric probabilistic programming frameworks.</p></div> </div>
-<h3>
-<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684803" title="Get the Full Text from the ACM Digital Library">An approach for persistent time-varying values</a>
-</h3>
-<ul class="DLauthors">
-<li class="nameList First">Tetsuo Kamina</li>
-<li class="nameList Last">Tomoyuki Aotani</li>
-</ul>
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
 
-<div class="DLabstract"><div style="display:inline"><p>As reactive systems, such as cyber-physical systems and the Internet of Things, become increasingly important, time-varying values, also known as <em>signals</em>, are playing an important role in software development. Although reactive systems require the change histories of some signals to be stored for various purposes such as post analysis and simulation, current programming languages do not provide a way to declare that signals are persistent. This paper proposes a method that realizes persistent signals in a reactive programming language, where (1)&#160;every update to each persistent signal is recorded in a time-series database, which can be seen as a part of the programming language runtime; and (2)&#160;persistent signals support a convenient time-oriented query mechanism. In this approach, each signal in the reactive programming language is seamlessly connected with the time-series database. This method is implemented as an extension of SignalJ, a Java-based reactive programming language that supports signals. In the implementation, the persistent signal mechanism is integrated with TimescaleDB, a PostgreSQL-based time-series database. In preliminary performance evaluations, our implementation had good responsiveness on most tests, indicating its feasibility for use in many applications.</p></div> </div>
-<h3>
-<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684804" title="Get the Full Text from the ACM Digital Library">Call&#400;: an effect system for method calls</a>
-</h3>
-<ul class="DLauthors">
-<li class="nameList First">Isaac Oscar Gariano</li>
-<li class="nameList">James Noble</li>
-<li class="nameList Last">Marco Servetto</li>
-</ul>
-<div class="DLabstract"><div style="display:inline"><p>Effect systems are used to statically reason about the <em>effects</em> an expression may have when evaluated. In the literature, such effects include various behaviours as diverse as memory accesses and exception throwing. Here we present Call&#400;, an object-oriented language that takes a flexible approach where effects are just <em>method calls</em>: this works well because ordinary methods often model things like I/O operations, access to global state, or primitive language operations such as thread creation. Call&#400; supports both flexible and fine-grained control over such behaviour, in a way designed to minimise the complexity of annotations. </p> <p>Call&#400;&#8217;s effect system can be used to prevent OO code from performing privileged operations, such as querying a database, modifying GUI widgets, exiting the program, or performing network communication. It can also be used to ensure determinism, by preventing methods from (indirectly) calling non-deterministic primitives like random number generation or file reading.</p></div> </div>
-<h3>
-<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684815" title="Get the Full Text from the ACM Digital Library">AlleAlle: bounded relational model finding with unbounded data</a>
-</h3>
-<ul class="DLauthors">
-<li class="nameList First">Jouke Stoel</li>
-<li class="nameList">Tijs van der Storm</li>
-<li class="nameList Last">Jurgen J. Vinju</li>
-</ul>
-<div class="DLabstract"><div style="display:inline"><p>Relational model finding is a successful technique which has been used in a wide range of problems during the last decade. This success is partly due to the fact that many problems contain relational structures which can be explored using relational model finders. Although these model finders allow for the exploration of such structures they often struggle with incorporating the non-relational elements. </p> <p> In this paper we introduce AlleAlle, a method and language that integrates reasoning on both relational structure and non-relational elements -the data- of a problem. By combining first order logic with Codd&#39;s relational algebra, transitive closure, and optimization criteria, we obtain a rich input language for expressing constraints on both relational and scalar values. </p> <p> We present the semantics of AlleAlle and the translation of AlleAlle specifications to SMT constraints, and use the off-the-shelf SMT solver Z3 to find solutions. We evaluate AlleAlle by comparing its performance with Kodkod, a state-of-the-art relational model finder, and by encoding a solution to the optimal package resolution problem. Initial benchmarking show that although the translation times of AlleAlle can be improved, the resulting SMT constraints can efficiently be solved by the underlying solver.</p></div> </div>
-<h3>
-<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684816" title="Get the Full Text from the ACM Digital Library">Active learning for software engineering</a>
-</h3>
-<ul class="DLauthors">
-<li class="nameList First">Jos&#233; P. Cambronero</li>
-<li class="nameList">Thurston H. Y. Dang</li>
-<li class="nameList">Nikos Vasilakis</li>
-<li class="nameList">Jiasi Shen</li>
-<li class="nameList">Jerry Wu</li>
-<li class="nameList Last">Martin C. Rinard</li>
-</ul>
-<div class="DLabstract"><div style="display:inline"><p>Software applications have grown increasingly complex to deliver the features desired by users. Software modularity has been used as a way to mitigate the costs of developing such complex software. Active learning-based program inference provides an elegant framework that exploits this modularity to tackle development correctness, performance and cost in large applications. Inferred programs can be used for many purposes, including generation of secure code, code re-use through automatic encapsulation, adaptation to new platforms or languages, and optimization. We show through detailed examples how our approach can infer three modules in a representative application. Finally, we outline the broader paradigm and open research questions.</p></div> </div>
-<h3>
-<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684817" title="Get the Full Text from the ACM Digital Library">Declarative assembly of web applications from predefined concepts</a>
-</h3>
-<ul class="DLauthors">
-<li class="nameList First">Santiago Perez De Rosso</li>
-<li class="nameList">Daniel Jackson</li>
-<li class="nameList">Maryam Archie</li>
-<li class="nameList">Czarina Lao</li>
-<li class="nameList Last">Barry A. McNamara III</li>
-</ul>
-<div class="DLabstract"><div style="display:inline"><p>A new approach to web application development is presented, in which an application is constructed by configuring and composing concepts drawn from a catalog developed by experts. </p> <p>A <em>concept</em> is a self-contained, reusable increment of functionality. Each concept includes both front-end and back-end functionality, and exports a collection of <em>components</em>&#8212;full-stack GUI elements, backed by application logic and database storage. </p> <p>To build an app, the developer imports concepts from the catalog, tunes them to fit the application&#8217;s particular needs via configuration variables, and links concept components together to create pages. Components of different concepts may be executed independently, or bound together declaratively with dataflows and synchronization. The instantiation, configuration, linking and binding of components is all expressed in a simple template language that extends HTML. </p> <p>The approach has been implemented in a platform called D&#233;j&#224; Vu, which we outline and compare to conventional web application architectures. We describe a case study in which a collection of applications previously built as team projects for a web programming course were replicated in D&#233;j&#224; Vu. Preliminary results validate our hypothesis, suggesting that a variety of non-trivial applications can be built from a repository of generic concepts.</p></div> </div>
-<h3>
-<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684818" title="Get the Full Text from the ACM Digital Library">GoTcha: an interactive debugger for GoT-based distributed systems</a>
-</h3>
-<ul class="DLauthors">
-<li class="nameList First">Rohan Achar</li>
-<li class="nameList">Pritha Dawn</li>
-<li class="nameList Last">Cristina V. Lopes</li>
-</ul>
-<div class="DLabstract"><div style="display:inline"><p>Debugging distributed systems is hard. Most of the techniques that have been developed for debugging such systems use either extensive model checking, or postmortem analysis of logs and traces. Interactive debugging is typically a tool that is only effective in single threaded and single process applications, and is rarely applied to distributed systems. While the live observation of state changes using interactive debuggers is effective, it comes with a host of problems in distributed scenarios. In this paper, we discuss the requirements an interactive debugger for distributed systems should meet, the role the underlying distributed model plays in facilitating the debugger, and the implementation of our interactive debugger: GoTcha. </p> <p> GoTcha is a browser based interactive debugger for distributed systems built on the Global Object Tracker (GoT) programming model. We show how the GoT model facilitates the debugger, and the features that the debugger can offer. We also demonstrate a typical debugging workflow.</p></div> </div>
-<h3>
-<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684819" title="Get the Full Text from the ACM Digital Library">Storage combinators</a>
-</h3>
-<ul class="DLauthors">
-<li class="nameList First">Marcel Weiher</li>
-<li class="nameList Last">Robert Hirschfeld</li>
-</ul>
-<div class="DLabstract"><div style="display:inline"><p>The ability to compose software from high level components is as sought after as it is elusive. The REST architectural style used in the World Wide Web enables such plug-compatible components in distributed settings. </p> <p>We propose <em>storage combinators</em>, a type of plug-compatible component that can be used as generic intermediary in a non-distributed setting. </p> <p>Storage combinators combine several stores &#8211; components that support REST-style verbs &#8211; into a single component that also provides a store interface. </p> <p>This mechanism allows a few basic components to be combined in many different ways to achieve different effects with or without adaptation. It correlates with reported increases in productivity while performing well in commercial applications with millions of users.</p></div> </div>
-<h3>
-<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684810" title="Get the Full Text from the ACM Digital Library">Property conveyances as a programming language</a>
-</h3>
-<ul class="DLauthors">
-<li class="nameList First">Shrutarshi Basu</li>
-<li class="nameList">Nate Foster</li>
-<li class="nameList Last">James Grimmelmann</li>
-</ul>
-<div class="DLabstract"><div style="display:inline"><p>Anglo-American law enables property owners to split up rights among multiple entities by breaking their ownership apart into <em>future interests</em> that may evolve over time. The <em>conveyances</em> that owners use to transfer and subdivide property rights follow rigid syntactic conventions and are governed by an intricate body of interlocking doctrines that determine their legal effect. These doctrines have been codified, but only in informal and potentially ambiguous ways. </p> <p>This paper presents preliminary work in developing a formal model for expressing and analyzing property conveyances. We develop a domain-specific language capable of expressing a wide range of conveyances in a syntax approximating natural language. This language desugars into a core calculus for which we develop operational and denotational semantics capturing a variety of important properties of property law in practice. We evaluate an initial implementation of our languages and semantics on examples from a popular property law textbook.</p></div> </div>
-<h3>
-<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684811" title="Get the Full Text from the ACM Digital Library">The adverse effects of code duplication in machine learning models of code</a>
-</h3>
-<ul class="DLauthors">
-<li class="nameList Last">Miltiadis Allamanis</li>
-</ul>
-<div class="DLabstract"><div style="display:inline"><p>The field of big code relies on mining large corpora of code to perform some learning task towards creating better tools for software engineers. A significant threat to this approach was recently identified by Lopes et al. (2017) who found a large amount of near-duplicate code on GitHub. However, the impact of code duplication has not been noticed by researchers devising machine learning models for source code. In this work, we explore the effects of code duplication on machine learning models showing that reported performance metrics are sometimes inflated by up to 100% when testing on duplicated code corpora compared to the performance on de-duplicated corpora which more accurately represent how machine learning models of code are used by software engineers. We present a duplication index for widely used datasets, list best practices for collecting code corpora and evaluating machine learning models on them. Finally, we release tools to help the community avoid this problem in future research.</p></div> </div>
-<h2>SESSION: Essays</h2>
-<div class="DLabstract"> </div>
-<h3>
-<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684812" title="Get the Full Text from the ACM Digital Library">Local-first software: you own your data, in spite of the cloud</a>
-</h3>
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
 
-<ul class="DLauthors">
-<li class="nameList First">Martin Kleppmann</li>
-<li class="nameList">Adam Wiggins</li>
-<li class="nameList">Peter van Hardenberg</li>
-<li class="nameList Last">Mark McGranaghan</li>
-</ul>
-<div class="DLabstract"><div style="display:inline"><p>Cloud apps like Google Docs and Trello are popular because they enable real-time collaboration with colleagues, and they make it easy for us to access our work from all of our devices. However, by centralizing data storage on servers, cloud apps also take away ownership and agency from users. If a service shuts down, the software stops functioning, and data created with that software is lost. </p> <p>In this article we propose <em>local-first software</em>, a set of principles for software that enables both collaboration <em>and</em> ownership for users. Local-first ideals include the ability to work offline and collaborate across multiple devices, while also improving the security, privacy, long-term preservation, and user control of data. </p> <p>We survey existing approaches to data storage and sharing, ranging from email attachments to web apps to Firebase-backed mobile apps, and we examine the trade-offs of each. We look at Conflict-free Replicated Data Types (CRDTs): data structures that are multi-user from the ground up while also being fundamentally local and private. CRDTs have the potential to be a foundational technology for realizing local-first software. </p> <p>We share some of our findings from developing local-first software prototypes at the Ink & Switch research lab over the course of several years. These experiments test the viability of CRDTs in practice, and explore the user interface challenges for this new data model. Lastly, we suggest some next steps for moving towards local-first software: for researchers, for app developers, and a startup opportunity for entrepreneurs.</p></div> </div>
-<h3>
-<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684813" title="Get the Full Text from the ACM Digital Library">Learning to listen for design</a>
-</h3>
-<ul class="DLauthors">
-<li class="nameList First">Elisa Baniassad</li>
-<li class="nameList">Ivan Beschastnikh</li>
-<li class="nameList">Reid Holmes</li>
-<li class="nameList">Gregor Kiczales</li>
-<li class="nameList Last">Meghan Allen</li>
-</ul>
-<div class="DLabstract"><div style="display:inline"><p>In his essay, <em>Designed as Designer</em>, Richard Gabriel suggests that artifacts are agents of their own design. Building on Gabriel&#8217;s position, this essay makes three observations (1) Code &#8220;speaks&#8221; to the programmer through code smells, and it talks about the shape it wants to take by signalling design principle violations. By &#8220;listening&#8221; to code, even a novice programmer can let the code itself signal its own emergent natural structure. (2) Seasoned programmers listen for code smells, but they hear in the language of design principles (3) Design patterns are emergent structures that naturally arise from designers listening to what the code is signaling and then responding to these signals through refactoring transformations. Rather than seeing design patterns as an educational destination, we see them as a vehicle for teaching the skill of listening. By showing novices the stories of listening to code and unfolding design patterns (starting from code smells, through refactorings, to arrive at principled structure), we can open up the possibility of listening for emergent design.</p></div> </div>
-<h3>
-<a class="DLtitleLink" href="https://dl.acm.org/authorize?N684814" title="Get the Full Text from the ACM Digital Library">Next-paradigm programming languages: what will they look like and what changes will they bring?</a>
-</h3>
-<ul class="DLauthors">
-<li class="nameList Last">Yannis Smaragdakis</li>
-</ul>
-<div class="DLabstract"><div style="display:inline"><p>The dream of programming language design is to bring about orders-of-magnitude productivity improvements in software development tasks. Designers can endlessly debate on how this dream can be realized and on how close we are to its realization. Instead, I would like to focus on a question with an answer that can be, surprisingly, clearer: what will be the common principles behind next-paradigm, high-productivity programming languages, and how will they change everyday program development? Based on my decade-plus experience of heavy-duty development in declarative languages, I speculate that certain tenets of high-productivity languages are inevitable. These include, for instance, enormous variations in performance (including automatic transformations that change the asymptotic complexity of algorithms); a radical change in a programmer&#39;s workflow, elevating testing from a near-menial task to an act of deep understanding; and a change in the need for formal proofs.</p></div> </div>
-</div>
-</div>
-</body>
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>Onward! 2019: Proceedings of the 2019 ACM SIGPLAN International Symposium on New Ideas, New Paradigms,
+         and Reflections on Programming and Software
+      </title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>Onward! 2019: Proceedings of the 2019 ACM SIGPLAN International Symposium on New Ideas, New Paradigms,
+               and Reflections on Programming and Software
+            </h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3359591"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3359591.3359727">Deployable probabilistic programming</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">David Tolpin</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We propose design guidelines for a probabilistic programming facility suitable for
+                     deployment as a part of a production software system. As a reference implementation,
+                     we introduce Infergo, a probabilistic programming facility for Go, a modern programming
+                     language of choice for server-side software development. We argue that a similar probabilistic
+                     programming facility can be added to most modern general-purpose programming languages.
+                     
+                  </p> 
+                  <p> Probabilistic programming enables automatic tuning of program parameters and algorithmic
+                     decision making through probabilistic inference based on the data. To facilitate addition
+                     of probabilistic programming capabilities to other programming languages, we share
+                     implementation choices and techniques employed in development of Infergo. We illustrate
+                     applicability of Infergo to various use cases on case studies, and evaluate Infergo's
+                     performance on several benchmarks, comparing Infergo to dedicated inference-centric
+                     probabilistic programming frameworks.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3359591.3359730">An approach for persistent time-varying values</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Tetsuo Kamina</li>
+               <li class="nameList Last">Tomoyuki Aotani</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>As reactive systems, such as cyber-physical systems and the Internet of Things, become
+                     increasingly important, time-varying values, also known as <em>signals</em>, are playing an important role in software development. Although reactive systems
+                     require the change histories of some signals to be stored for various purposes such
+                     as post analysis and simulation, current programming languages do not provide a way
+                     to declare that signals are persistent. This paper proposes a method that realizes
+                     persistent signals in a reactive programming language, where (1)&nbsp;every update to each
+                     persistent signal is recorded in a time-series database, which can be seen as a part
+                     of the programming language runtime; and (2)&nbsp;persistent signals support a convenient
+                     time-oriented query mechanism. In this approach, each signal in the reactive programming
+                     language is seamlessly connected with the time-series database. This method is implemented
+                     as an extension of SignalJ, a Java-based reactive programming language that supports
+                     signals. In the implementation, the persistent signal mechanism is integrated with
+                     TimescaleDB, a PostgreSQL-based time-series database. In preliminary performance evaluations,
+                     our implementation had good responsiveness on most tests, indicating its feasibility
+                     for use in many applications.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3359591.3359731">CallƐ: an effect system for method calls</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Isaac Oscar Gariano</li>
+               <li class="nameList">James Noble</li>
+               <li class="nameList Last">Marco Servetto</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Effect systems are used to statically reason about the <em>effects</em> an expression may have when evaluated. In the literature, such effects include various
+                     behaviours as diverse as memory accesses and exception throwing. Here we present CallƐ,
+                     an object-oriented language that takes a flexible approach where effects are just
+                     <em>method calls</em>: this works well because ordinary methods often model things like I/O operations,
+                     access to global state, or primitive language operations such as thread creation.
+                     CallƐ supports both flexible and fine-grained control over such behaviour, in a way
+                     designed to minimise the complexity of annotations. 
+                  </p> 
+                  <p>CallƐ’s effect system can be used to prevent OO code from performing privileged operations,
+                     such as querying a database, modifying GUI widgets, exiting the program, or performing
+                     network communication. It can also be used to ensure determinism, by preventing methods
+                     from (indirectly) calling non-deterministic primitives like random number generation
+                     or file reading.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3359591.3359726">AlleAlle: bounded relational model finding with unbounded data</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jouke Stoel</li>
+               <li class="nameList">Tijs van der Storm</li>
+               <li class="nameList Last">Jurgen J. Vinju</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Relational model finding is a successful technique which has been used in a wide range
+                     of problems during the last decade. This success is partly due to the fact that many
+                     problems contain relational structures which can be explored using relational model
+                     finders. Although these model finders allow for the exploration of such structures
+                     they often struggle with incorporating the non-relational elements. 
+                  </p> 
+                  <p> In this paper we introduce AlleAlle, a method and language that integrates reasoning
+                     on both relational structure and non-relational elements -the data- of a problem.
+                     By combining first order logic with Codd's relational algebra, transitive closure,
+                     and optimization criteria, we obtain a rich input language for expressing constraints
+                     on both relational and scalar values. 
+                  </p> 
+                  <p> We present the semantics of AlleAlle and the translation of AlleAlle specifications
+                     to SMT constraints, and use the off-the-shelf SMT solver Z3 to find solutions. We
+                     evaluate AlleAlle by comparing its performance with Kodkod, a state-of-the-art relational
+                     model finder, and by encoding a solution to the optimal package resolution problem.
+                     Initial benchmarking show that although the translation times of AlleAlle can be improved,
+                     the resulting SMT constraints can efficiently be solved by the underlying solver.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3359591.3359732">Active learning for software engineering</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">José P. Cambronero</li>
+               <li class="nameList">Thurston H. Y. Dang</li>
+               <li class="nameList">Nikos Vasilakis</li>
+               <li class="nameList">Jiasi Shen</li>
+               <li class="nameList">Jerry Wu</li>
+               <li class="nameList Last">Martin C. Rinard</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Software applications have grown increasingly complex to deliver the features desired
+                     by users. Software modularity has been used as a way to mitigate the costs of developing
+                     such complex software. Active learning-based program inference provides an elegant
+                     framework that exploits this modularity to tackle development correctness, performance
+                     and cost in large applications. Inferred programs can be used for many purposes, including
+                     generation of secure code, code re-use through automatic encapsulation, adaptation
+                     to new platforms or languages, and optimization. We show through detailed examples
+                     how our approach can infer three modules in a representative application. Finally,
+                     we outline the broader paradigm and open research questions.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3359591.3359728">Declarative assembly of web applications from predefined concepts</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Santiago Perez De Rosso</li>
+               <li class="nameList">Daniel Jackson</li>
+               <li class="nameList">Maryam Archie</li>
+               <li class="nameList">Czarina Lao</li>
+               <li class="nameList Last">Barry A. McNamara III</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>A new approach to web application development is presented, in which an application
+                     is constructed by configuring and composing concepts drawn from a catalog developed
+                     by experts. 
+                  </p> 
+                  <p>A <em>concept</em> is a self-contained, reusable increment of functionality. Each concept includes both
+                     front-end and back-end functionality, and exports a collection of <em>components</em>—full-stack GUI elements, backed by application logic and database storage. 
+                  </p> 
+                  <p>To build an app, the developer imports concepts from the catalog, tunes them to fit
+                     the application’s particular needs via configuration variables, and links concept
+                     components together to create pages. Components of different concepts may be executed
+                     independently, or bound together declaratively with dataflows and synchronization.
+                     The instantiation, configuration, linking and binding of components is all expressed
+                     in a simple template language that extends HTML. 
+                  </p> 
+                  <p>The approach has been implemented in a platform called Déjà Vu, which we outline and
+                     compare to conventional web application architectures. We describe a case study in
+                     which a collection of applications previously built as team projects for a web programming
+                     course were replicated in Déjà Vu. Preliminary results validate our hypothesis, suggesting
+                     that a variety of non-trivial applications can be built from a repository of generic
+                     concepts.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3359591.3359733">GoTcha: an interactive debugger for GoT-based distributed systems</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Rohan Achar</li>
+               <li class="nameList">Pritha Dawn</li>
+               <li class="nameList Last">Cristina V. Lopes</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Debugging distributed systems is hard. Most of the techniques that have been developed
+                     for debugging such systems use either extensive model checking, or postmortem analysis
+                     of logs and traces. Interactive debugging is typically a tool that is only effective
+                     in single threaded and single process applications, and is rarely applied to distributed
+                     systems. While the live observation of state changes using interactive debuggers is
+                     effective, it comes with a host of problems in distributed scenarios. In this paper,
+                     we discuss the requirements an interactive debugger for distributed systems should
+                     meet, the role the underlying distributed model plays in facilitating the debugger,
+                     and the implementation of our interactive debugger: GoTcha. 
+                  </p> 
+                  <p> GoTcha is a browser based interactive debugger for distributed systems built on the
+                     Global Object Tracker (GoT) programming model. We show how the GoT model facilitates
+                     the debugger, and the features that the debugger can offer. We also demonstrate a
+                     typical debugging workflow.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3359591.3359729">Storage combinators</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Marcel Weiher</li>
+               <li class="nameList Last">Robert Hirschfeld</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The ability to compose software from high level components is as sought after as it
+                     is elusive. The REST architectural style used in the World Wide Web enables such plug-compatible
+                     components in distributed settings. 
+                  </p> 
+                  <p>We propose <em>storage combinators</em>, a type of plug-compatible component that can be used as generic intermediary in
+                     a non-distributed setting. 
+                  </p> 
+                  <p>Storage combinators combine several stores – components that support REST-style verbs
+                     – into a single component that also provides a store interface. 
+                  </p> 
+                  <p>This mechanism allows a few basic components to be combined in many different ways
+                     to achieve different effects with or without adaptation. It correlates with reported
+                     increases in productivity while performing well in commercial applications with millions
+                     of users.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3359591.3359734">Property conveyances as a programming language</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Shrutarshi Basu</li>
+               <li class="nameList">Nate Foster</li>
+               <li class="nameList Last">James Grimmelmann</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Anglo-American law enables property owners to split up rights among multiple entities
+                     by breaking their ownership apart into <em>future interests</em> that may evolve over time. The <em>conveyances</em> that owners use to transfer and subdivide property rights follow rigid syntactic
+                     conventions and are governed by an intricate body of interlocking doctrines that determine
+                     their legal effect. These doctrines have been codified, but only in informal and potentially
+                     ambiguous ways. 
+                  </p> 
+                  <p>This paper presents preliminary work in developing a formal model for expressing and
+                     analyzing property conveyances. We develop a domain-specific language capable of expressing
+                     a wide range of conveyances in a syntax approximating natural language. This language
+                     desugars into a core calculus for which we develop operational and denotational semantics
+                     capturing a variety of important properties of property law in practice. We evaluate
+                     an initial implementation of our languages and semantics on examples from a popular
+                     property law textbook.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3359591.3359735">The adverse effects of code duplication in machine learning models of code</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Miltiadis Allamanis</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The field of big code relies on mining large corpora of code to perform some learning
+                     task towards creating better tools for software engineers. A significant threat to
+                     this approach was recently identified by Lopes et al. (2017) who found a large amount
+                     of near-duplicate code on GitHub. However, the impact of code duplication has not
+                     been noticed by researchers devising machine learning models for source code. In this
+                     work, we explore the effects of code duplication on machine learning models showing
+                     that reported performance metrics are sometimes inflated by up to 100% when testing
+                     on duplicated code corpora compared to the performance on de-duplicated corpora which
+                     more accurately represent how machine learning models of code are used by software
+                     engineers. We present a duplication index for widely used datasets, list best practices
+                     for collecting code corpora and evaluating machine learning models on them. Finally,
+                     we release tools to help the community avoid this problem in future research.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            <h2>SESSION: Essays</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3359591.3359737">Local-first software: you own your data, in spite of the cloud</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Martin Kleppmann</li>
+               <li class="nameList">Adam Wiggins</li>
+               <li class="nameList">Peter van Hardenberg</li>
+               <li class="nameList Last">Mark McGranaghan</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Cloud apps like Google Docs and Trello are popular because they enable real-time collaboration
+                     with colleagues, and they make it easy for us to access our work from all of our devices.
+                     However, by centralizing data storage on servers, cloud apps also take away ownership
+                     and agency from users. If a service shuts down, the software stops functioning, and
+                     data created with that software is lost. 
+                  </p> 
+                  <p>In this article we propose <em>local-first software</em>, a set of principles for software that enables both collaboration <em>and</em> ownership for users. Local-first ideals include the ability to work offline and collaborate
+                     across multiple devices, while also improving the security, privacy, long-term preservation,
+                     and user control of data. 
+                  </p> 
+                  <p>We survey existing approaches to data storage and sharing, ranging from email attachments
+                     to web apps to Firebase-backed mobile apps, and we examine the trade-offs of each.
+                     We look at Conflict-free Replicated Data Types (CRDTs): data structures that are multi-user
+                     from the ground up while also being fundamentally local and private. CRDTs have the
+                     potential to be a foundational technology for realizing local-first software. 
+                  </p> 
+                  <p>We share some of our findings from developing local-first software prototypes at the
+                     Ink &amp; Switch research lab over the course of several years. These experiments test
+                     the viability of CRDTs in practice, and explore the user interface challenges for
+                     this new data model. Lastly, we suggest some next steps for moving towards local-first
+                     software: for researchers, for app developers, and a startup opportunity for entrepreneurs.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3359591.3359738">Learning to listen for design</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Elisa Baniassad</li>
+               <li class="nameList">Ivan Beschastnikh</li>
+               <li class="nameList">Reid Holmes</li>
+               <li class="nameList">Gregor Kiczales</li>
+               <li class="nameList Last">Meghan Allen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In his essay, <em>Designed as Designer</em>, Richard Gabriel suggests that artifacts are agents of their own design. Building
+                     on Gabriel’s position, this essay makes three observations (1) Code “speaks” to the
+                     programmer through code smells, and it talks about the shape it wants to take by signalling
+                     design principle violations. By “listening” to code, even a novice programmer can
+                     let the code itself signal its own emergent natural structure. (2) Seasoned programmers
+                     listen for code smells, but they hear in the language of design principles (3) Design
+                     patterns are emergent structures that naturally arise from designers listening to
+                     what the code is signaling and then responding to these signals through refactoring
+                     transformations. Rather than seeing design patterns as an educational destination,
+                     we see them as a vehicle for teaching the skill of listening. By showing novices the
+                     stories of listening to code and unfolding design patterns (starting from code smells,
+                     through refactorings, to arrive at principled structure), we can open up the possibility
+                     of listening for emergent design.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3359591.3359739">Next-paradigm programming languages: what will they look like and what changes will
+                  they bring?</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Yannis Smaragdakis</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The dream of programming language design is to bring about orders-of-magnitude productivity
+                     improvements in software development tasks. Designers can endlessly debate on how
+                     this dream can be realized and on how close we are to its realization. Instead, I
+                     would like to focus on a question with an answer that can be, surprisingly, clearer:
+                     what will be the common principles behind next-paradigm, high-productivity programming
+                     languages, and how will they change everyday program development? Based on my decade-plus
+                     experience of heavy-duty development in declarative languages, I speculate that certain
+                     tenets of high-productivity languages are inevitable. These include, for instance,
+                     enormous variations in performance (including automatic transformations that change
+                     the asymptotic complexity of algorithms); a radical change in a programmer's workflow,
+                     elevating testing from a near-menial task to an act of deep understanding; and a change
+                     in the need for formal proofs.
+                  </p>
+                  	
+               </div>
+            </div>
+            						
+            					
+         </div>
+      </div>
+   </body>
 </html>
