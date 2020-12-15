@@ -1,3 +1,24 @@
+2020:
+- Awardee: "Filip Niksic, Max Planck Institute for Software Systems"
+  Other: |
+    _[Combinatorial Constructions for Effective Testing](/Awards/Dissertation/2020_niksic.pdf)_
+  Advisor: Rupak Majumdar
+  Citation: |
+    Soundness is at the core of most PL verification techniques and random testing is a commonly 
+    used technique for analyzing software. Developing a theory of soundness for random testing 
+    is thus very important, but very few results existed before this thesis. Randomized techniques 
+    are seldom used in (sound) program analyses; hence, addressing the problem requires the 
+    development of new ways to approaching it. Filip's thesis is among the first to apply deep 
+    techniques from randomized algorithms and combinatorics understanding and explaining the 
+    effectiveness of random testing. In turn, the theory helps with the design of new random 
+    testing approaches. The thesis adresses a hard problem brining in novel theory and proving 
+    hard theorems. When we see a phenomenon that we cannot immediately explain (in this case that 
+    random testing is so effective), we should try to build a scientific explanation. For some 
+    problems, including random testing, it is unclear that one can actually formulate a precise 
+    theory, because the "real world" is extremely messy. The fact that Filip is able to formulate 
+    the problem precisely and prove nontrivial theorems about them is surprising and opens the 
+    door to a new field.
+
 2019:
 - Awardee: "Ryan Beckett, Princeton University"
   Other: |
