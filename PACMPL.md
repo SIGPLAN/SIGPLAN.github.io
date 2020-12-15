@@ -52,7 +52,7 @@ years.
 
 #### Editorial Board
 
-The role of the [Editorial Board](PACMPL/Editors) is to run the day-to-day operations of
+The role of the [Editorial Board](PACMPL/Editors.md) is to run the day-to-day operations of
 the journal. The editorial board will consist of (where _N_ is the
 number of participating conferences):
 
