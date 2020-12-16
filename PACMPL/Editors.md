@@ -33,14 +33,6 @@ Advisory Board:
     Vice-Chair of SIGPLAN
 
 Senior Editors:
-  - [Stephanie Weirich](https://www.cis.upenn.edu/~sweirich/), University of Pennsylvania, USA<br>
-    Editor for Volume 3, Issue POPL (January 2019)
-  - [François Pottier](http://pauillac.inria.fr/~fpottier/), Inria, France<br>
-    Editor for Volume 3, Issue ICFP (September 2019)
-  - [Manu Sridharan](https://manu.sridharan.net/), UC Riverside, USA <br>
-    Editor for Volume 3, Issue OOPSLA (October 2019)
-
-Associate Editors:
   - [Lars Birkedal](https://cs.au.dk/~birke/), Aarhus University, Denmark <br>
     Editor for Volume 4, Issue POPL (January 2020)
   - [Richard Gabriel](https://www.dreamsongs.com/RPG.html), Dream Songs, Inc. & HPI, USA <br>
@@ -52,7 +44,7 @@ Associate Editors:
   - [David Grove](https://researcher.watson.ibm.com/researcher/view.php?person=us-groved), IBM Research, USA <br>
     Editor for Volume 4, Issue OOPSLA (November 2020)
 
-Assistant Editors:
+Associate Editors:
   - [Azadeh Farzan](https://www.cs.toronto.edu/~azadeh/), University of Toronto, Canada <br>
     Editor for Volume 5, Issue POPL (January 2021)
   - [Ronald Garcia](https://www.cs.ubc.ca/~rxg/), University of British Columbia, Canada <br>
@@ -60,7 +52,13 @@ Assistant Editors:
   - [Sophia Drossopoulou](https://wp.doc.ic.ac.uk/sd/), Imperial College London, UK <br>
     Editor for Volume 5, Issue OOPSLA (October 2021)
 
-
+Assistant Editors:
+  - [Hongseok Yang](https://sites.google.com/view/hongseokyang/home), KAIST, Korea <br>
+    Editor for Volume 6, Issue POPL (January 2022)
+  - [n/n](),  <br>
+    Editor for Volume 6, Issue ICFP (August 2022)
+  - [James Noble](http://ecs.vuw.ac.nz/~kjx/), Victoria University of Wellington, NZ <br>
+    Editor for Volume 6, Issue OOPSLA (October 2022)
 
 Information Director:
   - [Harry Xu](http://www.cs.ucla.edu/~harryxu), University of California, Los Angeles <br>
