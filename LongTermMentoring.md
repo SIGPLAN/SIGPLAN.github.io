@@ -3,7 +3,7 @@ layout: default
 title: "SIGPLAN-M"
 ---
 
-<img src="/images/sigplan-m-logo.png" style="height:50%;" alt="The SIGPLAN-M logo: two lambdas holding hands in the shape of the letter M.">
+<img src="/images/sigplan-m-logo.png" width="100" alt="The SIGPLAN-M logo: two lambdas holding hands in the shape of the letter M.">
 
 The SIGPLAN Long-Term Mentoring Committee (SIGPLAN-M) organizes an international long-term mentoring program for programming languages researchers.
 The goal of the program is to address two mentoring needs in the programming languages community:
