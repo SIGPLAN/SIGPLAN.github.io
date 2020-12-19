@@ -3,7 +3,7 @@ layout: default
 title: "SIGPLAN-M"
 ---
 
-<img src="/images/sigplan-m-logo.png" alt="The SIGPLAN-M logo: two lambdas holding hands in the shape of the letter M.">
+<img src="/images/sigplan-m-logo.png" style="height:70%;" alt="The SIGPLAN-M logo: two lambdas holding hands in the shape of the letter M.">
 
 The SIGPLAN Long-Term Mentoring Committee (SIGPLAN-M) organizes an international long-term mentoring program for programming languages researchers.
 The goal of the program is to address two mentoring needs in the programming languages community:
@@ -53,7 +53,7 @@ Please sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSfN6M66lJTfKShaJ_
 We typically recruit and match new mentees in waves leading up to the POPL, PLDI, ICFP, and SPLASH conferences.
 You may sign up at any time using [this form](https://docs.google.com/forms/d/e/1FAIpQLSf4MbSClp1t4bgOiDC6wIm16y3nYxk9Hj1zMo7qMdg39KrCxA/viewform).
 
-When there are more mentors than mentees, we maintain a waitlist and match as mentors become available.
+When there are more mentees than open spots, we maintain a waitlist and match as mentors become available.
 In matching from the waitlist, we prioritize PLMW attendees, members of marginalized groups,
 aspiring or junior researchers with little access to the programming languages community, and anyone who has an urgent need for mentoring.
 
