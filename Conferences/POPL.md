@@ -11,19 +11,23 @@ systems, and programming interfaces. POPL is in-cooperation with
 
 **POPL Fast Facts**
 
-> [POPL 2020 Web Page](http://popl20.sigplan.org)  
-> Location: New Orleans, Louisiana  
-> General Chair: [Brigitte Pientka](http://www.cs.mcgill.ca/~bpientka/)(McGill University, Canada)  
-> Program Chair: [Lars Birkedal](http://cs.au.dk/~birke/)(Aarhus University, Denmark)  
-> Dates: January 19-25, 2020
+> [POPL 2021 Web Page](http://popl21.sigplan.org)  
+> Location: *Virtual*  
+> General Chair: [Andreas Podelski](https://swt.informatik.uni-freiburg.de/staff/podelski)  
+> Program Chair: [Azadeh Farzan](https://www.cs.toronto.edu/~azadeh/)  
+> Dates: January 17-22, 2021
 
-**Most Influential POPL Paper Award**
+**POPL Awards**
 
-Each year a "Most Influential" POPL paper is chosen and an
+Each year a "Most Influential" POPL paper is chosen and a
 presentation is made at POPL. More details about this award and
-past winning papers can be found [here](/Awards/Conferences/). SIGPLAN
-also makes several other awards including an "Outstanding
-Dissertation Award." Please consider making a nomination for one of
+past winning papers can be found [here](/Awards/Conferences/).
+POPL also honors several *Distinguished Papers* from each program;
+they are listed in the POPL programs, and the process for choosing
+them is given in the Principles of POPL document (see below).
+
+SIGPLAN also makes several other awards, many of which have been
+awarded at POPL. Please consider making a nomination for one of
 these awards.  More details about the SIGPLAN awards can be found
 [here](/Awards/).
 
@@ -37,7 +41,7 @@ The POPL Steering Committee is constituted by the following members:
 -   three most recent POPL General Chairs, and
 -   three most recent POPL Program Chairs.
 
-The General Chair and Program Committee Chair of the next edition of POPL are invited to join the Steering Committee as soon as they are chosen.
+The General Chair and Program Committee Chair of the next edition of POPL are invited to join the Steering Committee as observers as soon as they are chosen.
 
 The current POPL steering committee is:
 
@@ -45,16 +49,15 @@ The current POPL steering committee is:
 
 **Principles of POPL**
  
-  * Up-to-date organizational and reviewing policies of POPL are exposed
-     in [Principles of POPL](/Conferences/POPL/Principles/).
-     An outdated version is also available in the ACM digital library,
-     [ACM SIGPLAN Notices - Supplemental issue, Volume 48 Issue 4S, April 2013,
-     pp 12-16]((http://dl.acm.org/citation.cfm?doid=2502508.2502517).
+Up-to-date organizational and reviewing policies of POPL are exposed
+in [Principles of POPL](/Conferences/POPL/Principles/).
 
+An outdated version is also available in the ACM digital library, [ACM SIGPLAN Notices - Supplemental issue, Volume 48 Issue 4S, April 2013, pp 12-16]((http://dl.acm.org/citation.cfm?doid=2502508.2502517).
 
 ----
 
 **Web Pages of Previous Conferences**
+> [POPL 2020](http://popl20.sigplan.org) (New Orleans, LA)   
 > [POPL 2019](http://conf.researchr.org/home/POPL-2019) (Cascais/Lisbon, Portugal)   
 > [POPL 2018](http://conf.researchr.org/home/POPL-2018) (Los Angeles, CA)  
 > [POPL 2017](http://conf.researchr.org/home/POPL-2017) (Paris, France)  
