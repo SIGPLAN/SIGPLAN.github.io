@@ -10,8 +10,7 @@ wide-spread adoption of the system or its underlying concepts by
 the wider programming language community either in research
 projects, in the open-source community, or commercially. The award
 includes a prize of $2,500. The award is presented at SIGPLAN's
-[PLDI conference](/Conferences/PLDI) the following June.  
-Because of the disruption due to COVID-19, this year (2021)'s nomination deadline has been extended to February 5th.
+[PLDI conference](/Conferences/PLDI) the following June.  Because of the disruption due to COVID-19, this year (2021)'s nomination deadline has been extended to February 5th.
 
 All questions about the Programming Languages Software Award should be directed to 
 **<mailto:software_award@sigplan.org>**.
