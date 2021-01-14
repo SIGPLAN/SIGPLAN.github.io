@@ -48,6 +48,10 @@ CARES committee members may also attend other workshops and conferences sponsore
     <th><b>Conference/Meeting</b></th>
     <th><b>CARES member attendees</b></th>
  </tr>
+  <tr>
+    <td><a href="https://popl21.sigplan.org/">POPL 2021</a></td>
+    <td>Shriram Krishnamurthi, Alexandra Silva, David Walker, Stephanie Weirich</td>
+ </tr>
    <tr>
     <td><a href="https://icfp20.sigplan.org/">ICFP 2020</a></td>
     <td>David Walker, Shriram Krishnamurthi, Stephanie Weirich, and Simon Peyton-Jones</td>
@@ -104,7 +108,7 @@ CARES committee members may also attend other workshops and conferences sponsore
   </tr> 
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/strout.png" alt="Michelle Strout"  height="60%"><br><a href="http://cgi.cs.arizona.edu/~mstrout/">Michelle Strout</a></td>
-   <td>Member, <a href="mailto:mstrout@cs.arizona.edu">mstrout@cs.arizon.edu</a>, University of Arizona </td>
+   <td>Member, <a href="mailto:mstrout@cs.arizona.edu">mstrout@cs.arizona.edu</a>, HPE and University of Arizona </td>
   </tr> 
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/weirich.png" alt="Stephanie Weirich"  height="60%"><br><a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a></td>
