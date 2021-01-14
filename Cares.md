@@ -58,7 +58,7 @@ CARES committee members may also attend other workshops and conferences sponsore
  </tr>
  <tr>
     <td><a href="https://2020.splashcon.org/">OOPSLA 2020</a></td>
-    <td>Alexandra Silva, Shriram Krishnamurthi, Vikram Adve, Peng Wu, and Kathryn McKinley)</td>
+    <td>Alexandra Silva, Shriram Krishnamurthi, Vikram Adve, Peng Wu, and Kathryn McKinley</td>
  </tr>
  <tr>
     <td><a href="https://ppopp20.sigplan.org/">HPCA/PPOPP/CGO 2020</a></td>
