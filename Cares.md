@@ -50,7 +50,7 @@ CARES committee members may also attend other workshops and conferences sponsore
  </tr>
   <tr>
     <td><a href="https://popl21.sigplan.org/">POPL 2021</a></td>
-    <td>Shriram Krishnamurthi, Alexandra Silva, David Walker, Stephanie Weirich</td>
+    <td>Shriram Krishnamurthi, Alexandra Silva, David Walker, Stephanie Weirich, Hongseok Yang</td>
  </tr>
    <tr>
     <td><a href="https://icfp20.sigplan.org/">ICFP 2020</a></td>
