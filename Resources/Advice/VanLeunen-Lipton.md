@@ -99,13 +99,13 @@ call them \`\`pragmatics.''
 Be sure also to **give no background**. Even the novice will know enough
 to leave off all acknowledgements and references. But the master will go
 further. He will give the appearance of citation without any substance.
-He will enclose a reference 1ist on which every item is submitted, in
+He will enclose a reference list on which every item is submitted, in
 preparation, or a private communication. He will call obscure results by
 pet names he has invented himself. And he will describe as \`\`well
 known'' results published only in Old Serbian - preferably false ones.
 
 **Prove trivial results in exhaustive detail**, breaking your proofs
-into as many lemmas as ou can and disrupting the line of reasoning with
+into as many lemmas as you can and disrupting the line of reasoning with
 notes, remarks, and asides. On the other hand, assert difficult proofs.
 Assert them badly, with a sneer, if you can manage it. The judicious
 typographical error in the statement of your theorem adds a note of
