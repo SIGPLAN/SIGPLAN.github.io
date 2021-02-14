@@ -5,7 +5,7 @@ title: "Principles of POPL"
 
 # **Principles of POPL**
 
-[first version 11 June 2013, latest revision 25 November 2017]
+[first version 11 June 2013, latest revision 13 February 2021]
 
 *Giuseppe Castagna, Derek Dreyer, John Field, Roberto Giacobazzi, Michael Hicks, Suresh Jagannathan, Mooly Sagiv, Peter Sewell, Phil Wadler* (on behalf of the POPL Steering Committee)
 
@@ -16,6 +16,8 @@ Our goal is create a contract between POPL organizers and POPL authors that defi
 The remainder of this document is organized topically. Each topic has two subsections: *Prescriptions* and *Suggestions*. *Prescriptions* are firm policies; we expect that the organizers for each incarnation of POPL will adhere to the policies. In cases where the organizers feel an exception or change is warranted, they must first consult with the SC. *Suggestions* are best (or at least very good) practices that we expect organizers to strongly consider.
 
 ## **Definitions**
+
+Since POPL joined [PACMPL](https://dl.acm.org/journal/pacmpl), what has historically been referred to as the *Program Committee* (*PC*) is now called the *Review Committee*. (The *External Review Committee* retains its name.) We continue to use the term *PC* in the following, however. 
 
 *CFP*: Call for papers
 
@@ -28,6 +30,8 @@ The remainder of this document is organized topically. Each topic has two subsec
 *OC*: POPL Organizing Committee
 
 *PC*: POPL Program Committee
+
+*ERC*: POPL External Review Committee
 
 *SC*: POPL Steering Committee
 
@@ -49,7 +53,7 @@ The POPL steering committee for the period from POPL *X* to POPL *X*+1 consists 
 
 * The Chair of the Steering Committee elected for three years
 
-* Three elected Members at Large serving overlapping three year terms, with one replaced each year. One of the Members at Large serves as Industrial Relation chair
+* Three elected Members at Large serving three year terms (which can overlap). One of the Members at Large serves as Industrial Relation chair
 
 * The General and PC chairs for POPLs *X*-1, *X*, and *X*+1
 
@@ -96,7 +100,7 @@ Topical, personal, and institutional diversity is critical to the long term vita
 
 * The group consisting of the PC plus the General and PC chairs should have no more than 10% of its members from any single institution (NOTE:  Currently, the SIGPLAN policy is no more than two members from the same institution; however, the EC is contemplating a change that would allow the number to be relative (to PC size), rather than fixed.), except in cases where the PC chair makes a compelling case to the SC and EC that there is a reason to deviate (e.g., to ensure an adequate coverage of expertise). The definition of "institution" for multi-department or multi-site entities has been the topic of much debate, and it seems that no satisfactory simple definition is possible. When in doubt, we will use the broadest reasonable definition for which conflicts can reasonably be said to exist. For example, we consider Microsoft Research Redmond and Microsoft Research Bangalore to be part of the same institution because publishing success at the former boosts the reputation of the latter, and vice versa. 
 
-* PC members should not serve on the PC more often than every four years (NOTE:  For this provision, we do not consider the PC chair to be a "PC member"; indeed, the PC chair is often a recent PC member.).
+* PC members should not serve on the PC more often than every three years (NOTE:  For this provision, we do not consider the PC chair to be a "PC member"; indeed, the PC chair is often a recent PC member.).
 
 * The PC should aim to achieve a roughly uniform distribution of seniority (from junior to senior). 
 
@@ -104,7 +108,7 @@ Topical, personal, and institutional diversity is critical to the long term vita
 
 * The size of the PC should be such that, given the expected number of submissions (currently, around 250), each PC member will review 18-25 papers. Exceeding the upper bound is strongly discouraged.
 
-* If there is an ERC, the same diversity criteria listed above should apply, scaled to the size of the ERC.
+* If there is an ERC, the same diversity criteria listed above should apply, scaled to the size of the ERC, except that there need be no limitation on service frequency.
 
 ##### *Suggestions*
 
@@ -264,6 +268,8 @@ POPL will allow author review responses. Authors will be allowed to read all rev
 
 * The PC chair may choose to allow authors to provide feedback on review quality, e.g., via a simple rating scale, in addition to rebutting the content of the review.
 
+* The response period should not take place over a weekend, if at all possible.
+
 #### **PC Member Responsibilities**
 
 ##### *Prescriptions*
@@ -276,11 +282,11 @@ PC members should be directed to the [SIGPLAN Republication Policy](http://www.s
 
 ##### *Prescriptions*
 
-POPL will continue to have an in-person PC meeting. PC members will be allowed to participate in the discussion (both online and in-person) of papers that they didn't review, and with which they have no conflicts.
+The POPL PC Chair may opt to host a synchronous PC meeting. If such a meeting is held, the current practice is for it to be held on-line, rather than in person. An in-person meeting may be held if the SC approves (taking the travel and social cost of the meeting is into consideration).
 
-The PC meeting should be preceded by an extensive online discussion period. The online discussion period should be a minimum of one week, but two (or more) is strongly preferred. During the discussion period, the PC will be allowed to see all papers for which they have no conflicts, and participate in the discussion. Online discussion must be actively facilitated by the PC chair, and (if used) per-paper "guardians" (see above).
+The PC meeting (if held) should be preceded by an extensive online discussion period. The online discussion period should be a minimum of one week, but two (or more) is strongly preferred. During the discussion period, the PC will be allowed to see all papers for which they have no conflicts, and participate in the discussion. Online discussion must be actively facilitated by the PC chair, and (if used) per-paper "guardians" (see above).
 
-The PC chair will strive to ensure, prior to the PC meeting, that every *competitive* paper has at least
+The PC chair will strive to ensure, prior to the PC meeting (or the on-line process by which final decisions are made), that every *competitive* paper has at least
 
 * three PC reviews
 
@@ -296,7 +302,7 @@ The PC chair will strive to ensure, prior to the PC meeting, that every *competi
 
 * Papers that are clearly below the bar for acceptability may be identified during the online discussion period, and excluded from discussion at the PC meeting.
 
-* Experience has shown that a two day PC meeting provides adequate time for deliberation while avoiding PC burnout.
+* When hosting an in-person PC meeting, experience has shown that two days are sufficient allow adequate time for deliberation, while avoiding PC burnout.
 
 * Instead of considering the papers in order from highest-ranked to lowest, consider the papers in a quasi-random order (see article by Kathleen Fisher in [SIGPLAN Notices, 46(4):17, April 2011](https://dl.acm.org/citation.cfm?id=1988042)).
 
@@ -306,7 +312,7 @@ The PC chair will strive to ensure, prior to the PC meeting, that every *competi
 
 * Reviewers are encouraged to use a proxy when visiting the author's web site, to preserve their own anonymity.
 
-* We recommend that the PC chair allow all reviewers (PC *or* external) to see  decisions for the papers they have reviewed before decisions are publicly announced.
+* We recommend that the PC chair allow all reviewers (PC *or* external) to see decisions for the papers they have reviewed before decisions are publicly announced.
 
 ### **Call for Papers**
 
