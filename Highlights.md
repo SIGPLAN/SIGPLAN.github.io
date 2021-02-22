@@ -28,11 +28,9 @@ Nominations can be made at this [website](http://cacm.sigplan.org).
 ### SIGPLAN Research Highlights Papers
 
 
-As of January 2018, 51 papers have been recognized by the SIGPLAN
-Research Highlights committee, and 30 SIGPLAN papers have appeared in
-CACM, 18 from the SIGPLAN committee and 12 that were solicited directly
-by the CACM committee.  This [webpage](/Highlights/Papers) contains
-the full list of papers.
+As of July 2020, 58 papers have been recognized by the SIGPLAN
+Research Highlights committee, and 34 SIGPLAN papers have been selected to appear as CACM Research Highlights. 
+This [webpage](/Highlights/Papers) contains the full list of papers.
 
 
 ### SIGPLAN Research Highlights Committee
