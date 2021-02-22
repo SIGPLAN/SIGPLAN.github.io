@@ -63,10 +63,8 @@ Selected July 2020:
   CACMHighlight:
     Date: February 2021
     Title: "PlanAlyzer: assessing threats to the validity of online experiments"
-    Link: 
-    TechnicalPerspective:
-      
-
+    
+    
 Selected July 2019:
 
 - Title: "_[BioScript: Programming Safe Chemistry on Laboratories-on-a-chip](https://dl.acm.org/citation.cfm?id=3276498)_"
@@ -89,7 +87,7 @@ Selected July 2019:
     application of well-studied theory can provide meaningful design 
     guidance.
   CACMHighlight:
-    Date: December 2019
+    Date: January 2021
     Title: "BioScript: Programming Safe Chemistry on Laboratories-on-a-chip"
     Link: https://doi.org/10.1145/3441686
     TechnicalPerspective:
@@ -130,7 +128,7 @@ Selected July 2019:
     programming-language techniques can be brought to bear to improve the security of 
     the blockchain infrastructure we may all depend on in the future.
   CACMHighlight:
-    Date: December 2019
+    Date: September 2020
     Title: "MadMax: surviving out-of-gas conditions in Ethereum smart contracts"
     Link: https://doi.org/10.1145/3416262
     TechnicalPerspective:
@@ -155,7 +153,7 @@ Selected July 2019:
     and never-found-before bugs were identified and fixed in real-world applications, 
     leading to significant reductions in memory.
   CACMHighlight:
-    Date: December 2019
+    Date: November 2020
     Title: "BLeak: automatically debugging memory leaks in web applications"
     Link: https://dl.acm.org/doi/10.1145/3422598
     TechnicalPerspective:
