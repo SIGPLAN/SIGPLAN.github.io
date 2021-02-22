@@ -364,6 +364,19 @@ OOPSLA, and ICFP) are automatically on the selection committee for
 the following year's
 [SIGPLAN Programming Languages Achievement Award](/Awards/Achievement).
 
+
+Artifacts
+---------
+
+ACM treats artifacts as "first-class" objects in the digital library,
+that is, each artifact has its own DOI, meta data, and landing page.
+AEC chairs should send a list of papers with accepted artifacts
+and their badge assignment to ConfPub.
+They will print the badges on the papers at a uniform position.
+ConfPub also collects the meta data from the authors and provides
+the data to ACM.
+
+
 Auxiliary Material
 ------------------
 
