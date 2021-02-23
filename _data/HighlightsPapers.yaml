@@ -90,10 +90,7 @@ Selected July 2019:
     Date: January 2021
     Title: "BioScript: Programming Safe Chemistry on Laboratories-on-a-chip"
     Link: https://doi.org/10.1145/3441686
-    TechnicalPerspective:
-      Title: Technical perspective: Programming microfluidics to execute biological protocols
-      Link: https://doi.org/10.1145/3441684
-      Author: Nada Amin
+
     
     
 - Title: "_[MadMax: surviving out-of-gas conditions in Ethereum smart contracts](https://dl.acm.org/citation.cfm?id=3276486)_"
@@ -131,7 +128,10 @@ Selected July 2019:
     Date: September 2020
     Title: "MadMax: surviving out-of-gas conditions in Ethereum smart contracts"
     Link: https://doi.org/10.1145/3416262
-  
+    TechnicalPerspective:
+      Title: Technical perspective: Analyzing smart contracts with MadMax
+      Link: https://dl.acm.org/doi/10.1145/3416259
+      Author: Benjamin Livshits 
 
 - Title: "_[BLeak: automatically debugging memory leaks in web applications](https://dl.acm.org/citation.cfm?id=3192376)_"
   Authors: John Vilk (University of Massachusetts at Amherst), Emery Berger (University of Massachusetts at Amherst)
