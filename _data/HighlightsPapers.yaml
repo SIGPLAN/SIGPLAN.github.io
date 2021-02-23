@@ -91,11 +91,9 @@ Selected July 2019:
     Title: "BioScript: Programming Safe Chemistry on Laboratories-on-a-chip"
     Link: https://doi.org/10.1145/3441686
     TechnicalPerspective:
-      Title: WebAssembly--a quiet revolution of the web
-      Link: https://dl.acm.org/citation.cfm?id=3282508
-      Author: Anders Møller    
-
-    
+      Title: Programming microfluidics to execute biological protocols
+      Link: https://doi.org/10.1145/3441684
+      Author: Nada Amin    
     
 - Title: "_[MadMax: surviving out-of-gas conditions in Ethereum smart contracts](https://dl.acm.org/citation.cfm?id=3276486)_"
   Authors: Neville Grech (University of Athens, Greece / University of Malta, Malta), Michael Kong (University of Sydney, Australia), Anton Jurisevic (University of Sydney, Australia), 	Lexi Brent (University of Sydney, Australia), Bernhard Scholz (University of Sydney, Australia), Yannis Smaragdakis (University of Athens, Greece)
@@ -133,7 +131,7 @@ Selected July 2019:
     Title: "MadMax: surviving out-of-gas conditions in Ethereum smart contracts"
     Link: https://doi.org/10.1145/3416262
     TechnicalPerspective:
-      Title: Technical perspective: Analyzing smart contracts with MadMax
+      Title: Analyzing smart contracts with MadMax
       Link: https://dl.acm.org/doi/10.1145/3416259
       Author: Benjamin Livshits
 
@@ -158,7 +156,7 @@ Selected July 2019:
     Title: "BLeak: automatically debugging memory leaks in web applications"
     Link: https://dl.acm.org/doi/10.1145/3422598
     TechnicalPerspective:
-      Title: Technical perspective: BLeak: semantics-aware leak detection in the web
+      Title: "BLeak: semantics-aware leak detection in the web"
       Link: https://doi.org/10.1145/3422590
       Author: Harry Xu
      
