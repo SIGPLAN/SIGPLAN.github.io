@@ -301,29 +301,28 @@ SIGPLAN style easier to read).
 Managing the Proceedings
 ------------------------
 
-<!-- BCP: Do we still use Sheridan for PACMPL conferences? -->
-
-The Sheridan proceedings service can be initiated once you decide
+The proceedings service by Conference Publishing Consulting (ConfPub)
+can be initiated once you decide
 that you want formal proceedings. Please contact the
 [ACM Publications Coordinator](mailto:griscti@acm.org), Adrienne Griscti,
-to begin the process. ACM will provide Sheridan with pertinent
-conference information. Sheridan will forward you a schedule and
+to begin the process. ACM will provide ConfPub with pertinent
+conference information. ConfPub will forward you a schedule and
 instructions on how to proceed.
 
 <!-- BCP: Not relevant for PACMPL conferences? -->
 Draft a "Letter from the Program Chair," which should
 include a description of the paper selection process (number of
 papers submitted and accepted, etc.). Forward the letter to
-Sheridan along with any other front matter (perhaps a "Letter from the
+ConfPub along with any other front matter (perhaps a "Letter from the
 Conference Chair," a List of Reviewers, etc.) for inclusion
-in the proceedings. Sheridan will format all front matter; their
+in the proceedings. ConfPub will format all front matter; their
 schedule will include a deadline for front matter submission. They
 will also compile the table of contents/author index, using the
 schedule of talks/advanced program that you provide to determine
 paper order.
 
-Accepted authors will submit their papers directly to the Sheridan
-web site. Once Sheridan have collected all of the papers/copyright
+Accepted authors will submit their papers directly to the ConfPub
+web site. Once ConfPub have collected all of the papers/copyright
 forms and front matter, compiled the table of contents/author index
 and paginated the volume, they will provide camera-ready copy for
 your review. The proceedings will not be printed until this
@@ -365,10 +364,23 @@ OOPSLA, and ICFP) are automatically on the selection committee for
 the following year's
 [SIGPLAN Programming Languages Achievement Award](/Awards/Achievement).
 
+
+Artifacts
+---------
+
+ACM treats artifacts as "first-class" objects in the digital library,
+that is, each artifact has its own DOI, meta data, and landing page.
+AEC chairs should send a list of papers with accepted artifacts
+and their badge assignment to ConfPub.
+They will print the badges on the papers at a uniform position.
+ConfPub also collects the meta data from the authors and provides
+the data to ACM.
+
+
 Auxiliary Material
 ------------------
 
-The ACM Digital Library and Sheridan Printing, who prepare many
+The ACM Digital Library and ConfPub, who prepare many
 ACM proceedings, are both set up to accept auxiliary material. The
 SIGPLAN EC encourages SIGPLAN-sponsored conferences to accept such
 material as part of the publication process. (Some conferences also
@@ -391,6 +403,7 @@ should not be considered part of the review process. For an example of
 auxiliary material in the Digital Library, see
 [here](http://portal.acm.org/citation.cfm?doid=1462173.1462178) and click on
 "source materials".
+
 
 
 Shepherding
