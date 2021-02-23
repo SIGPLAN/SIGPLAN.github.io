@@ -90,6 +90,10 @@ Selected July 2019:
     Date: January 2021
     Title: "BioScript: Programming Safe Chemistry on Laboratories-on-a-chip"
     Link: https://doi.org/10.1145/3441686
+    TechnicalPerspective:
+      Title: WebAssembly--a quiet revolution of the web
+      Link: https://dl.acm.org/citation.cfm?id=3282508
+      Author: Anders Møller    
 
     
     
@@ -131,7 +135,7 @@ Selected July 2019:
     TechnicalPerspective:
       Title: Technical perspective: Analyzing smart contracts with MadMax
       Link: https://dl.acm.org/doi/10.1145/3416259
-      Author: Benjamin Livshits 
+      Author: Benjamin Livshits
 
 - Title: "_[BLeak: automatically debugging memory leaks in web applications](https://dl.acm.org/citation.cfm?id=3192376)_"
   Authors: John Vilk (University of Massachusetts at Amherst), Emery Berger (University of Massachusetts at Amherst)
