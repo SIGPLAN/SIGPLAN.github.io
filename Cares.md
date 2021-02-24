@@ -57,6 +57,10 @@ CARES committee members may also attend other workshops and conferences sponsore
     <td>David Walker, Shriram Krishnamurthi, Stephanie Weirich, and Simon Peyton-Jones</td>
  </tr>
  <tr>
+    <td><a href="https://pldi21.sigplan.org/">PLDI 2020</a></td>
+    <td>Alexandra Silva, Vikram Adve, Michelle Stout, Kathryn McKinley, David Walker</td>
+ </tr>
+ <tr>
     <td><a href="https://2020.splashcon.org/">OOPSLA 2020</a></td>
     <td>Alexandra Silva, Shriram Krishnamurthi, Vikram Adve, Peng Wu, and Kathryn McKinley</td>
  </tr>
@@ -94,6 +98,10 @@ CARES committee members may also attend other workshops and conferences sponsore
    <td><img src="http://sigplan.org/images/cares-photos/adve.png" alt="Vikram Adve" height="60%"><br><a href="https://vikram.cs.illinois.edu/">Vikram Adve</a></td>
    <td>Member, <a href="mailto:vadve@illinois.edu">vadve@illinois.edu</a>, University of Illinois </td>
   </tr>
+ <tr>
+   <td><img src="http://sigplan.org/images/cares-photos/feng.png" alt="Xinyu Feng" height="60%"><br><a href="https://cs.nju.edu.cn/xyfeng/">Xinyu Feng</a></td>
+   <td>Member, <a href="mailto:xyfeng@nju.edu.cn">xyfeng@nju.edu.cn</a>, Nanjing University </td>
+  </tr> 
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/krishnamurthi.png" alt="Shriram Krishnamurthi" height="60%"><br><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a></td>
    <td>Member, <a href="mailto:sk@cs.brown.edu">sk@cs.brown.edu</a>, Brown University </td>
