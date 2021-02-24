@@ -107,7 +107,7 @@ Outside of ACM conferences and events, individual CARES committee members were c
    <td>Member, <a href="mailto:vadve@illinois.edu">vadve@illinois.edu</a>, University of Illinois </td>
   </tr>
  <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/feng.png" alt="Xinyu Feng" height="40%"><br><a href="https://cs.nju.edu.cn/xyfeng/">Xinyu Feng</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/feng.png" alt="Xinyu Feng" height="20%"><br><a href="https://cs.nju.edu.cn/xyfeng/">Xinyu Feng</a></td>
    <td>Member, <a href="mailto:xyfeng@nju.edu.cn">xyfeng@nju.edu.cn</a>, Nanjing University </td>
   </tr> 
  <tr>
