@@ -8,15 +8,25 @@ aspect of programming. Welcomed are papers that propose and argue for
 new approaches to the creation of software as well as reflections on
 technology and ideas bearing on programming broadly construed.
 
-Onward! 2020
+Onward! 2021
 ------------
 
--   Chicago, Illinois, USA, November 18-20, 2020
--   Co-located with SPLASH 2020
--   [http://2020.splashcon.org](http://2020.splashcon.org)
+-   Chicago, Illinois, USA, October 17-22, 2021
+-   Co-located with SPLASH 2021
+-   Papers chair: Wolfgang De Meuter
+-   Essays chair: Elisa Baniassad
+-   [http://2021.splashcon.org](http://2021.splashcon.org)
+
 
 Awards
 ------
+
+-   Most Notable Paper Award 2020 for 2010
+    -   Recipients: Lennart C. L. Kats, Eelco Visser, and Guido Wachsmuth
+    -   Title: Pure and Declarative Syntax Definition: Paradise Lost and Regained
+    -   Conference: Onwarrd! 2010
+    -   Paper: [https://dl.acm.org/doi/10.1145/1869459.1869535](https://dl.acm.org/doi/10.1145/1869459.1869535)
+    -   Citation: In a beautiful and compelling exposition, this essay lays out a research vision for realizing a declarative approach to syntax definition.  Considering how we can best capture the syntactic structure of a programming language is a question near to the heart of both language design and implementation.  The essay is technically interesting without getting lost in formality.  Its argument for the declarative paradigm has been influential, impacting a chain of research on declarative syntax tools and helping to usher in the recent era of polyglot programming.  
 
 -   Most Notable Paper Award 2019 for 2009
     -   Recipient: William R. Cook
@@ -137,6 +147,15 @@ Awards
 
 Past Events
 -----------
+
+- Onward! 2020
+    -   Online, November 15-21, 2020
+    -   Co-located with SPLASH 2020
+    -   Papers chair: Stephen Kell (University of Kent)
+    -   Essays chair: Didier Verna (EPITA / LRDE)
+    -   [https://2020.splashcon.org/](https://2020.splashcon.org/)
+    -   [https://2020.splashcon.org/track/splash-2020-Onward-papers](https://2020.splashcon.org/track/splash-2020-Onward-papers)
+    -   [https://2020.splashcon.org/track/splash-2020-Onward-Essays](https://2020.splashcon.org/track/splash-2020-Onward-Essays)
 
 - Onward! 2019
     -   Athens, Greece, October 23-25, 2019
@@ -305,36 +324,40 @@ Steering Committee Members
 
 ### Present
 
-* Jonathan Aldrich, Carnegie Mellon University, USA (SC Chair 2018-2021, SPLASH General Chair 2015)
-* Robert Biddle, Carleton University, Canada (Essays Chair 2017, Chair 2006)
-* Richard P. Gabriel, Dreamsongs and Hasso Plattner Institute, USA (Essays Chair 2018, General Co-chair 2011, Essays Assistant Chair 2009, Chair 2003, Chair 2002, Founding Chair)
-* Elisa Gonzalez Boix, Vrije Universiteit Brussel, Belgium (Papers Chair 2018)
-* Robert Hirschfeld, Hasso Plattner Institute and University of Potsdam, Germany (Past SC Chair 2018-2021, SC Chair 2015-2018, Papers Chair 2013, General Chair 2011)
+* Jonathan Aldrich, Carnegie Mellon University, USA (Past SC Chair 2021-2023, SC Chair 2018-2020, SPLASH General Chair 2015)
+* Elisa Baniassad, University of British Columbia, Canada (Essays Chair 2021, SC Chair 2011-2013, Co-chair 2005)
+* Wolfgang De Meuter, Vrije Universiteit Brussel, Belgium (Papers Chair 2021)
+* Ranjit Jhala, University of California at San Diego, USA (SIGPLAN 2021)
+* Stephen Kell, University of Kent, United Kingdom (Papers Chair 2020)
 * Hidehiko Masuhara, Tokyo Institute of Technology, Japan (Papers Chair 2019)
-* Gail Murphy, University of British Columbia, Canada (SPLASH General Chair 2017, Papers Chair 2015)
 * Tomas Petricek, University of Kent, UK (Essays Chair 2019)
-* Benjamin C. Pierce, University of Pennsylvania, USA (SIGPLAN 2018-2021)
+* Hridesh Rajan,  Iowa State University, USA (SPLASH General Chair 2020-2021)
 * Yannis Smaragdakis, University of Athens, Greece (SPLASH General Chair 2019)
-* Emina Torlak, University of Washington, USA (Papers Chair 2017)
-* Jan Vitek, Northeastern University, USA (SPLASH General Chair 2018)
+* Didier Verna, EPITA / LRDE, France (Essays Chair 2020)
+
 
 ### Past
 
-* Elisa Baniassad (SC Chair 2011-2013, Co-chair 2005)
+* Robert Biddle, Carleton University, Canada (Essays Chair 2017, Chair 2006)
 * Andrew Black (SPLASH General Chair 2014)
+* Elisa Gonzalez Boix, Vrije Universiteit Brussel, Belgium (Papers Chair 2018)
 * Bernd Bruegge (Essays Chair 2014, Essays Chair 2013, General Chair 2009)
 * Siobhán Clarke (General Chair 2010)
 * Yvonne Coady (Papers Chair 2009)
 * Geoff A. Cohen (Chair 2004)
 * Jonathan Edwards (Papers Chair 2012)
+* Richard P. Gabriel, Dreamsongs and Hasso Plattner Institute, USA (Essays Chair 2018, General Co-chair 2011, Essays Assistant Chair 2009, Chair 2003, Chair 2002, Founding Chair)
 * Jeremy Gibbons (SIGPLAN 2012-2015)
+* Robert Hirschfeld, Hasso Plattner Institute and University of Potsdam, Germany (Past SC Chair 2018-2020, SC Chair 2015-2018, Papers Chair 2013, General Chair 2011)
 * Antony Hosking (SPLASH 2013 General Chair)
 * Shriram Krishnamurthi (Papers Chair 2014)
 * Cristina Videira Lopes (Essays Chair 2016, PC Chair 2007)
 * Brian Marick (Essays Chair 2005)
+* Gail Murphy, University of British Columbia, Canada (SPLASH General Chair 2017, Papers Chair 2015)
 * Emerson Murphy-Hill (Papers Chair 2016)
 * James Noble (Co-chair 2005)
 * Simon Peyton-Jones (Essays Chair 2009)
+* Benjamin C. Pierce, University of Pennsylvania, USA (SIGPLAN 2018-2020)
 * Dirk Riehle (PC Chair 2008)
 * Julie Steele (Essays Chair 2012)
 * Guy L. Steele Jr. (Essays Chair 2015)
@@ -342,5 +365,7 @@ Steering Committee Members
 * Tijs van der Storm (Papers Co-chair 2017)
 * Kevin Sullivan (Past SC Chair 2015-2018, SC Chair 2013-2015, Papers Chair 2010)
 * Peter Thiemann (SIGPLAN 2015-2018)
+* Emina Torlak, University of Washington, USA (Papers Chair 2017)
 * Eelco Visser (SPLASH General Chair 2016, Papers Chair 2011)
+* Jan Vitek, Northeastern University, USA (SPLASH General Chair 2018)
 * David West (Essays Chair 2011)
