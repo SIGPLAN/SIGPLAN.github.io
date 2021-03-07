@@ -1,3 +1,23 @@
+2020:
+- Awardee: Eran Yahav
+  Citation: |
+    Eran Yahav has a record of sustained, high-impact contributions to the programming 
+    languages research community over nearly two decades.  Much of his work has 
+    concerned effective static reasoning about concurrent programs, which is a 
+    longstanding challenge due to the complex and non-local ways in which threads 
+    can interact with one another.  Yahav  developed novel abstractions for verifying 
+    safety and correctness properties of concurrent programs and used them to validate 
+    non-trivial concurrent algorithms in Java.  Later, he extended and applied 
+    program synthesis techniques to concurrent programs in creative ways, for 
+    example, demonstrating how to synthesize a correct concurrent version of a 
+    sequential algorithm and how to automatically repair an existing concurrent 
+    algorithm through additional synchronization.  Most recently, Yahav has been 
+    an early leader in the area of "big code," leveraging machine learning techniques 
+    to solve difficult programming tasks, including code search, code completion, and 
+    reverse engineering.  This work has influenced others in the research community 
+    to pursue this research direction and has led to practical software engineering 
+    tools for programmers.
+
 2019:
 - Awardee: Martin Vechev
   Citation: |
