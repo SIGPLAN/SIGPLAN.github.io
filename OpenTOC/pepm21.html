@@ -1,0 +1,237 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>PEPM 2021: Proceedings of the 2021 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>PEPM 2021: Proceedings of the 2021 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3441296"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3441296.3441393">A type-safe structure editor calculus</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Christian Godiksen</li>
+               <li class="nameList">Thomas Herrmann</li>
+               <li class="nameList">Hans Hüttel</li>
+               <li class="nameList">Mikkel Korup Lauridsen</li>
+               <li class="nameList Last">Iman Owliaie</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Structure editors make syntax errors impossible, but they still allow construction
+                     of programs with incomplete semantics, leading to program states that cannot be evaluated.
+                     We introduce a structure editor calculus for a simple functional programming language
+                     that allows for incomplete programs. Our editor expressions may interleave construction
+                     and evaluation of programs and can thus describe the history of the development of
+                     a program. We extend our editor calculus with types and define a resource-aware type
+                     system that prohibits editor expressions introducing type errors in the abstract syntax
+                     tree and prove that the type system is sound.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3441296.3441394">Coq to C translation with partial evaluation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Akira Tanaka</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Coq proof assistant can be used to prove various properties of programs written in
+                     the Gallina language. It is also possible to translate Gallina programs to OCaml programs.
+                     However, OCaml is not suitable for low-level programs. Therefore, we are developing
+                     a Coq plugin for Gallina to C translation. This plugin transforms functions written
+                     in Gallina into a form as close to C as possible within Gallina. This transformation
+                     includes partial evaluation, which improves execution efficiency and eliminates polymorphism
+                     and dependent types. We can easily verify in Coq that this transformation does not
+                     change the execution result, and thus it is highly reliable. And Gallina functions
+                     after this transformation can be easily translated to C.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3441296.3441395">A text-based syntax completion method using LR parsing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Isao Sasano</li>
+               <li class="nameList Last">Kwanghoon Choi</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This paper presents a text-based syntax completion method using an LR parser. We propose
+                     formal definitions of candidate text to be completed based on the sentential forms,
+                     and we design algorithms for computing candidates through reductions in the LR parsing.
+                     This is in contrast to the existing methods that have not clearly stated what candidates
+                     they intend to produce. This is also different from a transformation approach using
+                     an LR parser, which transforms the grammar of the programming language, a burdensome
+                     task at this moment. The advantage of our method is that LR parsers can be adopted
+                     without modification, and a syntax completion system can be built using them, without
+                     incurring efforts. We implemented the algorithms as an Emacs server to demonstrate
+                     the feasibility of their application.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3441296.3441396">Counterexample generation for program verification based on ownership refinement types</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Hideto Ueno</li>
+               <li class="nameList">John Toman</li>
+               <li class="nameList">Naoki Kobayashi</li>
+               <li class="nameList Last">Takeshi Tsukada</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Type-based program verification, which reduces program verification to type inference,
+                     has been used as a lightweight approach to automated program verification. Whilst
+                     it is often effective and faster than other methods such as model checking, the type-based
+                     approach often fails to provide useful information upon a failure of the verification.
+                     We address this problem for a recent type-based verification tool called ConSORT for
+                     imperative programs. Producing a useful error message is particularly challenging
+                     for ConSORT, as the underlying type system combines the notions of ownership, refinement
+                     types, and context-sensitivity. This paper proposes a method to produce error messages
+                     for ConSORT and reports an implementation and experimental results. The proposed method
+                     is potentially useful also for other type-based tools for automated program verification.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3441296.3441397">Efficient fair conjunction for structurally-recursive relations</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Peter Lozov</li>
+               <li class="nameList Last">Dmitry Boulytchev</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We present a new, fair, conjunction evaluation strategy for relational programming
+                     language miniKanren. Unlike the original left-biased conjunction, our approach controls
+                     the order of conjunct execution based on the intrinsic properties of relation definitions.
+                     We present both the formal study of conjunction fairness and practical evaluation,
+                     which demonstrates the essential improvement in terms of both performance and convergence.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3441296.3441398">Strictly capturing non-strict closures</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Zachary J. Sullivan</li>
+               <li class="nameList">Paul Downen</li>
+               <li class="nameList Last">Zena M. Ariola</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>All functional languages need closures. Closure-conversion is a compiler transformation
+                     that embeds static code into the program for creating and manipulating closures, avoiding
+                     the need for special run-time closure support. For call-by-value languages, closure-conversion
+                     has been the focus of extensive studies concerning correctness, such as type preservation
+                     and contextual equivalence, and performance, such as space usage. Unfortunately, non-strict
+                     languages have been neglected in these studies. This paper aims to fill this gap.
+                     </p> 
+                  <p>We begin with both a call-by-name and a call-by-need source language whose semantics
+                     automatically generates closures at run-time. Next, we give type-preserving closure-conversions
+                     for these two non-strict languages into a lower-level target language <em>without</em> automatic closure generation at run-time. Despite the fact that our source languages
+                     are non-strict, we show that closures must be created eagerly, which requires a strict
+                     notion of product in the target language. We extend logical relation techniques used
+                     to prove compiler correctness for call-by-value languages, to apply to non-strict
+                     languages too. In doing so, we identify some important properties for reasoning about
+                     memoization with a heap.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>

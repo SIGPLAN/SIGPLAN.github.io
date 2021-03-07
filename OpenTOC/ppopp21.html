@@ -1,0 +1,1486 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>PPoPP '21: Proceedings of the 26th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>PPoPP '21: Proceedings of the 26th ACM SIGPLAN Symposium on Principles and Practice of Parallel
+               Programming</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3437801"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441586">Efficient algorithms for persistent transactional memory</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Pedro Ramalhete</li>
+               <li class="nameList">Andreia Correia</li>
+               <li class="nameList Last">Pascal Felber</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Durable techniques coupled with transactional semantics provide to application developers
+                     the guarantee that data is saved consistently in persistent memory (PM), even in the
+                     event of a non-corrupting failure. Persistence fences and flush instructions are known
+                     to have a significant impact on the throughput of persistent transactions.</p> 
+                  <p>In this paper we explore different trade-offs in terms of memory usage <em>vs.</em> number of fences and flushes. We present two new algorithms, named Trinity and Quadra,
+                     for durable transactions on PM and implement each of them in the form of a user-level
+                     library persistent transactional memory (PTM). Quadra achieves the lower bound with
+                     respect to the number of persistence fences and executes one flush instruction per
+                     modified cache line. Trinity can be easily combined with concurrency control techniques
+                     based on fine grain locking, and we have integrated it with our TL2 adaptation, with
+                     eager locking and write-through update strategy. Moreover, the combination of Trinity
+                     and TL2 into a PTM provides good scalability for data structures and workloads with
+                     a disjoint access pattern. We used this disjoint PTM to implement a key-value (KV)
+                     store with durable linearizable transactions. When compared with previous work, our
+                     TL2 KV store provides better throughput in nearly all experiments.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441594">Investigating the semantics of futures in transactional memory systems</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jingna Zeng</li>
+               <li class="nameList">Shady Issa</li>
+               <li class="nameList">Paolo Romano</li>
+               <li class="nameList">Luis Rodrigues</li>
+               <li class="nameList Last">Seif Haridi</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This paper investigates the problem of integrating two powerful abstractions for concurrent
+                     programming, namely futures and transactional memory. Our focus is on specifying the
+                     semantics of execution of "transactional futures", i.e., futures that execute as atomic
+                     transactions and that are spawned/evaluated by other (plain) transactions or transactional
+                     futures. We show that, due to the ability of futures to generate parallel computations
+                     with complex dependencies, there exist several plausible (i.e., intuitive) alternatives
+                     for defining the isolation and atomicity semantics of transactional futures. The alternative
+                     semantics we propose explore different trade-offs between ease of use and efficiency.
+                     We have implemented the proposed semantics by introducing a graph-based software transactional
+                     memory algorithm, which we integrated with a state of the art JAVA-based Software
+                     Transactional Memory (STM). We quantify the performance trade-offs associated with
+                     the different semantics using an extensive experimental study encompassing a wide
+                     range of diverse workloads.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441602">Constant-time snapshots with applications to concurrent data structures</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yuanhao Wei</li>
+               <li class="nameList">Naama Ben-David</li>
+               <li class="nameList">Guy E. Blelloch</li>
+               <li class="nameList">Panagiota Fatourou</li>
+               <li class="nameList">Eric Ruppert</li>
+               <li class="nameList Last">Yihan Sun</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Given a concurrent data structure, we present an approach for efficiently taking snapshots
+                     of its constituent CAS objects. More specifically, we support a constant-time operation
+                     that returns a snapshot handle. This snapshot handle can later be used to read the
+                     value of any base object at the time the snapshot was taken. Reading an earlier version
+                     of a base object is wait-free and takes time proportional to the number of successful
+                     writes to the object since the snapshot was taken. Importantly, our approach preserves
+                     all the time bounds and parallelism of the original data structure.</p> 
+                  <p>Our fast, flexible snapshots yield simple, efficient implementations of atomic multi-point
+                     queries on a large class of concurrent data structures. For example, in a search tree
+                     where child pointers are updated using CAS, once a snapshot is taken, one can atomically
+                     search for ranges of keys, find the first key that matches some criteria, or check
+                     if a collection of keys are all present, simply by running a standard sequential algorithm
+                     on a snapshot of the tree.</p> 
+                  <p>To evaluate the performance of our approach, we apply it to three search trees, one
+                     balanced and two not. Experiments show that the overhead of supporting snapshots is
+                     low across a variety of workloads. Moreover, in almost all cases, range queries on
+                     the trees built from our snapshots perform as well as or better than state-of-the-art
+                     concurrent data structures that support atomic range queries.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441617">Reasoning about recursive tree traversals</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yanjun Wang</li>
+               <li class="nameList">Jinwei Liu</li>
+               <li class="nameList">Dalin Zhang</li>
+               <li class="nameList Last">Xiaokang Qiu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Traversals are commonly seen in tree data structures, and performance-enhancing transformations
+                     between tree traversals are critical for many applications. Existing approaches to
+                     reasoning about tree traversals and their transformations are ad hoc, with various
+                     limitations on the classes of traversals they can handle, the granularity of dependence
+                     analysis, and the types of possible transformations. We propose Retreet, a framework
+                     in which one can describe general recursive tree traversals, precisely represent iterations,
+                     schedules and dependences, and automatically check data-race-freeness and transformation
+                     correctness. The crux of the framework is a stack-based representation for iterations
+                     and an encoding to Monadic Second-Order (MSO) logic over trees. Experiments show that
+                     Retreet can automatically verify optimizations for complex traversals on real-world
+                     data structures, such as CSS and cycletrees, which are not possible before. Our framework
+                     is also integrated with other MSO-based analysis techniques to verify even more challenging
+                     program transformations.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441620">Synthesizing optimal collective algorithms</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Zixian Cai</li>
+               <li class="nameList">Zhengyang Liu</li>
+               <li class="nameList">Saeed Maleki</li>
+               <li class="nameList">Madanlal Musuvathi</li>
+               <li class="nameList">Todd Mytkowicz</li>
+               <li class="nameList">Jacob Nelson</li>
+               <li class="nameList Last">Olli Saarikivi</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Collective communication algorithms are an important component of distributed computation.
+                     Indeed, in the case of deep-learning, collective communication is the Amdahl's bottleneck
+                     of data-parallel training.</p> 
+                  <p>This paper introduces SCCL (for Synthesized Collective Communication Library), a systematic
+                     approach to synthesizing collective communication algorithms that are explicitly tailored
+                     to a particular hardware topology. SCCL synthesizes algorithms along the Pareto-frontier
+                     spanning from latency-optimal to bandwidth-optimal implementations of a collective.
+                     The paper demonstrates how to encode the synthesis problem as a quantifier-free SMT
+                     formula which can be discharged to a theorem prover. We show how our carefully built
+                     encoding enables SCCL to scale.</p> 
+                  <p>We synthesize novel latency and bandwidth optimal algorithms not seen in the literature
+                     on two popular hardware topologies. We also show how SCCL efficiently lowers algorithms
+                     to implementations on two hardware architectures (NVIDIA and AMD) and demonstrate
+                     competitive performance with hand optimized collective communication libraries.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441604">Parallel binary code analysis</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Xiaozhu Meng</li>
+               <li class="nameList">Jonathon M. Anderson</li>
+               <li class="nameList">John Mellor-Crummey</li>
+               <li class="nameList">Mark W. Krentel</li>
+               <li class="nameList">Barton P. Miller</li>
+               <li class="nameList Last">Srđan Milaković</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Binary code analysis is widely used to help assess a program's correctness, performance,
+                     and provenance. Binary analysis applications often construct control flow graphs,
+                     analyze data flow, and use debugging information to understand how machine code relates
+                     to source lines, inlined functions, and data types. To date, binary analysis has been
+                     single-threaded, which is too slow for convenient use in performance tuning workflows
+                     where it is used to help attribute performance to complex applications with large
+                     binaries.</p> 
+                  <p>This paper describes our design and implementation for accelerating the task of constructing
+                     control flow graphs (CFGs) from binaries by using multithreading. Prior research focuses
+                     on algorithms for analysis of challenging code constructs encountered while constructing
+                     CFGs, including functions sharing code, jump tables, non-returning functions, and
+                     tail calls. These algorithms are described from a program analysis perspective and
+                     are not suitable for direct parallel implementation. We abstract the task of constructing
+                     CFGs as repeated applications of several core CFG operations that include creating
+                     functions, basic blocks, and edges. We then derive CFG operation dependency, commutativity,
+                     and monotonicity. These operation properties guide our design of a new parallel analysis
+                     for constructing CFGs. Using 64 threads, we achieved as much as 25× speedup for constructing
+                     CFGs and 8× for a performance analysis tool that leverages our new analysis to recover
+                     program structure.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441600">Compiler support for near data computing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Mahmut Taylan Kandemir</li>
+               <li class="nameList">Jihyun Ryoo</li>
+               <li class="nameList">Xulong Tang</li>
+               <li class="nameList Last">Mustafa Karakoy</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Recent works from both hardware and software domains offer various optimizations that
+                     try to take advantage of near data computing (NDC) opportunities. While the results
+                     from these works indicate performance improvements of various magnitudes, the existing
+                     literature lacks a detailed quantification of the potential of NDC and analysis of
+                     compiler optimizations on tapping into that potential. This paper first presents an
+                     analysis of the NDC potential when executing multithreaded applications on manycore
+                     platforms. It then presents two compiler schemes designed to take advantage of NDC.
+                     The first of these schemes try to increase the amount of computation that can be performed
+                     in a hardware component, whereas the second compiler strategy strikes a balance between
+                     optimizing NDC and exploiting data reuse, by being more selective on when to perform
+                     NDC (even if the opportunity presents itself) and how. The collected experimental
+                     results on a 5×5 manycore system reveal that our first and second compiler schemes
+                     improve the overall performance of our multithreaded applications by, respectively,
+                     22.5% and 25.2%, on average. Furthermore, these two compiler schemes are only 6.8%
+                     and 4.1% worse than an oracle scheme that makes the best near data computing decisions
+                     for each and every computation.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441587">Scaling implicit parallelism via dynamic control replication</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Michael Bauer</li>
+               <li class="nameList">Wonchan Lee</li>
+               <li class="nameList">Elliott Slaughter</li>
+               <li class="nameList">Zhihao Jia</li>
+               <li class="nameList">Mario Di Renzo</li>
+               <li class="nameList">Manolis Papadakis</li>
+               <li class="nameList">Galen Shipman</li>
+               <li class="nameList">Patrick McCormick</li>
+               <li class="nameList">Michael Garland</li>
+               <li class="nameList Last">Alex Aiken</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We present dynamic control replication, a run-time program analysis that enables scalable
+                     execution of implicitly parallel programs on large machines through a distributed
+                     and efficient dynamic dependence analysis. Dynamic control replication distributes
+                     dependence analysis by executing multiple copies of an implicitly parallel program
+                     while ensuring that they still collectively behave as a single execution. By distributing
+                     and parallelizing the dependence analysis, dynamic control replication supports efficient,
+                     on-the-fly computation of dependences for programs with arbitrary control flow at
+                     scale. We describe an asymptotically scalable algorithm for implementing dynamic control
+                     replication that maintains the sequential semantics of implicitly parallel programs.</p> 
+                  <p>An implementation of dynamic control replication in the Legion runtime delivers the
+                     same programmer productivity as writing in other implicitly parallel programming models,
+                     such as Dask or TensorFlow, while providing better performance (11.4X and 14.9X respectively
+                     in our experiments), and scalability to hundreds of nodes. We also show that dynamic
+                     control replication provides good absolute performance and scaling for HPC applications,
+                     competitive in many cases with explicitly parallel programming systems.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441585">Understanding and bridging the gaps in current GNN performance optimizations</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Kezhao Huang</li>
+               <li class="nameList">Jidong Zhai</li>
+               <li class="nameList">Zhen Zheng</li>
+               <li class="nameList">Youngmin Yi</li>
+               <li class="nameList Last">Xipeng Shen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Graph Neural Network (GNN) has recently drawn a rapid increase of interest in many
+                     domains for its effectiveness in learning over graphs. Maximizing its performance
+                     is essential for many tasks, but remains preliminarily understood. In this work, we
+                     provide an in-depth examination of the state-of-the-art GNN frameworks, revealing
+                     five major gaps in the current frameworks in optimizing GNN performance, especially
+                     in handling the special complexities of GNN over traditional graph or DNN operations.
+                     Based on the insights, we put together a set of optimizations to fill the gaps. These
+                     optimizations leverage the state-of-the-art GPU optimization techniques and tailor
+                     them to the special properties of GNN. Experimental results show that these optimizations
+                     achieve 1.37×--15.5× performance improvement over the state-of-the-art frameworks
+                     on various GNN models.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441605">A fast work-efficient SSSP algorithm for GPUs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Kai Wang</li>
+               <li class="nameList">Don Fussell</li>
+               <li class="nameList Last">Calvin Lin</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This paper presents a new Single Source Shortest Path (SSSP) algorithm for GPUs. Our
+                     key advancement is an improved work scheduler, which is central to the performance
+                     of SSSP algorithms. Previous GPU solutions for SSSP use simple work schedulers that
+                     can be implemented efficiently on GPUs but that produce low quality schedules. Such
+                     solutions yield poor work efficiency and can underutilize the hardware due to a lack
+                     of parallelism. Our solution introduces a more sophisticated work scheduler---based
+                     on a novel highly parallel approximate priority queue---that produces high quality
+                     schedules while being efficiently implementable on GPUs.</p> 
+                  <p>To evaluate our solution, we use 226 graph inputs from the Lonestar 4.0 benchmark
+                     suite and the SuiteSparse Matrix Collection, and we find that our solution outperforms
+                     the previous state-of-the-art solution by an average of 2.9×, showing that an efficient
+                     work scheduling mechanism can be implemented on GPUs without sacrificing schedule
+                     quality.</p> 
+                  <p>While this paper focuses on the SSSP problem, it has broader implications for the
+                     use of GPUs, illustrating that seemingly ill-suited data structures, such as priority
+                     queues, <em>can</em> be efficiently implemented for GPUs if we use the proper software structure.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441595">ShadowVM: accelerating data plane for data analytics with bare metal CPUs and GPUs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Zhifang Li</li>
+               <li class="nameList">Mingcong Han</li>
+               <li class="nameList">Shangwei Wu</li>
+               <li class="nameList Last">Chuliang Weng</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>With the development of the big data ecosystem, large-scale data analytics has become
+                     more prevalent in the past few years. Apache Spark, etc., provide a flexible approach
+                     for scalable processing upon massive data. However, they are not designed for handling
+                     computing-intensive workloads due to the restrictions of JVM runtime. In contrast,
+                     GPU has been the de facto accelerator for graphics rendering and deep learning in
+                     recent years. Nevertheless, the current architecture makes it difficult to take advantage
+                     of GPUs and other accelerators in the big data world.</p> 
+                  <p>Now, it is time to break down this obstacle by changing the fundamental architecture.
+                     To integrate accelerators efficiently, we decouple the control plane and the data
+                     plane within big data systems via action shadowing. The control plane keeps logic
+                     information to fit well with the host systems like Spark, while the data plane holds
+                     data and performs execution upon bare metal CPUs and GPUs. Under this decoupled architecture,
+                     both the control plane and the data plane could leverage the appropriate approaches
+                     without breaking existing mechanisms. Based on this idea, we implement an accelerated
+                     data plane, namely <em>ShadowVM.</em> In our experiments on the SSB benchmark, ShadowVM lifts the JVM-based Spark with
+                     up to 14.7× speedup. Furthermore, ShadowVM could also outperform the GPU-only fashion
+                     by adopting mixed CPU-GPU execution.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441611">BiPart: a parallel and deterministic hypergraph partitioner</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Sepideh Maleki</li>
+               <li class="nameList">Udit Agarwal</li>
+               <li class="nameList">Martin Burtscher</li>
+               <li class="nameList Last">Keshav Pingali</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Hypergraph partitioning is used in many problem domains including VLSI design, linear
+                     algebra, Boolean satisfiability, and data mining. Most versions of this problem are
+                     NP-complete or NP-hard, so practical hypergraph partitioners generate approximate
+                     partitioning solutions for all but the smallest inputs. One way to speed up hypergraph
+                     partitioners is to exploit parallelism. However, existing parallel hypergraph partitioners
+                     are not deterministic, which is considered unacceptable in domains like VLSI design
+                     where the same partitions must be produced every time a given hypergraph is partitioned.</p> 
+                  <p>In this paper, we describe BiPart, the first deterministic, parallel hypergraph partitioner.
+                     Experimental results show that BiPart outperforms state-of-the-art hypergraph partitioners
+                     in runtime and partition quality while generating partitions deterministically.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441625">NBR: neutralization based reclamation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Ajay Singh</li>
+               <li class="nameList">Trevor Brown</li>
+               <li class="nameList Last">Ali Mashtizadeh</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p><em>Safe memory reclamation</em> (SMR) algorithms suffer from a trade-off between bounding unreclaimed memory and
+                     the speed of reclamation. Hazard pointer (HP) based algorithms bound unreclaimed memory
+                     at all times, but tend to be slower than other approaches. Epoch based reclamation
+                     (EBR) algorithms are faster, but do not bound memory reclamation. Other algorithms
+                     follow hybrid approaches, requiring special compiler or hardware support, changes
+                     to record layouts, and/or extensive code changes. Not all SMR algorithms can be used
+                     to reclaim memory for all data structures.</p> 
+                  <p>We propose a new <em>neutralization</em> based reclamation (NBR) algorithm that is often faster than the best known EBR algorithms
+                     and achieves bounded unreclaimed memory. It is non-blocking when used with a non-blocking
+                     operating system (OS) kernel, and only requires atomic read, write and CAS. NBR is
+                     straightforward to use with many different data structures, and in most cases, requires
+                     similar reasoning and programmer effort to two-phased locking. <em>NBR</em> is implemented using OS signals and a lightweight handshaking mechanism between participating
+                     threads to determine when it is safe to reclaim a record. Experiments on a lock-based
+                     binary search tree and a lazy linked list show that <em>NBR</em> significantly outperforms many state of the art reclamation algorithms. In the tree,
+                     NBR is faster than next best algorithm, DEBRA, by up to 38% and HP by up to 17%. And,
+                     in the list, NBR is 15% and 243% faster than DEBRA and HP, respectively.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441582">Efficiently reclaiming memory in concurrent search data structures while bounding
+                  wasted memory</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Daniel Solomon</li>
+               <li class="nameList Last">Adam Morrison</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Nonblocking data structures face a <em>safe memory reclamation</em> (SMR) problem. In these algorithms, a node removed from the data structure cannot
+                     be reclaimed (freed) immediately, as other threads may be about to access it. The
+                     goal of an SMR scheme is to minimize the number of removed nodes that cannot be reclaimed---called
+                     <em>wasted memory</em>---while imposing low run-time overhead. It is also desirable for an SMR scheme to
+                     be <em>self-contained</em> and not require specific OS features.</p> 
+                  <p>No existing self-contained SMR scheme can guarantee a predetermined bound on wasted
+                     memory without imposing significant run-time overhead. In this paper, we introduce
+                     <em>margin pointers</em> (MP), the first nonblocking, self-contained SMR scheme featuring both predetermined
+                     bounded wasted memory and low run-time overhead. MP targets search data structures,
+                     such as binary trees and skip lists, which are important SMR clients and also victims
+                     of its high overhead. MP's novelty lies in its protecting <em>logical</em> subsets of the data structure from being reclaimed, as opposed to previous work,
+                     which protects <em>physical</em> locations (explicit nodes).</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441596">OrcGC: automatic lock-free memory reclamation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Andreia Correia</li>
+               <li class="nameList">Pedro Ramalhete</li>
+               <li class="nameList Last">Pascal Felber</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Dynamic lock-free data structures require a memory reclamation scheme with a similar
+                     progress. Until today, lock-free schemes are applied to data structures on a case-by-case
+                     basis, often with algorithm modifications to the data structure.</p> 
+                  <p>In this paper we introduce two new lock-free reclamation schemes, one manual and the
+                     other automatic with user annotated types. The manual reclamation scheme, named <em>pass-the-pointer</em> (PTP), has lock-free progress and a bound on the number of unreclaimed objects that
+                     is linear with the number of threads.</p> 
+                  <p>The automatic lock-free memory reclamation scheme, which we named OrcGC, uses PTP
+                     and object reference counting to automatically detect when to protect and when to
+                     de-allocate an object. OrcGC has a linear bound on memory usage and can be used with
+                     any allocator. We propose a new methodology that utilizes OrcGC to provide lock-free
+                     memory reclamation to a data structure.</p> 
+                  <p>We conducted a performance evaluation on two machines, an Intel and an AMD, applying
+                     PTP and OrcGC to several lock-free data structures, providing lock-free memory reclamation
+                     where before there was none. On the Intel machine we saw no significant performance
+                     impact, while on AMD we observed a worst-case performance drop below 50%.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441612">Are dynamic memory managers on GPUs slow?: a survey and benchmarks</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Martin Winter</li>
+               <li class="nameList">Mathias Parger</li>
+               <li class="nameList">Daniel Mlakar</li>
+               <li class="nameList Last">Markus Steinberger</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Dynamic memory management on GPUs is generally understood to be a challenging topic.
+                     On current GPUs, hundreds of thousands of threads might concurrently allocate new
+                     memory or free previously allocated memory. This leads to problems with thread contention,
+                     synchronization overhead and fragmentation. Various approaches have been proposed
+                     in the last ten years and we set out to evaluate them on a level playing field on
+                     modern hardware to answer the question, if dynamic memory managers are as slow as
+                     commonly thought of. In this survey paper, we provide a consistent framework to evaluate
+                     all publicly available memory managers in a large set of scenarios. We summarize each
+                     approach and thoroughly evaluate allocation performance (thread-based as well as warp-based),
+                     and look at performance scaling, fragmentation and real-world performance considering
+                     a synthetic workload as well as updating dynamic graphs. We discuss the strengths
+                     and weaknesses of each approach and provide guidelines for the respective best usage
+                     scenario. We provide a unified interface to integrate any of the tested memory managers
+                     into an application and switch between them for benchmarking purposes. Given our results,
+                     we can dispel some of the dread associated with dynamic memory managers on the GPU.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441621">GPTune: multitask learning for autotuning exascale applications</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yang Liu</li>
+               <li class="nameList">Wissam M. Sid-Lakhdar</li>
+               <li class="nameList">Osni Marques</li>
+               <li class="nameList">Xinran Zhu</li>
+               <li class="nameList">Chang Meng</li>
+               <li class="nameList">James W. Demmel</li>
+               <li class="nameList Last">Xiaoye S. Li</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Multitask learning has proven to be useful in the field of machine learning when additional
+                     knowledge is available to help a prediction task. We adapt this paradigm to develop
+                     autotuning frameworks, where the objective is to find the optimal performance parameters
+                     of an application code that is treated as a black-box function. Furthermore, we combine
+                     multitask learning with multi-objective tuning and incorporation of coarse performance
+                     models to enhance the tuning capability. The proposed framework is parallelized and
+                     applicable to any application, particularly exascale applications with a small number
+                     of function evaluations. Compared with other state-of-the-art single-task learning
+                     frameworks, the proposed framework attains up to 2.8X better code performance for
+                     at least 80% of all tasks using up to 2048 cores.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441609">I/O lower bounds for auto-tuning of convolutions in CNNs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Xiaoyang Zhang</li>
+               <li class="nameList">Junmin Xiao</li>
+               <li class="nameList Last">Guangming Tan</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Convolution is the most time-consuming part in the computation of convolutional neural
+                     networks (CNNs), which have achieved great successes in numerous practical applications.
+                     Due to the complex data dependency and the increase in the amount of model samples,
+                     the convolution suffers from high overhead on data movement (i.e., memory access).
+                     This work provides comprehensive analysis and methodologies to minimize the communication
+                     for the convolution in CNNs. With an in-depth analysis of the recent I/O complexity
+                     theory under the red-blue game model, we develop a general I/O lower bound theory
+                     for a composite algorithm which consists of several different sub-computations. Based
+                     on the proposed theory, we establish the data movement lower bound results for two
+                     main convolution algorithms in CNNs, namely the direct convolution and Winograd algorithm,
+                     which represents the direct and indirect implementations of a convolution respectively.
+                     Next, derived from I/O lower bound results, we design the near I/O-optimal dataflow
+                     strategies for the two main convolution algorithms by fully exploiting the data reuse.
+                     Furthermore, in order to push the envelope of performance of the near I/O-optimal
+                     dataflow strategies further, an aggressive design of auto-tuning based on I/O lower
+                     bounds, is proposed to search an optimal parameter configuration for the direct convolution
+                     and Winograd algorithm on GPU, such as the number of threads and the size of shared
+                     memory used in each thread block. Finally, experiment evaluation results on the direct
+                     convolution and Winograd algorithm show that our dataflow strategies with the auto-tuning
+                     approach can achieve about 3.32× performance speedup on average over cuDNN. In addition,
+                     compared with TVM, which represents the state-of-the-art technique for auto-tuning,
+                     not only our auto-tuning method based on I/O lower bounds can find the optimal parameter
+                     configuration faster, but also our solution has higher performance than the optimal
+                     solution provided by TVM.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3446108">ApproxTuner: a compiler and runtime system for adaptive approximations</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Hashim Sharif</li>
+               <li class="nameList">Yifan Zhao</li>
+               <li class="nameList">Maria Kotsifakou</li>
+               <li class="nameList">Akash Kothari</li>
+               <li class="nameList">Ben Schreiber</li>
+               <li class="nameList">Elizabeth Wang</li>
+               <li class="nameList">Yasmin Sarita</li>
+               <li class="nameList">Nathan Zhao</li>
+               <li class="nameList">Keyur Joshi</li>
+               <li class="nameList">Vikram S. Adve</li>
+               <li class="nameList">Sasa Misailovic</li>
+               <li class="nameList Last">Sarita Adve</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Manually optimizing the tradeoffs between accuracy, performance and energy for resource-intensive
+                     applications with flexible accuracy or precision requirements is extremely difficult.
+                     We present ApproxTuner, an automatic framework for accuracy-aware optimization of tensor-based applications
+                     while requiring only high-level end-to-end quality specifications. ApproxTuner implements
+                     and manages approximations in algorithms, system software, and hardware.</p> 
+                  <p>The key contribution in ApproxTuner is a <em>novel three-phase approach to approximation-tuning that consists of development-time,
+                        install-time, and run-time phases.</em> Our approach decouples tuning of hardware-independent and hardware-specific approximations,
+                     thus providing retargetability across devices. To enable efficient autotuning of approximation
+                     choices, we present a novel accuracy-aware tuning technique called <em>predictive approximation-tuning</em>, which significantly speeds up autotuning by analytically predicting the accuracy
+                     impacts of approximations.</p> 
+                  <p>We evaluate ApproxTuner across 10 convolutional neural networks (CNNs) and a combined
+                     CNN and image processing benchmark. For the evaluated CNNs, using only hardware-independent
+                     approximation choices we achieve a mean speedup of 2.1x (max 2.7x) on a GPU, and 1.3x
+                     mean speedup (max 1.9x) on the CPU, while staying within 1 percentage point of inference
+                     accuracy loss. For two different accuracy-prediction models, ApproxTuner speeds up
+                     tuning by 12.8x and 20.4x compared to conventional empirical tuning while achieving
+                     comparable benefits.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441599">EGEMM-TC: accelerating scientific computing on tensor cores with extended precision</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Boyuan Feng</li>
+               <li class="nameList">Yuke Wang</li>
+               <li class="nameList">Guoyang Chen</li>
+               <li class="nameList">Weifeng Zhang</li>
+               <li class="nameList">Yuan Xie</li>
+               <li class="nameList Last">Yufei Ding</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Nvidia Tensor Cores achieve high performance with half-precision matrix inputs tailored
+                     towards deep learning workloads. However, this limits the application of Tensor Cores
+                     especially in the area of scientific computing with high precision requirements. In
+                     this paper, we build Emulated GEMM on Tensor Cores (EGEMM-TC) to extend the usage
+                     of Tensor Cores to accelerate scientific computing applications without compromising
+                     the precision requirements. First, EGEMM-TC employs an extendable workflow of hardware
+                     profiling and operation design to generate a lightweight emulation algorithm on Tensor
+                     Cores with extended-precision. Second, EGEMM-TC exploits a set of Tensor Core kernel
+                     optimizations to achieve high performance, including the highly-efficient tensorization
+                     to exploit the Tensor Core memory architecture and the instruction-level optimizations
+                     to coordinate the emulation computation and memory access. Third, EGEMM-TC incorporates
+                     a hardware-aware analytic model to offer large flexibility for automatic performance
+                     tuning across various scientific computing workloads and input datasets. Extensive
+                     evaluations show that EGEMM-TC can achieve on average 3.13× and 11.18× speedup over
+                     the cuBLAS kernels and the CUDA-SDK kernels on CUDA Cores, respectively. Our case
+                     study on several scientific computing applications further confirms that EGEMM-TC
+                     can generalize the usage of Tensor Cores and achieve about 1.8× speedup compared to
+                     the hand-tuned, highly-optimized implementations running on CUDA Cores.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441592">Efficiently running SpMV on long vector architectures</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Constantino Gómez</li>
+               <li class="nameList">Filippo Mantovani</li>
+               <li class="nameList">Erich Focht</li>
+               <li class="nameList Last">Marc Casas</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Sparse Matrix-Vector multiplication (SpMV) is an essential kernel for parallel numerical
+                     applications. SpMV displays sparse and irregular data accesses, which complicate its
+                     vectorization. Such difficulties make SpMV to frequently experiment non-optimal results
+                     when run on long vector ISAs exploiting SIMD parallelism. In this context, the development
+                     of new optimizations becomes fundamental to enable high performance SpMV executions
+                     on emerging long vector architectures. In this paper, we improve the state-of-the-art
+                     SELL-<em>C-σ</em> sparse matrix format by proposing several new optimizations for SpMV. We target aggressive
+                     long vector architectures like the NEC Vector Engine. By combining several optimizations,
+                     we obtain an average 12% improvement over SELL-<em>C-σ</em> considering a heterogeneous set of 24 matrices. Our optimizations boost performance
+                     in long vector architectures since they expose a high degree of SIMD parallelism.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441598">Improving communication by optimizing on-node data movement with data layout</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Tuowen Zhao</li>
+               <li class="nameList">Mary Hall</li>
+               <li class="nameList">Hans Johansen</li>
+               <li class="nameList Last">Samuel Williams</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We present optimizations to improve communication performance by reducing on-node
+                     data movement for a class of distributed memory applications. The primary concept
+                     is to eliminate the data movement associated with packing and unpacking subsets of
+                     the data during communication. With the rapid rise in network injection bandwidth
+                     reducing off-node data movement cost, on-node data movement can be significantly more
+                     expensive than computation and network communication. This data movement is especially
+                     costly for small domains - as in memory-intensive multi-physics codes or when strong
+                     scaling to reduce time-to-solution. The optimizations presented include (1) optimizing
+                     data layout through indirection to enable pack-free communication; (2) creating contiguous
+                     views of memory using memory mapping thus minimizing the number of messages; and (3)
+                     applying these techniques to intra-node data movement including CPU-GPU data movement.
+                     The benefits of these optimizations are demonstrated in stencil benchmarks against
+                     a highly-optimized baseline, reducing communication time by up to 14.4×.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441581">Sparta: high-performance, element-wise sparse tensor contraction on heterogeneous memory</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jiawen Liu</li>
+               <li class="nameList">Jie Ren</li>
+               <li class="nameList">Roberto Gioiosa</li>
+               <li class="nameList">Dong Li</li>
+               <li class="nameList Last">Jiajia Li</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Sparse tensor contractions appear commonly in many applications. Efficiently computing
+                     a two sparse tensor product is challenging: It not only inherits the challenges from
+                     common sparse matrix-matrix multiplication (SpGEMM), i.e., indirect memory access
+                     and unknown output size before computation, but also raises new challenges because
+                     of high dimensionality of tensors, expensive multi-dimensional index search, and massive
+                     intermediate and output data. To address the above challenges, we introduce three
+                     optimization techniques by using multi-dimensional, efficient hashtable representation
+                     for the accumulator and larger input tensor, and all-stage parallelization. Evaluating
+                     with 15 datasets, we show that Sparta brings 28 -- 576× speedup over the traditional
+                     sparse tensor contraction with sparse accumulator. With our proposed algorithm- and
+                     memory heterogeneity-aware data management, Sparta brings extra performance improvement
+                     on the heterogeneous memory with DRAM and Intel Optane DC Persistent Memory Module
+                     (PMM) over a state-of-the-art software-based data management solution, a hardware-based
+                     data management solution, and PMM-only by 30.7% (up to 98.5%), 10.7% (up to 28.3%)
+                     and 17% (up to 65.1%) respectively.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441601">Advanced synchronization techniques for task-based runtime systems</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">David Álvarez</li>
+               <li class="nameList">Kevin Sala</li>
+               <li class="nameList">Marcos Maroñas</li>
+               <li class="nameList">Aleix Roca</li>
+               <li class="nameList Last">Vincenç Beltran</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Task-based programming models like OmpSs-2 and OpenMP provide a flexible data-flow
+                     execution model to exploit dynamic, irregular and nested parallelism. Providing an
+                     efficient implementation that scales well with small granularity tasks remains a challenge,
+                     and bottlenecks can manifest in several runtime components. In this paper, we analyze
+                     the limiting factors in the scalability of a task-based runtime system and propose
+                     individual solutions for each of the challenges, including a wait-free dependency
+                     system and a novel scalable scheduler design based on delegation. We evaluate how
+                     the optimizations impact the overall performance of the runtime, both individually
+                     and in combination. We also compare the resulting runtime against state of the art
+                     OpenMP implementations, showing equivalent or better performance, especially for fine-grained
+                     tasks.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441616">An ownership policy and deadlock detector for promises</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Caleb Voss</li>
+               <li class="nameList Last">Vivek Sarkar</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Task-parallel programs often enjoy deadlock freedom under certain restrictions, such
+                     as the use of structured join operations, as in Cilk and X10, or the use of asynchronous
+                     task futures together with deadlock-avoiding policies such as Known Joins or Transitive
+                     Joins. However, the <em>promise</em>, a popular synchronization primitive for parallel tasks, does not enjoy deadlock-freedom
+                     guarantees. Promises can exhibit deadlock-like bugs; however, the concept of a deadlock
+                     is not currently well-defined for promises.</p> 
+                  <p>To address these challenges, we propose an ownership semantics in which each promise
+                     is associated to the task which currently intends to fulfill it. Ownership immediately
+                     enables the identification of bugs in which a task fails to fulfill a promise for
+                     which it is responsible. Ownership further enables the discussion of deadlock cycles
+                     among tasks and promises and allows us to introduce a robust definition of deadlock-like
+                     bugs for promises.</p> 
+                  <p>Cycle detection in this context is non-trivial because it is concurrent with changes
+                     in promise ownership. We provide a lock-free algorithm for precise runtime deadlock
+                     detection. We show how to obtain the memory consistency criteria required for the
+                     correctness of our algorithm under TSO and the Java and C++ memory models. An evaluation
+                     compares the execution time and memory usage overheads of our detection algorithm
+                     on benchmark programs relative to an unverified baseline. Our detector exhibits a
+                     12% (1.12×) geometric mean time overhead and a 6% (1.06×) geometric mean memory overhead,
+                     which are smaller overheads than in past approaches to deadlock cycle detection.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441589">Understanding a program's resiliency through error propagation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Zhimin Li</li>
+               <li class="nameList">Harshitha Menon</li>
+               <li class="nameList">Kathryn Mohror</li>
+               <li class="nameList">Peer-Timo Bremer</li>
+               <li class="nameList">Yarden Livant</li>
+               <li class="nameList Last">Valerio Pascucci</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Aggressive technology scaling trends have worsened the transient fault problem in
+                     high-performance computing (HPC) systems. Some faults are benign, but others can lead
+                     to silent data corruption (SDC), which represents a serious problem; a fault introducing
+                     an error that is not readily detected nto an HPC simulation. Due to the insidious
+                     nature of SDCs, researchers have worked to understand their impact on applications.
+                     Previous studies have relied on expensive fault injection campaigns with uniform sampling
+                     to provide overall SDC rates, but this solution does not provide any feedback on the
+                     code regions without samples.</p> 
+                  <p>In this research, we develop a method to systematically analyze all fault injection
+                     sites in an application with a low number of fault injection experiments. We use fault
+                     propagation data from a fault injection experiment to predict the resiliency of other
+                     untested fault sites and obtain an approximate fault tolerance threshold value for
+                     each site, which represents the largest error that can be introduced at the site without
+                     incurring incorrect simulation results. We define the collection of threshold values
+                     over all fault sites in the program as a fault tolerance boundary and propose a simple
+                     but efficient method to approximate the boundary. In our experiments, we show our
+                     method reduces the number of fault injection samples required to understand a program's
+                     resiliency by several orders of magnitude when compared with a traditional fault injection
+                     study.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441610">Lightweight preemptive user-level threads</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Shumpei Shiina</li>
+               <li class="nameList">Shintaro Iwasaki</li>
+               <li class="nameList">Kenjiro Taura</li>
+               <li class="nameList Last">Pavan Balaji</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Many-to-many mapping models for user- to kernel-level threads (or "M:N threads") have
+                     been extensively studied for decades as a lightweight substitute for current Pthreads
+                     implementations that provide a simple one-to-one mapping ("1:1 threads"). M:N threads
+                     derive performance from their ability to allow users to context switch between threads
+                     and control their scheduling entirely in user space with no kernel involvement. This
+                     same ability, however, causes M:N threads to lose the kernel-provided ability of <em>implicit OS preemption</em>---threads have to explicitly yield control for other threads to be scheduled. Hence,
+                     programs over nonpreemptive M:N threads can cause core starvation, loss of prioritization,
+                     and, sometimes, deadlock unless programs are written to explicitly yield in proper
+                     places. This paper explores two techniques for M:N threads to efficiently achieve
+                     implicit preemption similar to 1:1 threads: <em>signal-yield</em> and <em>KLT-switching.</em> Overheads of these techniques, with our optimizations, can be less than 1% compared
+                     with nonpreemptive M:N threads. Our evaluation with three applications demonstrates
+                     that our preemption techniques for M:N threads improve core utilization and enhance
+                     the performance by utilizing lightweight context switching and flexible scheduling
+                     of M:N threads.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441578">TurboTransformers: an efficient GPU serving system for transformer models</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jiarui Fang</li>
+               <li class="nameList">Yang Yu</li>
+               <li class="nameList">Chengduo Zhao</li>
+               <li class="nameList Last">Jie Zhou</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The transformer is the most critical algorithm innovation of the Nature Language Processing
+                     (NLP) field in recent years. Unlike the Recurrent Neural Network (RNN) models, transformers
+                     are able to process on dimensions of sequence lengths in parallel, therefore leads
+                     to better accuracy on long sequences. However, efficient deployments of them for online
+                     services in data centers equipped with GPUs are not easy. First, more computation
+                     introduced by transformer structures makes it more challenging to meet the latency
+                     and throughput constraints of serving. Second, NLP tasks take in sentences of variable
+                     length. The variability of input dimensions brings a severe problem to efficient memory
+                     management and serving optimization.</p> 
+                  <p>To solve the above challenges, this paper designed a transformer serving system called
+                     TurboTransformers, which consists of a computing runtime and a serving framework.
+                     Three innovative features make it stand out from other similar works. An efficient
+                     parallel algorithm is proposed for GPU-based batch reduction operations, like Softmax
+                     and LayerNorm, which are major hot spots besides BLAS routines. A memory allocation
+                     algorithm, which better balances the memory footprint and allocation/free efficiency,
+                     is designed for variable-length input situations. A serving framework equipped with
+                     a new batch scheduler using dynamic programming achieves the optimal throughput on
+                     variable-length requests. The system can achieve the state-of-the-art transformer
+                     model serving performance on GPU platforms and can be seamlessly integrated into your
+                     PyTorch code with a few lines of code.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441613">Extracting clean performance models from tainted programs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Marcin Copik</li>
+               <li class="nameList">Alexandru Calotoiu</li>
+               <li class="nameList">Tobias Grosser</li>
+               <li class="nameList">Nicolas Wicki</li>
+               <li class="nameList">Felix Wolf</li>
+               <li class="nameList Last">Torsten Hoefler</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Performance models are well-known instruments to understand the scaling behavior of
+                     parallel applications. They express how performance changes as key execution parameters,
+                     such as the number of processes or the size of the input problem, vary. Besides reasoning
+                     about program behavior, such models can also be automatically derived from performance
+                     data. This is called empirical performance modeling. While this sounds simple at the
+                     first glance, this approach faces several serious interrelated challenges, including
+                     expensive performance measurements, inaccuracies inflicted by noisy benchmark data,
+                     and overall complex experiment design, starting with the selection of the right parameters.
+                     The more parameters one considers, the more experiments are needed and the stronger
+                     the impact of noise. In this paper, we show how taint analysis, a technique borrowed
+                     from the domain of computer security, can substantially improve the modeling process,
+                     lowering its cost, improving model quality, and help validate performance models and
+                     experimental setups.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441603">Modernizing parallel code with pattern analysis</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Roberto Castañeda Lozano</li>
+               <li class="nameList">Murray Cole</li>
+               <li class="nameList Last">Björn Franke</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Fifty years of parallel programming has generated a substantial legacy parallel codebase,
+                     creating a new portability challenge: re-parallelizing already parallel code. Our
+                     solution exploits inherently portable <em>parallel patterns</em>, and addresses the challenge of identifying patternization opportunities in legacy
+                     parallel code via constraint matching on traced dynamic dataflow graphs. Notably,
+                     this makes the analysis source-independent and equally applicable to sequential and
+                     parallel legacy code. We identify various map and reduction patterns, including compositions,
+                     in Pthreads code. Experiments with the Starbench suite show that our analysis is effective
+                     (finding 86% of the patterns known in the literature), accurate (reporting actual
+                     patterns in 98% of the cases), and efficient (scaling linearly with the size of the
+                     execution traces). We re-express the found patterns via a parallel pattern library,
+                     making code freely portable across CPU/GPU systems and performing competitively with
+                     hand-tuned implementations at zero additional effort.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441593">DAPPLE: a pipelined data parallel approach for training large models</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Shiqing Fan</li>
+               <li class="nameList">Yi Rong</li>
+               <li class="nameList">Chen Meng</li>
+               <li class="nameList">Zongyan Cao</li>
+               <li class="nameList">Siyu Wang</li>
+               <li class="nameList">Zhen Zheng</li>
+               <li class="nameList">Chuan Wu</li>
+               <li class="nameList">Guoping Long</li>
+               <li class="nameList">Jun Yang</li>
+               <li class="nameList">Lixue Xia</li>
+               <li class="nameList">Lansong Diao</li>
+               <li class="nameList">Xiaoyong Liu</li>
+               <li class="nameList Last">Wei Lin</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>It is a challenging task to train large DNN models on sophisticated GPU platforms
+                     with diversified interconnect capabilities. Recently, pipelined training has been
+                     proposed as an effective approach for improving device utilization. However, there
+                     are still several tricky issues to address: improving computing efficiency while ensuring
+                     convergence, and reducing memory usage without incurring additional computing costs.
+                     We propose <em>DAPPLE</em>, a synchronous training framework which combines data parallelism and pipeline parallelism
+                     for large DNN models. It features a novel parallelization strategy <em>planner</em> to solve the partition and placement problems, and explores the optimal hybrid strategies
+                     of data and pipeline parallelism. We also propose a new runtime scheduling algorithm
+                     to reduce device memory usage, which is orthogonal to re-computation approach and
+                     does not come at the expense of training throughput. Experiments show that <em>DAPPLE planner</em> consistently outperforms strategies generated by PipeDream's planner by up to 3.23×
+                     speedup under synchronous training scenarios, and <em>DAPPLE runtime</em> outperforms GPipe by 1.6× speedup of training throughput and saves 12% of memory
+                     consumption at the same time.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441608">On group mutual exclusion for dynamic systems</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Shreyas Gokhale</li>
+               <li class="nameList">Sahil Dhoked</li>
+               <li class="nameList Last">Neeraj Mittal</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The <em>group mutual exclusion (GME)</em> problem is a generalization of the classical mutual exclusion problem in which every
+                     critical section is associated with a <em>type</em> or <em>session.</em> Critical sections belonging to the same session can execute concurrently, whereas
+                     critical sections belonging to different sessions must be executed serially. The well-known
+                     read-write mutual exclusion problem is a special case of the group mutual exclusion
+                     problem.</p> 
+                  <p>In this work, we present a suite of GME algorithms for an asynchronous shared-memory
+                     system under the cache coherent (CC) model. Our GME algorithms have the feature that
+                     they do not require an <em>a priori</em> knowledge of the set of processes in the system and all their important complexity
+                     measures depend only on the number of different sessions that can be requested by
+                     processes. This makes them especially suitable for a dynamic system in which the set
+                     of processes may change over time. To our knowledge, no existing GME algorithm satisfies
+                     this property. Our GME algorithms provide different trade offs between complexity
+                     and fairness.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441614">Bundled references: an abstraction for highly-concurrent linearizable range queries</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jacob Nelson</li>
+               <li class="nameList">Ahmed Hassan</li>
+               <li class="nameList Last">Roberto Palmieri</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Bundled references are a new building block to provide linearizable range query operations
+                     for highly concurrent linked data structures. They enable range queries to traverse
+                     a path through the data structure that is consistent with the target atomic snapshot.
+                     The path consists of the minimal amount of nodes that should be accessed to preserve
+                     linearizability.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441619">Verifying C11-style weak memory libraries</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Sadegh Dalvandi</li>
+               <li class="nameList Last">Brijesh Dongol</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Deductive verification of concurrent programs under weak memory has thus far been
+                     limited to simple programs over a monolithic state space. For scalabiility, we also
+                     require modular techniques with verifiable library abstractions. We address this challenge
+                     in the context of RC11 RAR, a subset of the C11 memory model that admits relaxed and
+                     release-acquire accesses, but disallows, so-called, load-buffering cycles. We develop
+                     a simple framework for specifying abstract objects that precisely characterises the
+                     observability guarantees of abstract method calls. Our framework is integrated with
+                     an operational semantics that enables verification of client programs that execute
+                     abstract method calls from a library it uses. We implement such abstractions in RC11
+                     RAR by developing a (contextual) refinement framework for abstract objects. Our framework
+                     has been mechanised in Isabelle/HOL.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441583">A lock-free relaxed concurrent queue for fast work distribution</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Giorgos Kappes</li>
+               <li class="nameList Last">Stergios V. Anastasiadis</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The operation of modern systems requires the low latency and high throughput of producer-consumer
+                     communication over shared memory. In order to achieve fast communication at high concurrency,
+                     we define a relaxed ordering model that splits the queue operations into two stages,
+                     the sequential assignment to queue slots and their subsequent concurrent execution.
+                     Based on this model, we design and implement the linearizable and lock-free algorithm
+                     called Relaxed Concurrent Queue Single (RCQS). We experimentally show that RCQS achieves
+                     factors to orders of magnitude advantage over the state-of-the-art queue algorithms
+                     in operation latency and item transfer speed.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441579">A more pragmatic implementation of the lock-free, ordered, linked list</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jesper Larsson Träff</li>
+               <li class="nameList Last">Manuel Pöter</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The lock-free, ordered, singly linked list as proposed in [5, 8] is a textbook example
+                     of a concurrent data structure [6, 10]. The data structure supports lock-free insertion
+                     and deletion, and wait-free contains operations on items identified by a unique key.
+                     The lock-free implementation is actually quite subtle. The ordering condition and
+                     a relaxed invariant makes it possible to do with a single-word Compare-And-Swap operation
+                     (CAS), and all operations can be shown to be linearizable even though linearization
+                     does not always happen at fixed points in the code. The lock-free data structure has
+                     many direct and indirect applications, notably in the implementation of concurrent
+                     skiplists and hash tables [8, 9, 11, 12].</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441607">Extending MapReduce framework with locality keys</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yifeng Chen</li>
+               <li class="nameList">Bei Wang</li>
+               <li class="nameList Last">Xiaolin Wang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This paper extends the existing MapReduce framework to allow the user programmer to
+                     control data locality and reduce communication costs of the shuffle operations in
+                     iterative in-memory computation. The programming extension is fully consistent with
+                     the style of MapReduce and allows straightforward fast implementation.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441590">On the parallel I/O optimality of linear algebra kernels: near-optimal LU factorization</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Grzegorz Kwasniewski</li>
+               <li class="nameList">Tal Ben-Nun</li>
+               <li class="nameList">Alexandros Nikolaos Ziogas</li>
+               <li class="nameList">Timo Schneider</li>
+               <li class="nameList">Maciej Besta</li>
+               <li class="nameList Last">Torsten Hoefler</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Dense linear algebra kernels are fundamental components of many scientific computing
+                     applications. In this work we present a novel method of deriving parallel I/O lower
+                     bounds for this broad family of programs. Based on the <em>X</em>-Partitioning abstraction, our method explicitly captures inter-statement dependencies.
+                     Applying our analysis to LU factorization, we derive CO<em>nf</em>LUX, an LU algorithm with the parallel I/O cost of <em>N</em><sup>3</sup>/([EQUATION]) communicated elements per processor - only 1/3× over our established
+                     lower bound. We evaluate CO<em>nf</em>LUX on various problem sizes, demonstrating empirical results that match our theoretical
+                     analysis, communicating less than Cray ScaLAPACK, SLATE, and the asymptotically-optimal
+                     CANDMC library. Running on 1,024 nodes of Piz Daint, CO<em>nf</em>LUX communicates 1.6× less than the second-best implementation and is expected to
+                     communicate 2.1× less on a full-scale run on Summit.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441580">Asynchrony versus bulk-synchrony for a generalized N-body problem from genomics</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Marquita Ellis</li>
+               <li class="nameList">Aydın Buluç</li>
+               <li class="nameList Last">Katherine Yelick</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This work examines a data-intensive irregular application from genomics, a long-read
+                     to long-read alignment problem, which represents a kind of Generalized N-Body problem,
+                     one of the "seven giants" of the NRC Big Data motifs [5]. In this problem, computations
+                     (genomic alignments) are performed on sparse and data-dependent pairs of inputs, with
+                     variable cost computation and variable datum sizes. In particular, there is no inherent
+                     locality in the pairwise interactions, unlike simulation-based N-Body problems, and
+                     the interaction sparsity depends on particular parameters of the input, which can
+                     also affect the quality of the output. We examine two extremes to distributed memory
+                     parallelization for this problem, bulk-synchrony and asynchrony, with real workloads.
+                     Our bulk-synchronous implementation, uses collective communication in MPI, while our
+                     asynchronous implementation uses cross-node RPCs in UPC++. We show that the asynchronous
+                     version effectively hides communication costs, with a memory footprint that is typically
+                     much lower than the bulk-synchronous version. Our application, while simple enough
+                     to be a kind of proxy for genomics or data analytics applications more broadly, is
+                     also part of a real application pipeline. It shows good scaling on real input problems,
+                     and at the same time, reveals some of the programming and architectural challenges
+                     for scaling this type of data-intensive irregular application.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441615">In-situ workflow auto-tuning through combining component models</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Tong Shu</li>
+               <li class="nameList">Yanfei Guo</li>
+               <li class="nameList">Justin Wozniak</li>
+               <li class="nameList">Xiaoning Ding</li>
+               <li class="nameList">Ian Foster</li>
+               <li class="nameList Last">Tahsin Kurc</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In-situ parallel workflows couple multiple component applications via streaming data
+                     transfer to avoid data exchange via shared file systems. Such workflows are challenging
+                     to configure for optimal performance due to the huge space of possible configurations.
+                     Here, we propose an in-situ workflow auto-tuning method, ALIC, which integrates machine
+                     learning techniques with knowledge of in-situ workflow structures to enable automated
+                     workflow configuration with a limited number of performance measurements. Experiments
+                     with real applications show that ALIC identify better configurations than existing
+                     methods given a computer time budget.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441591">Simplifying low-level GPU programming with GAS</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Da Yan</li>
+               <li class="nameList">Wei Wang</li>
+               <li class="nameList Last">Xiaowen Chu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Many low-level optimizations for NVIDIA GPU can only be implemented in native hardware
+                     assembly (SASS). However, programming in SASS is unproductive and not portable.</p> 
+                  <p>To simplify low-level GPU programming, we present GAS (Gpu ASsembly), a PTX-like language
+                     that provides a stable instruction set across hardware architectures while giving
+                     programmers a low-level control of code execution. We demonstrate that GAS can be
+                     used with ease for low-level benchmarking and performance tuning in the context of
+                     Tensor Core HGEMM.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441606">Corder: cache-aware reordering for optimizing graph analytics</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">YuAng Chen</li>
+               <li class="nameList Last">Yeh-Ching Chung</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The intrinsic irregular data structure of graphs often causes poor cache utilization
+                     thus deteriorates the performance of graph analytics. Prior works have designed a
+                     variety of graph reordering methods to improve cache efficiency. However, little insight
+                     has been provided into the issue of workload imbalance for multicore systems. In this
+                     work, we identify that a major factor affecting the performance is the unevenly distributed
+                     computation load amongst cores. To cope with this problem, we propose <em>cache-aware reordering</em> (Corder), a lightweight reordering algorithm that facilitates workload balance as
+                     well as cache optimization. Comprehensive performance evaluation of Corder is conducted
+                     on various graph applications and datasets. We observe that Corder yields speedup
+                     of up to 2.59× (on average 1.47×) over original graphs.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441622">DFOGraph: an I/O- and communication-efficient system for distributed fully-out-of-core graph
+                  processing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jiping Yu</li>
+               <li class="nameList">Wei Qin</li>
+               <li class="nameList">Xiaowei Zhu</li>
+               <li class="nameList">Zhenbo Sun</li>
+               <li class="nameList">Jianqiang Huang</li>
+               <li class="nameList">Xiaohan Li</li>
+               <li class="nameList Last">Wenguang Chen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>With the magnitude of graph-structured data continually increasing, graph processing
+                     systems that can scale-out and scale-up are needed to handle extreme-scale datasets.
+                     While existing distributed out-of-core solutions have made it possible, they suffer
+                     from limited performance due to excessive I/O and communication costs.</p> 
+                  <p>We present DFOGraph, a distributed fully-out-of-core graph processing system that
+                     applies and assembles multiple techniques to enable I/O- and communication-efficient
+                     processing. DFOGraph builds upon two-level partitions with adaptive compressed representations
+                     to allow fine-grained selective computation and communication. Our evaluation shows
+                     DFOGraph outperforms Chaos and HybridGraph significantly (&gt;12.94× and &gt;10.82×) when
+                     scaling out to eight nodes.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441584">An efficient uncertain graph processing framework for heterogeneous architectures</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Heng Zhang</li>
+               <li class="nameList">Lingda Li</li>
+               <li class="nameList">Donglin Zhuang</li>
+               <li class="nameList">Rui Liu</li>
+               <li class="nameList">Shuang Song</li>
+               <li class="nameList">Dingwen Tao</li>
+               <li class="nameList">Yanjun Wu</li>
+               <li class="nameList Last">Shuaiwen Leon Song</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Uncertain or probabilistic graphs have been ubiquitously used in many emerging applications.
+                     Previously CPU based techniques were proposed to use sampling but suffer from (1)
+                     low computation efficiency and large memory overhead, (2) low degree of parallelism,
+                     and (3) nonexistent general framework to effectively support programming uncertain
+                     graph applications. To tackle these challenges, we propose a general uncertain graph
+                     processing framework for multi-GPU systems, named BPGraph. Integrated with our highly-efficient
+                     path sampling method, BPGraph can support a wide range of uncertain graph algorithms'
+                     development and optimization. Extensive evaluation demonstrates a significant performance
+                     improvement from BPGraph over the state-of-the-art uncertain graph sampling techniques.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441624">Dynamic scaling for low-precision learning</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Ruobing Han</li>
+               <li class="nameList">Min Si</li>
+               <li class="nameList">James Demmel</li>
+               <li class="nameList Last">Yang You</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In recent years, distributed deep learning is becoming popular in industry and academia.
+                     Although researchers want to use distributed systems for training, it has been reported
+                     that the communication cost for synchronizing gradients can be a bottleneck. Using
+                     low-precision gradients is a promising technique for reducing the bandwidth requirement.
+                     In this work, we propose Auto Precision Scaling (APS), an algorithm that can improve
+                     the accuracy when we communicate gradients by low-precision floating-point values.
+                     APS can improve the accuracy for all precisions with a trivial communication cost.
+                     Our experimental results show that for both image classification and segmentation,
+                     applying APS can train the state-of-the-art models by 8-bit floating-point gradients
+                     with no or only a tiny accuracy loss (&lt;0.05%). Furthermore, we can avoid any accuracy
+                     loss by designing a hybrid-precision technique. Finally, we propose a performance
+                     model to evaluate the proposed method. Our experimental results show that APS can
+                     get a significant speedup over the state-of-the-art method. To make it available to
+                     researchers and developers, we design and implement a high-performance system for
+                     customized precision Deep Learning(CPD), which can simulate the training process using
+                     an arbitrary low-precision customized floating-point format. We integrate CPD into
+                     PyTorch and make it open-source to the public<sup>1</sup>.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441588">Exploring deep reuse in winograd CNN inference</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Ruofan Wu</li>
+               <li class="nameList">Feng Zhang</li>
+               <li class="nameList">Zhen Zheng</li>
+               <li class="nameList">Xiaoyong Du</li>
+               <li class="nameList Last">Xipeng Shen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Convolutional neural networks (CNNs), as representatives of deep learning, are one
+                     of the most commonly used neural networks in applications such as graphic image analysis.
+                     However, CNN has heavy computation patterns; network training processes could take
+                     several hours even with modern processors. Different from the training process, the
+                     inference process is more often executed on devices with low computing power, such
+                     as CPUs. Fortunately, a minimal filtering algorithm, Winograd, can reduce the convolution
+                     computations by reducing the number of multiplication operations. We find that the
+                     Winograd convolution can be further accelerated by reusing the similar data and computation
+                     patterns, which is called <em>deep reuse.</em></p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441597">A novel memory-efficient deep learning training framework via error-bounded lossy
+                  compression</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Sian Jin</li>
+               <li class="nameList">Guanpeng Li</li>
+               <li class="nameList">Shuaiwen Leon Song</li>
+               <li class="nameList Last">Dingwen Tao</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>DNNs are becoming increasingly deeper, wider, and nonlinear due to the growing demands
+                     on prediction accuracy and analysis quality. When training a DNN model, the intermediate
+                     activation data must be saved in the memory during forward propagation and then restored
+                     for backward propagation. Traditional memory saving techniques such as data recomputation
+                     and migration either suffers from a high performance overhead or is constrained by
+                     specific interconnect technology and limited bandwidth. In this paper, we propose
+                     a novel memory-driven high performance CNN training framework that leverages error-bounded
+                     lossy compression to significantly reduce the memory requirement for training in order
+                     to allow training larger neural networks. Specifically, we provide theoretical analysis
+                     and then propose an improved lossy compressor and an adaptive scheme to dynamically
+                     configure the lossy compression error-bound and adjust the training batch size to
+                     further utilize the saved memory space for additional speedup. We evaluate our design
+                     against state-of-the-art solutions with four widely-adopted CNNs and the ImangeNet
+                     dataset. Results demonstrate that our proposed framework can significantly reduce
+                     the training memory consumption by up to 13.5× and 1.8× over the baseline training
+                     and state-of-the-art framework with compression, respectively, with little or no accuracy
+                     loss. The full paper can be referred to at https://arxiv.org/abs/2011.09017.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437801.3441623">FFT blitz: the tensor cores strike back</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Sultan Durrani</li>
+               <li class="nameList">Muhammad Saad Chughtai</li>
+               <li class="nameList">Abdul Dakkak</li>
+               <li class="nameList">Wen-mei Hwu</li>
+               <li class="nameList Last">Lawrence Rauchwerger</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The fast Fourier Transform (FFT), a reduced-complexity formulation of the Discrete
+                     Fourier Transform (DFT), is an important tool in many areas of science and engineering.
+                     FFTW is a well-known package that follows this approach and is currently one of the
+                     fastest available implementations of the FFT. NVIDIA introduced its version of FFTW
+                     called cuFFT that achieves high performance on the GPUs. In this work we present a
+                     novel way to map the FFT algorithm on the newly introduced Tensor Cores by adapting
+                     the the Cooley-Tukey recursive FFT algorithm. We present four major types of optimizations
+                     that enhance the performance of our approach for varying FFT sizes and show that the
+                     approach consistently outperforms cuFFT with a speedup of about 15% to 250% on average.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>

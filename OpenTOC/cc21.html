@@ -1,0 +1,509 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>CC 2021: Proceedings of the 30th ACM SIGPLAN International Conference on Compiler Construction</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>CC 2021: Proceedings of the 30th ACM SIGPLAN International Conference on Compiler Construction</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3446804"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: IR Design</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3446804.3446847">Data-aware process networks</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Christophe Alias</li>
+               <li class="nameList Last">Alexandru Plesco</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>With the emergence of reconfigurable FPGA circuits as a credible alternative to GPUs
+                     for HPC acceleration, new compilation paradigms are required to map high-level algorithmic
+                     descriptions to a circuit configuration (High-Level Synthesis, HLS). In particular,
+                     novel parallelization algorithms and intermediate representations are required. In
+                     this paper, we present the data-aware process networks (DPN), a dataflow intermediate
+                     representation suitable for HLS in the context of high-performance computing. DPN
+                     combines the benefits of a low-level dataflow representation -- close to the final
+                     circuit -- and affine iteration space tiling to explore the parallelization trade-offs
+                     (local memory size, communication volume, parallelization degree). We outline our
+                     compilation algorithms to map a C program to a DPN (front-end), then to map a DPN
+                     to an FPGA configuration (back-end). Finally, we present synthesis results on compute-intensive
+                     kernels from the Polybench suite.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3446804.3446844">Integrating a functional pattern-based IR into MLIR</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Martin Lücke</li>
+               <li class="nameList">Michel Steuwer</li>
+               <li class="nameList Last">Aaron Smith</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The continued specialization in hardware and software due to the end of Moore's law
+                     forces us to question fundamental design choices in compilers, and in particular for
+                     domain specific languages. The days where a single universal compiler intermediate
+                     representation (IR) was sufficient to perform all important optimizations are over.
+                     We need novel IRs and ways for them to interact with one another while leveraging
+                     established compiler infrastructures. </p> 
+                  <p> In this paper, we present a practical implementation of a functional pattern-based
+                     IR in the SSA-based MLIR framework. Our IR captures the program semantics as compositions
+                     of common computational patterns enabling rewrite-based optimizations. We discuss
+                     the integration with other IRs by demonstrating the compilation of a neural network
+                     represented as a TensorFlow graph down to optimized LLVM code via our functional pattern-based
+                     IR. Our implementation demonstrates for the first time a practical integration of
+                     a functional pattern-based IR with other IRs and it enables the construction of sophisticated
+                     code generators for domain specific languages.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3446804.3446855">Compiling data-parallel Datalog</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Thomas Gilray</li>
+               <li class="nameList">Sidharth Kumar</li>
+               <li class="nameList Last">Kristopher Micinski</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Datalog allows intuitive declarative specification of logical inference tasks while
+                     enjoying efficient implementation via state-of-the-art engines such as LogicBlox and
+                     Soufflé. These engines enable high-performance implementation of complex logical tasks
+                     including graph mining, program analysis, and business analytics. However, all efficient
+                     modern Datalog solvers make use of shared memory, and present inherent challenges
+                     scalability. In this paper, we leverage recent insights in parallel relational algebra
+                     and present a methodology for constructing data-parallel deductive databases. Our
+                     approach leverages recent developments in parallelizing relational algebra to create
+                     an efficient data-parallel semantics for Datalog. Based on our methodology, we have
+                     implemented the first MPI-based data-parallel Datalog solver. Our experiments demonstrate
+                     comparable performance and improved single-node scalability versus Soufflé, a state-of-art
+                     solver.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Optimization</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3446804.3446845">PGZ: automatic zero-value code specialization</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Mark Stephenson</li>
+               <li class="nameList Last">Ram Rangan</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In prior work we proposed Zeroploit, a transform that duplicates code, specializes
+                     one path assuming certain key program operands, called versioning variables, are zero,
+                     and leaves the other path unspecialized. Dynamically, depending on the versioning
+                     variable’s value, either the specialized fast path or the default slow path will execute.
+                     We evaluated Zeroploit with hand-optimized codes in that work. </p> 
+                  <p>In this paper, we present PGZ, a completely automated, profile-guided compiler approach
+                     for Zeroploit. Our compiler automatically determines which versioning variables or
+                     combinations thereof are profitable, and determines the code region to duplicate and
+                     specialize. PGZ’s heuristic takes operand zero value probabilities as input and it
+                     then uses classical techniques such as constant folding and dead-code elimination
+                     to estimate the potential savings of specializing a versioning variable. PGZ transforms
+                     profitable candidates, yielding an average speedup of 21.2% for targeted shader programs,
+                     and an average frame-rate speedup of 4.4% across a collection of modern gaming applications
+                     on an NVIDIA GeForce RTX 2080 GPU.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3446804.3446849">Exploring the space of optimization sequences for code-size reduction: insights and
+                  tools</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Anderson Faustino da Silva</li>
+               <li class="nameList">Bernardo N. B. de Lima</li>
+               <li class="nameList Last">Fernando Magno Quintão Pereira</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The <em>optimization space</em> of a compiler is the set of every possible sequence of optimizations that said compiler
+                     can use. The exploration of the optimization space of any mainstream compiler has
+                     been, for decades, hampered by the lack of benchmarks. However, recent efforts from
+                     different research groups have made available a large quantity of compilable code
+                     that can be, today, used to overcome this problem. In this paper, we use 15,000 programs
+                     from a public collection to explore the optimization space of LLVM, focusing on code-size
+                     reduction. This exploration reveals that the probability of beating the default optimization
+                     levels of LLVM with random sequences ranges from 10% (considering opt -Oz) to 19%
+                     (considering clang -Os). Yet, the distribution of probabilities is uneven across programs:
+                     the default levels work well for most programs, and poorly for a few. Based on these
+                     observations, we introduce the notion of an <em>Optimization Cache</em>, a table of programs to optimization sequences that can be used to support predictive
+                     compilation. We then use an optimization cache to build what we call a <em>Default Covering Set</em>: a small ensemble of optimization sequences that, once combined, tend to be good
+                     for any program. Optimization caches and default covering sets are used independently.
+                     The former, when applied onto MiBench, yield programs that are 11.9% smaller than
+                     programs produced by opt -Os, on average. The latter produce programs 12.5% smaller.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3446804.3446842">PolyBench/Python: benchmarking Python environments with polyhedral optimizations</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Miguel Á. Abella-González</li>
+               <li class="nameList">Pedro Carollo-Fernández</li>
+               <li class="nameList">Louis-Noël Pouchet</li>
+               <li class="nameList">Fabrice Rastello</li>
+               <li class="nameList Last">Gabriel Rodríguez</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Python has become one of the most used and taught languages nowadays. Its expressiveness,
+                     cross-compatibility and ease of use have made it popular in areas as diverse as finance,
+                     bioinformatics or machine learning. However, Python programs are often significantly
+                     slower to execute than an equivalent native C implementation, especially for computation-intensive
+                     numerical kernels. </p> 
+                  <p> This work presents PolyBench/Python, implementing the 30 kernels in PolyBench/C,
+                     one of the standard benchmark suites for polyhedral optimization, in Python. In addition
+                     to the benchmark kernels, a functional wrapper including mechanisms for performance
+                     measurement, testing, and execution configuration has been developed. The framework
+                     includes support for different ways to translate C-array codes into Python, offering
+                     insight into the tradeoffs of Python lists and NumPy arrays. The benchmark performance
+                     is thoroughly evaluated on different Python interpreters, and compared against its
+                     PolyBench/C counterpart to highlight the profitability (or lack thereof) of using
+                     Python for regular numerical codes.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Safety and Correctness</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3446804.3446850">A modern compiler for the French tax code</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Denis Merigoux</li>
+               <li class="nameList">Raphaël Monat</li>
+               <li class="nameList Last">Jonathan Protzenko</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In France, income tax is computed from taxpayers' individual returns, using an algorithm
+                     that is authored, designed and maintained by the French Public Finances Directorate
+                     (DGFiP). This algorithm relies on a legacy custom language and compiler originally
+                     designed in 1990, which unlike French wine, did not age well with time. Owing to the
+                     shortcomings of the input language and the technical limitations of the compiler,
+                     the algorithm is proving harder and harder to maintain, relying on ad-hoc behaviors
+                     and workarounds to implement the most recent changes in tax law. Competence loss and
+                     aging code also mean that the system does not benefit from any modern compiler techniques
+                     that would increase confidence in the implementation. </p> 
+                  <p> We overhaul this infrastructure and present Mlang, an open-source compiler toolchain
+                     whose goal is to replace the existing infrastructure. Mlang is based on a reverse-engineered
+                     formalization of the DGFiP's system, and has been thoroughly validated against the
+                     private DGFiP test suite. As such, Mlang has a formal semantics; eliminates previous
+                     hand-written workarounds in C; compiles to modern languages (Python); and enables
+                     a variety of instrumentations, providing deep insights about the essence of French
+                     income tax computation. The DGFiP is now officially transitioning to Mlang for their
+                     production system.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3446804.3446848">NSan: a floating-point numerical sanitizer</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Clement Courbet</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Sanitizers are a relatively recent trend in software engineering. They aim at automatically
+                     finding bugs in programs, and they are now commonly available to programmers as part
+                     of compiler toolchains. For example, the LLVM project includes out-of-the-box sanitizers
+                     to detect <em>thread safety</em> (tsan), <em>memory</em> (asan,msan,lsan), or <em>undefined behaviour</em> (ubsan) bugs. </p> 
+                  <p>In this article, we present nsan, a new sanitizer for locating and debugging floating-point
+                     numerical issues, implemented inside the LLVM sanitizer framework. nsan puts emphasis
+                     on <em>practicality</em>. It aims at providing <em>precise</em>, and <em>actionable</em> feedback, in a <em>timely</em> manner. </p> 
+                  <p>nsan uses compile-time instrumentation to augment each floating-point computation
+                     in the program with a higher-precision <em>shadow</em> which is checked for consistency during program execution. This makes nsan between
+                     1 and 4 orders of magnitude faster than existing approaches, which allows running
+                     it routinely as part of unit tests, or detecting issues in large production applications.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3446804.3446854">Communication-safe web programming in TypeScript with routed multiparty session types</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Anson Miu</li>
+               <li class="nameList">Francisco Ferreira</li>
+               <li class="nameList">Nobuko Yoshida</li>
+               <li class="nameList Last">Fangyi Zhou</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Modern web programming involves coordinating interactions between browser clients
+                     and a server. Typically, the interactions in web-based distributed systems are informally
+                     described, making it hard to ensure correctness, especially communication safety,
+                     i.e. all endpoints progress without type errors or deadlocks, conforming to a specified
+                     protocol. </p> 
+                  <p> We present STScript, a toolchain that generates TypeScript APIs for communication-safe
+                     web development over WebSockets, and RouST, a new session type theory that supports
+                     multiparty communications with routing mechanisms. STScript provides developers with
+                     TypeScript APIs generated from a communication protocol specification based on RouST.
+                     The generated APIs build upon TypeScript concurrency practices, complement the event-driven
+                     style of programming in full-stack web development, and are compatible with the Node.js
+                     runtime for server-side endpoints and the React.js framework for browser-side endpoints.
+                     </p> 
+                  <p> RouST can express multiparty interactions routed via an intermediate participant.
+                     It supports peer-to-peer communication between browser-side endpoints by routing communication
+                     via the server in a way that avoids excessive serialisation. RouST guarantees communication
+                     safety for endpoint web applications written using STScript APIs. </p> 
+                  <p> We evaluate the expressiveness of STScript for modern web programming using several
+                     production-ready case studies deployed as web applications.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Code Generation and Binary Analysis</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3446804.3446851">Helper function inlining in dynamic binary translation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Wenwen Wang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Dynamic binary translation (DBT) is the cornerstone of many important applications.
+                     Yet, it takes a tremendous effort to develop and maintain a real-world DBT system.
+                     To mitigate the engineering effort, helper functions are frequently employed during
+                     the development of a DBT system. Though helper functions greatly facilitate the DBT
+                     development, their adoption incurs substantial performance overhead due to the helper
+                     function calls. To solve this problem, this paper presents a novel approach to inline
+                     helper functions in DBT systems. The proposed inlining approach addresses several
+                     unique technical challenges. As a result, the performance overhead introduced by helper
+                     function calls can be reduced, and meanwhile, the benefits of helper functions for
+                     DBT development are not lost. We have implemented a prototype based on the proposed
+                     inlining approach using a popular DBT system, QEMU. Experimental results on the benchmark
+                     programs from the SPEC CPU 2017 benchmark suite show that an average of 1.2x performance
+                     speedup can be achieved. Moreover, the translation overhead introduced by inlining
+                     helper functions is negligible.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3446804.3446843">Lightning BOLT: powerful, fast, and scalable binary optimization</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Maksim Panchenko</li>
+               <li class="nameList">Rafael Auler</li>
+               <li class="nameList">Laith Sakka</li>
+               <li class="nameList Last">Guilherme Ottoni</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Profile-guided binary optimization has proved to be an important technology to achieve
+                     peak performance, particularly for large-scale binaries that are typical for data-center
+                     applications. By applying the profile data at the same representation where sampling-based
+                     profiling is collected, binary optimizers can provide double-digit speedups over binaries
+                     compiled with profile-guided optimizations using similarly collected profile data.
+                     The main blocker for adoption of binary optimizers in practice is the overhead that
+                     they add to the already long and demanding build pipelines used for producing highly
+                     optimized binaries, which already include aggressive compiler optimizations guided
+                     by profile data and also link-time optimizations. This paper addresses the overheads
+                     of binary optimizers in the context of BOLT, a modern and powerful open-source binary
+                     optimizer. More specifically, this paper describes Lightning BOLT, which is an improved
+                     version of the BOLT binary optimizer that drastically reduces BOLT’s processing time
+                     and memory requirements, while preserving BOLT’s effectiveness in improving the final
+                     binary’s performance. Using a set of real-world data-center and open-source applications,
+                     we show that Lightning BOLT speeds up BOLT’s processing by an average of 4.71× and
+                     reduces BOLT’s memory consumption by 70.5% on average. Furthermore, Lightning BOLT
+                     also provides an adjustable mechanism to further reduce BOLT’s overheads at the cost
+                     of some lost performance for the final binary.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3446804.3446853">Compact native code generation for dynamic languages on micro-core architectures</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Maurice Jamieson</li>
+               <li class="nameList Last">Nick Brown</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Micro-core architectures combine many simple, low memory, low power-consuming CPU
+                     cores onto a single chip. Potentially providing significant performance and low power
+                     consumption, this technology is not only of great interest in embedded, edge, and
+                     IoT uses, but also potentially as accelerators for data-center workloads. Due to the
+                     restricted nature of such CPUs, these architectures have traditionally been challenging
+                     to program, not least due to the very constrained amounts of memory (often around
+                     32KB) and idiosyncrasies of the technology. However, more recently, dynamic languages
+                     such as Python have been ported to a number of micro-cores, but these are often delivered
+                     as interpreters which have an associated performance limitation. </p> 
+                  <p> Targeting the four objectives of performance, unlimited code-size, portability between
+                     architectures, and maintaining the programmer productivity benefits of dynamic languages,
+                     the limited memory available means that classic techniques employed by dynamic language
+                     compilers, such as just-in-time (JIT), are simply not feasible. In this paper we describe
+                     the construction of a compilation approach for dynamic languages on micro-core architectures
+                     which aims to meet these four objectives, and use Python as a vehicle for exploring
+                     the application of this in replacing the existing micro-core interpreter. Our experiments
+                     focus on the metrics of performance, architecture portability, minimum memory size,
+                     and programmer productivity, comparing our approach against that of writing native
+                     C code. The outcome of this work is the identification of a series of techniques that
+                     are not only suitable for compiling Python code, but also applicable to a wide variety
+                     of dynamic languages on micro-cores.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Natural and Source Language Analysis</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3446804.3446852">Deep NLP-based co-evolvement for synthesizing code analysis from natural language</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Zifan Nan</li>
+               <li class="nameList">Hui Guan</li>
+               <li class="nameList">Xipeng Shen</li>
+               <li class="nameList Last">Chunhua Liao</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This paper presents Deepsy, a Natural Language-based synthesizer to assist source
+                     code analysis. It takes English descriptions of to-be-found code patterns as its inputs,
+                     and automatically produces ASTMatcher expressions that are directly usable by LLVM/Clang
+                     to materialize intended code analysis. The code analysis domain features profuse complexities
+                     in data types and operations, which make it elusive for prior rule-based synthesizers
+                     to tackle. On the other hand, machine learning-based solutions are neither applicable
+                     due to the scarcity of well labeled examples. This paper presents how Deepsy addresses
+                     the challenges by leveraging deep Natural Language Processing (NLP) and creating a
+                     new technique named dependency tree-based co-evolvement.Deepsy features an effective
+                     design that seamlessly integrates Natural Language dependency analysis into code analysis
+                     and meanwhile synergizes it with type-based narrowing and domain-specific guidance.
+                     Deepsy achieves over 70.0% expression-level accuracy and 85.1% individual API-level
+                     accuracy, significantly outperforming previous solutions.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3446804.3446846">Resolvable ambiguity: principled resolution of syntactically ambiguous programs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Viktor Palmkvist</li>
+               <li class="nameList">Elias Castegren</li>
+               <li class="nameList">Philipp Haller</li>
+               <li class="nameList Last">David Broman</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>When building a new programming language, it can be useful to compose parts of existing
+                     languages to avoid repeating implementation work. However, this is problematic already
+                     at the syntax level, as composing the grammars of language fragments can easily lead
+                     to an ambiguous grammar. State-of-the-art parser tools cannot handle ambiguity truly
+                     well: either the grammar cannot be handled at all, or the tools give little help to
+                     an end-user who writes an ambiguous program. This composability problem is twofold:
+                     (i) how can we detect if the composed grammar is ambiguous, and (ii) if it is ambiguous,
+                     how can we help a user resolve an ambiguous program? In this paper, we depart from
+                     the traditional view of unambiguous grammar design and enable a language designer
+                     to work with an ambiguous grammar, while giving users the tools needed to handle these
+                     ambiguities. We introduce the concept of <em>resolvable ambiguity</em> wherein a user can resolve an ambiguous program by editing it, as well as an approach
+                     to computing the resolutions of an ambiguous program. Furthermore, we present a method
+                     based on property-based testing to identify if a composed grammar is unambiguous,
+                     resolvably ambiguous, or unresolvably ambiguous. The method is implemented in Haskell
+                     and evaluated on a large set of language fragments selected from different languages.
+                     The evaluation shows that (i) the approach can handle significantly more cases of
+                     language compositions compared to approaches which ban ambiguity altogether, and (ii)
+                     that the approach is fast enough to be used in practice.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>

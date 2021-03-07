@@ -1,0 +1,770 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>CPP 2021: Proceedings of the 10th ACM SIGPLAN International Conference on Certified Programs and Proofs</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>CPP 2021: Proceedings of the 10th ACM SIGPLAN International Conference on Certified Programs
+               and Proofs</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3437992"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Invited Talks</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439910">Teaching algorithms and data structures with a proof assistant (invited talk)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Tobias Nipkow</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We report on a new course <em>Verified Functional Data Structures and Algorithms</em> taught at the Technical University of Munich. The course first introduces students
+                     to interactive theorem proving with the Isabelle proof assistant. Then it covers a
+                     range of standard data structures, in particular search trees and priority queues:
+                     it is shown how to express these data structures functionally and how to reason about
+                     their correctness and running time in Isabelle.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439911">Underpinning the foundations: sail-based semantics, testing, and reasoning for production
+                  and CHERI-enabled architectures (invited talk)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Peter Sewell</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p> This talk will describe our work to establish and use mechanised and rather complete
+                     semantics for full-scale architectures: the mainstream Armv8-A architecture, the emerging
+                     RISC-V architecture, the CHERI-MIPS and CHERI-RISC-V research architectures that use
+                     hardware capabilities for improved security, and Arm’s prototype Morello architecture
+                     - an industrial demonstrator incorporating the CHERI ideas. </p> 
+                  <p> It brings together a variety of tools, especially our Sail ISA definition language
+                     and Isla symbolic evaluation engine, to build semantic definitions that are readable,
+                     executable as test oracles, support reasoning within the Coq, HOL4, and Isabelle proof
+                     assistants, support SMT-based symbolic evaluation, support model-based test generation,
+                     and can be integrated with operational and axiomatic concurrency models. </p> 
+                  <p> For Armv8-A, we have the complete sequential semantics of the instruction-set architecture
+                     (ISA) automatically translated from the Arm-internal model to Sail, and for RISC-V,
+                     we have hand-written what is now the offically adopted model. For their concurrent
+                     semantics, the "user" semantics, partly as a result of our collaborations with Arm
+                     and within the RISC-V concurrency task group, have become simplified and well-defined,
+                     with multiple models proved equivalent, and we are currently working on the "system"
+                     semantics. Recently, we have added a symbolic execution tool for Sail specifications,
+                     Isla, which supports axiomatic concurrency models but now for tests that span the
+                     full range of the instruction-set architecture, and including instruction cache maintenance
+                     instructions and self-modifying code. </p> 
+                  <p> For CHERI-MIPS and CHERI-RISC-V, we have used Sail models as the golden reference
+                     during the design process, working with our systems colleagues in the CHERI team to
+                     use lightweight formal specification routinely in documentation, testing, and test
+                     generation. We have stated and proved (in Isabelle) some of the fundamental intended
+                     security properties of the full CHERI-MIPS ISA. </p> 
+                  <p> Morello, supported by the UKRI Digital Security by Design programme, offers a path
+                     to hardware enforcement of fine-grained memory safety and/or secure encapsulation
+                     in the production Armv8-A architecture, potentially excluding or mitigating a large
+                     fraction of today’s security vulnerabilities for existing C/C++ code with little modification.
+                     We are currently working with Arm to prove fundamental security properties for the
+                     complete Morello ISA definition, and to generate tests which are being used during
+                     hardware development. </p> 
+                  <p> All these tools and models are (or will soon be) available under open-source licences
+                     for others to use and build on. </p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: AI and Machine Learning</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439917">A formal proof of PAC learnability for decision stumps</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Joseph Tassarotti</li>
+               <li class="nameList">Koundinya Vajjha</li>
+               <li class="nameList">Anindya Banerjee</li>
+               <li class="nameList Last">Jean-Baptiste Tristan</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We present a formal proof in Lean of probably approximately correct (PAC) learnability
+                     of the concept class of decision stumps. This classic result in machine learning theory
+                     derives a bound on error probabilities for a simple type of classifier. Though such
+                     a proof appears simple on paper, analytic and measure-theoretic subtleties arise when
+                     carrying it out fully formally. Our proof is structured so as to separate reasoning
+                     about deterministic properties of a learning function from proofs of measurability
+                     and analysis of probabilities.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439927">CertRL: formalizing convergence proofs for value and policy iteration in Coq</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Koundinya Vajjha</li>
+               <li class="nameList">Avraham Shinnar</li>
+               <li class="nameList">Barry Trager</li>
+               <li class="nameList">Vasily Pestun</li>
+               <li class="nameList Last">Nathan Fulton</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Reinforcement learning algorithms solve sequential decision-making problems in probabilistic
+                     environments by optimizing for long-term reward. The desire to use reinforcement learning
+                     in safety-critical settings inspires a recent line of work on formally constrained
+                     reinforcement learning; however, these methods place the implementation of the learning
+                     algorithm in their Trusted Computing Base. The crucial correctness property of these
+                     implementations is a guarantee that the learning algorithm converges to an optimal
+                     policy. </p> 
+                  <p> This paper begins the work of closing this gap by developing a Coq formalization
+                     of two canonical reinforcement learning algorithms: value and policy iteration for
+                     finite state Markov decision processes. The central results are a formalization of
+                     the Bellman optimality principle and its proof, which uses a contraction property
+                     of Bellman optimality operator to establish that a sequence converges in the infinite
+                     horizon limit. The CertRL development exemplifies how the Giry monad and mechanized
+                     metric coinduction streamline optimality proofs for reinforcement learning algorithms.
+                     The CertRL library provides a general framework for proving properties about Markov
+                     decision processes and reinforcement learning algorithms, paving the way for further
+                     work on formalization of reinforcement learning algorithms.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Compilers and Interpreters</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439915">A minimalistic verified bootstrapped compiler (proof pearl)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Magnus O. Myreen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This paper shows how a small verified bootstrapped compiler can be developed inside
+                     an interactive theorem prover (ITP). Throughout, emphasis is put on clarity and minimalism.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439916">Lutsig: a verified Verilog compiler for verified circuit development</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Andreas Lööw</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We report on a new verified Verilog compiler called Lutsig. Lutsig currently targets
+                     (a class of) FPGAs and is capable of producing technology mapped netlists for FPGAs.
+                     We have connected Lutsig to existing Verilog development tools, and in this paper
+                     we show how Lutsig, as a consequence of this connection, fits into a hardware development
+                     methodology for verified circuits in the HOL4 theorem prover. One important step in
+                     the methodology is transporting properties proved at the behavioral Verilog level
+                     down to technology mapped netlists, and Lutsig is the component in the methodology
+                     that enables such transportation.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439923">Towards efficient and verified virtual machines for dynamic languages</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Martin Desharnais</li>
+               <li class="nameList Last">Stefan Brunthaler</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The prevalence of dynamic languages is not commensurate with the security guarantees
+                     provided by their execution mechanisms. Consider, for example, the ubiquitous case
+                     of JavaScript: it runs everywhere and its complex just-in-time compilers produce code
+                     that is fast and, unfortunately, sometimes incorrect. </p> 
+                  <p> We present an Isabelle/HOL formalization of an alternative execution model---optimizing
+                     interpreters---and mechanically verify its correctness. Specifically, we formalize
+                     advanced speculative optimizations similar to those used in just-in-time compilers
+                     and prove semantics preservation. As a result, our formalization provides a path towards
+                     unifying vital performance requirements with desirable security guarantees.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Program Logics</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439930">Contextual refinement of the Michael-Scott queue (proof pearl)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Simon Friis Vindum</li>
+               <li class="nameList Last">Lars Birkedal</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The Michael-Scott queue (MS-queue) is a concurrent non-blocking queue. In an earlier
+                     pen-and-paper proof it was shown that a simplified variant of the MS-queue contextually
+                     refines a coarse-grained queue. Here we use the Iris and ReLoC logics to show, for
+                     the first time, that the original MS-queue contextually refines a coarse-grained queue.
+                     We make crucial use of the recently introduced prophecy variables of Iris and ReLoC.
+                     Our proof uses a fairly simple invariant that relies on encoding which nodes in the
+                     MS-queue can reach other nodes. To further simplify the proof, we extend separation
+                     logic with a generally applicable <em>persistent points-to predicate</em> for representing immutable pointers. This relies on a generalization of the well-known
+                     algebra of fractional permissions into one of <em>discardable</em> fractional permissions. We define the persistent points-to predicate entirely inside
+                     the base logic of Iris (thus getting soundness “for free”). </p> 
+                  <p>We use the same approach to prove refinement for a variant of the MS-queue resembling
+                     the one used in the java.util.concurrent library. </p> 
+                  <p>We have mechanized our proofs in Coq using the formalizations of ReLoC and Iris in
+                     Coq.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439931">Reasoning about monotonicity in separation logic</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Amin Timany</li>
+               <li class="nameList Last">Lars Birkedal</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Reasoning about monotonicity is of key importance in concurrent separation logics.
+                     For instance, one needs to reason about monotonicity to show that the value of a concurrent
+                     counter with an increment operation only grows over time. Modern concurrent separation
+                     logics, such as VST, FCSL, and Iris, are based on resource models defined using partial
+                     commutative monoids. For any partial commutative monoid, there is a canonical ordering
+                     relation, the so-called extension order, and in a sense the logics are designed to
+                     reason about monotonicity wrt. the extension ordering. </p> 
+                  <p> Thus a natural question is: given an arbitrary preorder, can we construct a partial
+                     commutative monoid, where the extension order captures the given preorder. </p> 
+                  <p> In this paper, we answer this question in the affirmative and show that there is
+                     a canonical construction, which given any preorder produces a partial commutative
+                     monoid for which the extension order, restricted to the elements of the preorder,
+                     is exactly the given preorder. We prove that our construction is a free construction
+                     in the category-theoretic sense. </p> 
+                  <p> We demonstrate, using examples, that the general construction is useful. We have
+                     formalized the construction and its properties in Coq. Moreover, we have integrated
+                     it in the Iris program logic framework and used that to formalize our examples.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Security, Blockchains, and Smart Contracts</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439934">Extracting smart contracts tested and verified in Coq</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Danil Annenkov</li>
+               <li class="nameList">Mikkel Milo</li>
+               <li class="nameList">Jakob Botsch Nielsen</li>
+               <li class="nameList Last">Bas Spitters</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We implement extraction of Coq programs to functional languages based on MetaCoq's
+                     certified erasure. As part of this, we implement an optimisation pass removing unused
+                     arguments. We prove the pass correct wrt. a conventional call-by-value operational
+                     semantics of functional languages. We apply this to two functional smart contract
+                     languages, Liquidity and Midlang, and to the functional language Elm. </p> 
+                  <p> Our development is done in the context of the ConCert framework that enables smart
+                     contract verification. We contribute a verified boardroom voting smart contract featuring
+                     maximum voter privacy such that each vote is kept private except under collusion of
+                     all other parties. </p> 
+                  <p> We also integrate property-based testing into ConCert using QuickChick and our development
+                     is the first to support testing properties of interacting smart contracts. We test
+                     several complex contracts such as a DAO-like contract, an escrow contract, an implementation
+                     of a Decentralized Finance (DeFi) contract which includes a custom token standard
+                     (Tezos FA2), and more. </p> 
+                  <p> In total, this gives us a way to write dependent programs in Coq, test them semi-automatically,
+                     verify, and then extract to functional smart contract languages, while retaining a
+                     small trusted computing base of only MetaCoq and the pretty-printers into these languages.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439924">Formal verification of authenticated, append-only skip lists in Agda</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Victor Cacciari Miraldo</li>
+               <li class="nameList">Harold Carr</li>
+               <li class="nameList">Mark Moir</li>
+               <li class="nameList">Lisandra Silva</li>
+               <li class="nameList Last">Guy L. Steele Jr.</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Authenticated Append-Only Skiplists (AAOSLs) enable maintenance and querying of an
+                     authenticated log (such as a blockchain) without requiring any single party to store
+                     or verify the entire log, or to trust another party regarding its contents. AAOSLs
+                     can help to enable efficient dynamic participation (e.g., in consensus) and reduce
+                     storage overhead. </p> 
+                  <p> In this paper, we formalize an AAOSL originally described by Maniatis and Baker,
+                     and prove its key correctness proper- ties. Our model and proofs are machine checked
+                     in Agda. Our proofs apply to a generalization of the original construction and provide
+                     confidence that instances of this generalization can be used in practice. Our formalization
+                     effort has also yielded some simplifications and optimizations.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439929">Towards formally verified compilation of tag-based policy enforcement</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">CHR Chhak</li>
+               <li class="nameList">Andrew Tolmach</li>
+               <li class="nameList Last">Sean Anderson</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Hardware-assisted reference monitoring is receiving increasing attention as a way
+                     to improve the security of existing software. One example is the PIPE architecture
+                     extension, which attaches metadata tags to register and memory values and executes
+                     tag-based rules at each machine instruction to enforce a software-defined security
+                     policy. To use PIPE effectively, engineers should be able to write security policies
+                     in terms of source-level concepts like functions, local variables, and structured
+                     control operators, which are not visible at machine level. It is the job of the compiler
+                     to generate PIPE-aware machine code that enforces these source-level policies. The
+                     compiler thus becomes part of the monitored system’s trusted computing base---and
+                     hence a prime candidate for verification. </p> 
+                  <p> To formalize compiler correctness in this setting, we extend the source language
+                     semantics with its own form of user-specified tag-based monitoring, and show that
+                     the compiler preserves that monitoring behavior. The challenges of compilation include
+                     mapping source-level monitoring policies to instruction-level tag rules, preserving
+                     fail-stop behaviors, and satisfying the surprisingly complex preconditions for conventional
+                     optimizations. In this paper, we describe the design and verification of Tagine, a
+                     small prototype compiler that translates a simple tagged WHILE language to a tagged
+                     register transfer language and performs simple optimizations. Tagine is based on the
+                     RTLgen and Deadcode phases of the CompCert compiler, and hence is written and verified
+                     in Coq. This work is a first step toward verification of a full-scale compiler for
+                     a realistic tagged source language.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Semantics</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439920">A Coq formalization of data provenance</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Véronique Benzaken</li>
+               <li class="nameList">Sarah Cohen-Boulakia</li>
+               <li class="nameList">Évelyne Contejean</li>
+               <li class="nameList">Chantal Keller</li>
+               <li class="nameList Last">Rébecca Zucchini</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In multiple domains, large amounts of data are daily generated and combined to be
+                     analyzed. The interpretation of these analyses requires to track back the provenance
+                     of combined data with respect to initial, raw data. The correctness of the provenance
+                     is crucial in many critical domains, such as medicine to prescribe treatments. In
+                     this article, we propose the first provenance-aware extended relational algebra formalized
+                     in a proof assistant (Coq), for a non trivial subset of database queries: queries
+                     containing aggregates, null values, and correlated sub-queries. The formalization
+                     is validated by an adequacy proof with respect to standard evaluation of queries.
+                     This development is a first step towards a posteriori certification of provenance
+                     for data manipulation, with strong guaranties.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439913">Developing and certifying Datalog optimizations in coq/mathcomp</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Pierre-Léo Bégay</li>
+               <li class="nameList">Pierre Crégut</li>
+               <li class="nameList Last">Jean-François Monin</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We introduce a static analysis and two program transformations for Datalog to circumvent
+                     performance ssues that arise with the implementation of primitive predicates, notably
+                     in the framework of a large scale telecommunication application. To this effect, we
+                     introduce a new trace semantics for Datalog with a verified mechanization. This work
+                     can be seen as both a first step and a proof of concept for the creation of a full-blown
+                     library of verified Datalog optimizations, on top of an existing Coq/MathComp formalization
+                     of Datalog towards the development of a realistic environment for certified data centric
+                     applications.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439914">Machine-checked semantic session typing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jonas Kastberg Hinrichsen</li>
+               <li class="nameList">Daniël Louwrink</li>
+               <li class="nameList">Robbert Krebbers</li>
+               <li class="nameList Last">Jesper Bengtson</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Session types—a family of type systems for message-passing concurrency—have been subject
+                     to many extensions, where each extension comes with a separate proof of type safety.
+                     These extensions cannot be readily combined, and their proofs of type safety are generally
+                     not machine checked, making their correctness less trustworthy. We overcome these
+                     shortcomings with a semantic approach to binary asynchronous affine session types,
+                     by developing a logical relations model in Coq using the Iris program logic. We demonstrate
+                     the power of our approach by combining various forms of polymorphism and recursion,
+                     asynchronous subtyping, references, and locks/mutexes. As an additional benefit of
+                     the semantic approach, we demonstrate how to manually prove typing judgements of racy,
+                     but safe, programs that cannot be type checked using only the rules of the type system.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Proof Tactics</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439928">A novice-friendly induction tactic for lean</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Jannis Limperg</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In theorem provers based on dependent type theory such as Coq and Lean, induction
+                     is a fundamental proof method and induction tactics are omnipresent in proof scripts.
+                     Yet the ergonomics of existing induction tactics are not ideal: they do not reliably
+                     support inductive predicates and relations; they sometimes generate overly specific
+                     or unnecessarily complex induction hypotheses; and they occasionally choose confusing
+                     names for the hypotheses they introduce. </p> 
+                  <p> This paper describes a new induction tactic, implemented in Lean 3, which addresses
+                     these issues. The tactic is particularly suitable for educational use, but experts
+                     should also find it more convenient than existing induction tactics. In addition,
+                     the tactic serves as a moderately complex case study for the metaprogramming framework
+                     of Lean 3. The paper describes some difficulties encountered during the implementation
+                     and suggests improvements to the framework.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439925">Lassie: HOL4 tactics by example</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Heiko Becker</li>
+               <li class="nameList">Nathaniel Bos</li>
+               <li class="nameList">Ivan Gavran</li>
+               <li class="nameList">Eva Darulova</li>
+               <li class="nameList Last">Rupak Majumdar</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Proof engineering efforts using interactive theorem proving have yielded several impressive
+                     projects in software systems and mathematics. A key obstacle to such efforts is the
+                     requirement that the domain expert is also an expert in the low-level details in constructing
+                     the proof in a theorem prover. In particular, the user needs to select a sequence
+                     of tactics that lead to a successful proof, a task that in general requires knowledge
+                     of the exact names and use of a large set of tactics. </p> 
+                  <p> We present Lassie, a tactic framework for the HOL4 theorem prover that allows individual
+                     users to define their own tactic language by example and give frequently used tactics
+                     or tactic combinations easier-to-remember names. The core of Lassie is an extensible
+                     semantic parser, which allows the user to interactively extend the tactic language
+                     through a process of definitional generalization. Defining tactics in Lassie thus
+                     does not require any knowledge in implementing custom tactics, while proofs written
+                     in Lassie retain the correctness guarantees provided by the HOL4 system. We show through
+                     case studies how Lassie can be used in small and larger proofs by novice and more
+                     experienced interactive theorem prover users, and how we envision it to ease the learning
+                     curve in a HOL4 tutorial.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Rewriting and Automated Reasoning</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439912">A modular Isabelle framework for verifying saturation provers</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Sophie Tourret</li>
+               <li class="nameList Last">Jasmin Blanchette</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We present a formalization in Isabelle/HOL of a comprehensive framework for proving
+                     the completeness of automatic theorem provers based on resolution, superposition,
+                     or other saturation calculi. The framework helps calculus designers and prover developers
+                     derive, from the completeness of a calculus, the completeness of prover architectures
+                     implementing the calculus. It also helps derive the completeness of calculi obtained
+                     by lifting ground (i.e., variable-free) calculi. As a case study, we re-verified Bachmair
+                     and Ganzinger's resolution prover RP to show the benefits of modularity.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439935">An Isabelle/HOL formalization of AProVE’s termination method for LLVM IR</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Max W. Haslbeck</li>
+               <li class="nameList Last">René Thiemann</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>AProVE is a powerful termination prover for various programming languages, including
+                     a termination analysis method for imperative programs specified in the LLVM intermediate
+                     representation (IR). The method internally works in three steps: first, it transforms
+                     LLVM IR code into a symbolic execution graph; second, the graph is translated into
+                     an integer transition system; finally, termination of the transition sys- tem is proved
+                     by the back end of AProVE. Since AProVE is unverified software, our aim is to increase
+                     its reliability by certifying the generated proofs. To this end, we require formal
+                     semantics of all program representations, i.e., for LLVM IR, for symbolic execution
+                     graphs and for inte- ger transition systems. As the latter is already available, we
+                     define the former ones. We note that our semantics for LLVM IR use arithmetic with
+                     unbounded integers. We further verify the first and the second step of AProVE’s termination
+                     method, including verified algorithms to check concrete proofs. Since the third step
+                     can already be certified, we obtain a complete formally verified method for certifying
+                     AProVE’s termination proofs of LLVM IR programs. The whole formalization has been
+                     done in Isabelle/HOL and our certifier is available as a Haskell program via code
+                     generation.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439918">A verified decision procedure for the first-order theory of rewriting for linear variable-separated
+                  rewrite systems</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Alexander Lochmann</li>
+               <li class="nameList">Aart Middeldorp</li>
+               <li class="nameList">Fabian Mitterwallner</li>
+               <li class="nameList Last">Bertram Felgenhauer</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The first-order theory of rewriting is a decidable theory for finite left-linear right-ground
+                     rewrite systems, implemented in FORT. We present a formally verified variant of the
+                     decision procedure for the class of linear variable-separated rewrite systems. This
+                     variant supports a more expressive theory and is based on the concept of anchored
+                     ground tree transducers. The correctness of the decision procedure is verified by
+                     a formalization in Isabelle/HOL on top of the Isabelle Formalization of Rewriting
+                     (IsaFoR).</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Formalized Mathematics</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439919">Formalizing the ring of Witt vectors</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Johan Commelin</li>
+               <li class="nameList Last">Robert Y. Lewis</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The ring of Witt vectors W <em>R</em> over a base ring <em>R</em> is an important tool in algebraic number theory and lies at the foundations of modern
+                     <em>p</em>-adic Hodge theory. W <em>R</em> has the interesting property that it constructs a ring of characteristic 0 out of
+                     a ring of characteristic <em>p</em> &gt; 1, and it can be used more specifically to construct from a finite field containing
+                     ℤ/<em>p</em>ℤ the corresponding unramified field extension of the <em>p</em>-adic numbers ℚ<sub><em>p</em></sub> (which is unique up to isomorphism). </p> 
+                  <p>We formalize the notion of a Witt vector in the Lean proof assistant, along with the
+                     corresponding ring operations and other algebraic structure. We prove in Lean that,
+                     for prime <em>p</em>, the ring of Witt vectors over ℤ/<em>p</em>ℤ is isomorphic to the ring of <em>p</em>-adic integers ℤ<sub><em>p</em></sub>. In the process we develop idioms to cleanly handle calculations of identities between
+                     operations on the ring of Witt vectors. These calculations are intractable with a
+                     naive approach, and require a proof technique that is usually skimmed over in the
+                     informal literature. Our proofs resemble the informal arguments while being fully
+                     rigorous.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439933">Formal verification of semi-algebraic sets and real analytic functions</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">J. Tanner Slagel</li>
+               <li class="nameList">Lauren White</li>
+               <li class="nameList Last">Aaron Dutle</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Semi-algebraic sets and real analytic functions are fundamental concepts in Real Algebraic
+                     Geometry and Real Analysis, respectively. These concepts appear in the study of Differential
+                     Equations, where the real analytic solution to a differential equation is known to
+                     enter or exit a semi-algebraic set in a predictable way. Motivated to enhance the
+                     capability to reason about differential equations in the Prototype Verification System
+                     (PVS), a formalization of multivariate polynomials, semi-algebraic sets, and real
+                     analytic functions is developed. The way that a real analytic function behaves in
+                     a neighborhood around a point where the function meets the boundary of a semi-algebraic
+                     set is described and verified. It is further shown that if the function is assumed
+                     to be smooth, a slightly weaker assumption than real analytic, the behavior around
+                     the boundary of a semi-algebraic set can be very different.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439921">On the formalisation of Kolmogorov complexity</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Elliot Catt</li>
+               <li class="nameList Last">Michael Norrish</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Kolmogorov complexity is an essential tool in the study of algorithmic information
+                     theory, and is used in the fields of Artificial Intelligence, cryptography, and coding
+                     theory. The formalisation of the theorems of Kolmogorov complexity is also key to
+                     proving results in the theory of Intelligent Agents, specifically the results in Universal
+                     Artificial Intelligence. In this paper, we present a mechanisation of some of these
+                     fundamental results. In particular, building on HOL4's existing model of computability,
+                     we provide a formal definition of the complexity of a binary string, and then prove
+                     (i) that Kolmogorov complexity is uncomputable; (ii) the Kolmogorov Complexity invariance
+                     theorem; (iii) the Kraft and Kolmogorov-Kraft inequalities; and (iv) key Kolmogorov
+                     Complexity inequalities.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Logic, Set Theory, and Category Theory</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439926">An anti-locally-nameless approach to formalizing quantifiers</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Olivier Laurent</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We investigate the possibility of formalizing quantifiers in proof theory while avoiding,
+                     as far as possible, the use of true binding structures, α-equivalence or variable
+                     renamings. We propose a solution with two kinds of variables in terms and formulas,
+                     as originally done by Gentzen. In this way formulas are first-order structures, and
+                     we are able to avoid capture problems in substitutions. However at the level of proofs
+                     and proof manipulations, some binding structure seems unavoidable. We give a representation
+                     with de Bruijn indices for proof rules which does not impact the formula representation
+                     and keeps the whole set of definitions first-order.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439932">The generalised continuum hypothesis implies the axiom of choice in Coq</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Dominik Kirst</li>
+               <li class="nameList Last">Felix Rech</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We discuss and compare two Coq mechanisations of Sierpinski's result that the generalised
+                     continuum hypothesis (GCH) implies the axiom of choice (AC). The first version shows
+                     the result, originally stated in first-order ZF set-theory, for a higher-order set
+                     theory convenient to work with in Coq. The second version presents a corresponding
+                     theorem for Coq's type theory itself, concerning type-theoretic formulations of GCH
+                     and AC. Both versions rely on the classical law of excluded middle and extensionality
+                     assumptions but we localise the use of axioms where possible.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3437992.3439922">Formalizing category theory in Agda</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jason Z. S. Hu</li>
+               <li class="nameList Last">Jacques Carette</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The generality and pervasiveness of category theory in modern mathematics makes it
+                     a frequent and useful target of formalization. It is however quite challenging to
+                     formalize, for a variety of reasons. Agda currently (i.e. in 2020) does not have a
+                     standard, working formalization of category theory. We document our work on solving
+                     this dilemma. The formalization revealed a number of potential design choices, and
+                     we present, motivate and explain the ones we picked. In particular, we find that alternative
+                     definitions or alternative proofs from those found in standard textbooks can be advantageous,
+                     as well as "fit" Agda's type theory more smoothly. Some definitions regarded as equivalent
+                     in standard textbooks turn out to make different "universe level" assumptions, with
+                     some being more polymorphic than others. We also pay close attention to engineering
+                     issues so that the library integrates well with Agda's own standard library, as well
+                     as being compatible with as many of supported type theories in Agda as possible.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>

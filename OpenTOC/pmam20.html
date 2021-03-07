@@ -1,0 +1,347 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>PMAM '20: Proceedings of the Eleventh International Workshop on Programming Models and Applications for Multicores and Manycores</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>PMAM '20: Proceedings of the Eleventh International Workshop on Programming Models and Applications
+               for Multicores and Manycores</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3380536"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3380536.3380541">Bounded incoherence: a programming model for non-cache-coherent shared memory architectures</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yuxin Ren</li>
+               <li class="nameList">Gabriel Parmer</li>
+               <li class="nameList Last">Dejan Milojicic</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Cache coherence in modern computer architectures enables easier programming by sharing
+                     data across multiple processors. Unfortunately, it can also limit scalability due
+                     to cache coherency traffic initiated by competing memory accesses. Rack-scale systems
+                     introduce shared memory across a whole rack, but without inter-node cache coherence.
+                     This poses memory management and concurrency control challenges for applications that
+                     must explicitly manage cache-lines. To fully utilize rack-scale systems for low-latency
+                     and scalable computation, applications need to maintain cached memory accesses in
+                     spite of non-coherency.</p> 
+                  <p>This paper introduces Bounded Incoherence, a programming and memory consistency model
+                     that enables cached access to shared data-structures in non-cache-coherency memory.
+                     It ensures that updates to memory on one node are visible within at most a bounded
+                     amount of time on all other nodes. We evaluate this memory model on modified PowerGraph
+                     graph processing framework, and boost its performance by 30% with eight sockets by
+                     enabling cached-access to data-structures.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3380536.3380545">ELSE: an efficient link-time static instrumentation tool for embedded system</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Xiaoxin Tang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Unlike general systems, hardware and software of embedded systems are usually customized
+                     for specific purposes and many of them are real-time systems. With time changing,
+                     their workloads are also changing rapidly and maintaining their software becomes a
+                     complicated job. The key is to understand their behaviours so that developers can
+                     make changes to them according to the new situations. To trace their runtime behaviours,
+                     instrumentation techniques are widely used in general systems. However, applying them
+                     on embedded system faces several problems including big size growth rate, long instrumentation
+                     time, high runtime overhead, etc. As the hardware performance of embedded system are
+                     usually limited, these problems are crucial and cannot be ignored. As far as we know,
+                     existing tools can only partly solve all these problems.</p> 
+                  <p>In this paper, we propose ELSE, an Efficient and Link-time, Static instrumentation
+                     tool for Embedded system. It supports efficient low-level and high-level instrumentation
+                     to collect most runtime information developers want. It does not waste any space during
+                     instrumentation thus its size growth rate is very small, which is only about 30% of
+                     other existing tools. Its processing time is also orders of magnitude less than other
+                     existing tools. We optimize the influence of registers and cache which can further
+                     reduce its runtime overhead. Overall, ELSE performs the best compared with other state-of-the-art
+                     tools on SPEC 2006 benchmarks.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3380536.3380538">TardisTM: incremental repair for transactional memory</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Daming D. Chen</li>
+               <li class="nameList">Phillip B. Gibbons</li>
+               <li class="nameList Last">Todd C. Mowry</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Transactional memory (TM) provides developers with a <em>transaction</em> primitive for concurrent code execution that transparently checks for concurrency
+                     conflicts. When such a conflict is detected, the system recovers by <em>aborting</em> and restarting the transaction. Although correct, this behavior wastes work and inhibits
+                     forward progress.</p> 
+                  <p>In this paper, we present TardisTM, a software TM system that supports <em>repairing</em> concurrency conflicts while preserving unaffected computation. Our key insight is
+                     that existing conflict detection mechanisms can be extended to perform incremental
+                     transaction repair, when augmented with additional runtime information. To do so,
+                     we design a mechanism for localizing conflicts back to transactional program points,
+                     define the semantics for optional <em>repair handler</em> annotations, and extend the conflict detection algorithm to ensure all repairs are
+                     completed. To evaluate our system, we characterize the benefit of repair on a set
+                     of benchmark programs; we measure up to 2.95x speedup over mutual exclusion, and 93%
+                     abort reduction over a baseline software TM system that does not support repair.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3380536.3380539">Self-adjusting task granularity for Global load balancer library on clusters of many-core
+                  processors</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Patrick Finnerty</li>
+               <li class="nameList">Tomio Kamada</li>
+               <li class="nameList Last">Chikara Ohta</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Achieving load balance is a challenge for irregular applications. Balancing runtimes
+                     and libraries aim at relieving the programmer from this difficult task by proposing
+                     a layer of abstraction between the computation at hand and the hardware used to actually
+                     perform it. With the rise of many-core architectures, load balancers for distributed
+                     computation are now expected to handle unbalance both between and within compute nodes.
+                     We bear a particular interest in backtrack search algorithms where branches of the
+                     exploration tree can be processed in parallel. Profile-based load balancers cannot
+                     be applied to them as the computation need only be performed once. It is therefore
+                     vital to promptly detect and address load unbalances from the start.</p> 
+                  <p>A popular solution consists in using the fork/join model. Another approach on which
+                     we focus in this article is implemented in the load balancing library of X10. Both
+                     of these schemes are sensitive to task granularity. Fined-grained tasks may incur
+                     significant overhead, especially with the increased number of parallel workers of
+                     many-core architectures, while coarse-grained tasks may cause starvation. Determining
+                     a suitable grain size for a particular application is difficult.</p> 
+                  <p>In this article we present our Java implementation of the X10 load balancing scheme.
+                     We extend it with a tuning mechanism which dynamically adjusts the task granularity,
+                     increasing the library's versatility and usability. We demonstrate the capabilities
+                     of our tuning mechanism to suit many-core clusters using four applications: Unbalanced
+                     Tree Search, Pentomino, the Traveling Salesman Problem, and N-Queens. We achieve near
+                     identical performance to the ideal fixed grain executions on the first three but suffer
+                     from a more significant performance gap on the N-Queens problem. We advance hypotheses
+                     as to why.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3380536.3380542">Towards a portable hierarchical view of distributed shared memory systems: challenges and solutions</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Millad Ghane</li>
+               <li class="nameList">Sunita Chandrasekaran</li>
+               <li class="nameList Last">Margaret S. Cheung</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>An ever-growing diversity in the architecture of modern super-computers has led to
+                     challenges in developing scientific software. Utilizing heterogeneous and disruptive
+                     architectures (e.g., off-chip and, in the near future, on-chip accelerators) has increased
+                     the software complexity and worsened its maintainability. To that end, we need a productive
+                     software ecosystem that improves the usability and portability of applications for
+                     such systems while allowing every parallelism opportunity to be exploited.</p> 
+                  <p>In this paper, we outline several challenges that we encountered in the implementation
+                     of Gecko, a hierarchical model for distributed shared memory architectures, using
+                     a directive-based programming model, and discuss our solutions. Such challenges include:
+                     1) inferred kernel execution with respect to the data placement, 2) workload distribution,
+                     3) hierarchy maintenance, and 4) memory management.</p> 
+                  <p>We performed the experimental evaluation of our implementation by using the Stream
+                     and Rodinia benchmarks. These benchmarks represent several major scientific software
+                     applications commonly used by the domain scientists. Our results reveal how the Stream
+                     benchmark reaches a sustainable bandwidth of 80 GB/s and 1.8 TB/s for single Intel
+                     Xeon Processor and four NVIDIA V100 GPUs, respectively. Additionally, the srad_v2
+                     in the Rodinia benchmark reaches the 88% speedup efficiency while using four GPUs.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3380536.3380543">Lock-free transactional vector</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Kenneth Lamar</li>
+               <li class="nameList">Christina Peterson</li>
+               <li class="nameList Last">Damian Dechev</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The vector is a fundamental data structure, offering constant-time traversal to elements
+                     and a dynamically resizable range of indices. While several concurrent vectors exist,
+                     a composition of concurrent vector operations dependent on each other can lead to
+                     undefined behavior. Techniques for providing transactional capabilities for data structure
+                     operations include Software Transactional Memory (STM) and transactional transformation
+                     methodologies. Transactional transformations convert concurrent data structures into
+                     their transactional equivalents at an operation level, rather than STM's object or
+                     memory level. To the best of our knowledge, existing STMs do not support dynamic read/write
+                     sets in a lock-free manner, and transactional transformation methodologies are unsuitable
+                     for the vector's contiguous memory layout. In this work, we present the first lock-free
+                     transactional vector. It integrates the fast lock-free resizing and instant logical
+                     status changes from related works. Our approach pre-processes transactions to reduce
+                     shared memory access and simplify access logic. This can be done without locking elements
+                     or verifying conflicts between transactions. We compare our design against state-of-the-art
+                     transactional designs, GCC STM, Transactional Boosting, and STO. All data structures
+                     are tested on four different platforms, including x86_64 and ARM architectures. We
+                     find that our lock-free transactional vector generally offers better scalability than
+                     STM and STO, and competitive performance with Transactional Boosting, but with additional
+                     lock-free guarantees. In scenarios with only reads and writes, our vector is as much
+                     as 47% faster than Transactional Boosting.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3380536.3380540">Exploring accelerator and parallel graph algorithmic choices for temporal graphs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Akif Rehman</li>
+               <li class="nameList">Masab Ahmad</li>
+               <li class="nameList Last">Omer Khan</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Many real-world systems utilize graphs that are time-varying in nature, where edges
+                     appear and disappear with respect to time. Moreover, the weights of different edges
+                     are also a function of time. Various conventional graph algorithms, such as single
+                     source shortest path (SSSP) have been developed for time-varying graphs. However,
+                     these algorithms are sequential in nature and their parallel counterparts are largely
+                     overlooked. On the other hand, parallel algorithms for static graphs are implemented
+                     as ordered and unordered variants. Unordered implementations do not enforce local
+                     or global order for processing tasks in parallel, but incur redundant task processing
+                     to converge their solutions. These implementations expose parallelism at the cost
+                     of high redundant work. Relax-ordered implementations maintain local order through
+                     per-core priority queues to reduce the amount of redundant work, while exposing parallelism.
+                     Finally, strict-ordered implementations achieve the work efficiency of sequential
+                     version by enforcing a global order at the expense of high thread synchronizations.
+                     These parallel implementations are adopted for temporal graphs to explore the choices
+                     that provide optimal performance on different parallel accelerators. This work shows
+                     that selecting the optimal parallel implementation extracts geometric performance
+                     gain of 46.38% on Intel Xeon-40 core and 20.30% on NVidia GTX-1080 GPU. It is also
+                     shown that optimal implementation choices for temporal graphs are not always the same
+                     as their respective static graphs.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3380536.3380544">Generating energy-efficient code for parallel applications specified by streaming
+                  task graphs with dynamic elements</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Sebastian Litzinger</li>
+               <li class="nameList Last">Jörg Keller</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Streaming task graphs are a high-level construct used to specify parallel applications
+                     operating on streams of data, and energy-efficient code meeting data throughput requirements
+                     can be generated automatically. Tasks can be parallel themselves, so that two levels
+                     of parallelism are present. Normally, the task graph structure is assumed to be static,
+                     so that static schedulers can be used to map the (parallel) tasks onto a parallel
+                     platform to minimize energy consumption for given throughput. We propose a formulation
+                     that introduces dynamic elements into the task graph structure, thus allowing to specify
+                     applications that can adapt their behavior at runtime, e. g. activating another filter
+                     task depending on data quality. This in turn necessitates a runtime system that can
+                     re-map tasks in case of a dynamic change of the task structure. We provide the core
+                     of such a runtime system together with a task mapper that is able to work incrementally,
+                     i. e. that can re-use results from previous mappings when computing a new mapping
+                     in case of task addition, change or removal, thus minimizing runtime overhead. We
+                     evaluate our prototype implementation with a set of streaming task graphs and compare
+                     our results to an optimal static scheduler based on integer linear programming. We
+                     find that our prototype is able to meet throughput requirements with &lt; 3.5% energy
+                     overhead on average compared to the optimal scheduler.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>
