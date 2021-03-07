@@ -71,6 +71,10 @@
   year: 2020
   title: "Proceedings of the 29th International Conference on Compiler Construction"
 -
+  event: CC
+  year: 2020
+  title: "Proceedings of the 30th International Conference on Compiler Construction"
+-
   event: CGO
   year: 2016
   title: "Proceedings of the 14th Annual IEEE/ACM International Symposium on Code Generation and Optimization"
@@ -106,6 +110,10 @@
   event: CPP
   year: 2020
   title: "Proceedings of the 9th ACM SIGPLAN Conference on Certified Programs and Proofs"
+-
+  event: CPP
+  year: 2020
+  title: "Proceedings of the 10th ACM SIGPLAN Conference on Certified Programs and Proofs"
 -
   event: DBPL
   year: 2015
@@ -561,6 +569,10 @@
   year: 2020
   title: "Proceedings of the 2020 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation"
 -
+  event: PEPM
+  year: 2021
+  title: "Proceedings of the 2021 ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation"
+-
   event: PLATEAU
   year: 2014
   title: "Proceedings of the 5th Workshop on Evaluation and Usability of Programming Languages and Tools"
@@ -683,6 +695,10 @@
   event: PPoPP
   year: 2020
   title: "Proceedings of the 25th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming"
+-
+  event: PPoPP
+  year: 2021
+  title: "Proceedings of the 26th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming"
 -
   event: PPREW
   year: 2014
