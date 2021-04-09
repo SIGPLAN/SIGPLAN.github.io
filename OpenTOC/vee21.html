@@ -1,0 +1,595 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>VEE 2021: Proceedings of the 17th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>VEE 2021: Proceedings of the 17th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution
+               Environments</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" href="https://dl.acm.org/doi/proceedings/10.1145/3453933"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3453933.3454010">virtio-mem: paravirtualized memory hot(un)plug</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">David Hildenbrand</li>
+               <li class="nameList Last">Martin Schulz</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The ability to dynamically increase or reduce the amount of memory available to a
+                     virtual machine is getting increasingly important: as one example, cloud users want
+                     to dynamically adjust the memory assigned to their virtual machines to optimize costs.
+                     Traditional memory hot(un)plug, such as hot(un)plugging emulated DIMMs, and memory
+                     ballooning can dynamically resize virtual machine memory. However, existing approaches
+                     provide limited flexibility, are incompatible with important technologies like vNUMA
+                     and fast operating system reboots, or are unsuitable when hosting untrusted virtual
+                     machines. </p> 
+                  <p> To overcome these limitations, we introduce virtio-mem, a VIRTIO-based paravirtualized
+                     memory device, designed for fine-grained, NUMA-aware memory hot(un)plug in cloud environments.
+                     To showcase the adaptions needed in a hypervisor and a guest operating system to support
+                     virtio-mem, we describe our implementation in the QEMU/KVM hypervisor and Linux guests.
+                     We evaluate virtio-mem against traditional memory hot(un)plug and memory ballooning,
+                     showing that our approach enables assignment of memory in substantially smaller granularity
+                     per NUMA node than traditional memory hot(un)plug, such as 4 MiB on x86-64. In contrast
+                     to memory ballooning, virtio-mem is fully NUMA-aware and supports fast operating system
+                     reboots by design, while guaranteeing that malicious virtual machines, which try using
+                     more memory than agreed upon, can be detected reliably. </p> 
+                  <p> We conclude that using paravirtualized memory devices for dynamically resizing virtual
+                     machine memory significantly increases flexibility and usability compared to state-of-the-art.
+                     A first version of virtio-mem for x86-64 has been integrated into upstream Linux and
+                     QEMU.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3453933.3454011">How to design a library OS for practical containers?</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Hajime Tazaki</li>
+               <li class="nameList">Akira Moroo</li>
+               <li class="nameList">Yohei Kuga</li>
+               <li class="nameList Last">Ryo Nakamura</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Container engines with operating-system virtualization have been widely used and now
+                     offer extensions to replace core functionalities that are derived from the host kernel.
+                     Because such extensions with an alternate kernel, which is often implemented in a
+                     library operating system (libOS), can be designed to have free choice, developers
+                     are tempted to take a clean-slate approach, i.e., implement the kernels from scratch.
+                     However, this design decision makes it difficult to cover broad features of the original
+                     Linux kernel, and some application programs may not work on such kernels. Precise
+                     emulation of the huge codebase and rich feature set of the Linux kernel is not easily
+                     possible. In this paper, we have tried to improve the level of compatibility in a
+                     libOS by using the source code of the Linux kernel as the container kernel. We present
+                     µKontainer, an alternate container kernel based on a libOS by extending the existing
+                     open-source software, Linux Kernel Library, while preserving the lightweight property
+                     of conventional containers. We have studied the level of compatibility with the conformance
+                     tests of network protocol implementation of nine different libOSs, and µKontainer
+                     performs identically like the Linux kernel. The network-related benchmark shows mostly
+                     comparable results with a conventional container and a native Linux host; in the best
+                     case, the goodput of the short-sized packet is up to 84% faster than that of a native
+                     Linux host. This paper sheds light on the design space of the libOS when we introduced
+                     the extended container kernel.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3453933.3454012">Swift shadow paging (SSP): no write-protection but following TLB flushing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Sai Sha</li>
+               <li class="nameList">Yi Zhang</li>
+               <li class="nameList">Yingwei Luo</li>
+               <li class="nameList">Xiaolin Wang</li>
+               <li class="nameList Last">Zhenlin Wang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Virtualization is a key technique for supporting cloud services and memory virtualization
+                     is a major component of virtualization technology. Common memory virtualization mechanisms
+                     include shadow paging and hardware-assisted paging. The shadow paging model needs
+                     to synchronize shadow/guest page tables whenever there is a guest page table update.
+                     In the design of traditional shadow paging (TSP), the guest page table pages are write-protected
+                     so the updates can be intercepted by the hypervisor to ensure synchronization. Frequent
+                     page table updates cause lots of VM_Exits. Researchers have developed hardware-assisted
+                     paging to eliminate this overhead. However, address translation needs to walk a two-dimensional
+                     page table. This design significantly increases the overhead of page walk. </p> 
+                  <p>This paper proposes SSP, a Swift Shadow Paging model which leverages the privileged
+                     hardware mode. In this design, the write protection mechanism is no longer needed.
+                     Rather, SSP accomplishes lazy page table synchronization by intercepting TLB flushing,
+                     which must be initiated by the guest OS when there is a page table update. The hardware
+                     mode, such as RISC-V’s machine mode and Sunway’s hardware mode, with the highest privilege,
+                     opens a new door for communication between the host OS and a guest OS. In addition,
+                     by using a shadow page table base address buffer, SSP eliminates the VM_Exits generated
+                     by guest process context switching. SSP inherits the advantage of TSP as it remains
+                     as a software-only solution and does not incur the excessive overhead of page walk
+                     when compared to hardware-assisted paging. We implement SSP in a Sunway machine. Our
+                     evaluation demonstrates SSP’s advantage for multiple workloads. Compared with TSP,
+                     SSP reduces VM_Exits caused by memory virtualization by 23%-56%. And the virtualization
+                     overhead of SSP is less than 5.5% for all workloads.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3453933.3454013">(No)Compromis: paging virtualization is not a fatality</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Boris Teabe</li>
+               <li class="nameList">Peterson Yuhala</li>
+               <li class="nameList">Alain Tchana</li>
+               <li class="nameList">Fabien Hermenier</li>
+               <li class="nameList">Daniel Hagimont</li>
+               <li class="nameList Last">Gilles Muller</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Nested/Extended Page Table (EPT) is the current hardware solution for virtualizing
+                     memory in virtualized systems. It induces a significant performance overhead due to
+                     the 2D page walk it requires, thus 24 memory accesses on a TLB miss (instead of 4
+                     memory accesses in a native system). This 2D page walk constraint comes from the utilization
+                     of paging for managing virtual machine (VM) memory. This paper shows that paging is
+                     not necessary in the hypervisor. Our solution Compromis, a novel Memory Management
+                     Unit, uses direct segments for VM memory management combined with paging for VM's
+                     processes. This is the first time that a direct segment based solution is shown to
+                     be applicable to the entire VM memory while keeping applications unchanged. Relying
+                     on the 310 studied datacenter traces, the paper shows that it is possible to provision
+                     up to 99.99% of the VMs using a single memory segment. The paper presents a systematic
+                     methodology for implementing Compromis in the hardware, the hypervisor and the datacenter
+                     scheduler. Evaluation results show that Compromis outperforms the two popular memory
+                     virtualization solutions: shadow paging and EPT by up to 30% and 370% respectively.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3453933.3454014">Automatically exploiting the memory hierarchy of GPUs through just-in-time compilation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Michail Papadimitriou</li>
+               <li class="nameList">Juan Fumero</li>
+               <li class="nameList">Athanasios Stratikopoulos</li>
+               <li class="nameList Last">Christos Kotselidis</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Although Graphics Processing Units (GPUs) have become pervasive for data-parallel
+                     workloads, the efficient exploitation of their tiered memory hierarchy requires explicit
+                     programming. The efficient utilization of different GPU memory tiers can yield higher
+                     performance at the expense of programmability since developers must have extended
+                     knowledge of the architectural details in order to utilize them. </p> 
+                  <p>In this paper, we propose an alternative approach based on Just-In-Time (JIT) compilation
+                     to automatically and transparently exploit local memory allocation and data locality
+                     on GPUs. In particular, we present a set of compiler extensions that allow arbitrary
+                     Java programs to utilize local memory on GPUs without explicit programming. We prototype
+                     and evaluate our proposed solution in the context of TornadoVM against a set of benchmarks
+                     and GPU architectures, showcasing performance speedups of up to 2.5<em>x</em> compared to equivalent baseline implementations that do not utilize local memory
+                     or data locality. In addition, we compare our proposed solution against hand-written
+                     optimized OpenCL code to assess the upper bound of performance improvements that can
+                     be transparently achieved by JIT compilation without trading programmability. The
+                     results showcase that the proposed extensions can achieve up to 94% of the performance
+                     of the native code, highlighting the efficiency of the generated code.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3453933.3454015">BTMMU: an efficient and versatile cross-ISA memory virtualization</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Kele Huang</li>
+               <li class="nameList">Fuxin Zhang</li>
+               <li class="nameList">Cun Li</li>
+               <li class="nameList">Gen Niu</li>
+               <li class="nameList">Junrong Wu</li>
+               <li class="nameList Last">Tianyi Liu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Full system dynamic binary translation (DBT) has many important applications, but
+                     it is typically much slower than the native host. One major overhead in full system
+                     DBT comes from cross-ISA memory virtualization, where multi-level memory address translation
+                     is needed to map guest virtual address into host physical address. Like the SoftMMU
+                     used in the popular open-source emulator QEMU, software-based memory virtualization
+                     solutions are not efficient. Meanwhile, mature techniques for same-ISA virtualization
+                     such as shadow page table or second level address translation are not directly applicable
+                     due to cross-ISA difficulties. Some previous studies achieved significant speedup
+                     by utilizing existing hardware (TLB or virtualization hardware) of the host. However,
+                     since the hardware is not designed with cross-ISA in mind, those solutions had some
+                     limitations that were hard to overcome. Most of them only supported guests with smaller
+                     virtual address space than the host. Some supported only guests with the same page
+                     size. And some did not support privileged memory accesses. </p> 
+                  <p>This paper proposes a new solution named BTMMU (Binary Translation Memory Management
+                     Unit). BTMMU composes of a low-cost hardware extension of host MMU, a kernel module
+                     and a patched QEMU version. BTMMU is able to solve most known limitations of previous
+                     hardware-assisted solutions and thus versatile enough for real deployments. Meanwhile,
+                     BTMMU achieves high efficiency by directly accessing guest address space, implementing
+                     shadow page table in kernel module, utilizing dedicated entrance for guest-related
+                     MMU exceptions and various software optimizations. Evaluations on SPEC CINT2006 benchmark
+                     suite and some real-world applications show that BTMMU achieves 1.40x and 1.36x speedup
+                     on IA32-to-MIPS64 and X86_64-to-MIPS64 configurations respectively when comparing
+                     with the base QEMU version. The result is compared to a representative previous work
+                     and shows its advantage.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3453933.3454016">Effective exploitation of SIMD resources in cross-ISA virtualization</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jin Wu</li>
+               <li class="nameList">Jian Dong</li>
+               <li class="nameList">Ruili Fang</li>
+               <li class="nameList">Ziyi Zhao</li>
+               <li class="nameList">Xiaoli Gong</li>
+               <li class="nameList">Wenwen Wang</li>
+               <li class="nameList Last">Decheng Zuo</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>System virtualization is a fundamental technology that enables many important applications.
+                     However, existing virtualization techniques suffer from a critical limitation due
+                     to their limited exploitation of host SIMD hardware resources, especially when a guest
+                     application does not have inherently fine-grained data-level parallelism. To bridge
+                     this utilization gap and unleash the full potential of host SIMD resources, this paper
+                     proposes an effective and unconventional SIMD exploitation technique. The proposed
+                     exploitation takes advantage of ample host SIMD registers and powerful host SIMD instructions
+                     to generate more efficient host binary code for guest applications even without any
+                     fine-grained data-level parallelism. It also mitigates the shortage of general-purpose
+                     registers on the host platform, as well as improves the efficiency of accessing guest
+                     registers. We have implemented the exploitation in an extensively-used virtualization
+                     platform, QEMU. Experimental results on a comprehensive list of benchmarks from PARSEC,
+                     SPEC-CPU2017, and Google Octane JavaScript benchmark suite show that an average of
+                     2.2X performance speedup can be achieved for AArch64 binaries on an x86-64 host machine.
+                     We believe the proposed technique will provide a new perspective for our community
+                     to rethink the exploitation of SIMD hardware resources.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3453933.3454017">Adaptive live migration of virtual machines under limited network bandwidth</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Handong Li</li>
+               <li class="nameList">Guangrong Xiao</li>
+               <li class="nameList">Yulei Zhang</li>
+               <li class="nameList">Ping Gao</li>
+               <li class="nameList">Qiumin Lu</li>
+               <li class="nameList Last">Jianguo Yao</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Live migration is a crucial feature in existing virtualization platforms. Since memory
+                     is dirtied rapidly during the execution of a virtual machine (VM), boosting memory
+                     migration speed becomes a significant factor in guaranteeing a high-level success
+                     ratio and efficiency. However, the statically-configured migration strategy cannot
+                     cope with various workloads running in VMs, resulting in frequently aborted migration
+                     processes and low success ratio. This paper proposed a one-for-all migration architecture
+                     called Adaptive Live Migration (AdaMig) to address these issues. This QEMU-based solution
+                     dynamically switches migration methods and tunes related parameters by monitoring
+                     the run-time statistics from the migration process and the physical host. Once AdaMig
+                     detects the tendency that migration cannot converge, it will switch to another migration
+                     method to synchronize remaining dirty pages. During the whole process, AdaMig also
+                     dynamically tunes migration parameters according to current resources available in
+                     the physical host and migration efficiency. Experimental results reflect that AdaMig
+                     improves the success ratio from 26.7% to 93.3% over various workloads, and migration
+                     time is reduced by up to 45.5% in comparison with the original solution in QEMU.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3453933.3454018">Extending Intel PML for hardware-assisted working set size estimation of VMs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Stella Bitchebe</li>
+               <li class="nameList">Djob Mvondo</li>
+               <li class="nameList">Laurent Réveillère</li>
+               <li class="nameList">Noël de Palma</li>
+               <li class="nameList Last">Alain Tchana</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Intel page modification logging (PML) is a hardware feature introduced in 2015 for
+                     tracking modified memory pages of virtual machines (VMs). Although initially designed
+                     to improve VMs checkpointing and live migration, we present in this paper how we can
+                     take advantage of this virtualization technology to efficiently estimate the working
+                     set size (WSS) of a VM. To this end, we first conduct a study of PML with the Xen
+                     hypervisor to investigate its performance impact on VMs and the accuracy of a WSS
+                     estimation system that relies on the current version of PML. Our three main findings
+                     are as follows. (1) PML reduces by up to 10.18% the time of both VM live migration
+                     and checkpointing. (2) PML slightly reduces the negative impact of live migration
+                     on application performance by up to 0.95%. (3) A WSS estimation system based on the
+                     current version of PML provides inaccurate results. Moreover, our experiments show
+                     that write-intensive applications are negatively impacted, with up to 34.9% of performance
+                     degradation, when using PML to estimate the WSS of a VM that runs these applications.
+                     Based on the aforementioned findings, we introduce page reference logging (PRL), an
+                     extended version of PML that allows both read and write memory accesses to be tracked
+                     without impacting user VMs, thus more suitable for WSS estimation. We propose a WSS
+                     estimation system that leverages PRL and show how it can be used in a data center
+                     exploiting memory overcommitment. We implement PRL and the underlying WSS estimation
+                     system under Gem5, a popular open-source computer architecture simulator. Evaluation
+                     results validate the accuracy of the WSS estimation system and show that PRL does
+                     not incur more performance degradation on user’s VMs.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3453933.3454019">Multiple-tasks on multiple-devices (MTMD): exploiting concurrency in heterogeneous
+                  managed runtimes</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Michail Papadimitriou</li>
+               <li class="nameList">Eleni Markou</li>
+               <li class="nameList">Juan Fumero</li>
+               <li class="nameList">Athanasios Stratikopoulos</li>
+               <li class="nameList">Florin Blanaru</li>
+               <li class="nameList Last">Christos Kotselidis</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Modern commodity devices are nowadays equipped with a plethora of heterogeneous devices
+                     serving different purposes. Being able to exploit such heterogeneous hardware accelerators
+                     to their full potential is of paramount importance in the pursuit of higher performance
+                     and energy efficiency. Towards these objectives, the reduction of idle time of each
+                     device as well as the concurrent program execution across different accelerators can
+                     lead to better scalability within the computing platform. </p> 
+                  <p>In this work, we propose a novel approach for enabling a Java-based heterogeneous
+                     managed runtime to automatically and efficiently deploy multiple tasks on multiple
+                     devices. We extend TornadoVM with parallel execution of bytecode interpreters to dynamically
+                     and concurrently manage and execute arbitrary tasks across multiple OpenCL-compatible
+                     devices. In addition, in order to achieve an efficient device-task allocation, we
+                     employ a machine learning approach with a multiple-classification architecture of
+                     Extra-Trees-Classifiers. Our proposed solution has been evaluated over a suite of
+                     12 applications split into three different groups. Our experimental results showcase
+                     performance improvements up 83% compared to all tasks running on the single best device,
+                     while reaching up to 91% of the oracle performance.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3453933.3454020">Mitigating excessive vCPU spinning in VM-agnostic KVM</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Kenta Ishiguro</li>
+               <li class="nameList">Naoki Yasuno</li>
+               <li class="nameList">Pierre-Louis Aublin</li>
+               <li class="nameList Last">Kenji Kono</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In virtualized environments, oversubscribing virtual CPUs (vCPUs) on physical CPUs
+                     (pCPUs) is common to utilize CPU resources efficiently. Unfortunately, excessive vCPU
+                     spinning, which occurs when a vCPU is waiting in a spin loop for an event from a descheduled
+                     vCPU, causes serious performance degradation. Usually, the VM-agnostic hypervisor
+                     tries to prevent excessive vCPU spinning by rescheduling vCPUs when an excessive spin
+                     is detected by hardware support for virtualization. </p> 
+                  <p> This paper investigates the effectiveness of KVM vCPU scheduler and shows it fails
+                     to avoid excessive vCPU spinning in many opportunities. Our in-depth analysis reveals
+                     simple modifications to KVM (41 LOC) improve the mitigation of excessive vCPU spinning.
+                     We have identified three problems: 1) scheduler mismatch, 2) lost opportunity, and
+                     3) overboost. The first problem comes from the mismatch between the KVM vCPU scheduler
+                     and the Linux scheduler. The second and third problems come from an inefficient algorithm
+                     for choosing the next candidate vCPU to be scheduled. Our simple modifications gracefully
+                     resolves the problems and the performance improves by up to 80 %. Our results imply
+                     the VM-agnostic hypervisor can resolve excessive vCPU spinning more gracefully than
+                     previously believed.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3453933.3454021">Automated bug localization in JIT compilers</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">HeuiChan Lim</li>
+               <li class="nameList Last">Saumya Debray</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Many widely-deployed modern programming systems use just-in-time (JIT) compilers to
+                     improve performance. The size and complexity of JIT-based systems, combined with the
+                     dynamic nature of JIT-compiler optimizations, make it challenging to locate and fix
+                     JIT compiler bugs quickly. At the same time, JIT compiler bugs can result in exploitable
+                     security vulnerabilities, making rapid bug localization important. Existing work on
+                     automated bug localization focuses on static code, i.e., code that is not generated
+                     at runtime, and so cannot handle bugs in JIT compilers that generate incorrect code
+                     during optimization. This paper describes an approach to automated bug localization
+                     in JIT compilers, down to the level of distinct optimization phases, starting with
+                     a single initial Proof-of-Concept (PoC) input that demonstrates the bug. Experiments
+                     using a prototype implementation of our ideas on Google’s V8 JavaScript interpreter
+                     and TurboFan JIT compiler demonstrates that it can successfully identify buggy optimization
+                     phases.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3453933.3454022">Efficient LLVM-based dynamic binary translation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Alexis Engelke</li>
+               <li class="nameList">Dominik Okwieka</li>
+               <li class="nameList Last">Martin Schulz</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Emulation of other or newer processor architectures is necessary for a wide variety
+                     of use cases, from ensuring compatibility to offering a vehicle for computer architecture
+                     research. This problem is usually approached using dynamic binary translation, where
+                     machine code is translated, on the fly, to the host architecture during program execution.
+                     Existing systems, like QEMU, usually focus on translation performance rather than
+                     the overall program execution, and extensions, like HQEMU, are limited by their underlying
+                     implementation. Conversely, performance-focused systems are typically used for binary
+                     instrumentation. E.g., DynamoRIO reuses original instructions where possible, while
+                     Instrew utilizes the LLVM compiler infrastructure, but only supports same-architecture
+                     code generation. </p> 
+                  <p> In this short paper, we generalize Instrew to support different guest and host architectures
+                     by refactoring the lifter and by implementing target-independent optimizations to
+                     re-use host hardware features for emulated code. We demonstrate this flexibility by
+                     adding support for RISC-V as guest architecture and AArch64 as host architecture.
+                     Our performance results on SPEC CPU2017 show significant improvements compared to
+                     QEMU, HQEMU as well as the original Instrew.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3453933.3454023">Analysis of NVMe-SSD to passthrough GPU data transfer in virtualized systems</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Arunkumar Vediappan</li>
+               <li class="nameList Last">Debadatta Mishra</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Non-volatile storage (NVM) technologies provide faster data access compared to traditional
+                     hard disk drives and can benefit applications executing on accelerators like general
+                     purpose graphics processing units (GPGPUs). Many contemporary GPU-friendly applications
+                     process huge volumes of data residing in the secondary storage. Several research work
+                     propose techniques to optimize data transfer overheads between devices connected to
+                     the same bus e.g., peer-to-peer data transfer between NVMe-SSD and GPU connected to
+                     a PCI bus. The applicability of these techniques, extent of their benefit and associated
+                     costs in virtualized systems is the scope of this paper. </p> 
+                  <p> In this paper, we present a comprehensive empirical analysis of different combinations
+                     of NVMe-SSD virtualization techniques and data transfer mechanisms between NVMe-SSDs
+                     and GPUs. Further, the impact of different data transfer parameters and, root-cause
+                     analysis of the resulting performance in terms of data transfer throughput and CPU
+                     utilization for different combinations of techniques is presented. Based on the empirical
+                     analysis, we provide insights to address several bottlenecks related to different
+                     GPU data transfer techniques in different virtualization setups and motivate an alternate
+                     design by extending the VirtIO framework for efficient peer-to-peer data transfer.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" href="https://dl.acm.org/doi/10.1145/3453933.3454024">Spons &amp; Shields: practical isolation for trusted execution</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Vasily A. Sartakov</li>
+               <li class="nameList">Daniel O'Keeffe</li>
+               <li class="nameList">David Eyers</li>
+               <li class="nameList">Lluís Vilanova</li>
+               <li class="nameList Last">Peter Pietzuch</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Trusted execution environments&nbsp;(TEEs) promise a cost-effective, “lift-and-shift” solution
+                     for deploying security-sensitive applications in untrusted clouds. For this, they
+                     must support rich, multi-component applications, but a large trusted computing base&nbsp;(TCB)
+                     inside the TEE risks that attackers can compromise application security. Fine-grained
+                     compartmentalisation can increase security through defense-in-depth, but current solutions
+                     either run all software components unprotected in the same TEE, lack efficient shared
+                     memory support, or isolate application processes using separate TEEs, impacting performance
+                     and compatibility. </p> 
+                  <p>We describe the <em>Spons &amp; Shields framework</em>&nbsp;(SSF) for Intel SGX TEEs, which offers intra-TEE compartmentalisation using two new
+                     abstraction, <em>Spons</em> and <em>Shields</em>. Spons and Shields generalise process, library and user/kernel isolation inside the
+                     TEE while allowing for efficient memory sharing. When users deploy unmodified multi-component
+                     applications in a TEE, SSF dynamically creates Spons (one per POSIX process or library)
+                     and Shields (to enforce a given security policy for memory accesses). Applications
+                     can be hardened with minor code changes, e.g., by using a separate Shield to isolate
+                     an SSL library. SSF uses compiler instrumentation to protect Shield boundaries, exploiting
+                     MPX instructions if available. We evaluate SSF using a complex application service
+                     (NGINX, PHP interpreter and PostgreSQL) and show that its overhead is comparable to
+                     process isolation.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>
