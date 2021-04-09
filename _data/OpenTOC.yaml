@@ -912,6 +912,10 @@
   year: 2020
   title: "Proceedings of the 16th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments"
 -
+  event: VEE
+  year: 2021
+  title: "Proceedings of the 17th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments"
+-
   event: VMIL
   year: 2016
   title: "Proceedings of the 8th International Workshop on Virtual Machines and Intermediate Languages"
