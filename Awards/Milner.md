@@ -99,6 +99,6 @@ originally written).
 
 * [Emery Berger](https://emeryberger.com/), UMass (Chair)
 * [Michelle Strout](http://cgi.cs.arizona.edu/~mstrout/), University of Arizona (PLDI)
-* [Derek Dreyer](https://people.mpi-sws.org/~dreyer/), MPI-SWS (POPL)
+* [Michael Hicks](http://www.cs.umd.edu/~mwh/), University of Maryland (POPL)
 * [Eijiro Sumii](http://www.kb.ecei.tohoku.ac.jp/~sumii/), Tohoku University (ICFP)
 * [Todd Millstein](http://web.cs.ucla.edu/~todd/), UCLA (OOPSLA)
