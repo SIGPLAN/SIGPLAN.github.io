@@ -50,7 +50,7 @@ CARES committee members may also attend other workshops and conferences sponsore
  </tr>
   <tr>
     <td><a href="https://pldi21.sigplan.org/">PLDI 2021</a></td>
-    <td>Kathryn McKinley, Vikram Adve, Peng Wu, Shriram Krishnamurthi, Stephanie Weirich, Xingyu Feng, and Stephen Freund</td>
+    <td>Kathryn McKinley, Vikram Adve, Peng Wu, Shriram Krishnamurthi, Stephanie Weirich, Xinyu Feng, and Stephen Freund</td>
  </tr>
    <tr>
     <td><a href="https://asplos-conference.org/">ASPLOS 2021</a></td>
