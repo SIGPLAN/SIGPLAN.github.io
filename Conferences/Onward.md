@@ -317,7 +317,7 @@ Past Events
     -   Keynote speaker: Jerry Michalski
     -   [http://www.oopsla.org/2002/2n\_onward.html](http://www.oopsla.org/2002/2n_onward.html)
     -   Proceedings:
-        [http://dreamsongs.com/Files/Onward!Proceedings.pdf](http://dreamsongs.com/Files/Onward!Proceedings.pdf)
+        [http://www.sigplan.org/sites/default/files/Onward!Proceedings-2002.pdf](http://www.sigplan.org/sites/default/files/Onward!Proceedings-2002.pdf)
 
 Steering Committee Members
 --------------------------
