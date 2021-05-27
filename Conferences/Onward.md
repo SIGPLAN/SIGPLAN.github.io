@@ -8,6 +8,8 @@ aspect of programming. Welcomed are papers that propose and argue for
 new approaches to the creation of software as well as reflections on
 technology and ideas bearing on programming broadly construed.
 
+[A Table of Contents](./Onward_legacy) for the years 2002–2010.
+
 Onward! 2021
 ------------
 
