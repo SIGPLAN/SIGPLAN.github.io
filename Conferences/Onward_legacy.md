@@ -167,6 +167,44 @@ material from 2002 through 2010.
         -   [Reimagining literate programming](https://doi.org/10.1145/1639950.1640072), James Dean Palmer and Eddie Hillenbrand
         -   [Typestate-oriented programming](https://doi.org/10.1145/1639950.1640073), Jonathan Aldrich, Joshua Sunshine, Darpan Saini, Zachary Sparks
         -   [Gaining insight into programs that analyze programs: by visualizing the analyzed program](https://doi.org/10.1145/1639950.1640074), Agastya Nanda and Mangala Gowri Nanda
-        -   [Monterey Phoenix, or how to make software architecture executable](https://doi.org/10.1145/1639950.1640075), Mikhail Auguston
-  
-
+        -   [Monterey Phoenix, or how to make software architecture executable](https://doi.org/10.1145/1639950.1640075), Mikhail Auguston  
+    -   Films
+        -   [Dolli 2: project presentation](https://doi.org/10.1145/1639950.1640077), Bernd Brügge, Harald Stangl, Maximilian Reiss
+        -   [The puppet and the probe](https://doi.org/10.1145/1639950.1640078), Samvida Nanda, Soumya Ramasubramaniam, Sumana Ramasubramaniam, Agastya Nanda, Mangala Gowri Nanda
+        -   [Software cinema: stories from the lab](https://doi.org/10.1145/1639950.1640079), Martin K. Purvis and Andrew L. S. Long
+        -   [Video-based requirements engineering for pervasive computing applications: an example of preventing water damage](https://doi.org/10.1145/1639950.1640080), Oliver Creighton, Ruth Demmel, Harald Stangl, Asa MacWilliams
+-   Onward! 2010
+    -   General Chair: Siobhán Clarke
+    -   Research Papers Chair: Kevin Sullivan
+    -   Essays Chair: Daniel Steinberg
+    -   Short Papers Chair: Kevin Sullivan
+    -   Films Chair: Bernd Brügge
+    -   Research Papers
+        -   [Registration-based language abstractions](https://doi.org/10.1145/1869459.1869521), Samuel Davis and Gregor Kiczales
+        -   [Pinocchio: bringing reflection to life with first-class interpreters](https://doi.org/10.1145/1869459.1869522), Toon Verwaest, Camillo Bruni, David Gurtner, Adrian Lienhard, Oscar Niestrasz
+        -   [Concurrency by modularity: design patterns, a case in point](https://doi.org/10.1145/1869459.1869523), Hridesh Rajan, Steven M. Kautz, Wayne Rowcliffe
+        -   [Patterns and statistical analysis for understanding reduced resource computing](https://doi.org/10.1145/1869459.1869525), Martin Rinard, Henry Hoffmann, Sasa Misailovic, Stelios Sidiroglou
+        -   [Programming with time: cyber-physical programming with impromptu](https://doi.org/10.1145/1869459.1869526), Andrew Sorensen and Henry Gardner
+        -   [Language virtualization for heterogeneous parallel computing](https://doi.org/10.1145/1869459.1869527), Hassan Chafi, Zach DeVito, Adriaan Moors, Tiark Rompf, Arvind K. Sujeeth, Pat Hanrahan, Martin Odersky, Kunle Olukotun
+        -   [Flexible modeling tools for pre-requirements analysis: conceptual architecture and research challenges](https://doi.org/10.1145/1869459.1869529), Harold Ossher, Rachel Bellamy, Ian Simmonds, David Amid, Ateret Anaby-Tavor, Matthew Callery, Michael Desmond, Jacqueline de Vries, Amit Fisher, Sophia Krasikov
+        -   [To upgrade or not to upgrade: impact of online upgrades across multiple administrative domains](https://doi.org/10.1145/1869459.1869530), Tudor Dumitras, Priya Narasimhan, Eli Tilevich
+        -   [Managing ambiguity in programming by finding unambiguous examples](https://doi.org/10.1145/1869459.1869531), Kenneth C. Arnold and Henry Lieberman
+    -   Essays
+        -   [Better science through art](https://doi.org/10.1145/1869459.1869533), Richard P. Gabriel and Kevin J. Sullivan
+        -   [Rubber ducks, nightmares, and unsaturated predicates: proto-scientific schemata are good for agile](https://doi.org/10.1145/1869459.1869534), Jenny Quillien and Dave West
+        -   [Pure and declarative syntax definition: paradise lost and regained](https://doi.org/10.1145/1869459.1869535) (*Most Notable paper*), Lennart C. L. Kats, Eelco Visser, Guido Wachsmuth
+        -   [Faith, hope, and love: an essay on software science's neglect of human factors](https://doi.org/10.1145/1869459.1869536), Stefan Hanenberg
+        -   [The Tower of Babel did not fail](https://doi.org/10.1145/1869459.1869537), Paul Adamczyk and Munawar Hafiz
+    -   Short Papers
+        -   [Mow happens-before later: static schedule analysis of fine-grained parallelism with explicit happens-before relationships](https://doi.org/10.1145/1869542.1869544), Christoph M. Angerer and Thomas R. Gross
+        -   [Emergent feature modularization](https://doi.org/10.1145/1869542.1869545), Márcio Ribeiro, Humberto Pacheco, Leopoldo Teixeira, Paulo Borba
+        -   [Harnessing emergence for manycore programming: early experience integrating ensembles, adverbs, and object-based inheritance](https://doi.org/10.1145/1869542.1869546), David Ungar and Sam S. Adams
+        -   [Collaborative model merging](https://doi.org/10.1145/1869542.1869547), Maximilian Koegel, Helmut Naughton, Jonas Helming, Markus Herrmannsdoerfer
+        -   [Sonifying performance data to facilitate tuning of complex systems: performance tuning: music to my ears](https://dl.acm.org/doi/pdf/10.1145/1869542.1869548), Cody Henthorne and Eli Tilevich
+        -   [A recommender for conflict resolution support in optimistic model versioning](https://doi.org/10.1145/1869542.1869549), Petra Brosch, Martina Seidl, Gerti Kappel
+        -   [Inferring arbitrary distributions for data and computation](https://doi.org/10.1145/1869542.1869550), Soham Sundar Chakraborty and V. Krishna Nandivada
+        -   [Ficticious: MicroLanguages for interactive fiction](https://doi.org/10.1145/1869542.1869551), James Dean Palmer
+    -   Films
+        -   [Physics as freedom](https://doi.org/10.1145/1869542.1869553), Seung Chan Lim
+        -   [Gource: visualizing software version control history](https://doi.org/10.1145/1869542.1869554), Andrew H. Caudwell
+        -   [Pinocchio: a virtual symphony orchestra game](https://doi.org/10.1145/1869542.1869555), Ruth Demmel
