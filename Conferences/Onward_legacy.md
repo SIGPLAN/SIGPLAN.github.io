@@ -13,7 +13,8 @@ events. Almost all of them are in the ACM Digital Library somewhere, but trackin
 ones from 2002 through 2010 can be daunting. This page is a Table of Contents for all the Onward! 
 material from 2002 through 2010. The most recent updates of Onward! can be found [here](./Onward).
 
-- Onward! 2002
+Onward! 2002
+------------
     -   General Chair & Founder: Richard P. Gabriel
     -   In this founding year the papers were published as a group outside ACM.
     -   Full Proceedings: [http://www.sigplan.org/sites/default/files/Onward!Proceedings-2002.pdf](http://www.sigplan.org/sites/default/files/Onward!Proceedings-2002.pdf)
@@ -23,7 +24,9 @@ material from 2002 through 2010. The most recent updates of Onward! can be found
         -   [Principles of Lean Thinking](http://www.sigplan.org/sites/default/files/Onward!Proceedings-2002.pdf#page=73), pp 73–78, Mary Poppendieck
         -   [Many-to-Many Invocation: A New Object Oriented Paradigm for Ad Hoc Collaborative Systems](http://www.sigplan.org/sites/default/files/Onward!Proceedings-2002.pdf#page=81), pp 81-109, Alan Kaminsky and Hans-Peter Bischof
         -   [Challenging Encapsulation in the Design of High-Risk Control Systems](http://www.sigplan.org/sites/default/files/Onward!Proceedings-2002.pdf#page=111), pp 111-118, Daniel Dvorak
-- Onward! 2003
+
+Onward! 2003
+------------
     -   General Chair: Richard P. Gabriel
     -   In 2003 all papers were in the OOPSLA Companion.
     -   Full Proceedings: [https://dl.acm.org/doi/10.1145/3253168](https://dl.acm.org/doi/10.1145/3253168)
@@ -31,7 +34,9 @@ material from 2002 through 2010. The most recent updates of Onward! can be found
         -   [Routine run-time code generation](https://doi.org/10.1145/949344.949401), Sam Kamin
         -   [Acceptability-oriented computing](https://doi.org/10.1145/949344.949402) (*Most Notable Paper*), Martin Rinard
         -   [No name: just notes on software reuse](https://doi.org/10.1145/949344.949403), Robert Biddle, Angela Martine, James Noble
-- Onward! 2004
+
+Onward! 2004
+------------
     -   General Chair: Geoff A. Cohen
     -   Full Proceedings: [https://dl.acm.org/doi/10.1145/3248493](https://dl.acm.org/doi/10.1145/3248493)
         -   [Notes on notes on postmodern programming: radio edit](https://doi.org/10.1145/1028664.1028710), James Noble and Robert Biddle
@@ -42,7 +47,9 @@ material from 2002 through 2010. The most recent updates of Onward! can be found
         -   [Looking for love: (in all the wrong places)](https://doi.org/10.1145/1028664.1028715), David West
         -   [Granule-oriented programming](https://doi.org/10.1145/1028664.1028716), Yinliang Zhao
         -   [Finding bugs is easy](https://doi.org/10.1145/1028664.1028717), David Hovemeyer and William Pugh
--  Onward! 2005
+
+Onward! 2005
+------------
     -   General Chairs: James Noble and Elisa Baniassad
     -   Essays Chair: Brian Marick
     -   Presentations Chairs: James Noble and Elisa Baniassad
@@ -69,7 +76,9 @@ material from 2002 through 2010. The most recent updates of Onward! can be found
         -   [The crisis in systems code maintenance: sourceforge, we have a problem](https://doi.org/10.1145/1094855.1094875) ([Video](https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F1094855.1094875&file=p75-dunn-krahn_768k.mp4&download=true)), Rebeca Dunn-Krahn, Jessica Maple, Yvonne Coady
     -   Breakthrough ideas
         -   [Breakthrough Ideas](https://doi.org/10.1145/1094855.1094863), James O. Coplien, Brian Foote, Richard P. Gabriel, Dave A Thomas, Cristina Lopes, Brian Marick, Bonnie Nardi, Rob Tow, Andrew Hunt, Glenn Vanderburg 
--   Onward! 2006
+
+Onward! 2006
+------------
     -   General Chair: Robert Biddle
     -   Essays Chair: Richard P. Gabriel
     -   In 2006 some papers were in the OOPSLA Proceedings and some in the OOPSLA Companion.
@@ -88,7 +97,9 @@ material from 2002 through 2010. The most recent updates of Onward! can be found
     -   Essays
         -   [On system design](https://doi.org/10.1145/1167473.1167513), Jim Waldo
         -   [The paradoxical success of aspect-oriented programming](https://doi.org/10.1145/1167473.1167514) (*Most Notable Paper*), Friedrich Steimann
--   Onward! 2007
+
+Onward! 2007
+------------
     -   General Chair: Cristina Videira Lopes
     -   Essays Chair: Guy L. Steele Jr.
     -   Films Chair: Cristina Videira Lopes
@@ -105,7 +116,9 @@ material from 2002 through 2010. The most recent updates of Onward! can be found
         -   [PowerPoint and complexity](https://doi.org/10.1145/1297846.1297858), Michael A. Richmond
         -   [The elephant in the room: who will take care of the code?](https://doi.org/10.1145/1297846.1297859), Rebeca Roe Dunn-Krahn and Yvonne Coady
         -   [X3D web software visualization in action!](https://doi.org/10.1145/1297846.1297860), Craig Anslow, James Noble, Stuart Marshall, Robert Biddle
--   Onward! 2008
+
+Onward! 2008
+------------
     -   General Chair: Dirk Riehle
     -   Essays Chair: Andrew P. Black
     -   Short Papers Chair: Dirk Riehle
@@ -124,7 +137,9 @@ material from 2002 through 2010. The most recent updates of Onward! can be found
     -   Films
         - [An experiment in teaching innovation in software engineering: video presentation](https://doi.org/10.1145/1449814.1449868), Bernd Brügge, Harald Stangl, Maximilian Reiss
         - [xDIVA: a debugging visualization system with composable visualization metaphors](https://doi.org/10.1145/1449814.1449869), Yung-Pin Cheng, Jih-Feng Chen, Ming-Chieh Chiu, Nien-Wei Lai, Chien-Chih Tseng
--   Onward! 2009
+
+Onward! 2009
+------------
     -   General Chair: Bernd Brügge
     -   Research Papers Chair: Yvonne Coady
     -   Essays Chair: Simon Peyton-Jones
@@ -173,7 +188,9 @@ material from 2002 through 2010. The most recent updates of Onward! can be found
         -   [The puppet and the probe](https://doi.org/10.1145/1639950.1640078), Samvida Nanda, Soumya Ramasubramaniam, Sumana Ramasubramaniam, Agastya Nanda, Mangala Gowri Nanda
         -   [Software cinema: stories from the lab](https://doi.org/10.1145/1639950.1640079), Martin K. Purvis and Andrew L. S. Long
         -   [Video-based requirements engineering for pervasive computing applications: an example of preventing water damage](https://doi.org/10.1145/1639950.1640080), Oliver Creighton, Ruth Demmel, Harald Stangl, Asa MacWilliams
--   Onward! 2010
+
+Onward! 2010
+------------
     -   General Chair: Siobhán Clarke
     -   Research Papers Chair: Kevin Sullivan
     -   Essays Chair: Daniel Steinberg
