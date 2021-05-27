@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Onward!—the Early Years"
+title: "Onward!—the Early Years (A Table of Contents for the years 2002–2010)"
 ---
 Onward! was founded in 2002 as a “track” at OOPSLA. In 2003 and 2004 the proceedings were published 
 in the OOPSLA Companion. In 2005 SIGPLAN agreed to publish Onward! papers and Essays in the OOPSLA 
