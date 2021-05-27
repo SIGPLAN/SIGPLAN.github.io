@@ -12,3 +12,8 @@ Over time, Onward! has had films, short papers, presentations, and other one-off
 events. Almost all of them are in the ACM Digital Library somewhere, but tracking down the 
 ones from 2002 through 2010 can be daunting. This page is a Table of Contents for all the Onward! 
 material from 2002 through 2010.
+
+- Onward! 2002
+    -   General Chair & Founder: Richard P. Gabriel
+    -   Full Proceedings: [http://www.sigplan.org/sites/default/files/Onward!Proceedings-2002.pdf](http://www.sigplan.org/sites/default/files/Onward!Proceedings-2002.pdf)
+        -   [A Vision of Autonomic Computing](https://dreamsongs.com/Files/Onward!Proceedings.pdf#page=13), (pp 13–36), Jeffrey O. Kephart
