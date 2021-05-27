@@ -16,4 +16,10 @@ material from 2002 through 2010.
 - Onward! 2002
     -   General Chair & Founder: Richard P. Gabriel
     -   Full Proceedings: [http://www.sigplan.org/sites/default/files/Onward!Proceedings-2002.pdf](http://www.sigplan.org/sites/default/files/Onward!Proceedings-2002.pdf)
-        -   [A Vision of Autonomic Computing](https://dreamsongs.com/Files/Onward!Proceedings.pdf#page=13), (pp 13–36), Jeffrey O. Kephart
+        -   [A Vision of Autonomic Computing](http://www.sigplan.org/sites/default/files/Onward!Proceedings-2002.pdf#page=13), pp 13–36, Jeffrey O. Kephart
+        -   [Magic](http://www.sigplan.org/sites/default/files/Onward!Proceedings-2002.pdf#page=37), pp 37-47, David West
+        -   [Notes on Postmodern Programming](http://www.sigplan.org/sites/default/files/Onward!Proceedings-2002.pdf#page=49) (*Most Notable Paper*), pp 49–71, James Noble and Robert Biddle
+        -   [Principles of Lean Thinking](http://www.sigplan.org/sites/default/files/Onward!Proceedings-2002.pdf#page=73), pp 73–78, Mary Poppendieck
+        -   [Many-to-Many Invocation: A New Object Oriented Paradigm for Ad Hoc Collaborative Systems](http://www.sigplan.org/sites/default/files/Onward!Proceedings-2002.pdf#page=81), pp 81-109, Alan Kaminsky and Hans-Peter Bischof
+        -   [Challenging Encapsulation in the Design of High-Risk Control Systems](http://www.sigplan.org/sites/default/files/Onward!Proceedings-2002.pdf#page=111), pp 111-118, Daniel Dvorak
+
