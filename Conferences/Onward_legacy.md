@@ -22,4 +22,12 @@ material from 2002 through 2010.
         -   [Principles of Lean Thinking](http://www.sigplan.org/sites/default/files/Onward!Proceedings-2002.pdf#page=73), pp 73–78, Mary Poppendieck
         -   [Many-to-Many Invocation: A New Object Oriented Paradigm for Ad Hoc Collaborative Systems](http://www.sigplan.org/sites/default/files/Onward!Proceedings-2002.pdf#page=81), pp 81-109, Alan Kaminsky and Hans-Peter Bischof
         -   [Challenging Encapsulation in the Design of High-Risk Control Systems](http://www.sigplan.org/sites/default/files/Onward!Proceedings-2002.pdf#page=111), pp 111-118, Daniel Dvorak
+- Onward! 2003
+    -   General Chair: Richard P. Gabriel
+    -   Full Proceedings: [https://dl.acm.org/doi/10.1145/3253168](https://dl.acm.org/doi/10.1145/3253168)
+        -   [Beyond AOP: toward naturalistic programming](https://dl.acm.org/doi/abs/10.1145/949344.949400), Cristina Videira Lopes, Paul Dourish, David H. Lorenz, Karl J. Lieberherr
+        -   [Routine run-time code generation](https://doi.org/10.1145/949344.949401), Sam Kamin
+        -   [Acceptability-oriented computing](https://doi.org/10.1145/949344.949402) (*Most Notable Paper*), Martin Rinard
+        -   [No name: just notes on software reuse](https://doi.org/10.1145/949344.949403), Robert Biddle, Angela Martine, James Noble
+- Onward! 2004
 
