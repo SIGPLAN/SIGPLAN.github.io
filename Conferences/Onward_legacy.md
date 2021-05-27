@@ -69,5 +69,104 @@ material from 2002 through 2010.
         -   [The crisis in systems code maintenance: sourceforge, we have a problem](https://doi.org/10.1145/1094855.1094875) ([Video](https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F1094855.1094875&file=p75-dunn-krahn_768k.mp4&download=true)), Rebeca Dunn-Krahn, Jessica Maple, Yvonne Coady
     -   Breakthrough ideas
         -   [Breakthrough Ideas](https://doi.org/10.1145/1094855.1094863), James O. Coplien, Brian Foote, Richard P. Gabriel, Dave A Thomas, Cristina Lopes, Brian Marick, Bonnie Nardi, Rob Tow, Andrew Hunt, Glenn Vanderburg 
-
+-   Onward! 2006
+    -   General Chair: Robert Biddle
+    -   Essays Chair: Richard P. Gabriel
+    -   In 2006 some papers were in the OOPSLA Proceedings and some in the OOPSLA Companion.
+    -   Proceedings Papers
+        -   [Conscientious software](https://doi.org/10.1145/1167473.1167510), Richard P. Gabriel and Ron Goldman
+        -   [Intentional software](https://doi.org/10.1145/1167473.1167511), Charles Simonyi, Magnus Christerson, Shane Clifford
+    -   Companion Papers
+        -   [The geography of programming](https://doi.org/10.1145/1176617.1176625), Elisa Baniassad and Sebastian Fleissner
+        -   [Applying a UML-based agent modeling language to the autonomic computing domain](https://doi.org/10.1145/1176617.1176626), Ivan Trencansky, Radovan Cervenka, Dominic Greenwood
+        -   [Keeping track of crosscutting requirements in UML models via context-based constraints](https://doi.org/10.1145/1176617.1176627), Felix Bübl
+        -   [Pegasus: first steps toward a naturalistic programming language](https://doi.org/10.1145/1176617.1176628), Roman Knöll and Mira Mezini
+        -   [A commensalistic software system](https://doi.org/10.1145/1176617.1176629), Sebastian Fleissner and Elisa Baniassad
+        -   [Collaborative diffusion: programming antiobjects](https://doi.org/10.1145/1176617.1176630), Alexander Repenning
+        -   [JDA: a step towards large-scale reuse on the web](https://doi.org/10.1145/1176617.1176631), Seung Chan Lim [Slim] and Peter Lucas
+        -   [Model-based DSL frameworks](https://doi.org/10.1145/1176617.1176632), Ivan Kurtev, Jean Paul Bézivin, Frédéric Jouault, Patrick Valduriez
+    -   Essays
+        -   [On system design](https://doi.org/10.1145/1167473.1167513), Jim Waldo
+        -   [The paradoxical success of aspect-oriented programming](https://doi.org/10.1145/1167473.1167514) (*Most Notable Paper*), Friedrich Steimann
+-   Onward! 2007
+    -   General Chair: Cristina Videira Lopes
+    -   Essays Chair: Guy L. Steele Jr.
+    -   Films Chair: Cristina Videira Lopes
+    -   Papers
+        -   [Living in the comfort zone](https://doi.org/10.1145/1297027.1297072), Martin Rinard
+        -   [Living it up with a live programming language](https://doi.org/10.1145/1297027.1297073) (*Most Notable Paper*), Sean McDirmid
+        -   [No ifs, ands, or buts: uncovering the simplicity of conditionals](https://doi.org/10.1145/1297027.1297075), Jonathan Edwards
+        -   [Epi-aspects: aspect-oriented conscientious software](https://doi.org/10.1145/1297027.1297076), Sebastian Fleissner and Elisa L. A. Baniassad
+    -   Essays
+        -   [Confessions of a used programming language salesman](https://doi.org/10.1145/1297027.1297078), Erik Meijer
+        -   [The transactional memory / garbage collection analogy](https://doi.org/10.1145/1297027.1297080), Dan Grossman
+    -   Films
+        -   [From 0 to 1,169,600 in 3 minutes: nine months of testing by the DevCreek team](https://doi.org/10.1145/1297846.1297857), David G. Jones
+        -   [PowerPoint and complexity](https://doi.org/10.1145/1297846.1297858), Michael A. Richmond
+        -   [The elephant in the room: who will take care of the code?](https://doi.org/10.1145/1297846.1297859), Rebeca Roe Dunn-Krahn and Yvonne Coady
+        -   [X3D web software visualization in action!](https://doi.org/10.1145/1297846.1297860), Craig Anslow, James Noble, Stuart Marshall, Robert Biddle
+-   Onward! 2008
+    -   General Chair: Dirk Riehle
+    -   Essays Chair: Andrew P. Black
+    -   Short Papers Chair: Dirk Riehle
+    -   Films Chair: Dirk Riehle
+    -   Research Papers
+        -   [A tag-based approach for the design and composition of information processing applications](https://doi.org/10.1145/1449764.1449810), Eric Bouillet, Mark Feblowitz, Zhen Liu, Anand Ranganathan, Anton Riabov
+        -   [Towards adaptive programming: integrating reinforcement learning into a programming language](https://doi.org/10.1145/1449764.1449811), Christopher Simpkins, Sooraj Bhat, Charles Isbell, Michael Mateas
+    -   Essays
+        -   [Designed as designer](https://doi.org/10.1145/1449764.1449813) ([Expanded Paper](https://dreamsongs.com/Files/DesignedAsDesignerExpanded.pdf), *Most Notable Paper*), Richard P. Gabriel 
+    -   Short Papers
+        -   [Accessing the deep web: when good ideas go bad](https://doi.org/10.1145/1449814.1449871), Alfredo Alba, Varun Bhagwan, Tyrone Grandison
+        -   [Towards harmony-oriented programming](https://doi.org/10.1145/1449814.1449872), Sebastian Fleissner and Elisa Baniassad
+        -   [Essential programming paradigm](https://doi.org/10.1145/1449814.1449873), Claude Y. Knaus
+        -   [Jidoka in software development](https://doi.org/10.1145/1449814.1449874), Emanuele Danovaro, Andrea Janes, Giancarlo Succi
+        -   [A framework for complex time structures based on coupled lists](https://doi.org/10.1145/1449814.1449875), Wijnand Schepens
+    -   Films
+        - [An experiment in teaching innovation in software engineering: video presentation](https://doi.org/10.1145/1449814.1449868), Bernd Brügge, Harald Stangl, Maximilian Reiss
+        - [xDIVA: a debugging visualization system with composable visualization metaphors](https://doi.org/10.1145/1449814.1449869), Yung-Pin Cheng, Jih-Feng Chen, Ming-Chieh Chiu, Nien-Wei Lai, Chien-Chih Tseng
+-   Onward! 2009
+    -   General Chair: Bernd Brügge
+    -   Research Papers Chair: Yvonne Coady
+    -   Essays Chair: Simon Peyton-Jones
+    -   Essays Assistant Chair: Richard P. Gabriel
+    -   Innovation in Progress Papers Chair: Yvonne Coady
+    -   Short Papers Chair: Yvonne Coady
+    -   Films Chair: Martin Purvis      
+    -   Research Papers
+        -   [Design pattern density defined](https://doi.org/10.1145/1640089.1640125), Dirk Riehle
+        -   [Writing code for other people: cognitive psychology and the fundamentals of good software design principles](https://doi.org/10.1145/1640089.1640126), Thomas Mullen
+        -   [Regrowing a language: refactoring tools allow programming languages to evolve](https://doi.org/10.1145/1640089.1640127), Jeffrey L. Overbey and Ralph E. Johnson
+        -   [π: a pattern language](https://doi.org/10.1145/1640089.1640128), Roman Knöll and Mira Mezini
+    -   Essays
+        -   [Software evolution and the moving picture metaphor](https://doi.org/10.1145/1640089.1640130), Mark Mahoney
+        -   [Agile anthropology and Alexander's architecture: an essay in three voices](https://doi.org/10.1145/1640089.1640131), Jenny Quillien, Pam Rostal, Dave West
+        -   [An exploration of program as language](https://doi.org/10.1145/1640089.1640132), Elisa Baniassad and Clayton Myers
+        -   [On understanding data abstraction, revisited](https://doi.org/10.1145/1640089.1640133) (*Most Notable Paper*), William R. Cook
+    -   Innovation in Progress Papers
+        -   [The commenting practice of open source](https://doi.org/10.1145/1639950.1640047), Oliver Arafat and Dirk Riehle
+        -   [Polymorphic system architecture summary](https://doi.org/10.1145/1639950.1640048), Jeffery E. Bryson
+        -   [How does project managers' personality matter?: building the linkage between project managers' personality and the success of software development projects](https://doi.org/10.1145/1639950.1640049), Yi Wang and Fan Li
+        -   [Modern meeting management and information retrieval: automatic protocol generation and meeting work](https://doi.org/10.1145/1639950.1640050), Jennifer Schiller
+        -   [The mythical matched modules: overcoming the tyranny of inflexible software construction](https://doi.org/10.1145/1639950.1640051), Stephen Kell
+        -   [To pull or not to pull](https://doi.org/10.1145/1639950.1640052), Andrea Janes and Giancarlo Succi
+        -   [What is wrong with the software development?: research trends and a new software engineering paradigm](https://doi.org/10.1145/1639950.1640053), Francielle S. Santos and Hermano P. Moura
+        -   [Challenges for agile development of large systems in the aviation industry](https://doi.org/10.1145/1639950.1640054), Martin Glas and Sven Ziemer
+    -   Short Papers
+        -   [Traditional assignment considered harmful](https://doi.org/10.1145/1639950.1640056), Scott M. Pike, Wayne D. Heym, Bruce Adcock, Derek Bronish, Jason Kirschenbaum, Bruce W. Weide
+        -   [Silhouette: visual language for meaningful shape](https://doi.org/10.1145/1639950.1640057), Clayton Myers and Elisa Baniassad
+        -   [Coherent reaction](https://doi.org/10.1145/1639950.1640058), Jonathan Edwards
+        -   [Concurrency by default: using permissions to express dataflow in stateful programs](https://doi.org/10.1145/1639950.1640060), Sven Stork, Paulo Marques, Jonathan Aldrich
+        -   [Modelling software processes: a focus on objectives](https://doi.org/10.1145/1639950.1640061), Diana C. Kirk, Stephen G. MacDonell, Ewan Tempero
+        -   [Language factories](https://doi.org/10.1145/1639950.1640062), Tony Clark and Laurence Tratt
+        -   [Provenance: a future history](https://doi.org/10.1145/1639950.1640064), James Cheney, Stephen Chong, Nate Foster, Margo Seltzer, Stijn Vansummeren
+        -   [Towards automation of iteration planning](https://doi.org/10.1145/1639950.1640065), Jonas Helming, Maximilian Koegel, Zardosht Hodaie
+        -   [A market-based approach to software evolution](https://doi.org/10.1145/1639950.1640066), David F. Bacon, Yiling Chen, David Parkes, Malvika Rao
+        -   [When users become collaborators: towards continuous and context-aware user input](https://doi.org/10.1145/1639950.1640068), Walid Maalej, Hans-Jörg Happel, Asarnusch Rashid
+        -   [Harmony-oriented programming and software evolution](https://doi.org/10.1145/1639950.1640069), Sebastian Fleissner and Elisa Baniassad
+        -   [Agile specifications](https://doi.org/10.1145/1639950.1640070), Derek Rayside, Aleksandar Milicevic, Kuat Yessenov, Greg Dennis, Daniel Jackson
+        -   [Reimagining literate programming](https://doi.org/10.1145/1639950.1640072), James Dean Palmer and Eddie Hillenbrand
+        -   [Typestate-oriented programming](https://doi.org/10.1145/1639950.1640073), Jonathan Aldrich, Joshua Sunshine, Darpan Saini, Zachary Sparks
+        -   [Gaining insight into programs that analyze programs: by visualizing the analyzed program](https://doi.org/10.1145/1639950.1640074), Agastya Nanda and Mangala Gowri Nanda
+        -   [Monterey Phoenix, or how to make software architecture executable](https://doi.org/10.1145/1639950.1640075), Mikhail Auguston
+  
 
