@@ -274,7 +274,7 @@ Past Events
     -   Co-located with OOPSLA 2008
     -   PC chair: Dirk Riehle
     -   Keynote speaker: Sonali Shah
-    -   [http://www.oopsla.org/oopsla2008/program-overview/onward-papers.html](http://www.oopsla.org/oopsla2008/program-overview/onward-papers.html)
+    -   [https://dl.acm.org/doi/proceedings/10.1145/1449814](https://dl.acm.org/doi/proceedings/10.1145/1449814)
 
 -   Onward! 2007
     -   Montréal, Quebec, Canada, October 23-25, 2007
