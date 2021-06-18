@@ -59,6 +59,14 @@
   year: 2019
   title: "Proceedings of the 6th ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming"
 -
+  event: ARRAY
+  year: 2020
+  title: "Proceedings of the 7th ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming"
+-
+  event: ARRAY
+  year: 2021
+  title: "Proceedings of the 8th ACM SIGPLAN International Workshop on Libraries, Languages, and Compilers for Array Programming"
+-
   event: BID
   year: 2020
   title: "Proceedings of the 1st Workshop on Benchmarking in the Datacenter"
@@ -398,6 +406,10 @@
   year: 2020
   title: "Proceedings of the 2020 ACM SIGPLAN International Symposium on Memory Management"
 -
+  event: ISMM
+  year: 2021
+  title: "Proceedings of the 2021 ACM SIGPLAN International Symposium on Memory Management"
+-
   event: ITSLE
   year: 2016
   title: "Proceedings of the 1st Industry Track on Software Language Engineering"
@@ -429,6 +441,10 @@
   event: LCTES
   year: 2020
   title: "Proceedings of the 21st ACM SIGPLAN/SIGBED Conference on Languages, Compilers, Tools, and Theory for Embedded Systems"
+-
+  event: LCTES
+  year: 2021
+  title: "Proceedings of the 22nd ACM SIGPLAN/SIGBED Conference on Languages, Compilers, Tools, and Theory for Embedded Systems"
 -
   event: MAPL
   year: 2017
@@ -612,6 +628,10 @@
   event: PLDI
   year: 2020
   title: "Proceedings of the 41st ACM SIGPLAN Conference on Programming Language Design and Implementation"
+-
+  event: PLDI
+  year: 2021
+  title: "Proceedings of the 42nd ACM SIGPLAN Conference on Programming Language Design and Implementation"
 -
   event: PLPV
   year: 2014
@@ -819,6 +839,10 @@
   event: SOAP
   year: 2020
   title: "Proceedings of the 9th ACM SIGPLAN International Workshop on State Of the Art in Program Analysis"
+-
+  event: SOAP
+  year: 2021
+  title: "Proceedings of the 10th ACM SIGPLAN International Workshop on State Of the Art in Program Analysis"
 -
   event: SPLASH
   year: 2014
