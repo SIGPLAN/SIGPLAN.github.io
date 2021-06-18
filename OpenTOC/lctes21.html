@@ -1,0 +1,570 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>LCTES 2021: Proceedings of the 22nd ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>LCTES 2021: Proceedings of the 22nd ACM SIGPLAN/SIGBED International Conference on Languages,
+               Compilers, and Tools for Embedded Systems</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3461648"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3461648.3463842">Robust I/O-compute concurrency for machine learning pipelines in constrained cyber-physical
+                  devices</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jayaraj Poroor</li>
+               <li class="nameList">Akash Lal</li>
+               <li class="nameList Last">Sandesh Ghanta</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Cyberphysical systems have numerous industrial and commercial applications. Such systems
+                     are often built using low-resource devices that gather and process data, using machine-learning
+                     (ML) models, to make intelligent decisions and provide value to users. Programming
+                     such low-resource devices with an impoverished system runtime is often challenging.
+                     </p> 
+                  <p> This paper presents a new domain-specific language called PiCon for programming ML
+                     pipelines in low-resource devices. PiCon allows safe I/O-compute concurrency, ruling
+                     out a large class of errors, while providing a simple and sequential coding abstraction
+                     to the programmer. PiCon compiles to C code and easily interfaces with existing C/C++
+                     code. Furthermore, the generated code does not rely on multi-threading support or
+                     dynamic memory allocation, dramatically reducing its footprint on the device. We present
+                     experience porting two real-world ML applications that demonstrate simplification
+                     in programmability, in addition to several safe-by-construction guarantees.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3461648.3463843">Better atomic writes by exposing the flash out-of-band area to file systems</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Hongwei Qin</li>
+               <li class="nameList">Dan Feng</li>
+               <li class="nameList">Wei Tong</li>
+               <li class="nameList">Yutong Zhao</li>
+               <li class="nameList">Sheng Qiu</li>
+               <li class="nameList">Fei Liu</li>
+               <li class="nameList Last">Shu Li</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>File systems for mobile devices usually preserve data consistency by ordered I/Os.
+                     However, maintaining I/O ordering prevents applications from fully exploiting device
+                     parallelism and thus degrades the storage performance. In this paper, we propose NBStack
+                     to eliminate ordered I/Os without compromising data consistency. First, we augment
+                     the existing block interface to expose the Flash out-of-band area to file systems.
+                     Second, we build an enhanced block device prototype that supports the new interface.
+                     Third, we develop NBFS, a Linux file system, that leverages the new block interface
+                     to achieve atomic writes without enforcing I/O orderings. Experimental results show
+                     that NBStack doubles the performance of F2FS while providing strong consistency and
+                     durability guarantees. If applications are willing to trade-off durability, NBStack
+                     can further aggressively improve performance.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3461648.3463844">MaPHeA: a lightweight memory hierarchy-aware profile-guided heap allocation framework</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Deok-Jae Oh</li>
+               <li class="nameList">Yaebin Moon</li>
+               <li class="nameList">Eojin Lee</li>
+               <li class="nameList">Tae Jun Ham</li>
+               <li class="nameList">Yongjun Park</li>
+               <li class="nameList">Jae W. Lee</li>
+               <li class="nameList Last">Jung Ho Ahn</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Hardware performance monitoring units (PMUs) are a standard feature in modern microprocessors
+                     for high-performance computing (HPC) and embedded systems, by providing a rich set
+                     of microarchitectural event samplers. Recently, many profile-guided optimization (PGO)
+                     frameworks have exploited them to feature much lower profiling overhead than conventional
+                     instrumentation-based frameworks. However, existing PGO frameworks mostly focus on
+                     optimizing the layout of binaries and do not utilize rich information provided by
+                     the PMU about data access behaviors over the memory hierarchy. Thus, we propose MaPHeA,
+                     a lightweight Memory hierarchy-aware Profile-guided Heap Allocation framework applicable
+                     to both HPC and embedded systems. MaPHeA improves application performance by guiding
+                     and applying the optimized allocation of dynamically allocated heap objects with very
+                     low profiling overhead and without additional user intervention. To demonstrate the
+                     effectiveness of MaPHeA, we apply it to optimizing heap object allocation in an emerging
+                     DRAM-NVM heterogeneous memory system (HMS), and to selective huge-page utilization.
+                     In an HMS, by identifying and placing frequently accessed heap objects to the fast
+                     DRAM region, MaPHeA improves the performance of memory-intensive graph-processing
+                     and Redis workloads by 56.0% on average over the default configuration that uses DRAM
+                     as a hardware-managed cache of slow NVM. Also, by identifying large heap objects that
+                     cause frequent TLB misses and allocating them to huge pages, MaPHeA increases the
+                     performance of read and update operations of Redis by 10.6% over the transparent huge-page
+                     implementation of Linux.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3461648.3463845">Automatic mapping and code optimization for OpenCL kernels on FT-matrix architecture
+                  (WIP paper)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Xiaolei Zhao</li>
+               <li class="nameList">Mei Wen</li>
+               <li class="nameList">Zhaoyun Chen</li>
+               <li class="nameList">Yang Shi</li>
+               <li class="nameList Last">Chunyuan Zhang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>FT-Matrix is a typical vector-SIMD architecture that refines the cooperation between
+                     scalar and vector units. This approach is widely used in digital signal processing,
+                     high-performance computing, and artificial intelligence, among other fields. FT-Matrix
+                     currently adopts C vector extension as the main programming model, improving the utilization
+                     efficiency of SIMD by providing explicit vector extension API. Moreover, it is difficult
+                     to efficiently transplant parallel programs (OpenCL, CUDA) adopted by users. This
+                     paper proposes an automatic mapping and code optimization method for OpenCL kernels
+                     on FT-Matrix architecture. The proposed approach solves these challenges by means
+                     of work item coalescing, slicing and rotation, and instruction-level code optimization.
+                     Preliminary results show that our method can achieve high performance and good hardware
+                     utilization for OpenCL kernels, as well as decreasing the programming difficulty on
+                     FT-Matrix.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3461648.3463846">CHaNAS: coordinated search for network architecture and scheduling policy</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Weiwei Chen</li>
+               <li class="nameList">Ying Wang</li>
+               <li class="nameList">Gangliang Lin</li>
+               <li class="nameList">Chengsi Gao</li>
+               <li class="nameList">Cheng Liu</li>
+               <li class="nameList Last">Lei Zhang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Automatically design an efficient DNN solution for a given deep learning task on the
+                     target hardware mainly decided by the neural network architecture and the schedule
+                     mapping strategy, where the two goals are closely coupled with each other to fully
+                     exploit the advantages of the underlying hardware. Prior hardware-aware Neural Architecture
+                     Search (NAS) methods mostly ignore the impacts of different scheduling policies (e.g.,
+                     graph-level optimization, loop transformations, parallelization, etc.) on network
+                     candidates being evaluated in the search process. Thus, they may miss the true-optimal
+                     architecture that can only be discovered by trying-out different scheduling policies.
+                     This work proposes a NAS framework (CHaNAS) that searches for not only the network
+                     architecture but also the dedicated scheduling policy, as the optimal co-design solution
+                     on target hardware that fully exploits the advantages of the underlying hardware.
+                     We propose to use a block-based pre-scheduling methodology to reduce the co-design
+                     search space, and enable the automatic generation of the optimal co-design, including
+                     the network architecture and the tensor programs that practice the scheduling policy.
+                     We evaluate CHaNAS on Imagenet on different hardware back-ends against the state-of-the-art
+                     hardware-aware search method MobileNet-v3. Experimental results show that the co-design
+                     solutions obtained by ChaNAS show up to 1.6x, 1.9x, and 1.7x performance boost on
+                     NVIDIA P100 GPU, Intel Xeon 8163 CPU, and Samsung Note 10 Mobile, respectively, over
+                     the baselines of the same-level accuracy.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3461648.3463847">Annotate once – analyze anywhere: context-aware WCET analysis by user-defined abstractions</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Simon Schuster</li>
+               <li class="nameList">Peter Wägemann</li>
+               <li class="nameList">Peter Ulbrich</li>
+               <li class="nameList Last">Wolfgang Schröder-Preikschat</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The widespread adoption of cyber-physical systems in the safety-critical (hard real-time)
+                     domain is accompanied by a rising degree of code-reuse up to actual software product
+                     lines spanning different hardware platforms. Nevertheless, the dominant tools for
+                     static worst-case execution-time (WCET) analysis operate on individual, specific system
+                     instances at the binary level, further depending on machine-code–level annotations
+                     for precise analysis. Thus, this timing verification is neither portable nor reusable.
+                     </p> 
+                  <p> PragMetis addresses this schism by providing an expressive source-level annotation
+                     language that enables to express context dependence at the library level using user-defined
+                     abstractions. These abstractions allow users to generically annotate context-dependent
+                     flow facts down to the granularity of individual loop contexts. We then use control-flow–relation
+                     graphs to transfer these facts to machine-code level for specific instances, even
+                     in the presence of certain compiler optimizations, thus achieving portability. Our
+                     evaluation results based on TACLeBench confirm that PragMetis's powerful expressions
+                     yield more accurate WCET bounds.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3461648.3463848">Optimus: towards optimal layer-fusion on deep learning processors</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Xuyi Cai</li>
+               <li class="nameList">Ying Wang</li>
+               <li class="nameList Last">Lei Zhang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Neural network layer fusion has been proposed to parallelize the inference of neural
+                     layers and thus significantly reduces the feature-induced memory accesses. However,
+                     how to fuse the neural layers is still a challenging issue that heavily depends on
+                     both the network architecture and the specific DNN processor configuration. This work
+                     formalizes the layer fusion problem for DNN processors, proves that prior fusion solutions
+                     cannot guarantee memory-level optimality, and presents a novel neural network fusion
+                     framework, Optimus. Optimus includes an accurate memory cost model to evaluate fusion
+                     schemes, and a Computing-Graph (CG) based layer fusion algorithm, which generates
+                     high-efficiency layer-fusion schemes for arbitrary network architectures on DNN processors.
+                     The proposed off-line and on-line graph-based fusion algorithms can reduce 10.1% -
+                     72.2% off-chip memory traffic and obtain 1.71x - 3.94x energy efficiency over SOTA
+                     baselines on DNN workloads, and they bring significant power-efficiency boost to the
+                     DNN processors of different architectures and dataflows.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3461648.3463849">WasmAndroid: a cross-platform runtime for native programming languages on Android
+                  (WIP paper)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Elliott Wen</li>
+               <li class="nameList">Gerald Weber</li>
+               <li class="nameList Last">Suranga Nanayakkara</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Open-source hardware such as RISC-V has been gaining substantial momentum. Recently,
+                     they have begun to embrace Google's Android operating system to leverage its software
+                     ecosystem. Despite the encouraging progress, a challenging issue arises: a majority
+                     of Android applications are written in native languages and need to be recompiled
+                     to target new hardware platforms. Unfortunately, this recompilation process is not
+                     scalable because of the explosion of new hardware platforms. To address this issue,
+                     we present WasmAndroid, a high-performance cross-platform runtime for native programming
+                     languages on Android. WasmAndroid only requires developers to compile their source
+                     code to WebAssembly, an efficient and portable bytecode format that can be executed
+                     everywhere without additional reconfiguration. WasmAndroid can also trans-pile existing
+                     application binaries to WebAssembly when source code is not available. WebAssembly's
+                     language model is very different from C/C++ and this mismatch leads to many unique
+                     implementation challenges. In this paper, we provide workable solutions and conduct
+                     a preliminary system evaluation. We show that WasmAndroid provides acceptable performance
+                     to execute native applications in a cross-platform manner.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3461648.3463850">Simple, light, yet formally verified, global common subexpression elimination and
+                  loop-invariant code motion</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">David Monniaux</li>
+               <li class="nameList Last">Cyril Six</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We present an approach for implementing a formally certified loop-invariant code motion
+                     optimization by composing an unrolling pass and a formally certified yet efficient
+                     global subexpression elimination. This approach is lightweight: each pass comes with
+                     a simple and independent proof of correctness. Experiments show the approach significantly
+                     narrows the performance gap between the CompCert certified compiler and state-of-the-art
+                     optimizing compilers. Our static analysis employs an efficient yet verified hashed
+                     set structure, resulting in fast compilation.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3461648.3463851">Data-flow-sensitive fault-space pruning for the injection of transient hardware faults</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Oskar Pusz</li>
+               <li class="nameList">Christian Dietrich</li>
+               <li class="nameList Last">Daniel Lohmann</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In the domain of safety-critical systems, fault injection campaigns on ISA-level have
+                     become a widespread approach to systematically assess the resilience of a system with
+                     respect to transient hardware faults. However, experimentally injecting all possible
+                     faults to achieve full fault-space coverage is infeasible in practice. Hence, pruning
+                     techniques, such as def/use pruning are commonly applied to reduce the campaign size
+                     by grouping injections that surely provoke the same erroneous behavior. We describe
+                     data-flow pruning, a new data-flow sensitive fault-space pruning method that extends
+                     on def/use-pruning by also considering the instructions’ semantics when deriving fault-equivalence
+                     sets. By tracking the information flow for each bit individually across the respective
+                     instructions and considering their fault-masking capability, data-flow pruning (DFP)
+                     has to plan fewer pilot injections as it derives larger fault-equivalence sets. Like
+                     def/use pruning, DFP is precise and complete and it can be used as a direct replacement/alternative
+                     in existing software-based fault-injection tools. Our prototypical implementation
+                     so far considers local fault equivalence for five types of instructions. In our experimental
+                     evaluation, this already reduces the number of necessary injections by up to 18 percent
+                     compared to def/use pruning.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3461648.3463852">HyFM: function merging for free</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Rodrigo C. O. Rocha</li>
+               <li class="nameList">Pavlos Petoumenos</li>
+               <li class="nameList">Zheng Wang</li>
+               <li class="nameList">Murray Cole</li>
+               <li class="nameList">Kim Hazelwood</li>
+               <li class="nameList Last">Hugh Leather</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Function merging is an important optimization for reducing code size. It merges multiple
+                     functions into a single one, eliminating duplicate code among them. The existing state-of-the-art
+                     relies on a well-known sequence alignment algorithm to identify duplicate code across
+                     whole functions. However, this algorithm is quadratic in time and space on the number
+                     of instructions. This leads to very high time overheads and prohibitive levels of
+                     memory usage even for medium-sized benchmarks. For larger programs, it becomes impractical.
+                     </p> 
+                  <p>This is made worse by an overly eager merging approach. All selected pairs of functions
+                     will be merged. Only then will this approach estimate the potential benefit from merging
+                     and decide whether to replace the original functions with the merged one. Given that
+                     most pairs are unprofitable, a significant amount of time is wasted producing merged
+                     functions that are simply thrown away. </p> 
+                  <p>In this paper, we propose HyFM, a novel function merging technique that delivers similar
+                     levels of code size reduction for significantly lower time overhead and memory usage.
+                     Unlike the state-of-the-art, our alignment strategy works at the block level. Since
+                     basic blocks are usually much shorter than functions, even a quadratic alignment is
+                     acceptable. However, we also propose a linear algorithm for aligning blocks of the
+                     same size at a much lower cost. We extend this strategy with a multi-tier profitability
+                     analysis that bails out early from unprofitable merging attempts. By aligning individual
+                     pairs of blocks, we are able to decide their alignment’s profitability separately
+                     and before actually generating code. </p> 
+                  <p>Experimental results on SPEC 2006 and 2017 show that HyFM needs orders of magnitude
+                     less memory, using up to 48 MB or 5.6 MB, depending on the variant used, while the
+                     state-of-the-art requires 32 GB in the worst case. HyFM also runs over 4.5×× faster,
+                     while still achieving comparable code size reduction. Combined with the speedup of
+                     later compilation stages due to the reduced number of functions, HyFM contributes
+                     to a reduced end-to-end compilation time.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3461648.3463853">Break dancing: low overhead, architecture neutral software branch tracing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Gabriel Marin</li>
+               <li class="nameList">Alexey Alexandrov</li>
+               <li class="nameList Last">Tipp Moseley</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Sampling-based Feedback Directed Optimization (FDO) methods like AutoFDO and BOLT
+                     that employ profiles collected in live production environments, are commonly used
+                     in datacenter applications to attain significant performance benefits without the
+                     toil of maintaining representative load tests. Sampled profiles rely on hardware facilities
+                     like Intel’s Last Branch Record (LBR) which are not currently available even on popular
+                     CPUs from ARM or AMD. Since not all architectures include a hardware LBR feature,
+                     we present an architecture neutral approach to collect LBR-like data. We use sampling
+                     and limited program tracing to capture LBR-like data from optimized and unmodified
+                     applications binaries. Since the implementation is in user space, we can collect arbitrarily
+                     long LBR buffers, and by varying the sampling rate, we can adjust the runtime overhead
+                     to arbitrarily low values. We target runtime overheads of &lt;2% when the profiler is
+                     on and zero when it’s off. This amortizes to negligible fleet-wide collection cost
+                     given the size of a modern production fleet. We implemented a profiler that uses this
+                     method of software branch tracing. We also analyzed its overhead and the similarity
+                     of the data it collects to the Intel LBR hardware using the SPEC2006 benchmarks. Results
+                     demonstrate profile quality and optimization efficacy at parity with LBR-based AutoFDO
+                     and the target profiling overhead being achievable even without implementing any advanced
+                     tuning.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3461648.3463854">ARINC 653-inspired regularity-based resource partitioning on xen</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Pavan Kumar Paluri</li>
+               <li class="nameList">Guangli Dai</li>
+               <li class="nameList Last">Albert Mo Kim Cheng</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>A multitude of cloud-native applications take up a significant share of today's world
+                     wide web, the majority of which implicitly require soft-real-time guarantees when
+                     hosted on servers at various data centers across the globe. With the rapid development
+                     of cloud computing and virtualization techniques, many applications have been moved
+                     onto cloud and edge platforms that require efficient virtualization techniques. This
+                     means a set of applications must be executed on a Virtual Machine (VM) and multiple
+                     VMs must be temporally and spatially scheduled on a set of CPUs. Designed to leverage
+                     the cloud infrastructure model, many of these cloud-native applications such as media
+                     servers strongly demand low data latency and high compute-resource availability, both
+                     of which must be predictable. However, state-of-art VM schedulers fail to satisfy
+                     these requirements simultaneously. The scheduling of cloud-native applications on
+                     VMs and the scheduling of VMs on physical resources (CPUs), collectively need to be
+                     real-time in nature as specified by the Hierarchical Real-Time Scheduling (HiRTS)
+                     framework. Conforming to the specifications of this framework, the Regularity-based
+                     Resource Partitioning (RRP) model has been proposed that introduces the concept of
+                     regularity to provide a near-ideal resource supply to all VMs. In this paper, we make
+                     the theoretically superior Regularity-based Resource Partitioning (RRP) model ready
+                     for prime time by implementing its associated resource partitioning algorithms for
+                     the first time ever on the popular x-86 open-source hypervisor Xen, i.e., RRP-Xen.
+                     This paper also compares and contrasts the real-time performance of RRP-Xen against
+                     contemporary Xen schedulers such as Credit and RTDS. Our contributions include: (1)
+                     a novel implementation of the RRP model on Xen's x-86 based hypervisor, thereby providing
+                     a test-bed for future researchers; (2) the first-ever multi-core ARINC 653 VM scheduler
+                     prototype on Xen; and (3) numerous experiments and theoretical analysis to determine
+                     the real-time performance of RRP-Xen under a stringent workload environment.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3461648.3463855">Selective path-sensitive interval analysis (WIP paper)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Bharti Chimdyalwar</li>
+               <li class="nameList Last">Shrawan Kumar</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>K-limited path-sensitive interval domain is an abstract domain that has been proposed
+                     for precise and scalable analysis of large software systems. The domain maintains
+                     variables’ value ranges in the form of intervals along a configurable K subsets of
+                     paths at each program point, which implicitly provides co-relation among variables.
+                     When the number of paths at the join point exceeds K, the set of paths are partitioned
+                     into K subsets, arbitrarily, which results in loss of precision required to verify
+                     program properties. To address this problem, we propose selective merging of paths
+                     - identify and merge paths in such a way that the intervals computed help verifying
+                     more properties. Our selective path-sensitive approach is based on the knowledge of
+                     variables whose values influence the verification outcomes of program properties.
+                     We evaluated our approach on industrial automotive applications as well as academic
+                     benchmarks. We show benefits of selective path merging over arbitrary path selection
+                     by verifying 40% more properties.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3461648.3463856">Cache abstraction for data race detection in heterogeneous systems with non-coherent
+                  accelerators</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">May Young</li>
+               <li class="nameList">Alan J. Hu</li>
+               <li class="nameList Last">Guy G. F. Lemieux</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Embedded systems are becoming increasingly complex and heterogeneous, featuring multiple
+                     processor cores (which might themselves be heterogeneous) as well as specialized hardware
+                     accelerators, all accessing shared memory. Many accelerators are non-coherent (i.e.,
+                     do not support hardware cache coherence) because it reduces hardware complexity, cost,
+                     and power consumption, while potentially offering superior performance. However, the
+                     disadvantage of non-coherence is that the software must explicitly synchronize between
+                     accelerators and processors, and this synchronization is notoriously error-prone.
+                     </p> 
+                  <p> We propose an analysis technique to find data races in software for heterogeneous
+                     systems that include non-coherent accelerators. Our approach builds on classical results
+                     for data race detection, but the challenge turns out to be analyzing cache behavior
+                     rather than the behavior of the non-coherent accelerators. Accordingly, our central
+                     contribution is a novel, sound (data-race-preserving) abstraction of cache behavior.
+                     We prove our abstraction sound, and then to demonstrate the precision of our abstraction,
+                     we implement it in a simple dynamic race detector for a system with a processor and
+                     a massively parallel accelerator provided by a commercial FPGA-based accelerator vendor.
+                     On eleven software examples provided by the vendor, the tool had zero false positives
+                     and was able to detect previously unknown data races in 2 of the 11 examples.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>

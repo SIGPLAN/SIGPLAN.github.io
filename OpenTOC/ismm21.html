@@ -1,0 +1,363 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>ISMM 2021: Proceedings of the 2021 ACM SIGPLAN International Symposium on Memory Management</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>ISMM 2021: Proceedings of the 2021 ACM SIGPLAN International Symposium on Memory Management</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3459898"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Session 1: Transactioning/Caching</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3459898.3463901">Understanding and utilizing hardware transactional memory capacity</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Zixian Cai</li>
+               <li class="nameList">Stephen M. Blackburn</li>
+               <li class="nameList Last">Michael D. Bond</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Hardware transactional memory (HTM) provides a simpler programming model than lock-based
+                     synchronization. However, HTM has limits that mean that transactions may suffer costly
+                     capacity aborts. Understanding HTM capacity is therefore critical. Unfortunately,
+                     crucial implementation details are undisclosed. In practice HTM capacity can manifest
+                     in puzzling ways. It is therefore unsurprising that the literature reports results
+                     that appear to be highly contradictory, reporting capacities that vary by nearly three
+                     orders of magnitude. We conduct an in-depth study into the causes of HTM capacity
+                     aborts using four generations of Intel's Transactional Synchronization Extensions
+                     (TSX). We identify the apparent contradictions among prior work, and shed new light
+                     on the causes of HTM capacity aborts. In doing so, we reconcile the apparent contradictions.
+                     We focus on how replacement policies and the status of the cache can affect HTM capacity.
+                     </p> 
+                  <p> One source of surprising behavior appears to be the cache replacement policies used
+                     by the processors we evaluated. Both invalidating the cache and warming it up with
+                     the transactional working set can significantly improve the read capacity of transactions
+                     across the microarchitectures we tested. A further complication is that a physically
+                     indexed LLC will typically yield only half the total LLC capacity. We found that methodological
+                     differences in the prior work led to different warmup states and thus to their apparently
+                     contradictory findings. This paper deepens our understanding of how the underlying
+                     implementation and cache behavior affect the apparent capacity of HTM. Our insights
+                     on how to increase the read capacity of transactions can be used to optimize HTM applications,
+                     particularly those with large read-mostly transactions, which are common in the context
+                     of optimistic parallelization.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3459898.3463908">Uniform lease vs. LRU cache: analysis and evaluation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Dong Chen</li>
+               <li class="nameList">Chen Ding</li>
+               <li class="nameList">Fangzhou Liu</li>
+               <li class="nameList">Benjamin Reber</li>
+               <li class="nameList">Wesley Smith</li>
+               <li class="nameList Last">Pengcheng Li</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Lease caching is a new technique that provides greater control of the cache than what
+                     is allowed in conventional caches. The simplest control is uniform lease (UL), which
+                     means that all leases are identical in length. The UL cache is prescriptive and based
+                     on allocation. In comparison, a conventional cache is reactive and based on replacement.
+                     They represent two fundamentally different approaches to cache management. </p> 
+                  <p> This paper shows two results. First, it proves that a previous model of the LRU cache
+                     called Higher-Order Theory of Locality (HOTL) computes the miss ratio of the UL cache.
+                     Second, it shows how UL and LRU behave the same and differently through contrived
+                     examples and in the 30 benchmarks of PolyBench.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Session 2: Allocating/Copying</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3459898.3463905">Adaptive huge-page subrelease for non-moving memory allocators in warehouse-scale
+                  computers</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Martin Maas</li>
+               <li class="nameList">Chris Kennelly</li>
+               <li class="nameList">Khanh Nguyen</li>
+               <li class="nameList">Darryl Gove</li>
+               <li class="nameList">Kathryn S. McKinley</li>
+               <li class="nameList Last">Paul Turner</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Modern C++ server workloads rely on 2 MB huge pages to improve memory system performance
+                     via higher TLB hit rates. Huge pages have traditionally been supported at the kernel
+                     level, but recent work has shown that user-level, huge page-aware memory allocators
+                     can achieve higher huge page coverage and thus performance. These memory allocators
+                     deal with a trade-off: 1) allocate memory from the operating system (OS) at the granularity
+                     of a huge page, achieve high performance, but potentially waste memory due to fragmentation,
+                     or 2) limit fragmentation by breaking up huge pages into smaller 4 KB pages and returning
+                     them to the OS, but reduce performance due to lower huge page coverage. For example,
+                     the state-of-the-art TCMalloc allocator handles this trade-off by releasing memory
+                     to the OS at a configurable release rate, breaking up huge pages as necessary. </p> 
+                  <p> This approach balances performance and fragmentation well for machines running one
+                     workload. For multiple applications on the same machine however, the reduction in
+                     memory usage is only useful to overall performance if another workload uses this memory.
+                     In warehouse-scale computers, when an application releases and then reacquires the
+                     same amount or more memory quickly, but no other application uses the memory in the
+                     meantime, the release causes poorer huge page coverage without any system-wide benefit.
+                     </p> 
+                  <p> We introduce a metric, realized fragmentation, to capture this effect. We then present
+                     an adaptive release policy that dynamically determines when to break up huge pages
+                     and return them to the OS to optimize system-wide performance. We built this policy
+                     into TCMalloc and deployed it fleet-wide in our data centers, leading to an estimated
+                     1% fleet-wide throughput improvement at negligible memory overhead.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3459898.3463904">automemcpy: a framework for automatic generation of fundamental memory operations</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Guillaume Chatelet</li>
+               <li class="nameList">Chris Kennelly</li>
+               <li class="nameList">Sam (Likun) Xi</li>
+               <li class="nameList">Ondrej Sykora</li>
+               <li class="nameList">Clément Courbet</li>
+               <li class="nameList">Xinliang David Li</li>
+               <li class="nameList Last">Bruno De Backer</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Memory manipulation primitives (memcpy, memset, memcmp) are used by virtually every
+                     application, from high performance computing to user interfaces. They often consume
+                     a significant portion of CPU cycles. Because they are so ubiquitous and critical,
+                     they are provided by language runtimes and in particular by <em>libc</em>, the C standard library. These implementations are heavily optimized, typically written
+                     in hand-tuned assembly for each target architecture. </p> 
+                  <p>In this article, we propose a principled alternative to hand-tuning these functions:
+                     (1) we profile the calls to these functions in their production environment and use
+                     this data to drive the important high-level algorithmic decisions, (2) we use a high-level
+                     language for the implementation, delegate the job of tuning the generated code to
+                     the compiler, and (3) we use constraint programming and automatic benchmarks to select
+                     the optimal high-level structure of the functions. </p> 
+                  <p>We compile our memfunctions implementations using the same compiler toolchain that
+                     we use for application code, which allows leveraging the compiler further by allowing
+                     whole-program optimization. We have evaluated our approach by applying it to the fleet
+                     of one of the largest computing enterprises in the world. This work increased the
+                     performance of the fleet by 1%.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Session 3: Paging/Structuring</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3459898.3463902">Compendia: reducing virtual-memory costs via selective densification</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Sam Ainsworth</li>
+               <li class="nameList Last">Timothy M. Jones</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Virtual-to-physical memory translation is becoming an increasingly dominant cost in
+                     workload execution; as data sizes scale, up to four memory accesses are required per
+                     translation, and 24 in virtualised systems. However, the radix trees in use today
+                     to hold these translations have many favorable properties, including cacheability,
+                     ability to fit in conventional 4 KiB page frames, and a sparse representation. They
+                     are therefore unlikely to be replaced in the near future. </p> 
+                  <p> In this paper we argue that these structures are actually too sparse for modern workloads,
+                     so many of the overheads are unnecessary. Instead, where appropriate, we expand groups
+                     of 4 KiB layers, each able to translate 9 bits of address space, into a single 2 MiB
+                     layer, able to translate 18 bits in a single memory access. These fit in the standard
+                     huge-page allocations used by most conventional operating systems and architectures.
+                     With minor extensions to the page-table-walker structures to support these, and aid
+                     in their cacheability, we can reduce memory accesses per walk by 27%, or 56% for virtualised
+                     systems, without significant memory overhead.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3459898.3463907">Radiant: efficient page table management for tiered memory systems</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Sandeep Kumar</li>
+               <li class="nameList">Aravinda Prasad</li>
+               <li class="nameList">Smruti R. Sarangi</li>
+               <li class="nameList Last">Sreenivas Subramoney</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Modern enterprise servers are increasingly embracing tiered memory systems with a
+                     combination of low latency DRAMs and large capacity but high latency non-volatile
+                     main memories (NVMMs) such as Intel’s Optane DC PMM. Prior works have focused on the
+                     efficient placement and migration of data on a tiered memory system, but have not
+                     studied the optimal placement of page tables. </p> 
+                  <p> Explicit and efficient placement of page tables is crucial for large memory footprint
+                     applications with high TLB miss rates because they incur dramatically higher page
+                     walk latency when page table pages are placed in NVMM. We show that (i) page table
+                     pages can end up on NVMM even when enough DRAM memory is available and (ii) page table
+                     pages that spill over to NVMM due to DRAM memory pressure are not migrated back later
+                     when memory is available in DRAM. </p> 
+                  <p> We study the performance impact of page table placement in a tiered memory system
+                     and propose Radiant, an efficient and transparent page table management technique
+                     that (i) applies different placement policies for data and page table pages,(ii) introduces
+                     a differentiating policy for page table pages by placing a small but critical part
+                     of the page table in DRAM, and (iii) dynamically and judiciously manages the rest
+                     of the page table by transparently migrating the page table pages between DRAM and
+                     NVMM. Our implementation on a real system equipped with Intel’s Optane NVMM running
+                     Linux reduces the page table walk cycles by 12% and total cycles by 20% on an average.
+                     This improves the runtime by 20% on an average for a set of synthetic and real-world
+                     large memory footprint applications when compared with various default Linux kernel
+                     techniques.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Session 4: Compacting/Indexing</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3459898.3463906">Exploiting Intel optane persistent memory for full text search</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Shoaib Akram</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In our information-driven societies, full-text search is ubiquitous. Search is memory-intensive.
+                     Quickly searching massive corpora requires building indices, which consumes big volatile
+                     heaps. Search is storage I/O-intensive. Limited main memory necessitates writing large
+                     partial indices on non-volatile storage, where they finally live in merged form. These
+                     indices reside in memory, in full or in part, during query evaluation. Memory and
+                     I/O intensity make it hard to index and search content rapidly and efficiently. On
+                     the hardware side, the recently introduced Intel Optane DC persistent memory (PM)
+                     offers byte-addressability, high capacity, and non-volatility. This paper evaluates
+                     and exploits Optane PM for text indexing and search on multicore platforms. </p> 
+                  <p> We identify essential structures in inverted indices (hash table, merge tree, and
+                     key-value store), where they reside (memory or storage), and key operations over them
+                     (sort, flush, and merge). We allocate index structures in DRAM, Optane PM, and block
+                     storage by modifying an existing search engine. We then evaluate a myriad of hybrid
+                     memory and storage configurations. Our findings include: (1) careful placement of
+                     index structures across DRAM, Optane PM, and SSD, speeds up indexing with a single
+                     core compared to a high-performance baseline, but does not scale to many cores, (2)
+                     crash-consistent indexing with Optane PM is feasible without incurring a high overhead,
+                     and (3) the tail latency of the longest multi-term conjunctive queries is lower with
+                     a PM-backed index than an SSD-backed one. This paper opens up persistent memory to
+                     a practical role in full-text search.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3459898.3463903">Fusuma: double-ended threaded compaction</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Hiro Onozawa</li>
+               <li class="nameList">Tomoharu Ugawa</li>
+               <li class="nameList Last">Hideya Iwasaki</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Jonkers's threaded compaction is attractive in the context of memory-constrained embedded
+                     systems because of its space efficiency. However, it cannot be applied to a heap where
+                     ordinary objects and meta-objects are intermingled for the following reason. It requires
+                     the object layout information, which is often stored in meta-objects, to update pointer
+                     fields inside objects correctly. Because Jonkers's threaded compaction reverses pointer
+                     directions during garbage collection (GC), it cannot follow the pointers to obtain
+                     the object layout. This paper proposes Fusuma, a double-ended threaded compaction
+                     that allows ordinary objects and meta-objects to be allocated in the same heap. Its
+                     key idea is to segregate ordinary objects at one end of the monolithic heap and meta-objects
+                     at the other to make it possible to separate the phases of threading pointers in ordinary
+                     objects and meta-objects. Much like Jonkers's threaded compaction, Fusuma does not
+                     require any additional space for each object. We implemented it in eJSVM, a JavaScript
+                     virtual machine for embedded systems, and compared its performance with eJSVM using
+                     mark-sweep GC. As a result, compaction enabled an IoT-oriented benchmark program to
+                     run in a 28-KiB heap, which is 20 KiB smaller than mark-sweep GC. We also confirmed
+                     that the GC overhead of Fusuma was less than 2.50x that of mark-sweep GC.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>

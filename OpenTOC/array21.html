@@ -1,0 +1,203 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>ARRAY 2021: Proceedings of the 7th ACM SIGPLAN International Workshop on Libraries, Languages and Compilers for Array Programming</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>ARRAY 2021: Proceedings of the 7th ACM SIGPLAN International Workshop on Libraries, Languages
+               and Compilers for Array Programming</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3460944"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Principles</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3460944.3464310">Towards size-dependent types for array programming</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Troels Henriksen</li>
+               <li class="nameList Last">Martin Elsman</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We present a type system for expressing size constraints on array types in an ML-style
+                     type system. The goal is to detect shape mismatches at compile-time, while being simpler
+                     than full dependent types. The main restrictions is that the only terms that can occur
+                     in types are array sizes, and syntactically they must be variables or constants. For
+                     those programs where this is not sufficient, we support a form of existential types,
+                     with the type system automatically managing the requisite book-keeping. We formalise
+                     a large subset of the type system in a small core language, which we prove sound.
+                     We also present an integration of the type system in the high-performance parallel
+                     functional language Futhark, and show on a collection of 44 representative programs
+                     that the restrictions in the type system are not too problematic in practice.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3460944.3464311">Padding in the mathematics of arrays</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Benjamin Chetioui</li>
+               <li class="nameList">Ole Abusdal</li>
+               <li class="nameList">Magne Haveraaen</li>
+               <li class="nameList">Jaakko Järvi</li>
+               <li class="nameList Last">Lenore Mullin</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Multi-dimensional array manipulation constitutes a core component of numerous numerical
+                     methods, e.g. finite difference solvers of Partial Differential Equations (PDEs).
+                     The efficiency of such computations is tightly connected to traversing array data
+                     in a hardware-friendly way. </p> 
+                  <p> The Mathematics of Arrays (MoA) allows reasoning about array computations at a high
+                     level and enables systematic transformations of array-based programs. We have previously
+                     shown that stencil computations reduce to MoA's Denotational Normal Form (DNF). </p> 
+                  <p> Here we bring to light MoA's Operational Normal Forms (ONFs) that allow for adapting
+                     array computations to hardware characteristics. ONF transformations start from the
+                     DNF. Alongside the ONF transformations, we extend MoA with rewriting rules for padding.
+                     These new rules allow both a simplification of array indexing and a systematic approach
+                     to introducing halos to PDE solvers. Experiments on various architectures confirm
+                     the flexibility of the approach.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Applications</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3460944.3464309">Acceleration of lattice models for pricing portfolios of fixed-income derivatives</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Wojciech Michal Pawlak</li>
+               <li class="nameList">Marek Hlava</li>
+               <li class="nameList">Martin Metaksov</li>
+               <li class="nameList Last">Cosmin Eugen Oancea</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This paper reports on the acceleration of a standard, lattice-based numerical algorithm
+                     that is widely used in finance for pricing a class of fixed-income vanilla derivatives.
+                     </p> 
+                  <p>We start with a high-level algorithmic specification, exhibiting irregular nested
+                     parallelism, which is challenging to map efficiently to GPU hardware. From it we systematically
+                     derive and optimize two CUDA implementations, which utilize only the outer or all
+                     levels of parallelism, respectively. A detailed evaluation demonstrates (i) the high
+                     impact of the proposed optimizations, (ii) the complementary strength and weaknesses
+                     of the two GPU versions, and that (iii) they are on average 2.4× faster than our well-tuned
+                     CPU-parallel implementation (OpenMP+AVX2) running on 104 hardware threads, and by
+                     3-to-4 order of magnitude faster than an OpenMP-parallel implementation using the
+                     popular QuantLib library.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3460944.3464312">Array languages make neural networks fast</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Artjoms Šinkarovs</li>
+               <li class="nameList">Hans-Nikolai Vießmann</li>
+               <li class="nameList Last">Sven-Bodo Scholz</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Most implementations of machine learning algorithms are based on special-purpose frameworks
+                     such as TensorFlow or PyTorch. While these frameworks are convenient to use, they
+                     introduce multi-million lines of code dependency that one has to trust, understand
+                     and potentially modify. As an alternative, this paper investigates a direct implementation
+                     of a state of the art Convolutional Neural Network (CNN) in an array language. While
+                     our implementation requires 150 lines of code to define the special-purpose operators
+                     needed for CNNs, which are readily provided through frameworks such as TensorFlow
+                     and PyTorch, our implementation outperforms these frameworks by <em>factors 2 and 3</em> on a fixed set of hardware — a 64-core GPU-accelerated machine; for a simple example
+                     network. The resulting specification is written in a rank-polymorphic data-parallel
+                     style, and it can be immediately leveraged by optimising compilers. Indeed, array
+                     languages make neural networks fast.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>
