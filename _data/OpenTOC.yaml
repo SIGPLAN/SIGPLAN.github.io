@@ -462,6 +462,10 @@
   year: 2020
   title: "Proceedings of the 4th ACM SIGPLAN International Workshop on Machine Learning and Programming Languages"
 -
+  event: MAPS
+  year: 2021
+  title: "Proceedings of the 5th ACM SIGPLAN International Symposium on Machine Programming"
+-
   event: META
   year: 2017
   title: "Proceedings of the 2nd ACM SIGPLAN International Workshop on Meta-Programming Techniques and Reflection"
