@@ -1,0 +1,254 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>MAPS 2021: Proceedings of the 5th ACM SIGPLAN International Symposium on Machine Programming</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>MAPS 2021: Proceedings of the 5th ACM SIGPLAN International Symposium on Machine Programming</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3460945"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3460945.3464951">Generating bug-fixes using pretrained transformers</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Dawn Drain</li>
+               <li class="nameList">Chen Wu</li>
+               <li class="nameList">Alexey Svyatkovskiy</li>
+               <li class="nameList Last">Neel Sundaresan</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Detecting and fixing bugs are two of the most important yet frustrating parts of the
+                     software development cycle. Existing bug detection tools are based mainly on static
+                     analyzers, which rely on mathematical logic and symbolic reasoning about the program
+                     execution to detect common types of bugs. Fixing bugs is typically left out to the
+                     developer. In this work we introduce DeepDebug: a data-driven program repair approach
+                     which learns to detect and fix bugs in Java methods mined from real-world GitHub repositories.
+                     We frame bug-patching as a sequence-to-sequence learning task consisting of two steps:
+                     (i) denoising pretraining, and (ii) supervised finetuning on the target translation
+                     task. We show that pretraining on source code programs improves the number of patches
+                     found by 33% as compared to supervised training from scratch, while domain-adaptive
+                     pretraining from natural language to code further improves the accuracy by another
+                     32%. We refine the standard accuracy evaluation metric into non-deletion and deletion-only
+                     fixes, and show that our best model generates 75% more non-deletion fixes than the
+                     previous state of the art. In contrast to prior work, we attain our best results when
+                     generating raw code, as opposed to working with abstracted code that tends to only
+                     benefit smaller capacity models. Finally, we observe a subtle improvement from adding
+                     syntax embeddings along with the standard positional embeddings, as well as with adding
+                     an auxiliary task to predict each token's syntactic class. Despite focusing on Java,
+                     our approach is language agnostic, requiring only a general-purpose parser such as
+                     tree-sitter.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3460945.3464952">Learning to make compiler optimizations more effective</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Rahim Mammadli</li>
+               <li class="nameList">Marija Selakovic</li>
+               <li class="nameList">Felix Wolf</li>
+               <li class="nameList Last">Michael Pradel</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Because loops execute their body many times, compiler developers place much emphasis
+                     on their optimization. Nevertheless, in view of highly diverse source code and hardware,
+                     compilers still struggle to produce optimal target code. The sheer number of possible
+                     loop optimizations, including their combinations, exacerbates the problem further.
+                     Today's compilers use hard-coded heuristics to decide when, whether, and which of
+                     a limited set of optimizations to apply. Often, this leads to highly unstable behavior,
+                     making the success of compiler optimizations dependent on the precise way a loop has
+                     been written. This paper presents LoopLearner, which addresses the problem of compiler
+                     instability by predicting which way of writing a loop will lead to efficient compiled
+                     code. To this end, we train a neural network to find semantically invariant source-level
+                     transformations for loops that help the compiler generate more efficient code. Our
+                     model learns to extract useful features from the raw source code and predicts the
+                     speedup that a given transformation is likely to yield. We evaluate LoopLearner with
+                     1,895 loops from various performance-relevant benchmarks. Applying the transformations
+                     that our model deems most favorable prior to compilation yields an average speedup
+                     of 1.14x. When trying the top-3 suggested transformations, the average speedup even
+                     increases to 1.29x. Comparing the approach with an exhaustive search through all available
+                     code transformations shows that LoopLearner helps to identify the most beneficial
+                     transformations in several orders of magnitude less time.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3460945.3464953">Pure tensor program rewriting via access patterns (representation pearl)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Gus Henry Smith</li>
+               <li class="nameList">Andrew Liu</li>
+               <li class="nameList">Steven Lyubomirsky</li>
+               <li class="nameList">Scott Davidson</li>
+               <li class="nameList">Joseph McMahan</li>
+               <li class="nameList">Michael Taylor</li>
+               <li class="nameList">Luis Ceze</li>
+               <li class="nameList Last">Zachary Tatlock</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Tensor kernels in machine learning (ML) often correspond to pure mathematical expressions,
+                     making term rewriting an attractive strategy for optimization and mapping to specialized
+                     hardware accelerators. However, existing ML intermediate representations (IRs) tend
+                     to either be <em>pure but high-level</em>, making low-level rewrites to hardware targets inexpressible, or <em>low-level but impure</em>, hampering the use of term rewriting altogether. </p> 
+                  <p>This paper introduces Glenside, a pure IR whose core abstraction—the <em>access pattern</em>—enables low-level, layout-aware, hardware-centric program rewrites. We demonstrate
+                     how term rewriting in Glenside can be used to map program fragments to hardware accelerator
+                     invocations and automatically discover classic data layout transformations like im2col.
+                     Glenside establishes a new foundation for exploring further term rewriting techniques
+                     in optimizing low-level tensor programs.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3460945.3464954">ControlFlag: a self-supervised idiosyncratic pattern detection system for software
+                  control structures</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Niranjan Hasabnis</li>
+               <li class="nameList Last">Justin Gottschlich</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Software debugging has been shown to utilize upwards of half of developers’ time.
+                     Yet, <em>machine programming</em> (MP), the field concerned with the automation of software (and hardware) development,
+                     has recently made strides in both research and production-quality automated debugging
+                     systems. In this paper we present ControlFlag, a <em>self-supervised</em> MP system that aims to improve debugging by attempting to detect idiosyncratic pattern
+                     violations in software control structures. ControlFlag also suggests possible corrections
+                     in the event an anomalous pattern is detected. We present ControlFlag’s design and
+                     provide an experimental evaluation and analysis of its efficacy in identifying potential
+                     programming errors in production-quality software. As a first concrete evidence towards
+                     improving software quality, ControlFlag has already found an anomaly in CURL that
+                     has been acknowledged and fixed by its developers. We also discuss future extensions
+                     of ControlFlag.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3460945.3464955">Predictive data locality optimization for higher-order tensor computations</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Tharindu R. Patabandi</li>
+               <li class="nameList">Anand Venkat</li>
+               <li class="nameList">Abhishek Kulkarni</li>
+               <li class="nameList">Pushkar Ratnalikar</li>
+               <li class="nameList">Mary Hall</li>
+               <li class="nameList Last">Justin Gottschlich</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Automating locality optimization is still an open problem for compiler writers. Compiler-based
+                     approaches, guided by analytical cost models have achieved some success in matching
+                     high performance libraries on a restricted set of computations such as general matrix
+                     multiply (GEMM). On the other hand, library-based approaches may present some open
+                     scalability concerns. Recent developments in convolutional neural networks has seen
+                     an explosion of models, each with differing combinations of parameters. Manually tuning
+                     each of these configurations can take many development months. Further, these operations
+                     are called multiple times during machine learning training, which necessitates highly
+                     optimized implementations. 2D convolutional operators are unique in that they consist
+                     of 7-deep loop nests with different loops carrying reuse for different tensors, making
+                     the problem of identifying an optimal loop ordering hard. We devise a machine learning-based
+                     compiler which learns a regression model, correlating performance with the loop order.
+                     We integrate this model with other traditional compiler analysis for transformations
+                     such as loop unrolling and vectorization, relying on the MultiLevel Intermediate Representation
+                     (MLIR) compiler framework. We achieve an average speedup of 1.67x and 1.41x against
+                     oneDNN for 2D convolution forward and weight update kernels respectively. We are also
+                     at 0.88x and 0.96x the performance of oneDNN’s best performing implementation which
+                     applies additional data layout transformations.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>
