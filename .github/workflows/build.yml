@@ -37,6 +37,6 @@ jobs:
           echo "$DEPLOY_KEY" > pk
           echo "$DEPLOY_KNOWN_HOSTS" > kh
           chmod 600 pk
-          rsync --compress --recursive --checksum --itemize-changes --delete \
+          rsync --compress --recursive --checksum --itemize-changes \
             -e "ssh -p \"$DEPLOY_PORT\" -i pk -o 'UserKnownHostsFile kh'" \
             $DEPLOY_SRC $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_DEST
