@@ -1,3 +1,30 @@
+2021:
+- Awardee: Emina Torlak
+  Citation: |
+    Emina Torlak is a leader in the area of automated verification.  She has
+    made both conceptual contributions and built tools that are state of the
+    art and widely used. On the conceptual side, the notion of a solver-aided
+    programming language is hers and has quickly become standard terminology.
+    Torlak defined a set of linguistic abstractions that elegantly generalized
+    various prior point solutions that integrated solvers into languages. The
+    rapidity with which the notion of solver-aided languages took hold
+    indicates both how natural the idea is in retrospect and how relevant it
+    is to a large group of researchers in the PL community.
+
+    Torlak demonstrated that it was feasible to build a fairly general-purpose
+    solver-aided language with Rosette. The idea of a lightweight symbolic VM
+    is principled and effective. She and her colleagues have successfully
+    deployed Rosette in a wide and impressive variety of applications across
+    domains, notably in systems. Further, Rosette is seeing broad application,
+    including by researchers outside of the PL community.  Finally, Torlak's
+    tool Kodkod for finding solutions to Alloy models from her dissertation
+    work has been and continues to be widely used.
+
+    In summary, Emina Torlak has contributed an impressive breadth of
+    fundamental insights.  Just as impressive is her depth of contribution to
+    open-source software that others have been able to build their research
+    on.
+
 2020:
 - Awardee: Eran Yahav
   Citation: |
