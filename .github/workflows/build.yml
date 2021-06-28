@@ -17,6 +17,8 @@ jobs:
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-      - uses: helaili/jekyll-action@v2
+      - uses: ruby/setup-ruby@v1
         with:
-          build_only: true
+          ruby-version: 2.6
+          bundler-cache: true
+      - run: bundle exec jekyll build
