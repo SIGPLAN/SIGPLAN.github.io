@@ -8,3 +8,4 @@ link-checker-*
 *.ajg
 .\#*
 vendor
+.DS_Store
