@@ -1,3 +1,24 @@
+2021:
+- Awardee: Xuejun Yang (Microsoft), Yang Chen (Microsoft), Eric Eide (University of Utah), and John Regehr (University of Utah)
+  Other: |
+    (for 2011) _[Finding and understanding bugs in C compilers](https://dl.acm.org/doi/10.1145/1993316.1993532)_
+  Citation: |
+    The paper tackles head-on the difficult problem of automatically finding 
+    miscompilation bugs in compilers for unsafe languages such as C.  Based 
+    on a clever combination of scalable static analysis at generation-time, 
+    and dynamic checks at run-time, the paper contributes a method for random 
+    generation of C programs that are guaranteed to be free from undefined 
+    behavior when they execute, yet are still interesting enough that they 
+    have a good chance of exposing compiler bugs that corrupt these results.  
+    These programs can be used to find bugs via cross-checking results across 
+    multiple compilers, and are implemented in the Csmith tool which, at the 
+    time of the paper, was used to find hundreds of bugs in 11 different C 
+    compilers, including the widely-used open source GCC and LLVM compilers.  
+    Csmith revolutionized the field of compiler testing, inspiring and influencing 
+    a large body of work that has seen broad uptake by industry, including many 
+    practical compiler testing tools for C and many other languages, including 
+    C++, OpenCL, CUDA and Verilog.
+
 2020:
 - Awardee: Woongki Baek (Ulsan National Institute of Science and Technology) and Trishul M. Chilimbi (Amazon)
   Other: |
