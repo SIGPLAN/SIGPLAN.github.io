@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SIGPLAN Executive Committee 2018-2021
+title: SIGPLAN Executive Committee 2021–2024
 ---
 
 SIGPLAN is run by its Executive Committee composed of members elected every 3
