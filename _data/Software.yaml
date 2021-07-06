@@ -1,8 +1,21 @@
 2021:
 - Awardee: "WebAssembly"
   Citation: |
-    To be added
-    
+    WebAssembly is the first new broadly-adopted language in web browsers
+    since JavaScript. It is the fruit of a genuine collaboration between all
+    major browser vendors, backed by an unprecedented effort to place the new
+    language on a sound formal footing. WebAssembly’s formalization effort
+    both shows the benefits of bringing PL techniques to widely-adopted
+    languages—the disparate browser implementations all worked correctly with
+    no deviation from the specification—and makes WebAssembly fertile ground
+    for future research on web languages. Despite only being around for a
+    short time, WebAssembly has already served as the base for multiple
+    distinguished paper efforts from both industry and academia. Initially
+    created as a supplement to the Web stack, it also has seen quick adoption
+    in other domains that share similar requirements, such as mobile and edge
+    computing, IoT, confidential computing, blockchain and smart contract
+    platforms. On the Web, it has enabled many large-scale applications.
+
 2020:
 - Awardee: "Pin"
   Citation: |
