@@ -7,8 +7,17 @@ lsi: false
 permalink: pretty
 plugins:
   - jekyll-redirect-from
+  - jekyll-feed
 whitelist:
   - jekyll-redirect-from
+  - jekyll-feed
+feed:
+  posts_limit: 40
+  collections:
+    announce:
+      path: '/announce/feed.xml'
+    posts:
+      path: ''  # Disabled.
 collections:
   announce:
     output: true
