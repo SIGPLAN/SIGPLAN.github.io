@@ -7,7 +7,7 @@ To submit your announcement, please [fill out this form][form].
 
 [form]: https://docs.google.com/forms/d/1bYN9FtloQlMRwxVZGozSwUnqquPl2ir9CTHr9uQbVSg
 
-{% for page in site.announce %}
+{% for page in site.announce reversed %}
 {% assign mo = page.date | date: "%B %Y" %}
 {% if mo != lastmo %}
 {% if notfirst %}</ul>{% endif %}{% assign notfirst = 1 %}
