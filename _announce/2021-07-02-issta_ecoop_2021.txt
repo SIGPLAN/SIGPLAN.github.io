@@ -1,0 +1,98 @@
+---
+title: "30th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA'21) and the 35th European Conference on Object-Oriented Programming (ECOOP'21)"
+timestamp: "7/2/2021 16:26:32"
+start: "7/11/2021"
+end: "7/17/2021"
+location: "Online"
+tweet: "Registrations to ECOOP'21 and ISSTA'21 are still open - and free of charge!\nIf you haven't registered yet, there are still a few days left to do so.\nhttps://conf.researchr.org/attending/ecoop-issta-2021/registration"
+---
+============================================================
+                The 30th Edition of ISSTA and the 35th Edition of ECOOP
+                                          Call for Participation
+ 
+                                          11th-17th July 2021
+                                                    Online
+                    https://conf.researchr.org/home/ecoop-issta-2021
+                      Co-located with REBASE 2021 and SPIN 2021
+============================================================
+ 
+The ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA)
+is the leading research symposium on software testing and analysis, bringing 
+together academics, industrial researchers, and practitioners to exchange new 
+ideas, problems, and experience on how to analyze and test software systems. 
+ 
+ECOOP is Europe’s longest-standing annual Programming Languages conference, 
+bringing together researchers, practitioners, and students to share their ideas and 
+experiences in all topics related to programming languages, software development, 
+object-oriented technologies, systems and applications. ECOOP welcomes high 
+quality research papers relating to these fields in a broad sense.
+ 
+Registration
+================
+ 
+Registration to ECOOP 2021 and ISSTA 2021 is still open - and free of charge!
+ 
+If you haven't registered yet, there are still a few days left to do so. The registration is 
+free for all attendees. You need to register in order to access the Zoom rooms and videos.
+ 
+Registration link: [1].
+ 
+Programs
+================
+ 
+The ISSTA 2021 program [2] and the ECOOP 2021 program [3] are up online.
+ 
+ISSTA is celebrating its 30th edition and ECOOP, its 35th. 
+To mark the occasion, we have invited 18 experts to chair nine “Discussion with Experts” 
+sessions, each 40-minutes long. In addition, ISSTA will hold two panels on the past and 
+future of software testing and analysis at ISSTA, featuring senior members of the 
+community. 
+ 
+Tune in for a busy week with 51 ISSTA papers, 24 ECOOP papers, a joint poster session, 
+summer school, tool demos, and seven workshops.
+ 
+Presentations will be given twice across three timebands to accommodate the international 
+audience. This model ensures that anyone across the world can watch each talk at a 
+reasonable time.
+ 
+During the week, ECOOP will present multiple awards:
+- The AITO Dahl-Nygaard Senior prize to Kim Bruce
+- The AITO Dahl-Nygaard Junior prize to Karim Ali
+- The AITO Test of Time award 2021 to Gregor Kiczales, Erik Hilsdale, Jim Hugunin, Mik 
+   Kersten, Jeffrey Palm, William G. Griswold, for their work published at ECOOP'01: 
+   "An Overview of AspectJ"
+- Two distinguished paper awards to:
+  - “Lossless, Persisted Summarization of Static Callgraph, Points-To and Data-Flow Analysis” 
+     by Philipp Schubert, Ben Hermann, and Eric Bodden.
+  - “Multiparty Languages: the Choreographic and Multitier Cases” by Saverio Giallorenzo, 
+     Fabrizio Montesi, Marco Peressotti, David Richter, Guido Salvaneschi and, Pascal 
+     Weisenburger.
+ 
+ISSTA will also present:
+- The ISSTA Impact Paper award to "Automated Debugging: Past, Present, and Future" 
+   from Alessandro Orso and Chris Parnin.
+- Four distinguished paper awards:
+  - “Type and Interval aware Array Constraint Solving for Symbolic Execution”, by Ziqi Shuai, 
+     Zhenbang Chen, Yufeng Zhang, Jun Sun, and Ji Wang.
+  - “A Lightweight Framework for Function Name Reassignment Based on Large-Scale Stripped 
+     Binaries”, by Han Gao, Shaoyin Cheng, Yinxing Xue, and Weiming Zhang.
+  - “SAND: A Static Analysis Approach for Detecting SQL Antipatterns”, by Yingjun Lyu, 
+     Sasha Volokh, William G.J. Halfond, and Omer Tripp.
+  - “Test-Case Prioritization for Configuration Testing”, by Runxiang Cheng, Lingming Zhang, 
+     Darko Marinov, and Tianyin Xu.
+ 
+This year, ISSTA and ECOOP are co-located with REBASE and SPIN, giving all communities the 
+chance to interact and exchange ideas at the intersection of testing, analysis, and programming 
+languages.
+ 
+Looking forward to meeting you online!
+ 
+More Information
+================
+For additional information, please visit the ISSTA’21 and ECOOP’21 website [4].
+ 
+[1] https://conf.researchr.org/attending/ecoop-issta-2021/registration
+[2] https://conf.researchr.org/track/issta-2021/issta-2021-technical-papers#program
+[3] https://2021.ecoop.org/track/ecoop-2021-ecoop-research-papers#program
+[4] https://conf.researchr.org/home/ecoop-issta-2021
+

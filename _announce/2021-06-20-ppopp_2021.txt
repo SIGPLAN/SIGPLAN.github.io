@@ -1,0 +1,84 @@
+---
+title: "Call for Papers, 27th ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming"
+timestamp: "6/20/2021 9:55:28"
+start: "8/9/2021"
+location: "Seoul, South Korea"
+tweet: "PPoPP'22 CFP, abstract submission: August 9, 2022, https://ppopp22.sigplan.org, "
+---
+PPoPP 2022:
+The 27th ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming
+
+Seoul, S. Korea. (collocated with CC-2022, HPCA-2022, and CGO-2022)
+Dates: Feb 12 – Feb 16, 2022.
+https://ppopp22.sigplan.org
+
+Submission URL: https://ppopp22.hotcrp.com
+
+Important dates:
+
+Paper registration and abstract submission: August 9, 2021
+Full paper submission: August 13, 2021
+Early notification for papers not passing the first stage: October 11, 2021
+Workshop/tutorial proposal submission deadline: October 15, 2021
+Workshop/tutorial proposal acceptance notification: October 25, 2021
+Author response period: November 1 – November 3, 2021
+Author Notification: November 16, 2021
+Artifact submission to AE committee (tentative): November 26, 2020
+Artifact notification by AE committee (tentative): December 26, 2020
+Final paper due: December 27, 2021
+All deadlines are at midnight anywhere on earth (AoE) and are firm.
+
+Scope:
+
+PPoPP is the premier forum for leading work on all aspects of parallel programming, including theoretical foundations, techniques, languages, compilers, runtime systems, tools, and practical experience. In the context of the symposium, “parallel programming” encompasses work on concurrent and parallel systems (multicore, multi-threaded, heterogeneous, clustered, and distributed systems; grids; data centers; clouds; and large scale machines). Given the rise of parallel architectures in the consumer market (desktops, laptops, and mobile devices) and data centers, PPoPP is particularly interested in work that addresses new parallel workloads and issues that arise out of extreme-scale applications or cloud platforms, as well as techniques and tools that improve the productivity of parallel programming or work towards improved synergy with such emerging architectures.
+
+Specific topics of interest include (but are not limited to): 
+- Compilers and runtime systems for parallel and heterogeneous systems 
+- Concurrent data structures 
+- Development, analysis, or management tools 
+- Fault tolerance for parallel systems 
+- Formal analysis and verification 
+- High-performance / scientific computing 
+- Libraries for parallel computing
+- Middleware for parallel systems 
+- Parallel algorithms 
+- Parallel applications and frameworks 
+- Parallel programming for deep memory hierarchies, including nonvolatile memory 
+- Parallel programming languages 
+- Parallel programming theory and models 
+- Parallelism in non-scientific workloads: web, search, analytics, cloud, machine learning 
+- Performance analysis, debugging, and optimization 
+- Programming tools for parallel and heterogeneous systems 
+- Software engineering for parallel programs 
+- Software for heterogeneous architectures 
+- Software productivity for parallel programming 
+- Synchronization and concurrency control
+
+Papers should report on original research relevant to parallel programming and contain enough background materials to make them accessible to the entire parallel programming research community. Papers describing experience should indicate how they illustrate general principles or lead to new insights. PPoPP submissions will be evaluated based on their technical merit and accessibility. Submissions should clearly motivate the importance of the problem being addressed, compared to the existing body of work on the topic, and explicitly and precisely state the paper’s key contributions and result towards addressing the problem. Submissions should strive to be accessible both to a broad audience and to experts in the area. Authors of papers that do not pass the first round of reviewing will receive a notification so that they can start working as early as possible on revising their papers and resubmitting them to other conferences or journals.
+
+Paper Submission:
+
+Conference submission site: https://ppopp22.hotcrp.com.
+
+All submissions must be made electronically through the conference website and include an abstract (100–400 words), author contact information, the full list of authors, and their affiliations. Full paper submissions must be in PDF formatted printable on both A4 and US letter size paper.
+
+All papers must be prepared in ACM Conference Format using the 2-column acmart format: use the SIGPLAN proceedings template acmart-sigplanproc-template.tex for Latex, and interim-layout.docx for Word. You may also want to consult the official ACM information on the Master Article Template and related tools. **Important note:** The Word template (interim-layout.docx) on the ACM website uses 9pt font; you need to increase it to 10pt.
+
+Papers should contain a maximum of 10 pages of text (in a typeface no smaller than 10 points) or figures, NOT INCLUDING references. There is no page limit for references.  References must include the names of all authors (not {et al.}). Appendices are not allowed, but the authors may submit supplementary material, such as proofs or source code; all supplementary material must be in PDF format. Looking at supplementary material is at the discretion of the reviewers.
+
+Submission is double-blind, and authors will need to identify any potential conflicts of interest with PC and Extended Review Committee members, as defined here: http://www.sigplan.org/Resources/Policies/Review/ (ACM SIGPLAN policy).
+
+PPoPP 2022 will employ a double-blind reviewing process. To facilitate this process, submissions should not reveal the identity of the authors in any way. Authors should leave out author names and affiliations from the body of their submission and the supplementary material. They should also ensure that any references to their own related work should be in the third person (e.g., not “We build on our previous work …” but rather “We build on the work of …”). The purpose of this process is to help the PC and external reviewers come to an initial judgment about the paper without bias, not to make it impossible for them to discover the authors if they were to try. Nothing should be done in the name of anonymity that weakens the submission or makes reviewing the paper more difficult. In particular, important background references should not be omitted or anonymized. In addition, authors should feel free to disseminate their ideas or draft versions of their papers as they normally would. For instance, authors may post drafts of their papers on the web or give talks on their research ideas. Authors with further questions on double-blind reviewing are encouraged to contact the Program Co-Chairs by email.
+
+Submissions should be in PDF and printable on both US Letter and A4 paper. Papers may be resubmitted to the submission site multiple times until the deadline, but the last version submitted before the deadline will be the version reviewed. Papers that exceed the length requirement that deviate from the expected format or that are submitted late will be rejected.
+
+All submissions that are not accepted for regular presentations will be automatically considered for posters. Two-page summaries of accepted posters will be included in the conference proceedings.
+
+To allow reproducibility, we encourage authors of accepted papers to submit their papers for Artifact Evaluation (AE). The AE process begins after the acceptance notification and is run by a separate committee whose task is to assess how the artifacts support the work described in the papers. Artifact evaluation is voluntary and will not affect paper acceptance but will be taken into consideration when selecting papers for awards. Papers that go through the AE process successfully will receive one or several of the ACM reproducibility badges printed on the papers themselves. More information will be posted on the AE website.
+
+Workshop/Tutorial Proposals:
+
+We are soliciting proposals for workshops and tutorials within the general scope of PPoPP. Members of the community are encouraged to submit proposals for workshops/tutorials that bring together researchers and practitioners to share their tools, technologies, latest results and to discuss work in progress and new directions. Workshops and tutorials will be held February 12-13, 2022.
+
+Submit your proposals by October 15, 2021, to Bernhard Egger (bernhard@csap.snu.ac.kr).
+

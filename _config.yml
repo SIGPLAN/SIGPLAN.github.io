@@ -9,3 +9,14 @@ plugins:
   - jekyll-redirect-from
 whitelist:
   - jekyll-redirect-from
+collections:
+  announce:
+    output: true
+    permalink: /:collection/:name/
+defaults:
+  -
+    scope:
+      path: ""
+      type: "announce"
+    values:
+      layout: "announce"
