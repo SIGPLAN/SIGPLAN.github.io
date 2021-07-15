@@ -1,0 +1,30 @@
+2021:
+- Awardee: Benjamin Pierce
+  Citation: |
+    Benjamin Pierce is an absolutely exceptional educator and mentor. Benjamin
+    is passionate about providing students with the clearest explanations and
+    the most insight-provoking exercises, and he works tirelessly to produce
+    them.  Benjamin's contributions to programming languages education are truly
+    inspiring, both to students who use his books, and to teachers. His Types
+    and Programming Languages book covering untyped lambda calculus to System F,
+    subtyping, objects, mutable state, and recursive types, published in 2002,
+    is widely used in advanced undergraduate and graduate-level courses. The
+    books published prior to Benjamin’s are targeted at a more mathematical
+    audience; Benjamin’s starts with programmers. Its successor, Advanced Types
+    and Programming Languages, edited by Benjamin, dives deeper into:
+    substructural logic, logical relations, dependent types, module systems,
+    and type inference.  Together these textbooks present the very
+    foundations of programming languages research in a beautifully written and
+    accessible way. More recently, Benjamin's educational contributions have
+    shifted online, to the novel, and very successful, Software Foundations
+    series.  These volumes, again written with clarity and great
+    accessibility, explain the foundations of logic and programming languages
+    semantics through the lens of formal verification.  Part textbook and part
+    interactive proof-script, they use the Coq theorem prover as a vehicle for
+    students to learn about propositional logic, induction principles, Hoare
+    logic, and lambda calculus, among many other topics.  Initiated as a
+    course offered at the University of Pennsylvania, the Software Foundations
+    has grown into a collaborative, multi-institution community effort.
+    Benjamin is also a kind and attentive mentor, and generous and encouraging
+    to students via events like the DeepSpec summer school, and the PL
+    Mentoring Workshops.
