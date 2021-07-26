@@ -126,6 +126,10 @@ Outside of ACM conferences and events, individual CARES committee members were c
    <td><img src="http://sigplan.org/images/cares-photos/jones.png" alt="Simon Peyton Jones"  height="60%"><br><a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a></td>
    <td>Member, <a href="mailto:simonpj@microsoft.com">simonpj@microsoft.com</a>, Microsoft Research Cambridge </td>
   </tr>
+ <tr>
+   <td><img src="http://sigplan.org/images/cares-photos/ryu.png" alt="Sukyoung Ryu" height="60%"><br><a href="https://plrg.kaist.ac.kr/ryu">Sukyoung Ryu</a></td>
+   <td>Member, <a href="mailto:sukyoung.ryu@gmail.com">sukyoung.ryu@gmail.com</a>, KAIST</td>
+  </tr> 
   <tr>
    <td><img src="http://sigplan.org/images/cares-photos/silva.png" alt="Alexandra Silva"  height="60%"><br><a href="https://www.alexandrasilva.org/#/main.html">Alexandra Silva</a></td>
    <td>Member, <a href="mailto:alexandra.silva@ucl.ac.uk">alexandra.silva@ucl.ac.uk</a>, University College London </td>
@@ -141,9 +145,5 @@ Outside of ACM conferences and events, individual CARES committee members were c
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/wu.png" alt="Peng Wu" height="60%"><br><a href="https://pengwu.wordpress.com/">Peng Wu</a></td>
    <td>Member, <a href="mailto:pengwu@fb.com">pengwu@fb.com</a>, Facebook </td>
-  </tr> 
- <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/yang.png" alt="Hongseok Yang" height="60%"><br><a href="https://sites.google.com/view/hongseokyang/home">Hongseok Yang</a></td>
-   <td>Member, <a href="mailto:hongseok00@gmail.com">hongseok00@gmail.com</a>, KAIST </td>
   </tr> 
  </table>  
