@@ -14,7 +14,7 @@ and to access the perspectives of researchers from other institutions.
 
 In response to these needs, SIGPLAN-M matches mentors with mentees from different institutions
 for mentoring relationships that last at least a year.
-As of December, 2020, there are more than 250 mentees and 150 mentors participating in the program.
+As of July, 2021, there are more than 380 mentees and 220 mentors participating in the program.
 Here are some testimonials from mentees:
 
 > Having someone to talk to about my future has been one of the few good highlights of 2020.
@@ -51,7 +51,7 @@ Please sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSfN6M66lJTfKShaJ_
 ### Becoming a Mentee
 
 We typically recruit and match new mentees in waves leading up to the POPL, PLDI, ICFP, and SPLASH conferences.
-You may sign up at any time using [this form](https://docs.google.com/forms/d/e/1FAIpQLSf4MbSClp1t4bgOiDC6wIm16y3nYxk9Hj1zMo7qMdg39KrCxA/viewform).
+You may sign up at any time using [this form](https://docs.google.com/forms/d/e/1FAIpQLSegCRALo-2R9bBv_8c0NKeIytO90TWvQtbVcNOD7Ch8edaubw/viewform).
 
 When there are more mentees than open spots, we maintain a waitlist and match as mentors become available.
 In matching from the waitlist, we prioritize PLMW attendees, members of marginalized groups,
