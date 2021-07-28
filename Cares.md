@@ -127,7 +127,7 @@ Outside of ACM conferences and events, individual CARES committee members were c
    <td>Member, <a href="mailto:simonpj@microsoft.com">simonpj@microsoft.com</a>, Microsoft Research Cambridge </td>
   </tr>
  <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/ryu.png" alt="Sukyoung Ryu" height="60%"><br><a href="https://plrg.kaist.ac.kr/ryu">Sukyoung Ryu</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/ryu.png" alt="Sukyoung Ryu" height="156"><br><a href="https://plrg.kaist.ac.kr/ryu">Sukyoung Ryu</a></td>
    <td>Member, <a href="mailto:sukyoung.ryu@gmail.com">sukyoung.ryu@gmail.com</a>, KAIST</td>
   </tr> 
   <tr>
