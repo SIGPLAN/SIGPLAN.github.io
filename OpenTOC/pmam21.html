@@ -1,0 +1,180 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>PMAM'21: Proceedings of the 12th International Workshop on Programming Models and Applications for Multicores and Manycores</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>PMAM'21: Proceedings of the 12th International Workshop on Programming Models and Applications
+               for Multicores and Manycores</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3448290"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3448290.3448563">A New Generation of Task-Parallel Algorithms for Matrix Inversion in Many-Threaded
+                  CPUs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Sandra Catalán</li>
+               <li class="nameList">Francisco D. Igual</li>
+               <li class="nameList">Rafael Rodríguez-Sánchez</li>
+               <li class="nameList">José R. Herrero</li>
+               <li class="nameList Last">Enrique S. Quintana-Ortí</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We take advantage of the new tasking features in OpenMP to propose advanced task-parallel
+                     algorithms for the inversion of dense matrices via Gauss-Jordan elimination. Our algorithms
+                     perform a partitioning of the matrix operand into two levels of tasks: The matrix
+                     is first divided vertically, by column blocks (or panels), in order to accommodate
+                     the standard partial pivoting scheme that ensures the numerical stability of the method.
+                     In addition, depending on the particular kernel to be applied, each panel is partitioned
+                     either horizontally by row blocks (tiles) or vertically by μ-panels (of columns),
+                     in order to extract sufficient task parallelism to feed a many-threaded general purpose
+                     processor (CPU).</p> 
+                  <p>The results of the experimental evaluation show the performance benefits of the advanced
+                     tasking algorithms on an Intel Xeon Gold processor with 20 cores.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3448290.3448560">CompactNet: Platform-Aware Automatic Optimization for Convolutional Neural Networks</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Weicheng Li</li>
+               <li class="nameList">Rui Wang</li>
+               <li class="nameList Last">Depei Qian</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Convolutional Neural Network (CNN) based Deep Learning (DL) has achieved great progress
+                     in many real-life applications. Meanwhile, due to the complex model structures against
+                     strict latency and memory restriction, the implementation of CNN models on the resource-limited
+                     platforms is becoming more challenging. This work proposes a solution, called CompactNet,
+                     which automatically optimizes a pre-trained CNN model on a specific resource-limited
+                     platform given a specific target of inference speedup. Guided by a simulator of the
+                     target platform, CompactNet progressively trims a pre-trained network by removing
+                     certain redundant filters until the target speedup is reached and generates an optimal
+                     platform-specific model while maintaining the accuracy. We evaluate our work on two
+                     platforms of a mobile ARM CPU and a machine learning accelerator NPU (Cambricon-1A
+                     ISA) on a Huawei Mate10 smartphone. For the state-of-the-art slim CNN model made for
+                     the embedded platform, MobileNetV2, CompactNet achieves up to a 1.8x kernel computation
+                     speedup with equal or even higher accuracy for image classification tasks on the ImageNet
+                     dataset, which outperforms other successful CNN optimizing techniques. Compared with
+                     the state-of-the-art Neural Architecture Searching (NAS) work, the optimal model generated
+                     through our CompactNet is faster and can be applied to bigger datasets like ImageNet.
+                     Furthermore, the optimizing process is much faster than those searching approaches.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3448290.3448559">Porting and Evaluation of a Distributed Task-driven Stencil-based Application</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Eric Raut</li>
+               <li class="nameList">Jonathon Anderson</li>
+               <li class="nameList">Mauricio Araya-Polo</li>
+               <li class="nameList Last">Jie Meng</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Alternative programming models and runtimes are increasing in popularity and maturity.
+                     This allows porting and comparing, on competitive grounds, emerging parallel approaches
+                     against the traditional MPI+X paradigm. In this work, an implementation of distributed
+                     task-based stencil computation is compared with a traditional MPI+X implementation
+                     of the same application. The Legion task-based parallel programming system is used
+                     as an alternative to MPI, but the underlying OpenMP approach is kept at the subdomain
+                     level. Overall results are promising toward making this alternative method competitive
+                     to the traditional MPI approach. In future work, extensions to other applications
+                     will be explored, as well as the use of GPUs.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>
