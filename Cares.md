@@ -103,47 +103,47 @@ Outside of ACM conferences and events, individual CARES committee members were c
 
 <table style="width:100%" border="0">
   <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/mckinley.png" alt="Kathryn McKinley"  height="60%"><br><a href="https://www.cs.utexas.edu/users/mckinley/">Kathryn McKinley</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/mckinley.png" alt="Kathryn McKinley"  width="156"><br><a href="https://www.cs.utexas.edu/users/mckinley/">Kathryn McKinley</a></td>
    <td>Co-Chair, <a href="mailto:mckinley@cs.utexas.edu">mckinley@cs.utexas.edu</a>, Google, 2019-2021 </td>
   </tr> 
    <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/walker.png" alt="David Walker" height="60%"><br><a href="https://www.cs.princeton.edu/~dpw/">David Walker</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/walker.png" alt="David Walker" width="156"><br><a href="https://www.cs.princeton.edu/~dpw/">David Walker</a></td>
    <td>Co-Chair, <a href="mailto:dpw@cs.princeton.edu">dpw@cs.princeton.edu</a>, Princeton University, 2019-2022 </td>
   </tr>
   <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/adve.png" alt="Vikram Adve" height="60%"><br><a href="https://vikram.cs.illinois.edu/">Vikram Adve</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/adve.png" alt="Vikram Adve" width="156"><br><a href="https://vikram.cs.illinois.edu/">Vikram Adve</a></td>
    <td>Member, <a href="mailto:vadve@illinois.edu">vadve@illinois.edu</a>, University of Illinois </td>
   </tr>
  <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/feng.png" alt="Xinyu Feng" height="60%"><br><a href="https://cs.nju.edu.cn/xyfeng/">Xinyu Feng</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/feng.png" alt="Xinyu Feng" width="156"><br><a href="https://cs.nju.edu.cn/xyfeng/">Xinyu Feng</a></td>
    <td>Member, <a href="mailto:xyfeng@nju.edu.cn">xyfeng@nju.edu.cn</a>, Nanjing University </td>
   </tr> 
  <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/krishnamurthi.png" alt="Shriram Krishnamurthi" height="60%"><br><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/krishnamurthi.png" alt="Shriram Krishnamurthi" width="156"><br><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a></td>
    <td>Member, <a href="mailto:sk@cs.brown.edu">sk@cs.brown.edu</a>, Brown University </td>
   </tr> 
  <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/jones.png" alt="Simon Peyton Jones"  height="60%"><br><a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/jones.png" alt="Simon Peyton Jones"  width="156"><br><a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a></td>
    <td>Member, <a href="mailto:simonpj@microsoft.com">simonpj@microsoft.com</a>, Microsoft Research Cambridge </td>
   </tr>
  <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/ryu.png" alt="Sukyoung Ryu" height="156"><br><a href="https://plrg.kaist.ac.kr/ryu">Sukyoung Ryu</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/ryu.png" alt="Sukyoung Ryu" width="156"><br><a href="https://plrg.kaist.ac.kr/ryu">Sukyoung Ryu</a></td>
    <td>Member, <a href="mailto:sukyoung.ryu@gmail.com">sukyoung.ryu@gmail.com</a>, KAIST</td>
   </tr> 
   <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/silva.png" alt="Alexandra Silva"  height="60%"><br><a href="https://www.alexandrasilva.org/#/main.html">Alexandra Silva</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/silva.png" alt="Alexandra Silva"  width="156"><br><a href="https://www.alexandrasilva.org/#/main.html">Alexandra Silva</a></td>
    <td>Member, <a href="mailto:alexandra.silva@ucl.ac.uk">alexandra.silva@ucl.ac.uk</a>, University College London </td>
   </tr> 
  <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/strout.png" alt="Michelle Strout"  height="60%"><br><a href="http://cgi.cs.arizona.edu/~mstrout/">Michelle Strout</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/strout.png" alt="Michelle Strout"  width="156"><br><a href="http://cgi.cs.arizona.edu/~mstrout/">Michelle Strout</a></td>
    <td>Member, <a href="mailto:mstrout@cs.arizona.edu">mstrout@cs.arizona.edu</a>, HPE and University of Arizona </td>
   </tr> 
  <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/weirich.png" alt="Stephanie Weirich"  height="60%"><br><a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/weirich.png" alt="Stephanie Weirich"  width="156"><br><a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a></td>
    <td>Member, <a href="mailto:sweirich@cis.upenn.edu">sweirich@cis.upenn.edu</a>, University of Pennsylvania</td>
   </tr> 
  <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/wu.png" alt="Peng Wu" height="60%"><br><a href="https://pengwu.wordpress.com/">Peng Wu</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/wu.png" alt="Peng Wu" width="156"><br><a href="https://pengwu.wordpress.com/">Peng Wu</a></td>
    <td>Member, <a href="mailto:pengwu@fb.com">pengwu@fb.com</a>, Facebook </td>
   </tr> 
  </table>  
