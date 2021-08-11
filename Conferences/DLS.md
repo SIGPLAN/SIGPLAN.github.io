@@ -12,16 +12,38 @@ provides a place for researchers and practitioners to come together and
 share their knowledge, experience, and ideas for future research and
 development.
 
-DLS 2019
+DLS 2021
 --------
 
--   Athens, Greece, October 22, 2019
--   Co-located with SPLASH 2019
--   PC chair: Stefan Marr (University of Kent)
--   [https://conf.researchr.org/home/dls-2019](https://conf.researchr.org/home/dls-2019)
+-   Chicago, Illinois, United States, Oct 17, 2021
+-   Co-located with SPLASH 2021
+-   PC chair: Arjun Guha (Northeastern University)
+-   [https://conf.researchr.org/home/dls-2021](https://conf.researchr.org/home/dls-2021)
 
 Awards
 ------
+
+-   Most Notable Paper Award 2020 for 2010
+    -   Recipients: Tom Van Cutsem and Mark S. Miller
+    -   Title: Design Principles for Robust Object-oriented Intercession APIs
+    -   Conference: DLS 2010
+    -   Paper:
+        [https://dl.acm.org/doi/10.1145/1869631.1869638](https://dl.acm.org/doi/10.1145/1869631.1869638)
+    -   Citation: The 2010 DLS paper "Proxies: Design Principles for Robust
+        Object-oriented Intercession APIs" is a prime example of the
+        object-capability model. In short order, it managed to bridge the gap
+        from research to become an integral part of an important language today.
+
+-   Most Notable Paper Award 2019 for 2009
+    -   Recipients: Alexander Yermolovich, Christian Wimmer, and Michael Franz
+    -   Title: Optimization of Dynamic Languages Using Hierarchical Layering of Virtual Machines
+    -   Conference: DLS 2009
+    -   Paper:
+        [https://dl.acm.org/citation.cfm?id=1408688](https://dl.acm.org/citation.cfm?id=1408688)
+    -   Citation: This 2009 DLS paper is an important early paper in the area of
+        meta virtual machines. It showed a simple and effective approach to VM
+        construction that was simultaneously explored by multiple research
+        groups at the time and which has since found further applications.
 
 -   Most Notable Paper Award 2018 for 2008
     -   Recipients: Jeremy G. Siek and Manish Vachharajani
@@ -87,6 +109,22 @@ Awards
 
 Past Events
 -----------
+
+- DLS 2020
+    -   ~~Chicago, Illinois, USA~~ Everywhere, Nov 18, 2020
+    -   Co-located with SPLASH 2020
+    -   PC chair: Matthew Flatt
+    -   Invited speaker: Vanessa Freudenberg
+    -   [https://conf.researchr.org/home/dls-2020](https://conf.researchr.org/home/dls-2020)
+    -   [http://www.dynamic-languages-symposium.org/dls-20/](http://www.dynamic-languages-symposium.org/dls-20/)
+
+- DLS 2019
+    -   Athens, Greece, October 22, 2019
+    -   Co-located with SPLASH 2019
+    -   PC chair: Stefan Marr (University of Kent)
+    -   Invited speaker: Saman P. Amarasinghe
+    -   [https://conf.researchr.org/home/dls-2019](https://conf.researchr.org/home/dls-2019)
+    -   [http://www.dynamic-languages-symposium.org/dls-19/](http://www.dynamic-languages-symposium.org/dls-19/)
 
 - DLS 2018
     -   Boston, Massachusetts, USA, November 6, 2018
