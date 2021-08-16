@@ -1,0 +1,81 @@
+---
+title: "Functional Art, Music, Modeling and Design (FARM 2021) Aug 21: Call for Participation"
+timestamp: "8/10/2021 8:51:15"
+start: "8/27/2021"
+end: "8/27/2021"
+location: "virtual"
+---
+======================================================================
+			      FARM 2021
+
+	      9th ACM SIGPLAN International Workshop on
+	      Functional Art, Music, Modeling and Design
+
+	      27 August, 2021, co-virtuel with ICFP 2021
+
+		   https://functional-art.org/2021/
+======================================================================
+				   
+The ACM SIGPLAN International Workshop on Functional Art, Music,
+Modelling and Design (FARM) gathers together people who are harnessing
+functional techniques in the pursuit of creativity and expression.
+
+Functional Programming has emerged as a mainstream software
+development paradigm, and its artistic and creative use is booming. A
+growing number of software toolkits, frameworks and environments for
+art, music and design now employ functional programming languages and
+techniques. FARM is a forum for exploration and critical evaluation of
+these developments, for example to consider potential benefits of
+greater consistency, tersity, and closer mapping to a problem domain.
+
+Registration
+------------
+
+You can register via the ICFP 2021 registration:
+
+http://icfp21.sigplan.org/attending/registration
+
+Don't be confused that it says ~ICFP~ - FARM is part of a larger event
+around ICFP 2021, and you can register for FARM without registering
+for ICFP.
+
+Keynote
+-------
+
+Phoenix Perry will hold the keynote.
+
+Accepted papers
+---------------
+
+minimum: a self-extensible programming language for sound and music
+Tomoya Matsuura and Kazuhiro Jo
+
+MidifilePerformer: a case study for chronologies
+Juliette Chabassier, Myriam Desainte-Catherine, Jean Haury, Marin Pobel and Bernard Serpette
+
+Temporal-Scope Grammars for Polyphonic Music Generation
+Lukas Eibensteiner, Martin Ilčík and Michael Wimmer
+
+The W-calculus: A Synchronous Framework for the Verified Modelling of Digital Signal Processing Algorithms
+Emilio Jesus Gallego Arias, Pierre Jouvelot, Sylvain Ribstein and Dorian Desblancs
+
+Human-in-the-loop Program Synthesis for Live Coding
+Mark Santolucito
+
+Live Performances
+-----------------
+
+FARM 2021 will feature a session of live performances:
+
+- John Leo, Logical Soundness
+- Emiddio Vasquez, Title TBA
+- José Miguel Fernandez, Homotopy
+
+Workshop Organisation
+---------------------
+
+Workshop Chair: Daniel Winograd-Cort (Luminous Computing)
+Program Chair: Jean-Louis Giavitto (IRCAM Paris)
+Publicity Chair: Michael Sperber (Active Group GmbH)
+Performance Chair: John MacCallum (HfMT Hamburg)
+

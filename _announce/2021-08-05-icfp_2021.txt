@@ -1,0 +1,115 @@
+---
+title: "Call for Participation: ICFP 2021"
+timestamp: "8/5/2021 3:21:33"
+start: "8/22/2022"
+end: "8/27/2022"
+location: "Online"
+---
+=====================================================================
+
+                       Call for Participation
+
+                             ICFP 2021
+26th ACM SIGPLAN International Conference on Functional Programming
+                       and affiliated events
+
+                    August 22 - August 27, 2021
+                               Online
+                     http://icfp21.sigplan.org/
+
+                 Early Registration until August 7!
+
+=====================================================================
+
+ICFP provides a forum for researchers and developers to hear
+about the latest work on the design, implementations, principles, and
+uses of functional programming. The conference covers the entire
+spectrum of work, from practice to theory, including its peripheries.
+
+This year, the conference will be a virtual event. All activities will
+take place online.
+
+The main conference will take place from August 23-25, 2021 during two
+time bands. The first band will be 4PM-11PM Seoul time, and will
+include both technical and social activities.  The second band will
+repeat (with some variation) the technical program and social
+activities 12 hours later, 3PM-10PM New York, the following day.
+
+We’re excited to announce that ICFP 2021 will feature an invited talk
+from Ravi Chugh of the University of Chicago. Keynote sessions will
+take place at 10 PM Seoul/9 AM New York. 
+
+ICFP has officially accepted 35 exciting papers, and (in its second
+year) there will also be presentations of 4 papers accepted recently
+to the Journal of Functional Programming. Co-located symposia and
+workshops will take place the day before and two days immediately
+after the main conference.
+
+Registration is now open. The early registration deadline is August
+7th, 2021.  Registration is not free, but is significantly lower than
+usual, including a $10 discounted registration option available to
+all. Students who are ACM or SIGPLAN members may register for FREE
+before the early deadline.
+
+   https://regmaster.com/2021conf/ICFP21/register.php
+
+New this year: Attendees will be able to sign-up for the ICFP
+Mentoring Program (either to be a mentor, receive mentorship or both).
+
+
+ * Overview and affiliated events:
+   http://icfp21.sigplan.org/home
+
+ * Accepted papers:
+   http://icfp21.sigplan.org/track/icfp-2021-papers#event-overview
+
+ * JFP Talks:
+   https://icfp21.sigplan.org/track/icfp-2021-jfp-talks#event-overview
+
+ * Registration is available via:
+   https://regmaster.com/2021conf/ICFP21/register.php
+   Early registration ends 8 August, 2021.
+
+ * Programming contest:
+   https://icfpcontest2021.github.io/
+
+ * Student Research Competition:
+   https://icfp21.sigplan.org/track/icfp-2021-Student-Research-Competition
+
+ * Follow us on Twitter for the latest news:
+   http://twitter.com/icfp_conference
+
+This year, there are 10 events co-located with ICFP:
+
+ * Erlang Workshop (8/26)
+ * Haskell Implementors' Workshop (8/22)
+ * Haskell Symposium (8/26-8/27)
+ * Higher-Order Programming with Effects (8/22)
+ * miniKanren Workshop (8/26)
+ * ML Family Workshop (8/26)
+ * OCaml Workshop (8/27)
+ * Programming Languages Mentoring Workshop (8/22)
+ * Scheme Workshop (8/27)
+ * Type-Driven Development (8/22)
+
+### ICFP Organizers
+
+General Chair: Sukyoung Ryu (KAIST, South Korea)
+Program Chair: Ron Garcia (UBC, Canada)
+
+Artifact Evaluation Co-Chairs: Brent Yorgey (Hendrix College, USA)
+                              Gabriel Scherer (INRIA Saclay, France)
+Industrial Relations Chair: Alan Jeffrey (Roblox, USA)
+                           Simon Marlow (Facebook, UK)
+Programming Contest Organizers:  Alex Lang and Jasper Van der Jeugt
+Publicity and Web Chair: Sam Tobin-Hochstadt (Indiana University, USA)
+Student Research Competition Chair: Anders Miltner (University of Texas, USA)
+Workshops Co-Chairs: Zoe Paraskevopoulou (Northeastern University, USA)
+                   Leonidas Lampropoulos (University of Maryland, USA)
+Video Co-Chairs: Leif Andersen (Northeastern University, USA)
+                Ben Chung (Northeastern University, USA)
+Student Volunteer Co-Chairs: Hanneli Tavante (McGill University, Canada)
+                            Jaemin Hong (KAIST, South Korea)
+                            Lily Bryant (UBC, Canada)
+Accessibility Co-Chairs: Lindsey Kuper (UCSC, USA)
+                        Kathrin Stark (Princeton, USA)
