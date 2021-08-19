@@ -1,0 +1,201 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>FHPNC 2021: Proceedings of the 9th ACM SIGPLAN International Workshop on Functional High-Performance and Numerical Computing</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>FHPNC 2021: Proceedings of the 9th ACM SIGPLAN International Workshop on Functional High-Performance
+               and Numerical Computing</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3471873"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471873.3472974">Improving GHC Haskell NUMA profiling</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Ruairidh MacGregor</li>
+               <li class="nameList">Phil Trinder</li>
+               <li class="nameList Last">Hans-Wolfgang Loidl</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>As the number of cores increases Non-Uniform Memory Access (NUMA) is becoming increasingly
+                     prevalent in general purpose machines. Effectively exploiting NUMA can significantly
+                     reduce memory access latency and thus runtime by 10-20%, and profiling provides information
+                     on how to optimise. Language-level NUMA profilers are rare, and mostly profile conventional
+                     languages executing on Virtual Machines. Here we profile, and develop new NUMA profilers
+                     for, a functional language executing on a runtime system. </p> 
+                  <p> We start by using existing OS and language level tools to systematically profile
+                     8 benchmarks from the GHC Haskell nofib suite on a typical NUMA server (8 regions,
+                     64 cores). We propose a new metric: NUMA access rate that allows us to compare the
+                     load placed on the memory system by different programs, and use it to contrast the
+                     benchmarks. We demonstrate significant differences in NUMA usage between computational
+                     and data-intensive benchmarks, e.g. local memory access rates of 23% and 30% respectively.
+                     We show that small changes to coordination behaviour can significantly alter NUMA
+                     usage, and for the first time quantify the effectiveness of the GHC 8.2 NUMA adaption.
+                     </p> 
+                  <p> We identify information not available from existing profilers and extend both the
+                     numaprof profiler, and the GHC runtime system to obtain three new NUMA profiles: OS
+                     thread allocation locality, GC count (per region and generation) and GC thread locality.
+                     The new profiles not only provide a deeper understanding of program memory usage,
+                     they also suggest ways that GHC can be adapted to better exploit NUMA architectures.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471873.3472975">Parallelism-preserving automatic differentiation for second-order array languages</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Adam Paszke</li>
+               <li class="nameList">Matthew J. Johnson</li>
+               <li class="nameList">Roy Frostig</li>
+               <li class="nameList Last">Dougal Maclaurin</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We develop automatic differentiation (AD) procedures for reductions and scans—parameterized
+                     by arbitrary differentiable monoids—in a way that preserves parallelism, by rewriting
+                     them as other reductions and scans. This is in contrast with the literature and with
+                     existing AD systems, which are either general, but force sequential execution of the
+                     derivative program, or only include hand-crafted rules for a select few monoids (usually
+                     (0, +), (1, ×), (−∞, max) and (∞, min)) and thus lack the general flexibility of second-order
+                     languages.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471873.3472976">Computing persistent homology in Futhark</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Erik von Brömssen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We present a massively parallel algorithm for computing persistent homology, a concept
+                     within the field of topological data analysis, and we implement it in the purely functional
+                     array-based language Futhark, which has an efficient compiler targeting GPUs. Computing
+                     persistent homology consists of bringing a certain sparse matrix to a reduced form.
+                     We compare our implementation with OpenPH, an existing library for computing persistent
+                     homology on GPUs, and on large matrices we achieve speedups of 2.3 to 5. Our work
+                     shows both that persistent homology can be computed efficiently entirely on GPU hardware,
+                     and that Futhark can be used for this kind of sparse matrix manipulation.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471873.3472977">Generating high performance code for irregular data structures using dependent types</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Federico Pizzuti</li>
+               <li class="nameList">Michel Steuwer</li>
+               <li class="nameList Last">Christophe Dubach</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Parallel architectures offer high performance but are challenging to program. Data
+                     parallel functional languages offer a solution by providing a high-level programming
+                     model to work with accelerators such as GPUs. Existing languages are designed to work
+                     with dense arrays, limiting their usefulness in expressing irregular data structures,
+                     such as graphs and sparse matrices important in many application domains. </p> 
+                  <p>This paper addresses this limitation by extending a data-parallel language with <em>limited</em> dependent types, including position dependent arrays and dependent pairs to model
+                     irregular data structures. The approach is demonstrated through three case studies:
+                     dense to sparse matrix conversion, sparse matrix-vector multiplication, and parallel
+                     breadth-first search. </p> 
+                  <p>Experimental results show that this approach outperforms state-of-the-art implementations
+                     on GPUs. Compared to Nvidia’s cuSparse, our automatically generated code achieves
+                     an average speedup of 1.2× for dense to sparse matrix conversion and 1.3× for sparse
+                     matrix-vector multiplication.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>

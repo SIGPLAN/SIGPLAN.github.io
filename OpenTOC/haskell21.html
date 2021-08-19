@@ -1,0 +1,313 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>Haskell 2021: Proceedings of the 14th ACM SIGPLAN International Symposium on Haskell</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>Haskell 2021: Proceedings of the 14th ACM SIGPLAN International Symposium on Haskell</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3471874"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471874.3472979">Deadlock-free session types in linear Haskell</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Wen Kokke</li>
+               <li class="nameList Last">Ornela Dardha</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Priority Sesh is a library for session-typed communication in Linear Haskell which
+                     offers strong compile-time correctness guarantees. Priority Sesh offers two deadlock-free
+                     APIs for session-typed communication. The first guarantees deadlock freedom by restricting
+                     the process structure to trees and forests. It is simple and composeable, but rules
+                     out cyclic structures. The second guarantees deadlock freedom via priorities, which
+                     allows the programmer to safely use cyclic structures as well. </p> 
+                  <p> Our library relies on Linear Haskell to guarantee linearity, which leads to easy-to-write
+                     session types and more idiomatic code, and lets us avoid the complex encodings of
+                     linearity in the Haskell type system that made previous libraries difficult to use.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471874.3472980">Evaluating linear functions to symmetric monoidal categories</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jean-Philippe Bernardy</li>
+               <li class="nameList Last">Arnaud Spiwack</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>A number of domain specific languages, such as circuits or data-science workflows,
+                     are best expressed as diagrams of boxes connected by wires. Unfortunately, functional
+                     languages have traditionally been ill-equipped to embed this sort of languages. The
+                     Arrow abstraction is an approximation, but we argue that it does not capture the right
+                     properties. </p> 
+                  <p> A faithful abstraction is Symmetric Monoidal Categories (SMCs), but, so far, it hasn't
+                     been convenient to use. We show how the advent of linear typing in Haskell lets us
+                     bridge this gap. We provide a library which lets us program in SMCs with linear functions
+                     instead of SMC combinators. This considerably lowers the syntactic overhead of the
+                     EDSL to be on par with that of monadic DSLs. A remarkable feature of our library is
+                     that, contrary to previously known methods for categories, it does not use any metaprogramming.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471874.3472981">Graded monads and type-level programming for dependence analysis</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Finnbar Keating</li>
+               <li class="nameList Last">Michael B. Gale</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Programmers make assumptions about the order of memory operations, which are not captured
+                     in the operations' types and therefore cannot be enforced statically by a compiler.
+                     This can lead programmers to accidentally violate those assumptions if they are not
+                     careful. To address this issue, we encode the memory locations that are accessed by
+                     a given computation using a graded monad. We use the data flow dependencies which
+                     arise from this to construct a type-level graph that we analyse to automatically order
+                     the computations so that no dependencies are violated. This also allows for computations
+                     which have no dependencies on each other to be run concurrently.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471874.3472982">Haskell⁻¹: automatic function inversion in Haskell</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Finn Teegen</li>
+               <li class="nameList">Kai-Oliver Prott</li>
+               <li class="nameList Last">Niels Bunkenburg</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We present an approach for automatic function inversion in Haskell. The inverse functions
+                     we generate are based on an extension of Haskell's computational model with non-determinism
+                     and free variables. We implement this functional logic extension of Haskell via a
+                     monadic lifting of functions and type declarations. Using inverse functions, we additionally
+                     show how Haskell's pattern matching can be augmented with support for <em>functional patterns</em>, which enable arbitrarily deep pattern matching in data structures. Finally, we provide
+                     a plugin for the Glasgow Haskell Compiler to seamlessly integrate inverses and functional
+                     patterns into the language, covering almost all of the Haskell2010 language standard.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471874.3472983">Practical normalization by evaluation for EDSLs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Nachiappan Valliappan</li>
+               <li class="nameList">Alejandro Russo</li>
+               <li class="nameList Last">Sam Lindley</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Embedded domain-specific languages (eDSLs) are typically implemented in a rich host
+                     language, such as Haskell, using a combination of deep and shallow embedding techniques.
+                     While such a combination enables programmers to exploit the execution mechanism of
+                     Haskell to build and specialize eDSL programs, it blurs the distinction between the
+                     host language and the eDSL. As a consequence, extension with features such as sums
+                     and effects requires a significant amount of ingenuity from the eDSL designer. In
+                     this paper, we demonstrate that Normalization by Evaluation (NbE) provides a principled
+                     framework for building, extending, and customizing eDSLs. We present a comprehensive
+                     treatment of NbE for deeply embedded eDSLs in Haskell that involves a rich set of
+                     features such as sums, arrays, exceptions and state, while addressing practical concerns
+                     about normalization such as code expansion and the addition of domain-specific features.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471874.3472984">Design patterns for parser combinators (functional pearl)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jamie Willis</li>
+               <li class="nameList Last">Nicolas Wu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Parser combinators are a popular and elegant approach for parsing in functional languages.
+                     The design and implementation of such libraries are well discussed, but having a well-designed
+                     library is only one-half of the story. In this paper we explore several reusable approaches
+                     to writing parsers in combinator style, focusing on easy to apply patterns to keep
+                     parsing code simple, separated, and maintainable.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471874.3472985">Seeking stability by being lazy and shallow: lazy and shallow instantiation is user
+                  friendly</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Gert-Jan Bottu</li>
+               <li class="nameList Last">Richard A. Eisenberg</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Designing a language feature often requires a choice between several, similarly expressive
+                     possibilities. Given that user studies are generally impractical, we propose using
+                     stability as a way of making such decisions. Stability is a measure of whether the
+                     meaning of a program alters under small, seemingly innocuous changes in the code (e.g.,
+                     inlining). </p> 
+                  <p> Directly motivated by a need to pin down a feature in GHC/Haskell, we apply this
+                     notion of stability to analyse four approaches to the instantiation of polymorphic
+                     types, concluding that the most stable approach is lazy (instantiate a polytype only
+                     when absolutely necessary) and shallow (instantiate only top-level type variables,
+                     not variables that appear after explicit arguments).</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471874.3472986">Express: applications of dynamically typed Haskell expressions</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Rudy Matela</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This paper presents Express, a library for manipulating dynamically typed Haskell
+                     expressions involving function application and variables. Express works as a wrapper
+                     around the Data.Dynamic module and provides additional features such as: explicit
+                     encoding of function applicaion thus delayed application between values, support for
+                     variable placeholders and expression matching. This paper shows these additions make
+                     this library useful in generating program specifications, automated testing and program
+                     synthesis.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471874.3472987">Chesskell: a two-player game at the type level</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Toby Bailey</li>
+               <li class="nameList Last">Michael B. Gale</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Extensions to Haskell's type system, as implemented in GHC, have given developers
+                     more tools to express the domain-specific rules and invariants of their programs in
+                     types. For these extensions to see mainstream adoption, their use in complex applications
+                     has to be practical. We present Chesskell, an EDSL for describing Chess games where
+                     a type-level model of the full FIDE ruleset prevents us from expressing games with
+                     invalid moves. Our work highlights current limitations when using GHC to express such
+                     complex rules due to the resulting memory usage and compile times, which we report
+                     on. We further present some approaches for working around those limitations.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471874.3472988">Safe mutation with algebraic effects</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Hashan Punchihewa</li>
+               <li class="nameList Last">Nicolas Wu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>It can be difficult to write safe concurrent programs which use shared mutable state.
+                     Subtle mistakes can lead to data races that manifest as unexpected program behaviour.
+                     The prevailing approaches to solving this dilemma are to either eschew mutable state
+                     altogether, or design bespoke languages that prevent data races by design. This article
+                     introduces a third approach by showing how safe mutation can be integrated into a
+                     mainstream functional programming language with algebraic effects. This article produces
+                     a framework that tracks the use of mutable state and guarantees data race freedom
+                     at compile time.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>

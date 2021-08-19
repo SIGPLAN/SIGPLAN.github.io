@@ -207,6 +207,10 @@
   year: 2020
   title: "Proceedings of the 18th ACM SIGPLAN International Workshop on Erlang"
 -
+  event: Erlang
+  year: 2021
+  title: "Proceedings of the 20th ACM SIGPLAN International Workshop on Erlang"
+-
   event: ETX
   year: 2014
   title: "Proceedings of the 2014 Workshop on Eclipse Technology eXchange"
@@ -239,6 +243,10 @@
   year: 2019
   title: "Proceedings of the 7th ACM SIGPLAN International Workshop on Functional Art, Music, Modeling and Design"
 -
+  event: FARM
+  year: 2021
+  title: "Proceedings of the 9th ACM SIGPLAN International Workshop on Functional Art, Music, Modeling and Design"
+-
   event: FHPC
   year: 2014
   title: "Proceedings of the 3rd ACM SIGPLAN Workshop on Functional High-Performance Computing"
@@ -262,6 +270,10 @@
   event: FHPC
   year: 2019
   title: "Proceedings of the 8th ACM SIGPLAN Workshop on Functional High-Performance Computing"
+-
+  event: FHPNC
+  year: 2021
+  title: "Proceedings of the 9th ACM SIGPLAN Workshop on Functional High-Performance and Numerical Computing"
 -
   event: FMS
   year: 2018
@@ -346,6 +358,10 @@
   event: Haskell
   year: 2020
   title: "Proceedings of the 13th ACM SIGPLAN Symposium on Haskell"
+-
+  event: Haskell
+  year: 2021
+  title: "Proceedings of the 14th ACM SIGPLAN Symposium on Haskell"
 -
   event: HOPL
   year: 2020

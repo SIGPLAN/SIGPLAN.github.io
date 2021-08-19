@@ -1,0 +1,277 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>Erlang 2021: Proceedings of the 20th ACM SIGPLAN International Workshop on Erlang</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>Erlang 2021: Proceedings of the 20th ACM SIGPLAN International Workshop on Erlang</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3471871"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Invited Talk</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471871.3480952">Fifteen years of successfully dialyzing Erlang and Elixir code (invited talk)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Konstantinos Sagonas</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>As various researchers have discovered, the hard way, it is not easy to impose static
+                     type systems into dynamically typed languages, especially to those for which a significant
+                     amount of code already exists. Still, using types for documenting programmer intentions
+                     and for catching some programming errors early is widely recognized as important.
+                     </p> 
+                  <p> This summer marked the fifteen year anniversary of the publication of the "Success
+                     Typings" paper [Lindahl and Sagonas, 2006], which described the basic idea and first
+                     version of the type inference algorithm that Dialyzer defect detection tool is based
+                     on. The optimistic, 'never-wrong for defect detection', approach to type inference
+                     that success typings advocate has been key in Dialyzer's successful adoption not only
+                     by Erlang programmers but also more recently by the Elixir community. At various points
+                     during the same time period, other approaches to typing Erlang and Elixir code have
+                     not managed to gain similar levels of adoption. </p> 
+                  <p> In this invited talk, I will present the history behind success typings, their use
+                     and evolution within Dialyzer, and some reflections on what in my opinion were the
+                     key ingredients for Dialyzer's success within the communities of Erlang and Elixir
+                     programmers. I will also share some thoughts on what could have done better and/or
+                     differently, and where to go from here.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471871.3472963">Graft: general purpose raft consensus in Elixir</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Matthew Alan Le Brun</li>
+               <li class="nameList">Duncan Paul Attard</li>
+               <li class="nameList Last">Adrian Francalanza</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We present Graft, a generic tool for creating distributed consensus clusters running
+                     the Raft algorithm using state machines in Elixir. Our tool exhibits performance that
+                     is comparable to that of the Raft implementation supporting the original proposal,
+                     as well as the performance of other state-of-the-art Raft implementations running
+                     on the BEAM. The correctness of our tool is also ascertained through a number of complementary
+                     verification methods.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471871.3472962">The Hera framework for fault-tolerant sensor fusion with Erlang and GRiSP on an IoT
+                  network</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Sébastien Kalbusch</li>
+               <li class="nameList">Vincent Verpoten</li>
+               <li class="nameList Last">Peter Van Roy</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Classical sensor fusion approaches require to work directly with the hardware and
+                     involve a lot of low-level programming, which is not suited for reliable and user-friendly
+                     sensor fusion for Internet of Things (IoT) applications. In this paper, we propose
+                     and analyze Hera, a Kalman filter-based sensor fusion framework for Erlang. Hera offers
+                     a high-level approach for asynchronous and fault-tolerant sensor fusion directly at
+                     the edge of an IoT network. We use the GRiSP-Base board, a low-cost platform specially
+                     designed for Erlang and to avoid soldering or dropping down to C. We emphasize on
+                     the importance of performing all the computations directly at the sensor-equipped
+                     devices themselves, completely removing the cloud necessity. We show that we can perform
+                     sensor fusion for position and orientation tracking at a high level of abstraction
+                     and with the strong guarantee that the system will keep running as long as one GRiSP
+                     board is alive. With Hera, the implementation effort is significantly reduced which
+                     makes it an excellent candidate for IoT prototyping and education in the field of
+                     sensor fusion.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471871.3472961">Detecting oxbow code in Erlang codebases with the highest degree of certainty</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Fernando Benavides Rodríguez</li>
+               <li class="nameList Last">Laura M. Castro</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The presence of source code that is no longer needed is a handicap to project maintainability.
+                     The larger and longer-lived the project, the higher the chances of accumulating dead
+                     code in its different forms. </p> 
+                  <p> Manually detecting unused code is time-consuming, tedious, error-prone, and requires
+                     a great level of deep knowledge about the codebase. In this paper, we examine the
+                     kinds of dead code (specifically, oxbow code) that can appear in Erlang projects,
+                     and formulate rules to identify them with high accuracy. </p> 
+                  <p> We also present an open-source static analyzer that implements these rules, allowing
+                     for the automatic detection and confident removal of oxbow code in Erlang codebases,
+                     actively contributing to increasing their quality and maintainability.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471871.3472964">Makina: a new QuickCheck state machine library</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Luis Eduardo Bueso de Barrio</li>
+               <li class="nameList">Lars-Åke Fredlund</li>
+               <li class="nameList">Ángel Herranz</li>
+               <li class="nameList">Clara Benac Earle</li>
+               <li class="nameList Last">Julio Mariño</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This article presents Makina, a new library and a domain specific language for writing
+                     property-based testing models for <em>stateful</em> programs. Models written in the new domain specific language are, using Elixir macros,
+                     rewritten into normal QuickCheck state machines. Our main goals with Makina are to
+                     facilitate the task of developing correct and maintainable models, and to encourage
+                     model reuse. To meet these goals, Makina provides a declarative syntax for defining
+                     model states and model commands. In particular, Makina encourages the typing of specifications,
+                     and ensures through its rewrite rules that such type information can be used by, e.g.,
+                     the Dialyzer tool, to effectively typecheck models. Moreover, to promote model reuse,
+                     the domain specific language provides constructs to permit models to be defined in
+                     terms of collections of previously defined models.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471871.3472966">Bidirectional typing for Erlang</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Nithin Vadukkumchery Rajendrakumar</li>
+               <li class="nameList Last">Annette Bieniusa</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Erlang is a strict, dynamically typed functional programming language popular for
+                     its use in distributed and fault-tolerant applications. The absence of static type
+                     checking allows ill-typed programs to cause type errors at run time. The benefits
+                     of catching these type errors at compile time are the primary motivation for introducing
+                     a static type system for Erlang. The greatest challenge is to find a balance between
+                     keeping the type checking sound while retaining the flexibility and philosophy of
+                     the Erlang. However, since Erlang allows higher-rank polymorphism, it is unavoidable
+                     to require type annotations for some functions to ensure decidability. </p> 
+                  <p>In this paper, we propose a static type system for Erlang based on bidirectional type
+                     checking. In bidirectional type checking, terms are either used to <em>infer</em> a type, or they are <em>checked</em> against a given type. With the bidirectional type checking, we are trying to keep
+                     type checking sound without limiting the language’s philosophy. In addition, type
+                     annotations are only required when inference fails, which only occurs at predictable
+                     places, such as usage of higher-ranked polymorphism.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3471871.3472965">What are the critical security flaws in my system?</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Viktória Fördős</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Delivering secure software is a challenge that every software engineering team needs
+                     to face and solve. Methods based on static analysis can help programmers identify
+                     security risks in the software. Security checkers built using static analysis methods
+                     are a great help but they can overload the users with their findings. Today there
+                     is no security checker for Erlang that understands the severity of the found vulnerability
+                     and uses the information to prioritise the found vulnerabilities when presenting the
+                     results to the programmers. </p> 
+                  <p> In this paper we discuss how to prioritise vulnerabilities in Erlang programs. We
+                     propose a static analysis that determines the severity of a vulnerability. Building
+                     on top of our previous work, we extend the trust zone analyser algorithm with the
+                     proposed analysis to return prioritised results to the programmers. Our early evaluation
+                     shows that the trust zone analyser is able to identify and prioritise the most critical
+                     security flaws in an Erlang system.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>
