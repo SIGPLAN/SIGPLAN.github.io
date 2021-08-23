@@ -12,17 +12,14 @@ rich data, structured data, object-oriented programming, functional
 programming, logic programming, term-rewriting, attribute grammars,
 algebraic specification, etc.
 
+**Web Pages of Previous Conferences**
 
-**SLE Fast Facts**
-
-> [SLE 2015 Web Page](http://www.sleconf.org/2015/)  
-> Location: Pittsburg, PA, USA  
-> General Chair: [Richard Paige](http://www-users.cs.york.ac.uk/~paige/)  
-> Program Chairs: [Davide Di Ruscio](http://www.di.univaq.it/diruscio/), [Markus Voelter](http://www.voelter.de/)  
-> Dates:  Late Oct 2015  
-
-**Web Pages of Previous Conferences**  
-
+- [SLE 2020](http://www.sleconf.org/2020) (virtual)
+- [SLE 2019](http://www.sleconf.org/2019) (Athens, Greece)
+- [SLE 2018](http://www.sleconf.org/2018) (Boston, Massachusetts, U.S.A.)
+- [SLE 2017](http://www.sleconf.org/2017) (Vancouver, Canada)
+- [SLE 2016](http://www.sleconf.org/2016) (Amsterdam, The Netherlands)
+- [SLE 2015](http://www.sleconf.org/2015) (Pittsburg, U.S.A.)
 - [SLE 2014](http://www.sleconf.org/2014) (Västerås, Sweden)
 - [SLE 2013](http://www.sleconf.org/2013) (Indianapolis, Indiana, U.S.A.)
 - [SLE 2012](http://www.sleconf.org/2012) (Dresden, Germany.)
