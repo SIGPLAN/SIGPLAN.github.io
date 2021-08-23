@@ -6,17 +6,9 @@ ISMM, the International Symposium on Memory Management, focuses on
 garbage collection, dynamic storage allocation, storage management
 implementation techniques, plus interactions with languages and
 operating systems, and empirical studies of memory allocation and
-access behavior in programs.   
+access behavior in programs.
 
-**ISMM Fast Facts**  
-
-> [ISMM 2021](http://conf.researchr.org/home/ismm-2021)
-> Location: Virtual, co-located with [PLDI'21](https://pldi21.sigplan.org)
-> General Chair: [Tobias Wrigstad](http://wrigstad.com/)
-> Program Chair: [Zhenlin Wang](https://pages.mtu.edu/~zlwang/)
-> Date: June 22, 2021
-
-**Other ISMM Information**  
+**Other ISMM Information**
 
 Steering Committee
 
@@ -24,9 +16,10 @@ Steering Committee
 
 [ISMM Steering Committee Rules](http://www.cs.kent.ac.uk/people/staff/rej/ismm/scrules.html)
 
-**Web Pages of Previous Conferences**  
+**Web Pages of Previous Conferences**
 
-- [ISMM 2020](http://conf.researchr.org/home/ismm-2020) (Virtual)
+- [ISMM 2021](http://conf.researchr.org/home/ismm-2021) (virtual)
+- [ISMM 2020](http://conf.researchr.org/home/ismm-2020) (virtual)
 - [ISMM 2019](http://conf.researchr.org/home/ismm-2019) (Phoenix, Arizona)
 - [ISMM 2018](http://conf.researchr.org/home/ismm-2018) (Philadelphia, Pennsylvania)
 - [ISMM 2017](http://conf.researchr.org/home/ismm-2017) (Barcelona, Spain)
@@ -43,10 +36,10 @@ Steering Committee
 - [ISMM 2006](http://www.cs.technion.ac.il/~erez/ismm06) (Ottawa, Canada)
 - [ISMM 2004](http://www.research.ibm.com/ismm04) (Vancouver, BC)
 - [ISMM 2002](http://www.hpl.hp.com/personal/Hans_Boehm/ismm) (Berlin, Germany)
-- [ISMM 2000](http://www.cs.kent.ac.uk/events/conf/2000/ismm2000) (Minneapolis, Minnesota)   
+- [ISMM 2000](http://www.cs.kent.ac.uk/events/conf/2000/ismm2000) (Minneapolis, Minnesota)
 - [ISMM 1998](http://www.sfu.ca/~burton/ismm98.html) (Vancouver, Canada)
 
-**The International Workshops on Memory Management (ISMM Predecessor)**  
+**The International Workshops on Memory Management (ISMM Predecessor)**
 
 - [IWMM 1995](http://www.informatik.uni-trier.de/~ley/db/conf/iwmm/iwmm95.html) (Kinross, Scotland)
 - [IWMM 1992](http://www.informatik.uni-trier.de/~ley/db/conf/iwmm/iwmm92.html) (St. Malo, France)
