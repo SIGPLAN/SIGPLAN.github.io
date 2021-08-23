@@ -7,14 +7,6 @@ premier forum for researchers, developers, practitioners, and
 students to present research on programming language design and
 implementation.
 
-**PLDI Fast Facts**
-
-> [PLDI 2019 Web Page](http://pldi19.sigplan.org)  
-> Location: Phoenix, Arizona  
-> General Chair: [Kathryn S. McKinley](https://www.cs.utexas.edu/users/mckinley/)  
-> Program Chair: [Kathleen Fisher](http://www.cs.tufts.edu/~kfisher)  
-> Dates:  June 22-28, 2019  
-
 **Practices of PLDI**
 
 The document [Practices of PLDI](http://www.sigplan.org/sites/default/files/PracticesofPLDI.pdf) describes the contract between PLDI organizers and the broader community.  The document was approved in June 2013 and revised in August 2015 and September 2017.  The Chair of the PLDI Steering Committee has the source for the document and is responsible for maintaining it in consultation with the PLDI Steering Committee and the broader community.
@@ -35,8 +27,11 @@ The PLDI Steering Committee is chosen according the [Practices of PLDI](http://w
 
 {% include committee.liquid name="PLDI Steering Committee" %}
 
-**Web Pages of Previous Conferences**  
+**Web Pages of Previous Conferences**
 
+- [PLDI 2021](http://pldi21.sigplan.org) (virtual)
+- [PLDI 2020](http://pldi20.sigplan.org) (virtual)
+- [PLDI 2019](http://pldi19.sigplan.org) (Phoenix, AZ)
 - [PLDI 2018](http://pldi18.sigplan.org) (Philadelphia, PA)
 - [PLDI 2017](http://pldi17.sigplan.org) (Barcelona, Spain)
 - [PLDI 2016](http://conf.researchr.org/home/pldi-2016) (Santa Barbara, CA)
