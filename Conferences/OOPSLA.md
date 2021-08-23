@@ -21,6 +21,8 @@ these awards.&#160; More details about the SIGPLAN awards can be found
 Web Pages of Previous Conferences
 ---------------------------------
 
+* [OOPSLA 2021](https://2021.splashcon.org/track/splash-2021-oopsla) (Chicago, IL)
+* [OOPSLA 2020](https://2020.splashcon.org/track/splash-2020-oopsla) (virtual)
 * [OOPSLA 2019](http://2019.splashcon.org/) (Athens, Greece)
 * [OOPSLA 2018](http://2018.splashcon.org/) (Boston, MA)
 * [OOPSLA 2017](http://2017.splashcon.org/) (Vancouver, Candada)
