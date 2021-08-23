@@ -7,25 +7,6 @@ The purpose of this mentoring workshop is to encourage graduate students (PhD an
 We especially encourage women and underrepresented minority students to attend PLMW.
 
 
-## PLMW series  2019-2020
-
-[PLMW @ ICFP'20](https://icfp20.sigplan.org)  
-- **Location**:  Jersey City, NJ, USA  
-- **Organizers/Chairs**: Nate Foster, Lindsey Kuper, Talia Ringer
-
-[PLMW @ SPLASH'20](https://2020.splashcon.org/track/splash-2020-PLMW)  
-- **Location**:  Chicago, IL, USA  
-- **Organizers/Chairs**: Jon Bell, Karim Ali, Malavika Samak 
-
-[PLMW @ PLDI'20](https://pldi20.sigplan.org/home/PLMW-PLDI-2020)  
-- **Location**:  London, UK 
-- **Organizers/Chairs**:  Milink Kulkarni, Nadia Polikarpova, Stephen Chong, Adrian Sampson
-
-[PLMW @ POPL'21](https://popl21.sigplan.org)  
-- **Location**: Copenhagen, Denmark  
-- **Organizers/Chairs**:  Justin Hsu, Stephanie Balzer, Azalea Raad, Gabriel Scherer 
-
-
 ## PLMW Steering Committee Membership for 2020
 
 - **ICFP Reps**: Nate Foster, David van Horn
@@ -43,6 +24,13 @@ We especially encourage women and underrepresented minority students to attend P
 
 
 ## Web Pages of Previous Conferences
+
+- [PLMW @ ICFP'21](https://icfp21.sigplan.org/home/PLMW-ICFP-2021) (virtual)
+- [PLMW @ PLDI'21](https://pldi21.sigplan.org/home/PLMW-PLDI-2021) (virtual)
+- [PLMW @ POPL'21](https://popl21.sigplan.org/home/PLMW-2021) (virtual)
+- [PLMW @ SPLASH'20](https://2020.splashcon.org/track/splash-2020-PLMW) (virtual)
+- [PLMW @ ICFP'20](https://icfp20.sigplan.org/home/PLMW-icfp-2020?) (virtual)
+- [PLMW @ PLDI'20](https://pldi20.sigplan.org/home/PLMW-PLDI-2020) (virtual)
 - [PLMW @ SPLASH'19](https://conf.researchr.org/home/PLMW-ICFP-2019) (Athens, Greece)
 - [PLMW @ ICFP'19](https://conf.researchr.org/home/PLMW-ICFP-2019) (Berlin, Germany)
 - [PLMW @ PLDI'19](https://conf.researchr.org/home/PLMW-PLDI-2019) (Phoenix, AZ, United States)
