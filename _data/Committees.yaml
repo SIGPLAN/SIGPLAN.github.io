@@ -56,21 +56,29 @@ Other Past Members:
   - Past Past Vice Chair: "Graham Hutton"
 
 ASPLOS Steering Committee:
-  -   Sarita Adve, University of Illinois at Urbana-Champaign
-  -   John Carter, IBM
-  -   Yunji Chen, Chinese Academy of Sciences, China
-  -   Tom Conte, Georgia Tech
-  -   Sandhya Dwarkadas, University of Illinois at Urbana-Champaign
-  -   Kemal Ebcioglu, Global Supercomputing
-  -   Shan Lu, University of Chicago
-  -   Ozcan Ozturk, Bilkent University, Turkey
-  -   SIGPLAN Vice Chair: #
-  -   Olivier Temam, Google, France
-  -   David Wood, University of Wisconsin, Madison
-  -   Yuanyuan Zhou, UCSD
+  - Sarita Adve, University of Illinois at Urbana-Champaign
+  - R. Iris Bahar, Brown University
+  - Emery Berger, University of Massachusetts Amherst
+  - Luis Ceze, University of Washington
+  - Babak Falsafi, École Polytechnique Fédérale de Lausanne
+  - Maurice Herlihy, Brown University
+  - James Larus, École Polytechnique Fédérale de Lausanne
+  - Alvin R. Lebeck, Duke University
+  - Shan Lu, University of Chicago
+  - Christos Kozyrakis, Stanford University
+  - Jens Palsberg, University of California, Los Angeles
+  - Tim Sherwood, University of California, Santa Barbara
+  - Karin Strauss, Microsoft Research
+  - Emmett Witchel, University of Texas at Austin
 
 CGO Steering Committee:
-  - Chair: Olivier Temam
+  - Jack Davidson, University of Virginia
+  - Carol Eidt, Microsoft
+  - Vijay Janapa Janapa Reddi, Harvard University
+  - Teresa Johnson, Google
+  - Fabrice Rastello, Inria
+  - Aaron Smith, Microsoft
+  - Jingling Xue, UNSW
 
 DLS Steering Committee:
     - Chair: Tim Felgentreff
@@ -107,16 +115,17 @@ ISMM Steering Committee:
   -   "[Harry Xu](http://www.cs.ucla.edu/~harryxu/)"
 
 LCTES Steering Committee:
-  -   "[Koen De Bosschere](http://www.elis.ugent.be/~kdb/)"
-  -   "[Krisztian Flautner](http://www.eecs.umich.edu/~manowar/)"
-  -   "[Rajiv Gupta](http://www.cs.arizona.edu/people/gupta/)"
-  -   "[Mary Jane Irwin](http://www.cse.psu.edu/~mji/)"
-  -   "[Mahmut Kandemir](http://www.cse.psu.edu/~kandemir/)"
-  -   "[Christoph Kirsch](http://cs.uni-salzburg.at/~ck/)"
-  - Chair: "[Zhiyuan Li](http://www.cs.purdue.edu/people/faculty/ci/)"
-  -   "[Yunheung Paek](http://compiler.snu.ac.kr/ypaek/)"
-  -   "[Santosh Pande](http://www.cc.gatech.edu/~santosh/)"
-  -   "[John Regehr](http://www.cs.utah.edu/~regehr/)"
+  - David B. Whalley, Florida State University
+  - Jian-Jia Chen
+  - Christophe Dubach, McGill University
+  - Changhee Jung, Purdue University
+  - Tei-Wei Kuo, Academia Sinica
+  - Vijay Nagarajan, University of Edinburgh
+  - Zili Shao, The Chinese University of Hong Kong
+  - Aviral Shrivastava, Arizona State University
+  - Jason Xue, City University of Hong Kong
+  - Jingling Xue, UNSW
+  - Zheng Zhang, Rutgers University
 
 Onward! Steering Committee:
     - Chair: Jonathan Aldrich
@@ -176,26 +185,28 @@ SIGAPL Steering Committee:
   - Chair: Guy Larocque
 
 SPLASH Steering Committee:
-  -  SIGPLAN Chair: #
-  -  SIGPLAN Vice Chair: #
-  -  Jonathan Aldrich, 2017 OOPSLA PC Chair, 2015 SPLASH General Chair, and Steering Committee Chair (2017-2019)
-  -  Hidehiko Masuhara, 2019 Onward! PC Chair
-  -  Gail Murphy, 2017 SPLASH General Chair and 2015 Onward! Papers Chair
-  -  Emina Torlak, 2017 Onward! PC Chair
-  -  Manu Sridharan, 2018 OOPSLA PC Chair
-  -  Jan Vitek, 2018 General Chair
-  -  Elisa Gonzalez-Boix, 2018 Onward! PC Chair
-  -  Eelco Visser, 2019 OOPSLA PC Chair, 2016 SPLASH General Chair, 2011 Onward! PC Chair, and Steering Committee Chair (2019-2021)
-  -  Yannis Smaragdakis, 2019 General Chair, 2016 OOPSLA PC Chair
+  - Chair: Eelco Visser, Delft University of Technology
+  - Jonathan Aldrich, Carnegie Mellon University
+  - Sophia Drossopoulou, Imperial College London
+  - Elisa Gonzalez Boix, Vrije Universiteit Brussel
+  - David Grove, IBM Research
+  - Tony Hosking, Australian National University / Data61
+  - Stephen Kell, University of Kent
+  - Hidehiko Masuhara, Tokyo Institute of Technology
+  - Gail Murphy, University of British Columbia
+  - Jens Palsberg, University of California, Los Angeles
+  - Benjamin C. Pierce, University of Pennsylvania
+  - Alex Potanin, Victoria University of Wellington
+  - Hridesh Rajan, Iowa State University
+  - Yannis Smaragdakis, University of Athens
+  - Manu Sridharan, University of California at Riverside
+  - Emina Torlak, University of Washington
+  - Jan Vitek, Northeastern University / Czech Technical University
 
-"VEE Steering Committee":
-  -  Chair: "[Martin Hirzel](http://hirzels.com/martin/)       (IBM Research)"
-  -  "[Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/) (Australian National University)"
-  -  "[Angela Demke Brown](http://www.cs.toronto.edu/~demke/) (University of Toronto)"
-  -  "[Ada Gavrilovska](http://www.cc.gatech.edu/home/ada/) (Georgia Tech)"
-  -  "[Gernot Heiser](http://www.cse.unsw.edu.au/~gernot/) (NICTA and UNSW)"
-  -  "[Steve Muir](http://www.linkedin.com/in/9muir) (Comcast)"
-  -  "[Brian Noble](http://web.eecs.umich.edu/~bnoble) (University of Michigan)"
-  -  "[Erez Petrank](http://www.cs.technion.ac.il/~erez) (Technion)"
-  -  "[Bjarne Steensgaard](http://steensgaard.org/bjarne/) (Microsoft)"
-  -  "[Dan Tsafrir](http://www.cs.technion.ac.il/~dan/) (Technion)"
+VEE Steering Committee:
+  - Andrew Baumann, Microsoft Research
+  - Baris Kasikci, University of Michigan
+  - Santosh Nagarakatte, Rutgers University
+  - Jennifer B. Sartor, Ghent University
+  - Carl Waldspurger
+  - Robert Wisniewski, Intel
