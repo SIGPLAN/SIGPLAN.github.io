@@ -17,6 +17,8 @@ The current VEE steering committee is:
 
 **Web Pages of Previous Conferences**
 
+* [VEE 2021](https://conf.researchr.org/home/vee-2021) (virtual)
+* [VEE 2020](https://conf.researchr.org/home/vee-2020) (virtual)
 * [VEE 2019](https://conf.researchr.org/home/vee-2019) (Providence, RI)
 * [VEE 2018](https://conf.researchr.org/home/vee-2018) (Williamsburg, VA)
 * [VEE 2017](https://conf.researchr.org/home/vee-2017) (Xi'an China)
