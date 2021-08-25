@@ -104,7 +104,7 @@ Outside of ACM conferences and events, individual CARES committee members were c
 <table style="width:100%" border="0">
   <tr>
    <td><img src="http://sigplan.org/images/cares-photos/strout.png" alt="Michelle Strout"  width="156"><br><a href="http://cgi.cs.arizona.edu/~mstrout/">Michelle Strout</a></td>
-   <td>Co-Chair, <a href="mailto:mstrout@cs.arizona.edu">mstrout@cs.arizona.edu</a>, HPE and University of Arizona </td>
+   <td>Co-Chair, <a href="mailto:michelle.strout@hpe.com">michelle.strout@hpe.com</a>, HPE and University of Arizona </td>
   </tr> 
    <tr>
    <td><img src="http://sigplan.org/images/cares-photos/walker.png" alt="David Walker" width="156"><br><a href="https://www.cs.princeton.edu/~dpw/">David Walker</a></td>
