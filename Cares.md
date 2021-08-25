@@ -103,8 +103,8 @@ Outside of ACM conferences and events, individual CARES committee members were c
 
 <table style="width:100%" border="0">
   <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/mckinley.png" alt="Kathryn McKinley"  width="156"><br><a href="https://www.cs.utexas.edu/users/mckinley/">Kathryn McKinley</a></td>
-   <td>Co-Chair, <a href="mailto:mckinley@cs.utexas.edu">mckinley@cs.utexas.edu</a>, Google, 2019-2021 </td>
+   <td><img src="http://sigplan.org/images/cares-photos/strout.png" alt="Michelle Strout"  width="156"><br><a href="http://cgi.cs.arizona.edu/~mstrout/">Michelle Strout</a></td>
+   <td>Co-Chair, <a href="mailto:mstrout@cs.arizona.edu">mstrout@cs.arizona.edu</a>, HPE and University of Arizona </td>
   </tr> 
    <tr>
    <td><img src="http://sigplan.org/images/cares-photos/walker.png" alt="David Walker" width="156"><br><a href="https://www.cs.princeton.edu/~dpw/">David Walker</a></td>
@@ -122,6 +122,10 @@ Outside of ACM conferences and events, individual CARES committee members were c
    <td><img src="http://sigplan.org/images/cares-photos/krishnamurthi.png" alt="Shriram Krishnamurthi" width="156"><br><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a></td>
    <td>Member, <a href="mailto:sk@cs.brown.edu">sk@cs.brown.edu</a>, Brown University </td>
   </tr> 
+  <tr>
+   <td><img src="http://sigplan.org/images/cares-photos/mckinley.png" alt="Kathryn McKinley"  width="156"><br><a href="https://www.cs.utexas.edu/users/mckinley/">Kathryn McKinley</a></td>
+   <td>Member, <a href="mailto:mckinley@cs.utexas.edu">mckinley@cs.utexas.edu</a>, Google</td>
+  </tr> 
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/jones.png" alt="Simon Peyton Jones"  width="156"><br><a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a></td>
    <td>Member, <a href="mailto:simonpj@microsoft.com">simonpj@microsoft.com</a>, Microsoft Research Cambridge </td>
@@ -133,10 +137,6 @@ Outside of ACM conferences and events, individual CARES committee members were c
   <tr>
    <td><img src="http://sigplan.org/images/cares-photos/silva.png" alt="Alexandra Silva"  width="156"><br><a href="https://www.alexandrasilva.org/#/main.html">Alexandra Silva</a></td>
    <td>Member, <a href="mailto:alexandra.silva@ucl.ac.uk">alexandra.silva@ucl.ac.uk</a>, University College London </td>
-  </tr> 
- <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/strout.png" alt="Michelle Strout"  width="156"><br><a href="http://cgi.cs.arizona.edu/~mstrout/">Michelle Strout</a></td>
-   <td>Member, <a href="mailto:mstrout@cs.arizona.edu">mstrout@cs.arizona.edu</a>, HPE and University of Arizona </td>
   </tr> 
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/weirich.png" alt="Stephanie Weirich"  width="156"><br><a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a></td>
