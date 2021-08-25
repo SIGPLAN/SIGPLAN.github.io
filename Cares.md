@@ -136,7 +136,7 @@ Outside of ACM conferences and events, individual CARES committee members were c
   </tr> 
   <tr>
    <td><img src="http://sigplan.org/images/cares-photos/silva.png" alt="Alexandra Silva"  width="156"><br><a href="https://www.alexandrasilva.org/#/main.html">Alexandra Silva</a></td>
-   <td>Member, <a href="mailto:alexandra.silva@ucl.ac.uk">alexandra.silva@ucl.ac.uk</a>, University College London </td>
+   <td>Member, <a href="mailto:alexandra.silva@cornell.edu">alexandra.silva@cornell.edu</a>, Cornell University</td>
   </tr> 
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/weirich.png" alt="Stephanie Weirich"  width="156"><br><a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a></td>
