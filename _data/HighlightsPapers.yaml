@@ -43,7 +43,7 @@ Selected July 2020:
     learnt attention over the paths of a program, comes with an open-source 
     implementation, as well as online interactive demos.
 
-- Title: "_[PlanAlyzer: assessing threats to the validity of online experiments](https://dl.acm.org/doi/10.1145/3290353)_"
+- Title: "_[PlanAlyzer: assessing threats to the validity of online experiments](https://dl.acm.org/doi/10.1145/3474385)_"
   Authors: Emma Tosch (UMass), Eytan Bakshy(Facebook), Emery Berger (UMass), David D. Jensen (UMass), and J. Eliot B. Moss (UMass)
   Venue: OOPSLA 2019
   NominationStatement: |
@@ -61,10 +61,15 @@ Selected July 2020:
     programs are mutated and PlanAlyzer yields precision and recall of 92% on the
     mutated corpus.
   CACMHighlight:
-    Date: February 2021
+    Date: September 2021
     Title: "PlanAlyzer: assessing threats to the validity of online experiments"
-    
-    
+    Link: https://dl.acm.org/doi/10.1145/3474385
+    TechnicalPerspective:
+      Title: 'Does your experiment smell?'
+      Link: https://dl.acm.org/doi/10.1145/3474383
+      Author: Stefano Balietti
+
+
 Selected July 2019:
 
 - Title: "_[BioScript: Programming Safe Chemistry on Laboratories-on-a-chip](https://dl.acm.org/citation.cfm?id=3276498)_"
