@@ -1,0 +1,55 @@
+---
+title: "Call for Papers, 43rd ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2022)"
+timestamp: "9/9/2021 15:32:35"
+start: "11/19/2021"
+location: "San Diego, California, United States"
+tweet: "The PLDI Call for Papers is online. The submission deadline is November 19. Looking forward to your submissions! https://pldi22.sigplan.org/track/pldi-2022-pldi#Call-for-Papers"
+---
+*Call for Papers*
+====================
+2022 ACM Conference on Programming Language Design and Implementation (PLDI)
+Mon 20 - Fri 24 June 2022
+San Diego, California, United States
+https://pldi22.sigplan.org/track/pldi-2022-pldi#Call-for-Papers
+
+PLDI is a premier forum for programming language research, broadly construed, including design, implementation, theory, applications, and performance. PLDI seeks outstanding research that extends and/or applies programming-language concepts to advance the field of computing. Novel system designs, thorough empirical work, well-motivated theoretical results, and new application areas are all welcome emphases in strong PLDI submissions.
+
+Reviewers will evaluate each contribution for its accuracy, significance, originality, and clarity. Submissions should be organized to communicate clearly to a broad programming-language audience as well as to experts on the paper’s topics. Papers should identify what has been accomplished and how it relates to previous work.
+
+Authors of empirical papers are encouraged to consider the seven categories of the SIGPLAN Empirical Evaluation Guidelines when preparing their submissions. (http://www.sigplan.org/Resources/EmpiricalEvaluation/)
+
+*Important Dates*
+===============
+Fri 19 Nov 2021, Submission Deadline
+Mon 7 Feb - Wed 9 Feb 2022, Author Response
+Fri 25 Feb 2022, Author Notification
+
+*Author Instructions*
+==================
+https://pldi22.sigplan.org/track/pldi-2022-pldi#Call-for-Papers
+
+Submission site: https://pldi2022.hotcrp.com/
+
+*Organizing Committee*
+====================
+- General Chair: Ranjit Jhala, U. of California at San Diego
+- Program Chair: Isil Dillig, U. of Texas at Austin
+- Web Chair: Dan Barowy, Williams College
+- Publicity Co-Chairs:
+  - William J. Bowman, U. of British Columbia
+  - Arjun Guha, Northeastern U.
+- Sponsorship Co-Chairs:
+  - Ravi Chugh, U. of Chicago
+  - Sasa Misailovic, U. of Illinois at Urbana-Champaign
+- Workshops Co-Chairs:
+  - Nadia Polikarpova, U. of California at San Diego
+  - Alexandra Silva, U. College London
+- Student Research Competition Co-Chairs:
+  - Tyler Sorensen, U. of California at Santa Cruz
+  - Jubi Taneja, Microsoft Research
+- Artifact Evaluation Co-Chairs:
+  - Niki Vazou, IMDEA Software Institute
+  - Xinyu Wang, U. of Michigan
+
+https://pldi22.sigplan.org/committee/pldi-2022-organizing-committee
+

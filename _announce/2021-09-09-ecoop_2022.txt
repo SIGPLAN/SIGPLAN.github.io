@@ -1,0 +1,72 @@
+---
+title: "ECOOP 2022: Call for Papers"
+timestamp: "9/9/2021 4:30:54"
+start: "12/1/2021"
+location: "Berlin, Germany"
+tweet: "ECOOP is a conference about all practical and theoretical investigations of programming languages, systems and environments.\nECOOP 2022 will have two submission rounds, deadlines are December, 1st 2021 and March, 1st 2022.\nFind the full Call for Papers under https://2022.ecoop.org/track/ecoop-2022-papers"
+---
+NEW this year: ECOOP 2022 will have two rounds of reviewing.
+
+Round 1 paper submission deadline: ** December 1, 2021 **
+
+============================
+
+ECOOP 2022
+Call for Papers
+
+ECOOP 2022 will be held on Mon 6th - Fri 10th of June in Berlin, Germany.
+
+https://2022.ecoop.org/
+
+============================
+
+ECOOP is a conference about programming originally focused on object-orientation, but now including all practical and theoretical investigations of programming languages, systems and environments. ECOOP solicits innovative solutions to real problems as well as evaluations of existing solutions.
+
+Authors are asked to pick one of the following categories:
+
+  - Research.
+  The most traditional category for papers that advance the sate of the art.
+  - Reproduction.
+  An empirical evaluation that reconstructs a published experiment in a different context in order to validate the results of that earlier work.
+  - Experience.
+  Applications of known PL techniques in practice as well as tools. Industry papers will be reviewed by practitioners. We welcome negative results that may provide inspiration for future research.
+  - Pearls/Brave New Ideas.
+  Articles that either explain a known idea in an elegant way or unconventional papers introducing ideas that may take some time to substantiate. These papers may be short.
+
+==== Submissions ====
+
+Submission must not have been published, or have major overlap with previous work. In case of doubt, contact the chair. Proceedings are published in open access by Dagstuhl LIPIcs in the Dagstuhl LIPIcs LaTeX-style template.
+
+ECOOP uses double-blind reviewing. Authors’ identities are only revealed if a paper is accepted. Papers must 1. omit author names and institutions, and 2. use the third person when referencing the authors’ own work. Nothing should be done in the name of anonymity that weakens the submission; see the DB FAQ. When in doubt, contact the chair.
+
+There is no page limit on submissions, but authors must understand that reviewers have a fixed time budget for each paper, so the quality of the comments is likely to be inversely proportional to length. Brevity is a virtue.
+
+Authors will be given a three-day period to read and respond to the reviews of their papers before the program committee meeting. Responses have no length limit.
+
+==== Artifact Evaluation and Intent ====
+
+To support replication of experiments, authors of research papers may submit artifacts to the Artifact Evaluation Committee. They will be asked whether they intend to submit an artifact at submission time. It is understood that some paper do not have artifacts.
+
+======== Important Dates ========
+
+ECOOP 2022 will have two deadlines for submissions, three months apart. Future years may have more deadlines. Papers submitted in each round can be (a) accepted, (b) rejected, or (c) asked for revisions. Revisions can be submitted at a later round. Papers retain their reviewers during revision.
+
+  - Submission R1: 1 December 2021
+  - R1 Artifacts due: 10 December 2021
+  - Response R1: 23 January 2022
+  - Notification R1: 1 February 2022
+
+  - Submission R2: 1 March 2022
+  - R2 Artifacts due: 10 March 2022
+  - Response R2: 23 April 2022
+  - Notification R2: 1 May 2022
+
+==== Journal First and Journal After ====
+
+We have Journal First / After arrangements with ACM’s Transactions on Programming Languages and Systems (TOPLAS), Elsevier’s Science of Computer Programming (SCP) and AITO’s Journal of Object Technology (JOT).
+
+Only new research papers are eligible to be Journal First (JF). JF papers will have an extended abstract in the ECOOP proceedings. The deadline is that same as round 1 of submissions and the notification is aligned with round 2 notification. TOPLAS JF papers should be submitted according to this announcement. SCP JF papers should follow this call for papers. JF papers are presented at the conference and eligible for awards.
+
+Journal After (JA) papers are papers for which the authors request to be considered for post conference journal publication. Once accepted by the ECOOP PC, these papers will be forwarded to the journal editors. Reviews and reviewers will be forwarded and used at the editor’s discretion. JA papers will have an extended abstract (up to 12 pages) in the conference proceedings.
+
+Find answers to frequently asked questions on our website: https://2022.ecoop.org/track/ecoop-2022-papers

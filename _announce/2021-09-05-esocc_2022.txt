@@ -1,0 +1,219 @@
+---
+title: "9th European Conference on Service-Oriented and Cloud Computing (ESOCC 2022): Early Call for Contributions"
+timestamp: "9/5/2021 9:48:11"
+start: "3/22/2022"
+end: "3/24/2022"
+location: "Lutherstadt Wittenberg, Germany"
+---
+
+*** Early Call for Contributions ***
+
+9th European Conference on Service-Oriented and Cloud Computing
+(ESOCC 2022)
+
+March 22-24, 2022, Lutherstadt Wittenberg, Germany
+
+https://www.esocc-conf.eu
+
+
+Scope
+
+Service-oriented and cloud computing have made a huge impact both on the software
+industry and on the research community. Today, service and cloud technologies are
+applied to build large-scale software landscapes as well as to provide single software
+services to end users. Services today are independently developed and deployed as
+well as freely composed while they can be implemented in a variety of technologies, a
+quite important fact from a business perspective. Similarly, cloud computing aims at
+enabling flexibility by offering a centralised sharing of resources. The industry's need
+for agile and flexible software and IT systems has made cloud computing the
+dominating paradigm for provisioning computational resources in a scalable, on-
+demand fashion. Nevertheless, service developers, providers, and integrators still
+need to create methods, tools and techniques to support cost-effective and secure
+development as well as use of dependable devices, platforms, services and service-
+oriented applications in the cloud.
+
+The European Conference on Service-Oriented and Cloud Computing (ESOCC) is the
+premier conference on advances in the state of the art and practice of service-
+oriented computing and cloud computing in Europe. The main objectives of this
+conference are to facilitate the exchange between researchers and practitioners in the
+areas of service-oriented computing and cloud computing, as well as to explore the
+new trends in those areas and foster future collaborations in Europe and beyond.
+
+
+Tracks
+
+- Main conference: three days of invited talks, panels, and presentations of selected
+research papers, including a dedicated day to satellite workshops.
+
+- PhD Symposium: an opportunity for PhD students to present their research activities
+and perspectives, to critically discuss them with other PhD students and with
+established researchers in the area, hence getting fruitful feedback and advices on
+their research activities.
+
+- Projects Track: a useful opportunity for researchers to disseminate the latest
+research developments in their projects and meet representatives of other consortia.
+
+Details about all the tracks are available at the conference web site:
+https://www.esocc-conf.eu .
+
+
+Topics of interest
+
+ESOCC 2022 seeks original, high quality papers related to all aspects of service-
+oriented and cloud computing. Specific topics of interest include but are not limited
+to:
+
+- Service and Cloud Computing Models
+  • Design patterns, guidelines and methodologies
+  • Governance models
+  • Architectural models
+  • Requirements engineering
+  • Formal Methods
+  • Model-Driven Engineering
+  • Quality models
+  • Security, Privacy & Trust models
+  • Self-Organising Service-Oriented and Cloud Architectures Models
+  • Testing models
+
+- Service and Cloud Computing Engineering
+  • Service Discovery, Matchmaking, Negotiation and Selection
+  • Monitoring and Analytics
+  • Governance and management
+  • Cloud Interoperability, Multi-Cloud, Cross-Cloud, Federated Cloud solutions
+  • Frameworks & Methods for Building Service and Cloud based Applications
+  • Cross-layer adaptation
+  • Edge/Fog computing
+  • Cloud, Service Orchestration & Management
+  • Service Level Agreement Management
+  • Service Evolution/Optimisation
+  • Service & Cloud Testing and Simulation
+  • QoS for Services and Clouds
+  • Semantic Web Services
+  • Service mining
+  • Service & Cloud Standards
+  • FaaS / Serverless computing
+
+- Technologies
+  • DevOps in the Cloud
+  • Containerized services
+  • Emerging Trends in Storage, Computation and Network Clouds
+  • Microservices: Design, Analysis, Deployment and Management
+  • Next Generation Services Middleware and Service Repositories
+  • RESTful Services
+  • Service and Cloud Middleware & Platforms
+  • Blockchain for Services & Clouds
+  • Services and Clouds with IoT
+  • Fog Computing with Service and Cloud
+
+- Business and Social aspects
+  • Enterprise Architectures for Service and Cloud
+  • Service-based Workflow Deployment & Life-cycle Management
+  • Core Applications, e.g., Big Data, Commerce, Energy, Finance, Health, Scientific Computing, Smart Cities
+  • Business Process as a Service - BPaaS
+  • Service and Cloud Business Models
+  • Service and Cloud Brokerage
+  • Service and Cloud Marketplaces
+  • Service and Cloud Cost & Pricing
+  • Crowdsourcing Business Services
+  • Social and Crowd-based Cloud
+  • Energy issues in Cloud Computing
+  • Sustainability issues
+
+Submissions from industry are welcome (for example, use cases).
+
+
+Submissions
+
+ESOCC 2022 invites submissions in all the tracks:
+
+- Regular research papers (15 pages including references)
+
+- PhD Symposium (8 pages including references, authored by the PhD student with
+indication of his/her supervisors' names)
+
+- Projects Track (1 to 5 pages including references, describing an ongoing project)
+
+We only accept original papers, not submitted for publication elsewhere. The papers
+must be formatted according to the LNCS proceedings guidelines. They must be
+submitted to the EasyChair site at
+https://easychair.org/conferences/?conf=esocc2022 by selecting the right track.
+
+All accepted regular research papers are expected to be published in the main
+conference proceedings by Springer in the Lecture Notes in Computer Science (LNCS)
+series (http://www.springer.com/lncs).
+
+Accepted papers of the other tracks and the satellite workshops are expected to be published by Springer in the Communications in Computer and Information Science
+(CCIS) series (https://www.springer.com/series/7899).
+
+At least one author of each accepted paper is expected to register and present the
+work at the conference.
+
+A journal special issue is planned, and authors of selected accepted papers will be
+invited to submit extended versions of their articles.
+
+
+Workshop Proposals
+
+ESOCC 2022 also invites proposals for satellite workshops. More details about the
+proposal format and submission can be found at https://esocc-conf.eu/index.php/workshops/ .
+
+
+Important Dates
+
+Regular research & industrial papers:
+- Paper submission: 31 October 2021
+- Notifications: 7 January 2022
+- Camera Ready versions due: 20 January 2022
+
+Projects track:
+- Paper submission: 14 January 2022
+- Paper notification: 25 February 2022
+- Camera Ready Version: 11 March 2022
+
+PhD Symposium Track:
+- Paper submission: 14 January 2022
+- Paper notification: 25 February 2022
+- Camera Ready Version: 11 March 2022
+
+Industrial Track:
+- Paper submission: 14 January 2022
+- Paper notification: 25 February 2022
+- Camera Ready Version: 11 March 2022
+
+Satellite Workshops:
+- Workshop Proposal submission: 8 October 2021
+- Workshop Proposal notification: 15 October 2021
+- Workshop Paper submission: 14 January 2022
+- Workshop Paper notification: 25 February 2022
+- Workshop Camera Ready Version: 11 March 2022
+
+
+Organization
+
+General Chair
+
+• Wolf Zimmermann (Martin Luther University Halle-Wittenberg, Germany)
+
+Programme Co-Chairs
+
+• Fabrizio Montesi (University of Southern Denmark, Denmark)
+• George A. Papadopoulos (University of Cyprus, Cyprus)
+
+Industrial Track Chair
+
+• Andreas Both (Anhalt University of Applied Science)
+
+Projects Track Chair
+
+• Damian Tamburri (Technical University Eindhoven)
+
+Workshops Co-Chairs
+
+• Guadalupe Ortiz (University of C·diz, Spain)
+• Christian Zirpins (Karlsruhe University of Applied Science)
+
+PhD Symposium Co-Chair
+
+• Jacopo Soldani (University of Pisa)
+• Massimo Villari (University of Messina)
+
