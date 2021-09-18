@@ -401,8 +401,8 @@ of the paper can be either assigned to ACM or held by the authors. Referees
 may examine auxiliary material, if it accompanies the submission, but this
 should not be considered part of the review process. For an example of
 auxiliary material in the Digital Library, see
-[here](http://portal.acm.org/citation.cfm?doid=1462173.1462178) and click on
-"source materials".
+[here](https://doi.org/10.1145/1462173.1462178) and click on
+"Supplemental Material".
 
 
 
