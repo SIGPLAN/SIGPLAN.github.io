@@ -200,7 +200,7 @@ site: [here](http://pac.sigplan.org/).
 
 ## PAC Contact Person
 
-> [Jeff Foster](mailto:jfoster@cs.tufts.edu)
+> [Sukyoung Ryu](mailto:sukyoung.ryu@gmail.com)
 
 
 ## FAQ: Travel Expenses and Reimbursements
