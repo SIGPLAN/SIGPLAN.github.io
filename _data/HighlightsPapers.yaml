@@ -1,3 +1,80 @@
+Select September 2021:
+
+- Title: "_[Achieving high-performance the functional way: a functional pearl on expressing high-performance optimizations as rewrite strategies](https://dl.acm.org/doi/10.1145/3408974)_"
+  Authors: "Bastian Hagedorn (University of Münster, Germany), Johannes Lenfers (University of Münster, Germany), Thomas Koehler (University of Glasgow), Xueying Qin (University of Glasgow, United Kingdom), Sergei Gorlatch (University of Muenster), Michel Steuwer (University of Edinburgh, United Kingdom)"
+  Venue: ICFP 2020
+  NominationStatement: |
+    High-performance array code, for applications such as machine learning or
+    image processing, needs both good algorithms and highly tuned code. While
+    the algorithms are quite general, the tuning--involving optimisations such
+    as tiling, vectorisation, and loop unrolling--is very platform specific.
+    This paper cleanly separates those concerns, providing domain-specific
+    languages for specifying the algorithm and the optimisations
+    independently, with an optimisation language that supports abstraction and
+    reuse properly for the first time. As a result we can enjoy elegance, and
+    state-of-the-art performance, both at the same time. Sometimes we can have
+    our cake and eat it too.
+
+- Title: "_[Learning-based Memory Allocation for C++ Server Workloads](https://dl.acm.org/doi/10.1145/3373376.3378525)_"
+  Authors: "Martin Maas (Google), David Andersen (CMU), Michael Isard (Google), Mohammad Mahdi (Facebook), Kathryn S McKinley (Google), Colin Raffel (University of North Carolina)"
+  Venue: ASPLOS 2020
+  NominationStatement: |
+    As C++ server workloads move to using huge pages to avoid TLB pressure,
+    memory fragmentation issues have been exacerbated: even a small number of
+    objects left allocated can prevent the OS from reclaiming a virtual memory
+    page. While garbage-collected languages can avoid this problem by moving
+    objects around, for the most part, C and C++ programs cannot (though some
+    recent work tackles some of the problem through virtual memory remapping). A
+    classic insight for tackling this problem -- objects of similar lifetime
+    should get allocated to the same page -- does not work effectively for
+    server workloads: profiling based techniques do not have sufficient
+    coverage, and machine-learning techniques are not accurate enough nor
+    discriminating enough to reduce fragmentation in the huge pages that
+    server workloads use. This paper shows that sophisticated machine learning
+    techniques, based on LSTMs, can avoid the pitfalls of prior work by
+    accurately predicting a range of placement policies for objects, even for
+    never-before-seen behaviors. On real-world workloads, the paper's approach
+    reduces fragmentation by up to 78%.
+
+- Title: "_[Liquid information flow control](https://dl.acm.org/doi/10.1145/3408987)_"
+  Authors: "Nadia Polikarpova (University of California, San Diego), Deian Stefan (UC San Diego), Jean Yang (Carnegie Mellon University), Shachar Itzhaky (Technion), Travis Hance (CMU), Armando Solar-Lezama (Massachusetts Institute of Technology)"
+  Venue: ICFP 2020
+  NominationStatement: |
+    Reasoning about information flow in programs allows programmers to
+    understand how sensitive data flows through their applications; even
+    better are tools that allow programmers to specify declarative policies
+    for information flow, allowing software systems to verify that sensitive
+    information does not leak to untrusted parties. In the world of
+    information flow control, prior work has either allowed programs to be
+    declared safe at compile time or allowed programs to use sophisticated
+    information flow policies, but not both. This paper shows how to get the
+    best of both worlds by leveraging recent advances in type systems. Even
+    better, this paper shows how programmers can fix programs that have
+    information flow problems by leveraging program synthesis.
+
+- Title: "_[Proving Data-Poisoning Robustness in Decision Trees](https://dl.acm.org/doi/abs/10.1145/3385412.3385975)_"
+  Authors: "Samuel Drews, Aws Albarghouthi, Loris D'Antoni (University of Wisconsin–Madison)"
+  Venue: PLDI 2020
+  NominationStatement: |
+    The topic of ensuring that machine learning models are safe and robust has
+    gained substantial interest in recent years. Indeed, the ability to
+    provide guarantees that the model works as expected is of fundamental
+    importance to its confident usage. While most work has so far focused on
+    proving properties relevant to test and inference time, there has been
+    much less work on ensuring that other phases of the machine learning
+    pipeline, such as training, work correctly, yet those phases are as
+    important. This is the first paper which proposes a method that can ensure
+    the training procedure of a machine learning model, here decision trees,
+    is safe against poisoning attacks, a very real and natural property that
+    can arise due to the difficulty of manually examining the (large) training
+    set. The paper is very well written and is cleanly phrased in abstract
+    interpretation terms; we expect it to have substantial impact and to
+    trigger more work on guarantees provided in the training phase of other
+    models, such as deep neural networks. Overall, an excellent paper of broad
+    interest, which demonstrates for the first time that one can obtain
+    deterministic certificates on properties of the training phase of
+    realistic machine learning models.
+
 Selected July 2020:
 
 - Title: "_[Provably and Practically Efficient Granularity Control](https://dl.acm.org/doi/10.1145/3293883.3295725)_"
