@@ -7,24 +7,26 @@ The purpose of this mentoring workshop is to encourage graduate students (PhD an
 We especially encourage women and underrepresented minority students to attend PLMW.
 
 
-## PLMW Steering Committee Membership for 2020
+## PLMW Steering Committee Membership for 2021
 
-- **ICFP Reps**: Nate Foster, David van Horn
-- **POPL Reps**: Justin Hsu, Nobuko Yoshida
-- **SPLASH Reps**: Karim Ali, Jon Bell
-- **PLDI Reps**: Milind Kulkarni
+- **ICFP Reps**: Nate Foster, Lindsey Kuper
+- **POPL Reps**: Justin Hsu, Stephanie Balzer
+- **SPLASH Reps**: Karim Ali, Lukasz Ziarek
+- **PLDI Reps**: Nadia Polikapova, Steve Chong
 - **Industrial Relations Rep**: Anil Madhavapeddy
 - **Social media**: Hila Peleg (new role 2020)
 - **SIGPLAN EC Rep**: Cindy Rubio Gonzalez
 - **Ad hoc Members**: Kathleen Fisher
 
-- **Chair**: Alexandra Silva
-- **Chair-Elect**: Steve Zdancewic
-- **Previous Chair**: Amal Ahmed
+- **Chair**: Steve Zdancewic
+- **Chair-Elect**: Milind Kulkarni
+- **Previous Chair**: Alexandra Silva
+
 
 
 ## Web Pages of Previous Conferences
 
+- [PLMW @ SPLASH '21](https://2021.splashcon.org/track/splash-2021-PLMW) (virtual)
 - [PLMW @ ICFP'21](https://icfp21.sigplan.org/home/PLMW-ICFP-2021) (virtual)
 - [PLMW @ PLDI'21](https://pldi21.sigplan.org/home/PLMW-PLDI-2021) (virtual)
 - [PLMW @ POPL'21](https://popl21.sigplan.org/home/PLMW-2021) (virtual)
