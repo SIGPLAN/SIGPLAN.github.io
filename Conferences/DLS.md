@@ -15,13 +15,25 @@ development.
 DLS 2021
 --------
 
--   Chicago, Illinois, United States, Oct 17, 2021
+-   Chicago, Illinois, United States, Oct 19, 2021
 -   Co-located with SPLASH 2021
 -   PC chair: Arjun Guha (Northeastern University)
 -   [https://conf.researchr.org/home/dls-2021](https://conf.researchr.org/home/dls-2021)
 
 Awards
 ------
+
+-   Most Notable Paper Award 2021 for 2011
+    -   Recipients: Maxime Chevalier-Boisvert, Erick Lavoie, Marc Feeley, Bruno Dufour
+    -   Title: Bootstrapping a Self-Hosted Research Virtual Machine for JavaScript: An Experience Report
+    -   Conference: DLS 2011
+    -   Paper:
+        [https://dl.acm.org/doi/10.1145/2047849.2047858](https://dl.acm.org/doi/10.1145/2047849.2047858)
+    -   Citation: The 2011 DLS paper "Bootstrapping a Self-Hosted Research
+        Virtual Machine for JavaScript: An Experience Report" is a great
+        overview and source of ideas for virtual machine development. It
+        represents a comprehensive guide to design choices to make in the space
+        and for that it is still notable today.
 
 -   Most Notable Paper Award 2020 for 2010
     -   Recipients: Tom Van Cutsem and Mark S. Miller
