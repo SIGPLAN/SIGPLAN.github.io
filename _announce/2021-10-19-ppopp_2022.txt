@@ -1,0 +1,32 @@
+---
+title: "PPoPP 2022 Call for Workshop and Tutorial Proposals"
+timestamp: "10/19/2021 20:28:25"
+deadline: "11/5/2021"
+---
+**PPoPP 2022 Call for Workshop and Tutorial Proposals**
+https://ppopp22.sigplan.org/track/PPoPP-2022-workshops-and-tutorials
+
+Dear Colleagues,
+
+We are soliciting proposals for workshops and tutorials within the general scope of PPoPP. Members of the community are encouraged to submit proposals for workshops/tutorials that bring together researchers and practitioners to share their tools, technologies, latest results and to discuss work in progress and new directions.
+
+PPoPP and the co-located conferences will most likely be held in a hybrid format in Seoul, Korea. We encourage workshop and tutorial organizers to attend and organize their events in-person; nevertheless, remote (online) organization is possible. Attendees can attend in-person or online.
+
+**Important Dates:**
+  * Workshop/Tutorials: February 12+13, 2022
+  * Submission deadline: November 5, 2021
+  * Notification: November 12, 2021
+
+**Submission instructions:**
+Proposals should include the following information:
+  * Title of workshop/tutorial
+  * Program:
+    * Workshops: call for papers, scope, main topics, invited or keynote speakers, panel discussions, organizers’ bios and affiliations and a tentative list of PC members, whether or not accepted submissions will be published in the ACM Digital Library
+    * Tutorials: abstract, outline of content and objectives, prerequisite knowledge, special requirements, organizers’ bios, affiliations, and relevant experience to the topic
+  * Duration of the workshop (half day/full day) and maximum number of participants
+  * Advertisement: how do you plan to solicit participation
+  * Information on past workshops/tutorials on the same topic incl. participation statistics
+
+Submit your proposals in PDF format by or before November 5 to the Workshops and Tutorials Chair, Bernhard Egger (bernhard@csap.snu.ac.kr). Early submissions are encouraged - proposals are reviewed and accepted on a rolling basis.
+
+Feel free to contact Bernhard with questions about the suitability of a workshop/tutorial for PPoPP or for any other related matters.
