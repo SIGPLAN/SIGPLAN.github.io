@@ -1012,7 +1012,7 @@
   year: 2016
   title: "Proceedings of the 6th ACM SIGPLAN Workshop on X10"
 -
-  event: AGERE
+  event: AGERE!
   year: 2021
   title: "Proceedings of the 11th ACM SIGPLAN International Workshop on Programming Based on Actors, Agents, and Decentralized Control"
 -
@@ -1041,7 +1041,7 @@
   title: "Proceedings of the 42nd ACM SIGPLAN International Conference on Programming Language Design and Implementation"
 -
   event: PMAM
-  year: 21
+  year: 2021
   title: "Proceedings of the 12th International Workshop on Programming Models and Applications for Multicores and Manycores"
 -
   event: REBLS
