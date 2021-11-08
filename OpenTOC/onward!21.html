@@ -1,0 +1,399 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>Onward! 2021: Proceedings of the 2021 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>Onward! 2021: Proceedings of the 2021 ACM SIGPLAN International Symposium on New Ideas, New Paradigms,
+               and Reflections on Programming and Software</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3486607"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486607.3486747">Dala: a simple capability-based dynamic language design for data race-freedom</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Kiko Fernandez-Reyes</li>
+               <li class="nameList">Isaac Oscar Gariano</li>
+               <li class="nameList">James Noble</li>
+               <li class="nameList">Erin Greenwood-Thessman</li>
+               <li class="nameList">Michael Homer</li>
+               <li class="nameList Last">Tobias Wrigstad</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Dynamic languages like Erlang, Clojure, JavaScript, and E adopted data-race freedom
+                     by design. To enforce data-race freedom, these languages either deep copy objects
+                     during actor (thread) communication or proxy back to their owning thread. We present
+                     Dala, a simple programming model that ensures data-race freedom while supporting efficient
+                     inter-thread communication. Dala is a dynamic, concurrent, capability-based language
+                     that relies on three core capabilities: immutable values can be shared freely; isolated
+                     mutable objects can be transferred between threads but not aliased; local objects
+                     can be aliased within their owning thread but not dereferenced by other threads. Objects
+                     with capabilities can co-exist with unsafe objects, that are unchecked and may suffer
+                     data races, without compromising the safety of safe objects. We present a formal model
+                     of Dala, prove data race-freedom and state and prove a dynamic gradual guarantee.
+                     These theorems guarantee data race-freedom when using safe capabilities and show that
+                     the addition of capabilities is semantics preserving modulo permission and cast errors.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486607.3486748">Programming with neural surrogates of programs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Alex Renda</li>
+               <li class="nameList">Yi Ding</li>
+               <li class="nameList Last">Michael Carbin</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p><em>Surrogates</em>, models that mimic the behavior of programs, form the basis of a variety of development
+                     workflows. We study three surrogate-based design patterns, evaluating each in case
+                     studies on a large-scale CPU simulator. </p> 
+                  <p>With <em>surrogate compilation</em>, programmers develop a surrogate that mimics the behavior of a program to deploy
+                     to end-users in place of the original program. Surrogate compilation accelerates the
+                     CPU simulator under study by 1.6×. With <em>surrogate adaptation</em>, programmers develop a surrogate of a program then retrain that surrogate on a different
+                     task. Surrogate adaptation decreases the simulator’s error by up to 50%. With <em>surrogate optimization</em>, programmers develop a surrogate of a program, optimize input parameters of the surrogate,
+                     then plug the optimized input parameters back into the original program. Surrogate
+                     optimization finds simulation parameters that decrease the simulator’s error by 5%
+                     compared to the error induced by expert-set parameters. </p> 
+                  <p>In this paper we formalize this taxonomy of surrogate-based design patterns. We further
+                     describe the programming methodology common to all three design patterns. Our work
+                     builds a foundation for the emerging class of workflows based on programming with
+                     surrogates of programs.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486607.3486749">Natural language-guided programming</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Geert Heyman</li>
+               <li class="nameList">Rafael Huysegems</li>
+               <li class="nameList">Pascal Justen</li>
+               <li class="nameList Last">Tom Van Cutsem</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In today’s software world with its cornucopia of reusable software libraries, when
+                     a programmer is faced with a programming task that they suspect can be completed through
+                     the use of a library, they often look for code examples using a search engine and
+                     then manually adapt found examples to their specific context of use. We put forward
+                     a vision based on a new breed of developer tools that have the potential to largely
+                     automate this process. The key idea is to adapt code autocompletion tools such that
+                     they take into account not only the developer’s already-written code but also the
+                     <em>intent</em> of the task the developer is trying to achieve next, formulated in plain natural
+                     language. We call this practice of enriching the code with natural language intent
+                     to facilitate its completion <em>natural language-guided programming</em>. </p> 
+                  <p>To show that this idea is feasible we design, implement and benchmark a tool that
+                     solves this problem in the context of a specific domain (data science) and a specific
+                     programming language (Python). Central to the tool is the use of language models trained
+                     on a large corpus of documented code. Our initial experiments confirm the feasibility
+                     of the idea but also make it clear that we have only scratched the surface of what
+                     may become possible in the future. We end the paper with a comprehensive research
+                     agenda to stimulate additional research in the budding area of natural language-guided
+                     programming.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486607.3486750">SkyQuery: an aerial drone video sensing platform</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Favyen Bastani</li>
+               <li class="nameList">Songtao He</li>
+               <li class="nameList">Ziwen Jiang</li>
+               <li class="nameList">Osbert Bastani</li>
+               <li class="nameList Last">Sam Madden</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Video-based sensing from aerial drones, especially small multirotor drones, can provide
+                     rich data for numerous applications, including traffic analysis (computing traffic
+                     flow volumes), precision agriculture (periodically evaluating plant health), and wildlife
+                     population management (estimating population sizes). However, aerial drone video sensing
+                     applications must handle a surprisingly wide range of tasks: video frames must be
+                     aligned so that we can equate coordinates of objects that appear in different frames,
+                     video data must be analyzed to extract application-specific insights, and drone routes
+                     must be computed that maximize the value of newly captured video. To address these
+                     challenges, we built SkyQuery, a novel aerial drone video sensing platform that provides
+                     an expressive, high-level programming language to make it straightforward for users
+                     to develop complex long-running sensing applications. SkyQuery combines novel methods
+                     for fast video frame alignment and detection of small objects in top-down aerial drone
+                     video to efficiently execute applications with diverse video analysis workflows and
+                     data distributions, thereby allowing application developers to focus on the unique
+                     qualities of their particular application rather than general video processing, data
+                     analysis, and drone routing tasks. We conduct diverse case studies using SkyQuery
+                     in parking monitoring, pedestrian activity mapping, and traffic hazard detection scenarios
+                     to demonstrate the generalizability and effectiveness of our system.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486607.3486751">Kotlin coroutines: design and implementation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Roman Elizarov</li>
+               <li class="nameList">Mikhail Belyaev</li>
+               <li class="nameList">Marat Akhin</li>
+               <li class="nameList Last">Ilmir Usmanov</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Asynchronous programming is having its “renaissance” moment in recent years. Created
+                     in the 1980s, it was in use for quite some time, but with the advent of multi-core
+                     processors, it has been sidestepped by multi-threaded programming, which was&nbsp;(for
+                     a long time) the de facto standard of performing concurrent computations. However,
+                     since the 2000s, more and more programming languages have begun to include the support
+                     for asynchronous programming, some built around asynchronicity from the start, others
+                     including it later in their evolution. </p> 
+                  <p>In this paper, we explore the design and implementation of asynchronous programming
+                     in Kotlin, a multiplatform programming language from JetBrains, which uses <em>coroutines</em> for asynchronicity. Kotlin provides a compact built-in API for coroutine support,
+                     thus giving a lot of implementation freedom to the developer; this flexibility allows
+                     to transparently support different flavours of asynchronous programming within the
+                     same language. </p> 
+                  <p>We overview existing approaches to asynchronous programming, zoom in and talk about
+                     coroutines in detail, and describe how they are used in Kotlin as the basis for asynchronous
+                     computations. Along the way, we show the flexibility of Kotlin coroutines, highlight
+                     several existing problems with asynchronicity, how they are fixed or worked-around
+                     in Kotlin, and also mention future directions asynchronous programming might explore.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486607.3486752">Motivating complexity understanding by profiling energy usage</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Joshua B. Gross</li>
+               <li class="nameList">Daniel Jacoby</li>
+               <li class="nameList">Kevin Coogan</li>
+               <li class="nameList Last">Aaron Helman</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Computer science and software engineering students are typically taught to evaluate
+                     resource use in terms of time complexity. Developers use asymptotic analysis to compare
+                     algorithms by calculating how time grows as a function of input size. However, two
+                     factors have limited traditional models of complexity as pedagogical tools. First,
+                     modern systems are so fast that even relatively inefficient algorithms can quickly
+                     process large sets of data. Second, analysis is not universally engaging; only some
+                     students care about efficiency for the sake of efficiency. Our project proposes using
+                     measurements of energy consumption and the concomitant environmental impact to better
+                     engage students with efficiency and its implications. </p> 
+                  <p> Since current students have a strong level of concern about environmental consequences,
+                     we believe energy usage data will be more concrete and motivating than differences
+                     in time and will deepen the appreciation students have for computational complexity
+                     by using real-world measurements and by tying energy usage to climate change. We also
+                     believe that these future software engineers will be better equipped to contribute
+                     to the field by understanding the broader impact of software choices and resource
+                     usage. This approach is meant to augment and give meaning to traditional measurements
+                     of computational complexity, rather than supplant them.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486607.3486753">Towards self-adaptable languages</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Gwendal Jouneaux</li>
+               <li class="nameList">Olivier Barais</li>
+               <li class="nameList">Benoit Combemale</li>
+               <li class="nameList Last">Gunter Mussbacher</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Over recent years, self-adaptation has become a concern for many software systems
+                     that have to operate in complex and changing environments. At the core of self-adaptation,
+                     there is a feedback loop and associated trade-off reasoning to decide on the best
+                     course of action. However, existing software languages do not abstract the development
+                     and execution of such feedback loops for self-adaptable systems. Developers have to
+                     fall back to ad-hoc solutions to implement self-adaptable systems, often with wide-ranging
+                     design implications (<em>e.g.,</em> explicit MAPE-K loop). Furthermore, existing software languages do not capitalize
+                     on monitored usage data of a language and its modeling environment. This hinders the
+                     continuous and automatic evolution of a software language based on feedback loops
+                     from the modeling environment and runtime software system. To address the aforementioned
+                     issues, this paper introduces the concept of <em>Self-Adaptable Language</em> (SAL) to abstract the feedback loops at both system and language levels. We propose
+                     <em>L-MODA (Language, Models, and Data)</em> as a conceptual reference framework that characterizes the possible feedback loops
+                     abstracted into a SAL. To demonstrate SALs, we present emerging results on the abstraction
+                     of the system feedback loop into the language semantics. We report on the concept
+                     of <em>Self-Adaptable Virtual Machines</em> as an example of semantic adaptation in a language interpreter and present a roadmap
+                     for SALs.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Essays</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486607.3486770">Programming as architecture, design, and urban planning</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Tomas Petricek</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Our thinking about software is shaped by basic assumptions and metaphors that we rarely
+                     question. Computer science has the term science in its very name; we think of programming
+                     languages as formal mathematical objects and we hope to make better software by treating
+                     it as an engineering discipline. Those perspectives enabled a wide range of useful
+                     developments, but I believe they have outlived their usefulness. We need new ways
+                     of thinking about software that are able to cope with ill-defined problems and the
+                     increasing complexity of software. In this essay, I draw a parallel between the world
+                     of software and the world of architecture, design and urban planning. I hope to convince
+                     the reader that this is a well-justified parallel and I point to a number of discussions
+                     in architecture, design and urban planning from which the software world could learn.
+                     What kind of software may we be able to build if we think of programming as a design
+                     problem and aim to create navigable and habitable software for all its users?</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486607.3486771">The kingdoms of objects and values</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Friedrich Steimann</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>THE purpose of the following paper is to consider whether there is a fundamental division
+                     of the [data] with which [programming] is concerned into two classes, [objects] and
+                     [values], or whether there is any method of overcoming this dualism. My own opinion
+                     is that the dualism is ultimate; on the other hand, many [colleagues] with whom, in
+                     the main, I am in close agreement, hold that it is not ultimate. </p> 
+                  <p> (paraphrased after Bertrand Russell)</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486607.3486772">Let a thousand flowers bloom: on the uses of diversity in software testing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Alex Groce</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Software testing is <em>hard</em>, and a testing problem is composed of many sub-problems with different, often conflicting,
+                     solutions. Like many real-world problems, it admits no single optimal solution, but
+                     requires dexterity, and the opportunistic combination of many partial solutions. Exploration
+                     and experiment, even by practitioners, are important in real-world critical testing
+                     efforts. An important set of research results in the field endorse and codify the
+                     value of <em>diversity</em> in test generation. However, our current approaches to evaluating research results
+                     arguably cut against this fundamental reality: while effective testing may need true
+                     diversity, combining many partial answers, the iron logic of the research results
+                     section often imposes a <em>totalizing</em> vision where authors must at least pretend to present a monolithic, unitary solution,
+                     a new “king of the hill.”</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486607.3486773">Angelic and demonic visitation: school memories</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Leila Salem</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The whole activity of programming can be thought of as a process of time reusability.
+                     This essay considers how computing education can transform these errors into shared
+                     learning journeys by refining the relationship between programmer and user. It is
+                     also an interpretation of Ralph-Johan Back’s <em>Changing data representation in the refinement calculus</em>.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>

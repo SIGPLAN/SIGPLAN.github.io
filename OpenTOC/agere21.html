@@ -1,0 +1,185 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>AGERE 2021: Proceedings of the 11th ACM SIGPLAN International Workshop on Programming Based on Actors, Agents, and Decentralized Control</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>AGERE 2021: Proceedings of the 11th ACM SIGPLAN International Workshop on Programming Based on
+               Actors, Agents, and Decentralized Control</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3486601"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486601.3486707">Contract-based return-value commutativity: safely exploiting contract-based commutativity
+                  for faster serializable transactions</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Tim Soethout</li>
+               <li class="nameList">Tijs van der Storm</li>
+               <li class="nameList Last">Jurgen J. Vinju</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>A key challenge of designing distributed software systems is maintaining data consistency.
+                     We can define data consistency and data isolation guarantees --e.g. serializability--
+                     in terms of schedules of atomic reads and writes, but this excludes schedules that
+                     would be semantically consistent. Others use manually provided information on "non-conflicting
+                     operations" to define guarantees that work for more applications allowing more parallel
+                     schedules. To be safe, an engineer might avoid marking operations as non-conflicting,
+                     with detrimental effects to efficiency. To be fast, they might mark more non-conflicting
+                     operations than is strictly safe. </p> 
+                  <p> Our goal is to help engineers by automatically deriving commutative operations (using
+                     their respective contracts) such that more parallel schedules with global consistency
+                     are possible. We define a new general consistency and isolation guarantee named "Return-Value
+                     Serializability" to check consistency claims automatically, and we present distributed
+                     event processing algorithms that make use of the same "Contract-based Commutativity"
+                     information. We validated both the definitions and the algorithms using model-checking
+                     with TLA+. Previous work provided evidence that local coordination avoidance such
+                     as applied here has a significant positive effect on the performance of distributed
+                     transaction systems. </p> 
+                  <p> Client-centric return-value commutativity promises to hit a sweet spot in design
+                     trade-offs for business applications, such as payment systems, that must scale-out
+                     while their operations are not embarrassingly parallel and consistency guarantees
+                     are of the highest priority. It can also provide design feedback, indicating that
+                     some operations will simply not scale together even before a line of code has been
+                     written.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486601.3486708">Session types in Elixir</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Gerard Tabone</li>
+               <li class="nameList Last">Adrian Francalanza</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This paper proposes an adaptation of session types to provide behavioural information
+                     about public functions in Elixir modules. We formalise typechecking rules for the
+                     main constructs of the language. This allows us to statically determine whether a
+                     function implementation observes its session endpoint specification. Based on this
+                     type system, we then construct a tool that automates typechecking for Elixir modules.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486601.3486709">What’s the problem? interrogating actors to identify the root cause of concurrency
+                  bugs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Carmen Torres Lopez</li>
+               <li class="nameList">Louise Van Verre</li>
+               <li class="nameList Last">Elisa Gonzalez Boix</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Programs written using Communicating Event-Loops (CEL) concurrency model do not suffer
+                     from low-level data races by design but are not exempt from other concurrency bugs,
+                     such as behavioral deadlocks and message order violations. </p> 
+                  <p> When programmers need to find the root cause of a bug, they typically ask questions
+                     about the application's behavior. However, current debugging tools are mostly operational,
+                     offering features at the source code level like breakpoints and watchpoints. Consequently,
+                     understanding the program behavior when debugging can take a lot of time for developers
+                     since questions on behaviors need to be mapped into operations in the debugger. </p> 
+                  <p> Inspired by interrogative debugging, this paper proposes an interactive debugging
+                     approach for actor-based programs that enable developers to reason about the program
+                     output by selecting questions from a set of predefined questions about the code and
+                     the program's execution. We present the design of the questions and answers, and we
+                     describe a prototype implementation in Apgar, an online debugger for actor-based programs
+                     written in SOMns. We define questions based on key concepts of the actor model: actors,
+                     turns, messages, and promises. The debugger then computes the answers by analyzing
+                     a recorded trace of events about the program execution.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>

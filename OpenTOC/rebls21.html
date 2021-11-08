@@ -1,0 +1,266 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>REBLS 2021: Proceedings of the 8th ACM SIGPLAN International Workshop on Reactive and Event-Based Languages and Systems</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>REBLS 2021: Proceedings of the 8th ACM SIGPLAN International Workshop on Reactive and Event-Based
+               Languages and Systems</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3486605"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Invited Talk</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486605.3487187">Specification and end-to-end proof of a reactive language and its compiler (invited
+                  talk)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Timothy Bourke</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Embedded control systems have long been designed using block diagrams and state machines.
+                     These models often simply guide the manual implementation of software. But in Model-Based
+                     Design they are treated as programs and compiled automatically into low-level code.
+                     This is the approach taken in academic languages like Lustre and commercial tools
+                     like Simulink and SCADE Suite. </p> 
+                  <p> This talk presents results from the ongoing Vélus project that aims to specify a
+                     compiler for Model-Based Design (Lustre with features from Scade 6) in an Interactive
+                     Theorem Prover (Coq). It will describe the model of synchronous streams that gives
+                     a semantics to the input language and features of the proof that links this model
+                     to the step-by-step model of the generated assembly code. Our prototype builds on
+                     the CompCert C compiler and we will talk about some of the challenges of interfacing
+                     with such a low-level model of the underlying machine.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486605.3486789">Dyninka: a FaaS framework for distributed dataflow applications</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Patrik Fortier</li>
+               <li class="nameList">Frédéric Le Mouël</li>
+               <li class="nameList Last">Julien Ponge</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The Internet of Things (IoT) requires applications to deal with a large amount of
+                     data - streamed, processed and stored from small devices to analytical systems. Cloud
+                     computing offers a hardware solution to this issue, providing on-demand resources
+                     to process IoT data. The newer programming paradigms simplify the use of those cloud
+                     resources. The Function-as-a-Service (FaaS) and the Serverless paradigm transform
+                     the conception of microservices applications to the definition and the composition
+                     of several callable functions. Although defined as distributed architectures - mostly
+                     publicly available solutions rely on either a gateway or an internal messaging middleware.
+                     These architectures create a <em>single point of failure</em> in exchange for more straightforward service to service communication. </p> 
+                  <p>In this article, we present Dyninka, a framework to rapidly prototype FaaS-based distributed
+                     dataflow applications. Its programming model gathers the definition and the composition
+                     of services within a single file using the <em>multitier programming</em> paradigm and compiles them into a multitude of services deployable on cloud computing
+                     infrastructure. Dyninka is built without a gateway or a messaging platform, and services
+                     communicate directly with each other or with the cloud abstracted infrastructure.
+                     As a result, we reduce the network and the computation overheads introduced by commercial
+                     FaaS frameworks such as OpenFaaS. </p> 
+                  <p>We validate Dyninka on a Fog computing scenario with limited resources and several
+                     load profiles. For all scenarios, Dyninka shows better stability, throughput and a
+                     reduced overhead compared to OpenFaaS.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486605.3486785">Poker: visual instrumentation of reactive programs with programmable probes</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Cloé Descheemaeker</li>
+               <li class="nameList">Sam Van den Vonder</li>
+               <li class="nameList">Thierry Renaux</li>
+               <li class="nameList Last">Wolfgang De Meuter</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This paper presents Poker, a visual instrumentation platform for reactive programs.
+                     Similar to other platforms, Poker features a visual dashboard that allows the programmer
+                     to inspect the flow of values through the reactive program. The novelty of Poker is
+                     that: (a) It features a canvas of so-called probes that can be dynamically wired into
+                     a running reactive program in order to instrument the running system. (b) In addition
+                     to focusing on the values flowing through the program, a probe can measure a particular
+                     property about the way these values flow through the instrumented program. (c) The
+                     set of probes is open because a probe is programmed in the same language as the instrumented
+                     program. </p> 
+                  <p> Poker is implemented for Stella, an experimental reactive programming language. The
+                     paper uses an application written in Stella to motivate the concepts provided by Poker.
+                     We show 4 different probes that help us understand the behaviour of the application
+                     and we measure the overhead of using Poker on the running application with some preliminary
+                     benchmarks.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486605.3486787">Trampoline variables: a general method for state accumulation in reactive programming</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Bjarno Oeyen</li>
+               <li class="nameList">Sam Van den Vonder</li>
+               <li class="nameList Last">Wolfgang De Meuter</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Reactive programming is all about relegating the management of a program’s state changes
+                     to the realm of the runtime environment. Nevertheless, sometimes it is still necessary
+                     to enrich a reactive program with state variables that are explicitly updated by the
+                     programmer. In current reactive languages this is accomplished either by polluting
+                     the reactive paradigm with imperative constructs or by relying on built-in operators
+                     such as foldp. </p> 
+                  <p>This paper introduces <em>trampoline variables</em>, a new <em>general</em> mechanism that allows reactive programs to manipulate state explicitly without resorting
+                     to imperative programming. We show that our proposal is at least as powerful as existing
+                     built-in reactive operators. We also analyse how reactive programs with trampoline
+                     variables can be composed and how they can form the basis to replace stateful constituents
+                     of a running reactive program — a.k.a. hotswapping — in a coherent way. The latter
+                     is an essential building block towards live IDEs for reactive programming languages.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486605.3486786">Symmetric distributed applications</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Francisco Sant'Anna</li>
+               <li class="nameList">Rodrigo Santos</li>
+               <li class="nameList Last">Noemi Rodriguez</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>A program is deterministic if multiple re-executions with the same inputs always lead
+                     to the same state. Even concurrent instances of a deterministic program should observe
+                     identical behavior---in real time---if assigned the same set of inputs. In this work,
+                     we propose real-time reproducibility for distributed programs. Multiple instances
+                     of the same interactive application can broadcast asynchronous inputs and yet conform
+                     to identical behavior. Collaborative networked applications, such as watch parties,
+                     document editing, and video games can benefit from this approach. We name this class
+                     of applications as symmetric distributed applications. Using a standard event-driven
+                     API to wait and emit events, programmers write code as if the application executes
+                     in a single machine. Our middleware intercepts event generation and synchronizes all
+                     instances in a consistent timeline so that receipt is identically reproducible. Not
+                     only distributed applications benefit from consistency and determinism but also development
+                     and testing can be done in a single instance with the same guarantees. In our experiments,
+                     the middleware can handle applications with 25 FPS, distributed in up to 25 nodes
+                     over the Internet, with an event latency below 350ms.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486605.3486788">Analysing the performance and costs of reactive programming libraries in Java</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Julien Ponge</li>
+               <li class="nameList">Arthur Navarro</li>
+               <li class="nameList">Clément Escoffier</li>
+               <li class="nameList Last">Frédéric Le Mouël</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Modern services running in cloud and edge environments need to be resource-efficient
+                     to increase deployment density and reduce operating costs. Asynchronous I/O combined
+                     with asynchronous programming provides a solid technical foundation to reach these
+                     goals. Reactive programming and reactive streams are gaining traction in the Java
+                     ecosystem. However, reactive streams implementations tend to be complex to work with
+                     and maintain. This paper discusses the performance of the three major reactive streams
+                     compliant libraries used in Java applications: RxJava, Project Reactor, and SmallRye
+                     Mutiny. As we will show, advanced optimization techniques such as operator fusion
+                     do not yield better performance on realistic I/O-bound workloads, and they significantly
+                     increase development and maintenance costs.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>

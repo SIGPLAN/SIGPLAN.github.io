@@ -1,0 +1,195 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>SCALA 2021: Proceedings of the 12th ACM SIGPLAN International Symposium on Scala</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>SCALA 2021: Proceedings of the 12th ACM SIGPLAN International Symposium on Scala</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3486610"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486610.3486893">Safer exceptions for Scala</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Martin Odersky</li>
+               <li class="nameList">Aleksander Boruch-Gruszecki</li>
+               <li class="nameList">Jonathan Immanuel Brachthäuser</li>
+               <li class="nameList">Edward Lee</li>
+               <li class="nameList Last">Ondřej Lhoták</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We describe a scheme for reflecting exceptions as capabilities in the Scala type system
+                     that keeps notational overhead to a minimum and avoids well-known problems with Java's
+                     checked exceptions framework. The scheme makes exceptions safer but not fully safe
+                     since the capability for throwing an exception may still yet escape its enclosing
+                     try block. To address this limitation, we also propose a type system which prevents
+                     capabilities from escaping.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486610.3486894">Pathless Scala: a calculus for the rest of Scala</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Guillaume Martres</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Recent work on the DOT calculus successfully put core aspects of Scala on a sound
+                     foundation, but subtyping in DOT is structural and therefore not easily amenable to
+                     studying the parts of Scala that are deeply tied to its nominal subtyping system.
+                     On the other hand, the Featherweight Java calculus has proven to be a great basis
+                     for studying many aspects of Java and Java-like languages. Continuing this tradition,
+                     we present Pathless Scala: an extension of Featherweight Generic Java that closely
+                     models multiple inheritance and intersection types as they exist in the Scala language
+                     today. We define the semantics of Pathless Scala by erasing it to a simpler calculus
+                     in a way that closely models how Scala is compiled to Java bytecode in practice. More
+                     than a one-off, we believe that this calculus could be extended to describe many more
+                     features of Scala, although reconciling it with DOT remains an open problem.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486610.3486892">Implementing path-dependent GADT reasoning for Scala 3</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yichen Xu</li>
+               <li class="nameList">Aleksander Boruch-Gruszecki</li>
+               <li class="nameList Last">Lionel Parreaux</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Generalized Algebraic Data Types (GADT) are a popular programming language feature
+                     allowing advanced type-level properties to be encoded in the data types of a program.
+                     While Scala does not have direct support for them, GADT definitions can be encoded
+                     through Scala class hierarchies. Moreover, the Scala 3 compiler recently augmented
+                     its pattern matching capabilities to reason about such class hierarchies, making GADT-based
+                     programming practical in Scala. However, the current implementation can only reason
+                     about type parameters, but Scala’s type system also features singleton types and abstract
+                     type members (collectively known as path-dependent types), about which GADT-style
+                     reasoning is also useful and important. In this paper, we show how we extended the
+                     existing constraint-based GADT reasoning of the Scala 3 compiler to also consider
+                     path-dependent types, making Scala’s support for GADT programming more complete and
+                     bringing Scala closer to its formal foundations.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486610.3486895">Safe object initialization, abstractly</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Fengyun Liu</li>
+               <li class="nameList">Ondřej Lhoták</li>
+               <li class="nameList">Enze Xing</li>
+               <li class="nameList Last">Nguyen Cao Pham</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Objects under initialization are fragile: some of their fields are not yet initialized.
+                     Consequently, accessing those uninitialized fields directly or indirectly may result
+                     in program crashes or abnormal behaviors at runtime. </p> 
+                  <p>A newly created object goes through several states during its initialization, beginning
+                     with all fields being empty until all of them are filled. However, ensuring initialization
+                     safety statically, without manual annotation of initialization states in the source
+                     code, is a challenge, due to <em>aliasing</em>, <em>virtual method calls</em> and <em>typestate polymorphism</em>. </p> 
+                  <p>In this work, we introduce a novel analysis based on abstract interpreters to ensure
+                     initialization safety. Compared to the previous approaches, our analysis is simpler
+                     and easier to extend, and it does not require any user annotations. The analysis is
+                     inter-procedural, context-sensitive and flow-insensitive, yet it has good performance
+                     thanks to <em>local reasoning</em> and <em>heap monotonicity</em>.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>

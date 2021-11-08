@@ -1,0 +1,268 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>VMIL 2021: Proceedings of the 13th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>VMIL 2021: Proceedings of the 13th ACM SIGPLAN International Workshop on Virtual Machines and
+               Intermediate Languages</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3486606"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Keynotes</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486606.3488073">Reflections on a decade of MoarVM, a runtime for the Raku programming language (keynote)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Jonathan Worthington</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>MoarVM was born out of youthful arrogance. I was contributing to Raku (then Perl 6)
+                     compiler development, looking at the Parrot virtual machine we were targeting at the
+                     time, considering some of our challenges with it (especially regarding performance
+                     and threading), and thought: what if I could design and build something better…in
+                     my copious free time? Within a few years, helped along by the contributions of tens
+                     of other open source volunteers, MoarVM almost entirely replaced Parrot as the language’s
+                     runtime of choice. </p> 
+                  <p> Nearly a decade has passed since work on MoarVM began. Starting out as a simple register-based
+                     bytecode interpreter, MoarVM has steadily incorporated many of the tricks of the trade:
+                     type specialization, deoptimization, inlining, on stack replacement, JIT compilation,
+                     and basic escape analysis. As these fell into place, they drove a further change:
+                     hot operations that had been implemented as complex primitives in the VM for speed
+                     steadily became bottlenecks for further improvement, as the optimizer had no visibility
+                     into them, and thus were gradually eliminated. Most recently, a new generalized dispatch
+                     mechanism has arrived, eliminating numerous special-cased mechanisms (for example,
+                     method and multiple dispatch caches) with a single, programmable, approach. Being
+                     a multi-language VM has never been a goal - yet achieving better performance while
+                     managing complexity has led MoarVM to become ever more abstracted from the Raku language.
+                     </p> 
+                  <p> In this session I will review MoarVM’s journey so far, picking out some of the most
+                     interesting challenges faced, lessons learned, and trade-offs encountered. I will
+                     also discuss the new generalized dispatch mechanism and its concept of resumable dispatch,
+                     which is allowing us to take on optimization of some language features that have thus
+                     far been stubbornly slow - but which also brings its own share of new challenges.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486606.3488074">Cross-domain compilation: exploiting synergies across the CS community (keynote)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Tobias Grosser</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Developing a new programming language, constructing a new domain-specific compiler,
+                     writing a new verification tool, optimizing a large application, designing a microprocessor,
+                     or verifying some of its components, all of these tasks require today a multi-year
+                     project. While most of the underlying problems are inherently hard and cannot be accelerated
+                     magically, we are additionally slowed down by a lack of well-defined interfaces that
+                     prevent us to exploit synergies between CS sub-communities. In this presentation,
+                     I raise the question of how we can accelerate the innovation speed of our CS technology
+                     stack to levels recently seen in deep learning, battery electric vehicles, or rocket
+                     launches. While I won't provide an answer, I will share the latest developments from
+                     the LLVM compiler community where the recent introduction of MLIR initiated the design
+                     of numerous IR abstractions that can be freely composed to build hybrid tools crossing
+                     community boundaries, that can be analyzed to gain a deep understanding of the various
+                     IR abstractions, and which may be the seed of a new abstraction sharing economy in
+                     our community. I will share some of my very own steps in this space on analyzing and
+                     understanding the various IR abstractions already in existence and will point out
+                     new cross-community collaboration opportunities. This talk concludes by raising the
+                     question of how we as researchers can build impactful and lasting open-source communities
+                     to move from interfacing software to towards building bridges between communities.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486606.3488075">GraalVM native image: large-scale static analysis for Java (keynote)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Christian Wimmer</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>GraalVM Native Image combines static analysis, heap snapshotting, and ahead-of-time
+                     compilation to produce a highly optimized standalone executable for a Java application.
+                     In this talk, we first introduce the overall architecture of GraalVM Native Image:
+                     instead of “just” compiling Java bytecode ahead of time, it also initializes parts
+                     of the application at build time. This reduces the startup time and memory footprint
+                     of the application at run time. </p> 
+                  <p> In the second part of the talk, we dive into details of the points-to analysis. We
+                     show which of our original research ideas worked or did not work when analyzing large
+                     production applications; and we show the benefits of tightly integrating the static
+                     analysis with the ahead-of-time compiler.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Full Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486606.3486782">Lightweight on-stack replacement in languages with unstructured loops</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Matt D'Souza</li>
+               <li class="nameList Last">Gilles Duboscq</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>On-stack replacement (OSR) is a popular technique used by just in time (JIT) compilers.
+                     A JIT can use OSR to transfer from interpreted to compiled code in the middle of execution,
+                     immediately reaping the performance benefits of compilation. This technique typically
+                     relies on loop counters, so it cannot be easily applied to languages with unstructured
+                     control flow. It is possible to reconstruct the high-level loop structures of an unstructured
+                     language using a control flow analysis, but such an analysis can be complicated, expensive,
+                     and language-specific. In this paper, we present a more lightweight strategy for OSR
+                     in unstructured languages which relies only on detecting backward jumps. We design
+                     a simple, language-agnostic API around this strategy for language interpreters. We
+                     then discuss our implementation of the API in the Truffle framework, and the design
+                     choices we made to make it efficient and correct. In our evaluation, we integrate
+                     the API with Truffle's LLVM bitcode interpreter, and find the technique is effective
+                     at improving start-up performance without harming warmed-up performance.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486606.3486783">A small scheme VM, compiler, and REPL in 4k</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Samuel Yvon</li>
+               <li class="nameList Last">Marc Feeley</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Compact language implementations are increasingly popular for use in resource constrained
+                     environments. For embedded applications such as robotics and home automation, it is
+                     useful to support a Read-Eval-Print-Loop (REPL) so that a basic level of interactive
+                     development is possible directly on the device. Due to its minimalistic design, the
+                     Scheme language is particularly well suited for such applications and several implementations
+                     are available with different tradeoffs. In this paper we explain the design and implementation
+                     of Ribbit, a compact Scheme system that supports a REPL, is extensible and has a 4
+                     KB executable code footprint.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Work-in-Progress Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3486606.3486781">YJIT: a basic block versioning JIT compiler for CRuby</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Maxime Chevalier-Boisvert</li>
+               <li class="nameList">Noah Gibbs</li>
+               <li class="nameList">Jean Boussier</li>
+               <li class="nameList">Si Xing (Alan) Wu</li>
+               <li class="nameList">Aaron Patterson</li>
+               <li class="nameList">Kevin Newton</li>
+               <li class="nameList Last">John Hawthorn</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Ruby is a dynamically typed programming language with a large breadth of features
+                     which has grown in popularity with the rise of the modern web, and remains at the
+                     core of the implementation of many widely-used websites. </p> 
+                  <p> CRuby, the default implementation of the language, features a JIT compiler known
+                     as MJIT, but developers often do not enable it in production environments, because
+                     it does not always yield performance improvements on real-world software. Attempts
+                     to independently reimplement the Ruby language, such as JRuby and TruffleRuby have
+                     shown impressive performance results on benchmarks, but often lag behind CRuby when
+                     it comes to supporting new additions to the language, which limits their adoption.
+                     </p> 
+                  <p> We introduce YJIT, a new JIT compiler built inside CRuby based on a Lazy Basic Block
+                     Versioning (LBBV) architecture. We show that while our compiler does not match the
+                     peak performance of TruffleRuby, it offers near-100% compatibility with existing Ruby
+                     code, impressively fast warmup, and speedups from 15% to 19% on sizeable benchmarks
+                     based on real-world software.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>

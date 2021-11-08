@@ -1011,3 +1011,59 @@
   event: X10
   year: 2016
   title: "Proceedings of the 6th ACM SIGPLAN Workshop on X10"
+-
+  event: AGERE
+  year: 2021
+  title: "Proceedings of the 11th ACM SIGPLAN International Workshop on Programming Based on Actors, Agents, and Decentralized Control"
+-
+  event: BCNC
+  year: 2021
+  title: "Proceedings of the 1st ACM SIGPLAN International Workshop on Beyond Code: No Code"
+-
+  event: DLS
+  year: 2021
+  title: "Proceedings of the 17th ACM SIGPLAN International Symposium on Dynamic Languages"
+-
+  event: DSM
+  year: 2021
+  title: "Proceedings of the 18th ACM SIGPLAN International Workshop on Domain-Specific Modeling"
+-
+  event: MPLR
+  year: 2021
+  title: "Proceedings of the 18th ACM SIGPLAN International Conference on Managed Programming Languages and Runtimes"
+-
+  event: Onward!
+  year: 2021
+  title: "Proceedings of the 2021 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software"
+-
+  event: PLDI
+  year: 2021
+  title: "Proceedings of the 42nd ACM SIGPLAN International Conference on Programming Language Design and Implementation"
+-
+  event: PMAM
+  year: 21
+  title: "Proceedings of the 12th International Workshop on Programming Models and Applications for Multicores and Manycores"
+-
+  event: REBLS
+  year: 2021
+  title: "Proceedings of the 8th ACM SIGPLAN International Workshop on Reactive and Event-Based Languages and Systems"
+-
+  event: SCALA
+  year: 2021
+  title: "Proceedings of the 12th ACM SIGPLAN International Symposium on Scala"
+-
+  event: SPLASH Companion
+  year: 2021
+  title: "Companion Proceedings of the 2021 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity"
+-
+  event: SPLASH-E
+  year: 2021
+  title: "Proceedings of the 2021 ACM SIGPLAN International Symposium on SPLASH-E"
+-
+  event: TyDe
+  year: 2021
+  title: "Proceedings of the 6th ACM SIGPLAN International Workshop on Type-Driven Development"
+-
+  event: VMIL
+  year: 2021
+  title: "Proceedings of the 13th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages"
