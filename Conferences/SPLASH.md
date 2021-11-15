@@ -11,9 +11,10 @@ members:
 
 -   current SIGPLAN Chair,
 -   current SIGPLAN Vice chair,
--   current and past three SPLASH General Chairs,
--   current and past three OOPSLA Program Chairs,
--   current and past three Onward! Program Chairs, and
+-   future, current, and past three SPLASH General Chairs,
+-   future, current, and past three OOPSLA Program Chairs,
+-   future, current, and past three Onward! Program Chairs,
+-   four members-at-large, and
 -   the outgoing Chair of the Steering Committee, for one year past the end of
     his or her term as Chair.
 
@@ -21,6 +22,11 @@ The Chair of the Steering Committee is elected by the Steering Committee from
 among the members of the committee to serve a two-year term.  The outgoing
 chair serves an additional year on the committee past his or her term as chair
 to provide institutional memory.
+
+Steering Committee membership was expanded by adding members-at-large
+in 2020, with the intention of adding one member-at-large each
+subsequent year.  Members-at-large serve 4 year terms and are selected
+by the Steering Committee.
 
 The constitution of the steering committee changes each year upon conclusion
 of that year's conference.
@@ -33,7 +39,8 @@ The current SPLASH steering committee is:
 Web Pages of Previous Conferences
 ---------------------------------
 
-* [SPLASH 2020](https://2020.splashcon.org/) (Chicago, IL)
+* [SPLASH 2021](https://2021.splashcon.org/) (Chicago, IL)
+* [SPLASH 2020](https://2020.splashcon.org/) (virtual)
 * [SPLASH 2019](https://2019.splashcon.org/) (Athens, Greece)
 * [SPLASH 2018](http://2018.splashcon.org/) (Boston, MA)
 * [SPLASH 2017](http://2017.splashcon.org/) (Vancouver, Canada)
