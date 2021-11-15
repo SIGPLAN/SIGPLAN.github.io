@@ -33,7 +33,8 @@ The current SPLASH steering committee is:
 Web Pages of Previous Conferences
 ---------------------------------
 
-* [SPLASH 2020](https://2020.splashcon.org/) (Chicago, IL)
+* [SPLASH 2021](https://2021.splashcon.org/) (Chicago, IL)
+* [SPLASH 2020](https://2020.splashcon.org/) (virtual)
 * [SPLASH 2019](https://2019.splashcon.org/) (Athens, Greece)
 * [SPLASH 2018](http://2018.splashcon.org/) (Boston, MA)
 * [SPLASH 2017](http://2017.splashcon.org/) (Vancouver, Canada)
