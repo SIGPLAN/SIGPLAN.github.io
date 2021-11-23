@@ -1067,3 +1067,11 @@
   event: VMIL
   year: 2021
   title: "Proceedings of the 13th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages"
+-
+  event: GPCE
+  year: 2021
+  title: "Proceedings of the 20th ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences"
+-
+  event: SLE
+  year: 2021
+  title: "Proceedings of the 14th ACM SIGPLAN International Conference on Software Language Engineering"
