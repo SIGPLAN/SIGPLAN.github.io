@@ -27,9 +27,9 @@ Advisory Board:
     Past Chair of SIGPLAN
   - [Cristina Lopes](https://www.ics.uci.edu/~lopes/), University of California, Irvine, USA <br>
     Member at Large (Issue OOPSLA)
-  - [Jens Palsberg](https://web.cs.ucla.edu/~palsberg/), University of California, Los Angeles, USA <br>
+  - [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts University, USA <br>
     Chair of SIGPLAN
-  - [Ranjit Jhala](https://ranjitjhala.github.io/), University of California at San Diego, USA <br>
+  - [Anders Møller](https://cs.au.dk/~amoeller/), Aarhus University, Denmark <br>
     Vice-Chair of SIGPLAN
 
 Senior Editors:
