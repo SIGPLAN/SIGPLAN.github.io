@@ -45,11 +45,17 @@ Associate Editors:
     Editor for Volume 6, Issue POPL (January 2022)
   - [Zena M. Ariola](http://ix.cs.uoregon.edu/~ariola/), University of Oregon, USA <br>
     Editor for Volume 6, Issue ICFP (August 2022)
-  - [Amal Ahmed](http://www.ccs.neu.edu/home/amal/), Northeastern University, USA <br>
+  - [Amal Ahmed](http://www.ccs.neu.edu/home/amal/), Northeastern University, USA and
+    [Jan Vitek](http://janvitek.org/), Northeastern University, USA <br>
     Editor for Volume 6, Issue OOPSLA (October 2022)
 
 Assistant Editors:
-  - TBA
+  - [Amal Ahmed](http://www.ccs.neu.edu/home/amal/), Northeastern University, USA <br>
+    Editor for Volume 6, Issue POPL (January 2023)
+  - [TBA](), ,  <br>
+    Editor for Volume 6, Issue ICFP (August 2023)
+  - [Mira Mezini](https://www.stg.tu-darmstadt.de/main_stg/staff_stg/mira_mezini_1.en.jsp), TU Darmstadt, Germany <br>
+    Editor for Volume 6, Issue OOPSLA (October 2023)
 
 Information Director:
   - [Harry Xu](http://www.cs.ucla.edu/~harryxu), University of California, Los Angeles <br>
