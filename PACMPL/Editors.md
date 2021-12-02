@@ -45,7 +45,7 @@ Associate Editors:
     Editor for Volume 6, Issue POPL (January 2022)
   - [Zena M. Ariola](http://ix.cs.uoregon.edu/~ariola/), University of Oregon, USA <br>
     Editor for Volume 6, Issue ICFP (August 2022)
-  - [Amal Ahmed](http://www.ccs.neu.edu/home/amal/), Northeastern University, USA and
+  - [Amal Ahmed](http://www.ccs.neu.edu/home/amal/), Northeastern University, USA <br>
     [Jan Vitek](http://janvitek.org/), Northeastern University, USA <br>
     Editor for Volume 6, Issue OOPSLA (October 2022)
 
