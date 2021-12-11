@@ -58,4 +58,4 @@ Assistant Editors:
     Editor for Volume 6, Issue OOPSLA (October 2023)
 
 Information Director:
-  - [Harry Xu](http://www.cs.ucla.edu/~harryxu), University of California, Los Angeles <br>
+  - [Adrian Sampson](https://www.cs.cornell.edu/~asampson/), Cornell University, USA <br>
