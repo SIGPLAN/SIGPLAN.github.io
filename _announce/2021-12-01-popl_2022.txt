@@ -1,0 +1,72 @@
+---
+title: "Call for Participation: 49th ACM SIGPLAN Symposium on Principles of Programming Languages (POPL 2022) "
+timestamp: "12/1/2021 10:49:18"
+start: "1/16/2022"
+end: "12/22/2021"
+---
+POPL'22 --- 49th ACM Symposium on Principles of Programming Languages, will be held in Philadelphia, USA, from January 16 to January 22, 2022.  The annual POPL meeting is a forum for the discussion of all aspects of programming languages and programming systems.  The symposium is sponsored by ACM SIGPLAN, in cooperation with ACM SIGACT and ACM SIGLOG. This year's program consists of 68 research papers on topics ranging from formal frameworks to experience reports. The registration is now open, see POPL'22 website for details.
+
+Location:
+POPL’22 will be held in person in Philadelphia from Sunday, January 16 to Saturday, January 22, 2022. The conference will be held in Westin Philadelphia in the beautiful neighborhood of Rittenhouse Square in Center City which is within walking distance to many of the tourist attractions in Philadelphia.
+
+Keynotes:
+POPL'22 will feature keynote lectures by 
+Alfred V. Aho (Columbia University, co-winner of the 2021 ACM A.M. Turing Award)
+Alexandra Silva (Cornell University)
+Armando Solar-Lezama (MIT)
+
+Tutorials:
+TutorialFest at POPL will host the following tutorials this year:
+"Formal Methods and Deep Learning" by Matthew Mirman and Gagandeep Singh
+"Program Analysis via Graph Reachability: Past, Present, and Future" by Qirun Zhang and Thomas Reps
+"Meta-programming and proving with MetaCoq" by Matthieu Sozeau, Yannick Forster, and Meven Lennon-Bertrand
+Mentoring:
+
+POPL'22 will include the following events for helping attendees with research and career opportunities in programming languages:
+Programming Languages and Mentoring Workshop (PLMW)
+Junior Faculty Mentoring Breakfast
+Mentoring Breakfast for Graduating PhDs and Postdocs
+Diversity, Equity, and Inclusion:
+
+POPL is committed to welcoming and fostering participation by diverse members of PL community. DEI events at POPL'22 include
+Women@POPL Lunch
+LGBTQ+@POPL Lunch
+ShutdownPL Session with a special keynote by Dr. Brittany Johnson
+Co-located meetings:
+Certified Programs and Proofs (CPP) 2022
+24th International Symposium on Practical Aspects of Declarative Languages (PADL) 2022
+23rd International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI) 2022
+Co-located workshops:
+Eighth International Workshop on Coq for Programming Languages (CoqPL)
+Seventh International Workshop on Languages for Inference (LAFI)
+ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation (PEPM)
+Workshop on Principles of Secure Compilation (PriSC)
+Programming Languages and the Law (ProLaLa)
+First Workshop on the Implementation of Type Systems (WITS)
+Virtual participation:
+
+We are looking forward to welcome POPL community for an in-person meeting. Talks will be live-streamed and arrangements will be made for authors who need to give their talks remotely. There will be a separate virtual workshop on January 27–28, 2022, to give all in the POPL community an opportunity to interact with one another.
+
+COVID policy:
+Attendance at POPL'22 requires a proof of COVID vaccination. Precise details---consistent with city, state, and federal regulations, will be posted on POPL website soon.
+
+Organizing Committee:
+Rajeev Alur (General Chair)
+Hongseok Yang (PC Chair)
+Nate Foster (Industrial Relations)
+Loris D'Antoni (Publicity)
+Ruzica Piskac and Ilya Sergey (Workshops)
+Jeehong Kang and Azalea Raad (Student Research Competition)
+Pavel Panchekha and Mukund Raghothaman (Artifact Evaluation)
+Amin Timany and Yuepeng Wang (Web)
+Konstantinos Kallas and Aaron Weiss (Student Volunteer)
+Adam Chlipala and Youyou Cong (Virtualization)
+Jennifer Paykin (Accessibility, Diversity, and Inclusion)
+Industry Sponsors:
+
+POPL'22 gratefully acknowledges financial support from industry sponsors:
+Platinum: Epic Games, Meta, Microsoft, Tezos
+Gold: Amazon, Jane Street
+Silver: JetBrains
+Bronze: Certora, Informal Systems, Google
+Early stage: AkitaSoftware, Correct Computation, OctoML
