@@ -38,8 +38,7 @@ The current committee is:
 * [Işil Dillig](https://www.cs.utexas.edu/~isil), U Texas, Austin
   (Chair)
 * [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts U (ex-officio)
-* [Nate Foster](https://www.cs.cornell.edu/~jnfoster/), Cornell
-  University (POPL)
+* [Nate Foster](https://www.cs.cornell.edu/~jnfoster/), Cornell U (POPL)
 * [Cormac Flanagen](https://engineering.ucsc.edu/people/cormac), UC
   Santa Cruz (PLDI)
 * [John Hughes](https://www.cse.chalmers.se/~rjmh/), Chalmers U of
@@ -49,16 +48,17 @@ The current committee is:
 #### Conflicts of Interest
 
 Because this award is intended to recognize persons of major
-influence, it is likely that several members of the awards committee
-may have worked with, or co-authored articles with, the nominees, and
-may have a conflict of interest. The primary mechanism for handling
-such conflicts will be to declare them to the committee; once so
-declared, conflicts of interest shall not automatically prevent a
-committee member from taking part in the selection process. However,
-if a member of the committee, or the chair of the committee, feels
-that the association of a committee member with a nominee would
-interfere with impartial consideration of the nominees, that
-conflicted member shall be absented from the relevant parts of the
-discussion. If a committee member has conflicts of interest with more
-than one nominee, the Chair of the Committee may ask the constituency
-that appointed the committee member to select a replacement member.
+influence, it is likely that several members of the committee may have
+worked with, or co-authored articles with, the nominees, and may have
+a conflict of interest. The primary mechanism for handling such
+conflicts will be to declare them to the committee; once so declared,
+conflicts of interest shall not automatically prevent a committee
+member from taking part in the selection process. However, if a member
+of the committee, or the chair of the committee, feels that the
+association of a committee member with a nominee would interfere with
+impartial consideration of the nominees, that conflicted member shall
+be absented from the relevant parts of the discussion. If a committee
+member has conflicts of interest with more than one nominee, the Chair
+of the Committee may ask the constituency that appointed the committee
+member to select a replacement member.  The SIGPLAN EC Chair will
+adjudicate as necessary.

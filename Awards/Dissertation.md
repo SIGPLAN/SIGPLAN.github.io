@@ -78,14 +78,15 @@ The current committee is:
 
 #### Conflicts of Interest
 
-If any member of the awards committee has a conflict of interest with
-a given nominee they shall declare that to the committee; once so
-declared, conflicts of interest shall not automatically prevent a
-committee member from taking part in the selection process. However,
-if a member of the committee, or the chair of the committee, feels
-that the association of a committee member with a nominee would
-interfere with impartial consideration of the nominees, that
-conflicted member shall be absented from the relevant parts of the
-discussion. If a committee member has conflicts of interest with more
-than one nominee, the Chair of the Committee may ask the constituency
-that appointed the committee member to select a replacement member.
+If any member of the committee has a conflict of interest with a given
+nominee they shall declare that to the committee; once so declared,
+conflicts of interest shall not automatically prevent a committee
+member from taking part in the selection process. However, if a member
+of the committee, or the chair of the committee, feels that the
+association of a committee member with a nominee would interfere with
+impartial consideration of the nominees, that conflicted member shall
+be absented from the relevant parts of the discussion. If a committee
+member has conflicts of interest with more than one nominee, the Chair
+of the Committee may ask the constituency that appointed the committee
+member to select a replacement member.  The SIGPLAN EC Chair will
+adjudicate as necessary.

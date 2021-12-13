@@ -3,51 +3,86 @@ layout: award
 title: "Distinguished Educator Award"
 ---
 
-Given by ACM SIGPLAN to recognize the value and degree of services to the
-Programming Languages Community. The award recognizes contributions to ACM
-SIGPLAN, its conferences, publications, or its local activities. The award
-includes a prize of $2,500.
+Given by ACM SIGPLAN to recognize educators who contribute to the
+Programming Languages Community. The award recognizes contributions to
+ACM SIGPLAN, its conferences, publications, or its local
+activities. The award includes a prize of $2,500.
 
-We define contributions in the broadest sense. In particular we wish to recognize:
+We define contributions in the broadest sense. In particular we wish
+to recognize:
 
 - Pedagogy about programming languages
 - Pedagogy using novel programming languages ideas
 - Pedagogy as broadly construed:
   - both curriculum and delivery
   - classroom (school, undergraduate, graduate)
-  - on-line courses
-  - on-line blogs/videos, etc.
+  - online courses
+  - online blogs/videos, etc.
 
-**Selection Committee**  
-The Award Committee will consist of a chair who is a member of the SIGPLAN
-Executive Committee and members who are selected by the chair and approved by
-the SIGPLAN Executive Committee. The SIGPLAN chair is an ex officio member of
-the committee and shall adjudicate conflicts of interest, appointing substitutes
-to the committee as necessary.
+All questions about the SIGPLAN Distinguished Educator Award should be
+directed to the SIGPLAN Awards co-Chairs.
 
+#### Nominations
 
-**Nominations**  
+Please use <http://awards.sigplan.org/> to submit nominations.
+Nominations submitted on or before January 15th will be considered for
+award that year.  A nomination for the Distinguished Educator Award
+that is not selected will remain in consideration for a total of three
+years. In any given year at most one nomination will be selected (if
+no nominee is strong enough there should be no award that year).
 
-Please use <http://awards.sigplan.org/> to submit nominations.  Nominations
-submitted by **January 5th** will be considered for that year's award.  A
-nomination for the distinguished educator award that is not awarded will remain
-under consideration for 3 years. This means that an otherwise strong nominee is
-not blocked if they happen to be nominated at the same time as a truly
-outstanding one. Conversely, if no nominee is strong enough, then there should
-be no award.
+Each nomination should include the following items:
 
-Each nomination should consist of the following items:
+- Name, affiliation, phone number, and email address of the candidate for
+  whom an award is recommended (the nominee).
+- A short statement explaining why the nominee deserves the award in
+  question. This should include any information about the context of
+  the work to help the Award Committee understand its significance.
+- Names and email addresses of 5-10 people who the nominator believes
+  will support the nomination. The awards committee will ask at least
+  three of these people for their opinions.
 
-- Name, address, phone number, and email address of the person making the
-nomination (the nominator).
-- Name, address, phone number, email address, and web site address of the
-candidate for whom an award is recommended (the nominee).
-- A short statement (400-1000 words) explaining why the nominee deserves the
-award in question. This should include any information about the context of the
-work to help the Award Committee understand its significance.
-- Names and email addresses of 5-10 people who the nominator believes will
-support the nomination. The awards committee will ask at least three of these
-people for their opinions.
+The candidate may be nominated simultaneously for other awards, such
+as the ACM Karl V. Karlstrom Outstanding Educator Award.
 
-The candidate may be nominated simultaneously for other awards, such as the ACM
-Karl V.  Karlstrom Outstanding Educator Award.
+#### Committee
+
+Award recipients are selected by a committee constituted as follows:
+* The Chair of the committee shall be a member of the SIGPLAN
+  Executive Committee (EC), and shall be appointed by the executive
+  committee.
+* The SIGPLAN EC Chair shall be an ex-officio member of the committee.
+  If the SIGPLAN EC Chair is unable to serve, he or she may appoint
+  another member of the SIGPLAN EC as a substitute.
+* The steering committees of the major SIGPLAN Conferences, POPL,
+  PLDI, ICFP, and SPLASH, shall each appoint a member to the
+  committee.
+
+The current committee comprises:
+* [Işil Dillig](https://www.cs.utexas.edu/~isil), U Texas, Austin
+  (Chair)
+* [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts U (ex-officio)
+* [Graham Hutton](http://www.cs.nott.ac.uk/~pszgmh/), U Nottingham
+  (POPL)
+* [Nate Foster](https://www.cs.cornell.edu/~jnfoster/), Cornell U
+  (PLDI)
+* [Simon Peyton
+  Jones](https://royalsociety.org/people/simon-peyton-jones-12889/),
+  Epic Games (ICFP)
+* [Elisa Gonzalez Boix](https://soft.vub.ac.be/disco/elisa/), VU
+  Brussel (SPLASH)
+
+#### Conflicts of Interest
+
+If any member of the committee has a conflict of interest with a given
+nominee they shall declare that to the committee; once so declared,
+conflicts of interest shall not automatically prevent a committee
+member from taking part in the selection process. However, if a member
+of the committee, or the chair of the committee, feels that the
+association of a committee member with a nominee would interfere with
+impartial consideration of the nominees, that conflicted member shall
+be absented from the relevant parts of the discussion. If a committee
+member has conflicts of interest with more than one nominee, the Chair
+of the Committee may ask the constituency that appointed the committee
+member to select a replacement member.  The SIGPLAN EC Chair will
+adjudicate as necessary.
