@@ -10,7 +10,7 @@ lifetime of achievement. The award includes a prize of $5,000. The
 award is presented at SIGPLAN's [PLDI conference](/Conferences/PLDI)
 the following June.
 
-    All questions about the Programming Languages Achievement Award should
+All questions about the Programming Languages Achievement Award should
 be directed to the SIGPLAN Awards co-Chairs.
 
 #### Nominations
@@ -45,7 +45,7 @@ The current committee is:
   Santa Cruz (PLDI)
 * [John Hughes](https://www.cse.chalmers.se/~rjmh/), Chalmers U of
   Technology (ICFP)
-* TBD (SPLASH)
+* [Jonathan Aldrich](https://www.cs.cmu.edu/~aldrich/), CMU (SPLASH)
 
 #### Conflicts of Interest
 
@@ -58,7 +58,7 @@ declared, conflicts of interest shall not automatically prevent a
 committee member from taking part in the selection process. However,
 if a member of the committee, or the chair of the committee, feels
 that the association of a committee member with a nominee would
-interfere with impartial consideration of the nominees, a committee
+interfere with impartial consideration of the nominees, that committee
 member shall be absented from the relevant parts of the discussion. If
 the same committee member has conflicts of interest with more than one
 nominee, the Chair of the Awards Committee may ask the constituency
