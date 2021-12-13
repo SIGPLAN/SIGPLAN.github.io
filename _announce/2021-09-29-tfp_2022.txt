@@ -1,0 +1,158 @@
+---
+title: "[TFP'22] first call for papers: Trends in Functional Programming 2022, 10-11 February (with Lambda Days 2022 & TFPIE 2022)"
+timestamp: "9/29/2021 7:26:22"
+deadline: "12/1/2021"
+---
+23rd Symposium on Trends in Functional Programming
+10-11 February, 2022
+Krakow, Poland
+https://trendsfp.github.io/index.html
+
+
+== Important Dates ==
+
+Submission deadline for pre-symposium review            Wednesday 1st December, 2021
+Submission deadline for draft papers                    Wednesday 12th January, 2022
+Notification for pre-symposium submissions              Friday 21st January, 2022
+Notification for draft submissions                      Friday 21st January, 2022
+Symposium dates                                         Thursday 10th - Friday 11th February, 2022
+Submission deadline for post-symposium reviewing        Wednesday 16th March, 2022
+Notification for post-symposium submissions             Friday 13rd May, 2022
+
+The Symposium on Trends in Functional Programming (TFP) is an
+international forum for researchers with interests in all aspects of
+functional programming, taking a broad view of current and future
+trends in the area. It aspires to be a lively environment for
+presenting the latest research results, and other contributions.
+
+Please be aware that TFP uses two distinct rounds of submissions.
+
+TFP 2022 will be co-located with two other functional programming
+events. TFP 2022 will be accompanied by the International Workshop on
+Trends in Functional Programming in Education (TFPIE), which will take
+place on February 11. Simultaneously with TFP, Lambda Days '22 is a
+two day conference where academia meets industry, where research and
+practical application collide.
+
+== Scope ==
+
+The symposium recognizes that new trends may arise through various
+routes. As part of the Symposium's focus on trends we therefore
+identify the following five article categories. High-quality articles
+are solicited in any of these categories:
+
+* Research Articles:
+  Leading-edge, previously unpublished research work
+* Position Articles:
+ On what new trends should or should not be
+* Project Articles:
+  Descriptions of recently started new projects
+* Evaluation Articles:
+  What lessons can be drawn from a finished project
+* Overview Articles:
+  Summarizing work with respect to a trendy subject
+
+Articles must be original and not simultaneously submitted for
+publication to any other forum. They may consider any aspect of
+functional programming: theoretical, implementation-oriented, or
+experience-oriented. Applications of functional programming techniques
+to other languages are also within the scope of the symposium.
+
+Topics suitable for the symposium include, but are not limited to:
+
+* Functional programming and multicore/manycore computing
+* Functional programming in the cloud
+* High performance functional computing
+* Extra-functional (behavioural) properties of functional programs
+* Dependently typed functional programming
+* Validation and verification of functional programs
+* Debugging and profiling for functional languages
+* Functional programming in different application areas:
+  security, mobility, telecommunications applications, embedded
+  systems, global computing, grids, etc.
+* Interoperability with imperative programming languages
+* Novel memory management techniques
+* Program analysis and transformation techniques
+* Empirical performance studies
+* Abstract/virtual machines and compilers for functional languages
+* (Embedded) domain specific languages
+* New implementation strategies
+* Any new emerging trend in the functional programming area
+
+If you are in doubt on whether your article is within the scope of
+TFP, please contact the TFP 2022 program chairs, Wouter Swierstra and
+Nicolas Wu.
+
+
+== Best Paper Awards ==
+
+To reward excellent contributions, TFP awards a prize for the best
+paper accepted for the formal proceedings.
+
+TFP traditionally pays special attention to research students,
+acknowledging that students are almost by definition part of new
+subject trends. A student paper is one for which the authors state
+that the paper is mainly the work of students, the students are listed
+as first authors, and a student would present the paper. A prize for
+the best student paper is awarded each year.
+
+In both cases, it is the PC of TFP that awards the prize. In case the
+best paper happens to be a student paper, that paper will then receive
+both prizes.
+
+
+== Instructions to Author ==
+
+Papers must be submitted at:
+
+  https://easychair.org/conferences/?conf=tfp22
+
+Authors of papers have the choice of having their contributions
+formally reviewed either before or after the Symposium.
+
+
+== Pre-symposium formal review ==
+
+Papers to be formally reviewed before the symposium should be
+submitted before an early deadline and receive their reviews and
+notification of acceptance for both presentation and publication
+before the symposium. A paper that has been rejected in this process
+may still be accepted for presentation at the symposium, but will not
+be considered for the post-symposium formal review.
+
+
+== Post-symposium formal review ==
+
+Draft papers will receive minimal reviews and notification of
+acceptance for presentation at the symposium. Authors of draft papers
+will be invited to submit revised papers based on the feedback received
+at the symposium. A post-symposium refereeing process will then select
+a subset of these articles for formal publication.
+
+
+== Paper categories ==
+
+Draft papers and papers submitted for formal review are submitted as
+extended abstracts (4 to 10 pages in length) or full papers (20
+pages). The submission must clearly indicate which category it belongs
+to: research, position, project, evaluation, or overview paper. It
+should also indicate which authors are research students, and whether
+the main author(s) are students. A draft paper for which all authors
+are students will receive additional feedback by one of the PC members
+shortly after the symposium has taken place.
+
+== Format ==
+
+Papers must be written in English, and written using the LNCS
+style. For more information about formatting please consult the
+Springer LNCS web site.
+
+== Program Committee ==
+
+Program Co-chairs
+
+Nicolas Wu - Imperial College London
+Wouter Swierstra - Utrecht University
+
+The remainder of the PC will be announced on the conference website.
+

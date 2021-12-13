@@ -1,0 +1,72 @@
+---
+title: "Call for Participation: PACT'21 - The 30th International Conference on Parallel Architectures and Compilation Techniques"
+timestamp: "9/10/2021 9:07:49"
+start: "9/26/2021"
+end: "9/29/2021"
+location: "Virtual"
+tweet: "PACT'2021, Sep 27-29, registration at: http://pact21.snu.ac.kr/index.php/registration/"
+---
+
+We invite you to participate in the virtual PACT 2021 conference. 
+It starts with a workshop on September 26 and continues with 
+a tutorial on September 27 and the main conference during 
+September 27th – 29th. We have an exciting program this year 
+with one keynote talk (Saman Amarasinghe, MIT) and 25 papers. 
+The details are on the PACT 2021 website (http://pactconf.org/) 
+where you can register for the conference. We look forward to your 
+participation.
+
+Scope:
+
+Sitting at the intersection of parallel architectures and compilers, 
+the PACT conference series brings together researchers from 
+architecture, compilers, execution environments, programming 
+languages, and applications to present and discuss their latest 
+research results.
+
+----------------------------------------------------------------
+
+REGISTRATION SITE: http://pact21.snu.ac.kr/index.php/registration/
+
+----------------------------------------------------------------
+
+Workshops: 
+
+The 2nd International Workshop on Machine Learning for Software 
+Hardware Co-Design (MLSH’21)
+  http://pact21.snu.ac.kr/index.php/accepted-workshops-tutorials/ 
+  (http://groups.csail.mit.edu/commit/mlsh/)
+
+Tutorials:
+How to Parallelize Your Own Language Using OpenCilk Components
+  http://pact21.snu.ac.kr/index.php/accepted-workshops-tutorials/ 
+
+----------------------------------------------------------------
+
+PACT 2021 Organizing Committee
+
+General Chair: Jaejin Lee, Seoul National University
+Program Chair: Albert Cohen, Google
+Finance chair: John Kim, KAIST
+Workshops chair: Bernhard Egger, Seoul National University
+Tutorials chair: Byeong Kil Lee, the University of Colorado at Colorado Springs
+Publications chair: Jungwon Kim, Oak Ridge National Laboratory
+Video conferencing chair: Hyungmin Cho, Sungkyunkwan University
+Registration chair: Jaewoong Sim, Seoul National University
+ACM SRC chair: Changhee Jung, Purdue University
+Artifact Evaluation Committee Co-chairs: 
+   Bingsheng He, National University of Singapore
+   Jidong Zhai, Tsinghua University
+Publicity Co-chairs:
+   Zehra Sura (America), Bloomberg 
+   Xiaoming Li (Asia), University of Delaware
+   Rio Yokota (Asia), Tokyo Institute of Technology
+   Christophe Dubach (Europe), McGill University
+Submission chair: Denys Shabalin, Google
+Web chair: Wookeun Jung, Seoul National University
+
+----------------------------------------------------------------
+
+Contact: pact21@aces.snu.ac.kr, Web: http://pactconf.org
+
+Sponsored by the IEEE Computer Society, ACM and IFIP.

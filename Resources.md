@@ -23,7 +23,7 @@ SIGPLAN, the premier programming languages organization, promotes awareness and 
     [Mark Leone](http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/mleone-home.html)
 -   [the Garbage Collection Bibliography](http://www.cs.kent.ac.uk/people/staff/rej/gcbib/gcbib.html)
     by [Richard Jones](http://www.cs.kent.ac.uk/people/staff/rej/)
--   [DBLP Computer Science Bibliogrpahy](http://dblp.uni-trier.de/db/index.html), includes also the table of contents of:
+-   [DBLP Computer Science Bibliography](http://dblp.uni-trier.de/db/index.html), includes also the table of contents of:
     [TOPLAS](http://dblp.uni-trier.de/db/journals/toplas/index.html), [ACM Computing Surveys](http://dblp.uni-trier.de/db/journals/csur/index.html),
     [Software - Practice and Experience](http://dblp.uni-trier.de/db/journals/spe/index.html), &#8230;
 

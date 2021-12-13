@@ -1,0 +1,258 @@
+---
+title: "Call For Participation - SPLASH 2021: ACM SIGPLAN Conference on Systems, Programming, Languages, and Applications: Software for Humanity"
+timestamp: "10/5/2021 2:54:17"
+start: "10/17/2021"
+end: "10/22/2021"
+---
+========================================================================  
+                     Final Call For Participation
+
+   ACM Conference on Systems, Programming, Languages, and Applications:
+                 Software for Humanity (SPLASH'21)
+
+                Hybrid Conference (Online and In-Person)
+                	October 17-22, 2021, Chicago, USA
+
+                   https://2021.splashcon.org/ 
+                 	Follow us on Twitter @splashcon
+
+Attendees are required to be fully vaccinated to attend SPLASH 2021 in-person. Vaccination verification can take up to 24 hours. Register now to avoid onsite delay. Masks are required at SPLASH 2021.
+
+SPLASH negotiated rates at the conference hotel. Rates are only available until Oct 8. Please, use the following link to book a room: https://book.passkey.com/event/50236396/owner/1461/home
+
+========================================================================   
+
+The ACM SIGPLAN conference on Systems, Programming, Languages and Applications: Software for Humanity (SPLASH) embraces all aspects of software construction and delivery to make it the premier conference at the intersection of programming, languages, and software engineering. 
+
+This year, SPLASH will be held as a Hybrid Conference. There will be a physical conference in Chicago as well as a virtual component. Note that, for in-person participation, attendees are required to be fully vaccinated. More details below. 
+
+========================================================================
+# Regarding COVID19 
+========================================================================
+
+SPLASH 2021 will require in-person attendees to be fully vaccinated, as defined by the Center for Disease Control (CDC):
+
+https://www.cdc.gov/coronavirus/2019-ncov/vaccines/fully-vaccinated.html 
+
+According to the CDC, attendees “are considered fully vaccinated (a) 2 weeks after their second dose in a 2-dose series, such as the Pfizer or Moderna vaccines, or (b) 2 weeks after a single-dose vaccine, such as Johnson & Johnson’s Janssen vaccine. If you don’t meet these requirements, regardless of your age, you are NOT fully vaccinated.” SPLASH 2021 will offer virtual attendance options for those individuals who are not fully vaccinated. Vaccination validation will be conducted by a vendor contracted by the ACM to perform this validation for the SPLASH 2021 conference. This validation can take up to 24 hours.
+
+Masks are required at SPLASH 2021. 
+
+If you are planning to attend SPLASH in Chicago please register NOW. COVID-19 vaccination verification can take up to 24 hours. In-person attendees will not be admitted until their vaccination status is verified.
+
+========================================================================
+# Participation
+========================================================================
+
+Please register using this online registration form:
+
+https://regmaster.com/2021conf/SPLASH21/register.php 
+
+========================================================================
+# List of Keynotes/Ask Me Anything/Invited Talks
+========================================================================
+
+SPLASH will feature three keynotes:
+Luca Cardelli, Microsoft Research and University of Oxford
+Robyn Lutz, Iowa State University
+Rick Stevens, Argonne National Laboratory
+
+SPLASH will feature Ask Me Anything sessions with the following speakers:
+Martin Abadi, Google
+Heidy Khlaaf, University College London
+Leslie Lamport, Microsoft Research
+Robert Rand, University of Chicago
+Ashley Williams, Cloudfare
+
+SPLASH co-located events include a number of speakers:
+Timothy Bourke, INRIA
+Tobias Grosser, The University of Edinburgh
+Sorin Lerner, University of California at San Diego
+Clemens Nylandsted Klokmose, Aarhus University
+Christian Wimmer, Oracle Labs
+Jonathan Worthington, Edument
+
+========================================================================
+# List of Events
+========================================================================
+
+** OOPSLA Research Papers **
+
+Papers that address any aspect of software development are welcome, including requirements, modelling, prototyping, design, implementation, generation, analysis, verification, testing, evaluation, maintenance, reuse, replacement, and retirement of software systems. Papers may address these topics in a variety of ways, including new tools (such as languages, program analyses, and runtime systems), new techniques (such as methodologies, design processes, code organization approaches, and management techniques), and new evaluations (such as formalisms and proofs, corpora analyses, user studies, and surveys).
+
+
+** Onward! Research Papers **
+Onward! is a premier multidisciplinary conference focused on everything to do with programming and software: including processes, methods, languages, communities, and applications. Onward! is more radical, more visionary, and more open than other conferences to ideas that are well-argued but not yet proven. We welcome different ways of thinking about, approaching, and reporting on programming language and software engineering research.
+
+
+** Onward! Essays **
+Onward! Essays conference is looking for clear and compelling pieces of writing about topics important to the software community construed broadly. An essay can be an exploration of a topic, its impact, or the circumstances of its creation; it can present a personal view of what is, explore a terrain, or lead the reader in an act of discovery; it can be a philosophical digression or a deep analysis. It can describe a personal journey, perhaps that by which the author reached an understanding of such a topic. The subject area should be interpreted broadly and can include the relationship of software to human endeavours, or its philosophical, sociological, psychological, historical, or anthropological underpinnings.
+
+
+** In-person presentations of papers from recent virtual conferences **
+Several SIGPLAN conferences have been held virtually since March 2020.  We have invited authors of papers from virtual OOPSLA 2020, PLDI 2020 and 2021, and ICFP 2020 to present their work in person at SPLASH, and many authors have accepted.  These presentations will be given during the main conference days, in parallel with OOPSLA and Onward! 2021 presentations.  They will not be streamed, since they were already streamed at their respective virtual conferences.
+
+
+** PLMW@SPLASH **
+The SPLASH 2021 Programming Languages Mentoring Workshop encourages graduate students (PhD and MSc) and senior undergraduate students to pursue research in programming languages. This workshop will provide mentoring sessions on how to prepare for and thrive in graduate school and in a research career, focusing both on cutting-edge research topics and practical advice. The workshop brings together leading researchers and junior students in an inclusive environment in order to help welcome newcomers to our field of programming languages research. The workshop will show students the many paths that they might take to enter and contribute to our research community.
+
+========================================================================
+** Ask Me Anything **
+========================================================================
+
+An Ask Me Anything session is an opportunity to ask any kind of question of our speakers and experts. SPLASH will have two plenary AMAs with the following invited guests:
+
+Leslie Lamport: Microsoft Research
+Heidy Khlaaf: University College London
+Robert Rand: University of Chicago
+Ashley Williams: Cloudflare
+Martin Abadi: Google
+
+
+========================================================================
+** Workshops **
+========================================================================
+
+**** AGERE 2021 ****
+The AGERE! workshop is aimed at focusing on programming systems, languages and applications based on actors, active/concurrent objects, agents and—more generally—on high-level programming paradigms which promote decentralized control in solving problems and developing software.
+The workshop is intended to cover both the theory and the practice of design and programming, bringing together researchers working on models, languages and technologies, and practitioners developing real-world systems and applications.
+
+
+**** BCNC 2021 ****
+The first international workshop on “Beyond Code: No Code,” (BCNC 2021) targets one of the most engaging topics currently spanning the software engineering community. The No-Code movement is making its way through all industries, saving time, empowering workers, and creating new possibilities. No Code is changing the software industry by accelerating development and opening up opportunities for less tech-savvy individuals to create life-changing products. 
+
+**** CONFLANG 2021 ****
+CONFLANG is a new workshop on the design, the usage and the tooling of configuration programming languages. CONFLANG aims at uniting language designers, industry practitioners and passionate hobbyists to share knowledge in any form. Topics of interest include, but are not limited to:
+
+- Infrastructure and configuration code maintenance and evolution
+- Specification learning and mining for configurations
+- Infrastructure and Configuration testing and verification
+- Infrastructure as Code and configuration repair
+- New languages for configuration
+- The application of language security and type theory to program configuration
+
+
+**** DSM’21 ****
+Domain-Specific Modeling (DSM) languages provide a viable and time-tested solution for continuing to raise the level of abstraction, and thus productivity, beyond coding, making systems and software development faster and easier.
+In DSM, the models are constructed using concepts that represent things in the application domain, not concepts of a given programming language. The modeling language follows the domain abstractions and semantics, allowing developers to perceive themselves as working directly with domain concepts. Together with frameworks and platforms, DSM can automate a large portion of software production.
+The goals of the workshop are to share experiences and demonstrate the DSM solutions that have been developed by both researchers and practitioners, identify research questions and continuing to build the community.
+
+**** HATRA 2021 ****
+Programming language designers seek to provide strong tools to help developers reason about their programs. For example, the formal methods community seeks to enable developers to prove correctness properties of their code, and type system designers seek to exclude classes of undesirable behavior from programs. The security community creates tools to help developers achieve their security goals. In order to make these approaches as effective as possible for developers, recent work has integrated approaches from human-computer interaction research into programming language design. 
+
+This workshop brings together programming languages, software engineering, security, and human-computer interaction researchers to investigate methods for making languages that provide stronger safety properties more effective for programmers and software engineers.
+
+
+**** LIVE 2021 ****
+Programming is cognitively demanding, and too difficult. LIVE is a workshop exploring new user interfaces that improve the immediacy, usability, and learnability of programming. Whereas PL research traditionally focuses on programs, LIVE focuses more on the activity of programming.
+
+
+**** REBLS 2021 ****
+Reactive programming and event-based programming are two closely related programming styles that are becoming ever more important with the advent of advanced HPC technology and the ever increasing requirement for our applications to run on the web or on collaborating mobile devices. A number of publications on middleware and language design — so-called reactive and event-based languages and systems (REBLS) — have already seen the light, but the field still raises several questions. For example, the interaction with mainstream language concepts is poorly understood, implementation technology is in its infancy and modularity mechanisms are almost totally lacking.
+
+This workshop will gather researchers in reactive and event-based languages and systems. The goal of the workshop is to exchange new technical research results and to define better the field by coming up with taxonomies and overviews of the existing work.
+
+
+**** VMIL 2021 ****
+The concept of Virtual Machines is pervasive in the design and implementation of programming systems. Virtual Machines and the languages they implement are crucial in the specification, implementation and/or user-facing deployment of most programming technologies.
+The VMIL workshop is a forum for researchers and cutting-edge practitioners in language virtual machines, the intermediate languages they use, and related issues.
+
+========================================================================
+** SPLASH Posters ** 
+========================================================================
+The SPLASH Posters track provides an excellent forum for authors to
+present their recent or ongoing projects in an interactive setting, and
+receive feedback from the community. SPLASH posters cover any
+aspect of programming, systems, languages and applications. The goal of
+the poster session is to encourage and facilitate small groups of
+individuals interested in a technical area to gather and interact. It is
+held early in the conference, to promote continued discussion among
+interested parties.
+
+========================================================================
+** Doctoral Symposium ** 
+========================================================================
+The SPLASH Doctoral Symposium provides students with useful guidance for completing their dissertation research and beginning their research careers. The symposium will provide an interactive forum for doctoral students who have progressed far enough in their research to have a structured proposal, but will not be defending their dissertation in the next 12 months.
+
+========================================================================
+** Student Research Competition ** 
+========================================================================
+The ACM Student Research Competition (SRC), sponsored by Microsoft Research, offers a unique opportunity for undergraduate and graduate students to present their research to a panel of judges and conference attendees at SPLASH. The SRC provides visibility and exposes up-and-coming researchers to computer science research and the research community. This competition also gives students an opportunity to discuss their research with experts in their field, get feedback, and sharpen their communication and networking skills.
+
+========================================================================
+** SPLASH-E **
+========================================================================
+SPLASH-E is a forum for educators to make connections between programming languages research and the ways we educate computer science students. We invite work that could improve or inform computer science educators, especially work that connects with introductory computer science courses, programming languages, compilers, software engineering, and other SPLASH-related topics. Educational tools, experience reports, and new curricula are all welcome.
+
+========================================================================
+                 *** ACM SIGPLAN Scala Symposium ***
+========================================================================
+Scala is a general-purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way. It smoothly integrates features of object-oriented and functional languages.
+The Scala Symposium is the leading forum for researchers and practitioners related to the Scala programming language. We welcome a broad spectrum of research topics and support many submission formats for industry and academia alike.
+
+
+========================================================================
+                   *** Co-Located Events ***
+========================================================================
+
+**  Asian Symposium on Programming Languages and Systems (APLAS) ** 
+
+The 19th Asian Symposium on Programming Languages and Systems (APLAS). APLAS aims to stimulate programming language research by providing a forum for the presentation of the latest results and the exchange of ideas in programming languages and systems. APLAS is based in Asia but is an international forum that serves the worldwide programming languages community. APLAS 2021 will be held online and co-located with SPLASH 2021.
+
+
+** Dynamic Languages Symposium (DLS) **
+DLS is the premier forum for researchers and practitioners to share knowledge and research on dynamic languages, their implementation, and applications. The influence of dynamic languages — from Lisp to Smalltalk to Python to JavaScript — on real-world practice and research, continues to grow. We invite high-quality papers reporting original research, innovative contributions, or experience related to dynamic languages, their implementation, and applications.
+
+
+** 20th International Conference on Generative Programming: Concepts & Experiences (GPCE) ** 
+GPCE is a venue for researchers and practitioners interested in techniques that use program generation, domain-specific languages, and component deployment to increase programmer productivity, improve software quality, and shorten the time-to-market of software products. In addition to exploring cutting-edge techniques of generative software, our goal is to foster further cross-fertilization between software engineering and the programming languages research communities.
+
+
+** The 28th Static Analysis Symposium (SAS 2021) **
+Static analysis is widely recognized as a fundamental tool for program verification, bug detection, compiler optimization, program understanding, and software maintenance. The series of Static Analysis Symposia has served as the primary venue for the presentation of theoretical, practical, and application advances in the area.
+
+** 13th International ACM SIGPLAN Conference on Software Language Engineering (SLE) ** 
+SLE is the discipline of engineering languages and the tools required for the creation of software. It abstracts from the differences between programming languages, modelling languages, and other software languages, and emphasizes the engineering facet of the creation of such languages, that is, the establishment of the scientific methods and practices that enable the best results. SLE overlaps with traditional conferences on the design and implementation of programming languages, model-driven engineering, and compiler construction, and emphasizes the fusion of their communities. 
+
+========================================================================
+# Organizing Committee SPLASH 2021:
+========================================================================
+SPLASH General Chair: Hridesh Rajan (Iowa State University)
+OOPSLA Review Committee Chair: Sophia Drossopoulou (Imperial College London)
+Hybridization Co-Chair: Jonathan Aldrich (Carnegie Mellon University)
+Hybridization Co-Chair: Steve Blackburn (Australia National University)
+Hybridization and Video Co-Chair: Benjamin Chung (Northeastern University)
+Hybridization Co-Chair: Youyou Cong (Tokyo Institute of Technology)
+Hybridization Co-Chair: Alex Potanin (Victoria University of Wellington)
+Hybridization Co-Chair: Talia Ringer (University of Illinois at Urbana-Champaign)
+GPCE General Chair: Eli Tilevich (Virginia Tech)
+GPCE Program Chair: Coen De Roover (Vrije Universiteit Brussel)
+SLE General Chair: Eelco Visser (Delft University of Technology)
+SLE Program Co-Chair: Dimitris Kolovos (University of York)
+SLE Program Co-Chair: Emma Söderberg (Lund University)
+SLE Artifact Evaluation Co-Chair: Elias Castegren (KTH)
+SLE Artifact Evaluation Co-Chair: Andreas Wortmann (RWTH Aachen University)
+DLS Chair: Arjun Guha (Northeastern University)
+Onward! Papers Chair: Wolfgang De Meuter (Vrije Universiteit Brussel)
+Onward! Essays Chair: Elisa Baniassad (University of British Columbia)
+SPLASH-E Co-Chair: Charlie Curtsinger (Grinnell College)
+SPLASH-E Co-Chair: Tien N. Nguyen (University of Texas at Dallas)
+Artifact Evaluation Co-Chair: Colin Gordon (Drexel University)
+Artifact Evaluation Co-Chair: Ana Milanova (Rensselaer Polytechnic Institute)
+Artifact Evaluation Co-Chair: Anders Møller (Aarhus University)
+Workshops Co-Chair: Mehdi Bagherzadeh (Oakland University) 
+Workshops Co-Chair: Raffi Khatchadourian (CUNY Hunter College)
+Student Research Competition Co-Chair: Julia Rubin (University of British Columbia)
+Publicity Chair: Juan Fumero (University of Manchester)
+Web Chair: Rangeet Pan (Iowa State University)
+Student Volunteer Co-Chair: Breno Dantas Cruz (Iowa State University)
+Student Volunteer Co-Chair: Samantha Syeda Khairunnesa (Florida Gulf Coast University)
+Sponsorship Co-Chair: Ganesha Upadhyaya (Harmony.one)
+Poster Co-Chair: Christos Dimoulas (PLT @ Northwestern University)
+Poster Co-Chair: Murali Krishna Ramanathan (Uber Technologies Inc.)
+Publications Chair: Saba Alimadadi (Simon Fraser University)
+Accessibility Chair: Sumon Biswas (Iowa State University, USA)
+Video Co-chair: Leif Andersen (Northeastern University, USA)
+========================================================================
+
+

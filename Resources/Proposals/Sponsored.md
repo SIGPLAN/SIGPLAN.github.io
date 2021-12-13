@@ -37,14 +37,17 @@ Sponsored status provides a number of benefits:
 
 These are in addition to the benefits available with in-cooperation status:
 
-- Announcements about the meeting can be disseminated via
-  SIGPLAN's mailing list. (Contact [infodir\_sigplan@acm.org](mailto:infodir_sigplan@acm.org?subject=SIGPLAN%20Mailing%20List).)
+- [Announcements][] about the meeting can be disseminated via
+  SIGPLAN's mailing list. Fill out [the announcement form][form].
 - You will get entries in the _Call for Papers_
   and _Professional Calendar_ sections of _Communications of the ACM_, free of charge.
 - You can also buy an advertisement in _CACM_ at a special rate. Placement
   of such advertisements should be arranged through ACM Headquarters. Please
   check CACM as to the lead time required. Discounts on ACM mailing lists
   are also available.
+
+[announcements]: https://www.sigplan.org/announce/
+[form]: https://forms.gle/UcDaghSiUkJCF8rD8
 
 Responsibilities
 ----------------

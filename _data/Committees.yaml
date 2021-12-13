@@ -32,7 +32,7 @@ Information Director:
 
 "Ex-Officio Members":
   - ACM Program Director:         "[Abigail Sumandal](mailto:sumandal@hq.acm.org)"
-  - SIGPLAN Information Director: "[Matthew Fluet](mailto:infodir_sigplan@acm.org)"
+  - SIGPLAN Information Director: "[Adrian Sampson](https://www.cs.cornell.edu/~asampson/) (Cornell University)"
   - Editor of FORTRAN Forum:      "[Ian Chivers](mailto:ian.chivers@chiversandbryan.co.uk)"
   - ACM TOPLAS Editors:           "[Jens Palsberg](http://www.cs.ucla.edu/~palsberg/)"
   - Steering Committee Chairs:
@@ -185,22 +185,21 @@ SIGAPL Steering Committee:
   - Chair: Guy Larocque
 
 SPLASH Steering Committee:
-  - Chair: Eelco Visser, Delft University of Technology
-  - Jonathan Aldrich, Carnegie Mellon University
+  - Chair: David Grove, IBM Research
+  - Amal Ahmed, Northeastern University
+  - Wolfgang De Meuter, Vrije Universiteit Brussel
   - Sophia Drossopoulou, Imperial College London
-  - Elisa Gonzalez Boix, Vrije Universiteit Brussel
-  - David Grove, IBM Research
-  - Tony Hosking, Australian National University / Data61
-  - Stephen Kell, University of Kent
+  - Jeff Foster, Tufts University
+  - Antony Hosking, Australian National University
+  - Stephen Kell, King's College London
   - Hidehiko Masuhara, Tokyo Institute of Technology
-  - Gail Murphy, University of British Columbia
-  - Jens Palsberg, University of California, Los Angeles
-  - Benjamin C. Pierce, University of Pennsylvania
+  - Mira Mezini, TU Darmstadt
+  - Anders Møller, Aarhus University
   - Alex Potanin, Victoria University of Wellington
   - Hridesh Rajan, Iowa State University
   - Yannis Smaragdakis, University of Athens
-  - Manu Sridharan, University of California at Riverside
-  - Emina Torlak, University of Washington
+  - Vasco T. Vasconcelos, University of Lisbon
+  - Eelco Visser, Delft University of Technology
   - Jan Vitek, Northeastern University / Czech Technical University
 
 VEE Steering Committee:

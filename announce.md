@@ -5,7 +5,7 @@ title: Announcements
 These announcements are periodically emailed to the `sigplan-announce` listserv maintained by ACM.
 To submit your announcement, please [fill out this form][form].
 
-[form]: https://docs.google.com/forms/d/1bYN9FtloQlMRwxVZGozSwUnqquPl2ir9CTHr9uQbVSg
+[form]: https://forms.gle/UcDaghSiUkJCF8rD8
 
 {% for page in site.announce reversed %}
 {% assign mo = page.date | date: "%B %Y" %}

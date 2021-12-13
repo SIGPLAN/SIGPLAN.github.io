@@ -27,24 +27,12 @@ Advisory Board:
     Past Chair of SIGPLAN
   - [Cristina Lopes](https://www.ics.uci.edu/~lopes/), University of California, Irvine, USA <br>
     Member at Large (Issue OOPSLA)
-  - [Jens Palsberg](https://web.cs.ucla.edu/~palsberg/), University of California, Los Angeles, USA <br>
+  - [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts University, USA <br>
     Chair of SIGPLAN
-  - [Ranjit Jhala](https://ranjitjhala.github.io/), University of California at San Diego, USA <br>
+  - [Anders Møller](https://cs.au.dk/~amoeller/), Aarhus University, Denmark <br>
     Vice-Chair of SIGPLAN
 
 Senior Editors:
-  - [Lars Birkedal](https://cs.au.dk/~birke/), Aarhus University, Denmark <br>
-    Editor for Volume 4, Issue POPL (January 2020)
-  - [Richard Gabriel](https://www.dreamsongs.com/RPG.html), Dream Songs, Inc. & HPI, USA <br>
-    Editor for Volume 4, Issue HOPL (June 2020)
-  - [Guy Steele](https://labs.oracle.com/pls/apex/f?p=labs:bio:0:120), Oracle Labs, USA <br>
-    Editor for Volume 4, Issue HOPL (June 2020)
-  - [Adam Chlipala](http://adam.chlipala.net/), Massachusetts Institute of Technology, USA <br>
-    Editor for Volume 4, Issue ICFP (August 2020)
-  - [David Grove](https://researcher.watson.ibm.com/researcher/view.php?person=us-groved), IBM Research, USA <br>
-    Editor for Volume 4, Issue OOPSLA (November 2020)
-
-Associate Editors:
   - [Azadeh Farzan](https://www.cs.toronto.edu/~azadeh/), University of Toronto, Canada <br>
     Editor for Volume 5, Issue POPL (January 2021)
   - [Ronald Garcia](https://www.cs.ubc.ca/~rxg/), University of British Columbia, Canada <br>
@@ -52,13 +40,22 @@ Associate Editors:
   - [Sophia Drossopoulou](https://wp.doc.ic.ac.uk/sd/), Imperial College London, UK <br>
     Editor for Volume 5, Issue OOPSLA (October 2021)
 
-Assistant Editors:
+Associate Editors:
   - [Hongseok Yang](https://sites.google.com/view/hongseokyang/home), KAIST, Korea <br>
     Editor for Volume 6, Issue POPL (January 2022)
-  - [n/n](),  <br>
+  - [Zena M. Ariola](http://ix.cs.uoregon.edu/~ariola/), University of Oregon, USA <br>
     Editor for Volume 6, Issue ICFP (August 2022)
-  - [James Noble](http://ecs.vuw.ac.nz/~kjx/), Victoria University of Wellington, NZ <br>
+  - [Amal Ahmed](http://www.ccs.neu.edu/home/amal/), Northeastern University, USA <br>
+    [Jan Vitek](http://janvitek.org/), Northeastern University, USA <br>
     Editor for Volume 6, Issue OOPSLA (October 2022)
 
+Assistant Editors:
+  - [Amal Ahmed](http://www.ccs.neu.edu/home/amal/), Northeastern University, USA <br>
+    Editor for Volume 6, Issue POPL (January 2023)
+  - [TBA](), ,  <br>
+    Editor for Volume 6, Issue ICFP (August 2023)
+  - [Mira Mezini](https://www.stg.tu-darmstadt.de/main_stg/staff_stg/mira_mezini_1.en.jsp), TU Darmstadt, Germany <br>
+    Editor for Volume 6, Issue OOPSLA (October 2023)
+
 Information Director:
-  - [Harry Xu](http://www.cs.ucla.edu/~harryxu), University of California, Los Angeles <br>
+  - [Adrian Sampson](https://www.cs.cornell.edu/~asampson/), Cornell University, USA <br>

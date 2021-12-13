@@ -1,0 +1,11 @@
+---
+title: "Call for (Self-)Nominations for the ASPLOS 2022 Artifact Evaluation Committee"
+timestamp: "9/21/2021 6:23:12"
+---
+We are looking for motivated students, researchers and engineers to be part of the ASPLOS'22 artifact evaluation committee. This year, you can nominate yourself or your students/postdocs or fellow engineers. You can find more information about ASPLOS'22 artifact evaluation here: https://ctuning.org/ae/asplos2022.html
+
+The (self-)nomination form is available at: https://forms.gle/pTVYYeYcfR1vLj6GA, and open until 22 October.
+
+As a committee member, your responsibility will be to review artifacts submitted for already accepted papers, e.g. by inspecting and running code and checking whether it allows to reproduce the main results of the paper. All evaluators will be acknowledged in the proceedings.
+
+ASPLOS AE'22 will use the HotCRP submission website to communicate asynchronously with artifact authors to allow to resolve issues quickly. We expect the main work to take place between December 8 and January 17.

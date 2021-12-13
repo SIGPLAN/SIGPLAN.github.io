@@ -1,0 +1,449 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>MPLR 2021: Proceedings of the 18th ACM SIGPLAN International Conference on Managed Programming Languages and Runtimes</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>MPLR 2021: Proceedings of the 18th ACM SIGPLAN International Conference on Managed Programming
+               Languages and Runtimes</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3475738"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Implementation Intricacies</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3475738.3480714">Shared memory protection in a multi-tenant JVM</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Majid Makki</li>
+               <li class="nameList">Dimitri Van Landuyt</li>
+               <li class="nameList">Bert Lagaisse</li>
+               <li class="nameList Last">Wouter Joosen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Multi-tenant Software-as-a-Service (SaaS) providers allow tenants to customize the
+                     application at different levels. When the customization involves tenant custom code
+                     and a single application instance is shared among multiple tenants, the issue of tenant
+                     isolation becomes critical. In common practice, tenant isolation, which amounts to
+                     protection of tenants against any interference and disturbance from each other, is
+                     performed by isolating tenant custom code in either a dedicated Virtual Machine (VM)
+                     or a dedicated container. </p> 
+                  <p> However, tenant isolation can be enforced at the higher level of threads rather than
+                     OS processes. The main advantage of this alternative approach is that it significantly
+                     increases tenant accommodation capacity (the number of tenants that can be hosted
+                     on a single node). However, achieving this benefit raises a number of non-trivial
+                     challenges, most notably the need for access control over the memory space shared
+                     between the custom code of multiple tenants. </p> 
+                  <p> In this paper, we present a solution for protecting the shared memory space of the
+                     Java Virtual Machine (JVM) demarcated by the static fields of the java.base module.
+                     The solution is based on systematic analysis of the java.base module. As a result
+                     of the analysis, the set of shared classes is reduced to a minimal subset of the java.base
+                     module and it is shown that the static fields of the minimal subset can be protected
+                     using the Java platform security. A multi-tenant class loading mechanism is also provided
+                     for loading a tenant-specific runtime instance of classes not included in the minimal
+                     subset. </p> 
+                  <p> The proposed solution is implemented on top of a customized OpenJDK 11 and validated
+                     by means of 18 validation scenarios. The evaluation results presented in this paper
+                     show that achieving a memory footprint reduction ranging between 32% and 97% requires
+                     only 32 CLOC in OpenJDK source and denial of only 9 distinct permissions for tenants
+                     without any significant performance overhead for a wide range of application domains.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3475738.3480715">Cross-ISA testing of the Pharo VM: lessons learned while porting to ARMv8</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Guillermo Polito</li>
+               <li class="nameList">Pablo Tesone</li>
+               <li class="nameList">Stéphane Ducasse</li>
+               <li class="nameList">Luc Fabresse</li>
+               <li class="nameList">Théo Rogliano</li>
+               <li class="nameList">Pierre Misse-Chanabier</li>
+               <li class="nameList Last">Carolina Hernandez Phillips</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Testing and debugging a Virtual Machine is a laborious task without the proper tooling.
+                     This is particularly true for VMs with JIT compilation and dynamic code patching for
+                     techniques such as inline caching. In addition, this situation is getting worse when
+                     the VM builds and runs on multiple target architectures. </p> 
+                  <p> In this paper, we report on several lessons we learned while testing the Pharo VM,
+                     particularly during the port of its Cogit JIT compiler to the AArch64 architecture.
+                     The Pharo VM presented already a simulation environment that is very handy to simulate
+                     full executions and live-develop the VM. However, this full simulation environment
+                     makes it difficult to reproduce short and simple testing scenarios. We extended the
+                     pre-existing simulation environment with a testing infrastructure and a methodology
+                     that allow us to have fine-grained control of testing scenarios, making tests small,
+                     fast, reproducible, and cross-ISA. </p> 
+                  <p> We report on how this testing infrastructure allowed us to cope with two different
+                     development scenarios: (1) porting the Cogit JIT compiler to AArch64 without early
+                     access to real hardware and (2) debugging memory corruptions due to GC bugs.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3475738.3480716">Higher-order concurrency for microcontrollers</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Abhiroop Sarkar</li>
+               <li class="nameList">Robert Krook</li>
+               <li class="nameList">Bo Joel Svensson</li>
+               <li class="nameList Last">Mary Sheeran</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Programming microcontrollers involves low level interfacing with hardware and peripherals
+                     that are concurrent and reactive. Such programs are typically written in a mixture
+                     of C and assembly using concurrent language extensions (like FreeRTOS tasks and semaphores),
+                     resulting in unsafe, callback-driven, error-prone and difficult-to-maintain code.
+                     </p> 
+                  <p>We address this challenge by introducing SenseVM - a bytecode-interpreted virtual
+                     machine that provides a message passing based <em>higher-order concurrency</em> model, originally introduced by Reppy, for microcontroller programming. This model
+                     treats synchronous operations as first-class values (called Events) akin to the treatment
+                     of first-class functions in functional languages. This primarily allows the programmer
+                     to compose and tailor their own concurrency abstractions and, additionally, abstracts
+                     away unsafe memory operations, common in shared-memory concurrency models, thereby
+                     making microcontroller programs safer, composable and easier-to-maintain. </p> 
+                  <p>Our VM is made portable via a low-level <em>bridge</em> interface, built atop the embedded OS - Zephyr. The bridge is implemented by all
+                     drivers and designed such that programming in response to a software message or a
+                     hardware interrupt remains uniform and indistinguishable. In this paper we demonstrate
+                     the features of our VM through an example, written in a Caml-like functional language,
+                     running on the nRF52840 and STM32F4 microcontrollers.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Data Delicacies</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3475738.3480717">Virtual ADTs for portable metaprogramming</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Nicolas Stucki</li>
+               <li class="nameList">Jonathan Immanuel Brachthäuser</li>
+               <li class="nameList Last">Martin Odersky</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Scala 3 provides a metaprogramming interface that represents the <em>abstract syntax tree</em> definitions using <em>algebraic data types</em>. To allow the compiler to freely evolve without breaking the metaprogramming interface,
+                     we present <em>virtual algebraic data types</em> (or Virtual ADTs) -- a programming pattern, which allows programmers to describe
+                     mutually recursive hierarchies of types without coupling to a particular runtime representation.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3475738.3480718">Specializing generic Java data structures</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Dan Graur</li>
+               <li class="nameList">Rodrigo Bruno</li>
+               <li class="nameList Last">Gustavo Alonso</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The Collections framework is an essential utility in virtually every Java application.
+                     It offers a set of fundamental data structures that exploit Java Generics and the
+                     Object type in order to enable a high degree of reusability. Upon instantiation, Collections
+                     are parametrized by the type they are meant to store. However, at compile-time, due
+                     to type erasure, this type gets replaced by Object, forcing the data structures to
+                     manipulate references of type Object (the root of the Java type system). In the bytecode,
+                     the compiler transparently adds type checking instructions to ensure type safety,
+                     and generates bridge methods to enable the polymorphic behavior of parametrized classes.
+                     This approach can introduce non-trivial runtime overheads when applications extensively
+                     manipulate Collections. </p> 
+                  <p> We propose the Java Collections Specializer (JCS), a tool we have developed to deliver
+                     truly specialized Collections. JCS can generate ArrayLists, ConcurrentHashMaps and
+                     HashMaps with true type specialization that incur no performance penalties due to
+                     bridge methods or type checking instructions. JCS offers the possibility to easily
+                     extend its use to other Collection data structures. Since the specialized data structures
+                     extend and inherit from the generic counterpart's superclasses and interfaces, the
+                     specialized versions can be used in most places where generic versions are employed.
+                     The programmer uses JCS to generate specializations ahead of time. These are generated
+                     under the java.util package, and need only be added to the class path and integrated
+                     into the application logic. We show that the specialized data structures can improve
+                     the runtime performance of data intensive workloads by up to 14% for read use-cases
+                     and 42% for write use-cases.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3475738.3480719">Architecture-agnostic dynamic type recovery</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Daniel Pekarek</li>
+               <li class="nameList Last">Hanspeter Mössenböck</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Programmers can use various data types when developing software. However, if the program
+                     is compiled to machine code, most of this type information is lost. If analysis of
+                     a compiled program is necessary, the lost data types have to be recovered again, to
+                     make the code understandable. Existing approaches for the type recovery problem require
+                     detailed knowledge about the CPU architecture in question. An architecture-agnostic
+                     approach is missing so far. </p> 
+                  <p> This work focuses on a truly architecture-agnostic type recovery algorithm, implemented
+                     in a dynamic analysis system. It can recover data types using minimal knowledge about
+                     the CPU architecture, therefore, making it easy to support many different CPU architectures
+                     in the analysis system.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Profiling Particularities</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3475738.3480720">Profiling code cache behaviour via events</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Pablo Tesone</li>
+               <li class="nameList">Guillermo Polito</li>
+               <li class="nameList Last">Stéphane Ducasse</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Virtual machine performance tuning for a given application is an arduous and challenging
+                     task. For example, parametrizing the behaviour of the JIT compiler machine code caches
+                     affects the overall performance of applications while being rather obscure for final
+                     users not knowledgeable about VM internals. Moreover, VM components are often heavily
+                     coupled and changes in some parameters may affect several seemingly unrelated components
+                     and may have unclear performance impacts. Therefore, choosing the best parametrization
+                     requires to have precise information. </p> 
+                  <p> In this paper, we present Vicoca, a tool that allows VM users and developers to obtain
+                     detailed information about the behaviour of the code caches and their interactions
+                     with other virtual machine components. We present a complex optimization problem due
+                     to the heavy interaction of components in the Pharo VM, and we explain it using Vicoca.
+                     The information produced by the tool allows developers to produce an optimized configuration
+                     for the VM. Vicoca is based on event recording that are manipulated during off-line
+                     analysis. Vicoca not only allows us to understand this given problem, but it opens
+                     the door to future work such as automatic detection of application characteristics,
+                     identification of performance issues, and automatic hinting.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3475738.3480939">Low-overhead multi-language dynamic taint analysis on managed runtimes through speculative
+                  optimization</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jacob Kreindl</li>
+               <li class="nameList">Daniele Bonetta</li>
+               <li class="nameList">Lukas Stadler</li>
+               <li class="nameList">David Leopoldseder</li>
+               <li class="nameList Last">Hanspeter Mössenböck</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p><em>Dynamic taint analysis</em> (DTA) is a popular program analysis technique with applications to diverse fields
+                     such as software vulnerability detection and reverse engineering. It consists of marking
+                     sensitive data as <em>tainted</em> and tracking its propagation at runtime. While DTA has been implemented on top of
+                     many different analysis platforms, these implementations generally incur significant
+                     slowdown from taint propagation. Since a purely dynamic analysis cannot predict which
+                     instructions will operate on tainted values at runtime, programs have to be fully
+                     instrumented for taint propagation even when they never actually observe tainted values.
+                     We propose leveraging speculative optimizations to reduce slowdown on the peak performance
+                     of programs instrumented for DTA on a managed runtime capable of dynamic compilation.
+                     </p> 
+                  <p>In this paper, we investigate how speculative optimizations can reduce the peak performance
+                     impact of taint propagation on programs executed on a managed runtime. We also explain
+                     how a managed runtime can implement DTA to be amenable to such optimizations. We implemented
+                     our ideas in <em>TruffleTaint</em>, a DTA platform which supports both dynamic languages like JavaScript and languages
+                     like C and C++ which are typically compiled statically. We evaluated TruffleTaint
+                     on several benchmarks from the popular <em>Computer Language Benchmarks Game</em> and <em>SPECint 2017</em> benchmark suites. Our evaluation shows that TruffleTaint is often able to avoid slowdown
+                     entirely when programs do not operate on tainted data, and that it exhibits slowdown
+                     of on average ∼2.10x and up to ∼5.52x when they do, which is comparable to state-of-the-art
+                     taint analysis platforms optimized for performance.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3475738.3480940">Tracing and its observer effect on concurrency</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Indigo Orton</li>
+               <li class="nameList Last">Alan Mycroft</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Execution tracing has an observer effect: the act of tracing perturbs program behaviour
+                     via its overhead, which can in turn affect the accuracy of subsequent dynamic analysis.
+                     We investigate this observer effect in the context of concurrent behaviour within
+                     JVM-based programs. Concurrent behaviour is especially fragile as task-scheduling
+                     ordering can change, which could even lead to deadlock via thread starvation under
+                     certain conditions. We analyse three dimensions of overhead, compute volume, memory
+                     volume, and uniformity, using a configurable-overhead tracer and a concurrency-performance
+                     analyser. We argue that uniformity is a key, and underappreciated, dimension of overhead
+                     that can have qualitative effects on program behaviour. Experimental results show
+                     that overhead significantly affects real-world concurrent behaviour and subsequent
+                     analysis, at times unintuitively.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Coding Curiosities</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3475738.3480941">Generation of TypeScript declaration files from JavaScript code</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Fernando Cristiani</li>
+               <li class="nameList Last">Peter Thiemann</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Developers are starting to write large and complex applications in TypeScript, a typed
+                     dialect of JavaScript. TypeScript applications integrate JavaScript libraries via
+                     typed descriptions of their APIs called declaration files. DefinitelyTyped is the
+                     standard public repository for these files. The repository is populated and maintained
+                     manually by volunteers, which is error-prone and time consuming. Discrepancies between
+                     a declaration file and the JavaScript implementation lead to incorrect feedback from
+                     the TypeScript IDE and, thus, to incorrect uses of the underlying JavaScript library.</p> 
+                  <p>This work presents dts-generate, a tool that generates TypeScript declaration files
+                     for JavaScript libraries uploaded to the NPM registry. It extracts code examples from
+                     the documentation written by the developer, executes the library driven by the examples,
+                     gathers run-time information, and generates a declaration file based on this information.
+                     To evaluate the tool, 249 declaration files were generated directly from an NPM module
+                     and 111 of these were compared with the corresponding declaration file provided on
+                     DefinitelyTyped. All these files either exhibited no differences at all or differences
+                     that can be resolved by extending the developer-provided examples.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3475738.3480942">LLJava live at the loop: a case for heteroiconic staged meta-programming</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Baltasar Trancón y Widemann</li>
+               <li class="nameList Last">Markus Lepper</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This paper investigates the use of staged meta-programming techniques for the transparent
+                     acceleration of embedded domain-specific languages on the Java platform. LLJava-live,
+                     the staged API of the low-level JVM language LLJava, can be used to complement an
+                     interpreted EDSL with orthogonal and extensible compilation facilities. Compiled JVM
+                     bytecode becomes available immediately as an extension of the running host program.
+                     The approach is illustrated with a didactic structured imperative programming language,
+                     Whilst.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3475738.3480943">Using machine learning to predict the code size impact of duplication heuristics in
+                  a dynamic compiler</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Raphael Mosaner</li>
+               <li class="nameList">David Leopoldseder</li>
+               <li class="nameList">Lukas Stadler</li>
+               <li class="nameList Last">Hanspeter Mössenböck</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Code duplication is a major opportunity to enable optimizations in subsequent compiler
+                     phases. However, duplicating code prematurely or too liberally can result in tremendous
+                     code size increases. Thus, modern compilers use trade-offs between estimated costs
+                     in terms of code size increase and benefits in terms of performance increase. In the
+                     context of this ongoing research project, we propose the use of machine learning to
+                     provide trade-off functions with accurate predictions for code size impact. To evaluate
+                     our approach, we implemented a neural network predictor in the GraalVM compiler and
+                     compared its performance against a human-crafted, highly tuned heuristic. First results
+                     show promising performance improvements, leading to code size reductions of more than
+                     10% for several benchmarks. Additionally, we present an assistance mode for finding
+                     flaws in the human-crafted heuristic, leading to improvements for the duplication
+                     optimization itself.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>

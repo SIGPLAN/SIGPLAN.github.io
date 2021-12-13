@@ -1,22 +1,109 @@
+2021:
+- Awardee: "Ralf Jung, Max Planck Institute for Software Systems and Saarland University"
+  Other: _Understanding and Evolving the Rust Programming Language_
+  Advisor: "Derek Dreyer"
+  Citation: |
+    Ralf Jung’s dissertation aims to provide an understanding
+    and justification for the practical memory and concurrency safety that
+    the type system of Rust is meant to enforce. The main new challenge is
+    posed by libraries that use unsafe, aren’t checked by the type
+    system, but are assumed to be “safe”. In particular, the
+    usual progress-and-preservation style of proof of type soundness does
+    not work in this setting because it relies on a closed-world assumption.
+    To address the problem, the thesis contributes a semantic characterization
+    of the semantics of the properties to enforce, which is non-trivial due to
+    the richness of Rust’s typing abstractions. In
+    collaboration with colleagues Ralf Jung developed a rich program
+    logic, called Iris, based on ideas of higher-order, concurrent, separation
+    logic, used to give a semantic interpretation of Rust’s types. Iris has
+    now been used in other contexts, e.g., in the practice to reason
+    formally about other kinds of low-level systems code (e.g., C and
+    assembly), as well as by systems and security researchers.
+
+    The primary contribution of the dissertation is the development (and
+    validation) of a semantic model of Rust’s type system using Iris, all
+    developed within Coq, that makes precise the informal notions that the
+    Rust designers had in mind. That precision, in turn, makes it possible to
+    set up criteria that unchecked libraries must satisfy in order to ensure
+    that checked code that is linked against them will respect the memory and
+    data-race safety properties that the type system was intended
+    to enforce. The effectiveness is demonstrated by verifying a number of the
+    critical un-checked library abstractions. Like Iris, the
+    ideas underlying the verification regime proposed here transfer to
+    reasoning about any practical systems that are a mix of of
+    languages, e.g., to reasoning about Java programs involves reasoning about
+    the run-time system that is implemented in C.
+
+    Ralf Jung did not only formalize everything in a proof assistant, so the
+    proofs are machine-checked and re-usable by others, but also put together
+    practical tools that people can use today. The thesis will continue to
+    influence PL researchers via Iris and will continue to influence
+    practitioners via Rust.
+
+- Awardee: "Gagandeep Singh, ETH Zurich"
+  Other: _Scalable Automated Reasoning for Programs and Deep Learning_
+  Advisor: "Martin Vechev and Markus Püschel"
+  Citation: |
+    The central research question addressed by Singh’s dissertation is how to
+    enable scalable and precise automated reasoning based on the abstract
+    interpretation framework in the domains of numerical software and deep
+    learning models.
+
+    With regard to numerical software the thesis contributes a new method to
+    online decomposition of program variables, which speeds up the Polyhedra
+    domain and also generalizes to other abstract domains by providing
+    a theory that gives a general construction for obtaining decomposed
+    transformers from existing non-decomposed ones. This method is effective
+    in removing redundant computations at each analysis step. In addition, the
+    thesis proposes a reinforcement learning method to learn policies for
+    selectively losing precision at different analysis steps, which however do
+    not impact the overall precision, because some precise steps may
+    eventually be discarded later and hence do not affect the end result. The
+    methods are implemented in the ELINA library, which includes a number of
+    important numerical domains (e.g., Octagon, Polyhedra, Zone), and is shown
+    to outperform the state-of-the-art Polyhedra library by orders
+    of magnitude. ELINA is currently the state-of-the-art library for
+    numerical static analysis and is used in both industry and academia
+
+    To address the analysis of deep learning models, the dissertation provides
+    a set of abstract domains, specifically designed for deep learning models.
+    The observation motivating this design decision is that standard numerical
+    abstract domains are not suited for analyzing neural networks due to the
+    nature of transformations of these networks and their non-linearity. A key
+    contribution is the DeepPoly domain and its transformers for handling the
+    usual activation functions used in deep networks. All domains and
+    transformers are carefully implemented in a neural network verifier,
+    called ERAN, which is currently the state-of-the-art system for neural
+    network certification and is also used in both academia and industry.
+
+    Overall, the thesis includes everything one would like to see in an
+    outstanding doctoral dissertation: clean mathematical concepts with
+    corresponding efficient algorithms which solve hard and important
+    problems, ones that have resisted a solution for decades, a complete
+    implementation of all ideas in state-of-the-art libraries used in academia
+    and industry, all while opening new directions of research that have been
+    picked up by the community as demonstrated by the large set of follow-up
+    works.
+
 2020:
 - Awardee: "Filip Niksic, Max Planck Institute for Software Systems"
   Other: |
     _[Combinatorial Constructions for Effective Testing](/Awards/Dissertation/2020_niksic.pdf)_
   Advisor: Rupak Majumdar
   Citation: |
-    Soundness is at the core of most PL verification techniques and random testing is a commonly 
-    used technique for analyzing software. Developing a theory of soundness for random testing 
-    is thus very important, but very few results existed before this thesis. Randomized techniques 
-    are seldom used in (sound) program analyses; hence, addressing the problem requires the 
-    development of new ways to approaching it. Filip's thesis is among the first to apply deep 
-    techniques from randomized algorithms and combinatorics understanding and explaining the 
-    effectiveness of random testing. In turn, the theory helps with the design of new random 
-    testing approaches. The thesis adresses a hard problem brining in novel theory and proving 
-    hard theorems. When we see a phenomenon that we cannot immediately explain (in this case that 
-    random testing is so effective), we should try to build a scientific explanation. For some 
-    problems, including random testing, it is unclear that one can actually formulate a precise 
-    theory, because the "real world" is extremely messy. The fact that Filip is able to formulate 
-    the problem precisely and prove nontrivial theorems about them is surprising and opens the 
+    Soundness is at the core of most PL verification techniques and random testing is a commonly
+    used technique for analyzing software. Developing a theory of soundness for random testing
+    is thus very important, but very few results existed before this thesis. Randomized techniques
+    are seldom used in (sound) program analyses; hence, addressing the problem requires the
+    development of new ways to approaching it. Filip's thesis is among the first to apply deep
+    techniques from randomized algorithms and combinatorics understanding and explaining the
+    effectiveness of random testing. In turn, the theory helps with the design of new random
+    testing approaches. The thesis adresses a hard problem brining in novel theory and proving
+    hard theorems. When we see a phenomenon that we cannot immediately explain (in this case that
+    random testing is so effective), we should try to build a scientific explanation. For some
+    problems, including random testing, it is unclear that one can actually formulate a precise
+    theory, because the "real world" is extremely messy. The fact that Filip is able to formulate
+    the problem precisely and prove nontrivial theorems about them is surprising and opens the
     door to a new field.
 
 2019:
@@ -25,35 +112,35 @@
     _[Network Control Plane Synthesis and Verification](/Awards/Dissertation/2019_beckett.pdf)_
   Advisor: David Walker
   Citation: |
-    Ryan Beckett's thesis addresses the highly relevant topic of ensuring the correctness of 
-    computer network configurations. Computer networks connect key components of the world's 
-    critical infrastructure - their misconfiguration may have severe consequences for our society. 
-    While the problems Ryan considers are from the networking community, the methods that he 
-    uses to solve them are drawn from the programming languages and formal methods communities, 
-    including declarative languages, automata, logic, compilers, bisimulation, static analysis, 
-    abstraction. Using these methods Ryan thesis describes new principles, algorithms, and tools 
+    Ryan Beckett's thesis addresses the highly relevant topic of ensuring the correctness of
+    computer network configurations. Computer networks connect key components of the world's
+    critical infrastructure - their misconfiguration may have severe consequences for our society.
+    While the problems Ryan considers are from the networking community, the methods that he
+    uses to solve them are drawn from the programming languages and formal methods communities,
+    including declarative languages, automata, logic, compilers, bisimulation, static analysis,
+    abstraction. Using these methods Ryan thesis describes new principles, algorithms, and tools
     for both verification and synthesis of network control plane algorithms.
-    
-    On the verification side, Ryan's key insight is that one can characterize the fixed points 
-    to which routing algorithms converge. By carefully representing the constraints that define 
-    such fixed points as SMT formula, he developed the world's most general and efficient control 
-    plane verification engine. To further speed up verification, he defined clever new algorithms 
-    capable of computing small, abstract networks that are behaviorally equivalent to much larger 
-    ones. On the synthesis side, Ryan defines a new programming language called Propane for specifying 
-    network control plane behavior. The work demonstrates that it takes just 50 lines of code in 
-    the right high-level programming language (as opposed to 1000s of lines of configuration, per 
-    device, for hundreds of separate devices) to specify core network requirements that are compiled 
-    to industry-standard devices. Ryan also defines new analyses that guarantee correctness in the 
+
+    On the verification side, Ryan's key insight is that one can characterize the fixed points
+    to which routing algorithms converge. By carefully representing the constraints that define
+    such fixed points as SMT formula, he developed the world's most general and efficient control
+    plane verification engine. To further speed up verification, he defined clever new algorithms
+    capable of computing small, abstract networks that are behaviorally equivalent to much larger
+    ones. On the synthesis side, Ryan defines a new programming language called Propane for specifying
+    network control plane behavior. The work demonstrates that it takes just 50 lines of code in
+    the right high-level programming language (as opposed to 1000s of lines of configuration, per
+    device, for hundreds of separate devices) to specify core network requirements that are compiled
+    to industry-standard devices. Ryan also defines new analyses that guarantee correctness in the
     presence of device failures.
-    
-    Ryan's results have been published in top programming languages and networking conferences. While 
+
+    Ryan's results have been published in top programming languages and networking conferences. While
     all aspects of the work could easily have been submitted to programming languages or formal methods
-    venues, submitting his work to networking conferences has certainly maximized his impact in his 
-    domain of study. Most notably, his work on the Propane language won the best paper award at SIGCOMM 
-    in 2016.  With his thesis, Ryan Beckett has demonstrated his capability to conduct truly 
-    interdisciplinary research of the highest scientific quality: The results were possible only with a 
-    deep knowledge across the programming languages, formal methods and networking domains. Moreover, 
-    the thesis is an excellent witness of the profound impact that programming language and formal 
+    venues, submitting his work to networking conferences has certainly maximized his impact in his
+    domain of study. Most notably, his work on the Propane language won the best paper award at SIGCOMM
+    in 2016.  With his thesis, Ryan Beckett has demonstrated his capability to conduct truly
+    interdisciplinary research of the highest scientific quality: The results were possible only with a
+    deep knowledge across the programming languages, formal methods and networking domains. Moreover,
+    the thesis is an excellent witness of the profound impact that programming language and formal
     reasoning methods can have on other research areas.
 
 

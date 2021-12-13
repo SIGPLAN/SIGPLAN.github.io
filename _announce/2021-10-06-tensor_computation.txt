@@ -1,0 +1,41 @@
+---
+title: "Online Seminar Series on Tensor Computation"
+timestamp: "10/6/2021 10:51:11"
+start: "10/15/2021"
+end: "12/3/2021"
+---
+[Department of Computer Science, University of Oxford](http://www.cs.ox.ac.uk/)
+[Seminar Series on Tensor Computation](http://www.cs.ox.ac.uk/seminars/Programming%20Languages/)
+
+The following seminars on tensor computation will take place at 4pm UK time on Fridays this coming term. (Note that the clocks change in the UK part way through the series!)
+
+The seminars will be held online, via Zoom. Registration instructions are on the webpage above. All are welcome.
+
+[Dr Albert Cohen](https://research.google/people/106208/), Google
+15 Oct: *Herding Tensor Compilers*
+
+[Professor Jonathan Ragan Kelley](http://people.csail.mit.edu/jrk/), MIT
+22 Oct: *Halide* [provisional title]
+
+[Dr Conal Elliott](http://conal.net/)
+29 Oct: *Can Tensor Programming Be Liberated from the Fortran Data Paradigm?*
+
+**clocks change: UK moves from BST=UTC+1 to GMT=UTC**
+
+[Professor Markus Püschel](https://acl.inf.ethz.ch/people/markusp/), ETH Zürich
+5 Nov: *Program Generation for Small Scale Linear Algebra*
+
+[Professor Martin Elsman](https://elsman.com/), Copenhagen
+12 Nov: *Futhark* [provisional title]
+
+[Rohan Yadav](https://rohany.github.io/), Stanford
+19 Nov: *Compilation of Sparse Array Programming Models* [provisional title]
+
+[Professor Gabrielle Keller](https://www.uu.nl/medewerkers/GKKeller), Utrecht
+26 Nov: *Accelerate: High-Performance Computing in Haskell*
+
+[Dr Dimitrios Vytiniotis](https://dimitriv.github.io/), Google
+3 Dec: *Automating Tensor Partitioning on Meshes of Accelerators* [provisional title]
+
+Seminar conveners: [Jeremy Gibbons](http://www.cs.ox.ac.uk/people/jeremy.gibbons/), [Peter Braam](https://www.braam.io/)
+

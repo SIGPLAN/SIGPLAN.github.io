@@ -1,0 +1,169 @@
+---
+title: "First Call for Papers, 14th International Conference on Mathematics of Program Construction"
+timestamp: "11/8/2021 11:06:22"
+deadline: "4/17/2022"
+---
+======================================================================
+
+*** CALL FOR PAPERS -- MPC 2022 ***
+
+14th International Conference on Mathematics of Program Construction
+
+26th-28th of September 2022, Tbilisi, Georgia
+
+Co-located with the Computational Logic Autumn Summit (CLAS'22)
+
+======================================================================
+
+
+TIMELINE:
+
+Abstract submission     10th April 2022
+
+Paper submission          17th April 2022
+
+Author notification        27th May 2022
+
+Camera ready copy        24th June 2022
+
+Conference                      26th-28th September 2022
+
+
+BACKGROUND:
+
+The International Conference on Mathematics of Program Construction
+(MPC) aims to promote the development of mathematical principles and
+techniques that are demonstrably practical and effective in the
+process of constructing computer programs.
+
+MPC 2022 will be held in Tbilisi, Georgia, on the 26th-28th September
+2022, and is co-located with the Computational Logic Autumn Summit (CLAS'22).
+
+Previous conferences were held in Porto, Portugal (2019);
+Königswinter, Germany (2015); Madrid, Spain (2012);
+Québec City, Canada (2010); Marseille, France (2008);
+Kuressaare, Estonia (2006); Stirling, UK (2004); Dagstuhl, Germany (2002);
+Ponte de Lima, Portugal (2000); Marstrand, Sweden (1998); Kloster Irsee,
+Germany (1995); Oxford, UK (1992); Twente, The Netherlands (1989).
+
+
+SCOPE:
+
+MPC seeks original papers on mathematical methods and tools put to use
+in program construction. Topics of interest range from algorithmics to
+support for program construction in programming languages and systems.
+Typical areas include type systems, program analysis and transformation,
+programming language semantics, security, and program logics. The notion
+of a 'program' is interpreted broadly, ranging from algorithms to hardware.
+
+Theoretical contributions are welcome, provided that their relevance
+to program construction is clear. Reports on applications are welcome,
+provided that their mathematical basis is evident. We also encourage
+the submission of 'programming pearls' that present elegant and
+instructive examples of the mathematics of program construction.
+
+
+SUBMISSION:
+
+Submission is in two stages. Abstracts (plain text, maximum 250 words)
+must be submitted by 10th April 2022. Full papers (pdf, formatted using
+the llncs.sty style file for LaTex) must be submitted by 17th April 2022.
+There is no prescribed page limit, but authors should strive for brevity.
+Both abstracts and papers will be submitted using EasyChair.
+
+Papers must present previously unpublished work, and not be submitted
+concurrently to any other publication venue. Submissions will be
+evaluated by the program committee according to their relevance,
+correctness, significance, originality, and clarity. Each submission
+should explain its contributions in both general and technical terms,
+clearly identifying what has been accomplished, explaining why it is
+significant, and comparing it with previous work. Accepted papers must
+be presented in person at the conference by one of the authors.
+
+The proceedings of MPC 2022 will be published in the Lecture Notes
+in Computer Science (LNCS) series, as with all previous instances
+of the conference.  Authors of accepted papers will be expected to
+transfer copyright to Springer for this purpose.
+
+After the conference, authors of the best papers from MPC 2022
+will be invited to submit revised versions to a special
+issue of Science of Computer Programming (SCP).
+
+For any queries about submission please contact the program chair,
+Ekaterina Komendantskaya <ek19@hw.ac.uk> or
+publicity chair Matthew Daggitt <M.Daggitt@hw.ac.uk>
+
+
+KEYNOTE SPEAKERS:
+
+TBA
+
+
+PROGRAMME COMMITTEE:
+
+Georg Struth                  University of Sheffield, UK
+
+Ana Sokolova                 University of Salzburg, Austria
+
+Annabelle McIver         Macquerie University, Australia
+
+Jacques Carette            McMaster University, Canada
+
+Shin-Cheng Mu             Academia Sinica, Taiwan
+
+Jose Oliveira                  University of Minho, Portugal
+
+Johan Jeuring                Utrecht University, Netherlands
+
+Ambrus Kaposi              Eötvös Loránd University, Hungary
+
+Henning Basold             Leiden University, Netherlands
+
+Peter Hoefner               Australian National University, Australia
+
+Grant Passmore            Imandra, USA
+
+Kathrin Stark                 Princeton University, USA
+
+Philip Saville                  University of Oxford, UK
+
+William Byrd                 University of Arizona, USA
+
+Andrea Costea             National University of Singapopre, Singapore
+
+Radu Mardare              University of Strathclyde, UK
+
+Patricia Johann            Appalachian State University, USA
+
+Aurore Alcolei             University of Bologna, Italy
+
+Others TBA
+
+
+CONFERENCE VENUE:
+
+The conference will be held at the Ivane Javakhishvili Tbilisi State
+University (TSU), which is the oldest and largest educational and
+research institution not only in Georgia, but also in the South Caucasus.
+The venue is located in the city center, with many hotels, pubs,
+restaurants, parks, other attractions (zoo, theaters, cinemas, opera,
+etc.) within walking distance.
+
+Tbilisi International Airport is 15 km away from the city and offers
+direct connections to more than 30 destinations in Europe, Asia, and the
+Middle East. From the airport, the city can be reached by bus or taxi.
+Another option is to  fly to Kutaisi in the west of Georgia, where low
+budget air companies  (such as WizzAir) are operating. A shuttle bus from
+the Kutaisi airport to Tbilisi takes about 3 hours.
+
+Georgia allows visa-free entry for nearly 100 countries around the world.
+Further details may be found at
+<https://www.geoconsul.gov.ge/HtmlPage/Html/View?id=956&lang=Eng>
+
+
+LOCAL ORGANISERS:
+
+Besik Dundua               International Black Sea University
+
+For any queries about local issues please contact the local organiser,
+Besik Dundua <bdundua@ibsu.edu.ge>.

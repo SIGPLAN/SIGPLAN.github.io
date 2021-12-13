@@ -1,0 +1,446 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>SPLASH-E 2021: Proceedings of the 2021 ACM SIGPLAN International Symposium on SPLASH-E</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>SPLASH-E 2021: Proceedings of the 2021 ACM SIGPLAN International Symposium on SPLASH-E</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3484272"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3484272.3484959">The common coder’s scratch programming idioms and their impact on project remixing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Xingyu Long</li>
+               <li class="nameList">Peeratham Techapalokul</li>
+               <li class="nameList Last">Eli Tilevich</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>As Scratch has become one of the most popular educational programming languages, understanding
+                     its common programming idioms can benefit both computing educators and learners. This
+                     understanding can fine-tune the curricular development to help learners master the
+                     fundamentals of writing idiomatic code in their programming pursuits. Unfortunately,
+                     the research community's understanding of what constitutes idiomatic Scratch code
+                     has been limited. To help bridge this knowledge gap, we systematically identified
+                     idioms as based on canonical source code, presented in widely available educational
+                     materials. We implemented a tool that automatically detects these idioms to assess
+                     their prevalence within a large dataset of over 70K Scratch projects in different
+                     experience backgrounds and project categories. Since communal learning and the practice
+                     of remixing are one of the cornerstones of the Scratch programming community, we studied
+                     the relationship between common programming idioms and remixes. Having analyzed the
+                     original projects and their remixes, we observed that different idioms may associate
+                     with dissimilar types of code changes. Code changes in remixes are desirable, as they
+                     require a meaningful programming effort that spurs the learning process. The ability
+                     to substantially change a project in its remixes hinges on the project's code being
+                     easy to understand and modify. Our findings suggest that the presence of certain common
+                     idioms can indeed positively impact the degree of code changes in remixes. Our findings
+                     can help form a foundation of what comprises common Scratch programming idioms, thus
+                     benefiting both introductory computing education and Scratch programming tools.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3484272.3484960">“You have said too much”: Java-like verbosity anti-patterns in Python codebases</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yuzhi Ma</li>
+               <li class="nameList Last">Eli Tilevich</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>As a popular language for teaching introductory programming, Java can profoundly influence
+                     beginner programmers with its coding style and idioms. Despite its many advantages,
+                     the paradigmatic coding style in Java is often described as verbose. As a result,
+                     when writing code in more concise languages, such programmers tend to emulate the
+                     familiar Java coding idioms, thus neglecting to take advantage of the more succinct
+                     counterparts in those languages. As a result of such verbosity, not only the overall
+                     code quality suffers, but the verbose non-idiomatic patterns also render code hard
+                     to understand and maintain. In this paper, we study the incidences of Java-like verbosity
+                     as they occur in Python codebases. We present a collection of Java-Like Verbosity
+                     Anti-patterns and our pilot study of their presence in representative open-source
+                     Python codebases. We discuss our findings as a call for action to computing educators,
+                     particularly those who work with introductory students. We need novel pedagogical
+                     interventions that encourage budding programmers to write concise idiomatic code in
+                     any language.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3484272.3484961">Course experience report: full-class compiler collaboration</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Joe Gibbs Politz</li>
+               <li class="nameList Last">Yousef Alhessi</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Compilers are large software systems. In course projects it is often a challenge for
+                     students to build a significant compiler on their own with features like memory management,
+                     closures, inheritance, and more. We report on our experience splitting a relatively
+                     large compiler, with several of these advanced features, among project groups in a
+                     graduate compilers course. In addition to allowing students to engage with a larger
+                     system than groups would have been able to build on their own, we also believe based
+                     on anecdotal feedback that this had positive effects on student morale and community.
+                     There were several concrete logistics and content decisions we made that were effective,
+                     along with other recommendations and refinements for when we run the course again.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3484272.3484962">Teaching DevOps: a tale of two universities</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Richard Hobeck</li>
+               <li class="nameList">Ingo Weber</li>
+               <li class="nameList">Len Bass</li>
+               <li class="nameList Last">Hasan Yasar</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>DevOps is a set of practices in software engineering that is in high demand by industry.
+                     It is a dynamic field which constantly adds new methods and tools. Teaching DevOps
+                     prepares today’s computer science students for best-practices in a working environment
+                     but challenges university lecturers to provide central concepts while staying up-to-date
+                     with current trends. In this paper we report and reflect on our experiences teaching
+                     DevOps at two universities (in the USA and Germany) in an inverted classroom format.
+                     We describe how we set-up the courses, provide a brief analysis of data we collected,
+                     and share our lessons learned.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3484272.3484963">PaCon: a symbolic analysis approach for tactic-oriented clustering of programming
+                  submissions</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yingjie Fu</li>
+               <li class="nameList">Jonathan Osei-Owusu</li>
+               <li class="nameList">Angello Astorga</li>
+               <li class="nameList">Zirui Neil Zhao</li>
+               <li class="nameList">Wei Zhang</li>
+               <li class="nameList Last">Tao Xie</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Enrollment in programming courses increasingly surges. To maintain the quality of
+                     education in programming courses, instructors need ways to understand the performance
+                     of students and give feedback accordingly at scale. For example, it is important for
+                     instructors to identify different problem-solving ways (named as tactics in this paper)
+                     used in programming submissions. However, because there exist many abstraction levels
+                     of tactics and high implementation diversity of the same tactic, it is challenging
+                     and time-consuming for instructors to manually tackle the task of tactic identification.
+                     Toward this task, we propose PaCon, a symbolic analysis approach for clustering functionally
+                     correct programming submissions to provide a way of identifying tactics. In particular,
+                     PaCon clusters submissions according to path conditions, a semantic feature of programs.
+                     Because of the focus on program semantics, PaCon does not struggle with the issue
+                     of an excessive number of clusters caused by subtle syntactic differences between
+                     submissions. Our experimental results on real-world data sets show that PaCon can
+                     produce a reasonable number of clusters each of which effectively groups together
+                     those submissions with high syntax diversity while sharing equivalent path-condition-based
+                     semantics, providing a promising way toward identifying tactics.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3484272.3484964">Machine learning pedagogy to support the research community</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Kevin Dick</li>
+               <li class="nameList">Daniel G. Kyrollos</li>
+               <li class="nameList Last">James R. Green</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Machine learning methods are increasingly leveraged in disparate domains of research.
+                     Herein, we describe our curriculum design to introduce undergraduate students to applied
+                     research through a series of course assignments and a competition among peers to inspire
+                     other educators. We describe the overall course structure and detail how the assignments
+                     were tailored to a selected open research question while developing student understanding
+                     of machine learning. We outline the lessons learned from this new undergraduate curriculum
+                     design and describe how it may be adapted to similar courses. For the selected COVID19-related
+                     course-long problem of predicting which drugs might interact with specific proteins,
+                     we leveraged state-of-the-art tools for representing drug and protein sequences. We
+                     challenged students to develop unique solutions competitive with a current state-of-the-art
+                     model using reproducible Notebooks and cloud-based computing resources with the expectation
+                     that top-ranking solutions would be used to predict novel druggable targets within
+                     the SARS-CoV-2 proteome to possibly treat COVID19 patients. We motivate this curriculum
+                     design based on related competition frameworks that have led to notable research advancements
+                     and contributed to machine learning pedagogy. From our experience, the top student
+                     solutions were ultimately combined using a stacked classifier to create a publishable
+                     solution representing an actual research contribution. We highly recommend introducing
+                     undergraduate students to open research applications early in their program to encourage
+                     them to consider pursuing a career in research.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3484272.3484965">Reframing the Liskov substitution principle through the lens of testing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Elisa Baniassad</li>
+               <li class="nameList Last">Alexander J. Summers</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In this essay, we explore a new pedagogical framing ofway of pedagogically and teaching
+                     the Liskov Substitution Principle (LSP). In addition to, or perhaps even in place
+                     of, teaching the specifics of the rule itself, we advocatepropose teaching an operationalised
+                     version of the rule: that a subtype must pass its supertype’s <em>black box tests</em> for each of its overriding methods. We leverage the fact that black box tests should
+                     be written to capture conformance to a specification without overfitting or checking
+                     implementation internalsdetails (as would be checked by glass box tests). A type that
+                     violates the rules of substitutability will also fail a potential corresponding black
+                     box test for the supertype. Additionally, we argue that the over-strict nature of
+                     the classical LSP Postcondition Rule (which has been improved in subsequent work)
+                     can be a source of confusion for both instructors and for students learning this crucial
+                     concept for the first time. Pleasingly, many of the technical subtleties of this nuanced
+                     but important concept drop out naturally when thinking of substitutability via black
+                     box tests. Thus we put forward We propose that this test-oriented means of teaching
+                     substitutability is a valuable alternative to the classical sense of checking the
+                     LSP, with the benefit of being intuitively accessible to students.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3484272.3484966">The efficacy of online office hours: an experience report</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Braxton Hall</li>
+               <li class="nameList">Noa Heyl</li>
+               <li class="nameList">Elisa Baniassad</li>
+               <li class="nameList">Meghan Allen</li>
+               <li class="nameList Last">Reid Holmes</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>To facilitate assisting students while online during the COVID 19 pandemic, we transitioned
+                     to online office hours. These were managed by an automated queue which kept track
+                     of who was waiting in office hours, and for how long. We combined data about office
+                     hour usage with students' project commit and grade history. These data afforded us
+                     a unique look at the efficacy of office hours that the usual, casual drop-in style
+                     office hours, did not allow. Amongst other findings, we saw that while individual
+                     office hours visits did increase student grades, more visits during the term was negatively
+                     correlated with the final project outcome.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3484272.3484967">Teachable moments in functional audio processing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Martin Henz</li>
+               <li class="nameList">Shang-Hui Koh</li>
+               <li class="nameList Last">Samyukta Sounderraman</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The atomic entity of digital audio processing systems is a digital audio signal, i.e.
+                     a sequence of sound samples that represent the amplitude of a sound wave at discrete
+                     time intervals. Such signals are transformed additively, by combining them into more
+                     complex signals, and subtractively, by subjecting them to digital filters. In order
+                     to cover digital audio processing in a classroom from first principles, we need to
+                     form collections of samples in streams or arrays, and define operations on these collections
+                     in accordance with the constraints of digitization. In this work, we pursue an alternative
+                     approach, where the atomic entity is a continuous wave function. We present additive
+                     synthesis operations, including wave envelopes and musical abstractions in a purely
+                     functional setting. The final continuous wave function is digitized in order to make
+                     the sound audible. We report our experiences with what we call <em>functional audio processing</em> as an example domain for teaching functional programming to first-year students,
+                     where simplicity and conceptual elegance outweighs the inherent limitation to additive
+                     synthesis. We describe a sequence of teachable moments that highlight the potential
+                     of functional audio processing at an early stage in the learning process, before streams
+                     or arrays are introduced.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3484272.3484968">A stepper for a functional JavaScript sublanguage</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Martin Henz</li>
+               <li class="nameList">Thomas Tan</li>
+               <li class="nameList">Zachary Chua</li>
+               <li class="nameList">Peter Jung</li>
+               <li class="nameList">Yee-Jian Tan</li>
+               <li class="nameList">Xinyi Zhang</li>
+               <li class="nameList Last">Jingjing Zhao</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The first two chapters of the introductory computer science textbook <em>Structure and Interpretation of Computer Programs, JavaScript Adaptation (SICP JS)</em>, use a subset of JavaScript called <em>Source §2</em>. The book introduces the reduction-based “substitution model” as a first mental model
+                     for the evaluation of Source §2 programs. To support the learner in adopting this
+                     mental model, we built an <em>algebraic stepper</em>—a tool for visualizing the evaluation of Source §2 programs according to the model.
+                     As a sublanguage of JavaScript, Source&nbsp;§2 differs from other purely functional programming
+                     languages by using a statement-oriented syntax, with statement sequences, return statements,
+                     and block-scoped declarations. For the purpose of this tool description, we distill
+                     these distinguishing features—along with explicit recursion—into a Source §2 sublanguage
+                     that we call <em>Source §0</em>, and focus on a stepper for this language. We formalize the substitution model of
+                     Source §0 as a lambda-calculus-style reduction semantics that handles explicit recursion
+                     by term graph rewriting and faithfully implements the JavaScript specification, when
+                     restricted to that language. Our implementation of the stepper represents term graphs
+                     by persistent data structures that maximize sharing and enable random access to all
+                     steps. This work presents the first reduction-based semantics for a JavaScript sublanguage
+                     and the first algebraic stepper for a language with return statements and block-scoped
+                     declarations. The tool supports the learner with step-level explanations, redex highlighting,
+                     and function-level skipping and can also be used for teaching the applicative-order-reduction
+                     lambda calculus.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3484272.3484969">Ruggedizing CS1 robotics: tools and approaches for online teaching</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Boyd Anderson</li>
+               <li class="nameList">Martin Henz</li>
+               <li class="nameList Last">Hao-Wei Tee</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>First-year students benefit from robotics-based programming exercises by learning
+                     how to use sensors to gain information on the (changing) world surrounding the robot,
+                     how to model this information using data structures, and how to design algorithms
+                     for performing meaningful activities. Robotics-based exercises are naturally experiential
+                     and team-based and provide among the most memorable teachable moments of first-year
+                     programming courses. We summarize the pedagogical challenges that robotics-based exercises
+                     face, even under ideal circumstances, and how a university responded to these challenges.
+                     We report on the additional challenges faced in late 2020 at the same university as
+                     a result of the COVID pandemic, and how the course staff addressed these challenges
+                     using programming language implementation and network tools. The crucial components
+                     were (1) a custom-built web-based development environment with collaborative features
+                     including a built-in compiler, (2) a portable virtual machine, (3) collaborative editing,
+                     (4) open source protocols, and (5) peer-to-peer teleconferencing software. We report
+                     on the lessons learnt and how to further improve the resilience of robotics-based
+                     programming exercises.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3484272.3484970">Shrinking JavaScript for CS1</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Boyd Anderson</li>
+               <li class="nameList">Martin Henz</li>
+               <li class="nameList">Kok-Lim Low</li>
+               <li class="nameList Last">Daryl Tan</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In teaching and learning programming at first-year-university level, simple languages
+                     with small feature sets are preferable over industry-strength languages with extensive
+                     feature sets, to reduce the learners' cognitive load. At the same time, there is increasing
+                     pressure to familiarise students with mainstream languages early in their learning
+                     journey, and these languages accumulate features as years go by. In response to these
+                     competing requirements, we developed Source, a collection of JavaScript sublanguages
+                     with feature sets just expressive enough to introduce first-year computer science
+                     students to the elements of computation. These languages are supported by a web-based
+                     programming environment custom-built for learning at beginner's level, which provides
+                     transpiler, interpreter, virtual machine, and algebraic-stepper-based implementations
+                     of the languages, and includes tracing, debugging, visualization, type-inference,
+                     and smart-editor features. This paper motivates the choice of JavaScript as starting
+                     point and describes the syntax and semantics of the Source languages compared to their
+                     parent language, and their implementations in the system. We report our experiences
+                     in developing and improving the languages and implementations over a period of three
+                     years, teaching a total of 1561 computer science first-year students at a university.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>

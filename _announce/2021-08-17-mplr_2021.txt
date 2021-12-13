@@ -1,0 +1,91 @@
+---
+title: "Call for Participation, 18th ACM SIGPLAN International Conference on Managed Programming Languages & Runtimes, MPLR'21"
+timestamp: "8/17/2021 17:13:30"
+start: "9/29/2021"
+end: "9/30/2021"
+location: "M\u00fcnster, Germany and Virtual"
+---
+The 18th ACM SIGPLAN International Conference on Managed
+Programming Languages & Runtimes (MPLR, formerly ManLang,
+originally PPPJ) is a premier forum for presenting and discussing
+novel results in all aspects of managed programming languages and
+runtime systems, which serve as building blocks for some of the
+most important computing systems in use, ranging from small-scale
+(embedded and real-time systems) to large-scale (cloud-computing
+and big-data platforms) and anything in between (desktop, mobile,
+IoT, and wearable applications).
+
+This year, MPLR will be held as a hybrid event with in-person
+participation at Münster, Germany and online participation.
+Registration at:
+https://wwuindico.uni-muenster.de/event/449/registrations/
+
+For up-to-date details, check out the conference website:
+https://wwuindico.uni-muenster.de/event/449/
+and follow us on Twitter @MPLR_Conf.
+
+# Keynotes
+
+Design and Implementation of JavaScriptCore
+(Speaker to be confirmed)
+
+The Toothbrush Made us Do It: The Telco Need for Dynamic
+Intelligent Runtimes
+Paul Harvey, Rakuten Mobile
+
+# Accepted Papers
+
+## Full Papers
+
+Fernando Cristiani and Peter Thiemann: Generation of TypeScript
+Declaration Files from JavaScript Code.
+
+Baltasar Trancón Y Widemann and Markus Lepper: LLJava Live at the
+Loop -- A Case for Heteroiconic Staged Meta-Programming.
+
+Majid Makki, Dimitri Van Landuyt, Bert Lagaisse and Wouter
+Joosen: Shared Memory Protection in a Multi-tenant JVM.
+
+Jacob Kreindl, Daniele Bonetta, Lukas Stadler, David Leopoldseder
+and Hanspeter Mössenböck: Low-Overhead Multi-Language Dynamic
+Taint Analysis on Managed Runtimes through Speculative
+Optimization.
+
+## Work-in-Progress Papers
+
+Daniel Pekarek and Hanspeter Mössenböck: Architecture-Agnostic
+Dynamic Type Recovery.
+
+Abhiroop Sarkar, Robert Krook, Bo Joel Svensson and Mary Sheeran:
+Higher-Order Concurrency for Microcontrollers.
+
+Pablo Tesone, Guillermo Polito and Stéphane Ducasse: Profiling
+Code Cache Behaviour via Events.
+
+Raphael Mosaner, David Leopoldseder, Lukas Stadler and Hanspeter
+Mössenböck: Using Machine Learning to Predict the Code Size
+Impact of Duplication Heuristics in a Dynamic Compiler.
+
+Indigo Orton and Alan Mycroft: Tracing and its Observer Effect on
+Concurrency.
+
+## Industry and Tool Papers
+
+Dan Graur, Rodrigo Bruno and Gustavo Alonso: Specializing Generic
+Java Data Structures.
+
+Guillermo Polito, Pablo Tesone, Stéphane Ducasse, Luc Fabresse,
+Théo Rogliano, Pierre Misse-Chanabier and Carolina Hernandez
+Phillips: Cross-ISA Testing of the Pharo VM: Lessons learned
+while porting to ARMv8.
+
+Nicolas Stucki, Jonathan Immanuel Brachthäuser and Martin
+Odersky: Virtual ADTs for Portable Metaprogramming.
+
+# Participation
+
+To participate please register at:
+https://wwuindico.uni-muenster.de/event/449/registrations/
+
+We are looking forward to seeing you at MPLR 2021!
+

@@ -119,8 +119,12 @@ Outside of ACM conferences and events, individual CARES committee members were c
    <td>Member, <a href="mailto:xyfeng@nju.edu.cn">xyfeng@nju.edu.cn</a>, Nanjing University </td>
   </tr> 
  <tr>
+   <td><img src="../images/cares-photos/keller.jpeg" alt="Gabriele Keller" width="156"><br><a href="https://www.uu.nl/staff/GKKeller">Gabriele Keller</a></td>
+   <td>Member, <a href="mailto:g.k.keller@uu.nl">g.k.keller@uu.nl</a>, Utrecht University</td>
+  </tr> 
+ <tr>
    <td><img src="http://sigplan.org/images/cares-photos/krishnamurthi.png" alt="Shriram Krishnamurthi" width="156"><br><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a></td>
-   <td>Member, <a href="mailto:sk@cs.brown.edu">sk@cs.brown.edu</a>, Brown University </td>
+   <td>Member, <a href="mailto:shriram@brown.edu">shriram@brown.edu</a>, Brown University </td>
   </tr> 
   <tr>
    <td><img src="http://sigplan.org/images/cares-photos/mckinley.png" alt="Kathryn McKinley"  width="156"><br><a href="https://www.cs.utexas.edu/users/mckinley/">Kathryn McKinley</a></td>
@@ -128,7 +132,7 @@ Outside of ACM conferences and events, individual CARES committee members were c
   </tr> 
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/jones.png" alt="Simon Peyton Jones"  width="156"><br><a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a></td>
-   <td>Member, <a href="mailto:simonpj@microsoft.com">simonpj@microsoft.com</a>, Microsoft Research Cambridge </td>
+   <td>Member, <a href="mailto:simon.petonjones@gmail.com">simon.petonjones@gmail.com</a>, Microsoft Research Cambridge</td>
   </tr>
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/ryu.png" alt="Sukyoung Ryu" width="156"><br><a href="https://plrg.kaist.ac.kr/ryu">Sukyoung Ryu</a></td>

@@ -1,0 +1,36 @@
+---
+title: "PLDI 2022 Call for (Self-) Nomination to Artifact Evaluation Committee"
+timestamp: "12/8/2021 18:49:28"
+---
+We are looking for motivated students and researchers to be members of the
+PLDI 2022 Artifact Evaluation Committee (AEC).  This year, we are accepting
+(self-)nominations for the AEC.  The artifact evaluation process aims to
+promote, share and catalog the research artifacts of papers accepted to the
+PLDI research track.
+
+The self-nomination form is available at:
+https://forms.gle/UbLPDdFE4WCohQr28
+
+You can also nominate other people (e.g., students, colleagues) at:
+https://forms.gle/nDtW7wtpkGvU8MQBA
+
+The instructions for committee members are available here:
+https://pldi22.sigplan.org/track/pldi-2022-PLDI-Research-Artifacts#Info-for-Reviewers
+
+As a committee member, your primary responsibilities would be to review the
+artifacts submitted corresponding to the already accepted papers in the
+main research track. In particular, you may have to run the associated
+tool, check whether the results in the main paper can be reproduced, and
+inspect the data.
+
+PLDI will use a three-phase artifact evaluation review process. We expect
+the bulk of the review work to take place between March 8 and March 25.
+Each artifact will take about 8h to review, and reviewers will be assigned
+3 to 4 reviews.
+
+Come join us in improving the quality of research in our field!
+
+AEC Chairs:
+- Xinyu Wang, IMDEA Software Institute (Spain)
+- Niki Vazou, University of Michigan (U.S.)
+
