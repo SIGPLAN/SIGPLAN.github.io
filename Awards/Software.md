@@ -2,26 +2,79 @@
 layout: award
 title: "Programming Languages Software Award"
 ---
-Given by ACM SIGPLAN to an institution or individual(s) to
-recognize the development of a software system that has had a
-significant impact on programming language research,
-implementations, and tools. The impact may be reflected in the
-wide-spread adoption of the system or its underlying concepts by
-the wider programming language community either in research
-projects, in the open-source community, or commercially. The award
-includes a prize of $2,500. The award is presented at SIGPLAN's
-[PLDI conference](/Conferences/PLDI) the following June.  Because of the disruption due to COVID-19, this year (2021)'s nomination deadline has been extended to February 5th.
 
-All questions about the Programming Languages Software Award should be directed to 
-**<mailto:software_award@sigplan.org>**.
+Given by ACM SIGPLAN to an institution or individual(s) to recognize
+the development of a software system that has had a significant impact
+on programming language research, implementations, and tools. The
+impact may be reflected in the widespread adoption of the system or
+its underlying concepts by the wider programming language community
+either in research projects, in the open-source community, or
+commercially. The award includes a prize of $2,500. The award is
+presented at SIGPLAN's [PLDI conference](/Conferences/PLDI) the
+following June.
 
-**Nominations**
+All questions about the Programming Languages Software Award should be
+directed to the SIGPLAN Awards co-Chairs.
 
-- [Details of the nomination and award process (pdf).](/sites/default/files/award-nominations.pdf)
+#### Nominations
 
-- Please use <http://awards.sigplan.org/> to submit nominations.
+Please use <http://awards.sigplan.org/> to submit nominations.
+Nominations submitted on or before January 15th will be considered for
+award that year.
 
-**Committee Chair**: [Emery Berger](mailto:emery@cs.umass.edu) (University of Massachusetts Amherst)
+Each nomnination should include the following items:
 
-**Committee Members**: [Francesco Logozzo](mailto:logozzo@fb.com) (Facebook), [Steve Blackburn](mailto:Steve.Blackburn@anu.edu.au) (ANU), [Patrick Eugster](mailto:peugster@dsp.tu-darmstadt.de) (TU Darmstadt), [Matthew Flatt](mailto:mflatt@cs.utah.edu) (Utah)
+- Name of the software system being nominated, the name of the
+  institution or team being nominated, and their contact details
+- A short statement explaining why the nominee(s) deserve the
+  award.
+- Name, affiliation, phone number, and email address of each of the
+  developers nominated for the award (the nominees)
+- Name, affiliation, phone number, and email address of the person
+  making the nomination (the nominator).
+- Names and email addresses of 5-10 people who the nominator believes
+  will support the nomination. The awards committee will ask at least
+  three of these people for their opinions.
 
+#### Committee
+
+Award recipients are selected by a committee constituted as follows:
+* The Chair of the committee shall be a member of the SIGPLAN
+  Executive Committee (EC), and shall be appointed by the executive
+  committee.
+* The SIGPLAN EC Chair shall be an ex-officio member of the committee.
+  If the SIGPLAN EC Chair is unable to serve, he or she may appoint
+  another member of the SIGPLAN EC as a substitute.
+* The steering committees of the major SIGPLAN Conferences, POPL,
+  PLDI, ICFP, and SPLASH, shall each appoint a member to the
+  committee.
+
+The current committee comprises:
+* [Tony Hosking](https://cs.anu.edu.au/tony-hosking/), Australian
+  National U (Chair)
+* [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts U (ex-officio)
+* [Dominique
+  Devriese](https://distrinet.cs.kuleuven.be/people/DominiqueDevriese),
+  KU Leuven (POPL)
+* [Manu Sridharan](https://profiles.ucr.edu/app/home/profile/manus),
+  UC Riverside (PLDI)
+* [Andreas Rossberg](https://people.mpi-sws.org/~rossberg/), MPI
+  Software Systems (ICFP)
+* [David
+  Grove](https://researcher.watson.ibm.com/researcher/view.php?person=us-groved),
+  IBM Research (SPLASH)
+
+#### Conflicts of Interest
+
+If any member of the committee has a conflict of interest with a given
+nominee they shall declare that to the committee; once so declared,
+conflicts of interest shall not automatically prevent a committee
+member from taking part in the selection process. However, if a member
+of the committee, or the chair of the committee, feels that the
+association of a committee member with a nominee would interfere with
+impartial consideration of the nominees, that conflicted member shall
+be absented from the relevant parts of the discussion. If a committee
+member has conflicts of interest with more than one nominee, the Chair
+of the Committee may ask the constituency that appointed the committee
+member to select a replacement member.  The SIGPLAN EC Chair will
+adjudicate as necessary

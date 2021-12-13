@@ -3,10 +3,11 @@ layout: award
 title: "Distinguished Educator Award"
 ---
 
-Given by ACM SIGPLAN to recognize educators who contribute to the
-Programming Languages Community. The award recognizes contributions to
-ACM SIGPLAN, its conferences, publications, or its local
-activities. The award includes a prize of $2,500.
+Given by ACM SIGPLAN to recognize distinguished educational
+contributions to the Programming Languages Community. The award
+recognizes contributions to ACM SIGPLAN, its conferences,
+publications, or its local activities. The award includes a prize of
+$2,500.
 
 We define contributions in the broadest sense. In particular we wish
 to recognize:
@@ -19,7 +20,7 @@ to recognize:
   - online courses
   - online blogs/videos, etc.
 
-All questions about the SIGPLAN Distinguished Educator Award should be
+All questions about the Distinguished Educator Award should be
 directed to the SIGPLAN Awards co-Chairs.
 
 #### Nominations
@@ -35,9 +36,11 @@ Each nomination should include the following items:
 
 - Name, affiliation, phone number, and email address of the candidate for
   whom an award is recommended (the nominee).
-- A short statement explaining why the nominee deserves the award in
-  question. This should include any information about the context of
-  the work to help the Award Committee understand its significance.
+- Name, affiliation, phone number, and email address of the person
+  making the nomination (the nominator).
+- A short statement explaining why the nominee deserves the
+  award. This should include any information about the context of the
+  work to help the Award Committee understand its significance.
 - Names and email addresses of 5-10 people who the nominator believes
   will support the nomination. The awards committee will ask at least
   three of these people for their opinions.

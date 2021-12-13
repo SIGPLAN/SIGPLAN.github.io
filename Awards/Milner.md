@@ -2,35 +2,42 @@
 layout: award
 title: "Robin Milner Young Researcher Award"
 ---
+
 The Robin Milner Young Researcher Award is given by ACM SIGPLAN to
-recognize outstanding contributions by young investigators in the
-area of programming languages. Individuals are eligible if their
+recognize outstanding contributions by young investigators in the area
+of programming languages. Individuals are eligible if their
 computer-related professional career (graduate school or full-time
 employment, whichever began first) started no earlier than 20 years
-prior to the nominations deadline. The award includes a prize of $2,500.
+prior to the nomination deadline. At the discretion of the award
+committee, eligibility may be adjusted to account for documented
+career interruptions, including (but not limited to) family leave,
+medical leave, or military service. Questions of eligibility should be
+directed to the award committee chair in advance of nomination (see
+below).
 
-All questions about the Robin Milner Young Researcher Award should be directed to
-**<mailto:milner_award@sigplan.org>**.
+The award includes a prize of $2,500.
+
+All questions about the Robin Milner Young Researcher Award should be
+directed to the SIGPLAN Awards co-Chairs.
 
 **Robin Milner** (13 January, 1934 - 20 March, 2010)
 
-Robin Milner was, for decades, a leading light in programming
-language research, developing many of the ideas that now form the
-backbone of the field. Among Milner's biggest gifts to the field
-was his passion for mentoring and nurturing young colleagues, many
-of whom have grown into world leaders in their own right. It seems
-fitting that an award be established in his name to further
-encourage new generations of outstanding researchers.
+Robin Milner was, for decades, a leading light in programming language
+research, developing many of the ideas that now form the backbone of
+the field. Among Milner's biggest gifts to the field was his passion
+for mentoring and nurturing young colleagues, many of whom have grown
+into world leaders in their own right. It seems fitting that an award
+be established in his name to further encourage new generations of
+outstanding researchers.
 
 Milner's academic career began with posts at City University
-(University of London), Swansea, and Stanford. In 1973 he joined
-the University of Edinburgh, where in 1986 he co-founded the
-legendary Laboratory for Foundations of Computer Science (LFCS). In
-1995 he left Edinburgh for Cambridge, where he was head of the
-Computer Laboratory for several years. He became a Fellow of the
-Royal Society in 1998 and received the Turing Award in 1991. The
-Turing Award citation includes this capsule summary of his
-contributions:
+(University of London), Swansea, and Stanford. In 1973 he joined the
+University of Edinburgh, where in 1986 he co-founded the legendary
+Laboratory for Foundations of Computer Science (LFCS). In 1995 he left
+Edinburgh for Cambridge, where he was head of the Computer Laboratory
+for several years. He became a Fellow of the Royal Society in 1998 and
+received the Turing Award in 1991. The Turing Award citation includes
+this capsule summary of his contributions:
 
 > Working in challenging areas of computer science for twenty years,
 > Robin Milner has the distinction of establishing an international
@@ -41,64 +48,69 @@ contributions:
 > 
 > LCF, the mechanization of Scott's Logic of Computable Functions,
 > probably the first theoretically based yet practical tool for
-> machine-assisted proof construction.
-> ML, the first language to include polymorphic type inference
-> together with a type-safe exception-handling mechanism.
-> CCS, a general theory of concurrency.
+> machine-assisted proof construction.  ML, the first language to
+> include polymorphic type inference together with a type-safe
+> exception-handling mechanism.  CCS, a general theory of concurrency.
 > In addition, he formulated and strongly advanced full abstraction,
 > the study of the relationship between operational and denotational
 > semantics.
 
-A key ingredient in all of his work has been his ability to combine
-deep insight into mathematical foundations of the subject with an
-equally deep view of the key engineering issues, thus allowing the
-feedback of theory into practice in an exciting way. Further, his
-style of scholarship, rigor, and attention to aesthetic quality
-sets a high example for all to follow.  
-
-**Selection Processs**
-
-Nominations will be due on the fifth of January of each year. The
-recipients of the award will be selected by the SIGPLAN Awards
-committee, which is constituted as follows. (1) The Chair of the
-Awards committee shall be a member of the SIGPLAN Executive
-Committee, and shall be appointed by the executive committee. (2)
-The Chair of the SIGPLAN EC shall be an ex-officio member of the
-Awards committee. If the EC Chair is unable to serve, he or she may
-appoint another member of the EC as a substitute. (3) The steering
-committees of the major SIGPLAN Conferences, POPL, PLDI, ICFP, and
-SPLASH, shall each appoint a member to the Awards Committee. The
-committee shall also have the option to decline to make an award in
-a given year, if no suitable nominations are presented.
-
-At the discretion of the SIGPLAN Awards Committee, the 20-year
-eligibility may be adjusted for special circumstances, such as, but
-not limited to family leave, medical leave, or military service, that
-are documented and argued in the nomination.  Questions about
-eligibility should be directed to the SIGPLAN Awards Chair in advance.
+A key ingredient in all of his work was to combine deep insight into
+mathematical foundations of the subject with an equally deep view of
+the key engineering issues, thus allowing the feedback of theory into
+practice in an exciting way. Further, his style of scholarship, rigor,
+and attention to aesthetic quality sets a high example for all to
+follow.
 
 #### Nominations
 
-[Details of the nomination and award process (pdf)](/sites/default/files/award-nominations.pdf)
-
-Please use <http://awards.sigplan.org/> to submit nominations.
-
-**Conflicts of Interest**
-
-Because these awards are intended to recognize persons and software systems of major influence, it is likely that several members of the awards committee may have worked with, or co-authored articles with, the nominees, and may have a conflict of interest. The primary mechanism for handling such conflicts will be to declare them to the committee; once so declared, conflicts of interest shall not automatically prevent a committee member from taking part in the selection process. However, if a member of the committee, or the chair of the committee, feels that the association of a committee member with a nominee would interfere with impartial consideration of the nominees, a committee member shall be absented from the relevant parts of the discussion. If the same committee member has conflicts of interest with more than one nominee, the Chair of the Awards Committee may ask the constituency that appointed the committee member to select a replacement member.
-
-**Clarification**
-
-Note that, in consultation with the ACM Awards Board, the wording of
-the Milner Award eligibility requirement has been updated to clarify
-that the 20-year time frame is in relation to the nomination
-*deadline* (rather than the vague "time of nomination" as was
-originally written).
+Nominations can be submitted at any time using the Web form at
+<https://awards.sigplan.org>. Nominations submitted on or before
+January 15th will be considered for award that year. The committee may
+decline to make an award in a given year if there are no suitable
+nominees.
 
 #### Committee
 
-* [Emery Berger](https://emeryberger.com/), UMass (Chair)
-* [Michelle Strout](http://cgi.cs.arizona.edu/~mstrout/), University of Arizona (PLDI)
-* [Michael Hicks](http://www.cs.umd.edu/~mwh/), University of Maryland (POPL)
-* [Eijiro Sumii](http://www.kb.ecei.tohoku.ac.jp/~sumii/), Tohoku University (ICFP)
-* [Todd Millstein](http://web.cs.ucla.edu/~todd/), UCLA (OOPSLA)
+Award recipients are selected by a committee constituted as follows:
+* The Chair of the committee shall be a member of the SIGPLAN
+  Executive Committee (EC), and shall be appointed by the executive
+  committee.
+* The SIGPLAN EC Chair shall be an ex-officio member of the committee.
+  If the SIGPLAN EC Chair is unable to serve, he or she may appoint
+  another member of the SIGPLAN EC as a substitute.
+* The steering committees of the major SIGPLAN Conferences, POPL,
+  PLDI, ICFP, and SPLASH, shall each appoint a member to the
+  committee.
+
+The current committee is:
+* [Tony Hosking](https://cs.anu.edu.au/tony-hosking/), Australian
+  National U (Chair)
+* [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts U (ex-officio)
+* [Sandrine Blazy](https://people.irisa.fr/Sandrine.Blazy/), U Rennes
+  (POPL)
+* [Suresh
+  Jagannathan](https://www.cs.purdue.edu/people/faculty/suresh.html),
+  Purdue U (PLDI)
+* [Ranjit
+  Jhala](https://cse.ucsd.edu/people/faculty-profiles/ranjit-jhala),
+  UCSD (ICFP)
+* [Eric Tanter](https://pleiad.cl/people/etanter), U Chile (SPLASH)
+
+#### Conflicts of Interest
+
+Because this award is intended to recognize persons of major
+influence, it is likely that several members of the committee may have
+worked with, or co-authored articles with, the nominees, and may have
+a conflict of interest. The primary mechanism for handling such
+conflicts will be to declare them to the committee; once so declared,
+conflicts of interest shall not automatically prevent a committee
+member from taking part in the selection process. However, if a member
+of the committee, or the chair of the committee, feels that the
+association of a committee member with a nominee would interfere with
+impartial consideration of the nominees, that conflicted member shall
+be absented from the relevant parts of the discussion. If a committee
+member has conflicts of interest with more than one nominee, the Chair
+of the Committee may ask the constituency that appointed the committee
+member to select a replacement member.  The SIGPLAN EC Chair will
+adjudicate as necessary.
