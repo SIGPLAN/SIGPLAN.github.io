@@ -6,39 +6,16 @@ title: "John C. Reynolds Doctoral Dissertation Award"
 Presented annually to the author of an outstanding doctoral
 dissertation in the area of Programming Languages. The award includes
 a prize of $1,000. The awardee can choose to receive the award at
-ICFP, OOPSLA, POPL, or PLDI. At the discretion of the Selection
+ICFP, SPLASH, POPL, or PLDI. At the discretion of the Selection
 Committee, multiple awards and/or honorable mentions may be presented
 for a given year.
 
-All questions about the John C. Reynolds Doctoral Dissertation Award
-should be directed to **<mailto:reynolds_award@sigplan.org>**.
-
-
-**Nominations**
-
-Nominations must be submitted via the SIGPLAN Awards Nomination Portal
-at <https://awards.sigplan.org/nominate/reynolds/> by January 15th 2021 
-(anywhere on earth) to be considered for this year’s award. The nominated 
-dissertation must have been awarded in 2020 and be available in English 
-(to facilitate evaluation by the selection committee).
-
-A nomination consists of the following items:
-
- *  Name, address, phone number, and email address of the person making the nomination (the nominator).
- *  Name, address, phone number, and email address of the candidate for whom an award is recommended (the nominee).
- *  Dissertation - either as a pdf or a url where the dissertation can be found.
- *  A short statement (200-500 words) explaining why the nominee merits the award.
- *  Supporting statements from up to two people in addition to the nominator.
-
-
-**About**
-
-This award recognizes the contributions to computer science that John
-C. Reynolds made during his life. It is a renaming of the SIGPLAN
-Outstanding Doctoral Dissertation Award to encourage the clarity and
-rigor that Reynolds embodied and at the same time provide a reminder
-of Reynolds's legacy and the difference a person can make in the field
-of programming language research.
+The Reynolds Dissertation Award recognizes the contributions to
+computer science that John C. Reynolds made during his life. It is a
+renaming of the SIGPLAN Outstanding Doctoral Dissertation Award to
+encourage the clarity and rigor that Reynolds embodied and at the same
+time provides a reminder of Reynolds's legacy and the difference a
+person can make in the field of programming language research.
 
 {% comment %}
 
@@ -61,14 +38,55 @@ never worked with Reynolds nevertheless built on his ideas.
 
 {% endcomment %}
 
-**Selection Committee**
+All questions about the John C. Reynolds Doctoral Dissertation Award
+should be directed to the SIGPLAN Awards co-Chairs.
 
- * [Mira Mezini](https://www.stg.tu-darmstadt.de/staff/mira_mezini/) (<mailto:mezini@cs.tu-darmstadt.de>) - Technische Universität Darmstadt (SIGPLAN EC member and Chair)
- * [Jonathan Aldrich](https://www.cs.cmu.edu/~aldrich/) (<mailto:jonathan.aldrich@cs.cmu.edu>) - CMU
- * [Nada Amin](https://namin.seas.harvard.edu/people/nada-amin) (<mailto:namin@seas.harvard.edu>) - Harvard
- * [Azadeh Farzan](https://www.cs.toronto.edu/~azadeh/) (<mailto:azadeh@cs.toronto.edu>) - Univeresity of Toronto
- * [Georges Gonthier](http://www.msr-inria.fr/researchers/georges-gonthier/) (<mailto:georges.gonthier@inria.fr>) - Inria
- * [Eran Yahav](http://www.cs.technion.ac.il/~yahave/) (<mailto:yahave@cs.technion.ac.il>) - Technion
- * [Jens Palsberg](https://web.cs.ucla.edu/~palsberg/) (<mailto:palsberg@cs.ucla.edu>) - University of California, Los Angeles (ex officio member as SIGPLAN Chair)
- * [Steve Zdancewic](stevez@cis.upenn.edu) (<mailto:stevez@cis.upenn.edu>) - University of Pennsylvania
+#### Nominations
 
+Nominations can be submitted at any time using the Web form at
+<https://awards.sigplan.org/nominate/reynolds/>. Nominations submitted
+on or before January 15th will be considered for award that year.  The
+nominated dissertation must have been submitted for award of the
+doctoral degree in the year prior to the nomination deadline, and be
+available in English (to facilitate evaluation by the selection
+committee).
+
+#### Committee
+
+Recipients are selected by a committee constituted as follows:
+* The Chair of the committee shall be a member of the SIGPLAN
+  Executive Committee (EC), and shall be appointed by the executive
+  committee.
+* The SIGPLAN EC Chair shall be an ex-officio member of the committee.
+  If the SIGPLAN EC Chair is unable to serve, he or she may appoint
+  another member of the SIGPLAN EC as a substitute.
+* The steering committees of the major SIGPLAN Conferences, POPL,
+  PLDI, ICFP, and SPLASH, shall each appoint a member to the
+  committee.
+
+The current committee is:
+* [Işil Dillig](https://www.cs.utexas.edu/~isil), U Texas, Austin
+  (Chair)
+* [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts U (ex-officio)
+* [Tom Reps](http://pages.cs.wisc.edu/~reps/), U Wisconsin (POPL)
+* [Milind Kulkarni](https://engineering.purdue.edu/~milind/), Purdue U
+  (PLDI)
+* [Stephanie Weirich](https://www.cis.upenn.edu/~sweirich/), U Penn
+  (ICFP)
+* [Hidehiko Masuhara](https://prg.is.titech.ac.jp/people/masuhara/),
+  Tokyo Tech (SPLASH)
+
+#### Conflicts of Interest
+
+If any member of the committee has a conflict of interest with a given
+nominee they shall declare that to the committee; once so declared,
+conflicts of interest shall not automatically prevent a committee
+member from taking part in the selection process. However, if a member
+of the committee, or the chair of the committee, feels that the
+association of a committee member with a nominee would interfere with
+impartial consideration of the nominees, that conflicted member shall
+be absented from the relevant parts of the discussion. If a committee
+member has conflicts of interest with more than one nominee, the Chair
+of the Committee may ask the constituency that appointed the committee
+member to select a replacement member.  The SIGPLAN EC Chair will
+adjudicate as necessary.
