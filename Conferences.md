@@ -118,6 +118,10 @@ HOPL-I was held in 1978 in Los Angeles, CA.
 HOPL-II was held in 1993 in Cambridge, MA.
 HOPL-III was held in 2007 in San Diego, CA.
 
+**Managed Programming Languages & Runtimes ([MPLR](/Conferences/MPLR))**  
+MPLR is a premier forum for presenting and discussing novel results
+in all aspects of managed programming languages and runtime systems.
+
 **Onward! ([Onward](/Conferences/Onward)  @ [SPLASH](/Conferences/SPLASH))**  
 Onward! is a symposium on new ideas in programming and reflections on
 software. Welcomed are papers that propose and argue for new
