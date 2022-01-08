@@ -37,7 +37,7 @@ Director](mailto:infodir_sigplan@acm.org?subject=ACM%20acmart%20format).
 
 ### LaTeX class, bibliography style, and template files
 
-For LaTeX users, the [`acmart` package](https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-master.zip) includes the following essential files for an
+For LaTeX users, the [`acmart` package][acmart-zip] includes the following essential files for an
 author:
 
  * class file (`acmart.cls`)
@@ -66,6 +66,8 @@ typesetting.)
 The `screen` option adds colors to hyperlinks and cross references.
 
 The ACM Publishing System (TAPS) maintains [a list of accepted LaTeX packages](https://www.acm.org/publications/taps/whitelist-of-latex-packages) that are compatible with TAPS production processing of your LaTeX source files. Please note that for the successful conversion of your article to HTML, the use of LaTeX packages must be restricted to the  list.
+
+[acmart-zip]: https://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart-primary.zip
 
 ### Microsoft Word
 
