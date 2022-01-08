@@ -26,10 +26,10 @@
               {% if paper.Title <> nil %}
 
                 <h4 class="alert alert-info">
-                  {% if paper.CACMHighlight <> nil %}
+                  {% if paper.CACMHighlight %}
                     <span class="badge pull-right">CACM Research Highlight</span>
                   {% endif %}
-                  {% if paper.CACMSelection == true %}
+                  {% if paper.CACMSelection %}
                     <span class="badge pull-right">CACM Research Highlight (Selected)</span>
                   {% endif %}
                   {{ paper.Title | markdownify }}
