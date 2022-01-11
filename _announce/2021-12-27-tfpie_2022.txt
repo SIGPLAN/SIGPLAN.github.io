@@ -1,0 +1,86 @@
+---
+title: "Trends in Functional Programming in Education 2022 3rd (last) call for submissions"
+timestamp: "12/27/2021 14:12:14"
+deadline: "1/5/2022"
+---
+TFPIE 2022 Call for papers
+https://wiki.tfpie.science.ru.nl/TFPIE2022
+(February 11th 2022, Krakow, Poland co-located with TFP 2022 and Lambda Days)
+
+TFPIE 2022 welcomes submissions describing techniques used in the classroom,
+tools used in and/or developed for the classroom and any creative use of
+functional programming (FP) to aid education in or outside Computer Science.
+Topics of interest include, but are not limited to:
+
+* FP and beginning CS students
+* FP and Computational Thinking
+* FP and Artificial Intelligence
+* FP in Robotics
+* FP and Music
+* Advanced FP for undergraduates
+* FP in graduate education
+* Engaging students in research using FP
+* FP in Programming Languages
+* FP in the high school curriculum
+* FP as a stepping stone to other CS topics
+* FP and Philosophy
+* The pedagogy of teaching FP
+* FP and e-learning: MOOCs, automated assessment etc.
+* Best Lectures - more details below
+
+In addition to papers, we are requesting best lecture presentations. What's your
+best lecture topic in an FP related course? Do you have a fun way to present FP
+concepts to novices or perhaps an especially interesting presentation of a
+difficult topic? In either case, please consider sharing it. Best lecture topics
+will be selected for presentation based on a short abstract describing the
+lecture and its interest to TFPIE attendees. The length of the presentation
+should be comparable to that of a paper. In addition, the speaker can provide
+commentary on effectiveness or student feedback.
+
+Submissions
+
+Potential presenters are invited to submit an extended abstract (4-6 pages) or
+a draft paper (up to 20 pages) in EPTCS style. The authors of accepted presentations
+will have their preprints and their slides made available on the workshop's website.
+Papers and abstracts can be submitted via easychair at the following link:
+
+https://easychair.org/conferences/?conf=tfpie2022
+
+After the workshop, presenters are invited to submit (a revised version of) their
+article for the formal review. The PC will select the best articles for publication
+in the Electronic Proceedings in Theoretical Computer Science (EPTCS). Articles
+rejected for presentation and extended abstracts will not be formally reviewed
+by the PC.
+
+Important Dates
+
+ Submission deadline: January 5th 2022, Anywhere on Earth.
+ Notification: January 10th 2022 (Note: earlier submissions will receive earlier response)
+ TFPIE Registration Deadline: February 2nd 2022
+ Workshop: February 11th 2022
+ Submission for formal review: April 15th 2022, Anywhere on Earth.
+ Notification of full article: June 1st 2022
+ Camera ready: July 1st 2022
+
+Program Committee
+
+Peter Achten, Radboud University, Netherlands
+Stephen Chang, University of Massachusetts Boston, USA
+John Hughes, Chalmers University of Technology, Sweden
+Elena Machkasova (Chair) - University of Minnesota Morris, USA
+Kristina Sojakova - INRIA, Paris, France
+Melinda Tóth, Eötvös Loránd University, Budapest, Hungary
+
+Keynote speaker
+
+Our keynote talk is "The Perfect Functional Programming Course" by Peter Achten.
+
+Registration information
+
+This year TFPIE takes place on the second day of the Lambda Days, concurrent with TFP. Participants will need to register for the Lambda Days. Please note that TFP and TFPIE have in-person attendance only. For registration fee, the deadlines, and the link to register see the Lambda Days web site: https://www.lambdadays.org/lambdadays2022
+
+Registration and attendance are mandatory for at least one author of every paper
+that is presented at the workshop. Presenters will have their registration fee waived.
+
+Only papers that have been presented at TFPIE may be submitted to the post-reviewing process.
+
