@@ -1075,3 +1075,11 @@
   event: SLE
   year: 2021
   title: "Proceedings of the 14th ACM SIGPLAN International Conference on Software Language Engineering"
+-
+  event: CPP
+  year: 2022
+  title: "Proceedings of the 11th ACM SIGPLAN International Conference on Certified Programs and Proofs"
+-
+  event: PEPM
+  year: 2022
+  title: "Proceedings of the 2022 ACM SIGPLAN International Workshop on Partial Evaluation and Program Manipulation"
