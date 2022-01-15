@@ -704,6 +704,16 @@
   title: "Proceedings of the 47th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
   link: https://dl.acm.org/toc/pacmpl/2020/4/POPL
 -
+  event: POPL
+  year: 2021
+  title: "Proceedings of the 48th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
+  link: https://dl.acm.org/toc/pacmpl/2021/5/POPL
+-
+  event: POPL
+  year: 2022
+  title: "Proceedings of the 49th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
+  link: https://dl.acm.org/toc/pacmpl/2022/6/POPL
+-
   event: PPAA
   year: 2014
   title: "Proceedings of the 1st Workshop on Parallel Programming for Analytics Applications"
