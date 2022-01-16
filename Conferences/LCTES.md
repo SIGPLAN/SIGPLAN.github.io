@@ -18,7 +18,7 @@ where they can interact.
 - [LCTES 2018](https://conf.researchr.org/track/LCTES-2018/LCTES-2018-papers) (Philadelphia, PA)
 - [LCTES 2017](https://conf.researchr.org/track/LCTES-2017/LCTES-2017-papers) (Barcelona, Spain)
 - [LCTES 2016](https://conf.researchr.org/home/LCTES-2016) (Santa Barbara, CA)
-- [LCTES 2015 (Portland, OR)
+- LCTES 2015 (Portland, OR)
 - [LCTES 2014](http://www.ittc.ku.edu/lctes14/) (Edinburgh, UK)
 - [LCTES 2013](http://www.dcs.gla.ac.uk/conferences/lctes13/) (Seattle, WA)
 - [LCTES 2012](https://lctes12.cs.purdue.edu/) (Beijing, China)
