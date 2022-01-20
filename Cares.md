@@ -132,7 +132,7 @@ Outside of ACM conferences and events, individual CARES committee members were c
   </tr> 
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/jones.png" alt="Simon Peyton Jones"  width="156"><br><a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a></td>
-   <td>Member, <a href="mailto:simon.petonjones@gmail.com">simon.petonjones@gmail.com</a>, Microsoft Research Cambridge</td>
+   <td>Member, <a href="mailto:simon.peytonjones@gmail.com">simon.peytonjones@gmail.com</a>, Microsoft Research Cambridge</td>
   </tr>
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/ryu.png" alt="Sukyoung Ryu" width="156"><br><a href="https://plrg.kaist.ac.kr/ryu">Sukyoung Ryu</a></td>
