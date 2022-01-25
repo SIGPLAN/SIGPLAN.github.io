@@ -13,7 +13,28 @@ title: "SIGPLAN CARES"
 
 ### Purpose of SIGPLAN CARES 
 
-SIGPLAN CARES is a subcommittee of SIGPLAN. All SIG events and communications abide by ACM’s [policy against discrimination and harassment](https://www.acm.org/diversity-inclusion/stop-harassment). All SIG publications abide by ACM’s [policies on plagiarism, misrepresentation, and falsification](https://www.acm.org/publications/policies/plagiarism-overview); on [coercion and abuse in the ACM publications process](https://www.acm.org/publications/policies/coercion-and-abuse); and on [roles and responsibilities in ACM publishing](https://www.acm.org/publications/policies/roles-and-responsibilities). If a violation of any of these policies occur, ACM urges reporting the incident to the event chair or to ACM leadership, as indicated on those webpages. We recognize that reporting to a conference chair or an upper level ACM administrator can be intimidating, especially in the face of an already unpleasant experience. We have therefore established CARES: Committee to Aid REporting on discrimination, harassment, and related ethical policy violations.
+SIGPLAN CARES is a subcommittee of SIGPLAN.
+ACM as an organization is governed by its
+
+* [Code of Ethics and Professional Conduct][acm-ethics]
+
+All SIG events and communications abide by
+
+* ACM’s [policy against discrimination and harassment][acm-disc]. 
+
+All SIG publications abide by
+
+* ACM’s policy on [plagiarism, misrepresentation, and falsification][acm-plag];
+* ACM's policy on [coercion and abuse in the ACM publications process][acm-abuse]; and
+* ACM's policy on [roles and responsibilities in ACM publishing][acm-roles].
+
+[acm-ethics]: https://www.acm.org/code-of-ethics
+[acm-disc]: https://www.acm.org/diversity-inclusion/stop-harassment
+[acm-plag]: https://www.acm.org/publications/policies/plagiarism-overview
+[acm-abuse]: https://www.acm.org/publications/policies/coercion-and-abuse
+[acm-roles]: https://www.acm.org/publications/policies/roles-and-responsibilities
+
+If a violation of any of these policies occur, ACM urges reporting the incident to the event chair or to ACM leadership, as indicated on those webpages. We recognize that reporting to a conference chair or an upper level ACM administrator can be intimidating, especially in the face of an already unpleasant experience. We have therefore established CARES: Committee to Aid REporting on discrimination, harassment, and related ethical policy violations.
 
 The role of CARES is to serve as a resource comprising of well-known and respected people in the programming languages community who are approachable and willing to listen to and help people who experience or witness discrimination, harassment, or other ethical policy violations either at our events or related to ACM publications; the committee members can be a sounding board for these people and can provide advice on the steps necessary to have the matter further investigated by ACM. It is important to understand that for the matter to be reported, the person experiencing the incident must still themselves send the complaint to ACM where it will be handled according to ACM’s policies. The CARES committee cannot serve as an intermediary in that official process and it cannot be involved in any aspect of the handling of the complaint by ACM.
 
