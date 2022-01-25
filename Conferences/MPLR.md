@@ -25,7 +25,7 @@ MPLR commenced in 2002 as a Java-focused conference (Principles and Practice of 
 * [PPPJ 2016](http://pppj16.inf.usi.ch/pppj/) (Lugano, Switzerland)
 * [PPPJ 2015](http://pppj2015.cs.fit.edu/) (Melbourne, Australia)
 * [PPPJ 2014](http://pppj2014.pk.edu.pl/) (Cracow, Poland)
-* [PPPJ 2013](http://pppj2013.dhbw.de/) (Stuttgart, Germany)
+* [PPPJ 2013](https://www.dhbw.de/pppj) (Stuttgart, Germany)
 * [PPPJ 2012](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=19957&copyownerid=5424) (Grahamstown, South Africa)
 * [PPPJ 2011](http://pppj2011.imm.dtu.dk/) (Kongens Lyngby, Denmark)
 * [PPPJ 2010](http://www.complang.tuwien.ac.at/pppj10/) (Vienna, Austria)
@@ -39,4 +39,4 @@ MPLR commenced in 2002 as a Java-focused conference (Principles and Practice of 
 
 **MPLR Bylaws**
 
-The [MPLR Bylaws](http://www.dcs.gla.ac.uk/~jsinger/MPLR_Bylaws_v1.pdf) govern the selection and activity of both the steering committee and the organization committee.
+The [MPLR Bylaws](https://ssw.jku.at/Misc/MPLR_Bylaws.pdf) govern the selection and activity of both the steering committee and the organization committee.
