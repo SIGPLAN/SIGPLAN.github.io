@@ -1,3 +1,34 @@
+2021:
+- Awardee: Robert (Bob) Harper
+  Citation: |
+    Robert (Bob) Harper is widely known for his foundational
+    contributions to our understanding of type theory and its use in
+    the design, specification, implementation, and verification of
+    modern programming languages.  Bob demonstrated that sound type
+    systems and operational semantics are not only appropriate
+    vehicles for reasoning about idealized languages, but that this
+    theory can be applied to complex, modern languages. His
+    achievements include analysis of language features ranging from
+    references to continuations to modules, the definition of a
+    variety of new type systems, the idea of using types throughout
+    the compilation process, the analysis of run-time system semantics
+    and cost, a formal definition of Standard ML and its
+    mechanization, the definition of logical framework LF and other
+    logical frameworks based on homotopy type theory.
+ 
+    Some of Bob’s most influential work involved the design, theory
+    and implementation of the TIL (Typed Intermediate Language)
+    compiler system, which pioneered the idea that compilers can
+    propagate type information to lower-level intermediate languages,
+    where it can be used to guide optimizations and to catch compiler
+    bugs. These ideas led directly to the development of
+    proof-carrying code, typed assembly language, and a wide array of
+    type-preserving compilers.
+ 
+    Bob Harper has also had a profound impact though his mentorship,
+    teaching and the influence of his books "Programming in Standard
+    ML" and "Practical Foundations for Programming Languages."
+
 2020:
 - Awardee: Hans-J. Boehm
   Citation: |

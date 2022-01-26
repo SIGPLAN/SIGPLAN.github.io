@@ -1,5 +1,5 @@
 2021:
-- Awardee: "WebAssembly"
+- Awardee: "Andreas Rossberg, Derek Schuff, Bradley Nelson, JF Bastien and Ben L. Titzer for WebAssembly"
   Citation: |
     WebAssembly is the first new broadly-adopted language in web browsers
     since JavaScript. It is the fruit of a genuine collaboration between all
@@ -38,6 +38,29 @@
     fragments to others. Pin is also widely used in the classroom of numerous 
     universities at both undergraduate and graduate levels.
     
+    The nominated contributors are:
+
+    * Artur Klauser
+    * Greg Lueck
+    * Mark Charney
+    * Gail Lyons
+    * Geoff Lowney
+    * Aamer Jaleel
+    * Harish Patil
+    * Vijay Janapa Reddi
+    * Kim Hazelwood
+    * S. Bharadwaj Yadavalli
+    * Ramesh Peri
+    * Elena Demikhovsky
+    * Ady Tal
+    * Moshe Bach
+    * Alex Skaletsky
+    * CK Luk
+    * Steven Wallace
+    * Tevi Devor
+    * Robert Muth
+    * Nadav Chachmon
+
 2019:
 - Awardee: "Scala"
   Citation: |
@@ -53,7 +76,18 @@
     calculus. In addition, Scala has been a fertile research ground for m
     etaprogramming, macros, staging, and embedded domain-specific languages, 
     including DSLs for machine learning and GPU execution (Delite and OptiML).
- 
+
+    The nominated contributors are:
+
+    * Martin Odersky
+    * Adriaan Moors
+    * Aleksandar Prokopec
+    * Heather Miller
+    * Iulian Dragos
+    * Nada Amin
+    * Philipp Haller
+    * Sébastien Doeraene
+    * Tiark Rompf
 
 2018:
 - Awardee: "Racket"
@@ -77,6 +111,16 @@
     ("Programming Languages: Implementations and Applications" and “Semantics 
     Engineering"), bringing concepts dear to SIGPLAN to students all over 
     the world.
+
+    The nominated contributors are:
+
+    * Eli Barzilay
+    * Matthias Felleisen
+    * Robert Bruce Findler
+    * Matthew Flatt
+    * Shriram Krishnamurthi
+    * Jay McCarthy
+    * Sam Tobin-Hochstadt
 
 2016:
 - Awardee: "V8 JavaScript Engine"
