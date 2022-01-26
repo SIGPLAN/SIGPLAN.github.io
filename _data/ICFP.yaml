@@ -1,3 +1,26 @@
+2021:
+- Awardee: Nate Foster, Rob Harrison, Michael Freedman, Christopher Monsanto, Jennifer Rexford, Alex Story, and David Walker
+  Other: |
+    (for 2011) _[Frenetic: A Network Programming Language](https://dl.acm.org/doi/10.1145/2034773.2034812)_
+    Citation: |
+      This is the first conference paper in a highly influential line
+      of work creating a bridge between PL and networking. The authors
+      analyzed deficiencies in the state of the art in languages for
+      programming networks, addressed these limitations in a new
+      language design, and described its implementation and
+      performance on a suite of microbenchmarks. The language applied
+      a range of ideas from the functional programming community: a
+      declarative query language for classifying and aggregating
+      network traffic; a reactive combinator library for describing
+      high-level packet-forwarding policies; and a run-time system
+      that automatically generates the low-level packet-processing
+      rules, installing, uninstalling, and querying them on physical
+      switches.  This paper inspired a mountain of follow-on work by
+      these authors and others. The practical value of improving
+      network programming, and this paper's influence on subsequent
+      advances in the state of the art, make it a deserving winner of
+      the award for Most Influential Paper of ICFP 2011.
+
 2020:
 - Awardee: David Van Horn and Matthew Might
   Other: |
