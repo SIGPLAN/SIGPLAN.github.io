@@ -1,0 +1,132 @@
+---
+title: "LCTES 2022 Call for Papers"
+timestamp: "1/25/2022 23:44:38"
+deadline: "3/7/2022"
+---
+## LCTES 2022 Call for Papers
+
+[https://pldi22.sigplan.org/track/LCTES-2022](https://pldi22.sigplan.org/track/LCTES-2022)
+
+Programming languages, compilers, and tools are important interfaces between embedded systems and emerging applications in the real world. Embedded systems are aggressively adapted for deep neural network applications, autonomous vehicles, robots, healthcare applications, etc. However, these emerging applications impose challenges that conflict with conventional design requirements and increase the complexity of embedded system designs. Furthermore, they exploit new hardware paradigms to scale up to multicores (including GPUs and FPGAs) and distributed systems built from many cores. Therefore, programming languages, compilers, and tools are becoming more important to address these issues such as productivity, validation, verification, maintainability, safety, and reliability for meeting both performance goals and resource constraints.
+
+[LCTES 2022](https://pldi22.sigplan.org/track/LCTES-2022) solicits papers presenting original work on programming languages, compilers, tools, theory, and architectures that help in overcoming these challenges. Research papers on innovative techniques are welcome, as well as experience papers on insights obtained by experimenting with real-world systems and applications. Papers can be submitted through [HotCRP](https://lctes2022.hotcrp.com/).
+
+Important Dates:
+
+-   Paper submission deadline: March 7, 2022
+    
+-   Paper notification: April 8, 2022
+    
+-   Artifact submission: April 16, 2022
+    
+-   Artifact decision: May 2, 2022
+    
+-   Camera-ready deadline: May 6, 2022
+    
+-   Conference: June 21, 2022
+    
+
+Paper Categories:
+
+-   Full paper: 10 pages presenting original work.
+    
+-   Work-in-progress paper: 4 pages papers presenting original ideas that are likely to trigger interesting discussions.
+    
+
+Accepted papers in both categories will appear in the proceedings published by ACM.
+
+LCTES 2022 provides a journal mode in addition to the usual conference mode. Accepted full papers will be selectively invited to be published in a special issue of the ACM Transactions on Embedded Computing Systems (TECS).
+
+Original contributions are solicited on the topics of interest including, but not limited to:
+
+-   Programming language challenges, including:
+    
+
+-   Domain-specific languages
+    
+-   Features to exploit multicore, reconfigurable, and other emerging architectures
+    
+-   Features for distributed, adaptive, and real-time control embedded systems
+    
+-   Capabilities for specification, composition, and construction of embedded systems
+    
+-   Language features and techniques to enhance reliability, verifiability, and security
+    
+-   Virtual machines, concurrency, inter-processor synchronization, and memory management
+    
+
+-   Compiler challenges, including:
+    
+
+-   Interaction between embedded architectures, operating systems, and compilers
+    
+-   Interpreters, binary translation, just-in-time compilation, and split compilation
+    
+-   Support for enhanced programmer productivity
+    
+-   Support for enhanced debugging, profiling, and exception/interrupt handling
+    
+-   Optimization for low power/energy, code/data size, and real-time performance
+    
+-   Parameterized and structural compiler design space exploration and auto-tuning
+    
+
+-   Tools for analysis, specification, design, and implementation, including:
+    
+
+-   Hardware, system software, application software, and their interfaces
+    
+-   Distributed real-time control, media players, and reconfigurable architectures
+    
+-   System integration and testing
+    
+-   Performance estimation, monitoring, and tuning
+    
+-   Run-time system support for embedded systems
+    
+-   Design space exploration tools
+    
+-   Support for system security and system-level reliability
+    
+-   Approaches for cross-layer system optimization
+    
+
+-   Theory and foundations of embedded systems, including:
+    
+
+-   Predictability of resource behavior: energy, space, time
+    
+-   Validation and verification, in particular of concurrent and distributed systems
+    
+-   Formal foundations of model-based design as the basis for code generation, analysis, and verification
+    
+-   Mathematical foundations for embedded systems
+    
+-   Models of computations for embedded applications
+    
+
+-   Novel embedded architectures, including:
+    
+
+-   Design and implementation of novel architectures
+    
+-   Workload analysis and performance evaluation
+    
+-   Architecture support for new language features, virtualization, compiler techniques, debugging tools
+    
+-   Architectural features to improve power/energy, code/data size, and predictability
+    
+
+-   Mobile systems and IoT, including:
+    
+
+-   Operating systems for mobile and IoT devices
+    
+-   Compiler and software tools for mobile and IoT systems
+    
+-   Energy management for mobile and IoT devices
+    
+-   Memory and IO techniques for mobile and IoT devices
+    
+
+[LCTES 2022](https://pldi22.sigplan.org/track/LCTES-2022) | [lctes2022@gmail.com](mailto:lctes2022@gmail.com)

@@ -1,0 +1,255 @@
+---
+title: "CfC 26th Ada-Europe Conf. on Reliable Software Technologies (AEiC 2022)"
+timestamp: "1/31/2022 14:52:34"
+deadline: "2/27/2022"
+---
+-----------------------------------------------------------------------
+
+                         Call for Contributions
+
+              26th Ada-Europe International Conference on
+               Reliable Software Technologies (AEiC 2022)
+
+                    14-17 June 2022, Ghent, Belgium
+
+                   www.ada-europe.org/conference2022
+
+                        Organized by Ada-Europe
+            in cooperation with ACM SIGAda, SIGPLAN, SIGBED
+                 and the Ada Resource Association (ARA)
+
+                 *** 2nd DEADLINE 27 February 2022 ***
+
+                  #AEiC2022 #AdaEurope #AdaProgramming
+
+-----------------------------------------------------------------------
+
+*** General Information
+
+The 26th Ada-Europe International Conference on Reliable Software
+Technologies (AEiC 2022) will take place in Ghent, Belgium, in the
+week of 14-17 June, in dual mode, with a solid core of in-presence
+activities accompanied by digital support for remote participation.
+The conference schedule comprises a journal track, an industrial track,
+a work-in-progress track, a vendor exhibition, parallel tutorials,
+and satellite workshops.
+
+*** Schedule
+
+16 January 2022:  Submission deadline for journal-track papers,
+   [CLOSED]       tutorials and workshop proposals.
+
+27 February 2022: Submission deadline for industrial-track and
+                  work-in-progress-track abstracts.
+
+14 March 2022:    Notification of invitations-to-present for
+                  journal-track papers.  Notification of
+                  acceptance for all other types of submission.
+
+3 April 2022:     Publication of advance program.
+
+*** Topics
+
+The conference is an established international forum for providers,
+practitioners and researchers in reliable software technologies.
+The conference presentations will illustrate current work in
+the theory and practice of developing, running and maintaining
+challenging long-lived, high-quality software systems for a variety
+of application domains including manufacturing, robotics, avionics,
+space, health care, transportation, cloud environments, smart energy,
+serious games.  The program will allow ample time for keynotes, Q&A
+sessions and discussions, and social events.  Participants include
+practitioners and researchers from industry, academia and government
+organizations active in the promotion and development of reliable
+software technologies.
+
+The topics of interest for the conference include but are not
+limited to:
+
+- Real-Time and Safety-Critical Systems: design, implementation and
+  verification challenges, novel approaches, e.g., Mixed-Criticality
+  Systems, novel scheduling algorithms, novel design and analysis
+  methods;
+
+- High-Integrity Systems and Reliability: theory and practice
+  of High-Integrity Systems, languages vulnerabilities and
+  countermeasures, architecture-centred development methods and tools;
+
+- Reliability-oriented Programming Languages (not limited to Ada):
+  compilation and runtime challenges, language profiles, use cases
+  and experience reports, language education and training initiatives;
+
+- Experience Reports: case studies, lessons learned, and comparative
+  assessments.
+
+Refer to the conference website for the full list of topics.
+
+*** Call for Journal-track Submissions
+
+Following the journal-first model inaugurated in 2019, the
+conference includes a journal-track that seeks original and
+high-quality submissions that describe mature research work in
+the scope of the conference.  Accepted papers for this track will
+be published in the "Reliable Software Technologies (AEiC2022)"
+
+[Submission details removed.  Call is closed now.]
+
+Authors who have successfully passed the first round of review will
+be invited to present their work at the conference.  Ada-Europe,
+the main conference sponsor, will cover the Open Access fees for
+the first four papers to gain final acceptance, which do not already
+enjoy OA from personalized bilateral agreements with the Publisher.
+
+*** Call for Industrial-track Submissions
+
+The conference seeks industrial practitioner presentations that
+deliver insight on the challenges of developing reliable software.
+Given their applied nature, such contributions will be subject to
+a dedicated practitioner-peer review process.  Interested authors
+shall submit a short (one-to-two pages) abstract, by 27 February
+2022, via https://easychair.org/conferences/?conf=aeic2022,
+strictly in PDF, following the Ada User Journal style
+(cf. http://www.ada-europe.org/auj/).
+
+The abstract of the accepted contributions will be included in the
+conference booklet.  The corresponding authors will get a presentation
+slot in the prime-time technical program of the conference, and will
+also be invited to expand their contributions into full-fledged
+articles for publication in the Ada User Journal, which will form
+the proceedings of the Industrial track of the Conference.
+
+Prospective authors may direct all enquiries regarding this track to
+the corresponding chair, Alejandro R. Mosteo, at the listed address.
+
+*** Call for Work-in-Progress-track Submissions
+
+The Work-in-Progress track seeks two kinds of submissions: (a) ongoing
+research, and (b) early-stage ideas.  Ongoing research submissions are
+4-page papers that describe research results that are not mature enough
+to be submitted to the journal track as yet.  Early-stage ideas, are
+1-page papers that pitch new research directions that fall in the scope
+of the conference.  Both kinds of submission must be original and shall
+undergo anonymous peer review.  Submissions by recent MSc graduates and
+PhD students are especially sought.
+
+[Submission details removed.  Call is closed now.]
+
+The abstract of the accepted contributions will be included in the
+conference booklet.  The corresponding authors will get a presentation
+slot in the prime-time technical program of the conference, and will
+also be offered the opportunity to expand their contributions into
+4-page articles for publication in the Ada User Journal, which will
+form the proceedings of the WiP track of the Conference.
+
+*** Academic Listing
+
+The Journal of Systems Architecture, publication venue of the
+journal-track proceedings of the conference, was ranked Q1 (SJR) in
+the year 2020, also featuring 72th percentile in CiteScope (Scopus).
+The Ada User Journal, venue of all other technical proceedings of
+the conference, is indexed by Scopus and by EBSCOhost in the Academic
+Search Ultimate database.
+
+*** Awards
+
+Ada-Europe will offer an honorary award for the best technical
+presentation, to be announced in the closing session of the conference.
+
+*** Call for Tutorials
+
+The conference seeks tutorials in the form of educational seminars
+on themes falling within the conference scope, with an academic
+or practitioner slant, including hands-on or practical elements.
+
+[Submission details removed.  Call is closed now.]
+
+The authors of accepted full-day tutorials will receive a complimentary
+conference registration, halved for half-day tutorials.  The Ada
+User Journal will offer space for the publication of summaries of
+the accepted tutorials.
+
+*** Call for Workshops
+
+The conference welcomes satellite workshops centred on themes that
+fall within the conference scope.  Proposals may be submitted for
+half- or full-day events, to be scheduled at either end of the
+conference proper.
+
+[Submission details removed.  Call is closed now.]
+
+*** Call for Exhibitors
+
+The conference will include a vendor and technology exhibition.
+Interested providers should direct inquiries to the Exhibition Chair.
+
+*** Venue
+
+The conference will take place in the heart of the city of Ghent,
+Belgium, capital of the East Flanders province, a halfhour train
+ride north-west of Brussels.  Ghent is rich in history, culture and
+higher-education, with a top-100 university founded in 1817.
+
+*** Organizing Committee
+
+* Conference Chair
+Tullio Vardanega, University of Padua, Italy
+tullio.vardanega at unipd.it
+
+* Journal-track Chair
+Jérôme Hugues, Carnegie Mellon University, USA
+jjhugues at sei.cmu.edu
+
+* Industrial-track Chair
+Alejandro R.Mosteo, Centro Universitario de la Defensa, Zaragoza, Spain
+amosteo at unizar.es
+
+* Work-in-Progress-track Chair
+Frank Singhoff, University of Brest, France
+frank.singhoff at univ-brest.fr
+
+* Tutorial and Workshop Chair
+Aurora Agar Armario, NATO, the Netherlands
+aurora.agar at ncia.nato.int
+
+* Exhibition & Sponsorship Chair
+Ahlan Marriott, White Elephant GmbH, Switzerland
+software at white-elephant.ch
+
+* Publicity Chair
+Dirk Craeynest, Ada-Belgium & KU Leuven, Belgium
+dirk.craeynest at cs.kuleuven.be
+
+* Local Chair
+Vicky Wandels, University of Ghent, Belgium
+Vicky.Wandels at UGent.be
+
+*** Previous Editions
+
+Ada-Europe organizes annual international conferences since the early
+80's.  This is the 26th event in the Reliable Software Technologies
+series, previous ones being held at Montreux, Switzerland ('96),
+London, UK ('97), Uppsala, Sweden ('98), Santander, Spain ('99),
+Potsdam, Germany ('00), Leuven, Belgium ('01), Vienna, Austria ('02),
+Toulouse, France ('03), Palma de Mallorca, Spain ('04), York, UK
+('05), Porto, Portugal ('06), Geneva, Switzerland ('07), Venice,
+Italy ('08), Brest, France ('09), Valencia, Spain ('10), Edinburgh,
+UK ('11), Stockholm, Sweden ('12), Berlin, Germany ('13), Paris,
+France ('14), Madrid, Spain ('15), Pisa, Italy ('16), Vienna, Austria
+('17), Lisbon, Portugal ('18), Warsaw, Poland ('19), and online from
+Santander, Spain ('21).
+
+Information on previous editions of the conference can be found at
+http://www.ada-europe.org/confs/ae.
+
+-----------------------------------------------------------------------
+
+Our apologies if you receive multiple copies of this announcement.
+Please circulate widely.
+
+Dirk Craeynest, AEiC 2022 Publicity Chair
+Dirk.Craeynest@cs.kuleuven.be
+
+* 26th Ada-Europe Int.Conf. Reliable Software Technologies (AEiC 2022)
+* June 14-17, 2022, Ghent, Belgium * www.ada-europe.org/conference2022
+
+

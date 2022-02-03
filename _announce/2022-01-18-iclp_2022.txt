@@ -1,0 +1,282 @@
+---
+title: "[CfP] ICLP 2022 - The 38th International Conference on Logic Programming"
+timestamp: "1/18/2022 12:47:42"
+deadline: "1/28/2021"
+---
+=========================================================================
+                              CALL FOR PAPERS
+=========================================================================
+
+The 38th International Conference on Logic Programming (ICLP 2022)
+        https://software.imdea.org/Conferences/ICLP2022/
+
+                        Haifa, Israel
+                      August 2-8, 2022
+
+  ICLP 2022 will be a physical event in Haifa, Israel
+  Part of the FLOC 2022
+  https://floc2022.org/
+
+=========================================================================
+
+Scope
+*****
+
+Since the first conference held in Marseille in 1982, ICLP has been
+the premier international event for presenting research in logic
+programming.  Contributions are sought in all areas of logic
+programming, including but not restricted to:
+
+** Foundations:Semantics, Formalisms, Nonmonotonic reasoning,
+   Knowledge representation.
+
+** Languages issues: Concurrency, Objects, Coordination, Mobility,
+   Higher order, Types, Modes, Assertions, Modules, Meta-programming,
+   Logic-based domain-specific languages, Programming techniques.
+
+** Programming support: Program analysis, Transformation, Validation,
+   Verification, Debugging, Profiling, Testing, Execution
+   visualization.
+
+** Implementation: Compilation, Virtual machines, Memory management,
+   Parallel/distributed execution, Constraint handling rules, Tabling,
+   Foreign interfaces, User interfaces.
+
+** Related Paradigms and Synergies: Inductive and coinductive logic
+   programming, Constraint logic programming, Answer set programming,
+   Interaction with SAT, SMT and CSP solvers, Theorem proving,
+   Argumentation, Probabilistic programming, Machine learning.
+
+** Applications: Databases, Big data, Data integration and federation,
+   Software engineering, Natural language processing, Web and semantic
+   web, Agents, Artificial intelligence, Computational life sciences,
+   Cybersecurity, Robotics, Education.
+
+Tracks and Special Sessions
+***************************
+
+Besides the main track, ICLP 2022 will host additional tracks:
+
+** Applications Track: this track invites submissions of papers on
+   emerging and deployed applications of LP, describing all aspects of
+   the development, deployment, and evaluation of logic programming
+   systems to solve real-world problems, including interesting case
+   studies and benchmarks, and discussing lessons learned.
+
+** Recently Published Research Track: this track provides a forum to
+   discuss important results related to logic programming that
+   appeared recently (from January 2020 onwards) in selective journals
+   and conferences, but have not been previously presented at ICLP.
+
+In addition,  ICLP 2022 will house:
+
+** Doctoral Consortium and Mentoring Sessions: the Doctoral Consortium
+   (DC) on Logic Programming provides students and early career
+   researchers with the opportunity to present and discuss their
+   research directions, obtain feedback from both peers and experts in
+   the field, and participate in mentoring sessions on how to prepare
+   and succeed for a research career. We will have leaders in logic
+   programming research from academia and industry to give invited
+   talks on their research areas. The best paper from the DC will be
+   given the opportunity to make a presentation in a session of the
+   main ICLP conference.
+
+** Tutorials and Co-located Workshops.
+
+
+Important Dates [EXTENDED]
+**************************
+
+** Abstract registration: January 21, 2022
+** Paper submission: January 28, 2022
+** Notification to authors (Regular papers): March 14, 2022
+** Revision submission (TPLP papers): April 1, 2022
+** Final notifications (all paper kinds): April 30, 2022
+** Camera-ready copy due (all paper kinds): May 16, 2022
+** Conference: July 31--August 8, 2022
+
+
+
+Submission Details
+******************
+
+We note that papers accepted at ICLP may appear either in 
+    * Theory and Practice of Logic Programming Journal (TPLP), or
+    * Technical Communication Proceeding (TC) published by 
+        Electronic Proceedings in Theoretical Computer Science (EPTCS)
+
+TPLP format is described at
+   https://www.cambridge.org/core/journals/theory-and-practice-of-logic-programming/information/instructions-contributors
+
+EPTCS format is described at
+   http://style.eptcs.org/
+
+All accepted papers will be presented during the conference. Authors 
+of accepted papers will, by default, be automatically included in the 
+list of ALP members, who will receive quarterly updates from 
+the Logic Programming Newsletter at no cost. 
+
+All submissions must be written in English.
+
+Expected submissions: 
+
+* For Main Track and Application Track:
+
+   All papers must describe original, previously unpublished research,
+   and must not simultaneously be submitted for publication
+   elsewhere. These restrictions do not apply to previously accepted
+   workshop papers with a limited audience and/or without archival
+   proceedings.
+
+** Regular papers (14 pages in TPLP format, including references) The
+   accepted regular papers will be published in TPLP. The program
+   committee may recommend some regular papers to be published in
+   Technical Communication Proceeding (TC). In this case, the papers
+   will have to be reformatted into EPTCS format and not exceed 14
+   pages. Authors who submitted Regular papers that were accepted as
+   TC may elect to convert their submissions into extended abstracts
+   (2 or 3 pages in EPTCS format). This should allow authors to
+   submit a long version elsewhere.
+
+** Short papers (7 pages in EPTCS format, including references). The
+   accepted short papers will be published in the Technical
+   Communication Proceedings.
+
+
+* Recently Published Research Track
+
+** Extended abstract (2 or 3 pages in EPTCS format) describing
+   previously published research (from January 2020 onwards) in
+   selective journals and conferences, but that have not been
+   previously presented at ICLP.  A title page should be appended to
+   the submission with (i) details on the venue, where the original
+   paper appeared, (ii) a link to the original paper, (iii) a
+   paragraph describing why the authors believe this work warrants a
+   presentation at ICLP. The extended abstracts will be published in
+   the Technical Communication Proceedings.
+
+
+Submissions will be done via EasyChair. The submission Web page for
+ICLP2022 is https://easychair.org/my/conference?conf=iclp2022
+
+
+Organization
+************
+
+** General Chair
+   Michael Codish, Ben-Gurion University of the Negev, Israel
+
+** Program Chairs
+   Yuliya Lierler, University of Nebraska Omaha, USA
+   Jose F. Morales, IMDEA and Universidad Politécnica de Madrid, Spain
+
+** Publicity Chair
+   Victor Perez, IMDEA Software Institute, Spain
+
+** Workshop Chair
+   Daniela Inclezan, Miami University, USA
+
+** Doctoral Consortium and Fall School Chairs
+   Veronica Dahl, Simon Fraser University, Canada 
+   Carmine Dodaro, University of Calabria, Italy 	
+
+** Programming Contest Chairs
+   Mario Alviano, University of Calabria, Italy 
+   Vitaly Lagoon, Cadence Design Systems, USA
+
+** 10-year/20-year Test-of-Time Award Chairs
+   Esra Erdem, Sabanci University, Turkey
+   Paul Tarau, Univeristy of North Texas, USA
+
+** Recently Published Research Track Chairs
+   Martin Gebser, Alpen-Adria-Universität Klagenfurt, Austria
+   Tuncay Tekle, Stony Brook University, USA
+
+Program Committee
+*****************
+
+* Salvador Abreu, Universidade de Évora, Portugal
+* Mario Alviano, University of Calabria, Italy
+* Marcello Balduccini, Saint Joseph's University, USA
+* Mutsunori Banbara, Nagoya University, Japan
+* Alex Brik, Google Inc., USA
+* François Bry, Ludwig Maximilian University of Munich, Germany
+* Pedro Cabalar,University of Corunna, Spain
+* Francesco Calimeri, University of Calabria, Italy
+* Manuel Carro, Technical University of Madrid and IMDEA, Spain
+* Angelos Charalambidis, University of Athens, Greece
+* Michael Codish, Ben-Gurion University of the Negev, Israel
+* Stefania Costantini, University of L'Aquila, Italy
+* Marc Denecker, KU Leuven, Belgium
+* Marina De Vos, University of Bath, UK
+* Agostino Dovier, University of Udine, Italy
+* Inês Dutra, University of Porto, Portugal
+* Thomas Eiter, Vienna University of Technology, Austria
+* Esra Erdem, Sabanci University, Turkey
+* Wolfgang Faber, Alpen-Adria-Universität Klagenfurt, Austria
+* Jorge Fandinno, University of Nebraska Omaha, USA
+* Paul Fodor, Stony Brook University, USA
+* Andrea Formisano, University of Udine, Italy
+* Gerhard Friedrich, Alpen-Adria-Universitaet Klagenfurt, Austria
+* Sarah Alice Gaggl, Technische Universität Dresden, Germany
+* Marco Gavanelli, University of Ferrara, Italy
+* Martin Gebser, Alpen-Adria-Universität Klagenfurt, Austria
+* Michael Gelfond, Texas Tech University, USA
+* Laura Giordano, Università del Piemonte Orientale, Italy
+* Gopal Gupta, University of Texas, USA
+* Michael Hanus, CAU Kiel, Germany
+* Manuel Hermenegildo, IMDEA and Universidad Politécnica de Madrid, Spain
+* Giovambattista Ianni, University of Calabria, Italy
+* Katsumi Inoue, National Institute of Informatics, Japan
+* Tomi Janhunen, Tampere University, Finland
+* Matti Järvisalo, University of Helsinkia, Finland
+* Jianmin Ji, University of Science and Technology of China
+* Nikos Katzouris, NCSR Demokritos
+* Zeynep Kiziltan, University of Bologna, Italy
+* Michael Kifer, Stony Brook University, USA
+* Ekaterina Komendantskaya, Heriot-Watt University, UK
+* Nicola Leone, University of Calabria, Italy
+* Michael Leuschel, University of Dusseldorf, Germany
+* Y. Annie Liu, Stony Brook University, USA
+* Vladimir Lifschitz, University of Texas, USA
+* Jorge Lobo, Pompeu Fabra University, Barcelona, Spain
+* Marco Maratea, University of Genova, Italy
+* Viviana Mascardi, University of Genova, Italy
+* Alessandra Mileo, Dublin City University, INSIGHT Centre for Data Analytics, Ireland
+* Manuel Ojeda-Aciego, University of Malaga, Spain
+* Enrico Pontelli, New Mexico State University, USA
+* Francesco Ricca, University of Calabria, Italy
+* Orkunt Sabuncu, TED University, Turkey
+* Chiaki Sakama, Wakayama University, Japan
+* Vitor Santos Costa, University of Porto, Portugal
+* Torsten Schaub, University of Potsdam, Germany
+* Konstantin Schekotihin, Alpen-Adria-Universität Klagenfurt, Austria
+* Tom Schrijvers, KU Leuven, Belgium
+* Mohan Sridharan, University of Birmingham, UK
+* Tran Cao Son, New Mexico State University, USA
+* Theresa Swift, Universidade Nova de Lisboa, Portugal
+* Paul Tarau, University of North Texas, USA
+* Tuncay Tekle, Stony Brook University, USA
+* Daniele Theseider Dupré, University of Piemonte Orientale, Italy
+* Mirek Truszczynski, University of Kentucky, USA
+* Joost Vennekens, KU Leuven, Belgium
+* German Vidal, Universitat Politècnica de València, Spain
+* Alicia Villanueva, VRAIN - Universitat Politècnica de València, Spain
+* Antonius Weinzierl, Vienna University of Technology, Austria
+* Kewen Wang, Griffith University Australia
+* David Warren, SUNY Stony Brook, USA
+* Jan Wielemaker, VU University of Amsterdam, Netherlands
+* Stefan Woltran, Vienna University of Technology, Austria
+* Roland Yap, National University of Singapore, Republic of Singapore
+* Fangkai Yang, NVIDIA, USA
+* Jia-Huai You, University of Alberta, Canada
+* Yuanlin Zhang, Texas Tech University, US
+* Zhizheng Zhang, Southeast University, China
+* Neng-Fa Zhou, CUNY Brooklyn College and Graduate Center, USA 
+
+=========================================================================
+Any additional question can be directed towards ICLP Chairs:
+
+  iclp2022@easychair.org
+=========================================================================
+

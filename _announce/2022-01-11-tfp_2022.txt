@@ -1,0 +1,165 @@
+---
+title: "[TFP'22] second call for papers: Trends in Functional Programming 2022 moved to March 17-18 online (together with TFPiE)"
+timestamp: "1/11/2022 12:59:37"
+deadline: "3/7/2022"
+---
+============== TFP 2022 ===================
+== MOVING TO ONLINE SYMPOSIUM, NEW DATES ==
+===========================================
+
+23rd Symposium on Trends in Functional Programming
+17-18 March, 2022
+Online event
+https://trendsfp.github.io/index.html
+
+Due the pandemic, we have had to make TFP virtual this year. As a
+result, we've decided to push back the deadlines and conference date
+by a few weeks. In particular, the pre-symposium deadline for
+submitting the first version of your paper is now just after the ICFP
+deadline.
+
+
+== Important Dates ==
+
+Submission deadline for draft papers                Monday 7th March, 2022
+Notification for draft submissions                  Friday 11th March, 2022
+Symposium dates                                     Thursday 17th - Friday 18th March, 2022
+Submission deadline for post-symposium reviewing    Wednesday 6th April, 2022
+Notification for post-symposium submissions         Friday 27th May, 2022
+
+The Symposium on Trends in Functional Programming (TFP) is an
+international forum for researchers with interests in all aspects of
+functional programming, taking a broad view of current and future
+trends in the area. It aspires to be a lively environment for
+presenting the latest research results, and other contributions.
+
+
+
+== Scope ==
+
+The symposium recognizes that new trends may arise through various
+routes. As part of the Symposium's focus on trends we therefore
+identify the following five article categories. High-quality articles
+are solicited in any of these categories:
+
+* Research Articles:
+   Leading-edge, previously unpublished research work
+* Position Articles:
+  On what new trends should or should not be
+* Project Articles:
+   Descriptions of recently started new projects
+* Evaluation Articles:
+   What lessons can be drawn from a finished project
+* Overview Articles:
+   Summarizing work with respect to a trendy subject
+
+Articles must be original and not simultaneously submitted for
+publication to any other forum. They may consider any aspect of
+functional programming: theoretical, implementation-oriented, or
+experience-oriented. Applications of functional programming techniques
+to other languages are also within the scope of the symposium.
+
+Topics suitable for the symposium include, but are not limited to:
+
+* Functional programming and multicore/manycore computing
+* Functional programming in the cloud
+* High performance functional computing
+* Extra-functional (behavioural) properties of functional programs
+* Dependently typed functional programming
+* Validation and verification of functional programs
+* Debugging and profiling for functional languages
+* Functional programming in different application areas:
+   security, mobility, telecommunications applications, embedded
+   systems, global computing, grids, etc.
+* Interoperability with imperative programming languages
+* Novel memory management techniques
+* Program analysis and transformation techniques
+* Empirical performance studies
+* Abstract/virtual machines and compilers for functional languages
+* (Embedded) domain specific languages
+* New implementation strategies
+* Any new emerging trend in the functional programming area
+
+If you are in doubt on whether your article is within the scope of
+TFP, please contact the TFP 2022 program chairs, Wouter Swierstra and
+Nicolas Wu.
+
+
+== Best Paper Awards ==
+
+To reward excellent contributions, TFP awards a prize for the best
+paper accepted for the formal proceedings.
+
+TFP traditionally pays special attention to research students,
+acknowledging that students are almost by definition part of new
+subject trends. A student paper is one for which the authors state
+that the paper is mainly the work of students, the students are listed
+as first authors, and a student would present the paper. A prize for
+the best student paper is awarded each year.
+
+In both cases, it is the PC of TFP that awards the prize. In case the
+best paper happens to be a student paper, that paper will then receive
+both prizes.
+
+
+== Instructions to Author ==
+
+Papers must be submitted at:
+
+   https://easychair.org/conferences/?conf=tfp22
+
+Authors of papers have the choice of having their contributions
+formally reviewed either before or after the Symposium.
+
+
+== Post-symposium formal review process ==
+
+Draft papers will receive minimal reviews and notification of
+acceptance for presentation at the symposium. Authors of draft papers
+will be invited to submit revised papers based on the feedback received
+at the symposium. A post-symposium refereeing process will then select
+a subset of these articles for formal publication.
+
+
+== Paper categories ==
+
+Draft papers and papers submitted for formal review are submitted as
+extended abstracts (4 to 10 pages in length) or full papers (20
+pages). The submission must clearly indicate which category it belongs
+to: research, position, project, evaluation, or overview paper. It
+should also indicate which authors are research students, and whether
+the main author(s) are students. A draft paper for which all authors
+are students will receive additional feedback by one of the PC members
+shortly after the symposium has taken place.
+
+
+== Format ==
+
+Papers must be written in English, and written using the LNCS
+style. For more information about formatting please consult the
+Springer LNCS web site.
+
+
+== Program Committee ==
+
+Guillaume Allais                University of St Andrews
+José Manuel Calderón Trilla     Galois, Inc.
+Stephen Chang                   University of Massachusetts Boston
+Matthew Flatt                   University of Utah
+Jeremy Gibbons                  University of Oxford
+Zhenjiang Hu                    Peking University
+Mauro Jaskelioff                CIFASIS / Universidad Nacional de Rosario
+Moa Johansson                   Chalmers University of Technology
+Shin-ya Katsumata               National Institute of Informatics
+Oleg Kiselyov                   Tohoku University
+Bas Lijnse                      Netherlands Defence Academy / Radboud University Nijmegen
+Kazutaka Matsuda                Tohoku University
+Nico Naus                       Virginia Tech
+Christine Rizkallah             University of New South Wales
+Alejandro Serrano               47 Degrees
+Amir Shaikhha                   Ecole Polytechnique Fédérale de Lausanne
+Aaron Stump                     University of Iowa
+Wouter Swierstra (Co-chair)     Utrecht University
+Baltasar Trancón Y Widemann     Semantics GmbH
+Nicolas Wu (Co-chair)           Imperial College London
+Ningning Xie                    University of Hong Kong
