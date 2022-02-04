@@ -70,6 +70,18 @@ CARES committee members may also attend other workshops and conferences sponsore
     <th><b>CARES member attendees</b></th>
  </tr>
   <tr>
+    <td><a href="https://popl22.sigplan.org">POPL 2022</a></td>
+    <td>Stephanie Weirich</td>
+ </tr>
+  <tr>
+    <td><a href="https://2021.splashcon.org">SPLASH 2021</a></td>
+    <td>Shriram Krishnamurthi, Stephanie Weirich, Alexandra Silva, Kathryn McKinley</td>
+ </tr>
+  <tr>
+    <td><a href="https://icfp21.sigplan.org">ICFP 2021</a></td>
+    <td>Stephanie Weirich, Simon Peyton Jones, Xinyu Feng, Sukyoung Ryu, Alexandra Silva</td>
+ </tr>
+  <tr>
     <td><a href="https://pldi21.sigplan.org/">PLDI 2021</a></td>
     <td>Kathryn McKinley, Vikram Adve, Peng Wu, Shriram Krishnamurthi, Stephanie Weirich, Xinyu Feng, and David Walker</td>
  </tr>
