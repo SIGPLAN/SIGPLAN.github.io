@@ -1,0 +1,36 @@
+---
+title: "Call for Papers, International Symposium on Memory Management"
+timestamp: "2/9/2022 6:48:29"
+deadline: "3/4/2022"
+---
+ISMM 2022 is soliciting full-length submissions covering new work on all memory management related topics, as well as papers presenting confirmations or refutations of important prior results. Surveys and comparative analyses that shed new light on previously published techniques are also welcome. ISMM 2022 will be colocated with PLDI 2022. 
+
+See https://conf.researchr.org/track/ismm-2022/ismm-2022#Call-for-Papers
+
+Areas of interest include but are not limited to:
+    Garbage collection algorithms and implementations
+    Memory allocation and de-allocation
+    Memory system design and analysis
+    Hardware support for memory management
+    Memory management for large-scale data-intensive systems
+    Novel memory architectures
+    Memory management at datacenter and cloud scales
+    Formal analysis and verification of memory management algorithms
+    Compiler analyses to aid memory management
+    Tools to analyze memory usage of programs
+    Empirical analysis of memory intensive programs
+    Formal analysis and verification of memory intensive programs
+    Memory management for machine learning systems
+    Programming and management of emerging or persistent memories
+
+
+Program Chair: David Chisnall (Microsoft Research)
+General Chair: Michael Lippautz (Google)
+
+Important dates
+  Fri 4 Mar: submission
+  Wed 13 - Fri 15 Apr: rebuttal
+  Fri 22 Apr: notification
+  Tue 14 Jun: ISMM @ PLDI
+
+
