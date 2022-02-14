@@ -7,10 +7,16 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8  col-md-offset-2">
-          <h1>Announcements</h1>
+          <h1><a href="..">Announcements</a></h1>
           <h2>{{ page.title }}</h2>
 
-          <pre>{{ content }}</pre>
+          {% if page.deadline %}
+          <p class="details">
+              <strong>Deadline:</strong> {{ page.deadline }}
+          </p>
+          {% endif %}
+
+          <pre class="mail">{{ content }}</pre>
       </div>
     </div>
 

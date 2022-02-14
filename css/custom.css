@@ -51,3 +51,9 @@ table th {
    rules (as opposed to guidelines, recommendations, or discussion) in
    conference organizer documents: */
 .sigplan_rule { color: rgb(97, 0, 0); }
+
+pre.mail {
+  background: inherit;
+  border: none;
+  padding: 0;
+}
