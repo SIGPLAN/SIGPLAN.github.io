@@ -1,3 +1,25 @@
+2022:
+- Awardee: Thomas H. Austin and Cormac Flanagan
+  Other: |
+    (for 2012): _[Multiple facets for dynamic information flow](https://dl.acm.org/doi/10.1145/2103656.2103677)_
+    Citation: |
+      The paper proposed to track information flow dynamically through
+      Javascript programs using a run-time monitor; folklore that
+      dynamic monitors were unsound led others to focus on static
+      techniques. Its key new idea was to blend multiple executions
+      into a single one via “faceted values.” This idea generalized a
+      prior whole program technique of "secure multi execution" (SME),
+      and inspired follow-on work in Javascript security, information
+      flow analysis in other languages (e.g., Python, Haskell, Java),
+      and other problem domains, notably “variability-aware execution”
+      and “dynamic determinacy analysis.” It even influenced follow-on
+      improvements to SME itself. The variety of authors in the
+      most-cited citing papers, and the variety of their areas—most
+      top venues in PL, SE, and Security are represented—speak to its
+      influence. The paper is exemplary in seeding a nice core idea
+      that has evidently proliferated throughout its core area, and
+      also influenced solutions to other problems outside this area.
+
 2021:
 - Awardee: Sumit Gulwani
   Other: |

@@ -1,3 +1,19 @@
+2021:
+- Awardee: Sebastian Erdweg, Tillmann Rendel, Christian Kästner, Klaus Ostermann
+  Other: |
+    (for 2011) _[SugarJ: library-based syntactic language extensibility](https://dl.acm.org/doi/10.1145/2048066.2048099)_
+  Citation: |
+    SugarJ, already recognized as a distinguished paper at OOPSLA back
+    in 2011, is a highly influential work on library-based syntactic
+    language extensibility. This paper introduced the notion of "sugar
+    libraries" for syntactically extending a language within the
+    language. Unlike meta-programming/macro systems that typically
+    rely on a pre-processor built on top of an existing language,
+    syntactic extensions in SugarJ are built in the language. As a
+    consequence, SugarJ has better composability properties than macro
+    systems. Beyond making valuable theoretical contributions, SugarJ
+    is available online and has been incorporated into Eclipse.
+
 2020:
 - Awardee: Lennart C.L. Kats, Eelco Visser
   Other: |
@@ -18,6 +34,7 @@
     describing the entire environment in its 1.0 release and
     documenting the requirements and architecture for a language
     workbench.
+
 2019:
 - Awardee: Leo A. Meyerovich, Arjun Guha, Jacob Baskin, Gregory H. Cooper, Michael Greenberg, Aleks Bromfield, 	Shriram Krishnamurthi
   Other: |
