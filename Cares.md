@@ -34,7 +34,13 @@ All SIG publications abide by
 [acm-abuse]: https://www.acm.org/publications/policies/coercion-and-abuse
 [acm-roles]: https://www.acm.org/publications/policies/roles-and-responsibilities
 
-If a violation of any of these policies occur, ACM urges reporting the incident to the event chair or to ACM leadership, as indicated on those webpages. We recognize that reporting to a conference chair or an upper level ACM administrator can be intimidating, especially in the face of an already unpleasant experience. We have therefore established CARES: Committee to Aid REporting on discrimination, harassment, and related ethical policy violations.
+If a violation of any of these policies occur, ACM urges reporting the incident to the event chair or to ACM leadership, as indicated on those webpages. You may report violations using the following forms:
+
+* Report an ethics violation [here](https://services.acm.org/ethics/report.cfm).
+* Report harassment, discrimination, intimidation, or violence [here](https://services.acm.org/harass/harassForm.cfm).
+* Report a policy violation such as a conflict of interest violation, coercion, abuse, misrepresentation, plagiarism, falsification or abuse of publication process [here](https://services.acm.org/policy_violations/policy.cfm).
+
+We recognize that reporting to a conference chair or an upper level ACM administrator can be intimidating, especially in the face of an already unpleasant experience. We have therefore established CARES: Committee to Aid REporting on discrimination, harassment, and related ethical policy violations.
 
 The role of CARES is to serve as a resource comprising of well-known and respected people in the programming languages community who are approachable and willing to listen to and help people who experience or witness discrimination, harassment, or other ethical policy violations either at our events or related to ACM publications; the committee members can be a sounding board for these people and can provide advice on the steps necessary to have the matter further investigated by ACM. It is important to understand that for the matter to be reported, the person experiencing the incident must still themselves send the complaint to ACM where it will be handled according to ACM’s policies. The CARES committee cannot serve as an intermediary in that official process and it cannot be involved in any aspect of the handling of the complaint by ACM.
 
