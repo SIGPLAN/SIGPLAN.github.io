@@ -34,7 +34,7 @@ All SIG publications abide by
 [acm-abuse]: https://www.acm.org/publications/policies/coercion-and-abuse
 [acm-roles]: https://www.acm.org/publications/policies/roles-and-responsibilities
 
-If a violation of any of these policies occur, ACM urges reporting the incident to the event chair or to ACM leadership, as indicated on those webpages. You may report violations using the following forms:
+If a violation of any of these policies occur, ACM urges reporting the incident to the event chair or to ACM leadership, as indicated on those webpages. You may also report violations using the following forms:
 
 * Report an ethics violation [here](https://services.acm.org/ethics/report.cfm).
 * Report harassment, discrimination, intimidation, or violence [here](https://services.acm.org/harass/harassForm.cfm).
