@@ -1,0 +1,127 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>VEE 2022: Proceedings of the 18th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments</title></head><body><div id="DLtoc"><div id="DLheader"><h1>VEE 2022: Proceedings of the 18th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3516807"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Keynotes</h2>
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3516807.3519310">In pursuit of a trusted computing base: the journey through virtualization (keynote)</a></h3><ul class="DLauthors"><li class="nameList Last">Haibo Chen</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>A common approach to securing computing systems is identifying and securing the trusted computing base (TCB), which enforces the overall security policies under a particular threat model. For the sake of whole-system security, the TCB should be small enough to be trustworthy, be capable of mediating critical operations to enforce security policies and have a minimized attacking surface. </p> <p> In this talk, I will introduce my journey of exploring virtualization to creating a TCB for both mobile and cloud systems. I will also share my experiences of making the TCB efficient and trustworthy, through exploiting existing hardware mechanisms as well as hardware/software co-designs. Finally, I will briefly outlook the challenges and opportunities in virtualization-based TCB for emerging computing models like serverless and AIoT.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3516807.3519421">Virtual programming environments: programming the cloud (keynote)</a></h3><ul class="DLauthors"><li class="nameList Last">David Grove</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Cloud-based applications are ubiquitous and essential. We expect them to be simultaneously scalable and available and simple to build and deploy. Virtual Programming Environments are what make these applications possible. Virtual Programming Environments are themselves complex distributed systems, built using the entire spectrum of System and Runtime Virtualization technology that is the subject of VEE. In the first part of the talk, I will focus on the purest form of Serverless Computing: Functions as a Service (FaaS) as embodied in Virtual Programming Environments such as AWS Lambda or Apache OpenWhisk. I will describe the programming abstractions they provide to the developer and how these abstractions are realized using virtualization technology. In the second part of the talk, I will outline the research challenges in moving beyond FaaS to build Virtual Programming Environments that can productively support building complex stateful applications on the cloud.</p>
+	</div></div>
+						
+					<h2>SESSION: Papers</h2>
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3516807.3516817">Portkey: hypervisor-assisted container migration in nested cloud environments</a></h3><ul class="DLauthors"><li class="nameList">Chandra Prakash</li><li class="nameList">Debadatta Mishra</li><li class="nameList">Purushottam Kulkarni</li><li class="nameList Last">Umesh Bellur</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Derivative cloud service providers use nesting to provision virtual computational entities (VCE) within VCEs, e.g., containers runtimes within virtual machines. As part of resource management and ensuring application performance, migration of nested containers is an important and useful mechanism. Checkpoint Restore In Userspace (CRIU) is the dominant method for migration, used by Docker and other container technologies. While CRIU works well for container migration from host to host, it suffers from significant increase in resource requirements in nested setups. The overheads are primarily due to the high network virtualization overhead in nested environments. While techniques such as SR-IOV can mitigate the overheads, they require additional hardware features and tight coupling of network endpoints. Based on our insights of network virtualization being the main bottleneck, we present Portkey - a software-based solution for efficient nested container migration that significantly reduces CPU utilization at both the source and destination hosts. Our solution relies on interposing a layer that directly coordinates network IO from within a virtual machine with the hypervisor. A new set of hypercalls provide this interfacing along with a control loop that minimizes the hypercall path usage. Extensive evaluation of our solution shows that Portkey reduces CPU usage by up to 75% and 82% at the source and destination hosts, respectively.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3516807.3516818">Container-aware I/O stack: bridging the gap between container storage drivers and solid state devices</a></h3><ul class="DLauthors"><li class="nameList">Song Wu</li><li class="nameList">Zhuo Huang</li><li class="nameList">Pengfei Chen</li><li class="nameList">Hao Fan</li><li class="nameList">Shadi Ibrahim</li><li class="nameList Last">Hai Jin</li></ul><div class="DLabstract"><div style="display:inline">
+		<p><em>Solid State Devices</em> (SSDs) have been widely adopted in containerized cloud platforms as they provide parallel and high-speed data accesses for critical data-intensive applications. Unfortunately, the I/O stack of the physical host overlooks the layered and independent nature of containers, thus I/O operations require expensive file redirect (between the storage driver, Overlay2/EXT4, and the <em>virtual file system</em>, VFS) and are scheduled sequentially. Moreover, containers suffer from significant I/O contention as resources at the native file system are shared between them. This paper presents a <em>C</em><em>ontainer-</em><em>a</em><em>ware I/O </em><em>st</em><em>ack</em> (CAST). CAST is made up of <em>L</em><em>ayer-</em><em>a</em><em>ware </em><em>VFS</em> (LaVFS) and <em>C</em><em>ontainer-</em><em>a</em><em>ware Native </em><em>F</em><em>ile </em><em>S</em><em>ystem</em> (CaFS). LaVFS locates files based on layer information and enables simultaneous <em>Copy-on-Write</em> (CoW) operations and thus avoids the overhead of searching and modifying files. CaFS, on the other hand, provides contention-free access by designing fine-grain resource allocation at the native file system. Experimental results using a NVMe SSD with micro-benchmarks and real-world applications show that CAST achieves 216%-219% (38%-98%, respectively) improvement over the original I/O stack.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3516807.3516819">ClusterRR: a record and replay framework for virtual machine cluster</a></h3><ul class="DLauthors"><li class="nameList">Wei Wang</li><li class="nameList">Zhiyu Hao</li><li class="nameList Last">Lei Cui</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>The Record and Replay (RnR) technology provides the ability to reproduce past execution of systems deterministically. It has many prominent applications, including fault tolerance, security analysis, and failure diagnosis. In system virtualization, previous RnR researches mainly focus on individual VM, including coherent replaying of multi-core systems, reducing performance penalty and storage overhead. However, with the emerging of distributed systems deployed in virtual machine clusters (VMC), the existing RnR technology of individual VM can not meet the requirements of analyzers and developers. The critical challenge for VMC RnR is to maintain the consistency of global state. In this paper, we propose ClusterRR, a RnR framework for VMC. To solve the inconsistency problem, we propose coordination protocols to schedule the record and replay process of VMs. Meanwhile, we employ a Hybrid RnR approach to reduce the performance penalty and storage costs caused by recording network events. Moreover, we implement ClusterRR on QEMU/KVM platform and utilize a network packets retransmission framework to guarantee the reproducibility of VMC replay. Last, we conduct a series of experiments to measure its efficiency and overhead. The results show that ClusterRR would efficiently replay the execution of the whole VMC at instruction-level granularity.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3516807.3516820">EOP: efficient operator partition for deep learning inference over edge servers</a></h3><ul class="DLauthors"><li class="nameList">Yuanjia Xu</li><li class="nameList">Heng Wu</li><li class="nameList">Wenbo Zhang</li><li class="nameList Last">Yi Hu</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Recently, Deep Learning (DL) models have demonstrated great success for its attractive ability of high accuracy used in artificial intelligence Internet of Things applications. A common deployment solution is to run such DL inference tasks on edge servers. In a DL inference, each operator takes tensors as input and run in a tensor virtual machine, which isolates resource usage among operators. Nevertheless, existing edge-based DL inference approaches can not efficiently use heterogeneous resources (e.g., CPU and low-end GPU) on edge servers and result in sub-optimal DL inference performance, since they can only partition operators in a DL inference with equal or fixed ratios. It is still a big challenge to support partition optimizations over edge servers for a wide range of DL models, such as Convolution Neural Network (CNN), Recurrent Neural Network (RNN) and Transformers. </p> <p>In this paper, we present EOP, an Efficient Operator Partition approach to optimize DL inferences over edge servers, to address this challenge. Firstly, we carry out a large-scale performance evaluation on operators running on heterogeneous resources, and reveal that many operators do not follow similar performance variation when input tensors change. Secondly, we employ three categorized patterns to estimate the performance of operators, and then efficiently partition key operators and tune partition ratios. Finally, we implement EOP on TVM, and experiments over a typical edge server show that EOP improves the inference performance by up to 1.25−1.97× for various DL models compared to state-of-the-art approaches.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3516807.3516821">Enabling pipeline parallelism in heterogeneous managed runtime environments via batch processing</a></h3><ul class="DLauthors"><li class="nameList">Florin Blanaru</li><li class="nameList">Athanasios Stratikopoulos</li><li class="nameList">Juan Fumero</li><li class="nameList Last">Christos Kotselidis</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>During the last decade, managed runtime systems have been constantly evolving to become capable of exploiting underlying hardware accelerators, such as GPUs and FPGAs. Regardless of the programming language and their corresponding runtime systems, the majority of the work has been focusing on the compiler front trying to tackle the challenging task of how to enable just-in-time compilation and execution of arbitrary code segments on various accelerators. Besides this challenging task, another important aspect that defines both functional correctness and performance of managed runtime systems is that of automatic memory management. Although automatic memory management improves productivity by abstracting away memory allocation and maintenance, it hinders the capability of using specific memory regions, such as pinned memory, in order to perform data transfer times between the CPU and hardware accelerators. </p> <p> In this paper, we introduce and evaluate a series of memory optimizations specifically tailored for heterogeneous managed runtime systems. In particular, we propose: (i) transparent and automatic "parallel batch processing" for overlapping data transfers and computation between the host and hardware accelerators in order to enable pipeline parallelism, and (ii) "off-heap pinned memory" in combination with parallel batch processing in order to increase the performance of data transfers without posing any on-heap overheads. These two techniques have been implemented in the context of the state-of-the-art open-source TornadoVM and their combination can lead up to 2.5x end-to-end performance speedup against sequential batch processing.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3516807.3516822">Transparent and lightweight object placement for managed workloads atop hybrid memories</a></h3><ul class="DLauthors"><li class="nameList">Zhe Li</li><li class="nameList Last">Mingyu Wu</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Managed workloads show strong demand for large memory capacity, which can be satisfied by a hybrid memory sub-system composed of traditional DRAM and the emerging non-volatile memory (NVM) technology. Nevertheless, NVM devices are limited by deficiencies like write endurance and asymmetric bandwidth, which threatens managed applications’ performance and reliability. Prior work has proposed different object placement mechanisms to mitigate problems introduced by NVM, but they require domain-specific knowledge on applications or significant change on managed runtime. By analyzing the performance of representative data-intensive workloads atop NVM, this paper finds that reducing write operations is key for performance and wear-leveling. To this end, this paper proposes GCMove, a transparent and efficient object placement mechanism for hybrid memories. GCMove embraces a lightweight write barrier for write detection and relies on garbage collections (GC) to copy objects into different devices according to their write-related behaviors. Compared with prior work, GCMove does not require significant changes in heap layout and thus can be easily integrated with mainstream copy-based garbage collection. The evaluation on various managed workloads shows that GCMove can eliminate 99.8% of NVM write operations on average and improve the performance by up to 19.81× compared with the NVM-only version.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3516807.3516823">Capability Boehm: challenges and opportunities for garbage collection with capability hardware</a></h3><ul class="DLauthors"><li class="nameList">Dejice Jacob</li><li class="nameList Last">Jeremy Singer</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>The Boehm-Demers-Weiser Garbage Collector (BDWGC) is a widely used, production-quality memory management framework for C and C++ applications. In this work, we describe our experiences in adapting BDWGC for modern capability hardware, in particular the CHERI system, which provides guarantees about memory safety due to runtime enforcement of fine-grained pointer bounds and permissions. Although many libraries and applications have been ported to CHERI already, to the best of our knowledge this is the first analysis of the complexities of transferring a garbage collector to CHERI. We describe various challenges presented by the CHERI micro-architectural constraints, along with some significant opportunities for runtime optimization. Since we do not yet have access to capability hardware, we present a limited study of software event counts on emulated micro-benchmarks. This experience report should be helpful to other systems implementors as they attempt to support the ongoing CHERI initiative.</p>
+	</div></div>
+						
+					</div></div></body></html>

@@ -1093,3 +1093,7 @@
   event: PEPM
   year: 2022
   title: "Proceedings of the 2022 ACM SIGPLAN International Workshop on Partial Evaluation and Program Manipulation"
+-
+  event: VEE
+  year: 2022
+  title: "Proceedings of the 18th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments"
