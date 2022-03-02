@@ -132,6 +132,24 @@ CARES committee members may also attend other workshops and conferences sponsore
 
 ### SIGPLAN CARES Reports
 
+### 2021:
+
+This is the second annual report from the SIGPLAN CARES committee---a committee established to listen to and support folks in the programming languages community who experience or witness discrimination, harassment, or other violations of the ACM's code of conduct or ethics.
+
+**What CARES does.**  CARES is dedicated to providing completely confidential support to members of the programming language community.  We listen to members who come to us for advice or who just want to talk. If they would like advice on what kinds of actions they can take, we do our best to provide such advice.
+
+**Confidentiality.** When a person approaches a CARES member in confidence, that CARES member will not share any information about the situation with anyone else without that person's explicit permission, unless there is an imminent threat or danger of some kind.  Indeed, CARES members do not share the details of contacts made with other CARES members unless permitted.
+
+As a result, our annual reports are brief.  They do not contain details about the types of contacts that CARES members have made and they do not even contain specific numbers of contacts.  The reports are structured this way to protect the privacy of those that approach us.
+
+#### What happened in 2021
+
+In 2021, individual SIGPLAN CARES committee members were contacted confidentially by between 2 and 10 community members throughout the year.  Such contacts sometimes led to extended conversations.
+
+Members of the CARES committee represented CARES at five conferences in 2021, namely POPL 2021, PLDI 2021, ICFP 2021, SPLASH 2021 and ASPLOS 2021 (the latter in collaboration with SIGARCH/SIGMICRO CARES).  Attendance specifics are listed on the CARES website.   Due to the covid pandemic, aside from SPLASH 2021, these conferences were virtual.  SPLASH 2021 was a hybrid conference.  At virtual conferences, we typically hosted a pair of 30-minute CARES zoom sessions to advertise our presence and answer community questions.  During these virtual sessions, we also carried out community brainstorming exercises to think about how we could make our conferences more welcoming.  Attendance at such sessions varied, but was typically between 5-20 attendees, with the median closer to 5.  At SPLASH, we had virtual sessions as well as one CARES member attending in person.
+
+We have received open, public feedback from a number of members of the community expressing the fact that they appreciate the creation of the committee---they view it as a sign that the programming languages community takes community climate and our code of conduct seriously.  The fact the committee has received confidential contacts is also evidence that the community would like mechanisms to discuss matters of harassment, discrimination, or ethics in private.
+
 ### 2020:
 
 In SIGPLAN CARES first full year of operation, 2020, members of the CARES committee attended five conferences, including POPL 2020, PLDI 2020, ICFP 2020, OOPSLA 2020 and HPCA/PPOPP/CGO 2020 (in collaboaration with SIGARCH/SIGMICRO CARES).  At POPL 2020, we had conversations in-person in the lobby with interested community members to spread the word about our mission and service to the community.  The other conferences were virtual due to COVID-19.  At each virtual conference, we hosted a pair of 30-minute CARES zoom sessions to advertise our presence and answer community questions.  Attendance at such sessions varied, but was typically between 5-20 attendees, with the median closer to 5.  We also advertised our presence at the PLDI and ICFP program committee meetings.
