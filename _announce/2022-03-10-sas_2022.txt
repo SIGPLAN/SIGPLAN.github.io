@@ -1,0 +1,62 @@
+---
+title: "Call for Papers,  29th Static Analysis Symposium (SAS 2022)"
+timestamp: "3/10/2022 8:04:56"
+deadline: "5/4/2022"
+---
+--------------------------------------------------------------------------------
+
+                                   SAS 2022
+ 
+                        29th Static Analysis Symposium
+
+                 Auckland, New Zealand, December 5th-7th, 2022
+
+                   https://2022.splashcon.org/home/sas-2022
+
+--------------------------------------------------------------------------------
+
+The 28th Static Analysis Symposium, SAS 2022, will be co-located with SPLASH
+2022 in Auckland, New Zealand.
+
+Static Analysis is widely recognized as a fundamental tool for program
+verification, bug detection, compiler optimization, program understanding, and
+software maintenance. The series of Static Analysis Symposia has served as the
+primary venue for the presentation of theoretical, practical, and application
+advances in the area.
+
+IMPORTANT DATES
+
+- Full paper submission: Wednesday, May 4th, 2022 (Anywhere on Earth) 
+- Artifact submission: Wednesday, May 18th, 2022 (anywhere on earth) 
+- Notification: Friday, July 15th, 2022
+- Final version due: Friday, September 16th, 2022
+- Conference: Monday, December 5th, 2022 - Wednesday, December 7th, 2022
+
+PAPER SUBMISSION
+
+All paper submissions will be judged on the basis of significance, relevance,
+correctness, originality, and clarity. 
+Submission link: https://easychair.org/conferences/?conf=sas2022 
+We welcome regular papers as well as papers focusing on any of the following: 
+* Experience with static analysis tools, Industrial Reports, and Case Studies 
+* Tool papers 
+* Brief announcements of work in progress 
+* Well-motivated discussion of new questions or new areas. 
+We do not impose a page limit for submitted papers but we encourage brevity as
+reviewers have a limited time that they can spend on each paper. With the
+exception of experience papers, all other papers will follow a lightweight
+double-blind reviewing process.
+
+RADHIA COUSOT AWARD
+
+The program committee will select an accepted regular paper for the Radhia
+Cousot Young Researcher Best Paper Award in memory of Radhia Cousot and her
+fundamental contributions to static analysis, as well as being one of the main
+promoters and organizers of the SAS series of conferences.
+
+ARTIFACTS
+
+As in previous years, we encourage authors to submit a virtual machine image
+containing any artifacts and evaluations presented in the paper. Artifact
+submission is optional. Artifact evaluation will be concurrent with paper
+review.
