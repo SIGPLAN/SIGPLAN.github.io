@@ -1097,3 +1097,7 @@
   event: VEE
   year: 2022
   title: "Proceedings of the 18th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments"
+-
+  event: CC
+  year: 2022
+  title: "Proceedings of the 31st ACM SIGPLAN International Conference on Compiler Construction"
