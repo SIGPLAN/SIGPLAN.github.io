@@ -8,8 +8,9 @@ As the commercial production of software systems moves towards being a tradition
  
 {% include committee.liquid name="GPCE Steering Committee" %}
 
-**Web Pages of Previous Conferences**
+**Conference Web Pages**
 
+- [GPCE 2022](https://2022.splashcon.org/home/gpce-2022)
 - [GPCE 2021](https://conf.researchr.org/home/gpce-2021)
 - [GPCE 2020](https://conf.researchr.org/home/gpce-2020)
 - [GPCE 2019](https://conf.researchr.org/home/gpce-2019)
