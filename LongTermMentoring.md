@@ -14,23 +14,31 @@ and to access the perspectives of researchers from other institutions.
 
 In response to these needs, SIGPLAN-M matches mentors with mentees from different institutions
 for mentoring relationships that last at least a year.
-As of July, 2021, there are more than 380 mentees and 220 mentors participating in the program.
+As of April, 2022, there are more than 320 mentees and 220 mentors participating in the program.
 Here are some testimonials from mentees:
 
-> Having someone to talk to about my future has been one of the few good highlights of 2020.
-> It has made feel like there might be good things in the future, not just bad ones.
+> [SIGPLAN-M is] a career saver!
 
-> As a beginning grad student having limited interaction with my new department because of
-> COVID, the mentorship program gives me the outside perspective (beyond my research group)
-> that I would otherwise be missing.
+> [My mentor] is incredible AND the only person I talk to regularly who has an interest in the same topics that I do. Talking with [my mentor] gives me a sense of community that I hadn't had before.
+ 
+> [SIGPLAN-M] was life changing.
+
+> I wouldn't be able to obtain technical feedback for my work if SIGPLAN-M did not exist.
+ 
+> Just talking to [my mentor] is incredibly validating. [My mentor's] support means the world to me.
+ 
+> My mentor is amazing... Also, they made me think differently (in a positive way) about Academia and made me want to stay :).
+ 
+> I had no idea what I was doing before, but now I have a pretty good idea of what to work on and a better sense of if I'm doing the right things/enough for grad school applications.
+ 
+> I got help in all aspects - from research to getting through [a] graduate program.
 
 Check out our [Twitter](https://twitter.com/SigplanM) for the latest news!
 
-## Committee Members for 2021
+## Committee Members for 2022
 
 - **Operations Team**: [Reshabh Sharma](https://www.linkedin.com/in/reshabh/), [Kimaya Bedarkar](https://in.linkedin.com/in/kimaya-bedarkar-694933171), [Sabree Blackmon](https://www.linkedin.com/in/sabree-blackmon), [Yanze Li](https://liyz.pl/), [Ian Sweet](https://www.impredicative.org/), [Umang Mathur](http://umathur3.web.engr.illinois.edu/), [Heiko Becker](https://people.mpi-sws.org/~hbecker/)
 - **Advisory Board**: [Alexandra Silva](https://alexandrasilva.org/), [David Van Horn](https://www.cs.umd.edu/~dvanhorn/), [Dimitrios Vytiniotis](https://dimitriv.github.io/), [Sebastian Erdweg](https://www.pl.informatik.uni-mainz.de/), [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/), [Sukyoung Ryu](https://plrg.kaist.ac.kr/ryu)
-
 - **Chair**: [Talia Ringer](https://dependenttyp.es/)
 
 ## Getting Involved
