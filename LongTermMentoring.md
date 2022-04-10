@@ -69,3 +69,45 @@ Examples of urgent needs for mentoring include but are not limited to
 mental health struggles, advisor-advisee conflicts, ongoing job or graduate school applications, and abusive situations at work or in the community.
 If any of these apply, and if you are comfortable doing so, please feel free to contact us so that we match you in a timely fashion.
 
+## Thank You, Mentors!
+
+We really appreciate all of our mentors for the amazing work they do---and we want the world to know how much we appreciate it!
+Here is a list of some of our amazing mentors. If you are already a mentor for us, and you're welcome to being thanked publicly,
+please let us know and we'll happily add you to this list!
+
+We'd like to thank these amazing mentors:
+- Jonathan Aldrich
+- Stavros Aronis
+- Tom Ball
+- Sheng Chen
+- Alastair Donaldson
+- Sebastian Erdweg
+- Tobias Grosser
+- Jason Hemann
+- Kuen-Bang Hou (Favonia) 
+- Ralf Jung
+- Konstantinos Kallas
+- Raffi Khatchadourian
+- Kalyan Krishnamani
+- Shriram Krishnamurthi
+- Patrick Lam
+- John Leo
+- William Mansky
+- Andrey Mokhov
+- Joe Politz
+- Kia Rahmani
+- Norman Ramsey
+- Talia Ringer
+- Roopsha Samanta
+- Mike Samuel
+- Gus Smith
+- Caleb Stanford
+- Simon Thompson
+- Dimitris Vardoulakis
+- John Wickerson
+- James Wilcox
+- Li-yao Xia
+
+And we'd of course also like to thank everyone else who has served or currently serves as a mentor for SIGPLAN-M!
+
+Your service makes a huge difference in the careers and lives of our mentees. SIGPLAN is better off for having you.
