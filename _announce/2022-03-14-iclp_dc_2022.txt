@@ -1,0 +1,71 @@
+---
+title: "18th Doctoral Consortium (DC) on Logic Programming"
+timestamp: "3/14/2022 4:34:25"
+deadline: "4/22/2022"
+---
+***
+ICLP DC 2022 - 18th Doctoral Consortium (DC) on Logic Programming
+***
+
+The 18th Doctoral Consortium (DC) on Logic Programming provides students with the opportunity to present and discuss their research directions, and to obtain feedback from both peers and experts in the field. The preliminary website of the DC can be found at: https://sites.google.com/view/iclpdc2022/iclp-2022-doctoral-consortium
+
+The DC will take place during the 38th International Conference on Logic Programming (ICLP) https://software.imdea.org/Conferences/ICLP2022/ (July 31st-August 08th, 2022), Haifa, Israel. The best paper from the DC will be given the opportunity to make a presentation in a session of the main ICLP conference. 
+
+Important Dates 
+Paper submission: 22nd April, 2022
+Notification: 23td May, 2022
+Camera-ready copy: 30th May, 2022
+DC presentations: 2nd August, 2022 (tentative)
+
+DC students are highly recommended to attend the School on Logic Programming and Constraint Programming (https://sites.google.com/view/iclpdc2022/school-on-logic-programming).
+
+Audience
+
+The DC is designed for students currently enrolled in a Ph.D. program, though we are also open to exceptions (e.g., students currently in a Master's program and interested in doctoral studies). Students at any stage in their doctoral studies are encouraged to apply for participation in the DC. Applicants are expected to conduct research in areas related to logic and constraint programming; topics of interest include (but are not limited to):
+* Foundations: Semantics, Formalisms, Nonmonotonic reasoning, Knowledge representation.
+* Languages: Concurrency, Objects, Coordination, Mobility, Higher Order, Types, Modes, Assertions, Modules, Meta-programming, Logic-based domain-specific languages, Programming Techniques.
+* Declarative programming: Declarative program development, Analysis, Type and mode inference, Partial evaluation, Abstract interpretation, Transformation, Validation, Verification, Debugging, Profiling, Testing, Execution visualization.
+* Implementation: Virtual machines, Compilation, Memory management, Parallel/distributed execution, Constraint handling rules, Tabling, Foreign interfaces, User interfaces.
+* Related Paradigms and Synergies: Inductive and Co-inductive Logic Programming, Constraint Logic Programming, Answer Set Programming, Interaction with SAT, SMT and CSP solvers, Logic programming techniques for type inference and theorem proving, Argumentation, Probabilistic Logic Programming, Relations to object-oriented and Functional programming.
+* Applications: Databases, Big Data, Data integration and federation, Software engineering, Natural language processing, Web and Semantic Web, Agents, Artificial intelligence, Computational life sciences, Education, Cybersecurity, and Robotics.
+
+Submissions by students who have presented their work at previous ICLP DC editions are allowed, but should occur only if there are substantial changes or improvements to the student's work. The DC offers participants a convenient, more informal way to interact with established researchers and fellow students, through presentations, question-answer sessions, panel discussions, and invited presentations. The Doctoral Consortium will also provide the possibility to reflect - through short activities, information sessions, and discussions - on the process and lessons of research and life in academia. Each participant will give a short, critiqued, research presentation.
+
+Discussants
+Renowned experts and researchers in the fields of logic and constraint programming will join in evaluating submissions and will participate in the DC, providing valuable feedback to DC participants. 
+
+Goals
+* To provide doctoral students working in the fields of logic and constraint programming with a friendly and open forum to present their research ideas, listen to ongoing work from peer students, and receive constructive feedback.
+* To provide students with relevant information about important issues for doctoral candidates and future academics.
+* To develop a supportive community of scholars and a spirit of collaborative research.
+* To support a new generation of researchers with information and advice on academic, research, industrial, and non-traditional career paths.
+
+
+Submission Details
+
+Submissions of the research summary must be made in EPTCS format (http://info.eptcs.org/) and submitted via EasyChair. All papers must be written in English and should be between 5 and 10 pages. For all accepted DC papers, the student is required to attend the DC program and give a presentation during the DC. A program committee consisting of experts in various areas related to logic and constraint programming reviews the submissions. Papers are reviewed by at least two, and usually three, referees.
+The submission package should consist of the research summary in the format mentioned above, a short vita or cover letter of the applicant, a letter of recommendation from applicant's faculty advisor, and one paragraph statement outlining how the school will benefit the applicant. All material is to be submitted electronically, in PDF format on the Easychair system.
+Easychair link: https://easychair.org/conferences/?conf=iclpdc2022
+
+Research summary (make sure to include your complete name, address, and affiliation):
+The body of your research summary (no more than 10 pages, but 5 is fine as well!) should provide a clear overview of your research, its potential impact, and its current status. You are encouraged to include the following sections:
+* Introduction and problem description
+* Background and overview of the existing literature
+* Goal of the research
+* Current status of the research
+* Preliminary results accomplished (if any)
+* Open issues and expected achievements
+* Bibliographical references 
+
+Review Criteria
+
+The DC program committee will select participants based on their anticipated contribution to the DC objectives. Participants typically have settled on their thesis directions and have their research proposal accepted by their thesis committee. Students will be selected based on clarity and completeness of their submission package, relevance of their research area w.r.t. the focus of ICLP, stage of research, recommendation letter, and evidence of promise towards a successful career in research and academia, such as published papers or technical reports.
+
+Registration
+
+Registration is part of the ICLP 2022 registration.
+We aim to find sponsoring to cover the registration cost of students participating in the DC, but this still has to be confirmed.
+
+Program co-chairs:
+Veronica Dahl <veronica_dahl@sfu.ca>, Simon Fraser University
+Carmine Dodaro <carmine.dodaro@unical.it>, University of Calabria

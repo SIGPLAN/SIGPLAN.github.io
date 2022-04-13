@@ -1,0 +1,73 @@
+---
+title: "ECOOP'22 Doctoral Symposium - Call for Contributions"
+timestamp: "3/14/2022 5:13:56"
+deadline: "4/22/2022"
+---
+=========
+Deadline: April 22, 2022 (AoE)
+=========
+
+The ECOOP Doctoral Symposium
+
+  https://2022.ecoop.org/track/ecoop-2022-doctoral-symposium
+
+provides a forum for PhD students at any stage in their research to get detailed feedback and advice. We welcome contributions in all aspects of practice and theory of programming languages, systems and environments, ranging the whole spectrum from novel ideas to evaluation of existing solutions.
+
+There are distinct submission instructions for junior and senior PhD students:
+
+	• Junior students may not have a full research plan but shall have an identified research topic; they will present their ideas and any progress to date, and will receive feedback to help them determine further steps in research.
+	• Senior students are expected to give an outline of their thesis research and will receive feedback to help them successfully complete their thesis and defense/viva.
+
+As participants of the Doctoral Symposium are not expected to submit technical papers, but rather thesis proposals, participants can submit to both the main conferences/workshops and the Doctoral Symposium. There will be no proceedings for the Doctoral Symposium. Submissions will be carried out electronically via HotCRP (link TBD). To submit, upload a pdf and specify the submission category (junior or senior). Please, also specify the PC members that have conflicts of interest with your submission.
+
+Students of accepted submissions are expected to attend the entire doctoral symposium.
+
+=========
+Junior PhD Students
+=========
+
+Submit a 4–8 page research proposal in the Dagstuhl LIPIcs format with:
+
+	• a problem description;
+	• a detailed sketch of a proposed approach;
+	• related work.
+
+It is not necessary to present concrete results. Instead, try to inform the reader that you have a (well-motivated) problem and present a possible solution. Attempt to provide a clear roadmap detailing future research efforts.
+
+
+=========
+Senior PhD Students
+=========
+
+The experience for senior students is meant to mimic a “mini-defense” interview. Aside from the actual feedback, this helps the student gain familiarity with the style and mechanics of such an interview (advisors of student presenters will not be allowed in).
+
+The students should be able to present:
+
+	• the importance of the problem;
+	• a clear research proposal;
+	• some preliminary work;
+	• an evaluation plan.
+
+Please submit a 6–10 page thesis proposal in the Dagstuhl LIPIcs format with the following:
+
+	• Problem Description
+		• What is the problem?
+		• What is the significance of this problem?
+		• Why can the current state of the art not solve this problem?
+	• Goal Statement
+		• What is the goal of your research?
+		• What artifacts (tools, theories, methods) will be produced,
+		• How do they address the stated problem?
+	• Method
+		• What experiments, prototypes, or studies need to be produced/executed?
+		• What is the validation strategy? How will it show the goal was reached?
+
+This isn’t a technical paper, don’t focus on technical details, but rather on the research method.
+
+=========
+Deadline: April 22, 2022 (AoE)
+=========
+
+Carolin Brandt
+Publicity Co-Chair for ECOOP 2022
+

@@ -1,0 +1,140 @@
+---
+title: "ISSRE 2022  - Call for Papers - Research"
+timestamp: "3/31/2022 4:15:29"
+deadline: "5/13/2022"
+---
+
+*********************************************************************
+Call for Papers - Research Track
+ 
+The 33rd IEEE International Symposium on Software Reliability Engineering (ISSRE 2022)
+October 24 - 27, 2022 - Charlotte, NC, USA. 
+https://issre.net/
+
+*********************************************************************
+Important dates
+* Abstract submission deadline: May 13th, 2022
+* Papers submission deadline: May 20th, 2022
+* Author rebuttal period: July 7th-9th, 2022
+* Notification to authors: July 29th, 2022
+* Camera ready papers: August 26th, 2022
+
+*********************************************************************
+The annual International Symposium on Software Reliability Engineering (ISSRE) is focused on innovative techniques and tools for assessing, predicting, and improving the reliability, safety, and security of software products. ISSRE aims to emphasize scientific methods, industrial relevance, rigorous empirical validation and shared value of practical tools and experiences as paper selection criteria. 
+The 33rd edition of ISSRE will follow a hybrid conference model with the in-person event taking place in Charlotte, NC, USA.
+
+The research track at ISSRE 2022 is soliciting original, unpublished research papers in three categories: (1) full research regular (REG) papers, (2) practical experience reports (PER), and (3) tools and artifact (TAR) papers. Papers will be assessed with criteria appropriate to each category. ISSRE looks for original research exploring new scientific ideas, contributing new evidence to established research directions, or reflecting on practical experience.
+
+REG papers should describe a novel contribution to reliability of software systems. Novelty should be argued via concrete evidence and appropriate positioning within the state of the art. REG papers are also expected to clearly explain validation process and its limitations.
+
+PER papers should provide an in-depth exposition of practical experiences and empirical studies collected through the application of known research tools and methods related to ISSRE topics. PER papers should identify and discuss relevant lessons learned. The goal of PER papers is to offer evidence of reduced risk for future tech transition of the same or similar technology. ISSRE strongly encourages PER papers that combine the efforts of researchers and industry practitioners. Note that negative results are specifically encouraged, for example, discussing where or why current research cannot be applied in an industrially relevant context.
+
+TAR papers should describe a new tool or artifact. Tool-focused TAR papers must present either a new tool, a new tool component, or novel extensions to an existing tool. Tool-focused TAR papers should include a description of: 1) the theoretical foundations, 2) the design and implementation concerns, such as software architecture and core data structures, 3) experience with realistic case studies and observed advantages over similar tools. Making the tool publicly available is strongly encouraged to allow continued evaluation process. Artifact-focused TAR papers should cover 1) a working copy of a software and 2) experimental data sets.
+
+*********************************************************************
+Paper Categories
+
+Submissions can be made in one of the following.
+
+* REG papers: 10 pages + 2 pages (for references only).
+* PER papers: 10 pages + 2 pages (for references only).
+* TAR papers: 6 - 10 pages (including references).
+
+Papers that exceed the number of pages for that submission category will be rejected without review.
+
+Authors of PER and TAR papers should indicate the paper category (i.e., PER or TAR) in the title, in parenthesis.
+
+*********************************************************************
+Topics of Interest
+
+Topics of interest include development, analysis methods and models throughout the software development lifecycle, and are not limited to:
+
+* Primary dependability attributes (i.e., security, safety, maintainability) impacting software reliability
+* Secondary dependability attributes (i.e., survivability, resilience, robustness) impacting software reliability
+* Reliability threats, i.e. faults (defects, bugs, etc.), errors, failures
+* Reliability means (fault prevention, fault removal, fault tolerance, fault forecasting)
+* Metrics, measurements and threat estimation for reliability prediction and the interplay with safety/security
+* Reliability of software services
+* Reliability of open source software
+* Reliability of Software as a Service (SaaS)
+* Reliability of software dealing with Big Data
+* Reliability of model-based and auto-generated software
+* Reliability of software for systems based on artificial intelligence
+* Reliability of software within specific types of systems (e.g., autonomous and adaptive, green and sustainable, mobile systems)
+* Reliability of software within specific technological spaces (e.g., Internet of Things, Cloud, Semantic Web/Web 3.0, Virtualization, Blockchain)
+* Normative/regulatory/ethical spaces pertaining to software reliability
+* Societal aspects of software reliability
+
+*********************************************************************
+Anonymizing Rules
+
+Authors shall anonymize their paper. As an author, you should not identify yourself in the paper either explicitly or by implication (e.g., through the references or acknowledgments). However, only non-destructive anonymization is required. For example, the names of case study subjects may be left un-anonymized, if the subject name is important for a reviewer to be able to evaluate the work. Precisely, the authors can provide the name of a case study subject software and the name of the entity developing it (private company or foundations); in case some of the authors are employees of the developing entity, the authors should not explicitly mention their affiliation but clarify potential threats to validity (e.g., familiarity with the subject), as appropriate.
+
+Additionally, please take the following steps when preparing your submission:
+
+* Remove authors' names and affiliations from the title page
+* Remove acknowledgement of identifying names and funding sources
+* Use care in naming your files. Source file names, e.g., Joe.Smith.dvi, are often embedded in the final output as readily accessible comments.
+* Use care in referring to related work, particularly your own. Do not omit references to provide anonymity, as this leaves the reviewer unable to grasp the context. Instead, a good solution is to reference your past work in the third person, just as you would any other piece of related work.
+* If you have a concurrent submission, reference it as follows: "Closely related work describes a microkernel implementation [Anonymous 2014]." with the corresponding citation: "[Anonymous 2014] Under submission. Details omitted for double-blind reviewing."
+* If you cite anonymous work, you must also send the deanonymized reference(s) to the PC chairs in a separate email.
+
+Submissions that do not conform to the above submission deadline, anonymization and formatting guidelines (e.g., are too long, use fonts or line spacing smaller than what is indicated) or are unoriginal, previously published, or under submission to multiple venues, will be disregarded.
+
+*********************************************************************
+Formatting Rules
+
+Submissions must adhere to the IEEE Computer Society Format Guidelines as implemented by the following LaTeX/Word templates:
+
+* LaTex Package (use bare_conf.tex) (ZIP)
+* Word Template (DOCX)
+
+Each paper must be submitted as a single Portable Document Format (PDF) file. All fonts must be embedded. We also strongly recommend you print the file and review it for integrity (fonts, symbols, equations etc.) before submitting it. A defective printing of your paper can undermine its chance of success. Please take a note of the following:
+
+* Submissions should be anonymous.
+* The first page must include the title of the paper and a maximum 200-word abstract.
+* Please take into account that the abstract will be used by the reviewers to bid on papers. Thus, describe the paper goals clearly, as well as the means used to achieve them.
+* The first page is not a separate page, but is a part of the paper (i.e., it has technical material in it). Thus, this page counts toward the total page budget for the paper.
+* The page limit includes everything except references.
+* Pages should be numbered.
+* The use of color for figures and graphs is allowed only if the paper turns out to be readable if printed in grayscale
+* Symbols and labels used in the graphs should be readable as printed, without requiring on-screen magnification.
+* Try to limit the file size to less than 15 MB
+Authors of accepted papers will be expected to supply electronic versions of their papers and are encouraged to supply source code and raw data to help others replicate and better understand their results.
+
+*********************************************************************
+Paper Submission
+
+Papers are submitted via Easychair.
+
+The program committee will perform double-blind reviewing of all submissions, with limited use of outside referees. Papers will be held in full confidence during the reviewing process, but papers accompanied by nondisclosure agreement forms are not acceptable and will be rejected without review.
+
+Authors must anonymize their submissions (see above for guidelines). Submissions violating the formatting and anonymization rules will be rejected without review. There will be no extensions for reformatting.
+
+*********************************************************************
+Review Process and Author Response
+
+After the papers have been reviewed, but prior to the Program Committee/Board meeting, the reviews will be made available to the authors to respond to any factual errors in the reviews. Rebuttals do not include additional information about the research or a submission of an updated or revised paper. Author responses will be made available to all PC/PB members before the paper is discussed for selection in the PC/PB meeting. The submissions website will contain full author-response guidelines.
+
+*********************************************************************
+Best Research Paper Award
+
+ISSRE is pleased to announce the Best Research Paper Award, attributed every year to the best accepted paper in the Research Track. Conference Proceedings The conference proceedings will be published by IEEE Computer Society Conference Publishing Services (CPS). Papers presented at the conference will also be submitted for inclusion into the IEEE Xplore and to all of the A&I (abstracting and indexing) partners (such as the EI Compendex).
+
+*********************************************************************
+Research PC Chairs
+
+Fabrizio Pastore (fabrizio.pastore@uni.lu)
+ University of Luxembourg
+ Luxembourg
+
+Lingming Zhang (lingming@illinois.edu)
+ University of Illinois at Urbana-Champaign
+ Illinois (USA)
+*********************************************************************
+Steering Committee: https://issre2022.github.io/committee_SC.html
+
+Organizing Committee: https://issre2022.github.io/committee_OC.html
+
+Research Program Committee: https://issre2022.github.io/committee_research-PC.html
+*********************************************************************

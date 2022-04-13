@@ -1,0 +1,71 @@
+---
+title: "Call for Participation, PLDI 2022"
+timestamp: "3/21/2022 14:33:05"
+start: "6/13/2022"
+end: "6/17/2022"
+---
+Call for Participation for PLDI 2022, the ACM SIGPLAN Conference on Programming Language Design and Implementation!
+------------------------------------------------------------------------
+
+PLDI is a premier forum for programming language research, broadly construed, including design, implementation, theory, applications, and performance. 
+Come join us, online or in San Diego, to discuss the latest programming languages research!
+
+* Website : https://pldi22.sigplan.org/attending/Registration
+* Time    : 13th--17th June 2022
+* Place   : Catamaran Resort in San Diego, California, USA + online option, comprising live streamed talks + Q&A and social interaction and events on “gather.town”.
+
+### Important dates:
+* Early Registration: On or before 16 May, 2022 
+
+### Important rates:
+Registration rates (in-person)      On or before 16 May, 2022    After 16 May, 2022
+Regular (ACM or SIGPLAN member)    	$650 	                     $750
+Regular (non-member) 	            $725                         $825
+Student (ACM or SIGPLAN member)     $350                         $450
+Student (non-member)                $425                         $500
+		
+Registration rates (virtual)        On or before 16 May, 2022    After 16 May, 2022
+Regular (ACM or SIGPLAN member)     $150                         $175
+Regular (non-member)                $175                         $200
+Student (ACM or SIGPLAN member)     $100                         $125
+Student (non-member)                $125                         $150 
+
+### Co-located events:
+
+Co-located Conferences:
+- ISMM, ACM SIGPLAN International Symposium on Memory Management
+  https://conf.researchr.org/home/ismm-2022
+- LCTES, ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems
+  https://pldi22.sigplan.org/track/LCTES-2022
+
+Workshops:
+- ARRAY, the Array Programming Workshop
+  https://pldi22.sigplan.org/home/ARRAY-2022
+- EGRAPH, the E-Graph Research, Applications, Practices, and Human-factors Symposium
+  https://pldi22.sigplan.org/home/egraphs-2022
+- INFER, the Infer Practitioners Workshop
+  https://pldi22.sigplan.org/home/infer-2022
+- MAPS, the Annual Symposium on Machine Programming
+  https://pldi22.sigplan.org/home/maps-2022
+- PLMW, the Programming Language Mentoring Workshop
+  https://pldi22.sigplan.org/track/PLMW-PLDI-2022
+- SOAP, the ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis
+  https://pldi22.sigplan.org/home/SOAP-2022
+
+Tutorials:
+https://pldi22.sigplan.org/track/pldi-2022-tutorials
+
+- Build your own optimizer with egg!
+  Max Willsey, Zachary Tatlock
+- Discover[i]: Taming Unbounded Distributed Systems with Modular, Bounded Reasoning
+  Roopsha Samanta, Nouraldin Jaber, Christopher Wagner
+- Filling the gap between the JavaScript language specification and tools using the JISET family
+  Sukyoung Ryu, Jihyeok Park, Seungmin An
+- Making C Programs Safer with Checked C
+  Jie Zhou, Michael Hicks, John Criswell
+- Reasoning About and Discovering LLVM Optimizations
+  John Regehr, Nuno P. Lopes
+
+Student Research Competition!
+https://pldi22.sigplan.org/track/pldi-2022-SRC
+

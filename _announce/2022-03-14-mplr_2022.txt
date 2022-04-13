@@ -1,0 +1,179 @@
+---
+title: "Call for Papers, 19th International Conference on Managed Programming Languages & Runtimes"
+timestamp: "3/14/2022 20:06:11"
+deadline: "5/20/2022"
+---
+========================================================================
+                            Call for Papers
+
+               MPLR 2022 - 19th International Conference
+              on Managed Programming Languages & Runtimes
+
+            September 14-16, 2022 in Brussels, Belgium
+
+                  https://soft.vub.ac.be/mplr22/
+                          Follow us @MPLR_Conf
+========================================================================
+
+The 19th International Conference on Managed Programming Languages &
+Runtimes (MPLR, formerly ManLang) is a premier forum for presenting and
+discussing novel results in all aspects of managed programming languages
+and runtime systems, which serve as building blocks for some of the most
+important computing systems in use, ranging from small-scale (embedded and
+real-time systems) to large-scale (cloud-computing and big-data platforms)
+and anything in between (desktop, mobile, IoT, and wearable applications).
+
+This year, MPLR will be held at the campus of the Vrije Universiteit Brussel(VUB) in Brussels, Belgium. 
+
+For up-to-date details, check out the conference website:
+https://soft.vub.ac.be/mplr22/ and follow us on Twitter @MPLR_Conf.
+
+The areas of interest include but are not limited to:
+
+ * Languages and Compilers
+    -  Managed languages (e.g., Java, Scala, JavaScript, Python, Ruby, C#, F#, Clojure, Groovy, Kotlin, R, Smalltalk, Racket, Rust, Go, Lua, MATLAB, Raku, Pony, …)
+    - Portable intermediate representations like Webassembly  
+    - Domain-specific languages
+    - Language design
+    - Compilers and interpreters
+    - Type systems and program logics
+    - Language interoperability
+    - Parallelism, distribution, and concurrency
+
+ * Virtual Machines
+    - Managed runtime systems (e.g., JVM, Android Runtime (ART), V8, LLVM, .NET CLR, RPython, GraalVM, etc.)
+    - VM design and optimization
+    - VMs for mobile and embedded devices
+    - VMs for real-time applications
+    - Memory management and garbage collection
+    - Hardware/software co-design
+
+ * Techniques, Tools, and Applications
+    - Static and dynamic program analysis
+    - Testing and debugging
+    - Refactoring
+    - Program understanding
+    - Program synthesis
+    - Security and privacy
+    - Performance analysis and monitoring
+    - Compiler and program verification
+
+
+Submission Categories
+---------------------
+
+MPLR accepts four types of submissions:
+
+ 1. Regular research papers
+      describing novel contributions involving managed language platforms.
+      Research papers will be evaluated based on their relevance,
+      novelty, technical rigor, and contribution to the state-of-the-art.
+
+   Format: up to 12 pages, excluding bibliography and appendix
+
+ 2. Work-in-progress research papers
+      describing promising new ideas, with perhaps less maturity than full
+      Papers.
+      Work-in-progress papers will be  evaluated with an emphasis on novelty
+      and the potential of the new ideas instead of technical rigor and
+      experimental results.
+
+   Format: up to 6 pages, excluding bibliography and appendix
+
+ 3. Industry and tool papers
+      presenting technical challenges and solutions for managed language
+      platforms in the context of deployed applications and systems.
+      Industry and tool papers will be evaluated on their relevance,
+      usefulness, and results. Suitability for demonstration and availability
+      will also be considered for tool papers.
+
+    Format: up to 6 pages, excluding bibliography and appendix
+
+ 4. Posters and Demonstrations
+      They will be evaluated similarly to work-in-progress papers.
+      Posters can accompany any submission as a way to provide additional
+      demonstration and discussion opportunities.
+  
+    Format: poster and 1-page abstract
+
+Accepted submissions will be published in the ACM Digital Library, except if the authors prefer not to be included.
+
+MPLR 2022 submissions must conform to the ACM Policy on Prior Publication
+and Simultaneous Submissions and to the SIGPLAN Republication Policy.
+See http://www.sigplan.org/Resources/Policies/Republication/
+
+
+Author Instructions
+-------------------
+
+Submissions need to use the ACM `acmart` format with the `sigconf` style:
+https://www.acm.org/publications/proceedings-template
+
+If you are using LaTeX, submissions need to use the 'acmart' document class with the ‘sigplan’ option. For reviewing, please include page numbers in your submission
+using the LaTeX command `\settopmatter{printfolios=true}`.
+The standard settings of a 10 point font size.
+
+All submissions need to be in PDF format.
+
+MPLR uses single-blind reviewing, i.e., author names are generally included in submissions.
+
+Please also ensure that your submission is legible when printed on a black
+and white printer. In particular, please check that colors remain distinct
+and font sizes are legible.
+
+Submission Site: https://mplr22.hotcrp.com
+
+Important Dates
+---------------
+
+Paper Submission Deadline:   	20 May 2022
+Paper Author Notification:    23 June 2022
+Camera Ready for Papers:      15 July 2022
+Posters and Demos Submission Deadline: 	12 August 2022
+Posters and Demos Notification:		19 August 2022
+Conference Dates:     		14-16 September 2022
+
+
+All deadlines are 23:59 AoE (UTC-12h).
+
+AUTHORS TAKE NOTE: The official publication date is the date the
+proceedings are made available in the ACM Digital Library. This date
+may be up to two weeks prior to the first day of your conference.
+The official publication date affects the deadline for any patent
+filings related to published work.
+
+
+
+Organization
+------------
+
+Program Committee:
+
+  Ana Milanova, Rensselaer Polytechnic Institute, USA
+  Camil Demetrescu, Sapienza University of Rome, Italy
+  Christian Wimmer, Oracle CA, USA
+  Christophe Scholliers, University of Gent, Belgium
+  Doug Lea, State University of New York (SUNY) Oswego, USA
+  Erik Ernst, Google, Denmark
+  Guillermo Polito, INRIA, France
+  Jan Vitek, Northeastern University, Czech Technical University
+  Kostis Sagonas,	 Uppsala University, Sweden 
+  Lubomir Bulej, Charles University, Czech Republic
+  Matthew Parkinson, Microsoft Research Cambridge, UK
+  Matteo Marra, Vrije Universiteit Brussel, Belgium
+  Michael Homer,  Victoria University of Wellington, New Zealand
+  Sophie Kaleba, University of Kent, UK
+  Tony Hosking, Australian National University, Canberra, Australia
+  Yu David Liu, State University of New York (SUNY) Binghampton, USA
+  
+
+General Chair:
+  Elisa Gonzalez Boix, Vrije Universiteit Brussel, Belgium
+
+Program Chair:
+  Tobias Wrigstad, Uppsala University, Sweden
+
+
+
+If you are unsure whether a particular topic falls within the scope of MPRL’22 or if you have any other questions, please do not hesitate to contact the Program Chair (tobias dot wrigstad at it dot uu dot se).
+
