@@ -1101,3 +1101,11 @@
   event: CC
   year: 2022
   title: "Proceedings of the 31st ACM SIGPLAN International Conference on Compiler Construction"
+-
+  event: PMAM
+  year: 2022
+  title: "Proceedings of the Thirteenth International Workshop on Programming Models and Applications for Multicores and Manycores"
+-
+  event: BID
+  year: 2022
+  title: "Benchmarking in the Data Center: Expanding to the Cloud"

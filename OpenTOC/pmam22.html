@@ -1,0 +1,117 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>PMAM '22: Proceedings of the Thirteenth International Workshop on Programming Models and Applications for Multicores and Manycores</title></head><body><div id="DLtoc"><div id="DLheader"><h1>PMAM '22: Proceedings of the Thirteenth International Workshop on Programming Models and Applications for Multicores and Manycores</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3528425"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent">
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3528425.3529099">Improving performance of SYCL applications on CPU architectures using LLVM-directed compilation flow</a></h3><ul class="DLauthors"><li class="nameList">Pietro Ghiglio</li><li class="nameList">Uwe Dolinsky</li><li class="nameList">Mehdi Goli</li><li class="nameList Last">Kumudha Narasimhan</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>The wide adoption of SYCL as an open-standard API for accelerating C++ software in domains such as HPC, Automotive, Artificial Intelligence, Machine Learning, and other areas necessitates efficient compiler and runtime support for a growing number of different platforms. Existing SYCL implementations provide support for various devices like CPUs, GPUs, DSPs, FPGAs, etc, typically via OpenCL or CUDA backends. While accelerators have increased the performance of user applications significantly, employing CPU devices for further performance improvement is beneficial due to the significant presence of CPUs in existing data-centers. % and other setups.</p> <p>SYCL applications on CPUs, currently go through an OpenCL backend. Though an OpenCL backend is valuable in supporting accelerators, it may introduce additional overhead for CPUs since the host and device are the same. Overheads like a run-time compilation of the kernel, transferring of input/output memory to/from the OpenCL device, invoking the OpenCL kernel, may not be necessary when running on the CPU. While some of these overheads (such as data transfer) can be avoided by modifying the application, it can introduce disparity in the SYCL application's ability to achieve performance portability on other devices.</p> <p>In this paper, we propose an alternate approach to running SYCL applications on CPUs. We bypass OpenCL and use a CPU-directed compilation flow, along with the integration of Whole Function Vectorization to generate optimized host and device code together in the same translation unit. We compare the performance of our approach - the CPU-directed compilation flow, with an OpenCL backend for existing SYCL-based applications, with no code modification. We run experiments across various CPU architectures to attest to the efficacy of our proposed approach.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3528425.3529100">Exploring source-to-source compiler transformation of OpenMP SIMD constructs for Intel AVX and Arm SVE vector architectures</a></h3><ul class="DLauthors"><li class="nameList">Patrick Flynn</li><li class="nameList">Xinyao Yi</li><li class="nameList Last">Yonghong Yan</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Over the past decade, SIMD (single instruction multiple data) or vector architectures have made significant advances, now existing across a wide range of devices from commodity CPUs to high performance computing (HPC) cores. Intel's AVX (Advanced Vector Extensions) architecture has been one of the most popular SIMD extensions to commodity and HPC CPUs from Intel. Over the past few years, Arm has made significant inroads with its new SVE (Scalable Vector Extension), used in the supercomputer of the top place on the Top500 list. As SIMD has become more advanced and more important, it has become equally important the compilers support these architecture extensions. In this paper, we present our approach of source-to-source compiler transformation of explicit vectorization constructs using the OpenMP SIMD directive. We present the design of a unified IR that is easily translated to AVX and SVE vector architectures. Finally, we conduct performance evaluations on Intel AVX and Arm SVE to demonstrate how this method of vectorization can bridge the gap between auto- and manual- vectorization.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3528425.3529104">A performance-oriented comparative study of the Chapel high-productivity language to conventional programming environments</a></h3><ul class="DLauthors"><li class="nameList">Guillaume Helbecque</li><li class="nameList">Jan Gmys</li><li class="nameList">Tiago Carneiro</li><li class="nameList">Nouredine Melab</li><li class="nameList Last">Pascal Bouvry</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>The increase in complexity, diversity and scale of high performance computing environments, as well as the increasing sophistication of parallel applications and algorithms call for productivity-aware programming languages for high-performance computing. Among them, the Chapel programming language stands out as one of the more successful approaches based on the Partitioned Global Address Space programming model. Although Chapel is designed for productive parallel computing at scale, the question of its competitiveness with well-established conventional parallel programming environments arises. To this end, this work compares the performance of Chapel-based fractal generation on shared- and distributed-memory platforms with corresponding OpenMP and MPI+X implementations. The parallel computation of the Mandelbrot set is chosen as a test-case for its high degree of parallelism and its irregular workload. Experiments are performed on a cluster composed of 192 cores using the French national testbed Grid'5000. Chapel as well as its default tasking layer demonstrate high performance in shared-memory context, while Chapel competes with hybrid MPI+OpenMP in distributed-memory environment.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3528425.3529105">Beyond worst-case analysis: observed low depth for a P-complete problem</a></h3><ul class="DLauthors"><li class="nameList Last">Uzi Vishkin</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>The performance of a simple parallel algorithm for 3CNF Horn SAT is observed. The algorithm requires linear work. The algorithm also exhibits low parallel time (“depth”) for central Horn SAT formulae benchmarks. The work optimality of the algorithm, its observed low depth, P-completeness of the problem and algorithm-specific modeling put together demonstrate a way for going beyond worst-case for parallel algorithms. The questioning of the near exclusivity of the worst-case analysis mode in typical algorithms courses has received considerable attention recently for a broad range of algorithms. The current paper suggests a new line of questioning, which is unique to parallel algorithms.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3528425.3529103">Modeling optimization of stencil computations via domain-level properties</a></h3><ul class="DLauthors"><li class="nameList">Brandon Nesterenko</li><li class="nameList">Qing Yi</li><li class="nameList">Pei-Hung Lin</li><li class="nameList">Chunhua Liao</li><li class="nameList Last">Brandon Runnels</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Stencil computations are widely used in the scientific simulation domain, and their performance is critical to the overall efficiency of many large-scale numerical applications. Many optimization techniques, most of them varying strategies of tiling and parallelization, exist to systematically enhance the efficiency of stencil computations. However, the effectiveness of these optimizations vary significantly depending on the wide range of properties demonstrated by the different stencils. This paper studies several well-known optimization strategies for stencils and presents a new approach to effectively guide the composition of these optimizations, by modeling their interactions with four domain-level properties of stencils: spatial dimensionality, temporal order, order of accuracy, and directional dependence. When using our prediction model to guide optimizations for five real-world stencil applications, we were able to identify optimization strategies that outperformed two highly optimized stencil libraries by an average of 2.4x.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3528425.3529101">Efficient data race detection of async-finish programs using vector clocks</a></h3><ul class="DLauthors"><li class="nameList">Shivam Kumar</li><li class="nameList">Anupam Agrawal</li><li class="nameList Last">Swarnendu Biswas</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Existing data race detectors for task-based programs incur significant run time and space overheads. The overheads arise because of frequent lookups in fine-grained tree data structures to check whether two accesses can happen in parallel. This work shows how to efficiently apply vector clocks for dynamic race detection of async-finish programs with locks.</p> <p>Our proposed technique, FastRacer, builds on the FastTrack algorithm with per-task and per-variable optimizations to reduce the size of vector clocks. FastRacer exploits the structured parallelism of async-finish programs to use a coarse-grained encoding of the dynamic task inheritance relations to limit the metadata in the presence of many concurrent readers. Our evaluation shows that FastRacer improves time and space overheads over FastTrack and is competitive with the state-of-the-art race detectors for async-finish programs.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3528425.3529102">Integrating a global load balancer to an APGAS distributed collections library</a></h3><ul class="DLauthors"><li class="nameList">Patrick Finnerty</li><li class="nameList">Tomio Kamada</li><li class="nameList Last">Chikara Ohta</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>In this paper, we introduce the global load balancer integrated into our distributed collections library for the APGAS for Java programming model. Inspired by the lifeline-based Global Load Balancer scheme, our load balancer makes it possible for programmers to perform actions on the objects recorded into a distributed collection while allowing the library to relocate entries between hosts if load imbalances occur. The programming model we adopt introduces minimal impact on the legibility of programs, with the regions of the program where entries of a distributed collection may be relocated clearly identified. Internally, we implement a hybrid scheme which balances the load both between the threads on a host and between the hosts participating in the computation. This allows for multiple concurrent computations on multiple collections with individual termination detection. We evaluate the performance of our integrated Global Load Balancer and its ability to handle various situations on a many-core supercomputer.</p>
+	</div></div>
+						
+					</div></div></body></html>
