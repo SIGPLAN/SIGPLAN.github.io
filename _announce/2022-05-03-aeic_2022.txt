@@ -1,0 +1,243 @@
+---
+title: "Ada-Europe Int.Conf. Reliable Software Technologies, AEiC 2022"
+timestamp: "5/3/2022 16:03:55"
+start: "6/14/2022"
+end: "6/17/2022"
+---
+-----------------------------------------------------------------------
+
+                         Call for Participation
+
+                        *** PROGRAM SUMMARY ***
+
+              26th Ada-Europe International Conference on
+               Reliable Software Technologies (AEiC 2022)
+
+                    14-17 June 2022, Ghent, Belgium
+
+                   www.ada-europe.org/conference2022
+
+                        Organized by Ada-Europe
+            in cooperation with ACM SIGAda, SIGPLAN, SIGBED,
+        the Ada Resource Association (ARA), and Ghent University
+
+                  #AEiC2022 #AdaEurope #AdaProgramming
+
+                    *** Online registration open ***
+           *** Highly recommended to book your hotel ASAP ***
+            *** Early registration discount until May 20 ***
+
+-----------------------------------------------------------------------
+
+*** General Information
+
+The 26th Ada-Europe International Conference on Reliable Software
+Technologies (AEiC 2022) returns to Belgium, after 2001 in Leuven,
+to take place in Ghent, in the week of 14-17 June, in dual mode,
+with a solid core of in-presence activities accompanied by digital
+support for remote participation.
+
+The conference program includes two core days with keynote
+talks, peer-reviewed academic papers, industrial presentations,
+work-in-progress presentations and posters, and vendor presentations.
+The conference program is bracketed by one day of tutorials, and one
+day with three satellite events.  There will be time for networking
+during breaks as well as various social events around historic,
+cultural, scenic, culinary, and beer brewing highlights of Ghent.
+
+AEiC 2022 is the latest in a series of annual international conferences
+started in the early 80's, under the auspices of Ada-Europe, the
+international organization that promotes knowledge and use of Ada and
+Reliable Software in general, into academic education and research,
+and industrial practice.
+
+The Ada-Europe series of conferences has over the years become
+a leading international forum for providers, practitioners and
+researchers in reliable software technologies.  These events
+highlight the increased relevance of Ada in general and in safety-
+and security-critical systems in particular, and provide a unique
+opportunity for interaction and collaboration between academics and
+industrial practitioners.
+
+The 2022 edition of the conference continues a number of important
+innovations started at the last in-person conference in 2019:
+- lower registration fee for conference, unified for all participants;
+- further reduced fee for all authors;
+- lower registration fee for all tutorials;
+- journal-based open-access publication model for peer-reviewed papers;
+- more compact program with two core days (Wednesday & Thursday);
+- tutorials on Tuesday, followed by welcome event for all participants;
+- several satellite events on Friday.
+
+*** Overview of the Week
+
+- Tue 14: four half-day tutorials, welcome reception
+- Wed 15 & Thu 16: core program, social events on each day
+- Fri 17: two full-day workshops and Birds-of-a-Feather meeting
+
+Extensive information on AEiC 2022 is on the conference web site,
+such as an overview of the program, the list of accepted papers and
+presentations, and descriptions of workshops, tutorials, keynote
+presentations, and social events.  Also check the conference site
+for registration, accommodation and travel information.  The Advance
+Program brochure is available there as well.
+
+*** Venue
+
+The conference will take place in the heart of the city of Ghent,
+Belgium, capital of the East Flanders province, a half-hour train ride
+north-west of Brussels and the international airport.  Ghent is rich
+in history, culture and higher-education, with a top-100 university
+founded in 1817.
+
+*** Invited Speakers
+
+On each of the two main conference days, an invited talk will be
+delivered to address topics of relevance in the conference scope,
+with time for questions and answers.
+
+- On Thu June 16, a keynote talk by Cristina (Crista) Lopes, School
+  of Computer Sciences, University of California at Irvine, USA,
+  who will present her study on "The Curious Case of Code Duplication
+  in Github".
+
+- On Wed Jun 15, a spotlight talk (remote) by Anita Carleton,
+  Software Engineering Institute, Carnegie Mellon University, USA,
+  about "Envisioning the Future of Software Engineering".
+
+*** Conference Core Composition
+
+The core conference program features five distinct types of
+technical presentations, with different duration, all followed by
+discussion time: keynote and spotlight talks, journal-track talks,
+industrial-track talks, short work-in-progress-track talks, vendor
+talks.
+
+All papers presented in the journal track, the industrial track and
+the work-in-progress track have undergone peer review.  Presentations
+are combined into by-theme and not by-track sessions, in order that
+authors and participants alike enjoy all flavors of the program in
+a mixed as opposed to segregated combination.
+
+Papers and Presentations:
+- 2 invited talks,
+- 7 sessions on Uses of Ada, Real-Time Systems 1, Development
+  Challenges, Advanced Systems, Special-Purpose Systems, Verification
+  Challenges, Real-Time Systems 2
+- 9 journal-track talks
+- 9 industrial talks
+- 12 work-in-progress presentations
+- 2 vendor talks in core program
+- submissions and accepted contributions from around the world
+
+Networking Area:
+- features project posters, reserved vendor tables, and general
+  networking options
+- 2 companies already committed to be there: AdaCore, Vector Software
+
+*** Tutorials
+
+Four three-hour tutorials are offered on Tuesday 14th:
+
+- "Moving up to Ada 2022",
+  by S. Tucker Taft, AdaCore, USA
+
+- "Numerics for the non-numerical analyst",
+  by Jean-Pierre Rosen, Adalog, France
+
+- "The ALiRe Package Manager",
+  by Fabien Chouteau, France, and Alejandro Mosteo, Spain
+
+- "The HAC Ada Compiler",
+  by Gautier de Montmollin, Switzerland
+
+*** Satellite Events
+
+Two full-day workshops and a half-day "Bird-of-a-Feather" meeting
+are held on Friday 17th:
+
+- 7th International Workshop on "Challenges and New Approaches for
+  Dependable and Cyber-Physical System Engineering" (DeCPS 2022)
+
+- International Workshop "AADL Unveiled by its Practitioners (ADEPT)"
+
+- Bird-of-a-feather Meeting: "Future of ASIS and Vendor Independent
+  Tools" (free of charge)
+
+*** Social Program
+
+To celebrate the return to an in-person event, the conference features
+a rich social program.
+
+- each day: coffee breaks and lunches offer ample time for interaction
+  and networking with participants and vendors
+
+- Tuesday early evening: Welcome Aperitif with beer tasting in the
+  "Il Trovatore" lounge, a restored medieval cellar
+
+- Wednesday evening: private visit to the Gothic-style St Bavo's
+  Cathedral and its artistic treasures including the world-famous
+  Lam Gods altarpiece; followed by Conference Banquet in the Abt,
+  the only brasserie from the famous Orval Trappist beer brewery
+
+- Thursday evening: Boat Tour in canals that encircle the medieval
+  center of Ghent, followed by Conference Dinner at the Carlos Quinto
+  restaurant, a short walk across the heart of town from the boat pier
+
+The Cathedral visit is limited to 70 persons, in registration order:
+don't delay!  The Thursday events are an elective part of the program.
+
+*** Further Information
+
+Registration:
+- online registration is open at
+  https://registration.ada-europe.org/index.html
+- early registration discount until Monday May 20, 2022
+- payment possible by credit card or bank transfer
+- special low fee for authors
+- discount for Ada-Europe, ACM SIGAda, SIGBED and SIGPLAN members
+- extra discount for students
+- registration includes coffee breaks and lunches
+- full conference registration includes Thu and Wed social events
+- elective social events on Thursday
+- tutorial fees substantially reduced
+- low workshop fees, free Birds-of-a-Feather meeting
+- see registration page for all details
+
+Promotion:
+- recommended Twitter hashtags: #AEiC2022 #AdaEurope #AdaProgramming
+- Advance Program brochure online at
+  http://www.ada-europe.org/conference2022/AP-AEiC-2022.pdf
+
+AEiC 2022 Sponsors:
+- AdaCore: https://www.adacore.com/
+- Vector: https://www.vector.com/at/en/
+
+The conference is supported and sponsored by
+- Ada-Europe: http://www.ada-europe.org/
+
+and organized in cooperation with
+- ACM SIGAda: http://www.sigada.org/
+- ACM SIGBED: https://sigbed.org/
+- ACM SIGPLAN: http://www.sigplan.org/
+- ARA: https://www.adaic.org/community/
+- Ghent University: https://www.ugent.be/en/
+
+Please make sure you book accommodation as soon as possible.
+
+For more info and latest updates see the conference web site at
+http://www.ada-europe.org/conference2022.
+
+We look forward to seeing you in Ghent in June 2022!
+
+-----------------------------------------------------------------------
+
+Our apologies if you receive multiple copies of this announcement.
+Please circulate widely.
+
+Dirk Craeynest, AEiC 2022 Publicity Chair
+Dirk.Craeynest@cs.kuleuven.be
+
+* 26th Ada-Europe Int.Conf. Reliable Software Technologies (AEiC 2022)
+* June 14-17, 2022, Ghent, Belgium * www.ada-europe.org/conference2022
+

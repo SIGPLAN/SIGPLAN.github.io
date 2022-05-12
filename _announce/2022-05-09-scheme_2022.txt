@@ -1,0 +1,69 @@
+---
+title: "[CFP] Scheme and Functional Programming Workshop 2022"
+timestamp: "5/9/2022 0:24:03"
+deadline: "7/22/2022"
+---
+The 2022 Scheme and Functional Programming Workshop is calling for submissions.
+
+We invite high-quality papers and talk proposals about novel research results, lessons learned from practical experience in an industrial or educational setting, and even new insights on old ideas.  We welcome and encourage submissions that apply to any dynamic functional language, especially those that can be considered a Scheme: from strict subsets of RnRS to other "Scheme" implementations, to Racket, to Lisp dialects including Clojure, Emacs Lisp, Common Lisp, to functional languages with continuations and/or macros (or extended to have them) such as Dylan, ECMAScript, Hop, Lua, Scala, Rust, etc.  The elegance of the paper and the relevance of its topic to the interests of Schemers will matter more than the surface syntax of the examples used.
+
+* Topics
+
+Topics of interest include (but are not limited to):
+
+- Interaction: program-development environments, debugging, testing, refactoring
+- Implementation: interpreters, compilers, tools, garbage collectors, benchmarks
+- Extension: macros, hygiene, domain-specific languages, reflection, and how such extension affects interaction
+- Expression: control, modularity, ad hoc and parametric polymorphism, types, aspects, ownership models, concurrency, distribution, parallelism, non-determinism, probabilism, and other programming paradigms
+- Integration: build tools, deployment, interoperation with other languages and systems
+- Formal semantics: theory, analyses and transformations, partial evaluation
+- Human factors: past, present and future history, evolution and sociology of the language Scheme, its standard and its dialects
+- Education: approaches, experiences, curricula
+- Applications: industrial uses of Scheme
+- Scheme pearls: elegant, instructive uses of Scheme
+
+* Dates
+
+- Submission deadline is 2022-07-22.
+- Authors will be notified by 2022-08-15.
+- Camera-ready versions are due 2022-09-02.
+- Workshop will be held in Ljubljana, Slovenia on 2022-09-16.
+
+All deadlines are 23:59 UTC-12, anywhere on Earth.
+
+* Submission Information
+
+We encourage all kinds of submissions, including full papers, experience reports, and lightning talks.  Papers and experience reports are expected to be 10–24 pages in length using the single-column SIGPLAN acmart style.  (For reference, this is about 5–12 pages of the older SIGPLAN 2-column 9pt style.)  Abstracts submitted for lightning talks should be limited to 192 words.
+
+Authors of each accepted submission are invited to attend and be available for the presentation of that paper at the conference.  The schedule for presentations will be determined and shared with authors after the full program has been selected.
+
+The size limits above exclude references and any optional appendices.  There are no size limits on appendices, but the papers should stand without the need to read them, and reviewers are not required to read them.
+
+Authors are encouraged to publish any code associated to their papers under an open source license, so that reviewers may try the code and verify the claims.
+
+Proceedings will be uploaded to https://arXiv.org/.
+
+Publication of a paper at this workshop is not intended to replace conference or journal publication, and does not preclude re-publication of a more complete or finished version of the paper at some later conference or in a journal.
+
+Please submit papers through the workshop's HotCRP site: https://scheme2022.hotcrp.com/.
+
+* Lightweight double-blind reviewing
+
+Scheme 2022 will use lightweight double-blind reviewing.  Submitted papers must omit author names and institutions and reference the authors’ own related work in the third person (e.g., not “we build on our previous work…” but rather “we build on the work of…”).
+
+The purpose is to help the reviewers come to an initial judgment about the paper without bias, not to make it impossible for them to discover the authors if they were to try.  Nothing should be done in the name of anonymity that weakens the submission or makes the job of reviewing the paper more difficult (e.g., important background references should not be omitted or anonymized).
+
+* Formatting Information
+
+Full papers and experience reports should use the SIGPLAN acmsmall option to acmart.  We recommend using the anonymous and review options to acmart when submitting a paper; these options hide the author names and enable line numbers for easy reference in review.  LaTeX and Microsoft Word templates for this format are available through SIGPLAN: https://www.sigplan.org/Resources/Author/.
+
+Lightning talks can be submitted as either a text file or a PDF file.
+
+* International Conference on Functional Programming
+
+The Scheme Workshop 2022 is being held as part of this year's International Conference on Functional Programming.  Here is the ICFP site: https://icfp22.sigplan.org/home/scheme-2022 for the workshop.
+
+Sincerely,
+
+Andy Keep, General Co-chair
+Arthur A. Gleckler, General Co-chair
