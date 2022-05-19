@@ -1,0 +1,112 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>GPGPU '22: Proceedings of the 14th Workshop on General Purpose Processing Using GPU</title></head><body><div id="DLtoc"><div id="DLheader"><h1>GPGPU '22: Proceedings of the 14th Workshop on General Purpose Processing Using GPU</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3530390"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent">
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3530390.3532726">Near LLC versus near main memory processing</a></h3><ul class="DLauthors"><li class="nameList">Hossein Bitalebi</li><li class="nameList">Vahid Geraeinejad</li><li class="nameList Last">Masoumeh Ebrahimi</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Emerging advanced applications, such as deep learning and graph processing, with enormous processing demand and massive memory requests call for a comprehensive processing system or advanced solutions to address these requirements. Near data processing is one of the promising structures targeting this goal. However, most recent studies have focused on processing instructions near the main memory data banks while ignoring the benefits of processing instructions near other memory hierarchy levels such as LLC. In this study, we investigate the near LLC processing structures, and compare it to the near main memory processing alternative, specifically in graphics processing units. We analyze these two structures on various applications in terms of performance and power. Results show a clear benefit of near LLC processing over near main memory processing in a class of applications. Further, we suggest an architecture, which could benefit from both near main memory and near LLC processing structures, but requiring the applications to be characterized in advance or at run time.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3530390.3532732">Accelerating data transfer between host and device using idle GPU</a></h3><ul class="DLauthors"><li class="nameList">Yuya Tatsugi</li><li class="nameList Last">Akira Nukada</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>When running single-GPU applications on multi-GPU compute nodes, the remaining GPU devices are kept idle. We propose a novel technology to accelerate these single-GPU applications using the idle GPU devices. The data transfers between host and device are performed not only by the first GPU but also by the second GPU as well as the alternative route with PCI-Express and NV-Link connected to it. Our performance evaluations show the proposed method enables about twice data transfer speed as native single GPU case for large data sizes.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3530390.3532733">Systematically extending a high-level code generator with support for tensor cores</a></h3><ul class="DLauthors"><li class="nameList">Lukas Siefke</li><li class="nameList">Bastian Köpcke</li><li class="nameList">Sergei Gorlatch</li><li class="nameList Last">Michel Steuwer</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>High-level code generators like Halide, Lift, and RISE make a compelling proposition: write programs in a simple high-level language and get high-performing GPU code "for free". They achieve this feat by restricting the input language to a specific domain (such as image and array processing in Halide) or to a fixed set of flexible parallel patterns (as Lift and RISE do). Implementing high-level code generators that produce high-performance code is challenging, specifically as the target hardware constantly evolves.</p> <p>In this paper, we discuss how we systematically extend the RISE high-level code generator with support for tensor cores, a specialized hardware feature of recent Nvidia GPUs. We highlight the design of RISE that makes it easily extensible by following a systematic bottom-up approach, that <em>first</em>, exposes the imperative tensor core API to the code generator, <em>then</em>, raises the abstractions to an internal low-level functional representation, that, <em>finally</em>, is targeted by a rewrite process that starts from a high-level functional program.</p> <p>Our experimental evaluation shows that RISE with support for tensor cores generates code of competitive performance to manually optimized CUDA code, which is only up to 36%, but on average only 10%, slower than Nvidia's highly optimized cuBLAS library, and clearly outperforms any code that does not exploit tensor cores.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3530390.3532734">Compiler-assisted scheduling for multi-instance GPUs</a></h3><ul class="DLauthors"><li class="nameList">Chris Porter</li><li class="nameList">Chao Chen</li><li class="nameList Last">Santosh Pande</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>NVIDIA's Multi-Instance GPU (MIG) feature allows users to partition a GPU's compute and memory into independent hardware instances. MIG guarantees full isolation among co-executing kernels on the device, which boosts security and prevents performance interference-related degradation. Despite the benefits of isolation, however, certain workloads do not necessarily need such guarantees, and in fact enforcing such isolation can negatively impact the throughput of a group of processes. In this work we aim to relax the isolation property for certain types of jobs, and to show how this can dramatically boost throughput across a mixed workload consisting of jobs that demand isolation and others that do not. The number of MIG partitions is hardware-limited but configurable, and state-of-the-art workload managers cannot safely take advantage of unused and wasted resources inside a given partition. We show how a compiler and runtime system working in tandem can be used to pack jobs into partitions when isolation is not necessary. Using this technique we improve overall utilization of the device while still reaping the benefits of MIG's isolation properties. Our experimental results on NVIDIA A30s with a throughput-oriented workload show an average of 1.45x throughput improvement and 2.93x increase in GPU memory utilization over the Slurm workload manager. The presented framework is fully automatic and requires no changes to user code. Based on these results, we believe our scheme is a practical and strong advancement over state-of-the-art techniques currently employed for MIG.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3530390.3532735">ScaleServe: a scalable multi-GPU machine learning inference system and benchmarking suite</a></h3><ul class="DLauthors"><li class="nameList">Ali Jahanshahi</li><li class="nameList">Marcus Chow</li><li class="nameList Last">Daniel Wong</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>We present, ScaleServe, a scalable multi-GPU machine learning inference system that (1) is built on an end-to-end open-sourced software stack, (2) is hardware vendor-agnostic, and (3) is designed with modular components to provide users with ease to modify and extend various configuration knobs. ScaleServe also provides detailed performance metrics from different layers of the inference server which allow designers to pinpoint bottlenecks.</p> <p>We demonstrate ScaleServe's serving scalability with several machine learning tasks including computer vision and natural language processing on an 8-GPU server. The performance results for ResNet152 shows that ScaleServe is able to scale well on a multi-GPU platform.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3530390.3532736">Understanding wafer-scale GPU performance using an architectural simulator</a></h3><ul class="DLauthors"><li class="nameList">Chris Thames</li><li class="nameList">Hang Yan</li><li class="nameList Last">Yifan Sun</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Wafer-Scale chips have the potential to break the die-size limitation and provide extreme performance scalability. Existing solutions have demonstrated the possibility of integrating multi-CPU and multi-GPU systems at a significantly larger scale on a wafer. This increased capability results in an increase in complexity in managing the memory and computing resources. To support the community studying wafer-scale systems, this paper develops an architectural simulator dedicated to modeling wafer-scale multi-device systems. Also, this work demonstrates an analysis of initial results from simulations on wafer-scale GPU systems, providing useful insight that can guide future system design.</p>
+	</div></div>
+						
+					</div></div></body></html>

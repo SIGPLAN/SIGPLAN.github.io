@@ -1113,3 +1113,7 @@
   event: BID
   year: 2022
   title: "Benchmarking in the Data Center: Expanding to the Cloud"
+-
+  event: GPGPU
+  year: 2022
+  title: "Proceedings of the 14th Workshop on General Purpose Processing using Graphics Processing Units"
