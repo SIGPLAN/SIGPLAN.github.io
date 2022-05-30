@@ -91,6 +91,7 @@ We'd like to thank these amazing mentors:
 - Raffi Khatchadourian
 - Kalyan Krishnamani
 - Shriram Krishnamurthi
+- Ismail Kuru
 - Patrick Lam
 - Leonidas Lampropoulos
 - Justin Lubin
