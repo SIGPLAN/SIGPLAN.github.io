@@ -80,6 +80,7 @@ We'd like to thank these amazing mentors:
 - Stavros Aronis
 - Tom Ball
 - Sheng Chen
+- Michael Coblenz
 - Alastair Donaldson
 - Sebastian Erdweg
 - Tobias Grosser
@@ -90,7 +91,10 @@ We'd like to thank these amazing mentors:
 - Raffi Khatchadourian
 - Kalyan Krishnamani
 - Shriram Krishnamurthi
+- Ismail Kuru
 - Patrick Lam
+- Leonidas Lampropoulos
+- Justin Lubin
 - John Leo
 - William Mansky
 - Andrey Mokhov
@@ -98,10 +102,12 @@ We'd like to thank these amazing mentors:
 - Kia Rahmani
 - Norman Ramsey
 - Talia Ringer
+- Sukyoung Ryu
 - Roopsha Samanta
 - Mike Samuel
 - Gus Smith
 - Caleb Stanford
+- Kathrin Stark
 - Simon Thompson
 - Dimitris Vardoulakis
 - John Wickerson
