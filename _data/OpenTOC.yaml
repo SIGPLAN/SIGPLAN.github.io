@@ -1117,3 +1117,7 @@
   event: GPGPU
   year: 2022
   title: "Proceedings of the 14th Workshop on General Purpose Processing using Graphics Processing Units"
+-
+  event: PLDI
+  year: 2022
+  title: "Proceedings of the 43rd ACM SIGPLAN International Conference on Programming Language Design and Implementation"
