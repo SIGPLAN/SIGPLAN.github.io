@@ -1121,3 +1121,7 @@
   event: PLDI
   year: 2022
   title: "Proceedings of the 43rd ACM SIGPLAN International Conference on Programming Language Design and Implementation"
+-
+  event: ExHET
+  year: 2022
+  title: "Proceedings of the 1st International Workshop on Extreme Heterogeneity Solutions"
