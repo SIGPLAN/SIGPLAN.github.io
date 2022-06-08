@@ -45,26 +45,6 @@ Policies:
 - Diversity Policy                                              <Resources/Policies/Diversity>
 - Code of Conduct Policy                                        <Resources/Policies/CodeOfConduct>
 
-SIGPLAN Sponsored Conferences:
-- Architectural Support for Programming Languages and Operating Systems (ASPLOS)
-                                                                <Conferences/ASPLOS>
-- International Symposium on Memory Management (ISMM)           <Conferences/ISMM>
-- Virtual Execution Environments (VEE)                          <Conferences/VEE>
-- Programming Language Design and Implementation (PLDI)         <Conferences/PLDI>
-- Principles of Programming Languages (POPL)                    <Conferences/POPL>
-- Object-oriented Programming, Systems, Languages, and Applications (OOPSLA)
-                                                                <Conferences/OOPSLA>
-- International Conference on Functional Programming (ICFP)     <Conferences/ICFP>
-- Languages, Compilers, and Tools for Embedded Systems (LCTES)  <Conferences/LCTES>
-- Principles and Practice of Parallel Programming (PPoPP)       <Conferences/PPOPP>
-- "Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH) <Conferences/SPLASH>"
-- Onward!                                                       <Conferences/Onward>
-- Dynamic Languages Symposium (DLS)                             <Conferences/DLS>
-- "Generative Programming: Concepts and Experiences (GPCE)      <Conferences/GPCE>"
-- Code Generation and Optimization (CGO)                        <http://www.cgo.org/>
-- Software Language Engineering (SLE)                           <http://www.sleconf.org/>
-- Programming Languages Mentoring Workshop                      <Conferences/PLMW>
-
 #
 # Is this used?
 #

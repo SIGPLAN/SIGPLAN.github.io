@@ -90,11 +90,17 @@
 
             {% endcase %}
 
-          {% endfor %}          
-          {% include links.liquid data=site.data.Links links="SIGPLAN Sponsored Conferences" %}
+          {% endfor %}
+
+          <h3>SIGPLAN Sponsored <a href="/Conferences/">Conferences</a></h3>
+          <ul>
+          {% for conf in site.data.Conferences %}
+              <li><a href="{{conf.link}}">{{conf.name}}</a></li>
+          {% endfor %}
+          </ul>
         </div>
       </div>
-    </div>  
+    </div>
 
     {% include footer.html %}
   </body>
