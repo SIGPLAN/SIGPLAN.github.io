@@ -1125,3 +1125,15 @@
   event: ExHET
   year: 2022
   title: "Proceedings of the 1st International Workshop on Extreme Heterogeneity Solutions"
+-
+  event: EGRAPHS
+  year: 2022
+  title: "Proceedings of the 1st ACM SIGPLAN International Symposium on E-Graph Research, Applications, Practices,  and Human-factors"
+-
+  event: SOAP
+  year: 2022
+  title: "Proceedings of the 11th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis"
+-
+  event: ISMM
+  year: 2022
+  title: "Proceedings of the 2022 ACM SIGPLAN International Symposium on Memory Management"

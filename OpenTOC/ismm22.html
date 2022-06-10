@@ -1,0 +1,102 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>ISMM 2022: Proceedings of the 2022 ACM SIGPLAN International Symposium on Memory Management</title></head><body><div id="DLtoc"><div id="DLheader"><h1>ISMM 2022: Proceedings of the 2022 ACM SIGPLAN International Symposium on Memory Management</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3520263"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3520263.3534650">Reconsidering OS memory optimizations in the presence of disaggregated memory</a></h3><ul class="DLauthors"><li class="nameList">Shai Bergman</li><li class="nameList">Priyank Faldu</li><li class="nameList">Boris Grot</li><li class="nameList">Lluís Vilanova</li><li class="nameList Last">Mark Silberstein</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Tiered memory systems introduce an additional memory level with higher-than-local-DRAM access latency and require sophisticated memory management mechanisms to achieve cost-efficiency and high performance. Recent works focus on byte-addressable tiered memory architectures which offer better performance than pure swap-based systems. We observe that adding disaggregation to a byte-addressable tiered memory architecture requires important design changes that deviate from the common techniques that target lower-latency non-volatile memory systems. Our comprehensive analysis of real workloads shows that the high access latency to disaggregated memory undermines the utility of well-established memory management optimizations Based on these insights, we develop HotBox – a disaggregated memory management subsystem for Linux that strives to maximize the local memory hit rate with low memory management overhead. HotBox introduces only minor changes to the Linux kernel while outperforming state-of-the-art systems on memory-intensive benchmarks by up to 2.25×.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3520263.3534651">MemSweeper: virtualizing cluster memory management for high memory utilization and isolation</a></h3><ul class="DLauthors"><li class="nameList">AmirHossein Seyri</li><li class="nameList">Abhisek Pan</li><li class="nameList Last">Balajee Vamanan</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Memory caches are critical components of modern web services that improve response times and reduce the load on backend databases. In multi-tenant clouds, several instances of caches compete for memory. The current state-of-the-art is to statically allocate memory for cache instances (e.g., based on cost-tier) but such allocation tends to be sub-optimal as memory demands of instances often vary with time and not known apriori. We propose MemSweeper, which dynamically manages memory between cache instances. MemSweeper uses a novel, score-based metric and an associated algorithm to identify cache instances whose working sets fit well within their allocated memory and thus can relinquish a portion of the memory without suffering appreciable loss in their hit rates. Using a combination of synthetic and production traces on a real implementation, we show that MemSweeper achieves 74% improvement (on average) in the miss rate of critical tenants without degrading the performance of other tenants.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3520263.3534652">Concurrent and parallel garbage collection for lightweight threads on multicore processors</a></h3><ul class="DLauthors"><li class="nameList">Katsuhiro Ueno</li><li class="nameList Last">Atsushi Ohori</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>This paper develops a concurrent and parallel garbage collection (GC) method that works with a lightweight thread library realizing the standard M:N threading model. The GC algorithm is organized as a set of procedures that are called from a user-level thread at various occasions and executed in the context of the OS-level threads owning the user-level thread. The procedures realize an on-the-fly collection that does not stop any thread. All OS-level threads cooperatively perform the collection in parallel. This construction achieves the same degree of parallelism as underlying lightweight thread scheduling. We have implemented the algorithm in a Standard ML compiler and have evaluated the performance with sequential and parallel benchmark programs. Our implementation shows good parallel scalability comparable to C programs directly using the lightweight threads library.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3520263.3534653">Replication-based object persistence by reachability</a></h3><ul class="DLauthors"><li class="nameList">Kotaro Matsumoto</li><li class="nameList">Tomoharu Ugawa</li><li class="nameList Last">Hideya Iwasaki</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>The emergence of non-volatile memory (NVM) presents opportunities for making in-memory data of application programs persistent at a small cost. An adequate abstraction is required for programming languages to be able to utilize NVM. Here, persistence by reachability is a suitable abstraction for managed languages. In this abstraction, all objects are volatile when they are created and become persistent later depending on their reachability from the predefined roots. The state-of-the-art in the implementations of persistence by reachability creates objects in DRAM and moves them to NVM when they become persistent. This implementation has two inefficiencies. One is the read barriers to get the current location of objects; the other is to read values of persistent objects from NVM, which is slower than DRAM. </p><p>This paper proposes a new algorithm to realize persistence by reachability. The proposed algorithm does not <em>move</em> objects to NVM to make them persistent. Rather, it creates <em>replicas</em> of the objects in NVM. After replication, the original copy in DRAM is kept synchronized with the replica. The program can obtain the contents of a persistent object by reading from DRAM without read barriers. We preliminarily implemented it in the HotSpot VM of OpenJDK and evaluated its overhead. The results showed that the overhead of making objects persistent was 2.7% on average. The overhead of writing to persistent objects varied from 0.4% to 335.5%, depending on write frequency. The overhead imposed on programs that do not make any object persistent was similar to the previous work.</p>
+	</div></div>
+							
+						</div></div></body></html>
