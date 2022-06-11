@@ -1,0 +1,135 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>MAPS 2022: Proceedings of the 6th ACM SIGPLAN International Symposium on Machine Programming</title></head><body><div id="DLtoc"><div id="DLheader"><h1>MAPS 2022: Proceedings of the 6th ACM SIGPLAN International Symposium on Machine Programming</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3520312"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3520312.3534862">A systematic evaluation of large language models of code</a></h3><ul class="DLauthors"><li class="nameList">Frank F. Xu</li><li class="nameList">Uri Alon</li><li class="nameList">Graham Neubig</li><li class="nameList Last">Vincent Josua Hellendoorn</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Large language models (LMs) of code have recently shown tremendous promise in completing code and synthesizing code from natural language descriptions. However, the current state-of-the-art code LMs (e.g., Codex) are not publicly available, leaving many questions about their model and data design decisions. We aim to fill in some of these blanks through a systematic evaluation of the largest existing models: Codex, GPT-J, GPT-Neo, GPT-NeoX-20B, and CodeParrot, across various programming languages. Although Codex itself is not open-source, we find that existing opensource models do achieve close results in some programming languages, although targeted mainly for natural language  
+modeling. We further identify an important missing piece in the form of a large open-source model trained exclusively on a multi-lingual corpus of code. We release a new model, PolyCoder, with 2.7B parameters based on the GPT-2 architecture, that was trained on 249GB of code across 12 programming  
+languages on a single machine. In the C programming language, PolyCoder outperforms all models including Codex. Our trained models are open-source and publicly available at https://github.com/VHellendoorn/Code-LMs, which enables future research and application in this area.  
+We have an online appendix at https://arxiv.org/abs/2202.13169.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3520312.3534863">A graph neural network-based performance model for deep learning applications</a></h3><ul class="DLauthors"><li class="nameList">Shikhar Singh</li><li class="nameList">James Hegarty</li><li class="nameList">Hugh Leather</li><li class="nameList Last">Benoit Steiner</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>The unprecedented proliferation of machine learning based software brings an ever-increasing need to optimize the implementation of such applications. State-of-the-art compilers for neural networks, such as Halide and TVM, incorporate a machine learning-based performance model to search the space of valid implementations of a given deep learning algorithm. For a given application, the model predicts the value of performance metrics such as the run time without executing the application on hardware. Such models speed up the compilation process by obviating the need to benchmark an enormous number of candidate implementations, referred to as schedules, on hardware. Existing performance models employ feed-forward networks, recurrent networks, or decision tree ensembles to estimate the performance of different implementations of a neural network. Graphs present a natural and intuitive way to model deep-learning networks where each node represents a computational stage or operation. Incorporating the inherent graph structure of these workloads in the performance model can enable a better representation and learning of inter-stage interactions. The accuracy of the performance model has direct implications on the efficiency of the search strategy, making it a crucial component of this class of deep-learning compilers. In this work, we develop a novel performance model that adopts a graph representation. In our model, each stage of computation represents a node characterized by features that capture the operations performed by the stage. The interaction between nodes is achieved using graph convolutions. Experimental evaluation shows a 7.75𝑥 and 12𝑥 reduction in prediction error compared to the existing Halide and TVM models, respectively.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3520312.3534864">Productivity assessment of neural code completion</a></h3><ul class="DLauthors"><li class="nameList">Albert Ziegler</li><li class="nameList">Eirini Kalliamvakou</li><li class="nameList">X. Alice Li</li><li class="nameList">Andrew Rice</li><li class="nameList">Devon Rifkin</li><li class="nameList">Shawn Simister</li><li class="nameList">Ganesh Sittampalam</li><li class="nameList Last">Edward Aftandilian</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Neural code synthesis has reached a point where snippet generation is accurate enough to be considered for integration into human software development workflows. Commercial products aim to increase programmers’ productivity, without being able to measure it directly. In this case study, we asked users of GitHub Copilot about its impact on their productivity, and sought to find a reflection of their perception in directly measurable user data. We find that the rate with which shown suggestions are accepted, rather than more specific metrics regarding the persistence of completions in the code over time, drives developers’ perception of productivity.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3520312.3534865">From perception to programs: regularize, overparameterize, and amortize</a></h3><ul class="DLauthors"><li class="nameList">Hao Tang</li><li class="nameList Last">Kevin Ellis</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Toward combining inductive reasoning with perception abilities, we develop techniques for neurosymbolic program synthesis where perceptual input is first parsed by neural nets into a low-dimensional interpretable representation, which is then processed by a synthesized program. We explore several techniques for relaxing the problem and jointly learning all modules end-to-end with gradient descent: multitask learning; amortized inference; overparameterization; and a differentiable strategy for penalizing lengthy programs. Collectedly this toolbox improves the stability of gradient-guided program search, and suggests ways of learning both how to perceive input as discrete abstractions, and how to symbolically process those abstractions as programs.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3520312.3534866">Predictive synthesis of API-centric code</a></h3><ul class="DLauthors"><li class="nameList">Daye Nam</li><li class="nameList">Baishakhi Ray</li><li class="nameList">Seohyun Kim</li><li class="nameList">Xianshan Qu</li><li class="nameList Last">Satish Chandra</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Today’s programmers, especially data science practitioners, make heavy use of data-processing libraries (APIs) such as PyTorch, Tensorflow, NumPy, and the like. Program synthesizers can provide significant coding assistance to this community of users; however program synthesis also can be slow due to enormous search spaces.  
+</p>
+<p>
+In this work, we examine ways in which machine learning can be used to accelerate enumerative program synthesis. We present a deep-learning-based model to predict the sequence of API functions that would be needed to go from a given input to a desired output, both being numeric vectors. Our work is based on two insights. First, it is possible to learn, based on a large number of input-output examples, to predict the likely API function needed in a given situation. Second, and importantly, it is also possible to learn to compose API functions into a sequence, given an input and the desired final output, without explicitly knowing the intermediate values.  
+</p>
+<p>
+We show that we can speed up an enumerative synthesizer by using predictions from our model variants. These speedups significantly outperform previous ways (e.g. DeepCoder) in which researchers have used ML models in enumerative synthesis.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3520312.3534867">ExeBench: an ML-scale dataset of executable C functions</a></h3><ul class="DLauthors"><li class="nameList">Jordi Armengol-Estapé</li><li class="nameList">Jackson Woodruff</li><li class="nameList">Alexander Brauckmann</li><li class="nameList">José Wesley de Souza Magalhães</li><li class="nameList Last">Michael F. P. O'Boyle</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Machine-learning promises to transform compilation and software engineering, yet is frequently limited by the scope of available datasets. In particular, there is a lack of runnable, real-world datasets required for a range of tasks ranging from neural program synthesis to machine learning-guided program optimization. We introduce a new dataset, ExeBench, which attempts to address this. It tackles two key issues with real-world code: references to external types and functions and scalable generation of IO examples. ExeBench is the first publicly available dataset that pairs real-world C code taken from GitHub with IO examples that allow these programs to be run. We develop a toolchain that scrapes GitHub, analyzes the code, and generates runnable snippets of code. We analyze our benchmark suite using several metrics, and show it is representative of real-world code. ExeBench contains 4.5M compilable and 700k executable C functions. This scale of executable, real functions will enable the next generation of machine learning-based programming tasks.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3520312.3534868">Automatically debugging AutoML pipelines using maro: ML automated remediation oracle</a></h3><ul class="DLauthors"><li class="nameList">Julian Dolby</li><li class="nameList">Jason Tsay</li><li class="nameList Last">Martin Hirzel</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Machine learning in practice often involves complex pipelines for data cleansing, feature engineering, preprocessing, and prediction. These pipelines are composed of operators, which have to be correctly connected and whose hyperparameters must be correctly configured. Unfortunately, it is quite common for certain combinations of datasets, operators, or hyperparameters to cause failures. Diagnosing and fixing those failures is tedious and error-prone and can seriously derail a data scientist's workflow. This paper describes an approach for automatically debugging an ML pipeline, explaining the failures, and producing a remediation. We implemented our approach, which builds on a combination of AutoML  
+and SMT, in a tool called Maro. Maro works seamlessly with the familiar data science ecosystem including Python, Jupyter notebooks, scikit-learn, and AutoML tools such as Hyperopt. We empirically evaluate our tool and find that for most cases, a single remediation automatically fixes errors, produces no additional faults, and does not significantly impact optimal accuracy nor time to convergence.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3520312.3534869">Syntax-guided program reduction for understanding neural code intelligence models</a></h3><ul class="DLauthors"><li class="nameList">Md Rafiqul Islam Rabin</li><li class="nameList">Aftab Hussain</li><li class="nameList Last">Mohammad Amin Alipour</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Neural code intelligence (CI) models are opaque black-boxes and offer little insight on the features they use in making predictions. This opacity may lead to distrust in their prediction and hamper their wider adoption in safety-critical applications. Recently, input program reduction techniques have been proposed to identify key features in the input programs to improve the transparency of CI models. However, this approach is syntax-unaware and does not consider the grammar of the programming language.  
+</p>
+<p>
+In this paper, we apply a syntax-guided program reduction technique that considers the grammar of the input programs during reduction. Our experiments on multiple models across different types of input programs show that the syntax-guided program reduction technique is faster and provides smaller sets of key tokens in reduced programs. We also show that the key tokens could be used in generating adversarial examples for up to 65% of the input programs.</p>
+	</div></div>
+							
+						</div></div></body></html>

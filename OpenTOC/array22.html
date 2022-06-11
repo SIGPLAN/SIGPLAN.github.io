@@ -1,0 +1,137 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>ARRAY 2022: Proceedings of the 8th ACM SIGPLAN International Workshop on Libraries, Languages and Compilers for Array Programming</title></head><body><div id="DLtoc"><div id="DLheader"><h1>ARRAY 2022: Proceedings of the 8th ACM SIGPLAN International Workshop on Libraries, Languages and Compilers for Array Programming</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3520306"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3520306.3534500">Parallel scan as a multidimensional array problem</a></h3><ul class="DLauthors"><li class="nameList">Artjoms Šinkarovs</li><li class="nameList Last">Sven-Bodo Scholz</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>For many algorithms, it is challenging to identify a suitable parallel version, as the design space is typically very large. In this paper we demonstrate how rank-polymorphic array languages can be used as a tool to explore such design spaces through concise high-level specifications. If input data can be organised into a multi-dimensional array, and the algorithm can be stated as a recursive traversal over sub-arrays, array languages offer a lot of expressive power. The reason for this is that array shapes can be used to guide recursive traversals. Conciseness of specifications comes from array reshapes that move the desired elements into canonical hyperplanes. </p><p>As a case study, we discuss several variants of implementing prefix sums (also known as scans) in SaC. We demonstrate how small code adjustments suffice to change the concurrency pattern exposed to the compiler. It turns out that variability that is typically achieved by generic inductive data types such as binary trees is a special case of what is offered by the array paradigm.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3520306.3534501">Distributed parallel computing with Futhark: a functional language to generate distributed parallel code</a></h3><ul class="DLauthors"><li class="nameList">Michaël El Kharroubi</li><li class="nameList">Baptiste Coudray</li><li class="nameList Last">Orestis Malaspinas</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>In this paper, we present two proofs-of-concept for distributed-memory  
+parallel approaches based on the Futhark functional programming  
+language. Futhark is an array-based language generating high-performance code for CPU  
+and GPU back-ends, leveraging shared-memory parallelization techniques. While  
+the code generated by Futhark is extremely efficient, it lacks the capability to  
+be distributed among several computing nodes, which is necessary in many engineering applications  
+(computational fluid mechanics, meteorology, etc.). To this aim, it is desirable  
+to add an MPI back-end to the Futhark compiler. In order to test the  
+feasibility of a new compiler back-end, we implemented a C library wrapping Futhark kernels and handling a  
+multi-block decomposition and communications. This library showed very  
+promising performance and speedup results in the case of stencil-based  
+algorithms. It thus allowed the initiation of the second part of our project:  
+the implementation of a complete compiler back-end for the Futhark language.  
+In this first attempt, we are using a naive memory model that has the  
+advantage of simplicity at the cost of low efficiency. We show that we  
+implemented most of the second-order array combinators of the language,  
+which are the abstractions responsible for the vast majority of its  
+parallelization capabilities, and we propose ways to go beyond  
+our naive memory model.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3520306.3534502">From functional to imperative: combining destination-passing style and views</a></h3><ul class="DLauthors"><li class="nameList">Zhitao Lin</li><li class="nameList Last">Christophe Dubach</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Programming in low-level imperative languages provides good performance but is error-prone.  
+On the other hand, functional programs are usually free from low-level errors but performance suffers from costly programming abstractions.  
+Compiling high-level functional programs into high-performance imperative still remains an open challenge.  
+</p>
+<p>
+This paper presents an approach to compiling a high-level array-based functional IR (Intermediate Representation) into high-performance imperative code.  
+It combines the existing work on DPS (Destination-Passing Style) with the Lift views system by extending the notion of view to destinations.  
+Destination views can be seen as lazy operations that work in reverse; the lazy operations affect how data is being produced into memory, rather than how data is being consumed.  
+</p>
+<p>
+This approach produces imperative code that existing techniques are unable to produce.  
+The code produced outperforms the existing DPS approach on real-world workloads when targeting CPU code.  
+The paper also demonstrates how destination views can be used to generate high-performance stencil code on GPUs (Graphics Processing Units), by encoding the 2.5D tiling optimization in a functional style.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3520306.3534503">Using q-learning to select the best among functionally equivalent implementations</a></h3><ul class="DLauthors"><li class="nameList">Meggie van den Oever</li><li class="nameList">Lauren E. Grimley</li><li class="nameList Last">Richard M. Veras</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>High performance code generation for computationally intensive kernels is a persistent challenge for developers. Given a target architecture and a specific operation, the developer must tune that operation to the lowest-level details of the architecture. This problem is exacerbated by the fact that different architectural targets necessitate different implementations, and even the slightest adjustment to the operation may require large changes in the implementation in order to achieve performance. For performance critical applications this generation is typically performed by hand. However, this level of programming is difficult in terms of the domain knowledge required, and yields coded implementations that increase that challenge of reasoning about the correctness of the problem. Automatic code generation would address these issues. At the very least, by automating the application of the various code transformations needed for performance, this should reduce the issue of correctness, as long as these transformations only lead to correct implementations in the search space. In this paper, we look at a subset of correct implementations of an operation, all valid static schedules of instructions of one particular mix of instructions. We then explore the use of Reinforcement Learning in order to search for the optimal implementation in this subset for the target operation. This work is the first step in automating the exploration of correct implementations using Reinforcement Learning for automatic code generation.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3520306.3534504">Combinatory logic and combinators in array languages</a></h3><ul class="DLauthors"><li class="nameList Last">Conor Hoekstra</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>The array language paradigm began in the 1960s when Ken Iverson created APL. After spending over 30 years working on APL, he moved on to his second array language J, a successor to APL which embeds a significant subset of combinatory logic in it. This paper will look at the existence of combinators in the modern array languages Dyalog APL, J and BQN and how the support for them differs between these languages. The paper will also discuss how combinators can be a powerful language feature as they exist in modern array languages.</p>
+	</div></div>
+							
+						</div></div></body></html>

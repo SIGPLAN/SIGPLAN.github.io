@@ -1137,3 +1137,15 @@
   event: ISMM
   year: 2022
   title: "Proceedings of the 2022 ACM SIGPLAN International Symposium on Memory Management"
+-
+  event: ARRAY
+  year: 2022
+  title: "Proceedings of the 8th ACM SIGPLAN International Workshop on Libraries, Languages and Compilers for Array Programming"
+-
+  event: LCTES
+  year: 2022
+  title: "Proceedings of the 23rd ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems"
+-
+  event: MAPS
+  year: 2022
+  title: "Proceedings of the 6th ACM SIGPLAN International Symposium on Machine Programming"

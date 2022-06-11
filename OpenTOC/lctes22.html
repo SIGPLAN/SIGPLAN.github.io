@@ -1,0 +1,177 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>LCTES 2022: Proceedings of the 23rd ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems</title></head><body><div id="DLtoc"><div id="DLheader"><h1>LCTES 2022: Proceedings of the 23rd ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3519941"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3519941.3535064">Co-mining: a processing-in-memory assisted framework for memory-intensive PoW acceleration</a></h3><ul class="DLauthors"><li class="nameList">Tianyu Wang</li><li class="nameList">Zhaoyan Shen</li><li class="nameList Last">Zili Shao</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Recently, HBM (High Bandwidth Memory) and PIM (Processing in Memory) integrated technology such as Samsung function-in-memory DRAM opens a new door for memory-intensive PoW acceleration by jointly exploiting GPU, PIM and HBM. In this paper, we for the first time propose a GPU/PIM Co-Mining framework to accelerate memory intensive PoW by fully exploiting HBM-PIM's bandwidth and coordinately scheduling mining tasks in both GPU and PIM. Specifically, we first design a linear programming model to intelligently guide the GPU/PIM task scheduling. An extended finite-state-machine model is designed for the GPU memory controller to switch PIM working mode (compute/memory mode) accordingly. Finally, considering the speed difference between intra-/inter-channel memory accesses, a hybrid memory access method is proposed to minimize inter-channel data movements. We evaluate Co-Mining based on Samsung's HBM2-based function-in-memory architecture. The experimental results show that it can achieve up to 38.5% hashrate improvement compared with the method by directly integrating PIM into PoW acceleration with GPU.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3519941.3535065">Implicit state machines</a></h3><ul class="DLauthors"><li class="nameList">Fengyun Liu</li><li class="nameList Last">Aleksandar Prokopec</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Finite-state machines (FSM) are a simple yet powerful abstraction widely used for modeling, programming and verifying real-time and reactive systems that control modern factories, power plants, transportation systems and medical equipment. </p><p>However, traditionally finite-state machines are either encoded indirectly in an <em>imperative</em> language, such as C and Verilog, or embedded as an <em>imperative</em> extension of a declarative language, such as Lustre. Given the widely accepted advantage of declarative programming, can we have a declarative design of finite-state machines to facilitate design, construction, and verification of embedded programs? </p><p>By sticking to the design principle of declarativeness, we show that a novel abstraction emerges, <em>implicit state machines</em>, which is declarative in nature and at the same time supports recursive composition. Given its simplicity and universality, we believe it may serve as a new foundation for programming embedded systems.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3519941.3535066">JAX based parallel inference for reactive probabilistic programming</a></h3><ul class="DLauthors"><li class="nameList">Guillaume Baudart</li><li class="nameList">Louis Mandel</li><li class="nameList Last">Reyyan Tekin</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>ProbZelus is a synchronous probabilistic language for the design of reactive probabilistic models in interaction with an environment. Reactive inference methods continuously learn distributions over the unobserved parameters of the model from statistical observations. Unfortunately, this inference problem is in general intractable. Monte Carlo inference techniques thus rely on many independent executions to compute accurate approximations. These methods are expensive but can be parallelized.  
+</p>
+<p>
+We propose to use JAX to parallelize ProbZelus reactive inference engine. JAX is a recent library to compile Python code which can then be executed on massively parallel architectures such as GPUs or TPUs.  
+</p>
+<p>
+In this paper, we describe a new reactive inference engine implemented in JAX and the new associated JAX backend for ProbZelus. We show on existing benchmarks that our new parallel implementation outperforms the original sequential implementation for a high number of particles.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3519941.3535067">TCPS: a task and cache-aware partitioned scheduler for hard real-time multi-core systems</a></h3><ul class="DLauthors"><li class="nameList">Yixian Shen</li><li class="nameList">Jun Xiao</li><li class="nameList Last">Andy D. Pimentel</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Shared caches in multi-core processors seriously complicate the timing verification of real-time software tasks due to the task interference occurring in the shared caches. Explicitly calculating the amount of cache interference among tasks and cache partitioning are two major approaches to enhance the schedulability performance in the context of multi-core processors with shared caches. The former approach suffers from pessimistic cache interference estimations that subsequently result in suboptimal schedulability performance, whereas the latter approach may increase the execution time of tasks due to a lower cache usage, also degrading the schedulability performance.  
+</p>
+<p>
+In this paper, we propose a heuristic partitioned scheduler, called TCPS, for real-time non-preemptive multi-core systems with partitioned caches. To achieve a high degree of schedulability, TCPS combines the benefits of partitioned scheduling, relieving the computing resources from contention, and cache partitioning, mitigating cache interference, in conjunction with exploiting task characteristics. A series of comprehensive experiments were performed to evaluate the schedulability performance of TCPS and compare it against a variety of global and partitioned scheduling approaches. Our results show that TCPS outperforms all of these scheduling techniques in terms of schedulability, and yields a more effective cache usage and more stable load balancing.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3519941.3535068">ISKEVA: in-SSD key-value database engine for video analytics applications</a></h3><ul class="DLauthors"><li class="nameList">Yi Zheng</li><li class="nameList">Joshua Fixelle</li><li class="nameList">Nagadastagiri Challapalle</li><li class="nameList">Pingyi Huo</li><li class="nameList">Zhaoyan Shen</li><li class="nameList">Zili Shao</li><li class="nameList">Mircea Stan</li><li class="nameList Last">Vijaykrishnan Narayanan</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Key-value databases are widely used to store the features or metadata generated from the neural network based video processing platforms. Due to the large volumes of video data, these databases use solid state drives (SSDs) as the primary data storage platform, and user query-based filtering, and retrieval operations on data incur large volume of data movement between the SSD and the host processor. In this paper, we present an in-SSD key-value database which uses the embedded CPU core, and DRAM memory on the SSD to support various queries with predicates and reduce the data movement between SSD and host processor significantly. We augment the SSD flash translation layer with key-value database functions and auxiliary data structures to support the user queries using the embedded core and DRAM memory on SSD. The proposed key-value store prototype on the Cosmos plus OpenSSD board reduces data movement between host processor and SSD by 14.57x, achieves an application-level speedup by 1.16x, and reduced energy consumption by 56% across different types of user queries.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3519941.3535069">Optimizing data reshaping operations in functional IRs for high-level synthesis</a></h3><ul class="DLauthors"><li class="nameList">Christof Schlaak</li><li class="nameList">Tzung-Han Juang</li><li class="nameList Last">Christophe Dubach</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>FPGAs (Field Programmable Gate Arrays) have become the substrate of choice to implement accelerators. They deliver high performance with low power consumption, while offering the flexibility of being re-programmable. But they are notoriously hard to program directly using HDLs (Hardware Description Languages). Traditional HLS (High-Level Synthesis) methods are addressing some of these issues but are far from being perfect. Programmers are still required to write hardware-specific code and existing HLS tools often produce sub-optimal designs.  
+</p>
+<p>
+Modern approaches based on multi-level functional IR (Intermediate Representation) such as Aetherling, have demonstrated the advantages of generating high performance designs in a predictable way. A functional IR makes optimizations via rewrite rules simple to express, and abstract away the hardware details. However, as we will see in this paper, functional approaches bring their own set of challenges to produce high performance hardware. In particular, data reshaping operations, such as transposition, introduce overheads that hurt performance or even prevent the generation of synthesizable hardware designs altogether.  
+</p>
+<p>
+This paper presents an approach with rewrite rules to solve this fundamental issue and produce efficient FPGA designs from functional IRs. Using rewrites, it is possible to generate high performance designs for matrix multiplication and 2D convolution. The paper also evaluates the performance impact of the optimizations and shows that without them, low performance designs are produced, or even worse, it is impossible to synthesize the designs at all.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3519941.3535070">Trace-and-brace (TAB): bespoke software countermeasures against soft errors</a></h3><ul class="DLauthors"><li class="nameList">Yousun Ko</li><li class="nameList">Alex Bradbury</li><li class="nameList">Bernd Burgstaller</li><li class="nameList Last">Robert Mullins</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Lower voltage levels and higher clock frequencies together with a tight hardware area budget make modern processors more susceptible to soft errors. Existing generic software countermeasures against soft errors are application-agnostic or applied uniformely to the application code, which results  
+in insufficient coverage of errors and excessive performance and code size overhead. In this paper, we observe that the degree and the types of vulnerabilities against soft errors vary by application and operational scenarios. We propose a software method, Trace-and-Brace (TAB), that diagnoses the  
+types and locations of vulnerabilities in software and allows accurate and precise application of countermeasures.  
+</p>
+<p>
+TAB consists of two phases. The trace phase performs exhaustive fault injection on program traces to diagnose vulnerable code regions and their vulnerability types (i.e., for control-flow, data-flow, and memory data corruption). TAB provides an enhanced and comprehensive set of countermeasures that the user employs in the brace phase through high-level program annotations on vulnerable code regions. Bespoke countermeasures avoid the protection overhead for robust code and focus on vulnerable regions instead. We implemented TAB within CLANG and LLVM, and evaluated it on the RISC-V architecture. TAB detected 99.82 % of data-flow errors and 10.94 % more control-flow errors (96.61 % in total) than the state-of-the-art approach while TAB’s generated programs run 1.15 × faster. TAB provides selective memory area protection which induced only 16 % performance overhead to detect 99.99 % of soft errors on memory.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3519941.3535071">An old friend is better than two new ones: dual-screen Android</a></h3><ul class="DLauthors"><li class="nameList">Zizhan Chen</li><li class="nameList">Siqi Shang</li><li class="nameList">Qihong Wu</li><li class="nameList">Jin Xue</li><li class="nameList">Zhaoyan Shen</li><li class="nameList Last">Zili Shao</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Dual-screen foldable Android smartphones such as Microsoft Surface Duo are emerging. However, due to its internal design, the Android framework cannot support combined mode, by which two screens can be integrated into one, without modifications, thus requiring new display management. Android introduces a new dual-screen display method, called presentation class, to handle this problem; however, existing apps need to be redesigned based on the new class. In this paper, we propose Dual-Screen Android (DSA), a semantics-aware display scheme for dual-screen foldable Android smartphones. DSA is transparent to apps, thus requiring no changes for existing apps, and incurs minimum modification to the Android framework. Specifically, inside Android, DSA duplicates and maps single-screen views provided by apps to dual screens and maps input events backward correspondingly, thus being transparent to apps. DSA also opens the door to store other hardware states (e.g., screen brightness, screen-touch events, etc.), which can be utilized to bridge other software/hardware semantic gaps for further system optimization. To demonstrate this, we design an effective Q-learning energy optimization scheme within DSA to control screen brightness based on predicted users' behaviors. We have implemented DSA based on Android 10 with real hardware and conducted a series of experiments. Experimental results show that based on DSA, without any modifications, existing apps can directly run and fully exploit dual screens with negligible time and memory overheads, and our energy optimization scheme can effectively reduce energy. We have released the open-source code of DSA for public access.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3519941.3535072">RollBin: reducing code-size via loop rerolling at binary level</a></h3><ul class="DLauthors"><li class="nameList">Tianao Ge</li><li class="nameList">Zewei Mo</li><li class="nameList">Kan Wu</li><li class="nameList">Xianwei Zhang</li><li class="nameList Last">Yutong Lu</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Code size is an increasing concern on resource constrained systems, ranging from embedded devices to cloud servers. To address the issue, lowering memory occupancy has become a priority in developing and deploying applications, and accordingly compiler-based optimizations have been proposed to reduce program footprint. However, prior arts are generally dealing with source codes or intermediate representations, and thus are very limited in scope in real scenarios where only binary files are commonly provided. To fill the gap, this paper presents a novel code-size optimization RollBin to reroll loops at binary level. RollBin first locates the unrolled loops in binary files, and then probes to decide the unrolling factor by identifying regular memory address patterns. To reconstruct the iterations, we propose a customized data dependency analysis that tackles the challenges brought by shuffled instructions and loop-carry dependencies. Next, the recognized iterations are rolled up through instruction removal and update, which are generally reverting the normal unrolling procedure. The evaluations on standard SPEC2006/2017 and MiBench demonstrate that RollBin effectively shrinks code size by 1.7% and 2.2% on average (up to 7.8%), which respectively outperforms the state-of-the-arts by 31% and 38%. In addition, the use cases of representative realistic applications manifest that RollBin can be applicable in practices.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3519941.3535073">Cache-coherent CLAM (WIP)</a></h3><ul class="DLauthors"><li class="nameList">Chen Ding</li><li class="nameList">Benjamin Reber</li><li class="nameList Last">Dorin Patru</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Traditional caches are automatic and cannot be controlled directly by software. A recent design called CLAM manages a cache using leases and lets a program specify these leases. The lease cache is mostly controlled by software. This paper extends CLAM to support multiple cores with private caches. It presents the hardware extensions to support cache coherence for data-race free (DRF) programs. CLAM can use either inclusive or exclusive caching for shared data. Its performance can be improved by two programming techniques: cache draining and reference privatization.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3519941.3535074">Scalable size inliner for mobile applications (WIP)</a></h3><ul class="DLauthors"><li class="nameList">Kyungwoo Lee</li><li class="nameList">Manman Ren</li><li class="nameList Last">Shane Nay</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Inlining is critical for both performance and size in mobile apps. When building large mobile apps, ThinLTO, a scalable link-time optimization is imperative in order to achieve both optimal size and build scalability. However, inlining with ThinLTO is not tuned to reduce the code size because each module inliner works independently without modeling the size cost across modules, and functions are often not eligible to import due to private references, appearing in Objective-C or Swift for iOS. This paper extends the bitcode summary to perform a global inlining analysis to find inline candidates for saving the code size. Using this summary information, a pre-inliner eagerly inlines the candidates that are proven to shrink the size. When the inline candidates are not eligible to import, a pre-merger combines their bitcode modules to remove inline restrictions. Our work improves the size of real-world mobile apps when compared to the <em>MinSize</em> (<em>-Oz</em>) optimization level. We reduced the code size by 2.8% for SocialApp and 4.0% for ChatApp.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3519941.3535075">Tighten rust’s belt: shrinking embedded Rust binaries</a></h3><ul class="DLauthors"><li class="nameList">Hudson Ayers</li><li class="nameList">Evan Laufer</li><li class="nameList">Paul Mure</li><li class="nameList">Jaehyeon Park</li><li class="nameList">Eduardo Rodelo</li><li class="nameList">Thea Rossman</li><li class="nameList">Andrey Pronin</li><li class="nameList">Philip Levis</li><li class="nameList Last">Johnathan Van Why</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Rust is a promising programming language for embedded software, providing low-level primitives and performance similar to C/C++ alongside type safety, memory safety, and modern high-level language features. We find naive use of Rust leads to binaries much larger than their C equivalents. For flash-constrained embedded microcontrollers, this is prohibitive. We find four major causes of this growth: monomorphization, inefficient derivations, implicit data structures, and missing compiler optimizations. We present a set of embedded Rust programming principles which reduce Rust binary sizes. We apply these principles to an industrial Rust firmware application, reducing size by 76kB (19%), and an open source Rust OS kernel binary, reducing size by 23kB (26%). We explore compiler optimizations that could further shrink embedded Rust.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3519941.3535076">Code generation criteria for buffered exposed datapath architectures from dataflow graphs</a></h3><ul class="DLauthors"><li class="nameList">Klaus Schneider</li><li class="nameList">Anoop Bhagyanath</li><li class="nameList Last">Julius Roob</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Many novel processor architectures expose their processing units (PUs) and internal datapaths to the compiler. To avoid an unnecessary synchronization of PUs, the datapaths are often buffered which results in buffered exposed datapath (BED) architectures. This paper suggests a code generation technique for BED architectures from dataflow graphs that are used as intermediate program representations. Inspired by results on queue layouts in graph drawing, we determine in this paper constraints for the node and edge orderings of the dataflow graphs to ensure the first-in-first-out behavior of the buffers. Formalizing these constraints in propositional logic enables SAT solvers to compute optimal PU allocations. Moreover, future code generation techniques may develop heuristics based on the code generation criteria of this paper.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3519941.3535077">A memory interference analysis using a formal timing analyzer (WIP)</a></h3><ul class="DLauthors"><li class="nameList">Mihail Asavoae</li><li class="nameList">Oumaima Matoussi</li><li class="nameList">Asmae Bouachtala</li><li class="nameList">Hai-Dang Vu</li><li class="nameList Last">Mathieu Jan</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Safety-critical applications require well-defined and documented timing behavior. These requirements shape the design and implementation of a timing analyzer based on a formal Instruction-Set Architecture (ISA) semantics and formal micro-architecture models. In this paper we present the key elements of such a timing analyzer and how to systematically combine the formal components to address timing properties such as evaluating memory interferences. We also report preliminary experiments of memory interference analysis of multi-threaded applications in a multicore context.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3519941.3535078">Automated kernel fusion for GPU based on code motion</a></h3><ul class="DLauthors"><li class="nameList">Junji Fukuhara</li><li class="nameList Last">Munehiro Takimoto</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Applications implemented for GPU are important in various fields. GPU has many parallel computing cores and high arithmetic throughput, enabling GPU applications to work efficiently. However, the throughput of GPU memory, of which global memory is the costliest for accessing, is low. The input and output of GPU kernels must be stored in the global memory. They can be a bottleneck for some applications. Kernel fusion-based methods can effectively suppress access to global memory when kernels share some data. The methods combine two or more kernels into one, improving the performance by reducing expensive data communication with global memory. However, traditional kernel fusion-based methods miss many fusion opportunities because they focus only on data dependency between candidate kernels and do not consider their control flows. This paper proposes a novel kernel fusion-based method, called kernel fusion based on code motion (KFCM). KFCM exposes the fusibility of kernels by moving the kernels along control flows and then combines them. In the process of exposing fusibility, KFCM may duplicate some kernels. However, KFCM does not increase the number of kernels executed on each execution path. Thus, KFCM increases the opportunity of combining kernels without negative gain. The experimental results show that KFCM achieves 1.60x and 1.35x speedup compared with O3 option of Clang and a traditional method, respectively, in the best case.</p>
+	</div></div>
+							
+						</div></div></body></html>
