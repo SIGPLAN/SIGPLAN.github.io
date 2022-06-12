@@ -1,0 +1,65 @@
+---
+title: "ML Family Workshop 2022: Final Call for Presentations"
+timestamp: "5/17/2022 10:31:45"
+deadline: "6/3/2022"
+---
+We are happy to invite submissions to the **ML Family Workshop 2022**, to
+be held during the ICFP conference week on Thursday, September 15th.
+
+The ML family workshop warmly welcomes submission touching on the
+programming languages traditionally seen as part of the “ML family”
+(Standard ML, OCaml, F#, CakeML, SML#, Manticore, MetaOCaml, etc.).
+The scope of the workshop includes all aspects of the design,
+semantics, theory, application, implementation, and teaching of the
+members of the ML family. We also encourage presentations from related
+languages (such as Haskell, Scala, Rust, Nemerle, Links, Koka, F*,
+Eff, ATS, etc), to exchange experience of further developing ML ideas.
+
+The workshop does not have proceedings, making it the perfect venue to
+run some ideas with the community or present some work in progress
+within a friendly environment. The PC has a broad expertise and
+submissions are 3 pages long: when in doubt, just submit!
+
+Currently, the workshop is scheduled to be an in-person event. We will
+give to the authors of accepted abstracts the opportunity to give
+their talks remotely if necessary, in case they could not travel.
+
+See the detailed CFP online on the ICFP website:
+<https://icfp22.sigplan.org/home/mlfamilyworkshop-2022#Call-for-Presentations>
+
+Important dates
+---------------
+
+-    Friday 3th June (any time zone): Abstract submission deadline
+-    Tuesday 28th June: Author notification
+-    Thursday 15th August: ML Family Workshop
+
+Program committee
+-----------------
+
+-    Kenichi Asai (Ochanomizu University)
+-    Arthur Azevedo de Amorim (Boston University)
+-    Dariusz Biernacki (University of Wrocław)
+-    Stephen Dolan (Jane Street)
+-    Kavon Farvardin (Apple)
+-    Armaël Guéneau (Inria)
+-    Sam Lindley (University of Edinburgh)
+-    Guido Martínez (CIFASIS-CONICET)
+-    Keiko Nakata (SAP Innovation Center Potsdam)
+-    Lionel Parreaux (Hong Kong University of Science and Technology)
+-    Matija Pretnar (University of Ljubljana)
+-    Mike Rainey (Carnegie Mellon University)
+-    Yann Régis-Gianas (Nomadic Labs)
+-    KC Sivaramakrishnan (IIT Madras and Tarides)
+-    Ningning Xie (University of Cambridge)
+
+Chair: Benoît Montagu (Inria)
+
+Submission details
+------------------
+
+See the online CFP for the details on the expected submission format.
+
+Submissions must be uploaded to the workshop submission website
+<https://ml2022.hotcrp.com/> before the submission deadline.
+
