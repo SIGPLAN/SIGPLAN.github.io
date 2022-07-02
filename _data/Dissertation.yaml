@@ -1,88 +1,153 @@
+2022:
+- Awardee: "Uri Alon, Technion"
+  Other: _Machine Learning for Programming Language Processing_
+  Advisor: "Eran Yahav"
+  Citation: |
+
+    Uri Alon’s dissertation has made significant contributions to the
+    emerging area of "language models for code,” an exciting topic
+    that lies at the intersection of Machine Learning and Programming
+    Languages research.
+
+    A central question of the dissertation is how to effectively
+    leverage the structure available in programming languages to
+    provide novel neural solutions to programming-related tasks. The
+    key contribution of this work is to leverage paths in the AST
+    representation of the program to design new machine-learning
+    models and to apply such models to solve a number of tasks of
+    practical importance, including code completion, code captioning,
+    and method-name prediction, and to do this across a number of
+    different programming languages.
+
+    Overall, Uri Alon’s dissertation combines insights from the PL and
+    ML communities in an elegant way to solve many coding-related
+    problems of practical interest. The thesis stands out in terms of
+    its breadth of contributions, interdisciplinary nature, and
+    high-quality writing.
+
+    * Selection committee: Işil Dillig, Tom Reps, Milind Kulkarni,
+      Stephanie Weirich, Hidehiko Masuhara
+
+- Awardee: "Jay P. Lim, Rutgers, The State University of New Jersey"
+  Other: _Novel Polynomial Approximation Methods for Generating Correctly Rounded Elementary Functions_
+  Advisor: "Santosh Nagarakatte"
+  Citation: |
+
+    Jay Lim's dissertation makes foundational advances on techniques
+    for generating correctly rounded math libraries for numerous
+    elementary functions (e.g., sin, cos, log) for multiple
+    representations (float, posits) and rounding modes. The resulting
+    libraries are significantly faster than the state-of-the-art while
+    producing correct results for all inputs. This is a remarkable
+    achievement that stands out in terms of its direct and immediate
+    impact.
+
+    In more detail, this dissertation proposes a collection of novel
+    techniques for generating polynomial approximations that produce
+    correctly rounded results of an elementary function. The
+    dissertation shows how this problem can be structured as a
+    linear-programming problem in a way that accounts for numerical
+    errors that arise from polynomial approximation and range
+    reduction. The dissertation also shows how to generate a single
+    polynomial approximation that produces the correctly rounded
+    results for multiple rounding modes and multiple precision
+    configurations.
+
+    Overall, the dissertation is very well-written and combines
+    elegant theoretical insights with exemplary experimental results
+    to solve an open problem of practical interest.
+
+    * Selection committee: Işil Dillig, Tom Reps, Milind Kulkarni,
+      Stephanie Weirich, Hidehiko Masuhara
+
 2021:
 - Awardee: "Ralf Jung, Max Planck Institute for Software Systems and Saarland University"
-  Other: _Understanding and Evolving the Rust Programming Language_
+  Other: _Understanding and Evolving the Rust Programming Language_
   Advisor: "Derek Dreyer"
   Citation: |
-    Ralf Jung’s dissertation aims to provide an understanding
-    and justification for the practical memory and concurrency safety that
-    the type system of Rust is meant to enforce. The main new challenge is
-    posed by libraries that use unsafe, aren’t checked by the type
-    system, but are assumed to be “safe”. In particular, the
-    usual progress-and-preservation style of proof of type soundness does
-    not work in this setting because it relies on a closed-world assumption.
-    To address the problem, the thesis contributes a semantic characterization
-    of the semantics of the properties to enforce, which is non-trivial due to
-    the richness of Rust’s typing abstractions. In
-    collaboration with colleagues Ralf Jung developed a rich program
-    logic, called Iris, based on ideas of higher-order, concurrent, separation
-    logic, used to give a semantic interpretation of Rust’s types. Iris has
-    now been used in other contexts, e.g., in the practice to reason
-    formally about other kinds of low-level systems code (e.g., C and
-    assembly), as well as by systems and security researchers.
 
-    The primary contribution of the dissertation is the development (and
-    validation) of a semantic model of Rust’s type system using Iris, all
-    developed within Coq, that makes precise the informal notions that the
-    Rust designers had in mind. That precision, in turn, makes it possible to
-    set up criteria that unchecked libraries must satisfy in order to ensure
-    that checked code that is linked against them will respect the memory and
+    Ralf Jung’s dissertation aims to provide an understanding and
+    justification for the practical memory and concurrency safety that
+    the type system of Rust is meant to enforce. The main
+    new challenge is posed by libraries that use
+    unsafe, aren’t checked by the type system, but are assumed to be
+    “safe”. In particular, the usual progress-and-preservation style
+    of proof of type soundness does not work in this setting because
+    it relies on a closed-world assumption.  To address the problem,
+    the thesis contributes a semantic characterization of the
+    semantics of the properties to enforce, which is non-trivial due
+    to the richness of Rust’s typing abstractions. In
+    collaboration with colleagues Ralf Jung developed a rich program
+    logic, called Iris, based on ideas of higher-order, concurrent,
+    separation logic, used to give a semantic interpretation
+    of Rust’s types. Iris has now been used in other contexts, e.g.,
+    in the practice to reason formally about other kinds of low-level
+    systems code (e.g., C and assembly), as well as by systems and
+    security researchers.
+
+    The primary contribution of the dissertation is the development (and
+    validation) of a semantic model of Rust’s type system using Iris, all
+    developed within Coq, that makes precise the informal notions that the
+    Rust designers had in mind. That precision, in turn, makes it possible to
+    set up criteria that unchecked libraries must satisfy in order to ensure
+    that checked code that is linked against them will respect the memory and
     data-race safety properties that the type system was intended
-    to enforce. The effectiveness is demonstrated by verifying a number of the
-    critical un-checked library abstractions. Like Iris, the
-    ideas underlying the verification regime proposed here transfer to
-    reasoning about any practical systems that are a mix of of
-    languages, e.g., to reasoning about Java programs involves reasoning about
-    the run-time system that is implemented in C.
+    to enforce. The effectiveness is demonstrated by verifying a number of the
+    critical un-checked library abstractions. Like Iris, the
+    ideas underlying the verification regime proposed here transfer to
+    reasoning about any practical systems that are a mix of of
+    languages, e.g., to reasoning about Java programs involves reasoning about
+    the run-time system that is implemented in C.
 
-    Ralf Jung did not only formalize everything in a proof assistant, so the
-    proofs are machine-checked and re-usable by others, but also put together
-    practical tools that people can use today. The thesis will continue to
-    influence PL researchers via Iris and will continue to influence
+    Ralf Jung did not only formalize everything in a proof assistant, so the
+    proofs are machine-checked and re-usable by others, but also put together
+    practical tools that people can use today. The thesis will continue to
+    influence PL researchers via Iris and will continue to influence
     practitioners via Rust.
 
 - Awardee: "Gagandeep Singh, ETH Zurich"
-  Other: _Scalable Automated Reasoning for Programs and Deep Learning_
+  Other: _Scalable Automated Reasoning for Programs and Deep Learning_
   Advisor: "Martin Vechev and Markus Püschel"
   Citation: |
-    The central research question addressed by Singh’s dissertation is how to
-    enable scalable and precise automated reasoning based on the abstract
-    interpretation framework in the domains of numerical software and deep
+    The central research question addressed by Singh’s dissertation is how to
+    enable scalable and precise automated reasoning based on the abstract
+    interpretation framework in the domains of numerical software and deep
     learning models.
 
-    With regard to numerical software the thesis contributes a new method to
-    online decomposition of program variables, which speeds up the Polyhedra
-    domain and also generalizes to other abstract domains by providing
-    a theory that gives a general construction for obtaining decomposed
-    transformers from existing non-decomposed ones. This method is effective
-    in removing redundant computations at each analysis step. In addition, the
-    thesis proposes a reinforcement learning method to learn policies for
-    selectively losing precision at different analysis steps, which however do
-    not impact the overall precision, because some precise steps may
-    eventually be discarded later and hence do not affect the end result. The
-    methods are implemented in the ELINA library, which includes a number of
-    important numerical domains (e.g., Octagon, Polyhedra, Zone), and is shown
+    With regard to numerical software the thesis contributes a new method to
+    online decomposition of program variables, which speeds up the Polyhedra
+    domain and also generalizes to other abstract domains by providing
+    a theory that gives a general construction for obtaining decomposed
+    transformers from existing non-decomposed ones. This method is effective
+    in removing redundant computations at each analysis step. In addition, the
+    thesis proposes a reinforcement learning method to learn policies for
+    selectively losing precision at different analysis steps, which however do
+    not impact the overall precision, because some precise steps may
+    eventually be discarded later and hence do not affect the end result. The
+    methods are implemented in the ELINA library, which includes a number of
+    important numerical domains (e.g., Octagon, Polyhedra, Zone), and is shown
     to outperform the state-of-the-art Polyhedra library by orders
-    of magnitude. ELINA is currently the state-of-the-art library for
-    numerical static analysis and is used in both industry and academia
+    of magnitude. ELINA is currently the state-of-the-art library for
+    numerical static analysis and is used in both industry and academia
 
-    To address the analysis of deep learning models, the dissertation provides
-    a set of abstract domains, specifically designed for deep learning models.
-    The observation motivating this design decision is that standard numerical
-    abstract domains are not suited for analyzing neural networks due to the
-    nature of transformations of these networks and their non-linearity. A key
-    contribution is the DeepPoly domain and its transformers for handling the
-    usual activation functions used in deep networks. All domains and
-    transformers are carefully implemented in a neural network verifier,
-    called ERAN, which is currently the state-of-the-art system for neural
-    network certification and is also used in both academia and industry.
+    To address the analysis of deep learning models, the dissertation provides
+    a set of abstract domains, specifically designed for deep learning models.
+    The observation motivating this design decision is that standard numerical
+    abstract domains are not suited for analyzing neural networks due to the
+    nature of transformations of these networks and their non-linearity. A key
+    contribution is the DeepPoly domain and its transformers for handling the
+    usual activation functions used in deep networks. All domains and
+    transformers are carefully implemented in a neural network verifier,
+    called ERAN, which is currently the state-of-the-art system for neural
+    network certification and is also used in both academia and industry.
 
-    Overall, the thesis includes everything one would like to see in an
-    outstanding doctoral dissertation: clean mathematical concepts with
-    corresponding efficient algorithms which solve hard and important
-    problems, ones that have resisted a solution for decades, a complete
-    implementation of all ideas in state-of-the-art libraries used in academia
-    and industry, all while opening new directions of research that have been
-    picked up by the community as demonstrated by the large set of follow-up
+    Overall, the thesis includes everything one would like to see in an
+    outstanding doctoral dissertation: clean mathematical concepts with
+    corresponding efficient algorithms which solve hard and important
+    problems, ones that have resisted a solution for decades, a complete
+    implementation of all ideas in state-of-the-art libraries used in academia
+    and industry, all while opening new directions of research that have been
+    picked up by the community as demonstrated by the large set of follow-up
     works.
 
 2020:
