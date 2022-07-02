@@ -95,7 +95,7 @@ The current committee is:
 * [Ranjit
   Jhala](https://cse.ucsd.edu/people/faculty-profiles/ranjit-jhala),
   UCSD (ICFP)
-* [Eric Tanter](https://pleiad.cl/people/etanter), U Chile (SPLASH)
+* [Éric Tanter](https://pleiad.cl/people/etanter), U Chile (SPLASH)
 
 #### Conflicts of Interest
 
