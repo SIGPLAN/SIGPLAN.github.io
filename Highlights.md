@@ -27,11 +27,9 @@ Nominations can be made at this [website](http://cacm.sigplan.org).
 
 ### SIGPLAN Research Highlights Papers
 
-
 As of July 2020, 58 papers have been recognized by the SIGPLAN
 Research Highlights committee, and 34 SIGPLAN papers have been selected to appear as CACM Research Highlights. 
-This [webpage](/Highlights/Papers) contains the full list of papers.
-
+This [webpage]({% link Highlights/Papers.md %}) contains the full list of papers.
 
 ### SIGPLAN Research Highlights Committee
 
@@ -48,4 +46,4 @@ Past SIGPLAN Chair, [Jens Palsberg](http://www.cs.ucla.edu/~palsberg)
 
 Further information about the review process that the committee uses
 is included in the original
-[proposal](/default/files/CACM-nominating-committee-proposal.pdf).
+[proposal]({% link sites/default/files/CACM-nominating-committee-proposal.pdf %}).
