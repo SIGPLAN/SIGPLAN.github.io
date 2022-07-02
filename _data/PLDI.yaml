@@ -1,3 +1,23 @@
+2022:
+- Awardee: |
+    John Regehr (University of Utah), Yang Chen (Microsoft), Pascal Cuoq
+    (TrustInSoft), Eric Eide (University of Utah), Chucky Ellison, Xuejun Yang (Microsoft)
+  Other: |
+    (for 2012) _[Test-Case Reduction for C Compiler Bugs](https://doi.org/10.1145/2254064.2254104)_
+  Citation: |
+    Finding small, valid, C programs that trigger C compiler bugs is
+    hard. Distilling a bug-causing compiler input to its essence was
+    previously a largely manual process assisted by delta
+    debugging. This work enhanced delta debugging with new techniques
+    for generating valid (without undefined behavior) test variants,
+    including pluggable program transformations that perform reduction
+    operations to produce tests 25 times smaller than previous
+    schemes. The paper influenced the broader testing and fuzzing
+    communities beyond compiler testing by reinforcing the importance
+    of domain-specific transformers for test case reduction and in
+    seed generation for fuzzing.
+
+
 2021:
 - Awardee: Xuejun Yang (Microsoft), Yang Chen (Microsoft), Eric Eide (University of Utah), and John Regehr (University of Utah)
   Other: |
