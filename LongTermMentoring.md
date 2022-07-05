@@ -113,6 +113,7 @@ We'd like to thank these amazing mentors:
 - Dimitris Vardoulakis
 - John Wickerson
 - James Wilcox
+- Dominik Winterer
 - Li-yao Xia
 
 And we'd of course also like to thank everyone else who has served or currently serves as a mentor for SIGPLAN-M!
