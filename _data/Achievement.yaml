@@ -1,3 +1,36 @@
+2022:
+- Awardee: Xavier Leroy
+  Citation: |
+
+    Xavier Leroy has made fundamental contributions to both the theory
+    and practice of programming languages on a range of topics,
+    including type system and module system design, efficient
+    compilation of functional programming languages, bytecode
+    verification, verified compilation, and verified static
+    analysis. He is known as the main architect of the OCaml
+    programming language and the author of the CompCert verified
+    compiler for C. Both of these projects have had enormous impact in
+    the PL community and beyond, and they have significantly pushed
+    the boundaries of what is perceived as possible.
+ 
+    Among Xavier Leroy’s many accomplishments, his OCaml language
+    introduced numerous advances in language design and implementation
+    and created a solid platform that enabled the work of thousands of
+    others in both research and industry.  OCaml has been used to
+    build widely-used theorem provers (e.g., Coq) as well as operating
+    system hypervisors (e.g., Xen). OCaml has also played a key role
+    in a number of companies (Jane St. Capital) and has inspired
+    numerous variants and follow-on designs (F#, Scala).
+ 
+    Another enormous feat of Xavier Leroy's research is the
+    development of the CompCert C compiler, which opened up a whole
+    new area of activity and demonstrated the feasibility of formally
+    verifying the full functional correctness of a compiler for a
+    mainstream programming language.  This accomplishment created a
+    true change in people's perceptions of what is possible and
+    inspired many researchers to succeed at similar feats across a
+    variety of domains.
+
 2021:
 - Awardee: Robert (Bob) Harper
   Citation: |

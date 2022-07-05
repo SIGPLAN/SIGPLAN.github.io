@@ -27,25 +27,23 @@ Nominations can be made at this [website](http://cacm.sigplan.org).
 
 ### SIGPLAN Research Highlights Papers
 
-
 As of July 2020, 58 papers have been recognized by the SIGPLAN
 Research Highlights committee, and 34 SIGPLAN papers have been selected to appear as CACM Research Highlights. 
-This [webpage](/Highlights/Papers) contains the full list of papers.
-
+This [webpage]({% link Highlights/Papers.md %}) contains the full list of papers.
 
 ### SIGPLAN Research Highlights Committee
 
-Chair, [Emery Berger](http://www.emeryberger.org/), [emery@cs.umass.edu](mailto:emery@cs.umass.edu)  
-POPL, [Dimitrios Vytiniotis](https://github.com/dimitriv)  
-PLDI, [Martin Vechev](http://www.srl.inf.ethz.ch/vechev.php)  
-ICFP, [John Hughes](https://www.chalmers.se/en/staff/Pages/rjmh.aspx)  
-OOPSLA, [Todd Millstein](http://web.cs.ucla.edu/~todd/)  
+Chair, [Tony Hosking](https://cs.anu.edu.au/tony-hosking/), [antony.hosking@anu.edu.au](mailto:antony.hosking@anu.edu.au)  
+Past Chair, [Emery Berger](http://www.emeryberger.org/), [emery@cs.umass.edu](mailto:emery@cs.umass.edu)  
+POPL, [Mathias Heizmann](https://swt.informatik.uni-freiburg.de/staff/heizmann)  
+PLDI, [Ranjit Jhala](https://cse.ucsd.edu/people/faculty-profiles/ranjit-jhala)  
+ICFP, [Nate Foster](https://www.cs.cornell.edu/~jnfoster/)  
+OOPSLA, [Stephen Kell](https://www.kcl.ac.uk/people/stephen-kell)  
 ASPLOS, [Milind Kulkarni](https://engineering.purdue.edu/~milind/)  
 PPoPP, [Erez Petrank](http://www.cs.technion.ac.il/~erez/)  
-SIGPLAN Chair, [Jens Palsberg](http://www.cs.ucla.edu/~palsberg)  
-Past SIGPLAN Chair, [Michael Hicks](http://www.cs.umd.edu/~mwh/)  
-
+SIGPLAN Chair [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/)  
+Past SIGPLAN Chair, [Jens Palsberg](http://www.cs.ucla.edu/~palsberg)  
 
 Further information about the review process that the committee uses
 is included in the original
-[proposal](http://www.sigplan.org/sites/default/files/CACM-nominating-committee-proposal.pdf).
+[proposal]({% link sites/default/files/CACM-nominating-committee-proposal.pdf %}).

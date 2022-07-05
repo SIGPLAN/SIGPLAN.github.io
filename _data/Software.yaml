@@ -1,6 +1,37 @@
-2021:
-- Awardee: "Andreas Rossberg, Derek Schuff, Bradley Nelson, JF Bastien and Ben L. Titzer for WebAssembly"
+2022:
+- Awardee: CompCert
   Citation: |
+
+    CompCert is a fully verified compiler for C that is actually
+    usable on real source code and that produces decent target code on
+    real-world architectures. It seeded a new age of formal
+    verification by dispelling the myth that formal methods could only
+    be done on toy programs in the lab. As a shared artifact it has
+    enabled the software systems verification community to work
+    together, in the same way that GCC or LLVM has done in earlier
+    generations, putting real-world C programs on a solid formal
+    foundation. It currently targets PowerPC, ARM, RISC-V, and x86,
+    supporting all of ISO C99 except unstructured switch statements,
+    longjmp, and variable-length array types. CompCert is today
+    available under commercial and noncommercial open-source licenses,
+    and used in the real world for security-critical control software
+    for emergency power generators and for flight control and
+    navigation algorithms, by companies including Airbus France. It
+    remains an important shared infrastructure for ongoing research.
+
+    The nominated contributors are:
+    * Xavier Leroy
+    * Sandrine Blazy
+    * Zaynah Dargaye
+    * Jacques-Henri Jourdan
+    * Michael Schmidt
+    * Bernhard Schommer
+    * Jean-Baptiste Tristan
+
+2021:
+- Awardee: "WebAssembly"
+  Citation: |
+
     WebAssembly is the first new broadly-adopted language in web browsers
     since JavaScript. It is the fruit of a genuine collaboration between all
     major browser vendors, backed by an unprecedented effort to place the new
@@ -15,6 +46,13 @@
     in other domains that share similar requirements, such as mobile and edge
     computing, IoT, confidential computing, blockchain and smart contract
     platforms. On the Web, it has enabled many large-scale applications.
+
+    The nominated contributors are:
+    * Andreas Rossberg
+    * Derek Schuff
+    * Bradley Nelson
+    * JF Bastien
+    * Ben L. Titzer
 
 2020:
 - Awardee: "Pin"
@@ -280,7 +318,8 @@
 2011:
 - Awardee: Simon Peyton Jones and Simon Marlow for the Glasgow Haskell compiler
   Citation: |
-    "Simon Peyton Jones and Simon Marlow receive the SIGPLAN Software
+
+    Simon Peyton Jones and Simon Marlow receive the SIGPLAN Software
     Award as the authors of the Glasgow Haskell Compiler (GHC), which
     is the preeminent lazy functional programming system for industry,
     teaching, and research. GHC has not only provided a language
@@ -302,10 +341,11 @@
     newer languages and language features. including C\#, F\#, Java
     Generics, LINQ, Perl 6, Python, and Visual Basic 9.0. Peyton Jones
     and Marlow have been visionary in the way that they have
-    transitioned research into practice. They have been role models and
-    leaders in creating the large and diverse Haskell community, and
-    have made GHC an industrial-strength platform for commercial
-    development as well as for research."
+    transitioned research into practice. They have been role models
+    and leaders in creating the large and diverse Haskell community,
+    and have made GHC an industrial-strength platform for commercial
+    development as well as for research.
+
   Other:
     The cash prize is being donated to [haskell.org](http://www.haskell.org)
 
