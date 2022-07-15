@@ -51,3 +51,6 @@
 "calendar":                                     "Calendar/"
 
 "Awards/Vlissides/":                            "Awards/Other/"
+
+# Old acmart pages.
+"sites/default/files/acmart/current": "Resources/Author/"
