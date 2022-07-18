@@ -99,6 +99,12 @@ form](http://cms.acm.org/tmrf/cms_paf.cfm) (PAF)
 must be submitted in order to issue a call for papers.  Approval of a
 PAF also causes the conference to be added to ACM's master calendar.
 
+If your conference is part of [PACMPL][], send your CFP to [the Information Director][id] (for posting on PACMPL's website) and to the [Editor-in-Chief][eic] (for review---the exact wording can apparently impact PACMPL's indexing).
+
+[pacmpl]: /PACMPL/
+[id]: mailto:infodir_sigplan@acm.org
+[eic]: mailto:editor-in-chief@pacmpl.acm.org
+
 Website
 -------
 
