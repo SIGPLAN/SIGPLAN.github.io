@@ -37,7 +37,7 @@ Check out our [Twitter](https://twitter.com/SigplanM) for the latest news!
 
 ## Committee Members
 
-- **Operations Team**: [Reshabh Sharma](https://www.linkedin.com/in/reshabh/), [Kimaya Bedarkar](https://in.linkedin.com/in/kimaya-bedarkar-694933171), [Sabree Blackmon](https://www.linkedin.com/in/sabree-blackmon), [Yanze Li](https://liyz.pl/), [Ronak Chauhan](https://in.linkedin.com/in/ronchauhan), [Umang Mathur](http://umathur3.web.engr.illinois.edu/), [Heiko Becker](https://people.mpi-sws.org/~hbecker/), [Yannick Forster](https://yforster.github.io/)
+- **Operations Team**: [Reshabh Sharma](https://www.linkedin.com/in/reshabh/), [Sabree Blackmon](https://www.linkedin.com/in/sabree-blackmon), [Yanze Li](https://liyz.pl/), [Ronak Chauhan](https://in.linkedin.com/in/ronchauhan), [Umang Mathur](http://umathur3.web.engr.illinois.edu/), [Heiko Becker](https://people.mpi-sws.org/~hbecker/), [Yannick Forster](https://yforster.github.io/)
 - **Advisory Board**: [Alexandra Silva](https://alexandrasilva.org/), [David Van Horn](https://www.cs.umd.edu/~dvanhorn/), [Dimitrios Vytiniotis](https://dimitriv.github.io/), [Sebastian Erdweg](https://www.pl.informatik.uni-mainz.de/), [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/), [Sukyoung Ryu](https://plrg.kaist.ac.kr/ryu)
 - **Chair**: [Talia Ringer](https://dependenttyp.es/)
 
@@ -98,6 +98,7 @@ We'd like to thank these amazing mentors:
 - Justin Lubin
 - John Leo
 - William Mansky
+- Mae Milano
 - Andrey Mokhov
 - Joe Politz
 - Kia Rahmani
