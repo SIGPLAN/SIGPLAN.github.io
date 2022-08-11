@@ -1,71 +1,40 @@
 2022:
 - Awardee: Viktor Vafeiadis
   Citation: |
-    Viktor Vafeiadis has become a world leader in semantics and
-    verification research. His body of work includes numerous
-    fundamental and influential contributions to the study of
-    concurrency, in particular separation logic and relaxed memory
-    models.
-
-    * His landmark 2007 doctoral thesis developed RGSep, the first
-      extension of concurrent separation logic to support formal
-      proofs about fine-grained concurrent algorithms.  For this he
-      received the 2008 ACM SIGPLAN Outstanding Doctoral Dissertation
-      Award.
-
-    * His CAV'10 paper on Cave presented the first fully automatic
-      verifier for establishing linearizability of a class of
-      concurrent data structures, including ones with non-fixed
-      linearization points.
-
-    * His POPL'11/JACM'13 paper on CompCertTSO presented the first
-      verified compiler for a concurrent language under a relaxed
-      memory model.
-
-    * His MFPS 2011 paper presented the first direct (and mechanized)
-      proof of soundness for concurrent separation logic (CSL) based
-      on operational semantics.  In addition to being beautifully
-      simple compared to prior proofs, it was a key enabler for
-      proving soundness of more advanced program logics like CAP (to
-      which he was also a key contributor) and Iris.
-
-    * His OOPSLA'13 paper on RSL presented the first separation logic
-      for the C/C++ relaxed memory model, a tour-de-force achievement
-      given how different the event-graph-based C++ memory model is
-      from the standard sequentially-consistent memory models for
-      which CSL had previously been proven sound.  This spawned a
-      whole body of work on modular verification of concurrent data
-      structures under relaxed memory models, notably GPS (OOPSLA'14)
-      and iGPS (ECOOP'17, Distinguished Paper Award), to which Viktor
-      also contributed.
-
-    * His POPL'15 and PLDI'17 (Distinguished Paper Award) papers found
-      and corrected a number of serious flaws in the C/C++ concurrency
-      model, which led to changes in the C++ standard.
-
-    * His POPL'17 paper presented the "promising" semantics for
-      relaxed-memory concurrency, which offered one of the first
-      viable solutions to the 30-year-old "out-of-thin-air" problem
-      and spawned much follow-on work (both by Viktor and others).
-
-    * His POPL'19 paper on RCMC and PLDI'19 paper on GenMC presented
-      the first efficient model checkers for relaxed-memory C/C++
-      programs with optimality guarantees about their state space
-      exploration.
-
-    * His recent work in OOPSLA'18, OOPSLA'19, and POPL'20, together
-      with his postdoc Azalea Raad (now faculty at Imperial),
-      presented the first "persistency semantics" for non-volatile
-      memory on multicore architectures.  He has recently received an
-      ERC Consolidator Grant for the PERSIST project, to develop this
-      line of work further into a full-fledged semantic foundation for
-      persistent programming.
-
-    As the above list suggests, Viktor is not only highly-cited and
-    incredibly prolific (the 2nd most prolific POPL author in the past
-    15 years)—he is also a true pioneer, repeatedly exploring
-    dauntingly technical problems in the semantics and verification of
-    concurrent programs before others dare to try.
+    Viktor has become a world leader in semantics and verification
+    research. His body of work includes fundamental and influential
+    contributions to the study of concurrency, in particular
+    separation logic and relaxed memory models. His landmark doctoral
+    thesis developed RGSep, the first extension of concurrent
+    separation logic to support formal proofs about fine-grained
+    concurrent algorithms.  His work on Cave presented the first fully
+    automatic verifier for establishing linearizability of a class of
+    concurrent data structures, including ones with non-fixed
+    linearization points. His work on CompCertTSO presented the first
+    verified compiler for a concurrent language under a relaxed memory
+    model. He developed the first direct (and mechanized) proof of
+    soundness for concurrent separation logic (CSL) based on
+    operational semantics—beautifully simple compared to prior proofs
+    and a key enabler for proving soundness of more advanced program
+    logics like CAP and Iris. He developed the first separation logic
+    for the C/C++ relaxed memory model—a tour-de-force achievement
+    compared to the standard CSL which assumes sequential
+    consistency. This spawned a whole body of work on modular
+    verification of concurrent data structures under relaxed memory
+    models. His work has found and corrected a number of serious flaws
+    in the C/C++ concurrency model, which led to changes in the C++
+    standard. And his "promising" semantics for relaxed-memory
+    concurrency offered one of the first viable solutions to the
+    30-year-old "out-of-thin-air" problem and spawned much follow-on
+    work. His work on GenMC presented the first efficient model
+    checkers for relaxed-memory C/C++ programs with optimality
+    guarantees about their state space exploration. Recent work
+    together with his postdoc Azalea Raad (now faculty at Imperial),
+    presented the first "persistency semantics" for non-volatile
+    memory on multicore architectures. Viktor is not only highly-cited
+    and incredibly prolific—he is also a true pioneer, repeatedly
+    exploring dauntingly technical problems in the semantics and
+    verification of concurrent programs before others dare to try.
 
     * Selection committee: Antony Hosking, Sandrine Blazy, Suresh Jagannathan, Ranjit Jhala, Éric Tanter.
 
