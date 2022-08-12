@@ -1,0 +1,116 @@
+---
+title: "Call for Papers: Eelco Visser Commemorative Symposium"
+timestamp: "7/26/2022 7:57:02"
+deadline: "10/28/2022"
+---
+Due to the untimely passing of Eelco Visser, members of his former research communities TU Delft, CWI, OOPSLA, SLE, and IFIP Working Groups 2.11 & 2.16 have joined in organizing the Eelco Visser Commemorative Symposium. The event will be held on the occasion of the first anniversary of his passing in April of next year. You are cordially invited to contribute to this symposium, by writing a paper and giving a presentation related to Eelco and his influential work, or by just attending. Please see the CfP below.
+
+Best regards,
+
+The EVCS Organizing Committee
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+Eelco Visser Commemorative Symposium (EVCS)
+5 April 2023
+Delft, The Netherlands
+https://symposium.eelcovisser.org
+
+------------------------------------------------------------------------
+
+Eelco Visser (1966–2022) was Antoni van Leeuwenhoek Professor of Computer Science and Chair of the Programming Languages Group in the Department of Software Technology at TU Delft. His research career started with studies at the University of Amsterdam and CWI, followed by appointments at Oregon Graduate Institute and Utrecht University. He was highly influential in the software language engineering and programming language design communities. His many scientific contributions about meta-languages and domain-specific languages have been of high importance in both the scientific and industrial communities. He was a founding member of IFIP Working Groups 2.11 (Program Generation) and 2.16 (Programming Language Design).
+
+Eelco Visser’s work on the cutting-edge language workbench Spoofax started with a ground-breaking publication in 2010, for which he received a Most Influential Paper award at OOPSLA 2020. As a strong advocate of tool-supported programming education, he led the development of WebLab, a learning management system that is in use for a range of programming languages and courses at TU Delft. He also led the design, implementation and use of conf.researchr.org, a content management system for scientific events used by hundreds of international events since 2011.
+
+---------------------------
+Call for Papers
+---------------------------
+
+A commemorative symposium for Eelco Visser is to be held on the first anniversary of his untimely passing away in April 2022. It will bring together colleagues from various communities, with presentations of papers on topics related to his research and other academic activities. 
+
+---------------------------
+Topics of Interest
+---------------------------
+
+Topics of interest include, but are not limited to:
+
+- Language engineering
+- Program transformation
+- Language workbenches
+- Declarative language specification
+- Name binding and scope graphs
+- Type soundness and intrinsically-typed interpreters
+- Language specification testing
+- Language implementation generation
+- Domain-specific programming languages
+- DSLs for software deployment
+- DSLs for web application development
+- Tool-supported programming education
+
+---------------------------
+Important Dates
+---------------------------
+
+- Friday 30 September 2022: Declaration of intent to submit
+- Friday 28 October 2022: Paper submission deadline
+- Monday 28 November 2022: Notifications
+- Wednesday 5 April 2023: Symposium
+
+---------------------------
+Types of Submissions
+---------------------------
+
+- **Unpublished research**: These are extended abstracts of novel research contributions related to Eelco Visser’s work. Papers may range from 4 to 8 pages in length, and may optionally include up to 2 further pages of bibliography. Papers will be reviewed by selected members of the relevant research communities. Subsequent submission of full papers including the same results to other venues is encouraged.
+
+- **On the relationship between Eelco Visser's work and other frameworks**: These are papers that present some framework and explain its relationship to his work, but without novel research contributions. Papers may range from 4 to 8 pages in length, and may optionally include up to 2 further pages of bibliography. Papers will be reviewed by an expert on the relevant topic.
+
+- **Personal reflections on Eelco Visser's activities**: These are short papers that recall and reflect upon personal experiences of his contributions in academia or industry. Papers may range from 1 to 4 pages in length, including bibliography. Papers will be lightly reviewed for relevance.
+
+---------------------------
+Submissions
+---------------------------
+
+Declaration of intent to submit is optional, but helpful for allocation of appropriate reviewers. It is to include a provisional title, the type of submission, and an indication of the topics covered. The other details regarding submissions will be announced later. The page ranges for submissions (see above) are assuming a format such as Springer LNCS or Dagstuhl OASIcs.
+
+---------------------------
+Publication
+---------------------------
+
+All accepted papers are to be published in an open access volume by the start of the symposium (publisher to be decided). Authors retain copyright.
+
+---------------------------
+Presentations
+---------------------------
+
+All accepted papers are to be presented at the symposium. Presenters may choose between 5, 10, and 15-minute slots (including questions) subject to availability. Remote presentations are allowed.
+
+---------------------------
+Organising Committee
+---------------------------
+
+- Jonathan Aldrich, Carnegie Mellon University
+- Benoit Combemale, University of Rennes, Inria, and IRISA
+- Paul Klint, CWI and University of Amsterdam
+- Ralf Lämmel, University of Koblenz
+- Peter Mosses (chair), TU Delft and Swansea University
+- Friedrich Steimann, Fernuniversität in Hagen
+- Tijs van der Storm, CWI and University of Groningen
+- Eric Van Wyk, University of Minnesota
+
+---------------------------
+Local Organisation Committee
+---------------------------
+
+- Arie van Deursen
+- Jasper van Dijck
+- Peter Mosses
+- Roniet Sharabi
+- Shémara van der Zwet
+
+---------------------------
+Contact
+---------------------------
+
+For all enquiries about the symposium, please use the contact form at
+symposium.eelcovisser.org/contact or email symposium@eelcovisser.org
