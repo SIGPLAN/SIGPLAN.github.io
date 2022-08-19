@@ -8,11 +8,13 @@ Open Access journal publishing research papers selected for
 presentation at major SIGPLAN conferences.  Each issue of the journal
 is devoted to a particular subject area within programming languages
 and will be announced through publicized [Calls for
-Papers](http://pacmpl.acm.org/calls-for-papers.cfm).  All accepted
+Papers][cfp].  All accepted
 papers receive two rounds of reviewing and authors can expect initial
 decisions regarding submissions in under 3 months.  _PACMPL_ is
 committed to making high-quality peer-reviewed scientific research in
 programming languages free of restrictions on both access and use.
+
+[cfp]: https://dl.acm.org/journal/pacmpl/calls-for-papers
 
 ### Publication Details
 
@@ -32,6 +34,10 @@ programming languages free of restrictions on both access and use.
 - [ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA)](/Conferences/OOPSLA)
 
 ### Governance
+
+[*The Procedures of PACMPL*][procedures] describes how the journal operates.
+
+[procedures]: pacmpl_procedures.pdf
 
 #### Advisory Board
 
