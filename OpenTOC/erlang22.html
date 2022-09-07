@@ -1,0 +1,117 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>Erlang 2022: Proceedings of the 21st ACM SIGPLAN International Workshop on Erlang</title></head><body><div id="DLtoc"><div id="DLheader"><h1>Erlang 2022: Proceedings of the 21st ACM SIGPLAN International Workshop on Erlang</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3546186"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Keynote</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3546186.3552537">eqWAlizer: scaling Erlang development at WhatsApp with static typing (keynote)</a></h3><ul class="DLauthors"><li class="nameList Last">Ilya Klyuchnikov</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>In the last two years at WhatsApp we have developed eqWAlizer - a type-checker for Erlang AS IS - in style of Flow, Pyre, Hack. It’s already used in a significant part of our codebase. In this talk we overview the key eqWAlizer's design choices we made and explain the reasons behind them. Moreover, we'll report about the challenges of using Erlang in large code bases and how static typing has allowed us to scale development through providing fast signal to developers. Finally, we'll also present the lessons learned from enabling static typing for the code underpinning the largest messaging app in the world.</p>
+	</div></div>
+							
+						<h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3546186.3549926">Troubleshooting the performance of a large Erlang system</a></h3><ul class="DLauthors"><li class="nameList">Nikos Tsikoudis</li><li class="nameList Last">Marc Sugiyama</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>This paper discusses our experiences troubleshooting and optimizing Hyper-Q, an enterprise software written in Erlang. Hyper-Q implements database virtualization that translates the SQL queries of an existing application to a new database system and converts the data returned by the database system to the data representation expected by the existing application. Using a real world example, we present effective troubleshooting techniques to identify poor-performing code and general refactorings and optimizations that can improve the performance of other Erlang systems.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3546186.3549927">CAEFL: composable and environment aware federated learning models</a></h3><ul class="DLauthors"><li class="nameList">Ruomeng (Cocoa) Xu</li><li class="nameList">Anna Lito Michala</li><li class="nameList Last">Phil Trinder</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Federated Learning allows multiple distributed agents to contribute to a global machine learning model. Each agent trains locally and contributes to a global model by sending gradients to a central parameter server. The approach has some limitations: 1) some events may only occur in the local environment, so a global model may not perform as well as a specialized model; 2) changes in the local environment may require an agent to use some dedicated model, that is not available in a single global model; 3) a single global model approach is unable to derive new models from dealing with complex environments. </p><p>This paper proposes a novel federated learning approach, CAEFL, that is local environment aware and composes new dedicated models for new complex environments. CAEFL is implemented in Elixir to exploit transparent distribution, pattern matching, and hot-code-swapping. Pattern matching is used to transform environment sensors data to corresponding tags and aggregate data with the same environment tags on agents. It is also used on parameter server to match client’s push/pull request for these tagged models. It enables a declarative way for environment aware federated learning approach. CAEFL outperforms state of the art federated learning by 7-10% for the MNIST dataset and 2% for the FashionMNIST dataset in specific and complex environments.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3546186.3549928">A reliability benchmark for actor-based server languages</a></h3><ul class="DLauthors"><li class="nameList">Aidan Randtoul</li><li class="nameList Last">Phil Trinder</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Servers are a key element of current IT infrastructures, and must often deal with large numbers of concurrent requests. Reliability is crucial as any disruption is extremely costly. Some important reliable servers are implemented in actor languages/libraries that provide process isolation and supervision. Reliability benchmarks model fault scenarios to measure the reliability characteristics of systems. The paper presents the design and implementation of a new reliability benchmark for actor-based server languages: Supervised Communicating Processes (SCP). SCP extends an existing server concurrency benchmark by supervising server actors/processes. We outline Erlang and Scala/Akka SCP implementations, and an associated fault injector. We compare the reliability characteristics of Erlang and Scala/Akka for server-style computations using SCP in the following four main experiments. (1) Progressive permanent failures, where a percentage of server processes fail permanently. (2) Recovery from different percentages (0% .. 20%) of failures occurring uniformly, randomly, or in bursts, and with a range of supervisor/supervisee ratios. (3) Comparing how the Erlang and Scala/Akka SCPs handle burst, random and uniform failure patterns. (4) Comparing how Erlang and Scala/Akka handle server actor/process faults with different fault patterns and failure rates.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3546186.3549929">InfERL: scalable and extensible Erlang static analysis</a></h3><ul class="DLauthors"><li class="nameList">Ákos Hajdu</li><li class="nameList">Matteo Marescotti</li><li class="nameList">Thibault Suzanne</li><li class="nameList">Ke Mao</li><li class="nameList">Radu Grigore</li><li class="nameList">Per Gustafsson</li><li class="nameList Last">Dino Distefano</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>In this paper we introduce InfERL, an open source, scalable, and extensible static analyzer for Erlang, based on Meta’s Infer tool. InfERL has been developed at WhatsApp and it is deployed to regularly scan WhatsApp server’s Erlang code- base, detecting reliability issues and checking user-defined properties. The paper describes the Erlang specific technical challenges we had to address and our design choices. We also report on our experience in running InfERL on Erlang code at scale, supporting the messaging app used everyday by over 2 billion people.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3546186.3549930">Executable contracts for Elixir</a></h3><ul class="DLauthors"><li class="nameList">Sergio Pérez</li><li class="nameList">Luis Eduardo Bueso de Barrio</li><li class="nameList">Ignacio Ballesteros</li><li class="nameList">Ángel Herranz</li><li class="nameList">Julio Mariño</li><li class="nameList">Clara Benac Earle</li><li class="nameList Last">Lars-Åke Fredlund</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>This paper introduces a new library for implementing executable  
+contracts in Elixir. In addition to classical contract constructs  
+such as preconditions and postconditions, the library permits e.g. to  
+specify exceptional behaviour (i.e. which exceptions are thrown and  
+under which conditions), and to associate timers with function calls  
+to detect non-terminating or too slow computations.</p>
+	</div></div>
+							
+						</div></div></body></html>

@@ -1149,3 +1149,15 @@
   event: MAPS
   year: 2022
   title: "Proceedings of the 6th ACM SIGPLAN International Symposium on Machine Programming"
+-
+  event: TyDe
+  year: 2022
+  title: "Proceedings of the 7th ACM SIGPLAN International Workshop on Type-Driven Development"
+-
+  event: Erlang
+  year: 2022
+  title: "Proceedings of the 21st ACM SIGPLAN International Workshop on Erlang"
+-
+  event: Haskell
+  year: 2022
+  title: "Proceedings of the 15th ACM SIGPLAN International Haskell Symposium"
