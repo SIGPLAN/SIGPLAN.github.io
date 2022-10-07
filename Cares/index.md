@@ -202,7 +202,7 @@ We have received open, public feedback from a number of members of the community
    <td>Member, <a href="mailto:sweirich@cis.upenn.edu">sweirich@cis.upenn.edu</a>, University of Pennsylvania</td>
   </tr> 
  <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/wu.png" alt="Peng Wu" width="156"><br><a href="https://pengwu.wordpress.com/">Peng Wu</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/wu.png" alt="Peng Wu" width="156"><br><a href="https://pengwu.wordpress.com/">Peng Wu</a> (she/her)</td>
    <td>Member, <a href="mailto:pengwu@fb.com">pengwu@fb.com</a>, Facebook </td>
   </tr> 
  </table>  
