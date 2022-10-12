@@ -1161,3 +1161,7 @@
   event: Haskell
   year: 2022
   title: "Proceedings of the 15th ACM SIGPLAN International Haskell Symposium"
+-
+  event: Scala
+  year: 2022
+  title: "Proceedings of the Scala Symposium"
