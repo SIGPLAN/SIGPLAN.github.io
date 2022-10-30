@@ -174,6 +174,10 @@ We have received open, public feedback from a number of members of the community
    <td>Member, <a href="mailto:xyfeng@nju.edu.cn">xyfeng@nju.edu.cn</a>, Nanjing University </td>
   </tr> 
  <tr>
+   <td><img src="../images/cares-photos/igarashi.jpg" alt="Atsushi Igarashi" width="156"><br><a href="https://www.fos.kuis.kyoto-u.ac.jp/~igarashi/index.html.en">Atsushi Igarashi</a> (he/him)</td>
+   <td>Member, <a href="mailto:igarashi@kuis.kyoto-u.ac.jp">igarashi@kuis.kyoto-u.ac.jp</a>, Kyoto University </td>
+  </tr> 
+ <tr>
    <td><img src="../images/cares-photos/keller.jpeg" alt="Gabriele Keller" width="156"><br><a href="https://www.uu.nl/staff/GKKeller">Gabriele Keller</a></td>
    <td>Member, <a href="mailto:g.k.keller@uu.nl">g.k.keller@uu.nl</a>, Utrecht University</td>
   </tr> 
