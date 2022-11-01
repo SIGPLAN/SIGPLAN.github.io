@@ -1165,3 +1165,7 @@
   event: Scala
   year: 2022
   title: "Proceedings of the Scala Symposium"
+-
+  event: OOPSLA
+  year: 2022
+  title: "Proceedings of the 2019 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications"
