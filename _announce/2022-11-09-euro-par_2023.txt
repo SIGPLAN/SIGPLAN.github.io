@@ -1,0 +1,109 @@
+---
+title: "29th International European Conference on Parallel and Distributed Computing (Euro-Par 2023): Call for Papers"
+timestamp: "11/9/2022 6:59:08"
+deadline: "2/17/2023"
+---
+*** Call for Papers ***
+
+29th International European Conference on Parallel and Distributed Computing
+(Euro-Par 2023)
+
+August 28 - September 1, 2023, St. Raphael Resort, Limassol, Cyprus
+
+http://2023.euro-par.org
+
+
+SCOPE
+
+Euro-Par is the prime European conference covering all aspects of parallel and
+distributed processing, ranging from theory to practice, from small to the largest
+parallel and distributed systems and infrastructures, from fundamental
+computational problems to applications, from architecture, compiler, language and
+interface design and implementation, to tools, support infrastructures, and
+application performance aspects. The main audience of Euro-Par are researchers in
+academic institutions, government laboratories and industrial organisations.
+Euro-Par aims to be the primary choice of such professionals for the presentation of
+new results in their specific areas. Euro-Par provides an excellent forum for focused
+technical discussion, as well as interaction with a large, broad and diverse audience.
+In addition, Euro-Par conferences provide a platform for a number of accompanying,
+technical workshops for smaller and emerging communities. 
+
+
+VENUE AND ORGANIZATION
+
+Euro-Par 2023 will be held as a primarily in-person event (although remote
+presentation and participation will be supported, if needed). The venue place is
+the 5* St. Raphael Resort, in Limassol, Cyprus. Euro-Par 2023 is organised by the
+Department of Computer Science of the University of Cyprus. The General Chair
+is George A. Papadopoulos and the Program Chairs are Marios D. Dikaiakos and 
+Rizos Sakellariou. The Organizing Committee is listed on the web site:
+https://2023.euro-par.org/conference/committees/ .
+
+
+SUBMISSION GUIDELINES
+
+The Euro-Par 2023 proceedings will be published by Springer in the LNCS series. 
+• Papers must be in PDF format and should not exceed 14 pages (including
+references)
+• Papers must be formatted in the Springer LNCS style:
+https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines
+• Papers that don’t meet these requirements might be rejected without a review
+• Contributions submitted elsewhere or currently under review will not be considered 
+• All submitted papers will be checked for originality by Springer iThenticate;
+papers which show an insufficient originality might be rejected without a review
+• Paper submissions are made through EasyChair using the link:
+https://easychair.org/my/conference?conf=europar2023
+
+
+IMPORTANT DATES
+
+• Abstract Submission: February 17, 2023 (AoE)
+• Paper Submission: February 24, 2023 (AoE)
+• Author Notification: April 30, 2023
+• Camera-Ready Papers: June 2, 2023
+• Author Registration: June 2, 2023
+
+
+ARTEFACTS 
+ 
+Authors of accepted papers will be invited to submit an artefact that will be evaluated
+separately.
+
+
+TOPICS
+
+We invite submissions of high-quality, novel and original research results in areas
+of parallel and distributed computing covered by the following list of tracks. More
+information on the tracks can be found on the conference web page:
+https://2023.euro-par.org/submission-of-papers/call-for-papers/
+ 
+Track 1. Programming, Compilers and Performance
+Chairs:
+• Biagio Cosenza, University of Salerno, Italy
+• Thomas Fahringer, University of Innsbruck, Austria
+
+Track 2. Scheduling, Resource Management, Cloud, Edge Computing, and Workflows
+Chairs:
+• Marco Aldinucci, University of Torino, Italy
+• Ivona Brandic, Vienna University of Technology, Austria
+
+Track 3. Architectures and Accelerators
+Chairs:
+• Jesus Carretero, University Carlos III of Madrid, Spain
+• Leonel Sousa, University of Lisbon, Portugal
+
+Track 4. Data Analytics, AI, and Computational Science
+Chairs:
+• Maciej Malawski, AGH University of Science and Technology, Poland
+• Radu Prodan, University of Klagenfurt, Austria
+
+Track 5. Theory and Algorithms
+Chairs:
+• Chryssis Georgiou, University of Cyprus, Cyprus
+• Christos Kaklamanis, University of Patras, Greece
+
+Track 6. Multidisciplinary, Domain-specific and Applied Parallel and Distributed Computing
+Chairs:
+• Francisco F. Rivera, University of Santiago de Compostela, Spain
+• Domenico Talia, University of Calabria, Italy
+

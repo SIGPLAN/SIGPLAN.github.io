@@ -1,0 +1,18 @@
+---
+title: "PLDI 2023 Artifact Evaluation Committee Nominations"
+timestamp: "10/25/2022 0:31:42"
+deadline: "12/31/2022"
+---
+We are looking for motivated students and researchers to be members of the PLDI 2023 Artifact Evaluation Committee (AEC). This year, we are accepting (self-)nominations for the AEC. The artifact evaluation process aims to promote, share and catalog the research artifacts of papers accepted to the PLDI research track.
+
+The self-nomination form is available at: https://forms.gle/WYoR9X1DkVj6KhfQ9  
+
+You can also nominate other people (e.g., students, colleagues) at: https://forms.gle/vRVYYXmpZi1ioXRr8  
+
+As a committee member, the primary responsibilities would be to review the artifacts submitted corresponding to the already accepted papers in the main research track. In particular, you may have to run the associated tool, check whether the results in the main paper can be reproduced, and inspect the data.
+
+We expect the bulk of the review work to take place between end February and early April. Each artifact will take about 8h to review, and reviewers will be assigned about 3 artifacts to review.
+
+Come join us in improving the quality of research in our field!
+
+Manuel Rigger and Xinyu Wang
