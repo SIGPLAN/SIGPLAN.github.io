@@ -14,7 +14,7 @@ and to access the perspectives of researchers from other institutions.
 
 In response to these needs, SIGPLAN-M matches mentors with mentees from different institutions
 for mentoring relationships that last at least a year.
-As of November 2022, there are about 300 and 200 mentors participating in the program.
+As of November 2022, there are about 300 mentees and 200 mentors participating in the program.
 Here are some testimonials from mentees:
 
 > [SIGPLAN-M is] a career saver!
