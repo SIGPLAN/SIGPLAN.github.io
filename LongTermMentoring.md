@@ -115,6 +115,7 @@ We'd like to thank these amazing mentors:
 - Dimitris Vardoulakis
 - John Wickerson
 - James Wilcox
+- Max Willsey
 - Dominik Winterer
 - Li-yao Xia
 
