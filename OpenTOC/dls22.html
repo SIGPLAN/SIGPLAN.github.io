@@ -1,0 +1,105 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>DLS 2022: Proceedings of the 18th ACM SIGPLAN International Symposium on Dynamic Languages</title></head><body><div id="DLtoc"><div id="DLheader"><h1>DLS 2022: Proceedings of the 18th ACM SIGPLAN International Symposium on Dynamic Languages</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3563834"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563834.3567537">Execution vs. Parse-Based Language Servers: Tradeoffs and Opportunities for Language-Agnostic Tooling for Dynamic Languages</a></h3><ul class="DLauthors"><li class="nameList">Stefan Marr</li><li class="nameList">Humphrey Burchell</li><li class="nameList Last">Fabio Niephaus</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>With the wide adoption of the language server protocol, the desire to have IDE-style tooling even for niche and research languages has exploded. The Truffle language framework facilitates this desire by offering an almost zero-effort approach to language implementers to providing IDE features. However, this existing approach needs to execute the code being worked on to capture much of the information needed for an IDE, ideally with full unit-test coverage.  
+</p>
+<p>
+To capture information more reliably and avoid the need to execute the code being worked on, we propose a new parse-based design for language servers. Our solution provides a language-agnostic interface for structural information, with which we can support most common IDE features for dynamic languages.  
+</p>
+<p>
+Comparing the two approaches, we find that our new parse-based approach requires only a modest development effort for each language and has only minor tradeoffs for precision, for instance for code completion, compared to Truffle's execution-based approach.  
+</p>
+<p>
+Further, we show that less than 1,000 lines of code capture enough details to provide much of the typical IDE functionality, with an order of magnitude less code than ad hoc language servers. We tested our approach for the custom parsers of Newspeak and SOM, as well as SimpleLanguage's ANTLR grammar without any changes to it. Combining both parse and execution-based approaches has the potential to provide good and precise IDE tooling for a wide range of languages with only small development effort. By itself, our approach would be a good addition to the many libraries implementing the language server protocol to enable low-effort implementations of IDE features.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563834.3567538">Who You Gonna Call: Analyzing the Run-Time Call-Site Behavior of Ruby Applications</a></h3><ul class="DLauthors"><li class="nameList">Sophie Kaleba</li><li class="nameList">Octave Larose</li><li class="nameList">Richard Jones</li><li class="nameList Last">Stefan Marr</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Applications written in dynamic languages are becoming larger and larger and companies increasingly use multi-million line codebases in production. At the same time, dynamic languages rely heavily on dynamic optimizations, particularly those that reduce the overhead of method calls.  
+In this work, we study the call-site behavior of Ruby benchmarks that are being used to guide the development of upcoming Ruby implementations such as TruffleRuby and YJIT.  
+We study the interaction of call-site lookup caches, method splitting, and elimination of duplicate call-targets.  
+We find that these optimizations are indeed highly effective on both smaller and large benchmarks, methods and closures alike, and help to open up opportunities for further optimizations such as inlining. However, we show that TruffleRuby’s splitting may be applied too aggressively on already-monomorphic call-sites, coming at a run-time cost.  
+We also find three distinct patterns in the evolution of call-site behavior over time, which may help to guide novel optimizations. We believe that our results may support language implementers in optimizing runtime systems for large code-bases built in dynamic languages.</p>
+			</div></div>
+							
+						</div></div></body></html>

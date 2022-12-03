@@ -1,0 +1,148 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>PAINT 2022: Proceedings of the 1st ACM SIGPLAN International Workshop on Programming Abstractions and Interactive Notations, Tools, and Environments</title></head><body><div id="DLtoc"><div id="DLheader"><h1>PAINT 2022: Proceedings of the 1st ACM SIGPLAN International Workshop on Programming Abstractions and Interactive Notations, Tools, and Environments</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3563836"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563836.3568722">Interleaved 2D Notation for Concatenative Programming</a></h3><ul class="DLauthors"><li class="nameList Last">Michael Homer</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Concatenative languages use implicit argument passing to provide a 
+ concise expression of programs comprising many composed 
+ transformation functions. 
+ However, they are sometimes regarded as "write-only" languages 
+ because understanding code requires mentally simulating 
+ the manipulations of the argument stack to identify where values 
+ are produced and consumed. 
+ All of this difficulty can be avoided with a notation that presents 
+ both the functions and their operands simultaneously, which can also 
+ ease editing by making available values and functions directly 
+ apparent. 
+ This paper presents a two-dimensional notation for these programs, 
+ comprising alternating rows of functions and operands with arguments 
+ and return values indicated by physical layout, and a tool for 
+ interactive live editing of programs in this notation.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563836.3568723">Interaction vs. Abstraction: Managed Copy and Paste</a></h3><ul class="DLauthors"><li class="nameList">Jonathan Edwards</li><li class="nameList Last">Tomas Petricek</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Abstraction is at the core of programming, but it has a cost. We exhort programmers to use proper abstractions like functions but they often find it easier to copy &amp; paste instead. Copy &amp; paste is roundly criticized because subsequent changes to copies may have to be manually reconciled, which is easily overlooked and easily mistaken. It seems there is a conflict between the generality and reusability of abstraction with the simplicity of copying and modifying code. </p><p>We suggest that this conflict arises because we are still thinking in terms of paper-based notations. Indeed the term “copy &amp; paste” originates from the practice of physically cutting and gluing slips of paper. But an interactive programming environment can free us from the limitations of paper. We propose <em>managed copy &amp; paste</em>, in which the programming environment records copy &amp; paste operations, along with structural edit operations, so that it can track the differences between copies and reconcile them on command. These capabilities mitigate the aforementioned problems of copy &amp; paste, allowing abstraction to be deferred or reduced. </p><p>Managed copy &amp; paste resembles version control as in git, except that it works not between versions of a program but between copies within the program. It is based on a new theory of structural editing and version control that offers precise differencing based on edit history rather than the heuristic differencing of textual version control. We informally explain this theory and demonstrate a prototype implementation of a data science notebook. Lastly, we suggest further mechanisms of <em>gradual abstraction</em> that could be provided by the programming environment to lessen the cognitive load of programming.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563836.3568724">Creating Dynamic Prototypes from Web Page Sketches</a></h3><ul class="DLauthors"><li class="nameList">Tommaso Calò</li><li class="nameList Last">Luigi De Russis</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>While web designers draw user interface sketches as a first step toward creating a Web application, transforming those sketches into a prototypical coded interface is still a manual and time-consuming task.  
+Recently, researchers focused on easing this part of the design process by applying machine learning techniques to generate code from sketches automatically. These methods effectively convert a sketch into a skeleton structure of the web page but are not designed to deal with dynamic behaviors of the page, such as links, buttons, or dropdowns menu. Indeed, to our knowledge, they only allow the creation of static prototypes.  
+In this paper, we move the first steps to support the creation of dynamic prototypes from sketches. We introduce both a set of symbols that a designer can use on their sketches to model dynamic behaviors and the related implementation to generate dynamic prototypes. Finally, we test our method on a few sketched components to assess the suitability of the approach.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563836.3568725">Toward a VR-Native Live Programming Environment</a></h3><ul class="DLauthors"><li class="nameList">Leonard Geier</li><li class="nameList">Clemens Tiedt</li><li class="nameList">Tom Beckmann</li><li class="nameList">Marcel Taeumel</li><li class="nameList Last">Robert Hirschfeld</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Fast feedback loops between performing code changes and seeing their outcome help developers to be productive. For development of virtual reality (VR) applications, developers use a separate device, forcing them to switch devices whenever they want to test their application, thus significantly increasing the length of the feedback loop.  
+In this paper, we describe a prototypical development environment that allows writing VR applications while inside VR. Unlike previous work in this area that projected traditional 2D editors into the 3D world, we explore the use of direct manipulation in a structured editor for the general-purpose programming language Smalltalk. We present and discuss insights from a preliminary user study with four participants. Our findings demonstrate that the concept does work if users are given prior instructions, especially for smaller features where direct feedback is valuable, but ergonomics of both the hardware and our prototype have to be improved before extended programming sessions are viable.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563836.3568726">Blocks, Blocks, and More Blocks-Based Programming</a></h3><ul class="DLauthors"><li class="nameList">Ben Selwyn-Smith</li><li class="nameList">Craig Anslow</li><li class="nameList Last">Michael Homer</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Blocks-based programming is a common way to teach novices how to program. However, there are many block-based languages to choose from. This paper reviews Block-Based Programming Languages (BBPLs), takes a detailed look at a number of existing BBPLs including their features and comparing and contrasting these languages. Finally, through a number of research questions, this paper evaluates the current state of the art and points out areas for potential further research.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563836.3568727">Domain-Specific Visual Language for Data Engineering Quality</a></h3><ul class="DLauthors"><li class="nameList">Alexis De Meo</li><li class="nameList Last">Michael Homer</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Data engineering pipelines process large amounts of information, and 
+ ensuring that the quality and integrity of the data is maintained 
+ throughout is critical for technical, business, and social reasons. 
+ Conventional data quality assurance approaches require a large amount 
+ of fine-grained testing code, which is laborious, easy to get out of 
+ sync, and inscrutable to non-technical stakeholders. 
+ An executable higher-level visual approach to expressing quality 
+ requirements can 
+ serve as a shared representation of these constraints and their 
+ implications for all parties, eliminating repetition while increasing 
+ accessibility and maintainability. 
+ We present a visual programming language for expressing data 
+ quality requirements within a pipeline declaratively, 
+ structured as a diagram of compositional data flow, transformation, 
+ and validation steps.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563836.3568728">Suppose You Had Blocks within a Notebook</a></h3><ul class="DLauthors"><li class="nameList">Mauricio Verano Merino</li><li class="nameList">Juan Pablo Sáenz</li><li class="nameList Last">Ana María Díaz Castillo</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Computational notebooks have been gaining prominence as a development environment suitable for non-experienced developers. However, it requires proficiency in writing syntactically and semantically correct code. In this article, we propose integrating a block-based approach into computational notebooks to prevent syntactical errors and ease the non-expert developers' adoption. Furthermore, we rely on two tools previously implemented (Bacatá and Kogi) to (i) create a computational notebook for Domain-Specific Languages and (ii) generate a block-based representation upon the language definition. Consequently, our approach does not exclusively focus on integrating a block-based environment into computational notebooks but on enabling the creation and integration of domain-specific block-based environments into notebooks. Future work concerns the evaluation of our proposal through a user study.</p>
+			</div></div>
+							
+						</div></div></body></html>

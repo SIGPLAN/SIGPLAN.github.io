@@ -1169,3 +1169,43 @@
   event: OOPSLA
   year: 2022
   title: "Proceedings of the 2019 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+-
+  event: SLE
+  year: 2022
+  title: "Proceedings of the 15th ACM SIGPLAN International Conference on Software Language Engineering"
+-
+  event: SPLASH Companion
+  year: 2022
+  title: "Companion Proceedings of the 2022 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity"
+-
+  event: PAINT
+  year: 2022
+  title: "Proceedings of the 1st ACM SIGPLAN International Workshop on Programming Abstractions and Interactive Notations, Tools, and Environments"
+-
+  event: REBLS
+  year: 2022
+  title: "Proceedings of the 9th ACM SIGPLAN International Workshop on Reactive and Event-Based Languages and Systems"
+-
+  event: Onward!
+  year: 2022
+  title: "Proceedings of the 2022 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software"
+-
+  event: FTSCS
+  year: 2022
+  title: "Proceedings of the 8th ACM SIGPLAN International Workshop on Formal Techniques for Safety-Critical Systems"
+-
+  event: VMIL
+  year: 2022
+  title: "Proceedings of the 14th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages"
+-
+  event: SPLASH-E
+  year: 2022
+  title: "Proceedings of the 2022 ACM SIGPLAN International Symposium on SPLASH-E"
+-
+  event: GPCE
+  year: 2022
+  title: "Proceedings of the 21st ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences"
+-
+  event: DLS
+  year: 2022
+  title: "Proceedings of the 18th ACM SIGPLAN International Symposium on Dynamic Languages"

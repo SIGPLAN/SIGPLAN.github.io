@@ -1,0 +1,112 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>REBLS 2022: Proceedings of the 9th ACM SIGPLAN International Workshop on Reactive and Event-Based Languages and Systems</title></head><body><div id="DLtoc"><div id="DLheader"><h1>REBLS 2022: Proceedings of the 9th ACM SIGPLAN International Workshop on Reactive and Event-Based Languages and Systems</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3563837"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563837.3568338">Towards Introducing Asynchronous Tasks to an FRP Language for Small-Scale Embedded Systems</a></h3><ul class="DLauthors"><li class="nameList">Akihiko Yokoyama</li><li class="nameList">Sosuke Moriguchi</li><li class="nameList Last">Takuo Watanabe</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Emfrp is a functional reactive programming language designed for small embedded systems. By imposing certain restrictions on the language mechanism, the language guarantees the termination of the update process for each time-varying value and enables static determination of the amount of memory required for execution. This allows Emfrp programs to run safely even in resource-constrained execution environments. However, the abovementioned restrictions make it difficult to write time-consuming operations (heavy tasks) such as graph structure construction and exploration based on external data. Moreover, since Emfrp updates time-varying values synchronously, a naive implementation of such heavy tasks using external function calls will result in a slow response time to input. Some existing programming languages provide asynchronous processing mechanisms to ensure descriptiveness and responsiveness for heavy tasks. In this study, we propose a method to introduce heavy tasks into reactive programs naturally by introducing language mechanisms equivalent to asynchronous processing mechanisms, such as future and promise, into Emfrp. In this paper, we first discuss the problems with a naive implementation of heavy tasks in Emfrp, then explain the proposed method based on an example, and discuss the language runtime implementation.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563837.3568341">Distributed Persistent Signals: Architecture and Implementation</a></h3><ul class="DLauthors"><li class="nameList">Tetsuo Kamina</li><li class="nameList Last">Sota Ueno</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>A signal in reactive programming (RP) is a function of time whose value is updated automatically without performing explicit re-assignments. SignalJ, a Java-based RP language, provides persistent signals, whose update histories constitute time-series data, i.e., a signal is a function of a specified (possibly past) time. These update histories are stored in a time-series database to facilitate the use of persistent signals in an open, distributed setting. However, currently SignalJ is only used in local systems, and there are several obstacles to making it applicable to distributed systems. In this study, we address this problem by proposing a distributed architecture for the SignalJ runtime platform. This architecture includes an ID resolver that makes persistent signals location-transparent and supports a distributed update propagation mechanism that makes distributed time-series data consistent. We realize this architecture by extending the SignalJ compiler and its runtime library as well as providing an add-on to the time-series database. The effectiveness of this architecture is demonstrated by implementing a simple IoT application using this extension.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563837.3568339">FLOREnce: A Hybrid Logic-Functional Reactive Programming Language</a></h3><ul class="DLauthors"><li class="nameList">Louise Van Verre</li><li class="nameList">Humberto Rodriguez Avila</li><li class="nameList">Jens Nicolay</li><li class="nameList Last">Wolfgang De Meuter</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Functional reactive programming (FRP) languages allow programmers to write declarative expressions to denote event-streams. They feature operators (e.g., map, filter, merge, ...) to build compositions of events. Among these operators we would expect to find the traditional Boolean operators to express complex events. To some extent this is true. However, a remarkable absent in existing FRP languages is the logical conjunction, i.e., the and operator. In this paper, we describe the difficulty of introducing logical conjunction in FRP. We then present a new experimental language called FLOREnce that reconciles functional reactive programming with ‘logic reactive programming’ abstractions. The latter emerge naturally when adding a reactive conjunction operator to an event-based FRP language. We present a prototypical implementation of FLOREnce and we study its expressiveness by conducting an experiment.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563837.3568340">Semantics of RxJS</a></h3><ul class="DLauthors"><li class="nameList">Tian Zhao</li><li class="nameList Last">Yonglun Li</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>RxJS is a popular JavaScript library for reactive programming in Web applications. It provides numerous operators to create, combine, transform, and filter discrete events and to handle errors. These operators may be stateful and have side effects, which makes it difficult to understand the precise meaning of the resulting computation. In this paper, we define a formal model for RxJS programs by formalizing a selected subset of RxJS operators using a small-step operational semantics. We present several debugging related applications using the semantics as a model. We also implemented a subset of RxJS based on this semantics, which provides convenient access to the runtime representation of the RxJS program to help debugging.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563837.3568342">Reactive Programming on the Bare Metal: A Formal Model for a Low-Level Reactive Virtual Machine</a></h3><ul class="DLauthors"><li class="nameList">Bjarno Oeyen</li><li class="nameList">Joeri De Koster</li><li class="nameList Last">Wolfgang De Meuter</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Reactive programming has many applications for embedded devices in IoT and other application domains.  
+For these constrained devices it is crucial to bound the overhead of the execution of non-functional concerns such as glitch freedom.  
+Reactive programming languages with static dependency graphs can implement glitch freedom by topologically sorting the dependency graph ahead of time.  
+However, for more traditional reactive programming languages that support a dependency graph that can dynamically change, glitch freedom is typically implemented using a priority queue in which signals are enqueued according to their location in the graph.  
+This is undesirable for embedded devices, as dynamically updating this priority queue has an undesirable, and sometimes unbounded, overhead.  
+In this paper, we present a small-step operational semantics of a virtual machine specialised for running reactive programs that combines static ahead-of-time compilation of reactive programs into topologically sorted dependancy graphs while maintaining support for dynamic modifications to those dependency graphs.</p>
+			</div></div>
+							
+						</div></div></body></html>
