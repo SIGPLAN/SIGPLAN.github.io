@@ -118,6 +118,7 @@ We'd like to thank these amazing mentors:
 - Max Willsey
 - Dominik Winterer
 - Li-yao Xia
+- Jonathan DiLorenzo
 
 And we'd of course also like to thank everyone else who has served or currently serves as a mentor for SIGPLAN-M!
 
