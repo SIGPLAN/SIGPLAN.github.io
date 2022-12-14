@@ -1,0 +1,28 @@
+---
+title: "ASPLOS 2023 Call for Workshops and Tutorials"
+timestamp: "11/30/2022 9:44:46"
+deadline: "12/15/2022"
+---
+ASPLOS 2023 Call for Workshops and Tutorials
+https://asplos-conference.org/calls-workshop/
+
+We solicit workshop and tutorial proposals for ASPLOS 2023 in Vancouver, Canada. Workshops and tutorials will be held on Saturday, March 25th 2023, and Sunday, March 26th 2023.
+
+Workshops: We encourage proposals in the interplay between programming languages, computer architecture, operating systems, and user interfaces to deal with challenges such as power, performance, resilience, and programmer productivity in emerging areas (e.g., datacenter/cloud computing, systems based on non-volatile memory technologies, large-scale data analysis, smart infrastructure, and extreme-scale computing).
+
+Tutorials: We solicit proposals for both half- and full-day tutorials on any topic that is relevant to the ASPLOS audience. In previous years, tutorials seeking to achieve either of the following goals have been particularly successful:
+
+– Describe an important piece of research infrastructure.
+– Educate the community on an emerging topic.
+
+Important Dates
+Workshop Submission Deadline: December 15th 2022
+Tutorial Submission Deadline: December 15th 2022
+
+Notification
+We will evaluate proposals as they come in and give notification as soon as possible.
+Latest Workshop Notification: January 1st 2023
+Latest Tutorial Notification: January 1st 2023
+
+Feel free to reach out to Meni Orenbach at morenbach@nvidia.com and Mark Silberstein at mark@ee.technion.ac.il with any questions.
+

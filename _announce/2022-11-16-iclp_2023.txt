@@ -1,0 +1,236 @@
+---
+title: "ICLP 2023: Logic Programming, London (UK), 9-15 July 2023 (CFP)"
+timestamp: "11/16/2022 5:39:54"
+deadline: "1/23/2023"
+---
+Please circulate within your networks. Apologies for multiple postings.
+
+=========================================================================
+                         FIRST CALL FOR PAPERS
+=========================================================================
+
+
+The 39th International Conference on Logic Programming (ICLP 2023)
+        https://iclp2023.imperial.ac.uk/
+
+                             London, UK
+                           July 9-15, 2023
+
+ICLP 2023 will be an in-person event in London, UK.
+
+=========================================================================
+
+Scope
+*****
+
+Since the first conference held in Marseille in 1982, ICLP has been
+the premier international event for presenting research in logic
+programming. Contributions are sought in all areas of logic
+programming, including but not restricted to:
+
+** Theoretical Foundations.
+** Language Design and Programming Methodologies.
+** Program Analysis and Optimization.
+** Implementation Methodologies.
+** Related Paradigms, Integration, and Synergies.
+** Applications of Logic Programming.
+
+Tracks and Special Sessions
+***************************
+Besides the main track, ICLP 2023 will host additional tracks:
+
+** Applications Track:
+   we invite submissions of papers on emerging and deployed
+   applications of LP, describing all aspects of the development,
+   deployment, and evaluation of logic programming systems to solve
+   real-world problems, including interesting case studies and
+   benchmarks, and discussing lessons learned.
+
+** Thematic Tracks:
+   we invite submissions to two thematic tracks, exploring specific
+   roles and potential for logic programming; these thematic tracks
+   are:
+   - Logic Programming and Machine Learning
+   - Logic Programming and Explainability, Ethics, and Trustworthiness
+
+** Recently Published Research Track:
+   this track provides a forum to discuss important results related to
+   logic programming that appeared recently (from January 2021
+   onwards) in selective journals and conferences, but have not been
+   previously presented at ICLP.
+
+** System Demonstrations:
+   we invite submissions showcasing logic programming systems and
+   implementations in a live setting. This track is not designed to be
+   sales pitches, demonstrations are a way for the community to see
+   the relevance, potential, and innovation of the tool and allow time
+   for discussion with its creator.
+
+** Birds-of-a-Feather (BoF) sessions:
+   we invite proposals for sessions meant to provide an inclusive
+   environment for colleagues with similar interests to meet for
+   informal discussion. Proposers of BoF sessions should serve as
+   discussion leaders only. BoFs are not intended to be presentations.
+
+In addition,  ICLP 2023 will host:
+
+** Doctoral Consortium and Mentoring Sessions:
+   the Doctoral Consortium (DC) on Logic Programming provides students
+and early career researchers with the opportunity to present and
+discuss their research directions, obtain feedback from both peers and
+experts in the field, and participate in mentoring sessions on how to
+prepare and succeed for a research career. We will have leaders in
+logic programming research from academia and industry to give invited
+talks on their research areas. The best paper from the DC will be
+given the opportunity to make a presentation in a session of the main
+ICLP conference.
+
+** Tutorials.
+** Co-located Workshops.
+** Summer School on Logic Programming.
+** Logic Programming Contest.
+
+
+Important Dates:
+****************
+
+** Abstract registration: January 23, 2023
+** Paper submission (regular, applications, thematic tracks): January 31, 2023
+** Notification to authors: February 28, 2023
+** Revision submission (TPLP papers): March 20, 2023
+** Paper submission (short papers, technical comms, recently published, demo, BoF): April 28, 2023
+** Workshop proposals: March 20, 2023
+** Final notifications (all paper kinds): May 19, 2023
+** Camera-ready copy due (all paper kinds): May 26, 2023
+** Conference: July 9-15, 2023
+
+(Deadlines expire at the end of the day, anywhere on earth.)
+
+Submission Details
+******************
+All submissions must be written in English.
+
+We note that papers accepted at ICLP may appear either in
+    * Theory and Practice of Logic Programming Journal (TPLP), or
+    * Technical Communication Proceeding (TC) published by
+      Electronic Proceedings in Theoretical Computer Science (EPTCS)
+
+TPLP format is described at
+    https://www.cambridge.org/core/journals/theory-and-practice-of-logic-programming/information/instructions-contributors
+
+EPTCS format is described at
+   http://style.eptcs.org/
+
+All accepted papers will be presented during the conference. Authors
+of accepted papers will, by default, be automatically included in the
+list of ALP members, who will receive quarterly updates from the Logic
+Programming Newsletter at no cost.
+
+Expected submissions:
+
+* For Main Track, Application Track, and Thematic Tracks:
+
+  All papers must describe original, previously unpublished research,
+  and must not simultaneously be submitted for publication elsewhere.
+  These restrictions do not apply to previously accepted workshop papers
+  with a limited audience and/or without archival proceedings.
+
+** Regular papers (14 pages in TPLP format, including references)
+   The accepted regular papers will be published in TPLP. The program
+   committee may recommend some regular papers to be published in
+   Technical Communication Proceeding (TC). In this case, the papers
+   will have to be reformatted into EPTCS format and not exceed 14
+   pages. Authors who submitted Regular papers that were accepted as
+   TC may elect to convert their submissions into extended abstracts
+   (2 or 3 pages in EPTCS format). This should allow authors to submit
+   a long version elsewhere.
+   
+** Short papers (7 pages in EPTCS format, including references).
+   The accepted short papers will be published in the Technical
+   Communication Proceedings.
+   
+*  Recently Published Research Track
+
+** Extended abstract (2 or 3 pages in EPTCS format) describing
+   previously published research (from January 2021 onwards) in
+   selective journals and conferences, but that have not been
+   previously presented at ICLP. A title page should be appended to
+   the submission with (i) details on the venue, where the original
+   paper appeared, (ii) a link to the original paper, (iii) a
+   paragraph describing why the authors believe this work warrants a
+   presentation at ICLP. The extended abstracts will be published in
+   the Technical Communication Proceedings.
+   
+*  System Demonstrations and BoF Proposals
+
+** Extended abstract (2 or 3 pages in EPTCS format).
+   System demonstrations should provide highlights of the novel
+   features of the system, along with information about how to access
+   it. BoF proposals should motivate the choice of the topic and its
+   relevance to logic programming, describe the expected audience,
+   identify discussion leaders and their expertise, and provide a
+   brief description of the activities during the BoF session. We
+   expect BoFs to be inclusive and involve active participation for
+   attendees. Describe how your BoF will use inclusive practices and
+   foster attendee involvement. The extended abstracts will be
+   published in the Technical Communication Proceedings.
+
+   
+Submissions will be done via EasyChair.
+The submission Web page for ICLP2023 is 
+https://easychair.org/conferences/?conf=iclp2023
+
+
+Organization
+************
+
+** General Chairs
+   Alessandra Russo and Francesca Toni, Imperial College London, UK
+
+** Program Chairs
+   Stefania Costantini, Universita' dell'Aquila, Italy
+   Enrico Pontelli, New Mexico State University, USA
+
+** Publicity Chair
+   Guilherme Paulino-Passos and Alex Spies, Imperial College London, UK 
+
+** Workshop Chair
+   Wolfgang Faber, University of Klagenfurt, Austria
+
+** Tutorials Chairs
+   Agostino Dovier, University of Udine, Italy
+   Esra Erdem, Sabanci University, Turkey
+
+** Doctoral Consortium Chairs
+   Francesco Fabiano, University of Udine, Italy
+   Alessandra Mileo, DCU, Ireland
+
+** Programming Contest Chairs
+   Martin Gebser, Graz University of Technology, Austria
+   Mario Alviano, University of Calabria, Italy
+
+** Recently Published Research Track Chair
+   Sarah Gaggl, TU Dresden, Germany
+
+** Application and Systems/Demo Chair
+   Carmine Dodaro, University of Calabria, Italy
+
+** Summer School Organizers
+   Simona Perri, University of Calabria, Italy
+
+** Thematic Tracks Chairs:
+   - LP and Explainability, Ethics and Trustworthiness
+     Roberta Calegari, University of Bologna, Italy
+   - LP and Machine Learning
+     Artur Garcez, City University of London, UK
+
+** BoF Chair
+   Luciano Serafini, FBK, Italy
+
+
+=========================================================================
+Any additional question can be directed towards the ICLP Chairs:
+
+  iclp2023@easychair.org
+=========================================================================
+

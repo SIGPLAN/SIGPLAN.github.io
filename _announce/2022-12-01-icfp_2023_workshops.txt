@@ -1,0 +1,83 @@
+---
+title: "28th ACM SIGPLAN International Conference on Functional Programming (ICFP 2023): Call for Workshop and Co-Located Event Proposals"
+timestamp: "12/1/2022 13:32:00"
+---
+        CALL FOR WORKSHOP AND CO-LOCATED EVENT PROPOSALS
+                            ICFP 2023
+ 28th ACM SIGPLAN International Conference on Functional Programming
+
+
+                      September 4 - 9, 2023
+                        Seattle, WA, USA
+                    https://icfp23.sigplan.org/
+
+The 28th ACM SIGPLAN International Conference on Functional
+Programming will be held in Seattle, WA, USA on September 4 - 9,
+2023, with the option of virtual participation. ICFP provides a forum
+for researchers and developers to hear about the latest work on the
+design, implementations, principles, and uses of functional
+programming.
+
+Proposals are invited for workshops (and other co-located events,
+such as symposiums) to be affiliated with ICFP 2023 and sponsored by
+SIGPLAN. These events should be less formal and more focused than
+ICFP itself, include sessions that enable interaction among the
+attendees, and foster the exchange of new ideas. The preference is
+for one-day events, but other schedules can also be considered.
+
+The workshops are scheduled to occur on September 4th (the day before
+ICFP) and September 8-9th (the two days after ICFP).
+
+----------------------------------------------------------------------
+
+Submission details
+ Deadline for submission:     December 22, 2022
+ Notification of acceptance:  January  13, 2023
+
+Prospective organizers of workshops or other co-located events are
+invited to submit a completed workshop proposal form in plain text
+format to the ICFP 2023 workshop co-chairs (Arthur Azevedo de Amorim
+and Yannick Forster) via email to
+
+   icfp-workshops-2023@googlegroups.com
+
+by December 22, 2022. (For proposals of co-located events other than
+workshops, please fill in the workshop proposal form and just leave
+blank any sections that do not apply.) Please note that this is a
+firm deadline.
+
+Organizers will be notified whether their event proposal is accepted 
+by January 13, 2023, and if successful, depending on the event, they
+will be asked to produce a final report after the event has taken
+place that is suitable for publication in SIGPLAN Notices.
+
+The proposal form is available at:
+
+http://www.icfpconference.org/icfp2023-files/icfp23-workshops-form.txt
+
+Further information about SIGPLAN sponsorship is available at:
+
+http://www.sigplan.org/Resources/Proposals/Sponsored/
+
+----------------------------------------------------------------------
+
+Selection committee
+
+The proposals will be evaluated by a committee comprising the
+following members of the ICFP 2023 organizing committee, together
+with the members of the SIGPLAN executive committee.
+
+ Workshop Co-Chair: Arthur Azevedo de Amorim       (Boston University)
+ Workshop Co-Chair: Yannick Forster                     (Inria Nantes)
+ General Chair:     Nikhil Swamy                  (Microsoft Research)
+ Program Chair:     Sam Lindley              (University of Edinburgh)
+
+
+----------------------------------------------------------------------
+
+Further information
+
+Any queries should be addressed to the workshop co-chairs (Arthur
+Azevedo de Amorim and Yannick Forster), via email to
+icfp-workshops-2023@googlegroups.com.
+

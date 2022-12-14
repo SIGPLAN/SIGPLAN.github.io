@@ -1,0 +1,64 @@
+---
+title: "PLDI 2023 Student Research Competition (SRC)"
+timestamp: "12/12/2022 17:16:49"
+deadline: "3/23/2023"
+---
+# Call for Student Research Competition Submissions
+
+The Student Research Competition (SRC) at PLDI allows students to present their research and get feedback from prominent members of the programming language research community. It’s an opportunity for students to network, practice presentation skills, and showcase their work. PLDI invites students (both at the graduate and undergraduate level) to submit their research.
+
+Over the past three years, we have explored various ways to make the Student Research Competition (SRC) accessible to a wider audience. Every format comes with its own set of pros and cons. In fully virtual conferences, we miss seeing our friends and colleagues in person; on the other hand, we also enjoy seeing more participation globally. At the same time, many have found that a hybrid format inhibits engagement from all participants (remote and in-person). Last year, we introduced the two-track format where we incorporated the positive components of a hybrid event (increased accessibility) while mitigating the negative components (limited engagement). This year, we will again use the same format and hope that it will continue to increase participation!
+
+## Two-Track SRC Model
+
+This model comprises of two pools of submissions: (1) students who present their work primarily in-person, and (2) students who present their work primarily virtually. To aid with planning, students are strongly encouraged to select one of the tracks at submission time. We will do our best to accommodate any changes after submission.
+
+Our hope is that the virtual track will allow more students to participate, regardless of travel restrictions or monetary constraints. However, we will note that virtual participants may have limited access to the rest of the conference depending on how the different programs are offered (e.g., if they are streamed or not). Thus, in-person attendees will likely be able to engage with the wider conference, and attendees, more fully.
+
+*Note that the selection criterion of the Student Research Competition is not dependent on the mode of presentation. All students will be evaluated according to the same criteria.*
+
+## Submission
+
+The main body of the submission is a title and extended abstract consisting of the following:
+
+**Problem and Motivation:** Clearly state the problem being addressed and explain the reasons for seeking a solution to this problem.
+
+**Background and Related Work:** Describe the specialized (but pertinent) background necessary to appreciate the work in the context of PLDI areas of interest. Include references to the literature where appropriate, and briefly explain where your work departs from that done by others.
+
+**Approach and Uniqueness:** Describe your approach in addressing the problem and clearly state how your approach is novel.
+
+**Results and Contributions:** Clearly show how the results of your work contribute to programming language design and implementation in particular and to computer science in general; explain the significance of those results.
+
+The final submission must also include the student author’s name, email address, institutional affiliation, research advisor’s name(s), ACM student member number, category (undergraduate or graduate), and mode of presentation (in-person or virtual). We recommend including all this information in the standard author contact information region.
+
+Submissions must be original research that is not already published at PLDI or another conference or journal. One of the goals of the SRC is to give students feedback on ongoing, unpublished work. Furthermore, the abstract must be authored solely by the student. If the work is collaborative with others and/or part of a larger group project, the abstract should make clear what the student’s role was and should focus on that portion of the work.
+
+The extended abstract must not exceed 1000 words and must not be longer than 2 pages. Reference lists do not count towards these limits.
+
+When you’re ready, submit your extended abstract at the submission site: https://pldi23src.hotcrp.com/.
+
+Should you have any questions on if your work is a good fit for the SRC track, please reach out to the SRC Co-Chairs.
+
+## Presentation and Attendance
+
+Students accepted to the SRC based on their extended abstracts will proceed to the Poster (pre-Finale) Round. For the Poster Round, students must submit:
+
+* a research poster to present at PLDI,
+* a 5-minutes pre-recorded talk
+
+In the two-track SRC model, the in-person track will be formatted as a traditional SRC: there will be an in-person poster session for three hours, in which PLDI attendees and in-person judges can walk around and interact with the students. The virtual track will be held in a virtual space that will be available to all PLDI attendees. In addition, we will have a pool of virtual judges that will walk around and interact with the virtual students. For some cross-over, we will organize for a TV in the in-person session, which will rotate through the virtual posters.
+
+The top three undergraduate participants and the top three graduate participants (selected across both the virtual and in-person tracks) will proceed to the Final Presentation Round. The final round of SRC will be conducted in a conference room where in-person finalists will first present (streamed over Zoom), and virtual finalists will present via Zoom. Both the virtual and in-person judges/attendees will get a chance to ask questions during the Q&A session after each talk.
+
+## Participation
+
+The Student Research Competition (SRC) at PLDI has always strived to improve engagement and accessibility to students around the world. To this aim, we will provide the opportunity for a round of asynchronous peer-review discussions amongst the SRC participants. The peer-review process is an opportunity for the SRC speakers to share their feedback, ask questions to their fellow peers, and help them make improvements for the poster and presentation round. This is also an opportunity for in-person and virtual speakers to engage prior to the SRC poster round.
+
+We hope to utilize our experiences over the last two years to enable sufficient engagement in both tracks. We will work to provide tooling support, organization, and publicity to ensure all participants have a positive experience.
+
+Good luck, and we hope to see you in June!
+
+SRC Chairs:
+- Chandrakana Nandi, Certora, inc.
+- Jubi Taneja, Microsoft Research
+
