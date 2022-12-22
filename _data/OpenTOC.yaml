@@ -1209,3 +1209,7 @@
   event: DLS
   year: 2022
   title: "Proceedings of the 18th ACM SIGPLAN International Symposium on Dynamic Languages"
+-
+  event: ASPLOS
+  year: 2023
+  title: "Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1"
