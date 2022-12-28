@@ -16,7 +16,7 @@ languages free of restrictions on both access and use.
 
 
 Editor-in-Chief:
-  - [Philip Wadler](http://homepages.inf.ed.ac.uk/wadler/), University of Edinburgh
+  - [Michael Hicks](http://www.cs.umd.edu/~mwh/), University of Maryland, USA
 
 Advisory Board:
   - [Giuseppe Castagna](https://www.irif.fr/~gc/), Paris Diderot University & CNRS, France<br>
