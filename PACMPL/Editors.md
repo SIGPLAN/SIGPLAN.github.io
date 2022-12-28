@@ -31,14 +31,6 @@ Advisory Board:
     Vice-Chair of SIGPLAN
 
 Senior Editors:
-  - [Azadeh Farzan](https://www.cs.toronto.edu/~azadeh/), University of Toronto, Canada <br>
-    Editor for Volume 5, Issue POPL (January 2021)
-  - [Ronald Garcia](https://www.cs.ubc.ca/~rxg/), University of British Columbia, Canada <br>
-    Editor for Volume 5, Issue ICFP (August 2021)
-  - [Sophia Drossopoulou](https://wp.doc.ic.ac.uk/sd/), Imperial College London, UK <br>
-    Editor for Volume 5, Issue OOPSLA (October 2021)
-
-Associate Editors:
   - [Hongseok Yang](https://sites.google.com/view/hongseokyang/home), KAIST, Korea <br>
     Editor for Volume 6, Issue POPL (January 2022)
   - [Zena M. Ariola](http://ix.cs.uoregon.edu/~ariola/), University of Oregon, USA <br>
@@ -47,13 +39,16 @@ Associate Editors:
     [Jan Vitek](http://janvitek.org/), Northeastern University, USA <br>
     Editor for Volume 6, Issue OOPSLA (October 2022)
 
-Assistant Editors:
+Associate Editors:
   - [Amal Ahmed](http://www.ccs.neu.edu/home/amal/), Northeastern University, USA <br>
-    Editor for Volume 6, Issue POPL (January 2023)
-  - [TBA](), ,  <br>
-    Editor for Volume 6, Issue ICFP (August 2023)
+    Editor for Volume 7, Issue POPL (January 2023)
+  - [Sam Lindley](https://homepages.inf.ed.ac.uk/slindley/), University of Edinburgh, UK <br>
+    Editor for Volume 7, Issue ICFP (August 2023)
   - [Mira Mezini](https://www.stg.tu-darmstadt.de/main_stg/staff_stg/mira_mezini_1.en.jsp), TU Darmstadt, Germany <br>
-    Editor for Volume 6, Issue OOPSLA (October 2023)
+    Editor for Volume 7, Issue OOPSLA (October 2023)
+
+Assistant Editors:
+  - n.n.
 
 Information Director:
   - [Adrian Sampson](https://www.cs.cornell.edu/~asampson/), Cornell University, USA <br>
