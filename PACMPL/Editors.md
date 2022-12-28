@@ -23,8 +23,6 @@ Advisory Board:
     Member at Large (Issue POPL)
   - [Jeremy Gibbons](https://www.cs.ox.ac.uk/people/jeremy.gibbons/), University of Oxford, UK<br>
     Member at Large (Issue ICFP)
-  - [Michael Hicks](http://www.cs.umd.edu/~mwh/), University of Maryland, USA <br>
-    Past Chair of SIGPLAN
   - [Cristina Lopes](https://www.ics.uci.edu/~lopes/), University of California, Irvine, USA <br>
     Member at Large (Issue OOPSLA)
   - [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts University, USA <br>
