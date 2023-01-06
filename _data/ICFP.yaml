@@ -1,25 +1,46 @@
+2022:
+- Awardee: Deian Stefan, Alejandro Russo, Pablo Buiras, Amit Levy, John C. Mitchell and David Mazières
+  Other: |
+    (for 2012) _[Addressing covert termination and timing channels in concurrent information flow systems](https://dl.acm.org/doi/10.1145/2364527.2364557)_
+  Citation: |
+    This paper is among the first to describe covert channels caused
+    by termination and timing in concurrent programs, and it presents
+    a mitigation strategy. It has received attention in the general
+    security community, beyond the usual range of ICFP papers. There
+    are several follow up papers that build on its insights and extend
+    the results to more general settings. It presents a dynamic
+    information control flow system that eliminates termination and
+    internal timing covert channels, while mitigating external timing,
+    all without relying on cooperative scheduling. It achieves this by
+    running potentially sensitive actions in separate threads. The
+    system is implemented as a Haskell library using labeled
+    concurrency primitives, and demonstrated in an example server-side
+    web application framework with untrusted client applications
+    sharing a persistent key-value store, showing how the library
+    addresses potential timing and termination leaks.
+
 2021:
 - Awardee: Nate Foster, Rob Harrison, Michael Freedman, Christopher Monsanto, Jennifer Rexford, Alex Story, and David Walker
   Other: |
     (for 2011) _[Frenetic: A Network Programming Language](https://dl.acm.org/doi/10.1145/2034773.2034812)_
-    Citation: |
-      This is the first conference paper in a highly influential line
-      of work creating a bridge between PL and networking. The authors
-      analyzed deficiencies in the state of the art in languages for
-      programming networks, addressed these limitations in a new
-      language design, and described its implementation and
-      performance on a suite of microbenchmarks. The language applied
-      a range of ideas from the functional programming community: a
-      declarative query language for classifying and aggregating
-      network traffic; a reactive combinator library for describing
-      high-level packet-forwarding policies; and a run-time system
-      that automatically generates the low-level packet-processing
-      rules, installing, uninstalling, and querying them on physical
-      switches.  This paper inspired a mountain of follow-on work by
-      these authors and others. The practical value of improving
-      network programming, and this paper's influence on subsequent
-      advances in the state of the art, make it a deserving winner of
-      the award for Most Influential Paper of ICFP 2011.
+  Citation: |
+    This is the first conference paper in a highly influential line of
+    work creating a bridge between PL and networking. The authors
+    analyzed deficiencies in the state of the art in languages for
+    programming networks, addressed these limitations in a new
+    language design, and described its implementation and performance
+    on a suite of microbenchmarks. The language applied a range of
+    ideas from the functional programming community: a declarative
+    query language for classifying and aggregating network traffic; a
+    reactive combinator library for describing high-level
+    packet-forwarding policies; and a run-time system that
+    automatically generates the low-level packet-processing rules,
+    installing, uninstalling, and querying them on physical switches.
+    This paper inspired a mountain of follow-on work by these authors
+    and others. The practical value of improving network programming,
+    and this paper's influence on subsequent advances in the state of
+    the art, make it a deserving winner of the award for Most
+    Influential Paper of ICFP 2011.
 
 2020:
 - Awardee: David Van Horn and Matthew Might
