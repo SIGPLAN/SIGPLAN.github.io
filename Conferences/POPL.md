@@ -49,6 +49,7 @@ An outdated version is also available in the ACM digital library, [ACM SIGPLAN N
 
 **Web Pages of Previous Conferences**
 
+* [POPL 2023](http://popl23.sigplan.org) (Boston, MA)
 * [POPL 2022](http://popl22.sigplan.org) (Philadelphia, PA)
 * [POPL 2021](http://popl21.sigplan.org) (virtual)
 * [POPL 2020](http://popl20.sigplan.org) (New Orleans, LA)
