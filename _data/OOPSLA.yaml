@@ -8,7 +8,7 @@
     present a programming model that offers the potential for
     introducing subtle concurrency bugs like data races and barrier
     divergences.  This paper presents the first GPU program
-    verification method -- GPUVerify.  GPUVerify translates GPU
+    verification method --- GPUVerify.  GPUVerify translates GPU
     programs into a sequential Boogie program that encodes the aspects
     of program behavior that give rise to data races and barrier
     divergence.  Discharging proofs of the resulting programs requires
