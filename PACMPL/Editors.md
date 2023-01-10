@@ -42,13 +42,22 @@ Senior Editors:
 Associate Editors:
   - [Amal Ahmed](http://www.ccs.neu.edu/home/amal/), Northeastern University, USA <br>
     Editor for Volume 7, Issue POPL (January 2023)
+  - [Nate Foster](https://www.cs.cornell.edu/~jnfoster/), Cornell University, USA <br>
+    Editor for Volume 7, Issue PLDI (June 2023)
   - [Sam Lindley](https://homepages.inf.ed.ac.uk/slindley/), University of Edinburgh, UK <br>
     Editor for Volume 7, Issue ICFP (August 2023)
   - [Mira Mezini](https://www.stg.tu-darmstadt.de/main_stg/staff_stg/mira_mezini_1.en.jsp), TU Darmstadt, Germany <br>
     Editor for Volume 7, Issue OOPSLA (October 2023)
 
 Assistant Editors:
-  - n.n.
+  - [Derek Dreyer](https://people.mpi-sws.org/~dreyer/), MPI-SWS, Germany <br>
+    Editor for Volume 8, Issue POPL (January 2024)
+  - [John Regehr](https://www.cs.utah.edu/~regehr/), University of Utah, USA <br>
+    Editor for Volume 8, Issue PLDI (June 2024)
+  - [n.n.]() <br>
+    Editor for Volume 8, Issue ICFP (August 2024)
+  - [n.n.]() <br>
+    Editor for Volume 8, Issue OOPSLA (October 2024)
 
 Information Director:
   - [Adrian Sampson](https://www.cs.cornell.edu/~asampson/), Cornell University, USA <br>
