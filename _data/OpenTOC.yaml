@@ -1213,3 +1213,16 @@
   event: ASPLOS
   year: 2023
   title: "Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1"
+-
+  event: PEPM
+  year: 2023
+  title: "Proceedings of the 2023 ACM SIGPLAN International Workshop on Partial Evaluation and Program Manipulation"
+-
+  event: CPP
+  year: 2023
+  title: "Proceedings of the 12th ACM SIGPLAN International Conference on Certified Programs and Proofs"
+-
+  event: POPL
+  year: 2023
+  title: "Proceedings of the 50th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
+  link: https://dl.acm.org/toc/pacmpl/2023/7/POPL

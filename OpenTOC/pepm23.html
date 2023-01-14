@@ -1,0 +1,165 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>PEPM 2023: Proceedings of the 2023 ACM SIGPLAN International Workshop on Partial Evaluation and Program Manipulation</title></head><body><div id="DLtoc"><div id="DLheader"><h1>PEPM 2023: Proceedings of the 2023 ACM SIGPLAN International Workshop on Partial Evaluation and Program Manipulation</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3571786"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3571786.3573016">Semantic Transformation Framework for Rewriting Rules</a></h3><ul class="DLauthors"><li class="nameList">Jihee Park</li><li class="nameList">Jaemin Hong</li><li class="nameList Last">Sukyoung Ryu</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Semantics-preserving source-to-source program transformations, such as optimization and refactoring, are essential for software development. Such transformations are often defined by <em>rewriting rules</em> describing which part of a program must be replaced with which subprogram. The main obstacle to designing a transformation is to prove its semantics preservation. Rewriting-rule-based frameworks alleviate this difficulty by giving proof guidelines or automating the proofs. Unfortunately, each framework is applicable to a restricted set of transformations due to a fixed definition of semantics preservation. Cousot and Cousot’s <em>semantic transformation framework</em> resolves this problem by leaving a space for its users to define a proper semantics preservation property. However, the framework does not exploit the characteristic of rewriting rules and fails to ease the proofs. In this work, we define a semantic transformation framework tailored to rewriting rules by refining Cousot and Cousot’s framework. Our framework facilitates modular proofs by providing <em>syntax-directed guidelines</em> and theorems that simplify proofs. We show the versatility of our framework by proving the semantics preservation of six well-known transformations.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3571786.3573018">Symbolic Execution of Hadamard-Toffoli Quantum Circuits</a></h3><ul class="DLauthors"><li class="nameList">Jacques Carette</li><li class="nameList">Gerardo Ortiz</li><li class="nameList Last">Amr Sabry</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The simulation of quantum programs by classical computers is a critical endeavor  
+ for several reasons: it provides proof-of-concept validation of  
+ quantum algorithms; it provides opportunities to experiment with new  
+ programming abstractions suitable for the quantum domain; and most  
+ significantly it is a way to explore the elusive boundary at which a  
+ quantum advantage may materialize. Here, we show that traditional  
+ techniques of symbolic evaluation and partial evaluation yield  
+ surprisingly efficient classical simulations for some instances of  
+ textbook quantum algorithms that include the Deutsch, Deutsch-Jozsa,  
+ Bernstein-Vazirani, Simon, Grover, and Shor's algorithms. The success  
+ of traditional partial evaluation techniques in this domain is due  
+ to one simple insight: the quantum bits used in these algorithms can  
+ be modeled by a symbolic boolean variable while still keeping track  
+ of the correlations due to superposition and entanglement. More  
+ precisely, the system of constraints generated over the symbolic  
+ variables contains all the necessary quantum correlations and hence  
+ the answer to the quantum algorithms. With a few programming tricks  
+ explained in the paper, quantum circuits with millions of gates can  
+ be symbolically executed in seconds. Paradoxically, other circuits  
+ with as few as a dozen gates take exponential time. We reflect on  
+ the significance of these results in the conclusion.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3571786.3573017">Generating Programs for Polynomial Multiplication with Correctness Assurance</a></h3><ul class="DLauthors"><li class="nameList">Ryo Tokuda</li><li class="nameList Last">Yukiyoshi Kameyama</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Program-generation techniques prevail in domains that  
+need high performance, such as linear algebra, image processing,  
+and database. Yet, it is hard to generate  
+high-performance programs with correctness assurance,  
+and cryptography needs both.  
+Masuda and Kameyama proposed a DSL-based framework  
+for implementing a program generator, an analyzer, and  
+a formula generator,  
+and obtained  
+an efficient and correct implementation  
+of Number-Theoretic Transform (NTT) that is necessary  
+for many cryptographic algorithms.  
+</p>
+<p>
+This paper advances their study in two ways.  
+First, we develop a generation-and-analysis framework  
+so that program generation is driven by program analysis.  
+As a concrete result,  
+we have found an optimization missed in previous studies.  
+Second,  
+we investigate whether the framework can be applied to other algorithms,  
+including inverse NTT.  
+By combining generated programs,  
+we have obtained  
+an efficient and correct implementation  
+of polynomial multiplication,  
+the key for several post-quantum cryptographic algorithms.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3571786.3573019">Efficient Embedding of Strategic Attribute Grammars via Memoization</a></h3><ul class="DLauthors"><li class="nameList">José Nuno Macedo</li><li class="nameList">Emanuel Rodrigues</li><li class="nameList">Marcos Viera</li><li class="nameList Last">João Saraiva</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Strategic term re-writing and attribute grammars are two powerful programming techniques widely used in language engineering. The former relies on strategies to apply term re-write rules in defining large-scale language transformations, while the latter is suitable to express context-dependent language processing algorithms. These two techniques can be expressed and combined via a powerful navigation abstraction: generic zippers. This results in a concise zipper-based embedding offering the expressiveness of both techniques.  
+</p>
+<p>
+Such elegant embedding has a severe limitation since it recomputes attribute values. This paper presents a proper and efficient embedding of both techniques. First, attribute values are memoized in the zipper data structure, thus avoiding their re-computation. Moreover, strategic zipper based functions are adapted to access such memoized values. We have implemented our memoized embedding as the Ztrategic library and we benchmarked it against the state-of-the-art Strafunski and Kiama libraries. Our first results show that we are competitive against those two well established libraries.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3571786.3573015">Towards a Reflection for Effect Handlers</a></h3><ul class="DLauthors"><li class="nameList">Youyou Cong</li><li class="nameList Last">Kenichi Asai</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>A reflection is a relationship between compiling and decompiling functions.  
+This concept has been studied as a means to ensure correctness of compilers,  
+in particular, those for languages featuring control effects.  
+We aim to develop a reflection for algebraic effects and handlers.  
+As a first step towards this goal, we investigate what we obtain by following  
+the existing recipe for control operators.  
+We show that, if we use the simplest CPS translation as the compiling  
+function, we can prove most but not all theorems required of a reflection.  
+From this result, we identify two conditions of the CPS translation that  
+would lead to a reflection for effect handlers.</p>
+			</div></div>
+							
+						</div></div></body></html>
