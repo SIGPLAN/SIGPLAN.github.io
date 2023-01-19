@@ -1,0 +1,87 @@
+---
+title: "Functional Art, Music, Modeling and Design (FARM 2022) Sep 15: Call for Participation"
+timestamp: "8/23/2022 7:35:26"
+start: "9/15/2022"
+end: "9/15/2022"
+---
+===============================================================================
+	      10th ACM SIGPLAN International Workshop on
+	     Functional Art, Music, Modelling and Design
+				(FARM)
+	       Ljubljana, Slovenia, 15th September 2022
+		   https://functional-art.org/2022/
+===============================================================================
+				   
+The ACM SIGPLAN International Workshop on Functional Art, Music,
+Modelling and Design (FARM) gathers together people who are harnessing
+functional techniques in the pursuit of creativity and expression.
+
+Functional Programming has emerged as a mainstream software
+development paradigm, and its artistic and creative use is booming. A
+growing number of software toolkits, frameworks and environments for
+art, music and design now employ functional programming languages and
+techniques. FARM is a forum for exploration and critical evaluation of
+these developments, for example to consider potential benefits of
+greater consistency, tersity, and closer mapping to a problem domain.
+
+FARM 2022 will feature an afternoon session of demos, and an evening
+session with a keynote and live performances.
+
+Registration
+------------
+
+You can register via the ICFP 2022 registration:
+
+http://icfp22.sigplan.org/attending/registration
+
+Don't be confused that it says ~ICFP~ - FARM is part of a larger event
+around ICFP 2022, and you can register for FARM without registering
+for ICFP.
+
+If you've registered for ICFP on Sep 15, this includes admissions
+for the keynote and performance evening.
+
+The event is open to the public for a small admissions fee.
+
+Keynote
+-------
+
+Ida Hiršenfelder will hold the keynote.
+
+Accepted demos
+---------------
+
+John Leo
+Counterpoint Analysis and Synthesis
+
+Oleg Kiselyov, Toshihiro Nakayama
+New View on Plasma Fractals – From the High Point of Array Languages
+
+Live Performances
+-----------------
+
+FARM 2022 will feature a session of live performances:
+
+Rob Canning
+Fold Yer Loops!
+
+Enrico Dorigatti
+Xeno
+
+Francesco Corvi aka Nesso
+Live coding with Adapt
+
+Luka Prinčič
+Algoforte
+
+Flor De Fuego
+Specific site: remembering is never a faithful copy
+
+Workshop Organisation
+---------------------
+
+Workshop Chair: John Leo (Halfaya Research)
+Program Chair: Youyou Cong (Tokyo Institute of Technology)
+Performance Chair: Luka Frelih (Ljudmila Art & Science Laboratory)
+Publicity Chair: Michael Sperber (Active Group GmbH)
+

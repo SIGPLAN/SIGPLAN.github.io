@@ -1,0 +1,205 @@
+---
+title: "29th International European Conference on Parallel and Distributed Computing (Euro-Par 2023): Call for Workshops and Minisymposia"
+timestamp: "10/30/2022 7:47:17"
+deadline: "2/10/2023"
+---
+*** Call for Workshops and Minisymposia ***
+
+29th International European Conference on Parallel and Distributed Computing
+(Euro-Par 2023)
+
+August 28 - September 1, 2023, St. Raphael Resort, Limassol, Cyprus
+
+http://2023.euro-par.org
+
+
+SCOPE
+
+Euro-Par is the prime European conference covering all aspects of parallel and
+distributed processing, ranging from theory to practice, from small to the largest
+parallel and distributed systems and infrastructures, from fundamental
+computational problems to applications, from architecture, compiler, language and
+interface design and implementation, to tools, support infrastructures, and
+application performance aspects. To provide a meeting point for researchers to
+discuss and exchange new ideas and hot topics related to parallel and distributed 
+computing and their applications, Euro-Par 2023 will co-locate workshops and, for
+the first time, minisymposia with the main conference. This is an invitation to send
+proposals for the workshop and, for the first time, a minisymposium program. Both
+workshops and minisymposia will be held on August 28 - August 29, 2023, the first
+two days of the conference.
+
+
+WORKSHOPS
+
+Workshop Proposal Guidelines
+
+The proposals should include the following information:
+- Workshop title and acronym, preference for length (half or full-day)
+- Information of the organizers, including a short biography of each organizer
+(5-10 lines). Each workshop will have a single main organizer, the corresponding
+contact. Others can be co-organizers. All the organizers must be a staff member
+at an institution or a company, and no PhD or other students can be organizers.
+- A tentative program committee (10-15 members)
+- Motivation of the workshop:
+* scientific objective
+* interest to the Euro-Par community
+* positioning with respect to the currently existing Euro-Par workshops
+- Description of the workshop:
+* content
+* format (contributed papers, invited talks, panels, posters or any other kind of 
+activity including european project meetings)
+* organizational aspects
+- Workshop background (number of previous editions jointly with Europar or in any 
+other format)
+- Link to international projects/initiatives
+
+The decision about the acceptance/rejection of a workshop proposal will be made
+on the basis of the overall quality of the proposal and the degree to which it matches
+the scope of the conference. In the case that several workshop proposals have very
+similar objectives and scopes, a merge of overlapping workshops may be 
+recommended. The topics covered by a workshop should not overlap with the main 
+topics of the conference. Decisions will be made on a rolling basis. Proposals can 
+already be sent, and the organizers may be notified before the notification deadline
+in case of a strong proposal.
+
+Workshop Organizer Responsibilities
+
+- Preparing the call for papers for the workshop and publicizing it
+- Preparing and maintaining the workshop Web site including the relevant sections
+according to the organization guidelines
+- Selecting the workshop program committee considering that each member of the
+committee should make at least one review
+- Selecting papers through a rigorous peer-review process including at least three 
+reviews per submission using the provided EasyChair installation and considering
+the possible conflicts of interest
+- Delivering the final workshop program to the Euro-Par 2020 conference co-chairs
+in time
+- Delivering the preliminary workshop proceedings in time before the conference
+- Providing the Euro-Par Steering Committee with a Management Report, after the
+conference, with key indicators such as: number of submitted and accepted papers,
+program committee and review process management
+- Delivering the final workshop proceedings with a revised version of the papers in 
+time after the conference in the required Springer LNCS format (12 pages max.) and 
+writing a preface to the workshop. Camera-ready papers will be published only if the
+management report has been delivered
+- Short papers can be accepted and presented at the workshop. However, to be
+included in the formal Springer proceedings, the minimum length is of 10 pages per 
+paper
+- Registering for the conference
+- Meet the deadlines according to the organization guidelines
+
+Workshop Proceedings and Paper Review
+
+The workshop proceedings will be published in a separate LNCS workshop volume
+after the conference. The principal coordinator of each workshop will appear as
+co-editor of the workshop volume. Registered workshop participants will receive
+an electronic copy of the volume by email. All authors of accepted papers will be 
+requested to sign a Springer copyright form.
+
+The Euro-Par organizers will provide an EasyChair setup for all Euro-Par 2020 
+workshops, and its use is mandatory to facilitate paper submissions, reviewing, and
+collecting the camera-ready versions. The workshop papers will not be published in
+the proceedings otherwise. Each workshop will be an independent track within the 
+Workshops' EasyChair installation, but it will be fully manageable by the respective 
+organizers. Papers of less than 10 pages will be considered as short papers that can
+be presented at the conference but not published in the proceedings.
+
+(Submission address and deadline at the end)
+
+
+MINISYMPOSIA
+
+A minisymposium is a session of coordinated presentations for promoting
+interdisciplinary communication on a topic of current interest and importance in
+the field of parallel and distributed computing, ideally having potential application
+in other domains. The length and program will be decided by the organizers;
+half-day (three-hour) minisymposia are very welcome, longer is possible, not 
+exceeding one day (6 hours). The contributions to the minisymposia will not be 
+published in the proceedings.
+
+Minisymposium Proposal Guidelines
+
+The proposals should include the following information:
+- Minisymposium title and acronym, preference for length (half or full-day)
+- Information of the organizers (full name, affiliation, country and email address), 
+including a short biography of each organizer (5-10 lines). Each minisymposium
+will have a single main organizer, the corresponding contact. Others can be
+co-organizers.
+- Motivation and scope of the minisymposium:
+* Problem area to be addressed by the speakers and possible applications
+[max 1500 characters];
+* Description of target audience and estimated number of participants
+[max 1500 characters]
+* Link to international projects/initiatives
+- Format (contributed papers, invited talks, panels, posters or any other kind of 
+activity including European project meetings),
+- Speakers: 
+* a tentative list of speakers detailing their names, affiliation, email address and title
+of their presentations. Nominated speakers should be approached in advance and 
+should have agreed that they will participate.
+* companies and/or institutions involved
+
+Minisymposium Selection Process
+
+All the submitted proposals will be assessed by the organizing committee. The 
+decision about the acceptance/rejection of a minisymposium proposal will be made
+on the basis of the overall quality of the proposal and the degree to which it matches 
+the scope of the conference. Overlapping minisymposia will be avoided (or possibly 
+merged). Decisions will be made on a rolling basis. Proposals can already be sent,
+and the organizers may be notified before the notification deadline.
+
+Minisymposium Organizer Responsibilities
+
+Minisymposium organizers will be in charge of making publicity of the 
+minisymposium and specify the number of talks and other activities. The 
+contributions will be sent to the same web page as the contributions for the 
+workshops. The review process will be decided by the minisymposium organizers.
+One of the organizers will be the contact with the conference organization. 
+- Preparing the call for papers for the workshop and publicizing it
+- Preparing and maintaining the minisymposium website mentioning the Euro-Par 
+vinculation.
+- Deciding the length of the minisymposium, the program and type of activities and 
+the names of the speakers. 
+- Use the provided EasyChair installation for receiving the contributions 
+- Delivering the program to the Euro-Par 2023 conference co-chairs in time
+- Providing the Euro-Par Steering Committee with a Management Report, after the 
+conference, summarizing the experience and including number of persons involved
+in the activities as well as any consideration useful for future editions. 
+- Registering for the conference as well as all the participants to the minisymposium. 
+- Meet the deadlines according to the organization guidelines
+
+Minisymposium publication 
+
+The contributions to the minisymposia will not be published in the proceedings. 
+However, the organizers are invited to send one non-compulsory 4-page summary
+of the minisymposium. The document should summarize the scientific discussion 
+promoted by the minisymposium and it will be published in the same LNCS volume
+as the workshop proceedings after the conference. The authors of the summary will 
+be requested to sign a Springer copyright form.
+
+
+SUBMISSION (for Workshop and Minisymposium Organizers)
+
+Workshop and Minisymposium proposals should be sent in PDF format via email to
+the workshop co-chairs (contact details at the end of this call).
+
+An email verification will be sent to each successful submission. In case the 
+verification is not received, submitters are asked to contact the workshop chairs.
+
+
+IMPORTANT DATES (for Workshop and Minisymposium Organizers)
+
+- Workshop and minisymposium proposals due: February 10, 2023
+- Workshop and minisymposium notifications: February 24, 2023
+- Workshop website online and launches of Call for Workshop Papers: March 24, 2023
+- Workshop and minisymposium dates: August 28-29, 2023
+- Workshop and minisymposium management report summarizing the experience
+and results of the activity due: September 15, 2023
+
+
+WORKSHOP CO-CHAIRS
+- Demetris Zeinalipour, University of Cyprus, Cyprus (dzeina-AT-ucy.ac.cy)
+- Dora Blanco Heras, University of Santiago de Compostela, Spain (dora.blanco-AT-
+usc.es)
+
+

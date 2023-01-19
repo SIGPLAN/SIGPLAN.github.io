@@ -1,0 +1,201 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>Haskell 2022: Proceedings of the 15th ACM SIGPLAN International Haskell Symposium</title></head><body><div id="DLtoc"><div id="DLheader"><h1>Haskell 2022: Proceedings of the 15th ACM SIGPLAN International Haskell Symposium</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3546189"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3546189.3549922">Coinduction inductively: mechanizing coinductive proofs in Liquid Haskell</a></h3><ul class="DLauthors"><li class="nameList">Lykourgos Mastorou</li><li class="nameList">Nikolaos Papaspyrou</li><li class="nameList Last">Niki Vazou</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Liquid Haskell is an inductive verifier that  
+ cannot reason about codata.  
+ In this work we present two alternative approaches,  
+ namely indexed and constructive coinduction,  
+ to consistently encode coinductive proofs in Liquid Haskell.  
+ The intuition is that indices can be used to enforce the base case in  
+ the setting of classical logic and the guardedness check in the constructive proofs.  
+ We use our encodings to machine check 10 coinductive proofs,  
+ about unary and binary predicates on infinite streams and lists,  
+ showcasing how an inductive verifier can be used to check  
+ coinductive properties of Haskell code.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3546189.3549919">How to safely use extensionality in Liquid Haskell</a></h3><ul class="DLauthors"><li class="nameList">Niki Vazou</li><li class="nameList Last">Michael Greenberg</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Refinement type checkers are a powerful way to reason about functional programs. For example, one can prove properties of a slow, specification implementation and port the proofs to an optimized pure implementation that behaves the same. But to reason about higher-order programs, we must reason about equalities between functions: we need a consistent encoding of functional extensionality.  
+</p>
+<p>
+A natural but naive phrasing of the functional extensionality axiom (funExt) is inconsistent in refinement type systems with semantic subtyping and polymorphism: if we assume funExt, then we can prove false. We demonstrate the inconsistency and develop a new approach to equality in Liquid Haskell: we define a propositional equality in a library we call PEq. Using PEq avoids the inconsistency while proving useful equalities at higher types; we demonstrate its use in several case studies. We validate PEq by building a model and developing its metatheory. Additionally, we prove metaproperties of PEq inside Liquid Haskell itself using an unnamed folklore technique, which we dub 'classy induction'.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3546189.3549921">Liquid proof macros</a></h3><ul class="DLauthors"><li class="nameList">Henry Blanchette</li><li class="nameList">Niki Vazou</li><li class="nameList Last">Leonidas Lampropoulos</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Liquid Haskell is a popular verifier for Haskell programs,  
+leveraging the power of SMT solvers to ease users' burden of proof.  
+However, this power does not come without a price:  
+convincing Liquid Haskell that a program is correct  
+often necessitates giving hints to the underlying solver, which can be  
+a tedious and verbose process that sometimes requires intricate  
+knowledge of Liquid Haskell's inner workings.  
+</p>
+<p>
+In this paper, we present Liquid Proof Macros, an extensible  
+metaprogramming technique and framework for simplifying the  
+development of Liquid Haskell proofs.  
+We describe how to leverage Template Haskell to generate Liquid  
+Haskell proof terms, via a tactic-inspired DSL interface for more  
+concise and user-friendly proofs,  
+and we demonstrate the capabilities of this framework by automating  
+a wide variety of proofs from an existing Liquid Haskell benchmark.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3546189.3549915">A totally predictable outcome: an investigation of traversals of infinite structures</a></h3><ul class="DLauthors"><li class="nameList Last">Gershom Bazerman</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Functors with an instance of the Traversable type class can be thought of as data structures which permit a traversal of their elements. This has been made precise by the correspondence between traversable functors and finitary containers (also known as polynomial functors) -- established in the context of total, necessarily terminating, functions. However, the Haskell language is non-strict and permits functions that do not terminate. It has long been observed that traversals can at times in fact operate over infinite lists, for example in distributing the Reader applicative. The result of such a traversal remains an infinite structure, however it nonetheless is productive -- i.e. successive amounts of finite computation yield either termination or successive results. To investigate this phenomenon, we draw on tools from guarded recursion, making use of equational reasoning directly in Haskell.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3546189.3549924">Open transactional actions: interacting with non-transactional resources in STM Haskell</a></h3><ul class="DLauthors"><li class="nameList">Jonathas Augusto de Oliveira Conceição</li><li class="nameList">André Rauber Du Bois</li><li class="nameList">Samuel da Silva Feitosa</li><li class="nameList">Gerson Geraldo Homrich Cavalheiro</li><li class="nameList Last">Rodrigo Geraldo Ribeiro</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>This paper addresses the problem of accessing external resources from inside transactions in STM Haskell, and for that purpose introduces a new abstraction called Open Transactional Actions (OTAs) that provides a framework for wrapping non-transactional resources in a transactional layer. OTAs allow the programmer to access resources through IO actions, from inside transactions, and also to register commit and abort handlers: the former are used to make the accesses to resources visible to other transactions at commit time, and the latter to undo changes in the resource if the transaction has to roll back. OTAs, once started, are guaranteed to be executed completely before the hosting transaction can be aborted, guarantying that if a resource is accessed, its respective commit and abort actions will be properly registered. We believe that OTAs could be used by expert programmers to implement useful system libraries and also to give a transactional semantics to fast linearizable data structures, i.e., transactional boosting. As a proof of concept, we present examples that use OTAs to implement transactional file access and transactional boosted data types that are faster than pure STM Haskell in most cases.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3546189.3549916">Oregano: staging regular expressions with Moore Cayley fusion</a></h3><ul class="DLauthors"><li class="nameList">Jamie Willis</li><li class="nameList">Nicolas Wu</li><li class="nameList Last">Tom Schrijvers</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Regular expressions are a tool for recognising regular languages,  
+historically implemented using derivatives or non-deterministic  
+finite automata. They are convenient for many light-weight parsing  
+workloads, but their traditional formulation only lends them to matching  
+text, not returning fully-structured results. This contrasts with  
+other forms of parsing, where the aim is to extract meaningful data, for example  
+abstract syntax trees. Yet, most regular expression libraries do not support  
+this useful output, and those that do are often slower, and backed by parser  
+combinator libraries.  
+</p>
+<p>
+This paper presents Oregano, a redesign of regular expressions to make use  
+of Moore machines as the underlying machinery; this way the regular expression  
+matcher can produce results. We further show how to produce  
+heterogeneous results, providing a classic applicative interface. To make  
+this representation performant, we leverage the  
+relationship between Cayley representations, continuation-passing style, and  
+staged meta-programming to generate performant code for regular expression matching  
+with fully-structured results.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3546189.3549918">Investigating magic numbers: improving the inlining heuristic in the Glasgow Haskell Compiler</a></h3><ul class="DLauthors"><li class="nameList">Celeste Hollenbeck</li><li class="nameList">Michael F. P. O'Boyle</li><li class="nameList Last">Michel Steuwer</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Inlining is a widely studied compiler optimization that is particularly important for functional languages such as Haskell and OCaml. The Glasgow Haskell Compiler (GHC) inliner is a heuristic of such complexity, however, that it has not significantly changed for nearly 20 years. It heavily relies on hard-coded numeric constants, or <em>magic numbers</em>, based on out-of-date intuition. Dissatisfaction with inlining performance has led to the widespread use of inlining pragmas by programmers. </p><p>In this paper, we present an in-depth study of the effect of inlining on performance in functional languages. We specifically focus on the inlining behavior of GHC and present techniques to systematically explore the space of possible <em>magic number</em> values, or configurations, and evaluate their performance on a set of real-world benchmarks where inline pragmas are present. Pragmas may slow down individual programs, but on average improve performance by 10%. Searching for the best configuration on a per-program basis increases this performance to an average of 27%. Searching for the best configuration for each program is, however, expensive and unrealistic, requiring repeated compilation and execution. This paper determines a new single configuration that gives a 22% improvement on average across the benchmarks. Finally, we use a simple machine learning model that predicts the best configuration on a per-program basis, giving a 26% average improvement.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3546189.3549923">Partial type constructors in practice</a></h3><ul class="DLauthors"><li class="nameList">Apoorv Ingle</li><li class="nameList">Alex Hubers</li><li class="nameList Last">J. Garrett Morris</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Type constructors in functional programming languages are total: a Haskell programmer can equally readily construct lists of any element type. In practice, however, not all applications of type constructors are equally sensible: collections may only make sense for orderable elements, or embedded DSLs might only make sense for serializable return types. Jones et al. proposed a theory of <em>partial type constructors</em>, which guarantees that type applications are sensible, and extends higher-order abstractions to apply equally well to partial and total type constructors. This paper evaluates the practicality of partial type constructors, in terms of both language design and implementation. We extend GHC, the most widely used Haskell compiler, with support for partial type constructors, and test our extension on the compiler itself and its libraries. We show that introducing partial type constructors has a minimal impact on most code, but raises important questions in language and library design.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3546189.3549920">Reasonable Agda is correct Haskell: writing verified Haskell using agda2hs</a></h3><ul class="DLauthors"><li class="nameList">Jesper Cockx</li><li class="nameList">Orestis Melkonian</li><li class="nameList">Lucas Escot</li><li class="nameList">James Chapman</li><li class="nameList Last">Ulf Norell</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Modern dependently typed languages such as Agda can be used to  
+ statically enforce the correctness of programs. However, they still  
+ lack the large ecosystem of a more popular language like Haskell.  
+ To combine the strength of both approaches, we present agda2hs, a  
+ tool that translates an expressive subset of Agda to readable  
+ Haskell, erasing dependent types and proofs in the process.  
+ Thanks to Agda's support for erasure annotations, this  
+ process is both safe and transparent to the user.  
+ Compared to other tools for program extraction, agda2hs uses a syntax  
+ that is already familiar to functional programmers, allows for both  
+ intrinsic and extrinsic approaches to verification, and produces  
+ Haskell code that is easy to read and audit by programmers with no  
+ knowledge of Agda.  
+</p>
+<p>
+ We present a practical use case of agda2hs at IOG  
+ to verify properties of a program generator.  
+ While both agda2hs and its ecosystem are still young, our  
+ experiences so far show that this is a viable approach to make  
+ verified functional programming available to a broader audience.  
+</p>
+<p>
+ This paper is a literate Agda script, hence all rendered (Agda) code has been typechecked.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3546189.3549917">Embedded pattern matching</a></h3><ul class="DLauthors"><li class="nameList">Trevor L. McDonell</li><li class="nameList">Joshua D. Meredith</li><li class="nameList Last">Gabriele Keller</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Haskell is a popular choice for hosting deeply embedded languages. A recurring challenge for these embeddings is how to seamlessly integrate user defined algebraic data types. In particular, one important, convenient, and expressive feature for creating and inspecting data—pattern matching—is not directly available on embedded terms. We present a novel technique, <em>embedded pattern matching</em>, which enables a natural and user friendly embedding of user defined algebraic data types into the embedded language, and allows programmers to pattern match on terms in the embedded language in much the same way they would in the host language.</p>
+	</div></div>
+							
+						</div></div></body></html>

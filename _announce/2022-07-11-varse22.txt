@@ -1,0 +1,55 @@
+---
+title: "Call for Papers, The First International Workshop on Virtual and Augmented Reality Software Engineering, colocated with ASE'22"
+timestamp: "7/11/2022 20:07:16"
+deadline: "8/1/2022"
+---
+VARSE aims to encourage collaboration and knowledge sharing in the areas of virtual and augmented reality and software engineering, as well as to nurture a research community. VR (Virtual Reality) and AR (Augmented Reality) are emerging techniques with promising applications. Major IT companies such as Microsoft, Google, and Apple all have essential investment in the area, and Facebook even have changed its name to Meta to focus on metaverse, a concept technically largely depends on virtual reality. As VR/AR platforms such as Unity, Google ARCore, Apple ARKit, and Meta for Developers are getting more and more popular, thousands of apps have been developed to explore various VR/AR applications such as gaming, education, remote communication, computer-aided operation, etc. VR/AR software development has a lot of special concerns, such as graphics design and performance optimization, management of 3D assets, testing constraints in physical world (for AR apps), and additional privacy protection (e.g., tackling leak of head and body movement information from VR/AR devices). Meanwhile, VR/AR can be adopted as an important technique to support software engineering practices that are not possible in traditional 2D interfaces. For example, 3D visualization of code and project work space may largely enhance software productivity. In this workshop, we call for talks and papers from both industry and academia to mutually advance the state of the art and practice in this area, and we expect the workshop to serve as a platform for the industry side to introduce the problems and challenges they face, as well as for the academia side to introduce their solutions and findings to the industry for broader impact. 
+
+https://varse-series.github.io/varse2022/
+
+#### Areas of interest include but are not restricted to:
+- Requirement analysis and specification of VR/AR software
+- Modeling and abstraction of VR/AR software
+- Testing and maintenance of VR/AR software
+- Performance measurement and optimization of VR/AR software
+- Program analysis and verification of VR/AR software
+- Security and privacy concerns in VR/AR software
+- Mining VR/AR software and software repositories and creation of dataset
+- Empirical studies on VR/AR software development process and products
+- VR/AR-based IDEs and coding tools
+- User studies of VR/AR-based software development techniques
+- VR/AR-based software visualization
+
+#### Important dates
+Paper submissions: August 1, 2022
+Paper notifications: August 21, 2022
+Paper camera ready: September 2, 2022
+Workshop date: Oct 11, 2022 (Preliminary, To be Confirmed with ASE program)
+
+#### Submission Details
+ Submissions must conform to the ASE 2022 formatting and submission instructions: All submissions must be in PDF format and conform, at time of submission, to the ACM Proceedings Template LaTEX users must use the \documentclass[sigconf,review,anonymous]{acmart} option. The page limit of the submission is four pages with one additional page for references.
+
+All the submissions must not have been published elsewhere or under review elsewhere when being considered for VARSE 2022. Similar to ASE, VARSE will employ a double-anonymous review process. Thus, no submission may reveal its authors’ identities. The authors must make every effort to honor the double-anonymous review process.
+
+Please submit your papers through the following EasyChair link:
+
+https://easychair.org/conferences/?conf=varse2022
+
+For accepted papers (except for talk abstracts), authors are required to prepare their final submissions for the workshop proceedings based on the suggestions provided by reviewers, and one author is expected to attend the workshop and present the paper. 
+
+#### Organizers
+- Xiaoyin Wang, The University of Texas at San Antonio, USA
+- Xusheng Xiao, Arizona State University, USA
+- Wei Wang, The University of Texas at San Antonio, USA
+
+#### Technical Program Committee
+- Wei Gao, University of Pittsburg, USA
+- Tian Guo, Worcester Polytechnic Institute, USA
+- Rakibul Hasan, Arizona State University, USA
+- In Kee Kim, University of Georgia, USA
+- Zeqi Lai, Tsinghua University, China
+- Yepang Liu, Southern University of Science and Technology, China
+- Rohit Mehra, Accenture Labs, India
+- Na Meng, Virginia Tech, USA
+- Fabio Petrillo, École de technologie supérieure (ÉTS), Canada
+- Ruoyu Wang, Arizona State University, USA

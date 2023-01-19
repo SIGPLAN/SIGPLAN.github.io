@@ -1,0 +1,195 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>GPCE 2022: Proceedings of the 21st ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences</title></head><body><div id="DLtoc"><div id="DLheader"><h1>GPCE 2022: Proceedings of the 21st ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3564719"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Keynote</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3564719.3570917">Language Design Meets Verifying Compilers (Keynote)</a></h3><ul class="DLauthors"><li class="nameList Last">David J. Pearce</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The dream of developing compilers that automatically verify whether or not programs meet their specifications remains an ongoing challenge. Such "verifying compilers" are (finally) on the verge of entering mainstream software development. This is partly due to advancements made over the last few decades, but also to the increasingly significant and complex role software plays in the modern world. As computer scientists, we should encourage this transition and help relegate many forms of software error to the history books. One way of increasing adoption is to design languages around these tools which look, on the surface, like regular programming languages. That is, to seamlessly integrate specification and verification and offer something that, for the everyday programmer, appears as nothing more than glorified type checking. This requires, amongst other things, careful consideration as to which language features mesh well with verification, and which do not. The design space here is interesting and subtle, but has been largely overlooked. In this talk, I will attempt to shed light on this murky area by contrasting the choices made in two existing languages: Dafny and Whiley.</p>
+			</div></div>
+							
+						<h2>SESSION: Full Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3564719.3568690">Language-Integrated Query for Temporal Data</a></h3><ul class="DLauthors"><li class="nameList">Simon Fowler</li><li class="nameList">Vashti Galpin</li><li class="nameList Last">James Cheney</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Modern applications often manage time-varying data. Despite decades of research on temporal databases, which culminated in the addition of temporal data operations into the SQL:2011 standard, temporal data query and manipulation operations are unavailable in most mainstream database management systems, leaving developers with the unenviable task of implementing such functionality from scratch. </p><p>In this paper, we extend <em>language-integrated query</em> to support writing temporal queries and updates in a uniform host language, with the language performing the required rewriting to emulate temporal capabilities automatically on any standard relational database. </p><p>We introduce two core languages, λ<sub><em>TLINQ</em></sub> and λ<sub><em>VLINQ</em></sub>, for manipulating transaction time and valid time data respectively, and formalise existing implementation strategies by giving provably correct semantics-preserving translations into a non-temporal core language, λ<sub><em>LINQ</em></sub>. We show how existing work on query normalisation supports a surprisingly simple implementation strategy for <em>sequenced joins</em>. We implement our approach in the Links programming language, and describe a non-trivial case study based on curating COVID-19 statistics.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3564719.3568686">Incremental Processing of Structured Data in Datalog</a></h3><ul class="DLauthors"><li class="nameList">André Pacak</li><li class="nameList">Tamás Szabó</li><li class="nameList Last">Sebastian Erdweg</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Incremental computations react to input changes by updating their outputs. Compared to a non-incremental rerun, incremental computations can provide order-of-magnitude speedups, since often small input changes trigger small output changes. One popular means for implementing incremental computations is to encode the computation in Datalog, for which efficient incremental solvers exist. However, Datalog is very restrictive in terms of the data types it can process: Atomic data organized in relations. While structured tree and graph-shaped data can be encoded in relations, a naive encoding inhibits incrementality. In this paper, we present an encoding of structured data in Datalog that supports efficient incrementality such that small input changes are expressible. We explain how to efficiently implement and integrate this encoding into an existing incremental Datalog engine, and we show how tree diffing algorithms can be used to change the encoded data.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3564719.3568698">Deep Fusion for Efficient Nested Recursive Computations</a></h3><ul class="DLauthors"><li class="nameList Last">Amir Shaikhha</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>One of the performance bottlenecks of nested recursive computations is the intermediate collections created at different levels of recursion. The existing techniques such as vertical and horizontal loop fusion do not remove such intermediate allocations. This paper proposes deep fusion, a technique for the efficient compilation of nested recursive computation over collections. The input to our compilation framework is a high-level functional program that can represent computations on flat and nested collections such as lists, sets, bags, and maps. The intermediate collections are removed in three levels. First, the immutable collections are translated into mutable ones by leveraging in-place updates using the destination-passing style technique. Second, deep fusion enables the inner level of recursion to reuse the destinations of the outer levels for in-place updates. Third, deep fusion removes the need to allocate tiny intermediate collections at different depths of recursion. Our experiments show that deep fusion can improve the performance of nested recursion over nested lists and maps.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3564719.3568691">Type System for Four Delimited Control Operators</a></h3><ul class="DLauthors"><li class="nameList">Chiaki Ishio</li><li class="nameList Last">Kenichi Asai</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The operational behavior of control operators has been studied comprehensively in the past few decades, but type systems of control operators have not. There are distinct type systems for shift, control, and shift0 without any relationship between them, and there has not been a type system that directly corresponds to control0. This paper remedies this situation by giving a uniform type system for all the four control operators. Following Danvy and Filinski’s approach, we derive a monomorphic type system from the CPS interpreter that defines the operational semantics of the four control operators. By implementing the typed CPS interpreter in Agda, we show that the CPS translation preserves types and that the calculus with all the four control operators is terminating. Furthermore, we show the relationship between our type system and the previous type systems for shift, control, and shift0.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3564719.3568696">Composable Sequence Macros for Fast Iteration</a></h3><ul class="DLauthors"><li class="nameList">Anna Bolotina</li><li class="nameList Last">Ryan Culpepper</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Racket provides for loops with macro-extensible sequence expressions.  
+Sequence macros offer better performance than dynamic sequence implementations, but they are complicated to define and Racket offers little support for creating new sequence macros by combining existing ones. In this paper, we develop such support in the form of sequence combinator macros and a general comprehension form. These utilities are implemented by manipulating compile-time records that contain binders and expressions; the binding relationships between the components are not trivial. We discuss how to diagnose and solve type and scoping problems in our implementation.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3564719.3568694">Dynamic Replanning of Multi-drone Missions using Dynamic Forward Slicing</a></h3><ul class="DLauthors"><li class="nameList">Miguel Campusano</li><li class="nameList Last">Ulrik Pagh Schultz Lundquist</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Unmanned Aerial Systems (UAS, typically known as drones) are useful in many application domains, such as logistics and precision farming, especially when they fly Beyond Visual Line of Sight (BVLOS). To effectively use multiple UAS for BVLOS missions, it is required to precisely plan the flight of each UAS involved in the missions, allocating the required airspace ahead of time. The dots Domain-Specific Language (DSL) can be used to plan and execute such missions but does not support the adaptation of missions when unexpected changes occur during the execution of these missions. Such dynamic replanning of missions to changing conditions is a crucial feature for the safe integration of UAS into the airspace since it allows the UAS to adapt to these changes, such as yielding to emergency response aircraft. </p><p>In this work, we propose a program transformation technique inspired by program slicing to dynamically replan ongoing dots-specified multi-UAS missions using the same planner built for the dots language. Whenever dynamic replanning is needed, we compute a forward slice of the dots program based on the current runtime state of the mission. This generates a new program that obeys the original mission specification but only specifies the mission from the point in time where the replanning is needed. We validate our proposed technique by integrating it into ros-dots, a service-oriented architecture for autonomous UAS operations.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3564719.3568697">Data Types as a More Ergonomic Frontend for Grammar-Guided Genetic Programming</a></h3><ul class="DLauthors"><li class="nameList">Guilherme Espada</li><li class="nameList">Leon Ingelse</li><li class="nameList">Paulo Canelas</li><li class="nameList">Pedro Barbosa</li><li class="nameList Last">Alcides Fonseca</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Genetic Programming (GP) is an heuristic method that can be applied to many Machine Learning, Optimization and Engineering problems. In particular, it has been widely used in Software Engineering for Test-case generation, Program Synthesis and Improvement of Software (GI).  
+</p>
+<p>
+Grammar-Guided Genetic Programming (GGGP) approaches allow the user to refine the domain of valid program solutions. Backus Normal Form is the most popular interface for describing Context-Free Grammars (CFG) for GGGP. BNF and its derivatives have the disadvantage of interleaving the grammar language and the target language of the program.  
+</p>
+<p>
+We propose to embed the grammar as an internal Domain-Specific Language in the host language of the framework. This approach has the same expressive power as BNF and EBNF while using the host language type-system to take advantage of all the existing tooling: linters, formatters, type-checkers, autocomplete, and legacy code support. These tools have a practical utility in designing software in general, and GP systems in particular.  
+</p>
+<p>
+We also present Meta-Handlers, user-defined overrides of the tree-generation system. This technique extends our object-oriented encoding with more practicability and expressive power than existing CFG approaches, achieving the same expressive power of Attribute Grammars, but without the grammar vs target language duality.  
+</p>
+<p>
+Furthermore, we evidence that this approach is feasible, showing an example Python implementation as proof. We also compare our approach against textual BNF-representations w.r.t. expressive power and ergonomics. These advantages do not come at the cost of performance, as shown by our empirical evaluation on 5 benchmarks of our example implementation against PonyGE2. We conclude that our approach has better ergonomics with the same expressive power and performance of textual BNF-based grammar encodings.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3564719.3568687">A Model-Driven Generative Self Play-Based Toolchain for Developing Games and Players</a></h3><ul class="DLauthors"><li class="nameList">Evgeny Kusmenko</li><li class="nameList">Maximilian Münker</li><li class="nameList">Matthias Nadenau</li><li class="nameList Last">Bernhard Rumpe</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Turn-based games such as chess are very popular, but tool-chains tailored for their development process are still rare. In this paper we present a model-driven and generative toolchain aiming to cover the whole development process of rule-based games. In particular, we present a game description language enabling the developer to model the game in a logics-based syntax. An executable game interpreter is generated from the game model and can then act as an environment for reinforcement learning-based self-play training of players. Before the training, the deep neural network can be modeled manually by a deep learning developer or generated using a heuristics estimating the complexity of mapping the state space to the action space. Finally, we present a case study modeling three games and evaluate the language features as well as the player training capabilities of the toolchain.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3564719.3568689">Model-Driven IoT App Stores: Deploying Customizable Software Products to Heterogeneous Devices</a></h3><ul class="DLauthors"><li class="nameList">Arvid Butting</li><li class="nameList">Jörg Christian Kirchhof</li><li class="nameList">Anno Kleiss</li><li class="nameList">Judith Michael</li><li class="nameList">Radoslav Orlov</li><li class="nameList Last">Bernhard Rumpe</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Internet of Things (IoT) devices and the software they execute are often strongly coupled with vendors preinstalling their software at the factory. Future IoT applications are expected to be distributed via app stores. A strong coupling between hard- and software hinders the rise of such app stores. Existing model-driven approaches for developing IoT applications focus largely on the behavior specification and message exchange but generate code that targets a specific set of devices. By raising the level of abstraction, models can be utilized to decouple hard- and software and adapt to various infrastructures. We present a concept for a model-driven app store that decouples hardware and software development of product lines of IoT applications.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3564719.3568688">Language Support for Refactorability Decay Prevention</a></h3><ul class="DLauthors"><li class="nameList">Dov Fraivert</li><li class="nameList Last">David H. Lorenz</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Even code that is free of smells may be at high risk  
+of forming them. In such cases, developers can either  
+perform preventive refactoring in order to reduce this  
+risk, or leave the code as is and perform corrective  
+refactoring as smells emerge. In practice, however,  
+developers usually avoid preventive refactoring during  
+the development phase, and when code smells eventually  
+form, other developers who are less acquainted with  
+the code avoid the more complex corrective refactoring.  
+As a result, a refactoring opportunity is missed, and the  
+quality and maintainability of the code is compromised.  
+In this work, we treat refactoring not as a single  
+atomic action, but rather as a sequence of subactions.  
+We divide the responsibility for these subactions between  
+the original developer of the code, who just prepares  
+the code for refactoring, and a future developer,  
+who may need to carry out the actual refactoring action.  
+To manage this division of responsibility, we introduce a  
+set of annotations along with an annotation processor that  
+prevents software erosion from compromising the ability  
+to perform the refactoring action.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3564719.3568695">Generic Solution-Space Sampling for Multi-domain Product Lines</a></h3><ul class="DLauthors"><li class="nameList">Marc Hentze</li><li class="nameList">Tobias Pett</li><li class="nameList">Chico Sundermann</li><li class="nameList">Sebastian Krieter</li><li class="nameList">Thomas Thüm</li><li class="nameList Last">Ina Schaefer</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Validating a configurable software system is challenging, as there are potentially millions of configurations, which makes testing each configuration individually infeasible. Thus, existing sampling algorithms allow to compute a representative subset of configurations, called sample, that can be tested instead. However, sampling on the set of configurations may miss potential error sources on implementation level. In this paper, we present solution-space sampling, a concept that mitigates this problem by allowing to sample directly on the implementation level. We apply solution-space sampling to six real-word, automotive product lines and show that it produces up to 56 % smaller samples, while also covering all potential error sources missed by problem-space sampling.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3564719.3568685">Preserving Consistency of Interrelated Models during View-Based Evolution of Variable Systems</a></h3><ul class="DLauthors"><li class="nameList">Sofia Ananieva</li><li class="nameList">Thomas Kühn</li><li class="nameList Last">Ralf Reussner</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Coping with different and changing requirements leads to concurrent products (variability in space) and subsequent revisions (variability in time). Moreover, products consist of interrelated models that represent different kinds of artifacts. Dependencies and redundancies between interrelated models within a product and across products can quickly lead to inconsistencies during evolution. Thus, dealing with both variability dimensions uniformly while preserving consistency of interrelated models is a major challenge when developing large and long-living variable systems. Recent research addresses uniform management of variability in space and time by unifying concepts and operations from software product line engineering and software configuration management. However, consistency preservation for interrelated models, which is a major research topic in model-driven software development, has hardly been considered in variability management. We propose an approach that builds on recent efforts for unifying variability in space and time and leverages view-based consistency preservation for systems comprised of different kinds of interrelated models. We evaluate our approach by applying it to two real-world case studies: the well-known ArgoUML-SPL, that is based on the UML modeling tool ArgoUML, and MobileMedia, a mobile application for media management. Our results show that, by manually evolving only the Java models of products, other interrelated models (i.e.,~UML class diagrams) and the remaining affected products can be kept consistent fully automatically.</p>
+			</div></div>
+							
+						<h2>SESSION: Short Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3564719.3568692">A Modern C++ Point of View of Programming in Image Processing</a></h3><ul class="DLauthors"><li class="nameList">Michaël Roynard</li><li class="nameList">Edwin Carlinet</li><li class="nameList Last">Thierry Géraud</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>C++ is a multi-paradigm language that enables the programmer to set up efficient image processing algorithms easily. This language strength comes from many aspects. C++ is high-level, so this enables developing powerful abstractions and mixing different programming styles to ease the development. At the same time, C++ is low-level and can fully take advantage of the hardware to deliver the best performance. It is also very portable and highly compatible which allows algorithms to be called from high-level, fast-prototyping languages such as Python or Matlab. One fundamental aspects where C++ shines is generic programming. Generic programming makes it possible to develop and reuse bricks of software on objects (images) of different natures (types) without performance loss. Nevertheless, conciliating genericity, efficiency, and simplicity at the same time is not trivial. Modern C++ (post-2011) has brought new features that made it simpler and more powerful. In this paper, we focus on some C++20 aspects of generic programming: ranges, views, and concepts, and see how they extend to images to ease the development of generic image algorithms while lowering the computation time.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3564719.3568693">The Cost of Dynamism in Static Languages for Image Processing</a></h3><ul class="DLauthors"><li class="nameList">Baptiste Esteban</li><li class="nameList">Edwin Carlinet</li><li class="nameList">Guillaume Tochon</li><li class="nameList Last">Didier Verna</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Generic programming is a powerful paradigm abstracting data structures and algorithms to improve their reusability, as long as they respect a given interface. Coupled with a performance-driven language, it is a paradigm of choice for scientific libraries where the implementation of manipulated objects may change depending on their use case, or for performance purposes. In those performance-driven languages, genericity is often implemented statically to perform some optimization. This does not fit well with the dynamism needed to handle objects which may only be known at runtime. Thus, in this article, we evaluate a model that couples static genericity with a dynamic model based on type erasure in the context of image processing. Its cost is assessed by comparing the performance of the implementation of some common image processing algorithms in C++ and Rust, two performance-driven languages supporting some form of genericity. Finally, we demonstrate that compile-time knowledge of some specific information is critical for performance, and also that the runtime overhead depends on the algorithmic scheme in use.</p>
+			</div></div>
+							
+						<h2>SESSION: Tool Demonstration</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3564719.3568699">SQL to Stream with S2S: An Automatic Benchmark Generator for the Java Stream API</a></h3><ul class="DLauthors"><li class="nameList">Filippo Schiavio</li><li class="nameList">Andrea Rosà</li><li class="nameList Last">Walter Binder</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The Java Stream API was introduced in Java 8, allowing developers to express computations in a functional style by defining a pipeline of data-processing operations. Despite the growing importance of this API, there is a lack of benchmarks specifically targeting stream-based applications. Instead of designing and implementing new ad-hoc workloads for the Java Stream API, we propose to automatically translate existing data-processing workloads. To this end, we present S2S, an automatic benchmark generator for the Java Stream API. S2S is a SQL query compiler that converts existing workloads designed for relational databases to stream-based code. We use S2S to generate BSS, the first benchmark suite for the Java Stream API.</p>
+			</div></div>
+							
+						</div></div></body></html>

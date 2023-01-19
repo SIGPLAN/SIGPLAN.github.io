@@ -14,7 +14,7 @@ and to access the perspectives of researchers from other institutions.
 
 In response to these needs, SIGPLAN-M matches mentors with mentees from different institutions
 for mentoring relationships that last at least a year.
-As of April, 2022, there are more than 320 mentees and 220 mentors participating in the program.
+As of November 2022, there are about 300 mentees and 200 mentors participating in the program.
 Here are some testimonials from mentees:
 
 > [SIGPLAN-M is] a career saver!
@@ -33,13 +33,15 @@ Here are some testimonials from mentees:
  
 > I got help in all aspects - from research to getting through [a] graduate program.
 
-Check out our [Twitter](https://twitter.com/SigplanM) for the latest news!
+Check out our [Twitter](https://twitter.com/SigplanM) for the latest news! You can also read more about us in [our upcoming article](https://dependenttyp.es/pdf/mentoring.pdf) in Communications of the ACM.
 
 ## Committee Members
 
-- **Operations Team**: [Reshabh Sharma](https://www.linkedin.com/in/reshabh/), [Sabree Blackmon](https://www.linkedin.com/in/sabree-blackmon), [Yanze Li](https://liyz.pl/), [Ronak Chauhan](https://in.linkedin.com/in/ronchauhan), [Umang Mathur](http://umathur3.web.engr.illinois.edu/), [Heiko Becker](https://people.mpi-sws.org/~hbecker/), [Yannick Forster](https://yforster.github.io/)
+- **Operations Team**: [Reshabh Sharma](https://www.linkedin.com/in/reshabh/), [Ronak Chauhan](https://in.linkedin.com/in/ronchauhan), [Yannick Forster](https://yforster.github.io/), [Shraddha Barke](https://shraddhabarke.github.io/), [Kiran Gopinathan](https://gopiandcode.uk/), [Yunjeong Lee](http://www.leeyunjeong.com/), [Jialu Bao](https://baojia.lu/about/)
+- **Rematching Coordinators**: [Jocelyn Chen](https://www.cs.utexas.edu/~qchen/), [Alexa VanHattum](https://www.cs.cornell.edu/~avh/)
 - **Advisory Board**: [Alexandra Silva](https://alexandrasilva.org/), [David Van Horn](https://www.cs.umd.edu/~dvanhorn/), [Dimitrios Vytiniotis](https://dimitriv.github.io/), [Sebastian Erdweg](https://www.pl.informatik.uni-mainz.de/), [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/), [Sukyoung Ryu](https://plrg.kaist.ac.kr/ryu)
-- **Chair**: [Talia Ringer](https://dependenttyp.es/)
+- **Chair**:  [Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova/)
+- **Previous Chair**: [Talia Ringer](https://dependenttyp.es/)
 
 ## Getting Involved
 
@@ -114,8 +116,10 @@ We'd like to thank these amazing mentors:
 - Dimitris Vardoulakis
 - John Wickerson
 - James Wilcox
+- Max Willsey
 - Dominik Winterer
 - Li-yao Xia
+- Jonathan DiLorenzo
 
 And we'd of course also like to thank everyone else who has served or currently serves as a mentor for SIGPLAN-M!
 

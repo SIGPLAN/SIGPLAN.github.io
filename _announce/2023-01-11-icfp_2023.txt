@@ -1,0 +1,532 @@
+---
+title: "Call for Papers: 28th ACM SIGPLAN International Conference on Functional Programming (ICFP 2023)"
+deadline: "3/1/2023"
+---
+                  PACMPL Volume 7, Issue ICFP 2023
+                          Call for Papers
+
+          Accepted papers to be invited for presentation at
+The 28th ACM SIGPLAN International Conference on Functional Programming
+                           Seattle, USA
+                    http://icfp23.sigplan.org/
+
+### Important dates
+
+(All dates are in 2023 at 11.59pm anywhere on earth.)
+
+Submission deadline:   1 March 2023 (Wednesday)
+                      (https://icfp23.hotcrp.com)
+Author response:       1 May (Monday)--4 May (Thursday)
+Round 1 notification:  18 May (Thursday)
+Round 2 notification:  29 June (Thursday)
+Camera-ready deadline: 20 July (Thursday)
+Conference:            4 September (Monday)--9 September (Saturday)
+
+### About PACMPL
+
+Proceedings of the ACM on Programming Languages (PACMPL
+<https://pacmpl.acm.org/>) is a Gold Open Access journal publishing
+research on all aspects of programming languages, from design to
+implementation and from mathematical formalisms to empirical
+studies. Each issue of the journal is devoted to a particular subject
+area within programming languages and will be announced through
+publicised Calls for Papers, like this one.
+
+### Scope
+
+[PACMPL](https://pacmpl.acm.org/) issue ICFP 2023 seeks original
+papers on the art and science of functional programming. Submissions
+are invited on all topics from principles to practice, from
+foundations to features, and from abstraction to application. The
+scope includes all languages that encourage functional programming,
+including both purely applicative and imperative languages, as well as
+languages with objects, concurrency, or parallelism. Topics of
+interest include (but are not limited to):
+
+ * Language Design: concurrency, parallelism, and distribution;
+   modularity; components and composition; metaprogramming; macros;
+   pattern matching; type systems; type inference; dependent types;
+   effect types; gradual types; refinement types; session types;
+   interoperability; domain-specific languages; imperative
+   programming; object-oriented programming; logic programming;
+   probabilistic programming; reactive programming; generic
+   programming; bidirectional programming.
+
+ * Implementation: abstract machines; virtual machines;
+   interpretation; compilation; compile-time and run-time
+   optimisation; garbage collection and memory management; runtime
+   systems; multi-threading; exploiting parallel hardware; interfaces
+   to foreign functions, services, components, or low-level machine
+   resources.
+
+ * Software-Development Techniques: algorithms and data structures;
+   design patterns; specification; verification; validation; proof
+   assistants; debugging; testing; tracing; profiling; build systems;
+   program synthesis.
+
+ * Foundations: formal semantics; lambda calculus; program
+   equivalence; rewriting; type theory; logic; category theory;
+   computational effects; continuations; control; state; names and
+   binding; program verification.
+
+ * Analysis and Transformation: control flow; data flow; abstract
+   interpretation; partial evaluation; program calculation.
+
+ * Applications: symbolic computing; formal-methods tools; artificial
+   intelligence; systems programming; distributed systems and web
+   programming; hardware design; databases; scientific and numerical
+   computing; graphical user interfaces; graphics and multimedia; GPU
+   programming; scripting; system administration; security.
+
+ * Education: teaching introductory programming; mathematical proof;
+   algebra.
+
+Submissions will be evaluated according to their relevance,
+correctness, significance, originality, and clarity. Each submission
+should explain its contributions in both general and technical terms,
+clearly identifying what has been accomplished, explaining why it is
+significant, and comparing it with previous work. The technical
+content should be accessible to a broad audience.
+
+PACMPL issue ICFP 2023 also welcomes submissions in two separate
+categories — Functional Pearls and Experience Reports — that must be
+marked as such when submitted and that need not report original
+research results. Detailed guidelines on both categories are given at
+the end of this call.
+
+Submissions from underrepresented groups are encouraged. Authors who
+require financial support to attend the conference can apply for PAC
+funding (http://www.sigplan.org/PAC/).
+
+The General Chair and PC Chair may not submit papers. PC members
+(other than the PC Chair) may submit papers. However, SIGPLAN
+guidelines dictate that they be held to a higher standard: a PC paper
+can be accepted if after the discussion it has at least one
+strongly-supportive review and no detractors. Each PC member may be
+listed as a coauthor on a maximum of three submissions.
+
+Please contact the Programme Chair if you have questions or are
+concerned about the appropriateness of a topic.
+
+### Preparation of submissions
+
+*Deadline*: The deadline for submissions is **Wednesday, March 1,
+2023**, Anywhere on Earth
+(<https://www.timeanddate.com/time/zones/aoe>). This deadline will be
+strictly enforced.
+
+*Formatting*: Submissions must be in PDF format, printable in black
+and white on US Letter sized paper and interpretable by common PDF
+tools. All submissions must adhere to the "ACM Small" template that is
+available (in both LaTeX and Word formats) from
+<https://www.acm.org/publications/authors/submissions>.
+
+There is a limit of **25 pages for a full paper or Functional Pearl**
+and **12 pages for an Experience Report**; in either case, the
+bibliography and an optional clearly marked appendix will not be
+counted against these limits. Submissions that exceed the page limits
+or, for other reasons, do not meet the requirements for formatting,
+will be summarily rejected.
+
+See also PACMPL's Information and Guidelines for Authors at
+<https://pacmpl.acm.org/authors.cfm>.
+
+*Submission*: Submissions will be accepted at
+<https://icfp23.hotcrp.com/>
+
+Improved versions of a paper may be submitted at any point before the
+submission deadline using the same web interface.
+
+*Author Response Period*: Authors will have a 72-hour period, starting
+at 12pm UTC on *Monday, May 1, 2023*, to read reviews and respond to
+them.
+
+*Appendix and Supplementary Material*: Authors have the option to
+include a clearly marked appendix and/or to attach supplementary
+material to a submission, on the understanding that reviewers may
+choose not to look at such an appendix or supplementary
+material. Supplementary material may be uploaded as a separate PDF
+document or tarball. Any supplementary material **must** be uploaded
+**at submission time**, not by providing a URL in the paper that
+points to an external repository.
+
+Authors are free to upload both anonymised and non-anonymised
+supplementary material. Anonymised supplementary material will be
+visible to reviewers immediately; non-anonymised supplementary
+material (which must be submitted separately) will be revealed to
+reviewers only after they have submitted their review of the paper and
+learned the identity of the author(s).
+
+*Authorship Policies*: All submissions are expected to comply with the
+ACM Policies for Authorship that are detailed at
+<https://www.acm.org/publications/authors/information-for-authors>.
+
+*Republication Policies*: Each submission must adhere to SIGPLAN's
+republication policy, as explained on the web at
+<http://www.sigplan.org/Resources/Policies/Republication>.
+
+*ORCID*: ORCID provides a persistent digital identifier (an ORCID iD)
+that you own and control, and that distinguishes you from every other
+researcher: https://orcid.org/. ACM now require an ORCID iD for every
+author of a paper, not just the corresponding author. So, the author
+who is filling out the permission form should make sure they have the
+ORCID iDs for all of their coauthors before filling out the form. Any
+authors who do not yet have an ORCID iD can go to
+https://orcid.org/register to have one assigned.
+
+### Review Process
+
+This section outlines the two-stage process with lightweight
+double-blind reviewing that will be used to select papers for PACMPL
+issue ICFP 2023.
+
+**New this year**: ICFP 2023 will have an Associate Chair who will help
+the PC Chair monitor reviews, solicit external expert reviews for
+submissions when there is not enough expertise on the committee, and
+facilitate reviewer discussions.
+
+*PACMPL issue ICFP 2023 will employ a two-stage review process.* The
+first stage in the review process will assess submitted papers using
+the criteria stated above and will allow for feedback and input on
+initial reviews through the author response period mentioned
+previously. As a result of the review process, a set of papers will be
+conditionally accepted and all other papers will be rejected. Authors
+will be notified of these decisions on **May 18, 2023**.
+
+Authors of conditionally accepted papers will be provided with
+committee reviews along with a set of mandatory revisions. By June 15,
+2023, the authors may provide a second submission. The second and
+final reviewing phase assesses whether the mandatory revisions have
+been adequately addressed by the authors and thereby determines the
+final accept/reject status of the paper. The intent and expectation is
+that the mandatory revisions can feasibly be addressed within three
+weeks.
+
+The second submission should clearly identify how the mandatory
+revisions were addressed. To that end, the second submission must be
+accompanied by a cover letter mapping each mandatory revision request
+to specific parts of the paper. The cover letter will facilitate a
+quick second review, allowing for confirmation of final acceptance
+within two weeks. Conversely, the absence of a cover letter will be
+grounds for the paper's rejection.
+
+*PACMPL issue ICFP 2023 will employ a lightweight double-blind
+reviewing process.*
+
+To facilitate this, submitted papers must adhere to two rules:
+
+ 1. **author names and institutions must be omitted**, and
+
+ 2. **references to authors' own related work should be in the third
+    person** (e.g., not "We build on our previous work ..." but
+    rather "We build on the work of ...").
+
+The purpose of this process is to help the reviewers come to an
+initial judgement about the paper without bias, not to make it
+impossible for them to discover the authors if they were to
+try. Nothing should be done in the name of anonymity that weakens the
+submission or makes the job of reviewing the paper more difficult
+(e.g., important background references should not be omitted or
+anonymised). In addition, authors should feel free to disseminate
+their ideas or draft versions of their papers as they normally
+would. For instance, authors may post drafts of their papers on the
+web or give talks on their research ideas.
+
+### Information for Authors of Accepted Papers
+
+ * As a condition of acceptance, final versions of all papers must
+   adhere to the ACM Small format. The page limit for the final
+   versions of papers will be increased by two pages to help authors
+   respond to reviewer comments and mandatory revisions: **27 pages
+   plus bibliography for a regular paper or Functional Pearl, 14
+   pages plus bibliography for an Experience Report**.
+
+ * Authors of accepted submissions will be required to agree to one
+   of the three ACM licensing options, one of which is Creative
+   Commons CC-BY publication; this is the option recommended by the
+   PACMPL editorial board. A reasoned argument in favour of this
+   option can be found in the article [Why
+   CC-BY?](https://oaspa.org/why-cc-by/) published by OASPA, the Open
+   Access Scholarly Publishers Association. The other options are
+   copyright transfer to ACM or retaining copyright but granting ACM
+   exclusive publication rights.
+
+ * PACMPL is a Gold Open Access journal, and authors are encouraged
+   to publish their work under a CC-BY license. Gold Open Access
+   guarantees permanent free online access to the definitive version
+   in the ACM Digital Library, and the recommended CC-BY option also
+   allows anyone to copy and distribute the work with attribution.
+   Gold Open Access has been made possible by generous funding
+   through ACM SIGPLAN, which will cover all open access costs in the
+   event authors cannot. Authors who can cover the costs may do so by
+   paying an Article Processing Charge (APC). PACMPL, SIGPLAN, and
+   ACM Headquarters are committed to exploring routes to making Gold
+   Open Access publication both affordable and sustainable.
+
+ * ACM Author-Izer is a unique service that enables ACM authors to
+   generate and post links on either their home page or institutional
+   repository for visitors to download the definitive version of
+   their articles from the ACM Digital Library at no
+   charge. Downloads through Author-Izer links are captured in
+   official ACM statistics, improving the accuracy of usage and
+   impact measurements. Consistently linking to the definitive
+   version of an ACM article should reduce user confusion over
+   article versioning. After an article has been published and
+   assigned to the appropriate ACM Author Profile pages, authors
+   should visit
+   <http://www.acm.org/publications/acm-author-izer-service> to learn
+   how to create links for free downloads from the ACM DL.
+
+ * The official publication date is the date the papers are made
+   available in the ACM Digital Library. This date may be up to *two
+   weeks prior* to the first day of the conference. The official
+   publication date affects the deadline for any patent filings
+   related to published work.
+
+ * Authors of each accepted submission are invited to attend and be
+   available for the presentation of that paper at the
+   conference. The schedule for presentations will be determined and
+   shared with authors after the full program has been selected.
+
+### Artifact Evaluation
+
+Authors of papers that are conditionally accepted in the first phase
+of the review process will be encouraged (but not required) to submit
+supporting materials for Artifact Evaluation. These items will then be
+reviewed by an Artifact Evaluation Committee, separate from the paper
+Review Committee, whose task is to assess how the artifacts support
+the work described in the associated paper. Papers that go through the
+Artifact Evaluation process successfully will receive a seal of
+approval printed on the papers themselves. Authors of accepted papers
+will be encouraged to make the supporting materials publicly available
+upon publication of the papers, for example, by including them as
+"source materials" in the ACM Digital Library. An additional seal will
+mark papers whose artifacts are made available, as outlined in the ACM
+guidelines for artifact badging.
+
+Participation in Artifact Evaluation is voluntary and will not
+influence the final decision regarding paper acceptance.
+
+### Special categories of papers
+
+In addition to research papers, PACMPL issue ICFP solicits two kinds
+of papers that do not require original research contributions:
+Functional Pearls, which are full papers, and Experience Reports,
+which are limited to half the length of a full paper. Authors
+submitting such papers should consider the following guidelines.
+
+#### Functional Pearls
+
+A Functional Pearl is an elegant essay about something related to
+functional programming. Examples include, but are not limited to:
+
+ * a new and thought-provoking way of looking at an old idea
+
+ * an instructive example of program calculation or proof
+
+ * a nifty presentation of an old or new data structure
+
+ * an interesting application of functional programming techniques
+
+ * a novel use or exposition of functional programming in the
+   classroom
+
+While pearls often demonstrate an idea through the development of a
+short program, there is no requirement or expectation that they do
+so. Thus, they encompass the notions of theoretical and educational
+pearls.
+
+Functional Pearls are valued as highly and judged as rigorously as
+ordinary papers, but using somewhat different criteria. In particular,
+a pearl is not required to report original research, but, it should be
+concise, instructive, and entertaining. A pearl is likely to be
+rejected if its readers get bored, if the material gets too
+complicated, if too much-specialised knowledge is needed, or if the
+writing is inelegant. The key to writing a good pearl is polishing.
+
+A submission that is intended to be treated as a pearl must be marked
+as such on the submission web page and should contain the words
+"Functional Pearl" somewhere in its title or subtitle. These steps
+will alert reviewers to use the appropriate evaluation
+criteria. Pearls will be combined with ordinary papers, however, for
+the purpose of computing the conference's acceptance rate.
+
+#### Experience Reports
+
+The purpose of an Experience Report is to describe the experience of
+using functional programming in practice, whether in industrial
+application, tool development, programming education, or any other
+area.
+
+Possible topics for an Experience Report include, but are not limited to:
+
+ * insights gained from real-world projects using functional
+   programming
+
+ * comparison of functional programming with conventional programming
+   in the context of an industrial project or a university curriculum
+
+ * project-management, business, or legal issues encountered when
+   using functional programming in a real-world project
+
+ * curricular issues encountered when using functional programming in
+   education
+
+ * real-world constraints that created special challenges for an
+   implementation of a functional language or for functional
+   programming in general
+
+An Experience Report is distinguished from a normal PACMPL issue ICFP
+paper by its title, by its length, and by the criteria used to
+evaluate it.
+
+ * Both in the papers and in any citations, the title of each
+   accepted Experience Report must end with the words "(Experience
+   Report)" in parentheses. The acceptance rate for Experience
+   Reports will be computed and reported separately from the rate for
+   ordinary papers.
+
+ * Experience Report submissions can be at most 12 pages long,
+   excluding bibliography.
+
+ * Each accepted Experience Report will be presented at the
+   conference, but depending on the number of Experience Reports and
+   regular papers accepted, authors of Experience Reports may be
+   asked to give shorter talks.
+
+ * Because the purpose of Experience Reports is to enable our
+   community to understand the application of functional programming,
+   an acceptable Experience Report need not add to the body of
+   knowledge of the functional-programming community by presenting
+   novel results or conclusions. It is sufficient if the Report
+   describes an illuminating experience with functional programming,
+   or provide evidence for a clear thesis about the use of functional
+   programming. The experience or thesis must be relevant to ICFP,
+   but it need not be novel.
+
+The review committee will accept or reject Experience Reports based on
+whether they judge the paper to illuminate some aspect of the use of
+functional programming. Anecdotal evidence will be acceptable provided
+it is well-argued and the author explains what efforts were made to
+gather as much evidence as possible. Typically, papers that show how
+functional programming was used are more convincing than papers that
+say \emph{only} that functional programming was used. It can be
+especially effective to present comparisons of the situations before
+and after the experience described in the paper, but other kinds of
+evidence would also make sense, depending on context. Experience drawn
+from a single person's experience may be sufficient, but more weight
+will be given to evidence drawn from the experience of groups of
+people.
+
+An Experience Report should be short and to the point. For an
+industrial project, it should make a claim about how well functional
+programming worked and why; for a pedagogy paper, it might make a
+claim about the suitability of a particular teaching style or
+educational exercise. Either way, it should produce evidence to
+substantiate the claim. If functional programming worked in this case
+in the same ways it has worked for others, the paper need only
+summarise the results — the main part of the paper should discuss how
+well it worked and in what context. Most readers will not want to know
+all the details of the experience and its implementation, but the
+paper should characterise it and its context well enough so that
+readers can judge to what degree this experience is relevant to their
+own circumstances. The paper should take care to highlight any unusual
+aspects; specifics about the experience are more valuable than
+generalities about functional programming.
+
+If the paper not only describes experience but also presents new
+technical results, or if the experience refutes cherished beliefs of
+the functional-programming community, it may be better to submit it as
+a full paper, which will be judged by the usual criteria of novelty,
+originality, and relevance. The Program Chair will be happy to advise
+on any concerns about which category to submit to.
+
+### ICFP Organisers
+
+General Chair:
+ Nikhil Swamy (Microsoft Research, USA)
+Programme Chair:
+ Sam Lindley (The University of Edinburgh, Scotland)
+Publicity Chair:
+ Ilya Sergey (National University of Singapore, Singapore)
+
+Accessibility Co-Chairs:
+ Vadim Zaliva (University of Cambridge, UK)
+ and Calvin Beck (University of Pennsylvania, USA)
+Artifact Evaluation Chair:
+ Jannis Limpberg (Vrije Universiteit Amsterdam, Netherlands)
+Diversity Chair:
+ Daan Leijen (Microsoft Research, USA)
+Industrial Relations Co-Chairs:
+ Atze Dijkstra (Standard Chartered Bank, England)
+ and Mathieu Bosepflug (Tweag I/O, France)
+Programming Contest Co-Organisers:
+ Alperen Keles (University of Maryland, USA) and
+ Aymeric Fromherz (Inria, France)
+Student Research Competition Chair:
+ Daniel Hillerström (The University of Edinburgh, Scotland)
+Video Chair:
+ Apoorv Ingle (Iowa, USA)
+Workshops Co-Chairs:
+ Arther Azevedo de Amorim (Boston University, USA)
+ and Yannick Forster (Inria, France)
+
+### PACMPL Volume 7, Issue ICFP 2023
+
+Associate Editor: Sam Lindley (The University of Edinburgh, Scotland)
+
+Review Committee:
+
+ Aggelos Biboudis, Oracle, Switzerland
+ Alan Jeffrey, Roblox, USA
+ Amos Robinson, Unaffiliated, Australia
+ Andreea Costea, National University of Singapore, Singapore
+ Andrew Hirsch, University of Buffalo, USA
+ Andy Gill, Cerebrus Systems, USA
+ Armando Solar-Lezama, MIT, USA
+ Arnaud Spiwack, Tweag, France
+ Benjamin C. Pierce, University of Pennsylvania, USA
+ Beta Ziliani, FAMAF, UNC and Manas.Tech, Argentina
+ Chung-Kil Hur, Seoul National University, South Korea
+ Delia Kesner, Université de Paris, France
+ Dylan McDermott, Reykjavik University, Iceland
+ Éric Tanter, University of Chile, Chile
+ Gabriel Radanne, Inria, France
+ Gerwin Klein, Proofcraft & UNSW Sydney, Australia
+ Hannah Gommerstadt, Vasser College, USA
+ James Chapman, Input Output, Scotland
+ James McKinna, Heriot-Watt, Scotland
+ Jan Midtgaard, Tarides, Denmark
+ Jeremy Gibbons, University of Oxford, England
+ Jonathan Brachthäuser, University of Tübingen, Germany
+ Jonathan Sterling, Aarhus University, Denmark
+ José Pedro Magalhães, Standard Chartered Bank, England
+ Josh Berdine, Meta UK, England
+ Kathrin Stark, Heriot-Watt, Scotland
+ Laura Bocchi, Kent, England
+ Lennart Augustsson, Epic Games, Sweden
+ Liang-Ting Chen, Academia Sinica, Taiwan, Taiwan
+ Lionel Parreaux, HKUST, Hong Kong
+ Marcos Viera, Universidad de la República, Uruguay
+ Matthew Flatt, University of Utah, USA
+ Michael D. Adams, National University of Singapore, Singapore
+ Michael Greenberg, Stevens Institute of Technology, USA
+ Niki Vazou, IMDEA, Spain
+ Oliver Bračevac, Purdue University, USA
+ Patrik Jansson, CSE, Chalmers and UGOT, Sweden, Sweden
+ Paul Downen, UMass Lowell, USA
+ Peter Thiemann, University of Freiburg, Germany
+ Sam Tobin-Hochstadt, Indiana University, USA
+ Satnam Singh, Groq, USA
+ Sean Moss, Oxford, England
+ Sebastian Erdweg, JGU Mainz, Germany
+ Shin-ya Katsumata, National Institute of Informatics, Japan
+ Simon Gay, University of Glasgow, Scotland
+ Sonia Marin, University of Birmingham, England
+ Stephen Dolan, Jane Street, England
+ Susmit Sarkar, University of St Andrews, Scotland
+ Tahina Ramananandro, Microsoft, USA
+ Takeshi Tsukada, Chiba University, Japan
+ Talia Ringer, University of Illinois at Urbana-Champaign, USA
+ Yukiyoshi Kameyama, University of Tsukuba, Japan
+ Zhenjiang Hu, Peking University, China

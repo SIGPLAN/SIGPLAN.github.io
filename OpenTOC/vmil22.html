@@ -1,0 +1,154 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>VMIL 2022: Proceedings of the 14th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages</title></head><body><div id="DLtoc"><div id="DLheader"><h1>VMIL 2022: Proceedings of the 14th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3563838"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563838.3567676">Ease Virtual Machine Level Tooling with Language Level Ordinary Object Pointers</a></h3><ul class="DLauthors"><li class="nameList">Pierre Misse-Chanabier</li><li class="nameList Last">Théo Rogliano</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Virtual Machines (VMs) are programming language implementations. 
+When tooling the VM level, developers face an important abstraction gap. 
+VMs supporting an Object-oriented Programming language often manipulates their memory using addresses i.e., ordinary object pointers (OOPs), even though addresses are hidden in the language this VM supports. 
+This discourages tooling at the VM level. 
+</p>
+<p>
+We propose language level OOP (LLOOP) to reduce abstraction gaps. 
+LLOOP combine language and VM knowledge at the VM level to ease VM tooling. 
+We present our implementation on the Pharo language. 
+Moreover, we created two tools solving two real-world major bugs in the Pharo environment which required VM level support. 
+</p>
+<p>
+First, we investigate how to fix a meta error that was preventing a Pharo environment to open. 
+We repair the broken environment by tracking and fixing the language level method responsible for the error at the VM level. 
+Second, we investigate a corrupted Pharo image. 
+A few objects in the Pharo memory space were corrupted i.e., the VM was not able to read and manipulate them. 
+We are able to identify and remove the corrupted objects, fixing the Pharo environment.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563838.3567677">Inlining-Benefit Prediction with Interprocedural Partial Escape Analysis</a></h3><ul class="DLauthors"><li class="nameList">Matthew Edwin Weingarten</li><li class="nameList">Theodoros Theodoridis</li><li class="nameList Last">Aleksandar Prokopec</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Inlining is the primary facilitating mechanism for intraprocedural Partial Escape Analysis (PEA), which allows for the removal of object allocations on a branch-by-branch basis and  
+is critical for performance in object-oriented languages. Prior  
+work used interprocedural Escape Analysis to make inlining decisions, but it discarded control-flow-sensitivity when  
+crossing procedure boundaries, and did not weigh other  
+metrics to model the cost-benefit of inlining, resulting in unpredictable inlining decisions and suboptimal performance.  
+Our work addresses these issues and introduces a novel Interprocedural Partial Escape Analysis algorithm (IPEA) to  
+predict the inlining benefits, and improve the cost-benefit  
+model of an existing optimization-driven inliner. We evaluate the implementation of IPEA in GraalVM Native Image,  
+on industry-standard benchmark suites Dacapo, ScalaBench,  
+and Renaissance. Out of 36 benchmarks with a geometric  
+mean runtime improvement of 1.79%, 6 benchmarks achieve  
+an improvement of over 5% with a geomean of 9.10% and  
+up to 24.62%, while also reducing code size and compilation  
+times compared to existing approaches.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563838.3567678">Profile Guided Offline Optimization of Hidden Class Graphs for JavaScript VMs in Embedded Systems</a></h3><ul class="DLauthors"><li class="nameList">Tomoharu Ugawa</li><li class="nameList">Stefan Marr</li><li class="nameList Last">Richard Jones</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>JavaScript is increasingly used for the Internet of Things (IoT) on embedded systems.  
+ However, JavaScript's memory footprint is a challenge,  
+ because normal JavaScript virtual machines (VMs) do not fit into the small memory of IoT devices.  
+ In part this is because a significant amount of memory is used by hidden classes,  
+ which are used to represent JavaScript's dynamic objects efficiently.  
+</p>
+<p>
+ In this research, we optimize the hidden class graph  
+ to minimize their memory use.  
+ Our solution collects the hidden class graph and related  
+ information for an application in a profiling run, and optimizes  
+ the graph offline.  
+ We reduce the number of hidden  
+ classes by avoiding introducing intermediate ones, for instance when properties are added one after another.  
+ Our optimizations allow the VM to assign the most likely final hidden class to an object at its creation.  
+ They also minimize re-allocation of storage for property values,  
+ and reduce the polymorphism of inline caches.  
+</p>
+<p>
+ We implemented these optimizations in a JavaScript VM, eJSVM, and found that  
+ offline optimization can eliminate 61.9% of the hidden classes on average.  
+ It also improves execution speed by  
+ minimizing the number of hidden class transitions for an object  
+ and reducing inline cache misses.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563838.3567679">Improving Vectorization Heuristics in a Dynamic Compiler with Machine Learning Models</a></h3><ul class="DLauthors"><li class="nameList">Raphael Mosaner</li><li class="nameList">Gergö Barany</li><li class="nameList">David Leopoldseder</li><li class="nameList Last">Hanspeter Mössenböck</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Optimizing compilers rely on many hand-crafted heuristics to guide the optimization process. However, the interactions between different optimizations makes their design a difficult task. We propose using machine learning models to either replace such heuristics or to support their development process, for example, by identifying important code features. Especially in static compilation, machine learning has been shown to outperform hand-crafted heuristics. We applied our approach in a state-of-the-art dynamic compiler, the GraalVM compiler. Our models predict an unroll factor for vectorized loops for which the GraalVM compiler developers have not been able to design satisfactory heuristics. Thereby, we identified features to describe vectorized loops and empirically evaluated the impact of different training data, features or model parameters on the accuracy of the learned models. When deployed in the GraalVM dynamic compiler, our models produce significant speedups of 8-11%, on average. Furthermore, large speedups unveiled a performance bug in the compiler which was fixed after our report. Our work shows that machine learning can be used to improve a dynamic compiler directly by replacing existing vectorization heuristics or indirectly by helping compiler developers to design better hand-crafted heuristics.</p>
+			</div></div>
+							
+						</div></div></body></html>

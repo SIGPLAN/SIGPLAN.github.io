@@ -8,8 +8,7 @@ research, providing opportunities for researchers, developers,
 practitioners, and students to present their latest research
 advances.
 
-- ACM's [master conference calendar](http://campus.acm.org/calendar/index.cfm?Sponsor=SIGPLAN)
-  for SIGPLAN.
+- ACM's [master conference calendar](https://www.acm.org/upcoming-conferences).
 - Information for [conference
   organizers](/Resources/Guidelines/ConferenceOrganizers) 
 

@@ -1,0 +1,102 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>TyDe 2022: Proceedings of the 7th ACM SIGPLAN International Workshop on Type-Driven Development</title></head><body><div id="DLtoc"><div id="DLheader"><h1>TyDe 2022: Proceedings of the 7th ACM SIGPLAN International Workshop on Type-Driven Development</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3546196"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3546196.3550162">A Hoare logic style refinement types formalisation</a></h3><ul class="DLauthors"><li class="nameList Last">Zilin Chen</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Refinement types is a lightweight yet expressive tool for specifying and reasoning about programs. The connection between refinement types and Hoare logic has long been recognised but the discussion remains largely informal. In this paper, we present a Hoare triple style Agda formalisation of a refinement type system on a simply-typed λ-calculus restricted to first-order functions. In our formalisation, we interpret the object language as shallow Agda terms and use Agda’s type system as the underlying logic for the type refinement. To deterministically typecheck a program with refinement types, we reduce it to the computation of the weakest precondition and define a verification condition generator which aggregates all the proof obligations that need to be fulfilled to witness the well-typedness of the program.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3546196.3550163">Structural refinement types</a></h3><ul class="DLauthors"><li class="nameList">David Binder</li><li class="nameList">Ingo Skupin</li><li class="nameList">David Läwen</li><li class="nameList Last">Klaus Ostermann</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Static types are a great form of lightweight static analysis. But sometimes a type like List is too coarse – we would also like to work with its <em>refinements</em> like non-empty lists, or lists containing exactly 42 elements. Dependent types allow for this, but they impose a heavy proof burden on the programmer. We want the checking and inference of refinements to be fully automatic. </p><p>In this article we present a simple refinement type system and inference algorithm which uses only variants of familiar concepts from constraint-based type inference. Concretely, we build on the algebraic subtyping approach and extend it with typing rules which combine properties of nominal and structural type systems in a novel way. Despite the simplicity of our approach, the resulting type system is very expressive and allows to specify and infer non-trivial properties of programs.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3546196.3550164">tylr: a tiny tile-based structure editor</a></h3><ul class="DLauthors"><li class="nameList">David Moon</li><li class="nameList">Andrew Blinn</li><li class="nameList Last">Cyrus Omar</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Structure editors designed for keyboard input often struggle to resolve the tension between maintaining hierarchical term structure and offering efficient linear editing affordances. Contemporary designs either compromise structure by deferring to text near the leaves or else maintain structure by permitting only edits that transform the selected term. However, visually adjacent sequences (e.g. of operators, operands, and individual delimiters) do not always cleave cleanly to term boundaries, so even experienced users report difficulties with selection and code restructuring tasks. We propose a novel approach to structure editing, <em>tile-based editing</em>, that maintains term structure while offering linear selection and modification affordances. The idea is to allow <em>disassembly</em> of terms into linearly sequenced tiles and shards around user selections, while guiding the user through restructuring actions and automatically inserting holes in a manner that ensures <em>reassembly</em> into a term. </p><p>This paper introduces tylr, a tiny tile-based editor designed primarily to highlight this uniquely flexible set of affordances. We evaluated tylr with a lab study where participants performed simple code transcription and modification tasks using tylr as well as a text editor and a structure editor built on JetBrains MPS, a state-of-the-art keyboard-driven structure editor generator. Our results indicate that participants frequently made use of tylr’s selection expressivity, and that this flexibility helped them complete some modification tasks significantly more quickly than with the MPS editor. We further observed that a few participants completed some tasks more quickly using tylr than with text, but were in general slowed by a number of limitations in our current design and implementation. We discuss these limitations and suggest future research and design directions aiming toward more flexible structure editing interfaces.</p>
+	</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3546196.3550165">Computing with generic trees in Agda</a></h3><ul class="DLauthors"><li class="nameList Last">Stephen Dolan</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Dependently-typed programming languages offer powerful new means of abstraction, allowing the programmer to work generically across data structures. However, using the standard generic encoding of tree-like data structures (the <em>W-types</em>), we soon notice a caveat: the computational behaviour of W-types does not quite match their first-order counterparts. Here, we show how a tweak to the definition of W-types avoids this caveat, making the generic definition work just as well as the direct one.</p>
+	</div></div>
+							
+						</div></div></body></html>

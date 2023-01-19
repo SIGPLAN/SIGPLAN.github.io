@@ -1,0 +1,102 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>Scala '22: Proceedings of the Scala Symposium</title></head><body><div id="DLtoc"><div id="DLheader"><h1>Scala '22: Proceedings of the Scala Symposium</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3550198"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent">
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3550198.3550425">Type-safe regular expressions</a></h3><ul class="DLauthors"><li class="nameList Last">Olivier Blanvillain</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Regular expressions can easily go wrong. Capturing groups, in particular, require meticulous care to avoid running into off-by-one errors and null pointer exceptions. In this chapter, we propose a new design for Scala's regular expressions which completely eliminates this class of errors. Our design makes extensive use of match types, Scala's new feature for type-level programming, to statically analyze regular expressions during type checking. We show that our approach has a minor impact on compilation times, which makes it suitable for practical use.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3550198.3550427">Design patterns for parser combinators in scala</a></h3><ul class="DLauthors"><li class="nameList">Jamie Willis</li><li class="nameList Last">Nicolas Wu</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Parser combinators provide a parsing experience that balances flexibility and abstraction with writing parsers in a style that remains close to the grammar. Parser combinators can benefit from the design patterns and structure of an object-oriented world, however, and this paper showcases the implementation and implications of various design patterns tailored at parsers in an object-oriented and functional world. In particular, features of Scala, such as implicits and path-dependent types, along with general object-oriented design help make it easy to write and maintain such parsers.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3550198.3550428">Enhancing closures in scala 3 with spores3</a></h3><ul class="DLauthors"><li class="nameList Last">Philipp Haller</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>The use of closures, a core language feature of functional programming languages, has become popular in the context of concurrent and distributed programming. Using closures in a concurrent or distributed setting increases safety hazards, however, due to captured variables. Previous work proposed spores, enhanced closures that increase safety by constraining their environment using types. This paper presents Spores3, a completely new library-based implementation of spores for Scala 3. It is shown how the new design is enabled by a unique combination of several new features in Scala 3. Moreover, Spores3 contributes a new, portable approach to serializing closures based on type classes. Its implementation supports the same serialization approach on both the JVM and the JavaScript backends of Scala.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3550198.3550426">Explicit nulls with unsafe nulls</a></h3><ul class="DLauthors"><li class="nameList">Yaoyu Zhao</li><li class="nameList Last">Ondřej Lhoták</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>The explicit nulls feature was merged into Scala 3 compiler at the end of 2019, which makes Null no longer a subtype of all reference types. This is the first step to enforce null safety in Scala language. Since then, we are continuously improving the usability to help users migrating to explicit nulls more easily.</p> <p>The UncheckedNull (originally named JavaNull) was introduced in the original design to allow calling Java members unsafely (Nieto et al. 2020). Due to limited usage and difficulty of implementation, we decided to discard this notion and introduced a new language feature, called UnsafeNulls. By simply importing scala.language-.unsafeNulls, users can create an "unsafe" scope. Inside this scope, Null will have similar semantic as in Scala without explicit nulls, which allows selecting members on nullable variables and assigning nullable values to non-nullable variables without checking. This is useful when a large chunk of Scala code is mainly interacting with nullable values from Java library.</p> <p>The community projects are used to evaluate this new feature. We found UnsafeNulls can significantly reduce the work of initial migration. This gives users more flexibility to migrate their projects gradually. We also migrated the Scala 3 compiler itself to explicit nulls.</p>
+	</div></div>
+						
+					</div></div></body></html>

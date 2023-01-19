@@ -1,0 +1,150 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>FTSCS 2022: Proceedings of the 8th ACM SIGPLAN International Workshop on Formal Techniques for Safety-Critical Systems</title></head><body><div id="DLtoc"><div id="DLheader"><h1>FTSCS 2022: Proceedings of the 8th ACM SIGPLAN International Workshop on Formal Techniques for Safety-Critical Systems</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3563822"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Invited Talk</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563822.3572548">Cooperative Verification: Towards Reliable Safety-Critical Systems (Invited Talk)</a></h3><ul class="DLauthors"><li class="nameList Last">Dirk Beyer</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Cooperative verification is an approach in which several verifiers help each other  
+solving the verification problem by sharing artifacts about the verification process.  
+There are many verification tools available, but the power of combining them is not yet fully leveraged.  
+The problem is that in order to use verifiers 'off-the-shelf',  
+we need clear interfaces to invoke the tools and to pass information.  
+Part of the interfacing problem is to define standard artifacts to be exchanged between verifiers.  
+We explain a few recent approaches for cooperative combinations and also give a brief overview of CoVeriTeam,  
+a tool for composing verification systems from existing off-the-shelf components.</p>
+			</div></div>
+							
+						<h2>SESSION: Time and State</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563822.3569923">Rewriting Logic Semantics and Symbolic Analysis for Parametric Timed Automata</a></h3><ul class="DLauthors"><li class="nameList">Jaime Arias</li><li class="nameList">Kyungmin Bae</li><li class="nameList">Carlos Olarte</li><li class="nameList">Peter Csaba Ölveczky</li><li class="nameList">Laure Petrucci</li><li class="nameList Last">Fredrik Rømming</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This paper presents a rewriting logic semantics for parametric timed automata (PTAs) and shows that symbolic reachability analysis using Maude-with-SMT is sound and complete for the PTA reachability problem. We then refine standard Maude-with-SMT reachability analysis so that the analysis terminates when the symbolic state space of the PTA is finite. We show how we can synthesize parameters with our methods, and compare their performance with Imitator, a state-of-the-art tool for PTAs. The practical contributions are two-fold: providing new analysis methods for PTAs---e.g. allowing more general state properties in queries and supporting reachability analysis combined with user-defined execution strategies---not supported by Imitator, and developing symbolic analysis methods for real-time rewrite theories.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563822.3568014">Q: A Sound Verification Framework for Statecharts and Their Implementations</a></h3><ul class="DLauthors"><li class="nameList">Samuel D. Pollard</li><li class="nameList">Robert C. Armstrong</li><li class="nameList">John Bender</li><li class="nameList">Geoffrey C. Hulette</li><li class="nameList">Raheel S. Mahmood</li><li class="nameList">Karla Morris</li><li class="nameList">Blake C. Rawlings</li><li class="nameList Last">Jon M. Aytac</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present Q Framework: a verification framework used at Sandia National Laboratories. Q is a collection of tools used to verify safety and correctness properties of high-consequence embedded systems and captures the structure and compositionality of system specifications written with state machines in order to prove system-level properties about their implementations. Q consists of two main workflows: 1) compilation of temporal properties and state machine models (such as those made with Stateflow) into SMV models and 2) generation of ACSL specifications for the C code implementation of the state machine models. These together prove a refinement relation between the state machine model and its C code implementation, with proofs of properties checked by NuSMV (for SMV models) and Frama-C (for ACSL specifications).</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563822.3568013">strategFTO: Untimed Control for Timed Opacity</a></h3><ul class="DLauthors"><li class="nameList">Étienne André</li><li class="nameList">Shapagat Bolat</li><li class="nameList">Engel Lefaucheux</li><li class="nameList Last">Dylan Marinho</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We introduce a prototype tool strategFTO addressing the verification of a security property in critical software. We consider a recent definition of timed opacity where an attacker aims to deduce some secret while having access only to the total execution time. The system, here modelled by timed automata, is deemed opaque if for any execution time, there are either no corresponding runs, or both public and private corresponding runs. We focus on the untimed control problem: exhibiting a controller, ie a set of allowed actions, such that the system restricted to those actions is fully timed-opaque. We first show that this problem is not more complex than the full timed opacity problem, and then we propose an algorithm, implemented and evaluated in practice.</p>
+			</div></div>
+							
+						<h2>SESSION: Distributed and Embedded Systems</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563822.3568017">Symbolic Reachability Analysis of Distributed Systems using Narrowing and Heuristic Search</a></h3><ul class="DLauthors"><li class="nameList">Byeongjee Kang</li><li class="nameList Last">Kyungmin Bae</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>A concurrent system specified as a rewrite theory can be symbolically analyzed using narrowing-based reachability analysis. Narrowing-based approaches have been applied to formally analyze cryptographic protocols and parameterized protocols. However, existing narrowing-based techniques, based on a breadth-first-search strategy, cannot deal with generic distributed systems with objects and messages due to the symbolic state-space explosion problem. This paper proposes a heuristic search approach for narrowing-based reachability analysis to guide the search for counterexamples involving a small number of objects. As a result, our method can effectively find a counterexample if an error state is reachable. We demonstrate the effectiveness of our technique using a nontrivial distributed consensus algorithm.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563822.3568010">Proving Memory Access Violations in Isabelle/HOL</a></h3><ul class="DLauthors"><li class="nameList">Sharar Ahmadi</li><li class="nameList">Brijesh Dongol</li><li class="nameList Last">Matt Griffin</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Security-critical applications often rely on memory isolation mechanisms to ensure integrity of critical data (e.g., keys) and program instructions (e.g., implementing an attestation protocol). These include software-based security microvisor (SµV) or hardware-based (e.g., TrustLite or SMART). Here, we must guarantee that none of the assembly-level instructions corresponding to a program violate the imposed memory access restrictions. We demonstrate our approach on two architectures (SµV and TrustLite) on which remote attestation protocols are implemented. We extend an approach based on the Binary Analysis Platform (BAP) to generate compiled assembly for a given C program, which is translated to an assembly intermediate language (BIL) and ultimately to Isabelle/HOL theories. In our extension, we develop an adversary model and define conformance predicates imposed by an architecture. We generate a set of programs covering all possible cases in which an assembly-level instruction attempts to violate at least one of the conformance predicates. This shows that the memory access restriction of both SµV and TrustLite are dynamically maintained. Moreover, we introduce conformance predicates for assembly-level instructions that can change the control flow, which improve TrustLite’s memory protection unit.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563822.3568016">Bounded Model Checking of PLC ST Programs using Rewriting Modulo SMT</a></h3><ul class="DLauthors"><li class="nameList">Jaeseo Lee</li><li class="nameList">Sangki Kim</li><li class="nameList Last">Kyungmin Bae</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>A programmable logic controller (PLC) is widely used in 
+industrial control systems, and Structured text (ST) is an 
+imperative language to develop PLC programs. Because of 
+its safety-critical nature, formally analyzing PLC programs 
+is important, and a rewriting-based formal semantics of ST 
+has been proposed for this purpose. This paper presents a 
+bounded model checking technique for PLC ST programs 
+based on the rewriting-based semantics. We apply rewriting 
+modulo SMT to symbolically analyze LTL properties of ST 
+programs with respect to sequences of (possibly infinite) 
+inputs and outputs. We have demonstrated the effectiveness 
+of our approach using a traffic light case study.</p>
+			</div></div>
+							
+						<h2>SESSION: Applications of Formal Methods</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563822.3568015">Synchronous Programming and Refinement Types in Robotics: From Verification to Implementation</a></h3><ul class="DLauthors"><li class="nameList">Jiawei Chen</li><li class="nameList">José Luiz Vargas de Mendonça</li><li class="nameList">Shayan Jalili</li><li class="nameList">Bereket Ayele</li><li class="nameList">Bereket Ngussie Bekele</li><li class="nameList">Zhemin Qu</li><li class="nameList">Pranjal Sharma</li><li class="nameList">Tigist Shiferaw</li><li class="nameList">Yicheng Zhang</li><li class="nameList Last">Jean-Baptiste Jeannin</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Robots and other cyber-physical systems are held to high standards of safety and reliability, and thus one must be confident in the correctness of their software. Formal verification can provide such confidence, but programming languages that lend themselves well to verification often do not produce executable code, and languages that are executable do not typically have precise enough formal semantics. We present MARVeLus, a stream-based approach to combining verification and execution in a synchronous programming language that allows formal guarantees to be made about implementation-level source code. We then demonstrate the end-to-end process of developing a safe robotics application, from modeling and verification to implementation and execution.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563822.3568018">Formal Probabilistic Risk Assessment of a Nuclear Power Plant</a></h3><ul class="DLauthors"><li class="nameList">Mohamed Abdelghany</li><li class="nameList Last">Sofiène Tahar</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Functional Block Diagrams (FBD) are commonly used as a graphical representation for probabilistic risk assessment in a wide range of complex engineering applications. An FBD models the stochastic behavior and cascading dependencies of system components or subsystems. Within FBD-based safety analysis, Event Trees (ET) dependability modeling techniques are typically used to associate all possible risk events to each subsystem. In this paper, we conduct the formal modeling and probabilistic risk assessment of a nuclear power plant in the HOL4 theorem prover. Using an FBD modeling in HOL4 of the nuclear Boiling Water Reactor (BWR), we formally determine all possible classes of accident events that can occur in the BWR. We compare our formal analysis in HOL4 with those obtained analytically and by simulation using Matlab and the specialized Isograph tool. Experimental results showed the superiority of our approach in terms of scalability, expressiveness, accuracy and CPU time.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3563822.3568011">Modelling a Blockchain for Smart Contract Verification using DeepSEA</a></h3><ul class="DLauthors"><li class="nameList">Daniel Britten</li><li class="nameList Last">Steve Reeves</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>To create trustworthy programs, the 'gold standard' is specifications at a high-enough level to clearly correspond to the informal specifications, and also a refinement proof linking these high-level specifications down to, in our case, executable bytecode. The DeepSEA system demonstrates how this can be done, in the context of smart contracts on the Ethereum blockchain. A key component of this is the model of the blockchain on which the smart contracts reside. When doing proofs in DeepSEA, it is critical to have such a model, which allows for the writing of specifications at a high-level clearly corresponding to informal specifications. A candidate model for doing so and its usefulness for carrying out proofs is discussed in this paper.</p>
+			</div></div>
+							
+						</div></div></body></html>

@@ -1,0 +1,154 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>ASPLOS 2023: Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1</title></head><body><div id="DLtoc"><div id="DLheader"><h1>ASPLOS 2023: Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3567955"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3567955.3567960">AQUATOPE: QoS-and-Uncertainty-Aware Resource Management for Multi-stage Serverless Workflows</a></h3><ul class="DLauthors"><li class="nameList">Zhuangzhuang Zhou</li><li class="nameList">Yanqi Zhang</li><li class="nameList Last">Christina Delimitrou</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Multi-stage serverless applications, i.e., workflows with many computation and I/O stages, are becoming increasingly representative of FaaS platforms. Despite their advantages in terms of fine-grained scalability and modular development, these applications are subject to suboptimal performance, resource inefficiency, and high costs to a larger degree than previous simple serverless functions.  
+</p>
+<p>
+We present Aquatope, a QoS-and-uncertainty-aware resource scheduler for end-to-end serverless workflows that takes into account the inherent uncertainty present in FaaS platforms, and improves performance predictability and resource efficiency. Aquatope uses a set of scalable and validated Bayesian models to create pre-warmed containers ahead of function invocations, and to allocate appropriate resources at function granularity to meet a complex workflow's end-to-end QoS, while minimizing resource cost. Across a diverse set of analytics and interactive multi-stage serverless workloads, Aquatope significantly outperforms prior systems, reducing QoS violations by 5X, and cost by 34% on average and up to 52% compared to other QoS-meeting methods.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3567955.3567958">CAFQA: A Classical Simulation Bootstrap for Variational Quantum Algorithms</a></h3><ul class="DLauthors"><li class="nameList">Gokul Subramanian Ravi</li><li class="nameList">Pranav Gokhale</li><li class="nameList">Yi Ding</li><li class="nameList">William Kirby</li><li class="nameList">Kaitlin Smith</li><li class="nameList">Jonathan M. Baker</li><li class="nameList">Peter J. Love</li><li class="nameList">Henry Hoffmann</li><li class="nameList">Kenneth R. Brown</li><li class="nameList Last">Frederic T. Chong</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Classical computing plays a critical role in the advancement of quantum frontiers in the NISQ era. In this spirit, this work uses classical simulation to bootstrap Variational Quantum Algorithms (VQAs). VQAs rely upon the iterative optimization of a parameterized unitary circuit (ansatz) with respect to an objective function. Since quantum machines are noisy and expensive resources, it is imperative to classically choose the VQA ansatz initial parameters to be as close to optimal as possible to improve VQA accuracy and accelerate their convergence on today’s devices.  
+</p>
+<p>
+This work tackles the problem of finding a good ansatz initialization, by proposing CAFQA, a Clifford Ansatz For Quantum Accuracy. The CAFQA ansatz is a hardware-efficient circuit built with only Clifford gates. In this ansatz, the parameters for the tunable gates are chosen by searching efficiently through the Clifford parameter space via classical simulation. The resulting initial states always equal or outperform traditional classical initialization (e.g., Hartree-Fock), and enable high-accuracy VQA estimations. CAFQA is well-suited to classical computation because: a) Clifford-only quantum circuits can be exactly simulated classically in polynomial time, and b) the discrete Clifford space is searched efficiently via Bayesian Optimization.  
+</p>
+<p>
+For the Variational Quantum Eigensolver (VQE) task of molecular ground state energy estimation (up to 18 qubits), CAFQA’s Clifford Ansatz achieves a mean accuracy of nearly 99% and recovers as much as 99.99% of the molecular correlation energy that is lost in Hartree-Fock initialization. CAFQA achieves mean accuracy improvements of 6.4x and 56.8x, over the state-of-the-art, on different metrics. The scalability of the approach allows for preliminary ground state energy estimation of the challenging chromium dimer (Cr2) molecule. With CAFQA’s high-accuracy initialization, the convergence of VQAs is shown to accelerate by 2.5x, even for small molecules.  
+</p>
+<p>
+Furthermore, preliminary exploration of allowing a limited number of non-Clifford (T) gates in the CAFQA framework, shows that as much as 99.9% of the correlation energy can be recovered at bond lengths for which Clifford-only CAFQA accuracy is relatively limited, while remaining classically simulable.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3567955.3567957">Cooperative Concurrency Control for Write-Intensive Key-Value Workloads</a></h3><ul class="DLauthors"><li class="nameList">Mark Sutherland</li><li class="nameList">Babak Falsafi</li><li class="nameList Last">Alexandros Daglis</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Key-Value Stores (KVS) are foundational infrastructure components for online services. Due to their latency-critical nature, today’s best-performing KVS contain a plethora of full-stack optimizations commonly targeting read-mostly, popularity-skewed workloads. Motivated by production studies showing the increased prevalence of write-intensive workloads, we break down the KVS workload space into four distinct classes, and argue that current designs are only sufficient for two of them. The reason is that KVS concurrency control protocols expose a fundamental tradeoff: avoiding synchronization by partitioning writes across threads is mandatory for high throughput, but necessarily creates load imbalance that grows with core count and write fraction. We break this tradeoff with C-4, a co-design between NIC hardware and KVS software that judiciously separates write requests into two classes: independent ones that can be balanced across threads, and dependent ones which must be queued. C-4 dynamically partitions independent writes with the NIC to increase the load balancing flexibility of current KVS designs, and adds a software layer to the KVS to compact dependent writes into batches. Our evaluation shows that for write-intensive workloads, C-4 reduces 99th% tail latency by 1.3−5× and improves throughput by up to 1.7×.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3567955.3567956">DecoMine: A Compilation-Based Graph Pattern Mining System with Pattern Decomposition</a></h3><ul class="DLauthors"><li class="nameList">Jingji Chen</li><li class="nameList Last">Xuehai Qian</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Graph pattern mining (GPM) is an important application that identifies structures from graphs. Despite the recent progress, the performance gap between the state-of-the-art GPM systems and an efficient algorithm—pattern decomposition—is still at least an order of magnitude. This paper clears the fundamental obstacles of adopting pattern decomposition to a GPM system.  
+</p>
+<p>
+First, the performance of pattern decomposition algorithms depends on how to decompose the whole pattern into subpatterns. The original method performs complexity analysis of algorithms for different choices, and selects the one with the lowest complexity upper bound. Clearly, this approach is not feasible for average or even expert users. To solve this problem, we develop a GPM compiler with conventional and GPM-specific optimizations to generate algorithms for different decomposition choices, which are evaluated based on an accurate cost model. The executable of the GPM task is obtained from the algorithm with the best performance. Second, we propose a novel partial-embedding API that is sufficient to construct advanced GPM applications while preserving pattern decomposition algorithm advantages. Compared to state-of-the-art systems, our new GPM system, DecoMine, developed based on the ideas, reduces the execution time of GPM on large graphs and patterns from days to a few hours with low programming effort.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3567955.3567964">Erms: Efficient Resource Management for Shared Microservices with SLA Guarantees</a></h3><ul class="DLauthors"><li class="nameList">Shutian Luo</li><li class="nameList">Huanle Xu</li><li class="nameList">Kejiang Ye</li><li class="nameList">Guoyao Xu</li><li class="nameList">Liping Zhang</li><li class="nameList">Jian He</li><li class="nameList">Guodong Yang</li><li class="nameList Last">Chengzhong Xu</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>A common approach to improving resource utilization in data centers is to adaptively provision resources based on the actual workload. One fundamental challenge of doing this in microservice management frameworks, however, is that different components of a service can exhibit significant differences in their impact on end-to-end performance. To make resource management more challenging, a single microservice can be shared by multiple online services that have diverse workload patterns and SLA requirements.  
+</p>
+<p>
+We present an efficient resource management system, namely Erms, for guaranteeing SLAs in shared microservice environments. Erms profiles microservice latency as a piece-wise linear function of the workload, resource usage, and interference. Based on this profiling, Erms builds resource scaling models to optimally determine latency targets for microservices with complex dependencies. Erms also designs new scheduling policies at shared microservices to further enhance resource efficiency. Experiments across microservice benchmarks as well as trace-driven simulations demonstrate that Erms can reduce SLA violation probability by 5× and more importantly, lead to a reduction in resource usage by 1.6×, compared to state-of-the-art approaches.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3567955.3567963">Glign: Taming Misaligned Graph Traversals in Concurrent Graph Processing</a></h3><ul class="DLauthors"><li class="nameList">Xizhe Yin</li><li class="nameList">Zhijia Zhao</li><li class="nameList Last">Rajiv Gupta</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In concurrent graph processing, different queries are evaluated on the same graph simultaneously, sharing the graph accesses via the memory hierarchy. However, different queries may traverse the graph differently, especially for those starting from different source vertices. When these graph traversals are ”misaligned”, the benefits of graph access sharing can be seriously compromised. As more concurrent queries are added to the evaluation batch, the issue tends to become even worse. </p><p>To address the above issue, this work introduces Glign, a runtime system that automatically aligns the graph traversals for concurrent queries. Glign introduces three levels of graph traversal alignment for iterative evaluation of concurrent queries. First, it synchronizes the accesses of different queries to the active parts of the graph within each iteration of the evaluation—<em>intra-iteration alignment</em>. On top of that, Glign leverages a key insight regarding the “heavy iterations” in query evaluation to achieve <em>inter-iteration alignment</em> and <em>alignment-aware batching</em>. The former aligns the iterations of different queries to increase the graph access sharing, while the latter tries to group queries of better graph access sharing into the same evaluation batch. Together, these alignment techniques can substantially boost the data locality of concurrent query evaluation. Based on our experiments, Glign outperforms the state-of-the-art concurrent graph processing systems Krill and GraphM by 3.6× and 4.7× on average, respectively.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3567955.3567959">Overlap Communication with Dependent Computation via Decomposition in Large Deep Learning Models</a></h3><ul class="DLauthors"><li class="nameList">Shibo Wang</li><li class="nameList">Jinliang Wei</li><li class="nameList">Amit Sabne</li><li class="nameList">Andy Davis</li><li class="nameList">Berkin Ilbeyi</li><li class="nameList">Blake Hechtman</li><li class="nameList">Dehao Chen</li><li class="nameList">Karthik Srinivasa Murthy</li><li class="nameList">Marcello Maggioni</li><li class="nameList">Qiao Zhang</li><li class="nameList">Sameer Kumar</li><li class="nameList">Tongfei Guo</li><li class="nameList">Yuanzhong Xu</li><li class="nameList Last">Zongwei Zhou</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Large deep learning models have shown great potential with state-of-the-art results in many tasks. However, running these large models is quite challenging on an accelerator (GPU or TPU) because the on-device memory is too limited for the size of these models. Intra-layer model parallelism is an approach to address the issues by partitioning individual layers or operators across multiple devices in a distributed accelerator cluster. But, the data communications generated by intra-layer model parallelism can contribute to a significant proportion of the overall execution time and severely hurt the computational efficiency. </p><p>As intra-layer model parallelism is critical to enable large deep learning models, this paper proposes a novel technique to effectively reduce its data communication overheads by overlapping communication with computation. With the proposed technique, an identified original communication collective is decomposed along with the dependent computation operation into a sequence of finer-grained operations. By creating more overlapping opportunities and executing the newly created, finer-grained communication and computation operations in parallel, it effectively hides the data transfer latency and achieves a better system utilization. Evaluated on TPU v4 Pods using different types of large models that have 10 billion to 1 trillion parameters, the proposed technique improves system throughput by 1.14 - 1.38x. The achieved highest peak FLOPS utilization is 72% on 1024 TPU chips with a large language model that has 500 billion parameters.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3567955.3567962">Risotto: A Dynamic Binary Translator for Weak Memory Model Architectures</a></h3><ul class="DLauthors"><li class="nameList">Redha Gouicem</li><li class="nameList">Dennis Sprokholt</li><li class="nameList">Jasper Ruehl</li><li class="nameList">Rodrigo C. O. Rocha</li><li class="nameList">Tom Spink</li><li class="nameList">Soham Chakraborty</li><li class="nameList Last">Pramod Bhatotia</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Dynamic Binary Translation (DBT) is a powerful approach to support cross-architecture emulation of unmodified binaries. However, DBT systems face correctness and performance challenges, when emulating <em>concurrent binaries from strong to weak memory consistency architectures</em>. As a matter of fact, we report several translation errors in QEMU, when emulating x86 binaries on Arm hosts. </p><p>To address these challenges, we propose an end-to-end approach that provides correct and efficient emulation for weak memory model architectures. Our contributions are twofold: we formalize QEMU’s intermediate representation’s memory model, and use it to propose formally verified mapping schemes to bridge the <em>strong-on-weak memory consistency mismatch</em>. Secondly, we implement these verified mappings in Risotto, a QEMU-based DBT system that optimizes memory fence placement while ensuring correctness. Risotto further enhances the emulation performance via cross-architecture dynamic linking of native shared libraries, and fast and correct translation of compare-and-swap operations. </p><p>We evaluate Risotto using multi-threaded benchmark suites and real-world applications, and show that Risotto improves the emulation performance by 6.7% on average over ”erroneous” QEMU, while ensuring correctness.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3567955.3567961">TelaMalloc: Efficient On-Chip Memory Allocation for Production Machine Learning Accelerators</a></h3><ul class="DLauthors"><li class="nameList">Martin Maas</li><li class="nameList">Ulysse Beaugnon</li><li class="nameList">Arun Chauhan</li><li class="nameList Last">Berkin Ilbeyi</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Memory buffer allocation for on-chip memories is a major challenge in modern machine learning systems that target ML accelerators. In interactive systems such as mobile phones, it is on the critical path of launching ML-enabled applications. In data centers, it is part of complex optimization loops that run many times and are the limiting factor for the quality of compilation results.  
+</p>
+<p>
+In contrast to the traditional memory allocation problem in languages such as C++, where allocation requests dynamically arrive as the application is executing, ML systems typically execute a static control flow graph that is known in advance. The task of the memory allocator is to choose buffer locations in device memory such that the total amount of used memory never exceeds the total memory available on-device. This is a high dimensional, NP-hard optimization problem that is challenging to solve.  
+</p>
+<p>
+Today, ML frameworks approach this problem either using ad-hoc heuristics or solver-based methods. Heuristic solutions work for simple cases but fail for more complex instances of this problem. Solver-based solutions can handle these more complex instances, but are expensive and impractical in scenarios where memory allocation is on the critical path, such as on mobile devices that compile models on-the-fly. We encountered this problem in the development of Google's Pixel 6 phone, where some important models took prohibitively long to compile.  
+</p>
+<p>
+We introduce an approach that solves this challenge by combining constraint optimization with domain-specific knowledge to achieve the best properties of both. We combine a heuristic-based search with a solver to guide its decision making. Our approach matches heuristics for simple inputs while being significantly faster than the best Integer Linear Program (ILP) solver-based approach for complex inputs. We also show how ML can be used to continuously improve the search for the long tail of workloads. Our approach is shipping in two production systems: Google's Pixel 6 phone and TPUv4. It achieves up to two orders of magnitude allocation time speed-up on real ML workloads compared to a highly-tuned production ILP approach that it replaces and enables important real-world models that could not otherwise be supported.</p>
+			</div></div>
+							
+						</div></div></body></html>
