@@ -23,7 +23,7 @@ programming languages free of restrictions on both access and use.
 - Acronym: PACMPL
 - Publisher: ACM (electronic format via ACM Digital Library, no print format)
 - e-ISSN: 2475-1421
-- Annual Issues: POPL (January), ICFP (September), OOPSLA (October)
+- Annual Issues: POPL (January), OOPSLA1 (April), ICFP (August), OOPSLA2 (October)
 - Website: [`pacmpl.acm.org`](https://pacmpl.acm.org)
 - Website: [`dl.acm.org/pub.cfm?id=J1568`](https://dl.acm.org/pub.cfm?id=J1568)
 
