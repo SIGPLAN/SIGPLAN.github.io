@@ -30,8 +30,11 @@ programming languages free of restrictions on both access and use.
 ### Participating Conferences
 
 - [ACM SIGPLAN Symposium on Principles of Programming Languages (POPL)](/Conferences/POPL)
+- [ACM SIGPLAN International Conference on Programming Language Design
+  and Implementation (PLDI)](/Conferences/PLDI)
 - [ACM SIGPLAN International Conference on Functional Programming (ICFP)](/Conferences/ICFP)
 - [ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA)](/Conferences/OOPSLA)
+- ACM SIGPLAN History of Programming Languages Conference (HOPL)
 
 ### Governance
 

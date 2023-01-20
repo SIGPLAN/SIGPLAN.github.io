@@ -19,6 +19,8 @@ these awards.&#160; More details about the SIGPLAN awards can be found
 
 **Web Pages of Previous Conferences**
 
+* [ICFP 2023](http://icfp23.sigplan.org/) (Seattle, WA)
+* [ICFP 2022](http://icfp22.sigplan.org/) (Ljubljana, Slovenia)
 * [ICFP 2021](http://icfp21.sigplan.org/) (virtual)
 * [ICFP 2020](http://icfp20.sigplan.org/) (virtual)
 * [ICFP 2019](http://icfp19.sigplan.org/) (Berlin, Germany)

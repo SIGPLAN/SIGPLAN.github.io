@@ -1,3 +1,24 @@
+2022:
+- Awardee: Adam Betts, Nathan Chong, Alastair Donaldson, Shaz Qadeer and Paul Thomson
+  Other: |
+    (for 2012) _[GPUVerify: a verifier for GPU kernels](https://dl.acm.org/doi/10.1145/2384616.2384625)_
+  Citation: |
+    GPU programming is supported by abstractions like CUDA and OpenCL.
+    To gain the performance benefits of GPUs, these abstractions
+    present a programming model that offers the potential for
+    introducing subtle concurrency bugs like data races and barrier
+    divergences.  This paper presents the first GPU program
+    verification method --- GPUVerify.  GPUVerify translates GPU
+    programs into a sequential Boogie program that encodes the aspects
+    of program behavior that give rise to data races and barrier
+    divergence.  Discharging proofs of the resulting programs requires
+    appropriate inductive invariants and the paper identifies a
+    collection of idiomatic invariants present in GPU programs that
+    enable cost-effective verification.  GPUVerify opened up a new
+    problem space for verification research and the open-source tools
+    developed on the project have been of use to practitioners and are
+    recommended by major hardware manufacturers.
+
 2021:
 - Awardee: Sebastian Erdweg, Tillmann Rendel, Christian Kästner, Klaus Ostermann
   Other: |

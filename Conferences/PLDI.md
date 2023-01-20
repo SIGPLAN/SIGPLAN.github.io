@@ -29,6 +29,8 @@ The PLDI Steering Committee is chosen according the [Practices of PLDI](http://w
 
 **Web Pages of Previous Conferences**
 
+- [PLDI 2023](http://pldi23.sigplan.org) (Orlando, FL)
+- [PLDI 2022](http://pldi22.sigplan.org) (San Diego, CA)
 - [PLDI 2021](http://pldi21.sigplan.org) (virtual)
 - [PLDI 2020](http://pldi20.sigplan.org) (virtual)
 - [PLDI 2019](http://pldi19.sigplan.org) (Phoenix, AZ)
