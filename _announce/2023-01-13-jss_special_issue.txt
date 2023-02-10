@@ -1,0 +1,78 @@
+---
+title: "CfP: Journal of Systems and Software - Special Issue on Software Language Engineering"
+timestamp: "1/13/2023 7:41:01"
+deadline: "2/15/2023"
+---
+Dear Colleagues,
+
+We invite submissions for the Journal of Systems and Software Special Issue on «Software Language Engineering». This special issue is related to the 2022 edition of the Software Language Engineering Conference (https://2022.splashcon.org/home/sle-2022?) but **it is open to all authors.**
+
+Details follow.
+
+--------------------------------------------------------------------------------------
+Journal of Systems and Software
+Software Language Engineering Special Issue
+
+Guest Editors
+
+● Lola Burgueño, University of Malaga, Spain
+● Walter Cazzola, Professor, Università degli Studi di Milano, Italy
+● Dimitris Kolovos, Professor, University of York, United Kingdom
+
+Special issue information:
+
+With the ubiquity of computers, software has become the dominating intellectual asset of our time. In turn, this software depends on software languages, namely the languages it is written in, the languages used to describe its environment, and the languages driving its development process. Given that everything depends on software and that software depends on software languages, it seems fair to say that for many years to come, everything will depend on software languages.
+
+Software language engineering (SLE) is the discipline of engineering languages and their tools required for the creation of software. It abstracts from the differences between programming languages, modeling languages, and other software languages, and emphasizes the engineering facet of the creation of such languages, that is, the establishment of the scientific methods and practices that enable the best results. While SLE is certainly driven by its meta-circular character (software languages are engineered using software languages), SLE is not self-satisfying: its scope extends to the engineering of languages for all and everything.
+
+This special issue will represent a further step in identification, definition and tooling of software languages.
+
+Topics of interest related to the special issue, but are not limited to:
+
+● Software Language Design and Implementation
+   ○ Approaches to and methods for language design
+   ○ Static semantics (e.g. design rules, well-formedness constraints)
+   ○ Techniques for specifying behavioral / executable semantics
+   ○ Generative approaches (incl. code synthesis, compilation)
+   ○ Meta-languages, meta-tools, language workbenches
+● Software Language Validation
+   ○ Verification and formal methods for languages
+   ○ Testing techniques for languages
+   ○ Simulation techniques for languages
+● Software Language Integration and Composition
+   ○ Coordination of heterogeneous languages and tools
+   ○ Mappings between languages (incl. transformation languages)
+   ○ Traceability between languages
+   ○ Deployment of languages to different platforms
+● Software Language Maintenance
+   ○ Software language reuse
+   ○ Language evolution
+   ○ Language families and variability, language and software product lines
+   ○ Domain-specific approaches for any aspects of SLE (design, implementation, validation, maintenance)
+● Empirical evaluation and experience reports of language engineering tools
+   ○ User studies evaluating usability
+   ○ Performance benchmarks
+   ○ Industrial applications
+● Synergies between Language Engineering and emerging/promising research areas
+   ○ AI and ML language engineering (e.g., ML compiler testing, code classification)
+   ○ Quantum language engineering (e.g., language design for quantum machines)
+● Language engineering for physical systems (e.g., CPS, IoT, digital twins)
+   ○ Socio-technical systems and language engineering (e.g., language evolution to adapt to social requirements)
+
+Manuscript submission information:
+
+Proposed Dates and Outcomes
+● Submission: 15 February 2023
+● Notification to authors (first round): 15 April 2023
+● Submission of revised papers (second round): 15 June 2023
+● Notification to authors (second round): 15 August 2023
+● Submission after second review: 15 October 2023
+● Final acceptance: 15 November 2023
+● Date of publication: 15 December 2023
+
+Submission Guidelines
+
+The call for this special issue is an open call. We invite innovative research with a sound scientific or technological basis and validation. We accept submissions of original and previously unpublished manuscripts and we especially encourage the submission of revised and extended papers from the 15th ACM SIGPLAN International Conference on Software Language Engineering (SLE 2022). If a previous version of the manuscript has been published in a conference or journal, then authors must explicitly explain the novelty of this new submission and provide at least 30% new material. Surveys, literature reviews and mapping studies would not be considered as part of this special issue.
+
+All manuscripts and any supplementary material should be submitted through the Elsevier Editorial System at https://www.editorialmanager.com/jssoftware/default1.aspx. Follow the submission instructions given on this site. During the submission process, select the article type "VSI:SLE" from the "Choose Article Type" pull-down menu. All submissions must adhere to the general principles of the Journal of Systems and Software articles. Submissions have to be prepared according to the Guide for Authors, available on the journal website, and must follow the format specified in the JSS Guide for Authors https://www.elsevier.com/journals/journal-of-systems-and-software/0164-1212/guide-for-authors.
+For more information about the special issue, please contact the guest editors.
