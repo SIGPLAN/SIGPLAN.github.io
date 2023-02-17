@@ -1226,3 +1226,7 @@
   year: 2023
   title: "Proceedings of the 50th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
   link: https://dl.acm.org/toc/pacmpl/2023/7/POPL
+-
+  event: CC
+  year: 2023
+  title: "Proceedings of the 32nd ACM SIGPLAN International Conference on Compiler Construction"
