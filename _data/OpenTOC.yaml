@@ -1230,3 +1230,7 @@
   event: CC
   year: 2023
   title: "Proceedings of the 32nd ACM SIGPLAN International Conference on Compiler Construction"
+-
+  event: PPoPP
+  year: 2023
+  title: "Proceedings of the 28th ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming"
