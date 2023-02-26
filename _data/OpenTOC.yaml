@@ -1238,3 +1238,15 @@
   event: CGO
   year: 2023
   title: "Proceedings of the 21st ACM/IEEE International Symposium on Code Generation and Optimization"
+-
+  event: PMAM
+  year: 2023
+  title: "Proceedings of the 14th International Workshop on Programming Models and Applications for Multicores and Manycores"
+-
+  event: BID
+  year: 2023
+  title: "Proceedings of the 5th International Workshop on Benchmarking in the Data Center"
+-
+  event: PPoPP
+  year: 2023
+  title: "Proceedings of the 28th ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming"
