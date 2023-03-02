@@ -81,11 +81,11 @@ CARES committee members may also attend other workshops and conferences sponsore
   </tr>
       <tr>
     <td><a href="https://2022.splashcon.org">SPLASH 2022 </a></td>
-    <td>Gabriele Keller</td>
+    <td>Atshushi Igarashi, Gabriele Keller</td>
   </tr>
     <tr>
     <td><a href="https://icfp22.sigplan.org">ICFP 2022</a></td>
-    <td>Simon Peyton Jones</td>
+    <td>Simon Peyton Jones, Stephanie Weirich</td>
  </tr>
   <tr>
     <td><a href="https://pldi22.sigplan.org">PLDI 2022 </a></td>
