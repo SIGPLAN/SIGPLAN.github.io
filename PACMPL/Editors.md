@@ -19,11 +19,11 @@ Editor-in-Chief:
   - [Michael Hicks](http://www.cs.umd.edu/~mwh/), University of Maryland, USA
 
 Advisory Board:
-  - [Giuseppe Castagna](https://www.irif.fr/~gc/), Paris Diderot University & CNRS, France<br>
+  - [Derek Dreyer](https://people.mpi-sws.org/~dreyer/), MPI-SWS, Germany <br>
     Member at Large (Issue POPL)
-  - [Jeremy Gibbons](https://www.cs.ox.ac.uk/people/jeremy.gibbons/), University of Oxford, UK<br>
+  - [Stephanie Weirich](https://www.cis.upenn.edu/~sweirich/), University of Pennsylvania, USA <br>
     Member at Large (Issue ICFP)
-  - [Cristina Lopes](https://www.ics.uci.edu/~lopes/), University of California, Irvine, USA <br>
+  - [Hridesh Rajan](https://www.cs.iastate.edu/hridesh), Iowa State University, USA <br>
     Member at Large (Issue OOPSLA)
   - [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts University, USA <br>
     Chair of SIGPLAN
@@ -56,7 +56,7 @@ Assistant Editors:
     Editor for Volume 8, Issue PLDI (June 2024)
   - [n.n.]() <br>
     Editor for Volume 8, Issue ICFP (August 2024)
-  - [n.n.]() <br>
+  - [Alex Potanin](https://potanin.github.io), Australian National University <br>
     Editor for Volume 8, Issue OOPSLA (October 2024)
 
 Information Director:
