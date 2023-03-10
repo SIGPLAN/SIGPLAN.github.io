@@ -25,6 +25,8 @@ Advisory Board:
     Member at Large (Issue ICFP)
   - [Hridesh Rajan](https://www.cs.iastate.edu/hridesh), Iowa State University, USA <br>
     Member at Large (Issue OOPSLA)
+  - [Alistair Donaldson](https://multicore.doc.ic.ac.uk), Imperial College London, UK <br>
+    Member at Large (Issue PLDI)
   - [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts University, USA <br>
     Chair of SIGPLAN
   - [Anders Møller](https://cs.au.dk/~amoeller/), Aarhus University, Denmark <br>
@@ -54,7 +56,7 @@ Assistant Editors:
     Editor for Volume 8, Issue POPL (January 2024)
   - [John Regehr](https://www.cs.utah.edu/~regehr/), University of Utah, USA <br>
     Editor for Volume 8, Issue PLDI (June 2024)
-  - [n.n.]() <br>
+  - [Brigitte Pientka](https://www.cs.mcgill.ca/~bpientka/), McGill University, Canada <br>
     Editor for Volume 8, Issue ICFP (August 2024)
   - [Alex Potanin](https://potanin.github.io), Australian National University <br>
     Editor for Volume 8, Issue OOPSLA (October 2024)
