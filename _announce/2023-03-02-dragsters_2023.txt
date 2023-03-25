@@ -1,0 +1,46 @@
+---
+title: "Call for Talks:  DRAGSTERS 2023:  PLDI/FCRC Workshop on Distributions, Relational Algebra, Graphs, Semi-Rings, Tensors, and all that"
+timestamp: "3/2/2023 13:50:09"
+deadline: "4/5/2023"
+---
+Webpage: https://pldi23.sigplan.org/home/dragsters-2023
+
+Over the last decade, researchers working in compilers, programming languages, databases, machine learning, supercomputing, and related fields have productively explored both analogies and direct isomorphisms between objects like tensors, graphs, probability distributions and relations. These connections have consequences up and down computing stacks: ranging from common APIs and language concepts, to shared algorithmic and complexity results, to common compilation strategies, and to hardware design considerations.
+
+This workshop aims to bring together a broad set of researchers in these areas to better understand the similarities and differences. The program will contain a mixture of invited talks and short talks. Submission and talk materials will not be published. This workshop seeks talks on topics ranging from (but not limited to):
+
+* Dense & sparse linear/tensor algebra compilers
+* Graph processing systems
+* Systems for probabilistic graphical models
+* Semi-ring/graph BLAS API design & implementation
+* Mixed linear/relational-algebra languages
+* Communication lower bounds for tensor contractions, etc.
+* Asymptotically optimal join query and tensor contraction algorithms
+* Integrating query processing with downstream computations (e.g. ML pipelines)
+* Hardware for computing on sparse and irregular data
+* Data-structure synthesis
+* Datalog connections for all of the above
+* Domain-specific languages for image processing, simulation, machine learning, data analytics, and other application domains making use of these abstractions
+
+Preference will be given to talks about new work, but talks need not necessarily communicate novel research. Historical or scholarly talks on the above subjects will be judged based on their ability to connect disparate topics.
+
+Please Submit Talk Abstracts
+
+Submissions should be in the form of a 1 to 2-page extended abstract that describes the central insights and ideas to be discussed in the proposed talk.  Talks are intended to foster discussion. The program will include time for open-ended discussion inspired by the talks as well as Q&A.
+
+HotCRP: https://dragsters23.hotcrp.com/
+
+Program Committee
+Gilbert Bernstein (University of Washington)
+Amir Shaikhha (University of Edinburgh)
+Willow Ahrens (MIT)
+Mathieu Huot (University of Oxford)
+Dougal Maclaurin (Google)
+Tim Mattson (Intel)
+Huda Nassar (Relational AI)
+Dan Olteanu (University of Zurich)
+Edgar Solomonik (UIUC)
+Eleni Tzirita Zacharatou (IT University of Copenhagen)
+Michel Steuwer (University of Edinburgh)
+Yisu Remy Wang (University of Washington)
+Shangdi Yu (MIT)

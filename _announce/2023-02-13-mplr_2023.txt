@@ -1,0 +1,76 @@
+---
+title: "Call for Papers, 20th International Conference on Managed Programming Languages and Runtimes (MPLR\u201923)"
+timestamp: "2/13/2023 0:26:06"
+deadline: "6/26/2023"
+---
+The 20th International Conference on Managed Programming Languages & Runtimes (MPLR, formerly ManLang, originally PPPJ) is a premier forum for presenting and discussing novel results in all aspects of managed programming languages and runtime systems, which serve as building blocks for some of the most important computing systems in use, ranging from small-scale (embedded and real-time systems) to large-scale (cloud-computing and big-data platforms) and anything in between (desktop, mobile, IoT, and wearable applications).
+
+# Topics
+The areas of interest include but are not limited to:
+
+## Languages and Compilers
+- Managed languages (e.g., Java, Scala, JavaScript, Python, Ruby, C#, F#, Clojure, Groovy, Kotlin, R, Smalltalk, Racket, Rust, Go, Lua, MATLAB, Raku, Pony, …)
+- Portable intermediate representations such as WebAssembly
+- Domain-specific languages
+- Language design
+- Compilers and interpreters
+- Type systems and program logics
+- Language interoperability
+- Parallelism, distribution, and concurrency
+## Virtual Machines
+- Managed runtime systems (e.g., JVM, Android Runtime (ART), V8, JavaScriptCore, LLVM, .NET CLR, RPython, GraalVM, …)
+- VM design and optimization
+- VMs for mobile and embedded devices
+- VMs for real-time applications
+- Memory management and garbage collection
+- Hardware/software co-design
+- Persistence
+## Techniques, Tools, and Applications
+- Static and dynamic program analysis
+- Testing and debugging
+- Refactoring
+- Program understanding
+- Program synthesis
+- Security and privacy
+- Performance analysis and monitoring
+- Compiler and program verification and model checking
+
+If you are unsure whether a particular topic falls within the scope of MPLR’23 or if you have any other questions, please do not hesitate to contact the Program Chair (moss at cs dot umass dot edu).
+
+# Submission Categories
+MPLR accepts four types of submissions:
+
+- **Regular research papers**, describing novel contributions involving managed language platforms. Research papers will be evaluated based on their relevance, novelty, technical rigor, and contribution to the state-of-the-art. (Format: up to 12 pages, excluding bibliography and appendix);
+- **Work-in-progress research papers**, describing hot topics or promising new ideas, with perhaps less maturity than full papers. Work-in-progress papers will be evaluated with an emphasis on novelty and the potential of the new ideas instead of technical rigor and experimental results. (Format: up to 6 pages, excluding bibliography and appendix);
+- **Industry and tool papers**, presenting technical challenges and solutions for managed language platforms in the context of deployed applications and systems. Industry and tool papers will be evaluated on their relevance, usefulness, and results. Suitability for demonstration and availability will also be considered for tool papers. (Format: up to 6 pages, excluding bibliography and appendix);
+- **Posters and demonstrations**, which will be evaluated similarly to work-in-progress papers. See the dedicated tab for more information and instructions (Format: poster and 1-page abstract).
+
+Accepted submissions will be published in the ACM Digital Library, except if the authors prefer not to be included.
+
+MPLR 2023 submissions must conform to the ACM Policy on Prior Publication and Simultaneous Submissions and to the SIGPLAN Republication Policy. See http://www.sigplan.org/Resources/Policies/Republication/
+
+# Author Instructions
+
+Submissions need to use the ACM SIGPLAN format with the sigplan style: https://www.acm.org/publications/proceedings-template
+
+(Note: it is possible that some of the details given here will change before the site opens for submissions, so please check back before submitting.)
+
+If you are using LaTeX, submissions need to use the acmart document class with the sigplan option. For ease of reviewing, please include page numbers in your submission using the LaTeX command \settopmatter{printfolios=true}. Please use the standard setting, e.g., the default font size for the SIGPLAN style is 10 point.
+
+All submissions need to be in PDF format. MPLR now uses double-blind reviewing. Authors should not show their names on a submission and should refer to their own work in third person. We further recommend that they avoid publicizing the work, at least under the same or similar title, while it is under review.
+
+Please also ensure that your submission is legible when printed on a black and white printer. In particular, please check that colors remain distinct and font sizes are legible.
+
+Submission Site: TBA
+
+Web page: https://2023.splashcon.org/home/mplr-2023
+
+# Important Dates
+- Paper Submission Deadline: 26 June 2023
+- Paper Author Notification: 31 July 2023
+- Camera Ready for Papers: 21 August 2023
+- Posters and Demos Submission Deadline: 5 September 2023
+- Posters and Demos Notification: 12 September 2023
+- Conference Dates: approx 23 October 2023 (still being settled with SPLASH)
+
+All deadlines are 23:59 AoE (UTC-12h).
