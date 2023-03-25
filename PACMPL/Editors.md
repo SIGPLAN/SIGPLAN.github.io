@@ -38,8 +38,9 @@ Senior Editors:
   - [Zena M. Ariola](http://ix.cs.uoregon.edu/~ariola/), University of Oregon, USA <br>
     Editor for Volume 6, Issue ICFP (August 2022)
   - [Amal Ahmed](http://www.ccs.neu.edu/home/amal/), Northeastern University, USA <br>
-    [Jan Vitek](http://janvitek.org/), Northeastern University, USA <br>
-    Editor for Volume 6, Issue OOPSLA (October 2022)
+    Editor for Volume 6, Issues OOPSLA1 and OOPSLA2 (April and October 2022)
+  - [Jan Vitek](http://janvitek.org/), Northeastern University, USA <br>
+    Editor for Volume 6, Issues OOPSLA1 and OOPSLA2 (April and October 2022)
 
 Associate Editors:
   - [Amal Ahmed](http://www.ccs.neu.edu/home/amal/), Northeastern University, USA <br>
@@ -49,7 +50,7 @@ Associate Editors:
   - [Sam Lindley](https://homepages.inf.ed.ac.uk/slindley/), University of Edinburgh, UK <br>
     Editor for Volume 7, Issue ICFP (August 2023)
   - [Mira Mezini](https://www.stg.tu-darmstadt.de/main_stg/staff_stg/mira_mezini_1.en.jsp), TU Darmstadt, Germany <br>
-    Editor for Volume 7, Issue OOPSLA (October 2023)
+    Editor for Volume 7, Issues OOPSLA1 and OOPSLA2 (April and October 2023)
 
 Assistant Editors:
   - [Derek Dreyer](https://people.mpi-sws.org/~dreyer/), MPI-SWS, Germany <br>
@@ -59,7 +60,7 @@ Assistant Editors:
   - [Brigitte Pientka](https://www.cs.mcgill.ca/~bpientka/), McGill University, Canada <br>
     Editor for Volume 8, Issue ICFP (August 2024)
   - [Alex Potanin](https://potanin.github.io), Australian National University <br>
-    Editor for Volume 8, Issue OOPSLA (October 2024)
+    Editor for Volume 8, Issues OOPSLA1 and OOPSLA2 (April and October 2024)
 
 Information Director:
   - [Adrian Sampson](https://www.cs.cornell.edu/~asampson/), Cornell University, USA <br>
