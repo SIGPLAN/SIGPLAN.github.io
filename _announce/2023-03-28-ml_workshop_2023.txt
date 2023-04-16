@@ -1,0 +1,52 @@
+---
+title: "Call for Papers: Higher-order, Typed, Inferred, Strict - ACM SIGPLAN ML Family Workshop"
+timestamp: "3/28/2023 6:11:25"
+deadline: "6/1/2023"
+---
+Higher-order, Typed, Inferred, Strict: ACM SIGPLAN ML Family Workshop
+September 8, 2023 (Friday) Seattle, WA, USA (day after main ICFP)
+
+Call for presentations: https://icfp23.sigplan.org/home/mlworkshop-2023
+
+ML Family Workshop is an established informal workshop aiming to
+recognize the entire extended ML family and to provide the forum to
+present and discuss common issues: all aspects of the design,
+semantics, theory, application, implementation, and teaching of the
+members of the ML family. We also encourage presentations from related
+languages (such as Haskell, Scala, Rust, Nemerle, Links, Koka, F*,
+Eff, ATS, etc), to promote the exchange of ideas and experience.  The
+ML family workshop will be held in close coordination with the OCaml
+Users and Developers Workshop.
+
+We plan the workshop to an be in-person event with remote participation
+(streamed live).  Speakers are generally expected to present in person
+(we will work to make remote presentations possible).
+
+We solicit proposals for contributed talks, in PDF format, with a
+short summary at the beginning and the indication of the submission
+category: Research Presentations, Experience Reports, Demos, and
+Informed Positions. The point of the submission should be clear from
+its first two pages (PC members are not obligated to read any
+further.) We particularly encourage talks about works in progress,
+presentations of negative results (things that were expected to but
+did not quite work out) and informed positions.
+
+* Deadline for talk proposals: ** Thursday June 1, 2023 **
+* Notification of acceptance:  ** Thursday July 6, 2023 **
+* Workshop:                    ** Friday September 8, 2023 **
+
+Program Committee
+
+Lars Bergstrom                  Google, USA
+Martin Elsman                   University of Copenhagen, Denmark
+Matthew Fluet                   Rochester Institute of Technology, USA
+Jacques Garrigue                Nagoya University, Japan
+Oleg Kiselyov                   Tohoku University, Japan (Chair)
+Julia Lawall                    Inria-Paris, France
+Andrey Mokhov                   Jane Street, UK
+Benoit Montagu                  Inria-Rennes, France
+Guillaume Munch-Maccagnoni      Inria, France
+Matija Pretnar                  University of Ljubljana, Slovenia
+Andreas Rossberg                Germany
+Gabriel Scherer                 Inria-Saclay, France
+
