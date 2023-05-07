@@ -25,7 +25,7 @@ Advisory Board:
     Member at Large (Issue ICFP)
   - [Hridesh Rajan](https://www.cs.iastate.edu/hridesh), Iowa State University, USA <br>
     Member at Large (Issue OOPSLA)
-  - [Alistair Donaldson](https://multicore.doc.ic.ac.uk), Imperial College London, UK <br>
+  - [Alastair Donaldson](https://multicore.doc.ic.ac.uk), Imperial College London, UK <br>
     Member at Large (Issue PLDI)
   - [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts University, USA <br>
     Chair of SIGPLAN
