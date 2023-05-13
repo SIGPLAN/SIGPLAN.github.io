@@ -1,0 +1,11 @@
+---
+title: "Call for Participation, Tutorial on DSL-based Hardware Generation"
+timestamp: "5/10/2023 8:21:02"
+start: "6/18/2023"
+end: "6/18/2023"
+---
+Hardware accelerators have become ubiquitous in modern computer architectures, from Google’s TPU to the dozen different accelerators on the Apple M1 SoC. While domain specific languages (DSLs) offer a productive way of generating efficient hardware accelerators, building DSL-to-circuit compilers is an arduous task. This tutorial covers Calyx (https://calyxir.org), an LLVM-like compiler infrastructure for building DSL-to-circuit compilers. We’ll go over building a frontend that compiles to Calyx and uses Calyx to generate and simulate hardware designs. We're big believers in learning by doing so we'll be helping participants write their code and optimize their designs. Towards the end of the tutorial, we're run a short competition so participants can show off their newly learned skills.
+
+Website: https://calyxir.org/tutorial/
+Where: Co-located with PLDI '23 at FCRC
+When: Saturday, June 18, 2023; morning session
