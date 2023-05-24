@@ -1,0 +1,20 @@
+---
+title: "Call for Participation: Real-World PIM Tutorial at ASPLOS 2023"
+timestamp: "2/20/2023 8:53:43"
+start: "3/26/2023"
+end: "3/26/2023"
+---
+We would like to announce our upcoming tutorial at ASPLOS 2023 on "Real-world Processing-in-Memory Systems for Modern Workloads".  
+
+Date: Sunday, March 26, 2023 (held during ASPLOS 2023, March 25 - 29, Vancouver, Canada)
+
+Tutorial Overview: 
+Processing-in-Memory (PIM) is a computing paradigm that aims at overcoming the data movement bottleneck (i.e., the waste of execution cycles and energy resulting from the back-and-forth data movement between memory units and compute units) by making memory compute-capable. Explored over several decades since the 1960s, PIM systems are becoming a reality with the advent of the first commercial products and prototypes. 
+
+This tutorial focuses on the latest advances in PIM technology, workload characterization for PIM, and programming and optimizing PIM kernels. We will (1) provide an introduction to PIM and taxonomy of PIM systems, (2) give an overview and a rigorous analysis of existing real-world PIM hardware, (3) conduct hand-on labs about important workloads (machine learning, sparse linear algebra, bioinformatics, etc.) using real PIM systems, and (4) shed light on how to improve future PIM systems for such workloads.
+
+Organizers: Juan Gomez Luna, Onur Mutlu, Ataberk Olgun
+
+Tutorial Website: https://events.safari.ethz.ch/asplos-pim-tutorial/
+
+ASPLOS 2023 Workshops & Tutorials: https://asplos-conference.org/workshops-tutorials/

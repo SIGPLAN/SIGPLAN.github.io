@@ -4,19 +4,50 @@ title: 'PACMPL: Calls for Papers'
 ---
 ### Current
 
+#### Volume 7, Issue OOPSLA2 (October 2023)
+
+ * [Call for Papers](https://2023.splashcon.org/track/splash-2023-oopsla)
+ * Principal Editor: Mira Mezini
+ * Submission Deadline:  14 April 2023
+
+#### Volume 7, Issue ICFP (August 2023)
+
+ * [Call for Papers](https://icfp23.sigplan.org/track/icfp-2023-papers#Call-for-Papers)
+ * Principal Editor: Sam Lindley
+ * Submission Deadline: 1 March 2023
+
+
+### Past
+
+#### Volume 7, Issue PLDI (June 2023)
+
+ * [Call for Papers](https://pldi23.sigplan.org/track/pldi-2023-pldi)
+ * Principal Editor: Nate Foster
+ * Submission Deadline: 10 November 2022
+
+#### Volume 7, Issue OOPSLA1 (April 2023)
+
+ * [Call for Papers](https://2023.splashcon.org/track/splash-2023-oopsla)
+ * Principal Editor: Mira Mezini
+ * Submission Deadline: 28 October 2022
+
 #### Volume 7, Issue POPL (January 2023)
 
 * [Call for Papers](https://popl23.sigplan.org/track/POPL-2023-popl-research-papers#POPL-2023-Call-for-Papers)
-* Principal Editors: Amal Ahmed and Robby Findler
+* Principal Editor: Amal Ahmed
 * Submission Deadline: 7 July 2022
 
-#### Volume 6, Issue ICFP (September 2022)
+#### Volume 6, Issue OOPSLA2 (October 2022)
+
+ * [Call for Papers](https://2022.splashcon.org/track/splash-2022-oopsla?#Call-for-Papers)
+ * Principal Editors: Amal Ahmed and Jan Vitek
+ * Submission Deadline: 15 April 2022
+
+#### Volume 6, Issue ICFP (August 2022)
 
 * [Call for Papers](https://icfp22.sigplan.org/track/icfp-2022-papers#Call-for-Papers)
 * Principal Editor: Zena M. Ariola
 * Submission Deadline: 2 March 2022
-
-### Past
 
 #### Volume 6, Issue OOPSLA1 (April 2022)
 

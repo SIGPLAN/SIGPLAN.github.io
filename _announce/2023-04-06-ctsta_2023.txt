@@ -1,0 +1,12 @@
+---
+title: "Call for Talks: CTSTA 2023: PLDI/FCRC Workshop on Compiler Techniques for Sparse Tensor Algebra"
+timestamp: "4/6/2023 0:00:25"
+deadline: "4/28/2023"
+---
+The second Workshop on Compiler Techniques for Sparse Tensor Algebra (CTSTA) aims to bring together researchers interested in compiler techniques, programming abstractions, libraries/frameworks, algorithms, and hardware for sparse tensor algebra and sparse array programs. Sparse tensor algebra is widely used across many disciplines where performance is critical, including scientific computing, machine learning, and data analytics. Due to the large number of applications, optimization techniques, types of data structures, and specialized hardware, there is a need for automation. In recent years, there has been a lot of interest in compiler techniques to automatically generate sparse tensor algebra code. This workshop aims to bring together leading researchers from academia and industry for talks on applications, code generation, source code transformation and optimization, automatic scheduling, data structure modeling, compilation to different types of hardware, specialized accelerators, extensions to new types of sparse array operations, and applying the techniques beyond sparsity to areas such as lossless compression. The workshop will last one day and will include invited talks, discussion, and submitted talks.
+
+We are soliciting 15 minute talks. Relevant topics include applications, libraries, programming language constructs, compilers, libraries/frameworks, and hardware for sparse tensor algebra. The talks can be technical, on new ideas, on your thoughts about future needs, or other related topics that you are excited about. Already published ideas are welcome. There will not be a proceeding, so the talks will not require a submitted paper. If you are interested, please submit a short description (100-200 words).
+
+https://pldi23.sigplan.org/home/ctsta-2023
+
+Fred Kjolstad, Michelle Strout, and Saman Amarasinghe

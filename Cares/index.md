@@ -75,6 +75,22 @@ CARES committee members may also attend other workshops and conferences sponsore
     <th><b>Conference/Meeting</b></th>
     <th><b>CARES member attendees</b></th>
  </tr>
+   <tr>
+    <td><a href="https://popl23.sigplan.org">POPL 2023 </a></td>
+    <td>Alexandra Silva, Sukyoung Ryu</td>
+  </tr>
+      <tr>
+    <td><a href="https://2022.splashcon.org">SPLASH 2022 </a></td>
+    <td>Atshushi Igarashi, Gabriele Keller</td>
+  </tr>
+    <tr>
+    <td><a href="https://icfp22.sigplan.org">ICFP 2022</a></td>
+    <td>Simon Peyton Jones, Stephanie Weirich</td>
+ </tr>
+  <tr>
+    <td><a href="https://pldi22.sigplan.org">PLDI 2022 </a></td>
+    <td>Kathryn McKinley, Sukyoung Ryu</td>
+  </tr>
   <tr>
     <td><a href="https://popl22.sigplan.org">POPL 2022</a></td>
     <td>Stephanie Weirich</td>
@@ -132,26 +148,27 @@ CARES committee members may also attend other workshops and conferences sponsore
 
 ### SIGPLAN CARES Reports
 
-### 2021:
+### 2022:
 
-This is the second annual report from the SIGPLAN CARES committee---a committee established to listen to and support folks in the programming languages community who experience or witness discrimination, harassment, or other violations of the ACM's code of conduct or ethics.
+TThis is the third annual report from the SIGPLAN CARES committee---a committee established to listen to and support folks in the programming languages community who experience or witness discrimination, harassment, or other violations of the ACM's code of conduct or ethics.
 
-**What CARES does.**  CARES is dedicated to providing completely confidential support to members of the programming language community.  We listen to members who come to us for advice or who just want to talk. If they would like advice on what kinds of actions they can take, we do our best to provide such advice.
+What CARES does.   CARES is dedicated to providing completely confidential support to members of the programming language community.  We listen to members who come to us for advice or who just want to talk. If they would like advice on what kinds of actions they can take, we do our best to provide such advice.  
 
-**Confidentiality.** When a person approaches a CARES member in confidence, that CARES member will not share any information about the situation with anyone else without that person's explicit permission, unless there is an imminent threat or danger of some kind.  Indeed, CARES members do not share the details of contacts made with other CARES members unless permitted.
+Confidentiality.  When a person approaches a CARES member in confidence, that CARES member will not share any information about the situation with anyone else without that person's explicit permission, unless there is an imminent threat or danger of some kind.  Indeed, CARES members do not share the details of contacts made with other CARES members unless permitted.  
 
-As a result, our annual reports are brief.  They do not contain details about the types of contacts that CARES members have made and they do not even contain specific numbers of contacts.  The reports are structured this way to protect the privacy of those that approach us.
+As a result, our annual reports are brief.  They do not contain details about the types of contacts that CARES members have made and they do not even contain specific numbers of contacts.  The reports are structured this way to protect the privacy of those that approach us.  
 
-#### What happened in 2021
+#### What happened in 2022
 
-In 2021, individual SIGPLAN CARES committee members were contacted confidentially by between 2 and 10 community members throughout the year.  Such contacts sometimes led to extended conversations.
+In 2022, individual SIGPLAN CARES committee members were contacted confidentially by between 5 and 15 community members throughout the year.  Such contacts sometimes led to extended conversations.  With more people coming back to conferences in person in 2022, It appears the need for SIGPLAN CARES has grown.
 
-Members of the CARES committee represented CARES at five conferences in 2021, namely POPL 2021, PLDI 2021, ICFP 2021, SPLASH 2021 and ASPLOS 2021 (the latter in collaboration with SIGARCH/SIGMICRO CARES).  Attendance specifics are listed on the CARES website.   Due to the covid pandemic, aside from SPLASH 2021, these conferences were virtual.  SPLASH 2021 was a hybrid conference.  At virtual conferences, we typically hosted a pair of 30-minute CARES zoom sessions to advertise our presence and answer community questions.  During these virtual sessions, we also carried out community brainstorming exercises to think about how we could make our conferences more welcoming.  Attendance at such sessions varied, but was typically between 5-20 attendees, with the median closer to 5.  At SPLASH, we had virtual sessions as well as one CARES member attending in person.
+Members of the CARES committee represented CARES at four conferences in 2022, namely POPL 2022, PLDI 2022, ICFP 2022, and SPLASH 2022.  Attendance specifics are listed on the CARES website. The presence of CARES was advertised at the opening of the conference through the general chair’s presentation. 
 
-We have received open, public feedback from a number of members of the community expressing the fact that they appreciate the creation of the committee---they view it as a sign that the programming languages community takes community climate and our code of conduct seriously.  The fact the committee has received confidential contacts is also evidence that the community would like mechanisms to discuss matters of harassment, discrimination, or ethics in private.
+We have received open, public feedback from a number of members of the community expressing the fact that they appreciate the creation of the committee---they view it as a sign that the programming languages community takes community climate and our code of conduct seriously.  The fact the committee has received confidential contacts is also evidence that the community would like mechanisms to discuss matters of harassment, discrimination, or ethics in private. 
 
 ### Older Reports
 
+* [2021 Report](report2021)
 * [2020 Report](report2020)
 
 ### SIGPLAN CARES Committee Members
@@ -161,9 +178,13 @@ We have received open, public feedback from a number of members of the community
    <td><img src="http://sigplan.org/images/cares-photos/strout.png" alt="Michelle Strout"  width="156"><br><a href="http://cgi.cs.arizona.edu/~mstrout/">Michelle Strout</a> (she/her)</td>
    <td>Co-Chair, <a href="mailto:michelle.strout@hpe.com">michelle.strout@hpe.com</a>, HPE and University of Arizona </td>
   </tr> 
+    <tr>
+   <td><img src="http://sigplan.org/images/cares-photos/silva.png" alt="Alexandra Silva"  width="156"><br><a href="https://www.alexandrasilva.org/#/main.html">Alexandra Silva</a> (she/her)</td>
+   <td>Co-Chair, <a href="mailto:alexandra.silva@cornell.edu">alexandra.silva@cornell.edu</a>, Cornell University</td>
+  </tr> 
    <tr>
    <td><img src="http://sigplan.org/images/cares-photos/walker.png" alt="David Walker" width="156"><br><a href="https://www.cs.princeton.edu/~dpw/">David Walker</a> (he/him)</td>
-   <td>Co-Chair, <a href="mailto:dpw@cs.princeton.edu">dpw@cs.princeton.edu</a>, Princeton University, 2019-2022 </td>
+   <td> <a href="mailto:dpw@cs.princeton.edu">dpw@cs.princeton.edu</a>, Princeton University, 2019-2022 (co-chair) </td>
   </tr>
   <tr>
    <td><img src="http://sigplan.org/images/cares-photos/adve.png" alt="Vikram Adve" width="156"><br><a href="https://vikram.cs.illinois.edu/">Vikram Adve</a> (he/him)</td>
@@ -191,15 +212,11 @@ We have received open, public feedback from a number of members of the community
   </tr> 
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/jones.png" alt="Simon Peyton Jones"  width="156"><br><a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a> (he/him)</td>
-   <td>Member, <a href="mailto:simon.peytonjones@gmail.com">simon.peytonjones@gmail.com</a>, Microsoft Research Cambridge</td>
+   <td>Member, <a href="mailto:simon.peytonjones@gmail.com">simon.peytonjones@gmail.com</a>, Epic Games</td>
   </tr>
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/ryu.png" alt="Sukyoung Ryu" width="156"><br><a href="https://plrg.kaist.ac.kr/ryu">Sukyoung Ryu</a> (she/her)</td>
    <td>Member, <a href="mailto:sukyoung.ryu@gmail.com">sukyoung.ryu@gmail.com</a>, KAIST</td>
-  </tr> 
-  <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/silva.png" alt="Alexandra Silva"  width="156"><br><a href="https://www.alexandrasilva.org/#/main.html">Alexandra Silva</a> (she/her)</td>
-   <td>Member, <a href="mailto:alexandra.silva@cornell.edu">alexandra.silva@cornell.edu</a>, Cornell University</td>
   </tr> 
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/weirich.png" alt="Stephanie Weirich"  width="156"><br><a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a> (she/her)</td>

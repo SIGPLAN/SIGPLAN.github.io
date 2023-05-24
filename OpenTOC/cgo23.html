@@ -1,0 +1,239 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>CGO 2023: Proceedings of the 21st ACM/IEEE International Symposium on Code Generation and Optimization</title></head><body><div id="DLtoc"><div id="DLheader"><h1>CGO 2023: Proceedings of the 21st ACM/IEEE International Symposium on Code Generation and Optimization</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3579990"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Keynote</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3583093">PyTorch 2.0: The Journey to Bringing Compiler Technologies to the Core of PyTorch (Keynote)</a></h3><ul class="DLauthors"><li class="nameList Last">Peng Wu</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Four and a half years after PyTorch 1.0, we announced PyTorch 2.0 at the PyTorch Conference last December. The message was simple – introducing compiled mode, torch.compile(), to the core of PyTorch. This talk shares our 5-year journey of finding the right compiler solutions for PyTorch. We answer questions like: (i) Why did it take so long? (ii) What was the biggest challenge of designing compiler solutions for PyTorch? (iii) How did we co-design the compiler w/ the core of PyTorch? (iiii) What conventions did we break in the design of TorchDynamo and TorchInductor?  
+</p>
+<p>
+As an ML compiler, PyTorch 2.0 is unconventional in many ways. By sharing our thought processes, insights, and design decisions during the development of PT2, we hope to bring new thinking into the thriving landscape of ML compilers and inject a dose of real-world considerations into the research community.</p>
+			</div></div>
+							
+						<h2>SESSION: It's All about Loops!</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3580006">Code Generation for In-Place Stencils</a></h3><ul class="DLauthors"><li class="nameList">Mohamed Essadki</li><li class="nameList">Bertrand Michel</li><li class="nameList">Bruno Maugars</li><li class="nameList">Oleksandr Zinenko</li><li class="nameList">Nicolas Vasilache</li><li class="nameList Last">Albert Cohen</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Numerical simulation often resorts to iterative in-place stencils such as the Gauss-Seidel or Successive Overrelaxation (SOR) methods.  
+Writing high performance implementations of such stencils requires significant effort and time; it also involves non-local transformations beyond the stencil kernel itself.  
+While automated code generation is a mature technology for image processing stencils, convolutions and out-of-place iterative stencils (such as the Jacobi method), the optimization of in-place stencils requires manual craftsmanship.  
+Building on recent advances in tensor compiler construction, we propose the first domain-specific code generator for iterative in-place stencils.  
+Starting from a generic tensor compiler implemented in the MLIR framework, tensor abstractions are incrementally refined and lowered down to parallel, tiled, fused and vectorized code.  
+We used our generator to implement a realistic, implicit solver for structured meshes, and demonstrate results competitive with an industrial computational fluid dynamics framework.  
+We also compare with stand-alone stencil kernels for dense tensors.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3580024">To Pack or Not to Pack: A Generalized Packing Analysis and Transformation</a></h3><ul class="DLauthors"><li class="nameList">Caio Salvador Rohwedder</li><li class="nameList">Nathan Henderson</li><li class="nameList">João P. L. De Carvalho</li><li class="nameList">Yufei Chen</li><li class="nameList Last">José Nelson Amaral</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Packing is an essential loop optimization for handcrafting a high-performance General Matrix Multiplication (GEMM).  
+Packing copies a non-contiguous block of data to a contiguous block to reduce the number of TLB entries required to access it, avoiding expensive TLB misses.  
+When copying data, packing can rearrange elements of the block to decrease the stride between consecutive accesses, improving spatial locality.  
+Until now the use of packing has been limited to handcrafted GEMM implementations and to auto-tuning techniques.  
+Existing loop optimizers, such as Polly and Pluto, either only apply packing to GEMM computations (Polly), or not at all (Pluto).  
+This work proposes GPAT, a generalized packing analysis and code transformation that applies packing, when beneficial, to a generic input loop nest.  
+GPAT is implemented in the Affine dialect of MLIR and evaluated on Polybench/C.  
+GPAT applies packing to benchmarks beyond GEMM and obtains significant speedup compared to current loop optimizers that do not apply packing.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3580021">Code Synthesis for Sparse Tensor Format Conversion and Optimization</a></h3><ul class="DLauthors"><li class="nameList">Tobi Popoola</li><li class="nameList">Tuowen Zhao</li><li class="nameList">Aaron St. George</li><li class="nameList">Kalyan Bhetwal</li><li class="nameList">Michelle Mills Strout</li><li class="nameList">Mary Hall</li><li class="nameList Last">Catherine Olschanowsky</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Many scientific applications compute using sparse data and store that data in a variety of sparse formats because each format has unique space and performance benefits. Optimizing applications that use sparse data involves translating the sparse data into the chosen format and transforming the computation to iterate over that format. This paper presents a formal definition of sparse tensor formats and an automated approach to synthesize the transformation between formats.  
+This approach is unique in that it supports ordering constraints not supported by other approaches and synthesizes the transformation code in a high-level intermediate representation suitable for applying composable transformations such as loop fusion and temporary storage reduction.  
+We demonstrate that the synthesized code for COO to CSR with optimizations is 2.85x faster than TACO, Intel MKL, and SPARSKIT while the more complex COO to DIA is 1.4x slower than TACO but faster than SPARSKIT and Intel MKL using the geometric average of execution time.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3580020">Looplets: A Language for Structured Coiteration</a></h3><ul class="DLauthors"><li class="nameList">Willow Ahrens</li><li class="nameList">Daniel Donenfeld</li><li class="nameList">Fredrik Kjolstad</li><li class="nameList Last">Saman Amarasinghe</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Real world arrays often contain underlying structure, such as sparsity, runs of repeated values, or symmetry. Specializing for structure yields significant speedups. But automatically generating efficient code for structured data is challenging, especially when arrays with different structure interact. We show how to abstract over array structures so that the compiler can generate code to coiterate over any combination of them. Our technique enables new array formats (such as 1DVBL for irregular clustered sparsity), new iteration strategies (such as galloping intersections), and new operations over structured data (such as concatenation or convolution).</p>
+			</div></div>
+							
+						<h2>SESSION: Tool and Practical Experience I</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3580007">Khaos: The Impact of Inter-procedural Code Obfuscation on Binary Diffing Techniques</a></h3><ul class="DLauthors"><li class="nameList">Peihua Zhang</li><li class="nameList">Chenggang Wu</li><li class="nameList">Mingfan Peng</li><li class="nameList">Kai Zeng</li><li class="nameList">Ding Yu</li><li class="nameList">Yuanming Lai</li><li class="nameList">Yan Kang</li><li class="nameList">Wei Wang</li><li class="nameList Last">Zhe Wang</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Software obfuscation techniques can prevent binary diffing techniques from locating vulnerable code by obfuscating the third-party code, to achieve the purpose of protecting embedded device software. With the rapid development of binary diffing techniques, they can achieve more and more accurate function matching and identification by extracting the features within the function. This makes existing software obfuscation techniques, which mainly focus on the intra-procedural code obfuscation, no longer effective.  
+</p>
+<p>
+In this paper, we propose a new inter-procedural code obfuscation mechanism Khaos, which moves the code across functions to obfuscate the function by using compilation optimizations. Two obfuscation primitives are proposed to separate and aggregate the function, which are called fission and fusion respectively. A prototype of Khaos is implemented based on the LLVM compiler and evaluated on a large number of real-world programs including SPEC CPU 2006 &amp; 2017, CoreUtils, JavaScript engines, etc. Experimental results show that Khaos outperforms existing code obfuscations and can significantly reduce the accuracy rates of five state-of-the-art binary diffing techniques (less than 19%) with lower runtime overhead (less than 7%).</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3580008">Lifting Code Generation of Cardiac Physiology Simulation to Novel Compiler Technology</a></h3><ul class="DLauthors"><li class="nameList">Arun Thangamani</li><li class="nameList">Tiago Trevisan Jost</li><li class="nameList">Vincent Loechner</li><li class="nameList">Stéphane Genaud</li><li class="nameList Last">Bérenger Bramas</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The study of numerical models for the human body has become a major focus of the research community in biology and medicine.  
+For instance, numerical ionic models of a complex organ, such as the heart, must be able to represent individual cells and their interconnections through ionic channels, forming a system with billions of cells, and requiring efficient code to handle such a large system.  
+The modeling of the electrical system of the heart combines a compute-intensive kernel that calculates the intensity of current flowing through cell membranes, and feeds a linear solver for computing the electrical potential of each cell.  
+</p>
+<p>
+Considering this context, we propose limpetMLIR, a code generator and compiler transformer to accelerate the kernel phase of ionic models and bridge the gap between compiler technology and electrophysiology simulation.  
+LimpetMLIR makes use of the MLIR infrastructure, its dialects, and transformations to drive forward the study of ionic models, and accelerate the execution of multi-cell systems.  
+Experiments conducted in 43 ionic models show that our limpetMLIR based code generation greatly outperforms current state-of-the-art simulation systems by an average of  
+2.9x, reaching peak speedups of more than 15x in some cases.  
+To our knowledge, this is the first work that deeply connects an optimizing compiler infrastructure to electrophysiology models of the human body, showing the potential benefits of using compiler technology in the simulation of human cell interactions.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3580010">DJXPerf: Identifying Memory Inefficiencies via Object-Centric Profiling for Java</a></h3><ul class="DLauthors"><li class="nameList">Bolun Li</li><li class="nameList">Pengfei Su</li><li class="nameList">Milind Chabbi</li><li class="nameList">Shuyin Jiao</li><li class="nameList Last">Xu Liu</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Java is the “go-to” programming language choice for developing scalable enterprise cloud applications. In such systems, even a few percent CPU time savings can offer a significant competitive advantage and cost savings. Although performance tools abound for Java, those that focus on the data locality in the memory hierarchy are rare.  
+</p>
+<p>
+In this paper, we first categorize data locality issues in Java programs. We then present DJXPerf, a lightweight, object-centric memory profiler for Java, which associates memory-hierarchy performance metrics (e.g., cache/TLB misses) with Java objects. DJXPerf uses statistical sampling of hardware performance monitoring counters to attribute metrics to not only source code locations but also Java objects. DJXPerf presents Java object allocation contexts combined with their usage contexts and presents them ordered by the poor locality behaviors. DJXPerf’s performance measurement, object attribution, and presentation techniques guide optimizing object allocation, layout, and access patterns. DJXPerf incurs only ~8.5% runtime overhead and ∼6% memory overhead on average, requiring no modifications to hardware, OS, Java virtual machine, or application source code, which makes it attractive to use in production. Guided by DJXPerf, we study and optimize a number of Java and Scala programs, including well-known benchmarks and real-world applications, and demonstrate significant speedups.</p>
+			</div></div>
+							
+						<h2>SESSION: Potpourri</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3580022">Fast Polynomial Evaluation for Correctly Rounded Elementary Functions using the RLIBM Approach</a></h3><ul class="DLauthors"><li class="nameList">Mridul Aanjaneya</li><li class="nameList Last">Santosh Nagarakatte</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This paper proposes fast polynomial evaluation methods for correctly rounded elementary functions generated using our RLibm approach. The resulting functions produce correct results for all inputs with multiple representations and rounding modes. Given an oracle, the RLibm approach approximates the correctly rounded result rather than the real value of an elementary function. A key observation is that there is an interval of real values around the correctly rounded result such that any real value in it rounds to the correct result. This interval is the maximum freedom available to RLibm’s polynomial generation procedure. Subsequently, the problem of generating correctly rounded elementary functions using these intervals can be structured as a linear programming problem. Our prior work on the RLibm approach uses Horner’s method for polynomial evaluation.  
+</p>
+<p>
+This paper explores polynomial evaluation techniques such as Knuth’s coefficient adaptation procedure, parallel execution of operations using Estrin’s procedure, and the use of fused multiply-add operations in the context of the RLibm approach. If we take the polynomial generated by the RLibm approach and subsequently perform polynomial evaluation optimizations, it results in incorrect results due to rounding errors during polynomial evaluation. Hence, we propose to integrate the fast polynomial evaluation procedure in the RLibm’s polynomial generation process. Our new polynomial evaluation procedure that combines parallel execution with fused multiply-add operations outperforms the Horner’s method used by RLibm’s correctly rounded functions. We show the resulting polynomials for 32-bit float are not only correct but also faster than prior functions in RLibm by 24%</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3580012">A Game-Based Framework to Compare Program Classifiers and Evaders</a></h3><ul class="DLauthors"><li class="nameList">Thaís Damásio</li><li class="nameList">Michael Canesche</li><li class="nameList">Vinícius Pacheco</li><li class="nameList">Marcus Botacin</li><li class="nameList">Anderson Faustino da Silva</li><li class="nameList Last">Fernando M. Quintão Pereira</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Algorithm classification consists in determining which algorithm a program implements, given a finite set of candidates. Classifiers are used in applications such malware identification and plagiarism detection. There exist many ways to implement classifiers. There are also many ways to implement evaders to deceive the classifiers. This paper analyzes the state-of-the-art classification and evasion techniques. To organize this analysis, this paper brings forward a system of four games that matches classifiers and evaders. Games vary according to the amount of information that is given to each player. This setup lets us analyze a space formed by the combination of nine program encodings; seven obfuscation passes; and six stochastic classification models. Observations from this study include: (i) we could not measure substantial advantages of recent vector-based program representations over simple histograms of opcodes; (ii) deep neural networks recently proposed for program classification are no better than random forests; (iii) program optimizations are almost as effective as classic obfuscation techniques to evade classifiers; (iv) off-the-shelf code optimizations can completely remove the evasion power of naïve obfuscators; (v) control-flow flattening and bogus-control flow tend to resist the normalizing power of code optimizations.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3580013">WARDen: Specializing Cache Coherence for High-Level Parallel Languages</a></h3><ul class="DLauthors"><li class="nameList">Michael Wilkins</li><li class="nameList">Sam Westrick</li><li class="nameList">Vijay Kandiah</li><li class="nameList">Alex Bernat</li><li class="nameList">Brian Suchy</li><li class="nameList">Enrico Armenio Deiana</li><li class="nameList">Simone Campanoni</li><li class="nameList">Umut A. Acar</li><li class="nameList">Peter Dinda</li><li class="nameList Last">Nikos Hardavellas</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>High-level parallel languages (HLPLs) make it easier to write correct parallel programs. Disciplined memory usage in these languages enables new optimizations for hardware bottlenecks, such as cache coherence. In this work, we show how to reduce the costs of cache coherence by integrating the hardware coherence protocol directly with the programming language; no programmer effort or static analysis is required. </p><p>We identify a new low-level memory property, WARD (WAW Apathy and RAW Dependence-freedom), <em>by construction</em> in HLPL programs. We design a new coherence protocol, WARDen, to selectively disable coherence using WARD. </p><p>We evaluate WARDen with a widely-used HLPL benchmark suite on both current and future x64 machine structures. WARDen both accelerates the benchmarks (by an average of 1.46x) and reduces energy (by 23%) by eliminating unnecessary data movement and coherency messages.</p>
+			</div></div>
+							
+						<h2>SESSION: Domain-Specific Compilation and Debugging</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3580023">Compiling Functions onto Digital Microfluidics</a></h3><ul class="DLauthors"><li class="nameList">Tyson Loveless</li><li class="nameList Last">Philip Brisk</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Digital Microfluidic Biochips (DMFBs) have the potential to fundamentally transform biochemical disciplines through automation, miniaturization, and the ability to facilitate repeatable chemical experimentation. Programming DMFBs has historically been accomplished by writing low-level bit manipulations to select which electrodes should activate in sequence. Recent research on high-level programming languages and compilers for DMFBs have begun to address the programmability challenge, but important capabilities such as loading and executing pre-compiled libraries and function calls, are absent from the literature. A primary driver of this oversight is the lack of a memory hierarchy to store physical chemicals off-chip to jump to and from function calls. This paper addresses the complexities involved in compiling function calls within the technology's unique boundaries, and provides a proof-of-concept implementation from language to code generation, with solutions evaluated using a cycle-accurate DMFB simulator as well as physical execution on an open-hardware DMFB.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3580016">Fine-Tuning Data Structures for Query Processing</a></h3><ul class="DLauthors"><li class="nameList">Amir Shaikhha</li><li class="nameList">Marios Kelepeshis</li><li class="nameList Last">Mahdi Ghorbani</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We introduce a framework for automatically choosing data structures for efficient query processing. Our contributions are twofold. First, we introduce a novel low-level intermediate language that can express the algorithms behind various query processing paradigms such as classical joins, groupjoin, and in-database machine learning engines. This language is designed around the notion of dictionaries and allows for a more fine-grained choice of its low-level implementation. Second, the cost model for alternative implementations is automatically inferred by combining machine learning and program reasoning. The dictionary cost model is learned using a regression model trained over the profiling data of dictionary operations on a given architecture. Program reasoning helps to infer the expected cost of the whole query by combining the learned dictionary cost estimates.  
+Our experimental results show the effectiveness of the trained cost model on microbenchmarks. Furthermore, we show that the code generated by our framework outperforms or is competitive with state-of-the-art analytical query and in-database machine learning engines.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3580014">D2X: An eXtensible conteXtual Debugger for Modern DSLs</a></h3><ul class="DLauthors"><li class="nameList">Ajay Brahmakshatriya</li><li class="nameList Last">Saman Amarasinghe</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Compiled Domain Specific Languages are taking over various high-performance domains because of their ability to exploit the domain knowledge and apply optimizations that produce the most specialized code. A lot of research has gone into making DSLs more performant and easy to prototype. But the Achilles heel for DSLs is still the lack of debugging support that provides an end-to-end picture to the user and improves the productivity of both the DSL designer and the end-user. Conventional techniques extend the compilers, the debugging information format, and the debuggers themselves to provide more information than what the debugger can provide when attached to the generated code. Such an approach quickly stops scaling as adding extensions to large and complex debuggers hampers DSL designer productivity. We present D2X, a DSL debugging infrastructure that works with most standard debuggers without any modifications and is easily extensible to capture all the domain specific information the end-user cares about. We show that we can add debugging support to the state-of-the-art graph DSL GraphIt with as little as 1.4% changes to the compiler code base. We also apply our techniques to a meta-programming DSL framework BuildIt so that any DSLs built on top of BuildIt get debugging support without any modifications further boosting the productivity of future DSL designers.</p>
+			</div></div>
+							
+						<h2>SESSION: Tool and Practical Experience II</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3580018">Bridging Control-Centric and Data-Centric Optimization</a></h3><ul class="DLauthors"><li class="nameList">Tal Ben-Nun</li><li class="nameList">Berke Ates</li><li class="nameList">Alexandru Calotoiu</li><li class="nameList Last">Torsten Hoefler</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>With the rise of specialized hardware and new programming languages, code optimization has shifted its focus towards promoting data locality. Most production-grade compilers adopt a control-centric mindset --- instruction-driven optimization augmented with scalar-based dataflow --- whereas other approaches provide domain-specific and general purpose data movement minimization, which can miss important control-flow optimizations. As the two representations are not commutable, users must choose one over the other.  
+In this paper, we explore how both control- and data-centric approaches can work in tandem via the Multi-Level Intermediate Representation (MLIR) framework. Through a combination of an MLIR dialect and specialized passes, we recover parametric, symbolic dataflow that can be optimized within the DaCe framework.  
+We combine the two views into a single pipeline, called DCIR, showing that it is strictly more powerful than either view.  
+On several benchmarks and a real-world application in C, we show that our proposed pipeline consistently outperforms MLIR and automatically uncovers new optimization opportunities with no additional effort.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3580019">Parsimony: Enabling SIMD/Vector Programming in Standard Compiler Flows</a></h3><ul class="DLauthors"><li class="nameList">Vijay Kandiah</li><li class="nameList">Daniel Lustig</li><li class="nameList">Oreste Villa</li><li class="nameList">David Nellans</li><li class="nameList Last">Nikos Hardavellas</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Achieving peak throughput on modern CPUs requires maximizing the use of single-instruction, multiple-data (SIMD) or vector compute units. Single-program, multiple-data (SPMD) programming models are an effective way to use high-level programming languages to target these ISAs. Unfortunately, many SPMD frameworks have evolved to have either overly-restrictive language specifications or under-specified programming models, and this has slowed the widescale adoption of SPMD-style programming. This paper introduces Parsimony (PARallel SIMd), a SPMD programming approach built with semantics designed to be compatible with multiple languages and to cleanly integrate into the standard optimizing compiler toolchains for those languages. We first explain the Parsimony programming model semantics and how they enable a standalone compiler IR-to-IR pass that can perform vectorization independently of other passes, improving the language and toolchain compatibility of SPMD programming. We then demonstrate a LLVM prototype of the Parsimony approach that matches the performance of ispc, a popular but more restrictive SPMD approach, and achieves 97% of the performance of hand-written AVX-512 SIMD intrinsics on over 70 benchmarks ported from the Simd Library. We finally discuss where Parsimony has exposed parts of existing language and compiler flows where slight improvements could further enable improved SPMD program vectorization.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3580011">Program State Element Characterization</a></h3><ul class="DLauthors"><li class="nameList">Enrico Armenio Deiana</li><li class="nameList">Brian Suchy</li><li class="nameList">Michael Wilkins</li><li class="nameList">Brian Homerding</li><li class="nameList">Tommy McMichen</li><li class="nameList">Katarzyna Dunajewski</li><li class="nameList">Peter Dinda</li><li class="nameList">Nikos Hardavellas</li><li class="nameList Last">Simone Campanoni</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Modern programming languages offer abstractions that simplify software development and allow hardware to reach its full potential.  
+These abstractions range from the well-established OpenMP language extensions to newer C++ features like smart pointers.  
+To properly use these abstractions in an existing codebase, programmers must determine how a given source code region interacts with Program State Elements (PSEs) (i.e., the program's variables and memory locations).  
+We call this process Program State Element Characterization (PSEC).  
+Without tool support for PSEC, a programmer's only option is to manually study the entire codebase.  
+We propose a profile-based approach that automates PSEC and provides abstraction recommendations to programmers.  
+Because a profile-based approach incurs an impractical overhead, we introduce the Compiler and Runtime Memory Observation Tool (CARMOT), a PSEC-specific compiler co-designed with a parallel runtime.  
+CARMOT reduces the overhead of PSEC by two orders of magnitude, making PSEC practical.  
+We show that CARMOT's recommendations achieve the same speedup as hand-tuned OpenMP directives and avoid memory leaks with C++ smart pointers.  
+From this, we argue that PSEC tools, such as CARMOT, can provide support for the rich ecosystem of modern programming language abstractions.</p>
+			</div></div>
+							
+						<h2>SESSION: Neural Network Accelerators</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3580025">Flexer: Out-of-Order Scheduling for Multi-NPUs</a></h3><ul class="DLauthors"><li class="nameList">Hyemi Min</li><li class="nameList">Jungyoon Kwon</li><li class="nameList Last">Bernhard Egger</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Recent neural accelerators often comprise multiple neural processing units (NPUs) with shared cache and memory. The regular schedules of state-of-the-art scheduling techniques miss important opportunities for memory reuse. This paper presents Flexer, an out-of-order (OoO) scheduler that maximizes instruction-level parallelism and data reuse on such multi-NPU systems. Flexer employs a list scheduling algorithm to dynamically schedule the tiled workload to all NPUs. To cope with the irregular data access patterns of OoO schedules, several heuristics help maximize data reuse by considering the availability of data tiles at different levels in the memory hierarchy. Evaluated with several neural networks on 2 to 4-core multi-NPUs, Flexer achieves a speedup of up to 2.2x and a 1.2-fold reduction in data transfers for individual layers compared to the best static execution order.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3580017">Pin or Fuse? Exploiting Scratchpad Memory to Reduce Off-Chip Data Transfer in DNN Accelerators</a></h3><ul class="DLauthors"><li class="nameList">Hyuk-Jin Jeong</li><li class="nameList">JiHwan Yeo</li><li class="nameList">Cheongyo Bahk</li><li class="nameList Last">JongHyun Park</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Growing interests in on-device AI have led to the proliferation of accelerators dedicated to neural network inference. Most ASIC accelerators are equipped with compiler-controlled scratchpad memory (SPM) used as a last-level cache to reduce the number of accesses to off-chip memory. A widely-used strategy for utilizing SPM is fused-layer execution, which divides a DNN model into groups of layers and forwards the intermediate results within each group without eviction to the off-chip memory. However, layer fusion has an inherent limitation that the fusion of consecutive layers increases the amount of computations, leading to sub-optimal performance.  
+</p>
+<p>
+This paper introduces a new dimension to SPM usage, which temporarily pins a feature map on SPM. Pinning reduces off-chip transfer without computation increase, but it is not applicable to all feature maps due to limited SPM size. We find that superior performance can be achieved by combination of pinning and fusion in MobileNet. Based on this observation, we propose a model-level optimization method that jointly applies pinning and fusion to minimize inference latency under memory constraints. Scheduling and allocation schemes are presented for automatic generation of optimized codes. Evaluation on the commercial AI accelerator shows that the proposed method reduces off-chip transfer of feature maps by 50% and improves inference latency by 15% on average without additional hardware, compared to the state-of-the-art fusion approach.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3580015">Accelerating Deep Neural Networks on Mobile Multicore NPUs</a></h3><ul class="DLauthors"><li class="nameList">Hanwoong Jung</li><li class="nameList">Hexiang Ji</li><li class="nameList">Alexey Pushchin</li><li class="nameList">Maxim Ostapenko</li><li class="nameList">Wenlong Niu</li><li class="nameList">Ilya Palachev</li><li class="nameList">Yutian Qu</li><li class="nameList">Pavel Fedin</li><li class="nameList">Yuri Gribov</li><li class="nameList">Heewoo Nam</li><li class="nameList">Dongguen Lim</li><li class="nameList">Hyunjun Kim</li><li class="nameList">Joonho Song</li><li class="nameList">Seungwon Lee</li><li class="nameList Last">Hwansoo Han</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Neural processing units (NPUs) have become indispensable parts of mobile SoCs. Furthermore, integrating multiple NPU cores into a single chip becomes a promising solution for ever-increasing computing power demands in mobile devices. This paper addresses techniques to maximize the utilization of NPU cores and reduce the latency of on-device inference. Mobile NPUs typically have a small amount of local memory (or scratch pad memory, SPM) that provides space only enough for input/output tensors and weights of one layer operation in deep neural networks (DNNs). Even in multicore NPUs, such local memories are distributed across the cores. In such systems, executing network layer operations in parallel is the primary vehicle to achieve performance. By partitioning a layer of DNNs into multiple sub-layers, we can execute them in parallel on multicore NPUs. Within a core, we can also employ pipelined execution to reduce the execution time of a sub-layer. In this execution model, synchronizing parallel execution and loading/storing intermediate tensors in global memory are the main bottlenecks. To alleviate these problems, we propose novel optimization techniques which carefully consider partitioning direction, execution order, synchronization, and global memory access. Using six popular convolutional neural networks (CNNs), we evaluate our optimization techniques in a flagship mobile SoC with three cores. Compared to the highest-performing partitioning approach, our techniques improve performance by 23%, achieving a speedup of 2.1x over single-core systems.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3579990.3580009">PIMFlow: Compiler and Runtime Support for CNN Models on Processing-in-Memory DRAM</a></h3><ul class="DLauthors"><li class="nameList">Yongwon Shin</li><li class="nameList">Juseong Park</li><li class="nameList">Sungjun Cho</li><li class="nameList Last">Hyojin Sung</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Processing-in-Memory (PIM) has evolved over decades into a feasible solution to addressing the exacerbating performance bottleneck with main memory by placing computational logic in or near memory. Recent proposals from DRAM manufacturers highlighted the HW constraint-aware design of PIM-enabled DRAM with specialized MAC logic, providing an order of magnitude speedup for memory-intensive operations in DL models. Although the main target for PIM acceleration did not initially include convolutional neural networks due to their high compute intensity, recent CNN models are increasingly adopting computationally lightweight implementation. Motivated by the potential for the software stack to enable CNN models on DRAM-PIM hardware without invasive changes, we propose PIMFlow, an end-to-end compiler and runtime support, to accelerate CNN models on a PIM-enabled GPU memory. PIMFlow transforms model graphs to create inter-node parallelism across GPU and PIM, explores possible task- and data-parallel execution scenarios for optimal execution time, and provides a code-generating back-end and execution engine for DRAM-PIM. PIMFlow achieves up to 82% end-to-end speedup and reduces energy consumption by 26% on average for CNN model inferences.</p>
+			</div></div>
+							
+						</div></div></body></html>

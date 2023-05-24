@@ -1,0 +1,113 @@
+---
+title: "SAS 2023 - First Call for Papers - Paper Deadline: April 24, 2023"
+timestamp: "3/18/2023 14:54:24"
+deadline: "4/24/2023"
+---
+--------------------------------------------------------------------------------
+
+                              SAS 2023
+
+                   30th Static Analysis Symposium
+
+     Cascais (Lisbon), Portugal, Sun 22 - Tue 24, October 2023
+
+              https://2023.splashcon.org/home/sas-2023
+     
+--------------------------------------------------------------------------------
+
+The 30th Static Analysis Symposium, SAS 2023, will be co-located with
+SPLASH 2023 in Cascais (Lisbon), Portugal.
+
+Static Analysis is widely recognized as a fundamental tool for program
+verification, bug detection, compiler optimization, program understanding, and
+software maintenance. The series of Static Analysis Symposia has served as the
+primary venue for the presentation of theoretical, practical, and application
+advances in the area.
+
+IMPORTANT DATES
+
+All deadlines are AoE (Anywhere on Earth) 
+
+- Full paper submission: April 24, 2023 
+- Artifact submission: April 29, 2023
+- Author response period: June 11-14, 2023
+- Notification: June 29, 2023
+- Final version due: August 3, 2023
+- Conference: Oct 22-24, 2023
+
+TOPICS 
+
+The technical program for SAS 2023 will consist of invited lectures
+and presentations of refereed papers. Contributions are welcomed on
+all aspects of static analysis, including, but not limited to:
+
+Abstract interpretation
+Automated deduction
+Data flow analysis
+Debugging techniques
+Deductive methods
+Emerging applications
+Model-checking
+Data science
+Program optimizations and transformations
+Program synthesis
+Program verification
+Machine learning and verification
+Security analysis
+Tool environments and architectures
+Theoretical frameworks
+Type checking
+Distributed or networked systems
+
+
+PAPER SUBMISSION
+
+All paper submissions will be judged on the basis of significance, relevance,
+correctness, originality, and clarity. 
+
+Submission link: https://easychair.org/conferences/?conf=sas2023
+
+We welcome regular papers as well as papers focusing on any of the
+following in the NEAT (New questions/areas, Experience, Announcement,
+Tool) category:
+
+- Well-motivated discussion of new questions or new areas. 
+- Experience with static analysis tools, Industrial Reports, and Case Studies 
+- Brief announcements of work in progress 
+- Tool papers 
+
+We do not impose a page limit for submitted papers but we encourage
+brevity as reviewers have a limited time that they can spend on each
+paper. With the exception of experience papers, all other papers will
+follow a lightweight double-blind reviewing process.  The identity of
+the authors for the remaining papers will be known to the reviewers.
+
+Submissions can address any programming paradigm, including
+concurrent, constraint, functional, imperative, logic,
+object-oriented, aspect, multi-core, distributed, and GPU
+programming.
+
+Papers must be written and presented in English. A submitted paper
+must describe original work and must not substantially overlap with
+papers that have been published or that are simultaneously submitted
+to a journal or a conference with refereed proceedings.
+
+All submitted papers will be judged on the basis of significance,
+relevance, correctness, originality, and clarity. The review process
+will include a rebuttal period where authors have the opportunity to
+respond to preliminary reviews on the paper.
+
+RADHIA COUSOT AWARD
+
+The program committee will select an accepted regular paper for the Radhia
+Cousot Young Researcher Best Paper Award in memory of Radhia Cousot and her
+fundamental contributions to static analysis, as well as being one of the main
+promoters and organizers of the SAS series of conferences.
+
+ARTIFACTS
+
+As in previous years, we encourage authors to submit a virtual machine image
+containing any artifacts and evaluations presented in the paper. Artifact
+submission is optional. Artifact evaluation will be concurrent with paper
+review.
+

@@ -1,0 +1,115 @@
+---
+title: "Call for Papers, 22nd IEEE/ACM International Symposium on Code Generation and Optimization (CGO 2024)"
+timestamp: "3/21/2023 5:42:12"
+deadline: "5/19/2023"
+---
+# Call for Papers: IEEE/ACM International Symposium on Code Generation and Optimization (CGO)
+### Co-located with PPoPP, HPCA and CC
+#### Edinburgh, UK
+#### March 2nd -- March 6st, 2024
+
+The International Symposium on Code Generation and Optimization (CGO’24) will happen in Edinburgh, UK, from March 2nd to March 6th, 2024. CGO is the premier venue to bring together researchers and practitioners working at the interface of hardware and software on a wide range of optimization and code generation techniques and related issues. The conference spans the spectrum from purely static to fully dynamic approaches, and from pure software-based methods to specific architectural features and support for code generation and optimization.
+
+**This year, CGO is introducing an earlier second submission deadline in May 2023.**
+This follows the model established by other conferences in our field in recent years, such as ASPLOS and OOPSLA.
+
+Papers submitted to the first round can either be directly accepted, rejected, or invited to submit a revised version of the paper to the second round. For papers invited to submit a revised version, authors will be given a list of revisions that should be acted on to improve the paper. We will make every effort to ensure that the revised paper will be reviewed by the same referees, who will assess whether the revisions have been implemented appropriately. If so, the paper will be accepted. If a paper is rejected, the authors may still submit a revised version in a subsequent round, which will be treated as a new submission.
+
+***
+
+### First Submission Deadline
+* Paper Submission: May 19th, 2023
+* Author Rebuttal Period: July 5th - 7th, 2023
+* Paper Notification: July 17th, 2023
+* Artifact Evaluation Submission: August 10th, 2023
+* Artifact Evaluation Notification: September 7th, 2023
+
+#### Contact for the first submission round:
+* Michel Steuwer - University of Edinburgh - michel.steuwer@ed.ac.uk
+* Jingling Xue - University of New South Wales - jingling@cse.unsw.edu.au 
+
+### Second Submission Deadline
+* Paper Submission: September 1st, 2023
+* Author Rebuttal Period: October 25th - October 27th, 2023
+* Paper Notification: November 6th, 2023
+* Artifact Evaluation Submission: November 24th, 2023
+* Artifact Evaluation Notification: December 19th, 2023
+
+#### Contact for the second submission round:
+* Fernando Pereira - UFMG - fernando@dcc.ufmg.br
+* Guilherme Ottoni - Meta - ottoni@meta.com 
+
+***
+
+AUTHORS TAKE NOTE: The official publication date is the date the proceedings are made available in the IEEE Xplore Platform. This date may be up to two weeks prior to the first day of the conference. The official publication date affects the deadline for any patent filings related to published work.
+
+***
+
+### Topics
+Original contributions are solicited on, but not limited to, the following topics:
+
+* Code Generation, Translation, Transformation, and Optimization for performance, energy, virtualization, portability, security, or reliability concerns, and architectural support
+* Efficient execution of dynamically typed and higher-level languages
+* Optimization and code generation for emerging programming models, platforms, domain-specific languages
+* Dynamic/static, profile-guided, feedback-directed, and machine learning-based optimization
+* Static, Dynamic, and Hybrid Analysis for performance, energy, memory locality, throughput or latency, security, reliability, or functional debugging
+* Program characterization methods
+* Profiling and instrumentation techniques; architectural support
+* Novel and efficient tools
+* Compiler design, practice and experience
+* Compiler abstraction and intermediate representations
+* Vertical integration of language features, representations, optimizations, and runtime support for parallelism
+* Solutions that involve cross-layer (HW/OS/VM/SW) design and integration
+* Deployed dynamic/static compiler and runtime systems for general purpose, embedded system and Cloud/HPC platforms
+* Parallelism, heterogeneity, and reconfigurable architectures
+* Optimizations for heterogeneous or specialized targets, GPUs, SoCs, CGRA
+* Compiler support for vectorization, thread extraction, task scheduling, speculation, transaction, memory management, data distribution and synchronization
+
+Standard research papers must be written in the IEEE double column format, and may have up to 10 pages, references excluded.
+
+***
+
+### Call for Tool and Practical Experience Papers
+
+CGO has a second category of papers called “Tools and Practical Experience”. Papers in this category must either give a clear account of a tool's functionality or summarize a practical experience with realistic case studies.
+
+**The successful evaluation of an artifact is mandatory for a Tool Paper.**<br/> Therefore, authors of work conditionally accepted as Tool Papers must submit an artifact to the Artifact Evaluation Committee. The successful evaluation of the artifact is a requirement for final acceptance.
+
+**Practical experience papers are encouraged, but not required, to submit an artifact to the Artifact Evaluation process.**
+
+
+The selection criteria for papers in this category are:
+
+* Originality: Papers should present CGO-related technologies applied to real-world problems with scope or characteristics that set them apart from previous solutions.
+* Usability: The presented Tools or compilers should have broad usage or applicability. They are expected to assist in CGO-related research, or could be extended to investigate or demonstrate new technologies. If significant components are not yet implemented, the paper will not be considered.
+* Documentation: The tool or compiler should be presented on a web-site giving documentation and further information about the tool.
+* Benchmark Repository: A suite of benchmarks for testing should be provided.
+* Availability: The tool or compiler should be available for public use.
+* Foundations: Papers should incorporate the principles underpinning Code Generation and Optimization (CGO). However, a thorough discussion of theoretical foundations is not required; a summary of such should suffice.
+* Artifact Evaluation: The submitted artifact must be functional and support the claims made in the paper. Submission of an artifact is mandatory for papers presenting a tool.
+
+Tool and Practical Experience papers abide by the same limit of 10 pages in the IEEE double column format, references excluded, and are not distinguished in the final proceedings. We encourage shorter submissions that give account of how scientific ideas have been incorporated and used in practice.
+
+***
+
+### Geographic Diversity and Inclusion
+
+Authors of papers accepted for CGO 2024 are encouraged to present their work in person. However, to foster the participation of students and professionals from everywhere, CGO 2024 will allow the remote presentation of papers, if their authors are unable to travel to the conference venue for reasons beyond their control (e.g. visa issues). Additionally, the conference organization will try to make attendance of CGO 2024 affordable for as many people as possible, with a specific focus on students from universities located in under-represented countries who are paper authors.
+
+***
+
+### Artifact Evaluation
+The Artifact Evaluation process is run by a separate committee whose task is to assess how the artifacts support the work described in the papers. This process contributes to improved reproducibility in research that should be a great concern to all of us. There is also some evidence that papers with a supporting artifact receive higher citations than papers without (Artifact Evaluation: Is It a Real Incentive? by B. Childers and P. Chrysanthis).
+
+Authors of accepted papers at CGO have the option of submitting their artifacts for evaluation within two weeks of paper acceptance. To ease the organization of the AE committee, we kindly ask authors to indicate at the time they submit the paper, whether they are interested in submitting an artifact. Papers that go through the Artifact Evaluation process successfully will receive a seal of approval printed on the papers themselves. Additional information is available on the CGO AE web page. Authors of accepted papers are encouraged, but not required, to make these materials publicly available upon publication of the proceedings.
+
+***
+
+Authors should carefully consider the difference in focus between the co-located conferences when deciding where to submit a paper. CGO will make the proceedings freely available via the IEEE Xplore platform during the period from two weeks before to two weeks after the conference. This option will facilitate easy access to the proceedings by conference attendees, and it will also enable the community at large to experience the excitement of learning about the latest developments being presented in the period surrounding the event itself.
+
+***
+
+### Distinguished Paper Awards
+
+Up to 10% of papers accepted at CGO 2024 will be designated as Distinguished Papers, following the ACM policy. This award is open to both regular and tool papers.
+

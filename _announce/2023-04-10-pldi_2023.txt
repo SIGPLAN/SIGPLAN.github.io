@@ -1,0 +1,100 @@
+---
+title: "Call for Participation, the ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2023)"
+timestamp: "4/10/2023 22:52:04"
+start: "6/17/2023"
+end: "6/21/2023"
+---
+Call for Participation for PLDI 2023, the ACM SIGPLAN Conference on Programming Language Design and Implementation!
+------------------------------------------------------------------------
+
+PLDI is a premier forum for programming language research, broadly construed, including design, implementation, theory, applications, and performance. 
+PLDI will be part of FCRC 2023 in Orlando. PLDI will feature live streams for those who cannot attend in-person.
+
+* Website : https://pldi23.sigplan.org/
+* Time : 17th—21st June 2023
+* Place : The Orlando World Center Marriott in Orlando, Florida, USA + online option, comprising live streamed talks + online interaction
+https://fcrc.acm.org/for-attendees/hotel-info
+* Registration : https://web.cvent.com/event/ce5cb7a2-4868-4dc6-a48d-707340839d56/summary
+
+
+### Registration Information
+When registering, you must register for FCRC, then separately select PLDI and other conferences you wish to attend.
+
+### Virtual Participation
+All talks will be streamed for virtual attendees. Virtual attendees will be able to interact with each other,
+and other attendees, through a shared Slack or Discord.
+
+### Virtual Registration
+Due to participation in FCRC, there is a registration fee for online participants.
+However, virtual attendees can still access everything virtually without registration.
+But if you can afford it, please register.
+
+### Important dates:
+* Early Registration: Before 19 May, 2023
+
+### Important rates:
+Registration rates (in-person) Before 19 May, 2022 On or after 19 May, 2022
+Regular (ACM or SIGPLAN member) $765 $930
+Regular (non-member) $905 $1105
+Student (ACM or SIGPLAN member) $445 $655
+Student (non-member) $530 $655
+
+Registration rates (virtual)
+Regular (ACM or SIGPLAN member) $95
+Regular (non-member) $95
+Student (ACM or SIGPLAN member) $80
+Student (non-member) $80
+
+### Co-located events:
+
+Co-located Conferences:
+- ISMM, ACM SIGPLAN International Symposium on Memory Management
+https://conf.researchr.org/home/ismm-2023
+- LCTES, ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems
+https://pldi23.sigplan.org/home/LCTES-2023
+
+Workshops:
+- ARRAY, The Array Programming Workshop
+https://pldi23.sigplan.org/home/ARRAY-2023
+- ASA, The AI and Static Analysis Workshop
+https://pldi23.sigplan.org/home/asa-2023
+- CTSTA, The second Workshop on Compiler Techniques for Sparse Tensor Algebra
+https://pldi23.sigplan.org/home/ctsta-2023
+- The DOE/NSF Workshop on Correctness in Scientific Computing
+https://pldi23.sigplan.org/home/csc-2023
+- DRAGSTERS, The Workshop on Distribution, Relational Algebra, Graphs, Semi-Rings, Tensors and All That
+https://pldi23.sigplan.org/home/dragsters-2023
+- EGRAPHS, The E-Graph Research, Applications, Practices, and Human-factors Symposium
+ https://pldi23.sigplan.org/home/egraphs-2023
+- INFER, The Infer Practitioners Workshophttps://pldi23.sigplan.org/home/infer-2023
+- PLARCH, The Workshop on Programming Languages and Computer Architecture
+https://pldi23.sigplan.org/home/plarch-2023
+- PLMW, the Programming Language Mentoring Workshop
+https://pldi23.sigplan.org/home/PLMW-PLDI-2023
+- SOAP, the ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis
+https://pldi23.sigplan.org/home/SOAP-2023
+
+Tutorials:
+https://pldi23.sigplan.org/track/pldi-2023-tutorials
+
+- Building Programming Language Infrastructure With LLVM Components
+Sunho Kim, Vassil Vassilev, Lang Hames, Vassil Vassilev
+- DSL-based Hardware Generation
+Rachit Nigam, Adrian Sampson, Anshuman Mohan, Griffin Berlstein
+- From Zero to Proving: Building Your First Language with the K Framework
+Bruce Collie
+- High-Level Executable Specification and Reasoning for Improving Distributed Algorithms
+Y. Annie Liu, Scott Stoller
+- Neurosymbolic Programming in Scallop
+Ziyang Li, Jiani Huang, Mayur Naik
+- Teaching and Learning Compilers Incrementally
+Jeremy G. Siek
+- Towards Supporting Universal Static Analysis using WALA
+Rahul Krishna, Raju Pavuluri, Saurabh Sinha, Divya Sankar, Julian Dolby, Rangeet Pan
+- What’s new in Dafny, and what is Dafny anyway? 
+K. Rustan M. Leino
+
+The Student Research Competition!
+https://pldi23.sigplan.org/track/pldi-2023-src
+
+Please Distribute Widely

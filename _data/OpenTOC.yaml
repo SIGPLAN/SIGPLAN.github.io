@@ -1213,6 +1213,17 @@
   event: ASPLOS
   year: 2023
   title: "Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1"
+  link: asplos23-1.html
+-
+  event: ASPLOS
+  year: 2023
+  title: "Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2"
+  link: asplos23-2.html
+-
+  event: ASPLOS
+  year: 2023
+  title: "Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3"
+  link: asplos23-3.html
 -
   event: PEPM
   year: 2023
@@ -1226,3 +1237,23 @@
   year: 2023
   title: "Proceedings of the 50th Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
   link: https://dl.acm.org/toc/pacmpl/2023/7/POPL
+-
+  event: CC
+  year: 2023
+  title: "Proceedings of the 32nd ACM SIGPLAN International Conference on Compiler Construction"
+-
+  event: PPoPP
+  year: 2023
+  title: "Proceedings of the 28th ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming"
+-
+  event: CGO
+  year: 2023
+  title: "Proceedings of the 21st ACM/IEEE International Symposium on Code Generation and Optimization"
+-
+  event: PMAM
+  year: 2023
+  title: "Proceedings of the 14th International Workshop on Programming Models and Applications for Multicores and Manycores"
+-
+  event: BID
+  year: 2023
+  title: "Proceedings of the 5th International Workshop on Benchmarking in the Data Center"

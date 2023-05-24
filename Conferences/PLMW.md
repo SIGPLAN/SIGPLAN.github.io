@@ -7,25 +7,29 @@ The purpose of this mentoring workshop is to encourage graduate students (PhD an
 We especially encourage women and underrepresented minority students to attend PLMW.
 
 
-## PLMW Steering Committee Membership for 2022
+## PLMW Steering Committee Membership for 2023
 
-- **ICFP Reps**: Lindsey Kuper, Jose Calderon
-- **POPL Reps**: Stephanie Balzer, Robbert Krebbers
-- **SPLASH Reps**: Karim Ali, Lukasz Ziarek, Molly Feldman
-- **PLDI Reps**: Steve Chong, Tamara Rezk
+- **ICFP Reps**: Jose Calderon, Kris Micinski
+- **POPL Reps**: Robbert Krebbers, Hannah Gommerstadt
+- **SPLASH Reps**: Lukasz Ziarek, Molly Feldman
+- **PLDI Reps**: Tamara Rezk, Limin Jia
 - **Social media**: Hila Peleg (new role 2020)
 - **SIGPLAN EC Rep**: Cindy Rubio Gonzalez
 - **Ad hoc Members**: Kathleen Fisher
 
-- **Chair**: Milind Kulkarni
-- **Chair-Elect**: Stephie Balzer
-- **Previous Chair**: Steve Zdancewic
+- **Chair**: Stephanie Balzer
+- **Chair-Elect**: Lukasz Ziarek
+- **Previous Chair**: Milind Kulkarni
 
 
 
 ## Web Pages of Previous Conferences
 
+- [PLMW @ POPL'23](https://popl23.sigplan.org/home/PLMW-POPL-2023)
+- [PLMW @ SPLASH '22](https://2022.splashcon.org/track/splash-2022-PLMW)
+- [PLMW @ ICFP'22](https://icfp22.sigplan.org/home/PLMW-ICFP-2022)
 - [PLMW @ PLDI'22](https://pldi22.sigplan.org/track/PLMW-PLDI-2022) 
+- [PLMW @ POPL'22](https://popl22.sigplan.org/home/PLMW-2022)
 - [PLMW @ SPLASH '21](https://2021.splashcon.org/track/splash-2021-PLMW) (virtual)
 - [PLMW @ ICFP'21](https://icfp21.sigplan.org/home/PLMW-ICFP-2021) (virtual)
 - [PLMW @ PLDI'21](https://pldi21.sigplan.org/home/PLMW-PLDI-2021) (virtual)

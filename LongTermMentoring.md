@@ -88,6 +88,7 @@ We'd like to thank these amazing mentors:
 - Tobias Grosser
 - Jason Hemann
 - Kuen-Bang Hou (Favonia) 
+- Patrik Jansson
 - Ralf Jung
 - Konstantinos Kallas
 - Raffi Khatchadourian

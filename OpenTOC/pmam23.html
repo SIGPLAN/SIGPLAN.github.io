@@ -1,0 +1,119 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>PMAM'23: Proceedings of the 14th International Workshop on Programming Models and Applications for Multicores and Manycores</title></head><body><div id="DLtoc"><div id="DLheader"><h1>PMAM'23: Proceedings of the 14th International Workshop on Programming Models and Applications for Multicores and Manycores</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3582514"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent">
+					<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3582514.3582518">Julia Cloud Matrix Machine: Dynamic Matrix Language Acceleration on Multicore Clusters in the Cloud</a></h3><ul class="DLauthors"><li class="nameList">Jay Hwan Lee</li><li class="nameList">Yeonsoo Kim</li><li class="nameList">Yonghyun Ryu</li><li class="nameList">Wasuwee Sodsong</li><li class="nameList">Hyunjun Jeon</li><li class="nameList">Jinsik Park</li><li class="nameList">Bernd Burgstaller</li><li class="nameList Last">Bernhard Scholz</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Matrix computations are widely used in increasing sizes and complexity in scientific computing and engineering. But current matrix language implementations lack programmer support to effectively and seamlessly utilize cloud computing resources. We extend the Julia high-performance compute language to automatically parallelize matrix computations for the cloud. Users are shielded from the complexity of explicitly-parallel computations through the provision of a novel matrix data type with lazy evaluation semantics. Delayed evaluation aggregates operations into expression trees that are rewritten on-the-fly to eliminate common subexpressions and apply optimizations such as exponentiation-by-squaring on matching subtrees. Trees are lowered into DAGs for which dynamic simulation selects the optimal tile size and execution schedule for a given cluster of cloud nodes. We employ off-line profiling to construct a time model for the compute and network capacity of the cluster. The experimental evaluation of our framework comprises eleven benchmarks on a cluster of eight nodes (288 vCPUs) in the AWS public cloud and reveals speedups of up to a factor of 4.11, with an average 78.36% of the theoretical maximum speedup.</p>
+			</div></div>
+					
+				
+					<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3582514.3582520">Distributed Cell Set : A Library for Space-Dependent Communication/Computation Overlap on Manycore Cluster</a></h3><ul class="DLauthors"><li class="nameList">Yoshiki Kawanishi</li><li class="nameList">Patrick Finnerty</li><li class="nameList">Tomio Kamada</li><li class="nameList Last">Chikara Ohta</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The increase in the number of cores available in modern processors makes it important for implementations to maximize their use within a node by overlapping communication and computation. However, when the dependencies between communication and computation are complex and evolve over the course of the execution, their implementation becomes tedious and may lead to bugs. In this paper, we focus on spatial simulation where elements move over time due to interactions with other surrounding elements. We propose a Distributed Cell Set Library that manages the distribution of the simulation space using unit areas (<em>cell</em> units). We make it possible to manage the granularity with which cell communication may overlap with computation, and for multithreaded computation. In addition, we make it possible to describe the relationships between inter-node communication and the pending computation in cell units. For evaluation, we introduce the implementation of a two-dimensional molecular dynamics simulation using our library. We show that using our computation and communication overlapping method, the delays to reach global synchronization that are necessary in the original implementation can be avoided.</p>
+			</div></div>
+					
+				
+					<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3582514.3582521">Towards Maximum Throughput of Dataflow Software Pipeline under Resource Constraints</a></h3><ul class="DLauthors"><li class="nameList">Siddhisanket Raskar</li><li class="nameList">Thomas Applencourt</li><li class="nameList">Kalyan Kumaran</li><li class="nameList Last">Guang Gao</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This work proposes a novel algorithm and Integer Linear Programming (ILP) formulation to optimize the pipelined code mapping of dataflow graph under a given budget generated by optimizing compilers. The goal of this optimization technique is to maximize the throughput of dataflow software pipelining under the given budget, i.e. when the minimum number of fifo buffers needed to optimally balance the dataflow graph are not available with the system. A proposed algorithm uses a two-fold solution by combining a well-established optimal dataflow graph balancing ILP formulation which doesn't consider resource budget constraints with our proposed ILP formulation which considers resource budget constraints. Our algorithm efficiently maximizes the throughput of dataflow software pipeline under a given resource budget. Additionally, we introduce a cycle-accurate dataflow graph simulator for the evaluation of various balancing techniques. We perform an experimental evaluation of different optimizing techniques and show that our proposed novel algorithm performs relatively well compared to existing techniques.</p>
+			</div></div>
+					
+				
+					<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3582514.3582522">Studying the expressiveness and performance of parallelization abstractions for linear pipelines</a></h3><ul class="DLauthors"><li class="nameList">Aristeidis Mastoras</li><li class="nameList Last">Albert-Jan N. Yzelman</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Semi-automatic parallelization provides abstractions that simplify the programming effort and allow the user to make decisions that cannot be made by tools. However, abstractions for general-purpose systems usually do not carry sufficient knowledge about the structure of the program, and thus parallelization with them may lead to poor performance.</p>
+				<p>In this paper, we present a popular class of programs, called linear pipelines, that cannot be easily and efficiently parallelized with general-purpose abstractions. We discuss the difficulties and inefficiencies of parallelizing linear pipelines with general-purpose abstractions, and we explain how pattern-specific abstractions overcome these problems. We present the properties of linear pipelines that should be described with pattern-specific abstractions and how these properties are exploited by the state of the art. In addition, we discuss the importance of exposing the performance parameters and how they are combined by pattern-specific knowledge. We claim that designing pattern-specific abstractions for general-purpose programming models is one way to simplify parallel programming and improve performance without sacrificing any expressive power. Consequently, we propose possible pattern-specific extensions to general-purpose parallel programming models, e.g., OpenMP, to support easy and efficient parallelization of linear pipelines.</p>
+			</div></div>
+					
+				
+					<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3582514.3582517">Harmonic CUDA: Asynchronous Programming on GPUs</a></h3><ul class="DLauthors"><li class="nameList">Jonathan D. Wapman</li><li class="nameList">Sean Treichler</li><li class="nameList">Serban D. Porumbescu</li><li class="nameList Last">John D. Owens</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We introduce Harmonic CUDA, a dataflow programming model for GPUs that allows programmers to describe algorithms as a dependency graph of producers and consumers where data flows continuously through the graph for the duration of the kernel. This makes it easier for programmers to exploit asynchrony, warp specialization, and hardware acceleration. Using Harmonic CUDA, we implement two example applications: Matrix Multiplication and GraphSage. The matrix multiplication kernel demonstrates how a key kernel can break down into more granular building blocks, with results that show a geomean average of 80% of cuBLAS performance, and up to 92% when omitting small matrices, as well as an analysis of how to improve performance in the future. GraphSage shows how asynchrony and warp specialization can provide significant performance improvements by reusing the same building blocks as the matrix multiplication kernel. We show performance improvements of 34% by changing to a warp-specialized version compared to a bulk-synchronous implementation. This paper evaluates the strengths and weaknesses of Harmonic CUDA based on these test cases and suggests future work to improve the programming model.</p>
+			</div></div>
+					
+				
+					<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3582514.3582519">MPI-based Remote OpenMP Offloading: A More Efficient and Easy-to-use Implementation</a></h3><ul class="DLauthors"><li class="nameList">Baodi Shan</li><li class="nameList">Mauricio Araya-Polo</li><li class="nameList">Abid M. Malik</li><li class="nameList Last">Barbara Chapman</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>MPI+X is the most popular hybrid programming model for distributed computation on modern heterogeneous HPC systems. Nonetheless, for simplicity, HPC developers ideally would like to implement multi-node distributed parallel computing through a single coherent programming model. As de facto standard for parallel programming, OpenMP has been one of the most influential programming models in parallel computing. Recent work has proven that the OpenMP target offloading model could be used to program distributed accelerator-based HPC systems with marginal changes to the application. However, the UCX-based version of remote OpenMP offloading still has many limitations in terms of performance overhead and ease of use of the plugin.</p>
+				<p>In this work, we have implemented a new MPI-based remote OpenMP offloading plugin. By comparing it with the UCX-based version, the new MPI-based plugin has been significantly improved in terms of performance, scalability, and ease of use. Evaluation of our work is conducted using one proxy-app, <em>XSBench</em> and an industrial-level seismic modeling code, <em>Minimod.</em> Results show that, compared to the optimized UCX-based version, our optimizations can reduce offloading latency by up to 70%, and raise application parallel efficiency by 68% when running with 16 GPUs on data-bound applications. In particular, the introduction of the concept of locality-aware offloading gives developers of HPC programs greater possibilities to take full advantage of modern hierarchical heterogeneous computing devices.</p>
+			</div></div>
+					
+				
+					<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3582514.3582523">Exploring OpenMP GPU Offloading for Implementing Convolutional Neural Networks</a></h3><ul class="DLauthors"><li class="nameList">Kewei Yan</li><li class="nameList">Yaying Shi</li><li class="nameList Last">Yonghong Yan</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Computing on heterogeneous architecture involving CPUs and accelerators is now a popular choice of parallel computing. As a directive-based programming model, OpenMP has become more and more comprehensive that supports a large variety of hardware architectures and commonly used parallel patterns for high performance computing applications. In this paper, we present our experience of using OpenMP offloading model for computer vision tasks with the implementation of Convolutional Neural Network (CNN) for image classification. We explore different approaches of using OpenMP directives for parallelizing computational loops and managing data copy between host and GPUs. We evaluate our implementation for CNN training using MNIST and ImageNet data sets. According to our evaluation, optimization of parallelizing computational loops and data copy leads to up to 3.1x and 1.6x improvements of overall execution time among single GPU cases. Besides, up to 2.7x improvement of overall execution time is observed from the comparison between 4-GPU cases and single GPU cases. We also compare our implementation with OpenMP CPU and cuDNN versions. We observed solid better performance comparing with OpenMP CPU version and on par performance with cuDNN version on ImageNet data set. Detailed breakdown analysis and comparison are also provided in the paper.</p>
+			</div></div>
+					
+				</div></div></body></html>

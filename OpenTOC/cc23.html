@@ -1,0 +1,273 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>CC 2023: Proceedings of the 32nd ACM SIGPLAN International Conference on Compiler Construction</title></head><body><div id="DLtoc"><div id="DLheader"><h1>CC 2023: Proceedings of the 32nd ACM SIGPLAN International Conference on Compiler Construction</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3578360"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Vector and Parallelism</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580265">Java Vector API: Benchmarking and Performance Analysis</a></h3><ul class="DLauthors"><li class="nameList">Matteo Basso</li><li class="nameList">Andrea Rosà</li><li class="nameList">Luca Omini</li><li class="nameList Last">Walter Binder</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The Java Vector API is a new module introduced in Java 16, allowing developers to concisely express vector computations. The API promises both high performance, achieved via the runtime compilation of vector operations to hardware vector instructions, and portability. To the best of our knowledge, there is no study evaluating the performance of the new Java Vector API.  
+To bridge this gap, we propose JVBench, to the best of our knowledge, the first open-source benchmark suite for the Java Vector API. JVBench extensively exercises the features introduced by the Java Vector API, resulting in high API coverage. We use JVBench to evaluate the performance and portability of the Java Vector API on multiple architectures supporting different vector instruction sets. We compare the performance of the Java Vector API on our benchmarks w.r.t. other semantically equivalent implementations, including scalar (non-auto-vectorized) Java code as well as Java code auto-vectorized by the Just in Time (JIT) compiler. Finally, we report patterns and anti-patterns on the use of the Java Vector API significantly affecting application performance.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580258">Compiling Discrete Probabilistic Programs for Vectorized Exact Inference</a></h3><ul class="DLauthors"><li class="nameList">Jingwen Pan</li><li class="nameList Last">Amir Shaikhha</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Probabilistic programming languages (PPLs) are essential for reasoning under uncertainty. Even though many real-world probabilistic programs involve discrete distributions, the state-of-the-art PPLs are suboptimal for a large class of tasks dealing with such distributions. In this paper, we propose BayesTensor, a tensor-based probabilistic programming framework. By generating tensor algebra code from probabilistic programs, BayesTensor takes advantage of the highly-tuned vectorized implementations of tensor processing frameworks. Our experiments show that BayesTensor outperforms the state-of-the-art frameworks in a variety of discrete probabilistic programs, inference over Bayesian Networks, and real-world probabilistic programs employed in data processing systems.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580254">A Multi-threaded Fast Hardware Compiler for HDLs</a></h3><ul class="DLauthors"><li class="nameList">Sheng-Hong Wang</li><li class="nameList">Hunter James Coffman</li><li class="nameList">Kenneth Mayer</li><li class="nameList">Sakshi Garg</li><li class="nameList Last">Jose Renau</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>A set of new Hardware Description Languages (HDLs) are  
+emerging to ease hardware design. HDL compilation time is  
+a major bottleneck in the designer’s productivity. Moreover,  
+as the HDLs are developed independently, the possibility to  
+share innovations in compilation technology is limited.  
+</p>
+<p>
+We design and implement LiveHD, a new multi-threaded,  
+fast, and generic compilation framework across many HDLs  
+(FIRRTL, Verilog, and Pyrope). We propose new parallel full  
+and bottom-up passes to handle HDLs. The resulting compiler  
+can parallelize all the compiler steps.  
+</p>
+<p>
+LiveHD can achieve 5.5x scalability speedup when elaborating  
+a CHISEL RISC-V Manycore. It also gets from 7.7x to 8.4x  
+scalability speedup for a benchmark designed in all three HDLs.  
+This is achieved with a fast single-threaded LiveHD baseline  
+with 6x speedup compared to compilers such as Scala-FIRRTL and  
+8.6x against Yosys on Verilog.</p>
+			</div></div>
+							
+						<h2>SESSION: Scheduling and Tuning</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580272">Efficiently Learning Locality Optimizations by Decomposing Transformation Domains</a></h3><ul class="DLauthors"><li class="nameList">Tharindu R. Patabandi</li><li class="nameList Last">Mary Hall</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Optimizing compilers for efficient machine learning are more important than ever due to the rising ubiquity of the application domain in numerous facets of life. Predictive model-guided compiler optimization is sometimes used to derive sequences of loop transformations that optimize the performance of the machine learning computations. However, training-data generation for these models often requires the traversal of prohibitively expensive schedule spaces and executing code variants corresponding to different schedule options. The size of these search spaces can quickly explode when predicting the combined effects of multiple loop transformations. This paper characterizes a learning strategy for deriving transformation sequences called <em>Composed Singular Prediction (CSP)</em>. Instead of a monolithic cost model that predicts the profitability of a given transformation sequence, CSP exploits a collection of cost models, each trained on a particular loop transformation domain. In a case study, a domain-specific compiler deploys the learned models to predict loop tiling and loop permutation schedules to perform data locality optimization of Conv2d kernels. The system achieves performance improvements up to 4.0x against Intel oneDNN while saving ~ 105.3<em>x</em> in training data collection time compared to exhaustive exploration of the design space.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580257">A Deep Learning Model for Loop Interchange</a></h3><ul class="DLauthors"><li class="nameList">Lina Mezdour</li><li class="nameList">Khadidja Kadem</li><li class="nameList">Massinissa Merouani</li><li class="nameList">Amina Selma Haichour</li><li class="nameList">Saman Amarasinghe</li><li class="nameList Last">Riyadh Baghdadi</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Loop interchange is an important code optimization that improves data locality and extracts parallelism. While previous research in compilers has tried to automate the selection of which loops to interchange, existing methods have an important limitation. They use less precise machine models. This is mainly because developing a model to predict whether to interchange two loops is challenging since such a prediction depends on many factors.  
+While state-of-the-art methods try to avoid this problem by using a deep-learning based cost model, they suffer from another limitation. They scale proportionally with the number of loop levels of a given loop nest. This is mainly because they use the model to evaluate all the possible loop interchanges (or a subset of the most promising ones).  
+In this paper, we propose a novel deep-learning model for loop interchange that addresses the previous limitations. It takes a code representation as input and predicts the best pair of loops to interchange. Compared to state-of-the-art deep-learning based cost models,  
+it requires constant time to predict the best loop interchange.  
+This is in contrast to state-of-the-art deep learning models that are used to evaluate all the loop pairs and then pick the best one.  
+The proposed model is the first deep learning model that requires a constant time to predict the best loops to interchange. The model is implemented and evaluated in the Tiramisu compiler, a state-of-the-art polyhedral compiler.  
+We evaluate the proposed model on a benchmark of Tiramisu programs and show an accuracy of 78.57% for 1-shot and 85.71% for 2-shots. Experiments show that our model outperforms the cost model currently used by the Tiramisu compiler by 8.57% in terms of 1-shot accuracy, and 5.71% with 2-shots accuracy, while at the same time reducing the total execution time needed for predicting the best pair of loops to interchange.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580269">(De/Re)-Compositions Expressed Systematically via MDH-Based Schedules</a></h3><ul class="DLauthors"><li class="nameList">Ari Rasch</li><li class="nameList">Richard Schulze</li><li class="nameList">Denys Shabalin</li><li class="nameList">Anne Elster</li><li class="nameList">Sergei Gorlatch</li><li class="nameList Last">Mary Hall</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We introduce a new scheduling language, based on the formalism of Multi-Dimensional Homomorphisms (MDH). In contrast to existing scheduling languages, our MDH-based language is designed to systematically "de-compose" computations for the memory and core hierarchies of architectures, and "re-compose" the computed intermediate results back to the final result -- we say "(de/re)-composition" for short. We argue that our scheduling langauge is easy to use and yet expressive enough to express well-performing (de/re)-compositions of popular related approaches, e.g., the TVM compiler, for MDH-supported computations (such as linear algebra routines and stencil computations). Moreover, our language is designed as auto-tunable, i.e., any optimization decision can optionally be left to the auto-tuning engine of our system, and our system can automatically recommend schedules for the user, based on its auto-tuning capabilities. Also, by relying on the MDH approach, we can formally guarantee the correctness of optimizations expressed in our language, thereby further enhancing user experience.  
+Our experiments on GPU and CPU confirm that we can express optimizations that cannot be expressed straightforwardly (or at all) in TVM's scheduling language, thereby achieving higher performance than TVM, and also vendor libraries provided by NVIDIA and Intel, for time-intensive computations used in real-world deep learning neural networks.</p>
+			</div></div>
+							
+						<h2>SESSION: Code Generation and Synthesis</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580263">A Sound and Complete Algorithm for Code Generation in Distance-Based ISA</a></h3><ul class="DLauthors"><li class="nameList">Shu Sugita</li><li class="nameList">Toru Koizumi</li><li class="nameList">Ryota Shioya</li><li class="nameList">Hidetsugu Irie</li><li class="nameList Last">Shuichi Sakai</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The single-thread performance of a processor core is essential even in the multicore era. However, increasing the processing width of a core to improve the single-thread performance leads to a super-linear increase in power consumption. To overcome this power consumption issue, an instruction set architecture for general-purpose processors, called STRAIGHT, has been proposed. STRAIGHT adopts a distance-based ISA, in which source operands are specified by the distance between instructions. In STRAIGHT, it is necessary to satisfy constraints on the distance used as operands to generate executable code. However, it is not yet clear how to generate code that satisfies these constraints in the general case. In this paper, we propose three compiling techniques for STRAIGHT code generation and prove that our techniques can reliably generate code that satisfies the distance constraints. We implemented the proposed method on a compiler and evaluated benchmark programs compiled with it through simulation. The evaluation results showed that the proposed method works in all cases, including conditions where the number of registers is small and existing methods fail to generate code.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580262">Matching Linear Algebra and Tensor Code to Specialized Hardware Accelerators</a></h3><ul class="DLauthors"><li class="nameList">Pablo Antonio Martínez</li><li class="nameList">Jackson Woodruff</li><li class="nameList">Jordi Armengol-Estapé</li><li class="nameList">Gregorio Bernabé</li><li class="nameList">José Manuel García</li><li class="nameList Last">Michael F. P. O’Boyle</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Dedicated tensor accelerators demonstrate the importance of linear algebra in modern applications. Such accelerators have the potential for impressive performance gains, but require programmers to rewrite code using vendor APIs - a barrier to wider scale adoption. Recent work overcomes this by matching and replacing patterns within code, but such approaches are fragile and fail to cope with the diversity of real-world codes.  
+</p>
+<p>
+We develop ATC, a compiler that uses program synthesis to map regions of code to specific APIs. The mapping space that ATC explores is combinatorially large, requiring the development of program classification, dynamic analysis, variable constraint generation and lexical distance matching techniques to make it tractable.  
+</p>
+<p>
+We apply ATC to real-world tensor and linear algebra codes and evaluate them against four state-of-the-art approaches. We accelerate between 2.6x and 7x more programs, leading to over an order of magnitude performance improvement.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580266">Torchy: A Tracing JIT Compiler for PyTorch</a></h3><ul class="DLauthors"><li class="nameList Last">Nuno P. Lopes</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Machine learning (ML) models keep getting larger and more complex.  
+Whereas before models used to be represented by static data-flow graphs, they  
+are now implemented via arbitrary Python code.  
+Eager-mode frameworks, such as PyTorch, are now the standard  
+for developing new ML models.  
+The semantics of eager-mode frameworks is that operations are computed straight  
+away.  
+This greatly simplifies the development process, and it enables more dynamic  
+ML models.  
+</p>
+<p>
+Although eager-mode frameworks are more convenient, they are less efficient  
+today as operations are dispatched to the hardware one at a time.  
+This execution model precludes, for example, operation fusion, which  
+is essential for executing ML workloads efficiently.  
+</p>
+<p>
+In this paper we present Torchy, a tracing JIT compiler for PyTorch.  
+Torchy achieves similar performance as data-flow frameworks, while providing  
+the same semantics of straight-away execution.  
+Moreover, Torchy works with any PyTorch program unmodified.  
+Torchy outperforms PyTorch by up to 12x in microbenchmarks, and PyTorch's  
+static compiler (TorchScript) by up to 5x.</p>
+			</div></div>
+							
+						<h2>SESSION: Backend</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580253">A Symbolic Emulator for Shuffle Synthesis on the NVIDIA PTX Code</a></h3><ul class="DLauthors"><li class="nameList">Kazuaki Matsumura</li><li class="nameList">Simon Garcia De Gonzalo</li><li class="nameList Last">Antonio J. Peña</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Various kinds of applications take advantage of GPUs through automation tools that attempt to automatically exploit the available performance of the GPU's parallel architecture. Directive-based programming models, such as OpenACC, are one such method that easily enables parallel computing by just adhering code annotations to code loops. Such abstract models, however, often prevent programmers from making additional low-level optimizations to take advantage of the advanced architectural features of GPUs because the actual generated computation is hidden from the application developer.  
+</p>
+<p>
+This paper describes and implements a novel flexible optimization technique that operates by inserting a code emulator phase to the tail-end of the compilation pipeline. Our tool emulates the generated code using symbolic analysis by substituting dynamic information and thus allowing for further low-level code optimizations to be applied. We implement our tool to support both CUDA and OpenACC directives as the frontend of the compilation pipeline, thus enabling low-level GPU optimizations for OpenACC that were not previously possible. We demonstrate the capabilities of our tool by automating warp-level shuffle instructions that are difficult to use by even advanced GPU programmers. Lastly, evaluating our tool with a benchmark suite and complex application code, we provide a detailed study to assess the benefits of shuffle instructions across four generations of GPU architectures.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580261">Register Allocation for Compressed ISAs in LLVM</a></h3><ul class="DLauthors"><li class="nameList">Andreas Fried</li><li class="nameList">Maximilian Stemmer-Grabow</li><li class="nameList Last">Julian Wachter</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present an adaptation to the LLVM greedy register allocator to improve code density for compressed RISC ISAs. </p><p>Many RISC architectures have extensions defining smaller encodings for common instructions, typically 16 rather than 32 bits wide. However, these instructions typically cannot access all the processor’s registers, and might only have room to specify two registers even for binary operations. </p><p>When a register allocator is aware of these restrictions, it can analyze the <em>compressibility</em> of instructions and assign registers in such a way that as many instructions as possible can use the smaller encoding. </p><p>We adapted four aspects of the LLVM greedy register allocator in order to enable more compressed instructions: 1. Prioritize virtual registers with many potentially compressible instructions for earlier assignment. 2. Select registers so that the number of compressed instructions is maximized. 3. Take compressibility into account when deciding which virtual registers to spill. 4. Weigh more register copies against more opportunity for compression. </p><p>We evaluate our techniques using LLVM’s RISC-V backend. In the SPEC2000 and SPEC2006 benchmarks, our register allocator produces between 0.42 % and 6.52 % smaller binaries. In the geometric mean, binaries become 1.93 % smaller. We see especially large improvements on some floating-point-heavy benchmarks. </p><p>Binaries compiled for better compression show changes in their execution time of at most ± 1.5 %. We analyze these against LLVM’s spilling metrics, and conclude that the effect is probably not systemic but a random fluctuation in the register allocation heuristic.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580273">RL4ReAl: Reinforcement Learning for Register Allocation</a></h3><ul class="DLauthors"><li class="nameList">S. VenkataKeerthy</li><li class="nameList">Siddharth Jain</li><li class="nameList">Anilava Kundu</li><li class="nameList">Rohit Aggarwal</li><li class="nameList">Albert Cohen</li><li class="nameList Last">Ramakrishna Upadrasta</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We aim to automate decades of research and experience in register allocation, leveraging machine learning. We tackle this problem by embedding a multi-agent reinforcement learning algorithm within LLVM, training it with the state of the art techniques. We formalize the constraints that precisely define the problem for a given instruction-set architecture, while ensuring that the generated code preserves semantic correctness. We also develop a gRPC based framework providing a modular and efficient compiler interface for training and inference. Our approach is architecture independent: we show experimental results targeting Intel x86 and ARM AArch64. Our results match or out-perform the  
+heavily tuned, production-grade register allocators of LLVM.</p>
+			</div></div>
+							
+						<h2>SESSION: Code Size and Bugs</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580260">Automatically Localizing Dynamic Code Generation Bugs in JIT Compiler Back-End</a></h3><ul class="DLauthors"><li class="nameList">HeuiChan Lim</li><li class="nameList Last">Saumya Debray</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Just-in-Time (JIT) compilers are ubiquitous in modern computing  
+systems and are used in a wide variety of software. Dynamic  
+code generation bugs, where the JIT compiler silently  
+emits incorrect code, can result in exploitable vulnerabilities.  
+They, therefore, pose serious security concerns and make  
+quick mitigation essential. However, due to the size and complexity  
+of JIT compilers, quickly locating and fixing bugs  
+is often challenging. In addition, the unique characteristics  
+of JIT compilers make existing bug localization approaches  
+inapplicable. Therefore, this paper proposes a new approach  
+to automatic bug localization, explicitly targeting the JIT  
+compiler back-end. The approach is based on explicitly modeling  
+architecture-independent back-end representation and  
+architecture-specific code-generation. Experiments using a  
+prototype implementation on a widely used JIT compiler  
+(Turbofan) indicate that it can successfully localize dynamic  
+code generation bugs in the back-end with high accuracy.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580267">HyBF: A Hybrid Branch Fusion Strategy for Code Size Reduction</a></h3><ul class="DLauthors"><li class="nameList">Rodrigo C. O. Rocha</li><li class="nameList">Charitha Saumya</li><li class="nameList">Kirshanthan Sundararajah</li><li class="nameList">Pavlos Petoumenos</li><li class="nameList">Milind Kulkarni</li><li class="nameList Last">Michael F. P. O’Boyle</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Binary code size is a first-class design consideration in many computing domains and a critical factor in many more, but compiler optimizations targeting code size are few and often limited in functionality. When size reduction opportunities are left unexploited, it results in higher downstream costs such as memory, storage, bandwidth, or programmer time.  
+</p>
+<p>
+We present HyBF, a framework to manage code merging techniques that target conditional branches (i.e., if-then-else) with similar code regions on both paths. While such code can be easily and profitably merged and with little control flow overhead, existing techniques generally fail to fully handle it. Our work is inspired by branch fusion, a technique for merging similar code in if-then-else statements, which is aimed at reducing thread divergence in GPUs. We introduce two new branch fusion techniques that can be applied on almost any if-then-else statement and can uncover many more code merging opportunities. The two approaches are mostly orthogonal and have different limitations and strengths. We integrate them into a single framework, HyBF, which can choose the optimal approach on per branch basis to maximize the potential of reducing code size.  
+</p>
+<p>
+Our results show that we can achieve significant code savings on top of already highly optimized binaries, including state-of-the-art code size optimizations. Over 61 benchmarks, we reduce code size on 43 of them. That reduction typically ranges from a few hundred to a few thousand bytes, but for specific benchmarks it can be substantial and as high as 4.2% or 67 KB.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580256">Linker Code Size Optimization for Native Mobile Applications</a></h3><ul class="DLauthors"><li class="nameList">Gai Liu</li><li class="nameList">Umar Farooq</li><li class="nameList">Chengyan Zhao</li><li class="nameList">Xia Liu</li><li class="nameList Last">Nian Sun</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Modern mobile applications have grown rapidly in binary size, which restricts user growth and hinders updates for existing users. Thus, reducing the binary size is important for application developers. Recent studies have shown the possibility of using link-time code size optimizations by re-invoking certain compiler optimizations on the linked intermediate representation of the program. However, such methods often incur significant build time overhead and require intrusive changes to the existing build pipeline.  
+</p>
+<p>
+In this paper, we propose several novel optimization techniques that do not require significant customization to the build pipeline and reduce binary size with low build time overhead. As opposed to re-invoking the compiler during link time, we perform true linker optimization directly as optimization passes within the linker. This enables more optimization opportunities such as pre-compiled libraries that prior work often could not optimize. We evaluate our techniques on several commercial iOS applications including NewsFeedApp, ShortVideoApp, and CollaborationSuiteApp, each with hundreds of millions of daily active users. Our techniques on average achieve 18.4% binary size reduction across the three commercial applications without any user-perceivable performance degradations.</p>
+			</div></div>
+							
+						<h2>SESSION: Domain Specific Languages</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580264">Building a Compiled Query Engine in Python</a></h3><ul class="DLauthors"><li class="nameList">Hesam Shahrokhi</li><li class="nameList Last">Amir Shaikhha</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The simplicity of Python and its rich set of libraries has made it the most popular language for data science. Moreover, the interpreted nature of Python offers an easy debugging experience for the developers. However, it comes with the price of poor performance compared to the compiled code. In this paper, we adopt and extend state-of-the-art research in query compilers to propose an efficient query engine embedded in Python. Our open-sourced framework enables the developers to do the debugging in Python, while being able to easily build a compiled version of the code for deployment. Our benchmark results on the entire set of TPC-H queries show that our approach covers different types of relational workloads and is competitive with state-of-the-art in-memory engines in both single- and multi-threaded settings.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580275">Codon: A Compiler for High-Performance Pythonic Applications and DSLs</a></h3><ul class="DLauthors"><li class="nameList">Ariya Shajii</li><li class="nameList">Gabriel Ramirez</li><li class="nameList">Haris Smajlović</li><li class="nameList">Jessica Ray</li><li class="nameList">Bonnie Berger</li><li class="nameList">Saman Amarasinghe</li><li class="nameList Last">Ibrahim Numanagić</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Domain-specific languages (DSLs) are able to provide intuitive high-level abstractions that are easy to work with while attaining better performance than general-purpose languages. Yet, implementing new DSLs is a burdensome task. As a result, new DSLs are usually embedded in general-purpose languages. While low-level languages like C or C++ often provide better performance as a host than high-level languages like Python, high-level languages are becoming more prevalent in many domains due to their ease and flexibility.  
+Here, we present Codon, a domain-extensible compiler and DSL framework for high-performance DSLs with Python's syntax and semantics. Codon builds on previous work on ahead-of-time type checking and compilation of Python programs and leverages a novel intermediate representation to easily incorporate domain-specific optimizations and analyses.  
+We showcase and evaluate several compiler extensions and DSLs for Codon targeting various domains, including bioinformatics, secure multi-party computation, block-based data compression and parallel programming, showing that Codon DSLs can provide benefits of familiar high-level languages and achieve performance typically only seen with low-level languages, thus bridging the gap between performance and usability.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580268">MOD2IR: High-Performance Code Generation for a Biophysically Detailed Neuronal Simulation DSL</a></h3><ul class="DLauthors"><li class="nameList">George Mitenkov</li><li class="nameList">Ioannis Magkanaris</li><li class="nameList">Omar Awile</li><li class="nameList">Pramod Kumbhar</li><li class="nameList">Felix Schürmann</li><li class="nameList Last">Alastair F. Donaldson</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Advances in computational capabilities and large volumes of experimental data have established computer simulations of brain tissue models as an important pillar in modern neuroscience. Alongside, a variety of domain specific languages (DSLs) have been developed to succinctly express properties of these models, ensure their portability to different platforms, and provide an abstraction that allows scientists to work in their comfort zone of mathematical equations, delegating concerns about performance optimizations to downstream compilers. One of the popular DSLs in modern neuroscience is the NEURON MODeling Language (NMODL). Until now, its compilation process has been split into first transpiling NMODL to C++ and then using a C++ toolchain to emit the efficient machine code. This approach has several drawbacks including the reliance on different programming models to target heterogeneous hardware, maintainability of multiple compiler back-ends and the lack of flexibility to use the domain information for C++ code optimization. To overcome these limitations, we present MOD2IR, a new open-source code generation pipeline for NMODL. MOD2IR leverages the LLVM toolchain to target multiple CPU and GPU hardware platforms. Generating LLVM IR allows the vector extensions of modern CPU architectures to be targeted directly, producing optimized SIMD code. Additionally, this gives MOD2IR significant potential for further optimizations based on the domain information available when LLVM IR code is generated. We present experiments showing that MOD2IR is able to produce on-par execution performance using a single compiler back-end implementation compared to code generated via state-of-the-art C++ compilers, and can even surpass them by up to 1.26×. Moreover, MOD2IR supports JIT-execution of NMODL, yielding both efficient code and an on-the-fly execution workflow.</p>
+			</div></div>
+							
+						<h2>SESSION: Optimizations</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580255">A Hotspot-Driven Semi-automated Competitive Analysis Framework for Identifying Compiler Key Optimizations</a></h3><ul class="DLauthors"><li class="nameList">Wenlong Mu</li><li class="nameList">Yilei Zhang</li><li class="nameList">Bo Huang</li><li class="nameList">Jianmei Guo</li><li class="nameList Last">Shiqiang Cui</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>High-performance compilers play an important role in improving the run-time performance of a program, and it is hard and time-consuming to identify the key optimizations implemented in a high-performance compiler with traditional program analysis. In this paper, we propose a hotspot-driven semi-automated competitive analysis framework for identifying key optimizations through comparing the hotspot codes generated by any two different compilers. Our framework is platform-agnostic and works well on both AArch64 and X64 platforms, which automates the stages of hotspot detection and dynamic binary instrumentation only for selected hotspots. With the instrumented instruction characterization information, the framework users can analyze the binary code within a much smaller scope to explore practical optimizations implemented in any of the compilers compared. To demonstrate the effectiveness and practicality, we conduct experiments on SPECspeed 2017 Integer benchmarks(CINT2017) and their binaries generated by open-source GCC compiler versus proprietary Huawei BiSheng and Intel ICC compilers on AArch64 and X64 platforms respectively. Empirical studies show that our methods can identify several significant optimizations that have been implemented by proprietary compilers and as well can be implemented in open-source compilers. To Hangzhou Hongjun Microelectronics Technology(Hjmicro), the identified key optimizations shed great light on optimizing their GCC-based product compiler, which delivers 20.83% improvement for SPECrate 2017 Integer on AArch64 platform.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580259">LAGrad: Statically Optimized Differentiable Programming in MLIR</a></h3><ul class="DLauthors"><li class="nameList">Mai Jacob Peng</li><li class="nameList Last">Christophe Dubach</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Automatic differentiation (AD) is a central algorithm in deep learning and the emerging field of differentiable programming. However, the performance of AD remains a significant bottleneck in these fields. Training large models requires repeatedly evaluating gradients via AD potentially millions of times. Additionally, the most common form of AD incurs an asymptotically large memory cost relative to the original function being differentiated. </p><p>This paper introduces LAGrad, a reverse-mode, source-to-source AD system that leverages high-level information in MLIR to produce efficient differentiated code. LAGrad employs a collection of novel static optimizations that benefit from the semantics of high-level MLIR dialects to exploit the sparsity and structured control flow of generated code. </p><p>Using these, LAGrad is able to achieve speedups of up to 2.8× and use 35× less memory relative to state of the art AD systems on real-world machine learning and computer vision benchmarks.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3578360.3580270">Lazy Evaluation for the Lazy: Automatically Transforming Call-by-Value into Call-by-Need</a></h3><ul class="DLauthors"><li class="nameList">Breno Campos Ferreira Guimarães</li><li class="nameList Last">Fernando Magno Quintão Pereira</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This paper introduces lazification, a code transformation technique that replaces strict with lazy evaluation of function parameters whenever such modification is deemed profitable. The transformation is designed for an imperative, low-level program representation. It involves a static analysis to identify function calls that are candidates for lazification, plus the generation of closures to be lazily activated. Code extraction uses an adaptation of the classic program slicing technique adjusted for the static single assignment representation. If lazification is guided by profiling information, then it can deliver speedups even on traditional benchmarks that are heavily optimized. We have implemented lazification on LLVM 14.0, and have applied it on the C/C++ programs from the LLVM test-suite and from SPEC CPU2017. We could observe statistically significant speedups over clang -O3 on some large programs, including a speedup of 11.1% on Prolang's Bison without profiling support and a speedup of 4.6% on SPEC CPU2017's perlbench (one of the largest programs in the SPEC collection) with profiling support.</p>
+			</div></div>
+							
+						</div></div></body></html>

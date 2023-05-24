@@ -1,0 +1,98 @@
+---
+title: "Call for presentations, OCaml Users and Developers Workshop"
+timestamp: "3/28/2023 6:18:44"
+deadline: "6/1/2023"
+---
+               The OCaml Users and Developers Workshop
+
+                      Friday September 9th, 2023,
+                      Seattle, US and also online
+                      Co-located with ICFP 2023
+
+
+The OCaml Users and Developers Workshop brings together the OCaml
+community, including users of OCaml in industry, academia, hobbyists
+and the free software community.
+
+OCaml 2023 will be co-located with ICFP 2023, which will take place in
+Seattle, US. We aim to organize it as a hybrid event, so that people
+can attend and even give talks remotely: talks will be streamed in
+real-time, and virtual participants will be able to chat and ask
+questions in writing.
+
+  https://icfp23.sigplan.org/home/ocaml-2023
+
+Scope
+-----
+
+Presentations and discussions will focus on the OCaml
+programming language and its community. We aim to solicit talks
+on all aspects related to improving the use or development of
+the language and its programming environment, including, for
+example (but not limited to):
+
+- compiler developments, new backends, runtime and architectures
+
+- practical type system improvements, such as (but not
+  limited to) GADTs, first-class modules, generic programming,
+  or dependent types
+
+- new library or application releases, and their design
+  rationales
+
+- tools and infrastructure services, and their enhancements
+
+- prominent industrial or experimental uses of OCaml, or
+  deployments in unusual situations.
+
+Presentations
+-------------
+
+It will be an informal meeting with no formal proceedings. The
+presentation material will be available online from the workshop
+homepage. The presentations may be recorded, and made available
+at a later time.
+
+The main presentation format is a workshop talk, traditionally
+around 20 minutes in length, plus question time, but we also
+have a poster session during the workshop -- this allows to
+present more diverse work, and gives time for discussion. The
+program committee will decide which presentations should be
+delivered as posters or talks.
+
+Submission
+----------
+
+To submit a presentation, please register a description of the
+talk (about 2 pages long) at the submission site, providing a clear statement of what will be provided by the
+presentation: the problems that are addressed, the solutions or
+methods that are proposed.
+
+LaTeX-produced PDFs are a common and welcome submission
+format. For accessibility purposes, we ask PDF submitters to
+also provide the sources of their submission in a textual
+format, such as .tex sources. Reviewers may read either the
+submitted PDF or the text version.
+
+Program Committee
+-----------------
+
+- Kenichi Asai (Ochanomizu University, Japan)
+- Jonah Beckford (Diskuv Inc, US)
+- Raja Boujbel (OCamlPro, France)
+- Chris Casinghino (Janestreet, US)
+- Nathanaelle Courant (OCamlPro, France)
+- Jacques Garrigue (University of Nagoya, Japan)
+- Kiran Gopinathan (National University of Singapore, Singapore)
+- Oleg Kiselyov (Tohoku University, Japan)
+- Benoit Montagu (INRIA, France)
+- Sudha Parimala (Tarides, India)
+- Matija Pretnar (University of Ljubljana, Slovenia)
+- Jonathan Protzenko (Microsoft Research Redmond, US)
+- Claude Rubinson (University of Arizona, US)
+- Gabriel Scherer (INRIA, France)
+
+Please send any questions to the chair:
+Gabriel Scherer <gabriel.scherer@gmail.com>
+
+
