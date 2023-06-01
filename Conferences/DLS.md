@@ -12,16 +12,67 @@ provides a place for researchers and practitioners to come together and
 share their knowledge, experience, and ideas for future research and
 development.
 
-DLS 2019
+DLS 2023
 --------
 
--   Athens, Greece, October 22, 2019
--   Co-located with SPLASH 2019
--   PC chair: Stefan Marr (University of Kent)
--   [https://conf.researchr.org/home/dls-2019](https://conf.researchr.org/home/dls-2019)
+-   Cascais, Portugal, October 23, 2023
+-   Co-located with SPLASH 2023
+-   [https://2023.splashcon.org/home/dls-2023](https://2023.splashcon.org/home/dls-2023)
 
 Awards
 ------
+
+-   Most Notable Paper Award 2022 for 2012
+    -   Recipients: Thomas Würthinger, Andreas Wöß, Lukas Stadler, Gilles Duboscq, Doug Simon, and Christian Wimmer
+    -   Title: Self-optimizing AST interpreters
+    -   Conference: DLS 2012
+    -   Paper:
+        [https://dl.acm.org/doi/10.1145/2384577.2384587](https://dl.acm.org/doi/10.1145/2384577.2384587)
+    -   Citation: Over the past decade, the authors and their 
+        collaborators have taken the ideas from this paper and turned 
+        it into the Truffle and GraalVM system, which has 
+        revolutionized how we implement languages on the JVM. Today, 
+        the GraalVM is a major product and Truffle is a language 
+        implementation technology producing high-performance 
+        implementations of everything from Ruby to C, all built upon 
+        the ideas of AST rewriting in the interpreter.
+
+-   Most Notable Paper Award 2021 for 2011
+    -   Recipients: Maxime Chevalier-Boisvert, Erick Lavoie, Marc Feeley, Bruno Dufour
+    -   Title: Bootstrapping a Self-Hosted Research Virtual Machine for JavaScript: An Experience Report
+    -   Conference: DLS 2011
+    -   Paper:
+        [https://dl.acm.org/doi/10.1145/2047849.2047858](https://dl.acm.org/doi/10.1145/2047849.2047858)
+    -   Citation: The 2011 DLS paper "Bootstrapping a Self-Hosted 
+        Research Virtual Machine for JavaScript: An Experience 
+        Report" is a great overview and source of ideas for virtual 
+        machine development. It represents a comprehensive guide to 
+        design choices to make in the space and for that it is still 
+        notable today.
+
+-   Most Notable Paper Award 2020 for 2010
+    -   Recipients: Tom Van Cutsem and Mark S. Miller
+    -   Title: Proxies: Design Principles for Robust Object-oriented Intercession APIs
+    -   Conference: DLS 2010
+    -   Paper:
+        [https://dl.acm.org/doi/10.1145/1869631.1869638](https://dl.acm.org/doi/10.1145/1869631.1869638)
+    -   Citation: The 2010 DLS paper “Proxies: Design Principles for 
+        Robust Object-oriented Intercession APIs” is a prime example 
+        of the object-capability model. In short order, it managed to 
+        bridge the gap from research to become an integral part of 
+        an important language today.
+
+-   Most Notable Paper Award 2019 for 2009
+    -   Recipients: Alexander Yermolovich, Christian Wimmer, and Michael Franz
+    -   Title: Optimization of Dynamic Languages Using Hierarchical Layering of Virtual Machines
+    -   Conference: DLS 2009
+    -   Paper:
+        [https://dl.acm.org/citation.cfm?id=1408688](https://dl.acm.org/citation.cfm?id=1408688)
+    -   Citation: This 2009 DLS paper is an important early paper in 
+        the area of meta virtual machines. It showed a simple and 
+        effective approach to VM construction that was simultaneously 
+        explored by multiple research groups at the time and which 
+        has since found further applications.
 
 -   Most Notable Paper Award 2018 for 2008
     -   Recipients: Jeremy G. Siek and Manish Vachharajani
@@ -87,6 +138,33 @@ Awards
 
 Past Events
 -----------
+
+- DLS 2022
+    -   Auckland, New Zealand, December 7, 2022
+    -   Co-located with SPLASH 2022
+    -   PC chair: Wolfgang De Meuter (Vrije Universiteit Brussel)
+    -   Invited speakers: Christian Wimmer, Tom Beckmann, Leonard Geier, and Robert Hirschfeld
+    -   [https://2022.splashcon.org/track/dls-2022-papers](https://2022.splashcon.org/track/dls-2022-papers)
+
+- DLS 2021
+    -   Chicago, IL, USA, October 19, 2021
+    -   Co-located with SPLASH 2021
+    -   PC chair: Arjun Guha (Northeastern University)
+    -   [https://conf.researchr.org/home/dls-2021](https://conf.researchr.org/home/dls-2021)
+
+- DLS 2020
+    -   Online, October 18, 2020
+    -   Co-located with SPLASH 2020
+    -   PC chair: Matthew Flatt (University of Utah)
+    -   Invited speaker: Vanessa Freudenberg
+    -   [https://conf.researchr.org/home/dls-2020](https://conf.researchr.org/home/dls-2020)
+
+- DLS 2019
+    -   Athens, Greece, October 22, 2019
+    -   Co-located with SPLASH 2019
+    -   PC chair: Stefan Marr (University of Kent)
+    -   Invited speaker: Michael Lippautz
+    -   [https://conf.researchr.org/home/dls-2019](https://conf.researchr.org/home/dls-2019)
 
 - DLS 2018
     -   Boston, Massachusetts, USA, November 6, 2018
