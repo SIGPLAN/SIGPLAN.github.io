@@ -12,16 +12,29 @@ provides a place for researchers and practitioners to come together and
 share their knowledge, experience, and ideas for future research and
 development.
 
-DLS 2021
+DLS 2023
 --------
 
--   Chicago, Illinois, United States, Oct 19, 2021
--   Co-located with SPLASH 2021
--   PC chair: Arjun Guha (Northeastern University)
--   [https://conf.researchr.org/home/dls-2021](https://conf.researchr.org/home/dls-2021)
+-   Cascais, Portugal, October, 2023
+-   Co-located with SPLASH 2023
+-   PC chair: Stefan, University of Kent, UK
+-   [https://2023.splashcon.org/home/dls-2023](https://conf.researchr.org/home/dls-2023)
+
 
 Awards
 ------
+
+-   Most Notable Paper Award 2022 for 2012
+    -   Recipients: Thomas Würthinger, Andreas Wöß, Lukas Stadler, Gilles Duboscq, Doug Simon, and Christian Wimmer
+    -   Title: Self-optimizing AST interpreters
+    -   Conference: DLS 2012
+    -   Paper: [https://dl.acm.org/doi/10.1145/2384577.2384587](https://dl.acm.org/doi/10.1145/2384577.2384587)
+    -   Citation: Over the past decade, the authors and their collaborators
+        have taken the ideas from this paper and turned it into the Truffle and GraalVMsystem,
+        which has revolutionized how we implement languages on the JVM.
+        Today, the GraalVM is a major product and Truffle is a language implementationtechnology
+        producing high-performance implementations of everything from Ruby to C,
+        all built upon the ideas of AST rewriting in the interpreter.
 
 -   Most Notable Paper Award 2021 for 2011
     -   Recipients: Maxime Chevalier-Boisvert, Erick Lavoie, Marc Feeley, Bruno Dufour
@@ -121,6 +134,20 @@ Awards
 
 Past Events
 -----------
+
+- DLS 2022
+    -   Auckland, New Zealand, Dec 6, 2022
+    -   Co-located with SPLASH 2022
+    -   PC chairs: Arjun Guha, Northeastern University, USA; Wolfgang De Meuter, Vrije Universiteit Brussel, Belgium
+    -   [https://conf.researchr.org/home/dls-2022](https://conf.researchr.org/home/dls-2022)
+    -   [http://www.dynamic-languages-symposium.org/dls-22/](http://www.dynamic-languages-symposium.org/dls-22/)
+
+- DLS 2021
+    -   Chicago, Illinois, United States, Oct 19, 2021
+    -   Co-located with SPLASH 2021
+    -   PC chair: Arjun Guha, Northeastern University, USA
+    -   [https://conf.researchr.org/home/dls-2021](https://conf.researchr.org/home/dls-2021)
+    -   [http://www.dynamic-languages-symposium.org/dls-21/](http://www.dynamic-languages-symposium.org/dls-21/)
 
 - DLS 2020
     -   ~~Chicago, Illinois, USA~~ Everywhere, Nov 18, 2020
