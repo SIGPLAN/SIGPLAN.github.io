@@ -1,3 +1,23 @@
+2023:
+- Awardee: Thomas Dinsdale-Young, Lars Birkedal, Philippa Gardner, Matthew Parkinson, Hongseok Yang
+  Other: |
+    (for 2013): _[Views: Compositional reasoning for concurrent programs](https://doi.org/10.1145/2480359.2429104)_
+  Citation: |
+    Concurrency remains one of the most challenging aspects of
+    modern-day programming, and verification techniques for ensuring
+    the correctness of concurrent programs are of utmost
+    importance. This paper makes significant theoretical advances in
+    reasoning about concurrency by presenting an elegant meta-theory
+    of concurrent reasoning principles. At the heart of the proposed
+    theory lies a notion of composition, called "views", which
+    consists of abstract knowledge about the machine state and the
+    thread’s rights to change it. The paper shows that the proposed
+    Concurrent View Framework unifies most prior attempts at reasoning
+    about concurrency, including both type systems as well as
+    different program logics. Due to its foundational and unifying
+    nature the paper has had significant influence and impact on
+    publications on the topic since its appearance.
+
 2022:
 - Awardee: Thomas H. Austin and Cormac Flanagan
   Other: |

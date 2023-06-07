@@ -22,7 +22,7 @@ Please use <http://awards.sigplan.org/> to submit nominations.
 Nominations submitted on or before January 15th will be considered for
 award that year.
 
-Each nomnination should include the following items:
+Each nomination should include the following items:
 
 - Name of the software system being nominated, the name of the
   institution or team being nominated, and their contact details
