@@ -1,0 +1,236 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>ISMM 2023: Proceedings of the 2023 ACM SIGPLAN International Symposium on Memory Management</title></head><body><div id="DLtoc"><div id="DLheader"><h1>ISMM 2023: Proceedings of the 2023 ACM SIGPLAN International Symposium on Memory Management</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3591195"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Application Scalability</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3591195.3595270">Scaling Up Performance of Managed Applications on NUMA Systems</a></h3><ul class="DLauthors"><li class="nameList">Orion Papadakis</li><li class="nameList">Andreas Andronikakis</li><li class="nameList">Nikos Foutris</li><li class="nameList">Michail Papadimitriou</li><li class="nameList">Athanasios Stratikopoulos</li><li class="nameList">Foivos S. Zakkak</li><li class="nameList">Polychronis Xekalakis</li><li class="nameList Last">Christos Kotselidis</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Scaling up the performance of managed applications on Non-Uniform Memory Access (NUMA) architectures has been a challenging task, as it requires a good understanding of the underlying architecture and managed runtime environments (MRE).  
+Prior work has studied this problem from the scope of specific components of the managed runtimes, such as the Garbage Collectors, as a means to increase the NUMA awareness in MREs.  
+</p>
+<p>
+In this paper, we follow a different approach that complements prior work by studying the behavior of managed applications on NUMA architectures during mutation time.  
+At first, we perform a characterization study that classifies several Dacapo and Renaissance applications as per their scalability-critical properties.  
+Based on this study, we propose a novel lightweight mechanism in MREs for optimizing the scalability of managed applications on NUMA systems, in an application-agnostic way.  
+Our experimental results show that the proposed mechanism can result in relative performance ranging from 0.66x up to 3.29x, with a geometric mean of 1.11x, against a NUMA-agnostic execution.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3591195.3595272">Analyzing and Improving the Scalability of In-Memory Indices for Managed Search Engines</a></h3><ul class="DLauthors"><li class="nameList">Aditya Chilukuri</li><li class="nameList Last">Shoaib Akram</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Managed search engines, such as Apache Solr and Elastic-  
+search, host huge inverted indices in main memory to offer  
+fast response times. This practice faces two challenges. First,  
+limited DRAM capacity necessitates search engines aggres-  
+sively compress indices to reduce their storage footprint.  
+Unfortunately, our analysis with a popular search library  
+shows that compression slows down queries (on average) by  
+up to 1.7× due to high decompression latency. Despite their  
+performance advantage, uncompressed indices require 10×  
+more memory capacity, making them impractical. Second,  
+indices today reside off-heap, encouraging unsafe memory  
+accesses and risking eviction from the page cache.  
+</p>
+<p>
+Emerging byte-addressable and scalable non-volatile mem-  
+ory (NVM) offers a good fit for storing uncompressed indices.  
+Unfortunately, NVM exhibits high latency. We rigorously  
+evaluate the performance of DRAM and NVM-backed com-  
+pressed/uncompressed indices to find that an uncompressed  
+index in a high-capacity managed heap memory-mapped  
+over NVM provides a 36% reduction in query response times  
+compared to a DRAM-backed compressed index in off-heap  
+memory. Also, it is only 11% slower than the uncompressed  
+index in a DRAM heap (fastest approach). DRAM and NVM-  
+backed compressed (off-heap) indices behave similarly.  
+</p>
+<p>
+We analyze the narrow response time gap between DRAM  
+and NVM-backed indices. We conclude that inverted indices  
+demand massive memory capacity, but search algorithms  
+exhibit a high spatial locality that modern cache hierarchies  
+exploit to hide NVM latency. We show the scalability of  
+uncompressed indices on the NVM-backed heap with large  
+core counts and index sizes. This work uncovers new space-  
+time tradeoffs in storing in-memory inverted indices.</p>
+			</div></div>
+							
+						<h2>SESSION: Intellectual Abstracts</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3591195.3595274">Memory Consistency Models for Program Transformations: An Intellectual Abstract</a></h3><ul class="DLauthors"><li class="nameList">Akshay Gopalakrishnan</li><li class="nameList">Clark Verbrugge</li><li class="nameList Last">Mark Batty</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Memory consistency models traditionally specify the behavior of shared memory concurrent hardware. Hardware behavior drifts away from traditional sequential reasoning, thus exhibiting behaviors that are termed as "weak". Weaker consistency models allow for more concurrent behaviors, thus justifying hardware optimizations such as read/write buffers. In parallel, weaker memory models for software allow more compiler optimizations (transformations). However, this "more" may not be strict: certain safe optimizations in stronger models are rendered unsafe in ones weaker than them. We identify properties that must hold among a pair of weak and strong memory models to guarantee this. We propose a framework using which we could build such models, showcasing our results in allowing Read Read reordering over Sequential Consistency (SC). We also show how to partially retain our desired property for a pair of models, placing constraints on the set of transformations or equivalently, on program structure. Lastly, we discuss the potential advantage of designing models satisfying such properties.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3591195.3595275">Predicting Dynamic Properties of Heap Allocations using Neural Networks Trained on Static Code: An Intellectual Abstract</a></h3><ul class="DLauthors"><li class="nameList">Christian Navasca</li><li class="nameList">Martin Maas</li><li class="nameList">Petros Maniatis</li><li class="nameList">Hyeontaek Lim</li><li class="nameList Last">Guoqing Harry Xu</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Memory allocators and runtime systems can leverage dynamic properties of heap allocations – such as object lifetimes, hotness or access correlations – to improve performance and resource consumption. A significant amount of work has focused on approaches that collect this information in performance profiles and then use it in new memory allocator or runtime designs, both offline (e.g., in ahead-of-time compilers) and online (e.g., in JIT compilers). This is a special instance of profile-guided optimization.  
+</p>
+<p>
+This approach introduces significant challenges: 1) The profiling oftentimes introduces substantial overheads, which are prohibitive in many production scenarios, 2) Creating a representative profiling run adds significant engineering complexity and reduces deployment velocity, and 3) Profiles gathered ahead of time or during the warm-up phase of a server are often not representative of all workload behavior and may miss important corner cases.  
+</p>
+<p>
+In this paper, we investigate a fundamentally different approach. Instead of deriving heap allocation properties from profiles, we explore the ability of neural network models to predict them from the statically available code. As an intellectual abstract, we do not offer a conclusive answer but describe the trade-off space of this approach, investigate promising directions, motivate these directions with data analysis and experiments, and highlight challenges that future work needs to overcome.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3591195.3595279">The Unexpected Efficiency of Bin Packing Algorithms for Dynamic Storage Allocation in the Wild: An Intellectual Abstract</a></h3><ul class="DLauthors"><li class="nameList">Christos Panagiotis Lamprakos</li><li class="nameList">Sotirios Xydis</li><li class="nameList">Francky Catthoor</li><li class="nameList Last">Dimitrios Soudris</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Two-dimensional rectangular bin packing (2DBP) is a known abstraction of dynamic storage allocation (DSA). We argue that such abstractions can aid practical purposes. 2DBP algorithms optimize their placements’ makespan, i.e., the size of the used address range. At first glance modern virtual memory systems with demand paging render makespan irrelevant as an optimization criterion: allocators commonly employ sparse addressing and need worry only about fragmentation caused within page boundaries. But in the embedded domain, where portions of memory are statically pre-allocated, makespan remains a reasonable metric. </p><p>Recent work has shown that viewing allocators as black-box 2DBP solvers bears meaning. For instance, there exists a 2DBP-based fragmentation metric which often correlates monotonically with maximum resident set size (RSS). Given the field’s indeterminacy with respect to fragmentation definitions, as well as the immense value of physical memory savings, we are motivated to set allocator-generated placements against their 2DBP-devised, makespan-optimizing counterparts. Of course, allocators must operate online while 2DBP algorithms work on complete request traces; but since both sides optimize criteria related to minimizing memory wastage, the idea of studying their relationship preserves its intellectual–and practical–interest. </p><p>Unfortunately no implementations of 2DBP algorithms for DSA are available. This paper presents a first, though partial, implementation of the state-of-the-art. We validate its functionality by comparing its outputs’ makespan to the theoretical upper bound provided by the original authors. Along the way, we identify and document key details to assist analogous future efforts. </p><p>Our experiments comprise 4 modern allocators and 8 real application workloads. We make several notable observations on our empirical evidence: in terms of makespan, allocators outperform Robson’s worst-case lower bound 93.75% of the time. In 87.5% of cases, GNU’s malloc implementation demonstrates equivalent or superior performance to the 2DBP state-of-the-art, despite the second operating offline. </p><p>Most surprisingly, the 2DBP algorithm proves competent in terms of fragmentation, producing up to 2.46x better solutions. Future research can leverage such insights towards memory-targeting optimizations.</p>
+			</div></div>
+							
+						<h2>SESSION: Allocations and Garbage Collection</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3591195.3595269">Concurrent GCs and Modern Java Workloads: A Cache Perspective</a></h3><ul class="DLauthors"><li class="nameList">Maria Carpen-Amarie</li><li class="nameList">Georgios Vavouliotis</li><li class="nameList">Konstantinos Tovletoglou</li><li class="nameList">Boris Grot</li><li class="nameList Last">Rene Mueller</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The garbage collector (GC) is a crucial component of language runtimes, offering correctness guarantees and high productivity in exchange for a run-time overhead. Concurrent collectors run alongside application threads (mutators) and share CPU resources. A likely point of contention between mutators and GC threads and, consequently, a potential overhead source is the shared last-level cache (LLC). </p><p>This work builds on the hypothesis that the cache pollution caused by concurrent GCs hurts application performance. We validate this hypothesis with a cache-sensitive Java micro-benchmark. We find that concurrent GC activity may slow down the application by up to 3× and increase the LLC misses by 3 orders of magnitude. However, when we extend our analysis to a suite of benchmarks representative for today’s server workloads (Renaissance), we find that only 5 out of 23 benchmarks show a statistically significant correlation between GC-induced cache pollution and performance. Even for these, the performance overhead of GC does not exceed 10%. Based on further analysis, we conclude that the lower impact of the GC on the performance of Renaissance benchmarks is due to their lack of sensitivity to LLC capacity.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3591195.3595271">Wait-Free Weak Reference Counting</a></h3><ul class="DLauthors"><li class="nameList">Matthew J. Parkinson</li><li class="nameList">Sylvan Clebsch</li><li class="nameList Last">Ben Simner</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Reference counting is a common approach to memory management.  
+One challenge with reference counting is cycles  
+that prevent objects from being deallocated. Systems such as  
+the C++ and Rust standard libraries introduce two types of  
+reference: strong and weak. A strong reference allows access  
+to the object and prevents the object from being deallocated,  
+while a weak reference only prevents deallocation. A weak  
+reference can be upgraded to provide a strong reference  
+provided there are other strong references to the object. Hence,  
+the upgrade operation is partial, and may fail dynamically.  
+The classic implementation of this upgrade operation is not  
+wait-free, that is, it can take arbitrarily long to complete if  
+there is contention on the reference count.  
+</p>
+<p>
+In this paper, we propose a wait-free algorithm for weak  
+reference counting. The algorithm requires primitive wait-  
+free atomic operations of “compare and swap”, and “fetch  
+and add”. We provide a correctness proof of the algorithm  
+using the Starling verification tool. We provide a full  
+implementation in C++ and demonstrate the best and worst case  
+performance using micro-benchmarks. For our best case  
+scenario with high contention, our new algorithm provides ~3x  
+more throughput, while for the worst case the new algorithm  
+is ~85% slower. Based on a worst case analysis, we provide  
+a second algorithm that combines the strengths of the two  
+algorithms, and has a significantly improved worst case with  
+~30% overhead, while maintaining the ~3x speedup for the  
+best case.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3591195.3595276">NUMAlloc: A Faster NUMA Memory Allocator</a></h3><ul class="DLauthors"><li class="nameList">Hanmei Yang</li><li class="nameList">Xin Zhao</li><li class="nameList">Jin Zhou</li><li class="nameList">Wei Wang</li><li class="nameList">Sandip Kundu</li><li class="nameList">Bo Wu</li><li class="nameList">Hui Guan</li><li class="nameList Last">Tongping Liu</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The NUMA architecture accommodates the hardware trend of an increasing number of CPU cores. It requires the cooperation of memory allocators to achieve good performance for multithreaded applications. Unfortunately, existing allocators do not support NUMA architecture well. This paper presents a novel memory allocator – NUMAlloc, that is designed for the NUMA architecture.  is centered on a binding-based memory management. On top of it,  proposes an “origin-aware memory management” to ensure the locality of memory allocations and deallocations, as well as a method called “incremental sharing” to balance the performance benefits and memory overhead of using transparent huge pages. According to our extensive evaluation, NUMAlloc has the best performance among all evaluated allocators, running 15.7% faster than the second-best allocator (mimalloc), and 20.9% faster than the default Linux allocator with reasonable memory overhead. NUMAlloc is also scalable to 128 threads and is ready for deployment.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3591195.3595278">Picking a CHERI Allocator: Security and Performance Considerations</a></h3><ul class="DLauthors"><li class="nameList">Jacob Bramley</li><li class="nameList">Dejice Jacob</li><li class="nameList">Andrei Lascu</li><li class="nameList">Jeremy Singer</li><li class="nameList Last">Laurence Tratt</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Several open-source memory allocators have been ported to CHERI, a hardware capability  
+platform. In this paper we examine the security and performance of these  
+allocators when run under CheriBSD on Arm's prototype Morello platform.  
+We introduce a number of security attacks and show that all but one allocator  
+are vulnerable to some of the attacks --- including the default CheriBSD allocator.  
+We then show that while some forms of allocator performance are meaningful,  
+comparing the performance of hybrid and pure capability (i.e. "running in  
+non-CHERI vs. running in CHERI modes") allocators does not currently appear to be meaningful.  
+Although we do not fully understand the  
+reasons for this, it seems to be at least as much due to factors such as  
+immature compiler toolchains and prototype hardware as it is due to the effects of  
+capabilities on performance.</p>
+			</div></div>
+							
+						<h2>SESSION: Miscellaneous</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3591195.3595267">Blast from the Past: Least Expected Use (LEU) Cache Replacement with Statistical History</a></h3><ul class="DLauthors"><li class="nameList">Sayak Chakraborti</li><li class="nameList">Zhizhou Zhang</li><li class="nameList">Noah Bertram</li><li class="nameList">Chen Ding</li><li class="nameList Last">Sandhya Dwarkadas</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Cache replacement policies typically use some form of statistics on past access behavior. As a common limitation, however, the extent of the history being recorded is limited to either just the data in cache or, more recently, a larger but still finite-length window of accesses, because the cost of keeping a long history can easily outweigh its benefit.  
+</p>
+<p>
+This paper presents a statistical method to keep track of instruction pointer-based access reuse intervals of arbitrary length and uses this information to identify the Least Expected Use (LEU) blocks for replacement. LEU uses dynamic sampling supported by novel hardware that maintains a state to record arbitrarily long reuse intervals. LEU is evaluated using the Cache Replacement Championship simulator, tested on PolyBench and SPEC, and compared with five policies including a recent technique that approximates optimal caching using a fixed-length history. By maintaining statistics for an arbitrary history, LEU outperforms previous techniques for a broad range of scientific kernels, whose data reuses are longer than those in traces traditionally used in computer architecture studies.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3591195.3595268">OMRGx: Programmable and Transparent Out-of-Core Graph Partitioning and Processing</a></h3><ul class="DLauthors"><li class="nameList">Gurneet Kaur</li><li class="nameList Last">Rajiv Gupta</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Partitioning and processing of large graphs on a single machine with limited memory is a challenge. While many custom solutions for out-of-core <em>processing</em> have been developed, limited work has been done on out-of-core <em>partitioning</em> that can be far more memory intensive than processing. In this paper we present the OMRGx system whose programming interface allows the programmer to rapidly prototype existing as well as new partitioning and processing strategies with minimal programming effort and oblivious of the graph size. The OMRGx engine transparently implements these strategies in an out-of-core manner while hiding the complexities of managing limited memory, parallel computation, and parallel IO from the programmer. The execution model allows multiple partitions to be simultaneously constructed and simultaneously processed by dividing the machine memory among the partitions. In contrast, existing systems process partitions one at a time. Using OMRGx we developed the first out-of-core implementation of the popular MtMetis partitioner. OMRGx implementations of existing GridGraph and GraphChi out-of-core processing frameworks deliver performance better than their standalone optimized implementations. The runtimes of implementations produced by OMRGx decrease with the number of partitions requested and increase <em>linearly</em> with the graph size. Finally OMRGx default implementation performs the best of all.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3591195.3595273">ZipKV: In-Memory Key-Value Store with Built-In Data Compression</a></h3><ul class="DLauthors"><li class="nameList">Linsen Ma</li><li class="nameList">Rui Xie</li><li class="nameList Last">Tong Zhang</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This paper studies how to mitigate the speed performance loss caused by integrating block data compression into in-memory key-value ‍(KV) stores. Despite extensive prior research on in-memory KV stores, little focus has been given to memory usage reduction via block data compression (e.g., LZ4, ZSTD) due to potential performance degradation. This paper introduces design techniques to mitigate compression-induced performance degradation by utilizing decompression streaming, latency differences between compression and decompression, and data access locality in real-world workloads. These techniques can be incorporated into conventional hash or B<sup>+</sup>-tree indexing structures, enabling integration with most in-memory KV stores without altering their core indexing data structures. For demonstration, we implemented <em>ZipKV</em> that incorporates the developed design techniques. Compared with RocksDB ‍(in-memory mode) that employs the log-structured merge tree indexing data structure with natural support of block data compression, ZipKV realizes similar memory usage reduction via block data compression, reduces the point query latency by 68% ‍(LZ4) and 58% ‍(ZSTD), and achieves up to 3.8× ‍(LZ4) and 2.7× ‍(ZSTD) point query throughput.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3591195.3595277">Flexible and Effective Object Tiering for Heterogeneous Memory Systems</a></h3><ul class="DLauthors"><li class="nameList">Brandon Kammerdiener</li><li class="nameList">J. Zach McMichael</li><li class="nameList">Michael R. Jantz</li><li class="nameList">Kshitij A. Doshi</li><li class="nameList Last">Terry Jones</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Computing platforms that package multiple types of memory, each with their own performance characteristics, are quickly becoming mainstream. To operate efficiently, heterogeneous memory architectures require new data management solutions that are able to match the needs of each application with an appropriate type of memory. As the primary generators of memory usage, applications create a great deal of information that can be useful for guiding memory tiering, but the community still lacks tools to collect, organize, and leverage this information effectively. To address this gap, this work introduces a novel software framework that collects and analyzes object-level information to guide memory tiering. Using this framework, this study evaluates and compares the impact of a variety of data tiering choices, including how the system prioritizes objects for faster memory as well as the frequency and timing of migration events. The results, collected on a modern Intel platform with conventional DRAM as well as non-volatile RAM, show that guiding data tiering with object-level information can enable significant performance and efficiency benefits compared to standard hardware- and software-directed data tiering strategies.</p>
+			</div></div>
+							
+						</div></div></body></html>

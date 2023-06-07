@@ -1,0 +1,135 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>ARRAY 2023: Proceedings of the 9th ACM SIGPLAN International Workshop on Libraries, Languages and Compilers for Array Programming</title></head><body><div id="DLtoc"><div id="DLheader"><h1>ARRAY 2023: Proceedings of the 9th ACM SIGPLAN International Workshop on Libraries, Languages and Compilers for Array Programming</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3589246"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589246.3595369">A MultiGPU Performance-Portable Solution for Array Programming Based on Kokkos</a></h3><ul class="DLauthors"><li class="nameList">Pedro Valero-Lara</li><li class="nameList Last">Jeffrey S. Vetter</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Today, multiGPU nodes are widely used in high-performance computing and data centers. However, current programming models do not provide simple, transparent, and portable support for automatically targeting multiple GPUs within a node on application areas of array programming. In this paper, we describe a new application programming interface based on the Kokkos programming model to enable array computation on multiple GPUs in a transparent and portable way across both NVIDIA and AMD GPUs. We implement different variations of this technique to accommodate the exchange of stencils (array boundaries) among different GPU memory spaces, and we provide autotuning to select the proper number of GPUs, depending on the computational cost of the operations to be computed on arrays, that is completely transparent to the programmer. We evaluate our multiGPU extension on Summit (#5 TOP500), with six NVIDIA V100 Volta GPUs per node, and Crusher that contains identical hardware/software as Frontier (#1 TOP500), with four AMD MI250X GPUs, each with 2 Graphics Compute Dies (GCDs)for a total of 8 GCDs per node. We also compare the performance of this solution against the use of MPI + Kokkos, which is the cur-rent de facto solution for multiple GPUs in Kokkos. Our evaluation shows that the new Kokkos solution provides good scalability for many GPUs and a faster and simpler solution (from a programming productivity perspective) than MPI + Kokkos.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589246.3595370">HERO-ML: A Very High-Level Array Language for Executable Modelling of Data Parallel Algorithms</a></h3><ul class="DLauthors"><li class="nameList">Björn Lisper</li><li class="nameList Last">Linus Källberg</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>HERO-ML is an array language, on very high level, which is intended for  
+specifying data parallel algorithms in a concise and platform-independent  
+way where all the inherent data parallelism is easy to identify. The goal is to support the software development for heterogeneous  
+systems with different kinds of parallel numerical accelerators, where  
+programs tend to be very platform-specific and difficult to develop.  
+In this paper we describe HERO-ML, and a proof-of-concept implementation.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589246.3595371">U-Net CNN in APL: Exploring Zero-Framework, Zero-Library Machine Learning</a></h3><ul class="DLauthors"><li class="nameList">Aaron W. Hsu</li><li class="nameList Last">Rodrigo Girão Serrão</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The APL notation would appear to be a clear match for convolutional neural networks, but traditional implementations of APL have lagged behind the performance of highly tuned, specialized frameworks designed to execute CNNs on the GPU. Moreover, most demonstrations of APL for neural networking have involved relatively small examples. We explore a more complex example in the U-net architecture and utilize a modern APL compiler with GPU support, Co-dfns, to compare the state of the art of APL against the current crop of specialized neural network frameworks in the form of PyTorch. We compare performance as well as the language design of APL for neural network programming and the clarity and transparency of the resulting code.  
+</p>
+<p>
+We found that the complete “from scratch” APL source was on par with the complexity of the PyTorch reference implementation, albeit more foreign, while being more concise and complete. We also found that when compiled with Co-dfns, despite the naïve implementation both of Co-dfns and our own code, performance on the GPU and the CPU were within a factor of 2.2 - 2.4 times that of the PyTorch implementation. We believe this suggests significant avenues of future exploration for machine learning language design, pedagogy, and implementation, both inside and outside of the APL community.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589246.3595372">Polymorphic Types with Polynomial Sizes</a></h3><ul class="DLauthors"><li class="nameList">Jean-Louis Colaço</li><li class="nameList">Baptiste Pauget</li><li class="nameList Last">Marc Pouzet</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This article presents a compile-time analysis for tracking the size of  
+data-structures in a statically typed and strict functional language. This  
+information is valuable for static checking and code generation. Rather than  
+relying on dependent types, we propose a type-system close to that of ML:  
+polymorphism is used to define functions that are generic in types and  
+sizes; both can be inferred. This approach is convenient, in particular for  
+a language used to program critical embedded systems, where sizes are indeed  
+known at compile-time. By using sizes that are multivariate polynomials, we  
+obtain a good compromise between the expressiveness of the size language and  
+its properties (verification, inference).  
+</p>
+<p>
+The article defines a minimal functional language that is sufficient to  
+capture size constraints in types. It presents its dynamic semantics, the  
+type system and inference algorithm. Last, we sketch some practical  
+extensions that matter for a more realistic language.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589246.3595373">Towards Structured Algebraic Programming</a></h3><ul class="DLauthors"><li class="nameList">Daniele G. Spampinato</li><li class="nameList">Denis Jelovina</li><li class="nameList">Jiawei Zhuang</li><li class="nameList Last">Albert-Jan N. Yzelman</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Structured matrices and tensors exhibiting properties such as symmetry and fixed non-zero patterns are known for making algorithms and data storage more efficient. Due to emerging power and efficiency constraints required by the scale of modern scientific, machine learning, and edge computing applications, algorithm experts are revisiting traditional linear algebra algorithms with the goal of making new structures appear. Such structures often result from new numerical approximations that would greatly benefit from a more flexible linear algebra interface than standard BLAS and LAPACK, allowing for mixed precision and data types to appear in place of traditional floating-point operations. Algebraic programming interfaces, like GraphBLAS, while naturally abstracting the algebras of their operations, do not explicitly capture structured, densely stored arrays. In this paper, we present a preliminary design of a new algebraic programming interface for structured containers with template-generic, non-zero patterns. This interface offers to backend implementations the possibility of integrating more compile-time pattern information in the loop-based implementation of primitive operations as well as in the formulation of array accesses. We demonstrate its ability to specify important dense matrix decomposition algorithms and argue its ability to expose high-performance backends.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589246.3595374">Faster APL with Lazy Extensions</a></h3><ul class="DLauthors"><li class="nameList Last">Andrew Sengul</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>April is a compiler from a subset of the APL language to Common Lisp. To realize a more performant and elegant APL implementation, April now defers the evaluation of certain types of input. This means that the compiler produces code building a tree of "virtual arrays" – objects that represent arrays not yet computed. The object tree's methods are called to write an output array to memory, which may involve performing a second stage of compilation to build an efficient array-generating kernel with the option to emit assembly code for high speed. This evaluation model enables high performance and its component functions can be elegantly specified thanks to the object-oriented programming faculties of Common Lisp.</p>
+			</div></div>
+							
+						</div></div></body></html>

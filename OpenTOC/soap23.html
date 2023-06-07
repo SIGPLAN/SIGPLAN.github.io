@@ -1,0 +1,141 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>SOAP 2023: Proceedings of the 12th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis</title></head><body><div id="DLtoc"><div id="DLheader"><h1>SOAP 2023: Proceedings of the 12th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3589250"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589250.3596144">Combining E-Graphs with Abstract Interpretation</a></h3><ul class="DLauthors"><li class="nameList">Samuel Coward</li><li class="nameList">George A. Constantinides</li><li class="nameList Last">Theo Drane</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>E-graphs are a data structure that compactly represents equivalent expressions. They are constructed via the repeated application of rewrite rules. Often in practical applications, conditional rewrite rules are crucial, but their application requires the detection -- at the time the e-graph is being built -- that a condition is valid in the domain of application. Detecting condition validity amounts to proving a property of the program. Abstract interpretation is a general method to learn such properties, traditionally used in static analysis tools. We demonstrate that abstract interpretation and e-graph analysis naturally reinforce each other through a tight integration because (i) the e-graph clustering of equivalent expressions induces natural precision refinement of abstractions and (ii) precise abstractions allow the application of deeper rewrite rules (and hence potentially even greater precision). We develop the theory behind this intuition and present an exemplar interval arithmetic implementation, which we apply to the FPBench suite.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589250.3596145">Static Analysis of Data Transformations in Jupyter Notebooks</a></h3><ul class="DLauthors"><li class="nameList">Luca Negrini</li><li class="nameList">Guruprerana Shabadi</li><li class="nameList Last">Caterina Urban</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Jupyter notebooks used to pre-process and polish raw data for data science and machine learning processes are challenging to analyze. Their data-centric code manipulates dataframes through call to library functions with complex semantics, and the properties to track over it vary widely depending on the verification task. This paper presents a novel abstract domain that simplifies writing analyses for such programs, by extracting a unique CFG from the notebook that contains all transformations applied to the data. Several properties can then be determined by analyzing such CFG, that is simpler than the original Python code. We present a first use case that exploits our analysis to infer the required shape of the dataframes manipulated by the notebook.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589250.3596141">Speeding up Static Analysis with the Split Operator</a></h3><ul class="DLauthors"><li class="nameList">Vincenzo Arceri</li><li class="nameList">Greta Dolcetti</li><li class="nameList Last">Enea Zaffanella</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In the context of static analysis based on Abstract Interpretation, we propose a new abstract operator modeling the <em>split</em> of control flow paths: the goal of the operator is to enable a more efficient analysis when using abstract domains that are computationally expensive, having no effect on precision. Focusing on the case of conditional branches guarded by numeric linear constraints, we provide a preliminary experimental evaluation showing that, by using the split operator, we can achieve significant efficiency improvements for a static analysis based on the domain of convex polyhedra. We also briefly discuss the applicability of this new operator to different, possibly non-numeric abstract domains.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589250.3596140">When Long Jumps Fall Short: Control-Flow Tracking and Misuse Detection for Non-local Jumps in C</a></h3><ul class="DLauthors"><li class="nameList">Michael Schwarz</li><li class="nameList">Julian Erhard</li><li class="nameList">Vesal Vojdani</li><li class="nameList">Simmo Saan</li><li class="nameList Last">Helmut Seidl</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The C programming language offers setjmp/longjmp as a mechanism for non-local control flow. This mechanism has complicated semantics. As most developers do not encounter it day-to-day, they may be unfamiliar with all its intricacies – leading to subtle programming errors. At the same time, most static analyzers lack proper support, implying that otherwise sound tools miss whole classes of program deficiencies. We propose an approach for lifting existing interprocedural analyses to support setjmp/longjmp, as well as to flag their misuse. To deal with the non-local semantics, our approach leverages side-effecting transfer functions which, when executed, may trigger contributions to extra program points. We showcase our analysis on real-world examples and propose a set of litmus tests for other analyzers.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589250.3596139">HWASanIO: Detecting C/C++ Intra-object Overflows with Memory Shading</a></h3><ul class="DLauthors"><li class="nameList">Konrad Hohentanner</li><li class="nameList">Florian Kasten</li><li class="nameList Last">Lukas Auer</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>C/C++ are often used in high-performance areas with critical security demands, such as operating systems, browsers, and libraries. One major drawback from a security standpoint is their susceptibility to memory bugs, which are often hard to spot during development. A possible solution is the deployment of a memory safety framework such as the memory tagging framework Hardware-assisted AddressSanitizer (HWASan). The dynamic analysis tool instruments object allocations and inserts additional check logic to detect memory violations during runtime. A current limitation of memory tagging is its inability to detect intra-object memory violations i.e., over- and underflows between fields and members of structs and classes. This work addresses the issue by applying the concept of memory shading to memory tagging. We then present HWASanIO, a HWASan-based sanitizer implementing the memory shading concept to detect intra-object violations. Our evaluation shows that this increases the bug detection rate from 85.4% to 100% in the memory corruptions test cases of the Juliet Test Suite while maintaining high interoperability with existing C/C++ code.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589250.3596146">Extensible and Scalable Architecture for Hybrid Analysis</a></h3><ul class="DLauthors"><li class="nameList">Marc Miltenberger</li><li class="nameList Last">Steven Arzt</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The prevalence of Android apps and their widespread use in daily life has made them a prime subject of study in program analysis. Apps for e-mail, navigation, mobile banking, eGovernment, healthcare, etc. each have their respective requirements on stability, effciency, and security, which can be checked using static and dynamic analysis. 
+</p>
+<p>
+While developers and researchers can pick from a variety of scalable and integrated frameworks for static analysis, designing a dynamic analysis still requires significant engineering and design effort that contributes little to the analysis task at hand. Existing scholarly work on dynamic analysis has instead focused on individual challenges such as effcient data flow tracking, or code coverage in UI exploration. Combining dynamic analysis configuration and results with artifacts from static analysis is usually dealt with on an individual basis that does not generalize in the sense of a re-usable framework. 
+</p>
+<p>
+In this paper, we present a reference architecture and implementation for an integrated, scalable, and extensible hybrid analysis that offers a wide range of dynamic analysis capabilities. We hope that researchers can build upon our work for increased effciency in hybrid analysis.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589250.3596148">User-Assisted Code Query Optimization</a></h3><ul class="DLauthors"><li class="nameList">Ben Liblit</li><li class="nameList">Yingjun Lyu</li><li class="nameList">Rajdeep Mukherjee</li><li class="nameList">Omer Tripp</li><li class="nameList Last">Yanjun Wang</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Running static analysis rules in the wild, as part of a commercial service, demands special consideration of time limits and scalability given the large and diverse real-world workloads that the rules are evaluated on. Furthermore, these rules do not run in isolation, which exposes opportunities for reuse of partial evaluation results across rules. In our work on Amazon CodeGuru Reviewer, and its underlying rule-authoring toolkit known as the Guru Query Language (GQL), we have encountered performance and scalability challenges, and identified corresponding optimization opportunities such as, caching, indexing, and customization of analysis scope, which rule authors can take advantage of as built-in GQL constructs. Our experimental evaluation on a dataset of open-source GitHub repositories shows 3X speedup and perfect recall using indexing-based configurations, and 2X speedup and 51% increase on the number of findings for caching-based optimization.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589250.3596143">Completeness Thresholds for Memory Safety of Array Traversing Programs</a></h3><ul class="DLauthors"><li class="nameList">Tobias Reinhard</li><li class="nameList">Justus Fasse</li><li class="nameList Last">Bart Jacobs</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We report on intermediate results of -- to the best of our knowledge -- the first study of completeness thresholds for (partially) bounded memory safety proofs. Specifically, we consider heap-manipulating programs that iterate over arrays without allocating or freeing memory. In this setting, we present the first notion of completeness thresholds for program verification which reduce unbounded memory safety proofs to (partially) bounded ones. Moreover, we demonstrate that we can characterise completeness thresholds for simple classes of array traversing programs. Finally, we suggest avenues of research to scale this technique theoretically, i.e., to larger classes of programs (heap manipulation, tree-like data structures), and practically by highlighting automation opportunities.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589250.3596147">Crosys: Cross Architectural Dynamic Analysis</a></h3><ul class="DLauthors"><li class="nameList">Sangrok Lee</li><li class="nameList">Jieun Lee</li><li class="nameList">Jaeyong Ko</li><li class="nameList Last">Jaewoo Shim</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Though there was a surge in the production of IoT devices, IoT malware analysis has remained a problem wanting for a clever solution. However, unlike PC and mobile, whose running environment is relatively standardized, IoT malware is rooted in Linux binary so that it can be built for various CPUs and with multiple libraries. For that, developing an effective dynamic analysis tool can be a challenging task.  
+</p>
+<p>
+In this paper, we present Crosys, a method for dynamic analysis of multi-architectural binaries in a single analysis host through intermediate language interpretation and binary rewriting. We explain how we elaborate binary lifting to assure both accuracy and stability. Then we propose cross-architectural dynamic analysis enabled by our work. In the end, we evaluated the stability of rewritten binary and the efficiency of dynamic analysis using technology.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589250.3596142">RaceInjector: Injecting Races to Evaluate and Learn Dynamic Race Detection Algorithms</a></h3><ul class="DLauthors"><li class="nameList">Michael Wang</li><li class="nameList">Shashank Srikant</li><li class="nameList">Malavika Samak</li><li class="nameList Last">Una-May O’Reilly</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>There exist no sound, scalable methods to assemble comprehensive datasets of concurrent programs annotated with data races. As a consequence, it is unclear how well the multiple heuristics and SMT-based algorithms, that have been proposed over the last three decades to detect data races, perform. To address this problem, we propose —an SMT-based approach which, for any given program, creates arbitrarily many program traces of it containing injected data races. The injected races are guaranteed to follow the given program’s semantics.  hence can produce an arbitrarily large, labeled benchmark which is independent of how detection algorithms work. We demonstrate  by injecting races into popular program benchmarks and generating a small dataset of traces with races in them. Among the traces  generates, we begin to find counterexamples which four state-of-the-art race detection algorithms fail to detect. We thus demonstrate the utility of generating such datasets, and recommend using them to train machine learning-based models which can potentially replace and improve upon existing race-detection heuristics.</p>
+			</div></div>
+							
+						</div></div></body></html>

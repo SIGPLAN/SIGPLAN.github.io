@@ -1257,3 +1257,19 @@
   event: BID
   year: 2023
   title: "Proceedings of the 5th International Workshop on Benchmarking in the Data Center"
+-
+  event: ARRAY
+  year: 2023
+  title: "Proceedings of the 9th ACM SIGPLAN International Workshop on Libraries, Languages and Compilers for Array Programming"
+-
+  event: ISMM
+  year: 2023
+  title: "Proceedings of the 2023 ACM SIGPLAN International Symposium on Memory Management"
+-
+  event: PLDI
+  year: 2023
+  title: "Proceedings of the ACM on Programming Languages: Vol. 7, No. PLDI. 2023"
+-
+  event: SOAP
+  year: 2023
+  title: "Proceedings of the 12th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis"
