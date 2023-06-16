@@ -1,0 +1,208 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>LCTES 2023: Proceedings of the 24th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems</title></head><body><div id="DLtoc"><div id="DLheader"><h1>LCTES 2023: Proceedings of the 24th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3589610"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Keynote</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589610.3603552">Decreasing the Miss Rate and Eliminating the Performance Penalty of a Data Filter Cache (Keynote)</a></h3><ul class="DLauthors"><li class="nameList Last">David Whalley</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>While data filter caches (DFCs) have been shown to be effective at reducing data access energy, they have not been adopted in processors due to the associated performance penalty caused by high DFC miss rates. In this paper we present a design that both decreases the DFC miss rate and completely eliminates the DFC performance penalty even for a level-one data cache (L1 DC) with a single cycle access time. First, we show that a DFC that lazily fills each word in a DFC line from an L1 DC only when the word is referenced is more energy efficient than eagerly filling the entire DFC line. For a 512B DFC, we are able to eliminate loads of words into the DFC that are never referenced before being evicted, which occurred for about 75% of the words in 32B lines. Second, we demonstrate that a lazily word filled DFC line can effectively share and pack data words from multiple L1 DC lines to lower the DFC miss rate. For a 512B DFC, we completely avoid accessing the L1 DC for loads about 23% of time and avoid a fully associative L1 DC access for loads 50% of the time, where the DFC only requires about 2.5% of the size of the L1 DC. Finally, we present a method that completely eliminates the DFC performance penalty by speculatively performing DFC tag checks early and only accessing DFC data when a hit is guaranteed. For a 512B DFC, we improve data access energy usage for the DTLB and L1 DC by 33% with no performance degradation.</p>
+			</div></div>
+							
+						<h2>SESSION: Code Generation</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589610.3596282">Facilitating the Bootstrapping of a New ISA</a></h3><ul class="DLauthors"><li class="nameList">Abigail Mortensen</li><li class="nameList">Scott Pomerville</li><li class="nameList">David Whalley</li><li class="nameList">Soner Onder</li><li class="nameList Last">Gang-Ryung Uh</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Implementation of a new instruction set architecture (ISA) is a non-trivial task that involves significant modifications to the system software, such as the compiler, the assembler, and the linker. This task also includes modifying and verifying functional and cycle accurate simulators to facilitate performance evaluation of programs under the new ISA. Isolating errors in these software components becomes extremely challenging and demands automated and semi-automated mechanisms since neither the compilation infrastructure nor the simulation infrastructure can be trusted as both  
+parties have been heavily modified. Bootstrapping a new ISA is very common in embedded systems since there is a greater variety of embedded ISAs due to often not having a need to support backward compatibility of executables. In this paper, we present the tools and the verification mechanisms we have implemented to support the development of a number of related, but distinct ISAs. Our work in developing the system software and simulators for these ISAs demonstrate that a step-by-step semi-automated approach which relies on simple invariants can facilitate effective bootstrapping of the complete system software and the simulator infrastructure.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589610.3596284">Synchronization-Aware NAS for an Efficient Collaborative Inference on Mobile Platforms</a></h3><ul class="DLauthors"><li class="nameList">Beom Woo Kang</li><li class="nameList">Junho Wohn</li><li class="nameList">Seongju Lee</li><li class="nameList">Sunghyun Park</li><li class="nameList">Yung-Kyun Noh</li><li class="nameList Last">Yongjun Park</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Previous neural architecture search (NAS) approaches for mobile platforms have achieved great success in designing a slim-but-accurate neural network that is generally well-matched to a single computing unit such as a CPU or GPU. However, as recent mobile devices consist of multiple heterogeneous computing units, the next main challenge is to maximize both accuracy and efficiency by fully utilizing multiple available resources. We propose an ensemble-like approach with intermediate feature aggregations, namely synchronizations, for active collaboration between individual models on a mobile device. A main challenge is to determine the optimal synchronization strategies for achieving both performance and efficiency. To this end, we propose SyncNAS to automate the exploration of synchronization strategies for collaborative neural architectures that maximize utilization of heterogeneous computing units on a target device. We introduce a novel search space for synchronization strategy and apply Monte Carlo tree search (MCTS) algorithm to improve the sampling efficiency and reduce the search cost. On ImageNet, our collaborative model based on MobileNetV2 achieves 2.7% top-1 accuracy improvement within the baseline latency budget. Under the reduced target latency down to half, our model maintains higher accuracy than its baseline model, owing to the enhanced utilization and collaboration. As an impact of MCTS, SyncNAS reduces its search cost by up to 21x in searching for the optimal strategy.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589610.3596278">MinUn: Accurate ML Inference on Microcontrollers</a></h3><ul class="DLauthors"><li class="nameList">Shikhar Jaiswal</li><li class="nameList">Rahul Kranti Kiran Goli</li><li class="nameList">Aayan Kumar</li><li class="nameList">Vivek Seshadri</li><li class="nameList Last">Rahul Sharma</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Running machine learning inference on tiny devices, known as TinyML, is an emerging research area. This task requires generating inference code that uses memory frugally, a task that standard ML frameworks are ill-suited for. A deployment framework for TinyML must a) be parametric in the number representation to take advantage of the emerging representations like posits, b) carefully assign high-precision to a few tensors so that most tensors can be kept in low-precision while still maintaining model accuracy, and c) avoid memory fragmentation. We describe MinUn, the first TinyML framework that holistically addresses these issues to generate efficient code for ARM microcontrollers (e.g., Arduino Uno, Due and STM32H747) that outperforms the prior TinyML frameworks.</p>
+			</div></div>
+							
+						<h2>SESSION: Code/Image Size</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589610.3596273">reUpNix: Reconfigurable and Updateable Embedded Systems</a></h3><ul class="DLauthors"><li class="nameList">Niklas Gollenstede</li><li class="nameList">Ulf Kulau</li><li class="nameList Last">Christian Dietrich</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Managing the life cycle of an embedded Linux stack is difficult, as we have to integrate in-house and third-party services, prepare firmware images, and update the devices in the field. Further, if device deployment is expensive (e.g. in space), our stack should support multi-mission setups to make the best use of our investment.  
+</p>
+<p>
+With reUpNix, we propose a methodology based on NixOS that provides reproducible, updateable, and reconfigurable embedded Linux stacks. For this, we identify the shortcomings of NixOS for use on embedded devices, reduce its basic installation size by up to 86 percent, and make system updates failure atomic and significantly smaller. We also allow integration of third-party OCI images, which, due to fine-grained file deduplication, require up to 24 percent less on-disk space.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589610.3596277">Optimizing Function Layout for Mobile Applications</a></h3><ul class="DLauthors"><li class="nameList">Ellis Hoag</li><li class="nameList">Kyungwoo Lee</li><li class="nameList">Julián Mestre</li><li class="nameList Last">Sergey Pupyrev</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Function layout, also known as function reordering or function placement, is one of the most effective profile-guided compiler optimizations. By reordering functions in a binary, compilers can improve the performance of large-scale applications or reduce the compressed size of mobile applications. Although the technique has been extensively studied in the context of large-scale binaries, no study has thoroughly investigated function layout algorithms on mobile applications. 
+</p>
+<p>
+In this paper we develop the first principled solution for optimizing function layouts in the mobile space. To this end, we identify two key optimization goals: reducing the compressed code size and improving the cold start-up time of a mobile application. Then we propose a formal model for the layout problem, whose objective closely matches our goals. Our novel algorithm for optimizing the layout is inspired by the classic balanced graph partitioning problem. We have carefully engineered and implemented the algorithm in an open-source compiler, LLVM. An extensive evaluation of the new method on large commercial mobile applications demonstrates significant improvements in start-up time and compressed size compared to the state-of-the-art approach.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589610.3596281">Thread-Level Attack-Surface Reduction</a></h3><ul class="DLauthors"><li class="nameList">Florian Rommel</li><li class="nameList">Christian Dietrich</li><li class="nameList">Andreas Ziegler</li><li class="nameList">Illia Ostapyshyn</li><li class="nameList Last">Daniel Lohmann</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Existing debloating techniques designed to prevent buffer-overflow exploits through return-oriented programming do not differentiate roles within a process or binary, allowing all threads access to the full program functionality. For example, a worker thread that handles client connections (highest attack exposure) still has access to all the code that the management thread needs (highest potential fallout).  
+</p>
+<p>
+We introduce thread-level attack-surface reduction (TLASR), a dynamic, context-aware approach that eliminates unused code on a thread level. For this, we (permanently or temporarily) eliminate parts of the text segment (both in shared libraries and the main binary) and use the mmview Linux extension to support multiple text-segment views in a single process. We reduce the executable code visible from a single thread in MariaDB, Memcached, OpenSSH, and Bash by 84 to 98.4 percent. As a result, the number of ROP gadgets decreases significantly (78–97%), with TLASR rendering an auto-ROP utility ineffective in all investigated benchmarks and eliminating all CVE-related functions ever reported for glibc in 97 percent of the cases.</p>
+			</div></div>
+							
+						<h2>SESSION: Scheduling</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589610.3596280">Sequential Scheduling of Dataflow Graphs for Memory Peak Minimization</a></h3><ul class="DLauthors"><li class="nameList">Pascal Fradet</li><li class="nameList">Alain Girault</li><li class="nameList Last">Alexandre Honorat</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Many computing systems are constrained by their fixed  
+amount of shared memory. Modeling applications with task  
+or Synchronous DataFlow (SDF) graphs makes it possible to  
+analyze and optimize their memory peak. The problem studied  
+by this paper is the memory peak minimization of such  
+graphs when scheduled sequentially. Regarding task graphs,  
+former work has focused on the Series-Parallel Directed  
+Acyclic Graph (SP-DAG) subclass and proposed techniques  
+to find the optimal sequential algorithm w.r.t. memory peak.  
+In this paper, we propose task graph transformations and an  
+optimized branch and bound algorithm to solve the problem  
+on a larger class of task graphs. The approach also applies to  
+SDF graphs after converting them to task graphs. However,  
+since that conversion may produce very large graphs, we  
+also propose a new suboptimal method, similar to Partial  
+Expansion Graphs, to reduce the problem size. We evaluate  
+our approach on classic benchmarks, on which we always  
+outperform the state-of-the-art.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589610.3596279">PinIt: Influencing OS Scheduling via Compiler-Induced Affinities</a></h3><ul class="DLauthors"><li class="nameList">Girish Mururu</li><li class="nameList">Kangqi Ni</li><li class="nameList">Ada Gavrilovska</li><li class="nameList Last">Santosh Pande</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In multi-core machines, applications execute in a complex-co-execution environment in which the number of concurrently executing applications typically exceed the number of available cores.  
+In order to fairly and efficiently utilize cores, modern operating systems (OS) such as  
+Linux migrate threads between cores during execution. Although such thread migrations alleviate the  
+problem of stalling and load balancing yielding better core utilization,  
+they also tend to destroy data locality, resulting in fewer cache hits, TLB hits, and thus performance loss for the group of applications collectively. This problem is especially severe in embedded servers which execute media and vision applications that exhibit high data locality. One one hand, mitigating this problem across a group of applications based on OS only solution is infeasible since OS treats applications as blackboxes and has no knowledge of its locality and other behavior. On the other hand, to-date, compiler optimization have focused on analysis, transformations and performance enhancement of applications in isolation ignoring the problem of optimizing performance for applications as a group. This is because of the infeasibility of global-compiler analysis  
+across applications as well as due to the dynamic nature of inter-application interactions which is statically unknown.  
+</p>
+<p>
+To address this problem, we propose PinIt, a compiler-directed methodology that analyzes  
+applications individually yet induces the operating system to mediate actions across applications to minimize harmful migrations and maintains locality. PinIt determines the regions  
+of a program in which the process should be pinned onto a core so that adverse migrations causing  
+excessive cache and TLB misses are avoided. PinIt first calculates memory reuse density, a new measure that quantifies the reuses within code regions.  
+Pin/unpin calls are then hoisted at the entry and exits of the region which exhibit high values of reuse density. The paper presents new analyses and transformations that optimize the placement of such calls. In an overloaded environment compared to priority-cfs, PinIt speeds up high-priority applications in Mediabench workloads by 1.16x and 2.12x and in vision-based workloads by 1.35x and 1.23x on 8cores and 16cores, respectively, with almost the same or better throughput for low-priority  
+applications.</p>
+			</div></div>
+							
+						<h2>SESSION: Storage</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589610.3596274">Rep-RAID: An Integrated Approach to Optimizing Data Replication and Garbage Collection in RAID-Enabled SSDs</a></h3><ul class="DLauthors"><li class="nameList">Jun Li</li><li class="nameList">Balazs Gerofi</li><li class="nameList">Francois Trahay</li><li class="nameList">Zhigang Cai</li><li class="nameList Last">Jianwei Liao</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Redundant Array of Independent Disks (RAID) technology has been recently introduced to flash memory based SSDs to enhance their data reliability. Although RAID increases reliability, it doubles the number of write operations and requires additional parity computation as every write operation on a data chunk leads to another update on the corresponding parity chunk. Data replication has been proposed to mitigate the overhead of write requests in RAID enabled SSDs, however, replication increases the cost of garbage collection (GC), which in turn limits the improvement of I/O performance compared to the baseline RAID implementation.  
+This paper introduces Rep-RAID, an improved data replication management scheme accompanied with optimized GC for RAID-enabled SSDs. Guided by a mathematical model, Rep-RAID only replicates frequently updated data chunks. Furthermore, Rep-RAID reorganizes new data stripes during the GC process by utilizing replicated data to replace invalid data chunks caused by data replication in old stripes. As a result, it decreases I/O latency for both read and write requests and significantly reduces the GC overhead induced by data movement. Experimental results show that the proposed scheme can improve I/O performance by 16.7%, and reduce tail latency by up to 17.9% at the 99.99th percentile, when compared to the state-of-the-art RAID-enabled SSDs.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589610.3596275">ISVABI: In-Storage Video Analytics Engine with Block Interface</a></h3><ul class="DLauthors"><li class="nameList">Yi Zheng</li><li class="nameList">Joshua Fixelle</li><li class="nameList">Pingyi Huo</li><li class="nameList">Mircea Stan</li><li class="nameList">Michael Mesnier</li><li class="nameList Last">Vijaykrishnan Narayanan</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The wide use of cameras in the past decade has increased the need to process video data significantly. Due to the large volume of video data, analyzing videos to extract useful information has become a critical challenge. Several prior works have tried to accelerate video analytics workloads by offloading some operations to embedded processors within storage devices.  
+</p>
+<p>
+However, most of these works require changing the block I/O interface of a normal solid-state drive (SSD) to a key-value interface, which in turn changes data structures within SSDs and requires re-programming existing applications when deploying these designs to existing warehouse-level data centers. In addition, when processing large videos, key-value SSDs perform two times slower than block I/O interface SSDs.  
+In this work, we propose ISVABI, a software/firmware approach that maintains the SSD block I/O interface which provides offloaded operations for user-space video analytics workloads without requiring SSD hardware modification. We implement ISVABI on the Cosmos+ OpenSSD platform and show that the proposed ISVABI outperforms normal SSDs by 4.18x for various types of video operations while consuming 16% less power. We evaluate ISVABI on five real-world video analytics workloads and show a 1.89x end-to-end latency improvement.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589610.3596276">LUNAR: A Native Table Engine for Embedded Devices</a></h3><ul class="DLauthors"><li class="nameList">Xiaopeng Fan</li><li class="nameList">Song Yan</li><li class="nameList">Yuchen Huang</li><li class="nameList Last">Chuliang Weng</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Embedded systems have evolved tremendously in recent years. We perform a study on SQLite and find that the multiple layers of abstraction drastically reduce bandwidth utilization. To minimize the bandwidth loss in the I/O path, we propose Lunar, a novel native table storage engine. Lunar performs a cross-layer design across the database and file system to avoid the pitfalls of multi-layer abstraction while providing SQL-compatible APIs. It employs a type-aware storage layout that considers the access patterns of different data types. Then, Lunar designs a variable-size allocator to reduce fragmentation and optimize RAM and I/O bandwidth usage. Further, considering the limited resources on embedded devices, Lunar employs a modular architecture that enables selecting modules on demand. It also offers optional consistency modes to make a trade-off between resource consumption and consistency. Experiments show that Lunar achieves higher bandwidth utilization, outperforming state-of-the-art approaches while consuming fewer resources.</p>
+			</div></div>
+							
+						<h2>SESSION: Work-in-Progress</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589610.3596272">Towards Secure MicroPython on Morello (WIP)</a></h3><ul class="DLauthors"><li class="nameList Last">Jeremy Singer</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The Arm Morello platform is a prototype system that supports hardware 
+capabilities for improving runtime security. Although Morello is a server class compute component, there is ongoing work aimed at bringing architectural capabilities to embedded scale devices. 
+For this reason, we are porting the MicroPython framework to Morello. 
+Our intention is to understand the impact of hardware capabilities on lightweight runtime execution environments, like MicroPython, that target embedded devices. 
+In this work-in-progress report, we describe the minimal modifications 
+required to compile the C source code of MicroPython for Morello. 
+We show that this approach gives a working, but not necessarily more secure, version of MicroPython. Our paper proceeds to outline how capabilities could be used to improve runtime system security for MicroPython runtime and hosted applications.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589610.3596283">Tiling for DMA-Based Hardware Accelerators (WIP)</a></h3><ul class="DLauthors"><li class="nameList">Alexandre Singer</li><li class="nameList Last">Kai-Ting Amy Wang</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Many hardware accelerator architectures use DMA units to transfer memory which may be limited by the fixed-width size of the DMA transfer, and automatic loop tilers currently do not take the limitation of these DMA units into account. We present a compiler pass, implemented in MLIR, that uses polyhedral analysis on the memory access patterns in a loop nest and constrain the possible tile sizes based on the DMA chunk width. This allows the compiler to effectively tile loops for these architectures.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3589610.3596271">Towards Automated Identification of Layering Violations in Embedded Applications (WIP)</a></h3><ul class="DLauthors"><li class="nameList">Mingjie Shen</li><li class="nameList">James C. Davis</li><li class="nameList Last">Aravind Machiry</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>For portability, embedded systems software follows a layered design to reduce dependence on particular hardware behavior. We consider the problem of identifying layering violations: instances where the embedded application accesses non-adjacent layers. This paper presents our preliminary work to detect a class of layering violations called <em>Non Conventional MMIO Accesses (NCMAs)</em>. We find them by searching for direct Memory Mapped Input Output (MMIO) accesses made outside of the Hardware Abstraction Layer (HAL). For evaluation, we curated a list of 988 applications spanning 5 Real Time Operating Systems (RTOSes) – <em>the first large dataset of compilable embedded applications</em>. Our system identified 369 NCMAs. We reported these issues to the corresponding developers and found interesting reasons for committing layering violations. We have open-sourced our tool and the collected dataset to foster future research.</p>
+			</div></div>
+							
+						</div></div></body></html>
