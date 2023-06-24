@@ -49,6 +49,8 @@ submit papers, either their papers should be held to a higher standard
 or other EC-approved measures should be taken, to avoid the appearance
 of impropriety.
 
+Conferences that use full double blind reviewing and have program committees with at least fifty members need not hold PC papers to a higher standard, as the EC has judged that these are sufficient conditions to avoid the appearance of impropriety. Here full double blind means submissions are anonymous, references to prior work are in the third person, authors' identities are not revealed until a paper is conditionally or fully accepted, and author identities for rejected papers (that were not conditionally accepted) are never revealed.
+
 The PC Chair should make all program committee members and reviewers aware
 of SIGPLAN's policies on
 [reviewing of conference paper submissions](/Resources/Policies/Review) and
