@@ -51,21 +51,7 @@ responsibilities](/Resources/Guidelines/ProChair).</span>
 Date and Location
 -----------------
 
-<!-- BCP: No conference has yet submitted sites to me, and if _all_
-     SIGPLAN-sponsored conferences did this, it would be a problem!
-     Just delete this advice? -->
-     
-<!-- AF: OK with delete. Something to consider: if ever SIGPLAN decides 
-     on location policies based on the ease of entry to the country 
-     (e.g. recent US visa bans, etc), then we may want to replace 
-     this with some other location guidelines -->
-
-Select three potential sites for the conference and send them to the ACM
-representative to SIGPLAN and the SIGPLAN Vice-Chair. If the event is part
-of a series, then the date of the conference may have been established by
-the time you agreed to serve as chair (two years prior to the
-meeting). Please be careful about what information you provide directly to
-hotels so as not to reduce ACM's negotiating leverage.
+Select three potential sites for the conference and send them to the ACM Program Coordinator for SIGPLAN and to the SIGPLAN Vice-Chair. When selecting the location for a SIGPLAN conference or event, organizers should be sensitive to the needs, concerns, and safety of all community members. If the event is part of a series, then the date of the conference may have been established by the time you agreed to serve as chair (two years prior to the meeting). ACM must handle all negotiations with the venue. Please be careful about what information you provide directly to venues so as not to reduce ACM’s negotiating leverage.
 
 Submission and Review Policies
 ------------------------------
