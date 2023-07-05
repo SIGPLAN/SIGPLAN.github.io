@@ -1277,3 +1277,7 @@
   event: LCTES
   year: 2023
   title: "Proceedings of the 24th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems"
+-
+  event: ExHET
+  year: 2023
+  title: "Proceedings of the 2nd International Workshop on Extreme Heterogeneity Solutions"
