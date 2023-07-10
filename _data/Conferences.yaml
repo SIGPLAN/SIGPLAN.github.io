@@ -202,3 +202,12 @@
     academia and industry to give talks on their research areas. The
     workshop engages students in a process of imagining how they might
     contribute to our research community.
+
+-
+  name: Certified Programs and Proofs (CPP)
+  link: 'https://popl23.sigplan.org/series/CPP'
+  description: |
+    Certified Programs and Proofs (CPP) is an international conference on
+    practical and theoretical topics in all areas that consider formal
+    verification and certification as an essential paradigm for their work.
+    CPP spans areas of computer science, mathematics, logic, and education.
