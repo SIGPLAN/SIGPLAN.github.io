@@ -1,0 +1,116 @@
+---
+title: "Call for Papers, 12th Workshop on Programming Languages and Operating Systems (PLOS 2023)"
+timestamp: "7/3/2023 14:27:10"
+deadline: "8/4/2023"
+---
+                                CALL FOR PAPERS
+
+         12th Workshop on Programming Languages and Operating Systems
+                                  (PLOS 2023)
+
+                               October 23, 2023
+                               Koblenz, Germany
+
+                        https://plos-workshop.org/2023/
+
+                            Sponsored by ACM SIGOPS
+                         In conjunction with SOSP 2023
+                         https://sosp2023.mpi-sws.org/
+
+                Paper submission deadline:      August 4, 2023
+                Notification of acceptance:  September 4, 2023
+                Final papers due:           September 29, 2023
+                Workshop:                     October 23, 2023
+
+
+Historically, operating system and programming language development went
+hand-in-hand.  Challenges in one area were often approached using
+ideas/techniques developed in the other, and advances in one area enabled new
+capabilities in the other.  Today, although the systems community at large
+retains an iron grip on C, modern programming language ideas continue to spark
+innovations in OS design and construction.  Conversely, the systems field
+continues to provide a wealth of challenging problems and practical results
+that should lead to advances in programming languages, software designs, and
+idioms.
+
+This workshop will bring together researchers and developers from the
+programming language and operating system domains to discuss recent work at the
+intersection of these fields.  It will be a platform for discussing new
+visions, challenges, experiences, problems, and solutions arising from the
+application of advanced programming and software engineering concepts to
+operating systems construction, and vice versa.
+
+Suggested paper topics include, but are not restricted to:
+
+  * domain-specific and type-safe languages for the OS;
+  * the design of language-specific unikernels;
+  * language-based approaches to crosscutting system concerns, such as
+    security and run-time performance;
+  * PL support for system verification, testing, and debugging;
+  * synthesis of OS code;
+  * static/dynamic OS configuration and specialization;
+  * PL support for OS integration of modern hardware (NVM, HBM, FPGAs,
+    accelerators, RDMA, etc.);
+  * the use of OS abstractions and techniques in language runtimes;
+  * verification and static analysis of OS components;
+  * critical evaluations of new programming language ideas in support of OS
+    construction;
+  and
+  * experience reports on applying new language techniques in commercial OS
+    settings.
+
+AGENDA
+
+The workshop will be a highly interactive event with an agenda designed to
+promote focused and lively discussions.  Part of the workshop program will be
+based on paper presentations.  PLOS welcomes research, experience, and position
+papers; papers describing industrial experience are particularly encouraged.
+The set of accepted papers will be made available to registered attendees in
+advance of the workshop.  Participants should come to the workshop prepared
+with questions and comments.
+
+SUBMISSION GUIDELINES
+
+All papers must be written in English and should be formatted in the two-column
+ACM article style (https://www.acm.org/publications/proceedings-template),
+using the options "sigplan,anonymous,10pt".  The CCS Concepts, Keywords, and
+ACM Reference Format sections are not required in submissions.  Submissions are
+double-blind: author names and affiliations should not be included.
+
+Submissions must not be more than six (6) pages in length, using 10-point font.
+The bibliography does not count towards the page limit.  The page limit will be
+strictly enforced.  They will be reviewed by the workshop program committee and
+designated external reviewers.  Papers will be evaluated based on technical
+quality, originality, relevance, and presentation.  The submission website is:
+https://plos23.hotcrp.com/.
+
+By default, accepted papers will be published electronically in the ACM Digital
+Library.  The authors of accepted papers to be included in the ACM Digital
+Library will be required to sign ACM copyright release forms.  The publication
+of a paper in the PLOS workshop proceedings is not intended to replace future
+conference publication.
+
+PROGRAM COMMITTEE
+
+Antonio Barbalace, The University of Edinburgh (co-chair)
+Björn B. Brandenburg, Max Planck Institute for Software Systems
+David Cock, ETH Zurich
+Nathan Dautenhahn, Rice University
+Chris Hawblitzel, Microsoft Research
+Michael Homer, Victoria University of Wellington
+Faria Kalim, Apple Inc
+Stefan Lankes, RWTH Aachen University
+Hui Lu, SUNY Binghamton
+Mae Milano, UC Berkeley
+Pierre Olivier, The University of Manchester (co-chair)
+Linhai Song, Pennsylvania State University
+Alain Tchana, Grenoble INP
+Chia-Che Tsai, Texas A&M University
+Carsten Weinhold, Barkhausen Institute
+
+ORGANIZING COMMITTEE
+
+Pierre-Évariste Dagand, Université de Paris
+Eric Eide, University of Utah
+Olaf Spinczyk, Osnabrück University
+

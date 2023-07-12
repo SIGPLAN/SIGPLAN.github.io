@@ -1,0 +1,150 @@
+---
+title: "Call for Papers: 25th International Symposium on Trends in Functional Programming"
+timestamp: "7/12/2023 11:20:49"
+deadline: "11/4/2023"
+---
+# TFP 2024 -- Call for Papers
+(trendsfp.github.io)
+
+## Important Dates
+
+Submission deadline: pre-symposium, full papers,  Saturday 4 November, 2023
+Submission deadline: pre-symposium, draft papers, Wednesday 30 November, 2023
+Notification:        pre-symposium submissions,   Friday 8 December, 2023
+TFPIE Workshop:                                   Tuesday 9 January, 2024
+TFP Symposium:                                    Wednesday 10 - Friday 12 January, 2024
+Submission deadline: post-symposium review,       Friday 23 February, 2024
+Notification:        post-symposium submissions,  Friday 5 April, 2024
+
+The Symposium on Trends in Functional Programming (TFP) is an international 
+forum for researchers with interests in all aspects of functional programming, 
+taking a broad view of current and future trends in the area. It aspires to 
+be a lively environment for presenting the latest research results, and other 
+contributions.
+
+This year, TFP will take place in-person at Seton Hall University, in South 
+Orange, NJ in the United States. It is co-located with the Trends in Functional 
+Programming in Education (TFPIE) workshop, which will take on the day before 
+the main symposium.
+
+Please be aware that TFP has several submission deadlines. The first, November 4, 
+is for authors that wish to have their full paper reviewed prior to the symposium. 
+Papers that are accepted in this way must also be presented at the symposium. The 
+second, November 30, is for authors that wish to present their work or work-in 
+progress at the symposium first without submitting to the full review process for 
+publication. These authors can then take into account feedback received at the 
+symposium and submit a full article for review by the third deadline, February 23.
+
+## Scope
+
+The symposium recognizes that new trends may arise through various routes. As part 
+of the Symposium's focus on trends we therefore identify the following five article 
+categories. High-quality articles are solicited in any of these categories:
+
+* Research Articles:
+  Leading-edge, previously unpublished research work
+* Position Articles:
+  On what new trends should or should not be
+* Project Articles:
+  Descriptions of recently started new projects
+* Evaluation Articles:
+  What lessons can be drawn from a finished project
+* Overview Articles:
+  Summarizing work with respect to a trendy subject
+
+Articles must be original and not simultaneously submitted for publication to any 
+other forum. They may consider any aspect of functional programming: theoretical, 
+implementation-oriented, or experience-oriented. Applications of functional 
+programming techniques to other languages are also within the scope of the symposium.
+
+Topics suitable for the symposium include, but are not limited to:
+
+* Functional programming and multicore/manycore computing
+* Functional programming in the cloud
+* High performance functional computing
+* Extra-functional (behavioural) properties of functional programs
+* Dependently typed functional programming
+* Validation and verification of functional programs
+* Debugging and profiling for functional languages
+* Functional programming in different application areas:
+  security, mobility, telecommunications applications, embedded
+  systems, global computing, grids, etc.
+* Interoperability with imperative programming languages
+* Novel memory management techniques
+* Program analysis and transformation techniques
+* Empirical performance studies
+* Abstract/virtual machines and compilers for functional languages
+* (Embedded) domain specific languages
+* New implementation strategies
+* Any new emerging trend in the functional programming area
+
+If you are in doubt on whether your article is within the scope of TFP, please contact 
+the TFP 2024 program chair, Jason Hemann.
+
+## Best Paper Awards
+
+TFP awards two prizes for the best papers each year.
+
+First, to reward excellent contributions, TFP awards a prize for the best overall paper 
+accepted for the post-conference formal proceedings.
+
+Second, each year TFP also awards a prize for the best student paper. TFP traditionally 
+pays special attention to research students, acknowledging that students are almost by 
+definition part of new subject trends. A student paper is one for which the authors 
+state that the paper is mainly the work of students, the students are the paper’s first 
+authors, and a student would present the paper.
+
+In both cases, it is the PC of TFP that awards the prize. In case the best paper happens 
+to be a student paper, then that paper will receive both prizes.
+
+
+## Instructions to Authors
+
+Authors must submit papers to:
+
+  <https://easychair.org/conferences/?conf=tfp24>
+
+Authors of papers have the choice of having their contributions formally reviewed either 
+before or after the Symposium. Further, pre-symposium submissions may either be full 
+(earlier deadline) or draft papers (later deadline).
+
+
+## Pre-symposium formal review
+
+Papers to be formally reviewed before the symposium should be submitted before the early 
+deadline and will receive their reviews and notification of acceptance for both presentation 
+and publication before the symposium. A paper that has been rejected for publication but 
+accepted for presentation may be resubmitted for the post-symposium formal review.
+
+
+## Post-symposium formal review
+
+Draft papers will receive minimal reviews and notification of acceptance for presentation at 
+the symposium. Authors of draft papers will be invited to submit revised papers based on the 
+feedback receive at the symposium. A post-symposium refereeing process will then select a 
+subset of these articles for formal publication.
+
+
+## Paper categories
+
+Draft papers and papers submitted for formal review are submitted as extended abstracts (4 to 
+10 pages in length) or full papers (20 pages). The submission must clearly indicate which 
+category it belongs to: research, position, project, evaluation, or overview paper. It should 
+also indicate which authors are research students, and whether the main author(s) are students. 
+A draft paper for which all authors are students will receive additional feedback by one of the 
+PC members shortly after the symposium has taken place.
+
+
+## Format
+
+Papers must be written in English, and written using the LNCS style. For more information about 
+formatting please consult the Springer LNCS Guidelines web site:
+
+  <https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines>
+
+
+## Organizing Committee
+Jason Hemann      PC Chair            Seton Hall University, USA
+Stephen Chang     Symposium Chair     University of Massachusetts Boston, USA
+Shajina Anand     Local Arrangements  Seton Hall University, South Orange, USA
+
