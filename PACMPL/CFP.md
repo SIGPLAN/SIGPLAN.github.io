@@ -4,6 +4,18 @@ title: 'PACMPL: Calls for Papers'
 ---
 ### Current
 
+#### Volume 8, Issue PLDI (June 2024)
+
+
+
+### Past
+
+#### Volume 8, Issue POPL (January 2024)
+
+ * [Call for Papers](https://popl24.sigplan.org/track/POPL-2024-popl-research-papers)
+ * Principal Editor: Derek Dreyer
+ * Submission Deadline: 11 July 2023
+
 #### Volume 7, Issue OOPSLA2 (October 2023)
 
  * [Call for Papers](https://2023.splashcon.org/track/splash-2023-oopsla)
@@ -15,9 +27,6 @@ title: 'PACMPL: Calls for Papers'
  * [Call for Papers](https://icfp23.sigplan.org/track/icfp-2023-papers#Call-for-Papers)
  * Principal Editor: Sam Lindley
  * Submission Deadline: 1 March 2023
-
-
-### Past
 
 #### Volume 7, Issue PLDI (June 2023)
 
