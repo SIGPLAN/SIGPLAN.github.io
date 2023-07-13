@@ -6,11 +6,19 @@ title: 'PACMPL: Calls for Papers'
 
 #### Volume 8, Issue OOPSLA2 (October 2024)
 
+ * Principal Editor: Alex Potanin
+
 #### Volume 8, Issue ICFP (August 2024)
+
+ * Principal Editor: Brigitte Pientka
 
 #### Volume 8, Issue PLDI (June 2024)
 
+ * Principal Editor: John Regehr
+
 #### Volume 8, Issue OOPSLA1 (April 2024)
+
+ * Principal Editor: Alex Potanin
 
 
 ### Past
