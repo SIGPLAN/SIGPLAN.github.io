@@ -4,8 +4,13 @@ title: 'PACMPL: Calls for Papers'
 ---
 ### Current
 
+#### Volume 8, Issue OOPSLA2 (October 2024)
+
+#### Volume 8, Issue ICFP (August 2024)
+
 #### Volume 8, Issue PLDI (June 2024)
 
+#### Volume 8, Issue OOPSLA1 (April 2024)
 
 
 ### Past
