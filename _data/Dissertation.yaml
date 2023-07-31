@@ -1,3 +1,25 @@
+2023:
+- Awardee: "Sam Westrick, Carnegie Mellong University"
+  Other: _Efficient and Scalable Parallel Functional Programming through Disentanglement_
+  Advisor: "Umut Acar"
+  Citation: |
+
+    Writing understandable and performant concurrent programs,
+    especially ones that exploit racing updates, is one of the most
+    important problems in computing. Sam Westrick's dissertation
+    introduces a new concept, disentanglement, that can be exploited
+    to design efficient parallel and concurrent programs. The work
+    assembles a benchmark suite of existing programs to evaluate the
+    proposed techniques and shows that the technique is widely
+    applicable. The thesis also develops the MPL compiler and shows
+    how disentanglement can be exploited to improve execution, notably
+    garbage collection. Overall, the thesis is clearly written, with
+    every technical concept introduced with an informative example,
+    and is a pleasure to read.
+
+    * Selection committee: Işil Dillig, Philip Wadler, Milind Kulkarni,
+      Stephanie Weirich, Hidehiko Masuhara
+
 2022:
 - Awardee: "Uri Alon, Technion"
   Other: _Machine Learning for Programming Language Processing_
@@ -332,6 +354,8 @@
     understanding of the potential of automated program verification
     and its application to real-world programs.
 
+    * Selection committee: Susan Eisenbach, Tiziana Margaria, Antony Hosking, Suresh Jagannathan
+
 - Awardee: "Vilhelm Sjöberg, University of Pennsylvania"
   Other: |
     _[A Dependently Typed Language with Nontermination](/Awards/Dissertation/2016_sjoberg.pdf)_
@@ -362,6 +386,8 @@
     programmers. This beautiful thesis will be a cornerstone of a new
     generation of language designs supporting significantly more
     robust and reliable software development.
+
+    * Selection committee: Susan Eisenbach, Tiziana Margaria, Antony Hosking, Suresh Jagannathan
 
 2015:
 - Awardee: "Mark Batty, University of Cambridge"

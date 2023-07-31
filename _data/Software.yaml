@@ -1,3 +1,36 @@
+2023:
+- Awardee: OCaml
+  Citation: |
+
+    The OCaml Compiler Distribution is the reference implementation of
+    the OCaml language, a dialect of ML that aims to be pragmatic,
+    both in language features and implementation, encouraging a simple
+    programming style that yields good performance and usability. It
+    has a large user base in industry, research, and education
+    throughout the world, and was used to implement a number of other
+    impactful systems, notably in verification: Coq proof assistant,
+    CompCert verified compiler, Why3 verified programming environment,
+    Frama-C, Astrée and Gillian static analyzers, Infer, Hack and Flow
+    projects at Meta, SLAM/SDV and F* at Microsoft, etc.
+
+    The nominated contributors are:
+    * David Allsopp, Tarides
+    * Florian Angeletti, INRIA
+    * Stephen Dolan, Jane Street
+    * Damien Doligez, INRIA
+    * Alain Fritsch, Lexifi
+    * Jacque Garrigue, University of Nagoya
+    * Xavier Leroy, Collège de France
+    * Anil Madhavapeddy, Cambridge University
+    * Luc Maranget, INRIA
+    * Nicolás Ojeda Bär, Lexifi
+    * Gabriel Scherer, INRIA
+    * KC Sivaramakrishnan, Tarides
+    * Jérôme Vouillon, CNRS
+    * Leo White, Jane Street
+
+    Selection Commitee: Antony Hosking, Dominique Devriese, Manu Sridharan, Andreas Rossberg, David Grove
+
 2022:
 - Awardee: CompCert
   Citation: |
@@ -27,6 +60,8 @@
     * Michael Schmidt
     * Bernhard Schommer
     * Jean-Baptiste Tristan
+
+    Selection Commitee: Antony Hosking, Dominique Devriese, Manu Sridharan, Andreas Rossberg, David Grove
 
 2021:
 - Awardee: "WebAssembly"

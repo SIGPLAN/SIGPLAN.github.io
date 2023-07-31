@@ -1,3 +1,25 @@
+2023:
+- Awardee: Nate Foster
+  Citation: |
+
+    Nate Foster is a world leader in programming languages and
+    software-defined networking. His skills as a PL researcher run the
+    gamut: adept at design, theory, implementation, and applications,
+    a combination rare to find in a single individual. His work brings
+    elegant PL techniques to bear on fundamental problems in
+    networking, makes pioneering contributions to both fields, and
+    enables verification approaches for networking
+    implementations. Notably, this is the second field Nate has opened
+    up: his PhD work introduced "lenses" as a language construct for
+    bidirectional tree transformations applied to the database view
+    update problem. His work has been recognized with multiple
+    distinguished paper and "test of time" awards. Nate also gives
+    significant service & leadership to the PL community on conference
+    program and steering committees, mentoring workshops, and
+    representative to influential working groups.
+
+    * Selection committee: Antony Hosking, Sandrine Blazy, Suresh Jagannathan, Ranjit Jhala, Éric Tanter.
+
 2022:
 - Awardee: Viktor Vafeiadis
   Citation: |

@@ -1,3 +1,23 @@
+2023:
+- Awardee: |
+    Jonathan Ragan-Kelley (MIT), Connelly Barnes (Adobe), Andrew Adams (Adobe),
+    Sylvain Paris (Adobe), Frédo Durand (MIT), Saman Amarasinghe (MIT)
+  Other: |
+    (for 2013) _[Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Representation in Image Processing Pipelines](https://doi.org/10.1145/2491956.2462176)_
+  Citation: |
+    Halide is a C++-embedded DSL that exploits locality and vectorized
+    computation for efficient use of SIMD multicore, GPU, and DSP
+    platforms in image and array processing applications. It has
+    become a key element of modern image processing pipelines at
+    Adobe, Google & Qualcomm. The main innovation of Halide is
+    separation of algorithm from execution schedule. Programmers can
+    separately schedule the image pipeline for their target
+    architecture. Combined with stochastic search over the space of
+    schedules, Halide enables terse, composable programs to achieve
+    state-of-the-art performance on a wide range of real image
+    processing pipelines to achieve order of magnitude performance
+    improvements over hand-tuned C and CUDA implementations.
+
 2022:
 - Awardee: |
     John Regehr (University of Utah), Yang Chen (Meta), Pascal Cuoq
