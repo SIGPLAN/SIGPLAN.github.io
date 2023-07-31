@@ -92,39 +92,45 @@
     research with an emphasis on solving problems in widely-used languages - 
     it has made life better for many practicing programmers.
     
-    Hans is the primary author of the Boehm-Demers-Weiser garbage collection 
-    (GC) library, the first to enable automatic deallocation of memory for most 
-    C programs -- a surprising result at that time. Its low overhead made 
-    automatic GC widely accessible, enabling many language implementations to 
-    get off the ground quickly, with competitive GC performance. Initially 
-    published in 1988, the library is still widely used. It likely significantly 
-    accelerated the widespread adoption of GC and also enabled many modern C/C++ 
-    memory leak detectors for non-garbage-collected programs. Hans' papers based 
-    on this library provided major new insights into both this "conservative" 
-    style of GC, and GC in general - his sole-author 1993 "most influential" PLDI 
-    paper showed how to greatly reduce the space cost of "conservative" GC, and 
-    his PLDI’91 paper introduced "sticky bit" collection, later adopted by mainstream 
-    Java collectors.
+    Hans is the primary author of the Boehm-Demers-Weiser garbage
+    collection (GC) library, the first to enable automatic
+    deallocation of memory for most C programs -- a surprising result
+    at that time. Its low overhead made automatic GC widely
+    accessible, enabling many language implementations to get off the
+    ground quickly, with competitive GC performance. Initially
+    published in 1988, the library is still widely used. It likely
+    significantly accelerated the widespread adoption of GC and also
+    enabled many modern C/C++ memory leak detectors for
+    non-garbage-collected programs. Hans' papers based on this library
+    provided major new insights into both this "conservative" style of
+    GC, and GC in general - his sole-author 1993 "most influential"
+    PLDI paper showed how to greatly reduce the space cost of
+    "conservative" GC, and his PLDI’91 paper introduced "sticky bit"
+    collection, later adopted by mainstream Java collectors.
     
-    Hans is the leading authority on programming language memory models and thread 
-    semantics. The theory of memory models is complex, with subtleties still not well 
-    understood. Defining the model for a popular language is even harder, requiring 
-    balancing conflicting constituencies – teachable to the masses, performance for 
-    advanced programmers, and compatibility with legacy and future hardware. Leading 
-    the C++11 process, Hans miraculously managed to satisfy all constituencies. He 
-    argued for the core model to be the teachable “sequential-consistency for 
-    data-race-free” model, but additionally developed an alternate path for advanced 
-    programmers and non-compatible hardware using the concept of relaxed atomics. 
-    Along the way, Hans wrote several seminal papers. The PLDI’05 paper exposed 
-    problems with the then-prevalent approach of implementing threads as a library, 
-    the PLDI’08 paper described the C++ model, and a series of papers exposed hitherto 
-    unknown problems with benign data races, fences, seqlocks, and subtleties in the 
-    notorious out-of-thin-air (OOTA) issue. Hans was also a major contributor to the 
-    Java memory model effort, a precursor to the C++ effort, and his C++ work has 
-    influenced analogous OOTA related open problems for Java. It is impossible to 
-    overstate Hans’ impact on the understanding and practice of language memory models. 
-    He has had profound influence on the boundary between PL and computer architecture 
-    communities.
+    Hans is the leading authority on programming language memory
+    models and thread semantics. The theory of memory models is
+    complex, with subtleties still not well understood. Defining the
+    model for a popular language is even harder, requiring balancing
+    conflicting constituencies – teachable to the masses, performance
+    for advanced programmers, and compatibility with legacy and future
+    hardware. Leading the C++11 process, Hans miraculously managed to
+    satisfy all constituencies. He argued for the core model to be the
+    teachable “sequential-consistency for data-race-free” model, but
+    additionally developed an alternate path for advanced programmers
+    and non-compatible hardware using the concept of relaxed atomics.
+    Along the way, Hans wrote several seminal papers. The PLDI’05
+    paper exposed problems with the then-prevalent approach of
+    implementing threads as a library, the PLDI’08 paper described the
+    C++ model, and a series of papers exposed hitherto unknown
+    problems with benign data races, fences, seqlocks, and subtleties
+    in the notorious out-of-thin-air (OOTA) issue. Hans was also a
+    major contributor to the Java memory model effort, a precursor to
+    the C++ effort, and his C++ work has influenced analogous OOTA
+    related open problems for Java. It is impossible to overstate
+    Hans’ impact on the understanding and practice of language memory
+    models.  He has had profound influence on the boundary between PL
+    and computer architecture communities.
 
 2019:
 - Awardee: Alex Aiken
