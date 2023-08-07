@@ -138,6 +138,42 @@ Awards
 Past Events
 -----------
 
+- Onward! 2023
+    -   Cascais, Portugal, October 25-27, 2023
+    -   Co-located with SPLASH 2023
+    -   Papers chair: Tijs van der Storm (CWI and University of Groningen)
+    -   Essays chair: Robert Hirschfeld (HPI and University of Potsdam)
+    -   [https://2023.splashcon.org](https://2023.splashcon.org)
+    -   [https://2023.splashcon.org/track/splash-2023-Onward-papers](https://2023.splashcon.org/track/splash-2023-Onward-papers)
+    -   [https://2023.splashcon.org/track/splash-2023-Onward-Essays](https://2023.splashcon.org/track/splash-2023-Onward-Essays)
+
+- Onward! 2022
+    -   Auckland, New Zealand, December 8-10, 2022
+    -   Co-located with SPLASH 2022
+    -   Papers chair: Christophe Scholliers (Universiteit Gent)
+    -   Essays chair: Jeremy Singer (University of Glasgow)
+    -   [https://2022.splashcon.org](https://2022.splashcon.org)
+    -   [https://2022.splashcon.org/track/splash-2022-Onward-papers](https://2022.splashcon.org/track/splash-2022-Onward-papers)
+    -   [https://2022.splashcon.org/track/splash-2022-Onward-Essays](https://2022.splashcon.org/track/splash-2022-Onward-Essays)
+
+- Onward! 2021
+    -   Chicago, Illinois, October 20-22, 2021
+    -   Co-located with SPLASH 2021
+    -   Papers chair: Wolfgang De Meuter (Vrije Universiteit Brussel)
+    -   Essays chair: Elisa Baniassad (University of British Columbia)
+    -   [https://2021.splashcon.org](https://2021.splashcon.org)
+    -   [https://2021.splashcon.org/track/splash-2021-Onward-papers](https://2021.splashcon.org/track/splash-2021-Onward-papers)
+    -   [https://2021.splashcon.org/track/splash-2021-Onward-Essays](https://2021.splashcon.org/track/splash-2021-Onward-Essays)
+
+- Onward! 2020
+    -   Online, November 17-19, 2020
+    -   Co-located with SPLASH 2020
+    -   Papers chair: Stephen Kell (University of Kent)
+    -   Essays chair: Didier Verna (EPITA / LRDE)
+    -   [https://2020.splashcon.org](https://2020.splashcon.org)
+    -   [https://2020.splashcon.org/track/splash-2020-Onward-papers](https://2020.splashcon.org/track/splash-2020-Onward-papers)
+    -   [https://2020.splashcon.org/track/splash-2020-Onward-Essays](https://2020.splashcon.org/track/splash-2020-Onward-Essays)
+
 - Onward! 2019
     -   Athens, Greece, October 23-25, 2019
     -   Co-located with SPLASH 2019
@@ -309,13 +345,14 @@ Steering Committee Members
 * Robert Biddle, Carleton University, Canada (Essays Chair 2017, Chair 2006)
 * Richard P. Gabriel, Dreamsongs and Hasso Plattner Institute, USA (Essays Chair 2018, General Co-chair 2011, Essays Assistant Chair 2009, Chair 2003, Chair 2002, Founding Chair)
 * Elisa Gonzalez Boix, Vrije Universiteit Brussel, Belgium (Papers Chair 2018)
-* Robert Hirschfeld, Hasso Plattner Institute and University of Potsdam, Germany (Past SC Chair 2018-2021, SC Chair 2015-2018, Papers Chair 2013, General Chair 2011)
+* Robert Hirschfeld, HPI and University of Potsdam, Germany (Essays Chair 2023, Past SC Chair 2018-2021, SC Chair 2015-2018, Papers Chair 2013, General Chair 2011)
 * Hidehiko Masuhara, Tokyo Institute of Technology, Japan (Papers Chair 2019)
 * Gail Murphy, University of British Columbia, Canada (SPLASH General Chair 2017, Papers Chair 2015)
 * Tomas Petricek, University of Kent, UK (Essays Chair 2019)
 * Benjamin C. Pierce, University of Pennsylvania, USA (SIGPLAN 2018-2021)
 * Yannis Smaragdakis, University of Athens, Greece (SPLASH General Chair 2019)
 * Emina Torlak, University of Washington, USA (Papers Chair 2017)
+* Tijs van der Storm, CWI and University of Groningen, Netherlands (Papers Chair 2023)
 * Jan Vitek, Northeastern University, USA (SPLASH General Chair 2018)
 
 ### Past
