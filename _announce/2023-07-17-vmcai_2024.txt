@@ -1,0 +1,19 @@
+---
+title: "Call for Papers, 25th International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI 2024)"
+timestamp: "7/17/2023 10:35:59"
+deadline: "8/31/2023"
+---
+
+## VMCAI 2024: 25th International Conference on Verification, Model Checking, and Abstract          Interpretation
+January 15-16, 2024, London, United Kingdom
+https://popl24.sigplan.org/home/VMCAI-2024
+
+### CALL FOR PAPERS
+* VMCAI 2024 is the 25th International Conference on Verification, Model Checking, and Abstract Interpretation. The conference will be held on January 15-16, 2024, in London, UK, co-located with POPL 2024. VMCAI provides a forum for researchers from the communities of Verification, Model Checking, and Abstract Interpretation, facilitating interaction, cross-fertilization, and advancement of hybrid methods that combine these and related areas.
+* Topics include, but are not limited to: Program Verification; Model Checking; Abstract Interpretation; Abstract Domains; Program Synthesis; Static Analysis; Type Systems; Deductive Methods; Program Logics; First-Order Theories; Decision Procedures; Interpolation; Horn Clause Solving; Program Certification; Separation Logic; Probabilistic Programming and Analysis; Error Diagnosis; Detection of Bugs and Security Vulnerabilities; Program Transformations; Hybrid and Cyber-physical Systems; Concurrent and distributed Systems; Analysis of numerical properties; Analysis of smart contracts; Analysis of neural networks.
+* All accepted papers will be published in Springer’s Lecture Notes in Computer Science series. Submissions will undergo a single-blind review process. There will be three categories of papers: regular papers, tool papers, and case studies. 
+* Important dates:  
+  - Paper submission: August 31st, 2023
+  - Notification: October 11th, 2023
+  - Camera-ready: October 31st, 2023 
+* Submission details: See https://popl24.sigplan.org/home/VMCAI-2024

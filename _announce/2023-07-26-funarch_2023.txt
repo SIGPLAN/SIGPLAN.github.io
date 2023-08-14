@@ -1,0 +1,111 @@
+---
+title: "Call for Participation, Functional Software Architecture (Sep 8, Seattle)"
+timestamp: "7/26/2023 9:37:07"
+start: "9/8/2023"
+end: "9/8/2023"
+---
+    ======================================================================
+
+		*** FUNARCH 2023 -- CALL FOR PARTICIPATION ***
+
+		      The First ACM SIGPLAN Workshop on
+	     Functional Software Architecture - FP in the Large
+
+		8th September 2023, Seattle, Washington, USA
+			  Co-located with ICFP 2023
+
+	 https://www.functional-architecture.org/events/funarch-2023/
+
+    ======================================================================
+
+    BACKGROUND:
+
+    The ACM SIGPLAN Workshop on Functional Software Architecture - FP
+    in the Large aims to disseminate and enable the use of functional
+    programming in the large and long-lived software projects.
+
+    We specifically want:
+
+    - To assemble a community interested in software architecture
+      techniques and technologies specific to functional programming;
+
+    - To identify, categorize, and document topics relevant to
+      the field of functional software architecture;
+
+    - To connect the functional programming community to the software
+      architecture community to cross-pollinate between the two.
+
+    We'd love for you to be part of this effort.  Whatever your
+    background, you're welcome at FUNARCH - to listen to talks, report
+    on your experience, and interact with others that share our goals.
+
+    See you at FUNARCH!
+
+    REGISTRATION:
+
+    You can register for the workshop via the registration page for
+    the ICFP conference, but there's no need to also register for
+    the conference.  Reduced fees are available until 5th August.
+    http://icfp23.sigplan.org/attending/registration
+
+    OPENING TALK:
+
+    Functional Programming in the Large - Status and Perspective
+    Mike Sperber
+
+    ACCEPTED SUBMISSIONS:
+
+    A Software Architecture Based on Coarse-Grained Self-Adjusting Computations
+    Stefan Wehr
+
+    Crème de la Crem: Composable Representable Executable Machines
+    Marco Perone and Georgios Karachalias
+
+    Functional Shell and Reusable Components for Easy GUIs
+    Ben Knoble and Bogdan Popa
+
+    Phases in Software Architecture
+    Jeremy Gibbons, Oisín Kidney, Tom Schrijvers and Nicolas Wu
+
+    Stretching the Glasgow Haskell Compiler
+    Jeffrey M. Young, Sylvain Henry and John Ericson
+
+    Typed Design Patterns for the Functional Era
+    Will Crichton
+
+    Types that Change: The Extensible Type Design Pattern
+    Ivan Perez
+
+    PROGRAM CHAIRS:
+
+    Mike Sperber            Active Group, Germany
+    Graham Hutton           University of Nottingham, UK
+
+    PROGRAM COMMITTEE:
+
+    Joachim Breitner        Germany
+    Manuel Chakravarty      Tweag & IOG, The Netherlands
+    Ron Garcia              University of British Columbia, Canada
+    Debasish Ghosh          LeadIQ, India
+    Lars Hupel              Giesecke+Devrient, Germany
+    Andy Keep               Meta, USA
+    Shriram Krishnamurthi   Brown University, USA
+    Andres Löh              Well-Typed, Germany
+    Anil Madhavapeddy       University of Cambridge, UK
+    José Pedro Magalhães    Standard Chartered, UK
+    Simon Marlow            Meta, UK
+    Hannes Mehnert          Robur, Germany
+    Erik Meijer             USA
+    Ivan Perez              KBR / NASA Ames Research Center, USA
+    Stefanie Schirmer       DuckDuckGo, Germany
+    Perdita Stevens         University of Edinburgh, UK
+    Stefan Wehr             Hochschule Offenburg, Germany
+    Scott Wlaschin          FPbridge, UK
+
+    WORKSHOP VENUE:
+
+    The workshop will be co-located with the ICFP 2023 conference at
+    The Westin Seattle Hotel, Seattle, Washington, United States.
+
+    ======================================================================
+

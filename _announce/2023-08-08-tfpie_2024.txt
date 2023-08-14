@@ -1,0 +1,87 @@
+---
+title: "[Call for submissions TFPiE 2024] Trends in Functional Programming in Education - January 9 2024, Seton Hall University, USA"
+timestamp: "8/8/2023 5:08:09"
+deadline: "12/6/2023"
+---
+TFPIE 2024 Call for papers
+https://wiki.tfpie.science.ru.nl/TFPIE2024
+(January 9th 2024, West Orange, NJ, USA, co-located with TFP 2024 at
+Seton Hall University)
+
+TFPIE 2024 welcomes submissions describing techniques used in the classroom,
+tools used in and/or developed for the classroom and any creative use of
+functional programming (FP) to aid education in or outside Computer Science.
+Topics of interest include, but are not limited to:
+
+  FP and beginning CS students
+  FP and Computational Thinking
+  FP and Artificial Intelligence
+  FP in Robotics
+  FP and Music
+  Advanced FP for undergraduates
+  FP in graduate education
+  Engaging students in research using FP
+  FP in Programming Languages
+  FP in the high school curriculum
+  FP as a stepping stone to other CS topics
+  FP and Philosophy
+  The pedagogy of teaching FP
+  FP and e-learning: MOOCs, automated assessment etc.
+  Best Lectures - more details below
+
+In addition to papers, we are requesting best lecture presentations. What's your
+best lecture topic in an FP related course? Do you have a fun way to present FP
+concepts to novices or perhaps an especially interesting presentation of a
+difficult topic? In either case, please consider sharing it. Best lecture topics
+will be selected for presentation based on a short abstract describing the
+lecture and its interest to TFPIE attendees. The length of the presentation
+should be comparable to that of a paper. In addition, the speaker can provide
+commentary on effectiveness or student feedback.
+
+Submissions
+
+Potential presenters are invited to submit an extended abstract (4-6 pages) or
+a draft paper (up to 20 pages) in EPTCS style. The authors of accepted
+presentations
+will have their preprints and their slides made available on the
+workshop's website.
+Papers and abstracts can be submitted via easychair at the following link:
+
+https://easychair.org/conferences/?conf=tfpie2024
+
+After the workshop, presenters are invited to submit (a revised
+version of) their
+article for the formal review. The PC will select the best articles
+for publication
+in the Electronic Proceedings in Theoretical Computer Science (EPTCS). Articles
+rejected for presentation and extended abstracts will not be formally reviewed
+by the PC.
+
+Important Dates
+
+Submission deadline: December 26th 2023, Anywhere on Earth
+Notification: by December 30th 2023 (Note: submissions will be
+evaluated on a rolling basis, so earlier submissions will receive an
+earlier response)
+TFPIE Registration Deadline: TBA
+Workshop: January 9th 2024
+Submission for formal review: April 19th 2024, Anywhere on Earth.
+Notification of full article: May 24th 2024
+Camera ready: June 28th 2024
+
+Program Committee - TBD
+
+        Stephen Chang (Chair) - UMass Boston, USA
+
+Registration information
+
+See https://wiki.tfpie.science.ru.nl/TFPIE2024 for updated information.
+
+Registration and attendance are mandatory for at least one author of every paper
+that is presented at the workshop. Presenters will have their
+registration fee waived.
+
+Only papers that have been presented at TFPIE may be submitted to the
+post-reviewing
+process.
+

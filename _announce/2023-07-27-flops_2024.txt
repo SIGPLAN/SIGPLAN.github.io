@@ -1,0 +1,81 @@
+---
+title: "Call For Papers: 17th International Symposium on Functional and Logic Programming (FLOPS 2024)"
+timestamp: "7/27/2023 11:34:36"
+deadline: "12/13/2023"
+---
+============================================================================
+Call For Papers
+FLOPS 2024: 17th International Symposium on Functional and Logic Programming
+============================================================================
+
+May 15-17, 2024, Kumamoto, Japan
+https://conf.researchr.org/home/flops-2024
+
+
+FLOPS aims to bring together practitioners, researchers and implementers of declarative programming, to discuss mutually interesting results and common problems: theoretical advances, their implementations in language systems and tools, and applications of these systems in practice. The scope includes all aspects of the design, semantics, theory, applications, implementations, and teaching of declarative programming. FLOPS specifically aims to promote cross-fertilization between theory and practice and among different styles of declarative programming.
+
+Previous FLOPS meetings were held at Fuji Susono (1995), Shonan Village (1996), Kyoto (1998), Tsukuba (1999), Tokyo (2001), Aizu (2002), Nara (2004), Fuji Susono (2006), Ise (2008), Sendai (2010), Kobe (2012), Kanazawa (2014), Kochi (2016), Nagoya (2018), Akita (2020, online), and Kyoto (2022, online).
+
+
+*** Scope ***
+
+FLOPS solicits original papers in all areas of declarative programming:
+
+* functional, logic, functional-logic programming, rewriting systems, formal methods and model checking, program transformations and program refinements, developing programs with the help of theorem provers or SAT/SMT solvers, verifying properties of programs using declarative programming techniques;
+
+* foundations, language design, implementation issues (compilation techniques, memory management, run-time systems, etc.), applications and case studies.
+
+FLOPS promotes cross-fertilization among different styles of declarative programming. Therefore, research papers must be written to be understandable by a wide audience of declarative programmers and researchers. In particular, each submission should explain its contributions in both general and technical terms, clearly identifying what has been accomplished, explaining why it is significant for its area, and comparing it with previous work. Submission of system descriptions and declarative pearls are especially encouraged.
+
+
+*** Submission ***
+
+Submissions should fall into one of the following categories:
+
+* Regular research papers: they should describe new results and will be judged on originality, correctness, and significance.
+
+* System descriptions: they should describe a working system and will be judged on originality, usefulness, and design.
+
+* Declarative pearls: new and excellent declarative programs or theories with illustrative applications.
+
+System descriptions and declarative pearls must be explicitly marked as such in the title. Submissions must be unpublished and not submitted for publication elsewhere. Work that already appeared in unpublished or informally published workshops proceedings may be submitted. Submissions must be written in English and can be up to 15 pages excluding references, though system descriptions and pearls are typically shorter. The formatting has to conform to Springer’s LNCS guidelines. FLOPS 2024 will employ a lightweight double-blind reviewing process.
+
+For more details, see
+
+  https://conf.researchr.org/home/flops-2024
+
+Papers should be submitted electronically at
+
+  https://easychair.org/conferences/?conf=flops2024
+
+
+*** Publication ***
+
+The proceedings will be published by Springer in the LNCS series. We expect to invite the authors of a selection of the best papers to submit an extended version of their FLOPS paper to a special issue which will appear in the journal Science of Computer Programming.
+
+
+*** Important Dates ***
+
+All deadlines are Anywhere on Earth (AoE = UTC-12).
+
+* Abstract due: Wed 6th Dec 2023
+* Submission deadline: Wed 13th Dec 2023
+* Notifications: Wed 31st Jan 2024
+* Final versions due: Wed 28th Feb 2024
+
+
+*** Organizers ***
+
+Shin-ya Katsumata    	National Institute of Informatics, JP (General Chair)
+Jeremy Gibbons       	University of Oxford, UK (PC Co-Chair)
+Dale Miller          	INRIA Saclay and LIX/IPP, FR (PC Co-Chair)
+Naohiko Hoshino      	Sojo University, JP (Local Chair)
+
+*** FLOPS sponsorship ***
+
+This symposium is sponsored by JSSST-SIGPPL (http://ppl.jssst.or.jp/).
+
+*** Contact Address ***
+
+flops2024@easychair.org
+

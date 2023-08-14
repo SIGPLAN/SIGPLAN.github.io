@@ -1,0 +1,105 @@
+---
+title: "Call for Participation: Functional Art, Music, Modeling and Design (FARM 2023) Sep 8"
+timestamp: "8/7/2023 7:06:38"
+start: "9/8/2023"
+end: "9/8/2023"
+---
+    ===============================================================================
+		  11th ACM SIGPLAN International Workshop on
+		 Functional Art, Music, Modelling and Design
+				    (FARM)
+		       Seattle, USA, 8th September 2023
+		       https://functional-art.org/2023/
+    ===============================================================================
+
+    The ACM SIGPLAN International Workshop on Functional Art, Music,
+    Modelling and Design (FARM) gathers together people who are harnessing
+    functional techniques in the pursuit of creativity and expression.
+
+    Functional Programming has emerged as a mainstream software
+    development paradigm, and its artistic and creative use is booming. A
+    growing number of software toolkits, frameworks and environments for
+    art, music and design now employ functional programming languages and
+    techniques. FARM is a forum for exploration and critical evaluation of
+    these developments, for example to consider potential benefits of
+    greater consistency, tersity, and closer mapping to a problem domain.
+
+    FARM 2023 will feature an afternoon session of demos, and an evening
+    session with a keynote and live performances.
+
+    Registration
+    ------------
+
+    You can register via the ICFP 2023 registration:
+
+    http://icfp23.sigplan.org/attending/registration
+
+    Don't be confused that it says ~ICFP~ - FARM is part of a larger event
+    around ICFP 2023, and you can register for FARM without registering
+    for ICFP.
+
+    If you've registered for ICFP on Sep 8, this includes admissions
+    for the keynote and performance evening.
+
+    The event is open to the public for a small admissions fee.
+
+    Accepted submissions
+    --------------------
+
+    Demo: A functional EDSL for mathematics visualization that compiles to JavaScript
+    Alistair Beharry
+
+    Exploring Self-Embedded Knitting Programs with Twine
+    Amy Zhu, Adriana Schulz, Zachary Tatlock
+
+    Homotopy Type Theory for Sewn Quilts
+    Charlotte Clark, Rose Bohrer
+
+    The Beauty and Elegance of Functional Reactive Animation
+    Ivan Perez
+
+    Weighted Refinement Types for Counterpoint Composition
+    Youyou Cong
+
+    Keynote
+    -------
+
+    Gloria Cheng will hold the keynote "Perfectly Imperfect: Music, Math and the Keyboard”".
+
+    Live Performances
+    -----------------
+
+
+    Marcin Paczkowski (Featured)
+    Alexandra Cardenas (Featured)
+    Cecila Suhr - Humanity: From Survival to Revival
+    Andrea Mazzariello - This, now.
+    Joy Lee - Aurora: Goddess of Dawn
+
+    Workshop Organisation
+    ---------------------
+
+    Workshop Chair: John Leo (Halfaya Research)
+    Program Chair: Youyou Cong (Tokyo Institute of Technology)
+    Performance Chair: Luka Frelih (Ljudmila Art & Science Laboratory)
+    Publicity Chair: Michael Sperber (Active Group GmbH)
+
+    Program Comittee
+
+    Youyou Cong (Tokyo Institute of Technology)
+    Visda Goudarzi (Columbia College Chicago)
+    John Hui (Columbia University)
+    Anton Kholomiov
+    Oleg Kiselyov (Tohoku University)
+    Yoshiki Ohshima (Croquet Corporation)
+    Christopher Raphael (Indiana University)
+    Butch Rovan (Brown University)
+    Chung-chieh Shan (Indiana University)
+    Ben Sherman
+    Jeffrey Snyder (Princeton University)
+    Andrew Sorenson (MOSO Corporation)
+    Dima Szamozvancev (Cambridge University)
+    Daniel Winograd-Cort (Luminous Computing)
+    Halley Young (University of Pennsylvania)
+
+
