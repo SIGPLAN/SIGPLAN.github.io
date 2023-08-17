@@ -3,19 +3,37 @@
   Citation: |
 
     Kathryn McKinley has made seminal contributions to a number of
-    areas in PL, most notably memory management and parallelizing
-    compilers.  Her contributions to memory management include some of
-    the most innovative and effective algorithms available for garbage
-    collection and memory allocation. …  She served in leadership
-    roles in numerous SIGPLAN conferences and was instrumental in
-    introducing double blind reviewing to the programming languages
-    community, seeking to reduce bias and improve scientific quality.
-    McKinley also played a key role in advancing women and minorities
-    in programming languages, and more generally, within computer
-    science. She has energetically championed this cause and has been
-    a dedicated mentor to her 23 PhD students and countless other
-    researchers. In short, Kathryn McKinley is the "whole picture" of
-    what the SIGPLAN achievement award seeks to recognize.
+    areas in programming languages and systems, most notably
+    parallelizing compilers, parallel systems, and memory
+    management. She introduced novel compiler strategies that
+    optimized locality and parallelism.  Her sustained contributions
+    to memory management include some of the most innovative and
+    effective algorithms available for memory allocation and garbage
+    collection. For example, Hoard was the first provably scalable
+    parallel allocator for C/C++ and is widely used in industry. The
+    Immix mark-region garbage collector combined mutator locality,
+    space efficiency, and fast reclamation and is the basis for LXR, a
+    low-latency high throughput collector, that outperforms production
+    systems. She and collaborators pioneered performance analysis and
+    benchmarking, tools and methodologies, including the the DaCapo
+    Benchmarks, that that the entire field, both industry and
+    academia, use.  McKinley is a member of the American Academy of
+    Arts and Science, an IEEE Fellow, and an ACM Fellow, recognizing
+    her decades of transformational research across programming
+    languages and systems.
+
+    McKinley also made indelible community contributions through her
+    leadership and service. She served in leadership roles in numerous
+    SIGPLAN conferences and was instrumental in introducing double
+    blind reviewing to the programming languages community, seeking to
+    reduce bias and improve scientific quality.  McKinley also played
+    a key role in advancing women and minorities in programming
+    languages, and more generally, within computer science. She
+    energetically championed this cause and was a dedicated mentor to
+    her 23 PhD students and countless other researchers.
+
+    In short, Kathryn McKinley is the "whole picture" of what the
+    SIGPLAN achievement award seeks to recognize.
 
     Selection committee: Işil Dillig, Nate Foster, Cormac Flanagan, Jonathan Aldrich, Robby Findler
 
