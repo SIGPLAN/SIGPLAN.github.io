@@ -1281,3 +1281,27 @@
   event: ExHET
   year: 2023
   title: "Proceedings of the 2nd International Workshop on Extreme Heterogeneity Solutions"
+-
+  event: FUNARCH
+  year: 2023
+  title: "Proceedings of the 1st ACM SIGPLAN International Workshop on Functional Software Architecture"
+-
+  event: FHPNC
+  year: 2023
+  title: "Proceedings of the 11th ACM SIGPLAN International Workshop on Functional High-Performance and Numerical Computing"
+-
+  event: Erlang
+  year: 2023
+  title: "Proceedings of the 22nd ACM SIGPLAN International Workshop on Erlang"
+-
+  event: FARM
+  year: 2023
+  title: "Proceedings of the 11th ACM SIGPLAN International Workshop on Functional Art, Music, Modelling, and Design"
+-
+  event: Haskell
+  year: 2023
+  title: "Proceedings of the 16th ACM SIGPLAN International Haskell Symposium"
+-
+  event: TyDe
+  year: 2023
+  title: "Proceedings of the 8th ACM SIGPLAN International Workshop on Type-Driven Development"

@@ -1,0 +1,122 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>Erlang 2023: Proceedings of the 22nd ACM SIGPLAN International Workshop on Erlang</title></head><body><div id="DLtoc"><div id="DLheader"><h1>Erlang 2023: Proceedings of the 22nd ACM SIGPLAN International Workshop on Erlang</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3609022"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Keynote</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609022.3615585">Code Analysis at WhatsApp (Keynote)</a></h3><ul class="DLauthors"><li class="nameList Last">Ke Mao</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In the ever-evolving world of software development, code analysis stands as a critical component for quality and efficiency. This keynote will present an overview of code analysis tools at WhatsApp, and then delve into the techniques of dynamic and static analysis, with examples of their industrial deployments. The keynote will discuss the integration of code analysis into early stages of the software development life cycle, from continuous integration pipelines to DevOps practices.</p>
+			</div></div>
+							
+						<h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609022.3609414">TLS the Erlang/OTP Way (Experience Report)</a></h3><ul class="DLauthors"><li class="nameList">Ingela Anderton Andin</li><li class="nameList">Raimo Niskanen</li><li class="nameList">Péter Dimitrov</li><li class="nameList Last">Kiko Fernandez-Reyes</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The Transport Layer Security (TLS) protocol is one of the most used protocols to  
+ensure data privacy, integrity and authenticity on the Internet. Erlang/OTP's  
+TLS implementation is widely used in industry, and especially in the telecommunication  
+sector.  
+</p>
+<p>
+This paper describes an overview of the TLS protocol in the context of Erlang.  
+We explain Erlang/OTP's TLS protocol design and implementation, optimizations, a benchmark  
+evaluation of the Erlang TLS protocol implementation against previous  
+Erlang/OTP's TLS implementations, and a benchmark comparison against the Go's  
+TLS implementation.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609022.3609415">Generation and Refinement of Testing Models</a></h3><ul class="DLauthors"><li class="nameList">Luis Eduardo Bueso de Barrio</li><li class="nameList">Lars-Åke Fredlund</li><li class="nameList">Clara Benac Earle</li><li class="nameList">Ángel Herranz</li><li class="nameList Last">Julio Mariño</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Writing property-based testing models is a challenging task. This article introduces a new tool, Faktory, which is capable of automatically generating an executable property-based testing model from less complicated sources: normal function type specifications, and traditional function calling contracts using pre- and post-conditions. Concretely, Faktory is an Elixir library which from an API annotated with executable calling contracts written using the Corsa contract checking library, automatically generates a property-based testing model in the form of a state machine implemented using the Makina state machine DSL. In the article we illustrate the functionalities of the Faktory tool using a number of examples. The first one shows how to test a functional data structure; the second shows how to improve test-case generation by reusing test results; and in the third example a <em>stateful</em> key-value storage is tested by first deriving an initial test model using Faktory, and then refining the generated model using the Makina model/state machine extension mechanism.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609022.3609416">Mria: An Eventually Consistent Mnesia</a></h3><ul class="DLauthors"><li class="nameList">Dmitrii Fedoseev</li><li class="nameList">Serhii Tupchii</li><li class="nameList">Thales Macedo Garitezi</li><li class="nameList Last">Zaiming Shi</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Mnesia, an Erlang distributed database, serves as an embedded storage and replication layer for OTP applications requiring low read latency and high availability.  
+EMQX is a publish-subscribe message broker supporting the MQTT protocol that uses Mnesia to replicate its internal state across the cluster.  
+We analyze the limitations of Mnesia's replication protocol scalability in large clusters under high load.  
+To address these limitations, we developed Mria, an extension to the Mnesia database that provides eventual consistency within a cluster and achieves better horizontal scalability.  
+We validated Mria using a variety of testing techniques, including model checking, chaos engineering, and formal verification.  
+Replacing Mnesia with Mria allowed us to scale the EMQX cluster to 23 nodes, handle 100 million simultaneous client sessions and achieve a higher sustained load.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609022.3609417">A Semantics of Core Erlang with Handling of Signals</a></h3><ul class="DLauthors"><li class="nameList">Aurélie Kong Win Chang</li><li class="nameList">Jérôme Feret</li><li class="nameList Last">Gregor Gössler</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We introduce a small step semantics for a subset of Core Erlang modeling its monitoring and signal systems. The goal of our semantics is to enable the construction of causal explanations for property violations, which will be the object of future work. As a first axis of reflection, we chose to study the impact of the order of messages on a faulty behavior. We present our semantics and discuss some of our design choices. This work is a part of a broader project on causal debugging of concurrent programs in Erlang.</p>
+			</div></div>
+							
+						</div></div></body></html>

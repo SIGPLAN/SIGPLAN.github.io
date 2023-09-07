@@ -1,0 +1,122 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>TyDe 2023: Proceedings of the 8th ACM SIGPLAN International Workshop on Type-Driven Development</title></head><body><div id="DLtoc"><div id="DLheader"><h1>TyDe 2023: Proceedings of the 8th ACM SIGPLAN International Workshop on Type-Driven Development</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3609027"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609027.3609404">A Calculus of Inductive Linear Constructions</a></h3><ul class="DLauthors"><li class="nameList">Qiancheng Fu</li><li class="nameList Last">Hongwei Xi</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In this paper, we present a novel calculus of inductive linear constructions (CILC), combining linear types and dependent types. Our type theory addresses a looming issue in the research on linear dependent types: the lack of a general mechanism for defining sound linear inductive types. CILC allows one to encode in a straightforward manner the linear connectives that must be baked into the core of other systems. This greatly lowers the difficulty of encoding various data structures and makes writing non-trivial programs humanly feasible. We study the standard meta theory of our calculus, showing that it is sound in the usual sense. Through a heap-based operational semantics, we show that CILC safely manipulates resources and runs memory clean. We have formalized and proven correct most of the reported results in the Coq Proof Assistant.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609027.3609405">Semantic Encapsulation using Linking Types</a></h3><ul class="DLauthors"><li class="nameList">Daniel Patterson</li><li class="nameList">Andrew Wagner</li><li class="nameList Last">Amal Ahmed</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Interoperability pervades nearly all mainstream language implementations, as most systems leverage subcomponents written in different languages. And yet, such linking can expose a language to foreign behaviors that are internally inexpressible, which poses a serious threat to safety invariants and programmer reasoning. To preserve such invariants, a language may try to add features to limit the reliance on external libraries, but endless extensions can obscure the core abstractions the language was designed to provide. </p><p>In this paper, we outline an approach that encapsulates foreign code in a sound way—i.e., without disturbing the invariants promised by types of the core language. First, one introduces novel <em>linking types</em> that characterize the behaviors of foreign libraries that are inexpressible in the core language. To reason about the soundness of linking, one constructs a <em>realizability model</em> that captures the meaning of both core types and linking types as sets of target-language terms. Using this model, one can formally prove when foreign behavior is <em>encapsulated</em>; that is, unobservable to core code. We show one way to discharge such proofs automatically by augmenting the compiler to insert verified <em>encapsulation wrappers</em> around components that use foreign libraries. </p><p>Inspired by existing approaches to FFIs, we develop a pair of case studies that extend a pure, functional language: one extension for state, and another for exceptions. The first allows us to implement mutable references via a library, whereas the second allows us to implement <em>try</em> and <em>catch</em> as library functions. Both extensions and the overall system are proven sound using logical relations that use realizability techniques.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609027.3609406">Infix-Extensible Record Types for Tabular Data</a></h3><ul class="DLauthors"><li class="nameList">Adam Paszke</li><li class="nameList Last">Ningning Xie</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present a novel row-polymorphic record calculus, supporting a unique combination of features: scoped labels, first-class labels and rows, and record concatenation. Our work is motivated by the similarity of record types and data table (or data frame) schemas, commonly used in data processing tasks. After presenting our record calculus, we demonstrate its applicability to data frame manipulation by showing that it can be used to successfully assign types to the functions listed in the Brown Benchmark for Tabular Types. Our typing discipline is remarkably lightweight, compared to calculi that require reasoning about type-level constraints when manipulating record types, making it a viable candidate for practical use.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609027.3609407">A Dependently Typed Language with Dynamic Equality</a></h3><ul class="DLauthors"><li class="nameList">Mark Lemay</li><li class="nameList">Qiancheng Fu</li><li class="nameList">William Blair</li><li class="nameList">Cheng Zhang</li><li class="nameList Last">Hongwei Xi</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Dependent type systems are powerful tools for preventing bugs in programs.  
+Unlike other formal methods, dependent type systems can reuse the methodology and syntax familiar to functional programmers to construct formal proofs.  
+However, usability issues, like confusing error messages, often arise from the conservative equalities required by such type theories.  
+We address this issue by designing a dependently typed language where equality checking is delayed until runtime.  
+What were once static errors can now be presented to programmers as warnings.  
+When runtime failures occur, the blame system provides clear error messages indicating the exact static assumption violated during execution.  
+We present several examples in this system, introduce novel correctness properties, and prove them for a fragment of the language.  
+Our full system handles dependent indexed data and pattern matching, which are difficult for dependent gradual typing systems to manage.  
+Finally, we have implemented a prototype of the language.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609027.3609408">Combining Dependency, Grades, and Adjoint Logic</a></h3><ul class="DLauthors"><li class="nameList">Peter Hanukaev</li><li class="nameList Last">Harley Eades III</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We propose two new dependent type systems. The first, is a dependent  
+graded/linear type system where a graded dependent type system is  
+connected via modal operators to a linear type system in the style of  
+Linear/Non-linear logic. We then generalize this system to support  
+many graded systems connected by many modal operators through the  
+introduction of modes from Adjoint Logic. Finally, we prove several  
+meta-theoretic properties of these two systems including graded  
+substitution.</p>
+			</div></div>
+							
+						</div></div></body></html>

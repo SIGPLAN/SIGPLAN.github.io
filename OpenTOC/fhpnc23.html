@@ -1,0 +1,111 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>FHPNC 2023: Proceedings of the 11th ACM SIGPLAN International Workshop on Functional High-Performance and Numerical Computing</title></head><body><div id="DLtoc"><div id="DLheader"><h1>FHPNC 2023: Proceedings of the 11th ACM SIGPLAN International Workshop on Functional High-Performance and Numerical Computing</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3609024"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609024.3609410">Rank-Polymorphism for Shape-Guided Blocking</a></h3><ul class="DLauthors"><li class="nameList">Artjoms Šinkarovs</li><li class="nameList">Thomas Koopman</li><li class="nameList Last">Sven-Bodo Scholz</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Many numerical algorithms on matrices or tensors can be formulated in a blocking style which improves performance due to better cache locality. In imperative languages, blocking is achieved by introducing additional layers of loops in a nested fashion alongside with suitable adjustments in index computations. While this process is tedious and error-prone, it is also difficult to implement a <em>generically</em> blocked version that would support arbitrary levels of blocking. </p><p>At the example of matrix multiply, this paper demonstrates how rank-polymorphic array languages enable the specification of such generically blocked algorithms in a simple, recursive form. The depth of the blocking as well as blocking factors can be encoded in the structure of array shapes. In turn, reshaping arrays makes it possible to switch between blocked and non-blocked arrays. Through rank-polymorphic array combinators, any specification of loop boundaries or explicit index computations can be avoided. </p><p>Firstly, we propose a dependently-typed framework for rank-polymorphic arrays. We use it to demonstrate that all blocked algorithms can be naturally derived by induction on the argument shapes. Our framework guarantees lack of out-of-bound indexing, and we also prove that all the blocked versions compute the same results as the canonical algorithm. Secondly, we translate our specification to the array language SaC. Not only do we show that we achieve similar conciseness in the implementation, but we also observe good performance of the generated code. We achieve a 7% improvement compared to the highly-optimised OpenBLAS library, and 3% compared to Intel’s MKL library when running on a 32-core shared-memory system.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609024.3609411">Efficient GPU Implementation of Affine Index Permutations on Arrays</a></h3><ul class="DLauthors"><li class="nameList">Mathis Bouverot-Dupuis</li><li class="nameList Last">Mary Sheeran</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Optimal usage of the memory system is a key element of fast GPU algorithms. Unfortunately many common algorithms fail in this regard despite exhibiting great regularity in memory access patterns. In this paper we propose efficient kernels to permute the elements of an array. We handle a class of permutations known as Bit Matrix Multiply Complement (BMMC) permutations, for which we design kernels of speed comparable to that of a simple array copy. This is a first step towards implementing a set of array combinators based on these permutations.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609024.3609412">Shape-Constrained Array Programming with Size-Dependent Types</a></h3><ul class="DLauthors"><li class="nameList">Lubin Bailly</li><li class="nameList">Troels Henriksen</li><li class="nameList Last">Martin Elsman</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present a dependent type system for enforcing array-size 
+ consistency in an ML-style functional array language. Our goal is 
+ to enforce shape-consistency at compile time and allow nontrivial 
+ transformations on array shapes, without the complexity such 
+ features tend to introduce in dependently typed languages. Sizes 
+ can be arbitrary expressions and size equality is purely 
+ syntactical, which fits naturally within a scheme that interprets 
+ size-polymorphic functions as having implicit arguments. When 
+ non-syntactical equalities are needed, we provide dynamic checking. 
+ In contrast to other dependently typed languages, we automate the 
+ book-keeping involved in tracking existential sizes, such as when 
+ filtering arrays. We formalise a large subset of the presented type 
+ system and prove it sound. We also discuss how to adapt the type 
+ system for a real implementation, including type inference, within 
+ the Futhark programming language.</p>
+			</div></div>
+							
+						</div></div></body></html>
