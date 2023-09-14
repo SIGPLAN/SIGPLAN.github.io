@@ -75,12 +75,11 @@ CARES committee members may also attend other workshops and conferences sponsore
     <th><b>Conference/Meeting</b></th>
     <th><b>CARES member attendees</b></th>
  </tr>
-   </tr>
-    <tr>
+ <tr>
     <td><a href="https://icfp23.sigplan.org">ICFP 2023</a></td>
     <td>Gabriele Keller, Simon Peyton Jones, Sukyoung Ryu, Stephanie Weirich</td>
  </tr>
-  <tr>
+ <tr>
     <td><a href="https://pldi23.sigplan.org">PLDI 2023 </a></td>
     <td>Sukyoung Ryu</td>
   </tr>
