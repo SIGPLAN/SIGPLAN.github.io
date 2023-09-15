@@ -2,7 +2,7 @@
 layout: default
 title: "Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH)"
 ---
-SPLASH (Systems, Programming, Languages, and Applications: Software for Humanity) contains several conferences concerned with programming, languages, and software engineering, including [OOPSLA](/Conferences/OOPSLA)  (Object-oriented Programming, Systems, Languages, and Applications), [Onward!](/Conferences/Onward), [DLS](/Conferences/DLS) (the Dynamic Languages Symposium), and PLoP (Pattern Languages of Programming).
+SPLASH (Systems, Programming, Languages, and Applications: Software for Humanity) contains several conferences concerned with programming, languages, and software engineering, including [OOPSLA](/Conferences/OOPSLA)  (Object-oriented Programming, Systems, Languages, and Applications), [Onward!](/Conferences/Onward), [DLS](/Conferences/DLS) (the Dynamic Languages Symposium), and GPCE(Conferences/GPCE).
 
 **SPLASH Steering Committee**
 
@@ -28,7 +28,7 @@ in 2020, with the intention of adding one member-at-large each
 subsequent year.  Members-at-large serve 4 year terms and are selected
 by the Steering Committee.
 
-The constitution of the steering committee changes each year upon conclusion
+The membership of the steering committee changes each year upon conclusion
 of that year's conference.
 
 The current SPLASH steering committee is:
