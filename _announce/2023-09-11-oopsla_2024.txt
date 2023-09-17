@@ -1,0 +1,332 @@
+---
+title: "Call for Papers, The Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA 2024)"
+timestamp: "9/11/2023 18:47:59"
+deadline: "10/20/2023"
+---
+========================================================================
+                       PACMPL Issue OOPSLA 2024
+
+                          Call for Papers
+
+                OOPSLA 2024 will be held as part of
+The ACM Conference on Systems, Programming, Languages, and Applications:
+                  Software for Humanity (SPLASH'24)
+
+              October 20-25, 2024, Pasadena, California, United States
+
+           https://2024.splashcon.org/track/splash-2024-oopsla
+========================================================================
+
+### Important dates
+
+#### ROUND 1:
+Submission Deadline:               Fri Oct 20, 2023
+Author Response:                   Mon Dec 11 - Wed Dec 13, 2023
+Author Notification:               Fri Dec 22, 2023
+Artifact Submission:               Fri Jan 5, 2024
+Artifact kick-tires:               Sat Jan 6 - Fri Jan 19, 2024
+Submission of Revisions:           Sun Feb 11, 2024
+Author Notification of Revisions:  Sat Feb 24, 2024
+Artifact Notification:             Fri Mar 1, 2024
+Camera Ready:                      Fri Mar 8, 2024
+
+#### ROUND 2:
+Submission Deadline:                Fri Apr 5, 2024
+Author Response:                    Mon Jun 3 - Wed Jun 5, 2024
+Author Notification:                Fri Jun 21, 2024
+Artifact Submission:                Fri Jul 5, 2024
+Artifact kick-tires:                Sat Jul 6 - Fri Jul 19, 2024
+Submission of Revisions:            Sun Aug 4, 2024
+Author Notification of Revisions:   Sun Aug 18, 2024
+Artifact Notification:              Fri Aug 23, 2024
+Camera Ready:                       Sun Sep 1, 2024
+
+
+Papers accepted at either of the rounds will be published in the 2024 
+volume of PACMPL(OOPSLA) and invited to be presented at the SPLASH 
+conference in October 2024.
+
+### Scope
+
+The OOPSLA issue of the Proceedings of the ACM on Programming Languages 
+(PACMPL) welcomes papers focusing on all practical and theoretical 
+investigations of programming languages, systems and environments.
+Papers may target any stage of software development, including 
+requirements, modelling, prototyping, design, implementation, 
+generation, analysis, verification, testing, evaluation, maintenance, 
+and reuse of software systems. Contributions may include the 
+development of new tools, techniques, principles, and evaluations.
+
+#### Review Process
+
+PACMPL(OOPSLA) has two rounds of reviewing with submission deadlines 
+around October and April each year. As you submit your paper you will 
+receive around three reviews and an opportunity to provide an author 
+response that will be read and addressed by the reviewers in the final 
+decision outcome summary. There are 5 possible outcomes at the end of 
+the round:
+
+*Accept*: Your paper will appear in the upcoming volume of PACMPL
+(OOPSLA).
+
+*Conditional Accept*: You will receive a list of required revisions 
+that you will need to address. You must submit a revised paper, a clear 
+explanation of how your revision addresses these comments, and 
+"if possible" a diff of the PDF as supplementary material. Assuming 
+you meet the listed requirements, after further review by the same 
+reviewers, your paper will very likely  be accepted. This process 
+*has to be completed within two months of the initial decision* for the 
+paper to be accepted, so we encourage timely turnaround in case 
+revisions take more than one cycle to be accepted.
+
+*Minor Revision*: The reviewers have concerns that go beyond what can 
+be enumerated in a list. Therefore, while you may receive a list of 
+revisions suggested by the reviewers, this will not necessarily be 
+comprehensive. You will have the opportunity to resubmit your revised
+paper and have it re-reviewed by the same reviewers, which may or may
+not result in your paper's acceptance. When you resubmit, you should 
+clearly explain how the revisions address the comments of the 
+reviewers, by including a document describing the changes and "if 
+possible" a diff of the PDF as supplementary material. This process 
+*has to be completed within two months of the initial decision* for the 
+paper to be accepted in the current round, so we encourage timely 
+turnaround in case revisions take more than one cycle to be accepted.
+
+*Major Revision*: You will receive a list of revisions suggested by the 
+reviewers. Papers in this category are *invited to submit a revision 
+to the next round of submissions* with a specific set of expectations 
+to be met. When you resubmit, you should clearly explain how the 
+revisions address the comments of the reviewers, by including a 
+document describing the changes and "if possible" a diff of the PDF as 
+supplementary material. The revised paper will be re-evaluated in the 
+next round. Resubmitted papers will retain the same reviewers 
+throughout the process to the extent possible.
+
+*Reject*: Rejected papers will not be included in the upcoming volume 
+of PACMPL(OOPSLA). Papers in this category are not guaranteed a review 
+if resubmitted less than one year from the date of the original 
+submission. A paper will be judged to be a resubmission if it is 
+substantially similar to the original submission. The Chairs will 
+decide whether or not a paper is a resubmission of the same work.
+
+### Submissions
+
+Submitted papers must be at most **23 pages** in 10 point font. There 
+is no page limit on references. No appendices are allowed on the main 
+paper, instead authors can upload supplementary material with no page 
+or content restrictions, but reviewers may choose to ignore it. 
+Submissions must adhere to the "ACM Small" template available from 
+[the ACM](http://www.acm.org/publications/authors/submissions). Papers 
+are expected to use author-year citations. Author-year citations may be 
+used as either a noun phrase, such as "The lambda calculus was 
+originally conceived by Church (1932)", or a parenthetic phase, such 
+as "The lambda calculus (Church 1932) was intended as a foundation for 
+mathematics".
+
+PACMPL uses double-blind reviewing. Authors' identities are only 
+revealed if a paper is accepted. Papers must
+
+1. omit author names and institutions,
+2. use the third person when referencing your work,
+3. anonymise supplementary material.
+
+Nothing should be done in the name of anonymity that weakens the 
+submission; see the DBR FAQ. When in doubt, contact the Review 
+Committee Chairs.
+
+Papers must describe unpublished work that is not currently submitted 
+for publication elsewhere as described by [SIGPLAN's Republication  
+Policy](http://www.sigplan.org/Resources/Policies/Republication). 
+Submitters should also be aware of [ACM's Policy and Procedures on 
+Plagiarism](http://www.acm.org/publications/policies/plagiarism_policy). 
+Submissions are expected to comply with the [ACM Policies for 
+Authorship](https://www.acm.org/publications/authors/information-for-authors).
+
+#### Artifacts
+
+Authors should indicate with their initial submission if an artifact 
+exists, describe its nature and limitations, and indicate if it will 
+be submitted for evaluation. Accepted papers that fail to provide an 
+artifact will be requested to explain the reason they cannot support 
+replication. It is understood that some papers have no artifacts. 
+Please note that the artifact submission deadline will be following 
+closely the paper submission deadline so make sure you check the 
+Artifact Call as soon as you submit your paper to PACMPL(OOPSLA).
+
+##### Data-Availability Statement
+
+To help readers find data and software, OOPSLA recommends adding a 
+section just before the references titled Data-Availability Statement. 
+If the paper has an artifact, cite it here. If there is no artifact, 
+this section can explain how to obtain relevant code. The statement 
+does not count toward the OOPSLA 2024 page limit. It may be included 
+in the submitted paper; in fact we encourage this, even if the DOI is 
+not ready yet.
+
+Example:
+
+\section{Conclusion}
+....
+
+\section*{Data-Availability Statement}
+The software that supports~\cref{s:design,s:evaluation}
+is available on Software Heritage~\cite{artifact-swh}
+and Zenodo~\cite{artifact-doi}.
+
+\begin{acks}
+....
+
+#### Expert PC Members
+
+During the submission, we will ask you to list up to 3 non-conflicted 
+PC members who you think are experts on the topic of this submission, 
+starting with the most expert. This list will not be used as an input 
+during the paper assignment and it will not be visible to the PC. It 
+may be used by the PC Chair and Associate Chairs for advice on 
+external experts if the paper lacks expert reviews. 
+
+### Publication
+
+PACMPL is a Gold Open Access journal, all papers will be freely 
+available to the public. Authors can voluntarily cover the article 
+processing charge ($400 USD), but payment is not required. The 
+official publication date is the date the journal is made available in 
+the ACM Digital Library. The journal issue and associated papers may 
+be published up to two weeks prior to the first day of the conference. 
+The official publication date affects the deadline for any patent 
+filings related to published work.
+
+By submitting your article to an ACM Publication, you are 
+acknowledging that you and your co-authors are subject to all [ACM 
+Publications Policies](https://www.acm.org/publications/policies), 
+including ACM’s [new Publications Policy on Research Involving Human 
+Participants and Subjects](https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects). 
+Alleged violations of this policy or an ACM Publications Policy will 
+be investigated by ACM and may result in a full retraction of your 
+paper, in addition to other potential penalties, as per ACM 
+Publications Policy.
+
+Please ensure that you and your co-authors obtain [an ORCID ID](https://orcid.org/register), 
+so you can complete the publishing process for your accepted paper. 
+ACM has been involved in ORCID from the start and we have recently 
+made a [commitment to collect ORCID IDs from all of our published 
+authors](https://authors.acm.org/author-resources/orcid-faqs). 
+We are committed to improving author discoverability, ensuring proper 
+attribution and contributing to ongoing community efforts around name 
+normalization; your ORCID ID will help in these efforts.
+
+The ACM Publications Board has recently updated the ACM Authorship 
+Policy in several ways:
+
+- Addressing the use of generative AI systems in the publications 
+process
+- Clarifying criteria for authorship and the responsibilities of 
+authors
+- Defining prohibited behaviour, such as gift, ghost, or purchased 
+authorship
+- Providing a linked FAQ explaining the rationale for the policy and 
+providing additional details
+
+You can find the updated policy here:
+
+[https://www.acm.org/publications/policies/new-acm-policy-on-authorship](https://www.acm.org/publications/policies/new-acm-policy-on-authorship)
+
+##### Review Committee
+
+Review Committee Chairs:
+
+Alex Potanin, Australian National University, Australia
+Bor-Yuh Evan Chang, University of Colorado Boulder, USA
+
+Review Committee Associate Chairs:
+
+Anders Møller, Aahrus University, Denmark
+Lingming Zhang, UIUC, USA
+
+Review Committee:
+
+Aleksandar Nanevski, IMDEA Software Institute, Spain
+Alex Summers, University of British Columbia, Canada
+Alexandra Bugariu, ETH Zurich, Switzerland
+Ana Milanova, Rensselaer Polytechnic Institute, USA
+Andreas Zeller, CISPA Helmholtz Center for Information Security, Germany
+Anitha Gollamudi, UMass, USA
+Ankush Desai, AWS, USA
+Ashish Tiwari, Microsoft Research, USA
+Ben Hermann, TU Dortmund, Germany
+Ben Titzer, CMU, USA
+Benjamin Delaware, Purdue University, USA
+Bernardo Toninho, Universidade Nova de Lisboa, Portugal
+Bruno C. d. S. Oliveira, U. Hong Kong, Hong Kong
+Burcu Kulahcioglu Ozkan, Delft University of Technology, The Netherlands
+Casper Bach Poulsen, Delft University of Technology, Netherlands
+Colin Gordon, Drexel University, USA
+Corina Pasarenau, NASA, USA
+Cyrus Omar, University of Michigan, USA
+Damien Zufferey, Sonar Source, Switzerland
+Dana Drachsler Cohen, Technion, Israel
+David Darais, Galois, USA
+David Pearce, ConsenSys, New Zealand
+Di Wang, Peking University, China
+Emma Söderberg, Lund University, Sweden
+Emma Tosch, Northeastern University, USA
+Fabian Muehlboeck, Australian National University, Australia
+Fei He, Tsinghua University, China
+Filip Niksic, Google, USA
+Fredrik Kjolstad, Stanford University, USA
+Guido Salvaneschi, University of St. Gallen, Switzerland
+Hila Peleg, Technion, Israel
+Jiasi Shen, The Hong Kong University of Science and Technology, China (Hong Kong)
+Jonathan Bell, Northeastern University, USA
+Jonathan Brachthäuser, University of Tübingen, Germany
+Joseph Tassarotti, New York University, USA
+Justin Hsu, Cornell University, USA
+Karine Even-Mendoza, King's College London, UK
+Kenji Maillard, Inria Rennes, France
+Matthew Flatt, U. Utah, USA
+Matthew Parkinson, Microsoft, UK
+Max Schaefer, GitHub, UK
+Michael Coblenz, UCSD, USA
+Milos Gligoric, UT Austin, USA
+Minseok Jeon, Korea University, Korea
+Mohamed Faouzi Atig, Uppsala University, Sweden
+Owolabi Legunsen, Cornell University, USA
+Pamela Zave, AT&T Laboratories, USA
+Pavel Panchekha, University of Utah, USA
+Rahul Gopinath, University of Sydney, Australia
+Rajiv Gupta, UC Riverside, USA
+Saman Amarasinghe, MIT, USA
+Santosh Pande, Georgia Institute of Technology, USA
+Sean Treichler, NVIDIA, USA
+Shachar Itzhaky, Technion, Israel
+Shaz Qadeer, Facebook, USA
+Sheng Chen, University of Louisiana at Lafayette, USA
+Shigeru Chiba, University of Tokyo, Japan
+Shriram Krishnamurthi, Brown University, USA
+Sreepathi Pai, University of Rochester, USA
+Stefan Brunthaler, University of the Federal Armed Forces in Munchen, Germany
+Steve Blackburn, Google, Australia
+Subhajit Roy, IIT Kanpur, India
+Sukyoung Ryu, KAIST, Korea
+Swarnendu Biswas, IIT Kanpur, India
+Thanh Vu Nguyen, George Mason University, USA
+Tiark Rompf, Purdue, USA
+Tien Nguyen, University of Texas at Dallas, USA
+Tomas Petricek, Charles University, Czech Republic
+Umut Acar, CMU, USA
+Wei Le, Iowa State, USA
+Wei Zhang , Meta, USA
+Xiaokang Qiu, Purdue University, USA
+Yingfei Xiong, Peking University, China
+Yizhou Zhang, University of Waterloo, Canada
+Youyou Cong, Tokyo Institute of Technology, Japan
+Yu David Liu, Binghamton, USA
+Yu Feng, UCSB, USA
+Yuepeng Wang, Simon Fraser University, Canada
+
+##### Artifact Evaluation Committee
+
+Artifact Evaluation Committee Chairs:
+
+Guillaume Baudart, Inria - École normale supérieure, France
+Sankha Narayan Guria, University of Kansas, USA
