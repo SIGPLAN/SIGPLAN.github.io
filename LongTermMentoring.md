@@ -110,6 +110,7 @@ We'd like to thank these amazing mentors:
 - Sukyoung Ryu
 - Roopsha Samanta
 - Mike Samuel
+- Satnam Singh
 - Gus Smith
 - Caleb Stanford
 - Kathrin Stark
