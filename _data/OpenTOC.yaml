@@ -1305,3 +1305,47 @@
   event: TyDe
   year: 2023
   title: "Proceedings of the 8th ACM SIGPLAN International Workshop on Type-Driven Development"
+-
+  event: MPLR
+  year: 2023
+  title: "Proceedings of the 20th ACM SIGPLAN International Conference on Managed Programming Languages and Runtimes"
+-
+  event: FTSCS
+  year: 2023
+  title: "Proceedings of the 9th ACM SIGPLAN International Workshop on Formal Techniques for Safety-Critical Systems"
+-
+  event: SPLASH-E
+  year: 2023
+  title: "Proceedings of the 2023 ACM SIGPLAN International Symposium on SPLASH-E"
+-
+  event: PAINT
+  year: 2023
+  title: "Proceedings of the 2nd ACM SIGPLAN International Workshop on Programming Abstractions and Interactive Notations, Tools, and Environments"
+-
+  event: REBLS
+  year: 2023
+  title: "Proceedings of the 10th ACM SIGPLAN International Workshop on Reactive and Event-Based Languages and Systems"
+-
+  event: VMIL
+  year: 2023
+  title: "Proceedings of the 15th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages"
+-
+  event: Onward!
+  year: 2023
+  title: "Proceedings of the 2023 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software"
+-
+  event: GPCE
+  year: 2023
+  title: "Proceedings of the 22nd ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences"
+-
+  event: SLE
+  year: 2023
+  title: "Proceedings of the 16th ACM SIGPLAN International Conference on Software Language Engineering"
+-
+  event: DLS
+  year: 2023
+  title: "Proceedings of the 19th ACM SIGPLAN International Symposium on Dynamic Languages"
+-
+  event: SPLASH
+  year: 2023
+  title: "Companion Proceedings of the 2023 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity"

@@ -1,0 +1,115 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>FTSCS 2023: Proceedings of the 9th ACM SIGPLAN International Workshop on Formal Techniques for Safety-Critical Systems</title></head><body><div id="DLtoc"><div id="DLheader"><h1>FTSCS 2023: Proceedings of the 9th ACM SIGPLAN International Workshop on Formal Techniques for Safety-Critical Systems</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3623503"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Invited Talk</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623503.3628255">Bounded STL Model Checking for Hybrid Systems (Invited Talk)</a></h3><ul class="DLauthors"><li class="nameList Last">Kyungmin Bae</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Signal temporal logic (STL) is a temporal logic formalism for specifying properties of continuous signals. STL has been widely used for specifying, monitoring, and testing properties of hybrid systems that exhibit both discrete and continuous behavior. However, model checking techniques for hybrid systems have been primarily limited to invariant and reachability properties. This is mainly due to the intrinsic nature of hybrid systems, which involve uncountably many signals that continuously change over time. For hybrid systems, checking whether all possible behaviors satisfy an STL formula requires a certain form of abstraction and discretization, which has not been developed for general STL properties.  
+</p>
+<p>
+In this talk, I introduce bounded model checking algorithms and tools for general STL properties of hybrid systems. Central to our technique is a novel logical foundation for STL: (i) a syntactic separation of STL, which decomposes an STL formula into components, with each component relying exclusively on separate segments of a signal, and (ii) a signal discretization, which ensures a complete abstraction of a signal, given by a set of discrete elements. With this new foundation, the STL model checking problem can be reduced to the satisfiability of a first-order logic formula. This allows us to develop the first model checking algorithm for STL that can guarantee the correctness of STL up to given bound parameters, and a pioneering bounded model checker for hybrid systems, called STLmc.</p>
+			</div></div>
+							
+						<h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623503.3623536">Formal Verification of a Mechanical Ventilator using UPPAAL</a></h3><ul class="DLauthors"><li class="nameList">Jaime Cuartas</li><li class="nameList">David Cortés</li><li class="nameList">Joan S. Betancourt</li><li class="nameList">Jesús Aranda</li><li class="nameList">José I. García</li><li class="nameList">Andrés M. Valencia</li><li class="nameList Last">James Ortiz</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Mechanical ventilators are increasingly used for life support of critically ill patients. In this sense, despite recent technological advances, the accurate specification of their properties remains challenging, and the use of formal tools is limited. This work focuses on verifying the properties of the architecture of a mechanical ventilator using UPPAAL as a modeling tool. As a result, the system requirements and specification of a functional prototype were verified and improved using the formal model of a mechanical ventilator. This approach provides a valuable means of ensuring the correctness and reliability of mechanical ventilator systems.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623503.3623537">Symbolic Analysis by Using Folding Narrowing with Irreducibility and SMT Constraints</a></h3><ul class="DLauthors"><li class="nameList">Santiago Escobar</li><li class="nameList">Raúl López-Rueda</li><li class="nameList Last">Julia Sapiña</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Symbolic reachability analysis using rewriting with Satisfiability Modulo Theories (SMT) has been used to model different systems, including a variety of security protocols. Recently, it has also been used to analyze systems modeled using Parametric Timed Automata (PTAs). These techniques are based on reachability in a finite state graph generated from symbolic initial states where each generated state is constrained by an SMT expression checked for satisfiability. In this work, by rewriting with SMT but by narrowing with SMT. we use narrowing with SMT instead of rewriting with SMT. Narrowing with SMT allows a greater generalization, since (i) an infinite number of initial states may be represented by a finite number of states with variables, not only SMT variables, and (ii) an infinite state graph from an initial state may be represented by a finite state graph from another initial state with variables, not only SMT variables. We use graph search pruning techniques via irreducible terms and SMT constraints on conditional rules. This is supported by a novel folding SMT narrowing technique to represent infinite computations in a finite way. Additionally, we present a new textual user interface that allows the use of the algorithm in a simpler and more readable way.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623503.3623533">Probabilistic Risk Assessment of an Obstacle Detection System for GoA 4 Freight Trains</a></h3><ul class="DLauthors"><li class="nameList">Mario Gleirscher</li><li class="nameList">Anne E. Haxthausen</li><li class="nameList Last">Jan Peleska</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We propose a quantitative risk assessment approach for the design of an obstacle detection function for low-speed freight trains with grade of automation 4. In this five-step approach, starting with single detection channels and ending with a three-out-of-three model comprised of three independent dual-channel modules and a voter, we exemplify a probabilistic assessment, using a combination of statistical methods and parametric stochastic model checking. We illustrate that, under certain not unreasonable assumptions, the resulting hazard rate becomes acceptable for the discussed application setting. The statistical approach for assessing the residual risk of misclassifications in convolutional neural networks and conventional image processing software suggests that high confidence can be placed into the safety-critical obstacle detection function, even though its implementation involves realistic machine learning uncertainties.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623503.3623534">Does Rust SPARK Joy? Safe Bindings from Rust to SPARK, Applied to the BBQueue Library</a></h3><ul class="DLauthors"><li class="nameList">Aïssata Maiga</li><li class="nameList">Cyrille Artho</li><li class="nameList">Florian Gilcher</li><li class="nameList Last">Yannick Moy</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Both Rust and SPARK are memory-safe programming languages and feature stronger safety guarantees than other popular programming languages for embedded software. However, modern systems often combine software written in multiple programming languages using the Foreign Function Interface (FFI). When using safety-oriented programming languages such as Rust and SPARK, maintaining compile-time safety guarantees across a language boundary is a challenge. The objective of this study is to explore if/how the inherent safety guarantees of these languages are preserved, and their potential benefits when establishing a library interface between them. In particular, we apply our method to the BBQueue circular buffer library that features complex ownership hand-over patterns when using FFI. Results reveal that most of the inherent consistency and safety features of these languages can be maintained. Yet, special caution is required at the FFI boundary to prevent potential vulnerabilities.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623503.3623535">Solving Queries for Boolean Fault Tree Logic via Quantified SAT</a></h3><ul class="DLauthors"><li class="nameList">Caz Saaltink</li><li class="nameList">Stefano M. Nicoletti</li><li class="nameList">Matthias Volk</li><li class="nameList">Ernst Moritz Hahn</li><li class="nameList Last">Mariëlle Stoelinga</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Fault trees (FTs) are hierarchical diagrams used to model the propagation of faults in a system. Fault tree analysis (FTA) is a widespread technique that allows to identify the key factors that contribute to system failure. In recent work we introduced <em>BFL</em>, a Boolean Logic for Fault trees.	<em>BFL</em> can be used to formally define simple yet expressive properties for FTA, e.g.: 1) we can set evidence to analyse what-if scenarios; 2) check whether two elements are independent or if they share a child that can influence their status; 3) and set upper/lower boundaries for failed elements. Furthermore, we provided algorithms based on binary decision diagrams (BDDs) to check <em>BFL</em> properties on FTs. In this work, we evaluate usability of a different approach by employing quantified Boolean formulae (QBFs) instead of BDDs. We present a translation from <em>BFL</em> to QBF and provide an implementation—making it the first tool for checking <em>BFL</em> properties—that builds on top of the Z3 solver. We further demonstrate its usability on a case study FT and investigate runtime, memory consumption and scalability on a number of benchmark FTs. Lastly, qualitative differences from a BDD-based approach are discussed.</p>
+			</div></div>
+							
+						</div></div></body></html>

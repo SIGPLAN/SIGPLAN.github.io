@@ -1,0 +1,180 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>GPCE 2023: Proceedings of the 22nd ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences</title></head><body><div id="DLtoc"><div id="DLheader"><h1>GPCE 2023: Proceedings of the 22nd ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3624007"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3624007.3624050">Automatically Generated Supernodes for AST Interpreters Improve Virtual-Machine Performance</a></h3><ul class="DLauthors"><li class="nameList">Matteo Basso</li><li class="nameList">Daniele Bonetta</li><li class="nameList Last">Walter Binder</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Abstract syntax tree (AST) interpreters allow implementing programming languages in a straight-forward way. However, AST interpreters implemented in object-oriented languages, such as e.g. in Java, often suffer from two serious performance issues. First, these interpreters commonly implement AST nodes by leveraging class inheritance and polymorphism, leading to many polymorphic call sites in the interpreter implementation and hence lowering interpreter performance. Second, widely used implementations of these interpreters throw costly runtime exceptions to model the control flow. Even though Just-in-Time (JIT) compilation mitigates these issues, performance in the first stages of the program execution remains poor.  
+</p>
+<p>
+In this paper, we propose a novel technique to improve both interpreter performance and steady-state performance, lowering also the pressure on the JIT compiler. Our technique automatically generates AST supernodes ahead-of-time, i.e., we automatically generate compound AST-node classes that encode the behavior of several other primitive AST nodes before the execution of the application. Our technique extracts common control-flow structures from an arbitrary, given set of ASTs, such as e.g. the functions of popular packages. It is based on matchmaking of AST structures, instantiation of matching supernodes, and replacement of the corresponding AST subtrees with the instantiated supernodes at load-time. We implement our technique in the GraalVM JavaScript engine, showing that our supernodes lead to an average interpreter speedup of 1.24x, an average steady-state speedup of 1.14x, and an average just-in-time compilation speedup of 1.33x on the web-tooling benchmark suite.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3624007.3624051">A Monadic Framework for Name Resolution in Multi-phased Type Checkers</a></h3><ul class="DLauthors"><li class="nameList">Casper Bach Poulsen</li><li class="nameList">Aron Zwaan</li><li class="nameList Last">Paul Hübner</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>An important aspect of type checking is name resolution --- i.e., determining the types of names by resolving them to a matching declaration.  
+ For most languages, we can give typing rules that define name resolution in a way that abstracts from what order different units of code should be checked in.  
+ However, implementations of type checkers in practice typically use multiple phases to ensure that declarations of resolvable names are available before names are resolved.  
+ This gives rise to a gap between typing rules that abstract from order of type checking and multi-phased type checkers that rely on explicit ordering.  
+</p>
+<p>
+ This paper introduces techniques that reduce this gap.  
+ First, we introduce a monadic interface for phased name resolution which detects and rejects type checking runs with name resolution phasing errors where names were wrongly resolved because some declarations were not available when they were supposed to be.  
+ Second, building on recent work by Gibbons et al., we use applicative functors to compositionally map abstract syntax trees onto (phased) monadic computations that represent typing constraints.  
+ These techniques reduce the gap between type checker implementations and typing rules in the sense that (1) both are given by compositional mappings over abstract syntax trees, and (2) type checker cases consist of computations that roughly correspond to typing rule premises, except these are composed using monadic combinators.  
+ We demonstrate our approach by implementing type checkers for Mini-ML with Damas-Hindley-Milner type inference, and LM, a toy module language with a challenging import resolution policy.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3624007.3624052">A pred-LL(*) Parsable Typed Higher-Order Macro System for Architecture Description Languages</a></h3><ul class="DLauthors"><li class="nameList">Christoph Hochrainer</li><li class="nameList Last">Andreas Krall</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Macro systems are powerful language extension tools for  
+Architecture Description Languages (ADLs).  
+Their generative power in combination with  
+the simplicity of specification languages allows for a substantial  
+reduction of repetitive specification sections.  
+This paper explores how  
+the introduction of function- and record types  
+in a template-based macro system impacts the specification of ADLs.  
+We present design and implementation of a pattern-based syntax macro system for  
+the Vienna Architecture Description Language (VADL).  
+The macro system is directly integrated into the language and  
+is analyzed at parse time using a context-sensitive pred-LL(*) parser.  
+The usefulness of the macro system is illustrated by some typical macro  
+application design patterns.  
+The effectiveness is shown by a detailed evaluation of the Instruction Set  
+Architecture (ISA) specification of five different processor architectures.  
+The observed specification reduction can be up to 90 times, leading to improved  
+maintainability, readability and runtime performance of the specifications.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3624007.3624053">C2TACO: Lifting Tensor Code to TACO</a></h3><ul class="DLauthors"><li class="nameList">José Wesley de Souza Magalhães</li><li class="nameList">Jackson Woodruff</li><li class="nameList">Elizabeth Polgreen</li><li class="nameList Last">Michael F. P. O'Boyle</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Domain-specific languages (DSLs) promise a significant performance and portability advantage over traditional languages. DSLs are designed to be high-level and platform-independent, allowing an optimizing compiler significant leeway when targeting a particular device. Such languages are particularly popular with emerging tensor algebra workloads. However, DSLs present their own challenge: they require programmers to learn new programming languages and put in significant effort to migrate legacy code.  
+</p>
+<p>
+We present C2TACO, a synthesis tool for synthesizing TACO, a well-known tensor DSL, from C code. We develop a smart, enumerative synthesizer that uses automatically generated IO examples and source-code analysis to efficiently generate code. C2TACO is able to synthesize 95% bench marks from a tensor benchmark suite, out-performing an alternative neural machine translation technique, and demonstrates substantially higher levels of accuracy when evaluated against two state-of-the-art existing schemes, TF-Coder and ChatGPT. Our synthesized TACO programs are, by design, portable achieving significant performance improvement when evaluated on a multi-core and GPU platform.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3624007.3624054">Partial Evaluation of Automatic Differentiation for Differential-Algebraic Equations Solvers</a></h3><ul class="DLauthors"><li class="nameList">Oscar Eriksson</li><li class="nameList">Viktor Palmkvist</li><li class="nameList Last">David Broman</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Differential-Algebraic Equations (DAEs) are the foundation of high-level equation-based languages for modeling physical dynamical systems. Simulating models in such languages requires a transformation known as index reduction that involves differentiating individual equations before numerical integration. Commercial and open-source implementations typically perform index reduction by symbolic differentiation (SD) and produce a Jacobian callback function with forward-mode automatic differentiation (AD). The former results in efficient runtime code, and the latter is asymptotically efficient in both runtime and code size. However, AD introduces runtime overhead caused by a non-standard representation of real numbers, and SD is not always applicable in models with general recursion. This work proposes a new approach that uses partial evaluation of AD in the context of numerical DAE solving to combine the strengths of the two differentiation methods while mitigating their weaknesses. Moreover, our approach selectively specializes partial derivatives of the Jacobian by exploiting structural knowledge while respecting a user-defined bound on the code size. Our evaluation shows that the new method both enables expressive modeling from AD and retains the efficiency of SD for many practical applications.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3624007.3624055">Crossover: Towards Compiler-Enabled COBOL-C Interoperability</a></h3><ul class="DLauthors"><li class="nameList">Mart van Assen</li><li class="nameList">Manzi Aimé Ntagengerwa</li><li class="nameList">Ömer Sayilir</li><li class="nameList Last">Vadim Zaytsev</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Interoperability across software languages is an important practical topic. In this paper, we take a deep dive into investigating and tackling the challenges involved with achieving interoperability between C and BabyCobol. The latter is a domain-specific language condensing challenges found in compiling legacy languages — borrowing directly from COBOL's data philosophy. Crossover, a compiler designed specifically to showcase the interoperability, exposes details of connecting a COBOL-like language with PICTURE clauses and re-entrant procedures, to C with primitive types and struct composites. Crossover features a C library for overcoming the differences between the data representations native to the respective languages. We illustrate the design process of Crossover and demonstrate its usage to provide a strategy to achieve interoperability between legacy and modern languages. The described process is aimed to be a blueprint for achievable interoperability between full-fledged COBOL and modern C-like programming languages.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3624007.3624056">Generating Conforming Programs with Xsmith</a></h3><ul class="DLauthors"><li class="nameList">William Hatch</li><li class="nameList">Pierce Darragh</li><li class="nameList">Sorawee Porncharoenwase</li><li class="nameList">Guy Watson</li><li class="nameList Last">Eric Eide</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Fuzz testing is an effective tool for finding bugs in software, including programming language compilers and interpreters.  
+Advanced fuzz testers can find deep semantic bugs in language implementations through differential testing.  
+However, input programs used for differential testing must not only be syntactically and semantically valid, but also be free from nondeterminism and undefined behaviors.  
+Developing a fuzzer that produces such programs can require tens of thousands of lines of code and hundreds of person-hours.  
+Despite this significant investment, fuzzers designed for differential testing of different languages include many of the same features and analyses in their implementations.  
+To make the implementation of language fuzz testers for differential testing easier, we introduce Xsmith.  
+</p>
+<p>
+Xsmith is a Racket library and domain-specific language that provides mechanisms for implementing a fuzz tester in only a few hundred lines of code.  
+By sharing infrastructure, allowing declarative language specification, and by allowing procedural extensions, Xsmith allows developers to write correct fuzzers for differential testing with little effort.  
+We have developed fuzzers for several languages, and found bugs in implementations of Racket, Dafny, Standard ML, and WebAssembly.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3624007.3624057">Multi-Stage Vertex-Centric Programming for Agent-Based Simulations</a></h3><ul class="DLauthors"><li class="nameList Last">Zilu Tian</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In vertex-centric programming, users express a graph algorithm as a vertex program and specify the iterative behavior of a vertex in a <em>compute</em> function, which is executed by all vertices in a graph in parallel, synchronously in a sequence of supersteps. While this programming model is straightforward for simple algorithms where vertices behave the same in each superstep, for complex vertex programs where vertices have different behavior across supersteps, a vertex needs to frequently dispatch on the value of supersteps in <em>compute</em>, which suffers from unnecessary interpretation overhead and complicates the control flow. </p><p>We address this using meta-programming: instead of branching on the value of a superstep, users separate instructions that should be executed in different supersteps via a staging-time <em>wait</em>() instruction. When a superstep starts, computations in a vertex program resume from the last execution point, and continue executing until the next <em>wait</em>(). We implement this in the programming model of an agent-based simulation framework CloudCity and show that avoiding the interpretation overhead caused by dispatching on the value of a superstep can improve the performance by up to 25% and lead to more robust performance.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3624007.3624058">Unleashing the Power of Implicit Feedback in Software Product Lines: Benefits Ahead</a></h3><ul class="DLauthors"><li class="nameList">Raul Medeiros</li><li class="nameList">Oscar Díaz</li><li class="nameList Last">David Benavides</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Software Product Lines (SPLs) facilitate the development of a complete range of software products through systematic reuse. Reuse involves not only code but also the transfer of knowledge gained from one product to others within the SPL. This transfer includes bug fixing, which, when encountered in one product, affects the entire SPL portfolio. Similarly, feedback obtained from the usage of a single product can inform beyond that product to impact the entire SPL portfolio. Specifically, <em>implicit</em> feedback refers to the automated collection of data on software usage or execution, which allows for the inference of customer preferences and trends. While implicit feedback is commonly used in single-product development, its application in SPLs has not received the same level of attention. This paper promotes the investigation of implicit feedback in SPLs by identifying a set of SPL activities that can benefit the most from it. We validate this usefulness with practitioners using a questionnaire-based approach (n=8). The results provide positive insights into the advantages and practical implications of adopting implicit feedback at the SPL level.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3624007.3624059">Virtual Domain Specific Languages via Embedded Projectional Editing</a></h3><ul class="DLauthors"><li class="nameList">Niklas Korz</li><li class="nameList Last">Artur Andrzejak</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Domain Specific Languages (DSLs) can be implemented as either <em>internal</em> DSL, i.e. essentially a library in a host general-purpose programming language (GPL), or as <em>external</em> DSL which is a stand-alone language unconstrained in its syntax. This choice implies an inherent trade-off between a limited syntactic and representational flexibility (internal DSLs), or an involved integration with GPLs and the need for a full stack of tools from a parser to a code generator (external DSLs). </p><p>We propose a solution which addresses this problem by representing a subset of a GPL - from simple code patterns to complex API calls - as GUI widgets in a hybrid editor. Our approach relies on matching parametrized patterns against the GPL program, and displaying the matched parts as dynamically rendered widgets. Such widgets can be interpreted as components of an external DSL. Since the source code is serialized as GPL text without annotations, there is no DSL outside the editor - hence the term ‘virtual’ DSL. </p><p>This solution has several advantages. The underlying GPL and the virtual DSL can be mixed in a compositional way, with zero cost of their integration. The project infrastructure does not need to be adapted. Furthermore, our approach works with mainstream GPLs like Python or JavaScript. </p><p>To lower the development effort of such virtual DSLs, we also propose an approach to generate patterns and the corresponding text-only GUI widgets from pairs of examples. </p><p>We evaluate our approach and its implementation on use cases from several domains. A live demo of the system can be accessed at https://puredit.korz.dev/ and the source code with examples at https://github.com/niklaskorz/puredit/.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3624007.3624060">Generating Constraint Programs for Variability Model Reasoning: A DSL and Solver-Agnostic Approach</a></h3><ul class="DLauthors"><li class="nameList">Camilo Correa Restrepo</li><li class="nameList">Jacques Robin</li><li class="nameList Last">Raul Mazo</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Verifying and configuring large Software Product Lines (SPL) requires automation tools. Current state-of-the-art approaches involve translating variability models into a formalism accepted as input by a constraint solver. There are currently no standards for variability modeling languages (VML). There is also a variety of constraint solver input languages. This has resulted in a multiplication of ad-hoc architectures and tools specialized for a single pair of VML and solver, fragmenting the SPL community. To overcome this limitation, we propose a novel architecture based on model-driven code generation, where the syntax and semantics of VMLs can be declaratively specified as data, and a standard, human-readable, formal pivot language is used between the VML and the solver input language. This architecture is the first to be fully generic by being agnostic to both VML and the solver paradigm. To validate the genericity of the approach, we have implemented a prototype tool together with declarative specifications for the syntax and semantics of two different VMLs and two different solver families. One VML is for classic, static SPL, and the other for run-time reconfigurable <em>dynamic</em> SPL with soft constraints to be optimized during configuration. The two solver families are Constraint Satisfaction Programs (CSP) and Constraint Logic Programs (CLP).</p>
+			</div></div>
+							
+						</div></div></body></html>

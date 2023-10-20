@@ -1,0 +1,155 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>DLS 2023: Proceedings of the 19th ACM SIGPLAN International Symposium on Dynamic Languages</title></head><body><div id="DLtoc"><div id="DLheader"><h1>DLS 2023: Proceedings of the 19th ACM SIGPLAN International Symposium on Dynamic Languages</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3622759"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622759.3628218">All Languages Are Dynamic (Invited Talk)</a></h3><ul class="DLauthors"><li class="nameList Last">James Noble</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Virtual Machines, Dynamic Compllers, and Implementation Frameworks make dynamic langauges easier and more efficient to optimize. Meanwhile, IDEs, provers, dependent types, type inferencers, and (so-called) “generative AI” mean programmers can express - statically - more information about the dynamic behaviour of their programs. Component libraries in these languages will come with assertions and proofs of their behaviour, and their advocates fantasise about transforming programming into the composition of dependently-typed higher-order yoneda morphisms, ensuring programs are correct-by-construction (where that construction is carried out by yet more generative AI).  
+In this talk, I’ll speculate about what the resulting world will be like for programmers. Rather than a static world of platonic mathematical abstractions, I argue that the opposite will be true: that all languages will be dynamic.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622759.3628219">Are We Heading towards a Dynamic Language Winter? (Invited Talk)</a></h3><ul class="DLauthors"><li class="nameList Last">Maxime Chevalier-Boisvert</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Though the 2010s saw many research publications about languages such as JavaScript and Python, there currently appears to be a general loss of interest in dynamic languages, with popular new languages such as Rust and Zig being statically typed, and AOT compilation often being viewed as a preferable option to JIT compilation. There is a legitimate question as to whether we are headed towards, or already in, a dynamic language “winter”, with reduced interest from industry and reduced access to funding for dynamic language research. However, despite this, many of the most popular languages (Python, JS, Julia, etc.) are still dynamically typed. In this talk, we discuss questions such as potential causes for a dynamic language winter, what makes statically typed languages so attractive at this time, the major strengths of dynamic languages that could help turn the tide, and what may come after.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622759.3628221">Is Polyglot Programming Really a Thing? (Invited Talk)</a></h3><ul class="DLauthors"><li class="nameList Last">Walter Cazzola</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Polyglot programming is the practice of writing an application with multiple languages to capture additional functionality and efficiency not available to a single language. This happens more often than people think. Some reasons are: to support different platforms (e.g., Android, iOS), to be more efficient on some parts, to take advantage of features unique to a different ecosystem (e.g., dedicated APIs). But are we ready for polyglot programming? This talk will try to explore the open issues from the point of view of both the multiple programming language integration and from the software engineering development for polyglot programming.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622759.3628222">JITs Are Nice, but Why Aren’t We Using Them? (Invited Talk)</a></h3><ul class="DLauthors"><li class="nameList Last">Kevin Menard</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Dynamic languages have evolved quite a bit over the past few decades. While there’s always room for improvement, the current generation of languages have rich semantics and expressive syntax, making for a pleasant developer experience. Developers can clearly represent ideas, decreasing the maintenance burden while supporting rapid development. Dynamic languages such as Python, Ruby, JavaScript, PHP, and Lua power a substantial portion of web applications and services today. However, diminishing returns in terms of single-core performance and memory bandwidth improvements combined with the limited computational resources available in budget-minded cloud computing have  
+highlighted the inefficiencies of language interpreters. To remain relevant in the decades to come, dynamic language VMs must make a concerted effort to reduce overhead and make effective use of performance features made available by the underlying platform. Dynamic optimization through JIT compilation has proven to be an effective mechanism for improving dynamic language performance, but building and maintaining a JIT compiler is an expensive undertaking. Meta-compilation promises to reduce those costs, but incurs other costs that hamper adoption in industry. Through the lens of a company deploying thousands of Ruby projects into production, we assess the limitations of current VMs, highlight the most impactful advancements, and consider what’s most important for the coming decades.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622759.3628223">Keeping the asm in Wasm: Running High-Level Languages on a Low-Level VM (Invited Talk)</a></h3><ul class="DLauthors"><li class="nameList Last">Andreas Rossberg</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>WebAssembly (Wasm) is a virtual machine whose defining characteristic is that it is low-level: Wasm is designed to abstract the hardware below, not language concepts above. This is a prerequisite for providing predictable performance and for avoiding language bias without feature creep. At the same time, it is a hard requirement that Wasm is safe and portable, which sometimes necessitates raising its abstraction level above the raw metal. Yet ultimately, the intention is that language runtimes are largely implemented _on top_ of Wasm, in Wasm itself. 
+</p>
+<p>
+Dynamic languages pose a challenge for this model, because achieving acceptable performance for them often requires every dirty trick from the books. Not all of these techniques are easily ported to Wasm with some of its abstractions, or they incur higher cost because a Wasm engine cannot know or trust invariants in the higher-level runtime and may need to perform redundant checks to maintain its own safety. In particular, Wasm will need to supply additional mechanisms to efficiently support techniques like jit compilation or inline caches.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622759.3628224">Language Runtimes for the New Cloud Era (Invited Talk)</a></h3><ul class="DLauthors"><li class="nameList Last">Rodrigo Bruno</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Programming languages offer a number of abstractions such as dynamic typing, sandboxing, and automatic garbage collection which, however, come at a performance cost. Looking back, the most influential programming languages were proposed at a time when Moore’s Law was still in place.  
+Nowadays, post-Moore’s law, scalability, and elasticity become crucial requirements, leading to an increasing tension between programming language design and implementation, and performance. It is now time to discuss the impact of programming languages and language runtimes in the context of scalable and elastic cloud computing platforms with the goal of forecasting their role in the new cloud era.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622759.3628225">Programming Languages for AI Programing Agents (Invited Talk)</a></h3><ul class="DLauthors"><li class="nameList Last">Mark Marron</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Over the past decade software development has shifted from a process centered around writing code to a process that increasingly involves composition of external packages and managing the integration of code from other team members. The next decade-plus will be defined by the shift from a process where humans are the central developers of code into one where AI agents, likely Large Language Model (LLM) based, will be the major creators of code and humans will shift to a supervisory role as curators, integrating rich framework-functionality and code developed by AI programming agents.  
+</p>
+<p>
+In this new world we must ask ourselves – are programming languages as they exist today fit for purpose and how do they evolve to meet the needs of this future programming model. This talk represents an opinionated take on the question and attempts to outline specific areas of investigation that need to be addressed by the PL community as part of this journey including:  
+</p>
+<p>
+What programming language features help/hinder AI agents when understanding and generating code?  
+</p>
+<p>
+What programming language features help/hinder human agents when working with an AI Copilot?  
+</p>
+<p>
+What programming language tools are needed to empower AI agents in creating grounded and reliable outputs?  
+</p>
+<p>
+How can intents be expressed as part of the program representation – examples, constraints, natural language, external documents?  
+</p>
+<p>
+How do we empower end-users as part of this transformation?  
+</p>
+<p>
+What programming language features are needed to support new AI driven workflows – live coding, interactive requirement gathering, AI TDD?  
+</p>
+<p>
+Effectively answering these questions plays a key role in determining if AI driven programming represents a revolution in how software is developed or is limited to being a programming productivity aid for existing development workflows. As such our community should play a central role in understanding this space and leading in the development of this technological transformation!</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622759.3628226">The Bright Future of Debuggers: Challenges and Opportunities (Invited Talk)</a></h3><ul class="DLauthors"><li class="nameList Last">Christophe Scholliers</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Since the first bug was discovered in the Mark Harvard II electromechanical computer it was clear that finding bugs and debugging of computer systems would be an extremely challenging task. Today, various reports indicated that programmers spend approximately 50% of their time on debugging related tasks resulting in an annual cost of $312 billion. Given these astronomical amounts of resources being put into debugging, any technique that improves debugging efficiency is tremendously valuable.  
+</p>
+<p>
+In the last decades various new debugging techniques have been put forward to ease debugging and finding the root cause of a failures. Techniques like record-replay, deltadebugging, model checking, tracing, visualisation, fuzzing, automated debugging, and many more help programmers to be more effective while debugging. Recently, we have seen that some of techniques are slowly finding their way into mainstream debugging practices. In this talk we first give an overview of recent exiting debugging techniques, show their advantages and limitations to then reflect on the challenges and opportunities for further research.</p>
+			</div></div>
+							
+						</div></div></body></html>
