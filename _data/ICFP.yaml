@@ -1,3 +1,17 @@
+2023:
+- Awardee: Ohad Kammar, Sam Lindley and Nicolas Oury
+  Other: |
+    (for 2013) _[Handlers in Action](https://dl.acm.org/doi/abs/10.1145/2500365.2500590)_
+  Citation: |
+    This paper drew the attention of the ICFP community to handlers as
+    an abstraction for effectful computation. In exposition, and in
+    providing the first operational semantics for handlers & effects,
+    and an effect system, it seeded many subsequent
+    works. Pragmatically, it detailed implementation of handlers in
+    Haskell, and outlined the ideas behind OCaml, SML, and Racket
+    implementations, as well as providing experimental results
+    comparing handlers with equivalent monadic code.
+
 2022:
 - Awardee: Deian Stefan, Alejandro Russo, Pablo Buiras, Amit Levy, John C. Mitchell and David Mazières
   Other: |
