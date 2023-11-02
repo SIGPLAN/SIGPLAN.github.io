@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Dynamic Languages Symposium (DLS) "
+title: "Dynamic Languages Symposium (DLS)"
 ---
 The Dynamic Languages Symposium (DLS) is a forum for discussion of
 dynamic languages, their implementation and application. While mature
@@ -17,7 +17,7 @@ DLS 2023
 
 -   Cascais, Portugal, October, 2023
 -   Co-located with SPLASH 2023
--   PC chair: Stefan, University of Kent, UK
+-   PC chair: Stefan Marr, University of Kent, UK
 -   [https://2023.splashcon.org/home/dls-2023](https://conf.researchr.org/home/dls-2023)
 
 
@@ -30,9 +30,9 @@ Awards
     -   Conference: DLS 2012
     -   Paper: [https://dl.acm.org/doi/10.1145/2384577.2384587](https://dl.acm.org/doi/10.1145/2384577.2384587)
     -   Citation: Over the past decade, the authors and their collaborators
-        have taken the ideas from this paper and turned it into the Truffle and GraalVMsystem,
+        have taken the ideas from this paper and turned it into the Truffle and GraalVM system,
         which has revolutionized how we implement languages on the JVM.
-        Today, the GraalVM is a major product and Truffle is a language implementationtechnology
+        Today, the GraalVM is a major product and Truffle is a language implementation technology
         producing high-performance implementations of everything from Ruby to C,
         all built upon the ideas of AST rewriting in the interpreter.
 
