@@ -24,6 +24,22 @@ DLS 2023
 Awards
 ------
 
+-   Most Notable Paper Award 2023 for 2013
+    -   Recipients: Esteban Allende, Johan Fabry, Éric Tanter
+    -   Title: Cast Insertion Strategies for Gradually-Typed Objects
+    -   Conference: DLS 2013
+    -   Paper: [https://doi.org/10.1145/2508168.2508171](https://doi.org/10.1145/2508168.2508171)
+    -   Citation: This paper explored the costs, both at micro and macro scale,
+        of various strategies for protecting gradual types in a gradually-typed
+        programming language, examining how different strategies affected untyped,
+        typed, or both components of code. It is a seminal contribution to understanding
+        the performance of gradual typing, which since then has been an area of important research.
+        The strategies used in gradually-typed languages today can trace their lineage
+        back to the strategies described and proposed in this paper.
+        In particular, the proposed hybrid approach has been adapted time and
+        time again by many systems, giving this work a lasting impact beyond its original scope.
+
+
 -   Most Notable Paper Award 2022 for 2012
     -   Recipients: Thomas Würthinger, Andreas Wöß, Lukas Stadler, Gilles Duboscq, Doug Simon, and Christian Wimmer
     -   Title: Self-optimizing AST interpreters
@@ -134,6 +150,13 @@ Awards
 
 Past Events
 -----------
+
+- DLS 2023
+    -   Cascais, Portugal, October 24, 2023
+    -   Co-located with SPLASH 2023
+    -   PC chairs: Stefan Marr, University of Kent, UK
+    -   [https://2023.splashcon.org/home/dls-2023](https://2023.splashcon.org/home/dls-2023)
+    -   [http://www.dynamic-languages-symposium.org/dls-23/](http://www.dynamic-languages-symposium.org/dls-23/)
 
 - DLS 2022
     -   Auckland, New Zealand, Dec 6, 2022
