@@ -274,12 +274,15 @@ Steering Committee Members
 
 ### Present
 
-* Chair: Tim Felgentreff, Oracle Labs, Germany (SC Chair 2018-2021, PC Chair 2018)
+* Chair: Stefan Marr, University of Kent, UK (SC Chair 2022-2024, PC Chair 2019, 2023)
 * Davide Ancona, Universit&agrave; degli studi di Genova, Italy (PC Chair 2017)
+* Wolfgang De Meuter, Vrije Universiteit Brussel, Belgium (PC Chair 2022)
+* Tim Felgentreff, Oracle Labs, Germany (SC Chair 2018-2021, PC Chair 2018)
+* Arjun Guha, Northeastern University, USA, (PC Chair 2021, 2022)
 * Carl Friedrich Bolz-Tereick, Heinrich-Heine-Universit&auml;t D&uuml;sseldorf, Germany (Past SC Chair 2018-2021, SC Chair 2015-2018, PC Chair 2013)
 * Robert Hirschfeld, Hasso Plattner Institute and University of Potsdam, Germany (Member at Large 2018-2020, Past SC Chair 2015-2018, SC Chair 2007-2015, PC Chair 2007, PC Chair 2006)
-* Stefan Marr, University of Kent, UK (PC Chair 2019)
-* Benjamin C. Pierce, University of Pennsylvania, USA (SIGPLAN 2018-2021)
+
+* Anders Møller, Aarhus University, Denmark (SIGPLAN since 2021)
 * Laurence Tratt, King's College London, UK (Emeritus Member 2018-2020, Emeritus Member 2016-2018, PC Chair 2014)
 
 ### Past
@@ -292,6 +295,7 @@ Steering Committee Members
 * Jeremy Gibbons (SIGPLAN 2012-2015)
 * Roberto Ierusalimschy (PC Chair 2016)
 * James Noble (PC Chair 2009)
+* Benjamin C. Pierce, University of Pennsylvania, USA (SIGPLAN 2018-2021)
 * Manuel Serrano (PC Chair 2015)
 * Peter Thiemann (SIGPLAN 2015-2018)
 * Dave Thomas (Member at Large 2007-2013)
