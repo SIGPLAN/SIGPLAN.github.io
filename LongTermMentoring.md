@@ -99,8 +99,9 @@ We'd like to thank these amazing mentors:
 - Ismail Kuru
 - Patrick Lam
 - Leonidas Lampropoulos
-- Justin Lubin
 - John Leo
+- Yishuai Li
+- Justin Lubin
 - William Mansky
 - Mae Milano
 - Andrey Mokhov
