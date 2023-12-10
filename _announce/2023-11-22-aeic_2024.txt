@@ -1,0 +1,379 @@
+---
+title: "CfC, 28th Ada-Europe Conf. on Reliable Software Technologies (AEiC 2024)"
+timestamp: "11/22/2023 12:25:13"
+deadline: "2/26/2024"
+---
+-----------------------------------------------------------------------
+
+ UPDATED Call for Contributions
+
+28th Ada-Europe International Conference on
+Reliable Software Technologies (AEiC 2024)
+
+11-14 June 2024, Barcelona, Spain
+
+www.ada-europe.org/conference2024
+
+*** Journal track submissions by 15 January 2024 ***
+*** Other submissions by 26 February 2024 ***
+
+Organized by Ada-Europe
+and Barcelona Supercomputing Center (BSC),
+in cooperation with ACM SIGAda, ACM SIGBED, ACM SIGPLAN,
+and Ada Resource Association (ARA)
+
+#AEiC2024 #AdaEurope #AdaProgramming
+
+-----------------------------------------------------------------------
+
+*** General Information
+
+The 28th Ada-Europe International Conference on Reliable Software
+Technologies (AEiC 2024) will take place in Barcelona, Spain.
+
+AEiC is a leading international forum for providers, practitioners,
+and researchers in reliable software technologies.  The conference
+presentations will illustrate current work in the theory and practice
+of the design, development, and maintenance of long-lived, high-quality
+software systems for a challenging variety of application domains.
+The program will also include keynotes, Q&A and discussion sessions,
+and social events.  Participants include practitioners and researchers
+from industry, academia, and government organizations active in the
+development of reliable software technologies.
+
+The topics of interest for the conference include but are not limited
+to (more specific topics are described on the conference web page):
+* Formal and Model-Based Engineering of Critical Systems;
+* High-Integrity Systems and Reliability;
+* AI for High-Integrity Systems Engineering;
+* Real-Time Systems;
+* Ada Language;
+* Applications in Relevant Domains.
+
+The conference comprises different tracks and co-located events:
+* Journal track papers present research advances supported by solid
+  theoretical foundation and thorough evaluation.
+* Industrial track contributions highlight industrial open challenges
+  and/or the practitioners' side of a relevant case study or industrial
+  project.
+* Work-in-progress track papers illustrate novel research ideas
+  that are still at an initial stage, between conception and first
+  prototype.
+* Tutorials guide attenders through a hands-on familiarization with
+  innovative developments or with useful features related to reliable
+  software.
+* Workshops provide discussion forums on themes related to the
+  conference topics.
+* Vendor presentations and exhibitions allow for companies to showcase
+  their latest products and services.
+
+*** Important Dates
+
+15 January 2024  Deadline for submission of journal track papers
+26 February 2024 Deadline for submission of industrial track papers,
+                 work-in-progress papers, tutorial and workshop
+                 proposals
+22 March 2024    First round notification for journal track papers,
+                 and notification of acceptance for all other types
+                 of submissions
+11-14 June 2024  Conference
+
+*** Call for Journal Track Submissions
+
+Following a journal-first model, this edition of the conference
+includes a journal track, which seeks original and high-quality
+papers that describe mature research work on the conference topics.
+Accepted journal track papers will be published in a Special Issue
+of Elsevier JSA - the Journal of Systems Architecture (Q1 ranked,
+CiteScore 8.5, impact factor 4.5).  Accordingly, the conference
+is listed as "Journal Published" in the latest update of the CORE
+Conference Ranking released in August 2023.  Contributions must be
+submitted by 15 January 2024.  Submissions should be made online at
+https://www.editorialmanager.com/jsa/, selecting the "Ada-Europe AEiC
+2024" option (submission page open from 15 November 2023) as article
+type of the paper.  General information for submitting to the JSA
+can be found at the Journal of Systems Architecture website.
+
+JSA has adopted the Virtual Special Issue model to speed up the
+publication process, where Special Issue papers are published in
+regular issues, but marked as SI papers.  Acceptance decisions
+are made on a rolling basis.  Therefore, authors are encouraged to
+submit papers early, and need not wait until the submission deadline.
+Authors who have successfully passed the first round of review will
+be invited to present their work at the conference.  The abstract of
+the accepted contributions will be included in the conference booklet.
+
+The Ada-Europe organization will waive the Open Access fees for
+the first four accepted papers (whose authors do not already enjoy
+Open Access agreements).  Subsequent papers will follow JSA regular
+publishing track.  Prospective authors may direct all enquiries
+regarding this track to the corresponding chairs, Bjorn Andersson
+(baandersson@sei.cmu.edu) and Luis Miguel Pinho (lmp@isep.ipp.pt).
+
+*** Call for Industrial Track Submissions
+
+The conference seeks industrial practitioner presentations that deliver
+insight on the challenges of developing reliable software.  Especially
+welcome kinds of submissions are listed on the conference website.
+Given their applied nature, such contributions will be subject to a
+dedicated practitioner-peer review process.  Interested authors shall
+submit a 1-to-2 pages abstract, by 26 February 2024, via EasyChair
+at https://easychair.org/my/conference?conf=aeic2024, selecting the
+"Industrial Track".  The format for submission is strictly in PDF,
+following the Ada User Journal style.  Templates are available at
+http://www.ada-europe.org/auj/guide.
+
+The abstract of the accepted contributions will be included in the
+conference booklet.  The corresponding authors will get a presentation
+slot in the prime-time technical program of the conference and will
+also be invited to expand their contributions into full-fledged
+articles for publication in the Ada User Journal, which will form the
+proceedings of the industrial track of the Conference.  Prospective
+authors may direct all enquiries regarding this track to its chairs
+Luciana Provenzano (luciana.provenzano@mdu.se) and Michael Pressler
+(Michael.Pressler@de.bosch.com).
+
+*** Call for Work-in-Progress Track Submissions
+
+The work-in-progress track seeks two kinds of submissions: (a) ongoing
+research and (b) early-stage ideas.  Ongoing research submissions
+are 4-page papers describing research results that are not mature
+enough to be submitted to the journal track.  Early-stage ideas are
+1-page papers that pitch new research directions that fall within
+the scope of the conference.  Both kinds of submissions must be
+original and shall undergo anonymous peer review.  Submissions
+by recent MSc graduates and PhD students are especially sought.
+Authors shall submit their work by 26 February 2024, via EasyChair
+at https://easychair.org/my/conference?conf=aeic2024, selecting the
+"Work-in-Progress Track".  The format for submission is strictly in
+PDF, following the Ada User Journal style.  Templates are available
+at http://www.ada-europe.org/auj/guide.
+
+The abstract of the accepted contributions will be included in the
+conference booklet.  The corresponding authors will get a presentation
+slot in the prime-time technical program of the conference and
+will also be offered the opportunity to expand their contributions
+into 4-page articles for publication in the Ada User Journal,
+which will form the proceedings of the WiP track of the Conference.
+Prospective authors may direct all enquiries regarding this track
+to the corresponding chairs Alejandro R. Mosteo (amosteo@unizar.es)
+and Ruben Martins (rubenm@andrew.cmu.edu).
+
+*** Awards
+
+The organization will offer an honorary award for the best technical
+presentation, to be announced in the closing session of the conference.
+
+*** Call for Tutorials
+
+The conference seeks tutorials in the form of educational seminars
+on themes falling within the conference scope, with an academic or
+practitioner slant, including hands-on or practical elements.  Tutorial
+proposals shall include a title, an abstract, a description of the
+topic, an outline of the presentation, the proposed duration (half-day
+or full-day), the intended level of the contents (introductory,
+intermediate, or advanced), and a statement motivating attendance.
+Tutorial proposals shall be submitted at any time but no later
+than the 26 February 2024 to the respective chair Maria A. Serrano
+(maria.serrano@nearbycomputing.com), with subject line: "[AEiC 2024:
+tutorial proposal]".  Once submitted, each tutorial proposal will
+be evaluated by the conference organizers as soon as possible,
+with decisions from January 1st.  The authors of accepted full-day
+tutorials will receive a complimentary conference registration, halved
+for half-day tutorials.  The Ada User Journal will offer space for
+the publication of summaries of the accepted tutorials.
+
+*** Call for Workshops
+
+The conference welcomes satellite workshops centred on themes that fall
+within the conference scope.  Proposals may be submitted for half- or
+full-day events, to be scheduled at either end of the AEiC conference.
+Workshop organizers shall also commit to producing the proceedings of
+the event, for publication in the Ada User Journal.  Workshop proposals
+shall be submitted at any time but no later than the 26 February
+2024 to the respective chair Sergio Saez (ssaez@disca.upv.es), with
+subject line: "[AEiC 2024: workshop proposal]".  Once submitted, each
+workshop proposal will be evaluated by the conference organizers as
+soon as possible, with decisions from January 1st.
+
+*** Academic Listing
+
+The Journal of Systems Architecture, publication venue of the journal
+track proceedings of the conference, is Q1 ranked, with CiteScore
+8.5 and Impact Factor 4.5.  The Ada User Journal, venue of all other
+technical proceedings of the conference, is indexed by Scopus and by
+EBSCOhost in the Academic Search Ultimate database.
+
+*** Call for Exhibitors and Sponsors
+
+The conference will include a vendor and technology exhibition with the
+option of a 20 minutes presentation as part of the conference program.
+Interested providers should direct inquiries to the Exhibition &
+Sponsorship Chair Ahlan Marriot (ahlan@ada-switzerland.ch).
+
+*** Venue
+
+The conference will take place in Barcelona, Spain.  Barcelona is
+a major cultural, economic, and financial centre, known for its
+architecture, culture, and Mediterranean atmosphere, a hub for
+technology and innovation.  There's plenty to see and visit in
+Barcelona, so plan in advance!
+
+*** Organizing Committee
+
+- Conference Chair
+  Sara Royuela, Barcelona Supercomputing Center, Spain
+  sara.royuela@bsc.es
+
+- Journal Track Chairs
+  Bjorn Andersson, Carnegie Mellon University, USA
+  baandersson@sei.cmu.edu
+  Luis Miguel Pinho, ISEP & INESC TEC, Portugal
+  lmp@isep.ipp.pt
+
+- Industrial Track Chairs
+  Luciana Provenzano, Mälardalen University, Sweden
+  luciana.provenzano@mdu.se
+  Michael Pressler, Robert Bosch GmbH, Germany
+  Michael.Pressler@de.bosch.com
+
+- Work-In-Progress Track Chairs
+  Alejandro R. Mosteo, CUD Zaragoza, Spain
+  amosteo@unizar.es
+  Ruben Martins, Carnegie Mellon University, USA
+  rubenm@andrew.cmu.edu
+
+- Tutorial Chair
+  Maria A. Serrano, NearbyComputing, Spain
+  maria.serrano@nearbycomputing.com
+
+- Workshop Chair
+  Sergio Saez, Universitat Politècnica de València, Spain
+  ssaez@disca.upv.es
+
+- Exhibition & Sponsorship Chair
+  Ahlan Marriott, White Elephant GmbH, Switzerland
+  ahlan@Ada-Switzerland.ch
+
+- Publicity Chair
+  Dirk Craeynest, Ada-Belgium & KU Leuven, Belgium
+  Dirk.Craeynest@cs.kuleuven.be
+
+- Webmaster
+  Hai Nam Tran, University of Brest, France
+  hai-nam.tran@univ-brest.fr
+
+- Local Chair
+  Nuria Sirvent, Barcelona Supercomputing Center, Spain
+  nuria.sirvent@bsc.es
+
+*** Program Committees
+
+See the conference website for the Program Committees for the Journal,
+Industrial, and Work-in-Progress tracks.
+
+*** Journal Track Committee
+
+Al Mok, University of Texas at Austin, USA
+Alejandro Mosteo, CUD Zaragoza, Spain
+Alwyn Godloe, NASA, USA
+António Casimiro, University of Lisbon, Portugal
+Barbara Gallina, Mälardalen University, Sweden
+Bernd Burgstaller, Yonsei University, South Korea
+C. Michael Holloway, NASA, USA
+Cristina Seceleanu, Mälardalen University, Sweden
+Doug Schmidt, Vanderbilt University, USA
+Frank Singhoff, University of Brest, FR
+George Lima, Universidade Federal da Bahia, Brazil
+Isaac Amundson, Rockwell Collins, USA
+Jérôme Hugues, CMU/SEI, USA
+José Cruz, Lockeed Martin, USA
+Kristoffer Nyborg Gregertsen, SINTEF Digital, Norway
+Laurent Pautet, Telecom ParisTech, France
+Leonidas Kosmidis, Barcelona Supercomputing Center, Spain
+Mario Aldea Rivas, University of Cantabria, Spain
+Matthias Becker, KTH - Royal Institute of Technology, Sweden
+Patricia López Martínez, University of Cantabria, Spain
+Sara Royuela, Barcelona Supercomputing Center, Spain
+Sergio Sáez, Universitat Politècnica de València, Spain
+Tucker Taft, AdaCore, USA
+Tullio Vardanega, University of Padua, Italy
+Xiaotian Dai, University of York, England
+
+*** Industrial Track Committee
+
+Aida Causevic, Alstom, Sweden
+Alexander Viehl, Research Center for Information Technology, Germany
+Ana Rodríguez, Silver Atena, Spain
+Aurora Agar, NATO, Netherlands
+Behnaz Pourmohseni, Robert Bosch GmbH, Germany
+Claire Dross, AdaCore, France
+Elena Lisova, Volvo CE, Sweden
+Enricco Mezzeti, Barcelona Supercomputing Center, Spain
+Federico Aromolo, Scuola Superiore Sant'Anna, Italy
+Helder Silva, Edisoft, Portugal
+Hugo Torres Vieira, Evidence Srl, Italy
+Irune Agirre, Ikerlan, Spain
+Jordi Cardona, Rapita Systems, Spain
+José Ruiz, AdaCore, France
+Joyce Tokar, Raytheon, USA
+Luciana Alvite, Alstom, Germany
+Marco Panunzio, Thales Alenia Space, France
+Patricia Balbastre Betoret, Valencia Polytechnic University, Spain
+Philippe Waroquiers, Eurocontrol NMD, Belgium
+Raúl de la Cruz, Collins Aerospace, Ireland
+Santiago Urueña, GMV, Spain
+Stef Van Vlierberghe, Eurocontrol NMD, Belgium
+
+*** Work-in-Progress Track Committee
+
+Alan Oliveira, University of Lisbon, Portugal
+J. Javier Gutiérrez, University of Cantabria, Spain
+Jérémie Guiochet, LAAS-CNRS, France
+Kalinka Branco, University of São Paulo, Brazil
+Katherine Kosaian, University of Iowa, USA
+Kevin Cheang, AWS, USA
+Kristin Yvonne Rozier, Iowa State University, USA
+Leandro Buss Becker, University of Manchester, UK
+Li-Pin Chang, National Yang Ming Chiao Tung University, Taiwan
+Mathias Preiner, Stanford University, USA
+Raffaele Romagnoli, Carnegie Mellon University, USA
+Robert Kaiser, RheinMain University of Applied Sciences, Germany
+Sara Abbaspour, Mälardalen University, Sweden
+Sergi Alcaide, Barcelona Supercomputing Center, Spain
+Simona Bernardi, Unizar, Spain
+Stefan Mitsch, School of Computing at DePaul University, USA
+Teresa Lázaro, Aragon's Institute of Technology, Spain
+Tiago Carvalho, ISEP, Portugal
+Yannick Moy, AdaCore, France
+
+*** Previous Editions
+
+Ada-Europe organizes annual international conferences since the early
+80's.  This is the 28th event in the Reliable Software Technologies
+series, previous ones being held at Montreux, Switzerland ('96),
+London, UK ('97), Uppsala, Sweden ('98), Santander, Spain ('99),
+Potsdam, Germany ('00), Leuven, Belgium ('01), Vienna, Austria
+('02), Toulouse, France ('03), Palma de Mallorca, Spain ('04), York,
+UK ('05), Porto, Portugal ('06), Geneva, Switzerland ('07), Venice,
+Italy ('08), Brest, France ('09), Valencia, Spain ('10), Edinburgh, UK
+('11), Stockholm, Sweden ('12), Berlin, Germany ('13), Paris, France
+('14), Madrid, Spain ('15), Pisa, Italy ('16), Vienna, Austria ('17),
+Lisbon, Portugal ('18), Warsaw, Poland ('19), online from Santander,
+Spain ('21), Ghent, Belgium ('22), and Lisbon, Portugal ('23).
+
+Information on previous editions of the conference can be found at
+www.ada-europe.org/confs/ae.
+
+-----------------------------------------------------------------------
+
+Our apologies if you receive multiple copies of this announcement.
+Please circulate widely.
+
+Dirk Craeynest, AEiC 2024 Publicity Chair
+Dirk.Craeynest@cs.kuleuven.be
+
+* 28th Ada-Europe Int. Conf. Reliable Software Technologies (AEiC 2024)
+* June 11-14, 2024, Barcelona, Spain, www.ada-europe.org/conference2024
+
+
