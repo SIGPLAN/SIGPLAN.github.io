@@ -1,0 +1,12 @@
+---
+title: "CGO'24 - Student Research Competition (SRC) and more"
+deadline: "12/22/2023"
+---
+The International Symposium on Code Generation and Optimization (CGO) is hosting a Student Research Competition (SRC). Our SRC is a unique opportunity for undergraduate and graduate students to present their original research before a panel of judges and attendees at CGO'24. The winner will be invited to the Grand 2024 ACM SRC competition. If you are an undergraduate or postgraduate student doing research in compiler-related topics, consider applying. We look forward to meeting you!
+
+CGO'24 is a compiler conference happening in Edinburgh, March 2nd to 6th 2024. This conference is a great opportunity for anyone interested in compilers to connect with great researchers and professionals and will host four existing workshops: LLVM [1], the BuildIt Framework [2], LATHC [3], and C4ML [4]. Find more information on https://conf.researchr.org/home/cgo-2024 and share this message with anyone who might be interested!
+
+[1] LLVM Performance Workshop: https://llvm.org/devmtg/2024-03/
+[2] BuildIt: Building DSLs made easy with the BuildIt Framework: https://buildit.so/tutorial/
+[3] LATHC: Languages, Architectures, and Tools for Heterogeneous Computing Workshop: https://jnamaral.github.io/LATHC24/
+[4] C4ML - Compilers For Machine Learning: https://www.c4ml.org/c4ml-2024
