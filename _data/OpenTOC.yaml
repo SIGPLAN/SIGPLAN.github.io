@@ -1349,3 +1349,7 @@
   event: SPLASH
   year: 2023
   title: "Companion Proceedings of the 2023 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity"
+-
+  event: POPL
+  year: 2024
+  title: "Proceedings of the ACM on Programming Languages: Vol. 8, No. POPL. 2024"
