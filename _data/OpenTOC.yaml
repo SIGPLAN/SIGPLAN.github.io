@@ -1353,3 +1353,7 @@
   event: POPL
   year: 2024
   title: "Proceedings of the ACM on Programming Languages: Vol. 8, No. POPL. 2024"
+-
+  event: CPP
+  year: 2024
+  title: "Proceedings of the 13th ACM SIGPLAN International Conference on Certified Programs and Proofs"
