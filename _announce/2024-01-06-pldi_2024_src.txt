@@ -1,0 +1,103 @@
+---
+title: "Call for Submissions: PLDI 2024 Student Research Competition"
+timestamp: "1/6/2024 19:16:20"
+deadline: "3/22/2024"
+---
+[The Student Research Competition (SRC) at PLDI](https://pldi24.sigplan.org/track/pldi-2024-src) allows students to present their
+research and get feedback from prominent members of the programming language
+research community. It’s an opportunity for students to network, practice
+presentation skills, and showcase their work. PLDI invites students (both at the
+graduate and undergraduate level) to submit their research. If you are an
+undergraduate student interested in applying to graduate programs, we highly
+encourage you to participate and get a glimpse of what academic life looks like!
+
+# Eligibility Criteria
+
+Participants must have current student status, either graduate or undergraduate,
+at the time of the submission deadline. Participants in the SRC must also apply
+and obtain an ACM student membership. There are two separate categories:
+
+- **Undergraduate**: Currently enrolled for a bachelor’s degree (or equivalent)
+- **Graduate**: Currently enrolled for either a master’s or PhD degree (or
+  equivalent) If have any questions on if your work is a good fit for the SRC
+  track, please reach out to the SRC Co-Chairs.
+
+# Call for Papers
+The main body of the submission is a title and extended abstract consisting of
+the following:
+
+- **Problem and Motivation**: Clearly state the problem being addressed and
+  explain the reasons for seeking a solution to this problem.
+- **Background and Related Work**: Describe the specialized (but pertinent)
+  background necessary to appreciate the work in the context of PLDI areas of
+  interest. Include references to the literature where appropriate, and briefly
+  explain where your work departs from that done by others.
+- **Approach and Uniqueness**: Describe your approach in addressing the problem
+  and clearly state how your approach is novel.
+- **Results and Contributions**: Clearly show how the results of your work
+  contribute to programming language design and implementation in particular and
+  to computer science in general; explain the significance of those results.
+
+Submissions must be original research that is not already published at PLDI or
+another conference or journal. One of the goals of the SRC is to give students
+feedback on ongoing, unpublished work. Furthermore, the abstract must be
+authored solely by the student. If the work is collaborative with others and/or
+part of a larger group project, the abstract should make clear what the
+student’s role was and should focus on that portion of the work.
+
+# Participation
+The SRC has three rounds:
+
+- **Paper round**: Student papers are accepted by a committee of reviewers
+- **Poster round**: During the conference, students present a poster to
+  in-person judges and conference attendees.
+- **Presentation round**: In-person judges select students from the poster round
+  who then give a final talk.
+- **Results**: Three students from each category (graduate and undergraduate)
+  are selected as winners. The top student in each category is invited to
+  participate in the ACM grand finale.
+- **Prizes**: Winners receive a cash prize: $500, $300, and $200 for the first,
+  second, and third place respectively as well as an award medal.
+
+# Submissions
+The submission form will require the following:
+
+- The submissions are double blind (the uploaded PDFs should not have your name
+  or any other identifying information).
+- In the supplementary form, please specify:
+  - Student author’s name, email address, institutional affiliation, and
+    category (undergraduate or graduate)
+  - Student’s ACM member number. If you don’t already have one, please apply for
+    the discounted student member rate.
+  - Research advisor’s name(s)
+  - Mode of presentation (in-person or virtual). Please be conservative in your
+    response: if you think there is a possibility that you might not be able to
+    attend in-person, select the “virtual” option. We are able to accommodate
+    transition to in-person more easily than to virtual.
+  
+For the paper submission, ensure:
+
+- Use the `acmart` template file ([overleaf
+  template](https://www.overleaf.com/read/yggzbgjwjntv), [latex
+  template](https://asplos-conference.org/wp-content/uploads/2024/asplos24-templates.zip)).
+  - Set the options to the class file using
+    `\documentclass[sigconf,nonacm,screen,review]{acmart}`
+- No more than 2 pages. Reference lists do not count towards these limits.
+
+When you’re ready, submit your extended abstract at the submission site: **TBA**.
+
+## Writing Resources
+
+- [How to Write Papers and Give Talks that People Can
+  Follow](https://www.youtube.com/watch?v=ZmFXMREURBI) by Derek Dreyer
+- [How to Write a Conference
+  Talk](http://www.pl-enthusiast.net/2019/01/02/how-to-write-a-conference-talk/)
+  by Mike Hicks
+
+# Attendance
+PLDI waives registration costs for all students with accepted papers. We
+additionally encourage students to apply to PLMW, which might cover travel
+expenses. Furthermore, we encourage students to apply for conference
+volunteering positions (**TBA**).
+
+Good luck, and we hope to see you in June!
