@@ -5,7 +5,7 @@
   Citation: |
     This paper provided exciting evidence that the idea of
     machine-checked verified compilation can generalize beyond
-    Compcert-style optimization verification to end-to-end correctness
+    CompCert-style optimization verification to end-to-end correctness
     statements in the context of ML.  A particularly novel feature of
     CakeML that distinguished it from contemporary efforts like
     CompCert was its support for bootstrapping that facilitates
