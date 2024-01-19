@@ -47,7 +47,7 @@ Award recipients are selected by a committee constituted as follows:
   committee.
 
 The current committee comprises:*
-* [Tony Hosking](https://cs.anu.edu.au/tony-hosking/), Australian
+* [Tony Hosking](https://comp.anu.edu.au/antony-hosking/), Australian
   National U (Chair)
 * [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts U
   (ex-officio)

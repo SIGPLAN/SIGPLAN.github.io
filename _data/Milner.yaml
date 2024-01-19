@@ -1,7 +1,6 @@
 2023:
 - Awardee: Nate Foster
   Citation: |
-
     Nate Foster is a world leader in programming languages and
     software-defined networking. His skills as a PL researcher run the
     gamut: adept at design, theory, implementation, and applications,
@@ -92,80 +91,93 @@
 2020:
 - Awardee: Eran Yahav
   Citation: |
-    Eran Yahav has a record of sustained, high-impact contributions to the programming 
-    languages research community over nearly two decades.  Much of his work has 
-    concerned effective static reasoning about concurrent programs, which is a 
-    longstanding challenge due to the complex and non-local ways in which threads 
-    can interact with one another.  Yahav  developed novel abstractions for verifying 
-    safety and correctness properties of concurrent programs and used them to validate 
-    non-trivial concurrent algorithms in Java.  Later, he extended and applied 
-    program synthesis techniques to concurrent programs in creative ways, for 
-    example, demonstrating how to synthesize a correct concurrent version of a 
-    sequential algorithm and how to automatically repair an existing concurrent 
-    algorithm through additional synchronization.  Most recently, Yahav has been 
-    an early leader in the area of "big code," leveraging machine learning techniques 
-    to solve difficult programming tasks, including code search, code completion, and 
-    reverse engineering.  This work has influenced others in the research community 
-    to pursue this research direction and has led to practical software engineering 
-    tools for programmers.
+    Eran Yahav has a record of sustained, high-impact contributions to
+    the programming languages research community over nearly two
+    decades.  Much of his work has concerned effective static
+    reasoning about concurrent programs, which is a longstanding
+    challenge due to the complex and non-local ways in which threads
+    can interact with one another.  Yahav developed novel abstractions
+    for verifying safety and correctness properties of concurrent
+    programs and used them to validate non-trivial concurrent
+    algorithms in Java.  Later, he extended and applied program
+    synthesis techniques to concurrent programs in creative ways, for
+    example, demonstrating how to synthesize a correct concurrent
+    version of a sequential algorithm and how to automatically repair
+    an existing concurrent algorithm through additional
+    synchronization.  Most recently, Yahav has been an early leader in
+    the area of "big code," leveraging machine learning techniques to
+    solve difficult programming tasks, including code search, code
+    completion, and reverse engineering.  This work has influenced
+    others in the research community to pursue this research direction
+    and has led to practical software engineering tools for
+    programmers.
 
     * Selection committee: Emery Berger, Michelle Strout, Derek Dreyer, Eijiro Sumii, Todd Millstein.
 
 2019:
 - Awardee: Martin Vechev
   Citation: |
-    Martin Vechev is a prolific researcher who has made major contributions to 
-    many areas of programming languages. He is a pioneer who is often one of 
-    the first in the PL community to move into a new area. He is particularly 
-    well known for his seminal papers and tools at the interface of programming 
-    languages and machine learning. An example tool is JSNice, which deobfuscates 
-    JavaScript code by learning a probabilistic graphical model from a large 
-    corpus of programs, which is then used to predict improved variable names 
-    and perform statistical type inference. Another example at this interface is 
-    his work on using abstract interpretation for proving safety properties of 
-    deep neural networks, such as robustness. His many other contributions include 
-    significant advances in concurrent memory management, synthesis of 
-    synchronization code for concurrent programs, and efficient program analysis.
+    Martin Vechev is a prolific researcher who has made major
+    contributions to many areas of programming languages. He is a
+    pioneer who is often one of the first in the PL community to move
+    into a new area. He is particularly well known for his seminal
+    papers and tools at the interface of programming languages and
+    machine learning. An example tool is JSNice, which deobfuscates
+    JavaScript code by learning a probabilistic graphical model from a
+    large corpus of programs, which is then used to predict improved
+    variable names and perform statistical type inference. Another
+    example at this interface is his work on using abstract
+    interpretation for proving safety properties of deep neural
+    networks, such as robustness. His many other contributions include
+    significant advances in concurrent memory management, synthesis of
+    synchronization code for concurrent programs, and efficient
+    program analysis.
     
 2018:
 - Awardee: Ranjit Jhala
   Citation: |
-    Ranjit Jhala has demonstrated a long track-record of producing foundational
-    and impactful contributions to our understanding of programming language
-    theory and implementation. Jhala was one of the principal developers of the
-    BLAST automatic verification tool for checking temporal safety properties of
-    C programs. A key contribution was the notion of lazy abstraction which
-    integrates three phases of the software model checking loop: abstraction,
-    checking and refinement. Jhala developed an algorithm for model checking
-    safety properties that continuously builds and refines a single abstract
-    model on demand by the model checker. This allows different parts of the
-    model to exhibit just the degrees of freedom required to verify a desired
-    property. The work on lazy abstraction has proved to be very influential in
-    the verification community. Jhala also used Craig interpolation to
-    efficiently construct, from a given abstract error trace that cannot be
-    concretized, a parsimonious abstraction that removes the trace. He developed
-    the method for programs with arithmetic and pointer expressions, and
-    call-by-value function calls. This resulting technique was successfully
-    applied to programs over 130,000 lines which was previously not possible. 
+    Ranjit Jhala has demonstrated a long track-record of producing
+    foundational and impactful contributions to our understanding of
+    programming language theory and implementation. Jhala was one of
+    the principal developers of the BLAST automatic verification tool
+    for checking temporal safety properties of C programs. A key
+    contribution was the notion of lazy abstraction which integrates
+    three phases of the software model checking loop: abstraction,
+    checking and refinement. Jhala developed an algorithm for model
+    checking safety properties that continuously builds and refines a
+    single abstract model on demand by the model checker. This allows
+    different parts of the model to exhibit just the degrees of
+    freedom required to verify a desired property. The work on lazy
+    abstraction has proved to be very influential in the verification
+    community. Jhala also used Craig interpolation to efficiently
+    construct, from a given abstract error trace that cannot be
+    concretized, a parsimonious abstraction that removes the trace. He
+    developed the method for programs with arithmetic and pointer
+    expressions, and call-by-value function calls. This resulting
+    technique was successfully applied to programs over 130,000 lines
+    which was previously not possible.
 
-    Jhala has significantly advanced the practical application of refinement
-    types which allow programmers to attach additional specifications to
-    existing types. These additional specifications allow interesting properties
-    to be proved about code, such as invariants over recursively defined data
-    structures. The problem with such specifications is that they can be too
-    onerous to write down and get right. Jhala's work on Liquid Types showed
-    that a useful and expressive class of these specifications can be inferred
-    in a largely automatic way, making the approach far more practical at a
-    reasonable cost. Jhala's work with Liquid Types has significantly extended
-    the state-of-the-art, adding a notion of predictability and decidability
-    often not found in SMT-based software verification, and extending the
-    usability and expressiveness of formal type systems.
+    Jhala has significantly advanced the practical application of
+    refinement types which allow programmers to attach additional
+    specifications to existing types. These additional specifications
+    allow interesting properties to be proved about code, such as
+    invariants over recursively defined data structures. The problem
+    with such specifications is that they can be too onerous to write
+    down and get right. Jhala's work on Liquid Types showed that a
+    useful and expressive class of these specifications can be
+    inferred in a largely automatic way, making the approach far more
+    practical at a reasonable cost. Jhala's work with Liquid Types has
+    significantly extended the state-of-the-art, adding a notion of
+    predictability and decidability often not found in SMT-based
+    software verification, and extending the usability and
+    expressiveness of formal type systems.
 
-    Jhala has also worked on data race detection, information flow and timing
-    analysis for Javascript and code analytics. Jhala has also written a lengthy
-    tutorial on Liquid Haskell, proved to be an excellent communicator and
-    mentor who has given many engaging and inspiring presentations, and served
-    extensively on program committees of top conferences.
+    Jhala has also worked on data race detection, information flow and
+    timing analysis for Javascript and code analytics. Jhala has also
+    written a lengthy tutorial on Liquid Haskell, proved to be an
+    excellent communicator and mentor who has given many engaging and
+    inspiring presentations, and served extensively on program
+    committees of top conferences.
 
     * Selection committee: Antony Hosking, Chandra Krintz, Xavier
       Leroy, François Pottier and Satnam Singh.
