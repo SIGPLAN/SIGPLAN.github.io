@@ -1361,3 +1361,11 @@
   event: PEPM
   year: 2024
   title: "Proceedings of the 2024 ACM SIGPLAN International Workshop on Partial Evaluation and Program Manipulation"
+-
+  event: PPoPP
+  year: 2024
+  title: "Proceedings of the 29th ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming"
+-
+  event: CC
+  year: 2024
+  title: "Proceedings of the 33rd ACM SIGPLAN International Conference on Compiler Construction"
