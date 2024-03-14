@@ -1,0 +1,112 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>PMAM '24: Proceedings of the 15th International Workshop on Programming Models and Applications for Multicores and Manycores</title></head><body><div id="DLtoc"><div id="DLheader"><h1>PMAM '24: Proceedings of the 15th International Workshop on Programming Models and Applications for Multicores and Manycores</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3649169"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent">
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3649169.3649244">Acceleration of the Pre-processing Stage of the MVS Workflow using Graphics Processors</a></h3><ul class="DLauthors"><li class="nameList">Roberto Díaz-Cano Lozano</li><li class="nameList">Francesc Folch</li><li class="nameList">Pedro Alonso-Jordá</li><li class="nameList Last">Enrique S. Quintana-Ortí</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Migrating CPU code to the CUDA programming language has been a challenge for some time. While the code for many high-performance and massively data-parallel applications has been successfully ported to GPUs, this task has received comparatively less attention for other applications that do not lend themselves so well to the characteristics of GPUs. Among the latter are applications of particular value to industry, where the use of GPUs can significantly improve the productivity of the system as a whole.</p> <p>This article presents a real-world, industrial use case that shows (part of) a complex computer vision workflow. The processes in the workflow have low arithmetic intensity and work with simple data (integers). The main challenge is therefore to minimise the overhead of data transfers between the host and the GPU, or even within the memory of the device itself. While the speed-up achieved may not be as impressive as for applications that are perfectly tuned to the GPU architecture, the algorithms and data distribution proposed in this work allow a significant part of the overall workflow to be offloaded to the GPU, freeing the CPU to process other components of the workflow. As a result, this approach has a significant impact on the productivity and economic performance of the company.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3649169.3649249">Automatic Static Analysis-Guided Optimization of CUDA Kernels</a></h3><ul class="DLauthors"><li class="nameList">Mark Lou</li><li class="nameList Last">Stefan K. Muller</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>We propose a framework for using static resource analysis to guide the automatic optimization of general-purpose GPU (GPGPU) kernels written in CUDA, NVIDIA's framework for GPGPU programming. In our proposed framework, optimizations are applied to the kernel and candidate kernels are evaluated for performance by running a static analysis that predicts the execution cost of GPU kernels. The use of static analysis, in contrast to many existing frameworks for performance tuning GPU kernels, lends itself to high-level, hardware-independent optimizations that can be of particular benefit to novice programmers unfamiliar with CUDA's performance pitfalls. As a proof of concept, we have implemented two example optimizations and a simple search strategy in a tool called COpPER (CUDA Optimization through Programmatic Estimation of Resources), which makes use of a static resource analysis tool for CUDA from prior work. The prototype tool automatically improves the performance of sample kernels by 2-4% in initial experiments, and demonstrates the feasibility of using static analysis as part of automated performance tuning for GPU kernels.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3649169.3649246">MUPPET: Optimizing Performance in OpenMP via Mutation Testing</a></h3><ul class="DLauthors"><li class="nameList">Dolores Miao</li><li class="nameList">Ignacio Laguna</li><li class="nameList">Giorgis Georgakoudis</li><li class="nameList">Konstantinos Parasyris</li><li class="nameList Last">Cindy Rubio-González</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Performance optimization continues to be a challenge in modern HPC software. Existing performance optimization techniques, including profiling-based and auto-tuning techniques, fail to indicate program modifications at the source level thus preventing their portability across compilers. This paper describes Muppet, a new approach that identifies program modifications called mutations aimed at improving program performance. Muppet's mutations help developers reason about performance defects and missed opportunities to improve performance at the source code level. In contrast to compiler techniques that optimize code at intermediate representations (IR), Muppet uses the idea of source-level mutation testing to relax correctness constraints and automatically discover optimization opportunities that otherwise are not feasible using the IR. We demonstrate the Muppet's concept in the OpenMP programming model. Muppet generates a list of OpenMP mutations that alter the program parallelism in various ways, and is capable of running a variety of optimization algorithms such as Bayesian Optimization and delta debugging to find a subset of mutations which, when applied to the original program, cause the most speedup while maintaining program correctness. When Muppet is evaluated against a diverse set of benchmark programs and proxy applications, it is capable of finding sets of mutations in 70% of the evaluated programs that induce speedup.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3649169.3649245">Parallel Pattern Language Code Generation</a></h3><ul class="DLauthors"><li class="nameList">Adrian Schmitz</li><li class="nameList">Julian Miller</li><li class="nameList">Semih Burak</li><li class="nameList Last">Matthias S. Müller</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Memory and power constraints limit the current landscape of high-performance computing. Hardware specializations in clusters lead to heterogeneity, Non-Uniform Memory Architecture (NUMA) effects, and accelerator offloading. These increase the complexity of developing and optimizing scientific software.</p> <p>To ease these challenges for domain scientists, the code generator for a prototype of the Parallel Pattern Language (PPL) is implemented, enabling its evaluation. The proof of concept uses parallel patterns to define parallelism and apply static global optimizations automatically. Most notably, an assignment between tasklets and the provided heterogeneous cluster architecture is calculated during compile time, the new code generator creates a source file combining shared-memory, distributed-memory, and accelerator offloading according to the generated mapping.</p> <p>The prototype successfully optimizes and compiles most Rodinia benchmarks. Six Rodinia benchmarks already show significant speedups. The tools limitations include dynamic algorithms that are challenging to analyze statically and overheads during the compile time optimization.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3649169.3649247">Pure C++ Approach to Optimized Parallel Traversal of Regular Data Structures</a></h3><ul class="DLauthors"><li class="nameList">Jiří Klepl</li><li class="nameList">Adam Šmelko</li><li class="nameList">Lukáš Rozsypal</li><li class="nameList Last">Martin Kruliš</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Many computational problems consider memory throughput a performance bottleneck. The problem becomes even more pronounced in the case of parallel platforms, where the ratio between computing elements and memory bandwidth shifts towards computing. Software needs to be attuned to hardware features like cache architectures or memory banks to reach a decent level of performance efficiency. This can be achieved by selecting the right memory layouts for data structures or changing the order of data structure traversal. In this work, we present an abstraction for traversing a set of regular data structures (e.g., multidimensional arrays) that allows the design of traversal-agnostic algorithms. Such algorithms can be adjusted for particular memory layouts of the data structures, semi-automated parallelization, or autotuning without altering their internal code. The proposed solution was implemented as an extension of the Noarr library that simplifies a layout-agnostic design of regular data structures. It is implemented entirely using C++ template meta-programming without any nonstandard dependencies, so it is fully compatible with existing compilers, including CUDA NVCC. We evaluate the performance and expressiveness of our approach on the Polybench-C benchmarks.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3649169.3649248">Zero-Overhead Parallel Scans for Multi-Core CPUs</a></h3><ul class="DLauthors"><li class="nameList">Ivo Gabe de Wolff</li><li class="nameList">David P. van Balen</li><li class="nameList">Gabriele K. Keller</li><li class="nameList Last">Trevor L. McDonell</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>We present three novel parallel scan algorithms for multi-core CPUs which do not need to fix the number of available cores at the start, and have zero overhead compared to sequential scans when executed on a single core. These two properties are in contrast with most existing parallel scan algorithms, which are asymptotically optimal, but have a constant factor overhead compared to sequential scans when executed on a single core. We achieve these properties by adapting the classic three-phase scan algorithms. The resulting algorithms also exhibit better performance than the original ones on multiple cores. Furthermore, we adapt the chained scan with decoupled look-back algorithm to also have these two properties. While this algorithm was originally designed for GPUs, we show it is also suitable for multi-core CPUs, outperforming the classic three-phase scans in our benchmarks, by better using the caches of the processor at the cost of more synchronisation. In general our adaptive chained scan is the fastest parallel scan, but in specific situations our assisted reduce-then-scan is better.</p>
+	</div></div>
+						
+					</div></div></body></html>

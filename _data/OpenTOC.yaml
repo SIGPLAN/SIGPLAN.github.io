@@ -1369,3 +1369,7 @@
   event: CC
   year: 2024
   title: "Proceedings of the 33rd ACM SIGPLAN International Conference on Compiler Construction"
+-
+  event: PMAM
+  year: 2024
+  title: "Proceedings of the 15th International Workshop on Programming Models and Applications for Multicores and Manycores"
