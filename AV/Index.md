@@ -3,7 +3,7 @@ SIGPLAN-AV
 
 SIGPLAN-AV is a subcommitee of SIGPLAN who's goal is to centralize the efforts of finding innovative and cost effective ways to:
   1. enable remote participation (hybridization of conferences), and;
-  2. record of conference talks for archival
+  2. record conference talks for archival
 
 Current Members:
 
@@ -12,7 +12,7 @@ Current Members:
 3. Jan-Paul Ramos
 4. John Hui
 5. Zixian Cai
-6. Guillerme Espada
+6. Guilherme Espada
 7. Apoorv Ingle
 
 Past Members:
