@@ -5,7 +5,7 @@ SIGPLAN-AV is a subcommitee of SIGPLAN who's goal is to centralize the efforts o
   1. enable remote participation (hybridization of conferences), and;
   2. record conference talks for archival
 
-#### Current Members:
+#### Current Members
 
 1. Bhakti Shah
 2. Chris Lam
@@ -15,7 +15,7 @@ SIGPLAN-AV is a subcommitee of SIGPLAN who's goal is to centralize the efforts o
 6. Guilherme Espada
 7. Apoorv Ingle
 
-#### Past Members:
+#### Past Members
 
 1. Lief Anderson
 2. Benjamin Chung (and many more)
