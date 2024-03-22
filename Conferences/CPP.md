@@ -64,6 +64,7 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 * CPP 2022: [Armaël Guéneau](http://cambium.inria.fr/~agueneau/)
 * CPP 2021: [Kathrin Stark](https://www.k-stark.de)
 
+---
 **The CPP Manifesto (from 2011)**
 
 In this manifesto, we advocate for the creation of a new international conference in the area of formal methods and programming languages, called Certified Programs and Proofs (CPP). Certification here means formal, mechanized verification of some sort, preferably with the production of independently checkable certificates. CPP would target any research promoting formal development of certified software and proofs, that is:
