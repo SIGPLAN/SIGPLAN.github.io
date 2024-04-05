@@ -1373,3 +1373,7 @@
   event: PMAM
   year: 2024
   title: "Proceedings of the 15th International Workshop on Programming Models and Applications for Multicores and Manycores"
+-
+  event: ExHET
+  year: 2024
+  title: "Proceedings of the 3rd International Workshop on Extreme Heterogeneity Solutions"

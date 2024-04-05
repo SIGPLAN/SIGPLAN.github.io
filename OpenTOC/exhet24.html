@@ -1,0 +1,97 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>ExHET '24: Proceedings of the 3rd International Workshop on Extreme Heterogeneity Solutions</title></head><body><div id="DLtoc"><div id="DLheader"><h1>ExHET '24: Proceedings of the 3rd International Workshop on Extreme Heterogeneity Solutions</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3642961"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Publications</h2>
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3642961.3643799">GPU-Initiated Resource Allocation for Irregular Workloads</a></h3><ul class="DLauthors"><li class="nameList">Ilyas Turimbetov</li><li class="nameList">Muhammad Aditya Sasongko</li><li class="nameList Last">Didem Unat</li></ul><div class="DLabstract"><div style="display:inline">
+		<p> GPU kernels may suffer from resource underutilization in multi-GPU systems due to insufficient workload to saturate devices when incorporated within an irregular application. To better utilize the resources in multi-GPU systems, we propose a GPU-sided resource allocation method that can increase or decrease the number of GPUs in use as the workload changes over time. Our method employs GPU-to-CPU callbacks to allow GPU device(s) to request additional devices while the kernel execution is in flight. We implemented and tested multiple callback methods required for GPU-initiated workload offloading to other devices and measured their overheads on Nvidia and AMD platforms. To showcase the usage of callbacks in irregular applications, we implemented Breadth-First Search (BFS) that uses device-initiated workload offloading. Apart from allowing dynamic device allocation in persistently running kernels, it reduces time to solution on average by 15.7% at the cost of callback overheads with a minimum of 6.50 microseconds on AMD and 4.83 microseconds on Nvidia, depending on the chosen callback mechanism. Moreover, the proposed model can reduce the total device usage by up to 35%, which is associated with higher energy efficiency.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3642961.3643800">Enhancing Intra-Node GPU-to-GPU Performance in MPI+UCX through Multi-Path Communication</a></h3><ul class="DLauthors"><li class="nameList">Amirhossein Sojoodi</li><li class="nameList">Yiltan H. Temucin</li><li class="nameList Last">Ahmad Afsahi</li></ul><div class="DLabstract"><div style="display:inline">
+		<p> Efficient communication among GPUs is crucial for achieving high performance in modern GPU-accelerated applications. This paper introduces a multi-path communication framework within the MPI+UCX library to enhance P2P communication performance between intra-node GPUs, by concurrently leveraging multiple paths, including available NVLinks and PCIe through the host. Through extensive experiments, we demonstrate significant performance gains achieved by our approach, surpassing baseline P2P communication methods. More specifically, in a 4-GPU node, multi-path P2P improves UCX Put bandwidth by up to 2.85x when utilizing the host path and 2 other GPU paths. Furthermore, we demonstrate the effectiveness of our approach in accelerating the Jacobi iterative solver, achieving up to 1.27x runtime speedup. </p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3642961.3643801">Preparing for Future Heterogeneous Systems Using Migrating Threads</a></h3><ul class="DLauthors"><li class="nameList">Peter Michael Kogge</li><li class="nameList">Jayden Vap</li><li class="nameList Last">Derek Pepple</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Heterogeneity in computing systems is clearly increasing, especially as “accelerators” burrow deeper and deeper into different parts of an architecture. What is new, however, is a rapid change in not only the number of such heterogeneous processors, but in their connectivity to other structures, such as cores with different ISAs or smart memory interfaces. Technologies such as chiplets are accelerating this trend. This paper is focused on the problem of how to architect efficient systems that combine multiple heterogeneous concurrent threads, especially when the underlying heterogeneous cores are separated by networks or have no shared-memory access paths. The goal is to eliminate today’s need to invoke significant software stacks to cross any of these boundaries. A suggestion is made of using migrating threads as the glue. Two experiments are described: using a heterogeneous platform where all threads share the same memory to solve a rich ML problem, and a fast PageRank approximation that mirrors the kind of computation for which thread migration may be useful. Architectural “lessons learned” are developed that should help guide future development of such systems. </p>
+	</div></div>
+						
+					</div></div></body></html>
