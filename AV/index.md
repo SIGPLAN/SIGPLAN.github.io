@@ -25,7 +25,9 @@ SIGPLAN-AV is a subcommitee of SIGPLAN whose goal is to centralize the efforts o
 
 #### For general chairs
 
-If you are a general chair of a SIGPLAN conference and are interested in using SIGPLAN-AV please email <sigplan-av@googlegroups.com>.
+<p>
+If you are a general chair of a SIGPLAN conference and are interested in working with SIGPLAN-AV, please email <script>document.write("<a href='"+atob("bWFpbHRvOnNpZ3BsYW4tYXZAZ29vZ2xlZ3JvdXBzLmNvbQ==")+"'>"+atob("c2lncGxhbi1hdkBnb29nbGVncm91cHMuY29t")+"</a>.")</script><noscript><img src="mail.png" border="0" height="28" width="240"><font face="Arial" size="3"><br>&nbsp;</font></noscript>
+</p>
 
 SIGPLAN owns enough hardware (laptops, cameras and microphones) which can be used to setup streaming and recording of upto 8 parallel co-located events.
 
