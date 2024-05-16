@@ -6,23 +6,25 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 
 **Steering Committee**
 
-* [Lennart Beringer](https://www.cs.princeton.edu/~eberinge/), Princeton University, USA
 * [Sandrine Blazy](https://people.irisa.fr/Sandrine.Blazy/), University of Rennes, France
 * [Adam Chlipala](http://adam.chlipala.net), MIT, USA
-* Georges Gonthier, Inria, France
+* [Georges Gonthier](https://scholar.google.co.uk/citations?user=cbtN84wAAAAJ&hl=en), Inria, France
 * [Cătălin Hriţcu](https://catalin-hritcu.github.io) (Chair), MPI-SP, Germany
 * [Gerwin Klein](https://doclsf.de), CSIRO's Data61 and UNSW Sydney, Australia
 * [Robbert Krebbers](https://robbertkrebbers.nl), Radboud University Nijmegen, Netherlands
 * [Dale Miller](http://www.lix.polytechnique.fr/Labo/Dale.Miller/), INRIA Saclay and LIX/Institut Polytechnique de Paris, France
 * [Tobias Nipkow](https://www21.in.tum.de/~nipkow/), Technische Universität München, Germany
 * [Brigitte Pientka](https://www.cs.mcgill.ca/~bpientka/), McGill University, Canada
-* [Andrei Popescu](https://www.andreipopescu.uk), University of Sheffield, United Kingdom
 * [Zhong Shao](http://www.cs.yale.edu/homes/shao/), Yale University, USA
-* [Kathrin Stark](https://www.k-stark.de), Heriot-Watt University, United Kingdom
-* [Nicolas Tabareau](https://tabareau.fr), Inria, France
 * [Amin Timany](https://cs.au.dk/~timany/), Aarhus University, Denmark
 * [Dmitriy Traytel](https://traytel.bitbucket.io), University of Copenhagen, Denmark
 * [Steve Zdancewic](https://www.cis.upenn.edu/~stevez/), University of Pennsylvania, USA
+
+** Former SC members **
+* [Andrei Popescu](https://www.andreipopescu.uk), University of Sheffield, United Kingdom
+* [Lennart Beringer](https://www.cs.princeton.edu/~eberinge/), Princeton University, USA
+* ...
+
 
 ---
 **Previous CPP Conferences**
