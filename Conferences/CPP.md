@@ -77,10 +77,10 @@ The official **CPP proceedings** since 2015 are publicly available via [SIGPLAN 
 
 **Given Amazing Reviewer Awards**
 
-* CPP 2023: [Théo Winterhalter](https://theowinterhalter.github.io)
-* CPP 2023: [Anja Petković Komel](https://anjapetkovic.com)
-* CPP 2022: [Armaël Guéneau](http://cambium.inria.fr/~agueneau/)
-* CPP 2021: [Kathrin Stark](https://www.k-stark.de)
+* CPP 2023: [Théo Winterhalter](https://theowinterhalter.github.io), Inria, France
+* CPP 2023: [Anja Petković Komel](https://anjapetkovic.com), TU Wien, Austria
+* CPP 2022: [Armaël Guéneau](http://cambium.inria.fr/~agueneau/), Inria, France
+* CPP 2021: [Kathrin Stark](https://www.k-stark.de), Heriot-Watt University, UK
 
 ---
 **The CPP Manifesto (from 2011)**
