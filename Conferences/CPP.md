@@ -6,13 +6,13 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 
 **Steering Committee**
 
+* [Cătălin Hriţcu](https://catalin-hritcu.github.io) (SC Chair), MPI-SP, Germany
 * [Sandrine Blazy](https://people.irisa.fr/Sandrine.Blazy/), University of Rennes, France
 * [Adam Chlipala](http://adam.chlipala.net), MIT, USA
 * [Georges Gonthier](https://scholar.google.co.uk/citations?user=cbtN84wAAAAJ&hl=en), Inria, France
-* [Cătălin Hriţcu](https://catalin-hritcu.github.io) (Chair), MPI-SP, Germany
-* [Gerwin Klein](https://doclsf.de), CSIRO's Data61 and UNSW Sydney, Australia
+* [Gerwin Klein](https://doclsf.de), Proofcraft and UNSW Sydney, Australia
 * [Robbert Krebbers](https://robbertkrebbers.nl), Radboud University Nijmegen, Netherlands
-* [Dale Miller](http://www.lix.polytechnique.fr/Labo/Dale.Miller/), INRIA Saclay and LIX/Institut Polytechnique de Paris, France
+* [Dale Miller](http://www.lix.polytechnique.fr/Labo/Dale.Miller/), Inria Saclay and LIX/Institut Polytechnique de Paris, France
 * [Tobias Nipkow](https://www21.in.tum.de/~nipkow/), Technische Universität München, Germany
 * [Brigitte Pientka](https://www.cs.mcgill.ca/~bpientka/), McGill University, Canada
 * [Zhong Shao](http://www.cs.yale.edu/homes/shao/), Yale University, USA
@@ -20,11 +20,25 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 * [Dmitriy Traytel](https://traytel.bitbucket.io), University of Copenhagen, Denmark
 * [Steve Zdancewic](https://www.cis.upenn.edu/~stevez/), University of Pennsylvania, USA
 
-** Former SC members **
+**Former SC members**
+
 * [Andrei Popescu](https://www.andreipopescu.uk), University of Sheffield, United Kingdom
 * [Lennart Beringer](https://www.cs.princeton.edu/~eberinge/), Princeton University, USA
+* [Jasmin Blanchette](https://www.tcs.ifi.lmu.de/mitarbeiter/jasmin-blanchette_de.html), Ludwig-Maximilians-Universität München, Germany
+* [Assia Mahboubi](https://people.rennes.inria.fr/Assia.Mahboubi/), Inria, France and Vrije Universiteit Amsterdam, Netherlands
+* [Magnus Myreen](https://www.cse.chalmers.se/~myreen/), Chalmers University of Technology, Sweden
+* [June Andronick](https://proofcraft.systems/), Proofcraft and UNSW Sydney, Australia
+* [Amy Felty](https://www.site.uottawa.ca/~afelty/), University of Ottawa, Canada
+* [Yves Bertot](https://www-sop.inria.fr/members/Yves.Bertot/research.html), Inria, France
+* [Viktor Vafeiadis](https://people.mpi-sws.org/~viktor/), MPI-SWS, Germany
+* [Jeremy Avigad](https://www.andrew.cmu.edu/user/avigad/), Carnegie Mellon University, USA
+* [Adam Chlipala](http://adam.chlipala.net), MIT, USA
+* [Xavier Leroy](https://xavierleroy.org), Collège de France, PSL University, France
+* [Alwen Tiu](http://users.cecs.anu.edu.au/~tiu/), Australian National University, Australia
+* [Michael Norrish](https://comp.anu.edu.au/people/michael-norrish/), Australian National University, Australia
+* [Chris Hawblitzel](https://www.microsoft.com/en-us/research/people/chrishaw/), Microsoft Research, USA
+* [Jean-Pierre Jouannaud](https://www.lix.polytechnique.fr/Labo/Jean-Pierre.Jouannaud/), Université de Paris-Saclay, France
 * ...
-
 
 ---
 **Previous CPP Conferences**
