@@ -57,6 +57,8 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 * [CPP 2012](http://cpp12.kuis.kyoto-u.ac.jp), Kyoto, Japan, December 13-15, 2012 (collocation with APLAS’12)
 * [CPP 2011](https://dblp.uni-trier.de/db/conf/cpp/cpp2011.html), Kenting, Taiwan, December 7-9, 2011 (co-located with APLAS’11)
 
+The official **CPP proceedings** since 2015 are publicly available via [SIGPLAN OpenTOC](http://www.sigplan.org/OpenTOC/#cpp).
+
 ---
 **Given Distinguished Paper Awards**
 
