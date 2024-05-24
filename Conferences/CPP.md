@@ -38,7 +38,9 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 * [Michael Norrish](https://comp.anu.edu.au/people/michael-norrish/), Australian National University, Australia
 * [Chris Hawblitzel](https://www.microsoft.com/en-us/research/people/chrishaw/), Microsoft Research, USA
 * [Jean-Pierre Jouannaud](https://www.lix.polytechnique.fr/Labo/Jean-Pierre.Jouannaud/), Université de Paris-Saclay, France
-* ...
+* [Andrew Appel](https://www.cs.princeton.edu/~appel/), Princeton University, USA
+* [Nikolaj Bjorner](https://www.microsoft.com/en-us/research/people/nbjorner/), Microsoft Research, USA
+* [John Harrison](https://www.cl.cam.ac.uk/~jrh13/), Amazon Web Services, USA
 
 ---
 **Previous CPP Conferences**
