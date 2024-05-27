@@ -1,0 +1,294 @@
+---
+title: "28th Ada-Europe Conf. on Reliable Software Technologies (AEiC 2024)"
+timestamp: "4/16/2024 7:26:35"
+start: "6/11/2024"
+end: "6/14/2024"
+---
+-----------------------------------------------------------------------
+
+Call for Participation
+
+28th Ada-Europe International Conference on
+Reliable Software Technologies (AEiC 2024)
+
+11-14 June 2024, Barcelona, Spain
+
+www.ada-europe.org/conference2024
+
+*** Online registration open! ***
+*** Extensive info on conference site ***
+
+Organized by Ada-Europe and Barcelona Supercomputing Center (BSC),
+in cooperation with ACM SIGAda, ACM SIGBED, ACM SIGPLAN,
+and Ada Resource Association (ARA),
+supported and sponsored by ASCENDER project, ACM-W, Eurocity,
+AdaCore, Rising STARS project, ACM-W Barcelona Chapter, and OpenMP
+
+#AEiC2024 #AdaEurope #AdaProgramming
+
+*** Early registration discount until May 20 ***
+*** Highly recommended to book your hotel ASAP ***
+
+-----------------------------------------------------------------------
+
+*** Exciting News!
+
+Preparations for AEiC 2024, the 28th Ada-Europe International
+Conference on Software Reliable Technologies, are well underway!
+
+Registrations opened Tuesday April 16, and we've got some exciting
+offers lined up for you, courtesy of our generous sponsors Rising
+STARS and AdaCore, as well as an inspiring program.
+
+See below for an overview, and visit our website for more details about
+accepted contributions, registration fees, social events and many more.
+
+*** General Information
+
+The 28th Ada-Europe International Conference on Reliable Software
+Technologies (AEiC 2024) will take place in Barcelona, Spain.
+The conference schedule comprises a keynote and an invited talk,
+a panel with invited experts, a journal track, an industrial track,
+a work-in-progress track, a vendor exhibition, parallel tutorials and
+hackaton, and satellite workshops.  There will be time for networking
+during breaks and lunches, as well as various social events.
+
+AEiC 2024 is the latest in a series of annual international conferences
+started in the early 80's, under the auspices of Ada-Europe, the
+international organization that promotes knowledge and use of the Ada
+programming language and reliable software in general, into academic
+education and research, and industrial practice.
+
+The Ada-Europe series of conferences has over the years become
+a leading international forum for providers, practitioners and
+researchers in reliable software technologies.  These events
+highlight the increased relevance of Ada in general and in safety-
+and security-critical systems in particular, and provide a unique
+opportunity for interaction and collaboration between academics and
+industrial practitioners.
+
+The 2024 edition of the conference continues a number of important
+innovations started in previous years:
+- reduced conference registration fee for all authors;
+- low registration fee for all tutorials and workshops;
+- journal-based open-access publication model for peer-reviewed papers;
+- compact program with two core days (Wednesday & Thursday);
+- tutorials on Tuesday, followed by welcome event for all participants;
+- workshops on Friday, optional chill event on Thursday evening.
+
+*** Overview of the Week
+
+- Tue 11: six half-day tutorials, full-day hackaton, welcome reception
+- Wed 12: core technical program, conference banquet
+- Thu 13: core technical program, post conference chill-out
+- Fri 17: four full-day workshops
+
+Extensive information on AEiC 2024 is on the conference website,
+such as an overview of the program, the list of accepted papers and
+presentations, and descriptions of workshops, tutorials, hackaton,
+keynote and invited presentations, panel, and social events.
+Also check the conference site for registration, accommodation and
+travel information.  The Advance Program brochure will be available
+there as well.
+
+*** Venue
+
+The conference will take place in UPC Campus Nord, easily accessible by
+metro from the airport and city centre.  If you can stay over before or
+after the conference, there's a lot to see around.  Check the Practical
+Information section of the conference website for more info.
+
+*** Invited Speakers
+
+This year the conference will feature a keynote talk on the first
+day, and a panel with three invited speakers on the second, plus an
+invited talk.  All will address topics of relevance in the conference
+scope, with time for questions and answers.
+
+- On Wed June 12, a keynote talk by Francisco J. Cazorla and Jaume
+  Abella, from Barcelona Supercomputing Center, who will talk about
+  "Strategies to Build Safety Relevant High-Performance HW/SW Platforms
+  for Critical Embedded Systems".
+
+- On Thu June 13, a panel on "AI for Safety-Critical Systems: How
+  'I' Should the AI be?", moderated by Cristina Seceleanu, Mälardalen
+  University, with three invited experts: Kerstin Bach (Norwegian
+  University of Science and Technology), Irune Yarza (Ikerlan),
+  Marta Barroso (Barcelona Supercomputing Center).
+
+- And an invited talk by Rosa Maria Badia, Barcelona Supercomputing
+  Center, on "Simplifying the Life-Cycle Management of Complex
+  Application Workflows".
+
+*** Conference Core Composition
+
+The core conference program features three distinct types of technical
+presentations, with different duration, in addition to the keynote
+talk and the pannel session: journal-track talks (25 minutes),
+industrial-track talks (15 minutes), work-in-progress-track talks
+(10 minutes).
+
+All papers presented in the journal track, the industrial track and
+the work-in-progress track have undergone peer review.  Presentations
+are combined into by-theme and not by-track sessions, in order that
+authors and participants alike enjoy all flavors of the program in
+a mixed as opposed to segregated combination.
+
+Papers and Presentations:
+- 6 sessions with a mix of presentations on specific topics
+- 13 journal-track talks
+- 8 work-in-progress reports
+- 5 industrial presentations and experience reports
+- submissions from around the world
+- accepted contributions by authors from Belgium, China, France,
+  Germany, India, Italy, Portugal, Spain, Sweden, UK, USA
+
+*** Tutorials
+
+Six three-hour tutorials are offered on Tuesday 11th:
+
+- "Lock-Free Programming in Ada-2022: Implementing a Work-Stealing
+  Scheduler for Ada-2022's Light-Weight Parallelism", by S. Tucker
+  Taft, AdaCore, USA
+
+- "Ada for Business Applications", by Gautier de Montmollin,
+  Ada-Switzerland, Switzerland
+
+- "Rust Fundamentals", by Luis Miguel Pinho and Tiago Carvalho,
+  ISEP, Portugal
+
+- "Concurrency and Parallelism in Rust", by Luis Miguel Pinho and
+  Tiago Carvalho, ISEP, Portugal
+
+- "Modeling Concurrent State Machines in TLA+", by J. Germán Rivera,
+  Tesla, USA
+
+- "Introduction to the Development of Safety-Critical Software",
+  by Jean-Pierre Rosen, Adalog, France
+
+- "METASAT: Programming High Performance RISC-V Technologies for
+  Space", by Leonidas Kosmidis, Barcelona Supercomputing Center,
+  Alejandro Calderon, Ikerlan, Aridane Alvarez Suarez, fentISS,
+  Lorenzo Lazzara, Collins Aerospace, Eckart Göhler, OHB
+
+- "Introduction to Certifiable General Purpose GPU Programming
+  for Safety-Critical Systems", by Leonidas Kosmidis, Barcelona
+  Supercomputing Center, Rod Burns and Verena Beckham, Codeplay/Intel
+
+as well as a "hackaton":
+
+- "Optimizing AI-driven Workflows within a Mission-Critical
+  Cyber-Physical System", if you're keen to explore the latest AI
+  techniques for Adaptive Optics applications in giant telescopes
+  with Damien Gratadour, Observatoire de Paris, CNRS, France
+
+*** Satellite Events
+
+Four workshops are held on Friday 11th:
+
+- 3rd ADEPT workshop "AADL by its practitioners"
+
+- 9th International Workshop on "Challenges and New Approaches for
+  Dependable and Cyber-Physical System Engineering" (DeCPS 2024)
+
+- "Enabling the use of AI in Safety-Critical Systems"
+
+- "Ada Developers Workshop", an informal yet dynamic gathering for
+  developers in the Ada community to meet, share insights, and present
+  their latest projects or project updates, using the Ada programming
+  language and Ada-related technology
+
+*** Social Program
+
+The conference provides several opportunities to socialize:
+
+- Each day: coffee breaks and lunches offer ample time for interaction
+  and networking with participants and vendors.
+
+- Tuesday early evening: welcome reception at the picturesque gardens
+  of Torre Girona.  Guests will be treated to a curated selection
+  of local wines paired with the globally renowned Iberian ham, and
+  an array of delectable appetizers representing the rich culinary
+  heritage of Catalonia and Spain.  Attendees will have the unique
+  opportunity to explore the cutting-edge facilities of the Barcelona
+  Supercomputing Center, and marvel at its latest addition, the
+  Marenostrum V supercomputer, and its predecessor, Marenostrum IV,
+  housed within the historic chapel of Torre Girona.
+
+- Wednesday evening: Conference Banquet at the emblematic restaurant
+  "7 portes".  Attendees will have the opportunity to savor the
+  finest flavors of the Catalan and Mediterranean cuisines, such as
+  the renowned "Paella Perallada", a masterpice that harmoniously
+  combines semi-dry rice with succulent peeliled shellfish, delectable
+  seafood and tender meats.  With a history spanning over 180 years,
+  "7 portes" stands as a witness to the evolution of some of the
+  most illustrious artists of their time, including Pablo Picasso and
+  Antoni Tàpies. Their presence has left an indelible mark, forming
+  a captivating small art gallery within the restaurant's walls,
+  waiting to be discovered by guests.
+
+- Thursday evening: Chill event at the Moritz Barcelona Brewery,
+  the brewery of the first beer of Barcelona.  The event is divided
+  in three parts: a visit to the brewery, a welcome drink at the
+  Brasserie room, offering an exclusive vantage point overlooking the
+  maceration tanks, and a banquet served within the same Brasserie
+  room, by renowned chef Jordi Vilà, adorned with a Michelin star,
+  promising a gastronomic experience to be savored and remembered.
+
+*** Further Information
+
+Registration:
+- registration information is provided at
+  <http://www.ada-europe.org/conference2024/registration.html>
+- early registration discount until Monday May 20, 2024
+- payment possible by credit card or bank transfer
+- special low conference fee for authors
+- discount for Ada-Europe, ACM SIGAda, SIGBED and SIGPLAN members
+- registration includes coffee breaks, lunches and social events
+- low tutorial and workshop fees for all participants
+- strong discount on all fees for students
+- minimal fee for AI Hackaton and Ada Developers Workshop
+- see registration page for all details
+
+Promotion:
+- recommended Twitter hashtags: #AEiC2024 #AdaEurope #AdaProgramming
+
+AEiC 2024 Sponsors:
+- Barcelona Supercomputing Center: <https://www.bsc.es/>
+- ASCENDER project:
+  <https://www.bsc.es/research-and-development/projects/
+  ascender-arquitectura-software-para-entornos-de-computo-continuo>
+- ACM-W: <https://women.acm.org/>
+- Eurocity: <https://eurocity.be/>
+- AdaCore: <https://www.adacore.com/>
+- Rising STARS project: <https://risingstars-project.eu/>
+- ACM-W Barcelona Chapter: <https://twitter.com/BCN_ACM_W>
+- OpenMP: <https://www.openmp.org/>
+
+The conference is supported and sponsored by
+- Ada-Europe: <http://www.ada-europe.org/>
+
+and organized in cooperation with
+- ACM SIGAda: <http://www.sigada.org/>
+- ACM SIGBED: <https://sigbed.org/>
+- ACM SIGPLAN: <http://www.sigplan.org/>
+- ARA: <https://www.adaic.org/community/>
+
+Please make sure you book accommodation as soon as possible.
+
+For more info and latest updates see the conference website at
+<http://www.ada-europe.org/conference2024>.
+
+We look forward to seeing you in Barcelona in June 2024!
+
+-----------------------------------------------------------------------
+
+Our apologies if you receive multiple copies of this announcement.
+Please circulate widely.
+
+Dirk Craeynest, AEiC 2024 Publicity Chair
+Dirk.Craeynest@cs.kuleuven.be
+
+* 28th Ada-Europe Int. Conf. Reliable Software Technologies (AEiC 2024)
+* June 11-14, 2024, Barcelona, Spain, www.ada-europe.org/conference2024
+

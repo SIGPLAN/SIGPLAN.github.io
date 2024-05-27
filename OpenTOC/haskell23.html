@@ -1,0 +1,177 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>Haskell 2023: Proceedings of the 16th ACM SIGPLAN International Haskell Symposium</title></head><body><div id="DLtoc"><div id="DLheader"><h1>Haskell 2023: Proceedings of the 16th ACM SIGPLAN International Haskell Symposium</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3609026"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Keynotes</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609026.3615580">Haskell for Choice-Based Learning (Keynote)</a></h3><ul class="DLauthors"><li class="nameList Last">Ningning Xie</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Machine learning has achieved many successes during the past decades, spanning domains of game-playing, protein folding, competitive programming, and many others. However, while there have been major efforts in building programming techniques and frameworks for machine learning programming, there has been very little study of general language design for machine learning programming. 
+</p>
+<p>
+We pursue such a study in this talk, focusing on choice-based learning, particularly where choices are driven by optimizations. This includes widely-used decision-making models and techniques (e.g., Markov decision processes or gradient descent) which provide frameworks for describing systems in terms of choices (e.g., actions or parameters) and their resulting feedback as losses (dually, rewards). 
+</p>
+<p>
+We propose and give evidence for the following thesis: languages for choice-based learning can be obtained by combining two paradigms, algebraic effects and handlers, and the selection monad. We provide a prototype implementation as a Haskell library and present a variety of programming examples for choice-based learning: stochastic gradient descent, hyperparameter tuning, generative adversarial networks, and reinforcement learning.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609026.3615581">The Evolution of Effects (Keynote)</a></h3><ul class="DLauthors"><li class="nameList Last">Nicolas Wu</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Functional programming has been celebrated for its promise of pure functions, delivering referential transparency and elegant reasoning about programs. However, real-world applications are not pure, and necessitate interaction with the outside world, introducing computational effects such as IO, state, and exceptions. The journey to harmonize these seemingly contradictory paradigms has led to a fascinating evolution of effectful programming in Haskell.  
+</p>
+<p>
+The introduction of monads as a practical programming tool was a pivotal discovery, enabling controlled sequencing of effectful computations and addressing the challenge of handling side effects in a pure language. However, it soon became evident that the lack of modularity in composing effects using monads posed a limitation to effectful programming. To overcome this obstacle, monad transformers emerged as a solution, providing a composable manner of building effects on top of one another.  
+</p>
+<p>
+More recent advancements have led to algebraic effects as an alternative framework that is easy to extend, particularly as domain-specific languages crafted to work in specific contexts. Nevertheless, these effects are not without quirks and limitations, leading to the development of higher-order effects. These higher-order effects extend the capabilities of algebraic effects, providing greater flexibility for expressing effectful computations, while also shedding light on the connection between the monad approach and the algebraic approach to effects.  
+</p>
+<p>
+This talk will survey the historical milestones that have shaped the landscape of effectful programming in Haskell, exploring the transition from monads to monad transformers and the emergence of algebraic and higher-order effects.</p>
+			</div></div>
+							
+						<h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609026.3609726">This Is Driving Me Loopy: Efficient Loops in Arrowized Functional Reactive Programs</a></h3><ul class="DLauthors"><li class="nameList">Finnbar Keating</li><li class="nameList Last">Michael B. Gale</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Arrowized Functional Reactive Programming (AFRP) is one approach to writing reactive programs declaratively, based on the arrows abstraction in Haskell. While AFRP elegantly expresses the relationships between inputs and outputs of a reactive system, na'ive implementations suffer from poor performance. In particular, the <em>loop</em> combinator depends on lazy semantics: this inflicts the overheads of lazy evaluation and simultaneously prevents existing optimisation techniques from being applied to it. </p><p>We present a novel program transformation which utilises the Arrow and ArrowLoop laws to transform typical uses of <em>loop</em> into restricted forms that have an execution order that is known at compile-time and therefore can be executed strictly. We evaluate the performance gained from our transformations and prove that the transformations are correct.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609026.3609727">The Essence of Reactivity</a></h3><ul class="DLauthors"><li class="nameList">Ivan Perez</li><li class="nameList Last">Frank Dedden</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Reactive programming, functional reactive programming, event-based programming, stream programming, and temporal logic all share an underlying commonality: values can vary over time. These languages differ in multiple ways, including the nature of time itself (e.g., continuous or discrete, dense or sparse, implicit or explicit), on how much of the past and future can be referenced, on the kinds of values that can be represented, as well as the mechanisms used to evaluate expressions or formulas. This paper presents a series of abstractions that capture the essence of different forms of time variance. By separating the aspects that differentiate each family of formalisms, we can better express the commonalities and differences between them. We demonstrate our work with a prototype in Haskell that allows us to write programs in terms of a generic interface that can be later instantiated to different abstractions depending on the desired target.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609026.3609728">An Exceptional Actor System (Functional Pearl)</a></h3><ul class="DLauthors"><li class="nameList">Patrick Redmond</li><li class="nameList Last">Lindsey Kuper</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The Glasgow Haskell Compiler is known for its feature-laden runtime system  
+(RTS), which includes lightweight threads, asynchronous exceptions, and a  
+slew of other features.  
+Their combination is powerful enough that a programmer may  
+complete the same task in many different ways --- some more advisable than  
+others.  
+</p>
+<p>
+We present a user-accessible actor framework hidden in plain sight within  
+the RTS and demonstrate it on a classic example from the distributed  
+systems literature.  
+We then extend both the framework and example to the realm of dynamic  
+types.  
+Finally, we raise questions about how RTS features intersect and possibly  
+subsume one another, and suggest that GHC can guide good practice by  
+constraining the use of some features.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609026.3609729">Effect Handlers for Programmable Inference</a></h3><ul class="DLauthors"><li class="nameList">Minh Nguyen</li><li class="nameList">Roly Perera</li><li class="nameList">Meng Wang</li><li class="nameList Last">Steven Ramsay</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Inference algorithms for probabilistic programming are complex imperative programs with many moving parts. Efficient inference often requires customising an algorithm to a particular probabilistic model or problem, sometimes called <em>inference programming</em>. Most inference frameworks are implemented in languages that lack a disciplined approach to side effects, which can result in monolithic implementations where the structure of the algorithms is obscured and inference programming is hard. Functional programming with typed effects offers a more structured and modular foundation for programmable inference, with monad transformers being the primary structuring mechanism explored to date. </p><p>This paper presents an alternative approach to inference programming based on algebraic effects. Using effect signatures to specify the key operations of the algorithms, and effect handlers to modularly interpret those operations for specific variants, we develop two abstract algorithms, or <em>inference patterns</em>, representing two important classes of inference: Metropolis-Hastings and particle filtering. We show how our approach reveals the algorithms’ high-level structure, and makes it easy to tailor and recombine their parts into new variants. We implement the two inference patterns as a Haskell library, and discuss the pros and cons of algebraic effects <em>vis-à-vis</em> monad transformers as a structuring mechanism for modular imperative algorithm design.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609026.3609730">Don’t Go Down the Rabbit Hole: Reprioritizing Enumeration for Property-Based Testing</a></h3><ul class="DLauthors"><li class="nameList">Segev Elazar Mittelman</li><li class="nameList">Aviel Resnick</li><li class="nameList">Ivan Perez</li><li class="nameList">Alwyn E. Goodloe</li><li class="nameList Last">Leonidas Lampropoulos</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In our implementation, we integrate a state-of-the-art enumeration-based property-based testing framework, LazySearch, with a state-of-the-art combinatorial testing tool, NIST’s ACTS, and demonstrate how it can significantly speed up the effectiveness of testing—up to more than 20× in the case of a prior System F case study from the literature.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609026.3609731">HasTEE: Programming Trusted Execution Environments with Haskell</a></h3><ul class="DLauthors"><li class="nameList">Abhiroop Sarkar</li><li class="nameList">Robert Krook</li><li class="nameList">Alejandro Russo</li><li class="nameList Last">Koen Claessen</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Trusted Execution Environments (TEEs) are hardware enforced memory isolation units, emerging as a pivotal security solution for security-critical applications. TEEs, like Intel SGX and ARM TrustZone, allow the isolation of confidential code and data within an untrusted host environment, such as the cloud and IoT. Despite strong security guarantees, TEE adoption has been hindered by an awkward programming model. This model requires manual application partitioning and the use of error-prone, memory-unsafe, and potentially information-leaking low-level C/C++ libraries. </p><p>We address the above with <em>HasTEE</em>, a domain-specific language (DSL) embedded in Haskell for programming TEE applications. HasTEE includes a port of the GHC runtime for the Intel-SGX TEE.HasTEE uses Haskell’s type system to automatically partition an application and to enforce <em>Information Flow Control</em> on confidential data. The DSL, being embedded in Haskell, allows for the usage of higher-order functions, monads, and a restricted set of I/O operations to write any standard Haskell application. Contrary to previous work, HasTEE is lightweight, simple, and is provided as a <em>simple security library</em>; thus avoiding any GHC modifications. We show the applicability of HasTEE by implementing case studies on federated learning, an encrypted password wallet, and a differentially-private data clean room.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609026.3609732">Haskell Library for Safer Virtual Machine Introspection (Experience Report)</a></h3><ul class="DLauthors"><li class="nameList">Takato Otsuka</li><li class="nameList Last">Hideya Iwasaki</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Virtual machine introspection (VMI) is a technique for inspecting a virtual machine  
+from the outside, typically to analyze the  
+operating system (guest OS) running on it.  
+LibVMI is a C library for VMI and provides APIs for accessing  
+guest OS's memory.  
+However, in using LibVMI APIs directly in C, the programmer must  
+compute target addresses in the kernel memory  
+and then access them with their exact bit widths and types.  
+This is an enormous burden for the programmer and is prone to introducing  
+statically undetected but fatal errors.  
+We create HaVMI, a Haskell library that facilitates VMI programming.  
+HaVMI provides meta-functions for compile-time  
+code generation by Template Haskell.  
+These meta-functions make it easy to write safer VMI programs.  
+HaVMI uses Haskell language features to detect the programmer's errors  
+statically.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3609026.3609733">falsify: Internal Shrinking Reimagined for Haskell</a></h3><ul class="DLauthors"><li class="nameList Last">Edsko de Vries</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In unit testing we apply the function under test to known inputs and check for known outputs. By contrast, in property based testing we state <em>properties</em> relating inputs and outputs, apply the function to <em>random</em> inputs, and verify that the property holds; if not, we found a bug. Randomly generated inputs tend to be large and should therefore be minimised. Traditionally this is done with an explicitly provided <em>shrinker</em>, but in this paper we propose a way to write generators that obsoletes the need to write a separate shrinker. Inspired by the Python library Hypothesis, the approach can work even across monadic bind. Compared to Hypothesis, our approach is more suitable to the Haskell setting: it depends on a minimal set of core principles, and handles generation and shrinking of infinite data structures, including functions.</p>
+			</div></div>
+							
+						</div></div></body></html>

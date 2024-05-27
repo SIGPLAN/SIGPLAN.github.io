@@ -1,0 +1,38 @@
+---
+title: "OAP 2024 Call for Papers (co-located with PLDI'24, taking place in Copenhagen)"
+timestamp: "2/9/2024 8:56:03"
+deadline: "3/4/2024"
+---
+SOAP 2024 (https://pldi24.sigplan.org/home/SOAP-2024) aims to bring together the members of the program analysis community to share new developments and shape new innovations in program analysis. SOAP is an ACM SIGPLAN workshop, co-located with PLDI’24, taking place in Copenhagen, Denmark on June 25th, 2024.
+
+We invite contributions from researchers and practitioners working with program analysis. We are particularly interested in exciting analysis framework ideas, application of existing static analysis techniques to industrial software, adoption of static analysis in software engineering practices (such as DevOps), innovative designs, and analysis techniques, including preliminary results or work in progress.
+
+Papers can be submitted through HotCRP (https://soap24.hotcrp.com/).
+
+
+Important dates
+
+4 March		Submission deadline
+19 April	        Author notification
+03 May 		Camera ready deadline
+25 June		Workshop
+
+
+Submission topics
+
+Possible submissions include, but are not limited to:
+A report on a novel implementation of a program analysis, with a focus on practical details or optimization techniques for obtaining precision and performance.
+A new research tool, data, and other artifacts, that showcase early implementations of novel program analysis concepts, as well as mature prototypes.
+A description of a novel analysis component, for example, front-ends or abstract domains.
+A report describing an innovative tool built on top of an existing framework.
+A compelling use case for a feature that is not yet supported by existing analysis tools, with good examples and an informal design of the proposed feature.
+An idea paper proposing the integration of existing program analyses to answer interesting novel questions about programs, for example in IDEs and DevOps practices.
+An experience report on the use of an existing program analysis framework.
+A description of a program analysis tool and screenshots of the main parts of the demo.
+
+Submission format
+
+Submissions should be four to six-page papers and should be formatted according to the two-column ACM proceedings format. We strongly encourage authors to make their tool and experimental evaluation public and reproducible, through Docker or virtual machines archived on Zenodo.org.
+Similar to SOAP 2023, the Program Committee of SOAP 2024 plans to invite a selection of accepted papers to submit extended versions to a special issue of the International Journal on Software Tools for Technology Transfer (STTT).
+
+

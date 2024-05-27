@@ -1,0 +1,232 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>Onward! 2023: Proceedings of the 2023 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software</title></head><body><div id="DLtoc"><div id="DLheader"><h1>Onward! 2023: Proceedings of the 2023 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3622758"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622758.3622887">Scalable Spreadsheet-Driven End-User Applications with Incremental Computation</a></h3><ul class="DLauthors"><li class="nameList">Sean Hadar</li><li class="nameList Last">Shachar Itzhaky</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Spreadsheets are a popular programming model among both novice and advanced users.  
+It allows for quick development of computational tasks over the user's data set.  
+It has also been suggested as a model for lightweight, low-code development of small-scale personal and collaborative applications for managing data.  
+A barrier is hit when trying to scale up these applications: as the volume of the data grows, performance of spreadsheet computations degrades noticeably, making their maintenance more difficult and frustrating.  
+This paper explores one aspect in which spreadsheets can be boosted significantly - by making computations more incremental, such that small changes to the data would incur a respectively small cost of update.  
+This is particularly interesting in the context of aggregate operations - applied to sets of data elements, producing a single value, such as their sum or average.  
+We propose a compilation phase in which a compiler transforms a spreadsheet table into a program that accepts a stream of changes and produces a stream of updates.  
+We show how to adapt classical results from finite differencing to this interesting modern scenario, and demonstrate that it yields asymptotic improvements to resource usage.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622758.3622888">Towards an Industrial Stateful Software Rejuvenation Toolchain using Model Learning</a></h3><ul class="DLauthors"><li class="nameList">Mathijs Schuts</li><li class="nameList Last">Jozef Hooman</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present our vision for creating an industrial legacy software rejuvenation toolchain. The goal is to semi automatically remove code smells from stateful software used in Cyber Physical Systems (CPS). Compared to existing tools that remove code smells, our toolchain can remove more than one type of code smell. Additionally, our approach supports multiple programming languages because we use abstract models obtained by means of model learning. Supporting more than one programming language is often lacking in state of art refactoring tools.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622758.3622889">Cloning and Beyond: A Quantum Solution to Duplicate Code</a></h3><ul class="DLauthors"><li class="nameList">Samyak Jhaveri</li><li class="nameList">Alberto Krone-Martins</li><li class="nameList Last">Cristina V. Lopes</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Quantum computers are becoming a reality. The advantage of quantum computing is that it has the potential to solve computationally complex problems in a fixed amount time, independent of the size of the problem. However, the kinds of problems for which these computers are a good fit, and the ways to express those problems, are substantially different from the kinds of problems and expressions used in classical computing. Quantum annealers, in particular, are currently the most promising and available quantum computing devices in the short term. However, they are also the most foreign compared to classical programs, as they require a different kind of computational thinking.  
+In order to ease the transition into this new world of quantum computing, we present a novel quantum approach to a well-known software problem: code clone detection. We express code clone detection as a subgraph isomorphism problem that is mapped into a quadratic optimization problem, and solve it using a DWave quantum annealing computer. We developed a quantum annealing algorithm that compares Abstract Syntax Trees (AST) and reports an energy value that indicates how similar they are.  
+</p>
+<p>
+The motivation behind this research goes well beyond code duplicate detection: our approach paves the way into how to express software engineering problems as optimization problems that can be solved by quantum annealers.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622758.3622890">Trustworthy Formal Natural Language Specifications</a></h3><ul class="DLauthors"><li class="nameList">Colin S. Gordon</li><li class="nameList Last">Sergey Matskevich</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Interactive proof assistants are computer programs carefully constructed to check a human-designed proof of a mathematical claim with high confidence in the implementation. However, this only validates truth of a formal claim, which may have been mistranslated from a claim made in natural language. This is especially problematic when using proof assistants to formally verify the correctness of software with respect to a natural language specification. The translation from informal to formal remains a challenging, time-consuming process that is difficult to audit for correctness.  
+</p>
+<p>
+This paper shows that it is possible to build support for specifications written in expressive subsets of natural language, within existing proof assistants, consistent with the principles used to establish trust and auditability in proof assistants themselves. We implement a means to provide specifications in a modularly extensible formal subset of English, and have them automatically translated into formal claims, entirely within the Lean proof assistant. Our approach is extensible (placing no permanent restrictions on grammatical structure), modular (allowing information about new words to be distributed alongside libraries), and produces proof certificates explaining how each word was interpreted and how the sentence's structure was used to compute the meaning.  
+</p>
+<p>
+We apply our prototype to the translation of various English descriptions of formal specifications from a popular textbook into Lean formalizations; all can be translated correctly with a modest lexicon with only minor modifications related to lexicon size.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622758.3622891">Code Merging using Transformations and Member Identity</a></h3><ul class="DLauthors"><li class="nameList">André Teles</li><li class="nameList Last">André Santos</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Conventionally, merging code files is performed using generic line-based merging algorithms (e.g., diff3) that are unaware of the syntax and semantics of the programming language, outputting conflicts that could be avoided. Structured and semistructured merging techniques are capable of reducing conflicts, but they still suffer from false positives (conflicts that could be avoided) and false negatives (conflicts that go undetected). We propose a merging technique that combines semistructured and transformation-based strategies, where conflict detection is aware of semantic aspects of the programming language. We extract transformations of two branches and apply a merging process that analyzes incompatible transformations, avoiding false positives and false negatives that occur in existing approaches. We developed Jaid, a prototype merging tool for Java based on the assumption that structural code elements evolve with attached UUIDs (representing identity). We performed an early experiment with 63 merge scenarios from two open-source projects to test the technique and assess its feasibility.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622758.3622892">Time-Awareness in Object Exploration Tools: Toward In Situ Omniscient Debugging</a></h3><ul class="DLauthors"><li class="nameList">Christoph Thiede</li><li class="nameList">Marcel Taeumel</li><li class="nameList Last">Robert Hirschfeld</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Exploration of state and behavior is essential for understanding and debugging object-oriented programs. Many time-related questions about object communication – an object’s history – only arise in the context of a specific error in the here and now. At such a specific point in time, however, it is often distracting to involve omniscient debugging tools such as program tracers, because they do not integrate well with the programmer’s current focus on space-related questions and the informational cues at hand. In this paper, we present a novel way to provide a tangible, consolidated notion of both space and time in object exploration tools to make it more likely that programmers will use the available means to explore the evolution of particular objects. With programmers remaining informed about and in control of a program’s space and time, we promote the scientific method for debugging and leverage exploratory programming practices. We evaluate our model with hands-on experiences in the Squeak/Smalltalk programming system, using a program tracer that we have integrated into existing exploration tools to promote both spatial and temporal views. We believe that a clear, tangible notion of spacetime can help tool designers provide a better programming experience for those constantly recurring “What happened to this object?” situations.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622758.3622893">Could No-Code Be Code? Toward a No-Code Programming Language for Citizen Developers</a></h3><ul class="DLauthors"><li class="nameList">Assaf Avishahar-Zeira</li><li class="nameList Last">David H. Lorenz</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>By 2030 for each filled position in Software Engineering,  
+two positions would remain unfilled. This already  
+apparent loss of productivity has the software  
+industry scrambling to fill the missing positions with  
+citizen developers---technical people with little or no  
+programming skills---who would be using No-Code platforms  
+to program various software solutions in specific domains.  
+However, currently available platforms have fairly limited  
+abstractions, lacking the flexibility of a general purpose  
+programming language.  
+</p>
+<p>
+To break the No-Code abstraction barrier, a very simple yet  
+expressive general purpose No-Code programming language  
+might provide citizen developers with an alternative to  
+domain-specific No-Code platforms. Unfortunately, these  
+requirements seem contradictory. Making a language very  
+simple and specific might render it crippled, thus limited  
+to a certain domain of problems. Conversely, making a  
+language very expressive and general, might render it too  
+complicated for citizen developers.  
+</p>
+<p>
+In this work we argue that a multi-paradigm minimalist  
+approach can bridge the gap between simplicity and  
+expressiveness by including only abstractions considered  
+intuitive to citizens. As a concrete proof-of-concept, we  
+present a general purpose programming language designed  
+for citizen developers that is on the one hand very  
+powerful and on the other hand very simple. In fact,  
+this language is so simple that the entire development  
+is accomplished by flowcharts using mouse actions only,  
+without typing a single line of code, thus demonstrating  
+a general purpose No-Code programming language candidate  
+for citizen developers.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622758.3622894">Concept-Centric Software Development: An Experience Report</a></h3><ul class="DLauthors"><li class="nameList">Peter Wilczynski</li><li class="nameList">Taylor Gregoire-Wright</li><li class="nameList Last">Daniel Jackson</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Developers have long recognized the importance of the concepts underlying the systems they build, and the primary role that concepts play in shaping user experience. To date, however, concepts have tended to be only implicit in software design with development being organized instead around more concrete artifacts (such as wireframes and code modules).  
+</p>
+<p>
+Palantir, a software company whose data analytics products are widely used by major corporations, recently reworked the internal representation of its software development process to bring concepts to the fore, making explicit the concepts underlying its products, including how they are clustered together, used in applications, and governed by teams. With a centralized repository of concepts, Palantir engineers are able to align products more closely based on shared concepts, evolve concepts in response to user needs, and communicate more effectively with non-engineering groups within the company.  
+</p>
+<p>
+This paper reports on Palantir's experiences to date, analyzing both successes and challenges, and offers advice to other organizations considering adopting a concept-centric approach to software development.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622758.3622895">Toward Programming Languages for Reasoning: Humans, Symbolic Systems, and AI Agents</a></h3><ul class="DLauthors"><li class="nameList Last">Mark Marron</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Integration, composition, mechanization, and AI assisted development are the driving themes in the future of software development. At their core these concepts are rooted in the increasingly important role of computing in our world, the desire to deliver functionality faster, with higher quality, and to empower more people to benefit from programmatic automation. These themes, and how they impact the human developers driving them, are the foundations for the next generation of programming languages. At first glance the needs of mechanization tools, AI agents, and human developers along with the various goals around development velocity, software quality, and software democratization are a broad and seemingly diverse set of needs. However, at their core is a single challenge that, once resolved, enables us to make radical progress in all of these areas. </p><p>Our hypothesis is that, fundamentally, software development is a problem of reasoning about code and semantics. This is true for human developers implementing a feature, symbolic tools building models of application behaviour, and even for language based AI agents as they perform tasks. While the particular aspects of reasoning that each agent struggles with varies to some degree, they share many common themes and, surprisingly, most mainstream languages extensively employ (anti)features that make this task harder or infeasible! This paper proposes a novel approach to this challenge – instead of new language features or logical constructs, that add more complexity to what is already a problem of complexity, we propose radical simplification in the form of the Bosque platform and language.</p>
+			</div></div>
+							
+						<h2>SESSION: Essays</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622758.3622882">Will Code Remain a Relevant User Interface for End-User Programming with Generative AI Models?</a></h3><ul class="DLauthors"><li class="nameList Last">Advait Sarkar</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The research field of end-user programming has largely been concerned with helping non-experts learn to code sufficiently well in order to achieve their tasks. Generative AI stands to obviate this entirely by allowing users to generate code from naturalistic language prompts. In this essay, we explore the extent to which "traditional" programming languages remain relevant for non-expert end-user programmers in a world with generative AI. We posit the "generative shift hypothesis": that generative AI will create qualitative and quantitative expansions in the traditional scope of end-user programming. We outline some reasons that traditional programming languages may still be relevant and useful for end-user programmers. We speculate whether each of these reasons might be fundamental and enduring, or whether they may disappear with further improvements and innovations in generative AI. Finally, we articulate a set of implications for end-user programming research, including the possibility of needing to revisit many well-established core concepts, such as Ko's learning barriers and Blackwell's attention investment model.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622758.3622883">Whither Problem-Solving Environments?</a></h3><ul class="DLauthors"><li class="nameList Last">Matthew Dinmore</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>During the 1990s and first decade of the 2000s, problem-solving environments (PSEs) were a topic of research among a community with the vision to create software systems “with all of the computational facilities necessary to solve a target class of problems.” Use of the term has since declined, with fewer papers focused on core PSE research topics. What happened? Did we achieve the design vision for PSEs through other means – namely computational notebooks – or is there more to do? In this essay, we explore the history and objectives of PSE research, the rise of computational notebooks, whether they achieve these objectives, and why the time is right to renew our PSE research efforts.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622758.3622884">Sharing a Perspective on the 𝜆-Calculus</a></h3><ul class="DLauthors"><li class="nameList Last">Beniamino Accattoli</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The λ-calculus models the core of functional programming languages. This essay discusses a gap between the theory of the λ-calculus and functional languages, namely the fact that the former does not give a status to <em>sharing</em>, the essential ingredient for efficiency in the lattter. </p><p>The essay provides an overview of the perspective of the author, who has been and still is studying sharing from various angles. In particular, it explains how sharing impacts the <em>equational</em> and <em>denotational</em> semantics of the λ-calculus, breaking some expected properties, and demanding the development of new, richer semantics of the λ-calculus.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3622758.3622885">programmingLanguage as Language;</a></h3><ul class="DLauthors"><li class="nameList">James Noble</li><li class="nameList Last">Robert Biddle</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Programming languages are languages --- “unnatural” languages because  
+they are constructed explicitly; “formal” languages because they rely  
+on mathematical notations and are described mathematically; “machine”  
+languages because they are used to communicate with machines. Above  
+all, programming languages are “human” languages. Programs in  
+programming languages are spoken and read and written and designed and  
+debugged and debated by humans, supported by human communities and  
+forming those communities in turn. Langauge implementations,  
+being programs themselves, are likewise designed and  
+debugged and debated by humans.  
+</p>
+<p>
+  
+Programming languages adopt structural elements from natural language,  
+including syntax, grammar, vocabulary, and even some sentence  
+structure.  
+Other aspects of language have received less attention,  
+including noun declension, verb tense, and situation-appropriate  
+register. Semiotics  
+shows how language use can connote and imply, and will lead to  
+interpretation. Language involves larger level structure too:  
+conversations, stories, and documents of all kinds. Language supports  
+both cognitive and affective processes, and is involved in building  
+mental models that we use to recall, reason, and respond.  
+</p>
+<p>
+Programming is a complex activity, uncertain yet precise, individual  
+and social, involving intent and interpretation.  
+Language is not the accident of programming --- it is the essence.</p>
+			</div></div>
+							
+						</div></div></body></html>

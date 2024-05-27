@@ -83,6 +83,7 @@ We'd like to thank these amazing mentors:
 - Tom Ball
 - Sheng Chen
 - Michael Coblenz
+- Jonathan DiLorenzo
 - Alastair Donaldson
 - Sebastian Erdweg
 - Tobias Grosser
@@ -98,8 +99,9 @@ We'd like to thank these amazing mentors:
 - Ismail Kuru
 - Patrick Lam
 - Leonidas Lampropoulos
-- Justin Lubin
 - John Leo
+- Yishuai Li
+- Justin Lubin
 - William Mansky
 - Mae Milano
 - Andrey Mokhov
@@ -110,6 +112,7 @@ We'd like to thank these amazing mentors:
 - Sukyoung Ryu
 - Roopsha Samanta
 - Mike Samuel
+- Satnam Singh
 - Gus Smith
 - Caleb Stanford
 - Kathrin Stark
@@ -120,7 +123,7 @@ We'd like to thank these amazing mentors:
 - Max Willsey
 - Dominik Winterer
 - Li-yao Xia
-- Jonathan DiLorenzo
+- Jie Zhou
 
 And we'd of course also like to thank everyone else who has served or currently serves as a mentor for SIGPLAN-M!
 

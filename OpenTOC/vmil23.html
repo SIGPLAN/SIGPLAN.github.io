@@ -1,0 +1,203 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>VMIL 2023: Proceedings of the 15th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages</title></head><body><div id="DLtoc"><div id="DLheader"><h1>VMIL 2023: Proceedings of the 15th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3623507"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623507.3623552">CHERI Performance Enhancement for a Bytecode Interpreter</a></h3><ul class="DLauthors"><li class="nameList">Duncan Lowther</li><li class="nameList">Dejice Jacob</li><li class="nameList Last">Jeremy Singer</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>During our port of the MicroPython bytecode interpreter to the CHERI-based Arm Morello platform, we encountered a number of serious performance degradations. This paper explores several of these performance issues in detail, in each case  
+we characterize the cause of the problem, the fix, and the corresponding interpreter performance improvement over a set of standard Python benchmarks.  
+</p>
+<p>
+While we recognize that Morello is a prototypical physical instantiation of the CHERI concept, we show that it is possible to eliminate certain kinds of software-induced runtime overhead that occur due to the larger size of CHERI capabilities (128 bits) relative to native pointers (generally 64 bits).  
+In our case, we reduce a geometric mean benchmark slowdown from 5x (before optimization) to 1.7x (after optimization) relative to AArch64, non-capability, execution. The worst-case slowdowns are greatly improved, from 100x (before optimization) to 2x (after optimization).  
+</p>
+<p>
+The key insight is that implicit pointer size presuppositions pervade systems code; whereas previous CHERI porting projects highlighted compile-time and execution-time errors exposed by pointer size assumptions, we instead focus on the performance implications of such assumptions.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623507.3623551">Revisiting Dynamic Dispatch for Modern Architectures</a></h3><ul class="DLauthors"><li class="nameList Last">Dave Mason</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Since the 1980s, Deutsch-Schiffman dispatch has been the standard method dispatch mechanism for languages like Smalltalk, Ruby, and Python.  
+ While it is a huge improvement over the simple, semantic execution model, it has some significant drawbacks for modern hardware and applications.  
+</p>
+<p>
+  
+ This paper proposes an alternative dispatch mechanism that addresses these concerns, with only memory space as a trade-off, that should demonstrate dynamic performance only slightly worse than the best possible with full type information for the program.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623507.3623549">Debugging Dynamic Language Features in a Multi-tier Virtual Machine</a></h3><ul class="DLauthors"><li class="nameList">Anmolpreet Singh</li><li class="nameList">Aayush Sharma</li><li class="nameList">Meetesh Kalpesh Mehta</li><li class="nameList Last">Manas Thakur</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Multi-tiered virtual-machine (VM) environments with Just-In-Time (JIT) compilers are essential for optimizing dynamic language program performance, but comprehending and debugging them is challenging.  
+In this paper, we introduce Derir; a novel tool for tackling this issue in the context of Ř, a JIT compiler for R.  
+Derir demystifies Ř, catering to both beginners and experts.  
+It allows users to inspect the system's runtime state, make modifications, and visualize contextual specializations.  
+With a user-friendly interface and visualization features, Derir empowers developers to explore, experiment, and gain insights into the inner workings of a specializing JIT system.  
+We evaluate the effectiveness and usability of our tool through real-world use cases, demonstrating its benefits in learning as well as debugging scenarios.  
+We believe that our tool holds promise for enhancing the understanding and debugging of complex VMs.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623507.3623557">Array Bytecode Support in MicroJIT</a></h3><ul class="DLauthors"><li class="nameList">Shubham Verma</li><li class="nameList">Harpreet Kaur</li><li class="nameList">Marius Pirvu</li><li class="nameList Last">Kenneth B. Kent</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Eclipse OpenJ9 is a Java virtual machine (JVM), which initially interprets Java programs. OpenJ9 uses Just-in-Time (JIT) compilers—like the default Testarossa JIT (TRJIT)—to translate the bytecodes of the Java program into native code, which executes faster than interpreting. TRJIT is an optimizing compiler, which boosts an application’s long-term performance but can increase start-up time due to initial compiling. Despite this overhead, more often than not, start-up time is still improved when compared to an interpreter-only solution. MicroJIT aims to reduce this initial slowdown, making start-up time even quicker. MicroJIT is a non-optim­izing, template-based compiler, which aims to reduce compilation overhead and start-up time. Array bytecodes were not supported in the initial implementation of MicroJIT, forcing them to either be interpreted or compiled using TRJIT. This work implements array bytecodes such as, <em>newarray, aaload, aastore</em>, in MicroJIT and measures their impact on execution of the programs. The implementation is tested with a regression test suite and the experiments are performed on the DaCapo benchmark suite. The results show that TRJIT along with MicroJIT including array bytecodes support is approximately 4.36x faster than the interpreter and 1.02x faster than the MicroJIT without array bytecodes support. These findings highlight the potential of MicroJIT in improving the performance of Java programs by efficiently handling array bytecodes.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623507.3623554">Hybrid Execution: Combining Ahead-of-Time and Just-in-Time Compilation</a></h3><ul class="DLauthors"><li class="nameList">Christoph Pichler</li><li class="nameList">Paley Li</li><li class="nameList">Roland Schatz</li><li class="nameList Last">Hanspeter Mössenböck</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Ahead-of-time (AOT) compilation is a well-known approach to statically compile programs to native code before they are executed.  
+In contrast, just-in-time (JIT) compilation typically starts with executing a slower, less optimized version of the code and compiles frequently executed methods at run time.  
+In doing so, information from static and dynamic analysis is utilized to speculate and help generate highly efficient code.  
+However, generating such an efficient JIT-compiled code is challenging, and this introduces a trade-off between warm-up performance and peak performance.  
+</p>
+<p>
+In this paper, we present a novel way to execute programs by bringing together the divergence that existed between AOT and JIT compilation.  
+Instead of having the JIT compiler analyze the program during interpretation to produce optimal code, critical functions are initially executed natively with code produced by the AOT compiler in order to gain a head start.  
+Thus, we avoid the overhead of JIT compilation for natively executed methods and increase the warm-up performance.  
+We implemented our approach in GraalVM, which is a multi-language virtual machine based on the Java HotSpot VM.  
+Improvements in warm-up performance show a speed-up of up to 1.7x.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623507.3627672">Collecting Garbage on the Blockchain</a></h3><ul class="DLauthors"><li class="nameList">Luc Bläser</li><li class="nameList">Claudio Russo</li><li class="nameList">Ulan Degenbaev</li><li class="nameList">Ömer S. Ağacan</li><li class="nameList">Gabor Greif</li><li class="nameList Last">Jason Ibrahim</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present a garbage collector that is specifically designed for a WebAssembly-based blockchain, such as the Internet Computer. Applications on the blockchain implement smart contracts that may have indefinitely long lifetime and may hold substantial monetary value. This imposes a different set of requirements for garbage collection compared to traditional platforms. In this paper, we explain the differences and show how our garbage collector optimizes towards these goals.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623507.3623555">Beehive SPIR-V Toolkit: A Composable and Functional API for Runtime SPIR-V Code Generation</a></h3><ul class="DLauthors"><li class="nameList">Juan Fumero</li><li class="nameList">György Rethy</li><li class="nameList">Athanasios Stratikopoulos</li><li class="nameList">Nikos Foutris</li><li class="nameList Last">Christos Kotselidis</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The Standard Portable Intermediate Representation (SPIR-V) is a low-level binary format designed for representing shaders and compute kernels that can be consumed by OpenCL for computing kernels, and Vulkan for graphics rendering. As a binary representation, SPIR-V is meant to be used by compilers and runtime systems, and is usually performed by C/C++ programs and the LLVM software and compiler ecosystem. However, not all programming environments, runtime systems, and language implementations are C/C++ or based on LLVM.  
+</p>
+<p>
+This paper presents the Beehive SPIR-V Toolkit; a framework that can automatically generate a Java composable and functional library for dynamically building SPIR-V binary modules. The Beehive SPIR-V Toolkit can be used by optimizing compilers and runtime systems to generate and validate SPIR-V binary modules from managed runtime systems. Furthermore, our framework is architected to accommodate new SPIR-V releases in an easy-to-maintain manner, and it facilitates the automatic generation of Java libraries for other standards, besides SPIR-V. The Beehive SPIR-V Toolkit also includes an assembler that emits SPIR-V binary modules from disassembled SPIR-V text files, and a disassembler that converts the SPIR-V binary code into a text file. To the best of our knowledge, the Beehive SPIR-V Toolkit is the first Java programming framework that can dynamically generate SPIR-V binary modules.  
+</p>
+<p>
+To demonstrate the use of our framework, we showcase the integration of the SPIR-V Beehive Toolkit in the context of the TornadoVM, a Java framework for automatically offloading and running Java programs on heterogeneous hardware. We show that, via the SPIR-V Beehive Toolkit, TornadoVM is able to compile code 3x faster than its existing OpenCL C JIT compiler, and it performs up to 1.52x faster than the existing OpenCL C backend in TornadoVM.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623507.3623553">Gigue: A JIT Code Binary Generator for Hardware Testing</a></h3><ul class="DLauthors"><li class="nameList">Quentin Ducasse</li><li class="nameList">Pascal Cotret</li><li class="nameList Last">Loïc Lagadec</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Just-in-time compilers are the main virtual machine components responsible for performance. They recompile frequently used source code to machine code directly, avoiding the slower interpretation path. Hardware acceleration and performant security primitives would benefit the generated JIT code directly and increase the adoption of hardware-enforced primitives in a high-level execution component.  
+</p>
+<p>
+The RISC-V instruction set architecture presents extension capabilities to design and integrate custom instructions. It is available as open-source and several capable open-source cores coexist, usable for prototyping. Testing JIT-compiler-specific instruction extensions would require extending the JIT compiler itself, other VM components, the underlying operating system, and the hardware implementation. As the cost of hardware prototyping is already high, a lightweight representation of the JIT compiler code region in memory would ease prototyping and implementation of new solutions.  
+</p>
+<p>
+In this work, we present Gigue, a binary generator that outputs bare-metal executable code, representing a JIT code region snapshot composed of randomly filled methods. Its main goal is to speed up hardware extension prototyping by defining JIT-centered workloads over the newly defined instructions. It is modular and heavily configurable to qualify different JIT code regions' implementations from VMs and different running applications. We show how the generated binaries can be extended with three custom extensions, whose execution is guaranteed by Gigue's testing framework. We also present different application case generation and execution on top of a fully-featured RISC-V core.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623507.3623556">Approximating Type Stability in the Julia JIT (Work in Progress)</a></h3><ul class="DLauthors"><li class="nameList Last">Artem Pelenitsyn</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Julia is a dynamic language for scientific computing. For a dynamic language,  
+Julia is surprisingly typeful. Types are used not only to structure data but  
+also to guide dynamic dispatch – the main design tool in the language. No  
+matter the dynamism, Julia is performant: flexibility is compiled away at the  
+run time using a simple but smart type-specialization based optimization  
+technique called type stability. Based on a model of a JIT mimicking Julia  
+from previous works, we present the first algorithm to approximate type  
+stability of Julia code. Implementation and evaluation of the algorithm is  
+still a work in progress.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623507.3623548">Transpiling Slang Methods to C Functions: An Example of Static Polymorphism for Smalltalk VM Objects</a></h3><ul class="DLauthors"><li class="nameList">Tom Braun</li><li class="nameList">Marcel Taeumel</li><li class="nameList">Eliot Miranda</li><li class="nameList Last">Robert Hirschfeld</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The OpenSmalltalk-VM is written in a subset of Smalltalk  
+which gets transpiled to C. Developing the VM in Smalltalk  
+allows to use the Smalltalk developer tooling and brings  
+a fast feedback cycle. However, transpiling to C requires  
+mapping Smalltalk constructs, i.e., object-oriented concepts,  
+to C, which sometimes requires developers to use a different  
+design than they would use when developing purely in  
+Smalltalk.  
+We describe a pragmatic extension for static polymorphism  
+in Slang, our experience using it as well as the shortcomings  
+of the new approach. While our solution extends the  
+concepts developers can express in Slang, which reduces the  
+burden of finding alternatives to well-known design patterns  
+and by enabling the use of such patterns the modularity, it  
+further complicates a fragile, already complicated system.  
+While our extension solves the task it was designed for, it  
+needs further enhancements, as does Slang itself in terms  
+of understandability in the field.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623507.3623547">Extraction of Virtual Machine Execution Traces</a></h3><ul class="DLauthors"><li class="nameList">Daniel Pekarek</li><li class="nameList Last">Hanspeter Mössenböck</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Debugging virtual machines can be challenging. Advanced debugging techniques using execution trace analysis can simplify debugging, but they often show only the execution of the virtual machine (in terms of machine instructions) and not the execution of the guest program (in terms of VM instructions). Ideally, the virtual machine as well as the guest program should be inspectable simultaneously to quickly locate the bug. </p><p>Our approach provides a debugging environment which uses an execution trace of a virtual machine and derives the execution trace of the guest program running on it. The transformation is performed by transformation rules which inspect events from the virtual machine’s execution trace, collect necessary information, and then emit the events of the guest program’s execution trace. By linking both traces, navigation in the virtual machine’s execution trace is greatly simplified. When analyzing a simple virtual machine, our approach causes a 9.6% slowdown and an increase of 22% in memory consumption of the underlying execution trace analysis tool.</p>
+			</div></div>
+							
+						</div></div></body></html>

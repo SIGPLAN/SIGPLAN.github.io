@@ -1,0 +1,264 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>CPP 2024: Proceedings of the 13th ACM SIGPLAN International Conference on Certified Programs and Proofs</title></head><body><div id="DLtoc"><div id="DLheader"><h1>CPP 2024: Proceedings of the 13th ACM SIGPLAN International Conference on Certified Programs and Proofs</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3636501"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Keynote</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3637683">Under-Approximation for Scalable Bug Detection (Keynote)</a></h3><ul class="DLauthors"><li class="nameList Last">Azalea Raad</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Incorrectness Logic (IL) has recently been advanced as a logical under-approximate theory for proving the presence of bugs - dual to Hoare Logic, which is an over-approximate theory for proving the absence of bugs. To facilitate scalable bug detection, later we developed incorrectness separation logic (ISL) by marrying the under-approximate reasoning of IL with the local reasoning of separation logic and its frame rule. This locality leads to techniques that are compositional both in code (concentrating on a program component) and in the resources accessed (spatial locality), without tracking the entire global state or the global program within which a component sits. This enables reasoning to scale to large teams and codebases: reasoning can be done even when a global program is not present. We then developed Pulse-X, an automatic program analysis for catching memory safety errors, underpinned by ISL. Using PulseX, deployed at Meta, we found a number of real bugs in codebases such as OpenSSL, which were subsequently confirmed and fixed. We have compared the performance of Pulse-X against the state-of-the-art tool Infer on a number of large programs; our comparison shows that Pulse-X is comparable with Infer in terms of performance, and in certain cases its fix-rate surpasses that of Infer.</p>
+			</div></div>
+							
+						<h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3636958">UTC Time, Formally Verified</a></h3><ul class="DLauthors"><li class="nameList">Ana de Almeida Borges</li><li class="nameList">Mireia González Bedmar</li><li class="nameList">Juan Conejero Rodríguez</li><li class="nameList">Eduardo Hermo Reyes</li><li class="nameList">Joaquim Casals Buñuel</li><li class="nameList Last">Joost Joosten</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>FV Time is a small-scale verification project developed in the Coq proof assistant using the Mathematical Components libraries. It is a library for managing conversions between time formats (UTC and timestamps), as well as commonly used functions for time arithmetic. As a library for time conversions, its novelty is the implementation of leap seconds, which are part of the UTC standard but usually not implemented in existing libraries. Since the verified functions of FV Time are reasonably simple yet non-trivial, it nicely illustrates our methodology for verifying software with Coq.  
+</p>
+<p>
+In this paper we present a description of the project, emphasizing the main problems faced while developing the library, as well as some general-purpose solutions that were produced as by-products and may be used in other verification projects. These include a refinement package between proof-oriented MathComp numbers and computation-oriented primitive numbers from the Coq standard library, as well as a set of tactics to automatically prove certain decidable statements over finite ranges through brute-force computation.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3636953">VCFloat2: Floating-Point Error Analysis in Coq</a></h3><ul class="DLauthors"><li class="nameList">Andrew Appel</li><li class="nameList Last">Ariel Kellison</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The development of sound and efficient tools that automatically perform floating-point round-off error analysis is an active area of research with applications to embedded systems and scientific computing. In this paper we describe VCFloat2, a novel extension to the VCFloat tool for verifying floating-point C programs in Coq. Like VCFloat1, VCFloat2 soundly and automatically computes round-off error bounds on floating-point expressions, but does so to higher accuracy; with better performance; with more generality for nonstandard number formats; with the ability to reason about external (user-defined or library) functions; and with improved modularity for interfacing with other program verification tools in Coq. We evaluate the performance of VCFloat2 using common benchmarks; compared to other state-of-the art tools, VCFloat2 computes competitive error bounds and transparent certificates that require less time for verification.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3636961">The Last Yard: Foundational End-to-End Verification of High-Speed Cryptography</a></h3><ul class="DLauthors"><li class="nameList">Philipp G. Haselwarter</li><li class="nameList">Benjamin Salling Hvass</li><li class="nameList">Lasse Letager Hansen</li><li class="nameList">Théo Winterhalter</li><li class="nameList">Cătălin Hriţcu</li><li class="nameList Last">Bas Spitters</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The field of high-assurance cryptography is quickly maturing, yet a unified foundational framework for end-to-end formal verification of efficient cryptographic implementations is still missing.  
+To address this gap, we use the Coq proof assistant to formally connect three existing tools:  
+(1) the Hacspec emergent cryptographic specification language;  
+(2) the Jasmin language for efficient, high-assurance cryptographic implementations; and  
+(3) the SSProve foundational verification framework for modular cryptographic proofs.  
+We first connect Hacspec with SSProve by devising a new translation from Hacspec specifications to imperative SSProve code.  
+We validate this translation by considering a second, more standard translation from Hacspec to purely functional Coq code and generate a proof of the equivalence between the code produced by the two translations.  
+We further define a translation from Jasmin to SSProve, which allows us to formally reason in SSProve about efficient cryptographic implementations in Jasmin.  
+We prove this translation correct in Coq with respect to Jasmin's operational semantics.  
+Finally, we demonstrate the usefulness of our approach by giving a foundational end-to-end Coq proof of an efficient AES implementation.  
+For this case study, we start from an existing Jasmin implementation of AES that makes use of hardware acceleration and prove that it conforms to a specification of the AES standard written in Hacspec. We use SSProve to formalize the security of the encryption scheme based on the Jasmin implementation of AES.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3636944">Rooting for Efficiency: Mechanised Reasoning about Array-Based Trees in Separation Logic</a></h3><ul class="DLauthors"><li class="nameList">Qiyuan Zhao</li><li class="nameList">George Pîrlea</li><li class="nameList">Zhendong Ang</li><li class="nameList">Umang Mathur</li><li class="nameList Last">Ilya Sergey</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Array-based encodings of tree structures are often preferable to linked or abstract data type-based representations for efficiency reasons. Compared to the more traditional encodings, array-based trees do not immediately offer convenient induction principles, and the programs that manipulate them often implement traversals non-recursively, requiring complex loop invariants for their correctness proofs.  
+</p>
+<p>
+In this work, we provide a set of definitions, lemmas, and reasoning principles that streamline proofs about array-based trees and programs that work with them. We showcase our proof techniques via a series of small but characteristic examples, culminating with a large case study: verification of a C implementation of a recently published tree clock data structure in a Separation Logic embedded into Coq.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3636940">Compositional Verification of Concurrent C Programs with Search Structure Templates</a></h3><ul class="DLauthors"><li class="nameList">Duc-Than Nguyen</li><li class="nameList">Lennart Beringer</li><li class="nameList">William Mansky</li><li class="nameList Last">Shengyi Wang</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Concurrent search structure templates are a technique for separating the verification of a concurrent data structure into concurrency-control and data-structure components, which can then be modularly combined with no additional proof effort. In this paper, we implement the template approach in the Verified Software Toolchain (VST), and use it to prove correctness of C implementations of fine-grained concurrent data structures. This involves translating code, specifications, and proofs to the idiom of C and VST, and gives us another look at the requirements and limitations of the template approach.  
+We encounter several questions about the boundaries between template and data structure, as well as some common data structure operations that cannot naturally be decomposed into templates. Nonetheless, the approach appears promising for modular verification of real-world concurrent data structures.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3636950">Unification for Subformula Linking under Quantifiers</a></h3><ul class="DLauthors"><li class="nameList">Ike Mulder</li><li class="nameList Last">Robbert Krebbers</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Subformula linking is a technique that allows one to simplify proof goals by identifying subformulas of hypotheses that share atoms with the goal. It has been used by recent prototypes for gesture-based interactive theorem proving, but also for theorem proving in separation logic. </p><p>When linking formulas, we should avoid information loss, <em>i.e.</em>, subformula linking should succeed precisely when a provable simplification can be generated. Avoiding information loss is challenging when quantifiers are involved. Existing approaches either generate simplifications that involve equalities, or determine substitutions for variables via unification. The first approach can produce unprovable simplifications, while the second approach can fail to find desired links. </p><p>We propose a third approach, called <em>Quantifying on the Uninstantiated (QU)</em>, which is also based on unification and lies between the two existing approaches. We show that QU has practical applications for proof automation, by improving tactics for resource framing in the Iris framework for separation logic in Coq.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3636954">PfComp: A Verified Compiler for Packet Filtering Leveraging Binary Decision Diagrams</a></h3><ul class="DLauthors"><li class="nameList">Clément Chavanon</li><li class="nameList">Frédéric Besson</li><li class="nameList Last">Tristan Ninet</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present PfComp, a verified compiler for stateless firewall policies. The policy is first compiled into an intermediate representation taking the form of a binary decision diagram that is optimised in terms of decision nodes. The decision diagram is then compiled into a program. The compiler is proved correct using the Coq proof assistant and extracted into OCaml code. Our preliminary experiments show promising results. The compiler generates code for relatively large firewall policies and the generated code outperforms a sequential evaluation of the policy rules.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3636952">Memory Simulations, Security and Optimization in a Verified Compiler</a></h3><ul class="DLauthors"><li class="nameList Last">David Monniaux</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Current compilers implement security features and optimizations that require nontrivial semantic reasoning about pointers and memory allocation: the program after the insertion of the security feature, or after applying the optimization, must simulate the original program despite a different memory layout.  
+</p>
+<p>
+In this article, we illustrate such reasoning on pointer allocations through memory extensions and injections, as well as fine points on undefined values, by explaining how we implemented and proved correct two security features (stack canaries and pointer authentication) and one optimization (tail recursion elimination) in the CompCert formally verified compiler.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3636959">Lean Formalization of Extended Regular Expression Matching with Lookarounds</a></h3><ul class="DLauthors"><li class="nameList">Ekaterina Zhuchko</li><li class="nameList">Margus Veanes</li><li class="nameList Last">Gabriel Ebner</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present a formalization of a matching algorithm for extended regular expression matching based on locations and symbolic derivatives which supports intersection, complement and lookarounds and whose implementation mirrors an extension of the recent .NET NonBacktracking regular expression engine. The formalization of the algorithm and its semantics uses the Lean 4 proof assistant. The proof of its correctness is with respect to standard matching semantics.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3636946">Formal Probabilistic Methods for Combinatorial Structures using the Lovász Local Lemma</a></h3><ul class="DLauthors"><li class="nameList">Chelsea Edmonds</li><li class="nameList Last">Lawrence C. Paulson</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Formalised libraries of combinatorial mathematics have rapidly expanded over the last five years, but few use one of the most important tools: probability. How can often intuitive probabilistic arguments on the existence of combinatorial structures, such as hypergraphs, be translated into a formal text? We present a modular framework using locales in Isabelle/HOL to formalise such probabilistic proofs, including the basic existence method and first formalisation of the Lovász local lemma, a fundamental result in probability. The formalisation focuses on general, reusable formal probabilistic lemmas for combinatorial structures, and highlights several notable gaps in typical intuitive probabilistic reasoning on paper. The applicability of the techniques is demonstrated through the formalisation of several classic lemmas on the existence of hypergraphs with certain colourings.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3636949">Certification of Confluence- and Commutation-Proofs via Parallel Critical Pairs</a></h3><ul class="DLauthors"><li class="nameList">Nao Hirokawa</li><li class="nameList">Dohan Kim</li><li class="nameList">Kiraku Shintani</li><li class="nameList Last">René Thiemann</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Parallel critical pairs (PCPs) have been used to design sufficient criteria for 
+confluence of term rewrite systems. In this work we formalize PCPs and the 
+criteria of Gramlich, Toyama, and Shintani and Hirokawa in the proof assistant 
+Isabelle. In order to reduce the amount of bureaucracy we deviate from the 
+paper-definition of PCPs, i.e., we switch from a position-based definition to a 
+context-based definition. This switch not only simplifies the formalization 
+task, but also gives rise to a simple recursive algorithm to compute PCPs. We 
+further generalize all mentioned criteria from confluence to commutation and 
+integrate them in the certifier CeTA, so that it can now validate confluence- 
+and commutation-proofs based on PCPs. Because of our results, CeTA is now able 
+to certify proofs by the automatic confluence tool Hakusan, which makes heavy 
+use of PCPs. These proofs include term rewrite systems for which no previous 
+certified confluence proof was known.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3636943">A Temporal Differential Dynamic Logic Formal Embedding</a></h3><ul class="DLauthors"><li class="nameList">Lauren White</li><li class="nameList">Laura Titolo</li><li class="nameList">J. Tanner Slagel</li><li class="nameList Last">César Muñoz</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Differential temporal dynamic logic dTL2 is a logic to specify and verify temporal properties of hybrid systems. It extends differential dynamic logic (dL) with temporal operators that enable reasoning on intermediate states in both discrete and continuous dynamics. This paper presents an embedding of dTL2 in the Prototype Verification System (PVS). The embedding includes the formalization of a trace semantics as well as the logic and proof calculus of dTL, which have been enhanced to support the verification of universally quantified reachability properties. The embedding is fully functional and can be used to interactively verify hybrid programs in PVS using a combination of PVS proof commands and specialized proof strategies.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3636947">Formalizing Giles Gardam’s Disproof of Kaplansky’s Unit Conjecture</a></h3><ul class="DLauthors"><li class="nameList">Siddhartha Gadgil</li><li class="nameList Last">Anand Rao Tadipatri</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We describe a formalization in Lean 4 of Giles Gardam's disproof of Kaplansky's Unit Conjecture. This makes use of a combination of deductive proving and formally verified computation, using the nature of Lean 4 as a programming language which is also a proof assistant.  
+</p>
+<p>
+ Our goal in this work, besides formalization of the specific result, is to show what is possible with the current state of the art and illustrate how it can be achieved. Specifically we illustrate real time formalization of an important mathematical result and the seamless integration of proofs and computations in Lean 4.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3636942">A Formalization of Complete Discrete Valuation Rings and Local Fields</a></h3><ul class="DLauthors"><li class="nameList">María Inés de Frutos-Fernández</li><li class="nameList Last">Filippo Alberto Edoardo Nuccio Mortarino Majno di Capriglio</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Local fields, and fields complete with respect to a discrete valuation, are essential objects in commutative algebra, with applications to number theory and algebraic geometry. We formalize in Lean the basic theory of discretely valued fields. In particular, we prove that the unit ball with respect to a discrete valuation on a field is a discrete valuation ring and, conversely, that the adic valuation on the field of fractions of a discrete valuation ring is discrete. We define finite extensions of valuations and of discrete valuation rings, and prove some localization results. </p><p>Building on this general theory, we formalize the abstract definition and some fundamental properties of local fields. As an application, we show that finite extensions of the field ℚ<sub><em>p</em></sub> of <em>p</em>-adic numbers and of the field F<sub><em>p</em></sub>((<em>X</em>)) of Laurent series over F<sub><em>p</em></sub> are local fields.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3636948">Strictly Monotone Brouwer Trees for Well Founded Recursion over Multiple Arguments</a></h3><ul class="DLauthors"><li class="nameList Last">Joseph Eremondi</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Ordinals can be used to prove the termination of dependently typed programs.  
+Brouwer trees are a particular ordinal notation that  
+make it very easy to assign sizes to higher order data structures.  
+They extend unary natural numbers with a limit constructor,  
+so a function's size can be the least upper bound of the sizes of values from its image.  
+These can then be used to define well-founded recursion: any recursive calls are allowed  
+so long as they are on values whose sizes are strictly smaller than the current size.  
+</p>
+<p>
+Unfortunately, Brouwer trees are not algebraically well-behaved.  
+They can be characterized equationally as a join-semilattice, where the join takes the maximum  
+of two trees. However, this join does not interact well with  
+the successor constructor, so it does not interact properly with  
+the strict ordering used in well-founded recursion.  
+</p>
+<p>
+We present Strictly Monotone Brouwer trees (SMB-trees), a refinement of Brouwer trees  
+that are algebraically well-behaved. SMB-trees are built using functions with the same  
+signatures as Brouwer tree constructors, and they satisfy all Brouwer tree inequalities.  
+However, their join operator distributes over the successor, making them  
+suited for well-founded recursion or equational reasoning.  
+</p>
+<p>
+This paper teaches how, using dependent pairs and careful definitions, an ill-behaved  
+definition can be turned into a well-behaved one.  
+Our approach is axiomatically lightweight:  
+it does not rely on Axiom K, univalence, quotient types, or Higher Inductive Types.  
+We implement a recursively-defined maximum operator for Brouwer trees that matches  
+on successors and handles them specifically.  
+Then, we define SMB-trees as the subset of Brouwer trees for which the recursive maximum  
+computes a least upper bound.  
+Finally, we show that every Brouwer tree can be transformed into a corresponding SMB-tree  
+by infinitely joining it with itself.  
+All definitions and theorems are implemented in Agda.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3636957">A Mechanised and Constructive Reverse Analysis of Soundness and Completeness of Bi-intuitionistic Logic</a></h3><ul class="DLauthors"><li class="nameList">Ian Shillito</li><li class="nameList Last">Dominik Kirst</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Using the Coq proof assistant, we investigate the minimal non-constructive principles needed to show soundness and completeness of propositional bi-intuitionistic logic. Before being revisited and corrected by Goré and Shillito, the completeness of bi-intuitionistic logic, an extension of intuitionistic logic with a dual operation to implication, had a rather erratic history, making it an ideal case for computer mechanisation. Moreover, contributing a constructive perspective, we observe that the completeness of bi-intuitionistic logic explicates the same characteristics already observed in an ongoing effort to analyse completeness theorems in general.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3636951">Martin-Löf à la Coq</a></h3><ul class="DLauthors"><li class="nameList">Arthur Adjedj</li><li class="nameList">Meven Lennon-Bertrand</li><li class="nameList">Kenji Maillard</li><li class="nameList">Pierre-Marie Pédrot</li><li class="nameList Last">Loïc Pujet</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present an extensive mechanization of the metatheory of Martin-Löf Type Theory (MLTT) in the Coq proof assistant. Our development builds on pre-existing work in Agda to show not only the decidability of conversion, but also the decidability of type checking, using an approach guided by bidirectional type checking. From our proof of decidability, we obtain a certified and executable type checker for a full-fledged version of MLTT with support for Π, Σ, ℕ, and Id types, and one universe. Our development does not rely on impredicativity, induction-recursion or any axiom beyond MLTT extended with indexed inductive types and a handful of predicative universes, thus narrowing the gap between the object theory and the metatheory to a mere difference in universes. Furthermore, our formalization choices are geared towards a modular development that relies on Coq's features, e.g. universe polymorphism and metaprogramming with tactics.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3636955">Univalent Double Categories</a></h3><ul class="DLauthors"><li class="nameList">Niels van der Weide</li><li class="nameList">Nima Rasekh</li><li class="nameList">Benedikt Ahrens</li><li class="nameList Last">Paige Randall North</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Category theory is a branch of mathematics that provides a formal framework for understanding the relationship between mathematical structures. To this end, a category not only incorporates the data of the desired objects, but also "morphisms", which capture how different objects interact with each other. Category theory has found many applications in mathematics and in computer science, for example in functional programming.  
+</p>
+<p>
+Double categories are a natural generalization of categories which incorporate the data of two separate classes of morphisms, allowing a more nuanced representation of relationships and interactions between objects. Similar to category theory, double categories have been successfully applied to various situations in mathematics and computer science, in which objects naturally exhibit two types of morphisms. Examples include categories themselves, but also lenses, petri nets, and spans.  
+</p>
+<p>
+While categories have already been formalized in a variety of proof assistants, double categories have received far less attention. In this paper we remedy this situation by presenting a formalization of double categories via the proof assistant Coq, relying on the Coq UniMath library. As part of this work we present two equivalent formalizations of the definition of a double category, an unfolded explicit definition and a second definition which exhibits excellent formal properties via 2-sided displayed categories. As an application of the formal approach we establish a notion of univalent double category along with a univalence principle: equivalences of univalent double categories coincide with their identities.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3636956">Displayed Monoidal Categories for the Semantics of Linear Logic</a></h3><ul class="DLauthors"><li class="nameList">Benedikt Ahrens</li><li class="nameList">Ralph Matthes</li><li class="nameList">Niels van der Weide</li><li class="nameList Last">Kobe Wullaert</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present a formalization of different categorical structures used to interpret linear logic. Our formalization takes place in UniMath, a library of univalent mathematics based on the Coq proof assistant.  
+</p>
+<p>
+All the categorical structures we formalize are based on monoidal categories. As such, one of our contributions is a practical, usable library of formalized results on monoidal categories. Monoidal categories carry a lot of structure, and instances of monoidal categories are often built from complicated mathematical objects. This can cause challenges of scalability, regarding both the vast amount of data to be managed by the user of the library, as well as the time the proof assistant spends on checking code. To enable scalability, and to avoid duplication of computer code in the formalization, we develop "displayed monoidal categories". These gadgets allow for the modular construction of complicated monoidal categories by building them in layers; we demonstrate their use in many examples. Specifically, we define linear-non-linear categories and construct instances of them via Lafont categories and linear categories.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3636501.3636945">Formalizing the ∞-Categorical Yoneda Lemma</a></h3><ul class="DLauthors"><li class="nameList">Nikolai Kudasov</li><li class="nameList">Emily Riehl</li><li class="nameList Last">Jonathan Weinberger</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Formalized 1-category theory forms a core component of various libraries of mathematical proofs. However, more sophisticated results in fields from algebraic topology to theoretical physics, where objects have “higher structure,” rely on infinite-dimensional categories in place of 1-dimensional categories, and ∞-category theory has thusfar proved unamenable to computer formalization. </p><p>	Using a new proof assistant called Rzk, which is designed to support Riehl–Shulman’s simplicial extension of homotopy type theory for synthetic ∞-category theory, we provide the first formalizations of results from ∞-category theory. This includes in particular a formalization of the Yoneda lemma, often regarded as the fundamental theorem of category theory, a theorem which roughly states that an object of a given category is determined by its relationship to all of the other objects of the category. A key feature of our framework is that, thanks to the synthetic theory, many constructions are automatically natural or functorial. We plan to use Rzk to formalize further results from ∞-category theory, such as the theory of limits and colimits and adjunctions.</p>
+			</div></div>
+							
+						</div></div></body></html>

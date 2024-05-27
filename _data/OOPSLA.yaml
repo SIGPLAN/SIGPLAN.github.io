@@ -1,3 +1,18 @@
+2023:
+- Awardee: Leo Meyerovich and Ariel Rabkin
+  Other: |
+    (for 2013) _[Empirical analysis of programming language adoption](https://dl.acm.org/doi/10.1145/2509136.2509515)_
+  Citation: |
+    Some programming languages become wildly popular while others fade
+    away. This paper seeks to answer why, by performing an empirical
+    study spanning hundreds of thousands of open-source software
+    projects and interviews with thousands of programmers. The
+    methodology used in the paper is thorough, and the paper provides
+    insights of interest to the broader Programming Languages
+    community.  Overall, this paper is a role model for large-scale
+    empirical studies of programming languages, making it worthy of
+    the OOPSLA 2013 Most Influential Paper Award.
+
 2022:
 - Awardee: Adam Betts, Nathan Chong, Alastair Donaldson, Shaz Qadeer and Paul Thomson
   Other: |

@@ -1,0 +1,19 @@
+---
+title: "Call for Participation:  Real-World PIM Tutorial @ MICRO 2023"
+timestamp: "8/24/2023 8:49:11"
+start: "10/29/2023"
+end: "10/29/2023"
+---
+We would like to announce our upcoming tutorial at MICRO 2023 on “Real-world Processing-in-Memory Systems for Modern Workloads”.
+
+Sunday, October 29 (held during MICRO 2023, Oct 28 – Nov 1, 2023 in Toronto, Canada).
+
+The Real World PIM tutorial will cover the latest advances in PIM technology, introducing PIM concepts “processing near memory” and “processing using memory”, and give real world examples of both types of systems. We’ll also discuss workload characterization for PIM, and programming and optimizing PIM kernels, with a hands-on lab in the afternoon. We’ll have several invited talks from industry speakers, with additional talks and hands-on PIM session led by Juan Gómez Luna, Onur Mutlu and Ataberk Olgun (ETH Zürich). 
+
+MICRO 2023 Real-World PIM tutorial website & preliminary program (speakers will be confirmed soon!): https://events.safari.ethz.ch/micro-pim-tutorial/
+
+Livestream Sunday, October 29 (full day, virtual): https://youtu.be/ohU00NSIxOI
+
+MICRO 2023 Workshops and Tutorials: https://microarch.org/micro56/program/workshops.php
+
+Organizers: Juan Gómez Luna, Onur Mutlu, Ataberk Olgun

@@ -1,0 +1,42 @@
+---
+title: "Call for Papers, ACM TOPML Special Issue on Probabilistic Programming"
+timestamp: "2/11/2024 16:02:18"
+deadline: "5/1/2024"
+---
+Call for Papers: Special Issue on "Probabilistic Programming" of
+
+ ACM Transactions on Probabilistic Machine Learning (ACM-TOPML)
+
+Probabilistic programming is a very active research area that brings together diverse fields, such as statistics, machine learning and AI, applications, programming languages, and formal verification. The aim of this special issue is to present new approaches, techniques, tools, theories and experience reports about adopting, creating, applying and improving probabilistic programming.
+
+Topics of interest include, but are not limited to:
+
+Applications of probabilistic programming
+Approximate inference algorithms for probabilistic programs
+Automatic differentiation for probabilistic programs
+Automated program analysis for probabilistic programs
+Deep probabilistic programming languages
+Design and implementation of probabilistic programming languages
+Differentiable programming
+Exact inference algorithms for probabilistic programs
+Model learning and checking for probabilistic programs
+Statistical theory on inference schemes
+Semantics for probabilistic programming
+Synthesis and learning of probabilistic programs
+Theoretical analysis of probabilistic programs
+Types for probabilistic programming and differentiable programming
+Verification and testing probabilistic programming paradigms
+
+Guest editors:
+
+Joost-Pieter Katoen
+RWTH Aachen University (DE) and University of Twente (NL)
+
+Tom Rainforth
+University of Oxford (UK)
+
+Hongseok Yang
+Korea Advanced Institute of Science & Technology (KAIST, KR)
+
+More details, see:
+https://dl.acm.org/pb-assets/static_journal_pages/topml/pdf/TOPML_CfP_SI_Probabilistic_Programming-1704743488800.pdf

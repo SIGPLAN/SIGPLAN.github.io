@@ -1,0 +1,110 @@
+---
+title: "21st International Conference on Software and Systems Reuse"
+timestamp: "10/3/2023 9:15:36"
+deadline: "2/12/2024"
+---
+*** Call for Papers ***
+
+21st International Conference on Software and Systems Reuse (ICSR 2024)
+
+June 10-12, 2024, 5* St. Raphael Resort and Marina, Limassol, Cyprus
+
+https://cyprusconferences.org/icsr2024/
+
+(*** Submission Deadline: February 12, 2024 AoE ***)
+
+
+The International Conference on Software and Systems Reuse (ICSR) is a biannual conference
+in the field of software reuse research and technology. ICSR is a premier event aiming to
+present the most recent advances and breakthroughs in the area of software reuse and to 
+promote an intensive and continuous exchange among researchers and practitioners.
+
+The guiding theme of this edition is Sustainable Software Reuse.
+
+We invite submissions on new and innovative research results and industrial experience
+reports dealing with all aspects of software reuse within the context of the modern software 
+development landscape. Topics include but are not limited to the following.
+
+1	Technical aspects of reuse, including
+• Reuse in/for Quality Assurance (QA) techniques, testing, verification, etc.
+• Domain ontologies and Model-Driven Development
+• Variability management and software product lines
+• Context-aware and Dynamic Reuse
+• Reuse in and for Machine Learning
+• Domain-specific languages (DSLs)
+• New language abstractions for software reuse
+• Generative Development
+• COTS-based development and reuse of open source assets
+• Retrieval and recommendation of reusable assets
+• Reuse of non-code artefacts
+• Architecture-centric reuse approaches
+• Service-oriented architectures and microservices
+• Software composition and modularization
+• Sustainability and software reuse
+• Economic models of reuse
+• Benefit and risk analysis, scoping
+• Legal and managerial aspects of reuse
+• Reuse adoption and transition to software reuse
+• Lightweight reuse approaches
+• Reuse in agile projects
+• Technical debt and software reuse
+
+2	Software reuse in industry and in emerging domains
+• Reuse success stories
+• Reuse failures, and lessons learned
+• Reuse obstacles and success factors
+• Return on Investment (ROI) studies
+• Reuse in hot topic domains (Artificial Intelligence, Internet of Things, Virtualization,
+Network functions, Quantum Computing, etc.)
+
+We welcome research (16 pages) and industry papers (12 pages) following the Springer
+Lecture Notes in Computer Science format. Submissions will be handled via
+EasyChair (https://easychair.org/my/conference?conf=icsr2024). Submissions will be
+**double-blindly** reviewed, meaning that authors should:
+• Omit all authors’ names and affiliations from the title page
+• Do not include the acknowledgement section, if you have any, in the submitted paper
+• Refer to your own work in the third person
+• Use anonymous GitHub, Zenondo, FigShare or equivalent to provide access to artefacts
+without disclosing your identity
+
+Both research and industry papers will be reviewed by members of the same program
+committee (check the website for details). Proceedings will be published by Springer in
+their Lecture Notes for Computer Science (LNCS) series. An award will be given to the best 
+research and the best industry papers.
+
+The authors of selected papers from the conference will be invited to submit an extended 
+version (containing at least 30% new material) to a special issue in the Journal of Systems and 
+Software (Elsevier). More details will follow.
+
+ 
+IMPORTANT DATES
+
+• Abstract submission: February 12, 2024, AoE
+• Full paper submission: February 19, 2024, AoE
+• Notification: April 8, 2024, AoE
+• Camera Ready: April 22, 2024, AoE
+• Author Registration: April 22, 2024 AoE
+
+
+ORGANISATION
+
+Steering Committee
+• Eduardo Almeida, Federal University of Bahia, Brazil
+• Goetz Botterweck,  Lero, University of Limerick, Ireland
+• Rafael Capilla Sevilla, Universidad Rey Juan Carlos, Spain
+• John Favaro, Trust-IT, Italy
+• William B. Frakes, IEEE TCSE committee on software reuse, USA
+• Martin L. Griss, Carnegie Mellon University, USA
+• Oliver Hummel, University of Applied Sciences, Germany
+• Hafedh Mili, Université du Québec à Montréal, Canada
+• Nan Niu, University of Cincinnati, USA
+• George Angelos Papadopoulos, University of Cyprus, Cyprus
+• Claudia M.L. Werner, Federal University of Rio de Janeiro, Brazil
+
+General Chair
+• George A. Papadopoulos, University of Cyprus, Cyprus
+
+Program Co-Chairs
+• Achilleas Achilleos, Frederick University, Cyprus
+• Lidia Fuentes, University of Malaga, Spain
+

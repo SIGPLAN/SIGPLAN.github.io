@@ -1,0 +1,149 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>PAINT 2023: Proceedings of the 2nd ACM SIGPLAN International Workshop on Programming Abstractions and Interactive Notations, Tools, and Environments</title></head><body><div id="DLtoc"><div id="DLheader"><h1>PAINT 2023: Proceedings of the 2nd ACM SIGPLAN International Workshop on Programming Abstractions and Interactive Notations, Tools, and Environments</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3623504"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623504.3623566">A Penny a Function: Towards Cost Transparent Cloud Programming</a></h3><ul class="DLauthors"><li class="nameList">Lukas Böhme</li><li class="nameList">Tom Beckmann</li><li class="nameList">Sebastian Baltes</li><li class="nameList Last">Robert Hirschfeld</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Understanding and managing monetary cost factors is crucial when developing cloud applications.  
+However, the diverse range of factors influencing costs for computation, storage, and networking in cloud applications poses a challenge for developers who want to manage and minimize costs proactively.  
+Existing tools for understanding cost factors are often detached from source code, causing opaqueness regarding the origin of costs.  
+Moreover, existing cost models for cloud applications focus on specific factors such as compute resources and necessitate manual effort to create the models.  
+This paper presents initial work toward a cost model based on a directed graph that allows deriving monetary cost estimations directly from code using static analysis.  
+Leveraging the cost model, we explore visualizations embedded in a code editor that display costs close to the code causing them.  
+This makes cost exploration an integrated part of the developer experience, thereby removing the overhead of external tooling for cost estimation of cloud applications at development time.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623504.3623567">Branching Compositional Data Transformations in jq, Visually</a></h3><ul class="DLauthors"><li class="nameList Last">Michael Homer</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>jq is a widely-used command-line tool for filtering and transforming JSON 
+data, in the vein of sed and awk, including a bespoke programming language 
+for writing the filters. 
+The paradigm of that language is unusual: 
+while its appearance is somewhere between a shell pipeline and JavaScript, 
+the language is pure-functional and essentially concatenative, 
+the pipelines branch and interleave data invisibly, 
+implicit output flattening obscures all these effects, 
+and most users are unaware of any of its 
+semantics, 
+leading to confusion when encountering any of these latent 
+elements and difficulty in constructing appropriate non-trivial filters, 
+all the while common debugging techniques are also obstructed by 
+the paradigm. 
+These confusions can be eliminated by visually demonstrating the recursively 
+forking nature of evaluation on actual data, 
+and allowing manipulations of the program or data to be reflected live, 
+but no such tool exists for jq or any similar approaches. 
+We present a visualisation of jq's execution model that makes the branching 
+nature manifest, illustrating its effects on concrete values provided by the 
+user, and editing affordances that allow manipulating the program with 
+reference to real data.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623504.3623568">Toward Studying Example-Based Live Programming in CS/SE Education</a></h3><ul class="DLauthors"><li class="nameList">Eva Krebs</li><li class="nameList">Toni Mattis</li><li class="nameList">Patrick Rein</li><li class="nameList Last">Robert Hirschfeld</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Source code is inherently abstract. While this is necessary to capture the generality of a program, it poses a barrier to understanding and learning to use the underlying concepts. In education, especially in abstract subjects like maths, the use of concrete examples is considered instrumental to the acquisition of knowledge and a frequently explored direction for teaching computational concepts. Besides concreteness, the importance of examples being close to their abstract descriptions as well as the immediacy of feedback has been highlighted.  
+		  
+		Babylonian Programming (BP) is a type of example-based live programming that fulfills all three criteria by introducing concrete values, moving them as close as possible to the code, and updating them immediately in response to changes of either the example or the code. This makes BP a promising tool in education, yet no studies on the suitability of BP in a learning context have been conducted. Hence, we propose to (1.) investigate usability of state-of-the-art BP to minimize the friction of introducing BP in education, and (2.) measure the learning effectiveness and quality of experience of a BP environment in undergraduate software engineering education. For these studies, we will use the Smalltalk-based Babylonian/S as our environment.  
+		  
+		Besides clearer guidelines on the design of BP and example-based systems in general, we expect to shed light on the qualities that teacher-provided examples need to exhibit and the opportunities for learners to create their own examples during experimentation with unknown concepts.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623504.3623569">Visual Replacements: Cross-Language Domain-Specific Representations in Structured Editors</a></h3><ul class="DLauthors"><li class="nameList">Tom Beckmann</li><li class="nameList">Daniel Stachnik</li><li class="nameList">Jens Lincke</li><li class="nameList Last">Robert Hirschfeld</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>To help developers work at the level of abstraction of their choice, some editors offer to replace parts of source code with domain-specific representations (DSRs). Typically, such replacements are language-specific and optimized to limited use-cases. In this paper, we extend a general-purpose structured editor with <em>visual replacements</em>, a mechanism to replace code of any programming language with DSRs. A <em>visual replacement</em> consists of language-dependent queries to map arbitrary syntax trees and a language-independent DSR of differing abstraction and interactivity, ranging from simple images to graphical user interfaces that modify source code. Our extension synchronizes source code and DSR automatically, while ensuring that language support such as autocompletion and error checking work even inside a replacement. We demonstrate the use and applicability of the replacement mechanism in three case studies.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623504.3623570">Game Engine Wizardry for Programming Mischief</a></h3><ul class="DLauthors"><li class="nameList Last">Riemer van Rozen</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Programming grants individuals the capability to design, create, and bring ideas to life. To improve their skills, programmers require powerful languages and programming environments for understanding the impact of gradual code changes. We investigate how modern game engine technology can be leveraged for creating visual input and feedback mechanisms that drive exploratory and live programming.  
+In this paper, we report experiences on creating a visual programming environment for Machinations, a domain-specific language for game design. We share initial findings on how to automate the development of graph- and tree- based editors in Godot, an open source game engine. Our results show that today’s game engine technology provides a solid foundation for future programming language research.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623504.3623571">PescaJ: A Projectional Editor for Java Featuring Scattered Code Aggregation</a></h3><ul class="DLauthors"><li class="nameList">José Lopes</li><li class="nameList Last">André Santos</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Conventionally, source code (and its documentation) is simultaneously a storage and editing representation, through files and editors to manipulate them as text. Over the years, IDEs have become increasingly sophisticated, providing features to augment the visible text content with helpful information (e.g., overlay documentation popups, inlay type hints), or on the opposite, to decrease it to reduce clutter (e.g., code folds on imports, documentation, methods, etc). This is a sign that the developers seek more convenient code editing forms than the direct manipulation of text files. We present PescaJ, a prototype projectional editor for Java projects that breaks away from file-oriented source code editing, providing the possibility of forming views that aggregate methods that belong to different classes, where single methods may be simultaneously present and edited in multiple views. Furthermore, we provide documentation editors, also aggregating scattered Javadoc comments, that can be used in parallel with source code editing.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623504.3623572">Transforming an Internal Textual DSL into a Blended Modelling Environment</a></h3><ul class="DLauthors"><li class="nameList">Aleandro Mifsud</li><li class="nameList">Georgia Samaritaki</li><li class="nameList">Ulyana Tikhonova</li><li class="nameList Last">Jouke Stoel</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Blended Modelling seamlessly integrates textual and visual representations of models, overcoming the limitations of either individually. This approach allows for greater complexity in coding while also lowering the entry barrier for less-technical users. While existing literature primarily focuses on external Domain Specific Languages (DSLs), there is a gap in the literature when it comes to incorporating internal DSLs into a Blended Modelling Environment, since migrating an internal DSL to an external DSL may not be feasible due to the internal DSL utilising many features of its host language. We focus on leveraging the Axini Modelling Language (AML), an industry-established internal DSL that is based on Ruby. By leveraging Ruby’s meta-language features, we transform AML into a Blended Modelling Environment, enabling real-time synchronization between the textual and visual representations of the model and ensuring instant reflection of updates across both models. To validate the usability of the solution, we conduct two case studies, demonstrating the seamless integration of the textual and visual models. Additionally, we develop a prototype Ruby API, facilitating the transformation of models into a parseable notation and ensuring synchronization of all nodes within the models. We also developed a web application as a platform for the textual and visual models, serving as a foundation for blended modelling environments. This work contributes to the field of blended modelling, providing practical demonstrations and laying the groundwork for further research and development in interactive modelling environments specifically based on internal DSLs.</p>
+			</div></div>
+							
+						</div></div></body></html>

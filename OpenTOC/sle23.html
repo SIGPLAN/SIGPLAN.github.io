@@ -1,0 +1,202 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>SLE 2023: Proceedings of the 16th ACM SIGPLAN International Conference on Software Language Engineering</title></head><body><div id="DLtoc"><div id="DLheader"><h1>SLE 2023: Proceedings of the 16th ACM SIGPLAN International Conference on Software Language Engineering</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3623476"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623476.3623513">Exceptions all Over the Shop: Modular, Customizable, Language-Independent Exception Handling Layer</a></h3><ul class="DLauthors"><li class="nameList">Walter Cazzola</li><li class="nameList Last">Luca Favalli</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The introduction of better abstractions is at the forefront of research and practice. Among many approaches, domain-specific languages are subject to an increase in popularity due to the need for easier, faster and more reliable application development that involves programmers and domain experts alike. To smooth the adoption of such a language-driven development process, researchers must create new engineering techniques for the development of programming languages and their ecosystems. Traditionally, programming languages are implemented from scratch and in a monolithic way. Conversely, modular and reusable language development solutions would improve maintainability, reusability and extensibility. Many programming languages share similarities that can be leveraged to reuse the same language feature implementations across several programming languages; recent language workbenches strive to achieve this goal by solving the language composition and language extension problems. Yet, some features are inherently complex and affect the behavior of several language features. Most notably, the exception handling mechanism involves varied aspects, such as the memory layout, variables, their scope, up to the execution of each statement that may cause an exceptional event—<em>e.g.</em>, a division by zero. In this paper, we propose an approach to untangle the exception handling mechanism dubbed the <em>exception handling layer</em>: its components are modular and fully independent from one another, as well as from other language features. The exception handling layer is language-independent, customizable with regards to the memory layout and supports unconventional exception handling language features. To avoid any assumptions with regards to the host language, the exception handling layer is a stand-alone framework, decoupled from the exception handling mechanism offered by the back-end. Then, we present a full-fledged, generic Java implementation of the exception handling layer. The applicability of this approach is presented through a language evolution scenario based on a Neverlang implementation of JavaScript and LogLang, that we extend with conventional and unconventional exception handling language features using the exception handling layer, with limited impact on their original implementation.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623476.3623529">An Executable Semantics for Faster Development of Optimizing Python Compilers</a></h3><ul class="DLauthors"><li class="nameList">Olivier Melançon</li><li class="nameList">Marc Feeley</li><li class="nameList Last">Manuel Serrano</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Python is a popular programming language whose performance is known to be uncompetitive in comparison to static languages such as C. Although significant efforts have already accelerated implementations of the language, more efficient ones are still required. The development of such optimized implementations is nevertheless hampered by its complex semantics and the lack of an official formal semantics. We address this issue by presenting an approach to define an executable semantics targeting the development of optimizing compilers. This executable semantics is written in a format that highlights type checks, primitive values boxing and unboxing, and function calls, which are all known sources of overhead. We also present semPy, a partial evaluator of our executable semantics that can be used to remove redundant operations when evaluating arithmetic operators. Finally, we present Zipi, a Python optimizing compiler prototype developed with the aid of semPy. On some tasks, Zipi displays performance competitive with that of state-of-the-art Python implementations.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623476.3623517">Adaptive Structural Operational Semantics</a></h3><ul class="DLauthors"><li class="nameList">Gwendal Jouneaux</li><li class="nameList">Damian Frölich</li><li class="nameList">Olivier Barais</li><li class="nameList">Benoit Combemale</li><li class="nameList">Gurvan Le Guernic</li><li class="nameList">Gunter Mussbacher</li><li class="nameList Last">L. Thomas van Binsbergen</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Software systems evolve more and more in complex and changing environments, often requiring runtime adaptation  
+to best deliver their services. When self-adaptation is the main concern of the system, a manual implementation of the underlying feedback loop and trade-off analysis may be desirable. However, the required expertise and substantial development effort make such implementations prohibitively difficult when it is only a secondary concern for the given domain. In this paper, we present ASOS, a metalanguage abstracting the runtime adaptation concern of a given domain in the behavioral semantics of a domain-specific language (DSL), freeing the language user from implementing it from scratch for each system in the domain. We demonstrate our approach on RobLANG, a procedural DSL for robotics, where we abstract a recurrent energy-saving behavior depending on the context. We provide formal semantics for ASOS and pave the way for checking properties such as determinism, completeness, and termination of the resulting self-adaptable language. We provide first results on the performance of our approach compared to a manual implementation of this self-adaptable behavior. We demonstrate, for RobLANG, that our approach provides suitable abstractions for specifying sound adaptive operational semantics while being more efficient.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623476.3623521">A Reference GLL Implementation</a></h3><ul class="DLauthors"><li class="nameList Last">Adrian Johnstone</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The Generalised-LL (GLL) context-free parsing algorithm was introduced at the 2009 LDTA workshop, and since then a series of variant algorithms and implementations have been described. There is a wide variety of optimisations that may be applied to GLL, some of which were already present in the originally published form.  
+</p>
+<p>
+This paper presents a reference GLL implementation shorn of all optimisations as a common baseline for the real-world comparison of performance across GLL variants. This baseline version has particular value for non-specialists, since its simple form may be straightforwardly encoded in the implementer's preferred programming language.  
+</p>
+<p>
+We also describe our approach to low level memory management of GLL internal data structures. Our evaluation on large inputs shows a factor 3--4 speedup over a naïve implementation using the standard Java APIs and a factor 4--5 reduction in heap requirements. We conclude with notes on some algorithm-level optimisations that may be applied independently of the internal data representation.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623476.3623520">Sharing Trees and Contextual Information: Re-imagining Forwarding in Attribute Grammars</a></h3><ul class="DLauthors"><li class="nameList">Lucas Kramer</li><li class="nameList Last">Eric Van Wyk</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>It is not uncommon to design a programming language as a core language with additional features that define some semantic analyses, but delegate others to their translation to the core. Many analyses require contextual information, such as a typing environment. When this is the same for a term under a new feature and under that feature's core translation, then the term (and computations over it) can be shared, with context provided by the translation. This avoids redundant, and sometimes exponential computations. This paper brings sharing of terms and specification of context to forwarding, a language extensibility mechanism in attribute grammars. Here context is defined by equations for inherited attributes that provide (the same) values to shared trees. Applying these techniques to the ableC extensible C compiler replaced around 80% of the cases in which tree sharing was achieved by a crude mechanism that prevented sharing context specifications and limited language extensibility. It also replaced all cases in which this mechanism was used to avoid exponential computations and allowed the removal of many, now unneeded, inherited attribute equations.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623476.3623514">Nanopass Attribute Grammars</a></h3><ul class="DLauthors"><li class="nameList">Nathan Ringo</li><li class="nameList">Lucas Kramer</li><li class="nameList Last">Eric Van Wyk</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Compilers for feature-rich languages are complex; they perform many analyses and optimizations, and often lower complex language constructs into simpler ones. The nanopass compiler architecture manages this complexity by specifying the compiler as a sequence of many small transformations, over slightly different, but clearly defined, versions of the language that each perform a single straightforward action. This avoids errors that arise from attempting to solve multiple problems at once and allows for testing at each step.  
+</p>
+<p>
+Attribute grammars are ill-suited for this architecture, primarily because they cannot identify the many versions of the language in a non-repetitive and type-safe way. We present a formulation of attribute grammars that addresses these concerns, called nanopass attribute grammars, that (i) identifies a collection of all language constructs and analyses (attributes), (ii) concisely constructs specific (sub) languages from this set and transformations between them, and (iii) specifies compositions of transformations to form nanopass compilers. The collection of all features can be statically typed and individual languages can be checked for well-definedness and circularity. We evaluate the approach by implementing a significant subset of the Go programming language in a prototype nanopass attribute grammar system.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623476.3623525">Automated Extraction of Grammar Optimization Rule Configurations for Metamodel-Grammar Co-evolution</a></h3><ul class="DLauthors"><li class="nameList">Weixing Zhang</li><li class="nameList">Regina Hebig</li><li class="nameList">Daniel Strüber</li><li class="nameList Last">Jan-Philipp Steghöfer</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>When a language evolves, meta-models and associated gram- mars need to be co-evolved to stay mutually consistent. Previous work has supported the automated migration of a grammar after changes of the meta-model to retain manual optimizations of the grammar, related to syntax aspects such as keywords, brackets, and component order. Yet, doing so required the manual specification of optimization rule con- figurations, which was laborious and error-prone. In this work, to significantly reduce the manual effort during meta-model and grammar co-evolution, we present an automated approach for extracting optimization rule configurations. The inferred configurations can be used to automatically replay optimizations on later versions of the grammar, thus leading to a fully automated migration process for the supported types of changes. We evaluated our approach on six real cases. Full automation was possible for three of them, with agreement rates between ground truth and inferred grammar between 88% and 67% for the remaining ones.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623476.3623523">Reuse and Automated Integration of Recommenders for Modelling Languages</a></h3><ul class="DLauthors"><li class="nameList">Lissette Almonte</li><li class="nameList">Antonio Garmendia</li><li class="nameList">Esther Guerra</li><li class="nameList Last">Juan de Lara</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Many recommenders for modelling tasks have recently appeared. They use a variety of recommendation methods,tailored to concrete modelling languages. Typically, recommenders are created as independent programs, and subsequently need to be integrated within a modelling tool, incurring in high development effort. Moreover, it is currently not possible to reuse a recommender created for a modelling language with a different notation, even if they are similar.  
+To attack these problems, we propose a methodology to reuse and integrate recommenders into modelling tools. It considers four orthogonal dimensions: the target modelling language, the tool, the recommendation source, and the recommended items. To make homogeneous the access to arbitrary recommenders, we propose a reference recommendation service that enables indexing recommenders, investigating their properties, and obtaining recommendations likely coming from several sources. Our methodology is supported by IronMan, an Eclipse plugin that automates the integration of recommenders within Sirius and tree-based editors, and can bridge recommenders created for a modelling language for their reuse with a different one. We evaluate the power of the tool by reusing 2 recommenders for 4 different languages, and integrating them into 6 modelling tools.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623476.3623522">GPT-3-Powered Type Error Debugging: Investigating the Use of Large Language Models for Code Repair</a></h3><ul class="DLauthors"><li class="nameList">Francisco Ribeiro</li><li class="nameList">José Nuno Castro de Macedo</li><li class="nameList">Kanae Tsushima</li><li class="nameList">Rui Abreu</li><li class="nameList Last">João Saraiva</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Type systems are responsible for assigning types to terms in programs. That way, they enforce the actions that can be taken and can, consequently, detect type errors during compilation. However, while they are able to flag the existence of an error, they often fail to pinpoint its cause or provide a helpful error message. Thus, without adequate support, debugging this kind of errors can take a considerable amount of effort. Recently, neural network models have been developed that are able to understand programming languages and perform several downstream tasks. We argue that type error debugging can be enhanced by taking advantage of this deeper understanding of the language’s structure. In this paper, we present a technique that leverages GPT-3’s capabilities to automatically fix type errors in <em>OCaml</em> programs. We perform multiple source code analysis tasks to produce useful prompts that are then provided to GPT-3 to generate potential patches. Our publicly available tool, Mentat, supports multiple modes and was validated on an existing public dataset with thousands of <em>OCaml</em> programs. We automatically validate successful repairs by using <em>Quickcheck</em> to verify which generated patches produce the same output as the user-intended fixed version, achieving a 39% repair rate. In a comparative study, Mentat outperformed two other techniques in automatically fixing ill-typed <em>OCaml</em> programs.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623476.3623526">Temporal Breakpoints for Multiverse Debugging</a></h3><ul class="DLauthors"><li class="nameList">Matthias Pasquier</li><li class="nameList">Ciprian Teodorov</li><li class="nameList">Frédéric Jouault</li><li class="nameList">Matthias Brun</li><li class="nameList">Luka Le Roux</li><li class="nameList Last">Loïc Lagadec</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Multiverse debugging extends classical and omniscient debugging to allow the exhaustive exploration of non-deterministic and concurrent systems during debug sessions.  
+The introduction of user-defined reductions significantly improves the scalability of the approach.  
+However, the literature fails to recognize the importance of using more expressive logics, besides local-state predicates, to express breakpoints.  
+In this article, we address this problem by introducing temporal breakpoints for multiverse debugging.  
+Temporal breakpoints greatly enhance the expressivity of conditional breakpoints, allowing users to reason about the past and future of computations in the multiverse.  
+Moreover, we show that it is relatively straightforward to extend a language-agnostic multiverse debugger semantics with temporal breakpoints, while preserving its generality.  
+To show the elegance and practicability of our approach, we have implemented a multiverse debugger for the AnimUML modeling environment that supports 3 different temporal breakpoint formalisms: regular-expressions, statecharts, and statechart-based Büchi automata.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623476.3623512">Cross-Level Debugging for Static Analysers</a></h3><ul class="DLauthors"><li class="nameList">Mats Van Molle</li><li class="nameList">Bram Vandenbogaerde</li><li class="nameList Last">Coen De Roover</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Static analyses provide the foundation for several tools that help developers find problems before executing the program under analysis. Common applications include warning about unused code, deprecated API calls, or about potential security vulnerabilities within an IDE. A static analysis distinguishes itself from a dynamic analysis in that it is supposed to terminate even if the program under analysis does not. In many cases it is also desired for the analysis to be <em>sound</em>, meaning that its answers account for all possible program behavior. Unfortunately, analysis developers may make mistakes that violate these properties resulting in hard-to-find bugs in the analysis code itself. Finding these bugs can be a difficult task, especially since analysis developers have to reason about two separate code-bases: the analyzed code and the analysis implementation. The former is usually where the bug manifests itself, while the latter contains the faulty implementation. A recent survey has found that analysis developers prefer to reason about the analyzed program, indicating that debugging would be easier if debugging features such as (conditional) breakpoints and stepping were also available in the analyzed program. In this paper, we therefore propose <em>cross-level</em> debugging for static analysis. This novel technique moves debugging features such as stepping and breakpoints to the base-layer (i.e., analyzed program), while still making interactions with the meta-layer (i.e., analysis implementation) possible. To this end, we introduce novel conditional breakpoints that express conditions, which we call <em>meta-predicates</em>, about the current analysis’ state. We integrated this debugging technique in a framework for implementing modular abstract interpretation-based static analyses called MAF. Through a detailed case study on 4 real-world bugs taken from the repository of MAF, we demonstrate how cross-level debugging helps analysis developers in locating and solving bugs.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623476.3623515">Cascade: A Meta-language for Change, Cause and Effect</a></h3><ul class="DLauthors"><li class="nameList Last">Riemer van Rozen</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Live programming brings code to life with immediate and continuous feedback. To enjoy its benefits, programmers need powerful languages and live programming environments for understanding the effects of code modifications on running programs. Unfortunately, the enabling technology that powers these languages, is missing. Change, a crucial enabler for explorative coding, omniscient debugging and version control, is a potential solution.  
+We aim to deliver generic solutions for creating these languages, in particular Domain-Specific Languages (DSLs). We present Cascade, a meta-language for expressing DSLs with interface- and feedback-mechanisms that drive live programming. We demonstrate run-time migrations, ripple effects and live desugaring of three existing DSLs. Our results show that an explicit representation of change is instrumental for how these languages are built, and that cause-and-effect relationships are vital for delivering precise feedback.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623476.3623530">Seamless Code Generator Synchronization in the Composition of Heterogeneous Modeling Languages</a></h3><ul class="DLauthors"><li class="nameList">Nico Jansen</li><li class="nameList Last">Bernhard Rumpe</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In Software Language Engineering, the composition of heterogeneous languages has become an increasingly relevant research area in recent years. Despite considerable advances in different composition techniques, they mainly focus on composing concrete and abstract syntax, while a thorough yet general concept for synchronizing code generators and their produced artifacts is still missing. Current solutions are either highly generic, typically increasing the complexity beyond their actual value, or strictly limited to specific applications. In this paper, we present a concept for lightweight generator composition, using the symbol tables of heterogeneous modeling languages to exchange generator-specific accessor and mutator information. The information is attached to the symbols of model elements via templates allowing code generators to communicate access routines at the code level without a further contract. Providing suitable synchronization techniques for code generation is essential to enable language composition in all aspects.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623476.3623518">Enabling Blended Modelling of Timing and Variability in EAST-ADL</a></h3><ul class="DLauthors"><li class="nameList">Muhammad Waseem Anwar</li><li class="nameList">Federico Ciccozzi</li><li class="nameList Last">Alessio Bucaioni</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>EAST-ADL is a domain-specific modelling language for the design and analysis of vehicular embedded systems. Seamless modelling through multiple concrete syntaxes for the same language, known as blended modelling, offers enhanced modelling flexibility to boost collaboration, lower modelling time, and maximise the productivity of multiple diverse stakeholders involved in the development of complex systems, such as those in the automotive domain. Together with our industrial partner, which is one of the leading contributors to the definition of EAST-ADL and one of its main end-users, we provided prototypical blended modelling features for EAST-ADL.  
+In this article, we report on our language engineering work towards the provision of blended modelling for EAST-ADL to support seamless graphical and textual notations. Notably, for selected portions of the EAST-ADL language (i.e., timing and variability packages), we introduce ad-hoc textual concrete syntaxes to represent the language's abstract syntax in alternative textual notations, preserving the language's semantics. Furthermore, we propose a full-fledged runtime synchronisation mechanism, based on the standard EAXML schema format, to achieve seamless change propagation across the two notations. As EAXML serves as a central synchronisation point, the proposed blended modelling approach is workable with most existing EAST-ADL tools. The feasibility of the proposed approach is demonstrated through a car wiper use case from our industrial partner - Volvo. Results indicate that the proposed blended modelling approach is effective and can be applied to other EAST-ADL packages and supporting tools.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623476.3623519">Towards Efficient Model Comparison using Automated Program Rewriting</a></h3><ul class="DLauthors"><li class="nameList">Qurat ul ain Ali</li><li class="nameList">Dimitris Kolovos</li><li class="nameList Last">Konstantinos Barmpis</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Model comparison is a prerequisite task for several other model management tasks such as model merging, model differencing etc. We present a novel approach to efficiently compare models using programs written in a rule-based model comparison language. As the comparison is done at the model element level, and each element needs to be traversed and compared with its corresponding elements, the execution of these comparison algorithms can be computationally expensive for larger models. In this paper, we present an efficient comparison approach which provides an automated rewriting facility to compare (both homogeneous and heterogeneous) models, based on static program analysis. Using this analysis, we reduce the search space by pre-filtering/indexing model elements, before actually comparing them. Moreover, we reorder the comparison match rules according to the dependencies between these rules to  
+reduce the cost of jumping between rules. Our experiments demonstrate that the proposed model comparison approach delivers significant performance benefits in terms of execution time compared to the default ECL execution engine.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623476.3623527">Deriving Integrated Multi-Viewpoint Modeling Languages from Heterogeneous Modeling Languages: An Experience Report</a></h3><ul class="DLauthors"><li class="nameList">Malte Heithoff</li><li class="nameList">Nico Jansen</li><li class="nameList">Jörg Christian Kirchhof</li><li class="nameList">Judith Michael</li><li class="nameList">Florian Rademacher</li><li class="nameList Last">Bernhard Rumpe</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In modern systems engineering, domain experts increasingly utilize models to define domain-specific viewpoints in a highly interdisciplinary context. Despite considerable advances in developing model composition techniques, their integration in a largely heterogeneous language landscape still poses a challenge. Until now, composition in practice mainly focuses on developing foundational language components or applying language composition in smaller scenarios, while the application to extensive, heterogeneous languages is still missing. In this paper, we report on our experiences of composing sophisticated modeling languages using different techniques simultaneously in the context of heterogeneous application areas such as assistive systems and cyber-physical systems in the Internet of Things. We apply state-of-the-art practices, show their realization, and discuss which techniques are suitable for particular modeling scenarios. Pushing model composition to the next level by integrating complex, heterogeneous languages is essential for establishing modeling languages for highly interdisciplinary development teams.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623476.3623516">A Low-Code Platform for Systematic Component-Oriented Language Composition</a></h3><ul class="DLauthors"><li class="nameList">Jérôme Pfeiffer</li><li class="nameList Last">Andreas Wortmann</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Low-code platforms have gained popularity for accelerating complex software engineering tasks through visual interfaces and pre-built components. Software language engineering, specifically language composition, is such a complex task requiring expertise in composition mechanisms and language workbenches multi-dimensional language constituents (syntax and semantics). This paper presents an extensible low-code platform with a graphical web-based interface for language composition. It enables composition using language components, facilitating systematic composition within language families promoting reuse and streamlining the management, composition, and derivation of domain-specific languages.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623476.3623524">A Tool for the Definition and Deployment of Platform-Independent Bots on Open Source Projects</a></h3><ul class="DLauthors"><li class="nameList">Adem Ait</li><li class="nameList">Javier Luis Cánovas Izquierdo</li><li class="nameList Last">Jordi Cabot</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The development of Open Source Software (OSS) projects is a collaborative process that heavily relies on active contributions by passionate developers. Creating, retaining and nurturing an active community of developers is a challenging task; and finding the appropriate expertise to drive the development process is not always easy. To alleviate this situation, many OSS projects try to use bots to automate some development tasks, thus helping community developers to cope with the daily workload of their projects. However, the techniques and support for developing bots is specific to the code hosting platform where the project is being developed (e.g., GitHub or GitLab). Furthermore, there is no support for orchestrating bots deployed in different platforms nor for building bots that go beyond pure development activities. In this paper, we propose a tool to define and deploy bots for OSS projects, which besides automation tasks they offer a more social facet, improving community interactions. The tool includes a Domain-Specific Language (DSL) which allows defining bots that can be deployed on top of several platforms and that can be triggered by different events (e.g., creation of a new issue or a pull request). We describe the design and the implementation of the tool, and illustrate its use with examples.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623476.3623528">Online Name-Based Navigation for Software Meta-languages</a></h3><ul class="DLauthors"><li class="nameList Last">Peter D. Mosses</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Software language design and implementation often involve specifications written in various esoteric meta-languages. Language workbenches generally include support for precise name-based navigation when browsing language specifications <em>locally</em>, but such support is lacking when browsing the same specifications <em>online</em> in code repositories. </p><p>This paper presents a technique to support precise name-based navigation of language specifications in online repositories using ordinary web browsers. The idea is to generate <em>hyperlinked twins</em>: websites where <em>verbatim copies</em> of specification text are enhanced with hyperlinks between name references and declarations. By generating hyperlinks directly from the name binding analysis used internally in a language workbench, online navigation in hyperlinked twins is automatically consistent with local navigation. </p><p>The presented technique has been implemented for the Spoofax language workbench, and used to generate hyperlinked twin websites from various language specifications in Spoofax meta-languages. However, the applicability of the technique is not limited to Spoofax, and developers of other language workbenches could presumably implement similar tooling, to make their language specifications more accessible to those who do not have the workbench installed.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623476.3623531">Practical Runtime Instrumentation of Software Languages: The Case of SciHook</a></h3><ul class="DLauthors"><li class="nameList">Dorian Leroy</li><li class="nameList">Benoit Combemale</li><li class="nameList">Benoît Lelandais</li><li class="nameList Last">Marie-Pierre Oudot</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Software languages have pros and cons, and are usually chosen accordingly. In this context, it is common to involve different languages in the development of complex systems, each one specifically tailored for a given concern. However, these languages create de facto silos, and offer little support for interoperability with other languages, be it statically or at runtime. In this paper, we report on our experiment on extracting a relevant behavioral interface from an existing language, and using it to enable interoperability at runtime. In particular, we present a systematic approach to define the behavioral interface and we discuss the expertise required to define it. We illustrate our work on the case study of SciHook, a C++ library enabling the runtime instrumentation of scientific software in Python. We present how the proposed approach, combined with SciHook, enables interoperability between Python and a domain-specific language dedicated to numerical analysis, namely NabLab, and discuss overhead at runtime.</p>
+			</div></div>
+							
+						</div></div></body></html>

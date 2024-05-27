@@ -1,0 +1,135 @@
+---
+title: "SAS 2023 - Call for Participation - Early deadline: Sept 22"
+timestamp: "9/8/2023 7:27:04"
+start: "10/22/2023"
+end: "10/24/2023"
+---
+
+----------------------------------------------------------------------
+			Call for Participation
+	      Early registration deadline: September 22
+
+			       SAS 2023
+		  The 30th Static Analysis Symposium
+      Cascais (Lisbon), Portugal, Sun 22 - Tue 24, October 2023
+		       Colocated with SPLASH 23
+
+	       https://2023.splashcon.org/home/sas-2023
+
+----------------------------------------------------------------------
+
+Registration is now open for SAS 2023!
+
+The 30th Static Analysis Symposium (SAS 2023) will be co-located with
+SPLASH 2023 in Cascais (Lisbon), Portugal and held on October 22-24.
+
+
+REGISTRATION
+
+*Early bird registration deadline: September 22*
+
+Registration to be completed through the SPLASH registration pages; see instructions at:
+https://conf.researchr.org/attending/sas-2023/%5Esattending%5EsRegistration
+https://2023.splashcon.org/attending/Registration
+
+INVITED SPEAKERS
+
+- Loris D'Antoni
+  Verifying Infinitely Many Programs at Once
+
+- Bor-Yuh Evan Chang
+  Goal-Directed Abstract Interpretation and Event-Driven Frameworks
+
+- Daniel Kästner
+  Abstract Interpretation in Industry - Experience and Lessons Learned
+
+- Gagandeep Singh
+  Building Trust and Safety in Artificial Intelligence
+  with Abstract Interpretation
+
+
+ACCEPTED PAPERS
+
+- Mutual Refinements of Context-Free Language Reachability
+  Shuo Ding and Qirun Zhang
+- Modular Optimization-Based Roundoff Error Analysis of Floating-Point Programs
+  Rosa Abbasi Boroujeni and Eva Darulova
+- How fitting is your abstract domain?
+  Roberto Giacobazzi, Isabella Mastroeni and Elia Perantoni
+- BREWasm: A General Static Binary Rewriting Framework for WebAssembly
+  Shangtong Cao, Ningyu He, Yao Guo and Haoyu Wang
+- Scaling up Roundoff Analysis of Functional Data Structure Programs
+  Anastasia Isychev and Eva Darulova
+- Octagons Revisited - Elegant Proofs and Simplified Algorithms
+  Michael Schwarz and Helmut Seidl
+- Error Invariants for Fault Localization via Abstract Interpretation
+  Aleksandar S. Dimovski
+- Symbolic transformation of expressions in modular arithmetic
+  Jérôme Boillot and Jérôme Feret
+- ADCL: Acceleration Driven Clause Learning for Constrained Horn Clauses
+  Florian Frohn and Jürgen Giesl
+- Unconstrained Variable Oracles for Faster Static Analyses
+  Vincenzo Arceri, Greta Dolcetti and Enea Zaffanella
+- Generalized Program Sketching by Abstract Interpretation and Logical Abduction
+  Aleksandar S. Dimovski
+- Domain Precision in Galois Connection-less Abstract Interpretation
+  Isabella Mastroeni and Michele Pasqua
+- A Formal Framework to Measure the Incompleteness of Abstract Interpretations
+  Marco Campion, Caterina Urban, Mila Dalla Preda and Roberto Giacobazzi
+- Error Localization for Sequential Effect Systems
+  Colin S. Gordon and Chaewon Yun
+- Lifting On-Demand Analysis to Higher-Order Languages
+  Daniel Schoepe, David Seekatz, Ilina Stoilkovska, Sandro Stucki, Daniel
+  Tattersall, Pauline Bolignano, Franco Raimondi and Bor-Yuh Evan Chang
+- A Product of Shape and Sequence Abstractions
+  Josselin Giet, Félix Ridoux and Xavier Rival
+- Quantum Constant Propagation
+  Yanbin Chen and Yannick Stade
+- Polynomial Analysis of Modular Arithmetic
+  Thomas Seed, Andy King, Neil Evans and Chris Coppins
+- Boosting Multi-Neuron Convex Relaxation for Neural Network Verification
+  Xuezhou Tang, Ye Zheng and Jiaxiang Liu
+- Reverse Template Processing using Abstract Interpretation
+  Matthieu Lemerre
+- Mutual Refinements of Context-Free Language Reachability
+  Shuo Ding and Qirun Zhang
+- Modular Optimization-Based Roundoff Error Analysis of Floating-Point Programs
+  Rosa Abbasi Boroujeni and Eva Darulova
+- How fitting is your abstract domain?
+  Roberto Giacobazzi, Isabella Mastroeni and Elia Perantoni
+- BREWasm: A General Static Binary Rewriting Framework for WebAssembly
+  Shangtong Cao, Ningyu He, Yao Guo and Haoyu Wang
+- Scaling up Roundoff Analysis of Functional Data Structure Programs
+  Anastasia Isychev and Eva Darulova
+- Octagons Revisited - Elegant Proofs and Simplified Algorithms
+  Michael Schwarz and Helmut Seidl
+- Error Invariants for Fault Localization via Abstract Interpretation
+  Aleksandar S. Dimovski
+- Symbolic transformation of expressions in modular arithmetic
+  Jérôme Boillot and Jérôme Feret
+- ADCL: Acceleration Driven Clause Learning for Constrained Horn Clauses
+  Florian Frohn and Jürgen Giesl
+- Unconstrained Variable Oracles for Faster Static Analyses
+  Vincenzo Arceri, Greta Dolcetti and Enea Zaffanella
+- Generalized Program Sketching by Abstract Interpretation and Logical Abduction
+  Aleksandar S. Dimovski
+- Domain Precision in Galois Connection-less Abstract Interpretation
+  Isabella Mastroeni and Michele Pasqua
+- A Formal Framework to Measure the Incompleteness of Abstract Interpretations
+  Marco Campion, Caterina Urban, Mila Dalla Preda and Roberto Giacobazzi
+- Error Localization for Sequential Effect Systems
+  Colin S. Gordon and Chaewon Yun
+- Lifting On-Demand Analysis to Higher-Order Languages
+  Daniel Schoepe, David Seekatz, Ilina Stoilkovska, Sandro Stucki, Daniel
+  Tattersall, Pauline Bolignano, Franco Raimondi and Bor-Yuh Evan Chang
+- A Product of Shape and Sequence Abstractions
+  Josselin Giet, Félix Ridoux and Xavier Rival
+- Quantum Constant Propagation
+  Yanbin Chen and Yannick Stade
+- Polynomial Analysis of Modular Arithmetic
+  Thomas Seed, Andy King, Neil Evans and Chris Coppins
+- Boosting Multi-Neuron Convex Relaxation for Neural Network Verification
+  Xuezhou Tang, Ye Zheng and Jiaxiang Liu
+- Reverse Template Processing using Abstract Interpretation
+  Matthieu Lemerre
+

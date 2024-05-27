@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Dynamic Languages Symposium (DLS) "
+title: "Dynamic Languages Symposium (DLS)"
 ---
 The Dynamic Languages Symposium (DLS) is a forum for discussion of
 dynamic languages, their implementation and application. While mature
@@ -17,12 +17,28 @@ DLS 2023
 
 -   Cascais, Portugal, October, 2023
 -   Co-located with SPLASH 2023
--   PC chair: Stefan, University of Kent, UK
+-   PC chair: Stefan Marr, University of Kent, UK
 -   [https://2023.splashcon.org/home/dls-2023](https://conf.researchr.org/home/dls-2023)
 
 
 Awards
 ------
+
+-   Most Notable Paper Award 2023 for 2013
+    -   Recipients: Esteban Allende, Johan Fabry, Éric Tanter
+    -   Title: Cast Insertion Strategies for Gradually-Typed Objects
+    -   Conference: DLS 2013
+    -   Paper: [https://doi.org/10.1145/2508168.2508171](https://doi.org/10.1145/2508168.2508171)
+    -   Citation: This paper explored the costs, both at micro and macro scale,
+        of various strategies for protecting gradual types in a gradually-typed
+        programming language, examining how different strategies affected untyped,
+        typed, or both components of code. It is a seminal contribution to understanding
+        the performance of gradual typing, which since then has been an area of important research.
+        The strategies used in gradually-typed languages today can trace their lineage
+        back to the strategies described and proposed in this paper.
+        In particular, the proposed hybrid approach has been adapted time and
+        time again by many systems, giving this work a lasting impact beyond its original scope.
+
 
 -   Most Notable Paper Award 2022 for 2012
     -   Recipients: Thomas Würthinger, Andreas Wöß, Lukas Stadler, Gilles Duboscq, Doug Simon, and Christian Wimmer
@@ -30,9 +46,9 @@ Awards
     -   Conference: DLS 2012
     -   Paper: [https://dl.acm.org/doi/10.1145/2384577.2384587](https://dl.acm.org/doi/10.1145/2384577.2384587)
     -   Citation: Over the past decade, the authors and their collaborators
-        have taken the ideas from this paper and turned it into the Truffle and GraalVMsystem,
+        have taken the ideas from this paper and turned it into the Truffle and GraalVM system,
         which has revolutionized how we implement languages on the JVM.
-        Today, the GraalVM is a major product and Truffle is a language implementationtechnology
+        Today, the GraalVM is a major product and Truffle is a language implementation technology
         producing high-performance implementations of everything from Ruby to C,
         all built upon the ideas of AST rewriting in the interpreter.
 
@@ -134,6 +150,13 @@ Awards
 
 Past Events
 -----------
+
+- DLS 2023
+    -   Cascais, Portugal, October 24, 2023
+    -   Co-located with SPLASH 2023
+    -   PC chairs: Stefan Marr, University of Kent, UK
+    -   [https://2023.splashcon.org/home/dls-2023](https://2023.splashcon.org/home/dls-2023)
+    -   [http://www.dynamic-languages-symposium.org/dls-23/](http://www.dynamic-languages-symposium.org/dls-23/)
 
 - DLS 2022
     -   Auckland, New Zealand, Dec 6, 2022
@@ -274,12 +297,15 @@ Steering Committee Members
 
 ### Present
 
-* Chair: Tim Felgentreff, Oracle Labs, Germany (SC Chair 2018-2021, PC Chair 2018)
+* Chair: Stefan Marr, University of Kent, UK (SC Chair 2022-2024, PC Chair 2019, 2023)
 * Davide Ancona, Universit&agrave; degli studi di Genova, Italy (PC Chair 2017)
+* Wolfgang De Meuter, Vrije Universiteit Brussel, Belgium (PC Chair 2022)
+* Tim Felgentreff, Oracle Labs, Germany (SC Chair 2018-2021, PC Chair 2018)
+* Arjun Guha, Northeastern University, USA, (PC Chair 2021, 2022)
 * Carl Friedrich Bolz-Tereick, Heinrich-Heine-Universit&auml;t D&uuml;sseldorf, Germany (Past SC Chair 2018-2021, SC Chair 2015-2018, PC Chair 2013)
 * Robert Hirschfeld, Hasso Plattner Institute and University of Potsdam, Germany (Member at Large 2018-2020, Past SC Chair 2015-2018, SC Chair 2007-2015, PC Chair 2007, PC Chair 2006)
-* Stefan Marr, University of Kent, UK (PC Chair 2019)
-* Benjamin C. Pierce, University of Pennsylvania, USA (SIGPLAN 2018-2021)
+
+* Anders Møller, Aarhus University, Denmark (SIGPLAN since 2021)
 * Laurence Tratt, King's College London, UK (Emeritus Member 2018-2020, Emeritus Member 2016-2018, PC Chair 2014)
 
 ### Past
@@ -292,6 +318,7 @@ Steering Committee Members
 * Jeremy Gibbons (SIGPLAN 2012-2015)
 * Roberto Ierusalimschy (PC Chair 2016)
 * James Noble (PC Chair 2009)
+* Benjamin C. Pierce, University of Pennsylvania, USA (SIGPLAN 2018-2021)
 * Manuel Serrano (PC Chair 2015)
 * Peter Thiemann (SIGPLAN 2015-2018)
 * Dave Thomas (Member at Large 2007-2013)

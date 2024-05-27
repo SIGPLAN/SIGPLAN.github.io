@@ -1,0 +1,102 @@
+---
+title: "Extended Submission Deadline, The International Conference on Parallel Architectures and Compilation Techniques (PACT) 2024"
+timestamp: "3/21/2024 2:10:42"
+deadline: "4/1/2024"
+---
+PACT 2024 will be held in Long Beach, California, USA, 13-16 October, 2024.
+PACT 2024 includes a New Call for Tools and Practical Experience Papers
+
+##  Scope
+
+The International Conference on Parallel Architectures and Compilation Techniques (PACT) is a unique technical conference sitting at the intersection of hardware and software, with a special emphasis on parallelism. The PACT conference series brings together researchers from computer architectures, compilers, execution environments, programming languages, and applications, to present and discuss their latest research results.
+
+PACT 2024 will be held as an in-person event in Long Beach, California, USA. At least one of the authors of accepted papers will be required to attend the conference, and we encourage all the authors to participate.
+
+##  Specific topics of interest include (but are not limited to):
+
++ Parallel architectures, including accelerator architectures for AI or other domains
++ Compilers and tools for parallel architectures (as above)
++ Applications and experimental systems studies of parallel processing
++ Computational models for concurrent execution
++ Multicore, multithreaded, superscalar, and VLIW architectures
++ Compiler and hardware support for hiding memory latencies
++ Support for correctness in hardware and software
++ Reconfigurable parallel computing
++ Dynamic translation and optimization
++ I/O issues in parallel computing and their relation to applications
++ Parallel programming languages, algorithms, and applications
++ Middleware and run-time system support for parallel computing
++ Application-specific parallel systems
++ Distributed computing architectures and systems
++ Heterogeneous systems using various types of accelerators
++ In-core and in-chip accelerators and their exploitation
++ Applications of machine learning to parallel computing
++ Large scale data processing, including computing in memory accelerators
++ Insights for the design of parallel architectures and compilers from modern parallel applications PACT for Quantum and Neurmorphic
++ Neuromorphic computing both as an application for and a tool applied to architectures and compilers
++ Quantum computing architectures and compilers.
+
+In addition to the regular research papers, PACT 2024 has a special category of papers called “tools and practical experience” (TPE). Such papers are subject to the same page length guidelines and will be reviewed by the same Program Committee.
+TPE papers focus on applicability (such as traditional methods employed in emerging fields), exposing challenges and experiences the industry is facing as an opportunity to steer the research. A TPE paper must clearly explain its functionality, provide a summary about the practice experience with realistic case studies, and describe all thesupporting artifacts available (if relevant). The selection criteria are:
+
++ Originality: Papers should present PACT-related technologies applied to real-world problems with scope or characteristics that set them apart from previous solutions.
++ Usability: The presented Tools or compilers should have broad usage or applicability. They are expected to assist in PACT-related research, or could be extended to investigate or demonstrate new technologies. If significant components are not yet implemented, the paper will not be considered.
++ Documentation: The tool or compiler should be presented on a web-site giving documentation and further information about the tool.
++ Benchmark Repository: A suite of benchmarks for testing should be provided.
++ Availability: Preferences will be given to tools or compilers that are freely available (at either the source or binary level). Exceptions may be made for industry and commercial tools that cannot be made publicly available for business reasons.
++ Foundations: Papers should incorporate the principles underpinning Parallel Architectures and Compilation Techniques (PACT). However, a thorough discussion of theoretical foundations is not required; a summary of such should suffice.
+
+##  Key dates
+
++ Abstract submission deadline: Mar 25, 2024
++ Paper submission deadline: Apr 1, 2024
++ Rebuttal period: Jun 3-9, 2024
++ Author notification: Jul 1, 2024
++ Artifact submission: Jul 8, 2024
++ Camera ready papers: Aug 10, 2024
+
+*All deadlines are firm at midnight anywhere on earth (AoE)*
+
+##  General co-chairs
+
+Rajiv Gupta, University of California, Riverside
+Nael Abu-Ghazaleh, University of California, Riverside
+
+##  Program Chairs:
+
+Stefanos Kaxiras, Uppsala University
+Alexandra Jimborean, University of Murcia
+
+##  Workshop/Tutorial Chair
+
+Hoda Naghibijouybari, Binghamton University
+
+##  ACM Student Research Competition Chair:
+
+Samira Ajorpaz, NCSU
+
+##  Travel Grant Chair:
+
+Changhee Jung, Purdue University
+
+##  Publications Chair:
+
+Jongouk Choi, UCF
+
+##  Publicity Co-Chairs:
+
+Americas: Khaled Khasawneh, George Mason University
+Europe: Ihsen Alouani, Queen’s University Belfast
+
+##  Web Chair:
+
+Daniel Wong, University of California, Riverside
+
+##  Webmaster:
+
+Pedram Zaree, University of California, Riverside
+
+## Call for Papers
+
+See the full CFP:
+https://pact2024.github.io/submit/

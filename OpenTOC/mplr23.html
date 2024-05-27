@@ -1,0 +1,361 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>MPLR 2023: Proceedings of the 20th ACM SIGPLAN International Conference on Managed Programming Languages and Runtimes</title></head><body><div id="DLtoc"><div id="DLheader"><h1>MPLR 2023: Proceedings of the 20th ACM SIGPLAN International Conference on Managed Programming Languages and Runtimes</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3617651"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Session 1</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3617651.3625003">Is Wasm Becoming Garbage? (Keynote)</a></h3><ul class="DLauthors"><li class="nameList Last">Andreas Rossberg</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>WebAssembly (a.k.a. Wasm) is a low-level virtual machine that is designed to be lightweight, close to the metal and agnostic to any source languages' opinions about how to construct programs. This is the defining characteristic of Wasm that distinguishes it from other popular virtual machines. Yet we recently finalised a new feature addition bringing direct support for garbage collection to Wasm. In this talk, I explain why we did that and how the GC extension is designed to preserve the low-level spirit of Wasm to the extent possible. I will show how it can be targeted by compilers for typical object-oriented and functional languages and where we left room for future improvements.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3617651.3622983">On the Applicability of Annotation-Based Source Code Modification in Kotlin (Work in Progress)</a></h3><ul class="DLauthors"><li class="nameList">Daniel Pfeffer</li><li class="nameList Last">Markus Weninger</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Annotations add metadata to source code entities such as classes or functions, which later can be processed by so-called <em>annotation processors</em> to, for example, modify the annotated program’s source code. While annotation processing has been well-explored in Java, the Kotlin community still lacks a comprehensive summary. Thus, in this paper, we summarize the main approaches available in Kotlin: (1) ‍Compile-time annotation processing using (a) ‍Kotlin Annotation Processing Tool (KAPT), (b) ‍Kotlin Symbolic Processing (KSP), or (c) ‍writing a custom Kotlin Compiler plugin; as well as (2) ‍load-time code modification using an agent or a custom class loader. We provide proof-of-concept implementations, discuss advantages and disadvantages, and specifically focus on how well each approach supports modifying the annotated source code. This should help developers and researchers to better decide when to use which approach.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3617651.3622990">CloudJIT: A Just-in-Time FaaS Optimizer (Work in Progress)</a></h3><ul class="DLauthors"><li class="nameList">Serhii Ivanenko</li><li class="nameList">Rodrigo Bruno</li><li class="nameList">Jovan Stevanovic</li><li class="nameList">Luís Veiga</li><li class="nameList Last">Vojin Jovanovic</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Function-as-a-Service has emerged as a trending paradigm that provides attractive solutions to execute fine-grained and short-lived workloads referred to as functions. Functions are typically developed in a managed language such as Java and execute atop a language runtime. However, traditional language runtimes such as the HotSpot JVM are designed for peak performance as considerable time is spent profiling and Just-in-Time compiling code. As a consequence, warmup time and memory footprint are impacted. We observe that FaaS workloads, which are short-lived, do not fit this profile.  
+</p>
+<p>
+We propose CloudJIT, a self-optimizing FaaS platform that takes advantage of Ahead-of-Time compilation to achieve reduced startup latency and instantaneous peak performance with a smaller memory footprint. While AOT compilation is an expensive operation, the platform automatically detects which functions will benefit from it the most, performs all prerequisite preparation procedures, and compiles selected functions into native binaries. Our preliminary analysis, based on a public FaaS invocations trace, shows that optimizing a small fraction of all functions positively affects a vast majority of all cold starts.</p>
+			</div></div>
+							
+						<h2>SESSION: Session 2</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3617651.3622982">Evaluating YJIT’s Performance in a Production Context: A Pragmatic Approach</a></h3><ul class="DLauthors"><li class="nameList">Maxime Chevalier-Boisvert</li><li class="nameList">Takashi Kokubun</li><li class="nameList">Noah Gibbs</li><li class="nameList">Si Xing (Alan) Wu</li><li class="nameList">Aaron Patterson</li><li class="nameList Last">Jemma Issroff</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Ruby is a dynamically-typed programming language with a large breadth of features which  
+has grown in popularity with the rise of the modern web, and remains at the core of the  
+implementation of widely-used online platforms such as Shopify, GitHub, Discourse,  
+and Mastodon.  
+</p>
+<p>
+There have been many attempts to integrate JIT compilation into Ruby implementations, but until recently, despite impressive  
+performance on benchmarks, none had seen widespread adoption.  
+This has changed with the arrival of YJIT, a new JIT compiler based on a Lazy Basic Block Versioning (LBBV) architecture which has recently been upstreamed into CRuby,  
+and has since seen multiple large-scale production deployments.  
+</p>
+<p>
+This paper extends on previous work on YJIT and takes a pragmatic approach towards evaluating YJIT's performance in a production context. We evaluate and compare its performance on benchmarks as well as a large-scale real-world production deployment, and we look not only at peak performance, but also at memory usage and warm-up time.  
+</p>
+<p>
+On all of our benchmarks, YJIT is able to consistently outperform the CRuby interpreter by a wide  
+margin. It offers consistent speedups, full compatibility with existing Ruby code, much less memory overhead and faster warm-up compared to JRuby and TruffleRuby.  
+We also show that YJIT is able to deliver significant speedups on a real-world deployment on Shopify's worldwide StoreFront Renderer infrastructure, an application for which it is currently the only viable JIT compiler.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3617651.3622979">CacheIR: The Benefits of a Structured Representation for Inline Caches</a></h3><ul class="DLauthors"><li class="nameList">Jan de Mooij</li><li class="nameList">Matthew Gaudet</li><li class="nameList">Iain Ireland</li><li class="nameList">Nathan Henderson</li><li class="nameList Last">J. Nelson Amaral</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Inline Caching is an important technique used to accelerate operations in dynamically typed language implementations by creating fast paths based on observed program behaviour.  
+Most software stacks that support inline caching use low-level, often ad-hoc, Inline-Cache (ICs) data structures for code generation.  
+This work presents CacheIR, a design for inline caching built entirely around an intermediate representation (IR) which: (i) simplifies the development of ICs by raising the abstraction level; and (ii) enables reusing compiled native code through IR matching techniques.  
+Moreover, this work describes WarpBuilder, a novel design for a Just-In-Time (JIT) compiler front-end that directly generates type-specialized code by lowering the CacheIR contained in ICs; and Trial Inlining, an extension to the inline-caching system that allows for context-sensitive inlining of context-sensitive ICs.  
+The combination of CacheIR and WarpBuilder have been powerful performance tools for the SpiderMonkey team, and have been key in providing improved performance with less security risk.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3617651.3622994">Diagnosing Compiler Performance by Comparing Optimization Decisions</a></h3><ul class="DLauthors"><li class="nameList">Andrej Pečimúth</li><li class="nameList">David Leopoldseder</li><li class="nameList Last">Petr Tůma</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Modern compilers apply a set of optimization passes aiming to speed up the generated code. The combined effect of individual optimizations is difficult to predict. Thus, changes to a compiler's code may hinder the performance of generated code as an unintended consequence.  
+</p>
+<p>
+Performance regressions in compiled code are often related to misapplied optimizations. The regressions are hard to investigate, considering the vast number of compilation units and applied optimizations. A compilation unit consists of a root method and inlined methods. Thus, a method may be part of several compilation units and may be optimized differently in each. Moreover, inlining decisions are not invariant across runs of the virtual machine (VM).  
+</p>
+<p>
+We propose to solve the problem of diagnosing performance regressions by capturing the compiler's optimization decisions. We do so by representing the applied optimization phases, optimization decisions, and inlining decisions in the form of trees. This paper introduces an approach utilizing tree edit distance (TED) to detect optimization differences in a semi-automated way. We present an approach to compare optimization decisions in differently inlined methods. We employ these techniques to pinpoint the causes of performance problems in various benchmarks of the Graal compiler.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3617651.3622991">Morello MicroPython: A Python Interpreter for CHERI</a></h3><ul class="DLauthors"><li class="nameList">Duncan Lowther</li><li class="nameList">Dejice Jacob</li><li class="nameList Last">Jeremy Singer</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Arm Morello is a prototype system that supports CHERI  
+hardware capabilities for improving runtime security. As  
+Morello becomes more widely available, there is a growing effort to port open source code projects to this novel  
+platform. Although high-level applications generally need  
+minimal code refactoring for CHERI compatibility, low-level  
+systems code bases require significant modification to comply with the stringent memory safety constraints that are  
+dynamically enforced by Morello. In this paper, we describe  
+our work on porting the MicroPython interpreter to Morello  
+with the CheriBSD OS. Our key contribution is to present a  
+set of generic lessons for adapting managed runtime execution environments to CHERI, including (1) a characterization  
+of necessary source code changes, (2) an evaluation of runtime performance of the interpreter on Morello, and (3) a  
+demonstration of pragmatic memory safety bug detection.  
+Although MicroPython is a lightweight interpreter, mostly  
+written in C, we believe that the changes we have implemented and the lessons we have learned are more widely  
+applicable. To the best of our knowledge, this is the first  
+published description of meaningful experience for scripting  
+language runtime engineering with CHERI and Morello.</p>
+			</div></div>
+							
+						<h2>SESSION: Session 3</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3617651.3622978">A Multifaceted Memory Analysis of Java Benchmarks</a></h3><ul class="DLauthors"><li class="nameList">Orion Papadakis</li><li class="nameList">Andreas Andronikakis</li><li class="nameList">Nikos Foutris</li><li class="nameList">Michail Papadimitriou</li><li class="nameList">Athanasios Stratikopoulos</li><li class="nameList">Foivos S. Zakkak</li><li class="nameList">Polychronis Xekalakis</li><li class="nameList Last">Christos Kotselidis</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Java benchmarking suites like Dacapo and Renaissance are employed by the research community to evaluate the performance of novel features in managed runtime systems.  
+These suites encompass various applications with diverse behaviors in order to stress test different subsystems of a managed runtime.  
+Therefore, understanding and characterizing the behavior of these benchmarks is important when trying to interpret experimental results.  
+</p>
+<p>
+This paper presents an in-depth study of the memory behavior of 30 Dacapo and Renaissance applications.  
+To realize the study, a characterization methodology based on a two-faceted profiling process of the Java applications is employed.  
+The two-faceted profiling offers comprehensive insights into the memory behavior of Java applications, as it is composed of high-level and low-level metrics obtained through a Java object profiler (NUMAProfiler) and a microarchitectural event profiler (PerfUtil) of MaxineVM, respectively.  
+By using this profiling methodology we classify the Dacapo and Renaissance applications regarding their intensity in object allocations, object accesses, LLC, and main memory pressure.  
+In addition, several other aspects such as the JVM impact on the memory behavior of the application are discussed.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3617651.3622986">Improving Garbage Collection Observability with Performance Tracing</a></h3><ul class="DLauthors"><li class="nameList">Claire Huang</li><li class="nameList">Stephen Blackburn</li><li class="nameList Last">Zixian Cai</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>  
+Debugging garbage collectors for performance and correctness is notoriously difficult.  
+Among the arsenal of tools available to systems engineers, support for one of the most  
+powerful, <em>tracing</em>, is lacking in most garbage collectors. Instead, engineers must rely on  
+counting, sampling, and logging. Counting and sampling are limited to statistical analyses while logging is limited to hard-wired metrics.  
+This results in cognitive friction,  
+curtailing innovation and optimization.  
+</p>  
+<p>  
+We demonstrate that tracing is well suited to GC performance debugging.  
+We leverage the modular design of MMTk to deliver a powerful VM and collector-neutral tool.  
+We find that tracing allows:  
+ cheap insertion of tracepoints—just 14 lines of code and no measurable run-time overhead,  
+ decoupling of the declaration of tracepoints from tracing logic, 
+ high fidelity measurement able to detect subtle performance regressions, while also allowing  
+ interrogation of a running binary.  
+</p> 
+<p> 
+Our tools crisply highlight several classes of  
+performance bug, such as poor scalability in multi-threaded GCs, and  
+lock contention in the allocation sequence.  
+These observations uncover optimization opportunities in collectors,  
+and even reveal bugs in application programs.  
+</p>  
+<p>  
+We showcase tracing as a powerful tool for GC designers and  
+practitioners.  
+Tracing can uncover missed opportunities and lead to novel  
+algorithms and new engineering practices.  
+</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3617651.3622985">Don’t Trust Your Profiler: An Empirical Study on the Precision and Accuracy of Java Profilers</a></h3><ul class="DLauthors"><li class="nameList">Humphrey Burchell</li><li class="nameList">Octave Larose</li><li class="nameList">Sophie Kaleba</li><li class="nameList Last">Stefan Marr</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>To identify optimisation opportunities,  
+Java developers often use  
+sampling profilers  
+that attribute  
+a percentage of run time  
+to the methods of a program.  
+Even so these profilers use sampling,  
+are probabilistic in nature,  
+and may suffer for instance from safepoint bias,  
+they are normally considered to be relatively reliable.  
+However, unreliable or inaccurate profiles  
+may misdirect developers  
+in their quest to resolve performance issues  
+by not correctly identifying  
+the program parts  
+that would benefit most  
+from optimisations.  
+</p>
+<p>
+With the wider adoption of profilers  
+such as async-profiler and Honest Profiler,  
+which are designed to avoid the safepoint bias,  
+we wanted to investigate how precise and accurate Java  
+sampling profilers are today.  
+We investigate the precision, reliability, accuracy, and overhead  
+of async-profiler, Honest Profiler, Java Flight Recorder,  
+JProfiler, perf, and YourKit,  
+which are all actively maintained.  
+We assess them on the fully deterministic  
+Are We Fast Yet benchmarks to have a stable foundation for the probabilistic  
+profilers.  
+</p>
+<p>
+We find that profilers are relatively reliable  
+over 30 runs and normally report the same hottest method.  
+Unfortunately, this is not true for all benchmarks,  
+which suggests their reliability may be application-specific.  
+Different profilers also report  
+different methods as hottest and cannot reliably  
+agree on the set of top 5 hottest methods.  
+On the positive side,  
+the average run time overhead is in the range of 1% to 5.4%  
+for the different profilers.  
+</p>
+<p>
+Future work should investigate how results  
+can become more reliable,  
+perhaps by reducing the observer effect of profilers  
+by using optimisation decisions of unprofiled runs  
+or by developing a principled approach  
+of combining multiple profiles that  
+explore different dynamic optimisations.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3617651.3622988">Heap Size Adjustment with CPU Control</a></h3><ul class="DLauthors"><li class="nameList">Sanaz Tavakolisomeh</li><li class="nameList">Marina Shimchenko</li><li class="nameList">Erik Österlund</li><li class="nameList">Rodrigo Bruno</li><li class="nameList">Paulo Ferreira</li><li class="nameList Last">Tobias Wrigstad</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This paper explores automatic heap sizing where developers let the frequency of GC expressed as a target overhead of the application's CPU utilisation, control the size of the heap, as opposed to the other way around. Given enough headroom and spare CPU, a concurrent garbage collector should be able to keep up with the application's allocation rate, and neither the frequency nor duration of GC should impact throughput and latency. Because of the inverse relationship between time spent performing garbage collection and the minimal size of the heap, this enables trading memory for computation and conversely, neutral to an application's performance.  
+</p>
+<p>
+We describe our proposal for automatically adjusting the size of a program's heap based on the CPU overhead of GC. We show how our idea can be relatively easily integrated into ZGC, a concurrent collector in OpenJDK, and study the impact of our approach on memory requirements, throughput, latency, and energy.</p>
+			</div></div>
+							
+						<h2>SESSION: Session 4</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3617651.3622980">Comparing Rapid Type Analysis with Points-To Analysis in GraalVM Native Image</a></h3><ul class="DLauthors"><li class="nameList">David Kozak</li><li class="nameList">Vojin Jovanovic</li><li class="nameList">Codrut Stancu</li><li class="nameList">Tomáš Vojnar</li><li class="nameList Last">Christian Wimmer</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Whole-program analysis is an essential technique that enables advanced compiler optimizations. An important example of such a method is points-to analysis used by ahead-of-time (AOT) compilers to discover program elements (classes, methods, fields) used on at least one program path. GraalVM Native Image uses a points-to analysis to optimize Java applications, which is a time-consuming step of the build. We explore how much the analysis time can be improved by replacing the points-to analysis with a rapid type analysis (RTA), which computes reachable elements faster by allowing more imprecision. We propose several extensions of previous approaches to RTA: making it parallel, incremental, and supporting heap snapshotting. We present an extensive experimental evaluation of the effects of using RTA instead of points-to analysis, in which RTA allowed us to reduce the analysis time for Spring Petclinic (a popular demo application of the Spring framework) by 64% and the overall build time by 35% at the cost of increasing the image size due to the imprecision by 15%.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3617651.3622984">Unified Shared Memory: Friend or Foe? Understanding the Implications of Unified Memory on Managed Heaps</a></h3><ul class="DLauthors"><li class="nameList">Juan Fumero</li><li class="nameList">Florin Blanaru</li><li class="nameList">Athanasios Stratikopoulos</li><li class="nameList">Steve Dohrmann</li><li class="nameList">Sandhya Viswanathan</li><li class="nameList Last">Christos Kotselidis</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Adopting heterogeneous execution on GPUs and FPGAs in managed runtime systems, such as Java, is a challenging task due to the complexities of the underlying virtual machine. The majority of the current work has been focusing on compiler toolchains to solve the challenge of transparent just-in-time compilation of different code segments onto the accelerators. However, apart from providing automatic code generation, another paramount challenge is the seamless interoperability between the host memory manager and the Garbage Collector (GC). Currently, heterogeneous programming models that run on top of managed runtime systems, such as Aparapi and TornadoVM, need to block the GC when running native code (e.g, JNI code) in order to prevent the GC from moving data while the native code is still running on the hardware accelerator.  
+</p>
+<p>
+To tackle the inefficacy of locking the GC while the GPU operates, this paper proposes a novel Unified Memory (UM) memory allocator for heterogeneous programming frameworks for managed runtime systems. In this paper, we show how, by providing small changes to a Java runtime system, automatic memory management can be enhanced to perform object reclamation not only on the host, but also on the device. This is done by allocating the Java Virtual Machine's object heap in unified memory which is visible to all hardware accelerators. In this manner -although explicit data synchronization between the host and the device is still required to ensure data consistency- we enable transparent page migration of Java heap-allocated objects between the host and the accelerator, since our UM system is aware of pointers and object migration due to GC collections. This technique has been implemented in the context of MaxineVM, an open source research VM for Java written in Java. We evaluated our approach on a discrete and an integrated GPU, showcasing under which conditions UM can benefit execution across different benchmarks and configurations.We concluded that when hardware acceleration is not employed, UM does not pose significant overheads unless memory intensive workloads are encountered which can exhibit up to 12% (worst case) and 2% (average) slowdowns. In addition, if hardware acceleration is used, UM can achieve up to 9.3x speedup compared to the non-UM baseline implementation for integrated GPUs.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3617651.3622989">Beyond RSS: Towards Intelligent Dynamic Memory Management (Work in Progress)</a></h3><ul class="DLauthors"><li class="nameList">Christos Panagiotis Lamprakos</li><li class="nameList">Sotirios Xydis</li><li class="nameList">Peter Kourzanov</li><li class="nameList">Manu Perumkunnil</li><li class="nameList">Francky Catthoor</li><li class="nameList Last">Dimitrios Soudris</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The main goal of dynamic memory allocators is to minimize memory fragmentation. Fragmentation stems from the interaction between workload behavior and allocator policy. There are, however, no works systematically capturing said interaction. We view this gap as responsible for the absence of a standardized, quantitative fragmentation metric, the lack of workload dynamic memory behavior characterization techniques, and the absence of a standardized benchmark suite targeting dynamic memory allocation. Such shortcomings are profoundly asymmetric to the operation’s ubiquity. </p><p>This paper presents a trace-based simulation methodology for constructing representations of workload-allocator interaction. We use two-dimensional rectangular bin packing (2DBP) as our foundation. 2DBP algorithms minimize their products’ makespan, but virtual memory systems employing demand paging deem such a criterion inappropriate. We see an allocator’s placement decisions as a solution to a 2DBP instance, optimizing some unknown criterion particular to that allocator’s policy. Our end product is a data structure by design concerned with events residing entirely in virtual memory; no information on memory accesses, indexing costs or any other factor is kept. </p><p>We bootstrap our contribution’s utility by exploring its relationship to maximum resident set size (RSS). Our baseline is the assumption that less fragmentation amounts to smaller peak RSS. We thus define a fragmentation metric in the 2DBP substrate and compute it for both single- and multi-threaded workloads linked to 7 modern allocators. We also measure peak RSS for the resulting pairs. Our metric exhibits a monotonic relationship with memory footprint 94% of the time, as inferred via two-tailed statistical hypothesis testing with at least 99% confidence.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3617651.3622992">Towards Safe HPC: Productivity and Performance via Rust Interfaces for a Distributed C++ Actors Library (Work in Progress)</a></h3><ul class="DLauthors"><li class="nameList">John Parrish</li><li class="nameList">Nicole Wren</li><li class="nameList">Tsz Hang Kiang</li><li class="nameList">Akihiro Hayashi</li><li class="nameList">Jeffrey Young</li><li class="nameList Last">Vivek Sarkar</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In this work-in-progress research paper, we make the case for using Rust to develop applications in the High Performance Computing (HPC) domain which is critically dependent on native C/C++ libraries. This work explores one example of Safe HPC via the design of a Rust interface to an existing distributed C++ Actors library. This existing library has been shown to deliver high performance to C++ developers of irregular Partitioned Global Address Space (PGAS) applications.  
+</p>
+<p>
+Our key contribution is a proof-of-concept framework to express parallel programs safe-ly in Rust (and potentially other languages/systems), along with a corresponding study of the problems solved by our runtime, the implementation challenges faced, and user productivity. We also conducted an early evaluation of our approach by converting C++ actor implementations of four applications taken from the Bale kernels to Rust Actors using our framework. Our results show that the productivity benefits of our approach are significant since our Rust-based approach helped catch bugs statically during application development, without degrading performance relative to the original C++ actor versions.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3617651.3622981">Generating Java Interfaces for Accessing Foreign Objects in GraalVM (Work in Progress)</a></h3><ul class="DLauthors"><li class="nameList">Julian Garn</li><li class="nameList">Florian Angerer</li><li class="nameList Last">Hanspeter Mössenböck</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Language interoperability (e.g., calling Python methods from Java programs) is a critical challenge in software development, often leading to code inconsistencies, human errors, and reduced readability.  
+</p>
+<p>
+This paper presents a work-in-progress project aimed at addressing this issue by providing a tool that automates the generation of Java interfaces for accessing data and methods written in other languages.  
+</p>
+<p>
+Using existing code analysis techniques the tool aims to produce easy to use abstractions for interop, intended to reduce human error and to improve code clarity. Although the tool is not yet finished, it has already shown promising results. Initial evaluations demonstrate its ability to identify language-specific features and automatically generate equivalent Java interfaces. This allows developers to efficiently integrate code written in foreign languages into Java projects while maintaining code readability and minimizing errors.</p>
+			</div></div>
+							
+						<h2>SESSION: Posters</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3617651.3624305">Diagnosing Compiler Performance by Comparing Optimization Decisions (Poster Abstract)</a></h3><ul class="DLauthors"><li class="nameList">Andrej Pečimúth</li><li class="nameList">David Leopoldseder</li><li class="nameList Last">Petr Tůma</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This is an abstract accompanying a poster and a full paper. We introduce an approach to diagnose performance issues in dynamic compilers by logging and comparing optimization decisions.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3617651.3624306">CloudJIT: A Just-in-Time FaaS Optimizer (Poster Abstract)</a></h3><ul class="DLauthors"><li class="nameList">Serhii Ivanenko</li><li class="nameList">Rodrigo Bruno</li><li class="nameList">Jovan Stevanovic</li><li class="nameList">Luís Veiga</li><li class="nameList Last">Vojin Jovanovic</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Function-as-a-Service provides attractive solutions to execute fine-grained and short-lived functions. Functions are typically developed in a managed language and execute atop a language runtime. However, traditional runtimes are designed for peak performance as considerable time is spent profiling and Just-in-Time compiling code. We observe that short-lived FaaS workloads do not fit this profile. 
+</p>
+<p>
+We propose CloudJIT, a self-optimizing FaaS platform that takes advantage of Ahead-of-Time compilation to achieve reduced startup latency and instantaneous peak performance with a smaller memory footprint. Our preliminary analysis shows that optimizing a small fraction of functions positively affects a majority of cold starts in a realistic environment.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3617651.3624307">Don’t Trust Your Profiler: An Empirical Study on the Precision and Accuracy of Java Profilers (Poster Abstract)</a></h3><ul class="DLauthors"><li class="nameList">Humphrey Burchell</li><li class="nameList">Octave Larose</li><li class="nameList">Sophie Kaleba</li><li class="nameList Last">Stefan Marr</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>To identify optimisation opportunities, Java developers often  
+use sampling profilers that attribute a percentage of run  
+time to the methods of a program. Even so these profilers  
+use sampling, are probabilistic in nature, and may suffer for  
+instance from safepoint bias, they are normally considered  
+to be relatively reliable. However, unreliable or inaccurate  
+profiles may misdirect developers in their quest to resolve  
+performance issues by not correctly identifying the program  
+parts that would benefit most from optimisations.  
+With the wider adoption of profilers such as async-profiler  
+and Honest Profiler, which are designed to avoid the safepoint bias, we wanted to investigate how precise and accurate Java sampling profilers are today. In this Poster, we investigate  
+the precision, reliability, accuracy, and overhead of async-profiler, Honest Profiler, Java Flight Recorder, JProfiler, perf,  
+and YourKit, which are all actively maintained. We assess  
+them on the fully deterministic Are We Fast Yet benchmarks  
+to have a stable foundation for the probabilistic profilers.  
+We find that profilers are relatively reliable over 30 runs  
+and normally report the same hottest method. Unfortunately,  
+this is not true for all benchmarks, which suggests their  
+reliability may be application-specific. Different profilers  
+also report different methods as hottest and cannot reliably  
+agree on the set of top 5 hottest methods. On the positive  
+side, the average run time overhead is in the range of 1% to  
+5.4% for the different profilers.  
+Future work should investigate how results can become  
+more reliable, perhaps by reducing the observer effect of profilers by using optimisation decisions of unprofiled runs or by developing a principled approach of combining multiple  
+profiles that explore different dynamic optimisations.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3617651.3624308">Capable VMs Project Overview (Poster Abstract)</a></h3><ul class="DLauthors"><li class="nameList">Jacob Bramley</li><li class="nameList">Dejice Jacob</li><li class="nameList">Andrei Lascu</li><li class="nameList">Duncan Lowther</li><li class="nameList">Jeremy Singer</li><li class="nameList Last">Laurence Tratt</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In this poster, we will outline the scope and contributions of the Capable 
+VMs project, in the framework of the UKRI Digital Security by Design programme.</p>
+			</div></div>
+							
+						</div></div></body></html>

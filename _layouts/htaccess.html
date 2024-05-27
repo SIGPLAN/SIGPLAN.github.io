@@ -12,5 +12,8 @@ RewriteRule  ^{{redir[0]}}$ /{{redir[1]}} [L,NE,R=302]
 {% endif %}
 {% endfor %}
 
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
 ErrorDocument 404 /404.html
 

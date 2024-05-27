@@ -1,0 +1,116 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>REBLS 2023: Proceedings of the 10th ACM SIGPLAN International Workshop on Reactive and Event-Based Languages and Systems</title></head><body><div id="DLtoc"><div id="DLheader"><h1>REBLS 2023: Proceedings of the 10th ACM SIGPLAN International Workshop on Reactive and Event-Based Languages and Systems</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3623506"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623506.3623574">Thorium: A Language for Bounded Verification of Dynamic Reactive Objects</a></h3><ul class="DLauthors"><li class="nameList">Kevin Baldor</li><li class="nameList">Xiaoyin Wang</li><li class="nameList Last">Jianwei Niu</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Developing reliable reactive software is notoriously difficult – particularly when that software reacts by changing its behavior. Some of this difficulty is inherent; software that must respond to external events as they arrive tends to end up in states that are dependent on the value of that input and its order of arrival. This results in complicated corner cases that can be challenging to recognize. However, we find that some of the complexity is an accident of the features of the programming languages widely used in industry. The loops and subroutines of structured programming are well-suited to data transformation, but poorly capture – and sometimes obscure – the flow of data through reactive programs developed using the inversion-of-control paradigm; an event handler that modifies the data flow tends to be declared closer to the definition of the event that activates it than to the initial definition of the data flow that it modifies. This paper approaches both challenges with a language inspired by the declarative modules of languages SIGNAL and Lustre and the semantics of the SodiumFRP Functional Reactive Programming library with a declarative mechanism for self modification through module substitution. These language features lead to software with a code structure that closely matches the flow of data through the running program and thus makes software easier to understand. Further, we demonstrate how those language features enable a bounded model checking approach that can verify that a reactor meets its requirements or present a <em>counterexample trace</em>, a series of states and inputs that lead to a violation. We analyze the runtime performance of the verifier as a function of model size and trace length.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623506.3623575">Actix-Telepathy</a></h3><ul class="DLauthors"><li class="nameList">Phillip Wenig</li><li class="nameList Last">Thorsten Papenbrock</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The actor programming model supports the development of concurrent applications by encapsulating state and behavior into independent actors. Each actor is a computational entity with strictly private state and behavior. Actors communicate via asynchronous messaging and, in this way, require neither shared memory nor locking. This makes the actor model suitable not only for parallel programming but also for distributed applications engineering.  
+</p>
+<p>
+The Rust programming language is a statically-typed language that gained a lot of attention in the past years due to its efficient, economical and safe memory management. To ease the development of parallel applications, several actor model frameworks have been built for Rust. However, no actively  
+maintained Rust actor framework provides the necessary features to write distributed applications. For this reason, we propose an extension for Rust’s Actix library, called Actix-Telepathy, that enables remote messaging and offers clustering support. It allows developers to setup remote actors that can communicate across a computer network with the help of a straight forward and easy to understand interface. Our evaluation demonstrates that Actix-Telepathy competes well in remote messaging performance and memory consumption with other actor libraries, such as Scala’s popular Akka library.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623506.3623576">Realizing Persistent Signals in JavaScript</a></h3><ul class="DLauthors"><li class="nameList">Daichi Hidaka</li><li class="nameList Last">Tetsuo Kamina</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Reactive programming enables declarative descriptions of dependencies between and computations throughout signals, an abstraction of time-varying values. Signals have been extended to persistent signals (an abstraction of time-varying values with their execution histories) to enable them to go back in time with any given time. Currently, this feature is only supported by SignalJ, an extension to Java with signals. This limits the use of persistent signals only within the Java-based applications. This is an undesirable restriction, because mechanisms used in realizing persistent signals are actually language-independent. To tackle this problem, we propose an implementation of persistent signals in JavaScript, which makes application areas of persistent signals broader, including Web-frontend. To realize persistent signals in JavaScript, seamless connections between JavaScript programs that run on restricted environments such as browsers and time-series databases that serve histories of persistent signals are required. It is also desirable to reuse existing JavaScript ecosystem. To address these problems, we design a relay-server-based architecture and realize persistent signals in JavaScript as a DSL library.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623506.3623577">ComPOS: A DSL for Composing IoT Systems with Weak Connectivity</a></h3><ul class="DLauthors"><li class="nameList">Alfred Åkesson</li><li class="nameList">Görel Hedin</li><li class="nameList Last">Niklas Fors</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Future Internet-of-Things (IoT) systems need to combine heterogeneous IoT components and support weak connectivity. This paper introduces ComPOS, a domain-specific language for composing IoT services into systems. ComPOS is a small language but supports powerful message mediation, using stateful reactions with nested and parallel message sequences and anonymous futures. To deal with weak connectivity, we introduce the notion of abort semantics, i.e., aborting old reactions when a newer message arrives. Alternatives to the abort semantics can be obtained by adding strategy services. We evaluated our approach by implementing seven home automation scenarios.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3623506.3623578">Periodic and Aperiodic Task Description Mechanisms in an FRP Language for Small-Scale Embedded Systems</a></h3><ul class="DLauthors"><li class="nameList">Kento Sogo</li><li class="nameList">Yuta Tsuji</li><li class="nameList">Sosuke Moriguchi</li><li class="nameList Last">Takuo Watanabe</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This paper presents mechanisms for describing real-time tasks in functional reactive programming (FRP) languages for small-scale embedded systems.  
+We have designed and implemented Emfrp, an FRP language for resource-constrained systems, and demonstrated its usefulness with several applications.  
+However, the language requires using external clocks as time-varying values when describing time-dependent behaviors.  
+In this work, we extend the types of time-varying values that express their update timings to describe periodic and aperiodic tasks.  
+The extensions enable concise and precise descriptions of various timed behaviors.  
+We evaluate prototype implementations of the extended language concerning program size, execution time, and power consumption.</p>
+			</div></div>
+							
+						</div></div></body></html>

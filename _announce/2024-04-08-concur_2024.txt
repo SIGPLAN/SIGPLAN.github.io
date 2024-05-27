@@ -1,0 +1,97 @@
+---
+title: "CONCUR 2024: Call for Papers (deadline April 26)"
+timestamp: "4/8/2024 10:54:45"
+deadline: "4/26/2024"
+---
+============================
+CONCUR 2024: Call for Papers
+============================
+
+September 9-13, 2024
+Calgary, Canada
+https://confest2024.github.io/CONCUR_call_for_papers.html
+
+Co-located with QEST+Formats as part of CONFEST 2024
+https://confest2024.github.io/
+
+Overview
+========
+
+CONCUR conferences bring together researchers, developers, and
+students interested in advancing the theory of concurrency, and its
+applications. CONCUR 2024 solicits high quality papers reporting
+research results and/or experience related to semantics, logics,
+verification and analysis of concurrent systems.
+
+Important dates
+===============
+(Times are Anywhere on Earth)
+Paper Submission: April 26, 2024
+Rebuttal Response: June 4-6, 2024
+Notification: June 21, 2024
+Camera Ready: July 12, 2024
+Conference(s): September 9-13, 2024
+Workshops: Co-located with CONFEST (see the website for more info)
+
+Topics
+======
+Submissions are solicited in the theory and practice of concurrent
+systems. The principal topics include (but are not limited to):
+
+-- Basic models of concurrency such as abstract machines,
+domain-theoretic models, categorical and coalgebraic models,
+game-theoretic models, process algebras, graph transformation
+systems, Petri nets, hybrid systems, mobile and collaborative
+systems, probabilistic systems, real-time systems, quantum systems,
+biology-inspired systems, and synchronous systems;
+
+-- Logics for concurrency such as modal logics, program logics,
+probabilistic and stochastic logics, temporal logics, and resource
+logics;
+
+-- Verification and analysis techniques for concurrent systems such
+as abstract interpretation, atomicity checking, model checking, race
+detection, pre-order and equivalence checking, run-time verification,
+state-space exploration, static analysis, synthesis, testing, theorem
+proving, type systems, and security analysis;
+
+-- Distributed algorithms and data structures: design, analysis,
+complexity, correctness, fault tolerance, reliability, availability,
+consistency, self-organization, self-stabilization, protocols;
+
+-- Theoretical foundations, tools, and empirical evaluations of
+architectures, execution environments, and software development for
+concurrent systems such as geo-replicated systems, communication
+networks, multiprocessor and multi-core architectures, shared and
+transactional memory, resource management and awareness, compilers
+and tools for concurrent programming, programming models such as
+component-based, object- and service-oriented.
+
+Paper Submission
+================
+
+-- All papers must be original, unpublished, and not submitted for
+publication elsewhere.
+
+-- Each paper will undergo a thorough review process. The paper may
+be supplemented with a clearly marked appendix, which will be reviewed
+at the discretion of the program committee.
+
+-- The CONCUR 2024 proceedings will be published by LIPIcs. Papers
+must be submitted electronically as PDF files via HotCRP.
+
+https://concur2024.hotcrp.com/
+
+-- Submissions follow a light double blind process. Papers must not
+exceed 14 pages (excluding references and clearly marked appendices)
+using the LIPIcs style.
+
+Awards
+======
+
+In 2024, CONCUR Test-of-Time and best paper awards will be given for
+the fourth time. The winners will be announced at the conference.  
+
+If you have any questions, please contact the CONCUR 2024 PC chairs
+Alexandra Silva (alexandra.silva@cornell.edu) or Rupak Majumdar
+(rupak@mpi-sws.org).

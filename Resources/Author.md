@@ -53,9 +53,10 @@ The `acmart` format is maintained in a
 [GitHub repository](https://github.com/borisveytsman/acmart).
 
 Please use the following LaTeX commands:
-* PACMPL journal issues: `\documentclass[acmsmall,screen]{acmart}`;
-  PACMPL requires author-year citation style: `\citestyle{acmauthoryear}`
-* SIGPLAN proceedings: `\documentclass[sigplan,screen]{acmart}`
+
+* PACMPL journal issues: `\documentclass[acmsmall,screen]{acmart}`.
+  Authors can choose either author-year citations, with `\citestyle{acmauthoryear}`, or numeric citations, with `\citestyle{acmnumeric}`.
+* SIGPLAN proceedings: `\documentclass[sigplan,screen]{acmart}`.
 
 The `review` option is strongly encouraged, but not required, for
 submissions. (The `review` option will add line numbers, which make it

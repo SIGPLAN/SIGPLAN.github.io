@@ -107,12 +107,15 @@ ICFP Steering Committee:
   - Chair: Greg Morrisett
 
 ISMM Steering Committee:
-  - Chair: "[Michael Lippautz](https://research.google/people/MichaelLippautz/), 2022 General Chair"
+  - "[Michael Bond](https://mdbond.github.io/), 2024 General Chair"
+  - "[Jae W. Lee](https://iamjaelee.github.io/www/), 2024 Program Co-chair"
+  - "[Hannes Payer](http://research.google.com/pubs/HannesPayer.html), 2024 Program Co-chair"
+  - Chair: "[Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/), 2023 General Chair"
+  - "[Erez Petrank](https://csaws.cs.technion.ac.il/~erez/), 2023 Program Chair"
+  - "[Michael Lippautz](https://research.google/people/MichaelLippautz/), 2022 General Chair"
   - "[David Chisnall](https://www.microsoft.com/en-us/research/people/dachisna/), 2022 Program Chair"
-  - "[Tobias Wrigstad](http://wrigstad.com), 2021, General Chair"
+  - "[Tobias Wrigstad](http://wrigstad.com), 2021 General Chair"
   - "[Zhenlin Wang](https://pages.mtu.edu/~zlwang/), 2021 Program Chair"
-  - "[Chen Ding](https://www.cs.rochester.edu/~cding/), 2020 General Chair"
-  - "[Martin Maas](http://www.martin-maas.com/), 2020 Program Chair"
 
 LCTES Steering Committee:
   - David B. Whalley, Florida State University
@@ -153,29 +156,30 @@ Onward! Steering Committee:
 PLDI Steering Committee:
   -   SIGPLAN Chair: #
   -   SIGPLAN Vice Chair: #
-  -   "[Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), PLDI Steering Committee Chair (2019-2022)"
-  -   "[Kathryn McKinley](https://www.cs.utexas.edu/users/mckinley/), 2019 General Chair"
-  -   "[Kathleen Fisher](http://www.cs.tufts.edu/~kfisher/Kathleen_Fisher/Home.html), 2019 Program Chair"
-  -   "[Sriram Rajamani](https://www.microsoft.com/en-us/research/people/sriram/), 2019 Member at Large"
-  -   "[Alastair Donaldson](http://multicore.doc.ic.ac.uk), 2020 General Chair"
-  -   "[Emina Torlak](https://homes.cs.washington.edu/~emina/), 2020 Program Chair"
-  -   "[Michelle Strout](http://cgi.cs.arizona.edu/~mstrout/), 2020 Member at Large"
-  -   "[Stephen Freund](http://www.cs.williams.edu/~freund/index.html), 2021 General Chair"
-  -   "[Eran Yahav](http://www.cs.technion.ac.il/~yahave/), 2021 Program Chair"
+  -   "[Alastair Donaldson](http://multicore.doc.ic.ac.uk) (Imperial College London), PLDI Steering Committee Chair (2022-2025)"
+  -   "[Stephen Freund](http://www.cs.williams.edu/~freund/index.html) (Williams College), 2021 General Chair"
+  -   "[Eran Yahav](http://www.cs.technion.ac.il/~yahave/) (Technion), 2021 Program Chair"
+  -   "[Ilya Sergey](https://ilyasergey.net) (National University of Singapore), 2021 Member at Large"
+  -   "[Ranjit Jhala](https://ranjitjhala.github.io/) (University of California San Diego), 2022 General Chair"
+  -   "[Işıl Dillig](https://www.cs.utexas.edu/~isil/) (University of Texas, Austin), 2022 Program Chair"
+  -   "[Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova/) (University of California San Diego), 2022 Member at Large"
+  -   "[Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/), 2023 General Chair"
+  -   "[Nate Foster](https://www.cs.cornell.edu/~jnfoster/) (Cornell University), 2023 Program Chair"
+  -   "[Sukyoung Ryu](https://plrg.kaist.ac.kr/ryu) (Korea Advanced Institute of Science and Technology), 2023 Member at Large"
 
 POPL Steering Committee:
   -   SIGPLAN Chair: #
   -   SIGPLAN Vice Chair: #
-  -   "[Peter Thiemann](http://www2.informatik.uni-freiburg.de/~thiemann/), Steering Committee Chair (2021-2024)"
+  -   "[Ranjit Jhala](https://ranjitjhala.github.io/), Steering Committee Chair (2024–2027)"
   -   "[Ilya Sergey](https://ilyasergey.net), Member at large and Industrial Relation Chair (2022-2025)"
   -   "[Alexandra Silva](https://alexandrasilva.org/#/main.html), Member at large (2021-2024)"
-  -   "[Michael Greenberg](https://cs.pomona.edu/~michael/), Member at large (2021-2024)"
+  -   "[Michael Greenberg](https://cs.pomona.edu/~michael/), Member at large and Industrial Relations (2024–2027)"
   -   "[Andrew Myers](https://www.cs.cornell.edu/andru/), 2023 General Chair"
   -   "[Amal Ahmed](https://www.ccs.neu.edu/home/amal/), 2023 Program Chair"
-  -   "[Rajeev Alur](https://www.cis.upenn.edu/~alur/), 2022 General Chair"
-  -   "[Hongseok Yang](https://sites.google.com/view/hongseokyang/home), 2022 Program Chair"
   -   "[Philippa Gardner](https://www.doc.ic.ac.uk/~pg/), 2024 General Chair"
   -   "[Derek Dreyer](https://people.mpi-sws.org/~dreyer/), 2024 Program Chair"
+  -   "[Steve Zdancewic](https://www.cis.upenn.edu/~stevez/), 2025 General Chair"
+  -   "[Armando Solar-Lezama](https://people.csail.mit.edu/asolar/), 2025 Program Chair"
 
 PPOPP Steering Committee:
   - Chair: Albert Cohen
@@ -196,25 +200,23 @@ SIGAPL Steering Committee:
 SPLASH Steering Committee:
   - SIGPLAN Chair: #
   - SIGPLAN Vice Chair: #
-  - Chair: David Grove, IBM Research
+  - Chair: Jan Vitek, Northeastern University / Czech Technical University
   - Amal Ahmed, Northeastern University
   - Bor-Yuh Evan Chang, University of Colorado Boulder
-  - Wolfgang De Meuter, Vrije Universiteit Brussel
   - Sophia Drossopoulou, Imperial College London
+  - David Grove, IBM Research
   - Robert Hirschfeld, University of Potsdam; Hasso Plattner Institute
   - Antony Hosking, Australian National University
-  - Stephen Kell, King's College London
   - Shriram Krishnamurthi, Brown
-  - Hidehiko Masuhara, Tokyo Institute of Technology
-  - Manu Sridharan, UC Riverside
   - Mira Mezini, TU Darmstadt
-  - Alex Potanin, Victoria University of Wellington
+  - Alex Potanin, Australian National University
   - Hridesh Rajan, Iowa State University
   - Sukyoung Ryu, Korea Advanced Institute of Science and Technology
-  - Yannis Smaragdakis, University of Athens
+  - Manu Sridharan, UC Riverside
+  - Frank Tip, Northeastern University
   - Tijs van der Storm, CWI & University of Groningen
   - Vasco T. Vasconcelos, University of Lisbon
-  - Jan Vitek, Northeastern University / Czech Technical University
+  - Charles Zhang, Hong Kong University of Science and Technology
 
 VEE Steering Committee:
   - Andrew Baumann, Microsoft Research
