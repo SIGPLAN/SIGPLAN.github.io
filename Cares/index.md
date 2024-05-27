@@ -79,6 +79,18 @@ CARES committee members may also attend other workshops and conferences sponsore
     <th><b>Conference/Meeting</b></th>
     <th><b>CARES member attendees</b></th>
  </tr>
+     <tr>
+    <td><a href="https://icfp24.sigplan.org">ICFP 2022</a></td>
+    <td>Simon Peyton Jones, more tbc</td>
+ </tr>
+  <tr>
+    <td><a href="https://pldi24.sigplan.org">PLDI 2024 </a></td>
+    <td>Sukyoung Ryu, more tbc</td>
+  </tr>
+    <tr>
+    <td><a href="https://popl24.sigplan.org">POPL 2024</a></td>
+    <td>Alexandra Silva, Sukyoung Ryu, Stephanie Weirich</td>
+  </tr>
  <tr>
     <td><a href="https://icfp23.sigplan.org">ICFP 2023</a></td>
     <td>Gabriele Keller, Simon Peyton Jones, Sukyoung Ryu, Stephanie Weirich</td>
@@ -160,13 +172,13 @@ CARES committee members may also attend other workshops and conferences sponsore
 
 ### SIGPLAN CARES Reports
 
-### 2022:
+### 2023:
 
-TThis is the third annual report from the SIGPLAN CARES committee---a committee established to listen to and support folks in the programming languages community who experience or witness discrimination, harassment, or other violations of the ACM's code of conduct or ethics.
+This is the fourth annual report from the SIGPLAN CARES committee---a committee established to listen to and support folks in the programming languages community who experience or witness discrimination, harassment, or other violations of the ACM's code of conduct or ethics.
 
-What CARES does.   CARES is dedicated to providing completely confidential support to members of the programming language community.  We listen to members who come to us for advice or who just want to talk. If they would like advice on what kinds of actions they can take, we do our best to provide such advice.  
+**What CARES does.**   CARES is dedicated to providing completely confidential support to members of the programming language community.  We listen to members who come to us for advice or who just want to talk. If they would like advice on what kinds of actions they can take, we do our best to provide such advice.  
 
-Confidentiality.  When a person approaches a CARES member in confidence, that CARES member will not share any information about the situation with anyone else without that person's explicit permission, unless there is an imminent threat or danger of some kind.  Indeed, CARES members do not share the details of contacts made with other CARES members unless permitted.  
+**Confidentiality.**  When a person approaches a CARES member in confidence, that CARES member will not share any information about the situation with anyone else without that person's explicit permission, unless there is an imminent threat or danger of some kind.  Indeed, CARES members do not share the details of contacts made with other CARES members unless permitted.  
 
 As a result, our annual reports are brief.  They do not contain details about the types of contacts that CARES members have made and they do not even contain specific numbers of contacts.  The reports are structured this way to protect the privacy of those that approach us.  
 
@@ -194,8 +206,12 @@ We have received open, public feedback from a number of members of the community
    <td><img src="http://sigplan.org/images/cares-photos/silva.png" alt="Alexandra Silva"  width="156"><br><a href="https://www.alexandrasilva.org/#/main.html">Alexandra Silva</a> (she/her)</td>
    <td>Co-Chair, <a href="mailto:alexandra.silva@cornell.edu">alexandra.silva@cornell.edu</a>, Cornell University</td>
   </tr>
+     <tr>
+   <td><img src="http://sigplan.org/images/cares-photos/walker.png" alt="David Walker" width="156"><br><a href="https://www.cs.princeton.edu/~dpw/">David Walker</a> (he/him)</td>
+   <td> <a href="mailto:dpw@cs.princeton.edu">dpw@cs.princeton.edu</a>, Princeton University, 2019-2022 (co-chair) </td>
+  </tr>
     <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/steve.png" alt="Steve Blackburn"  width="156"><br><a href="https://www.steveblackburn.org">Steve Blackburn</a> (he/hum)</td>
+   <td><img src="http://sigplan.org/images/cares-photos/steve.jpg" alt="Steve Blackburn"  width="156"><br><a href="https://www.steveblackburn.org">Steve Blackburn</a> (he/him)</td>
    <td>Member, <a href="mailto:steve.blackburn@anu.edu.au">steve.blackburn@anu.edu.au</a>, Google Deepmind and ANU</td>
   </tr> 
  <tr> 
@@ -227,3 +243,5 @@ We have received open, public feedback from a number of members of the community
    <td>Member, <a href="mailto:sweirich@cis.upenn.edu">sweirich@cis.upenn.edu</a>, University of Pennsylvania</td>
   </tr> 
  </table>  
+ 
+ * [Previous Members](previous)
