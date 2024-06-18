@@ -1,0 +1,48 @@
+---
+title: "MobiCom 24 WS 6G Programmable Deterministic Networking with AI (6GPDN), Deadline 19 July, 2024"
+timestamp: "5/28/2024 2:51:24"
+deadline: "7/19/2024"
+---
+Call for Papers
+
+Workshop: 2nd Workshop on 6G Programmable Deterministic Networking with AI (6GPDN)
+ACM Conference on Mobile Computing and Networking (MobiCom)
+18-22 November 2024 | Washington DC, USA
+
+
+DESCRIPTION
+Over the past decade the mobile communications system has transformed into a fundamental infrastructure that supports digital demands from all industry sectors. 6G is envisioned to accelerate the path started in 5G for catering to the needs of a wide variety of vertical use cases, both current and emerging. That will however require major enhancements to the current 5G capabilities, in terms of well-established key performance indicators (latency, reliability, bandwidth etc.), as well as new key value indicators (sustainability, trustworthiness etc.) that are currently being formed. Creating a deterministic network, understood as end-to-end time sensitive, reliable, and predictable communications, remains a challenge for cellular networks, especially in an industrial context. Wired deterministic communication standards have already emerged including Time Sensitive Networking (TSN) and Deterministic Networking (DetNet) and 5G has specified mechanisms for interworking with those standards. However, the available support of 5G in conjunction with TSN and DetNet is not sufficient for future end-to-end time-critical applications. Network programmability and predictability is key in supporting emerging 6G networks in achieving their promises of increased performance and flexibility at a lower cost. Deep network programmability, that is the ability to program the network fabric both vertically (control and data plane) and horizontally (end-to-end from the radio to edge and core network), is expected to characterize the new generation of mobile networks (6G), currently under development, towards supporting extreme performance requirements and service-specific operations. Enriching next-generation mobile networks with data plane programming capabilities can bring significant benefits with regards to network slicing and multi-tenancy, dynamic traffic engineering, offloading network functions to the data plane, etc. Coupled with edge solutions and advanced machine learning algorithms for prediction and network automation can help to overcome network performance limits, e.g., in terms of latency and deterministic delivery.
+FOCUS:
+This workshop aims to bring together academic and industry researchers to stimulate discussions, introduce news ideas and technical solutions in the aforementioned areas and therefore contribute to the progress of 6G networking research. Submitted papers may cover any of the following topics:
+•	Programmable data planes for TSN
+•	Enhancements towards 6G TSN and DetNet integration
+•	Network softwarization for 6G
+•	Programmable networking protocols
+•	Programmable SDN and NFV: languages and architectures (P4 and others)
+•	Hardware acceleration for programmable network functions
+•	Multitenant data planes
+•	Orchestration and management of software-defined deterministic networks
+•	Control and management of data plane programmable devices
+•	Artificial intelligence for deterministic networks
+•	In network machine learning
+•	In-network service level tuning and optimization; QoS
+•	High precision traffic monitoring/telemetry
+•	Service assurance and fulfilment programmability
+•	Slicing for 6G  
+•	Intent-based systems and digital twinning applied in 6G
+•	Routing and scheduling algorithms for reliable and real-time IoT 
+•	Trustworthy edge and cloud computing architectures and services 
+SUBMISSION OF PAPERS: 
+Authors are invited to submit original contributions written in English that have not been published or submitted for publication elsewhere. Technical papers must be formatted using the ACM 2-column format and should be 5 pages. Papers should be submitted through https://6g-pdn24.hotcrp.com/
+
+
+Submission deadline: 
+July. 19th, 2024
+
+Author notification: 
+August. 23rd, 2024
+
+Final submission: 
+September. 13th, 2024
+Web page:
+https://6g-pdn2.netcom.it.uc3m.es/

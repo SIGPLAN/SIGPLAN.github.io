@@ -1,0 +1,32 @@
+---
+title: "Call for Participation: TeaPACS 2024 - International Workshop on Teaching Performance Analysis of Computer Systems"
+timestamp: "5/13/2024 17:43:29"
+start: "6/10/2024"
+end: "6/10/2024"
+---
+T e a P A C S  2024 
+International Workshop on Teaching Performance Analysis of Computer Systems
+https://teapacs.github.io/2024/
+
+The workshop on Teaching Performance Analysis of Computer Systems (TeaPACS) was conceived on the 50th anniversary of SIGMETRICS, with the objective of taking stock of performance modeling and analysis as a discipline. It was held in 2021 and co-located with the IFIP Performance Conference in Milano, Italy.
+
+On the one hand, the need to open the discussion on this topic comes from the obvious consideration that, since the formation of ACM SIGMETRICS and IFIP TC 7 (which includes WG 7.3 Computer System Modeling), computing systems have changed drastically. The growing complexity of systems, services, and their relative context makes it more urgent and critical to model and analyse the performance and behaviour of systems. On the other hand, the teaching of performance modeling has faced cutbacks as budgets are squeezed and student interests shift.
+
+The workshop aims to stimulate discussion on how the community should respond to this challenge. Consequently, the chosen format is to have invited speakers and discussions open to all participants.
+
+This Third Workshop aims to explore further the issues raised in TeaPACS 2021 and TeaPACS 2023: the importance of performance analysis, ignorance of related concepts among industry engineers and systems researchers, students’ weakness in mathematical preparation, the need to accommodate their current interests and learning habits, etc.
+
+In particular, TeaPACS 2024 will have two discussion sessions open to all participants on the following issues:
+
+(D1) Performance Education in a Data-Driven World
+How can we integrate black box approaches to give the competencies needed to analyse system behaviour?
+How can we preserve the essential knowledge in performance modeling and evaluation?
+How do we bridge the gap between tractable theory and practical problems?
+
+(D2) Motivating Students
+How do we cater to a mix of students' backgrounds (engineering, business, etc.)?
+What tools (solvers? simulators? polling?) can we use to engage student interest and attention?
+What exercises (e.g. lab work on load balancing and content delivery networks)
+can we design for students who focus on functionality, not performance?
+
+We call academics, engineers and students to participate in TeaPACS 2024. We have invited speakers who will provide keynotes on the above issues (https://teapacs.github.io/2024/program/). However, the workshop’s success depends on a productive dialogue and deliberation among all participants to review the state of our discipline and suggest a course of action for growing performance modeling and analysis.
