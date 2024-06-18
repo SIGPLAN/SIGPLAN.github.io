@@ -6,23 +6,41 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 
 **Steering Committee**
 
-* [Lennart Beringer](https://www.cs.princeton.edu/~eberinge/), Princeton University, USA
+* [Cătălin Hriţcu](https://catalin-hritcu.github.io) (SC Chair), MPI-SP, Germany
 * [Sandrine Blazy](https://people.irisa.fr/Sandrine.Blazy/), University of Rennes, France
 * [Adam Chlipala](http://adam.chlipala.net), MIT, USA
-* Georges Gonthier, Inria, France
-* [Cătălin Hriţcu](https://catalin-hritcu.github.io) (Chair), MPI-SP, Germany
-* [Gerwin Klein](https://doclsf.de), CSIRO's Data61 and UNSW Sydney, Australia
+* [Georges Gonthier](https://scholar.google.co.uk/citations?user=cbtN84wAAAAJ&hl=en), Inria, France
+* [Gerwin Klein](https://doclsf.de), Proofcraft and UNSW Sydney, Australia
 * [Robbert Krebbers](https://robbertkrebbers.nl), Radboud University Nijmegen, Netherlands
-* [Dale Miller](http://www.lix.polytechnique.fr/Labo/Dale.Miller/), INRIA Saclay and LIX/Institut Polytechnique de Paris, France
+* [Dale Miller](http://www.lix.polytechnique.fr/Labo/Dale.Miller/), Inria Saclay and LIX/Institut Polytechnique de Paris, France
 * [Tobias Nipkow](https://www21.in.tum.de/~nipkow/), Technische Universität München, Germany
 * [Brigitte Pientka](https://www.cs.mcgill.ca/~bpientka/), McGill University, Canada
-* [Andrei Popescu](https://www.andreipopescu.uk), University of Sheffield, United Kingdom
 * [Zhong Shao](http://www.cs.yale.edu/homes/shao/), Yale University, USA
-* [Kathrin Stark](https://www.k-stark.de), Heriot-Watt University, United Kingdom
-* [Nicolas Tabareau](https://tabareau.fr), Inria, France
 * [Amin Timany](https://cs.au.dk/~timany/), Aarhus University, Denmark
 * [Dmitriy Traytel](https://traytel.bitbucket.io), University of Copenhagen, Denmark
 * [Steve Zdancewic](https://www.cis.upenn.edu/~stevez/), University of Pennsylvania, USA
+
+**Former SC members**
+
+* [Andrei Popescu](https://www.andreipopescu.uk), University of Sheffield, United Kingdom
+* [Lennart Beringer](https://www.cs.princeton.edu/~eberinge/), Princeton University, USA
+* [Jasmin Blanchette](https://www.tcs.ifi.lmu.de/mitarbeiter/jasmin-blanchette_de.html), Ludwig-Maximilians-Universität München, Germany
+* [Assia Mahboubi](https://people.rennes.inria.fr/Assia.Mahboubi/), Inria, France and Vrije Universiteit Amsterdam, Netherlands
+* [Magnus Myreen](https://www.cse.chalmers.se/~myreen/), Chalmers University of Technology, Sweden
+* [June Andronick](https://proofcraft.systems/), Proofcraft and UNSW Sydney, Australia
+* [Amy Felty](https://www.site.uottawa.ca/~afelty/), University of Ottawa, Canada
+* [Yves Bertot](https://www-sop.inria.fr/members/Yves.Bertot/research.html), Inria, France
+* [Viktor Vafeiadis](https://people.mpi-sws.org/~viktor/), MPI-SWS, Germany
+* [Jeremy Avigad](https://www.andrew.cmu.edu/user/avigad/), Carnegie Mellon University, USA
+* [Adam Chlipala](http://adam.chlipala.net), MIT, USA
+* [Xavier Leroy](https://xavierleroy.org), Collège de France, PSL University, France
+* [Alwen Tiu](http://users.cecs.anu.edu.au/~tiu/), Australian National University, Australia
+* [Michael Norrish](https://comp.anu.edu.au/people/michael-norrish/), Australian National University, Australia
+* [Chris Hawblitzel](https://www.microsoft.com/en-us/research/people/chrishaw/), Microsoft Research, USA
+* [Jean-Pierre Jouannaud](https://www.lix.polytechnique.fr/Labo/Jean-Pierre.Jouannaud/), Université de Paris-Saclay, France
+* [Andrew Appel](https://www.cs.princeton.edu/~appel/), Princeton University, USA
+* [Nikolaj Bjorner](https://www.microsoft.com/en-us/research/people/nbjorner/), Microsoft Research, USA
+* [John Harrison](https://www.cl.cam.ac.uk/~jrh13/), Amazon Web Services, USA
 
 ---
 **Previous CPP Conferences**
@@ -40,6 +58,8 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 * [CPP 2013](https://dblp2.uni-trier.de/db/conf/cpp/cpp2013.html), Melbourne, Australia, December 11-13, 2013 (co-located with APLAS’13)
 * [CPP 2012](http://cpp12.kuis.kyoto-u.ac.jp), Kyoto, Japan, December 13-15, 2012 (collocation with APLAS’12)
 * [CPP 2011](https://dblp.uni-trier.de/db/conf/cpp/cpp2011.html), Kenting, Taiwan, December 7-9, 2011 (co-located with APLAS’11)
+
+The official **CPP proceedings** since 2015 are publicly available via [SIGPLAN OpenTOC](http://www.sigplan.org/OpenTOC/#cpp).
 
 ---
 **Given Distinguished Paper Awards**
@@ -59,10 +79,10 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 
 **Given Amazing Reviewer Awards**
 
-* CPP 2023: [Théo Winterhalter](https://theowinterhalter.github.io)
-* CPP 2023: [Anja Petković Komel](https://anjapetkovic.com)
-* CPP 2022: [Armaël Guéneau](http://cambium.inria.fr/~agueneau/)
-* CPP 2021: [Kathrin Stark](https://www.k-stark.de)
+* CPP 2023: [Théo Winterhalter](https://theowinterhalter.github.io), Inria, France
+* CPP 2023: [Anja Petković Komel](https://anjapetkovic.com), TU Wien, Austria
+* CPP 2022: [Armaël Guéneau](http://cambium.inria.fr/~agueneau/), Inria, France
+* CPP 2021: [Kathrin Stark](https://www.k-stark.de), Heriot-Watt University, UK
 
 ---
 **The CPP Manifesto (from 2011)**
