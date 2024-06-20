@@ -1381,3 +1381,23 @@
   event: OOPSLA
   year: 2024
   title: "Proceedings of the 2019 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+-
+  event: ISMM
+  year: 2024
+  title: "Proceedings of the 2024 ACM SIGPLAN International Symposium on Memory Management"
+-
+  event: SOAP
+  year: 2024
+  title: "Proceedings of the 13th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis"
+-
+  event: LCTES
+  year: 2024
+  title: "Proceedings of the 25th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems"
+-
+  event: PLDI
+  year: 2024
+  title: "Proceedings of the ACM on Programming Languages: Vol. 8, No. PLDI. 2024"
+-
+  event: ARRAY
+  year: 2024
+  title: "Proceedings of the 10th ACM SIGPLAN International Workshop on Libraries, Languages and Compilers for Array Programming"

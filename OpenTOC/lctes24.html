@@ -1,0 +1,341 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>LCTES 2024: Proceedings of the 25th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems</title></head><body><div id="DLtoc"><div id="DLheader"><h1>LCTES 2024: Proceedings of the 25th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3652032"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Optimization</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652032.3657565">Accelerating Shared Library Execution in a DBT</a></h3><ul class="DLauthors"><li class="nameList">Tom Spink</li><li class="nameList Last">Björn Franke</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>User-mode Dynamic Binary Translation (DBT) has recently received renewed interest, not least due to Apple’s transition towards the Arm ISA, supported by a DBT compatibility layer for x86 legacy applications. While receiving praise for its performance, execution of legacy applications through Apple’s Rosetta 2 technology still incurs a performance penalty when compared to direct host execution. A particular limitation of Rosetta 2 is that code is either executed exclusively as native Arm code, or as translated Arm code. In particular, mixed mode execution of native Arm code and translated code is not possible. This is a missed opportunity, especially in the case of shared libraries where both optimized x86 and Arm versions of the same library are available. In this paper, we develop mixed mode execution capabilities for shared libraries in a DBT system, eliminating the need to translate code where a highly optimised native version already exists. Our novel execution model intercepts calls to shared library functions in the DBT system and automatically redirects them to their faster host counterparts, making better use of the underlying host ISA. To ease the burden for the developer, we make use of an Interface Description Language (IDL) to capture library function signatures, from which relevant stubs and data marshalling code are generated automatically. We have implemented our novel mixed mode execution approach in the open-source QEMU DBT system, and demonstrate both ease of use and performance benefits for three popular libraries (standard C Math library, SQLite, and OpenSSL). Our evaluation confirms that with minimal developer effort, accelerated host execution of shared library functionality results in speedups between 2.7× and 6.3× on average, and up to 28× for x86 legacy applications on an Arm host system.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652032.3657578">Efficient Implementation of Neural Networks Usual Layers on Fixed-Point Architectures</a></h3><ul class="DLauthors"><li class="nameList">Dorra Ben Khalifa</li><li class="nameList Last">Matthieu Martel</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In this article, we present a new method for implementing a neural network whose weights are floating-point numbers on a fixed-point architecture. The originality of our approach is that fixed-point formats are computed by solving an integer optimization problem derived from the neural network model and concerning the accuracy of computations and results at each point of the network.
+ 
+ 
+ 
+Therefore, we can bound mathematically the error between the results returned by the floating-point and fixed-point versions of the network. In addition to a formal description of our method, we describe a prototype that implements it. Our tool accepts the most common neural network layers (fully connected, convolutional, max-pooling, etc.), uses an optimizing SMT solver to compute fixed-point formats and synthesizes fixed-point C code from the Tensorflow model of the network. 
+ 
+ 
+ 
+Experimental results show that our tool is able to achieve performance while keeping the relative numerical error below the given tolerance threshold. Furthermore, the results show that our fixed-point synthesized neural networks consume less time and energy when considering a typical embedded platform using an STM32 Nucleo-144 board.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652032.3657576">TinySeg: Model Optimizing Framework for Image Segmentation on Tiny Embedded Systems</a></h3><ul class="DLauthors"><li class="nameList">Byungchul Chae</li><li class="nameList">Jiae Kim</li><li class="nameList Last">Seonyeong Heo</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Image segmentation is one of the major computer vision tasks, which is applicable in a variety of domains, such as autonomous navigation of an unmanned aerial vehicle. However, image segmentation cannot easily materialize on tiny embedded systems because image segmentation models generally have high peak memory usage due to their architectural characteristics. This work finds that image segmentation models unnecessarily require large memory space with an existing tiny machine learning framework. That is, the existing framework cannot effectively manage the memory space for the image segmentation models.
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+This work proposes TinySeg, a new model optimizing framework that enables memory-efficient image segmentation for tiny embedded systems. TinySeg analyzes the lifetimes of tensors in the target model and identifies long-living tensors. Then, TinySeg optimizes the memory usage of the target model mainly with two methods: (i) tensor spilling into local or remote storage and (ii) fused fetching of spilled tensors. This work implements TinySeg on top of the existing tiny machine learning framework and demonstrates that TinySeg can reduce the peak memory usage of an image segmentation model by 39.3% for tiny embedded systems.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652032.3657567">MixPert: Optimizing Mixed-Precision Floating-Point Emulation on GPU Integer Tensor Cores</a></h3><ul class="DLauthors"><li class="nameList">Zejia Lin</li><li class="nameList">Aoyuan Sun</li><li class="nameList">Xianwei Zhang</li><li class="nameList Last">Yutong Lu</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Featuring mixed-precision tensor operations, accelerators significantly enhance performance for many error-tolerant computing tasks, but their applicability is limited in scenarios demanding high precision. While emulating higher-precision data types from lower-precision ones can bridge this gap, existing techniques either struggle to achieve sufficient accuracy or incur excessive overhead, inevitably negating performance gains. To mitigate the issue, we propose MixPert, a novel system that balances performance and accuracy via optimizing single-precision emulation on GPU Integer Tensor Cores. MixPert devises an efficient data layout and augments the computation pipeline on Tensor Cores. By deeply analyzing performance-precision trade-offs, MixPert provides users with multiple configurations based on accuracy requirements. Furthermore, MixPert can seamlessly integrate with compilers, facilitating automatic adaptation and  tuning of mixed-precision parameters. Evaluations on real-world scientific computing and deep learning applications demonstrate that MixPert achieves an average speedup of 1.72× compared to cuBLAS on general-purpose cores. Beyond maintaining improved accuracy, MixPert outperforms state-of-the-art approaches APE and CUTLASS by 1.22× and 1.21×, respectively.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652032.3657575">Optimistic and Scalable Global Function Merging</a></h3><ul class="DLauthors"><li class="nameList">Kyungwoo Lee</li><li class="nameList">Manman Ren</li><li class="nameList Last">Ellis Hoag</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Function merging is a pivotal technique for reducing code size by combining identical or similar functions into a single function.  While prior research has extensively explored this technique, it has not been assessed in conjunction with function outlining and linker’s identical code folding, despite substantial common ground.  The traditional approaches necessitate the complete intermediate representation to compare functions.  Consequently, none of these approaches offer a scalable solution compatible with separate compilations while achieving global function merging, which is critical for large app development.  In this paper, we introduce our global function merger, leveraging global merge information from previous code generation runs to optimistically create merging instances within each module context independently.  Notably, our approach remains sound even when intermediate representations change, making it well-suited for distributed build environments.  We present a comprehensive code generation framework that can seamlessly operate both the state-of-the-art global function outliner and our global function merger.  These components work in harmony with each other.  Our assessment shows that this approach can lead to a 3.5% reduction in code size and a 9% decrease in build time.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652032.3659366">Language-Based Deployment Optimization for Random Forests (Invited Paper)</a></h3><ul class="DLauthors"><li class="nameList">Jannik Malcher</li><li class="nameList">Daniel Biebert</li><li class="nameList">Kuan-Hsun Chen</li><li class="nameList">Sebastian Buschjäger</li><li class="nameList">Christian Hakert</li><li class="nameList Last">Jian-Jia Chen</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Arising popularity for resource-efficient machine learning models makes random forests and decision trees famous models in recent years. Naturally, these models are tuned, optimized, and transformed to feature maximally low-resource consumption. A subset of these strategies targets the model structure and model logic and therefore induces a trade-off between resource-efficiency and prediction performance. An orthogonal set of approaches targets hardware-specific optimizations, which can improve performance without changing the behavior of the model. Since such hardware-specific optimizations are usually hardware-dependent and inflexible in their realizations, this paper envisions a more general application of such optimization strategies at the level of programming languages. We therefore discuss a set of suitable optimization strategies first in general and envision their application in LLVM IR, i.e. a flexible and hardware-independent ecosystem.</p>
+			</div></div>
+							
+						<h2>SESSION: Embedded Systems</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652032.3657573">SmartVisor: User-Friendly Hypervisor for Mobile Robots</a></h3><ul class="DLauthors"><li class="nameList">Guanyu Chen</li><li class="nameList">Pan Lv</li><li class="nameList">Hong Li</li><li class="nameList Last">Guoqing Yang</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>With the increasing prevalence of mobile robots, there is a growing demand for powerful system software. Integrating multiple operating systems into a single platform has become necessary, and virtualization offers a cost-effective solution for managing multiple OSes. While several types of hypervisors for embedded systems have been proposed to manage guest OSes, significant work is still needed to make hypervisors applicable in robot systems. 
+ 
+ 
+ 
+This paper introduces SmartVisor, a microkernel-based hypervisor designed explicitly for robotic systems. Our work focuses on designing the virtual machine management module to improve robot performance and user experience. The goal is to ensure that the hypervisor-based robot meets the demands of real-world scenarios for robot developers and users.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652032.3657571">Orchestrating Multiple Mixed Precision Models on a Shared Precision-Scalable NPU</a></h3><ul class="DLauthors"><li class="nameList">Kiung Jung</li><li class="nameList">Seok Namkoong</li><li class="nameList">Hongjun Um</li><li class="nameList">Hyejun Kim</li><li class="nameList">Youngsok Kim</li><li class="nameList Last">Yongjun Park</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Mixed-precision quantization can reduce the computational requirements of Deep Neural Network (DNN) models with minimal loss of accuracy.  As executing mixed-precision DNN models on Neural Processing Units (NPUs) incurs significant under-utilization of computational resources, Precision-Scalable NPUs (PSNPUs) which can process multiple low-precision layers simultaneously have been proposed.  However, the under-utilization still remains significant due to the lack of adequate scheduling algorithms to support multiple mixed-precision models on PSNPUs.  Therefore, in this paper, we propose a dynamic programming-based scheduling algorithm for the operations of multiple mixed-precision models.  Our scheduling algorithm finds the optimal execution plan that exploits the precision-scalable MACs to improve the end-to-end inference latency of mixed-precision models.  We evaluate the performance of this algorithm in terms of hardware utilization, inference latency, and schedule search time compared to baseline scheduling algorithms.   The experimental results show 1.23 inference latency improvements over the baseline algorithms within the allowed minutes.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652032.3657569">WoCA: Avoiding Intermittent Execution in Embedded Systems by Worst-Case Analyses with Device States</a></h3><ul class="DLauthors"><li class="nameList">Phillip Raffeck</li><li class="nameList">Johannes Maier</li><li class="nameList Last">Peter Wägemann</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Embedded systems with intermittent energy supply can revolutionize the Internet of Things, as they are energy self-sufficient due to energy harvesting. Existing intermittent-computing approaches, running directly from non-volatile memory, allow incremental progress of machine-code instructions. However, this progress does not apply to many devices (e.g., transceivers) having transactional (i.e., all-or-nothing) semantics: Power failures during transactions lead to starvation when frequently experiencing failed attempts.
+ 
+ 
+ 
+We introduce WoCA, an approach that exploits static, whole-system worst-case analysis for device-driven intermittent computing. With the currently available energy, WoCA enables transactional device uses and guarantees forward progress. WoCA's novel static analysis tracks program-path-sensitive device states and transitions to yield energy bounds. With these bounds, WoCA's runtime decides when to safely execute code between checkpoints. Using WoCA's hardware platform, we validate that WoCA makes more efficient use of available energy compared to worst-case-agnostic approaches, while also giving runtime guarantees.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652032.3657577">Unmasking the Lurking: Malicious Behavior Detection for IoT Malware with Multi-label Classification</a></h3><ul class="DLauthors"><li class="nameList">Ruitao Feng</li><li class="nameList">Sen Li</li><li class="nameList">Sen Chen</li><li class="nameList">Mengmeng Ge</li><li class="nameList">Xuewei Li</li><li class="nameList Last">Xiaohong Li</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Current methods for classifying IoT malware predominantly utilize binary and family classifications. However, these outcomes lack the detailed granularity to describe malicious behavior comprehensively. This limitation poses challenges for security analysts, failing to support further analysis and timely preventive actions. To achieve fine-grained malicious behavior identification in the lurking stage of IoT malware, we propose MaGraMal. This approach, leveraging masked graph representation, supplements traditional classification methodology, empowering analysts with critical insights for rapid responses. Through the empirical study, which took three person-months, we identify and summarize four fine-grained malicious behaviors during the lurking stage, constructing an annotated dataset. Our evaluation of 224 algorithm combinations results in an optimized model for IoT malware, achieving an accuracy of 75.83%. The maximum improvement brought by the hybrid features and graph masking achieves 5% and 4.16%, respectively. The runtime overhead analysis showcases MaGraMal’s superiority over the existing dynamic analysis-based detection tool (12x faster). This pioneering work combines machine learning and static features for malicious behavior profiling.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652032.3657568">TWFuzz: Fuzzing Embedded Systems with Three Wires</a></h3><ul class="DLauthors"><li class="nameList">Zhongwen Feng</li><li class="nameList Last">Junyan Ma</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Fuzzing is a highly effective means of discovering vulnerabilities in traditional software. However, when it comes to fuzzing an embedded system, especially for a smaller microcontroller device with monolithic firmware, the challenges are considerable. The highly constrained resources of the system and the diverse behaviors of peripherals often render software instrumentation or emulation-based fuzzing impractical in many cases.
+ 
+ In this work, we introduce TWFuzz, a fuzzing tool designed for effective coverage collection in embedded systems. Specifically, TWFuzz relies on two hardware interfaces (tracing and debugging) and three types of probes (program counter samples, instruction address matchings, hardware breakpoints) as feedback channels for coverage-guided fuzzing. The ARM Single Wire Output (SWO) hardware tracing interface is used for capturing periodic samples of the program counter. The ARM Serial Wire Debug (SWD) debugging interface is used for setting and checking a limited number of instruction address matchings and hardware breakpoints. With these three types of probes, TWFuzz can extract coverage information without costly code instrumentation and hardware emulation, which enables effective fuzzing on embedded systems. To optimize the fuzzing flow, in particular the tracing analysis part, we implement TWFuzz on PYNQ-Z1 FPGA board. We evaluate TWFuzz on two development boards. Compared to the state-of-the-art open-source fuzzer GDBFuzz, TWFuzz's average code coverage rate is 1.24 times that of GDBFuzz.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652032.3657574">OpenMP-RT: Native Pragma Support for Real-Time Tasks and Synchronization with LLVM under Linux</a></h3><ul class="DLauthors"><li class="nameList">Brayden McDonald</li><li class="nameList Last">Frank Mueller</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Increasing demands in processing power for real-time systems
+ 
+ 
+ 
+have been met by adding more cores to embedded architectures.
+ 
+ 
+ 
+However, conventional programming languages
+ 
+ 
+ 
+lack adequate support for parallelism with real-time constraints.
+ 
+ 
+ 
+To fill this gap, add-on design tools have been created,
+ 
+ 
+ 
+often paired with real-time operating systems, to establish
+ 
+ 
+ 
+temporal guarantees, but they lack native language
+ 
+ 
+ 
+support for expressing parallelism at a combination of coarse
+ 
+ 
+ 
+and fine levels. OpenMP would be a good fit to specify such
+ 
+ 
+ 
+parallelism as it comes with mature compiler and runtime
+ 
+ 
+ 
+technology for mapping concurrency to execution units via
+ 
+ 
+ 
+the operating system. However, OpenMP lacks real-time
+ 
+ 
+ 
+support for scheduling and synchronization under deadline
+ 
+ 
+ 
+constraints.
+ 
+ 
+ 
+We analyze the suitability of existing OpenMP for coarse-grained
+ 
+ 
+ 
+parallelism of real-time systems and identify key
+ 
+ 
+ 
+points that prevent it from being used as-is. We develop a
+ 
+ 
+ 
+framework, OpenMP-RT, which aims to address these shortcomings
+ 
+ 
+ 
+by creating a real-time task construct, with a focus
+ 
+ 
+ 
+on periodic tasks, along with a robust specification for parallel
+ 
+ 
+ 
+real-time applications utilizing OpenMP-RT, including
+ 
+ 
+ 
+support for time-predictable lock-free inter-task communication
+ 
+ 
+ 
+across priority levels. We implement OpenMP-RT in
+ 
+ 
+ 
+the LLVM C compiler under OpenMP 5.1. We develop a test
+ 
+ 
+ 
+suite based on a variety of benchmarks with real-time constraints
+ 
+ 
+ 
+and demonstrate the correctness and ease of use
+ 
+ 
+ 
+of our OpenMP-RT implementation, as well as the performance
+ 
+ 
+ 
+and predictability of multiple different paradigms for
+ 
+ 
+ 
+inter-task communication.</p>
+			</div></div>
+							
+						<h2>SESSION: Analysis and Testing</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652032.3657570">EVMBT: A Binary Translation Scheme for Upgrading EVM Smart Contracts to WASM</a></h3><ul class="DLauthors"><li class="nameList">Weimin Chen</li><li class="nameList">Xiapu Luo</li><li class="nameList">Haoyu Wang</li><li class="nameList">Heming Cui</li><li class="nameList">Shuyu Zheng</li><li class="nameList Last">Xuanzhe Liu</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Ethereum is the first and largest blockchain that supports smart contracts. To enhance scalability and security, one major planned change of Ethereum 2.0 (Eth2) is to upgrade the smart contract interpreter from Ethereum Virtual Machine (EVM) to WebAssembly (WASM). In the meanwhile, many other popular blockchains have adopted WASM. Since Ethereum hosts millions of smart contracts, it is highly desirable to automatically migrate EVM smart contracts to WASM code to foster the prosperity of the blockchain ecosystem, while inheriting the historical transactions from Ethereum. Unfortunately, it is non-trivial to achieve this purpose due to the challenges in converting the EVM bytecode of smart contracts to WASM bytecode and adapting the generated WASM bytecode to the underlying blockchain environment. In particular, none of the existing tools are adequate for this task because they fail to achieve accurate translation and compatibility with the blockchain environment. In this paper, we propose a novel solution and use Eth2 as the target blockchain to demonstrate its feasibility and performance because Eth2 is highly attractive to both industry and academia. Specifically, we develop EVMBT, a novel EVM2WASM bytecode translation framework that not only ensures the fidelity of translation but also supports plugins to improve smart contracts. Extensive experiments demonstrate that EVMBT can successfully translate real-world smart contracts with high fidelity and low gas overhead.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652032.3657572">CodeExtract: Enhancing Binary Code Similarity Detection with Code Extraction Techniques</a></h3><ul class="DLauthors"><li class="nameList">Lichen Jia</li><li class="nameList">Chenggang Wu</li><li class="nameList">Peihua Zhang</li><li class="nameList Last">Zhe Wang</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In the field of binary code similarity detection (BCSD), when dealing with functions in binary form, the conventional approach is to identify a set of functions that are most similar to the target function. These similar functions often originate from the same source code but may differ due to variations in compilation settings. Such analysis is crucial for applications in the security domain, including vulnerability discovery, malware detection, software plagiarism detection, and patch analysis. Function inlining, an optimization technique employed by compilers, embeds the code of callee functions directly into the caller function. Due to different compilation options (such as O1 and O3) leading to varying levels of function inlining, this results in significant discrepancies between binary functions derived from the same source code under different compilation settings, posing challenges to the accuracy of state-of-the-art (SOTA) learning-based binary code similarity detection (LB-BCSD) methods. In contrast to function inlining, code extraction technology can identify and separate duplicate code within a program, replacing it with corresponding function calls. To overcome the impact of function inlining, this paper introduces a novel approach, CodeExtract. This method initially utilizes code extraction techniques to transform code introduced by function inlining back into function calls. Subsequently, it actively inlines functions that cannot undergo code extraction, effectively eliminating the differences introduced by function inlining. Experimental validation shows that CodeExtract enhances the accuracy of LB-BCSD models by 20% in addressing the challenges posed by function inlining.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652032.3657579">Foundations for a Rust-Like Borrow Checker for C</a></h3><ul class="DLauthors"><li class="nameList">Tiago Silva</li><li class="nameList">João Bispo</li><li class="nameList Last">Tiago Carvalho</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Memory safety issues in C are the origin of various vulnerabilities that can compromise a program's correctness or safety from attacks. We propose a different approach to tackle memory safety, the replication of Rust's Mid-level Intermediate Representation (MIR) Borrow Checker, through the usage of static analysis and successive source-to-source code transformations, to be composed upstream of the compiler, thus ensuring maximal compatibility with most build systems. This allows us to approximate a subset of C to Rust's core concepts, applying the memory safety guarantees of the rustc compiler to C. In this work, we present a survey of Rust's efforts towards ensuring memory safety, and describe the theoretical basis for a C borrow checker, alongside a proof-of-concept that was developed to demonstrate its potential. This prototype correctly identified violations of the ownership and aliasing rules, and accurately reported each error with a level of detail comparable to that of the rustc compiler.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652032.3657564">Enhancing Code Vulnerability Detection via Vulnerability-Preserving Data Augmentation</a></h3><ul class="DLauthors"><li class="nameList">Shangqing Liu</li><li class="nameList">Wei Ma</li><li class="nameList">Jian Wang</li><li class="nameList">Xiaofei Xie</li><li class="nameList">Ruitao Feng</li><li class="nameList Last">Yang Liu</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Source code vulnerability detection aims to identify inherent vulnerabilities to safeguard software systems from potential attacks. Many prior studies overlook diverse vulnerability characteristics, simplifying the problem into a binary (0-1) classification task for example determining whether it is vulnerable or not. This poses a challenge for a single deep-learning based model to effectively learn the wide array of vulnerability characteristics. Furthermore, due to the challenges associated with collecting large-scale vulnerability data, these detectors often overfit limited training datasets, resulting in lower model generalization performance. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+To address the aforementioned challenges, in this work, we introduce a fine-grained vulnerability detector namely FGVulDet. Unlike previous approaches, FGVulDet employs multiple classifiers to discern characteristics of various vulnerability types and combines their outputs to identify the specific type of vulnerability. Each classifier is designed to learn type-specific vulnerability semantics. Additionally, to address the scarcity of data for some vulnerability types and enhance data diversity for learning better vulnerability semantics, we propose a novel vulnerability-preserving data augmentation technique to augment the number of vulnerabilities. Taking inspiration from recent advancements in graph neural networks for learning program semantics, we incorporate a Gated Graph Neural Network (GGNN) and extend it to an edge-aware GGNN to capture edge-type information. FGVulDet is trained on a large-scale dataset from GitHub, encompassing five different types of vulnerabilities. Extensive experiments compared with static-analysis-based approaches and learning-based approaches have demonstrated the effectiveness of FGVulDet.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652032.3657580">A Flexible-Granularity Task Graph Representation and Its Generation from C Applications (WIP)</a></h3><ul class="DLauthors"><li class="nameList">Tiago Santos</li><li class="nameList">João Bispo</li><li class="nameList Last">João M. P. Cardoso</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Modern hardware accelerators, such as FPGAs, allow offloading large regions of C/C++ code in order to improve the execution time and/or the energy consumption of software applications. An outstanding challenge with this approach, however, is solving the Hardware/Software (Hw/Sw) partitioning problem. Given the increasing complexity of both the accelerators and the potential code regions, one needs to adopt a holistic approach when selecting an offloading region by exploring the interplay between communication costs, data usage patterns, and target-specific optimizations. To this end, we propose representing a C application as an extended task graph (ETG) with flexible granularity, which can be manipulated through the merging and splitting of tasks. This approach involves generating a task graph overlay on the program's Abstract Syntax Tree (AST) that maps tasks to functions and the flexible granularity operations onto inlining/outlining operations. This maintains the integrity and readability of the original source code, which is paramount for targeting different accelerators and enabling code optimizations, while allowing the offloading of code regions of arbitrary complexity based on the data patterns of their tasks. To evaluate the ETG representation and its compiler, we use the latter to generate ETGs for the programs in Rosetta and MachSuite benchmark suites, and extract several metrics regarding data communication, task-level parallelism, and dataflow patterns between pairs of tasks. These metrics provide important information that can be used by Hw/Sw partitioning methods.</p>
+			</div></div>
+							
+						</div></div></body></html>
