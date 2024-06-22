@@ -85,6 +85,7 @@ We'd like to thank these amazing mentors:
 - Michael Coblenz
 - Jonathan DiLorenzo
 - Alastair Donaldson
+- Jana Dunfield
 - Sebastian Erdweg
 - Tobias Grosser
 - Jason Hemann
