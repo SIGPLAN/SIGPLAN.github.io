@@ -119,6 +119,7 @@ We'd like to thank these amazing mentors:
 - Kathrin Stark
 - Simon Thompson
 - Dimitris Vardoulakis
+- Chengpeng Wang
 - John Wickerson
 - James Wilcox
 - Max Willsey
