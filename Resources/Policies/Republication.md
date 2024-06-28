@@ -17,9 +17,11 @@ The SIGPLAN policy extends ACM's policy as follows:
     paper is simultaneously submitted to a conference and a journal,
     the author must bring this fact to the attention of both the editor
     and program chair.
--   **Simultaneous Submissions.** If two or more papers are
-    substantially the same, then they may not be simultaneously
-    submitted to more than one conference or workshop. Authors should
+-   **Simultaneous Submissions.** If two or more papers are substantially the
+    same, then they may not be simultaneously submitted to more than one
+    journal, conference, or workshop. Papers that have received a major or
+    minor revision decision, or similar, are considered to be still under
+    submission unless they have been withdrawn by the authors. Authors should
     bring simultaneously submitted related papers to the attention of
     all relevant program chairs. If the program chairs deem the related
     papers to be simultaneous duplicate submissions, the authors should
