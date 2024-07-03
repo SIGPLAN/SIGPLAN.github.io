@@ -1,0 +1,224 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>CC 2024: Proceedings of the 33rd ACM SIGPLAN International Conference on Compiler Construction</title></head><body><div id="DLtoc"><div id="DLheader"><h1>CC 2024: Proceedings of the 33rd ACM SIGPLAN International Conference on Compiler Construction</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3640537"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Code Generation and Synthesis</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641567">Fast Template-Based Code Generation for MLIR</a></h3><ul class="DLauthors"><li class="nameList">Florian Drescher</li><li class="nameList Last">Alexis Engelke</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Fast compilation is essential for JIT-compilation use cases like dynamic languages or databases as well as development productivity when compiling static languages. Template-based compilation allows fast compilation times, but in existing approaches, templates are generally handwritten, limiting flexibility and causing substantial engineering effort. </p><p>In this paper, we introduce an approach based on MLIR that derives code templates for the instructions of any dialect automatically ahead-of-time. Template generation re-uses the existing compilation path present in the MLIR lowering of the instructions and thereby inherently supports code generation from different abstraction levels in a single step. </p><p>Our results on compiling database queries and standard C programs show a compile-time improvement of 10–30x compared to LLVM -O0 with only moderate run-time slowdowns of 1–3x, resulting in an overall improvement of 2x in a JIT-compilation-based database setting.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641581">A Unified Memory Dependency Framework for Speculative High-Level Synthesis</a></h3><ul class="DLauthors"><li class="nameList">Jean-Michel Gorius</li><li class="nameList">Simon Rokicki</li><li class="nameList Last">Steven Derrien</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Heterogeneous hardware platforms that leverage application-specific hardware accelerators are becoming increasingly popular as the demand for high-performance compute intensive applications rises. The design of such high-performance hardware accelerators is a complex task. High-Level Synthesis (HLS) promises to ease this process by synthesizing hardware from a high-level algorithmic description. Recent works have demonstrated that speculative execution can be inferred from the latter by leveraging compilation transformation and analysis techniques in HLS flows. However, existing work on speculative HLS lacks support for the intricate memory interactions in data-processing applications. In this paper, we introduce a unified memory speculation framework, which allows aggressive scheduling and high-throughput accelerator synthesis in the presence of complex memory dependencies. We show that our technique can generate high-throughput designs for various applications and describe a complete implementation inside an existing speculative HLS toolchain.</p>
+			</div></div>
+							
+						<h2>SESSION: Static and Dynamic Analysis</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641562">If-Convert as Early as You Must</a></h3><ul class="DLauthors"><li class="nameList">Dorit Nuzman</li><li class="nameList">Ayal Zaks</li><li class="nameList Last">Ziv Ben-Zion</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Optimizing compilers employ a rich set of transformations that generate highly efficient code for a variety of source languages and target architectures. These transformations typically operate on general control flow constructs which trigger a range of optimization opportunities, such as moving code to less frequently executed paths, and more. Regular loop nests are specifically relevant for accelerating certain domains, leveraging architectural features including vector instructions, hardware-controlled loops and data flows, provided their internal control-flow is eliminated. Compilers typically apply predicating if-conversion late, in their backend, to remove control-flow undesired by the target. Until then, transformations triggered by control-flow constructs that are destined to be removed may end up doing more harm than good. 
+We present an approach that leverages the existing powerful and general optimization flow of LLVM when compiling for targets without control-flow in loops. Rather than trying to teach various transformations how to avoid misoptimizing for such targets, we propose to introduce an aggressive if-conversion pass as early as possible, along with carefully addressing pass-ordering implications. This solution outperforms the traditional compilation flow with only a modest tuning effort, thereby offering a robust and promising compilation approach for branch-restricted targets.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641563">Paguroidea: Fused Parser Generator with Transparent Semantic Actions</a></h3><ul class="DLauthors"><li class="nameList">Yifan Zhu</li><li class="nameList">Quartic Cat</li><li class="nameList">Boluo Ge</li><li class="nameList Last">Shaotong Sun</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Parser generators have long been a savior for programmers, liberating them from the daunting task of crafting correct and maintainable parsers. Yet, this much-needed simplicity often comes at the expense of efficiency.  
+</p>
+<p>
+We present, Paguroidea, a parser generator that harnesses the power of lexer-parser fusion techniques to create parsers that boast user-friendly grammar definitions while delivering performance that rivals specialized parsers. Building upon the foundations of the flap parser, our work introduces a series of extensions.  
+</p>
+<p>
+One of our key contributions is a novel approach to the normalization method. By encoding reduction actions directly into the Deterministic Greibach Normal Form (DGNF), we provide parser generators with flexibility in manipulating semantic actions. This unique approach empowers developers with the freedom to customize their parser generators to their specific needs while maintaining semantic correctness.  
+</p>
+<p>
+Furthermore, we formulate the execution of the parser in substructural logic, providing an elegant way to prove the correctness of the amended normalization procedure. In this exposition, we offer a glimpse into efficacious, user-friendly, and correctness-provable parser generation.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641571">Region-Based Data Layout via Data Reuse Analysis</a></h3><ul class="DLauthors"><li class="nameList">Caio Salvador Rohwedder</li><li class="nameList">João P. L. De Carvalho</li><li class="nameList Last">José Nelson Amaral</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Data-structure splicing techniques, such as structure splitting, field reordering, and pointer inlining reorganize data structures to improve cache and translation look-aside buffer (TLB) utilization. Structure types are typically transformed globally in the program, requiring updates to all references to elements of a transformed type. These techniques often rely on instrumentation, tracing, or sampling to create models that guide their transformations. Furthermore, compilers often cannot prove that their transformations are legal and must rely on manual inspection and manual transformation. Applying data-layout transformations locally -- as opposed to globally -- to regions of code removes the need for expensive profiling and simplifies legality verification. This work introduces RebaseDL, a static analysis that finds profitable and legal region-based data layout transformation opportunities that improve access locality. These opportunities are found within code regions that exhibit data reuse. Going beyond structure splicing, RebaseDL also identifies transformation opportunities that do not involve structure types, that is, it identifies data packing transformations. The analysis is implemented in LLVM and it detects multiple transformation opportunities within the SPEC CPU benchmark suite, where the transformation obtains speedups of up to 1.34x for transformed regions.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641574">A Context-Sensitive Pointer Analysis Framework for Rust and Its Application to Call Graph Construction</a></h3><ul class="DLauthors"><li class="nameList">Wei Li</li><li class="nameList">Dongjie He</li><li class="nameList">Yujiang Gui</li><li class="nameList">Wenguang Chen</li><li class="nameList Last">Jingling Xue</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Existing program analysis tools for Rust lack the ability to effectively detect security vulnerabilities due to the absence of an accurate call graph and precise points-to information. We present Rupta, the first context-sensitive pointer analysis framework designed for Rust, with a particular focus on its role in constructing call graphs. Operating on Rust MIR, Rupta employs callsite-based context-sensitivity and on-the-fly call graph construction to address a range of pointer analysis challenges, including method/function calls, pointer casts, and nested structs, while preserving type information.  
+</p>
+<p>
+Our assessment of Rupta against two state-of-the-art call graph construction techniques, Rurta (Rapid Type Analysis-based) and Ruscg (static dispatch-only), across 13 real-world Rust programs demonstrates its high efficiency and precision. In particular, our results reveal that Rupta surpasses Ruscg in soundness by discovering 29% more call graph edges and outperforms Rurta in precision by eliminating approximately 70% of spurious dynamic call edges. Consequently, Rupta has the potential to enhance existing security analysis tools, enabling them to identify a greater number of security vulnerabilities in Rust programs.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641576">CoSense: Compiler Optimizations using Sensor Technical Specifications</a></h3><ul class="DLauthors"><li class="nameList">Pei Mu</li><li class="nameList">Nikolaos Mavrogeorgis</li><li class="nameList">Christos Vasiladiotis</li><li class="nameList">Vasileios Tsoutsouras</li><li class="nameList">Orestis Kaparounakis</li><li class="nameList">Phillip Stanley-Marbell</li><li class="nameList Last">Antonio Barbalace</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Embedded systems are ubiquitous, but in order to maximize their lifetime on batteries there is a need for faster code execution – i.e., higher energy efficiency, and for reduced memory usage. The large number of sensors integrated into embedded systems gives us the opportunity to exploit sensors’ technical specifications, like a sensor’s value range, to guide compiler optimizations for faster code execution, small binaries, etc. We design and implement such an idea in COSENSE, a novel compiler (extension) based on the LLVM infrastructure, using an existing domain-specific language (DSL), NEWTON, to describe the bounds of and relations between physical quantities measured by sensors. COSENSE utilizes previously unexploited physical information correlated to program variables to drive code optimizations. COSENSE computes value ranges of variables and proceeds to overload functions, compress variable types, substitute code with constants and simplify the condition statements. We evaluated COSENSE using several microbenchmarks and two real-world applications on various platforms and CPUs. For microbenchmarks, COSENSE achieves 1.18× geomean speedup in execution time and 12.35% reduction on average in binary code size with 4.66% compilation time overhead on x86, and 1.23× geomean speedup in execution time and 10.95% reduction on average in binary code size with 5.67% compilation time overhead on ARM. For real-world applications, COSENSE achieves 1.70× and 1.50× speedup in execution time, 12.96% and 0.60% binary code reduction, 9.69% and 30.43% lower energy consumption, with a 26.58% and 24.01% compilation time overhead, respectively.</p>
+			</div></div>
+							
+						<h2>SESSION: Runtime Techniques</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641565">UNIFICO: Thread Migration in Heterogeneous-ISA CPUs without State Transformation</a></h3><ul class="DLauthors"><li class="nameList">Nikolaos Mavrogeorgis</li><li class="nameList">Christos Vasiladiotis</li><li class="nameList">Pei Mu</li><li class="nameList">Amir Khordadi</li><li class="nameList">Björn Franke</li><li class="nameList Last">Antonio Barbalace</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Heterogeneous-ISA processor designs have attracted considerable research interest. However, unlike their homogeneous-ISA counterparts, explicit software support for bridging ISA heterogeneity is required. The lack of a compilation toolchain ready to support heterogeneous-ISA targets has been a major factor hindering research in this exciting emerging area. For any such compiler “getting right” the mechanics involved in state transformation upon migration and doing this efficiently is of critical importance. In particular, any runtime conversion of the current program stack from one architecture to another would be prohibitively expensive. In this paper, we design and develop Unifico, a new multi-ISA compiler that generates binaries that maintain the same stack layout during their execution on either architecture. Unifico avoids the need for runtime stack transformation, thus eliminating overheads associated with ISA migration. Additional responsibilities of the Unifico compiler backend include maintenance of a uniform ABI and virtual address space across ISAs. Unifico is implemented using the LLVM compiler infrastructure, and we are currently targeting the x86-64 and ARMv8 ISAs. We have evaluated Unifico across a range of compute-intensive NAS benchmarks and show its minimal impact on overall execution time, where less than 6% overhead is introduced on average. When compared against the state-of-the-art Popcorn compiler, Unifico reduces binary size overhead from ∼200% to ∼10%, whilst eliminating the stack transformation overhead during ISA migration.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641568">BLQ: Light-Weight Locality-Aware Runtime for Blocking-Less Queuing</a></h3><ul class="DLauthors"><li class="nameList">Qinzhe Wu</li><li class="nameList">Ruihao Li</li><li class="nameList">Jonathan Beard</li><li class="nameList Last">Lizy John</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Message queues are used widely in parallel processing systems for worker thread synchronization. When there is a throughput mismatch between the upstream and downstream tasks, the message queue buffer will often exist as either empty or full. Polling on an empty or full queue will affect the performance of upstream or downstream threads, since such polling cycles could have been spent on other computation. Non-blocking queue is an alternative that allow polling cycles to be spared for other tasks per applications’ choice. However, application programmers are not supposed to bear the burden, because a good decision of what to do upon blocking has to take many runtime environment information into consideration.  
+</p>
+<p>
+This paper proposes Blocking-Less Queuing Runtime (BLQ), a systematic solution capable of finding the proper strategies at (or before) blocking, as well as lightening the programmers’ burden. BLQ collects a set of solutions, including yielding, advanced dynamic queue buffer resizing, and resource-aware task scheduling. The evaluation on high-end servers shows that a set of diverse parallel queuing workloads could reduce blocking and lower cache misses with BLQ. BLQ outperforms the baseline runtime considerably (with up to 3.8× peak speedup).</p>
+			</div></div>
+							
+						<h2>SESSION: Debugging, Profiling, and Parallelism</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641575">APPy: Annotated Parallelism for Python on GPUs</a></h3><ul class="DLauthors"><li class="nameList">Tong Zhou</li><li class="nameList">Jun Shirako</li><li class="nameList Last">Vivek Sarkar</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>GPUs are increasingly being used used to speed up Python applications in the scientific computing and machine learning domains. Currently, the two common approaches to leveraging GPU acceleration in Python are 1) create a custom native GPU kernel, and import it as a function that can be called from Python; 2) use libraries such as CuPy, which provides pre-defined GPU-implementation-backed tensor operators. The first approach is very flexible but requires tremendous manual effort to create a correct and high performance GPU kernel. While the second approach dramatically improves productivity, it is limited in its generality, as many applications cannot be expressed purely using CuPy’s pre-defined tensor operators. Additionally, redundant memory access can often occur between adjacent tensor operators due to the materialization of intermediate results. In this work, we present APPy (Annotated Parallelism for Python), which enables users to parallelize generic Python loops and tensor expressions for execution on GPUs by adding simple compiler directives (annotations) to Python code. Empirical evaluation on 20 scientific computing kernels from the literature on a server with an AMD Ryzen 7 5800X 8-Core CPU and an NVIDIA RTX 3090 GPU demonstrates that with simple pragmas APPy is able to generate more efficient GPU code and achieves significant geometric mean speedup relative to CuPy (30× on average), and to three state-of-the-art Python compilers, Numba (8.3× on average), DaCe-GPU (3.1× on average) and JAX-GPU (18.8× on average).</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641578">Accurate Coverage Metrics for Compiler-Generated Debugging Information</a></h3><ul class="DLauthors"><li class="nameList">J. Ryan Stinnett</li><li class="nameList Last">Stephen Kell</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Many debugging tools rely on compiler-produced metadata to present a source-language view of program states, such as variable values and source line numbers. While this tends to work for unoptimised programs, current compilers often generate only partial debugging information in optimised programs.  
+Current approaches for measuring the extent of coverage of local variables are based on crude assumptions (for example, assuming variables could cover their whole parent scope) and are not comparable from one compilation to another. In this work, we propose some new metrics, computable by our tools, which could serve as motivation for language implementations to improve debugging quality.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641577">FlowProf: Profiling Multi-threaded Programs using Information-Flow</a></h3><ul class="DLauthors"><li class="nameList">Ahamed Al Nahian</li><li class="nameList Last">Brian Demsky</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Amdahl's law implies that even small sequential bottlenecks can seriously limit the scalability of multi-threaded programs. To achieve scalability, developers must painstakingly identify sequential bottlenecks in their program and eliminate these bottlenecks by either changing synchronization strategies or rearchitecting and rewriting any code with sequential bottlenecks. This can require significant effort by the developer to find and understand how to fix sequential bottlenecks. To address the issue, we bring a new tool, information flow, to the problem of understanding sequential bottlenecks. Information flow can help developers understand whether a bottleneck is fundamental to the computation, or merely an artifact of the implementation.  
+</p>
+<p>
+First, our strategy tracks memory access conflicts to find over-synchronized applications where redesigning the synchronization strategy on existing implementation can improve performance. Then, information flow analysis finds optimization opportunities where changing the existing implementation can improve performance of applications that have bottlenecks due to unnecessary memory access conflicts. We implemented this in FlowProf. We have evaluated FlowProf on a set of multi-threaded Java applications where the generated optimization insights achieve performance gains of up to 58%.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641569">Reducing the Overhead of Exact Profiling by Reusing Affine Variables</a></h3><ul class="DLauthors"><li class="nameList">Leon Frenot</li><li class="nameList Last">Fernando Magno Quintão Pereira</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>An exact profiler inserts counters in a program to record how many times each edge of that program's control-flow graph has been traversed during an execution of it. It is common practice to instrument only edges in the complement of a minimum spanning tree of the program's control-flow graph, following the algorithm proposed by Knuth and Stevenson in 1973. Yet, even with this optimization, the overhead of exact profiling is high. As a consequence, mainstream profile-guided code optimizers resort to sampling, i.e., approximate, profiling, instead of exact frequency counts. This paper introduces a technique to reduce the overhead of exact profiling. We show that it is possible to use the values of variables incremented by constant steps within loops---henceforth called SESE counters---as a replacement for some profiling counters. Such affine variables are common, for they include the induction variable of typical loops. This technique, although simple, is effective. We have implemented it in the LLVM compilation infrastructure. Standard Knuth-Stevenson instrumentation increases the running time of the 135 programs in the LLVM test suite from 648 seconds to 817. The optimization suggested in this paper brings this time down to 738 seconds. In the 949 Jotai programs, standard instrumentation increases the number of processed x86 instructions from 2.96 billion to 3.34 billion, whereas the proposed technique causes 3.07 billion instructions to be fetched.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641573">Stale Profile Matching</a></h3><ul class="DLauthors"><li class="nameList">Amir Ayupov</li><li class="nameList">Maksim Panchenko</li><li class="nameList Last">Sergey Pupyrev</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Profile-guided optimizations rely on profile data for directing compilers to generate optimized code. To achieve the maximum performance boost, profile data needs to be collected on the same version of the binary that is being optimized. In practice however, there is typically a gap between the profile collection and the release, which makes a portion of the profile invalid for optimizations. This phenomenon is known as profile staleness, and it is a serious practical problem for data-center workloads both for compilers and binary optimizers. </p><p>In this paper we thoroughly study the staleness problem and propose the first practical solution for utilizing profiles collected on binaries built from several revisions behind the release. Our algorithm is developed and implemented in a mainstream open-source post-link optimizer, BOLT. An extensive evaluation on a variety of standalone benchmarks and production services indicates that the new method recovers up to 0.8 of the maximum BOLT benefit, even when most of the input profile data is stale and would have been discarded by the optimizer otherwise.</p>
+			</div></div>
+							
+						<h2>SESSION: Safety and Correctness</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641570">From Low-Level Fault Modeling (of a Pipeline Attack) to a Proven Hardening Scheme</a></h3><ul class="DLauthors"><li class="nameList">Sébastien Michelland</li><li class="nameList">Christophe Deleuze</li><li class="nameList Last">Laure Gonnord</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Fault attacks present unique safety and security challenges that require dedicated countermeasures, even for bug-free programs. Models of these complex attacks are made workable by approximating their effects to a suitable level of abstraction. The common practice of targeting the Instruction Set Architecture (ISA) level isn't ideal because it discards important micro-architectural information, leading to weaker security guarantees. Conversely, including micro-architectural details makes countermeasures harder to model and reason about, creating a new challenge in validating and trusting protections.  
+</p>
+<p>
+We show that a semantic approach to modeling faults makes micro-architectural models workable, and enables precise cooperation between software and hardware in the design of countermeasures. We demonstrate the approach by designing and implementing a compiler/hardware countermeasure, which protects against a state-of-the-art pipeline fetch attack that generalizes multi-fault instruction skips. Crucially, we provide a formal security proof that guarantees faults are detected by the end of every basic block. This result shows that carefully embracing the complexity of low-level systems enables finer, more secure countermeasures.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641579">Clog: A Declarative Language for C Static Code Checkers</a></h3><ul class="DLauthors"><li class="nameList">Alexandru Dura</li><li class="nameList Last">Christoph Reichenbach</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present Clog, a declarative language for describing static code checkers for C.  
+Unlike other extensible state-of-the-art checker frameworks, Clog  
+enables powerful interprocedural checkers without exposing the  
+underlying program representation:  
+Clog checkers consist of Datalog-style recursive rules that access the program  
+under analysis via syntactic pattern matching and control flow edges only.  
+We have implemented Clog on top of Clang, using a custom Datalog evaluation strategy  
+that piggy-backs on Clang's AST matching facilities while working around Clang's limitations  
+to achieve our design goal of representation independence.  
+</p>
+<p>
+Our experiments demonstrate that Clog can concisely express a wide  
+variety of checkers for different security vulnerabilities, with  
+performance that is similar to Clang's own analyses and highly  
+competitive on real-world programs.</p>
+			</div></div>
+							
+						<h2>SESSION: Compilers and Machine Learning</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641564">Compiler-Based Memory Encryption for Machine Learning on Commodity Low-Power Devices</a></h3><ul class="DLauthors"><li class="nameList">Kiwan Maeng</li><li class="nameList Last">Brandon Lucia</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Running machine learning (ML) on low-power IoT devices exposes unique security concerns. Attackers can easily steal or manipulate sensitive user data or proprietary ML models from the devices’ off-chip memory by leveraging their simple hardware structure and the lack of memory encryption hardware. To protect against these real-world threats, we propose a lightweight compiler-based memory encryption scheme, Spitz. Spitz achieves full off-chip memory encryption only with common architectural components on commodity devices, such as programmable on-chip SRAM, AES hardware, and Direct-Memory Access (DMA). Our evaluation on real hardware shows that Spitz maintains competitive performance while realizing full off-chip memory encryption. Spitz is only 1.16–1.73× slower than our best-effort non-secure baseline, and is even faster by 1.5–2.23× compared to a non-secure popular vendor library.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641566">YFlows: Systematic Dataflow Exploration and Code Generation for Efficient Neural Network Inference using SIMD Architectures on CPUs</a></h3><ul class="DLauthors"><li class="nameList">Cyrus Zhou</li><li class="nameList">Zack Hassman</li><li class="nameList">Dhirpal Shah</li><li class="nameList">Vaughn Richard</li><li class="nameList Last">Yanjing Li</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We address the challenges associated with deploying neural networks on CPUs, with a particular focus on minimizing inference time while maintaining accuracy. Our novel approach is to use the dataflow (i.e., computation order) of a neural network to explore data reuse opportunities using heuristic-guided analysis and a code generation framework, which enables exploration of various Single Instruction, Multiple Data (SIMD) implementations to achieve optimized neural network execution. Our results demonstrate that the dataflow that keeps outputs in SIMD registers while also maximizing both input and weight reuse consistently yields the best performance for a wide variety of inference workloads, achieving up to 3x speedup for 8-bit neural networks, and up to 4.8x speedup for binary neural networks, respectively, over the optimized implementations of neural networks today.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641572">Fast and Accurate Context-Aware Basic Block Timing Prediction using Transformers</a></h3><ul class="DLauthors"><li class="nameList">Abderaouf Nassim Amalou</li><li class="nameList">Elisa Fromont</li><li class="nameList Last">Isabelle Puaut</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This paper introduces ORXESTRA, a context-aware execution time prediction model based on Transformers XL, specifically designed to accurately estimate performance in embedded system applications. Unlike traditional machine learning models that often overlook contextual information, resulting in biased predictions for individual isolated basic blocks, ORXESTRA overcomes this limitation by incorporating execution context awareness. By doing so, ORXESTRA effectively accounts for the processor micro-architecture without explicitly modeling micro-architectural elements such as caches, pipelines, and branch predictors. Our evaluations demonstrate ORXESTRA's ability to provide precise timing estimations for different ARM targets (Cortex M4, M7, A53, and A72), surpassing existing machine learning-based approaches in both prediction accuracy and prediction speed.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641580">The Next 700 ML-Enabled Compiler Optimizations</a></h3><ul class="DLauthors"><li class="nameList">S. VenkataKeerthy</li><li class="nameList">Siddharth Jain</li><li class="nameList">Umesh Kalvakuntla</li><li class="nameList">Pranav Sai Gorantla</li><li class="nameList">Rajiv Shailesh Chitale</li><li class="nameList">Eugene Brevdo</li><li class="nameList">Albert Cohen</li><li class="nameList">Mircea Trofin</li><li class="nameList Last">Ramakrishna Upadrasta</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>There is a growing interest in enhancing compiler optimizations with ML models, yet interactions between compilers and ML frameworks remain challenging. Some optimizations require tightly coupled models and compiler internals, raising issues with modularity, performance and framework independence. Practical deployment and transparency for the end-user are also important concerns. We propose ML-Compiler-Bridge to enable ML model development within a traditional Python framework while making end-to-end integration with an optimizing compiler possible and efficient. We evaluate it on both research and production use cases, for training and inference, over several optimization problems, multiple compilers and its versions, and gym infrastructures.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3640537.3641582">Exponentially Expanding the Phase-Ordering Search Space via Dormant Information</a></h3><ul class="DLauthors"><li class="nameList">Ruobing Han</li><li class="nameList Last">Hyesoon Kim</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Applying compilation transformations in optimal sequences can significantly improve program speed and reduce code size. However, finding these optimal sequences—a problem known as the phase-ordering problem—remains a long-standing challenge. Specifically, modern compilers offer hundreds of available transformations, making the search space too large to explore efficiently within a reasonable timeframe. Existing solutions address this problem by grouping transformations into short sequences based on prior knowledge from human experts, and then searching for optimal orders among these sequences. Such pruning methods are aggressive, potentially excluding optimal solutions from the search space. Additionally, they rely on prior knowledge and lack scalability when applied to new transformations. </p><p>In this paper, we propose a more conservative pruning approach. The insight of this new approach is to capture the dormant information and utilize it to guide the search process. By excluding dormant transformations, this approach significantly prunes the search space while retaining the optimal solutions. Moreover, it does not rely on any prior human knowledge, making it scalable to new transformations. </p><p>To demonstrate the efficacy of the conservative approach, we integrate it with a classical Reinforcement Learning model, which was previously used with aggressive pruning methods. Our solution, named FlexPO, is capable of exploring a search space exponentially larger than those considered in existing solutions. Experimental results show that FlexPO generates programs that are 12% faster or 17.6% smaller than the programs produced by modern compilers.</p>
+			</div></div>
+							
+						</div></div></body></html>

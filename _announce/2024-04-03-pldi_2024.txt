@@ -1,0 +1,98 @@
+---
+title: "Call for Participation, ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2024)"
+timestamp: "4/3/2024 1:34:06"
+start: "6/24/2024"
+end: "6/28/2024"
+---
+PLDI is a premier forum for programming language research, broadly construed,
+including design, implementation, theory, applications, and performance. Come
+join us, online or in Copenhagen, Denmark, to discuss the latest programming
+languages research!
+
+* Website : https://pldi24.sigplan.org/attending/registration
+* Time    : Mon 24--Fri 28 June 2024
+* Place   : Radisson Blu Scandinavia, Amager Boulevard 70, 2300 Copenhagen S,
+  Denmark
+
+### Important dates
+
+* Early Registration: 15th of May, 2024 
+
+### Important rates (Registration rates include a 25% VAT; The prices displayed include tax)
+
+Registration rates (in-person)      On or before 15 May, 2024    After 15 May, 2024
+Regular (ACM or SIGPLAN member)     €770.00 	                 €850.00
+Regular (non-member)                €850.00                      €935.00
+Student (ACM or SIGPLAN member)     €425.00                      €505.00
+Student (non-member)                €475.00                      €540.00
+		
+Registration rates (virtual)        On or before 15 May, 2024    After 15 May, 2024
+Regular (ACM or SIGPLAN member)     €37.50                       €50.00
+Regular (non-member)                €37.50                       €50.00
+Student (ACM or SIGPLAN member)     €37.50                       €50.00
+Student (non-member)                €37.50                       €50.00 
+
+1-Day Pass (Co-Located events)      On or before 15 May, 2024    After 15 May, 2024
+Regular (ACM or SIGPLAN member)     €225.00                      €250.00
+Regular (non-member)                €250.00                      €275.00
+Student (ACM or SIGPLAN member)     €150.00                      €175.00
+Student (non-member)                €175.00                      €200.00 
+
+
+### Co-located events:
+
+Co-located Conferences:
+- ISMM, ACM SIGPLAN International Symposium on Memory Management
+  https://conf.researchr.org/home/ismm-2024
+- LCTES, ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems
+  https://pldi24.sigplan.org/home/LCTES-2024
+  
+Workshops:
+- ARRAY, the Array Programming Workshop
+  https://pldi24.sigplan.org/home/ARRAY-2024
+- CP, International Workshop on Choreographic Programming
+  https://pldi24.sigplan.org/home/cp-2024
+- EGRAPH, the E-Graph Research, Applications, Practices, and Human-factors Symposium
+  https://pldi24.sigplan.org/home/egraphs-2024
+- Infer, the Infer Practitioners Workshop
+  https://pldi24.sigplan.org/home/infer-2024
+- PLMW, the Programming Languages Mentoring Workshop
+  https://pldi24.sigplan.org/track/PLMW-PLDI-2024
+- PODELSKI, PLDI 2024 Workshop Honoring Andreas Podelsk
+  https://pldi24.sigplan.org/home/podelski-2024
+- RTFM, Red-Hot Topics in Faculty Mentoring
+  https://pldi24.sigplan.org/home/rtfm-2024
+- SOAP, the ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis
+  https://pldi24.sigplan.org/home/SOAP-2024
+- Sparse, the Sparse workshop (formerly CTSTA)
+  https://pldi24.sigplan.org/home/sparse-2024
+- WQS, Workshop on Quantum Software
+  https://pldi24.sigplan.org/home/wqs-2024
+
+Tutorials:
+https://pldi24.sigplan.org/track/pldi-2024-tutorials
+
+- Algorithms and Applications for Provable Repair of Deep Neural Networks
+  Aditya V. Thakur
+- Concurrent Algorithms in Kotlin Coroutines
+  Nikita Koval
+- Democratizing DSL development with the BuildIt Framework
+  Ajay Brahmakshatriya, Saman Amarasinghe
+- PODELSKI
+  Thomas Wies, Martin Schäf, Andrey Rybalchenko
+- Quick and dirty development of static analyses with LiSA
+  Luca Negrini, Pietro Ferrara
+- Static Code Analysis with SootUp
+  Eric Bodden, Markus Schmidt, Jonas Klauke, Kadiray Karakaya, Stefan Schott
+
+Student Research Competition!
+https://pldi24.sigplan.org/track/pldi-2024-src
+
+### Student Volunteering
+
+Sign up to be a Volunteer and help us make PLDI 2024 a great experience for all
+attendants!
+
+https://pldi24.sigplan.org/track/pldi-2024-student-volunteering
+
+Apply here: https://forms.gle/QB9Tdmhr9v9ZPGx9A. The deadline is 15th of April.

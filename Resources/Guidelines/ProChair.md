@@ -124,7 +124,7 @@ Recommendations: <!-- AF: I don't think anything below can be a strict requireme
 - PC members should generally not serve on the PC more often than every four years. Exceptions may be made to enable a small overlap (<10%) from year to year to provide continuity. It is advisable that no one should serve on the PC for more than two years in a row. <!-- AF: The language is vague and PLDI is certainly breaking the four year rule -->
 - The PCC of year X+1 can be invited to serve on the PC (with a lighter reviewing load) for year X as soon as he or she is selected.
 - The PCC should strive to avoid selecting PC members that collaborate regularly with each other or with the PCC, or PC members from the same institution in the exact same area.
-- For conferences, all PC members should have PhDs by the submission deadline of the conference.  For affiliated workshops, the PC can include PhD students in their final year, as long as the total number does not exceed 10% (rounded up) the PC.
+- For conferences, all PC members should have PhDs (or other appropriate qualifications) by the submission deadline of the conference.  For affiliated workshops, the PC can include PhD students in their final year, as long as the total number does not exceed 10% (rounded up) the PC.
 
 
 
@@ -178,7 +178,7 @@ care-provider in order to attend.
 Author Response
 ---------------
 
-Many SIGPLAN conferences have included author response mecbhanisms as part of
+Many SIGPLAN conferences have included author response mechanisms as part of
 the paper review process, and the general feedback concerning author
 response has been positive (see
 [Experiences with Author Response at PLDI and ICFP 2004](http://portalparts.acm.org/1060000/1052883/fm/frontmatter.pdf),

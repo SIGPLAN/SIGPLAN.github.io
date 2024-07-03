@@ -1,0 +1,72 @@
+---
+title: "Call for Papers, APLAS 2024 -- The 22nd Asian Symposium on Programming Languages and Systems"
+timestamp: "4/18/2024 22:17:56"
+deadline: "5/24/2024"
+---
+APLAS 2024 -- The 22nd Asian Symposium on Programming Languages and Systems
+October 22-24, 2024, Kyoto, Japan
+
+       https://conf.researchr.org/home/aplas-2024/
+
+APLAS 2024 aims to bring together programming language researchers,
+practitioners and implementors *worldwide*, to present and discuss the
+latest results and exchange ideas in all areas of programming
+languages and systems. APLAS 2024 is co-located with the
+22nd International Symposium on Automated Technology for Verification
+and Analysis (ATVA).
+
+
+We solicit submissions in the form of regular research papers
+describing original scientific research results, including system
+development and case studies. Among others, solicited topics include:
+programming paradigms and styles; methods and tools to specify and
+reason about programs and languages; programming language foundations;
+methods and tools for implementation; concurrency and distribution;
+applications, case studies and emerging topics.
+
+Submissions should not exceed 17 pages, excluding bibliography, in the
+Springer LNCS format. The reviewing process is light double-blind,
+with a rebuttal phase to address factual errors and minor
+misunderstandings.
+
+Proceedings of APLAS 2024 will be published by Springer as part of
+Lecture Notes in Computer Science (LNCS). 
+https://link.springer.com/conference/aplas
+
+APLAS 2024 continues the tradition of the best paper award. 
+
+       Submission deadline: Fri May 24
+
+       Response period: Jul 24-26
+       Acceptance notification: Fri Aug 2
+       Camera-ready: Sat Aug 31
+
+The submission website is now open: https://aplas24.hotcrp.com/
+
+General Chair: Jacques Garrigue (Nagoya U.)
+Publicity Chairs: Ryosuke Sato (TUAT U.), Mirai Ikebuchi (Kyoto U.)
+
+Program Committee:
+
+Beniamino Accattoli (Inria & Ecole Polytechnique)
+Pierre-Evariste Dagand (IRIF / CNRS) 
+Silvia Ghilezan (University of Novi Sad, Mathematical Institute SASA)
+Fritz Henglein (DIKU and Deon Digital)
+Mirai Ikebuchi (Kyoto University)
+Patrik Jansson (Chalmers University of Technology and University of Gothenburg)
+Oleg Kiselyov (Tohoku University, PC Chair)
+Hsiang-Shang ‘Josh’ Ko (Academia Sinica)
+Daan Leijen (Microsoft Research)
+Martin Lester (University of Reading)
+Fredrik Nordvall Forsberg (University of Strathclyde)
+Matija Pretnar (University of Ljubljana)
+Peter Schachte (The University of Melbourne)
+Sven-Bodo Scholz (Radboud University)
+Philipp Schuster (University of Tübingen)
+Taro Sekiyama (NII)
+Amir Shaikhha (University of Edinburgh)
+Pavle Subotic (Fantom Foundation)
+Yong Kiam Tan (Institute for Infocomm Research, A*STAR)
+Kazunori Ueda (Waseda University)
+Yuting Wang (Shanghai Jiao Tong University)
+Ki Yung Ahn (Hannam University)

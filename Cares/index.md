@@ -57,6 +57,10 @@ The SIGPLAN CARES Bylaws can be found [here](http://www.sigplan.org/CaresBylaws)
 
 A collection of CARES resources can be found [here](https://www.sigarch.org/benefit/cares/cares-resources/).
 
+### Contacting CARES
+
+If you need to contact the CARES committee, you can email [any member of the committee](#sigplan-cares-committee-members) directly. If you are unsure whom to email, contact the chairs and they will provide guidance on how to proceed.  Contacting the committee is not an official report, and we are not mandated reporters to the ACM. Any contact will be confidential, even to the rest of the committee. 
+
 ### SIGPLAN CARES Operations
 
 CARES members are always available by email to correspond and to set up a call with anyone who would like to speak with us about harassment, discrimination, or other concerns related to building and sustaining an inclusive research community. 
@@ -75,6 +79,18 @@ CARES committee members may also attend other workshops and conferences sponsore
     <th><b>Conference/Meeting</b></th>
     <th><b>CARES member attendees</b></th>
  </tr>
+     <tr>
+    <td><a href="https://icfp24.sigplan.org">ICFP 2022</a></td>
+    <td>Simon Peyton Jones, more tbc</td>
+ </tr>
+  <tr>
+    <td><a href="https://pldi24.sigplan.org">PLDI 2024 </a></td>
+    <td>Sukyoung Ryu, more tbc</td>
+  </tr>
+    <tr>
+    <td><a href="https://popl24.sigplan.org">POPL 2024</a></td>
+    <td>Alexandra Silva, Sukyoung Ryu, Stephanie Weirich</td>
+  </tr>
  <tr>
     <td><a href="https://icfp23.sigplan.org">ICFP 2023</a></td>
     <td>Gabriele Keller, Simon Peyton Jones, Sukyoung Ryu, Stephanie Weirich</td>
@@ -156,26 +172,26 @@ CARES committee members may also attend other workshops and conferences sponsore
 
 ### SIGPLAN CARES Reports
 
-### 2022:
+### 2023:
 
-TThis is the third annual report from the SIGPLAN CARES committee---a committee established to listen to and support folks in the programming languages community who experience or witness discrimination, harassment, or other violations of the ACM's code of conduct or ethics.
+This is the fourth annual report from the SIGPLAN CARES committee---a committee established to listen to and support folks in the programming languages community who experience or witness discrimination, harassment, or other violations of the ACM's code of conduct or ethics.
 
-What CARES does.   CARES is dedicated to providing completely confidential support to members of the programming language community.  We listen to members who come to us for advice or who just want to talk. If they would like advice on what kinds of actions they can take, we do our best to provide such advice.  
+**What CARES does.**   CARES is dedicated to providing completely confidential support to members of the programming language community.  We listen to members who come to us for advice or who just want to talk. If they would like advice on what kinds of actions they can take, we do our best to provide such advice.  
 
-Confidentiality.  When a person approaches a CARES member in confidence, that CARES member will not share any information about the situation with anyone else without that person's explicit permission, unless there is an imminent threat or danger of some kind.  Indeed, CARES members do not share the details of contacts made with other CARES members unless permitted.  
+**Confidentiality.**  When a person approaches a CARES member in confidence, that CARES member will not share any information about the situation with anyone else without that person's explicit permission, unless there is an imminent threat or danger of some kind.  Indeed, CARES members do not share the details of contacts made with other CARES members unless permitted.  
 
 As a result, our annual reports are brief.  They do not contain details about the types of contacts that CARES members have made and they do not even contain specific numbers of contacts.  The reports are structured this way to protect the privacy of those that approach us.  
 
-#### What happened in 2022
+#### What happened in 2023
 
-In 2022, individual SIGPLAN CARES committee members were contacted confidentially by between 5 and 15 community members throughout the year.  Such contacts sometimes led to extended conversations.  With more people coming back to conferences in person in 2022, It appears the need for SIGPLAN CARES has grown.
+In 2023, individual SIGPLAN CARES committee members were contacted confidentially by between 5 and 15 community members throughout the year.  Such contacts sometimes led to extended conversations.  
 
-Members of the CARES committee represented CARES at four conferences in 2022, namely POPL 2022, PLDI 2022, ICFP 2022, and SPLASH 2022.  Attendance specifics are listed on the CARES website. The presence of CARES was advertised at the opening of the conference through the general chair’s presentation. 
+Members of the CARES committee represented CARES at five conferences in 2023, namely POPL 2023, CC 2023, ASPLOS 2023, PLDI 2023, and ICFP 2023.  Attendance specifics are listed on the CARES website. The presence of CARES was advertised at the opening of the conference through the general chair’s presentation. 
 
 We have received open, public feedback from a number of members of the community expressing the fact that they appreciate the creation of the committee---they view it as a sign that the programming languages community takes community climate and our code of conduct seriously.  The fact the committee has received confidential contacts is also evidence that the community would like mechanisms to discuss matters of harassment, discrimination, or ethics in private. 
-
 ### Older Reports
 
+* [2022 Report](report2022)
 * [2021 Report](report2021)
 * [2020 Report](report2020)
 
@@ -189,15 +205,16 @@ We have received open, public feedback from a number of members of the community
     <tr>
    <td><img src="http://sigplan.org/images/cares-photos/silva.png" alt="Alexandra Silva"  width="156"><br><a href="https://www.alexandrasilva.org/#/main.html">Alexandra Silva</a> (she/her)</td>
    <td>Co-Chair, <a href="mailto:alexandra.silva@cornell.edu">alexandra.silva@cornell.edu</a>, Cornell University</td>
-  </tr> 
-   <tr>
+  </tr>
+     <tr>
    <td><img src="http://sigplan.org/images/cares-photos/walker.png" alt="David Walker" width="156"><br><a href="https://www.cs.princeton.edu/~dpw/">David Walker</a> (he/him)</td>
    <td> <a href="mailto:dpw@cs.princeton.edu">dpw@cs.princeton.edu</a>, Princeton University, 2019-2022 (co-chair) </td>
   </tr>
-  <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/adve.png" alt="Vikram Adve" width="156"><br><a href="https://vikram.cs.illinois.edu/">Vikram Adve</a> (he/him)</td>
-   <td>Member, <a href="mailto:vadve@illinois.edu">vadve@illinois.edu</a>, University of Illinois </td>
-  </tr>
+    <tr>
+   <td><img src="http://sigplan.org/images/cares-photos/steve.jpg" alt="Steve Blackburn"  width="156"><br><a href="https://www.steveblackburn.org">Steve Blackburn</a> (he/him)</td>
+   <td>Member, <a href="mailto:steve.blackburn@anu.edu.au">steve.blackburn@anu.edu.au</a>, Google Deepmind and ANU</td>
+  </tr> 
+ <tr> 
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/feng.png" alt="Xinyu Feng" width="156"><br><a href="https://cs.nju.edu.cn/xyfeng/">Xinyu Feng</a></td>
    <td>Member, <a href="mailto:xyfeng@nju.edu.cn">xyfeng@nju.edu.cn</a>, Nanjing University </td>
@@ -214,11 +231,6 @@ We have received open, public feedback from a number of members of the community
    <td><img src="http://sigplan.org/images/cares-photos/krishnamurthi.png" alt="Shriram Krishnamurthi" width="156"><br><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a> (he/him)</td>
    <td>Member, <a href="mailto:shriram@brown.edu">shriram@brown.edu</a>, Brown University </td>
   </tr> 
-  <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/mckinley.png" alt="Kathryn McKinley"  width="156"><br><a href="https://www.cs.utexas.edu/users/mckinley/">Kathryn McKinley</a> (she/her)</td>
-   <td>Member, <a href="mailto:mckinley@cs.utexas.edu">mckinley@cs.utexas.edu</a>, Google</td>
-  </tr> 
- <tr>
    <td><img src="http://sigplan.org/images/cares-photos/jones.png" alt="Simon Peyton Jones"  width="156"><br><a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a> (he/him)</td>
    <td>Member, <a href="mailto:simon.peytonjones@gmail.com">simon.peytonjones@gmail.com</a>, Epic Games</td>
   </tr>
@@ -230,8 +242,6 @@ We have received open, public feedback from a number of members of the community
    <td><img src="http://sigplan.org/images/cares-photos/weirich.png" alt="Stephanie Weirich"  width="156"><br><a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a> (she/her)</td>
    <td>Member, <a href="mailto:sweirich@cis.upenn.edu">sweirich@cis.upenn.edu</a>, University of Pennsylvania</td>
   </tr> 
- <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/wu.png" alt="Peng Wu" width="156"><br><a href="https://pengwu.wordpress.com/">Peng Wu</a> (she/her)</td>
-   <td>Member, <a href="mailto:pengwu@fb.com">pengwu@fb.com</a>, Facebook </td>
-  </tr> 
  </table>  
+ 
+ * [Previous Members](previous)

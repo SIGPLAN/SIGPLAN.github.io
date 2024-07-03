@@ -1,0 +1,20 @@
+---
+title: "Call for Participation: Memory-Centric Computing Systems (MCCS) Tutorial at ISCA 2024"
+timestamp: "6/4/2024 6:10:15"
+start: "6/29/2024"
+end: "6/29/2024"
+---
+Call for Participation: Memory-Centric Computing Systems (MCCS) Tutorial at ISCA 2024
+
+Saturday, June 29 (held during ISCA 2024, June 29 – July 3, 2024, Buenos Aires, Argentina).
+
+The tutorial will cover the latest advances in PIM technology, spanning both hardware and software, including novel PIM ideas, different tools and frameworks to conduct PIM research, and programming techniques and optimization strategies for PIM kernels. We will (1) provide an introduction to PIM and the taxonomy of PIM systems, (2) give an overview and a rigorous analysis of existing PIM hardware from industry and academia, (3) provide and describe hardware and software infrastructures that can enable new and experienced researchers to conduct research in PIM systems, and (4) shed light on how to improve future PIM systems for emerging memory-bound workloads. The tutorial will also incorporate invited talks from leading industry and academic researchers in PIM systems.
+
+ISCA 2024 Memory-Centric Computing Systems tutorial website: https://events.safari.ethz.ch/isca24-memorycentric-tutorial/
+
+Livestream Saturday, June 29: https://www.youtube.com/watch?v=KV2MXvcBgb0
+
+ISCA 2024 Workshops and Tutorials: https://www.iscaconf.org/isca2024/program/workshops.php
+
+Organizers: Geraldo F. Oliveira, Mohammad Sadrosadati, Ataberk Olgun, Onur Mutlu
+

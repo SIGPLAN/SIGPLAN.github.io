@@ -3,7 +3,7 @@ layout: default
 title: "SIGPLAN-M"
 ---
 
-<img src="/images/sigplan-m-logo.png" width="300" alt="The SIGPLAN-M logo: two lambdas holding hands in the shape of the letter M.">
+<img src="/images/sigplan-m-logo.png" width="300" alt="The SIGPLAN-M logo: two purple lambdas holding hands in the shape of the letter M.">
 
 The SIGPLAN Long-Term Mentoring Committee (SIGPLAN-M) organizes an international long-term mentoring program for programming languages researchers.
 The goal of the program is to address two mentoring needs in the programming languages community:
@@ -14,7 +14,7 @@ and to access the perspectives of researchers from other institutions.
 
 In response to these needs, SIGPLAN-M matches mentors with mentees from different institutions
 for mentoring relationships that last at least a year.
-As of November 2022, there are about 300 mentees and 200 mentors participating in the program.
+As of May 2024, there are about 350 mentees and 250 mentors participating in the program.
 Here are some testimonials from mentees:
 
 > [SIGPLAN-M is] a career saver!
@@ -33,7 +33,7 @@ Here are some testimonials from mentees:
  
 > I got help in all aspects - from research to getting through [a] graduate program.
 
-Check out our [Twitter](https://twitter.com/SigplanM) for the latest news! You can also read more about us in [our upcoming article](https://dependenttyp.es/pdf/mentoring.pdf) in Communications of the ACM.
+Check out our [Twitter](https://twitter.com/SigplanM) for the latest news! You can also read more about us in [our article](https://dependenttyp.es/pdf/mentoring.pdf) in Communications of the ACM.
 
 ## Committee Members
 
@@ -49,7 +49,7 @@ We welcome aspiring and current programming languages researchers from all walks
 SIGPLAN members and non-members alike are welcome, and there is no cost to participate.
 There are no limitations on country of residence or languages spoken.
 
-Please see our [mentoring guidelines](https://docs.google.com/document/d/1eueaiHjNhhqb3JC3wnNlTRcFquNl7BN1OqBczUBumNU/edit?usp=sharing) for more information
+Please see our [mentoring guidelines](https://docs.google.com/document/d/1dqY4msyoLNr-tOclwdfNTYVprgGOG0N5UGC48t2_6V8/edit?usp=sharing) for more information
 on what the mentoring relationships look like, what sort of commitment is involved, and what other resources might be useful for mentors and mentees.
 
 ### Becoming a Mentor
@@ -85,6 +85,7 @@ We'd like to thank these amazing mentors:
 - Michael Coblenz
 - Jonathan DiLorenzo
 - Alastair Donaldson
+- Jana Dunfield
 - Sebastian Erdweg
 - Tobias Grosser
 - Jason Hemann
@@ -118,6 +119,7 @@ We'd like to thank these amazing mentors:
 - Kathrin Stark
 - Simon Thompson
 - Dimitris Vardoulakis
+- Chengpeng Wang
 - John Wickerson
 - James Wilcox
 - Max Willsey

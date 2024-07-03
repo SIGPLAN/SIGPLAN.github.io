@@ -1,975 +1,328 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
 
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
 
-<!doctype html>
-<head>
-<META http-equiv="Content-Style-Type" content="text/css">
-<title>PPoPP '14- Proceedings of the 19th ACM SIGPLAN symposium on Principles and practice of parallel programming</title>
-<STYLE type="text/css">
-#DLtoc {
-	font: normal 12px/1.5em Arial, Helvetica, sans-serif;
-	}
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
 
-#DLheader {
-	}
-#DLheader h1 {
-	font-size:16px;	
-}
-	
-#DLcontent {
-	 font-size:12px;
-	}
-#DLcontent h2 {
-	 font-size:14px;
-	 margin-bottom:5px;
-	}
-#DLcontent h3 {
-	 font-size:12px;
-	 padding-left:20px;
-	 margin-bottom:0px;
-	}
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
 
-#DLcontent ul{
-	margin-top:0px;
-	margin-bottom:0px;
-	}
-		
-.DLauthors li{
-	display: inline;
-	list-style-type: none;
-	padding-right: 5px;
-	}
-	
-.DLauthors li:after{
-	content:",";
-	}
-.DLauthors li.nameList.Last:after{
-	content:"";
-	}		
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
 
-.DLformats li{
-	display: inline;
-	list-style-type: none;
-	padding-right: 5px;
-	}
-	
-.DLformats li:after{
-	content:",";
-	}
-.DLformats li.formatList.Last:after{
-	content:"";
-	}		
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
 
-.DLlogo {
-	vertical-align:middle; 
-	padding-right:5px;
-	border:none;
-	}
-	
-.DLcitLink {
-	margin-left:20px;
-	}	
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
 
-.DLtitleLink {
-	margin-left:20px;
-	}	
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
 
-.DLotherLink {
-	margin-left:0px;
-	}		
-   
-</STYLE>
-</head>
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
 
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
 
-<body>
+            .DLcitLink {
+            margin-left:20px;
+            }
 
-<div id="DLtoc">
-	<div id="DLheader">
-    	<h1>PPoPP '14- Proceedings of the 19th ACM SIGPLAN symposium on Principles and practice of parallel programming</h1>
-        <a class="DLcitLink" href="http://dl.acm.org/citation.cfm?id=2555243" title="Go to the ACM Digital Library for additional information about this proceeding"><img class="DLlogo" src="http://dl.acm.org/img/dllogo.png" alt="Digital Library logo" height="30" width="30">Full Citation in the ACM Digital Library</a>
-    </div>
-    <div id="DLcontent">
-    	<h2>SESSION: Session order 1: opening and conference keynote address</h2> 
-        <h3>
+            .DLtitleLink {
+            margin-left:20px;
+            }
 
-			  
-              <a class="DLtitleLink" id="N29093" href="//dl.acm.org/authorize?N29093" title="Get the Full Text from the ACM Digital Library">21st century computer architecture</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList Last">Mark D. Hill</li>
-                          
-              </ul>
-        <h2>SESSION: Session order 2: bugs session</h2> 
-           <ul class="DLauthors">
-           
-                          <li class="nameList Last">Madan Musuvathi</li>
-                          
-              </ul>
-        
-        <h3>
+            .DLotherLink {
+            margin-left:0px;
+            }
 
-			  
-              <a class="DLtitleLink" id="N29094" href="//dl.acm.org/authorize?N29094" title="Get the Full Text from the ACM Digital Library">PREDATOR: predictive false sharing detection</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Tongping Liu</li>
-                          
-                          <li class="nameList">Chen Tian</li>
-                          
-                          <li class="nameList">Ziang Hu</li>
-                          
-                          <li class="nameList Last">Emery D. Berger</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29005" href="//dl.acm.org/authorize?N29005" title="Get the Full Text from the ACM Digital Library">Concurrency testing using schedule bounding: an empirical study</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Paul Thomson</li>
-                          
-                          <li class="nameList">Alastair F. Donaldson</li>
-                          
-                          <li class="nameList Last">Adam Betts</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29006" href="//dl.acm.org/authorize?N29006" title="Get the Full Text from the ACM Digital Library">Trace driven dynamic deadlock detection and reproduction</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Malavika Samak</li>
-                          
-                          <li class="nameList Last">Murali Krishna Ramanathan</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29007" href="//dl.acm.org/authorize?N29007" title="Get the Full Text from the ACM Digital Library">Efficient search for inputs causing high floating-point errors</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Wei-Fan Chiang</li>
-                          
-                          <li class="nameList">Ganesh Gopalakrishnan</li>
-                          
-                          <li class="nameList">Zvonimir Rakamaric</li>
-                          
-                          <li class="nameList Last">Alexey Solovyev</li>
-                          
-              </ul>
-        <h2>SESSION: Session order 3: HPC session</h2> 
-           <ul class="DLauthors">
-           
-                          <li class="nameList Last">Milind Kulkarni</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29008" href="//dl.acm.org/authorize?N29008" title="Get the Full Text from the ACM Digital Library">X10 and APGAS at Petascale</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Olivier Tardieu</li>
-                          
-                          <li class="nameList">Benjamin Herta</li>
-                          
-                          <li class="nameList">David Cunningham</li>
-                          
-                          <li class="nameList">David Grove</li>
-                          
-                          <li class="nameList">Prabhanjan Kambadur</li>
-                          
-                          <li class="nameList">Vijay Saraswat</li>
-                          
-                          <li class="nameList">Avraham Shinnar</li>
-                          
-                          <li class="nameList">Mikio Takeuchi</li>
-                          
-                          <li class="nameList Last">Mandana Vaziri</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29009" href="//dl.acm.org/authorize?N29009" title="Get the Full Text from the ACM Digital Library">Resilient X10: efficient failure-aware programming</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">David Cunningham</li>
-                          
-                          <li class="nameList">David Grove</li>
-                          
-                          <li class="nameList">Benjamin Herta</li>
-                          
-                          <li class="nameList">Arun Iyengar</li>
-                          
-                          <li class="nameList">Kiyokuni Kawachiya</li>
-                          
-                          <li class="nameList">Hiroki Murata</li>
-                          
-                          <li class="nameList">Vijay Saraswat</li>
-                          
-                          <li class="nameList">Mikio Takeuchi</li>
-                          
-                          <li class="nameList Last">Olivier Tardieu</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29000" href="//dl.acm.org/authorize?N29000" title="Get the Full Text from the ACM Digital Library">Portable, MPI-interoperable coarray fortran</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Chaoran Yang</li>
-                          
-                          <li class="nameList">Wesley Bland</li>
-                          
-                          <li class="nameList">John Mellor-Crummey</li>
-                          
-                          <li class="nameList Last">Pavan Balaji</li>
-                          
-              </ul>
-        <h2>SESSION: Session order 4: GPU session</h2> 
-           <ul class="DLauthors">
-           
-                          <li class="nameList Last">Chen Ding</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29001" href="//dl.acm.org/authorize?N29001" title="Get the Full Text from the ACM Digital Library">CUDA-NP: realizing nested thread-level parallelism in GPGPU applications</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Yi Yang</li>
-                          
-                          <li class="nameList Last">Huiyang Zhou</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29002" href="//dl.acm.org/authorize?N29002" title="Get the Full Text from the ACM Digital Library">yaSpMV: yet another SpMV framework on GPUs</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Shengen Yan</li>
-                          
-                          <li class="nameList">Chao Li</li>
-                          
-                          <li class="nameList">Yunquan Zhang</li>
-                          
-                          <li class="nameList Last">Huiyang Zhou</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29003" href="//dl.acm.org/authorize?N29003" title="Get the Full Text from the ACM Digital Library">Singe: leveraging warp specialization for high performance on GPUs</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Michael Bauer</li>
-                          
-                          <li class="nameList">Sean Treichler</li>
-                          
-                          <li class="nameList Last">Alex Aiken</li>
-                          
-              </ul>
-        <h2>SESSION: Session order 5: synchronization session</h2> 
-           <ul class="DLauthors">
-           
-                          <li class="nameList Last">Ganesh Gopalakrishnan</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29004" href="//dl.acm.org/authorize?N29004" title="Get the Full Text from the ACM Digital Library">Eliminating global interpreter locks in ruby through hardware transactional memory</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Rei Odaira</li>
-                          
-                          <li class="nameList">Jose G. Castanos</li>
-                          
-                          <li class="nameList Last">Hisanobu Tomari</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29015" href="//dl.acm.org/authorize?N29015" title="Get the Full Text from the ACM Digital Library">Leveraging hardware message passing for efficient thread synchronization</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Darko Petrovi&#263;</li>
-                          
-                          <li class="nameList">Thomas Ropars</li>
-                          
-                          <li class="nameList Last">Andr&#233; Schiper</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29016" href="//dl.acm.org/authorize?N29016" title="Get the Full Text from the ACM Digital Library">Well-structured futures and cache locality</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Maurice Herlihy</li>
-                          
-                          <li class="nameList Last">Zhiyu Liu</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29017" href="//dl.acm.org/authorize?N29017" title="Get the Full Text from the ACM Digital Library">Time-warp: lightweight abort minimization in transactional memory</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Nuno Diegues</li>
-                          
-                          <li class="nameList Last">Paolo Romano</li>
-                          
-              </ul>
-        <h2>SESSION: Session order 6: PPoPP keynote address</h2> 
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29018" href="//dl.acm.org/authorize?N29018" title="Get the Full Text from the ACM Digital Library">Beyond parallel programming with domain specific languages</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList Last">Kunle Olukotun</li>
-                          
-              </ul>
-        <h2>SESSION: Session order 7: algorithms session</h2> 
-           <ul class="DLauthors">
-           
-                          <li class="nameList Last">Virendra J. Marathe</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29019" href="//dl.acm.org/authorize?N29019" title="Get the Full Text from the ACM Digital Library">Designing and auto-tuning parallel 3-D FFT for computation-communication overlap</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Sukhyun Song</li>
-                          
-                          <li class="nameList Last">Jeffrey K. Hollingsworth</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29010" href="//dl.acm.org/authorize?N29010" title="Get the Full Text from the ACM Digital Library">A decomposition for in-place matrix transposition</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Bryan Catanzaro</li>
-                          
-                          <li class="nameList">Alexander Keller</li>
-                          
-                          <li class="nameList Last">Michael Garland</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29011" href="//dl.acm.org/authorize?N29011" title="Get the Full Text from the ACM Digital Library">In-place transposition of rectangular matrices on accelerators</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">I-Jui Sung</li>
-                          
-                          <li class="nameList">Juan G&#243;mez-Luna</li>
-                          
-                          <li class="nameList">Jos&#233; Mar&#237;a Gonz&#225;lez-Linares</li>
-                          
-                          <li class="nameList">Nicol&#225;s Guil</li>
-                          
-                          <li class="nameList Last">Wen-Mei W. Hwu</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29012" href="//dl.acm.org/authorize?N29012" title="Get the Full Text from the ACM Digital Library">Parallelizing dynamic programming through rank convergence</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Saeed Maleki</li>
-                          
-                          <li class="nameList">Madanlal Musuvathi</li>
-                          
-                          <li class="nameList Last">Todd Mytkowicz</li>
-                          
-              </ul>
-        <h2>SESSION: Session order 8: programming systems session</h2> 
-           <ul class="DLauthors">
-           
-                          <li class="nameList Last">Kunle Olukotun</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29013" href="//dl.acm.org/authorize?N29013" title="Get the Full Text from the ACM Digital Library">Revisiting loop fusion in the polyhedral framework</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Sanyam Mehta</li>
-                          
-                          <li class="nameList">Pei-Hung Lin</li>
-                          
-                          <li class="nameList Last">Pen-Chung Yew</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29014" href="//dl.acm.org/authorize?N29014" title="Get the Full Text from the ACM Digital Library">Triolet: a programming system that unifies algorithmic skeleton interfaces for high-performance cluster computing</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Christopher Rodrigues</li>
-                          
-                          <li class="nameList">Thomas Jablin</li>
-                          
-                          <li class="nameList">Abdul Dakkak</li>
-                          
-                          <li class="nameList Last">Wen-Mei Hwu</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29025" href="//dl.acm.org/authorize?N29025" title="Get the Full Text from the ACM Digital Library">A tool to analyze the performance of multithreaded programs on NUMA architectures</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Xu Liu</li>
-                          
-                          <li class="nameList Last">John Mellor-Crummey</li>
-                          
-              </ul>
-        <h2>SESSION: Session order 9: scheduling and determinism session</h2> 
-           <ul class="DLauthors">
-           
-                          <li class="nameList Last">Chen Wenguang</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29026" href="//dl.acm.org/authorize?N29026" title="Get the Full Text from the ACM Digital Library">Towards fair and efficient SMP virtual machine scheduling</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Jia Rao</li>
-                          
-                          <li class="nameList Last">Xiaobo Zhou</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29027" href="//dl.acm.org/authorize?N29027" title="Get the Full Text from the ACM Digital Library">Efficient deterministic multithreading without global barriers</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Kai Lu</li>
-                          
-                          <li class="nameList">Xu Zhou</li>
-                          
-                          <li class="nameList">Tom Bergan</li>
-                          
-                          <li class="nameList Last">Xiaoping Wang</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29028" href="//dl.acm.org/authorize?N29028" title="Get the Full Text from the ACM Digital Library">Race directed scheduling of concurrent programs</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Mahdi Eslamimehr</li>
-                          
-                          <li class="nameList Last">Jens Palsberg</li>
-                          
-              </ul>
-        <h2>SESSION: Session order 10: conference keynote address</h2> 
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29029" href="//dl.acm.org/authorize?N29029" title="Get the Full Text from the ACM Digital Library">Heterogeneous computing: what does it mean for compiler research?</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList Last">Norm Rubin</li>
-                          
-              </ul>
-        <h2>SESSION: Session order 11: non-blocking data structures session</h2> 
-           <ul class="DLauthors">
-           
-                          <li class="nameList Last">James Larus</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29020" href="//dl.acm.org/authorize?N29020" title="Get the Full Text from the ACM Digital Library">Fast concurrent lock-free binary search trees</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Aravind Natarajan</li>
-                          
-                          <li class="nameList Last">Neeraj Mittal</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29021" href="//dl.acm.org/authorize?N29021" title="Get the Full Text from the ACM Digital Library">A general technique for non-blocking trees</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Trevor Brown</li>
-                          
-                          <li class="nameList">Faith Ellen</li>
-                          
-                          <li class="nameList Last">Eric Ruppert</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29022" href="//dl.acm.org/authorize?N29022" title="Get the Full Text from the ACM Digital Library">Practical concurrent binary search trees via logical ordering</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Dana Drachsler</li>
-                          
-                          <li class="nameList">Martin Vechev</li>
-                          
-                          <li class="nameList Last">Eran Yahav</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29023" href="//dl.acm.org/authorize?N29023" title="Get the Full Text from the ACM Digital Library">A practical wait-free simulation for lock-free data structures</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Shahar Timnat</li>
-                          
-                          <li class="nameList Last">Erez Petrank</li>
-                          
-              </ul>
-        <h2>POSTER SESSION: Session order 11: poster session</h2> 
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29024" href="//dl.acm.org/authorize?N29024" title="Get the Full Text from the ACM Digital Library">Lock contention aware thread migrations</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Kishore Kumar Pusukuri</li>
-                          
-                          <li class="nameList">Rajiv Gupta</li>
-                          
-                          <li class="nameList Last">Laxmi Narayan Bhuyan</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29035" href="//dl.acm.org/authorize?N29035" title="Get the Full Text from the ACM Digital Library">Infrastructure-free logging and replay of concurrent execution on multiple cores</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Kyu Hyung Lee</li>
-                          
-                          <li class="nameList">Dohyeong Kim</li>
-                          
-                          <li class="nameList Last">Xiangyu Zhang</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29036" href="//dl.acm.org/authorize?N29036" title="Get the Full Text from the ACM Digital Library">Parallelization hints via code skeletonization</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Cfir Aguston</li>
-                          
-                          <li class="nameList">Yosi Ben Asher</li>
-                          
-                          <li class="nameList Last">Gadi Haber</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29037" href="//dl.acm.org/authorize?N29037" title="Get the Full Text from the ACM Digital Library">Concurrency bug localization using shared memory access pairs</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Wenwen Wang</li>
-                          
-                          <li class="nameList">Chenggang Wu</li>
-                          
-                          <li class="nameList">Pen-Chung Yew</li>
-                          
-                          <li class="nameList">Xiang Yuan</li>
-                          
-                          <li class="nameList">Zhenjiang Wang</li>
-                          
-                          <li class="nameList">Jianjun Li</li>
-                          
-                          <li class="nameList Last">Xiaobing Feng</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29038" href="//dl.acm.org/authorize?N29038" title="Get the Full Text from the ACM Digital Library">Task mapping stencil computations for non-contiguous allocations</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Vitus J. Leung</li>
-                          
-                          <li class="nameList">David P. Bunde</li>
-                          
-                          <li class="nameList">Jonathan Ebbers</li>
-                          
-                          <li class="nameList">Stefan P. Feer</li>
-                          
-                          <li class="nameList">Nickolas W. Price</li>
-                          
-                          <li class="nameList">Zachary D. Rhodes</li>
-                          
-                          <li class="nameList Last">Matthew Swank</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29039" href="//dl.acm.org/authorize?N29039" title="Get the Full Text from the ACM Digital Library">Data structures for task-based priority scheduling</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Martin Wimmer</li>
-                          
-                          <li class="nameList">Francesco Versaci</li>
-                          
-                          <li class="nameList">Jesper Larsson Tr&#228;ff</li>
-                          
-                          <li class="nameList">Daniel Cederman</li>
-                          
-                          <li class="nameList Last">Philippas Tsigas</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29030" href="//dl.acm.org/authorize?N29030" title="Get the Full Text from the ACM Digital Library">Detecting silent data corruption through data dynamic monitoring for scientific applications</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Leonardo Bautista Gomez</li>
-                          
-                          <li class="nameList Last">Franck Cappello</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29031" href="//dl.acm.org/authorize?N29031" title="Get the Full Text from the ACM Digital Library">Fine-grain parallel megabase sequence comparison with multiple heterogeneous GPUs</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Edans F. de O. Sandes</li>
-                          
-                          <li class="nameList">Guillermo Miranda</li>
-                          
-                          <li class="nameList">Alba C.M.A. Melo</li>
-                          
-                          <li class="nameList">Xavier Martorell</li>
-                          
-                          <li class="nameList Last">Eduard Ayguade</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29032" href="//dl.acm.org/authorize?N29032" title="Get the Full Text from the ACM Digital Library">Automatic semantic locking</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Guy Golan-Gueta</li>
-                          
-                          <li class="nameList">G. Ramalingam</li>
-                          
-                          <li class="nameList">Mooly Sagiv</li>
-                          
-                          <li class="nameList Last">Eran Yahav</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29033" href="//dl.acm.org/authorize?N29033" title="Get the Full Text from the ACM Digital Library">Optimistic transactional boosting</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Ahmed Hassan</li>
-                          
-                          <li class="nameList">Roberto Palmieri</li>
-                          
-                          <li class="nameList Last">Binoy Ravindran</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29034" href="//dl.acm.org/authorize?N29034" title="Get the Full Text from the ACM Digital Library">Provably good scheduling for parallel programs that use data structures through implicit batching</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Kunal Agrawal</li>
-                          
-                          <li class="nameList">Jeremy T. Fineman</li>
-                          
-                          <li class="nameList">Brendan Sheridan</li>
-                          
-                          <li class="nameList">Jim Sukha</li>
-                          
-                          <li class="nameList Last">Robert Utterback</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29045" href="//dl.acm.org/authorize?N29045" title="Get the Full Text from the ACM Digital Library">Theoretical analysis of classic algorithms on highly-threaded many-core GPUs</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Lin Ma</li>
-                          
-                          <li class="nameList">Kunal Agrawal</li>
-                          
-                          <li class="nameList Last">Roger D. Chamberlain</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29046" href="//dl.acm.org/authorize?N29046" title="Get the Full Text from the ACM Digital Library">SCCMulti: an improved parallel strongly connected components algorithm</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Daniel Tomkins</li>
-                          
-                          <li class="nameList">Timmie Smith</li>
-                          
-                          <li class="nameList">Nancy M. Amato</li>
-                          
-                          <li class="nameList Last">Lawrence Rauchwerger</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29047" href="//dl.acm.org/authorize?N29047" title="Get the Full Text from the ACM Digital Library">Initial study of multi-endpoint runtime for MPI+OpenMP hybrid programming model on multi-core systems</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Miao Luo</li>
-                          
-                          <li class="nameList">Xiaoyi Lu</li>
-                          
-                          <li class="nameList">Khaled Hamidouche</li>
-                          
-                          <li class="nameList">Krishna Kandalla</li>
-                          
-                          <li class="nameList Last">Dhabaleswar K. Panda</li>
-                          
-              </ul>
-        
-        <h3>
-
-			  
-              <a class="DLtitleLink" id="N29048" href="//dl.acm.org/authorize?N29048" title="Get the Full Text from the ACM Digital Library">Extracting logical structure and identifying stragglers in parallel execution traces</a>
-              
-        </h3>
-        
-           <ul class="DLauthors">
-           
-                          <li class="nameList First">Katherine E. Isaacs</li>
-                          
-                          <li class="nameList">Todd Gamblin</li>
-                          
-                          <li class="nameList">Abhinav Bhatele</li>
-                          
-                          <li class="nameList">Peer-Timo Bremer</li>
-                          
-                          <li class="nameList">Martin Schulz</li>
-                          
-                          <li class="nameList Last">Bernd Hamann</li>
-                          
-              </ul>
-        
-    </div>
-</div>
-
-</body>
-</html>
+        </style><title>PPoPP '14: Proceedings of the 19th ACM SIGPLAN symposium on Principles and practice of parallel programming</title></head><body><div id="DLtoc"><div id="DLheader"><h1>PPoPP '14: Proceedings of the 19th ACM SIGPLAN symposium on Principles and practice of parallel programming</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/2555243"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Session order 1: opening and conference keynote address</h2>
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2558890">21st century computer architecture</a></h3><ul class="DLauthors"><li class="nameList Last">Mark D. Hill</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>This talk has two parts. The first part will discuss possible directions for computer architecture research, including architecture as infrastructure, energy first, impact of new technologies, and cross-layer opportunities. This part is based on a 2012 Computing Community Consortium (CCC) whitepaper effort led by Hill, as well as other recent National Academy and ISAT studies. See: http://cra.org/ccc/docs/init/21stcenturyarchitecturewhitepaper.pdf. The second part of the talk will discuss one or more exam-ples of cross-layer research advocated in the first part. For example, our analysis shows that many "big-memory" server workloads, such as databases, in-memory caches, and graph analytics, pay a high cost for page-based virtual memory: up to 50% of execution time wasted. Via small changes to the operating system (Linux) and hardware (x86-64 MMU), this work reduces execution time these workloads waste to less than 0.5%. The key idea is to map part of a process's linear virtual address space with a new incarnation of segmentation, while providing compatibility by mapping the rest of the virtual address space with pag-ing.</p>
+	</div></div>
+						
+					<h2>SESSION: Session order 2: bugs session</h2>
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3250899">Session details: Session order 2: bugs session</a></h3><ul class="DLauthors"><li class="nameList Last">Madan Musuvathi</li></ul><div class="DLabstract"><div style="display:inline"></div></div>
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555244">PREDATOR: predictive false sharing detection</a></h3><ul class="DLauthors"><li class="nameList">Tongping Liu</li><li class="nameList">Chen Tian</li><li class="nameList">Ziang Hu</li><li class="nameList Last">Emery D. Berger</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>False sharing is a notorious problem for multithreaded applications that can drastically degrade both performance and scalability. Existing approaches can precisely identify the sources of false sharing, but only report false sharing actually observed during execution; they do not generalize across executions. Because false sharing is extremely sensitive to object layout, these detectors can easily miss false sharing problems that can arise due to slight differences in memory allocation order or object placement decisions by the compiler. In addition, they cannot predict the impact of false sharing on hardware with different cache line sizes.</p> <p>This paper presents PREDATOR, a predictive software-based false sharing detector. PREDATOR generalizes from a single execution to precisely predict false sharing that is latent in the current execution. PREDATOR tracks accesses within a range that could lead to false sharing given different object placement. It also tracks accesses within virtual cache lines, contiguous memory ranges that span actual hardware cache lines, to predict sharing on hardware platforms with larger cache line sizes. For each, it reports the exact program location of predicted false sharing problems, ranked by their projected impact on performance. We evaluate PREDATOR across a range of benchmarks and actual applications. PREDATOR identifies problems undetectable with previous tools, including two previously-unknown false sharing problems, with no false positives. PREDATOR is able to immediately locate false sharing problems in MySQL and the Boost library that had eluded detection for years.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555260">Concurrency testing using schedule bounding: an empirical study</a></h3><ul class="DLauthors"><li class="nameList">Paul Thomson</li><li class="nameList">Alastair F. Donaldson</li><li class="nameList Last">Adam Betts</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>We present the first independent empirical study on schedule bounding techniques for systematic concurrency testing (SCT). We have gathered 52 buggy concurrent software benchmarks, drawn from public code bases, which we call SCTBench. We applied a modified version of an existing concurrency testing tool to SCTBench to attempt to answer several research questions, including: How effective are the two main schedule bounding techniques, preemption bounding and delay bounding, at bug finding? What challenges are associated with applying SCT to existing code? How effective is schedule bounding compared to a naive random scheduler at finding bugs? Our findings confirm that delay bounding is superior to preemption bounding and that schedule bounding is more effective at finding bugs than unbounded depth-first search. The majority of bugs in SCTBench can be exposed using a small bound (1-3), supporting previous claims, but there is at least one benchmark that requires 5 preemptions. Surprisingly, we found that a naive random scheduler is at least as effective as schedule bounding for finding bugs. We have made SCTBench and our tools publicly available for reproducibility and use in future work.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555262">Trace driven dynamic deadlock detection and reproduction</a></h3><ul class="DLauthors"><li class="nameList">Malavika Samak</li><li class="nameList Last">Murali Krishna Ramanathan</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Dynamic analysis techniques have been proposed to detect potential deadlocks. Analyzing and comprehending each potential deadlock to determine whether the deadlock is feasible in a real execution requires significant programmer effort. Moreover, empirical evidence shows that existing analyses are quite imprecise. This imprecision of the analyses further void the manual effort invested in reasoning about non-existent defects.</p> <p>In this paper, we address the problems of imprecision of existing analyses and the subsequent manual effort necessary to reason about deadlocks. We propose a novel approach for deadlock detection by designing a dynamic analysis that intelligently leverages execution traces. To reduce the manual effort, we replay the program by making the execution follow a schedule derived based on the observed trace. For a real deadlock, its feasibility is automatically verified if the replay causes the execution to deadlock.</p> <p>We have implemented our approach as part of WOLF and have analyzed many large (upto 160KLoC) Java programs. Our experimental results show that we are able to identify 74% of the reported defects as true (or false) positives automatically leaving very few defects for manual analysis. The overhead of our approach is negligible making it a compelling tool for practical adoption.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555265">Efficient search for inputs causing high floating-point errors</a></h3><ul class="DLauthors"><li class="nameList">Wei-Fan Chiang</li><li class="nameList">Ganesh Gopalakrishnan</li><li class="nameList">Zvonimir Rakamaric</li><li class="nameList Last">Alexey Solovyev</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Tools for floating-point error estimation are fundamental to program understanding and optimization. In this paper, we focus on tools for determining the input settings to a floating point routine that maximizes its result error. Such tools can help support activities such as precision allocation, performance optimization, and auto-tuning. We benchmark current abstraction-based precision analysis methods, and show that they often do not work at scale, or generate highly pessimistic error estimates, often caused by non-linear operators or complex input constraints that define the set of legal inputs. We show that while concrete-testing-based error estimation methods based on maintaining shadow values at higher precision can search out higher error-inducing inputs, suit able heuristic search guidance is key to finding higher errors. We develop a heuristic search algorithm called Binary Guided Random Testing (BGRT). In 45 of the 48 total benchmarks, including many real-world routines, BGRT returns higher guaranteed errors. We also evaluate BGRT against two other heuristic search methods called ILS and PSO, obtaining better results.</p>
+	</div></div>
+						
+					<h2>SESSION: Session order 3: HPC session</h2>
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3250900">Session details: Session order 3: HPC session</a></h3><ul class="DLauthors"><li class="nameList Last">Milind Kulkarni</li></ul><div class="DLabstract"><div style="display:inline"></div></div>
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555245">X10 and APGAS at Petascale</a></h3><ul class="DLauthors"><li class="nameList">Olivier Tardieu</li><li class="nameList">Benjamin Herta</li><li class="nameList">David Cunningham</li><li class="nameList">David Grove</li><li class="nameList">Prabhanjan Kambadur</li><li class="nameList">Vijay Saraswat</li><li class="nameList">Avraham Shinnar</li><li class="nameList">Mikio Takeuchi</li><li class="nameList Last">Mandana Vaziri</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>X10 is a high-performance, high-productivity programming language aimed at large-scale distributed and shared-memory parallel applications. It is based on the Asynchronous Partitioned Global Address Space (APGAS) programming model, supporting the same fine-grained concurrency mechanisms within and across shared-memory nodes.</p> <p>We demonstrate that X10 delivers solid performance at petascale by running (weak scaling) eight application kernels on an IBM Power 775 supercomputer utilizing up to 55,680 Power7 cores (for 1.7 Pflop/s of theoretical peak performance). We detail our advances in distributed termination detection, distributed load balancing, and use of high-performance interconnects that enable X10 to scale out to tens of thousands of cores.</p> <p>For the four HPC Class 2 Challenge benchmarks, X10 achieves 41% to 87% of the system's potential at scale (as measured by IBM's HPCC Class 1 optimized runs). We also implement K-Means, Smith-Waterman, Betweenness Centrality, and Unbalanced Tree Search (UTS) for geometric trees. Our UTS implementation is the first to scale to petaflop systems.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555248">Resilient X10: efficient failure-aware programming</a></h3><ul class="DLauthors"><li class="nameList">David Cunningham</li><li class="nameList">David Grove</li><li class="nameList">Benjamin Herta</li><li class="nameList">Arun Iyengar</li><li class="nameList">Kiyokuni Kawachiya</li><li class="nameList">Hiroki Murata</li><li class="nameList">Vijay Saraswat</li><li class="nameList">Mikio Takeuchi</li><li class="nameList Last">Olivier Tardieu</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Scale-out programs run on multiple processes in a cluster. In scale-out systems, processes can fail. Computations using traditional libraries such as MPI fail when any component process fails. The advent of Map Reduce, Resilient Data Sets and MillWheel has shown dramatic improvements in productivity are possible when a high-level programming framework handles scale-out and resilience automatically.</p> <p>We are concerned with the development of general-purpose languages that support resilient programming. In this paper we show how the X10 language and implementation can be extended to support resilience. In Resilient X10, places may fail asynchronously, causing loss of the data and tasks at the failed place. Failure is exposed through exceptions. We identify a {\em Happens Before Invariance Principle} and require the runtime to automatically repair the global control structure of the program to maintain this principle. We show this reduces much of the burden of resilient programming. The programmer is only responsible for continuing execution with fewer computational resources and the loss of part of the heap, and can do so while taking advantage of domain knowledge.</p> <p>We build a complete implementation of the language, capable of executing benchmark applications on hundreds of nodes. We describe the algorithms required to make the language runtime resilient. We then give three applications, each with a different approach to fault tolerance (replay, decimation, and domain-level checkpointing). These can be executed at scale and survive node failure. We show that for these programs the overhead of resilience is a small fraction of overall runtime by comparing to equivalent non-resilient X10 programs. On one program we show end-to-end performance of Resilient X10 is ~100x faster than Hadoop.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555270">Portable, MPI-interoperable coarray fortran</a></h3><ul class="DLauthors"><li class="nameList">Chaoran Yang</li><li class="nameList">Wesley Bland</li><li class="nameList">John Mellor-Crummey</li><li class="nameList Last">Pavan Balaji</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>The past decade has seen the advent of a number of parallel programming models such as Coarray Fortran (CAF), Unified Parallel C, X10, and Chapel. Despite the productivity gains promised by these models, most parallel scientific applications still rely on MPI as their data movement model. One reason for this trend is that it is hard for users to incrementally adopt these new programming models in existing MPI applications. Because each model use its own runtime system, they duplicate resources and are potentially error-prone. Such independent runtime systems were deemed necessary because MPI was considered insufficient in the past to play this role for these languages.</p> <p>The recently released MPI-3, however, adds several new capabilities that now provide all of the functionality needed to act as a runtime, including a much more comprehensive one-sided communication framework. In this paper, we investigate how MPI-3 can form a runtime system for one example programming model, CAF, with a broader goal of enabling a single application to use both MPI and CAF with the highest level of interoperability.</p>
+	</div></div>
+						
+					<h2>SESSION: Session order 4: GPU session</h2>
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3250901">Session details: Session order 4: GPU session</a></h3><ul class="DLauthors"><li class="nameList Last">Chen Ding</li></ul><div class="DLabstract"><div style="display:inline"></div></div>
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555254">CUDA-NP: realizing nested thread-level parallelism in GPGPU applications</a></h3><ul class="DLauthors"><li class="nameList">Yi Yang</li><li class="nameList Last">Huiyang Zhou</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Parallel programs consist of series of code sections with different thread-level parallelism (TLP). As a result, it is rather common that a thread in a parallel program, such as a GPU kernel in CUDA programs, still contains both se-quential code and parallel loops. In order to leverage such parallel loops, the latest Nvidia Kepler architecture intro-duces dynamic parallelism, which allows a GPU thread to start another GPU kernel, thereby reducing the overhead of launching kernels from a CPU. However, with dynamic parallelism, a parent thread can only communicate with its child threads through global memory and the overhead of launching GPU kernels is non-trivial even within GPUs. In this paper, we first study a set of GPGPU benchmarks that contain parallel loops, and highlight that these bench-marks do not have a very high loop count or high degrees of TLP. Consequently, the benefits of leveraging such par-allel loops using dynamic parallelism are too limited to offset its overhead. We then present our proposed solution to exploit nested parallelism in CUDA, referred to as CUDA-NP. With CUDA-NP, we initially enable a high number of threads when a GPU program starts, and use control flow to activate different numbers of threads for different code sections. We implemented our proposed CUDA-NP framework using a directive-based compiler approach. For a GPU kernel, an application developer only needs to add OpenMP-like pragmas for parallelizable code sections. Then, our CUDA-NP compiler automatically gen-erates the optimized GPU kernels. It supports both the reduction and the scan primitives, explores different ways to distribute parallel loop iterations into threads, and effi-ciently manages on-chip resource. Our experiments show that for a set of GPGPU benchmarks, which have already been optimized and contain nested parallelism, our pro-posed CUDA-NP framework further improves the perfor-mance by up to 6.69 times and 2.18 times on average.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555255">yaSpMV: yet another SpMV framework on GPUs</a></h3><ul class="DLauthors"><li class="nameList">Shengen Yan</li><li class="nameList">Chao Li</li><li class="nameList">Yunquan Zhang</li><li class="nameList Last">Huiyang Zhou</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>SpMV is a key linear algebra algorithm and has been widely used in many important application domains. As a result, numerous attempts have been made to optimize SpMV on GPUs to leverage their massive computational throughput. Although the previous work has shown impressive progress, load imbalance and high memory bandwidth remain the critical performance bottlenecks for SpMV. In this paper, we present our novel solutions to these problems. First, we devise a new SpMV format, called blocked compressed common coordinate (BCCOO), which uses bit flags to store the row indices in a blocked common coordinate (COO) format so as to alleviate the bandwidth problem. We further improve this format by partitioning the matrix into vertical slices to enhance the cache hit rates when accessing the vector to be multiplied. Second, we revisit the segmented scan approach for SpMV to address the load imbalance problem. We propose a highly efficient matrix-based segmented sum/scan for SpMV and further improve it by eliminating global synchronization. Then, we introduce an auto-tuning framework to choose optimization parameters based on the characteristics of input sparse matrices and target hardware platforms. Our experimental results on GTX680 GPUs and GTX480 GPUs show that our proposed framework achieves significant performance improvement over the vendor tuned CUSPARSE V5.0 (up to 229% and 65% on average on GTX680 GPUs, up to 150% and 42% on average on GTX480 GPUs) and some most recently proposed schemes (e.g., up to 195% and 70% on average over clSpMV on GTX680 GPUs, up to 162% and 40% on average over clSpMV on GTX480 GPUs).</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555258">Singe: leveraging warp specialization for high performance on GPUs</a></h3><ul class="DLauthors"><li class="nameList">Michael Bauer</li><li class="nameList">Sean Treichler</li><li class="nameList Last">Alex Aiken</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>We present Singe, a Domain Specific Language (DSL) compiler for combustion chemistry that leverages warp specialization to produce high performance code for GPUs. Instead of relying on traditional GPU programming models that emphasize data-parallel computations, warp specialization allows compilers like Singe to partition computations into sub-computations which are then assigned to different warps within a thread block. Fine-grain synchronization between warps is performed efficiently in hardware using producer-consumer named barriers. Partitioning computations using warp specialization allows Singe to deal efficiently with the irregularity in both data access patterns and computation. Furthermore, warp-specialized partitioning of computations allows Singe to fit extremely large working sets into on-chip memories. Finally, we describe the architecture and general compilation techniques necessary for constructing a warp-specializing compiler. We show that the warp-specialized code emitted by Singe is up to 3.75X faster than previously optimized data-parallel GPU kernels.</p>
+	</div></div>
+						
+					<h2>SESSION: Session order 5: synchronization session</h2>
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3250902">Session details: Session order 5: synchronization session</a></h3><ul class="DLauthors"><li class="nameList Last">Ganesh Gopalakrishnan</li></ul><div class="DLabstract"><div style="display:inline"></div></div>
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555247">Eliminating global interpreter locks in ruby through hardware transactional memory</a></h3><ul class="DLauthors"><li class="nameList">Rei Odaira</li><li class="nameList">Jose G. Castanos</li><li class="nameList Last">Hisanobu Tomari</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Many scripting languages use a Global Interpreter Lock (GIL) to simplify the internal designs of their interpreters, but this kind of lock severely lowers the multi-thread per-formance on multi-core machines. This paper presents our first results eliminating the GIL in Ruby using Hardware Transactional Memory (HTM) in the IBM zEnterprise EC12 and Intel 4th Generation Core processors. Though prior prototypes replaced a GIL with HTM, we tested real-istic programs, the Ruby NAS Parallel Benchmarks (NPB), the WEBrick HTTP server, and Ruby on Rails. We devised a new technique to dynamically adjust the transaction lengths on a per-bytecode basis, so that we can optimize the likelihood of transaction aborts against the relative overhead of the instructions to begin and end the transactions. Our results show that HTM achieved 1.9- to 4.4-fold speedups in the NPB programs over the GIL with 12 threads, and 1.6- and 1.2-fold speedups in WEBrick and Ruby on Rails, respectively. The dynamic transaction-length adjustment chose the best transaction lengths for any number of threads and applications with sufficiently long running times.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555251">Leveraging hardware message passing for efficient thread synchronization</a></h3><ul class="DLauthors"><li class="nameList">Darko Petrović</li><li class="nameList">Thomas Ropars</li><li class="nameList Last">André Schiper</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>As the level of parallelism in manycore processors keeps increasing, providing efficient mechanisms for thread synchronization in concurrent programs is becoming a major concern. On cache-coherent shared-memory processors, synchronization efficiency is ultimately limited by the performance of the underlying cache coherence protocol. This paper studies how hardware support for message passing can improve synchronization performance. Considering the ubiquitous problem of mutual exclusion, we adapt two state-of-the-art solutions used on shared-memory processors, namely the server approach and the combining approach, to leverage the potential of hardware message passing. We propose HybComb, a novel combining algorithm that uses both message passing and shared memory features of emerging hybrid processors. We also introduce MP-Server, a straightforward adaptation of the server approach to hardware message passing. Evaluation on Tilera's TILE-Gx processor shows that MP-Server can execute contended critical sections with unprecedented throughput, as stalls related to cache coherence are removed from the critical path. HybComb can achieve comparable performance, while avoiding the need to dedicate server cores. Consequently, our queue and stack implementations, based on MP-Server and HybComb, largely outperform their most efficient pure-shared-memory counterparts.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555257">Well-structured futures and cache locality</a></h3><ul class="DLauthors"><li class="nameList">Maurice Herlihy</li><li class="nameList Last">Zhiyu Liu</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>In <em>fork-join parallelism</em>, a sequential program is split into a directed acyclic graph of tasks linked by directed dependency edges, and the tasks are executed, possibly in parallel, in an order consistent with their dependencies. A popular and effective way to extend fork-join parallelism is to allow threads to create <em>futures</em>. A thread creates a future to hold the results of a computation, which may or may not be executed in parallel. That result is returned when some thread <em>touches</em> that future, blocking if necessary until the result is ready. Recent research has shown that while futures can, of course, enhance parallelism in a structured way, they can have a deleterious effect on cache locality. In the worst case, futures can incur Ω(P T∞ + t T∞) deviations, which implies Ω(C P T∞ + C t T∞) additional cache misses, where C is the number of cache lines, P is the number of processors, t is the number of touches, and T∞ is the <em>computation span</em>. Since cache locality has a large impact on software performance on modern multicores, this result is troubling.</p>   <p>In this paper, however, we show that if futures are used in a simple, disciplined way, then the situation is much better: if each future is touched only once, either by the thread that created it, or by a later descendant of the thread that created it, then parallel executions with work stealing can incur at most O(C P T<sup>2</sup>∞) additional cache misses, a substantial improvement. This structured use of futures is characteristic of many (but not all) parallel applications.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555259">Time-warp: lightweight abort minimization in transactional memory</a></h3><ul class="DLauthors"><li class="nameList">Nuno Diegues</li><li class="nameList Last">Paolo Romano</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>The notion of permissiveness in Transactional Memory (TM) translates to only aborting a transaction when it cannot be accepted in any history that guarantees correctness criterion. This property is neglected by most TMs, which, in order to maximize implementation's efficiency, resort to aborting transactions under overly conservative conditions. In this paper we seek to identify a sweet spot between permissiveness and efficiency by introducing the Time-Warp Multi-version algorithm (TWM). TWM is based on the key idea of allowing an update transaction that has performed stale reads (i.e., missed the writes of concurrently committed transactions) to be serialized by committing it in the past, which we call a time-warp commit. At its core, TWM uses a novel, lightweight validation mechanism with little computational overheads. TWM also guarantees that read-only transactions can never be aborted. Further, TWM guarantees Virtual World Consistency, a safety property that is deemed as particularly relevant in the context of TM. We demonstrate the practicality of this approach through an extensive experimental study, where we compare TWM with four other TMs, and show an average performance improvement of 65% in high concurrency scenarios.</p>
+	</div></div>
+						
+					<h2>SESSION: Session order 6: PPoPP keynote address</h2>
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2557966">Beyond parallel programming with domain specific languages</a></h3><ul class="DLauthors"><li class="nameList Last">Kunle Olukotun</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Today, almost all computer architectures are parallel and heterogeneous; a combination of multiple CPUs, GPUs and specialized processors. This creates a challenging problem for application developers who want to develop high performance programs without the effort required to use low-level, architecture specific parallel programming models (e.g. OpenMP for CMPs, CUDA for GPUs, MPI for clusters). Domain-specific languages (DSLs) are a promising solution to this problem because they can provide an avenue for high-level application-specific abstractions with implicit parallelism to be mapped directly to low level architecture-specific programming models; providing both high programmer productivity and high execution performance.</p> <p>In this talk I will describe an approach to building high performance DSLs, which is based on DSL embedding in a general purpose programming language, metaprogramming and a DSL infrastructure called Delite. I will describe how we transform DSL programs into efficient first-order low-level code using domain specific optimization, parallelism and locality optimization with parallel patterns, and architecture-specific code generation. All optimizations and transformations are implemented in Delite: an extensible DSL compiler infrastucture that significantly reduces the effort required to develop new DSLs. Delite DSLs for machine learning, data querying, graph analysis, and scientific computing all achieve performance competitive with manually parallelized C++ code.</p>
+	</div></div>
+						
+					<h2>SESSION: Session order 7: algorithms session</h2>
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3250903">Session details: Session order 7: algorithms session</a></h3><ul class="DLauthors"><li class="nameList Last">Virendra J. Marathe</li></ul><div class="DLabstract"><div style="display:inline"></div></div>
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555249">Designing and auto-tuning parallel 3-D FFT for computation-communication overlap</a></h3><ul class="DLauthors"><li class="nameList">Sukhyun Song</li><li class="nameList Last">Jeffrey K. Hollingsworth</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>This paper presents a method to design and auto-tune a new parallel 3-D FFT code using the non-blocking MPI all-to-all operation. We achieve high performance by optimizing computation-communication overlap. Our code performs fully asynchronous communication without any support from special hardware. We also improve cache performance through loop tiling. To cope with the complex trade-off regarding our optimization techniques, we parameterize our code and auto-tune the parameters efficiently in a large parameter space. Experimental results from two systems confirm that our code achieves a speedup of up to 1.76x over the FFTW library.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555253">A decomposition for in-place matrix transposition</a></h3><ul class="DLauthors"><li class="nameList">Bryan Catanzaro</li><li class="nameList">Alexander Keller</li><li class="nameList Last">Michael Garland</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>We describe a decomposition for in-place matrix transposition, with applications to Array of Structures memory accesses on SIMD processors. Traditional approaches to in-place matrix transposition involve cycle following, which is difficult to parallelize, and on matrices of dimension m by n require O(mn log mn) work when limited to less than O(mn) auxiliary space. Our decomposition allows the rows and columns to be operated on independently during in-place transposition, reducing work complexity to O(mn), given O(max(m, n)) auxiliary space. This decomposition leads to an efficient and naturally parallel algorithm: we have measured median throughput of 19.5 GB/s on an NVIDIA Tesla K20c processor. An implementation specialized for the skinny matrices that arise when converting Arrays of Structures to Structures of Arrays yields median throughput of 34.3 GB/s, and a maximum throughput of 51 GB/s.</p> <p>Because of the simple structure of this algorithm, it is particularly suited for implementation using SIMD instructions to transpose the small arrays that arise when SIMD processors load from or store to Arrays of Structures. Using this algorithm to cooperatively perform accesses to Arrays of Structures, we measure 180 GB/s throughput on the K20c, which is up to 45 times faster than compiler-generated Array of Structures accesses.</p> <p>In this paper, we explain the algorithm, prove its correctness and complexity, and explain how it can be instantiated efficiently for solving various transpose problems on both CPUs and GPUs.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555266">In-place transposition of rectangular matrices on accelerators</a></h3><ul class="DLauthors"><li class="nameList">I-Jui Sung</li><li class="nameList">Juan Gómez-Luna</li><li class="nameList">José María González-Linares</li><li class="nameList">Nicolás Guil</li><li class="nameList Last">Wen-Mei W. Hwu</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Matrix transposition is an important algorithmic building block for many numeric algorithms such as FFT. It has also been used to convert the storage layout of arrays. With more and more algebra libraries offloaded to GPUs, a high performance in-place transposition becomes necessary. Intuitively, in-place transposition should be a good fit for GPU architectures due to limited available on-board memory capacity and high throughput. However, direct application of CPU in-place transposition algorithms lacks the amount of parallelism and locality required by GPUs to achieve good performance. In this paper we present the first known in-place matrix transposition approach for the GPUs. Our implementation is based on a novel 3-stage transposition algorithm where each stage is performed using an elementary tiled-wise transposition. Additionally, when transposition is done as part of the memory transfer between GPU and host, our staged approach allows hiding transposition overhead by overlap with PCIe transfer. We show that the 3-stage algorithm allows larger tiles and achieves 3X speedup over a traditional 4-stage algorithm, with both algorithms based on our high-performance elementary transpositions on the GPU. We also show our proposed low-level optimizations improve the sustained throughput to more than 20 GB/s. Finally, we propose an asynchronous execution scheme that allows CPU threads to delegate in-place matrix transposition to GPU, achieving a throughput of more than 3.4 GB/s (including data transfers costs), and improving current multithreaded implementations of in-place transposition on CPU.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555264">Parallelizing dynamic programming through rank convergence</a></h3><ul class="DLauthors"><li class="nameList">Saeed Maleki</li><li class="nameList">Madanlal Musuvathi</li><li class="nameList Last">Todd Mytkowicz</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>This paper proposes an efficient parallel algorithm for an important class of dynamic programming problems that includes Viterbi, Needleman-Wunsch, Smith-Waterman, and Longest Common Subsequence. In dynamic programming, the subproblems that do not depend on each other, and thus can be computed in parallel, form stages or wavefronts. The algorithm presented in this paper provides additional parallelism allowing multiple stages to be computed in parallel despite dependences among them. The correctness and the performance of the algorithm relies on rank convergence properties of matrix multiplication in the tropical semiring, formed with plus as the multiplicative operation and max as the additive operation.</p> <p>This paper demonstrates the efficiency of the parallel algorithm by showing significant speed ups on a variety of important dynamic programming problems. In particular, the parallel Viterbi decoder is up-to 24x faster (with 64 processors) than a highly optimized commercial baseline.</p>
+	</div></div>
+						
+					<h2>SESSION: Session order 8: programming systems session</h2>
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3250904">Session details: Session order 8: programming systems session</a></h3><ul class="DLauthors"><li class="nameList Last">Kunle Olukotun</li></ul><div class="DLabstract"><div style="display:inline"></div></div>
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555250">Revisiting loop fusion in the polyhedral framework</a></h3><ul class="DLauthors"><li class="nameList">Sanyam Mehta</li><li class="nameList">Pei-Hung Lin</li><li class="nameList Last">Pen-Chung Yew</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Loop fusion is an important compiler optimization for improving memory hierarchy performance through enabling data reuse. Traditional compilers have approached loop fusion in a manner decoupled from other high-level loop optimizations, missing several interesting solutions. Recently, the polyhedral compiler framework with its ability to compose complex transformations, has proved to be promising in performing loop optimizations for small programs. However, our experiments with large programs using state-of-the-art polyhedral compiler frameworks reveal suboptimal fusion partitions in the transformed code. We trace the reason for this to be lack of an effective cost model to choose a good fusion partitioning among the possible choices, which increase exponentially with the number of program statements. In this paper, we propose a fusion algorithm to choose good fusion partitions with two objective functions - achieving good data reuse and preserving parallelism inherent in the source code. These objectives, although targeted by previous work in traditional compilers, pose new challenges within the polyhedral compiler framework and have thus not been addressed. In our algorithm, we propose several heuristics that work effectively within the polyhedral compiler framework and allow us to achieve the proposed objectives. Experimental results show that our fusion algorithm achieves performance comparable to the existing polyhedral compilers for small kernel programs, and significantly outperforms them for large benchmark programs such as those in the SPEC benchmark suite.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555268">Triolet: a programming system that unifies algorithmic skeleton interfaces for high-performance cluster computing</a></h3><ul class="DLauthors"><li class="nameList">Christopher Rodrigues</li><li class="nameList">Thomas Jablin</li><li class="nameList">Abdul Dakkak</li><li class="nameList Last">Wen-Mei Hwu</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Functional algorithmic skeletons promise a high-level programming interface for distributed-memory clusters that free developers from concerns of task decomposition, scheduling, and communication. Unfortunately, prior distributed functional skeleton frameworks do not deliver performance comparable to that achievable in a low-level distributed programming model such as C with MPI and OpenMP, even when used in concert with high-performance array libraries. There are several causes: they do not take advantage of shared memory on each cluster node; they impose a fixed partitioning strategy on input data; and they have limited ability to fuse loops involving skeletons that produce a variable number of outputs per input.</p> <p>We address these shortcomings in the Triolet programming language through a modular library design that separates concerns of parallelism, loop nesting, and data partitioning. We show how Triolet substantially improves the parallel performance of algorithms involving array traversals and nested, variable-size loops over what is achievable in Eden, a distributed variant of Haskell. We further demonstrate how Triolet can substantially simplify parallel programming relative to C with MPI and OpenMP while achieving 23--100% of its performance on a 128-core cluster.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555271">A tool to analyze the performance of multithreaded programs on NUMA architectures</a></h3><ul class="DLauthors"><li class="nameList">Xu Liu</li><li class="nameList Last">John Mellor-Crummey</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Almost all of today's microprocessors contain memory controllers and directly attach to memory. Modern multiprocessor systems support non-uniform memory access (NUMA): it is faster for a microprocessor to access memory that is directly attached than it is to access memory attached to another processor. Without careful distribution of computation and data, a multithreaded program running on such a system may have high average memory access latency. To use multiprocessor systems efficiently, programmers need performance tools to guide the design of NUMA-aware codes. To address this need, we enhanced the HPCToolkit performance tools to support measurement and analysis of performance problems on multiprocessor systems with multiple NUMA domains. With these extensions, HPCToolkit helps pinpoint, quantify, and analyze NUMA bottlenecks in executions of multithreaded programs. It computes derived metrics to assess the severity of bottlenecks, analyzes memory accesses, and provides a wealth of information to guide NUMA optimization, including information about how to distribute data to reduce access latency and minimize contention. This paper describes the design and implementation of our extensions to HPCToolkit. We demonstrate their utility by describing case studies in which we use these capabilities to diagnose NUMA bottlenecks in four multithreaded applications.</p>
+	</div></div>
+						
+					<h2>SESSION: Session order 9: scheduling and determinism session</h2>
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3250905">Session details: Session order 9: scheduling and determinism session</a></h3><ul class="DLauthors"><li class="nameList Last">Chen Wenguang</li></ul><div class="DLabstract"><div style="display:inline"></div></div>
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555246">Towards fair and efficient SMP virtual machine scheduling</a></h3><ul class="DLauthors"><li class="nameList">Jia Rao</li><li class="nameList Last">Xiaobo Zhou</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>As multicore processors become prevalent in modern computer systems, there is a growing need for increasing hardware utilization and exploiting the parallelism of such platforms. With virtualization technology, hardware utilization is improved by encapsulating independent workloads into virtual machines (VMs) and consolidating them onto the same machine. SMP virtual machines have been widely adopted to exploit parallelism. For virtualized systems, such as a public cloud, fairness between tenants and the efficiency of running their applications are keys to success. However, we find that existing virtualization platforms fail to enforce fairness between VMs with different number of virtual CPUs (vCPU) that run on multiple CPUs. We attribute the unfairness to the use of per-CPU schedulers and the load imbalance on these CPUs that incur inaccurate CPU allocations. Unfortunately, existing approaches to reduce unfairness, e.g., dynamic load balancing and CPU capping, introduce significant inefficiencies to parallel workloads.</p> <p>In this paper, we present Flex, a vCPU scheduling scheme that enforces fairness at VM-level and improves the efficiency of hosted parallel applications. Flex centers on two key designs: (1) dynamically adjusting vCPU weights (FlexW) on multiple CPUs to achieve VM-level fairness and (2) flexibly scheduling vCPUs (FlexS) to minimize wasted busy-waiting time. We have implemented Flex in Xen and performed comprehensive evaluations with various parallel workloads. Results show that Flex is able to achieve CPU allocations with on average no more than 5% error compared to the ideal fair allocation. Further, Flex outperforms Xen's credit scheduler and two representative co-scheduling approaches by as much as 10X for parallel applications using busy-waiting or blocking synchronization methods.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555252">Efficient deterministic multithreading without global barriers</a></h3><ul class="DLauthors"><li class="nameList">Kai Lu</li><li class="nameList">Xu Zhou</li><li class="nameList">Tom Bergan</li><li class="nameList Last">Xiaoping Wang</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Multithreaded programs execute nondeterministically on conventional architectures and operating systems. This complicates many tasks, including debugging and testing. Deterministic multithreading (DMT) makes the output of a multithreaded program depend on its inputs only, which can totally solve the above problem. However, current DMT implementations suffer from a common inefficiency: they use frequent global barriers to enforce a deterministic ordering on memory accesses. In this paper, we eliminate that inefficiency using an execution model we call deterministic lazy release consistency (DLRC). Our execution model uses the Kendo algorithm to enforce a deterministic ordering on synchronization, and it uses a deterministic version of the lazy release consistency memory model to propagate memory updates across threads. Our approach guarantees that programs execute deterministically even when they contain data races. We implemented a DMT system based on these ideas (RFDet) and evaluated it using 16 parallel applications. Our implementation targets C/C++ programs that use POSIX threads. Results show that RFDet gains nearly 2x speedup compared with DThreads-a start-of-the-art DMT system.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555263">Race directed scheduling of concurrent programs</a></h3><ul class="DLauthors"><li class="nameList">Mahdi Eslamimehr</li><li class="nameList Last">Jens Palsberg</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Detection of data races in Java programs remains a difficult problem. The best static techniques produce many false positives, and also the best dynamic techniques leave room for improvement. We present a new technique called race directed scheduling that for a given race candidate searches for an input and a schedule that lead to the race. The search iterates a combination of concolic execution and schedule improvement, and turns out to find useful inputs and schedules efficiently. We use an existing technique to produce a manageable number of race candidates. Our experiments on 23 Java programs found 72 real races that were missed by the best existing dynamic techniques. Among those 72 races, 31 races were found with schedules that have between 1 million and 108 million events, which suggests that they are rare and hard-to-find races.</p>
+	</div></div>
+						
+					<h2>SESSION: Session order 10: conference keynote address</h2>
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2558891">Heterogeneous computing: what does it mean for compiler research?</a></h3><ul class="DLauthors"><li class="nameList Last">Norm Rubin</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>The current trend in computer architecture is to increase the number of cores, to create specialized types of cores within a single machine, and to network such machines together in very fluid web/cloud computing arrangements. Compilers have traditionally focused on optimizations to code that improve performance, but is that the right target to speed up real applications? Consider loading a web page (like starting GMAIL) the page is transferred to the client, any JavaScript is compiled, the JavaScript executes, and the page gets displayed. The classic compiler model (which was first developed in the late 50's) was a great fit for single core machines but has fallen behind architecture, and language. For example how do you compile a single program for a machine that has both a CPU and a graphics coprocessor (a GPU) with a very different programming and memory model? Together with the changes in architecture there have been changes in programming languages. Dynamic languages are used more, static languages are used less. How does this effect compiler research? In this talk, I'll review a number of traditional compiler research challenges that have (or will) become burning issues and will describe some new problems areas that were not considered in the past. For example language specifica-tions are large complex technical documents that are difficult for non-experts to follow. Application programmers are often not willing to read these documents; can a compiler bridge the gap?</p>
+	</div></div>
+						
+					<h2>SESSION: Session order 11: non-blocking data structures session</h2>
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3250906">Session details: Session order 11: non-blocking data structures session</a></h3><ul class="DLauthors"><li class="nameList Last">James Larus</li></ul><div class="DLabstract"><div style="display:inline"></div></div>
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555256">Fast concurrent lock-free binary search trees</a></h3><ul class="DLauthors"><li class="nameList">Aravind Natarajan</li><li class="nameList Last">Neeraj Mittal</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>We present a new <em>lock-free</em> algorithm for concurrent manipulation of a binary search tree in an asynchronous shared memory system that supports search, insert and delete operations. In addition to read and write instructions, our algorithm uses (single-word) compare-and-swap (CAS) and bit-test-and-set (SETB) atomic instructions, both of which are commonly supported by many modern processors including Intel~64 and AMD64.</p> <p>In contrast to existing lock-free algorithms for a binary search tree, our algorithm is based on marking <em>edges</em> rather than nodes. As a result, when compared to other lock-free algorithms, modify (insert and delete) operations in our algorithm work on a smaller portion of the tree, thereby reducing conflicts, and execute fewer atomic instructions (one for insert and three for delete). Our experiments indicate that our lock-free algorithm significantly outperforms all other algorithms for a concurrent binary search tree in many cases, especially when contention is high, by as much as 100%.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555267">A general technique for non-blocking trees</a></h3><ul class="DLauthors"><li class="nameList">Trevor Brown</li><li class="nameList">Faith Ellen</li><li class="nameList Last">Eric Ruppert</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>We describe a general technique for obtaining provably correct, non-blocking implementations of a large class of tree data structures where pointers are directed from parents to children. Updates are permitted to modify any contiguous portion of the tree atomically. Our non-blocking algorithms make use of the LLX, SCX and VLX primitives, which are multi-word generalizations of the standard LL, SC and VL primitives and have been implemented from single-word CAS. To illustrate our technique, we describe how it can be used in a fairly straightforward way to obtain a non-blocking implementation of a chromatic tree, which is a relaxed variant of a red-black tree. The height of the tree at any time is O(c + log n), where n is the number of keys and c is the number of updates in progress. We provide an experimental performance analysis which demonstrates that our Java implementation of a chromatic tree rivals, and often significantly outperforms, other leading concurrent dictionaries.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555269">Practical concurrent binary search trees via logical ordering</a></h3><ul class="DLauthors"><li class="nameList">Dana Drachsler</li><li class="nameList">Martin Vechev</li><li class="nameList Last">Eran Yahav</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>We present practical, concurrent binary search tree (BST) algorithms that explicitly maintain logical ordering information in the data structure, permitting clean separation from its physical tree layout. We capture logical ordering using intervals, with the property that an item belongs to the tree if and only if the item is an endpoint of some interval. We are thus able to construct efficient, synchronization-free and intuitive lookup operations. We present (i) a concurrent non-balanced BST with a lock-free lookup, and (ii) a concurrent AVL tree with a lock-free lookup that requires no synchronization with any mutating operations, including balancing operations. Our algorithms apply on-time deletion; that is, every request for removal of a node, results in its immediate removal from the tree. This new feature did not exist in previous concurrent internal tree algorithms.</p> <p>We implemented our concurrent BST algorithms and evaluated them against several state-of-the-art concurrent tree algorithms. Our experimental results show that our algorithms with lock-free contains and on-time deletion are practical and often comparable to the state-of-the-art.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555261">A practical wait-free simulation for lock-free data structures</a></h3><ul class="DLauthors"><li class="nameList">Shahar Timnat</li><li class="nameList Last">Erez Petrank</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Lock-free data structures guarantee overall system progress, whereas wait-free data structures guarantee the progress of each and every thread, providing the desirable non-starvation guarantee for concurrent data structures. While practical lock-free implementations are known for various data structures, wait-free data structure designs are rare. Wait-free implementations have been notoriously hard to design and often inefficient. In this work we present a transformation of lock-free algorithms to wait-free ones allowing even a non-expert to transform a lock-free data-structure into a practical wait-free one. The transformation requires that the lock-free data structure is given in a normalized form defined in this work. Using the new method, we have designed and implemented wait-free linked-list, skiplist, and tree and we measured their performance. It turns out that for all these data structures the wait-free implementations are only a few percent slower than their lock-free counterparts, while still guaranteeing non-starvation.</p>
+	</div></div>
+						
+					<h2>POSTER SESSION: Session order 11: poster session</h2>
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555273">Lock contention aware thread migrations</a></h3><ul class="DLauthors"><li class="nameList">Kishore Kumar Pusukuri</li><li class="nameList">Rajiv Gupta</li><li class="nameList Last">Laxmi Narayan Bhuyan</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>On a cache-coherent multicore multiprocessor system, the performance of a multithreaded application with high lock contention is very sensitive to the distribution of application threads across multiple processors. This is because the distribution of threads impacts the frequency of lock transfers between processors, which in turn impacts the frequency of last-level cache (LLC) misses that lie on the critical path of execution. Inappropriate distribution of threads across processors increases LLC misses in the critical path and significantly degrades performance of multithreaded programs. To alleviate the above problem, this paper overviews a thread migration technique, which migrates threads of a multithreaded program across multicore processors so that threads seeking locks are more likely to find the locks on the same processor.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555274">Infrastructure-free logging and replay of concurrent execution on multiple cores</a></h3><ul class="DLauthors"><li class="nameList">Kyu Hyung Lee</li><li class="nameList">Dohyeong Kim</li><li class="nameList Last">Xiangyu Zhang</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>We develop a logging and replay technique for real concurrent execution on multiple cores. Our technique directly works on binaries and does not require any hardware or complex software infrastructure support. We focus on minimizing logging overhead as it only logs a subset of system calls and thread spawns. Replay is on a single core. During replay, our technique first tries to follow only the event order in the log. However, due to schedule differences, replay may fail. An exploration process is then triggered to search for a schedule that allows the replay to make progress. Exploration is performed within a window preceding the point of replay failure. During exploration, our technique first tries to reorder synchronized blocks. If that does not lead to progress, it further reorders shared variable accesses. The exploration is facilitated by a sophisticated caching mechanism. Our experiments on real world programs and real workload show that the proposed technique has very low logging overhead (2.6% on average) and fast schedule reconstruction.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555275">Parallelization hints via code skeletonization</a></h3><ul class="DLauthors"><li class="nameList">Cfir Aguston</li><li class="nameList">Yosi Ben Asher</li><li class="nameList Last">Gadi Haber</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Tools that provide optimization hints for program developers are facing severe obstacles and often unable to provide meaningful guidance on how to parallelize real--life applications. The main reason is due to the high code complexity and its large size when considering commercially valuable code. Such code is often rich with pointers, heavily nested conditional statements, nested while--based loops, function calls, etc. These constructs prevent existing compiler analysis from extracting the full parallelization potential. We propose a new paradigm to overcome this issue by automatically transforming the code into a much simpler skeleton-like form that is more conductive for auto-parallelization. We then apply existing tools of source--level automatic parallelization on the skeletonized code in order to expose possible parallelization patterns. The skeleton code, along with the parallelized version, are then provided to the programmer in the form of an IDE (Integrated Development Environment) recommendation.</p>   <p>The proposed skeletonization algorithm replaces pointers by integer indexes and C-struct references by references to multi-dimensional arrays. This is because automatic parallelizers cannot handle pointer expressions. For example, while(p != NULL){ p-&gt;val++; p=p-&gt;next; } will be skeletonized to the parallelizable for(Ip=0;Ip&lt;N;Ip++){ Aval[Ip]++; } where Aval[] holds the embedding of the original list. It follows that the main goal of the skeletonization process is to embed pointer-based data structures into arrays. Though the skeletonized code is not semantically equivalent to the original code, it points out a possible parallelization pattern for this code segment and can be used as an effective parallelization hint to the programmer. We applied the method on several representative benchmarks from SPEC CPU 2000 and reached up to 80% performance gain after several sequential code segments had been manually parallelized based on the parallelization patterns of the generated skeletons. In a different set of experiments we tried to estimate the potential of skeletonization for a larger set of programs in SPEC 2000 and obtained an estimation of 27% additional loops that can be parallelized/vectorized due to skeletonization.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555276">Concurrency bug localization using shared memory access pairs</a></h3><ul class="DLauthors"><li class="nameList">Wenwen Wang</li><li class="nameList">Chenggang Wu</li><li class="nameList">Pen-Chung Yew</li><li class="nameList">Xiang Yuan</li><li class="nameList">Zhenjiang Wang</li><li class="nameList">Jianjun Li</li><li class="nameList Last">Xiaobing Feng</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Non-determinism in concurrent programs makes their debugging much more challenging than that in sequential programs. To mitigate such difficulties, we propose a new technique to automatically locate buggy shared memory accesses that triggered concurrency bugs. Compared to existing fault localization techniques that are based on empirical statistical approaches, this technique has two advantages. First, as long as enough successful runs of a concurrent program are collected, the proposed technique can locate buggy memory accesses to the shared data even with only one single failed run captured, as opposed to the need of capturing multiple failed runs in other statistical approaches. Second, the proposed technique is more precise because it considers memory accesses in those failed runs that terminate prematurely.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555277">Task mapping stencil computations for non-contiguous allocations</a></h3><ul class="DLauthors"><li class="nameList">Vitus J. Leung</li><li class="nameList">David P. Bunde</li><li class="nameList">Jonathan Ebbers</li><li class="nameList">Stefan P. Feer</li><li class="nameList">Nickolas W. Price</li><li class="nameList">Zachary D. Rhodes</li><li class="nameList Last">Matthew Swank</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>We examine task mapping algorithms for systems that allocate jobs non-contiguously. Several studies have shown that task placement affects job running time. We focus on jobs with a stencil communication pattern and use experiments on a Cray XE to evaluate novel task mapping algorithms as well as some adapted to this setting. This is done with the miniGhost miniApp which mimics the performance of CTH, a shock physics application. Our strategies improve average and single-run times by as much as 28% and 36% over a baseline strategy, respectively.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555278">Data structures for task-based priority scheduling</a></h3><ul class="DLauthors"><li class="nameList">Martin Wimmer</li><li class="nameList">Francesco Versaci</li><li class="nameList">Jesper Larsson Träff</li><li class="nameList">Daniel Cederman</li><li class="nameList Last">Philippas Tsigas</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>We present three lock-free data structures for priority task scheduling: a priority work-stealing one, a centralized one with ρ-relaxed semantics, and a hybrid one combining both concepts. With the single-source shortest path (SSSP) problem as example, we show how the different approaches affect the prioritization and provide upper bounds on the number of examined nodes. We argue that priority task scheduling allows for an intuitive and easy way to parallelize the SSSP problem, notoriously a hard task. Experimental evidence supports the good scalability of the resulting algorithm. The larger aim of this work is to understand the trade-offs between scalability and priority guarantees in task scheduling systems. We show that ρ-relaxation is a valuable technique for improving the first, while still allowing semantic constraints to be satisfied: the lock-free, hybrid $k$-priority data structure can scale as well as work-stealing, while still providing strong priority scheduling guarantees, which depend on the parameter k. Our theoretical results open up possibilities for even more scalable data structures by adopting a weaker form of ρ-relaxation, which still enables the semantic constraints to be respected.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555279">Detecting silent data corruption through data dynamic monitoring for scientific applications</a></h3><ul class="DLauthors"><li class="nameList">Leonardo Bautista Gomez</li><li class="nameList Last">Franck Cappello</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Parallel programming has become one of the best ways to express scientific models that simulate a wide range of natural phenomena. These complex parallel codes are deployed and executed on large-scale parallel computers, making them important tools for scientific discovery. As supercomputers get faster and larger, the increasing number of components is leading to higher failure rates. In particular, the miniaturization of electronic components is expected to lead to a dramatic rise in soft errors and data corruption. Moreover, soft errors can corrupt data silently and generate large inaccuracies or wrong results at the end of the computation. In this paper we propose a novel technique to detect silent data corruption based on data monitoring. Using this technique, an application can learn the normal dynamics of its datasets, allowing it to quickly spot anomalies. We evaluate our technique with synthetic benchmarks and we show that our technique can detect up to 50% of injected errors while incurring only negligible overhead.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555280">Fine-grain parallel megabase sequence comparison with multiple heterogeneous GPUs</a></h3><ul class="DLauthors"><li class="nameList">Edans F. de O. Sandes</li><li class="nameList">Guillermo Miranda</li><li class="nameList">Alba C.M.A. Melo</li><li class="nameList">Xavier Martorell</li><li class="nameList Last">Eduard Ayguade</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>This paper proposes and evaluates a parallel strategy to execute the exact Smith-Waterman (SW) algorithm for megabase DNA sequences in heterogeneous multi-GPU platforms. In our strategy, the computation of a single huge SW matrix is spread over multiple GPUs, which communicate border elements to the neighbour, using a circular buffer mechanism that hides the communication overhead. We compared 4 pairs of human-chimpanzee homologous chromosomes using 2 different GPU environments, obtaining a performance of up to 140.36 GCUPS (Billion of cells processed per second) with 3 heterogeneous GPUS.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555281">Automatic semantic locking</a></h3><ul class="DLauthors"><li class="nameList">Guy Golan-Gueta</li><li class="nameList">G. Ramalingam</li><li class="nameList">Mooly Sagiv</li><li class="nameList Last">Eran Yahav</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>In this paper, we consider concurrent programs in which the shared state consists of instances of linearizable ADTs (abstract data types). We develop a novel automated approach to concurrency control that addresses a common need: the need to atomically execute a code fragment, which may contain multiple ADT operations on multiple ADT instances. In our approach, each ADT implements ADT-specific semantic locking operations that serve to exploit the semantics of ADT operations. We develop a synthesis algorithm that automatically inserts calls to these locking operations in a set of given code fragments (in a client program) to ensure that these code fragments execute atomically without deadlocks, and without rollbacks.</p> <p>We have implemented the synthesis algorithm and several general-purpose ADTs with semantic locking. We have applied the synthesis algorithm to several Java programs that use these ADTs. Our results show that our approach enables efficient and scalable synchronization.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555283">Optimistic transactional boosting</a></h3><ul class="DLauthors"><li class="nameList">Ahmed Hassan</li><li class="nameList">Roberto Palmieri</li><li class="nameList Last">Binoy Ravindran</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Herlihy and Koskinen's transactional boosting methodology addressed the challenge of converting concurrent data structures into transactional ones. We present an optimistic methodology for boosting concurrent collections. Optimistic boosting allows greater data structure-specific optimizations, easier integration with STM frameworks, and lower restrictions on the boosted operations than the original boosting methodology.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555284">Provably good scheduling for parallel programs that use data structures through implicit batching</a></h3><ul class="DLauthors"><li class="nameList">Kunal Agrawal</li><li class="nameList">Jeremy T. Fineman</li><li class="nameList">Brendan Sheridan</li><li class="nameList">Jim Sukha</li><li class="nameList Last">Robert Utterback</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>This poster proposes an efficient runtime scheduler that provides provable performance guarantees to parallel programs that use data structures through the use of implicit batching.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555285">Theoretical analysis of classic algorithms on highly-threaded many-core GPUs</a></h3><ul class="DLauthors"><li class="nameList">Lin Ma</li><li class="nameList">Kunal Agrawal</li><li class="nameList Last">Roger D. Chamberlain</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>The Threaded many-core memory (TMM) model provides a framework to analyze the performance of algorithms on GPUs. Here, we investigate the effectiveness of the TMM model by analyzing algorithms for 3 classic problems -- suffix tree/array for string matching, fast Fourier transform, and merge sort -- under this model. Our findings indicate that the TMM model can explain and predict previously unexplained trends and artifacts in experimental data.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555286">SCCMulti: an improved parallel strongly connected components algorithm</a></h3><ul class="DLauthors"><li class="nameList">Daniel Tomkins</li><li class="nameList">Timmie Smith</li><li class="nameList">Nancy M. Amato</li><li class="nameList Last">Lawrence Rauchwerger</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>Tarjan's famous linear time, sequential algorithm for finding the strongly connected components (SCCs) of a graph relies on depth first search, which is inherently sequential. Deterministic parallel algorithms solve this problem in logarithmic time using matrix multiplication techniques, but matrix multiplication requires a large amount of total work. Randomized algorithms based on reachability -- the ability to get from one vertex to another along a directed path -- greatly improve the work bound in the average case. However, these algorithms do not always perform well; for instance, Divide-and-Conquer Strong Components (DCSC), a scalable, divide-and-conquer algorithm, has good expected theoretical limits, but can perform very poorly on graphs for which the maximum reachability of any vertex is small. A related algorithm, MultiPivot, gives very high probability guarantees on the total amount of work for all graphs, but this improvement introduces an overhead that increases the average running time. This work introduces SCCMulti, a multi-pivot improvement of DCSC that offers the same consistency as MultiPivot without the time overhead. We provide experimental results demonstrating SCCMulti's scalability; these results also show that SCCMulti is more consistent than DCSC and is always faster than MultiPivot.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555287">Initial study of multi-endpoint runtime for MPI+OpenMP hybrid programming model on multi-core systems</a></h3><ul class="DLauthors"><li class="nameList">Miao Luo</li><li class="nameList">Xiaoyi Lu</li><li class="nameList">Khaled Hamidouche</li><li class="nameList">Krishna Kandalla</li><li class="nameList Last">Dhabaleswar K. Panda</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>State-of-the-art MPI libraries rely on locks to guarantee thread-safety. This discourages application developers from using multiple threads to perform MPI operations. In this paper, we propose a high performance, lock-free multi-endpoint MPI runtime, which can achieve up to 40\% improvement for point-to-point operation and one representative collective operation with minimum or no modifications to the existing applications.</p>
+	</div></div>
+						
+					
+						<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/2555243.2555288">Extracting logical structure and identifying stragglers in parallel execution traces</a></h3><ul class="DLauthors"><li class="nameList">Katherine E. Isaacs</li><li class="nameList">Todd Gamblin</li><li class="nameList">Abhinav Bhatele</li><li class="nameList">Peer-Timo Bremer</li><li class="nameList">Martin Schulz</li><li class="nameList Last">Bernd Hamann</li></ul><div class="DLabstract"><div style="display:inline">
+		<p>We introduce a new approach to automatically extract an idealized <em>logical structure</em> from a parallel execution trace. We use this structure to define intuitive metrics such as the <em>lateness</em> of a process involved in a parallel execution. By analyzing and illustrating traces in terms of logical steps, we leverage a developer's understanding of the happened-before relations in a parallel program. This technique can uncover dependency chains, elucidate communication patterns, and highlight sources and propagation of delays, all of which may be obscured in a traditional trace visualization.</p>
+	</div></div>
+						
+					</div></div></body></html>
