@@ -1,3 +1,41 @@
+2024:
+- Awardee: The Rust Programming Language
+  Citation: |
+
+    Rust is the first industrial strength programming language to
+    offer a compelling answer to the challenge of being a safe systems
+    programming language: one with fine-grained control over low-level
+    resources while avoiding the security vulnerabilities of unsafe
+    languages.  It provides: *control* over low-level resources via a
+    C-style programming model, with a minimal runtime and avoiding
+    garbage collection for predictable performance; and *safety* via a
+    type system that systematically eliminates out-of-bounds accesses,
+    use-after-free bugs, and data races. Rust achieves this by
+    embodying innovations from academic PL research—linear/affine
+    types, ownership types, traits—combined with usable standard
+    libraries. Born out of many years of research and experimentation,
+    Rust tackles the real-world challenges and issues needed for
+    practical adoption. Rust has been recognized as one of a handful
+    of Safer Languages by NIST, and is increasingly deployed in
+    industry for its safety benefits by large and small companies
+    alike.
+
+    The nominated contributors are:
+    * Aaron Turon
+    * Alex Crichton
+    * Brian Anderson
+    * Dave Herman
+    * Felix S. Klock II
+    * Graydon Hoare
+    * Marijn Haverbeke
+    * Nicholas D. Matsakis
+    * Patrick Walton
+    * Tim Chevalier
+    * Yehuda Katz,
+    * All Rust Contributors Past and Present
+
+    Selection Commitee: Antony Hosking, Dominique Devriese, Manu Sridharan, Andreas Rossberg, David Grove    
+
 2023:
 - Awardee: OCaml
   Citation: |
