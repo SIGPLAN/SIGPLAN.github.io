@@ -1,3 +1,41 @@
+2024:
+- Awardee: "Benjamin Bichsel, ETH Zürich"
+  Other: _High-Level Quantum Programming_
+  Advisor: "Martin Vechev"
+  Citation: |
+
+    Benjamin Bichsel's dissertation makes significant contributions to
+    the emerging domain of quantum computing, with the goal of making
+    quantum programming easier, provably safer, and more accessible.
+
+    Specifically, the thesis tackles two key challenges in quantum
+    programming. The first challenge is *uncomputation*: in a quantum
+    program, the computation of temporary variables must be explicitly
+    reversed to avoid unwanted side effects, making programs more
+    complex and error-prone. The dissertation explores two approaches
+    to this challenge: (1) a new, high-level quantum programming
+    language called Silq, whose design and type system ensure that
+    every temporary variable can be uncomputed automatically; (2) an
+    algorithm for synthesizing uncomputation in existing, low-level
+    quantum languages. The second key challenge tackled by the thesis
+    is *simulation*: the ability to run quantum programs on classical
+    computers, which is notoriously computationally expensive, yet
+    crucial for debugging purposes. The dissertation introduces a new
+    framework for quantum simulation, which uses abstract
+    interpretation to trade off precision for efficiency.
+
+    Overall, the thesis combines a deep insight into the nature of
+    quantum computing with advanced programming language techniques,
+    such as (linear) type systems and abstract interpretation. The
+    work spans the entire range from theory to systems: each chapter
+    comes with a working system and the corresponding clean
+    mathematical proofs. Finally, the work has already had significant
+    impact: the Silq language is being used in teaching at UCLA and in
+    a textbook on quantum computing.
+
+    * Selection committee: Işil Dillig, Tom Reps, Ron Garcia, Nadia Polikarpova,
+      Stephen Kell
+
 2023:
 - Awardee: "Sam Westrick, Carnegie Mellon University"
   Other: _Efficient and Scalable Parallel Functional Programming through Disentanglement_
