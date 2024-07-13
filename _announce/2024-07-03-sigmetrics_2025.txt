@@ -1,0 +1,83 @@
+---
+title: "2025 ACM SIGMETRICS: Call for Papers (Summer Deadline)"
+timestamp: "7/3/2024 10:54:45"
+deadline: "8/7/2024"
+---
+===================
+2025 ACM SIGMETRICS
+===================
+
+June 9-13, 2025
+Stony Brook University, New York, USA
+
+Overview
+=======
+
+We solicit papers on the design, modeling, measurement, and performance analysis of computer systems. A good submission typically focuses on a well-motivated problem in computer systems, proposes a principled solution using modeling, measurement, and performance analysis, and empirically validates the solution through simulations and/or implementation. The research may target systems in a broad range of domains, including networking, high-performance computing, machine learning, IoT, cloud, edge, multimedia, mobile, and cyber-physical systems. The work may target diverse system metrics such as latency, throughput, reliability, cost, accuracy, fairness, energy, and carbon footprint.
+
+The conference presents papers that have been accepted to appear in the Proceedings of the ACM on Measurement and Analysis of Computing Systems (POMACS). There are multiple deadlines to submit your work in time for a presentation at the conference (see below). A panel of reviewers will consider all accepted and eligible papers for the Best Paper Awards and the Stephen S. Lavenberg and Kenneth C. Sevcik Outstanding Student Paper Awards. Additionally, a selection of the accepted papers, as identified by a panel of reviewers, may be nominated for publication as Research Highlights in the Communications of the ACM (CACM).
+
+Topics
+=====
+
+We solicit papers describing original and previously unpublished research. Specific topics of interest include, but are not limited to, the following.
+
+Quantitative measurement, design and evaluation studies of:
+
+- Computer and communication networks, protocols and algorithms
+- Wireless, mobile, ad-hoc and sensor networks, IoT applications, and blockchain networks
+- Systems for machine learning, Machine learning for systems
+- Computer architectures, hardware accelerators, multi-core processors, memory systems and storage networks
+- High Performance Computing
+- Operating systems, file systems and databases
+- Virtualization, data centers, distributed and cloud computing, fog and edge computing
+- Mobile and personal computing systems
+- Energy-efficient and sustainable computing systems
+- Real-time and fault-tolerant systems
+- Security and privacy of computing and networked systems
+- Software systems and services, and enterprise applications
+- Social networks, metaverse, multimedia systems, Web services
+- Cyber-physical systems, including the smart grid
+- Quantum computing and communication
+
+Methodologies, formalisms, metrics, solution techniques and algorithms for:
+
+- Machine learning, AI, Big data, data mining, graph analysis, optimization  
+- Analytical modeling techniques and model validation
+- Workload characterization and benchmarking
+- Performance, scalability, power and reliability analysis
+- Sustainability analysis and power management
+- System measurement, performance monitoring, and forecasting
+- Anomaly detection, problem diagnosis, and troubleshooting
+- Capacity planning, resource allocation, run-time management and scheduling
+- Experimental design, statistical analysis, simulation
+- Game theory, network economics, and platform design
+
+Important dates
+============
+
+There are three submission opportunities over the course of the year.
+
+Summer submission website: sigmetrics25summer.hotcrp.com
+- Registration of abstract: July 31, 2024
+- Paper submission: August 7, 2024
+- Author notification: September 24, 2024
+
+Fall submission website: sigmetrics25fall.hotcrp.com
+- Registration of abstract: October 2, 2024
+- Paper submission: October 9, 2024
+- Author notification: December 10, 2024
+
+Winter submission website: sigmetrics25winter.hotcrp.com
+- Registration of abstract: January 15, 2025
+- Paper submission: January 22, 2025
+- Author notification: March 18, 2025
+
+Deadlines are hard and at 23:59pm AoE (Anywhere on Earth).
+
+Papers may be submitted to any deadline and, upon acceptance, papers will be scheduled for publication in the Proceedings of the ACM on Measurement and Analysis of Computing Systems (POMACS) and presentation at the ACM SIGMETRICS conference. The journal publication of accepted papers will appear in the issue of POMACS immediately following acceptance; i.e., papers that are accepted for the Summer and Fall deadlines will appear in POMACS before the conference.
+
+Please see submission instructions at the conference website:
+http://www.sigmetrics.org/sigmetrics2025/call_for_papers.html
+
+Contact the SIGMETRICS 2025 PC chairs at sigmetrics25tpcchairs@sigmetrics.org in case of questions or concerns.
