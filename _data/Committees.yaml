@@ -14,18 +14,18 @@
 #   - POPL: ==> POPL SC Chair
 
 Elected Members:
-  - Chair: "[Jeff Foster](https://www.eecs.tufts.edu/~jfoster/) (Tufts University)"
+  - Chair: "[Andrew Myers](https://www.cs.cornell.edu/andru/) (Cornell University)"
   - Vice Chair: "[Anders Møller](https://cs.au.dk/~amoeller/) (Aarhus University)"
   - Members at Large:
-     - Secretary: "[Andreas Podelski](https://swt.informatik.uni-freiburg.de/staff/podelski) (University of Freiburg)"
-     - Treasurer: "[Atsushi Igarashi](https://www.fos.kuis.kyoto-u.ac.jp/~igarashi/index.html.en) (Kyoto University)"
-     - Awards Co-Chair: "[Işıl Dillig](https://www.cs.utexas.edu/~isil/) (University of Texas, Austin)"
-     - Awards Co-Chair: "[Antony Hosking](https://cecs.anu.edu.au/people/tony-hosking) (Australian National University)"
-     - PAC Chair: "[Sukyoung Ryu](https://cs.kaist.ac.kr/people/view?idx=397&kind=faculty&menu=167) (Korea Advanced Institute of Science and Technology)"
-     - Diversity and Mentoring Co-Chair: "[Alexandra Silva](https://alexandrasilva.org/#/main.html) (Cornell University)"
-     - Diversity and Mentoring Co-Chair: "[Cindy Rubio González](http://web.cs.ucdavis.edu/~rubio/) (University of California, Davis)"
-  - Past Chair: "[Jens Palsberg](https://web.cs.ucla.edu/~palsberg/) (University of California, Los Angeles)"
-  - Past Vice Chair: "[Ranjit Jhala](https://ranjitjhala.github.io/) (University of California, San Diego)"
+     - Secretary: "[Ilya Sergey](https://ilyasergey.net/) (National University of Singapore)"
+     - Treasurer: "[Alex Potanin](https://potanin.github.io/) (Australian National University)"
+     - Awards Co-Chair: "[Alexandra Silva](https://alexandrasilva.org/) (Cornell University)"
+     - Awards Co-Chair: "[Niki Vazou](https://nikivazou.github.io/) (IMDEA Software Institute)"
+     - PAC Chair: "[Neel Krishnaswami](https://www.cl.cam.ac.uk/~nk480/) (University of Cambridge)"
+     - Diversity and Mentoring Co-Chair: "[Brigitte Pientka](https://www.cs.mcgill.ca/~bpientka/) (McGill University)"
+     - Diversity and Mentoring Co-Chair: "[Azalea Raad](https://www.soundandcomplete.org/) (Imperial College London)"
+  - Past Chair: "[Jeff Foster](https://www.eecs.tufts.edu/~jfoster/) (Tufts University)"
+  - Past Vice Chair: "[Anders Møller](https://cs.au.dk/~amoeller/) (Aarhus University)"
 
 Information Director:
   - "[Adrian Sampson](https://www.cs.cornell.edu/~asampson/) (Cornell University)"
@@ -34,7 +34,7 @@ Information Director:
   - ACM Program Director:         "[Abigail Sumandal](mailto:sumandal@hq.acm.org)"
   - SIGPLAN Information Director: "[Adrian Sampson](https://www.cs.cornell.edu/~asampson/) (Cornell University)"
   - Editor of FORTRAN Forum:      "[Ian Chivers](mailto:ian.chivers@chiversandbryan.co.uk)"
-  - ACM TOPLAS Editors:           "[Jens Palsberg](http://www.cs.ucla.edu/~palsberg/)"
+  - ACM TOPLAS Editors:           "[Jan Vitek](https://janvitek.org/)"
   - Steering Committee Chairs:
 # leave these blank to autolookup from the Steering Committees
     - ASPLOS:
