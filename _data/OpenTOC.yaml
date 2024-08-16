@@ -1401,3 +1401,7 @@
   event: ARRAY
   year: 2024
   title: "Proceedings of the 10th ACM SIGPLAN International Workshop on Libraries, Languages and Compilers for Array Programming"
+-
+  event: ICFP
+  year: 2024
+  title: "Proceedings of the ACM on Programming Languages: Vol. 8, No. ICFP. 2024"
