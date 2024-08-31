@@ -1,0 +1,891 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>FARM 2024: Proceedings of the 12th ACM SIGPLAN International Workshop on Functional Art, Music, Modelling, and Design</title></head><body><div id="DLtoc"><div id="DLheader"><h1>FARM 2024: Proceedings of the 12th ACM SIGPLAN International Workshop on Functional Art, Music, Modelling, and Design</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3677996"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Keynote</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677996.3689597">Refactoring Musical Thought (Keynote)</a></h3><ul class="DLauthors"><li class="nameList Last">Dmitri Tymoczko</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>My talk will introduce some twenty-first century music-theoretical ideas that I have found helpful musically, beginning with scales and macroharmony, proceeding through voice-leading geometry, and concluding with the idea of the “quadruple hierarchy”, a recursive nesting of collections supporting the same basic operations at each level. I will introduce Arca, a new musical programming language, and will make the case that musicians have made intelligent but tacit use of nonobvious mathematics. The core ideas will be illustrated with live improvisations that use the internet to transmit notation in real time, allowing for both spontaneity and coordination.</p>
+			</div></div>
+							
+						<h2>SESSION: SESSION 1</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677996.3678288">Using Functional Reactive Programming for Robotic Art: An Experience Report</a></h3><ul class="DLauthors"><li class="nameList">Eliane Irène Schmidli</li><li class="nameList Last">Farhad Mehta</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The control software for robotics applications is usually written in a low-level imperative style, intertwining the program sequence and commands for motors and sensors.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+To describe the program's behavior, it is typically divided into different states, each representing a specific system condition. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This way of programming complicates the comprehension of the code, making changes to the program flow a tedious task.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Functional Reactive Programming (FRP) offers a composable, modular approach for developing reactive applications.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+To examine the strengths and limitations of FRP compared to the conventional imperative style, the control software for a robotic artwork was implemented using a form of FRP in the Haskell programming language.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The resulting design separates the control of the hardware from the implementation of its behavior. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In addition, state transitions are presented more clearly, resulting in code that is more understandable, especially for people with little programming experience.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677996.3678286">Demo: The Fun of Robotic Artwork</a></h3><ul class="DLauthors"><li class="nameList">Eliane Irène Schmidli</li><li class="nameList Last">Farhad Mehta</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Developing software for robot control often is tedious, difficult and error prone.     This is more so for people without a computer science background, such as artists.     Functional Reactive Programming (FRP) aims to make reactive programs, such as those used for robotics control, more modular, composable, and aesthetically pleasing.     We present the results of a collaboration with the art studio Pors &amp; Rao, specializing in robotic artwork.     The aim of this collaboration was to explore the use of FRP in this application area to allow artists to express their intentions for robot control in a more effective manner.     We demonstrate the artworks that we jointly worked on, as well as our impressions of the acceptance and potential of FRP for artists without a computer science background.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677996.3678287">Bridging Art and Mathematics with Tessella: A Scala Functional Library for Regular Polygon Finite Tessellations of a Plane</a></h3><ul class="DLauthors"><li class="nameList Last">Mario Càllisto</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Tessellations of a plane surface by means of unit-sided regular polygons is a classical subject both in art, with examples dating back to the earliest human civilisations, and mathematics, where the complex patterns generated by a very simple set of rules have fascinated generations of inquisitive souls.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ While several taxonomies of the repeating patterns of a tessellation exist, the mathematical treatment of a particular finite tessellation is a quite recent field, greatly aided by computer algorithms.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Introducing Tessella, a free software library of functional algorithms, written in Scala, where finite tessellations are described as immutable undirected planar graphs; thus providing the capabilities to experiment with manual and programmatic creation of finite tessellations, able in turn of inspiring new artistic insights. Abstract paintings are shown as an example, together with ideas on how this exploration journey might be taken further.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677996.3678292">Functional Curves and Surfaces: Algebraic Geometry Inspired Visuals in Hydra</a></h3><ul class="DLauthors"><li class="nameList Last">Yoni Maltsman</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present FCS (Functional Curves and Surfaces), a framework for synthesizing visual patterns by composing functions for curves and surfaces, implemented as an extension to Hydra, a popular tool for live coding visuals. The extension consists of functions for dozens of implicit and parametric curves and surfaces, which can be chained together in numerous ways to create striking visuals. FCS can also serve as a tool for students and practitioners of math, art, and computer science to learn algebraic geometry in a fun, creative way.</p>
+			</div></div>
+							
+						<h2>SESSION: SESSION 2</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677996.3678285">Trane: Musical Janet on the Web</a></h3><ul class="DLauthors"><li class="nameList Last">George Ash</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Trane is a domain specific language and environment for livecoding music on the web. It gives the programmer control over instruments, effects, their connectivity, and the ability to sequence well-timed events. In this paper we explore the motivation behind the language, its design, and implementation.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677996.3678290">From Konnakol to Live Coding</a></h3><ul class="DLauthors"><li class="nameList Last">Alex McLean</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Konnakol is a South Indian, Carnatic musical practice involving the vocal recitation of algorithmic, geometric rhythmic patterns of non-lexical syllables. I reflect on the experience of learning konnakol rhythms, and of adapting the TidalCycles and Strudel live coding environments to better represent Konnakol-inspired rhythms, based on the concept of the metrical tactus. I share visualisations of examples, and the development of a hybrid practice that integrates vocal patterns with live coding. I conclude by considering the issue of cultural appropriation around this work.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677996.3678294">Demo: Composable Compositions with Tonart</a></h3><ul class="DLauthors"><li class="nameList Last">Jared Gentner</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This demo introduces Tonart, a language and metalanguage for practical music
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+composition. The object language of Tonart is abstract syntax modeling a
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+traditional musical score. It is extensible- composers choose or invent
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+syntaxes which will most effectively express the music they intend to write.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Composition proceeds by embedding terms of the chosen syntaxes into a coordinate
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+system that corresponds to the structure of a physical score. Tonart can easily
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+be written by hand, as existing scores are a concrete syntax for Tonart. The
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+metalanguage of Tonart provides a means of compiling Tonart scores via sequences
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+of rewrites. Tonart's rewrites leverage context-sensitivity and locality,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+modeling how notations interact on traditional scores. Using metaprogramming, a
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+composer can compile a Tonart score with unfamiliar syntax into any number of
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+performable scores. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In this demo, we will make a small composition using Tonart. We will construct
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+this composition by manipulating notations representing abstract music objects.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+These will eventually be compiled into a digital score representation, as well as a
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+computer performance. We will add in an especially abstract object at the end,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+and use our creativity to compile it into something performable.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677996.3678293">The Maquette Monad</a></h3><ul class="DLauthors"><li class="nameList">Carlos Agon</li><li class="nameList">Karim Haddad</li><li class="nameList Last">Gonzalo Romero-Garcia</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This article defines the semantics of maquettes in the visual programming language OpenMusic (OM) using monads. A maquette can be seen as a sequencer of functions. Although maquettes have been widely used, their semantic have never been formalized. Formalizing maquettes has multiple benefits; primarily, we aim to provide a better understanding for composers through the use of a mathematical language rather than discursive semantics. In this work, we use a particular case of the state monad and show with examples how this monad is visualized in OpenMusic. The use of these advanced concepts in the field of music and their availability to composers aligns with our intention to bridge the gap between the theoretical and practical aspects of the intersection between mathematics and music.</p>
+			</div></div>
+							
+						<h2>SESSION: SESSION 3</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677996.3678295">Demo: A Geometric Approach to Generate Musical Rhythmic Patterns in Haskell</a></h3><ul class="DLauthors"><li class="nameList Last">Xavier Góngora</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present work-in-progress on RTG, a domain specific language embedded in Haskell designed to explore the affordances of geometry as a means to generate and manipulate rhythmic patterns in live coded music. Examples of how simple geometry is capable of producing interesting rhythms are shown to support our use of binary lists as a pattern representation. We introduce Erlangen’s Program notion of geometry as encoded in <em>groups</em>, using such structure as the focus of a combinator interface based on an archetypal RhythmicPattern type implemented using a type class. Examples of the interface usage are provided. Future work targets the definition of Group instances for the <em>rhythmic pattern types</em> such that the <em>group</em> laws are fulfilled and its operations lift to the interface in a musically coherent and engaging way.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677996.3678289">Diffusion-Based Sound Synthesis in Music Production</a></h3><ul class="DLauthors"><li class="nameList">Pierre-Louis Wolfgang Léon Suckrow</li><li class="nameList">Christoph Johannes Weber</li><li class="nameList Last">Sylvia Rothe</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In this paper, we explore the usability of generative artificial intelligence in music production through the development of a digital instrument that incorporates diffusion-based sound synthesis in its sound generation. Current text-to-audio models offer a novel method of defining sounds, which we aim to render utilizable in a music-production environment. Selected pretrained latent diffusion models, enable the synthesis of playable sounds through textual descriptions, which we incorporated into a digital instrument that integrates with standard music production tools. The resultant user interface not only allows generating but also modifying the sounds by editing model and instrument-specific parameters. We evaluated the applicability of current diffusion models with their parameters as well as the fitness of possible prompts for music production scenarios. Adapting published diffusion model pipelines for integration into the instrument, we facilitate experimentation and exploration of this innovative sound synthesis method. Our findings show that despite facing some limitations in the models' responsiveness to specific music production contexts and the instrument's functionality, the tool allows the development of novel and intriguing soundscapes. The instrument and code is published under https://github.com/suckrowPierre/WaveGenSynth</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677996.3678291">A Progressive-Adaptive Music Generator (PAMG): An Approach to Interactive Procedural Music for Videogames</a></h3><ul class="DLauthors"><li class="nameList Last">Alvaro Eduardo Lopez Duarte</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Procedural music generation in video game is rarely used in
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+development despite its potential support for interactive narratives,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+and falls behind broadly-used procedural methods
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+like graphic management. Currently, developers rely on preproduced
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+audio sequences, focusing on sound quality while
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+balancing storage and variety. Techniques like layering and
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+re-sequencing are standard through sound design platforms
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+like FMOD and Wwise, allowing adaptation and interactivity
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+in gameplay. However, this can lead to repetitive audio,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+which becomes particularly noticeable in extended gaming
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+sessions, diminishing the impact of musical storytelling.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This study introduces the ProgressiveAdaptive Music Generator
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(PAMG), an algorithmic system that generates continuous
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+music streams based on gameplay variables, seamlessly
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+transitioning between moods, styles, and tension levels. It
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+includes motivation, theoretical framework in the field of
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+generative music, overview of the system structure, and a
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+preliminary implementation test involving a Trial Game that
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+compares conventional implementation with PAMG. In the
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+discussion section, it addresses test results and issues, and future
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+work. The study reveals a preference for PAMG’s music
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+over traditional methods in certain aspects, although results
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+are not conclusive.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677996.3678296">Demo: Progressive-Adaptive Music Generator (PAMG) and the Trial Game</a></h3><ul class="DLauthors"><li class="nameList Last">Alvaro Eduardo Lopez Duarte</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The present Demo is submitted as a companion of the paper
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+"A Progressive-Adaptive Music Generator: an Approach to
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Interactive Procedural music for Videogames". PAMG is a
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+software able to generate music in real time adapting and
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+progressing to game variables. The experience demonstrates
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PAMG through a gameplay session of the Trial Game, a
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+first-person shooter (FPS) specifically designed to illustrate
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PAMG capabilities. It starts by a brief presentation of the
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+model, its motivation, architecture, and interface. Then, a description of the Trial Game and the preliminary evaluation
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+test with the main discussion points that stem from its
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+results. After the introduction (5-7 minutes), a person from
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+the audience will be invited to play in a table in front of a
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+big screen using a conventional computer keyboard and a
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+mouse. The audience will be able to see the gameplay, listen
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+to the progressive-adaptive music, and compare the result
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+with the clip-based implementation (CBI) that was used for
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+the test. In an additional monitor screen, the PAMG’s development
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+interface will display the parameters and activity in
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+real time.</p>
+			</div></div>
+							
+						</div></div></body></html>

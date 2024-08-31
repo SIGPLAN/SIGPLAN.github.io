@@ -1,0 +1,366 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>Haskell 2024: Proceedings of the 17th ACM SIGPLAN International Haskell Symposium</title></head><body><div id="DLtoc"><div id="DLheader"><h1>Haskell 2024: Proceedings of the 17th ACM SIGPLAN International Haskell Symposium</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3677999"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677999.3678274">Haskelite: A Tracing Interpreter Based on a Pattern-Matching Calculus</a></h3><ul class="DLauthors"><li class="nameList">Pedro Vasconcelos</li><li class="nameList Last">Rodrigo Marques</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Many Haskell textbooks explain the evaluation of pure functional
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ programs as a process of stepwise rewriting using equations.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ However, usual implementation techniques perform program
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ transformations that make producing the corresponding tracing
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ evaluations difficult.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ This paper presents a tracing interpreter for a subset of Haskell
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ based on the pattern matching calculus of Kahl. We start from a
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ big-step semantics in the style of Launchbury and develop a
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ small-step semantics in the style of Sestoft's machines. This
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ machine is used in the implementation of a step-by-step educational
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ interpreter. We also discuss some implementation decisions and
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ present illustrative examples.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677999.3678275">Higher Order Patterns for Rewrite Rules</a></h3><ul class="DLauthors"><li class="nameList Last">Jaro Reinders</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>GHC’s rewrite rules enable programmers to write local program transformation  rules for their own functions. The most notable use case are fusion  optimizations, which merge multiple traversals of a data structure into one and  avoids allocation of intermediate structures. However, GHC’s rewrite rules were  too limited to express a rewrite rule that is necessary for proper fusion of the  concatMap function in a variant of fusion called stream fusion.    We introduce higher order patterns as a simple extension of GHC’s rewrite rules.  Higher order patterns substantially broaden the expressiveness of rewrite rules  that involve local variables. In particular, they enable the rewriting of  concatMap such that it can be properly optimized. We implement a  stream fusion framework to replace the existing fusion framework in GHC and  evaluate it on GHC’s benchmark suite. Our stream fusion framework with higher  order patterns shows an average speedup of 7% compared to our stream fusion  framework without it. However, our stream fusion framework is not yet able to  match the performance of GHC’s existing fusion framework.    Additionally, we show that our higher order patterns can be used to simplify  GHC’s existing mechanism for rolling back failed attempts at fusion and, at the  same time, solve a problem that prevented proper optimization in one example  program. However, evaluating it on GHC’s benchmark suite shows a small  regression in performance overall.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677999.3678276">Welcome to the Parti(tioning) (Functional Pearl): Using Rewrite Rules and Specialisation to Partition Haskell Programs</a></h3><ul class="DLauthors"><li class="nameList">Robert Krook</li><li class="nameList Last">Samuel Hammersberg</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Writing distributed applications is hard, as the programmer needs to describe the communication protocol between the different endpoints. If this is not done correctly, we can introduce bugs such as deadlocks and data races.  Tierless and choreographic programming models aim to make this easier by describing the interactions of every endpoint in a single compilation unit. When such a program is compiled, ideally, a single endpoint is projected and the code for the other endpoints is removed. This leads to smaller binaries with fewer dependencies, and is called <em>program partitioning</em>.  In this pearl, we show how we can use rewrite rules and specialisation to get GHC to partition our Haskell programs (almost) for free, if they are written using the Haste App or HasChor framework.  As an example of why partitioning is useful, we show how an example application can be more easily built and deployed after being partitioned.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677999.3678277">Cloaca: A Concurrent Hardware Garbage Collector for Non-strict Functional Languages</a></h3><ul class="DLauthors"><li class="nameList">Craig Ramsay</li><li class="nameList Last">Robert Stewart</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Most functional language runtime systems context switch between executing user
+ 
+code and a non-concurrent garbage collector (GC), exposing GC latency to overall 
+ 
+wall-clock time. Recent concurrent software-based GCs reduce these latencies,
+ 
+but wall-clock times are instead increased due to their synchronisation and
+ 
+write barrier overheads, by as much as 21%. This GC overhead is exacerbated
+ 
+further for pure non-strict languages like Haskell, due to the abundance of
+ 
+allocations for storing immutable data structures and closures. This paper
+ 
+presents Cloaca, an FPGA-based hardware implementation of a concurrent, hybrid
+ 
+GC for a pure non-strict functional language. It combines mark-and-sweep tracing
+ 
+and one-bit reference counting. It traces live heap data using hardware-level
+ 
+synchronisation and write barriers, without damaging graph reduction
+ 
+performance. To ensure the correctness of Cloaca, three invariants of its
+ 
+Haskell-based implementation are verified with property-based testing. Despite
+ 
+GHC running on an Intel i7 CPU operating at a x25 higher clock
+ 
+frequency than Cloaca; Cloaca takes, on average, 4.1% of GHC's GC wall-clock
+ 
+time across 14 of 15 benchmarks.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677999.3678278">Functional Reactive Programming, Rearranged</a></h3><ul class="DLauthors"><li class="nameList">Finnbar Keating</li><li class="nameList Last">Michael B. Gale</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>At present, the most efficient implementations of Arrowized Functional Reactive Programming (AFRP), such as Scalable FRP (SFRP), do not support the <em>loop</em> combinator. This prevents us from expressing fundamental programs in such implementations, which limits AFRP’s use in domains where both performance and expressivity are required. We introduce Oxbow, which extends SFRP with support for the loop combinator by leveraging an improved variant of the <em>rearrange</em> technique. In benchmarks, Oxbow performs at least 2.2x better than Yampa, an AFRP implementation that supports the <em>loop</em> combinator.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677999.3678279">Making a Curry Interpreter using Effects and Handlers</a></h3><ul class="DLauthors"><li class="nameList">Niels Bunkenburg</li><li class="nameList Last">Nicolas Wu</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Despite the intended use for prototyping or as a first step towards giving semantics to a new programming language, interpreters are often monolithic and difficult to extend. Higher-order effects and handlers promise modular composition of handlers and semantics; in practice, however, they have been mostly applied to toy examples. We present an approach that successfully combines algebraic, scoped, and latent effects into a handler pipeline for interpreting the functional logic programming language Curry. We show which effects make up Curry, discuss the infrastructure needed to combine effects of different classes and shed light on how these effects interact in order to lessen the barrier to entry for using effects in practical projects.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677999.3678281">Controlling Computation Granularity through Fusion in Improving Floating-Point Numbers</a></h3><ul class="DLauthors"><li class="nameList">Momoka Saito</li><li class="nameList">Hideya Iwasaki</li><li class="nameList">Hideyuki Kawabata</li><li class="nameList Last">Tsuneyasu Komiya</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Improving Floating-Point Numbers (IFN) is a numerical computation library for Haskell. It allows the user to directly specify the accuracy of the result, making accurate computation easy. The library's computation process is based on adaptive control of accuracies, which propagates the demands for more accurate values from an expression to its appropriate subexpressions. However, despite its unique features, programs utilizing the IFN library often encounter efficiency issues regarding memory consumption and execution time due to its fine granularity of computations. This paper presents the computational granularity control mechanism through fusion transformation to resolve these problems and proposes two fusion strategies, the maximal fusion and chain fusion. We have successfully implemented a fusion system that automatically applies these strategies through program transformation. Its effectiveness was confirmed through numerical computation programs.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677999.3678282">Liquid Amortization: Proving Amortized Complexity with LiquidHaskell (Functional Pearl)</a></h3><ul class="DLauthors"><li class="nameList Last">Jan van Brügge</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Formal reasoning about the time complexity of algorithms and data structures is usually done in interactive theorem provers like Isabelle/HOL. This includes reasoning about <em>amortized</em> time complexity which looks at the worst case performance over a <em>series</em> of operations. However, most programs are not written within a theorem prover and thus use the data structures of the production language. To verify the correctness it is necessary to translate the data structures from the production language into the language of the prover. Such a translation step could introduce errors, for example due to a mismatch in features between the two languages.  We show how to prove amortized complexity of data structures directly in Haskell using LiquidHaskell. Besides skipping the translation step, our approach can also provide a didactic advantage. Learners do not have to learn an additional language for proofs and can focus on the new concepts only. For this paper, we do not assume prior knowledge of amortized complexity as we explain the concepts and apply them in our first case study, a simple stack with multipop. Moving to more complicated (and useful) data structures, we show that the same technique works for binomial heaps which can be used to implement a priority queue. We also prove amortized complexity bounds for Claessen’s version of the finger tree, a sequence-like data structure with constant-time cons/uncons on either end. Finally we discuss the current limitations of LiquidHaskell that made certain versions of the data structures not feasible.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677999.3678283">Calculating Compilers Effectively (Functional Pearl)</a></h3><ul class="DLauthors"><li class="nameList">Zac Garby</li><li class="nameList">Graham Hutton</li><li class="nameList Last">Patrick Bahr</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Much work in the area of compiler calculation has focused on pure languages.
+ 
+While this simplifies the reasoning, it reduces the applicability. In this
+ 
+article, we show how an existing compiler calculation methodology can be
+ 
+naturally extended to languages with side effects. We achieve this by
+ 
+exploiting an algebraic approach to effects, which keeps the reasoning simple
+ 
+and provides flexibility in how effects are interpreted. To make the ideas
+ 
+accessible we only use elementary functional programming techniques.</p>
+			</div></div>
+							
+						<h2>SESSION: Talk Proposal</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3677999.3678280">MicroHs: A Small Compiler for Haskell</a></h3><ul class="DLauthors"><li class="nameList Last">Lennart Augustsson</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>MicroHs is a compiler for Haskell2010. It translates Haskell to SKI style combinators via λ-calculus. The runtime system is quite small with few dependencies.</p>
+			</div></div>
+							
+						</div></div></body></html>

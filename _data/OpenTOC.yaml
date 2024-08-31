@@ -1405,3 +1405,31 @@
   event: ICFP
   year: 2024
   title: "Proceedings of the ACM on Programming Languages: Vol. 8, No. ICFP. 2024"
+-
+  event: Haskell
+  year: 2024
+  title: "Proceedings of the 17th ACM SIGPLAN International Haskell Symposium"
+-
+  event: TyDe
+  year: 2024
+  title: "Proceedings of the 9th ACM SIGPLAN International Workshop on Type-Driven Development"
+-
+  event: FARM
+  year: 2024
+  title: "Proceedings of the 12th ACM SIGPLAN International Workshop on Functional Art, Music, Modelling, and Design"
+-
+  event: FUNARCH
+  year: 2024
+  title: "Proceedings of the 2nd ACM SIGPLAN International Workshop on Functional Software Architecture"
+-
+  event: FProPer
+  year: 2024
+  title: "Proceedings of the 1st ACM SIGPLAN International Workshop on Functional Programming for Productivity and Performance"
+-
+  event: Erlang
+  year: 2024
+  title: "Proceedings of the 23rd ACM SIGPLAN International Workshop on Erlang"
+-
+  event: Haskell
+  year: 2024
+  title: "Proceedings of the 17th ACM SIGPLAN International Haskell Symposium"
