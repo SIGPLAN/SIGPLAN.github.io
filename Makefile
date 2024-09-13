@@ -5,7 +5,7 @@ build: vendor/bundle
 
 .PHONY: serve
 serve: vendor/bundle
-	bundle exec jekyll serve
+	bundle exec jekyll serve --livereload
 
 .PHONY: update
 update: vendor/bundle
