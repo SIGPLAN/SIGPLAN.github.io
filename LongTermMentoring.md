@@ -20,25 +20,25 @@ Here are some testimonials from mentees:
 > [SIGPLAN-M is] a career saver!
 
 > [My mentor] is incredible AND the only person I talk to regularly who has an interest in the same topics that I do. Talking with [my mentor] gives me a sense of community that I hadn't had before.
- 
+
 > [SIGPLAN-M] was life changing.
 
 > I wouldn't be able to obtain technical feedback for my work if SIGPLAN-M did not exist.
- 
+
 > Just talking to [my mentor] is incredibly validating. [My mentor's] support means the world to me.
- 
+
 > My mentor is amazing... Also, they made me think differently (in a positive way) about Academia and made me want to stay :).
- 
+
 > I had no idea what I was doing before, but now I have a pretty good idea of what to work on and a better sense of if I'm doing the right things/enough for grad school applications.
- 
+
 > I got help in all aspects - from research to getting through [a] graduate program.
 
 Check out our [Twitter](https://twitter.com/SigplanM) for the latest news! You can also read more about us in [our article](https://dependenttyp.es/pdf/mentoring.pdf) in Communications of the ACM.
 
 ## Committee Members
 
-- **Operations Team**: [Reshabh Sharma](https://www.linkedin.com/in/reshabh/), [Ronak Chauhan](https://in.linkedin.com/in/ronchauhan), [Yannick Forster](https://yforster.github.io/), [Shraddha Barke](https://shraddhabarke.github.io/), [Kiran Gopinathan](https://gopiandcode.uk/), [Yunjeong Lee](http://www.leeyunjeong.com/), [Jialu Bao](https://baojia.lu/about/)
-- **Rematching Coordinators**: [Jocelyn Chen](https://www.cs.utexas.edu/~qchen/), [Alexa VanHattum](https://www.cs.cornell.edu/~avh/)
+- **Operations Team**: [Jai Arora](https://www.linkedin.com/in/jaiarora0011/), [Carolina Carreira](https://carolinacarreira.github.io/), [Ronak Chauhan](https://in.linkedin.com/in/ronchauhan), [Kiran Gopinathan](https://gopiandcode.uk/), [Yunjeong Lee](http://www.leeyunjeong.com/), [Jacqueline Mitchell](https://www.linkedin.com/in/jacqueline-mitchell-476aa318a/), [Reshabh Sharma](https://www.linkedin.com/in/reshabh/)
+- **Rematching Coordinators**: [Houda Boukham](https://www.linkedin.com/in/houda-boukham-821198142/), [Jocelyn Chen](https://www.cs.utexas.edu/~qchen/)
 - **Advisory Board**: [Alexandra Silva](https://alexandrasilva.org/), [David Van Horn](https://www.cs.umd.edu/~dvanhorn/), [Dimitrios Vytiniotis](https://dimitriv.github.io/), [Sebastian Erdweg](https://www.pl.informatik.uni-mainz.de/), [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/), [Sukyoung Ryu](https://plrg.kaist.ac.kr/ryu)
 - **Chair**:  [Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova/)
 - **Previous Chair**: [Talia Ringer](https://dependenttyp.es/)
@@ -89,7 +89,7 @@ We'd like to thank these amazing mentors:
 - Sebastian Erdweg
 - Tobias Grosser
 - Jason Hemann
-- Kuen-Bang Hou (Favonia) 
+- Kuen-Bang Hou (Favonia)
 - Patrik Jansson
 - Ralf Jung
 - Konstantinos Kallas
