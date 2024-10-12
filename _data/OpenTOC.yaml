@@ -1380,7 +1380,7 @@
 -
   event: OOPSLA
   year: 2024
-  title: "Proceedings of the 2019 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications"
+  title: "Proceedings of the 2024 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications, Volume 1"
 -
   event: ISMM
   year: 2024
@@ -1433,3 +1433,8 @@
   event: Haskell
   year: 2024
   title: "Proceedings of the 17th ACM SIGPLAN International Haskell Symposium"
+-
+  event: OOPSLA
+  year: 2024
+  title: "Proceedings of the 2024 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications, Volume 2"
+  link: oopsla24-2.html
