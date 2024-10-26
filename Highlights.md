@@ -12,8 +12,8 @@ also recommended for consideration for the
 
 ### Nomination Process
 
-As of 2024, committee considers papers published in POPL, PLDI, ICFP,
-OOPSLA, ASPLOS, and PPoPP, nominated from two sources:
+As of 2024, the committee considers papers published in POPL, PLDI,
+ICFP, OOPSLA, ASPLOS, and PPoPP, nominated from two sources:
 
 - **Committee**: The SIGPLAN Research Highlights Committee, working
   closely with the program chairs from the conferences they represent,
@@ -21,7 +21,7 @@ OOPSLA, ASPLOS, and PPoPP, nominated from two sources:
   for consideration by the full committee.
 
 - **Community**: Any SIGPLAN member may nominate a paper appearing in
-  one of six flagship SIGPLAN conferences (see the list above) by
+  one of six flagship SIGPLAN conferences (from the list above) by
   emailing their nominations to the Highlights Committee Chair.
   Authors may not nominate their own papers.
 
