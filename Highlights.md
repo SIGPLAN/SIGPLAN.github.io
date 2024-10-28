@@ -12,7 +12,8 @@ also recommended for consideration for the
 
 ### Nomination Process
 
-The committee considers nominated papers from two sources:
+As of 2024, the committee considers papers published in POPL, PLDI,
+ICFP, OOPSLA, ASPLOS, and PPoPP, nominated from two sources:
 
 - **Committee**: The SIGPLAN Research Highlights Committee, working
   closely with the program chairs from the conferences they represent,
@@ -20,30 +21,34 @@ The committee considers nominated papers from two sources:
   for consideration by the full committee.
 
 - **Community**: Any SIGPLAN member may nominate a paper appearing in
-  a SIGPLAN conference. Authors may not nominate their own papers.
+  one of six flagship SIGPLAN conferences (from the list above) by
+  emailing their nominations to the Highlights Committee Chair.
+  Authors may not nominate their own papers.
 
-Nominations can be made at this [website](http://cacm.sigplan.org).
-
+<!-- Nominations can be made at this [website](http://cacm.sigplan.org). -->
 
 ### SIGPLAN Research Highlights Papers
 
-As of July 2020, 58 papers have been recognized by the SIGPLAN
-Research Highlights committee, and 34 SIGPLAN papers have been selected to appear as CACM Research Highlights. 
-This [webpage]({% link Highlights/Papers.md %}) contains the full list of papers.
+As of September 2021, 62 papers have been recognized by the SIGPLAN
+Research Highlights committee, and 34 SIGPLAN papers have been
+selected to appear as CACM Research Highlights. This [webpage]({% link
+Highlights/Papers.md %}) contains the full list of papers.
 
 ### SIGPLAN Research Highlights Committee
 
-Chair, [Tony Hosking](https://cs.anu.edu.au/tony-hosking/), [antony.hosking@anu.edu.au](mailto:antony.hosking@anu.edu.au)  
-Past Chair, [Emery Berger](http://www.emeryberger.org/), [emery@cs.umass.edu](mailto:emery@cs.umass.edu)  
-POPL, [Mathias Heizmann](https://swt.informatik.uni-freiburg.de/staff/heizmann)  
-PLDI, [Ranjit Jhala](https://cse.ucsd.edu/people/faculty-profiles/ranjit-jhala)  
-ICFP, [Nate Foster](https://www.cs.cornell.edu/~jnfoster/)  
-OOPSLA, [Stephen Kell](https://www.kcl.ac.uk/people/stephen-kell)  
-ASPLOS, [Milind Kulkarni](https://engineering.purdue.edu/~milind/)  
-PPoPP, [Erez Petrank](http://www.cs.technion.ac.il/~erez/)  
-SIGPLAN Chair [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/)  
-Past SIGPLAN Chair, [Jens Palsberg](http://www.cs.ucla.edu/~palsberg)  
+Research Highlights Chair: [Ilya Sergey](https://ilyasergey.net/)  
+POPL: [Azalea Raad](https://www.soundandcomplete.org/)  
+PLDI: [Loris D'Antoni](https://cseweb.ucsd.edu/~ldantoni/)  
+ICFP: [Nate Foster](https://www.cs.cornell.edu/~jnfoster/)  
+OOPSLA: [Stephen Kell](https://www.kcl.ac.uk/people/stephen-kell)  
+ASPLOS: [Michael D. Bond](https://mdbond.github.io/)  
+PPoPP: [Erez Petrank](http://www.cs.technion.ac.il/~erez/)  
+SIGPLAN Chair: [Andrew C. Myers](https://www.cs.cornell.edu/andru/)  
+Past SIGPLAN Chair: [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/)  
 
-Further information about the review process that the committee uses
-is included in the original
-[proposal]({% link sites/default/files/CACM-nominating-committee-proposal.pdf %}).
+<!-- Past Chair, [Emery Berger](http://www.emeryberger.org/), [emery@cs.umass.edu](mailto:emery@cs.umass.edu)   -->
+
+
+<!-- Further information about the review process that the committee uses -->
+<!-- is included in the original -->
+<!-- [proposal]({% link sites/default/files/CACM-nominating-committee-proposal.pdf %}). -->
