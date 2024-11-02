@@ -31,7 +31,7 @@ Co-chairs may be drawn from the current committee or the community at large. The
  
 ### Committee member appointments
  
-Anyone may suggest potential committee members to the co-chairs, e.g., suggest your colleague or yourself.  The SIGPLAN Executive Committee may also propose members.  Committee members should be well known and respected community members to encourage reporting. Because of the gravity and personal nature of this committee, ensuring committee members should be empathetic and trustworthy, and discretion is of the utmost importance.
+Anyone may suggest potential committee members to the co-chairs, e.g., suggest your colleague or yourself.  For self-nominations, the CARES committee will ask for 2-3 references. The SIGPLAN Executive Committee may also propose members.  Committee members should be well known and respected community members to encourage reporting. Because of the gravity and personal nature of this committee, ensuring committee members should be empathetic and trustworthy, and discretion is of the utmost importance.
  
 The co-chairs and current CARES committee members will vet potential committee members by seeking input from their collaborators, others who know the nominated people well, and SIGPLAN.  The SIGPLAN Chair will approve all new members.  Only after this process will new members be invited by the co-chairs to serve. New members are required to take inclusion and harassment prevention training. There is no upper bound on the number of committee members. A lower bound of six members is suggested.
  
