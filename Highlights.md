@@ -10,10 +10,18 @@ SIGPLAN's major conferences and elected officials.  These papers are
 also recommended for consideration for the
 [CACM](http://cacm.acm.org/) Research Highlights section.
 
+### SIGPLAN Research Highlights Papers
+
+As of September 2021, 62 papers have been recognized by the SIGPLAN
+Research Highlights committee, and 34 SIGPLAN papers have been
+selected to appear as CACM Research Highlights. This [webpage]({% link
+Highlights/Papers.md %}) contains the full list of papers.
+
+
 ### Nomination Process
 
-As of 2024, the committee considers papers published in POPL, PLDI,
-ICFP, OOPSLA, ASPLOS, and PPoPP, nominated from two sources:
+The committee considers papers published in POPL, PLDI, ICFP, OOPSLA,
+ASPLOS, and PPoPP, nominated from two sources:
 
 - **Committee**: The SIGPLAN Research Highlights Committee, working
   closely with the program chairs from the conferences they represent,
@@ -22,17 +30,17 @@ ICFP, OOPSLA, ASPLOS, and PPoPP, nominated from two sources:
 
 - **Community**: Any SIGPLAN member may nominate a paper appearing in
   one of six flagship SIGPLAN conferences (from the list above) by
-  emailing their nominations to the Highlights Committee Chair.
-  Authors may not nominate their own papers.
+  following the guidelines for the respective Call for Nominations
+  (see below). Authors may not nominate their own papers.
+  
+### Call for Nominations for 2021-2023 
+
+SIGPLAN members are invited to submit nominations for the papers
+published in 2021-2023 via [this
+form](https://forms.gle/y8MM2htdCk1QEGez6). The deadline for the
+nominations is **21 November 2024 AoE**.
 
 <!-- Nominations can be made at this [website](http://cacm.sigplan.org). -->
-
-### SIGPLAN Research Highlights Papers
-
-As of September 2021, 62 papers have been recognized by the SIGPLAN
-Research Highlights committee, and 34 SIGPLAN papers have been
-selected to appear as CACM Research Highlights. This [webpage]({% link
-Highlights/Papers.md %}) contains the full list of papers.
 
 ### SIGPLAN Research Highlights Committee
 
