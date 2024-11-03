@@ -34,7 +34,7 @@ confusion over article versioning.
 {% for i in items %}
 
 {% assign event = i.event %}
-{% assign name = event | downcase | remove: "!" %}
+{% assign name = event | downcase | remove: "!" | replace: " ", "-" %}
 {% assign year = i.year %}
 {% assign shortyear = year | slice: -2,2 %}
 {% assign title = i.title %}
