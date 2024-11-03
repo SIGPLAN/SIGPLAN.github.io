@@ -1,0 +1,36 @@
+active:
+  - name: Nicole Heinimann
+    image: https://conf.researchr.org/getProfileImage/nicoleheinimann/05e5f59c-af9b-43d6-a4dc-0edac3ab80ba/avatar.jpg
+  - name: Nicola Assolini
+    image: https://conf.researchr.org/getProfileImage/nicolaassolini/98016cbe-ba0a-4352-9297-31fc38c63b75/avatar.jpg
+  - name: Eduardo Madeira
+    image: https://conf.researchr.org/getProfileImage/eduardomadeira/42073539-cbf3-4609-b04b-0a63287afd82/small.jpg
+  - name: Alexander Bai
+    image: https://conf.researchr.org/getProfileImage/alexanderbai/dc1a164a-690d-4c08-926d-de8f9ab476d5/small.jpg
+  - name: Jessica Foster
+    image: https://icfp24.sigplan.org/getProfileImage/jessicafoster/447e864c-9571-4c54-9f51-0e78d5d07ea4/small.jpg
+  - name: Ethan Range
+    image: https://conf.researchr.org/getProfileImage/ethanrange/a82e09a2-116a-4794-a499-13496f915d0a/small.jpg
+  - name: Chris Lam
+    image: https://conf.researchr.org/getProfileImage/christopherlam1/00386a60-bf17-48da-8942-0d2815d7fa08/small.jpg
+  - name: Jan-Paul Ramos
+    image: https://conf.researchr.org/getProfileImage/janpaulramosdavila/156687da-3cdb-4157-b31e-636bb71b31dc/small.jpg
+  - name: Max Sun
+    image: https://conf.researchr.org/getProfileImage/maxsun/7f927b55-626c-4c5c-9ac8-e10beb3d0b76/small.jpg
+  - name: John Hui
+    image: https://conf.researchr.org/getProfileImage/johnhui/54a9a819-59d8-4b2c-96f8-76f813666876/small.jpg
+  - name: Zixian Cai
+    image: https://conf.researchr.org/getProfileImage/zixiancai/22d210bf-85c3-49e6-8278-4ea50f3290dd/small.jpg
+  - name: Guilherme Espada
+    image: https://conf.researchr.org/getProfileImage/guilhermeespada/221aa9ee-6215-4712-b6df-a5a09d269e04/small.jpg
+  - name: Apoorv Ingle
+    image: https://conf.researchr.org/getProfileImage/apoorvingle/76632b78-6d6b-4f2e-9c36-af0a9e1a5fdb/small.jpg
+
+emeritus:
+  - name: Bhakti Shah
+    image: https://conf.researchr.org/getProfileImage/bhaktishah/624a5a4c-260a-43c9-b37a-eff79a3654f5/small.jpg
+  - name: Leif Andersen
+    image: https://conf.researchr.org/getProfileImage/leifandersen/022e7f05-2a9a-4e3d-8be9-418b798e00c0/small.jpg
+  - name: Benjamin Chung
+    image: https://conf.researchr.org/getProfileImage/benjaminchung/30978af0-bcee-4c1e-9dd1-f2588ea14f38/small.jpg
+

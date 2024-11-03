@@ -1,3 +1,26 @@
+2024:
+- Awardee: |
+    Steven Arzt, Siegfried Rasthofer, Christian Fritz, Eric Bodden,
+    Alexandre Bartel, Jacques Klein, Yves Le Traon, Damien Octeau,
+    Patrick McDaniel
+  Other: |
+    (for 2014) _[FlowDroid: Precise Context, Flow, Field,
+    Object-sensitive and Lifecycle-aware Taint Analysis for Android
+    Apps](https://dl.acm.org/doi/10.1145/2594291.2594299)_
+  Citation: |
+    This paper introduced FlowDroid: a context-, flow-, field-,
+    object-sensitive and lifecycle-aware static taint analysis tool
+    for Android applications. Unlike other static-analysis approaches
+    at the time it achieved very high recall and precision. FlowDroid
+    addresses two main challenges: precision requires an analysis that
+    is context-, flow-, field- and object-sensitive; recall demands a
+    complete model of Android’s app lifecycle and execution
+    environment including user interaction. FlowDroid as a tool has
+    since been widely used in studies of privacy and security for
+    Android, and has inspired further innovation in security analysis
+    of Android apps. FlowDroid continues to be maintained, actively
+    used, and frequently cited, demonstrating its ongoing influence.
+
 2023:
 - Awardee: |
     Jonathan Ragan-Kelley (MIT), Connelly Barnes (Adobe), Andrew Adams (Adobe),

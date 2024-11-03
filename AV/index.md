@@ -3,37 +3,33 @@ layout: default
 title: "SIGPLAN-AV"
 ---
 
-SIGPLAN-AV is a subcommitee of SIGPLAN whose goal is to centralize the efforts of finding innovative and cost effective ways to:
-  1. enable remote participation (hybridization of conferences), and;
-  2. record conference talks for archival
+### About us
 
-#### Current Members
+SIGPLAN-AV is a volunteer-led team that operates within SIGPLAN. Our goal is to centralize the efforts of finding innovative and cost effective ways to enable remote participation (hybridization of conferences) and record conference talks for archival. We are able to manage the entire pipeline --- from setting up the rooms pre-conference, to uploading the recorded content post-conference.
 
-1. Bhakti Shah
-2. Chris Lam
-3. Jan-Paul Ramos
-4. John Hui
-5. Zixian Cai
-6. Guilherme Espada
-7. Apoorv Ingle
+Every event we cover is available at no cost in the [ACM SIGPLAN YouTube channel](https://www.youtube.com/@acmsigplan).
 
-#### Past Members
+### For General Chairs
 
-1. Lief Anderson
-2. Benjamin Chung (and many more)
-
-
-#### For general chairs
+We manage enough equipment for recording and streaming up to 8 parallel events.
+It is recommended to include the team at least 3 months in advance, before the contract with the conference venue is finalized to enable smooth functioning.
 
 <p>
-If you are a general chair of a SIGPLAN conference and are interested in working with SIGPLAN-AV, please email <script>document.write("<a href='"+atob("bWFpbHRvOnNpZ3BsYW4tYXZAZ29vZ2xlZ3JvdXBzLmNvbQ==")+"'>"+atob("c2lncGxhbi1hdkBnb29nbGVncm91cHMuY29t")+"</a>.")</script><noscript><img src="mail.png" border="0" height="28" width="240"><font face="Arial" size="3"><br>&nbsp;</font></noscript>
+If you are a General Chair of a SIGPLAN-associated conference and are interested in working with SIGPLAN-AV, please email us at <script>document.write("<a href='"+atob("bWFpbHRvOnNpZ3BsYW4tYXZAZ29vZ2xlZ3JvdXBzLmNvbQ==")+"'>"+atob("c2lncGxhbi1hdkBnb29nbGVncm91cHMuY29t")+"</a>.")</script><noscript><img src="mail.png" border="0" height="28" width="240"><font face="Arial" size="3"><br>&nbsp;</font></noscript>
 </p>
 
-SIGPLAN owns enough hardware (laptops, cameras and microphones) which can be used to setup streaming and recording of upto 8 parallel co-located events.
+### For Prospective Members
 
-It is advisable to include the AV team atleast 3 months in advance, ideally before the contract with the conference venue is finalized to enable smooth functioning.
+We are always looking for highly motivated volunteers to join the team! If you are interested in helping contact us using the email above.
 
+### Active Members
 
-#### For Prospective members
+{% include av-committee.liquid group="active" header=true %}
 
-If you are interested in helping us, we are always looking for more volunteers to help us at conferences! Please get in touch with us using the above email.
+### Members Emeritus
+
+{% include av-committee.liquid group="emeritus" header=true %}
+
+<i style="text-align: center; display: inline-block; width: 100%;">
+We would also like to thank all who contributed to AV before it adopted the structure we have today.
+</i>

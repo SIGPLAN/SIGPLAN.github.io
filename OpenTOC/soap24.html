@@ -1,0 +1,240 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>SOAP 2024: Proceedings of the 13th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis</title></head><body><div id="DLtoc"><div id="DLheader"><h1>SOAP 2024: Proceedings of the 13th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3652588"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652588.3663316">Dr Wenowdis: Specializing Dynamic Language C Extensions using Type Information</a></h3><ul class="DLauthors"><li class="nameList">Maxwell Bernstein</li><li class="nameList Last">Carl Friedrich Bolz-Tereick</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>C-based interpreters such as CPython make extensive use of C "extension"
+ 
+ 
+ 
+code, which is opaque to static analysis tools and faster runtimes with JIT
+ 
+ 
+ 
+compilers, such as PyPy. Not only are the extensions opaque, but the interface
+ 
+ 
+ 
+between the dynamic language types and the C types can introduce impedance. We
+ 
+ 
+ 
+hypothesise that frequent calls to C extension code introduce significant
+ 
+ 
+ 
+overhead that is often unnecessary.
+ 
+ 
+ 
+
+ 
+ 
+ 
+We validate this hypothesis by introducing a simple technique, "typed
+ 
+ 
+ 
+methods", which allow selected C extension functions to have additional
+ 
+ 
+ 
+metadata attached to them in a backward-compatible way. This additional
+ 
+ 
+ 
+metadata makes it much easier for a JIT compiler (and as we show, even an
+ 
+ 
+ 
+interpreter!) to significantly reduce the call and return overhead.
+ 
+ 
+ 
+
+ 
+ 
+ 
+Although we have prototyped typed methods in PyPy, we suspect that the
+ 
+ 
+ 
+same technique is applicable to a wider variety of language runtimes and
+ 
+ 
+ 
+that the information can also be consumed by static analysis tooling.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652588.3663317">Interleaving Static Analysis and LLM Prompting</a></h3><ul class="DLauthors"><li class="nameList">Patrick J. Chapman</li><li class="nameList">Cindy Rubio-González</li><li class="nameList Last">Aditya V. Thakur</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This paper presents a new approach for using Large Language Models (LLMs) to improve static program analysis. Specifically, during program analysis, we <em>interleave</em> calls to the static analyzer  and queries to the LLM: the prompt used to query the LLM is constructed using intermediate results from the static analysis, and the result from the LLM query is used for subsequent analysis of the program. We apply this novel approach to the problem of error-specification inference of functions in systems code written in C; i.e., inferring the set of values returned by each function upon error, which can aid in program understanding as well as in finding error-handling bugs. We evaluate our approach on real-world C programs, such as MbedTLS and zlib, by incorporating LLMs into EESI, a state-of-the-art static analysis for error-specification inference. Compared to EESI, our approach achieves higher recall across all benchmarks (from average of 52.55% to 77.83%) and higher F1-score (from average of 0.612 to 0.804) while maintaining precision (from average of 86.67% to 85.12%).</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652588.3663318">A Better Approximation for Interleaved Dyck Reachability</a></h3><ul class="DLauthors"><li class="nameList">Giovanna Kobus Conrado</li><li class="nameList Last">Andreas Pavlogiannis</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Interleaved Dyck reachability is a standard, graph-based formulation of a plethora of static analyses that seek to be <em>context-</em> and <em>field-</em> sensitive, where each type of sensitivity is expressed via a CFL/Dyck language. Unfortunately, the problem is well-known to be undecidable in general, and as such, existing approaches resort to clever overapproximations. Recently, a mutual refinement algorithm, that iteratively considers each of the two sensitivities in isolation until a fixpoint is reached, was shown to achieve high precision.    In this work we present a more precise approximation of interleaved Dyck reachability, by extending the mutual-refinement algorithm in two directions. First, we develop refined CFLs to express each type of sensitivity precisely, while simultaneously also lightly overapproximating the opposite type. Second, we apply the resulting algorithm on an on-demand basis, which effectively masks out imprecision incurred by parts of the graph that are irrelevant for the query at hand. Our experiments show that the new approach offers significantly higher precision than the vanilla mutual-refinement algorithm and other common baselines; for a particularly challenging benchmark, we report, on average, 51% of the reachable pairs compared to the most recent alternative.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652588.3663320">Interactive Source-to-Source Optimizations Validated using Static Resource Analysis</a></h3><ul class="DLauthors"><li class="nameList">Guillaume Bertholon</li><li class="nameList">Arthur Charguéraud</li><li class="nameList">Thomas Kœhler</li><li class="nameList">Begatim Bytyqi</li><li class="nameList Last">Damien Rouhling</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Developments in hardware have delivered formidable computing power. Yet, the increased hardware complexity has made it a real challenge to develop software that exploits the hardware to its full potential. Numerous approaches have been explored to help programmers turn naive code into high-performance code, finely tuned for the targeted hardware. However, these approaches have inherent limitations, and it remains common practice for programmers seeking maximal performance to follow the tedious and error-prone route of writing optimized code by hand.  This paper presents OptiTrust, an interactive source-to-source optimization framework that operates on general-purpose C code. The programmer develops a script describing a series of code transformations. The framework provides continuous feedback in the form of human-readable <em>diff</em>s over conventional C code. OptiTrust supports advanced code transformations, including transformations exploited by the state-of-the-art DSL tools Halide and TVM, and transformations beyond the reach of existing tools. OptiTrust also supports user-defined transformations, as well as defining complex transformations by composition of simpler transformations. Crucially, to check the validity of code transformations, OptiTrust leverages a <em>static resource analysis</em> in a simplified form of Separation Logic. Starting from user-provided annotations on functions and loops, our analysis deduces precise resource usage throughout the code.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652588.3663321">When to Stop Going Down the Rabbit Hole: Taming Context-Sensitivity on the Fly</a></h3><ul class="DLauthors"><li class="nameList">Julian Erhard</li><li class="nameList">Johanna Franziska Schinabeck</li><li class="nameList">Michael Schwarz</li><li class="nameList Last">Helmut Seidl</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Context-sensitive analysis of programs containing recursive procedures may be expensive, in particular, when using expressive domains, rendering the set of possible contexts large or even infinite. Here, we present a general framework for context-sensitivity that allows formalizing not only known approaches such as full context or call strings but also combinations of these. We propose three generic lifters in this framework to bound the number of encountered contexts on the fly. These lifters are implemented within the abstract interpreter Goblint and compared to existing approaches to context-sensitivity on the SV-COMP benchmark suite. On a subset of recursive benchmarks, all proposed lifters manage to reduce the number of stack overflows and timeouts compared to a full context approach, with one of them improving the number of correct verdicts by 31% and showing promising results on the considered SV-COMP categories.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652588.3663322">ValBench: Benchmarking Exact Value Analysis</a></h3><ul class="DLauthors"><li class="nameList">Marc Miltenberger</li><li class="nameList Last">Steven Arzt</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Value analysis is an important building block in static program analysis. While several approaches have been proposed, evaluating and comparing them is not trivial. Up to this day, a reliable and large benchmark specifically for value analysis is missing. Such a suite must not only provide test cases, but also a ground truth with the correct values to be found.
+ 
+In this paper, we propose ValBench, an extensible value benchmark suite consisting of 372 test cases for Java analysis and 59 test cases for Android analysis tools. Furthermore, we present an evaluation framework that automatically generates a ground truth for these test cases, identifies their respective challenges for program analysis and orchestrates the execution and result collection on the various value analysis tools. We further present an evaluation of 7 existing value analysis tools on ValBench and highlight the challenges faced by these tools as an empirical overview over the state of the art in value analysis.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652588.3663323">Static Analysis for Transitioning to CHERI C/C++</a></h3><ul class="DLauthors"><li class="nameList">Irina Dudina</li><li class="nameList Last">Ian Stark</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We describe and evaluate custom static analyses to support transitioning C/C++ code to <em>CHERI</em> hardware. CHERI is a novel architectural extension, implemented for RISC-V and AArch64, that uses <em>capabilities</em> to provide fine-grained memory protection and scalable software compartmentalisation. We provide custom checkers for the Clang Static Analyzer to handle capability alignment, copying through memory, and manipulation as integers; as well as evaluating these on a sample of packages from the CheriBSD ports library. While the existing CHERI toolchain can recompile large code collections for the platform with only a few source changes, we demonstrate that static analysis can help to identify where and what those changes must be to avoid later runtime faults.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652588.3663324">Misconceptions about Loops in C</a></h3><ul class="DLauthors"><li class="nameList">Martin Brain</li><li class="nameList Last">Mahdi Malkawi</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Loop analysis is a key component of static analysis tools. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Unfortunately, there are several rare edge cases. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+As a tool moves from academic prototype to production-ready, 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+obscure cases can and do occur. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This results in loop analysis being a key source of 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+late-discovered but significant algorithmic bugs. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+To avoid these, this paper presents a collection of examples 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+and "folklore" challenges in loop analysis.</p>
+			</div></div>
+							
+						</div></div></body></html>

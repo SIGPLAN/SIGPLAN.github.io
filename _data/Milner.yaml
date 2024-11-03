@@ -1,3 +1,27 @@
+2024:
+- Awardee: Armando Solar-Lezama
+  Citation: |
+    Program synthesis is an old idea that Armando reignited with the
+    Sketch system beginning with his Ph.D. work, setting the template
+    for subsequent program synthesis approaches---using a solver as
+    part of the synthesis pipeline. From helping to start benchmark
+    competitions in program synthesis, identifying new domains
+    (databases, CAD, ML) where program synthesis can be effectively
+    utilized, and developing fundamental ideas and synthesis
+    techniques, Armando has led in setting the agenda in one of the
+    most vibrant and exciting subfields of programming languages over
+    the last decade. Armando’s recent DreamCoder research continues to
+    lead the field, showing how to generalize program synthesis to
+    discover and leverage abstractions, dramatically increasing the
+    scale of computations that synthesis can successfully
+    target. Bridging also into machine learning, Armando has brought
+    program synthesis to enable neuro-symbolic computation with better
+    interpretability, verifiability, generalization, counterfactual
+    reasoning, and structuring computation search spaces for more
+    effective inference.
+
+    * Selection committee: Antony Hosking, Sandrine Blazy, Suresh Jagannathan, Ranjit Jhala, Éric Tanter.
+
 2023:
 - Awardee: Nate Foster
   Citation: |

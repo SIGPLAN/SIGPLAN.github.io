@@ -1,0 +1,711 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>JENSFEST '24: Proceedings of the Workshop Dedicated to Jens Palsberg on the Occasion of His 60th Birthday</title></head><body><div id="DLtoc"><div id="DLheader"><h1>JENSFEST '24: Proceedings of the Workshop Dedicated to Jens Palsberg on the Occasion of His 60th Birthday</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3694848"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3694848.3694851">The Normalization Barrier Revisited</a></h3><ul class="DLauthors"><li class="nameList">Shuo Ding</li><li class="nameList Last">Qirun Zhang</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In a POPL 2016 paper, Brown and Palsberg presented a breakthrough result on "the normalization barrier." The normalization barrier, according to conventional wisdom, originates from a theorem in computability theory, which says that a total universal function for all total computable functions is impossible. Therefore, it was widely believed that strongly normalizing lambda calculi do not have self-interpreters either. However, Brown and Palsberg constructed a self-interpreter for F-omega, which is a strongly normalizing lambda calculus. One of the key insights behind the Brown-Palsberg breakthrough is due to the fact that "static type checking in F-omega can exclude the (computability) proof’s diagonalization gadget, leaving open the possibility for a self-interpreter," according to Brown and Palsberg [2016].
+ 
+In this paper, we revisit this phenomenon. In particular, in the Brown-Palsberg result, terms in F-omega were encoded as typed representations, and an external type checker was assumed to do type checking. In our work, we consider a type checker assumed to be built into the interpreter, which reports type errors on ill-typed inputs. We believe this is closer to real interpreters. Consequently, our representation is untyped, and ill-typed inputs are specifically handled. Under this setting, we show that the original computability theory result still holds. Our result does not contradict the Brown-Palsberg result. Rather, it shows that computability theory results are still applicable to F-omega from a different angle, thus "rebuilding" the normalization barrier.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3694848.3694852">Towards Verification of a Denotational Semantics of Inheritance</a></h3><ul class="DLauthors"><li class="nameList Last">Peter D. Mosses</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Jens Palsberg's first research publication was an OOPSLA '89 paper, coauthored with William Cook. In that much-cited paper, the authors identify self-reference as a central feature of inheritance, and analyze it using fixed points. They then define both an operational and a denotational semantics of inheritance, and prove them equivalent. Their proof exploits an intermediate semantics, obtained by step-indexing the operational semantics – an early use of the so-called 'fuel pattern'. 
+</p>
+<p>
+This paper presents an Agda formulation of the definitions and lemmas from the OOPSLA '89 paper. The Agda proof assistant detected some minor issues when type-checking the definitions; after they had been fixed, Agda successfully checked all the steps in the proofs of the lemmas. The Agda definitions and proofs make the same assumptions as the OOPSLA '89 paper about the existence of recursively defined Scott domains, and about the continuity of the defined functions.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3694848.3694853">Lost and Found in the Fog of Trust</a></h3><ul class="DLauthors"><li class="nameList">Özgür Kesim</li><li class="nameList Last">Christian Grothoff</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The Fog of Trust protocol was supposed to allow a prover Peggy and a verifier
+ 
+ 
+ 
+Victor to perform a secure multiparty computation to determine the number of
+ 
+ 
+ 
+third parties that Victor trusted and that vouched for a certain property of
+ 
+ 
+ 
+Peggy. We intended to use formal methods to first state and then prove the
+ 
+ 
+ 
+privacy properties of the protocol. Instead, the analysis lead to the
+ 
+ 
+ 
+discovery of two previously unknown design failures that allow an adversary to
+ 
+ 
+ 
+break the privacy assurances the protocol was expected to provide. This paper
+ 
+ 
+ 
+briefly presents the Fog of Trust protocol and the vulnerabilities, which at
+ 
+ 
+ 
+this point we are unable to fix.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3694848.3694854">MiniJava on RISC-V: A Game of Global Compilers Domination</a></h3><ul class="DLauthors"><li class="nameList">Jack Forden</li><li class="nameList">Alexander Gebhard</li><li class="nameList">Maverick Berner</li><li class="nameList Last">Dennis Brylow</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Over two decades have passed since the first publication of Modern Compiler Implementation by Andrew
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Appel, with its second edition revised by Jens Palsberg. This textbook remains an essential guide for students, hobbyists, and researchers navigating the complexities of compiler construction. Despite this venerable textbook, designing a course on programming language compiler construction is a challenging task due to the intricate handling of syntax, semantics, and optimization processes it involves.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Students often enter compiler courses with limited knowledge of object-oriented languages, dynamic
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dispatch, and low-level assembly. Given the limited instruction time, educators find it more beneficial to focus on transferable skills rather than the intricacies of a particular instruction set architecture (ISA). While many computer science graduates may not work directly with low-level hardware or software, the concepts learned in compiler courses are crucial for a comprehensive understanding of programming languages.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This paper presents the work to keep the elegant MiniJava educational compiler relevant and modernized, including the implementation of a new instruction selection phase from Appel and Palsberg’s Modern Compiler Implementation (2e) to support current RISC-based targets. Our work targets another well-used educational platform, Embedded Xinu, as the operating system, allowing students to run their compiler output directly on RISC-based development boards that leverage their learning from prior systems courses, and negating the need for simulators, emulators, or virtual machines. Finally, we add a minimal garbage collector suitable for upper-level undergraduates and beginning graduate students to understand and experiment with. We plan to run the RISC-V MiniJava compiler assignments during the Fall 2024 semester.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3694848.3694855">The Essence of the Flyweight Design Pattern</a></h3><ul class="DLauthors"><li class="nameList">Fernando Magno Quintão Pereira</li><li class="nameList Last">Caio Raposo</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In 1998, Palsberg and Jay published a paper on the "Essence of the Visitor Pattern." Their approach to implementing visitors was able to achieve elegance without sacrificing efficiency. To pay homage to that work, this paper, 26 years later, discusses the essential characteristics of another design pattern: the Flyweight. This design pattern describes how to minimize memory usage when storing objects by sharing some of these objects' data with other similar objects. In this paper, we propose that, fundamentally, Flyweights can be incorporated as a built-in feature of programming languages that support the safe memoization of object constructors. Safety, in this context, ensures that the state of an object is not unintentionally altered due to implicit aliasing created by memoization. As a proof of concept, we have implemented our interpretation of the flyweight pattern as a native feature of the Hush programming language. By marking functions that create objects to be memoized, we demonstrate how the flyweight technique naturally emerges. The key to correctness is the use of shared-ownership pointers to reference memoized objects. This approach ensures that mutation of memoized objects causes their removal from the memoization cache. Our implementation incurs minimal performance overhead, as experiments indicate: attributes of memoized objects are accessed with one extra level of indirection, while attributes of non-memoized objects are accessed as in the original implementation of Hush.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3694848.3694856">Correct Compilation of Concurrent C Code</a></h3><ul class="DLauthors"><li class="nameList Last">John Bender</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The CompCert compiler [Leroy et al. ERTS 2016] represents a landmark effort in program verification as both a piece of verified software and as a compiler for verified C programs. A key shortcoming of CompCert however is that it does not support multithreaded programs. Prior work to add threads to CompCert has either required major rewrites of parts of the proof [Ševčík et al. JACM 2013] or only works for well synchronized programs [Beringer et al. ESOP 2014].
+ 
+
+ 
+The problem is that CompCert's backward simulation derives from a forward simulation via the determinism of the semantics of intermediate representation languages. This makes the proofs in CompCert easier but also makes them incompatible with standard models of multithreading which are non-deterministic.
+ 
+
+ 
+Here we propose an alternate formulation of CompCert's proof structure that parameterizes the existing single threaded semantics with nondeterministic behavior generated at the multithreading level. While this is an old trick where program equivalence is concerned, performing it in the context of CompCert is quite subtle. Our approach allows for expressive concurrent semantics and does not require major proof rewrites but still results in a global backward simulation for multithreaded programs.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3694848.3694857">Unboxing Virgil ADTs for Fun and Profit</a></h3><ul class="DLauthors"><li class="nameList">Bradley Wei Jie Teo</li><li class="nameList Last">Ben L. Titzer</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Algebraic Data Types (ADTs) are an increasingly common feature in modern programming languages. In many implementations, values of non-nullary, multi-case ADTs are allocated on the heap, which may reduce performance and increase memory usage. This work explores annotation-guided optimizations to ADT representation in Virgil, a systems-level programming language that compiles to x86, x86-64, WebAssembly and the Java Virtual Machine. We extend Virgil with annotations: #unboxed to eliminate the overhead of heap allocation via automatic compiler transformation to a scalar representation, and #packed, to enable programmer-expressed bit-layouts. These annotations allow programmers to both save memory and manipulate data in formats dictated by hardware. We dedicate this work as an homage and echo of work done in collaboration with Jens in the work entitled "A Declarative Approach to Generating Machine Code Tools", an unpublished manuscript from 2005. In fact, this work inherits some syntactic conventions from that prior work. The performance impact of these representation changes was evaluated on a variety of workloads in terms of execution time and memory usage, but we don't include all of that because Jens like semantics and type systems better!</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3694848.3694858">Nested Summations</a></h3><ul class="DLauthors"><li class="nameList Last">Olivier Danvy</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>As it happens, Fibonacci numbers can be expressed as finitely nested finite sums.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+And likewise, numbers in Fibonacci sequences that start with natural numbers other than 0 and 1, e.g., Lucas numbers, can be expressed as finitely nested finite sums as well.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This article also shows how to also express Jacobstahl numbers as finitely nested finite sums.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The construction scales to Jacobstahl sequences with a core multiplicative factor other than the standard one.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+All of this ought to keep Jens entertained (or at least busy) in one of his legendary proof sessions with his students.</p>
+			</div></div>
+							
+						</div></div></body></html>

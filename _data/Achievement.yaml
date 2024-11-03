@@ -1,3 +1,54 @@
+2024:
+- Awardee: Keshav Pingali
+  Citation: |
+
+    Before Keshav Pingali, parallelism in regular dense matrix
+    programs was well understood, but little was known about how to
+    exploit parallelism systematically in algorithms that use data
+    structures like trees, sparse matrices, and graphs. Pingali
+    changed all that by showing us how to exploit scalable parallelism
+    in such "irregular" algorithms. The intellectual crown jewel of
+    his research program was the "operator formulation of algorithms"
+    that showed that these algorithms can be specified abstractly
+    using atomic state updates and a schedule for performing the
+    updates, and executed in parallel using a combination of
+    compile-time and runtime techniques. He backed up these abstract
+    ideas with the Galois system, which is the first high-level,
+    general-purpose parallel programming system for irregular
+    algorithms. Pingali used this system to perform the first
+    measurements of the amount of parallelism in irregular
+    algorithms. The Galois system has also been used to deliver orders
+    of magnitude speedups for a range of irregular algorithms
+    including graph analytics and graph pattern-mining algorithms,
+    machine learning algorithms, finite-element mesh generators,
+    algorithms for intrusion detection in computer networks, static
+    analysis algorithms, and placement and routing algorithms used in
+    VLSI design.
+
+    Over his career, Pingali also invented a host of other techniques
+    used widely in programming systems in academia and industry,
+    including "data-centric compilation" and the "owner-computes rule"
+    for generating code for distributed-memory machines, loop
+    transformation techniques for enhancing cache utilization, and the
+    "program structure tree" for representing programs in
+    compilers. His "fractal symbolic analysis" is the only known
+    technique for restructuring linear algebra codes with pivoting. He
+    has also invented optimal algorithms for computing the strong and
+    weak control dependence relations, and for phi-function placement
+    in converting a program to SSA form.
+
+    In addition to mentoring almost 40 PhD students and post-docs,
+    Pingali has spearheaded important initiatives to strengthen the
+    parallelism community worldwide. Two achievements stand out. As
+    PPoPP Steering Committee Chair, he led the SIGPLAN/SIGARCH task
+    group that reorganized and co-located CGO, HPCA, and PPoPP, the
+    three premier conferences in parallelism, which led to a
+    resurgence of interest in all three conferences. He was also
+    instrumental in building up the parallelism community in Portugal,
+    where his efforts helped to create the Azores Atlantic
+    International Research Center which uses high-performance
+    computers to study climate change.
+
 2023:
 - Awardee: Kathryn S. McKinley
   Citation: |
@@ -34,8 +85,6 @@
 
     In short, Kathryn McKinley is the "whole picture" of what the
     SIGPLAN achievement award seeks to recognize.
-
-    Selection committee: Işil Dillig, Nate Foster, Cormac Flanagan, Jonathan Aldrich, Robby Findler
 
 2022:
 - Awardee: Xavier Leroy

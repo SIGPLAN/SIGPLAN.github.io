@@ -200,7 +200,7 @@ site: [here](http://pac.sigplan.org/).
 
 ## PAC Contact Person
 
-> [Sukyoung Ryu](mailto:sukyoung.ryu@gmail.com)
+> [Neel Krishnaswami](mailto:nk480@cl.cam.ac.uk)
 
 
 ## FAQ: Travel Expenses and Reimbursements

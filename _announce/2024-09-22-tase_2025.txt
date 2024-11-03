@@ -1,0 +1,113 @@
+---
+title: "19th International Symposium on Theoretical Aspects of Software Engineering"
+timestamp: "9/22/2024 8:05:33"
+deadline: "2/7/2025"
+---
+*** First Call for Papers ***
+
+19th International Symposium on Theoretical Aspects of Software
+Engineering (TASE 2025)
+
+July 14-16, 2025, 5* St. Raphael Resort and Marina, Limassol, Cyprus
+
+https://cyprusconferences.org/tase2025/
+
+(*** Proceedings to be published by Springer in LNCS ***)
+
+
+OVERVIEW
+
+TASE 2025 aims to bring together researchers and developers from academia and industry with
+interest in the theoretical aspects of software engineering. Modern society is increasingly
+dependent on software systems that are becoming larger and more complex. This poses new
+challenges to current software engineering methodologies that need to be enhanced using
+modern results from theoretical computer science. We invite submission of research papers on
+topics covering all theoretical aspects of software engineering, including those describing
+applications of theoretical computer science in industrial applications and software engineering
+methodologies.
+
+
+TOPICS OF INTEREST
+
+Authors are invited to submit high quality technical papers describing original and unpublished
+work in all theoretical aspects of software engineering. Topics of interest include, but are not
+limited to:
+
+Software engineering, including:
+■ Software processes and workflows
+■ Software architectures and design
+■ Software product lines
+■ Requirements engineering
+■ Model-driven software engineering
+■ Software testing and quality assurance
+■ Software safety, security and reliability
+■ Reverse engineering and software maintenance
+■ Component-based software engineering
+■ Feature-oriented programming
+■ Program synthesis
+■ Use of AI and large language models in software engineering
+
+Formal methods and theoretical computer science, including:
+■ Deductive verification
+■ Model checking
+■ Theorem proving, decision procedures, SAT and SMT
+■ Specification languages
+■ Program logics and calculi
+■ Formal languages and automata theory
+■ Run-time verification and monitoring
+■ Integration of formal methods
+■ Formal methods for AI systems, and vice versa
+
+Programming language design and technology, including:
+■ Formal semantics
+■ Abstract interpretation and program analysis
+■ Language paradigms, including object-oriented, functional, declarative, etc.
+■ Type systems and behavioral typing
+■ Compiler design
+■ Domain-specific languages
+
+Tools and application areas, including:
+■ Software tools putting theory into practice
+■ Cyber-physical, embedded, and real-time systems
+■ Distributed and concurrent systems
+■ Semantic web and web services
+■ Service-oriented programming and cloud computing
+■ Quantum circuits and programs
+■ Cryptographic algorithms
+
+
+SUBMISSION
+
+Submissions to the conference must not have been published or be concurrently considered for
+publication elsewhere. All submissions will be judged on the basis of originality, contribution to
+the field, technical and presentation quality, and relevance to the conference. The proceedings
+will be published in the Springer Lecture Notes in Computer Science series. Papers should be
+written in English and should not exceed 16 pages (excluding bibliography) for long papers and
+6 pages (excluding bibliography) for short papers in LNCS format. Submissions should be made
+through the TASE 2025 submission page, handled by the Easy Chair conference management
+system.
+
+Submission link: https://easychair.org/conferences/?conf=tase2025 
+
+The authors of a selected subset of accepted papers will be invited to submit extended versions
+of their papers to a special issue in the journal Science of Computer Programming
+(https://www.sciencedirect.com/journal/science-of-computer-programming).
+
+
+IMPORTANT DATES
+
+■ Abstract Submission : Feb 1, 2025 (AoE)
+■ Paper Submission : Feb 7, 2025 (AoE)
+■ Author Notification : April 1, 2025 (AoE)
+■ Camera-ready Versions : May 1, 2025 (AoE)
+
+
+ORGANISATION
+
+General Chair
+■ George A. Papadopoulos, University of Cyprus, Cyprus
+
+Program Chairs
+■ Philipp Rümmer, University of Regensburg, Germany
+■ Zhilin Wu, Institute of Software, Chinese Academy of Sciences, China
+

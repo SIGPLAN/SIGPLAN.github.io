@@ -1,0 +1,117 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>TyDe 2024: Proceedings of the 9th ACM SIGPLAN International Workshop on Type-Driven Development</title></head><body><div id="DLtoc"><div id="DLheader"><h1>TyDe 2024: Proceedings of the 9th ACM SIGPLAN International Workshop on Type-Driven Development</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3678000"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Keynote</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3678000.3689534">Types for Correctness, Convenience, and Performance (Keynote)</a></h3><ul class="DLauthors"><li class="nameList Last">Gabriele Keller</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Haskell offers a multitude of sophisticated type system extensions, from generics and generalised algebraic data types over type families to pattern synonyms. In the implementation of the embedded parallel language Accelerate, we make good use of these extensions, although they are often hidden from the user’s view. In this talk, I will illustrate how we exploit these features to improve the reliability of the compiler, provide stronger static checks for the user which eliminates many runtime errors. I also show how this approach improves the usability of the language and allows us to generate more efficient code.</p>
+			</div></div>
+							
+						<h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3678000.3678201">Intrinsically Typed Syntax, a Logical Relation, and the Scourge of the Transfer Lemma</a></h3><ul class="DLauthors"><li class="nameList">Hannes Saffrich</li><li class="nameList">Peter Thiemann</li><li class="nameList Last">Marius Weidner</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Intrinsically typed syntax is an important and popular method for mechanized reasoning about programming languages. We explore the limits of this method in the setting of finitely-stratified System F using the Agda proof assistant. This system supports elegant definitions of denotational semantics as well as big-step operational semantics based on intrinsically typed syntax. While its syntactic metatheory (i.e., type soundness) works well, we demonstrate that its semantic metatheory poses technical challenges, by defining a logical relation and proving its fundamental lemma. Our logical relation connects a denotational semantics with an operational one, which exposes issues with transfer lemmas as well as minor issues with universe polymorphism.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3678000.3678202">Modal μ-Calculus for Free in Agda</a></h3><ul class="DLauthors"><li class="nameList">Ivan Todorov</li><li class="nameList Last">Casper Bach Poulsen</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Expressive logics, such as the modal μ-calculus, can be used to specify and verify functional requirements of program models. While such verification is useful, a key challenge is to guarantee that the model being verified actually corresponds to the (typically effectful) program it is supposed to. We explore an approach that bridges this gap between effectful programming and functional requirement verification. Using dependently-typed programming in Agda, we develop an embedding of the modal μ-calculus for defining and verifying functional properties of possibly-non-terminating effectful programs which we represent in Agda using the coinductive free monad.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3678000.3678203">Normalizable Types</a></h3><ul class="DLauthors"><li class="nameList Last">Stefan Monnier</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In dependently typed programming languages, quotients can be introduced in two different ways: elements of each equivalence class can be made either propositionally equal, at the cost of having to manipulate those equality proofs, or definitionally equal, at the cost of requiring a normalization function.  The convenience of definitional equality could make the requirement of a normalization function tolerable, if it were not for the fact that those quotients need to be normalized every time we look at them. In the context of proof assistants, this is sometimes acceptable since efficiency of the code is not always relevant, but for a programming language it means these kinds of quotient types (sometimes called <em>normalized types</em>) are usable only with normalization functions which are cheap, and in the end they do not offer very many benefits over the use of <em>smart constructors</em> which eagerly normalize their return value.  We propose an adjustment to <em>normalized types</em> that allows manipulating values of such types without having to normalize them, thus offering much finer control over the code’s efficiency, as well as making those quotient types usable even when normalization functions are too costly or impractical at runtime.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3678000.3678206">Type-Level Property Based Testing</a></h3><ul class="DLauthors"><li class="nameList">Thomas Ekström Hansen</li><li class="nameList Last">Edwin Brady</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present an automated framework for solidifying the cohesion between software specifications, their dependently typed models, and implementation at compile time. Model Checking and type checking are currently separate techniques for automatically verifying the correctness of programs. Using Property Based Testing (PBT), Indexed State Monads (ISMs), and dependent types, we are able to model several interesting systems and network protocols, have the type checker verify that our implementation behaves as specified, and test that our model matches the specification's semantics; a step towards combining model and type checking.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3678000.3678207">Towards Type-Directed API Search for Mainstream Languages</a></h3><ul class="DLauthors"><li class="nameList">Marc Etter</li><li class="nameList Last">Farhad Mehta</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Software developers spend a lot of their time finding and composing pre-existing functions from various libraries. Almost all developers today use general-purpose search engines for this search. Specialized search engines such as <em>Hoogle</em> for Haskell additionally use type information to improve this search, and have been successful for some typed functional programming languages. The options currently available for type-directed search for mainstream object-oriented languages is limited. Existing approaches for these languages do not have first-class support for subtyping or parametric polymorphism. The splitting and composition of a desired functionality into and from a number of pre-existing functions is also a task that needs to be done manually. In this paper we present a proof-search-based approach to type-directed search with first-class support for subtyping, parametric polymorphism, splitting, and composition. The approach is language agnostic, and can be specialized to simultaneously support multiple typed object-oriented languages. Given that most mainstream languages fall under this category, this approach would extend the benefits of type-directed search to the majority of programmers. As a proof of concept, we provide a running implementation of the core language-agnostic approach and extend it to support the Java programming language. Further extensions would allow the tool to simultaneously support multiple programming languages using the same query syntax.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3678000.3678210">Term Search in Rust</a></h3><ul class="DLauthors"><li class="nameList">Tavo Annus</li><li class="nameList Last">Philipp Joram</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The <em>Rust</em> programming language offers a rich type system, including sum- and product types. Developer experience is often similar to that of a high-level functional programming language. Yet, it lacks a tool for interactively synthesizing programs based on types; a feature of many functional languages.    We devise a general <em>term search</em> algorithm, and integrate it with rust-analyzer, Rust’s official language server, making it usable from any client supporting standard LSP features. It suggests expressions for unfinished parts of a Rust program (as long as their type is known), or offers terms of matching type while typing via autocompletion. We develop the algorithm in three iterations. The first iteration is a backward search, inspired by <em>Agsy</em>, a similar tool for Agda proof assistant. The second iteration reverses the search direction, simplifying the caching of intermediate results. In the final iteration, we implement a tactic-based bidirectional search. This algorithm can synthesize terms in many more situations than the previous iterations, without a significant decrease in performance.    To evaluate the performance of our algorithm, we run it on 155 popular open-source Rust libraries. We delete parts of their source code, creating <em>holes</em>, and let the algorithm re-synthesize the missing code. We measure how many holes the algorithm can fill and how often it suggests the original code.    We have upstreamed our code, and term search is available as part of the official rust-analyzer distribution starting from v0.3.1850.</p>
+			</div></div>
+							
+						</div></div></body></html>

@@ -1,0 +1,475 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>ISMM 2024: Proceedings of the 2024 ACM SIGPLAN International Symposium on Memory Management</title></head><body><div id="DLtoc"><div id="DLheader"><h1>ISMM 2024: Proceedings of the 2024 ACM SIGPLAN International Symposium on Memory Management</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3652024"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Garbage Collection</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652024.3665512">Garbage Collection for Mostly Serialized Heaps</a></h3><ul class="DLauthors"><li class="nameList">Chaitanya S. Koparkar</li><li class="nameList">Vidush Singhal</li><li class="nameList">Aditya Gupta</li><li class="nameList">Mike Rainey</li><li class="nameList">Michael Vollmer</li><li class="nameList">Artem Pelenitsyn</li><li class="nameList">Sam Tobin-Hochstadt</li><li class="nameList">Milind Kulkarni</li><li class="nameList Last">Ryan R. Newton</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Over the years, traditional tracing garbage collectors have accumulated assumptions that may not hold in new language designs. For instance, we usually assume that run-time objects do not hold addressable sub-parts and have a size of at least one pointer. These fail in systems striving to eliminate pointers and represent data in a dense, serialized form, such as the Gibbon compiler. We propose a new memory management strategy for language runtimes with mostly serialized heaps. It uses a hybrid, generational collector, where regions are bump-allocated into the young generation and objects are bump-allocated within those regions. Minor collections copy data into larger regions in the old generation, compacting it further. The old generation uses region-level reference counting. The resulting system maintains high performance for data traversal programs, while significantly improving performance on other kinds of allocation patterns.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652024.3665510">Memory Management on Mobile Devices</a></h3><ul class="DLauthors"><li class="nameList">Kunal Sareen</li><li class="nameList">Stephen M. Blackburn</li><li class="nameList">Sara S. Hamouda</li><li class="nameList Last">Lokesh Gidra</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>
+ 
+The performance of mobile devices directly affects billions of people worldwide.
+ 
+Yet, despite memory management being key to their responsiveness, energy efficiency, and cost, mobile devices are understudied in the literature.
+ 
+A paucity of suitable methodologies and benchmarks is likely both a cause and a consequence of this gap.
+ 
+It also reflects the challenges of evaluating mobile devices due to: i) their inherently multi-tenanted nature, ii) the scarcity of widely-used open source workloads suitable as benchmarks, iii) the challenge of determinism and reproducibility given mobile devices' extensive use of GPS and network services, iv) the complexity of mobile performance criteria.
+ 
+</p>
+ 
+ 
+ 
+<p>
+ 
+We study this problem using the Android Runtime (ART), which is particularly interesting because it is open sourced, garbage collected, and its market extends from the most advanced to the most basic mobile devices available, with a commensurate diversity of performance expectations.
+ 
+Our study makes the following contributions: i) we identify pitfalls and challenges to the sound evaluation of garbage collection in ART, ii) we describe a framework for the principled performance evaluation of overheads in ART, iii) we curate a small benchmark suite comprised of widely-used real-world applications, and iv) we conduct an evaluation of these real-world workloads as well as some DaCapo benchmarks and a micro-benchmark.
+ 
+For a modestly sized heap, we find that the lower bound on garbage collection overheads vary considerably among the benchmarks we evaluate, from 2&nbsp;% to 51&nbsp;%, and that overall, overheads are similar to those identified in recent studies of Java workloads running on OpenJDK.
+ 
+We hope that this work will demystify the challenges of studying memory management in the Android Runtime.
+ 
+By doing so, we hope to open up research and lead to more innovation in this highly impactful and memory-sensitive domain.
+ 
+</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652024.3665514">Evaluating Finalization-Based Object Lifetime Profiling</a></h3><ul class="DLauthors"><li class="nameList">Sebastian Jordan Montaño</li><li class="nameList">Guillermo Polito</li><li class="nameList">Stephane Ducasse</li><li class="nameList Last">Pablo Tesone</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Using object lifetime information enables performance improvement through memory optimizations such as pretenuring and tuning garbage collector parameters. However, profiling object lifetimes is nontrivial and often requires a specialized virtual machine to instrument object allocations and dereferences. Alternative lifetime profiling could be done with less implementation effort using available finalization mechanisms such as weak references.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In this paper, we study the impact of finalization on object lifetime profiling. We built an actionable lifetime profiler using the ephemeron finalization mechanism named FiLiP. FiLiP instruments object allocations to exactly record an object’s allocation time and it attaches an ephemeron to each allocated object to capture its finalization time. We show that FiLiP can be used in practice and achieves a significant overhead reduction by pretenuring the ephemeron objects. We further experiment with the impact of sampling object allocations, showing that sampling further reduces profiling overhead while still maintaining actionable lifetime measurements.</p>
+			</div></div>
+							
+						<h2>SESSION: Hardware for Memory Management</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652024.3665509">Supporting Trusted Virtual Machines with Hardware-Based Secure Remote Memory</a></h3><ul class="DLauthors"><li class="nameList">Taekyung Heo</li><li class="nameList">Seunghyo Kang</li><li class="nameList">Sanghyeon Lee</li><li class="nameList">Soojin Hwang</li><li class="nameList">Joongun Park</li><li class="nameList Last">Jaehyuk Huh</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Although recent studies have been improving the performance of RDMA-based memory disaggregation systems, their security aspect has not been thoroughly investigated. For secure disaggregated memory, the memory-providing node must protect its memory from memory-requesting nodes, and the memory-requesting node requires the confidentiality and integrity protection of its memory contents in the remote node, even when the privileged software is compromised. To provide protection of remote memory, this study proposes a hardware-assisted memory disaggregation system. The proposed trusted disaggregated memory combines the current trusted hardware-based virtual machine (VM) and a new dedicated hardware engine for trusted memory disaggregation. The processor with supports for trusted VM protects the context of a user VM within the local system, while the proposed hardware engine provides an efficient isolation and protection of remote memory pages, guaranteeing the confidentiality and integrity of remote memory pages. In the secure memory disaggregation system, fast address translation and access validation are supported with the cooperation of the hardware engine and guest OS in a trusted virtual machine. In addition, the proposed system hides the memory access patterns observable from remote nodes, supporting obliviousness. Our evaluation with an FPGA-based prototype implementation shows that such fine-grained secure disaggregated memory is feasible with comparable performance to the latest software-based technique without security support.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652024.3665511">A Managed Memory System for Micro Controllers with NOR Flash Memory</a></h3><ul class="DLauthors"><li class="nameList">Akira Inoue</li><li class="nameList">Tomoharu Ugawa</li><li class="nameList Last">Shigeru Chiba</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This paper presents a managed memory system for micro controllers    with only a small amount of memory but with NOR flash memory.    This system is targeted at a device such as Raspberry Pi Pico,    which is equipped with ARM Coretex M0+, on-chip 264KB SRAM,    and 2MB flash memory. To extend an available memory space for    user programs, this system provides virtual memory by using     NOR flash memory as a backing store. Since writing data to    the flash memory is slow and the number of writes is limited    during its lifetime, this system cooperates language-level memory    management to mitigate these drawbacks.    It runs a garbage collector that may move objects aggressively    when a memory page is paged-out to flash memory.    This paper also proposes a technique named <em>a forwarding bit</em>    to efficiently implement the movement of objects stored in flash memory.    According to experiments using a prototype of this system    implemented for the mruby language on Raspberry Pi Pico,    when the available SRAM size is small,    this system successfully reduces the number of erasures    in flash memory to an average of less than 10% and even improves execution speed by an average of 4 times faster despite overhead of moving objects.</p>
+			</div></div>
+							
+						<h2>SESSION: Potpourri</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652024.3665505">SSRD: Shapes and Summaries for Race Detection in Concurrent Data Structures</a></h3><ul class="DLauthors"><li class="nameList">Xiaofan Sun</li><li class="nameList Last">Rajiv Gupta</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Concolic testing combines concrete execution with symbolic execution to automatically generate test inputs that exercise different program paths and deliver high code coverage. This approach has been extended to multithreaded programs for exposing data races. Multithreaded programs frequently rely upon concurrent dynamic data structures whose implementations may contain data races that manifest only when certain dynamic <em>data structure shapes</em>, <em>program paths</em>, and <em>thread interleavings</em> are exercised. The lack of support for exploring different data structure shapes compromises the detection of races. This paper presents a <em>summarization</em>-guided approach for concolic testing capable of efficiently exploring different dynamic data structure shapes to expose data races. Via unit testing of key functions, function summaries are generated that capture data structure shapes that cause various function paths to be exercised. The shapes are captured in the form of pointer-pointee relations among symbolic pointers. By <em>reusing</em> function summaries during concolic testing, much of the overhead of handling symbolic pointers and dynamic objects in summarized functions is avoided. The summary also contains symbolic memory accesses and synchronization events that <em>guide</em> application-level concolic testing first to identify and then confirm potential data races. We demonstrate the efficiency and efficacy of our approach via experiments with multithreaded programs performing concurrent operations on four widely used dynamic data structures - Skip List, Unrolled Linked List, Priority Queue, and AVL Tree. It increases the number of races detected from 34 to 74 in total in comparison to Cloud9, and reduces both constraints solving time and number of constraints needed to be solved via summarization.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652024.3665508">A Heuristic for Periodic Memory Allocation with Little Fragmentation to Train Neural Networks</a></h3><ul class="DLauthors"><li class="nameList">Akifumi Imanishi</li><li class="nameList Last">Zijian Xu</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Neural network training requires immense GPU memory, and memory optimization methods such as recomputation are being actively researched.        Recent improvements in recomputation have reduced more than 90 % of the peak allocated size. However, because it produces complex irregular allocation patterns, PyTorch’s default caching allocator wastes up to 20 % of memory because of severe fragmentation and increases the cache management overhead.        The periodic allocation patterns during training make offline memory optimization possible.        Dynamic storage allocation (DSA) is the problem of minimizing the memory address ranges given the allocation pattern. This is defined as the 2D bin-packing problem, in which each rectangle can move only vertically.        Although the first-fit or best-fit heuristics perform well for DSA, we propose a simulated annealing-based non-trivial heuristic algorithm that optimizes the <em>topological</em> ordering of allocations to further minimize fragmentation.        The proposed algorithm evaluates a candidate allocation plan with <em>O</em>(log<em>N</em>) amortized time, where <em>N</em> is the number of allocations.        We empirically tested our algorithm on both randomly generated data and allocation patterns obtained by training popular vision and text models with recomputation.        The experiments showed that, on average, our algorithm reduced fragmentation caused by the PyTorch caching allocator from 29.5 % to 0.4 %, compared to 5.3 % by the first-fit method.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652024.3665515">ESPN: Memory-Efficient Multi-vector Information Retrieval</a></h3><ul class="DLauthors"><li class="nameList">Susav Shrestha</li><li class="nameList">Narasimha Reddy</li><li class="nameList Last">Zongwang Li</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Recent advances in large language models have demonstrated remarkable effectiveness in information retrieval (IR) tasks. While many neural IR systems encode queries and documents into single-vector representations, multi-vector models elevate the retrieval quality by producing multi-vector representations and facilitating similarity searches at the granularity of individual tokens. However, these models significantly amplify memory requirements for retrieval indices by an order of magnitude. This escalation in index size renders the scalability of multi-vector IR models progressively challenging due to their substantial memory demands. We introduce Embedding from Storage Pipelined Network (ESPN) where we offload the entire re-ranking embedding tables to SSDs and reduce the memory requirements by 5−16×. We design a flexible software prefetcher applicable to any hierarchical clustering based search, achieving hit rates exceeding 90%. ESPN improves SSD based retrieval up to 6.4× and end-to-end throughput by 68% to maintain near-memory levels of query latency even for large query batch sizes. The code is available at https://github.com/susavlsh10/ESPN-v1.</p>
+			</div></div>
+							
+						<h2>SESSION: Intellectual Abstracts</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652024.3665513">The One Pass (OP) Compactor: An Intellectual Abstract</a></h3><ul class="DLauthors"><li class="nameList">Tomer Cory</li><li class="nameList Last">Erez Petrank</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Compaction algorithms alleviate fragmentation by relocating heap objects to compacted areas. A full heap compaction eliminates fragmentation by compacting all objects into the lower addresses of the heap. Following a marking phase that marks all reachable (live) objects, the compactor needs to copy all marked objects to the beginning of the address space and fix all pointers to reference the new object locations. Initially, this process required three heap passes (beyond the marking phase). However, modern algorithms, culminating in the Compressor, have reduced this cost to a single heap pass plus a single pass over an auxiliary table, that is smaller than (yet proportional to) the size of the heap. In this paper, we introduce the One Pass (OP) Compactor: a novel combination of existing compactors that reduces the complexity of compaction to a single heap pass. This represents arguably the best possible complexity for a compaction algorithm. Additionally, we extend the OP compactor with a parallel version, enabling scalability on a multicore platform.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This paper is classified as an intellectual abstract because it introduces the new algorithm but does not provide an accompanying implementation and evaluation.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652024.3665506">BatchIt: Optimizing Message-Passing Allocators for Producer-Consumer Workloads: An Intellectual Abstract</a></h3><ul class="DLauthors"><li class="nameList">Nathaniel Wesley Filardo</li><li class="nameList Last">Matthew J. Parkinson</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Modern, high-performance memory allocators must scale to a wide array of uses, including producer-consumer workloads. In such workloads, objects are allocated by one thread and deallocated by another, which we call remote deallocations. These remote deallocations lead to contention on the allocator’s synchronization mechanisms. Message-passing allocators, such as mimalloc and snmalloc, use message queues to communicate remote deallocations between threads. These queues work well for producer-consumer workloads, but there is room for optimization. We propose and characterize BatchIt, a conceptually simple optimization for such allocators: a per-slab cache of remote deallocations that enables batching of objects destined for the same slab. This optimization aims to exploit naturally-arising locality of allocations, and it generalizes across particular implementations; we have implementations for both mimalloc and snmalloc. Multi-threaded, producer-consumer benchmarks show improved performance from reduced rates of atomic operations and cache misses in the underlying allocator. Experimental results using the mimalloc-bench suite and a custom message-passing workload show that some producer-consumer workloads see over 20% performance improvement even atop the high performance these allocators already provide.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3652024.3665507">Reference Counting Deeply Immutable Data Structures with Cycles: An Intellectual Abstract</a></h3><ul class="DLauthors"><li class="nameList">Matthew J. Parkinson</li><li class="nameList">Sylvan Clebsch</li><li class="nameList Last">Tobias Wrigstad</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Immutable data structures are a powerful tool for building
+ 
+ 
+ 
+concurrent programs. They allow the sharing of data without
+ 
+ 
+ 
+the need for locks or other synchronisation mechanisms.
+ 
+ 
+ 
+This makes it much easier to reason about the correctness
+ 
+ 
+ 
+of the program.
+ 
+ 
+ 
+
+ 
+ 
+ 
+In this paper, we focus on what we call deep immutability
+ 
+ 
+ 
+from freeze, that is, objects are initially mutable, and then can
+ 
+ 
+ 
+be frozen, and from that point on the object and everything
+ 
+ 
+ 
+it refers to (transitively) can no longer be mutated. A key
+ 
+ 
+ 
+challenge with this form of immutability is “how to
+ 
+ 
+ 
+manage the memory of cyclic data structures?” The standard
+ 
+ 
+ 
+approach is to use a garbage collector (GC), or a back-up
+ 
+ 
+ 
+cycle detector. These approaches sacrifice the promptness
+ 
+ 
+ 
+of memory reclamation, and the determinism of memory
+ 
+ 
+ 
+usage.
+ 
+ 
+ 
+
+ 
+ 
+ 
+In this paper, we argue that memory underlying an immutable
+ 
+ 
+ 
+data structure can be efficiently managed using reference
+ 
+ 
+ 
+counting even in the presence of cycles, based on the
+ 
+ 
+ 
+observation that the cycles are themselves immutable. Our
+ 
+ 
+ 
+approach takes a classic algorithm for calculating strongly
+ 
+ 
+ 
+connected components (SCCs) and managing equivalence
+ 
+ 
+ 
+classes with union-find (UF), and combines them so that the
+ 
+ 
+ 
+liveness of each SCC can be tracked efficiently using only a
+ 
+ 
+ 
+single reference counter. The key observation is that since
+ 
+ 
+ 
+the graph is unchanging, we can calculate the SCCs once, in
+ 
+ 
+ 
+time that is almost linear in the size of the graph, and then
+ 
+ 
+ 
+use the result to reference count at the level of the SCCs. This
+ 
+ 
+ 
+gives precise reachability information, and does not require
+ 
+ 
+ 
+any backup mechanism to detect or handle cycles.</p>
+			</div></div>
+							
+						</div></div></body></html>

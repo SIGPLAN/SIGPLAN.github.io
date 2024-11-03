@@ -1,0 +1,56 @@
+---
+title: "Call for Workshops and Tutorials, PLDI 2025 "
+timestamp: "9/24/2024 12:23:14"
+deadline: "11/14/2024"
+---
+## Call for Workshops and Tutorials
+
+PLDI 2025 is a world-class forum for researchers and practitioners in programming language design and implementation. As in previous years, PLDI is soliciting proposals for co-located workshops and tutorials that will take place on Monday June 16th, and Tuesday June 17th.
+
+Please propose your workshop or tutorial via the submission system (https://pldi25.sigplan.org/track/pldi-2025-PLDI-Workshops).
+
+The following details will be asked requested for each submission:
+
+- Name of the workshop/tutorial.
+- Duration of the workshop/tutorial.
+- Organizers: names, affiliation, contact information, brief (100 words) biography.
+- A short description (150-200 words) of the topic.
+- Event format: workshop/tutorial; type of submissions, if any; review process; results dissemination.
+- Expected attendance and target audience within the PLDI community.
+- How you plan to foster an inclusive environment and promote a diverse attendance.
+- Information on any previous iterations of the workshop or tutorial.
+
+## Timeline
+
+### For workshops with proceedings:
+
+- Organizers submit proposal to chairs: November 14, 2024
+- Chairs respond with workshop acceptance: December 8, 2024
+- Organizers finalize acceptance decisions for workshop proceedings: no later than April 19, 2024
+- Organizers collect final (“camera ready”) versions: no later than May 3, 2024
+
+### For tutorials and workshops without proceedings:
+
+- Organizers submit proposal to chairs: November 24, 2024
+- Chairs respond with workshop acceptance: December 8, 2024
+- Organizers finalize acceptance decisions for workshop speakers: no later than May 3rd, 2024
+
+## Submission and Review
+
+Proposals are reviewed by the Workshop and Tutorials Chairs, and if necessary, by the PLDI general chair. Proposals will be evaluated according to the relevance of the topic, the expertise and experience of the workshop organizers, and their potential to attract participants. Proposals submitted between November 14th and 24th will be evaluated on a first-come-first-served basis, so please submit early!
+
+## Dissemination
+
+A proposal should clearly state how the results of the tutorial or workshop — i.e., published papers and other outcomes — will be made available to participants and others before and after the workshop event. The Workshops and Tutorials Chairs will provide guidance to the organizers of accepted workshops that wish to publish proceedings in the ACM Digital Library. For those that choose to publish their papers in ACM Digital Library, please add the following text in the workshop call for papers and on the website:
+
+AUTHORS TAKE NOTE: The official publication date is the date the proceedings are made available in the ACM Digital Library. This date may be up to two weeks prior to the first day of your conference. The official publication date affects the deadline for any patent filings related to published work. (For those rare conferences whose proceedings are published in the ACM Digital Library after the conference is over, the official publication date remains the first day of the conference.)
+
+Workshops that elect to publish proceedings can do so in the ACM Digital Library with sponsoring by SIGPLAN. The application for SIGPLAN sponsorship includes reviewing the proposed program committee with the SIGPLAN Executive Committee, a process which the chairs will help facilitate.
+
+## Workshop and Tutorial Co-Chairs
+
+- Woosuk Lee, Hanyang University
+- Clément Pit-Claudel, EPFL
+
+https://pldi25.sigplan.org/track/pldi-2025-PLDI-Workshops
+

@@ -24,15 +24,15 @@ All SIG events and communications abide by
 
 All SIG publications abide by
 
-* ACM’s policy on [plagiarism, misrepresentation, and falsification][acm-plag];
-* ACM's policy on [coercion and abuse in the ACM publications process][acm-abuse]; and
-* ACM's policy on [roles and responsibilities in ACM publishing][acm-roles].
+* ACM's policies that govern ACM publications [ACM Publications Policies and Procedures][acm-policies], including
+* ACM’s policy on [plagiarism, misrepresentation, and falsification][acm-plag] and
+* ACM's policy on [coercion and abuse in the ACM publications process][acm-abuse].
 
 [acm-ethics]: https://www.acm.org/code-of-ethics
 [acm-disc]: https://www.acm.org/diversity-inclusion/stop-harassment
+[acm-policies]: https://www.acm.org/publications/policies
 [acm-plag]: https://www.acm.org/publications/policies/plagiarism-overview
 [acm-abuse]: https://www.acm.org/publications/policies/coercion-and-abuse
-[acm-roles]: https://www.acm.org/publications/policies/roles-and-responsibilities
 
 If a violation of any of these policies occur, ACM urges reporting the incident to the event chair or to ACM leadership, as indicated on those webpages. You may also report violations using the following forms:
 
@@ -81,11 +81,11 @@ CARES committee members may also attend other workshops and conferences sponsore
  </tr>
      <tr>
     <td><a href="https://icfp24.sigplan.org">ICFP 2024</a></td>
-    <td>Simon Peyton Jones, more tbc</td>
+    <td>Simon Peyton Jones</td>
  </tr>
   <tr>
     <td><a href="https://pldi24.sigplan.org">PLDI 2024 </a></td>
-    <td>Sukyoung Ryu, more tbc</td>
+    <td>Sukyoung Ryu</td>
   </tr>
     <tr>
     <td><a href="https://popl24.sigplan.org">POPL 2024</a></td>
@@ -144,7 +144,7 @@ CARES committee members may also attend other workshops and conferences sponsore
     <td>David Walker, Shriram Krishnamurthi, Stephanie Weirich, and Simon Peyton-Jones</td>
  </tr>
  <tr>
-    <td><a href="https://pldi21.sigplan.org/">PLDI 2020</a></td>
+    <td><a href="https://pldi20.sigplan.org/">PLDI 2020</a></td>
     <td>Alexandra Silva, Vikram Adve, Michelle Stout, Kathryn McKinley, David Walker</td>
  </tr>
  <tr>
@@ -198,49 +198,61 @@ We have received open, public feedback from a number of members of the community
 ### SIGPLAN CARES Committee Members
 
 <table style="width:100%" border="0">
-  <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/strout.png" alt="Michelle Strout"  width="156"><br><a href="http://cgi.cs.arizona.edu/~mstrout/">Michelle Strout</a> (she/her)</td>
-   <td>Co-Chair, <a href="mailto:michelle.strout@hpe.com">michelle.strout@hpe.com</a>, HPE and University of Arizona </td>
+<tr>
+   <td><img src="http://sigplan.org/images/cares-photos/ryu.png" alt="Sukyoung Ryu" width="156"><br><a href="https://plrg.kaist.ac.kr/ryu">Sukyoung Ryu</a> (she/her)</td>
+   <td>Co-Chair, <a href="mailto:sryu.cs@kaist.ac.kr">sryu.cs@kaist.ac.kr</a>, KAIST, Jan 2021-</td>
   </tr> 
-    <tr>
+<tr>
    <td><img src="http://sigplan.org/images/cares-photos/silva.png" alt="Alexandra Silva"  width="156"><br><a href="https://www.alexandrasilva.org/#/main.html">Alexandra Silva</a> (she/her)</td>
-   <td>Co-Chair, <a href="mailto:alexandra.silva@cornell.edu">alexandra.silva@cornell.edu</a>, Cornell University</td>
-  </tr>
-     <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/walker.png" alt="David Walker" width="156"><br><a href="https://www.cs.princeton.edu/~dpw/">David Walker</a> (he/him)</td>
-   <td> <a href="mailto:dpw@cs.princeton.edu">dpw@cs.princeton.edu</a>, Princeton University, 2019-2022 (co-chair) </td>
-  </tr>
+   <td>Co-Chair, <a href="mailto:alexandra.silva@cornell.edu">alexandra.silva@cornell.edu</a>, Cornell University, Jan 2020-</td>
+</tr>
     <tr>
    <td><img src="http://sigplan.org/images/cares-photos/steve.jpg" alt="Steve Blackburn"  width="156"><br><a href="https://www.steveblackburn.org">Steve Blackburn</a> (he/him)</td>
-   <td>Member, <a href="mailto:steve.blackburn@anu.edu.au">steve.blackburn@anu.edu.au</a>, Google Deepmind and ANU</td>
+   <td>Member, <a href="mailto:steve.blackburn@anu.edu.au">steve.blackburn@anu.edu.au</a>, Google Deepmind and ANU, Jan 2024-</td>
   </tr> 
  <tr> 
  <tr>
+   <td><img src="../images/cares-photos/dillig.jpg" alt="Işıl Dillig" width="156"><br><a href="https://www.cs.utexas.edu/~isil/">Işıl Dillig</a> (she/her)</td>
+   <td>Member, <a href="mailto:isil@cs.utexas.edu">isil@cs.utexas.edu</a>, University of Texas, Austin, Oct 2024-</td>
+  </tr> 
+ <tr>
+   <td><img src="../images/cares-photos/drossopoulou.jpg" alt="Sophia Drossopoulou" width="156"><br><a href="https://wp.doc.ic.ac.uk/sd/">Sophia Drossopoulou</a> (she/her)</td>
+   <td>Member, <a href="mailto:S.Drossopoulou@imperial.ac.uk">S.Drossopoulou@imperial.ac.uk</a>, Imperial College London, Oct 2024-</td>
+  </tr> 
+ <tr>
    <td><img src="http://sigplan.org/images/cares-photos/feng.png" alt="Xinyu Feng" width="156"><br><a href="https://cs.nju.edu.cn/xyfeng/">Xinyu Feng</a></td>
-   <td>Member, <a href="mailto:xyfeng@nju.edu.cn">xyfeng@nju.edu.cn</a>, Nanjing University </td>
+   <td>Member, <a href="mailto:xyfeng@nju.edu.cn">xyfeng@nju.edu.cn</a>, Nanjing University, Feb 2021-</td>
+  </tr> 
+ <tr>
+   <td><img src="../images/cares-photos/foster.png" alt="Nate Foster" width="156"><br><a href="https://www.cs.cornell.edu/~jnfoster/">Nate Foster</a> (he/him)</td>
+   <td>Member, <a href="mailto:jnfoster@cs.cornell.edu">jnfoster@cs.cornell.edu</a>, Cornell University, Oct 2024-</td>
   </tr> 
  <tr>
    <td><img src="../images/cares-photos/igarashi.jpg" alt="Atsushi Igarashi" width="156"><br><a href="https://www.fos.kuis.kyoto-u.ac.jp/~igarashi/index.html.en">Atsushi Igarashi</a> (he/him)</td>
-   <td>Member, <a href="mailto:igarashi@kuis.kyoto-u.ac.jp">igarashi@kuis.kyoto-u.ac.jp</a>, Kyoto University </td>
+   <td>Member, <a href="mailto:igarashi@kuis.kyoto-u.ac.jp">igarashi@kuis.kyoto-u.ac.jp</a>, Kyoto University, Oct 2022-</td>
   </tr> 
  <tr>
    <td><img src="../images/cares-photos/keller.jpeg" alt="Gabriele Keller" width="156"><br><a href="https://www.uu.nl/staff/GKKeller">Gabriele Keller</a></td>
-   <td>Member, <a href="mailto:g.k.keller@uu.nl">g.k.keller@uu.nl</a>, Utrecht University</td>
+   <td>Member, <a href="mailto:g.k.keller@uu.nl">g.k.keller@uu.nl</a>, Utrecht University, Oct 2021-</td>
   </tr> 
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/krishnamurthi.png" alt="Shriram Krishnamurthi" width="156"><br><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a> (he/him)</td>
-   <td>Member, <a href="mailto:shriram@brown.edu">shriram@brown.edu</a>, Brown University </td>
+   <td>Member, <a href="mailto:shriram@brown.edu">shriram@brown.edu</a>, Brown University, Jan 2020-</td>
   </tr> 
    <td><img src="http://sigplan.org/images/cares-photos/jones.png" alt="Simon Peyton Jones"  width="156"><br><a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a> (he/him)</td>
-   <td>Member, <a href="mailto:simon.peytonjones@gmail.com">simon.peytonjones@gmail.com</a>, Epic Games</td>
+   <td>Member, <a href="mailto:simon.peytonjones@gmail.com">simon.peytonjones@gmail.com</a>, Epic Games, Jan 2020-</td>
   </tr>
  <tr>
-   <td><img src="http://sigplan.org/images/cares-photos/ryu.png" alt="Sukyoung Ryu" width="156"><br><a href="https://plrg.kaist.ac.kr/ryu">Sukyoung Ryu</a> (she/her)</td>
-   <td>Member, <a href="mailto:sukyoung.ryu@gmail.com">sukyoung.ryu@gmail.com</a>, KAIST</td>
+   <td><img src="http://sigplan.org/images/cares-photos/strout.png" alt="Michelle Strout"  width="156"><br><a href="http://cgi.cs.arizona.edu/~mstrout/">Michelle Strout</a> (she/her)</td>
+   <td>Member, <a href="mailto:michelle.strout@hpe.com">michelle.strout@hpe.com</a>, HPE and University of Arizona, Jan 2020-</td>
   </tr> 
- <tr>
+<tr>
+   <td><img src="http://sigplan.org/images/cares-photos/walker.png" alt="David Walker" width="156"><br><a href="https://www.cs.princeton.edu/~dpw/">David Walker</a> (he/him)</td>
+   <td> Member, <a href="mailto:dpw@cs.princeton.edu">dpw@cs.princeton.edu</a>, Princeton University, Nov 2019- (founder co-chair 2019-2021) </td>
+  </tr>
+<tr>
    <td><img src="http://sigplan.org/images/cares-photos/weirich.png" alt="Stephanie Weirich"  width="156"><br><a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a> (she/her)</td>
-   <td>Member, <a href="mailto:sweirich@cis.upenn.edu">sweirich@cis.upenn.edu</a>, University of Pennsylvania</td>
+   <td>Member, <a href="mailto:sweirich@cis.upenn.edu">sweirich@cis.upenn.edu</a>, University of Pennsylvania, Jan 2020-</td>
   </tr> 
  </table>  
  

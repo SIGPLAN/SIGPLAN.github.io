@@ -1,0 +1,108 @@
+---
+title: "Call for papers, ACM SIGPLAN conference on Certified Programs and Proofs"
+timestamp: "6/26/2024 5:38:25"
+deadline: "9/10/2024"
+---
+Certified Programs and Proofs (CPP) is an international conference on practical and theoretical topics in all areas that consider formal verification and certification as an essential paradigm for their work. CPP spans areas of computer science, mathematics, logic, and education.
+
+CPP 2025 (https://popl25.sigplan.org/home/CPP-2025) will be held on 20-21 January 2025 and will be co-located with POPL 2025 in Denver, USA. CPP 2025 is sponsored by ACM SIGPLAN, in cooperation with ACM SIGLOG.
+
+CPP 2025 will welcome contributions from all members of the community. The CPP 2025 organizers will strive to enable both in-person and remote participation, in cooperation with the POPL 2025 organizers.
+
+IMPORTANT DATES 
+* Abstract Submission Deadline: 10 September 2024 at 23:59 AoE (UTC-12h)
+* Paper Submission Deadline: 17 September 2024 at 23:59 AoE (UTC-12h)
+* Notification (tentative): 19 November 2024
+* Camera Ready Deadline (tentative): Mid December 2024 (TBA)
+* Conference: 20-21 January 2025
+Deadlines expire at the end of the day, anywhere on earth. Abstract and submission deadlines are strict and there will be no extensions.
+
+DISTINGUISHED PAPER AWARDS 
+Around 10% of the accepted papers at CPP 2025 will be designated as Distinguished Papers. This award highlights papers that the CPP program committee thinks should be read by a broad audience due to their relevance, originality, significance and clarity.
+
+TOPICS OF INTEREST
+
+We welcome submissions in research areas related to formal certification of programs and proofs. The following is a non-exhaustive list of topics of interest to CPP:
+* certified or certifying programming, compilation, linking, OS kernels, runtime systems, security monitors, and hardware;
+* certified mathematical libraries and mathematical theorems;
+* proof assistants (e.g, ACL2, Agda, Coq, Dafny, F*, HOL4, HOL Light, Idris, Isabelle, Lean, Mizar, Nuprl, PVS, etc);
+* new languages and tools for certified programming;
+* program analysis, program verification, and program synthesis;
+* program logics, type systems, and semantics for certified code;
+* logics for certifying concurrent and distributed systems;
+* mechanized metatheory, formalized programming language semantics, and logical frameworks;
+* higher-order logics, dependent type theory, proof theory, logical systems, separation logics, and logics for security;
+* verification of correctness and security properties;
+* certificates for decision procedures, including linear algebra, polynomial systems, SAT, SMT, and unification in algebras of interest;
+* certificates for semi-decision procedures, including equality, first-order logic, and higher-order unification;
+* certificates for program termination;
+* formal models of computation;
+* mechanized (un)decidability and computational complexity proofs;
+* formally certified methods for induction and coinduction;
+* integration of interactive and automated provers;
+* logical foundations of proof assistants;
+* applications of AI and machine learning to formal verification;
+* user interfaces for proof assistants and theorem provers;
+* teaching mathematics and computer science with proof assistants.
+Submissions will be reviewed based on the following criteria:
+
+Thoroughly discuss the theory or design choices underpinning the formalization.
+Provide a detailed explanation of the formalization decisions, including alternative approaches and reasons for rejecting them.
+Examine related literature on formalization choices and techniques.
+Compare the design choices to those made in other libraries.
+Offer feedback on the features of the computer proof assistant used, noting any that are missing.
+Draw conclusions that can guide future formalization efforts in the same or other proof assistants.
+
+SUBMISSION GUIDELINES
+
+Prior to the paper submission deadline, the authors should upload their anonymized paper in PDF format through the HotCRP system at
+https://cpp2025.hotcrp.com
+
+The submissions must be written in English and provide sufficient detail to allow the program committee to assess the merits of the contribution. They must be formatted following the ACM SIGPLAN Proceedings format using the acmart style with the sigplan option, which provides a two-column style, using 10 point font for the main text, and a header for double blind review submission, i.e.,
+
+\documentclass[sigplan,10pt,anonymous,review]{acmart}\settopmatter{printfolios=true,printccs=false,printacmref=false}
+
+The submitted papers should not exceed 12 pages, including tables and figures, but excluding bibliography and clearly marked appendices. The papers should be self-contained without the appendices. Shorter papers are welcome and will be given equal consideration. Submissions not conforming to the requirements concerning format and maximum length may be rejected without further consideration.
+
+CPP 2025 will employ a lightweight double-blind reviewing process following the process from previous years. To facilitate this, the submissions must adhere to two rules:
+(1) author names and institutions must be omitted, and
+(2) references to authors’ own related work should be in the third person (e.g., not "We build on our previous work ..." but rather "We build on the work of ...").
+
+The purpose of this process is to help the PC and external reviewers come to an initial judgment about the paper without bias, not to make it impossible for them to discover the authors if they were to try. Nothing should be done in the name of anonymity that weakens the submission or makes the job of reviewing it more difficult. In particular, important background references should not be omitted or anonymized. In addition, authors are free to disseminate their ideas or draft versions of their papers as usual. For example, authors may post drafts of their papers on the web or give talks on their research ideas. Note that POPL 2025 itself will employ full double-blind reviewing, which differs from the light-weight CPP process.  This FAQ from previous SIGPLAN conference addresses many common concerns: https://popl20.sigplan.org/track/POPL-2020-Research-Papers#Submission-and-Reviewing-FAQ
+
+We strongly encourage the authors to provide any supplementary material that supports the claims made in the paper, such as proof scripts or experimental data. This material must be uploaded at submission time, as an archive, not via a URL. Two forms of supplementary material may be submitted:
+(1) Anonymous supplementary material is made available to the reviewers before they submit their first-draft reviews.
+(2) Non-anonymous supplementary material is made available to the reviewers after they have submitted their first-draft reviews and have learned the identity of the authors.
+
+Please use anonymous supplementary material whenever possible, so that it can be taken into account from the beginning of the reviewing process.
+
+The submitted papers must adhere to the SIGPLAN Republication Policy (https://www.sigplan.org/Resources/Policies/Republication/) and the ACM Policy on Plagiarism (https://www.acm.org/publications/policies/plagiarism). Concurrent submissions to other conferences, journals, workshops with proceedings, or similar forums of publication are not allowed. The PC chairs should be informed of closely related work submitted to a conference or journal in advance of submission. One author of each accepted paper is expected to present it at the (possibly virtual) conference.
+
+PUBLICATION, COPYRIGHT AND OPEN ACCESS
+
+The CPP 2025 proceedings will be published by the ACM, and authors of accepted papers will be required to choose one of the following publication options:
+(1) Author retains copyright of the work and grants ACM a non-exclusive permission-to-publish license and, optionally, licenses the work under a Creative Commons license.
+(2) Author retains copyright of the work and grants ACM an exclusive permission-to-publish license.
+(3) Author transfers copyright of the work to ACM.
+
+For authors who can afford it, we recommend option (1), which will make the paper Gold Open Access, and also encourage such authors to license their work under the CC-BY license. ACM will charge you an article processing fee for this option (currently, US$700), which you have to pay directly with the ACM. You don’t need to pay this fee if the corresponding author’s affiliating institution is part of ACM OPEN (https://libraries.acm.org/subscriptions-access/open-participants).
+
+For everyone else, we recommend option (2), which is free and allows you to achieve Green Open Access, by uploading a preprint of your paper to a repository that guarantees permanent archival such as arXiv or HAL. This is anyway a good idea for timely dissemination even if you chose option 1. 
+
+The official CPP 2025 proceedings will also be available via SIGPLAN OpenTOC (http://www.sigplan.org/OpenTOC/#cpp).
+
+For ACM’s take on this, see their Copyright Policy (http://www.acm.org/publications/policies/copyright-policy) and Author Rights (http://authors.acm.org/main.html).
+
+Sandrine Blazy, University of Rennes (co-chair)
+Nicolas Tabareau, Inria (co-chair)
+
+ORGANIZERS
+Kathrin Stark, Heriot-Watt University (conference co-chair)
+Amin Timany, Aarhus University (conference co-chair)
+Sandrine Blazy, University of Rennes (PC co-chair)
+Nicolas Tabareau, Inria (PC co-chair)
+
+CONTACT
+For any questions please contact the two PC chairs:
+Sandrine Blazy  <sandrine.blazy@irisa.fr>
+Nicolas Tabareau <nicolas.tabareau@inria.fr>

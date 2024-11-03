@@ -1,0 +1,129 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>VMIL '24: Proceedings of the 16th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages</title></head><body><div id="DLtoc"><div id="DLheader"><h1>VMIL '24: Proceedings of the 16th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3689490"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689490.3690398">On Automating Hybrid Execution of Ahead-of-Time and Just-in-Time Compiled Code</a></h3><ul class="DLauthors"><li class="nameList">Christoph Pichler</li><li class="nameList">Paley Li</li><li class="nameList">Roland Schatz</li><li class="nameList Last">Hanspeter Mössenböck</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The divergence between Ahead-of-Time (AOT) and Just-in-Time (JIT) compilation techniques presents a unique predicament when trying to achieve optimal performance in software applications. AOT compilation offers efficiency by pre-compiling and optimizing code, while JIT compilation enhances peak performance through dynamic optimization and speculation. However, the improved peak performance achieved by JIT compilation is offset by the poor warm-up performance due to the overhead caused by analyses and optimizations at run time. Previously, we proposed blending these two compilation techniques, aiming to maintain high peak performance while enhancing warm-up performance. Since the programmer had to manually select functions for AOT compilation, it required familiarity with the code base and with compilers in general.        This paper presents a strategy for blending these two compilation techniques automatically. We provide an overview of language implementation features which have to be considered when implementing such an automated approach. We also propose a call-graph based analysis when determining whether certain code should be replaced by its AOT-compiled equivalent.         We implemented our approach within GraalVM, a multi-language virtual machine based on the Java HotSpot VM. The results from different benchmarks show our approach leads to a speedup of 1.48× on average for data setup and up to 2.6× for warm-up and 3.5× for peak performance. Moreover, our automated approach is able to find optimizations which have easily been missed by manual annotations.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689490.3690399">Accelerate RISC-V Instruction Set Simulation by Tiered JIT Compilation</a></h3><ul class="DLauthors"><li class="nameList">Yen-Fu Chen</li><li class="nameList">Meng-Hung Chen</li><li class="nameList">Ching-Chun Huang</li><li class="nameList Last">Chia-Heng Tu</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The rising prominence of the RISC-V instruction set architecture has spurred the development of instruction set simulators (ISS), crucial tools for early-stage architecture evaluation and software development. This paper introduces a practical approach to RISC-V ISS using tiered just-in-time (JIT) compilation, a technique commonly employed in high-level language virtual machines but rarely applied to ISS. Our method incorporates an interpreter for initial execution and profiling, a lightweight tier-1 compiler for moderate enhancements, and an aggressive tier-2 compiler for frequently executed code paths. This balanced approach ensures rapid compilation and detailed refinement, resulting in superior performance across various RISC-V workloads.
+ 
+ 
+ 
+Addressing prevalent challenges in dynamic binary translation, such as indirect jumps and excessive translation times, our paper presents innovative solutions and provides an extensive impact analysis. By leveraging the tiered JIT compilation strategy, we offer a nuanced approach that optimizes the trade-off between compilation speed and code optimization. This strategy not only enhances the overall performance of the RISC-V ISS but also contributes to the broader field of ISS, potentially influencing future developments in architecture evaluation and software development tools.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689490.3690400">Performant Bounds Checking for 64-Bit WebAssembly</a></h3><ul class="DLauthors"><li class="nameList">Lukas Döllerer</li><li class="nameList Last">Alexis Engelke</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>WebAssembly is becoming increasingly popular for various use cases due to its high portability, strict and easily enforceable isolation, and its comparably low run-time overhead. For determinism and security, WebAssembly guarantees that accesses to unallocated memory inside the 32-bit address space produce a trap. Typically, runtimes implement this by reserving all addressable WebAssembly memory in the host virtual memory and relying on page faults for out-of-bounds accesses.  To accommodate programs with higher memory requirements, several execution runtimes also implement a 64-bit address space. However, bounds checking solely relying on virtual memory protection cannot be easily extended for 64 bits. Thus, popular runtimes resort to traditional bounds checks in software, which are required frequently and, therefore, incur a substantial run-time overhead.  In this paper, we explore different ways to lower the bounds checking overhead for 64-bit WebAssembly using virtual memory techniques provided by modern hardware. In particular, we implement and analyze approaches using a combination of software checks and virtual memory, using two-level guard pages, and using unprivileged memory protection mechanisms like x86-64 memory keys. Our results show that we can reduce the bounds checking overhead from more than 100% when using software bounds checks to only 12.7% using two-level guard pages.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689490.3690401">Smarter Contract Upgrades with Orthogonal Persistence</a></h3><ul class="DLauthors"><li class="nameList">Luc Bläser</li><li class="nameList">Claudio Russo</li><li class="nameList">Gabor Greif</li><li class="nameList">Ryan Vandersmith</li><li class="nameList Last">Jason Ibrahim</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Altering the smart contract deployed on a blockchain is typically a cumbersome task, necessitating a proxy design, secondary data storage, or the use of special APIs. This can be substantially simplified if the programming language features orthogonal persistence, automatically retaining the native program state across program version upgrades. For this purpose, a customized compiler and runtime system needs to arrange the data in a self-descriptive portable format, such that new program versions can pick up the previous program state, check their compatibility, and support implicit or explicit data evolutions. We have implemented such advanced persistence support for the Motoko programming language on the Internet Computer blockchain. This not only enables simple and safe persistence, but also significantly reduces the cost of upgrades and data accesses.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689490.3690406">An Analysis of Compiled Code Reusability in Dynamic Compilation</a></h3><ul class="DLauthors"><li class="nameList">Andrej Pečimúth</li><li class="nameList">David Leopoldseder</li><li class="nameList Last">Petr Tůma</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Large applications reliant on dynamic compilation for performance often run in horizontally scaled architectures. When this is combined with frequent deployment or demand-based scaling, hardware capacity is lost to frequent warmup phases due to the need to recompile the code after each start of the virtual machine (VM). Moreover, the individual VMs waste hardware resources by repeating the same compilations.
+ 
+
+ 
+Offloading compilation jobs to a dedicated compilation server can mitigate these problems. Such a server can compile the code in a mode where the compilation result is reusable for multiple VMs. The goal is to save compilation resources, such as CPU and memory, and potentially improve the warmup time of individual VMs.
+ 
+
+ 
+This paper investigates the options to reuse previous compilation results of a high-performance compiler. Rather than reusing machine code, we propose to reuse a pre-optimized intermediate representation (IR). Reusability is achieved by deferring VM-specific optimizations until the IR is compiled to machine code for a concrete VM. In an empirical study using the GraalVM compiler and the HotSpot Java VM, the slowdown of code compiled with deferred optimization ranges between a negligible impact and a 6x slowdown. However, the code still performs significantly better than the code compiled by a lower-tier compiler. Therefore, the presented approach can form the foundation for improving warmup times in certain workloads.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689490.3690403">Synthesizing Efficient Super-Instruction Sets for Ethereum Virtual Machine</a></h3><ul class="DLauthors"><li class="nameList">Xiaowen Hu</li><li class="nameList">David Zhao</li><li class="nameList Last">Bernhard Scholz</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Super-instructions are a crucial optimization method for interpreters, as they combine multiple basic instructions into single specialized operations. The optimization technique reduces dispatch overhead and enables further optimizations in the synthesized operation code for a super-instruction. However, due to combinatorial explosion, identifying super-instructions is a complex selection problem.    	This paper presents a novel approach for the automated synthesis of super-instruct­ions using a combination of offline dictionary-based compression algorithms and greedy heuristics. Our method addresses the common issue of overlap between super-instructions, which previous approaches often overlook. Additionally, we introduce a meta-compiler for the Ethereum Virtual Machine (EVM) that automatically generates a new interpreter incorporating the super-instructions. The super-instructions generated with our approach result in an 8.45% speedup for the interpreter component of the EVM.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689490.3690404">Reducing Feedback Pollution</a></h3><ul class="DLauthors"><li class="nameList">Sebastián Krynski</li><li class="nameList">Michal Štěpánek</li><li class="nameList">Filip Říha</li><li class="nameList">Filip Křikava</li><li class="nameList Last">Jan Vitek</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Just-in-time compilers enhance the performance of future invocations                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                of a function by generating code tailored to past behavior. To achieve                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                this, compilers use a data structure, often referred to as a feedback                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                vector, to record information about each function’s                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                invocations. However, over time, feedback vectors tend to become less                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                precise, leading to lower-quality code – a phenomenon known as                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                feedback vector pollution. This paper examines feedback vector                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                pollution within the context of a compiler for the R language. We                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                provide data, discuss an approach to reduce pollution in practice, and                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                implement a proof-of-concept implementation of this approach. The preliminary results of the                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                implementation indicate ∼30% decrease in polluted compilations                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                and ∼37% decrease in function pollution throughout our corpus.</p>
+			</div></div>
+							
+						</div></div></body></html>
