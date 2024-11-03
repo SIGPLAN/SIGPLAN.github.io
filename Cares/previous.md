@@ -1,4 +1,7 @@
-### Former SIGPLAN CARES Committee Members
+---
+layout: default
+title: "Former SIGPLAN CARES Committee Members"
+---
 
 <table style="width:100%" border="0">
   <tr>

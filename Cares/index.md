@@ -80,7 +80,7 @@ CARES committee members may also attend other workshops and conferences sponsore
     <th><b>CARES member attendees</b></th>
  </tr>
      <tr>
-    <td><a href="https://icfp24.sigplan.org">ICFP 2022</a></td>
+    <td><a href="https://icfp24.sigplan.org">ICFP 2024</a></td>
     <td>Simon Peyton Jones, more tbc</td>
  </tr>
   <tr>
