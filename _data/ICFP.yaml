@@ -1,3 +1,10 @@
+2024:
+- Awardee: Niki Vazou, Eric L. Seidel, Ranjit Jhala, Dimitrios Vytiniotis, Simon Peyton-Jones
+  Other: |
+    (for 2014) _[Refinement Types for Haskell](https://dl.acm.org/doi/10.1145/2628136.2628161)_
+  Citation: |
+    This paper integrated refinement types in Haskell through the proposal of Liquid Types, a specific form of refinement types that balance expressiveness with decidability. Liquid Types provide a practical and powerful tool for ensuring program correctness. The paper has had significant impact on both academic research and practical programming, inspiring further work on refinement types in other languages and in applications such as program synthesis and software contracts.
+    
 2023:
 - Awardee: Ohad Kammar, Sam Lindley and Nicolas Oury
   Other: |
