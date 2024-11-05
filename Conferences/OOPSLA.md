@@ -20,9 +20,15 @@ Dissertation Award." Please consider making a nomination for one of
 these awards.&#160; More details about the SIGPLAN awards can be found
 [here](/Awards/).
 
+**Documents on How to Run SPLASH/OOPSLA Conferences**
+
+   * [OOPSLA (Private to Organisers Only For Now)](https://docs.google.com/document/d/1z7_xpE4jiZOmKQSrL0gh_doLd0SiU4Qcj98X-v0gV9c)
+   * [SPLASH (Private to Organisers Only For Now)](https://docs.google.com/document/d/1wyVhwfp4TXm9_EeIDAZ5SS7YyvR0WedsFxeCynAAEt4)
+
 Web Pages of Previous Conferences
 ---------------------------------
 
+* [OOPSLA 2024](https://2024.splashcon.org/track/splash-2024-oopsla) (Pasadena, CA)
 * [OOPSLA 2023](https://2023.splashcon.org/track/splash-2023-oopsla) (Lisbon, Portugal)
 * [OOPSLA 2022](https://2022.splashcon.org/track/splash-2022-oopsla) (Auckland, New Zealand)
 * [OOPSLA 2021](https://2021.splashcon.org/track/splash-2021-oopsla) (Chicago, IL)

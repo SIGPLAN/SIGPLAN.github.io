@@ -1,3 +1,10 @@
+2024:
+- Awardee: Terence Parr, Sam Harwell, Kathleen Fisher
+  Other: |
+    (for 2014) _[Adaptive LL(*) parsing: the power of dynamic analysis](https://dl.acm.org/doi/10.1145/2714064.2660202)_
+  Citation: |
+    This paper introduces the ALL(*) parsing algorithm,  which maintains the simple implementation strategies of top-down parsers while extending their expressiveness to any non-left-recursive grammar and providing linear-time performance in practice. ALL(*) is the foundation of the widely used ANTLR 4 parser generator, representing a major advancement in ANTLR's capabilities compared to earlier versions. The algorithm and ANTLR itself continue to be actively developed and improved over time. The awarded work has had a significant impact on both academic research and practical programming, as ANTLR is widely used to build languages, tools, and frameworks.
+
 2023:
 - Awardee: Leo Meyerovich and Ariel Rabkin
   Other: |

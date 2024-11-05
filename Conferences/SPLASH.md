@@ -35,10 +35,15 @@ The current SPLASH steering committee is:
 
 {% include committee.liquid name="SPLASH Steering Committee" %}
 
+**Documents on How to Run SPLASH/OOPSLA Conferences**
+
+   * [OOPSLA (Private to Organisers Only For Now)](https://docs.google.com/document/d/1z7_xpE4jiZOmKQSrL0gh_doLd0SiU4Qcj98X-v0gV9c)
+   * [SPLASH (Private to Organisers Only For Now)](https://docs.google.com/document/d/1wyVhwfp4TXm9_EeIDAZ5SS7YyvR0WedsFxeCynAAEt4)
 
 Web Pages of Previous Conferences
 ---------------------------------
 
+* [SPLASH 2024](https://2024.splashcon.org/) (Pasadena, CA)
 * [SPLASH 2023](https://2023.splashcon.org/) (Lisbon, Portugal)
 * [SPLASH 2022](https://2022.splashcon.org/) (Auckland, New Zealand)
 * [SPLASH 2021](https://2021.splashcon.org/) (Chicago, IL)

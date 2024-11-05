@@ -1,0 +1,112 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>NSAD '24: Proceedings of the 10th ACM SIGPLAN International Workshop on Numerical and Symbolic Abstract Domains</title></head><body><div id="DLtoc"><div id="DLheader"><h1>NSAD '24: Proceedings of the 10th ACM SIGPLAN International Workshop on Numerical and Symbolic Abstract Domains</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3689609"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Keynote</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689609.3699919">Abstract Domains for Machine Learning Verification (Keynote)</a></h3><ul class="DLauthors"><li class="nameList Last">Caterina Urban</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Machine learning (ML) software is increasingly being deployed in high-stakes and sensitive applications, raising important challenges related to safety, privacy, and fairness. In response, ML verification has quickly gained traction within the formal methods community, particularly through techniques like abstract interpretation. However, much of this research has progressed with minimal dialogue and collaboration with the ML community, where it often goes underappreciated. In this talk, we advocate for closing this gap by surveying possible ways to make formal methods more appealing to the ML community. We will survey our recent and ongoing work in the design and development of abstract domains for machine learning verification, and discuss research questions and avenues for future work in this context.</p>
+			</div></div>
+							
+						<h2>SESSION: Full Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689609.3689994">C-2PO: A Weakly Relational Pointer Domain: “These Are Not the Memory Cells You Are Looking For”</a></h3><ul class="DLauthors"><li class="nameList">Rebecca Ghidini</li><li class="nameList">Julian Erhard</li><li class="nameList">Michael Schwarz</li><li class="nameList Last">Helmut Seidl</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Pointer analysis is foundational for statically analyzing real-world programs. We present C-2PO — a weakly relational domain for C programs, which tracks must-equalities and -disequalities between pointer expressions. This domain captures address arithmetic and its confinement to <em>single</em> memory objects, both core concepts in C. We implement the domain in Goblint and provide a preliminary evaluation. For 95% of SV-COMP tasks, the slowdown incurred by adding C-2PO is below a factor of 3. To measure precision, we instrumented coreutil programs with assertions computed by C-2PO. For an existing non-relational pointer analysis, 80% of the assertions are out of reach.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689609.3689995">Stability: An Abstract Domain for the Trend of Variation of Numerical Variables</a></h3><ul class="DLauthors"><li class="nameList">Luca Negrini</li><li class="nameList">Sofia Presotto</li><li class="nameList">Pietro Ferrara</li><li class="nameList">Enea Zaffanella</li><li class="nameList Last">Agostino Cortesi</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>State-of-the-art abstract domains for static analysis typically focus on over-approximating either the values a variable can hold at a specific program point or the relational dependencies among variables. In this paper, we aim to capture the trend of numerical values during program executions (e.g., increasing, decreasing, or stable) relative to preceding states. By integrating the Stability domain with numerical domains, we can verify co-/contra-variance relationships among potentially unrelated variables. This approach has promising applications for anomaly detection in complex software systems, and for the verification of functional requirements.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689609.3689996">Towards a High Level Linter for Data Science</a></h3><ul class="DLauthors"><li class="nameList">Greta Dolcetti</li><li class="nameList">Agostino Cortesi</li><li class="nameList">Caterina Urban</li><li class="nameList Last">Enea Zaffanella</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Due to its interdisciplinary nature, the development of data science code is subject to a wide range of potential mistakes that can easily compromise the final results. Several tools have been proposed that can help the data scientist in identifying the most common, low level programming issues. We discuss the steps needed to implement a tool that is rather meant to focus on higher level errors that are specific of the data science pipeline. To this end, we propose a static analysis assigning <em>ad hoc</em> abstract datatypes to the program variables, which are then checked for consistency when calling functions defined in data science libraries. By adopting a descriptive (rather than prescriptive) abstract type system, we obtain a linter tool reporting data science related code smells. While being still work in progress, the current prototype is able to identify and report the code smells contained in several examples of questionable data science code.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689609.3689997">A Step-Function Abstract Domain for Granular Floating-Point Error Analysis</a></h3><ul class="DLauthors"><li class="nameList">Anthony Dario</li><li class="nameList Last">Samuel D. Pollard</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The pitfalls of numerical computations using floating-point numbers are well known. Existing static techniques for float- ing-point error analysis provide a single upper bound across all potential values for a floating-point variable. We present a new abstract domain for floating-point error analysis which describes error as a function of each variable’s value. This domain accurately models the nature of floating-point error as dependent on the magnitude of its operands. We use this domain to effectively handle exceptional values (e.g., NaN), branch instability, and binade boundaries. The granular anal- ysis provides users with a detailed understanding of forward error. We implement the abstract domain in a tool that sup- ports analyzing a subset of C including conditionals, arrays, and arithmetic operators. We compare our implementation with Fluctuat and show how our analysis can improve the error bounds for subranges of possible outputs.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689609.3689998">Abstracting Entanglement</a></h3><ul class="DLauthors"><li class="nameList">Nicola Assolini</li><li class="nameList">Alessandra Di Pierro</li><li class="nameList Last">Isabella Mastroeni</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In quantum computation, entanglement is a fundamental phenomenon that significantly affects the behaviour and correctness of quantum programs. One of the most striking effects of such a phenomenon arises from its interplay with quantum measurement. A non-classical correlation between the entangled qubits, which is related to a non-local action, makes the measurement of one qubit of an entangled pair instantaneously affect also the other. This leads to potential problems in the execution of a quantum program where variables become entangled during a computation since unintended measurements may cause erroneous results. A static analysis detecting such critical situations is, therefore, necessary to guarantee the correct execution of a quantum program. To pursue this objective, we introduce a novel abstract domain specifically designed to analyse and manage entanglement in quantum programs.</p>
+			</div></div>
+							
+						</div></div></body></html>

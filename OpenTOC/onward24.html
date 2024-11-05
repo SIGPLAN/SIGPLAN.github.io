@@ -1,0 +1,326 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>Onward! '24: Proceedings of the 2024 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software</title></head><body><div id="DLtoc"><div id="DLheader"><h1>Onward! '24: Proceedings of the 2024 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3689492"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3690044">Moldable Exceptions</a></h3><ul class="DLauthors"><li class="nameList">Andrei Chiş</li><li class="nameList">Tudor Gîrba</li><li class="nameList Last">Oscar Nierstrasz</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Debugging is hard.  Interactive debuggers are mostly the same.  They show you a stack, a way to sample the state of the stack, and, if the debugger is live, a way to step through execution.  The standard interactive debugger for a general-purpose programming language provided by a mainstream IDE mostly offers a low-level interface in terms of generic language constructs to track down and fix bugs.  A custom debugger, such as those developed for specific application domains, offers alternative interfaces more suitable to the specific execution context of the program being debugged.  Custom debuggers offering contextual debugging views and actions can greatly improve our ability to reason about the current problem.  Implementing such custom debuggers, however, is non-trivial, and poses a barrier to improving the debugging experience.  In this paper we introduce <em>moldable exceptions</em>, a lightweight mechanism to adapt a debugger’s interface based on contextual information provided by a raised exception.  We present, through a series of examples, how moldable exceptions can enhance a live programming environment.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3690045">Reclaiming the Unexplored in Hybrid Visual Programming</a></h3><ul class="DLauthors"><li class="nameList Last">Michael Homer</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Programming languages have been trapped in a world of linear textual representations fundamentally unchanged for half a century. Even systems pushing beyond these forms — visual languages, projectional language workbenches, and end-user programming tools — largely ape the strictures of stream-of-bytes compilers and confine themselves to the popular paradigms of conventional textual systems.
+ 
+
+ 
+
+ 
+Instead of recreating what succeeded in textual paradigms, new programming systems should also be exploring what did not — the confounding, confusing, convoluted approaches that fell by the wayside — with the sorts of direct manipulation, spatial connection, and change over time that textual languages could never match; and they should use their control of presentation to let the user choose the right representation for a piece of code in the moment — and change it. We argue that these two points unlock new frontiers for programming systems, and present preliminary explorations to highlight how multiple-representation environments can lower the pressure on more speculative visual paradigms, to encourage more investigation of this underexamined space.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3690046">Active DSU: Dynamic Software Updates for Active Functions</a></h3><ul class="DLauthors"><li class="nameList">Filip Strömbäck</li><li class="nameList Last">Dániel Varró</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Dynamic Software Updating (DSU) is a technique for updating programs without restarting them. It is useful in systems that provide live programming or in system with high availability needs. As a common limitation, existing DSU systems cannot update active functions. Hence, they are unable to update long-running functions, such as the main loop in a web server, or a state machine in an embedded system implemented as a loop. Updating active functions is challenging as it requires updating local variables and control flow to create a consistent state in the new version of the function. In this paper, we propose <em>Active DSU</em>, which updates the call stack to migrate data and control flow of active functions without the need to wait for the program to reach a particular state beforehand. This is achieved by replacing return addresses with stubs to avoid moving other stack frames on the call stack. <em>Active DSU</em> can migrate control flow automatically without input from the programmer in most cases.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3690047">Source-Level Debugging of Compiler-Optimised Code: Ill-Posed, but Not Impossible</a></h3><ul class="DLauthors"><li class="nameList">Stephen Kell</li><li class="nameList Last">J. Ryan Stinnett</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Debuggability and optimisation are traditionally regarded as in fundamental tension. This paper disputes that idea, arguing instead that it is possible to compile programs such that they are both fully source-level-debuggable and fully optimised, and that the essential problem to be solved is loss of state. Although these two properties are usually not achievable at the same time, it argues the feasibility of providing the desired one 'on demand', and that metadata-based approaches extended with residual state can do so in a manner that generalises beyond dynamic deoptimisation. Correctness of debugging metadata is introduced as an ill-posed problem, a partial correctness criterion is proposed, and further approaches are discussed.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3690048">The Meerkat Vision: Language Support for Live, Scalable, Reactive Web Apps</a></h3><ul class="DLauthors"><li class="nameList">João Costa Seco</li><li class="nameList Last">Jonathan Aldrich</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The reactive programming paradigm has become ubiquitous for modern web and mobile app development. But despite its many benefits, today reactive programming is limited to data updates within the client, leaving to the programmer the tedious and error-prone tasks of managing updates to code and synchronizing data updates between reactive clients and a server database. In this paper, we lay out the vision for Meerkat, a tierless, reactive, and live programming language designed to scale to the needs of modern applications. We introduce the language through a chat application which runs on our prototype implementation. We then describe approaches for modularizing and scaling Meerkat programs, customizing tradeoffs between properties such as consistency and availability, supporting local-first software and rich data models, and scaling live updates to full DevOps in software organizations. The Meerkat research program will enable a new era of developing apps that are more responsive, reliable, and evolvable than ever before.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3690049">Talking to Objects in Natural Language: Toward Semantic Tools for Exploratory Programming</a></h3><ul class="DLauthors"><li class="nameList">Christoph Thiede</li><li class="nameList">Marcel Taeumel</li><li class="nameList">Lukas Böhme</li><li class="nameList Last">Robert Hirschfeld</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In exploratory programming, programmers often face a semantic gap between their high-level understanding and the low-level interfaces available for interacting with objects in a system. That is, technical object structure and behavior need to be interpreted as abstract domain concepts, which then increases cognitive load and thus impedes exploration progress. We propose semantic object interfaces that bridge this gap by enabling contextual, natural-language conversations with objects. Our approach leverages an exploratory programming agent powered by a large language model (LLM) to translate natural-language questions into low-level experiments and provide high-level answers. We describe a framework for integrating semantic object interfaces into existing exploratory programming systems, including a prototype implementation in Squeak/Smalltalk using GPT-4o. We showcase the potential of semantic object interfaces through case studies and discuss their feasibility, limitations, and impact on the programming experience. While challenges remain, our approach promises to reduce mental effort and empower programmers to explore and understand systems at a higher level of abstraction for a better programming experience.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3690050">Software Engineering Methods for AI-Driven Deductive Legal Reasoning</a></h3><ul class="DLauthors"><li class="nameList Last">Rohan Padhye</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The recent proliferation of generative artificial intelligence (AI) technologies such as pre-trained large language models (LLMs) has opened up new frontiers in computational law. An exciting area of development is the use of AI to automate the deductive rule-based reasoning inherent in statutory and contract law. This paper argues that such automated deductive legal reasoning can now be viewed from the lens of software engineering, treating LLMs as interpreters of natural-language programs with natural-language inputs. We show how it is possible to apply principled software engineering techniques to enhance AI-driven legal reasoning of complex statutes and to unlock new applications in automated meta-reasoning such as mutation-guided example generation and metamorphic property-based testing.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3690051">Scimitar: Functional Programs as Optimization Problems</a></h3><ul class="DLauthors"><li class="nameList">Nate F. F. Bragg</li><li class="nameList">Jeffrey S. Foster</li><li class="nameList Last">Philip Zucker</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Mixed integer linear programming is a powerful and widely used approach to solving optimization problems, but its expressiveness is limited.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In this paper we introduce the optimization-aided language Scimitar, which encodes optimization problems using an expressive functional language, with a compiler that targets a mixed integer linear program solver.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Scimitar provides easy access to encoding techniques that normally require expert knowledge, enabling solve-time conditional constraints, inlining, loop unrolling, and many other high-level language constructs.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We give operational semantics for Scimitar and constraint encodings of various features.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+To demonstrate Scimitar, we present a number of examples and benchmarks including classic optimization domains and more complex problems.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Our results indicate that Scimitar's use of a dedicated MILP solver is effective for expressively modeling optimization problems embedded within functional programs.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3690052">Beyond Procedure Calls as Component Glue: Connectors Deserve Metaclass Status</a></h3><ul class="DLauthors"><li class="nameList">Marcel Weiher</li><li class="nameList">Marcel Taeumel</li><li class="nameList Last">Robert Hirschfeld</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present the architecture-oriented programming language Objective-S, which goes beyond procedure calls for expressing inter-component connectors (so-called glue code) in order to directly express a wide range of architectural patterns directly in the implementation.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Previous approaches for encoding architecture require either indirection, maintaining separate architectural descriptions, or both. Expressing the architecture directly in the implementation instead of indirectly avoids the problems associated with creating and maintaining duplicate representations. Objective-S introduces syntactic elements that let us express many architectural connections directly using a simple surface syntax. These surface elements are supported by a metaobject protocol of polymorphic connectors. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The key insight of our approach is that while so-called general-purpose programming languages do lack the ability to express most architectural concerns directly, as shown by previous research, this is not an inherent limitation. With Objective-S, we take connectors that already exist in implementation languages, such as data access or procedure calls and make them polymorphic using a metaobject protocol. This metaobject protocol enables polymorphic connection using glue code at the metaobject level that is both generic and mostly hidden from the surface language.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3690053">Abstract Debuggers: Exploring Program Behaviors using Static Analysis Results</a></h3><ul class="DLauthors"><li class="nameList">Karoliine Holter</li><li class="nameList">Juhan Oskar Hennoste</li><li class="nameList">Patrick Lam</li><li class="nameList">Simmo Saan</li><li class="nameList Last">Vesal Vojdani</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Traditional, or concrete, debuggers allow developers to step through programs and explore the corresponding concrete program states—developers can query current values of program variables. This exploration enables developers to formulate and refine hypotheses about program behaviors. We propose the novel notion of <em>abstract debuggers</em>, which allow developers to explore abstract program states, as computed by sound static analyzers. Giving developers the ability to interactively explore abstract states empowers them to work with hypotheses that are true for all program executions: they can examine and rule out false positives, or better understand a static analysis’s declaration that some code is indeed safe. Abstract debuggers’ interfaces, reminiscent of conventional debuggers, aim to make navigating and interpreting static analysis results more straightforward. We have formalized the concept, applied it by implementing a tool that leverages the static analyzer Goblint, and illustrate its usefulness through case studies.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3690054">A Programming Language for Data and Configuration!</a></h3><ul class="DLauthors"><li class="nameList Last">Mark Marron</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>A day in the life of a developer often involves more time working with schemas, configurations, and data description systems than writing code and logic in a classical programming language. As more systems move into distributed worlds, e.g. cloud and microservices, and developers make increasing use of libraries and frameworks, the need to interact with a range of data formats and configuration mechanisms is only increasing. This is a treacherous world, where a misspelled property name or missing field can render an entire service inoperable, a mistake that a number in an API represents 
+ 
+ 
+ 
+seconds instead of milli-seconds can lead to a message being set for delivery in several months instead of in an hour, misconfigured schema can lead to public exposure of sensitive data, and corrupt or erroneous results from a misunderstood data format could result in massive financial and/or reputational damage.
+ 
+ 
+ 
+
+ 
+ 
+ 
+To address these challenges this paper casts the problems of data and configuration descriptions, not as a problem of data representation, but as a type system problem, that can be addressed with well understood and highly effective programming language techniques! The novel challenge is that data representation and configuration are universal concerns in a system and, particularly in modern cloud or micro-service systems, these systems may involve many programming languages. In the past this has led to specification systems that use a least-common-denominator set of data types, often little more than strings and numbers, and then rely on conventions or (out-of-date) documentation to ensure that the data is interpreted correctly. This paper shows that, with careful design, it is possible to create a rich universal system that can be used to express data and configuration specifications in a way that is human readable/writable and that can be produced/consumed, much like JSON, by a wide range of programming languages and systems.</p>
+			</div></div>
+							
+						<h2>SESSION: Essays</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3689806">The Linguistics of Programming</a></h3><ul class="DLauthors"><li class="nameList Last">Colin S. Gordon</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Research in programming languages and software engineering are broadly concerned with the study of aspects of computer programs: their syntactic structure, the relationship between form and meaning (semantics), empirical properties of how they are constructed and deployed, and more. We could equally well apply this description to the range of ways in which linguistics studies the form, meaning, and use of natural language. We argue that despite some notable examples of PL and SE research drawing on ideas from natural language processing, there are still a wealth of concepts, techniques, and conceptual framings originating in linguistics which would be of use to PL and SE research. Moreover we show that beyond mere parallels, there are cases where linguistics research has complementary methodologies, may help explain or predict study outcomes, or offer new perspectives on established research areas in PL and SE. Broadly, we argue that researchers across PL and SE are investigating close cousins of problems actively studied for years by linguists, and familiarity with linguistics research seems likely to bear fruit for many PL and SE researchers.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3689807">Dialogues on Natural Code</a></h3><ul class="DLauthors"><li class="nameList">Lu Wilson</li><li class="nameList Last">David H. Ackley</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This essay, based on a series of discussions between the authors, is a loosely edited collage in which we work to flesh out our shared interests in non-traditional machines and coding mechanisms. We primarily focused on the idea that all human language can usefully be viewed in programming language terms — as “natural code”. Programming languages and natural languages differ in many ways, such as having relatively formal definitions versus not, emphasizing strong syntax versus large dictionaries, and demanding rigid implementations versus building on the vagaries of living systems. Still, we saw deep unities as well, much more than mere metaphor, and we glimpsed the possibility of applying humanity’s decades of programming language design and software engineering experience to the task of debugging and refactoring the natural codebase that we all share. These fragmentary and overlapping dialogues represent both a description and an example of natural code, and we offer them here, with a simple “natural API” illustration, in hopes of programming people to join in natural code development.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3689808">Redressing the Balance: A Yin-Yang Perspective on Information Technology</a></h3><ul class="DLauthors"><li class="nameList Last">Konrad Hinsen</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Information is an essential aspect of how we interact with the world around us. We acquire information and then integrate it to build knowledge, understanding, and trust, which in turn serve in preparing actions. Information technology (IT) is supposed to support all these phases of information processing. But does it?
+ 
+ 
+ 
+
+ 
+ 
+ 
+An assessment of IT through the yin-yang lens from Chinese philosophy shows that over the last decades, support for the yin processes of building knowledge, understanding, and trust has been neglected, the focus of most research and development having been on the yang processes of acting. IT shares this imbalance with other aspects of Western and globalized culture. I discuss possible directions for re-establishing a yin-yang balance in IT, as a small contribution to redressing the balance in the world at large.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3689809">A Case for Feminism in Programming Language Design</a></h3><ul class="DLauthors"><li class="nameList">Felienne Hermans</li><li class="nameList Last">Ari Schlesinger</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Two critical and interrelated questions regarding the design and study of programming languages are: 1) What does it mean to design a programming language? and 2) Why does minimal demographic diversity persist in the programming language community? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In this paper, we present feminism as a philosophical lens for analyzing the programming languages field in order to help us understand and answer the motivating questions above. By using a feminist lens, we are able to explore how the dominant intellectual and cultural norms have both shaped and constrained programming languages. A key contribution of this analysis is the explanation of how marginalization in the programming language community limits the intellectual and demographic makeup of the field. We see this paper as an invitation to everyone in the programming languages field to deepen our collective understanding of the forces shaping our field. Our goal is to illustrate opportunities for more inclusive practices that will introduce greater diversity to the design of programming languages and the demographic makeup of the programming language community.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3689810">(Programs), Proofs and Refutations (and Tests and Mutants)</a></h3><ul class="DLauthors"><li class="nameList Last">Alex Groce</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This essay consists of an imaginary discussion among a group of students after a computer science class, that presents some problems of (and partial solutions to) fundamental issues of program correctness.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3689811">A New Cognitive Perspective on Simplicity in System and Product Design</a></h3><ul class="DLauthors"><li class="nameList Last">Stefan Lesser</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>What is simple? How can we make simple things? Simplicity seems easy to grasp but is surprisingly difficult to explain. “We know it when we see it”, but we don’t know how to describe it. This essay reflects on a number of observations about simplicity and complexity. It invites a perspective change towards a dynamical systems view of simplicity, explores how we can explain what makes things simple, and how we can utilize this knowledge as makers, creators, product and system designers to craft simple things.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3689812">Programming Languages for the Future of Design Computation</a></h3><ul class="DLauthors"><li class="nameList">Robert Aish</li><li class="nameList">Al Fisher</li><li class="nameList">Dominic Orchard</li><li class="nameList Last">Jay Torry</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Design Computation is the use of programming in the design of physical systems such as buildings and infrastructure. This involves embedding both general-purpose textual languages and domain-specific visual languages within geometry modelling and engineering applications in the construction industry. A unique form of entry-level end-user programming has emerged in Design Computation. However, there are significant usability and representational issues; general-purpose languages present barriers to adoption, whilst visual languages do not scale to complex design problems.
+ 
+
+ 
+In this essay, we explore how advances in programming language research could be harnessed in future Design Computation languages to address these pedagogic, representational and scaling issues so as to improve human readable program structure and semantics and to enable machine-readable program verification.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3689813">The Hidden Program State Hurts Everyone</a></h3><ul class="DLauthors"><li class="nameList">Sverrir Thorgeirsson</li><li class="nameList">Oliver Graf</li><li class="nameList Last">Zhendong Su</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>While visual scaffolding, live programming, and direct manipulation of the program state are considered useful programming paradigms for novices, they might not always offer the same benefits to experienced software developers. In this essay, we will use chess as a proxy for exploring how these paradigms can also support those who have an intuitive understanding of the program state and its connection with textual code. We will consider the visual programming language Algot and recent user studies conducted on the language to uncover insights into how direct manipulation and programming by demonstration can benefit everyone.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3689814">Use Site Checking Considered Harmful</a></h3><ul class="DLauthors"><li class="nameList">Dimi Racordon</li><li class="nameList Last">Benjamin Chung</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Static type checking aims to detect nonsensical operations based on their domains at compile time. While its benefits no longer need to be argued, it comes with expressiveness limitations that can only be lifted at the expense of complexity. This problem is particularly antithetical to generic programming, where algorithms and data structures are designed in the most general setting possible. In response, some systems have adopted a form of static duck typing: generic definitions are written against assumed interfaces that are only type checked with concrete types at their ultimate use sites.                                This essay claims that such an approach, which we refer to as <em>use site checking</em>, is harmful to user experience. We study four main problems caused by use site checking and show how they relate to similar well-known issues in dynamically typed languages. We then look at existing language constructs to discuss how statically typed languages may address these shortcomings.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3689815">Discovering Your Software Umwelt</a></h3><ul class="DLauthors"><li class="nameList">Rebecca Wirfs-Brock</li><li class="nameList">Allen Wirfs-Brock</li><li class="nameList Last">Jordan Wirfs-Brock</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We apply the biological-behavioral concept of an <em>umwelt</em>, which is how an organism perceives and acts within its environment, to the practice of software development. By writing narrative descriptions of our own software umwelts and iteratively discussing and analyzing them, we develop prompts that can elicit reflection on how and why we relate to software in the ways that we do.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689492.3689816">tl;dr: Chill, y’all: AI Will Not Devour SE</a></h3><ul class="DLauthors"><li class="nameList">Eunsuk Kang</li><li class="nameList Last">Mary Shaw</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Social media provide a steady diet of dire warnings that artificial intelligence (AI) will make software engineering (SE) irrelevant or obsolete. To the contrary, the engineering discipline of software is rich and robust; it encompasses the full scope of software design, development, deployment, and practical use; and it has regularly assimilated radical new offerings from AI. Current AI innovations such as machine learning, large language models (LLMs) and generative AI will offer new opportunities to extend the models and methods of SE. They may automate some routine development processes, and they will bring new kinds of components and architectures. If we're fortunate they may force SE to rethink what we mean by correctness and reliability. They will not, however, render SE irrelevant.</p>
+			</div></div>
+							
+						</div></div></body></html>

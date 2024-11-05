@@ -1,0 +1,542 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>SLE '24: Proceedings of the 17th ACM SIGPLAN International Conference on Software Language Engineering</title></head><body><div id="DLtoc"><div id="DLheader"><h1>SLE '24: Proceedings of the 17th ACM SIGPLAN International Conference on Software Language Engineering</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3687997"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Keynote</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3687997.3700296">There Is Only One Time in Software (Language) Engineering! (Keynote)</a></h3><ul class="DLauthors"><li class="nameList Last">Benoît Combemale</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Software engineering is a complex endeavor that encompasses various socio-technical activities. These activities are traditionally orchestrated over a development life cycle from development time to operation time, and applying engineering processes both at design and run times, and at the application and domain levels. Software Language engineering follows a similar pattern, including the development of domain-specific languages, and all the required tools to support the various language-related activities. 
+ 
+</p>
+<p>
+This organization, often working in silos, structures the available tools and methods we use, and even the various communities of software engineering (i.e., Conway’s law applied to our own discipline!). While this "divide and conquer" approach was crucial in the early days of software engineering, I argue that it now limits the adaptability required to address what I refer to as software hyper-agility. Modern software systems evolve at an accelerating pace, operate in dynamic environments, and face growing uncertainty. 
+ 
+</p>
+<p>
+To manage such complexity, a shift towards continuous engineering of cyber-physical and socio-technical ecosystems is necessary, along with more adaptable DSLs. In this talk, I will present the concept of (self-)adaptable languages. I then explore the future of the developer experience with the support of a continuous, feedback-driven, software engineering, with challenges related to abstraction engineering, variability management and digital twins.</p>
+			</div></div>
+							
+						<h2>SESSION: Software Language Integration and Composition</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3687997.3695635">Cooperative Specification via Composition Control</a></h3><ul class="DLauthors"><li class="nameList">Christopher A. Esterhuyse</li><li class="nameList Last">L. Thomas van Binsbergen</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>High-level, declarative specification languages are typically highly modular: specifications are comprised of fragments that are themselves meaningful.
+ 
+As such, complex specifications are built from incrementally composed fragments.
+ 
+In a cooperative specification, different fragments are contributed by different agents, usually capturing requirements on different facets of the system.
+ 
+For example, legal regulators and system administrators cooperate to specify the behaviour of a data exchange system.
+ 
+In practice, cooperative specification is difficult, as different contributors' requirements are difficult to elicit, express, and compose.
+ 
+</p>
+<p>
+In this work, we characterise cooperative specification and adopt an approach that leverages language features specifically introduced for controlling specification composition. 
+ 
+In our approach, specifications model the domain as usual, but also specify how specifications may change.
+ 
+For example, a legal regulator defines 'consent to process data' and specifies which agents may consent, and which relaxations of the requirement are permitted.
+ 
+We propose and demonstrate generic language extensions that improve composition control in three case study languages: Datalog, Alloy, and eFLINT.
+ 
+We reflect on how these extensions improve composition control, and afford new data exchange scenarios. 
+ 
+Finally, we relate our contributions to existing works, and to the greater vision of multi-agent data exchange to the satisfaction of their shared, complex, dynamic requirements.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3687997.3695642">Aconite: Towards Generating Sirius-Based Graphical Editors from Annotated Metamodels</a></h3><ul class="DLauthors"><li class="nameList">Nathan Richardson</li><li class="nameList">Dimitris Kolovos</li><li class="nameList Last">Antonio Garcia-Dominguez</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Sirius is a powerful framework for implementing graphical editors for modelling languages. Sirius can help manage model complexity by presenting the same model through multiple notations ("viewpoints" in Sirius), dedicated to different audiences and/or tasks. However, this flexibility comes at the expense of having to manually define the mapping between each viewpoint and the metamodel. This paper explores a textual notation to efficiently annotate a metamodel with such a mapping, and transform the metamodel into one or more Sirius viewpoint descriptors, with the aim to reduce the manual work required to produce and maintain Sirius-based graphical notations. We present Aconite, an open-source tool which implements this approach, and demonstrate it through the re-implementation of a common Sirius example notation, and a simplified version of a BPMN editor. Aconite includes mechanisms for automated generation of navigation expressions in common scenarios, and for inheritance of graphical styles to reduce repetition.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3687997.3695650">Towards an In-Context LLM-Based Approach for Automating the Definition of Model Views</a></h3><ul class="DLauthors"><li class="nameList">James William Pontes Miranda</li><li class="nameList">Hugo Bruneliere</li><li class="nameList">Massimo Tisi</li><li class="nameList Last">Gerson Sunyé</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In the Model-Driven Engineering (MDE) of complex systems, multiple models represent various systems' aspects. In practice, these models are often unconnected and specified using different modeling languages. Model view solutions can be employed to automatically combine such models. However, writing model view definitions is not trivial. When modeling languages are semantically distant and/or have a large number of concepts, it can quickly become difficult to manually identify the language elements to be selected, associated, or queried to build a model view. As a solution, this paper proposes an in-context Large Language Model (LLM)-based approach to assist engineers in writing model-view definitions. Notably, we rely on LLMs and Prompt Engineering techniques to automatically generate drafts of model-view definitions by providing as input only minimal information on the modeling languages to be combined. We implemented our approach by integrating the EMF Views solution for model views with the LangChain framework for LLM-based applications. To this end, we tailored LangChain to handle EMF metamodels. We validated our approach and implementation on a set of model views originally specified either in VPDL, the ViewPoint Definition Language of EMF Views, or as ATL model-to-model transformations. We compared these original model view definitions with the ones we automatically generated. The obtained results show the feasibility and applicability of our approach.</p>
+			</div></div>
+							
+						<h2>SESSION: Software Language Design and Implementation I</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3687997.3695637">Concrete Syntax Metapatterns</a></h3><ul class="DLauthors"><li class="nameList">Luka Miljak</li><li class="nameList">Casper Bach Poulsen</li><li class="nameList Last">Rosilde Corvino</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Software engineers should be able to apply massive code refactorings to maintain large legacy code bases.    A key aspect of developing restructurings is matching and transforming code snippets using abstract syntax trees (ASTs).        Matching on ASTs is typically done through AST patterns with holes.    AST patterns can be extended to become <em>metapatterns</em>, which increase their expressivity.    Metapattern examples include disjunctions, descendant patterns, and patches where we inline transformations into the pattern itself.        Despite their expressivity, abstract syntax (meta)patterns can become verbose and require restructuring engineers to be intimately familiar with the data types that define the AST.    A better approach is to use <em>concrete syntax patterns</em>, which allows us to denote our patterns in the syntax of the object language.    Previous work has shown that we can use external <em>black-box parsers</em> of the object language to compile concrete syntax patterns for arbitrary languages.        In this paper, we scale this compilation method to support concrete syntax <em>meta</em>patterns, which allows for a more declarative way of expressing restructurings.    We evaluate this method through an implementation written in Kotlin.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3687997.3695644">Efficient Demand Evaluation of Fixed-Point Attributes using Static Analysis</a></h3><ul class="DLauthors"><li class="nameList">Idriss Riouak</li><li class="nameList">Niklas Fors</li><li class="nameList">Jesper Öqvist</li><li class="nameList">Görel Hedin</li><li class="nameList Last">Christoph Reichenbach</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Declarative approaches to program analysis promise a number of practical advantages over imperative approaches, from eliminating manual worklist management to increasing modularity.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Reference Attribute Grammars (RAGs) are one such approach.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+One particular advantage of RAGs is the automatic generation of on-demand implementations, suitable for query-based interactive tooling as well as for client analyses that do not require full evaluation of underlying analyses.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+While historically aimed at compiler frontend construction, the addition of circular (fixed-point) attributes also makes them suitable for dataflow problems.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+However, prior algorithms for on-demand circular RAG evaluation can be inefficient or even impractical for dataflow analysis of realistic programming languages like Java.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We propose a new demand algorithm for attribute evaluation that addresses these weaknesses, and apply it to a number of real-world case studies.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Our algorithm exploits the fact that some attributes can never be circular, and we describe a static meta-analysis that identifies such attributes,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+and obtains a median steady-state performance speedup of ~2.5x and ~22x for dead-assignment and null-pointer dereference analyses, respectively.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3687997.3695639">The Design of a Self-Compiling C Transpiler Targeting POSIX Shell</a></h3><ul class="DLauthors"><li class="nameList">Laurent Huberdeau</li><li class="nameList">Cassandre Hamel</li><li class="nameList">Stefan Monnier</li><li class="nameList Last">Marc Feeley</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Software supply chain attacks are increasingly frequent and can be hard to guard against. Reproducible builds ensure that generated artifacts (executable programs) can be reliably created from their source code. However, the tools used by the build process are also vulnerable to supply chain attacks so a complete solution must also include reproducible builds for the various compilers used.  With this problem as our main motivation we explore the use of the widely available POSIX shell as the only trusted pre-built binary for the reproducible build process. We have developed pnut, a C to POSIX shell transpiler written in C that generates human-readable shell code. Because the compiler is self-applicable, it is possible to distribute a human-readable shell script implementing a C compiler that depends only on the existence of a POSIX compliant shell such as bash, ksh, zsh, etc. Together, pnut and the shell serve as the seed for a chain of builds that create increasingly capable compilers up to the most recent version of the GNU Compiler Collection (GCC) that is a convenient basis to build any other required tool in the toolchain. The end result is a complete build toolchain built only from a shell and human-readable source files. We discuss the level of C language support needed to achieve our goal, the generation of portable POSIX shell code from C, and the performance of the compiler and generated code.</p>
+			</div></div>
+							
+						<h2>SESSION: SLE Body of Knowledge (SLEBoK)</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3687997.3695645">DSLs in Racket: You Want It How, Now?</a></h3><ul class="DLauthors"><li class="nameList">Yunjeong Lee</li><li class="nameList">Kiran Gopinathan</li><li class="nameList">Ziyi Yang</li><li class="nameList">Matthew Flatt</li><li class="nameList Last">Ilya Sergey</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Domain-Specific Languages (DSLs) are a popular way to simplify and streamline programmatic solutions of commonly occurring yet specialized tasks. While the design of frameworks for implementing DSLs has been a popular topic of study in the research community, significantly less attention has been given to studying how those frameworks end up being used by practitioners and assessing utility of their features for building DSLs "in the wild". In this paper, we conduct such a study focusing on a particular framework for DSL construction: the Racket programming language. We provide (a) a novel taxonomy of language design intents enabled by Racket-embedded DSLs, and (b) a classification of ways to utilize Racket's mechanisms that make the implementation of those intents possible. We substantiate our taxonomy with an analysis of 30 popular Racket-based DSLs, discussing how they make use of the available mechanisms and accordingly achieve their design intents. The taxonomy serves as a reusable measure that can help language designers to systematically develop, compare, and analyze DSLs in Racket as well as other frameworks.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3687997.3695649">Design of Software Representation Languages: A Historical Perspective</a></h3><ul class="DLauthors"><li class="nameList Last">Anthony I. Wasserman</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The history of software development includes numerous tex- tual and graphical ways to represent software structures and the mechanisms for executing high-level instructions. The proliferation of programming languages is a visible outcome of that effort, with many popular languages having a strong association with their creator(s). In this paper, we present a historically focused overview of many different types of software representations, primarily programming languages, but also graphical notations that can generate code in a programming language or be directly executed with associated tools. The paper then describes some of the characteristics that differentiate them from one another, and concludes with a review of guidelines for designing programming languages and notations.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3687997.3695636">The Linguistic Theory behind Blockly Languages</a></h3><ul class="DLauthors"><li class="nameList">Friedrich Steimann</li><li class="nameList Last">Robin Stunic</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The dominant linguistic theory for specifying the syntax of software languages is Chomsky's phrase-structure grammar. However, for graphical block languages (such as Scratch and other languages defined using Google's Blockly library), we note that a different linguistic theory provides a better fitting model: the theory of dependency grammar. Indeed, as we make clear, there is a close, almost one-to-one correspondence between the specifications of graphical syntax required by Blockly and a classic capture of dependency grammar, which can be perfected by making only small extensions that remain entirely within the linguistic context. Taking the identified correspondence further suggests how Blockly languages can become context-sensitive, a requirement of many software languages that so far, Blockly addresses only in ad hoc ways.</p>
+			</div></div>
+							
+						<h2>SESSION: Empirical Studies and Experience Reports</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3687997.3695638">Trading Runtime for Energy Efficiency: Leveraging Power Caps to Save Energy across Programming Languages</a></h3><ul class="DLauthors"><li class="nameList">Simão Cunha</li><li class="nameList">Luís Silva</li><li class="nameList">João Saraiva</li><li class="nameList Last">João Paulo Fernandes</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Energy efficiency of software is crucial in minimizing environmental impact and reducing operational costs of ICT systems. Energy efficiency is therefore a key area of contemporary software language engineering research. A recurrent discussion that excites our community is whether runtime performance is always a proxy for energy efficiency. While a generalized intuition seems to suggest this is the case, this intuition does not align with the fact that energy is the accumulation of power over time; hence, time is only one of the factors in this accumulation. We focus on the other factor, power, and the impact that capping it has on the energy efficiency of running software.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We conduct an extensive investigation comparing regular and power-capped executions of 9 benchmark programs obtained from The Computer Language Benchmarks Game, across 20 distinct programming languages. Our results show that employing power caps can be used to trade running time, which is degraded, for energy efficiency, which is improved, in all the programming languages and in all benchmarks that were considered. We observe overall energy savings of almost 14% across the 20 programming languages, with notable savings of 27% in Haskell. This saving, however, comes at the cost of an overall increase of the program's execution time of 91% in average.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We are also able to draw similar observations using language specific benchmarks for programming languages of different paradigms and with different execution models. This is achieved analyzing a wide range of benchmark programs from the nofib Benchmark Suite of Haskell Programs, DaCapo Benchmark Suite for Java, and the Python Performance Benchmark Suite. We observe energy savings of approximately 8% to 21% across the test suites, with execution time increases ranging from 21% to 46%. Notably, the DaCapo suite exhibits the most significant values, with 20.84% energy savings and a 45.58% increase in execution time.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Our results have the potential to drive significant energy savings in the context of computational tasks for which runtime is not critical, including Batch Processing Systems, Background Data Processing and Automated Backups.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3687997.3695643">Cloud Programming Languages and Infrastructure from Code: An Empirical Study</a></h3><ul class="DLauthors"><li class="nameList">Georg Simhandl</li><li class="nameList Last">Uwe Zdun</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Infrastructure-from-Code (IfC) is a new approach to DevOps and an advancement of Infrastructure-as-Code (IaC). 
+ 
+ 
+ 
+One of its key concepts is to provide a higher level of abstraction facilitated by new programming languages or software development kits, which automatically generate the necessary code and configurations to provision the infrastructure, deploy the application, and manage the cloud services. IfC approaches promise higher developer productivity by reducing DevOps-specific tasks and the expert knowledge required. However, empirical studies on developers' performance, perceived ease of use, and usability related to IfC are missing. We conducted a controlled experiment (n=40) to assess the usability of the cloud programming languages (PL) and software development kits (SDK). Both approaches involve similar effectiveness. We found that the PL-based approach was moderately less efficient but increased correctness with time spent on programming. Tracing generated infrastructure configurations from code was more challenging with the SDK-based approach. Applying thematic analysis, 19 themes emerged related to usability barriers, supporting factors, security, cloud cost, and enhancement areas. We conclude with five findings and future directions.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3687997.3695634">Statically and Dynamically Delayed Sampling for Typed Probabilistic Programming Languages</a></h3><ul class="DLauthors"><li class="nameList">Gizem Caylak</li><li class="nameList">Daniel Lundén</li><li class="nameList">Viktor Senderov</li><li class="nameList Last">David Broman</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Probabilistic programming languages (PPLs) make it possible to separate the concerns between probabilistic models and Bayesian inference algorithms. However, to make such inference efficient is technically very challenging, both in terms of execution time performance and inference accuracy. One successful optimization approach is the previously published work on dynamically delayed sampling. This runtime method makes use of analytical relations between random variables to reduce inference variance; however, tracking these relations introduces runtime overhead. Furthermore, implementing the dynamic approach in a statically typed language introduces type problems because delaying the sampling of random variables changes their types. Our work advances the state-of-the-art in two aspects. Firstly, to reduce the runtime overhead, we develop a compile-time version of delayed sampling. By incorporating optimization procedures during compilation, we eliminate the need for runtime relation tracking and consequent overhead. However, the compile-time version may not always be effective due to the program's possible dynamic behavior, such as stochastic branches, or the complexity of handling recursion. Secondly, we introduce constructs to implement dynamically delayed sampling in a statically typed universal PPL. Dynamically delayed sampling in statically typed languages is a viable optimization for complex Bayesian models, whereas simple models ought to be statically optimized. We evaluate both statically and dynamically delayed sampling on real-world examples, such as latent Dirichlet allocation and an epidemiology model, and implement the methods in a statically typed PPL, Miking CorePPL.</p>
+			</div></div>
+							
+						<h2>SESSION: Software Language Design and Implementation II</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3687997.3695640">Type Checking with Rewriting Rules</a></h3><ul class="DLauthors"><li class="nameList Last">Dimi Racordon</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Type classes support the implementation of highly reusable algorithms and data structures without loss of efficiency. Initially developed in Haskell, they have become central to the design of several modern programming languages, including Swift, Rust, Hylo, and Carbon. A key part of their success is the ability to express sophisticated abstractions using constraints on the types associated with their operations. However, this expressiveness invites thorny theoretical and engineering questions. In particular, the support of recursive constraints—i.e., constraints specifying that an associated type of an abstraction must be a model of that abstraction—leaves type equivalence undecidable.        This paper studies a semi-decidable technique to tackle this problem that was first developed in Swift’s compiler. The core idea is to encode constraints into a term rewriting system and use normalization to answer type checking queries. We describe this approach formally through the lens of , a calculus originally designed to capture generic programming best practices; and discuss an implementation in the context of Hylo, a language inspired by Swift and Rust.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3687997.3695647">Trieste: A C++ DSL for Flexible Tree Rewriting</a></h3><ul class="DLauthors"><li class="nameList">Sylvan Clebsch</li><li class="nameList">Matilda Blomqvist</li><li class="nameList">Elias Castegren</li><li class="nameList">Matthew A. Johnson</li><li class="nameList Last">Matthew J. Parkinson</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Compilation is all about tree rewriting.
+ 
+ 
+ 
+In functional languages where all data is tree-shaped, tree rewriting is facilitated by pattern matching, but data immutability leads to copying for each update.
+ 
+ 
+ 
+In object-oriented languages like Java or C++, a standard approach is to use the visitor pattern, which increases modularization but also adds indirection and introduces boilerplate code. In this paper, we introduce Trieste -- a novel tree-rewriting DSL, combining the power of C++ with the expressivity of pattern matching.
+ 
+ 
+ 
+
+ 
+ 
+ 
+In Trieste, sequences of rewrite passes can be used to read a file to produce an abstract syntax tree (AST), convert from one AST to another, or write an AST to disk.
+ 
+ 
+ 
+Each pass rewrites an AST in place using subtree pattern matching, where the result is dynamically checked for well-formedness.
+ 
+ 
+ 
+Checking the well-formedness of trees dynamically enables flexibly changing the tree structure without having to define new data types for each intermediate representation.
+ 
+ 
+ 
+The well-formedness specification can also be used for scoped name binding and generating random well-formed trees for fuzz testing in addition to checking the shape of trees.
+ 
+ 
+ 
+
+ 
+ 
+ 
+Trieste has been used to build fully compliant parsers for YAML and JSON, a transpiler from YAML to JSON, and a compiler and interpreter for the policy language Rego.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3687997.3695633">Method Bundles</a></h3><ul class="DLauthors"><li class="nameList">Dimi Racordon</li><li class="nameList Last">Dave Abrahams</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Performance-critical systems commonly optimize memory use and locality by selecting among multiple variants of a single logical operation. Algorithm developers then typically rely on ad-hoc API patterns or naming conventions to distinguish the variants. Unfortunately, this practice suffers from poor ergonomics. Users are compelled to understand the conventions and carefully consider the signatures and documentation of different variants, which creates drag on development and maintenance.
+ 
+ 
+ 
+
+ 
+ 
+ 
+Instead, we propose a language construct bundling algorithm variants having well-defined semantic relationships under a single name. This approach eliminates boilerplate, reduces cognitive overhead by consolidating APIs, and unlocks compiler optimizations.</p>
+			</div></div>
+							
+						<h2>SESSION: Analysis and Optimization</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3687997.3695641">Trellis: A Domain-Specific Language for Hidden Markov Models with Sparse Transitions</a></h3><ul class="DLauthors"><li class="nameList">Lars Hummelgren</li><li class="nameList">Viktor Palmkvist</li><li class="nameList">Linnea Stjerna</li><li class="nameList">Xuechun Xu</li><li class="nameList">Joakim Jalden</li><li class="nameList Last">David Broman</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Hidden Markov models (HMMs) are frequently used in areas such as speech recognition and bioinformatics. However, implementing HMM algorithms correctly and efficiently is time-consuming and error-prone. Specifically, using model-specific knowledge to improve performance, such as sparsity in the transition probability matrix, ties the implementation to a particular model, making it harder to modify. Previous work has introduced high-level frameworks for defining HMMs, thus lifting the burden of efficiently implementing HMM algorithms from the user. However, existing tools are ill-suited for sparse HMMs with many states. This paper introduces Trellis, a domain-specific language for succinctly defining sparse HMMs that use GPU acceleration to achieve high performance. We show that Trellis outperforms previous work and is on par with a hand-written CUDA kernel implementation for a particular sparse HMM.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3687997.3695646">Reducing Write Barrier Overheads for Orthogonal Persistence</a></h3><ul class="DLauthors"><li class="nameList">Yilin Zhang</li><li class="nameList">Omkar Dilip Dhawal</li><li class="nameList">V. Krishna Nandivada</li><li class="nameList">Shigeru Chiba</li><li class="nameList Last">Tomoharu Ugawa</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Orthogonal persistence implemented with non-volatile memory (NVM) allows the programmers to easily create persistent containers, which are container data-structures preserved even after the process terminations due to a system crash. However, the state-of-the-art technique of its implementation in multithreaded languages rely on the instruction, which limits out-of-order execution. This overhead is applied regardless of the use of persistent objects. We propose a technique that does not disturb out-of-order execution. Instead, we let the thread that is attempting to make an object persistent synchronize with all the other threads by handshaking. Furthermore,  we propose a technique to eliminate the redundancy of that synchronization by a novel static analysis called persistence-aware escape analysis. We implemented both the proposed techniques in RBP (replication based persistency) implemented in the HotSpot VM of OpenJDK. As a result of our evaluation, we observed that the execution speed was faster than RBP by 23.0objects, and it was only 10.6which does not support orthogonal persistence. When a program used persistent objects, execution speed was almost the same as RBP. These results demonstrate that orthogonal persistence using NVM can be implemented in a practical way.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3687997.3695648">Bugfox: A Trace-Based Analyzer for Localizing the Cause of Software Regression in JavaScript</a></h3><ul class="DLauthors"><li class="nameList">Yuefeng Hu</li><li class="nameList">Hiromu Ishibe</li><li class="nameList">Feng Dai</li><li class="nameList">Tetsuro Yamazaki</li><li class="nameList Last">Shigeru Chiba</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Software regression has been a persistent issue in software development. Although numerous techniques have been proposed to prevent regression from being introduced before release, few are available to address regression as it occurs post-release. Therefore, identifying the root cause of regression has always been a time-consuming and labor-intensive task. We aim to deliver automated solutions for solving regressions based on tracing. We present Bugfox, a trace-based analyzer that reports functions as the possible cause of regression in JavaScript. The idea is to generate runtime trace with instrumented programs, then extract the differences between clean and regression traces, and apply two heuristic strategies based on invocation order and frequency to identify the suspicious functions among differences. We evaluate our approach on 12 real-world regressions taken from the benchmark BugsJS. First strategy solves 6 regressions, and second strategy solves other 4 regressions, resulting in an overall accuracy of 83% on test cases. Notably, Bugfox solves each regression in under 1 minute with minimal memory overhead (&lt;200 Megabytes). Our findings suggest Bugfox could help developers solve regression in real development.</p>
+			</div></div>
+							
+						<h2>SESSION: Panel</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3687997.3698125">AI Effects on Research and Education: A Programming and Software Language Perspective (Panel)</a></h3><ul class="DLauthors"><li class="nameList Last">Ralf Lämmel</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In this panel, we discuss how AI is affecting research and education
+ 
+ in the field of programming and software languages. We explore
+ 
+ different positions regarding carefully welcoming AI into research
+ 
+ and education. We focus more on fundamental, philosophical,
+ 
+ methodological questions, less so on specific technological advances
+ 
+ or studies.</p>
+			</div></div>
+							
+						</div></div></body></html>

@@ -1,0 +1,584 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>GPCE '24: Proceedings of the 23rd ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences</title></head><body><div id="DLtoc"><div id="DLheader"><h1>GPCE '24: Proceedings of the 23rd ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3689484"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Code Quality</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689484.3690738">Automated Generation of Code Contracts: Generative AI to the Rescue?</a></h3><ul class="DLauthors"><li class="nameList">Sandra Greiner</li><li class="nameList">Noah Bühlmann</li><li class="nameList">Manuel Ohrndorf</li><li class="nameList">Christos Tsigkanos</li><li class="nameList">Oscar Nierstrasz</li><li class="nameList Last">Timo Kehrer</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Design by Contract represents an established, lightweight paradigm for engineering reliable and robust software systems by specifying verifiable expectations and obligations between software components. Due to its laborious nature, developers hardly adopt Design by Contract in practice.
+ 
+ 
+ 
+A plethora of research on (semi-)-automated inference to reduce the manual burden has not improved the adoption of so-called code contracts in practice.
+ 
+ 
+ 
+This paper examines the potential of Generative AI to automatically generate code contracts in terms of pre- and postconditions for any Java project without requiring any additional auxiliary artifact.
+ 
+ 
+ 
+To fine-tune two state-of-the-art Large Language Models, CodeT5 and CodeT5+, we derive a dataset of more than 14k Java methods comprising contracts in form of Java Modeling Language (JML) annotations, and train the models on the task of generating contracts.
+ 
+ 
+ 
+We examine the syntactic and semantic validity of the contracts generated for software projects not used in the fine-tuning and find that more than 95% of the generated contracts are syntactically correct and exhibit remarkably high completeness and semantic correctness.
+ 
+ 
+ 
+To this end, our fully automated method sets the stage for future research and eventual broader adoption of Design by Contract in software development practice.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689484.3690735">An Extensible Feature-Oriented Approach for Fine-Grained Code Quality Analysis</a></h3><ul class="DLauthors"><li class="nameList">Karim Ghallab</li><li class="nameList">Tewfik Ziadi</li><li class="nameList Last">Zaak Chalal</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Assessing code quality is crucial for effective software maintenance and evolution. Traditional tools like SonarQube offer valuable insights at the application level but lack the granularity needed for detailed, feature-specific analysis. This paper emphasizes the importance of feature-oriented code quality analysis, often overlooked by mainstream tools due to the challenge of correlating high-level feature descriptions with low-level code implementations. To tackle this issue, we leverage existing feature location techniques to introduce a novel approach enabling granular analysis tailored to specific application features. We discuss the motivations for this approach, highlighting its potential to improve precision in enhancement and maintenance strategies. Additionally, this paper introduces a tool-based approach known as InsightMapper. We also present a study demonstrating the benefits of this method through the analysis of two case studies, featuring a recognized benchmark in the feature location domain.</p>
+			</div></div>
+							
+						<h2>SESSION: Domain-Specific Languages</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689484.3690732">Applying a Self-Extension Mechanism to DSLs for Establishing Model Libraries</a></h3><ul class="DLauthors"><li class="nameList">Arkadii Gerasimov</li><li class="nameList">Nico Jansen</li><li class="nameList">Judith Michael</li><li class="nameList Last">Bernhard Rumpe</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>When applying model-driven engineering in an agile environment, new requirements continuously expand the domain scope and trigger an extension of the concepts covered by the Domain-Specific Language (DSL). While programming languages streamline code extension and reuse through libraries, similar approaches for DSLs are more complex or target a specific language. We present and discuss an approach for designing DSLs with a self-extension mechanism to enable model library creation and seamless reuse. We use the self-extension mechanism to introduce concepts in models, gather reusable models into a library, and provide an infrastructure for its usage. We explain our language-specific realization of the self-extension mechanism using a DSL and discuss model libraries of the DSL with a use case from practice. The approach provides more flexibility for agile model-driven engineering. It enables application modelers to introduce and reuse concepts via models without changing the DSL, reducing the communication overhead within the development team.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689484.3690736">Specializing Data Access in a Distributed File System (Generative Pearl)</a></h3><ul class="DLauthors"><li class="nameList">Pratyush Das</li><li class="nameList">Anxhelo Xhebraj</li><li class="nameList Last">Tiark Rompf</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We propose DDLoader, a system that embeds information about data
+ 
+ 
+ 
+partitioning and data distribution in distributed file systems using a metaprogramming framework. We
+ 
+ 
+ 
+demonstrate that this technique has practical benefits for building
+ 
+ 
+ 
+applications that interact with distributed file system applications.
+ 
+ 
+ 
+By using metaprogramming, we bring the traditional benefits of
+ 
+ 
+ 
+staging, such as partial evaluation to the domain of
+ 
+ 
+ 
+distributed file system access.
+ 
+ 
+ 
+Furthermore, this approach also fuses the
+ 
+ 
+ 
+data access code with the computation code, allowing end-to-end optimization.
+ 
+ 
+ 
+We test our framework on a real-world use case and show that this approach
+ 
+ 
+ 
+allows users to generate code that performs faster than traditional data
+ 
+ 
+ 
+loading by up to 12.56x on a single thread and even more when parallelized.</p>
+			</div></div>
+							
+						<h2>SESSION: Code Optimizations</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689484.3690731">Type-Safe Code Generation with Algebraic Effects and Handlers</a></h3><ul class="DLauthors"><li class="nameList">Kanaru Isoda</li><li class="nameList">Ayato Yokoyama</li><li class="nameList Last">Yukiyoshi Kameyama</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Staged computation is a means to achieve maintainability and high performance simultaneously,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+by allowing a programmer to express domain-specific optimizations in a high-level programming
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+language. Multi-stage programming languages such as MetaOCaml provide a static safety guarantee
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+for generated programs by sophisticated type systems provided that program generators have no
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+computational effects. Despite several studies, it remains a challenging problem to design
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+a type-safe multi-stage programming language with advanced features for computational effects.
+ 
+ 
+ 
+ 
+ 
+This paper introduces a two-stage programming language with algebraic effects and handlers.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Based on two novel principles 'handlers as future-stage binders' and 'handlers are universal',
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+we design a type system and prove its soundness. We also show that our language is sufficiently
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+expressive to write various effectful staged computations including multi-level let-insertion,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+which is a key technique to avoid code duplication in staged computation.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689484.3690730">Hot Call-Chain Inlining for the Glasgow Haskell Compiler</a></h3><ul class="DLauthors"><li class="nameList">Celeste Hollenbeck</li><li class="nameList Last">Michael F. P. O’Boyle</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Inlining is a well-studied compiler transformation that can reduce call overhead and enable further optimizations. As functional programming languages such as Haskell have functions as first-class objects, they potentially have the most to gain from inlining. However, despite being acknowledged as one of the most important optimizations, there has been little recent work to significantly improve Haskell’s inlining heuristic for code performance.       This paper proposes a profile-directed technique to direct inlining decisions in the Glasgow Haskell Compiler. We show that simply inlining “hot” functions, as revealed by profiling summaries, does not lead to significant improvement. However, inlining along the hot dynamic call graph is frequently beneficial. Due to the higher-order nature of Haskell, determining this call graph is non-trivial. We develop a technique to extract call chains of hot functions and leverage the Glasgow Haskell Compiler’s existing functionality to safely influence inlining decisions through pragma placement along these chains.       We then show that hot call chain inlining yields a geometric mean speedup in run time of 9% over GHC’s default inlining heuristics across 17 real-world Haskell packages. This method can be used in the presence of pre-existing developer pragmas to produce a mean speedup of 10% across those same packages.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689484.3690739">Restaging Domain-Specific Languages: A Flexible Design Pattern for Rapid Development of Optimizing Compilers</a></h3><ul class="DLauthors"><li class="nameList Last">Amir Shaikhha</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This paper addresses the complexity of developing optimizing compilers by proposing a novel design pattern named Restage. The Restage interface reduces boilerplate code in transformation passes by simplifying the extraction and reconstruction of language constructs, thereby enabling more efficient and maintainable compiler development. This approach automatically generates the necessary interface instances using metaprogramming, minimizing manual effort. Additionally, the proposed solution integrates seamlessly with existing methodologies for building optimizing compilers, including strategy-based transformations and the visitor design pattern. The Restage design pattern significantly reduces the complexity and maintenance cost of compilers for generic-purpose and domain-specific languages.</p>
+			</div></div>
+							
+						<h2>SESSION: Typing and Its Applications</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689484.3690737">Separate Compilation and Partial Linking: Modules for Datalog IR</a></h3><ul class="DLauthors"><li class="nameList">David Klopp</li><li class="nameList">André Pacak</li><li class="nameList Last">Sebastian Erdweg</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In recent years, Datalog has sparked renewed interest in academia and industry, leading to the development of numerous new Datalog systems. 
+ 
+To unify these systems, recent approaches treat Datalog as an intermediate representation (IR) in a compiler framework:
+ 
+Compiler frontends can lower different Datalog dialects to the same IR, which is then optimized before a compiler backend targets one of many existing Datalog engines.
+ 
+However, a key feature is missing in these compiler frameworks: an expressive module system.
+ 
+</p>
+<p>
+In this paper, we present the first module system for a Datalog IR.
+ 
+Our modules are statically typed, can be separately compiled, and partially linked to form "bundles".
+ 
+Since IR modules are generated by a compiler frontend, we rely on explicit declarations of required and provided relations to maximize the decoupling between modules.
+ 
+This also allows modules to abstract over required relations to offer reusable functionality (e.g., computing a transitive closure) that can be instantiated for different relations in a single Datalog program.
+ 
+We formalize the module system, its type system, and the linking algorithm.
+ 
+We then describe how different usage patterns that occur in Datalog dialects (e.g., inheritance, cyclic imports) can be expressed in our IR module system.
+ 
+Finally, we integrate our module system into an existing Datalog compiler framework, develop a Soufflé compiler frontend that translates Soufflé components to IR modules, and demonstrate its applicability to a large Doop analysis.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689484.3690734">On the Soundness of Auto-completion Services for Dynamically Typed Languages</a></h3><ul class="DLauthors"><li class="nameList">Damian Frölich</li><li class="nameList Last">L. Thomas van Binsbergen</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Giving auto-completion candidates for dynamically typed languages requires complex analysis of the source code, especially when the goal is to ensure that the completion candidates do not introduce bugs. In this paper, we introduce an approach that builds upon abstract interpretation and the scope graph framework to obtain an over-approximation of the name binding seen at run-time. The over-approximation contains enough information to implement auto-completion services such that the given suggestions do not introduce name binding errors. To demonstrate our approach, we compare the suggestions given by our approach with the state of the art completion services on a subset of the Python programming language.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3689484.3690733">Seamless Scope-Safe Metaprogramming through Polymorphic Subtype Inference (Short Paper)</a></h3><ul class="DLauthors"><li class="nameList">Cunyuan Gao</li><li class="nameList Last">Lionel Parreaux</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Practical metaprogramming applications often involve manipulating open code fragments,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+which is easy to get wrong in the absence of static verification
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+that all variable occurrences 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+remain correctly bound.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Many approaches have been proposed
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+to verify the type- and scope-safety of metaprograms,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+but these approaches are either incomplete or cumbersome,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+imposing heavy type annotation or proof obligation burdens on metaprogrammers.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In this short paper, we propose a new type system to statically keep track of
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+the context requirements of code fragments.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Our system uses a novel combination of Boolean-algebraic subtyping and first-class polymorphic type inference techniques
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+to alleviate the annotation burden.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The former provides the ability to encode scope requirements as unions of types
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+and the latter allows these types to be locally quantified
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+through a flexible form of 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+polymorphic subtyping.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We formalize this type system and demonstrate its
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+implementation
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+in the nascent MLscript functional and object-oriented programming language.</p>
+			</div></div>
+							
+						</div></div></body></html>
