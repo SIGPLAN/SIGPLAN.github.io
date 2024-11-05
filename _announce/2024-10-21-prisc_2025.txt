@@ -1,0 +1,109 @@
+---
+title: "Principles of Secure Compilation: 2nd Call for Papers"
+timestamp: "10/21/2024 9:36:43"
+deadline: "11/7/2024"
+---
+PriSC is a fun, welcoming and exciting venue. Join our friendly gathering, 
+share your ideas, and start new collaborations: submit now!
+
+Important Dates
+===============
+
+* Thu 7 Nov 2024: Submission Deadline
+* Thu 5 Dec 2024: Acceptance Notification
+* Mon 20 Jan 2025: Workshop
+
+Submission website: https://prisc25.hotcrp.com
+Workshop website: https://popl25.sigplan.org/home/prisc-2025
+
+================================================
+Call for Presentations: PriSC @ POPL 2025
+================================================
+
+Secure compilation is an emerging field that puts together advances in security,
+programming languages, compilers, verification, systems, and hardware
+architectures in order to devise more secure compilation chains that eliminate
+many of today's security vulnerabilities and that allow sound reasoning about
+security properties in the source language. For a concrete example, all modern
+languages provide a notion of structured control flow and an invoked procedure
+is expected to return to the right place. However, today's compilation chains
+(compilers, linkers, loaders, runtime systems, hardware) cannot efficiently
+enforce this abstraction against linked low-level code, which can call and
+return to arbitrary instructions or smash the stack, blatantly violating the
+high-level abstraction. Other problems arise because today's languages fail to
+specify security policies, such as data confidentiality, and the compilation
+chains thus fail to enforce them, especially against powerful side-channel
+attacks. The emerging secure compilation community aims to address such problems
+by identifying precise security goals and attacker models, designing more secure
+languages, devising efficient enforcement and mitigation mechanisms, and
+developing effective verification techniques for secure compilation chains.
+
+9th Workshop on Principles of Secure Compilation (PriSC 2025)
+=============================================================
+
+The Workshop on Principles of Secure Compilation (PriSC) is an informal 1-day
+workshop without any proceedings. The goal of this workshop is to identify
+interesting research directions and open challenges and to bring together
+researchers interested in working on building secure compilation chains, on
+developing proof techniques and verification tools, and on designing software or
+hardware enforcement mechanisms for secure compilation. The 9th edition of PriSC
+will be held on January 20 in Denver, Colorado, United States together with
+the ACM SIGPLAN Symposium on Principles of Programming Languages (POPL), 2025.
+
+
+Presentation Proposals and Attending the Workshop
+=================================================
+
+Anyone interested in presenting at the workshop should submit an extended
+abstract (up to 2 pages, details below) covering past, ongoing, or future work.
+Any topic that could be of interest to secure compilation is in scope. Secure
+compilation should be interpreted very broadly to include any work in security,
+programming languages, architecture, systems or their combination that can be
+leveraged to preserve security properties of programs when they are compiled or
+to eliminate low-level vulnerabilities. Presentations that provide a useful
+outside view or challenge the community are also welcome. This includes
+presentations on new attack vectors such as microarchitectural side-channels,
+whose defenses could benefit from compiler techniques.
+
+Specific topics of interest include but are not limited to:
+* Attacker models for secure compiler chains.
+* Secure compiler properties: fully abstract compilation and similar properties,
+memory safety, control-flow integrity, preservation of safety, information
+flow and other (hyper-)properties against adversarial contexts, secure
+multi-language interoperability.
+* Secure interaction between different programming languages: foreign function
+interfaces, gradual types, securely combining different memory management
+strategies.
+* Enforcement mechanisms and low-level security primitives: static checking,
+program verification, typed assembly languages, reference monitoring, program
+rewriting, software-based isolation/hiding techniques (SFI, crypto-based,
+randomization-based, OS/hypervisor-based), security-oriented architectural
+features such as Intel's SGX, MPX and MPK, capability machines, side-channel
+defenses, object capabilities.
+* Experimental evaluation and applications of secure compilers.
+* Proof methods relevant to compilation: (bi)simulation, logical relations, game
+semantics, trace semantics, multi-language semantics, embedded interpreters.
+* Formal verification of secure compilation chains (protection mechanisms,
+compilers, linkers, loaders), machine-checked proofs, translation validation,
+property-based testing.
+
+Guidelines for Submitting Extended Abstracts
+============================================
+
+Extended abstracts should be submitted in PDF format and not exceed 2 pages
+(references not included). They should be formatted in two-column layout, 10pt
+font, and be printable on A4 and US Letter sized paper. We recommend using the
+new acmart LaTeX style in sigplan mode. Submissions are not anonymous and should
+provide sufficient detail to be assessed by the program committee. Presentation
+at the workshop does not preclude publication elsewhere.
+
+Contact and More Information
+============================
+
+You can find more information on the workshop website:
+https://popl25.sigplan.org/home/prisc-2025
+
+Submission website: https://prisc25.hotcrp.com
+
+For questions please contact the workshop chairs, Marco Patrignani
+(marco.patrignani@unitn.it) and Marco Vassena (m.vassena@uu.nl).
