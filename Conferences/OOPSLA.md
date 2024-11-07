@@ -22,8 +22,8 @@ these awards.&#160; More details about the SIGPLAN awards can be found
 
 **Documents on How to Run SPLASH/OOPSLA Conferences**
 
-   * [OOPSLA (Private to Organisers Only For Now)](https://docs.google.com/document/d/1z7_xpE4jiZOmKQSrL0gh_doLd0SiU4Qcj98X-v0gV9c)
-   * [SPLASH (Private to Organisers Only For Now)](https://docs.google.com/document/d/1wyVhwfp4TXm9_EeIDAZ5SS7YyvR0WedsFxeCynAAEt4)
+   * [OOPSLA](/Conferences/SPLASH/HowToOOPSLA)
+   * [SPLASH](/Conferences/SPLASH/HowToSPLASH)
 
 Web Pages of Previous Conferences
 ---------------------------------

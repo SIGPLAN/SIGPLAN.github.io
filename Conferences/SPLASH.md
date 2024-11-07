@@ -2,21 +2,24 @@
 layout: default
 title: "Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH)"
 ---
-SPLASH (Systems, Programming, Languages, and Applications: Software for Humanity) contains several conferences concerned with programming, languages, and software engineering, including [OOPSLA](/Conferences/OOPSLA)  (Object-oriented Programming, Systems, Languages, and Applications), [Onward!](/Conferences/Onward), [DLS](/Conferences/DLS) (the Dynamic Languages Symposium), and [GPCE](Conferences/GPCE).
+SPLASH (Systems, Programming, Languages, and Applications: Software for Humanity) contains several conferences concerned with programming, languages, and software engineering, including [OOPSLA](/Conferences/OOPSLA)  (Object-oriented Programming, Systems, Languages, and Applications), [Onward!](/Conferences/Onward), [DLS](/Conferences/DLS) (the Dynamic Languages Symposium),  [GPCE](/Conferences/GPCE) (Generative Programming: Concepts and Experiences), and [SLE](/Conferences/SLE) (Software Language Engineering).
 
 **SPLASH Steering Committee**
 
-The SPLASH Steering Committee is constituted by the following
-members:
+The SPLASH Steering Committee is constituted by the following members:
 
 -   current SIGPLAN Chair,
--   current SIGPLAN Vice chair,
--   future, current, and past three SPLASH General Chairs,
--   future, current, and past three OOPSLA Program Chairs,
--   future, current, and past three Onward! Program Chairs,
--   four members-at-large, and
--   the outgoing Chair of the Steering Committee, for one year past the end of
-    his or her term as Chair.
+-   current SIGPLAN Vice Chair,
+-   future, current, and *past three* SPLASH General Chairs,
+-   future, current, and *past three* OOPSLA Program Chairs,
+-   future, current, and *past one year's* Onward! Program Chairs (Papers and Essays)
+-   Steering Committee Chair for Onward!
+-   Steering Committee Chair for *any conference that co-located with SPLASH for the past three years*
+-   the outgoing Chair of the Steering Committee, for one year past the end of their term as Chair.
+<!-- -   future, current, and past three Onward! Program Chairs, -->
+<!-- -   four members-at-large, and -->
+
+*NB!* In 2025 the past three years are 2024, 2023, and 2022 and the co-located conferences include: SPLASH-E, GPCE, SLE, and SAS.
 
 The Chair of the Steering Committee is elected by the Steering Committee from
 among the members of the committee to serve a two-year term.  The outgoing
@@ -37,8 +40,17 @@ The current SPLASH steering committee is:
 
 **Documents on How to Run SPLASH/OOPSLA Conferences**
 
-   * [OOPSLA (Private to Organisers Only For Now)](https://docs.google.com/document/d/1z7_xpE4jiZOmKQSrL0gh_doLd0SiU4Qcj98X-v0gV9c)
-   * [SPLASH (Private to Organisers Only For Now)](https://docs.google.com/document/d/1wyVhwfp4TXm9_EeIDAZ5SS7YyvR0WedsFxeCynAAEt4)
+   * [OOPSLA](/Conferences/SPLASH/HowToOOPSLA)
+   * [SPLASH](/Conferences/SPLASH/HowToSPLASH)
+
+**SPLASH Steering Committee Representatives for SIGPLAN Awards**
+
+- Programming Languages Software Award (David Grove, IBM)
+- Programming Languages Achievement Award (TBC)
+- Robin Milner Young Researcher Award (TBC)
+- John C. Reynolds Doctoral Dissertation Award (TBC)
+- Distinguished Service Award (TBC)
+- Distinguished Educator Award (TBC)
 
 Web Pages of Previous Conferences
 ---------------------------------
