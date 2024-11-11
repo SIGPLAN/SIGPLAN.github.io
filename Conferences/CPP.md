@@ -43,8 +43,9 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 * [John Harrison](https://www.cl.cam.ac.uk/~jrh13/), Amazon Web Services, USA
 
 ---
-**Previous CPP Conferences**
+**[CPP Conferences](https://popl25.sigplan.org/series/CPP)**
 
+* [CPP 2025](https://popl25.sigplan.org/home/CPP-2025), Denver, Colorado, USA, January 20-21, 2025 (co-located with POPL’25)
 * [CPP 2024](https://popl24.sigplan.org/home/CPP-2024), London, UK, January 15-16, 2024 (co-located with POPL’24)
 * [CPP 2023](https://popl23.sigplan.org/home/CPP-2023), Boston, USA, January 16-17, 2023 (co-located with POPL’23)
 * [CPP 2022](https://popl22.sigplan.org/home/CPP-2022), Philadelphia, USA, January 17-18, 2022 (co-located with POPL’22)
@@ -59,7 +60,7 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 * [CPP 2012](http://cpp12.kuis.kyoto-u.ac.jp), Kyoto, Japan, December 13-15, 2012 (collocation with APLAS’12)
 * [CPP 2011](https://dblp.uni-trier.de/db/conf/cpp/cpp2011.html), Kenting, Taiwan, December 7-9, 2011 (co-located with APLAS’11)
 
-The official **CPP proceedings** since 2015 are publicly available via [SIGPLAN OpenTOC](http://www.sigplan.org/OpenTOC/#cpp).
+The official **CPP proceedings** since 2015 are publicly available via [SIGPLAN OpenTOC](http://www.sigplan.org/OpenTOC/#cpp). A list of former CPP PC members is [available here](https://docs.google.com/document/d/12PxztLFhpGxlb0ebdhVPR5rQci12N8f_7b-xbykkn6U/edit?usp=sharing).
 
 ---
 **Given Distinguished Paper Awards**
