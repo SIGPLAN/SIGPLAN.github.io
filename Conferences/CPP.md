@@ -32,7 +32,6 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 * [Yves Bertot](https://www-sop.inria.fr/members/Yves.Bertot/research.html), Inria, France
 * [Viktor Vafeiadis](https://people.mpi-sws.org/~viktor/), MPI-SWS, Germany
 * [Jeremy Avigad](https://www.andrew.cmu.edu/user/avigad/), Carnegie Mellon University, USA
-* [Adam Chlipala](http://adam.chlipala.net), MIT, USA
 * [Xavier Leroy](https://xavierleroy.org), Collège de France, PSL University, France
 * [Alwen Tiu](http://users.cecs.anu.edu.au/~tiu/), Australian National University, Australia
 * [Michael Norrish](https://comp.anu.edu.au/people/michael-norrish/), Australian National University, Australia
