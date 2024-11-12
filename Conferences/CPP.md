@@ -26,7 +26,7 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 * [Lennart Beringer](https://www.cs.princeton.edu/~eberinge/), Princeton University, USA
 * [Jasmin Blanchette](https://www.tcs.ifi.lmu.de/mitarbeiter/jasmin-blanchette_de.html), Ludwig-Maximilians-Universität München, Germany
 * [Assia Mahboubi](https://people.rennes.inria.fr/Assia.Mahboubi/), Inria, France and Vrije Universiteit Amsterdam, Netherlands
-* [Magnus Myreen](https://www.cse.chalmers.se/~myreen/), Chalmers University of Technology, Sweden
+* [Magnus O. Myreen](https://www.cse.chalmers.se/~myreen/), Chalmers University of Technology, Sweden
 * [June Andronick](https://proofcraft.systems/), Proofcraft and UNSW Sydney, Australia
 * [Amy Felty](https://www.site.uottawa.ca/~afelty/), University of Ottawa, Canada
 * [Yves Bertot](https://www-sop.inria.fr/members/Yves.Bertot/research.html), Inria, France
@@ -45,21 +45,59 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 **[CPP Conferences](https://popl25.sigplan.org/series/CPP)**
 
 * [CPP 2025](https://popl25.sigplan.org/home/CPP-2025), Denver, Colorado, USA, January 20-21, 2025 (co-located with POPL’25)
+  + PC Chairs: [Sandrine Blazy](https://people.irisa.fr/Sandrine.Blazy/)
+    and [Nicolas Tabareau](https://tabareau.fr/)
+  + Conference Chairs: [Amin Timany](https://cs.au.dk/~timany/)
+    and [Kathrin Stark](https://researchportal.hw.ac.uk/en/persons/kathrin-stark)
 * [CPP 2024](https://popl24.sigplan.org/home/CPP-2024), London, UK, January 15-16, 2024 (co-located with POPL’24)
+  + PC Chairs: [Brigitte Pientka](https://www.cs.mcgill.ca/~bpientka/)
+    and [Sandrine Blazy](https://people.irisa.fr/Sandrine.Blazy/)
+  + Conference Chairs: [Dmitriy Traytel](https://traytel.bitbucket.io)
+    and [Amin Timany](https://cs.au.dk/~timany/)
 * [CPP 2023](https://popl23.sigplan.org/home/CPP-2023), Boston, USA, January 16-17, 2023 (co-located with POPL’23)
+  + PC Chairs: [Steve Zdancewic](https://www.cis.upenn.edu/~stevez/)
+    and [Brigitte Pientka](https://www.cs.mcgill.ca/~bpientka/)
+  + Conference Chairs: [Robbert Krebbers](https://robbertkrebbers.nl)
+    and [Dmitriy Traytel](https://traytel.bitbucket.io)
 * [CPP 2022](https://popl22.sigplan.org/home/CPP-2022), Philadelphia, USA, January 17-18, 2022 (co-located with POPL’22)
+  + PC Chairs: [Andrei Popescu](https://www.andreipopescu.uk)
+    and [Steve Zdancewic](https://www.cis.upenn.edu/~stevez/)
+  + Conference Chairs: [Lennart Beringer](https://www.cs.princeton.edu/~eberinge/)
+    and [Robbert Krebbers](https://robbertkrebbers.nl)
 * [CPP 2021](https://popl21.sigplan.org/home/CPP-2021), Online, January 17-19, 2021 (co-located with POPL’21)
+  + PC Chairs: [Cătălin Hriţcu](https://catalin-hritcu.github.io)
+    and [Andrei Popescu](https://www.andreipopescu.uk)
+  + Conference Chairs: [Cătălin Hriţcu](https://catalin-hritcu.github.io)
+    and [Lennart Beringer](https://www.cs.princeton.edu/~eberinge/)
 * [CPP 2020](https://popl20.sigplan.org/home/CPP-2020), New Orleans, USA, January 20-21, 2020 (co-located with POPL’20)
+  + PC Chairs: [Jasmin Blanchette](https://www.tcs.ifi.lmu.de/mitarbeiter/jasmin-blanchette_de.html)
+    and [Cătălin Hriţcu](https://catalin-hritcu.github.io)
 * [CPP 2019](https://popl19.sigplan.org/track/CPP-2019), Cascais/Lisbon, Portugal, January 14-15, 2019 (co-located with POPL’19)
+  + PC Chairs: [Assia Mahboubi](https://people.rennes.inria.fr/Assia.Mahboubi/)
+    and [Magnus O. Myreen](https://www.cse.chalmers.se/~myreen/)
 * [CPP 2018](https://popl18.sigplan.org/track/CPP-2018), Los Angeles, USA, January 8-9, 2018 (co-located with POPL’18)
+  + PC Chairs: [June Andronick](https://proofcraft.systems/)
+    and [Amy Felty](https://www.site.uottawa.ca/~afelty/)
 * [CPP 2017](https://cpp2017.mpi-sws.org), Paris, France, January 16-17, 2017 (co-located with POPL’17)
+  + PC Chairs: [Yves Bertot](https://www-sop.inria.fr/members/Yves.Bertot/research.html)
+    and [Viktor Vafeiadis](https://people.mpi-sws.org/~viktor/)
 * [CPP 2016](https://people.csail.mit.edu/adamc/cpp16/), Saint Petersburg, Florida, USA, January 18-19, 2016 (co-located with POPL’16)
+  + PC Chairs: [Jeremy Avigad](https://www.andrew.cmu.edu/user/avigad/)
+    and [Adam Chlipala](http://adam.chlipala.net)
 * [CPP 2015](http://cpp2015.inria.fr), Mumbai, India, January 13-14, 2015 (co-located with POPL’15)
+  + PC Chairs: [Xavier Leroy](https://xavierleroy.org)
+    and [Alwen Tiu](http://users.cecs.anu.edu.au/~tiu/)
 * [CPP 2013](https://dblp2.uni-trier.de/db/conf/cpp/cpp2013.html), Melbourne, Australia, December 11-13, 2013 (co-located with APLAS’13)
+  + PC Chairs: [Georges Gonthier](https://scholar.google.co.uk/citations?user=cbtN84wAAAAJ&hl=en)
+    [Michael Norrish](https://comp.anu.edu.au/people/michael-norrish/)
 * [CPP 2012](http://cpp12.kuis.kyoto-u.ac.jp), Kyoto, Japan, December 13-15, 2012 (collocation with APLAS’12)
+  + PC Chairs: [Chris Hawblitzel](https://www.microsoft.com/en-us/research/people/chrishaw/)
+    and [Dale Miller](http://www.lix.polytechnique.fr/Labo/Dale.Miller/)
 * [CPP 2011](https://dblp.uni-trier.de/db/conf/cpp/cpp2011.html), Kenting, Taiwan, December 7-9, 2011 (co-located with APLAS’11)
+  + PC Chairs: [Jean-Pierre Jouannaud](https://www.lix.polytechnique.fr/Labo/Jean-Pierre.Jouannaud/)
+    and [Zhong Shao](http://www.cs.yale.edu/homes/shao/)
 
-The official **CPP proceedings** since 2015 are publicly available via [SIGPLAN OpenTOC](http://www.sigplan.org/OpenTOC/#cpp). A list of former CPP PC members is [available here](https://docs.google.com/document/d/12PxztLFhpGxlb0ebdhVPR5rQci12N8f_7b-xbykkn6U/edit?usp=sharing).
+The official **CPP proceedings** since 2015 are publicly available via [SIGPLAN OpenTOC](http://www.sigplan.org/OpenTOC/#cpp). A list of CPP PC members is [available here](https://docs.google.com/document/d/12PxztLFhpGxlb0ebdhVPR5rQci12N8f_7b-xbykkn6U/edit?usp=sharing).
 
 ---
 **Given Distinguished Paper Awards**
