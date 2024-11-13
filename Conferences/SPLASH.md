@@ -55,6 +55,7 @@ The current SPLASH steering committee is:
 Web Pages of Previous Conferences
 ---------------------------------
 
+* [SPLASH 2025](https://2025.splashcon.org/) (Singapore, Singapore)
 * [SPLASH 2024](https://2024.splashcon.org/) (Pasadena, CA)
 * [SPLASH 2023](https://2023.splashcon.org/) (Lisbon, Portugal)
 * [SPLASH 2022](https://2022.splashcon.org/) (Auckland, New Zealand)
