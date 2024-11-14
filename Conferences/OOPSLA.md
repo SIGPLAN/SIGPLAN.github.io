@@ -28,6 +28,7 @@ these awards.&#160; More details about the SIGPLAN awards can be found
 Web Pages of Previous Conferences
 ---------------------------------
 
+* [OOPSLA 2025](https://2025.splashcon.org/track/OOPSLA) (Singapore, Singapore)
 * [OOPSLA 2024](https://2024.splashcon.org/track/splash-2024-oopsla) (Pasadena, CA)
 * [OOPSLA 2023](https://2023.splashcon.org/track/splash-2023-oopsla) (Lisbon, Portugal)
 * [OOPSLA 2022](https://2022.splashcon.org/track/splash-2022-oopsla) (Auckland, New Zealand)
