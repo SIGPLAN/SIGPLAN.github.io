@@ -48,7 +48,7 @@ The current SPLASH steering committee is:
 - Programming Languages Software Award (David Grove, IBM)
 - Programming Languages Achievement Award (TBC)
 - Robin Milner Young Researcher Award (TBC)
-- John C. Reynolds Doctoral Dissertation Award (TBC)
+- John C. Reynolds Doctoral Dissertation Award (Loris D'Antoni, UCSD)
 - Distinguished Service Award (TBC)
 - Distinguished Educator Award (TBC)
 
