@@ -50,7 +50,7 @@ The current SPLASH steering committee is:
 - Robin Milner Young Researcher Award (TBC)
 - John C. Reynolds Doctoral Dissertation Award (Loris D'Antoni, UCSD)
 - Distinguished Service Award (TBC)
-- Distinguished Educator Award (TBC)
+- Distinguished Educator Award (Will Crichton, Brown University)
 
 Web Pages of Previous Conferences
 ---------------------------------
