@@ -16,8 +16,6 @@ The SPLASH Steering Committee is constituted by the following members:
 -   Steering Committee Chair for Onward!
 -   Steering Committee Chair for *any conference that co-located with SPLASH for the past three years*
 -   the outgoing Chair of the Steering Committee, for one year past the end of their term as Chair.
-<!-- -   future, current, and past three Onward! Program Chairs, -->
-<!-- -   four members-at-large, and -->
 
 *NB!* In 2025 the past three years are 2024, 2023, and 2022 and the co-located conferences include: SPLASH-E, GPCE, SLE, and SAS.
 
@@ -46,7 +44,7 @@ The current SPLASH steering committee is:
 **SPLASH Steering Committee Representatives for SIGPLAN Awards**
 
 - Programming Languages Software Award (David Grove, IBM)
-- Programming Languages Achievement Award (TBC)
+- Programming Languages Achievement Award (J. Eliot B. Moss, University of Massachusetts)
 - Robin Milner Young Researcher Award (TBC)
 - John C. Reynolds Doctoral Dissertation Award (Loris D'Antoni, UCSD)
 - Distinguished Service Award (TBC)
