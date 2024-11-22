@@ -16,6 +16,8 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 * [Tobias Nipkow](https://www21.in.tum.de/~nipkow/), Technische Universität München, Germany
 * [Brigitte Pientka](https://www.cs.mcgill.ca/~bpientka/), McGill University, Canada
 * [Zhong Shao](http://www.cs.yale.edu/homes/shao/), Yale University, USA
+* [Kathrin Stark](http://www.k-stark.de/), Heriot-Watt University, UK
+* [Nicolas Tabareau](http://tabareau.fr/), Inria, Nantes, France
 * [Amin Timany](https://cs.au.dk/~timany/), Aarhus University, Denmark
 * [Dmitriy Traytel](https://traytel.bitbucket.io), University of Copenhagen, Denmark
 * [Steve Zdancewic](https://www.cis.upenn.edu/~stevez/), University of Pennsylvania, USA
