@@ -79,6 +79,10 @@ CARES committee members may also attend other workshops and conferences sponsore
     <th><b>Conference/Meeting</b></th>
     <th><b>CARES member attendees</b></th>
  </tr>
+    <tr>
+    <td><a href="https://popl25.sigplan.org">POPL 2025</a></td>
+    <td>Alexandra Silva, Stephanie Weirich</td>
+  </tr>
      <tr>
     <td><a href="https://icfp24.sigplan.org">ICFP 2024</a></td>
     <td>Simon Peyton Jones</td>
@@ -242,6 +246,10 @@ We have received open, public feedback from a number of members of the community
    <td><img src="http://sigplan.org/images/cares-photos/jones.png" alt="Simon Peyton Jones"  width="156"><br><a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a> (he/him)</td>
    <td>Member, <a href="mailto:simon.peytonjones@gmail.com">simon.peytonjones@gmail.com</a>, Epic Games, Jan 2020-</td>
   </tr>
+ <tr>
+   <td><img src="http://sigplan.org/images/cares-photos/sridharan.jpg" alt="Manu Sridharan"  width="156"><br><a href="https://manu.sridharan.net">Manu Sridharan</a> (he/his)</td>
+   <td>Member, <a href="mailto:manu@cs.ucr.edu">manu@cs.ucr.edu</a>, University of California, Riverside, Dec 2024-</td>
+  </tr> 
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/strout.png" alt="Michelle Strout"  width="156"><br><a href="http://cgi.cs.arizona.edu/~mstrout/">Michelle Strout</a> (she/her)</td>
    <td>Member, <a href="mailto:michelle.strout@hpe.com">michelle.strout@hpe.com</a>, HPE and University of Arizona, Jan 2020-</td>
