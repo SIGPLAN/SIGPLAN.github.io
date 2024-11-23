@@ -1,0 +1,135 @@
+---
+title: "37th International Conference on Testing Software and Systems (ICTSS 2025): Call for Papers"
+timestamp: "11/8/2024 9:26:10"
+deadline: "5/19/2025"
+---
+*** Call for Papers ***
+
+37th International Conference on Testing Software and Systems (ICTSS 2025)
+
+September 17-19, 2025, 5* St. Raphael Resort and Marina, Limassol, Cyprus
+
+https://conf.researchr.org/home/ictss-2025
+
+(*** Proceedings to be published by Springer in LNCS ***)
+
+
+IFIP-ICTSS is a well-established conference where researchers, developers, testers, and users
+from industry get together to present and discuss the most recent innovations, experiences
+and open challenges related to testing software and systems and measuring software quality. 
+
+Topics of interest include, but are not limited to:
+
+■ Aspects of testing: test derivation, test selection, test generation, test coverage, test
+concretization, test implementation and execution, test result analysis, test oracle, verdict
+computation, test management, active testing and passive testing, monitoring and runtime
+verification.
+
+■ Testing new technologies: this year we encourage submissions focused on testing Large
+Language Models (LLMs), audit machine learning systems (especially for applications to Health) 
+and Quantum systems (programs, computers, and simulators).
+
+■ Diversity on testing: diverse generation, selecting diverse test suites, foundations of testing 
+and diversity, applications of entropy and Kolmogorov complexity on test suite diversity.
+
+■ Theoretical approaches: formalisms (such as automata, state machines, process algebra, 
+logics, Markov-chains…), testing frameworks, results for compositionality, refinement, 
+soundness and completeness, addressing complex systems, heterogeneous or hybrid systems.
+
+■ Modelling languages (such as UML, MATLAB, Simulink, Modelica…) and associated
+tooling for model-based testing: test generation from models, model-based oracles. 
+Scalability, traceability, quantification issues. Automated support of any parts of the testing 
+activities, testing processes, test-driven development, sound metrics and measurements.
+
+■ Testing of quality aspects: Functional, interoperability, unit, integration, performance, load, 
+conformance, non-regression, reliability, robustness.
+
+■ Security Testing: methodologies and techniques for continuous security assessment, security
+monitoring, security review, penetration testing, verification of certification compliance; 
+automation of security testing processes.
+
+■ Cross domains and combination of techniques: using other techniques such as proof,
+model-checking, symbolic execution, abstract interpretation, static analysis, simulation, model 
+learning, machine learning, expert systems, neural networks, genetic algorithms… to improve 
+quality and reduce the effort in testing processes.
+
+■ Application aspects and case studies: Communicating systems such as cyberphysical 
+systems, systems of systems, embedded systems, web services systems, smart grids, cloud 
+computing systems, business information systems, real-time systems, distributed and
+concurrent systems. Case studies and industrial applications involving qualified empirical 
+evaluations.
+
+
+IFIP-ICTSS Invites:
+
+Full papers (12 to 15 pages plus at most 2 extra pages for references in the one-column 
+Springer LNCS format) describing original research contributions with sufficient evidence for
+the interest of the proposed approach.
+
+Industry papers (12 to 15 pages plus at most 2 extra pages for references in the one-column
+Springer LNCS format) describing original research or experience report conducted within an
+industrial environment or in collaboration with an industry partner.
+
+Short papers or work-in-progress papers (up to 6 pages plus at most 1 extra page for
+references in the one-column Springer LNCS format) describing academic work in progress or 
+tool implementations, as well as testing processes, achievements and feedback on testing 
+methods for industrial case studies.
+
+Journal-First. The aim of the Journal-First (JF) submission category is to further enrich the
+program of ICTSS, as well as to provide an overall more flexible path to publication and 
+dissemination of original research that is within the scope of ICTSS. A submission in this 
+category must adhere to the following criteria:
+■ It should be clearly within the scope of the conference.
+■ It should be recent: it should have been accepted and made publicly available in a journal 
+(online or in print) by January 1, 2023 or more recently.
+■ It has not been presented at, and is not under consideration for, Journal- First tracks of other
+conferences or workshops.
+■ The submission has to be in the form of a 4-page extended abstract and has to provide a
+concise summary of the published journal paper.
+■ It must be marked as such in the submission’s, and must explicitly include full bibliographic
+details (including a DOI) of the journal publication they are based on. Since the referenced 
+journal papers have already been reviewed and accepted by the corresponding journals, 
+submissions in the JF category will not be reviewed again for technical content. Submissions will
+be judged on the basis of the above criteria, but also considering how well they would 
+complement the conference’s technical program. Accepted submissions in this category will be
+part of the proceedings of ICTSS 2025, with the title equal to the original title of the article with
+the prefix.
+
+The submission link is: https://easychair.org/my/conference?conf=ictss2025
+
+The papers will be published by Springer in the LNCS volume.
+
+Authors should consult Springer’s Instructions for Authors of Proceedings
+(https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines)
+and use either the LaTeX or the Word templates provided on the authors’ page. Springer’s 
+proceedings LaTeX templates are available in Overleaf.
+
+Authors are encouraged to include their ORCIDs in their papers.
+
+
+Journal Special Issue
+
+Best papers of the conference will be invited to submit an extended version of their article at a
+special (topical) issue of the Springer Nature of Computer Science
+(https://link.springer.com/journal/42979). Deadline will be near the end of December 2025
+with a tentative publication date for the middle 2026.
+
+
+Collocation
+
+ICTSS 2025 will be collocated with the 19th European Conference on Software Architecture
+(https://conf.researchr.org/home/ecsa-2025).
+
+IMPORTANT DATES
+
+■ Paper Submission: May 19, 2025 (AoE)
+■ Author Notification: June 30, 2025 (AoE)
+■ Camera-ready Versions and Author Registration: July 14, 2025 (AoE)
+
+
+ORGANISATION
+
+Conference Chairs
+■ Silvia Bonfanti, University of Bergamo, Italy
+■ George A. Papadopoulos, University of Cyprus, Cyprus
+

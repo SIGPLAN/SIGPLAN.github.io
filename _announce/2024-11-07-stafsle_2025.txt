@@ -1,0 +1,116 @@
+---
+title: "STAF/SLE 2025: Call for Workshop Proposals"
+timestamp: "11/7/2024 17:32:59"
+deadline: "1/31/2025"
+---
+STAF/SLE 2025 – Call for Workshop Proposals
+
+10-13 June 2025
+Koblenz, Germany 
+
+https://conf.researchr.org/home/staf-2025
+
+------------------------------------------------------------------------
+
+Software Technologies: Applications and Foundations (STAF) is a federation of leading conferences on software technologies which runs annually; the conferences that participate may vary from year to year, but all focus on practical and foundational advances in software technology. The conferences address all aspects of software technology, from object-oriented design, testing, formal approaches to modelling and verification, transformation, model-driven engineering, aspect-oriented techniques, and tools.
+
+The Software Language Engineering Conference (SLE), in its 18th edition of the SLE conference, SLE 2025, will bring together researchers from different areas united by their common interest in the creation, capture, and tooling of software languages. It overlaps with traditional conferences on the design and implementation of programming languages, model-driven engineering, and compiler construction, and emphasizes the fusion of their communities. To foster the latter, SLE traditionally fills a two-day program with a single track, with the only temporal overlap occurring between co-located events.
+
+The workshops at STAF/SLE will provide a collaborative forum for groups of typically 15 to 35 participants to exchange recent and/or preliminary results, to conduct intensive discussions on a particular topic, or to coordinate efforts between representatives of a technical community. They are intended as a forum for lively discussion on innovative ideas, recent progress, or practical experience on specific aspects, specific problems, or domain-specific needs. Each workshop should provide a balanced distribution of its time for both presentation of papers and discussions. We encourage prospective workshop organisers to submit proposals for highly-interactive workshops. Both research-oriented and applied topics are welcome. The duration of each workshop is either a half or a full day.
+
+
+---------------------------
+Important Dates
+---------------------------
+
+* 15 December 2024: Workshop proposal submission deadline  
+* 03 January 2025: Notification of acceptance of workshop proposals  
+* 31 January 2025: Workshop websites incl. CFP up and running on researchr.org  
+* 9 May 2025: Workshop program online on researchr.org.  
+* 9 May 2025: Early-registration deadline
+
+Please note:
+
+* Early submissions are very much encouraged.  
+* Late submissions all the way into January will be considered.  
+* Accepted workshops are published on the STAF/SLE website, as they are confirmed.
+
+
+---------------------------
+Topics of Interest
+---------------------------
+
+Workshops that had successful editions at past STAF or SLE instances or friend conferences are particularly encouraged to meet again at STAF/SLE 2025 in Koblenz. All workshop proposals should relate in some ways to software technologies and languages. In the 2025 instance, we would like to emphasise specifically and thus attract new workshops related to:
+
+* The impact of AI on software technologies and languages in research and education  
+* Digital twins modelling and engineering  
+* The utility that software technologies and languages can bring to AI  
+* Demanding application domains of AI such healthcare, robotics, and CPS  
+* The impact of AI on security and privacy aspects of software systems  
+* New trends and technologies for data spaces and trusted data sharing  
+* Sustainable software engineering  
+* Model-based techniques and tools to assure software quality
+
+
+---------------------------
+Workshop Proposal Preparation Guidelines
+---------------------------
+
+Workshop proposals should contain the following information:
+
+* Workshop title
+* Organisers and primary contact (name/affiliation/email)  
+* Abstract (200 words), intended for the STAF/SLE 2025 website  
+* Desired length of the workshop (half day or full day)  
+* Brief blurb on motivation / objectives / intended audience
+* Brief hint at the relevance to the STAF/SLE community  
+* Previous events (if any) including the following information:   
+   * A link to the website
+   * The number of submitted and accepted papers
+   * The number of attendees
+* Brief indication of past experience of organisers  
+* Workshop Format – any sort of summary touching upon aspects as follows:  
+   * Paper formats (number of pages; types of papers)  
+   * Paper evaluation process and intended form of publication  
+   * Numbers of presentation; use of keynotes, panels et al.  
+   * Specific requirements (e.g., equipment, room capacity)
+
+
+---------------------------
+Workshop Support
+---------------------------
+
+* Workshops can host their content (call, program, etc.) via researchr.org.  
+* Workshops can leverage EasyChair for the submission and review process.  
+* Local organisation is taken care of.
+
+
+---------------------------
+Accepted Workshop Requirements
+---------------------------
+
+* See “Important Dates” for the workshop website (incl. CFP) and program.  
+* All participants, including all present 1+ workshop organisers, 0+ keynote speakers, and 0+ invited guests must register at least for the workshop day.  
+* 1+ workshop organiser must be present during the full duration of the workshop.  
+* The STAF/SLE organization committee will decide the actual dates of workshops.  
+* There will be a joint volume of proceedings for the STAF 2025 satellite and co-located events. Alternatively, organisers can choose to publish the proceedings independently.
+
+
+---------------------------
+Proposal Submission
+---------------------------
+
+Proposals and inquiries are to be submitted to the workshop chair; see “Contact”.
+
+---------------------------
+Contact
+---------------------------
+
+For further information, please contact:
+
+* the workshop chair Amir Shayan Ahmadian (ahmadian@uni-koblenz.de)
+   * for all concerns regarding workshop proposals and organization,  
+* the general chair Ralf Lämmel (laemmel@uni-koblenz.de)
+   * for general STAF/SLE 2025 concerns
+
+In particular, please, submit workshop proposals to the workshop chair.
