@@ -47,7 +47,7 @@ The current SPLASH steering committee is:
 - Programming Languages Achievement Award (J. Eliot B. Moss, University of Massachusetts)
 - Robin Milner Young Researcher Award (Sophia Drossopoulou, Imperial College)
 - John C. Reynolds Doctoral Dissertation Award (Loris D'Antoni, UCSD)
-- Distinguished Service Award (Sophia Drossopoulou, Imperial College)
+- Distinguished Service Award (Jeff Foster, Tufts University)
 - Distinguished Educator Award (Will Crichton, Brown University)
 
 Web Pages of Previous Conferences
