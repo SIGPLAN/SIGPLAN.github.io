@@ -50,19 +50,12 @@ Award recipients are selected by a committee constituted as follows:
   committee.
 
 The current committee comprises:
-* [Tony Hosking](https://comp.anu.edu.au/antony-hosking/), Australian
-  National U (Chair)
-* [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts U (ex-officio)
-* [Dominique
-  Devriese](https://distrinet.cs.kuleuven.be/people/DominiqueDevriese),
-  KU Leuven (POPL)
-* [Manu Sridharan](https://profiles.ucr.edu/app/home/profile/manus),
-  UC Riverside (PLDI)
-* [Andreas Rossberg](https://people.mpi-sws.org/~rossberg/), MPI
-  Software Systems (ICFP)
-* [David
-  Grove](https://researcher.watson.ibm.com/researcher/view.php?person=us-groved),
-  IBM Research (SPLASH)
+* [Niki Vazou](https://nikivazou.github.io/), IMDEA (Chair)
+* [Andrew Myers](https://www.cs.cornell.edu/andru/), Cornell U (ex-officio)
+* [David Grove](https://researcher.watson.ibm.com/researcher/view.php?person=us-groved), IBM Research (SPLASH)
+* [Alastair Donaldson](https://www.doc.ic.ac.uk/~afd/), Imperial (PLDI)
+* [Xavier Leroy](https://xavierleroy.org/), Inria (ICFP)
+* [Amal Ahmed](https://www.khoury.northeastern.edu/home/amal/), Northeastern U (POPL)
 
 #### Conflicts of Interest
 
