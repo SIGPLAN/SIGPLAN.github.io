@@ -33,26 +33,6 @@ Advisory Board:
     Vice-Chair of SIGPLAN
 
 Senior Editors:
-  - [Hongseok Yang](https://sites.google.com/view/hongseokyang/home), KAIST, Korea <br>
-    Editor for Volume 6, Issue POPL (January 2022)
-  - [Zena M. Ariola](http://ix.cs.uoregon.edu/~ariola/), University of Oregon, USA <br>
-    Editor for Volume 6, Issue ICFP (August 2022)
-  - [Amal Ahmed](http://www.ccs.neu.edu/home/amal/), Northeastern University, USA <br>
-    Editor for Volume 6, Issues OOPSLA1 and OOPSLA2 (April and October 2022)
-  - [Jan Vitek](http://janvitek.org/), Northeastern University, USA <br>
-    Editor for Volume 6, Issues OOPSLA1 and OOPSLA2 (April and October 2022)
-
-Associate Editors:
-  - [Amal Ahmed](http://www.ccs.neu.edu/home/amal/), Northeastern University, USA <br>
-    Editor for Volume 7, Issue POPL (January 2023)
-  - [Nate Foster](https://www.cs.cornell.edu/~jnfoster/), Cornell University, USA <br>
-    Editor for Volume 7, Issue PLDI (June 2023)
-  - [Sam Lindley](https://homepages.inf.ed.ac.uk/slindley/), University of Edinburgh, UK <br>
-    Editor for Volume 7, Issue ICFP (August 2023)
-  - [Mira Mezini](https://www.stg.tu-darmstadt.de/main_stg/staff_stg/mira_mezini_1.en.jsp), TU Darmstadt, Germany <br>
-    Editor for Volume 7, Issues OOPSLA1 and OOPSLA2 (April and October 2023)
-
-Assistant Editors:
   - [Derek Dreyer](https://people.mpi-sws.org/~dreyer/), MPI-SWS, Germany <br>
     Editor for Volume 8, Issue POPL (January 2024)
   - [John Regehr](https://www.cs.utah.edu/~regehr/), University of Utah, USA <br>
@@ -61,6 +41,19 @@ Assistant Editors:
     Editor for Volume 8, Issue ICFP (August 2024)
   - [Alex Potanin](https://potanin.github.io), Australian National University <br>
     Editor for Volume 8, Issues OOPSLA1 and OOPSLA2 (April and October 2024)
+
+Associate Editors:
+  - Armando Solar-Lezama, MIT, USA <br>
+    Editor for Volume 9, Issue POPL (January 2025)
+  - Zachary Tatlock, University of Washington, USA <br>
+    Editor for Volume 9, Issue PLDI (June 2025)
+  - Dominique Devriese, KU Leuven, Belgium <br>
+    Editor for Volume 9, Issue ICFP (August 2025)
+  - Shriram Krishnamurthi, Brown University, USA and Sukyoung Ryu, KAIST, South Korea <br>
+    Editor for Volume 9, Issues OOPSLA1 and OOPSLA2 (April and October 2025)
+
+Assistant Editors:
+  - TBA
 
 Information Director:
   - [Adrian Sampson](https://www.cs.cornell.edu/~asampson/), Cornell University, USA <br>
