@@ -65,16 +65,12 @@ Recipients are selected by a committee constituted as follows:
   committee.
 
 The current committee is:
-* [Işil Dillig](https://www.cs.utexas.edu/~isil), U Texas, Austin
-  (Chair)
-* [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts U (ex-officio)
-* [Tom Reps](http://pages.cs.wisc.edu/~reps/), U Wisconsin (POPL)
-* [Milind Kulkarni](https://engineering.purdue.edu/~milind/), Purdue U
-  (PLDI)
-* [Stephanie Weirich](https://www.cis.upenn.edu/~sweirich/), U Penn
-  (ICFP)
-* [Hidehiko Masuhara](https://prg.is.titech.ac.jp/people/masuhara/),
-  Tokyo Tech (SPLASH)
+* [Niki Vazou](https://nikivazou.github.io/), IMDEA (Chair)
+* [Andrew Myers](https://www.cs.cornell.edu/andru/), Cornell U (ex-officio)
+* [Loris D'Antoni](https://cseweb.ucsd.edu/~ldantoni/), UCSD (SPLASH)
+* [Santosh Nagarakette](https://people.cs.rutgers.edu/~santosh.nagarakatte/), Rutgers U (PLDI)
+* [Umut Acar](https://www.umut-acar.org/), Carnegie Mellon U (ICFP)
+* [Michael Greenberg](https://www.stevens.edu/profile/mgreenbe), Stevens (POPL)
 
 #### Conflicts of Interest
 

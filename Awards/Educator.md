@@ -62,18 +62,12 @@ Award recipients are selected by a committee constituted as follows:
   committee.
 
 The current committee comprises:
-* [Işil Dillig](https://www.cs.utexas.edu/~isil), U Texas, Austin
-  (Chair)
-* [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts U (ex-officio)
-* [Graham Hutton](http://www.cs.nott.ac.uk/~pszgmh/), U Nottingham
-  (POPL)
-* [Nate Foster](https://www.cs.cornell.edu/~jnfoster/), Cornell U
-  (PLDI)
-* [Simon Peyton
-  Jones](https://royalsociety.org/people/simon-peyton-jones-12889/),
-  Epic Games (ICFP)
-* [Elisa Gonzalez Boix](https://soft.vub.ac.be/disco/elisa/), VU
-  Brussel (SPLASH)
+* [Niki Vazou](https://nikivazou.github.io/), IMDEA (Chair)
+* [Andrew Myers](https://www.cs.cornell.edu/andru/), Cornell U (ex-officio)
+* [Will Crichton](https://willcrichton.net/), Brown U (SPLASH)
+* [John Wickerson](https://johnwickerson.github.io/), Imperial (PLDI)
+* [Michael Greenberg](https://www.stevens.edu/profile/mgreenbe), Stevens (POPL)
+* [Sriram Krishnamurthi](https://cs.brown.edu/~sk/), Brown U (ICFP)
 
 #### Conflicts of Interest
 

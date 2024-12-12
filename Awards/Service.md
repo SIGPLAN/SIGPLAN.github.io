@@ -47,20 +47,12 @@ Award recipients are selected by a committee constituted as follows:
   committee.
 
 The current committee comprises:*
-* [Tony Hosking](https://comp.anu.edu.au/antony-hosking/), Australian
-  National U (Chair)
-* [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts U
-  (ex-officio)
-* [Kathleen
-  Fisher](https://www.cs.tufts.edu/~kfisher/Kathleen_Fisher/Home.html),
-  Tufts U
-* [Steve Blackburn](https://cecs.anu.edu.au/people/steve-blackburn),
-  Australian National U (PLDI)
-* [Zena Ariola](https://cs.uoregon.edu/profile/ariola), U Oregon
-  (ICFP)
-* [Heather
-  Miller](https://isr.scs.cmu.edu/people/core-faculty/miller-heather.html),
-  CMU (SPLASH)
+* [Alexandra Silva](https://alexandrasilva.org/#/main.html), Cornell U (Chair)
+* [Andrew Myers](https://www.cs.cornell.edu/andru/), Cornell U (ex-officio)
+* [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts U (SPLASH)
+* [Michael Greenberg](https://www.stevens.edu/profile/mgreenbe), Stevens (POPL)
+* [Dan Grossman](https://homes.cs.washington.edu/~djg/), U of Washington (PLDI)
+* [Talia Ringer](https://dependenttyp.es/), U of Illinois at Urbana-Champaign (ICFP)
 
 #### Conflicts of Interest
 

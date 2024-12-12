@@ -84,18 +84,12 @@ Award recipients are selected by a committee constituted as follows:
   committee.
 
 The current committee is:
-* [Tony Hosking](https://comp.anu.edu.au/antony-hosking/), Australian
-  National U (Chair)
-* [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts U (ex-officio)
-* [Sandrine Blazy](https://people.irisa.fr/Sandrine.Blazy/), U Rennes
-  (POPL)
-* [Suresh
-  Jagannathan](https://www.cs.purdue.edu/people/faculty/suresh.html),
-  Purdue U (PLDI)
-* [Ranjit
-  Jhala](https://cse.ucsd.edu/people/faculty-profiles/ranjit-jhala),
-  UCSD (ICFP)
-* [Éric Tanter](https://pleiad.cl/people/etanter), U Chile (SPLASH)
+* [Alexandra Silva](https://alexandrasilva.org/#/main.html), Cornell U (Chair)
+* [Andrew Myers](https://www.cs.cornell.edu/andru/), Cornell U (ex-officio)
+* [Sophia Drosopoulou](https://wp.doc.ic.ac.uk/sd/), Imperial (SPLASH)
+* [Amal Ahmed](https://www.khoury.northeastern.edu/home/amal/), Northeastern U (POPL)
+* [Nate Foster](https://www.cs.cornell.edu/~jnfoster/), Cornell U (PLDI)
+* [Lars Birkedal](https://cs.au.dk/~birke/), Aarhus U (ICFP)
 
 #### Conflicts of Interest
 
