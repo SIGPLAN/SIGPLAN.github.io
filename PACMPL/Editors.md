@@ -43,13 +43,13 @@ Senior Editors:
     Editor for Volume 8, Issues OOPSLA1 and OOPSLA2 (April and October 2024)
 
 Associate Editors:
-  - Armando Solar-Lezama, MIT, USA <br>
+  - [Armando Solar-Lezama](https://people.csail.mit.edu/asolar/), MIT, USA <br>
     Editor for Volume 9, Issue POPL (January 2025)
-  - Zachary Tatlock, University of Washington, USA <br>
+  - [Zachary Tatlock](https://ztatlock.net/), University of Washington, USA <br>
     Editor for Volume 9, Issue PLDI (June 2025)
-  - Dominique Devriese, KU Leuven, Belgium <br>
+  - [Dominique Devriese](https://distrinet.cs.kuleuven.be/people/DominiqueDevriese), KU Leuven, Belgium <br>
     Editor for Volume 9, Issue ICFP (August 2025)
-  - Shriram Krishnamurthi, Brown University, USA and Sukyoung Ryu, KAIST, South Korea <br>
+  - [Shriram Krishnamurthi](https://cs.brown.edu/~sk/), Brown University, USA and [Sukyoung Ryu](http://plrg.kaist.ac.kr/ryu), KAIST, South Korea <br>
     Editor for Volume 9, Issues OOPSLA1 and OOPSLA2 (April and October 2025)
 
 Assistant Editors:
