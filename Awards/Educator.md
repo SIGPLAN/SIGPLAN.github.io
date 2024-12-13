@@ -67,7 +67,7 @@ The current committee comprises:
 * [Will Crichton](https://willcrichton.net/), Brown U (SPLASH)
 * [John Wickerson](https://johnwickerson.github.io/), Imperial (PLDI)
 * [Michael Greenberg](https://www.stevens.edu/profile/mgreenbe), Stevens (POPL)
-* [Sriram Krishnamurthi](https://cs.brown.edu/~sk/), Brown U (ICFP)
+* [Johan Jeuring](https://johanjeuring.github.io/), Utrecht U (ICFP)
 
 #### Conflicts of Interest
 
