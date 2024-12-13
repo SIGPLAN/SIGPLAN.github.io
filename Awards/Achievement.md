@@ -40,7 +40,7 @@ The current committee is:
 * [Işil Dillig](https://www.cs.utexas.edu/~isil), U Texas, Austin (PLDI)
 * [Amal Ahmed](https://www.khoury.northeastern.edu/home/amal/), Northeastern U (POPL)
 * [Sukyoung Ryu](https://plrg.kaist.ac.kr/ryu), KAIST (ICFP)
-* [Eliot Moss](https://people.cs.umass.edu/~moss/), MIT (SPLASH)
+* [Eliot Moss](https://people.cs.umass.edu/~moss/), University of Massachusetts Amherst (SPLASH)
 
 #### Conflicts of Interest
 
