@@ -1,0 +1,20 @@
+---
+title: "Call for Participation: The ASPLOS 2025 / EuroSys 2025 Contest Track"
+timestamp: "11/26/2024 16:19:48"
+start: "12/1/2024"
+end: "3/1/2025"
+---
+Call for Participation: The ASPLOS 2025 / EuroSys 2025 Contest Track
+
+The ASPLOS 2025 and EuroSys 2025 organizers are pleased to announce the ASPLOS 2025 / EuroSys 2025 Contest Track: a challenging, multi-month competition focused on advancing the state-of-the-art in multidisciplinary computer systems research. The high-level goals of this track are threefold:
+
+* Bridge academia and industry by providing a platform for students and faculty to tackle challenging real-world problems.
+* Promote practical solutions by soliciting submissions that are efficient, effective, and reproducible.
+* Identify and reward talent by affording recognition and prizes to top performers.
+
+For this inaugural event, the following two contest topics will run concurrently until **March 1st, 2025**:
+
+* The ASPLOS 2025 / EuroSys 2025 Contest on Intra-Operator Parallelism for Distributed Deep Learning, sponsored by Google: https://github.com/asplos-contest/2025/blob/main/IOPDDL.md
+* The ASPLOS 2025 / EuroSys 2025 Contest on an Optimized Neuron Kernel Interface (NKI) Implementation of Llama 3.2 1B (inference), sponsored by Amazon Web Services: https://github.com/asplos-contest/2025/blob/main/OPTNKI.md
+
+If you have questions, please reach out to the contest organizers at asplos.contest@gmail.com.
