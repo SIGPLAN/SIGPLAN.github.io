@@ -35,15 +35,12 @@ Award recipients are selected by a committee constituted as follows:
   committee.
 
 The current committee is:
-* [Işil Dillig](https://www.cs.utexas.edu/~isil), U Texas, Austin
-  (Chair)
-* [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts U (ex-officio)
-* [Nate Foster](https://www.cs.cornell.edu/~jnfoster/), Cornell U (POPL)
-* [Cormac Flanagen](https://engineering.ucsc.edu/people/cormac), UC
-  Santa Cruz (PLDI)
-* [John Hughes](https://www.cse.chalmers.se/~rjmh/), Chalmers U of
-  Technology (ICFP)
-* [Jonathan Aldrich](https://www.cs.cmu.edu/~aldrich/), CMU (SPLASH)
+* [Alexandra Silva](https://alexandrasilva.org/#/main.html), Cornell U (Chair)
+* [Andrew Myers](https://www.cs.cornell.edu/andru/), Cornell U (ex-officio)
+* [Işil Dillig](https://www.cs.utexas.edu/~isil), U Texas, Austin (PLDI)
+* [Amal Ahmed](https://www.khoury.northeastern.edu/home/amal/), Northeastern U (POPL)
+* [Sukyoung Ryu](https://plrg.kaist.ac.kr/ryu), KAIST (ICFP)
+* [Eliot Moss](https://people.cs.umass.edu/~moss/), University of Massachusetts Amherst (SPLASH)
 
 #### Conflicts of Interest
 
