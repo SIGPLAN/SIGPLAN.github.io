@@ -90,6 +90,7 @@ The current committee is:
 * [Sophia Drosopoulou](https://wp.doc.ic.ac.uk/sd/), Imperial (SPLASH)
 * [Amal Ahmed](https://www.khoury.northeastern.edu/home/amal/), Northeastern U (POPL)
 * [Lars Birkedal](https://cs.au.dk/~birke/), Aarhus U (ICFP)
+* [Steve Blackburn](https://www.steveblackburn.org/),  Australian National U (PLDI)
 
 #### Conflicts of Interest
 
