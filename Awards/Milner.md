@@ -84,11 +84,11 @@ Award recipients are selected by a committee constituted as follows:
   committee.
 
 The current committee is:
-* [Alexandra Silva](https://alexandrasilva.org/#/main.html), Cornell U (Chair)
-* [Andrew Myers](https://www.cs.cornell.edu/andru/), Cornell U (ex-officio)
+* [Niki Vazou](https://nikivazou.github.io/), IMDEA (Chair)
+* [Anders Møller](https://cs.au.dk/~amoeller/), Aarhus U
+* [Brigitte Pientka](https://www.cs.mcgill.ca/~bpientka/research.html), McGill U
 * [Sophia Drosopoulou](https://wp.doc.ic.ac.uk/sd/), Imperial (SPLASH)
 * [Amal Ahmed](https://www.khoury.northeastern.edu/home/amal/), Northeastern U (POPL)
-* [Nate Foster](https://www.cs.cornell.edu/~jnfoster/), Cornell U (PLDI)
 * [Lars Birkedal](https://cs.au.dk/~birke/), Aarhus U (ICFP)
 
 #### Conflicts of Interest
