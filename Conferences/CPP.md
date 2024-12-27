@@ -46,6 +46,11 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 ---
 **[CPP Conferences](https://popl25.sigplan.org/series/CPP)**
 
+* CPP 2026
+  + PC Chairs: [Nicolas Tabareau](https://tabareau.fr/)
+    and [Nikhil Swamy](https://www.microsoft.com/en-us/research/people/nswamy)
+  + Conference Chairs: [Kathrin Stark](https://researchportal.hw.ac.uk/en/persons/kathrin-stark)
+    and [Yannick Zakowski](https://perso.ens-lyon.fr/yannick.zakowski)
 * [CPP 2025](https://popl25.sigplan.org/home/CPP-2025), Denver, Colorado, USA, January 20-21, 2025 (co-located with POPL’25)
   + PC Chairs: [Sandrine Blazy](https://people.irisa.fr/Sandrine.Blazy/)
     and [Nicolas Tabareau](https://tabareau.fr/)
