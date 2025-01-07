@@ -65,7 +65,7 @@ Recipients are selected by a committee constituted as follows:
   committee.
 
 The current committee is:
-* [Niki Vazou](https://nikivazou.github.io/), IMDEA (Chair)
+* [Alexandra Silva](https://alexandrasilva.org/#/main.html), Cornell U (Chair)
 * [Andrew Myers](https://www.cs.cornell.edu/andru/), Cornell U (ex-officio)
 * [Loris D'Antoni](https://cseweb.ucsd.edu/~ldantoni/), UCSD (SPLASH)
 * [Santosh Nagarakette](https://people.cs.rutgers.edu/~santosh.nagarakatte/), Rutgers U (PLDI)
