@@ -1,0 +1,48 @@
+---
+title: "Call for papers, 2025 ACM SIGPLAN International Symposium on Memory Management (ISMM 2025)"
+timestamp: "12/20/2024 8:15:59"
+deadline: "3/11/2025"
+---
+https://conf.researchr.org/home/ismm-2025
+
+Continuing from ISMM 2024, we are excited to announce the continued expanded scope of ISMM this year to encourage submissions and participation from related fields such as computer architecture and computer systems in addition to our core PL community!
+
+The 2025 ACM SIGPLAN International Symposium on Memory Management (ISMM 2025) is soliciting full-length submissions covering new work on all memory management related topics in both software and hardware (and their cooperation), as well as papers presenting confirmations or refutations of important prior results. In addition to regular papers, traditionally submitted to ISMM, we also invite submissions of the following kinds:
+
+- Surveys and comparative analyses that shed new light on previously published techniques.
+
+- Practitioner reports, describing experience with memory management in production. Such papers are not expected to provide novel research contributions, but they should not have been previously published.
+
+- Intellectual abstracts, where researchers share designs, algorithms, or theory that may be interesting to the memory management community, but not yet evaluated.
+
+Areas of interest include but are not limited to (in no particular order):
+
+- Garbage collection algorithms and implementations
+- Memory allocation and de-allocation
+- Memory system design and analysis (both software and hardware)
+- Hardware support for memory management
+- Memory management for large-scale data-intensive systems
+- Memory management at datacenter and cloud scales
+- Formal analysis and verification of memory management algorithms
+- Compiler analyses to aid memory management
+- Tools to analyze memory usage and characteristics of programs
+- Empirical analysis of memory intensive programs
+- Formal analysis and verification of memory intensive programs
+- Memory management for machine learning systems
+- Programming and management of emerging or persistent memories
+- Caches, memory controllers, memory hierarchies and their management
+- Cache coherence and memory consistency
+- Processing in memory (including processing near and using memory)
+- Memory technology and architecture (SRAM, DRAM, flash, NVM, emerging technologies)
+- Security and privacy of memory systems
+- Robustness of memory systems
+- Low-latency and low-energy memory systems
+
+The symposium welcomes industry practitioners presenting their recent practice and findings in memory management related to real-world deployments.
+
+ISMM 2025 will be colocated with PLDI 2025.
+
+Tue 11 Mar 2025 - Paper submission
+Wed 23 - Fri 25 Apr 2025 - Author response period
+Tue 6 May 2025 - Author notification
+Tue 17 Jun 2025 - Conference day
