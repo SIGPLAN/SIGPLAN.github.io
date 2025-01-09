@@ -1506,3 +1506,7 @@
   event: SPLASH-E
   year: 2024
   title: "Proceedings of the 2024 ACM SIGPLAN International Symposium on SPLASH-E"
+-
+  event: POPL
+  year: 2024
+  title: "Proceedings of the ACM on Programming Languages: Vol. 9, No. POPL. 2025"
