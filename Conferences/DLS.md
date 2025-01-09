@@ -24,6 +24,21 @@ DLS 2023
 Awards
 ------
 
+-   Most Notable Paper Award 2024 for 2014
+    - Recipients: Vanessa Freudenberg, Dan Ingalls, Tim Felgentreff, Tobias Pape, Robert Hirschfeld
+    - Title: SqueakJS: A Modern and Practical Smalltalk that Runs in Any Browser
+    - Conference: DLS 2014
+    - Paper: [https://doi.org/10.1145/2661088.2661100](https://doi.org/10.1145/2661088.2661100)
+    - Citation: This paper reports on SqueakJS, a fully compatible Squeak/Smalltalk implemented in pure JavaScript.
+      In 2014, it demonstrated that with thoughtful implementation techniques, browsers and their JavaScript VMs
+      can enable applications as dynamic and interactive as Smalltalk environments.
+      Furthermore, the paper details how powerful programming language features
+      such as object enumeration, application snapshotting, custom graphics interfaces,
+      as well as basic file abstractions can be realized inside the browser environment.
+      Today, SqueakJS continues to be used in education, for web applications,
+      and as environments to preserve important parts of Smalltalk’s history, and with it, computing history.
+
+
 -   Most Notable Paper Award 2023 for 2013
     -   Recipients: Esteban Allende, Johan Fabry, Éric Tanter
     -   Title: Cast Insertion Strategies for Gradually-Typed Objects
