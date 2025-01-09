@@ -12,13 +12,7 @@ provides a place for researchers and practitioners to come together and
 share their knowledge, experience, and ideas for future research and
 development.
 
-DLS 2023
---------
 
--   Cascais, Portugal, October, 2023
--   Co-located with SPLASH 2023
--   PC chair: Stefan Marr, University of Kent, UK
--   [https://2023.splashcon.org/home/dls-2023](https://conf.researchr.org/home/dls-2023)
 
 
 Awards
