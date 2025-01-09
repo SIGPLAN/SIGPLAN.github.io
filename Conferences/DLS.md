@@ -12,8 +12,20 @@ provides a place for researchers and practitioners to come together and
 share their knowledge, experience, and ideas for future research and
 development.
 
+On Hiatus
+---------
 
+In 2023, we held a symposium focusing on the Future of Dynamic Languages.
+Since then, DLS is on a hiatus.
 
+For research on dynamic languages, their implementation, tooling, educational approaches,
+analyses, empirical studies, and other research, please consider submitting for instance to the [SIGPLAN conferences](https://sigplan.org/Conferences/).
+
+Perhaps of most relevance for you work might be the following venues with a large overlap in community:
+ - [‹Programming›](https://programming-conference.org/)
+ - [Managed Programming Languages & Runtimes (MPLR)](https://sigplan.org/Conferences/MPLR)
+
+For questions or suggestions, please contact the [Steering Committee Chair](#scchair).
 
 Awards
 ------
@@ -305,6 +317,8 @@ Steering Committee Members
 --------------------------
 
 ### Present
+
+<a id="scchair">
 
 * Chair: Stefan Marr, University of Kent, UK (SC Chair 2022-2024, PC Chair 2019, 2023)
 * Davide Ancona, Universit&agrave; degli studi di Genova, Italy (PC Chair 2017)
