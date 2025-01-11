@@ -1,0 +1,796 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>CPP '25: Proceedings of the 14th ACM SIGPLAN International Conference on Certified Programs and Proofs</title></head><body><div id="DLtoc"><div id="DLheader"><h1>CPP '25: Proceedings of the 14th ACM SIGPLAN International Conference on Certified Programs and Proofs</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3703595"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Invited Talks</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3710845">Prospects for Computer Formalization of Infinite-Dimensional Category Theory (Invited Talk)</a></h3><ul class="DLauthors"><li class="nameList Last">Emily Riehl</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>As mathematics becomes increasingly complicated, the prospect of using a computer proof assistant to (i) certify the correctness of one’s own work and (ii) interact with the formalized mathematical literature becomes increasingly attractive. In this talk, we will describe some challenges that arise when it comes to formalizing weak infinite-dimensional category theory, specifically the theory of ∞-categories developed by Joyal and Lurie. We introduce two parallel ongoing collaborative efforts to formalize ∞-category theory in two different proof assistants: Lean and Rzk. We show some sample formalized proofs to highlight the advantages and drawbacks of each formal system and explain how you could contribute to this effort. This involves joint work with Mario Carneiro, Dominic Verity, Nikolai Kudasov, and Jonathan Weinberger.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3710846">CRIS: The Power of Imagination in Specification and Verification (Invited Talk)</a></h3><ul class="DLauthors"><li class="nameList Last">Chung-Kil Hur</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Just as imaginary numbers extend real numbers and simplify certain mathematical proofs, we introduce the concept of imaginary specifications to enhance program verification. In mathematics, imaginary numbers enable expressing intermediate steps that cannot be captured using real numbers alone, offering natural proof decomposition that reduces complex proofs into simpler, more manageable steps. Similarly, our work introduces imaginary specifications in program verification through CRIS (Contextual Refinement with Imaginary Specification), our novel verification tool.
+ 
+
+ 
+
+ 
+CRIS with imaginary specifications provides a unified framework to inherently marry two fundamental approaches to program verification: separation logic with pre/post conditions as specifications, and program refinement with abstract programs as specifications. This unification not only enables proof simplification via proof decomposition but also enables elegant expression of hard-to-express properties, such as separation logic conditions involving IO events and logical atomicity---properties that traditionally require intricate mechanisms or are difficult to specify.</p>
+			</div></div>
+							
+						<h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3705871">Leakage-Free Probabilistic Jasmin Programs</a></h3><ul class="DLauthors"><li class="nameList">José Bacelar Almeida</li><li class="nameList">Denis Firsov</li><li class="nameList">Tiago Oliveira</li><li class="nameList Last">Dominique Unruh</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This paper presents a semantic characterization of leakage-freeness through timing side-channels for Jasmin programs.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Our characterization covers probabilistic Jasmin programs that are not constant-time.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In addition, we provide a characterization in terms of probabilistic relational Hoare logic and prove the equivalence between both definitions.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We also prove that our new characterizations are compositional and relate our new definitions to existing ones from prior work, which could only be applied to deterministic programs.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+To provide practical evidence, we use the Jasmin framework to develop a rejection sampling algorithm and provide an EasyCrypt proof that ensures the algorithm's implementation is leakage-free while not being constant-time.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3705872">Nominal Matching Logic with Fixpoints</a></h3><ul class="DLauthors"><li class="nameList">Mircea Sebe</li><li class="nameList">Maribel Fernández</li><li class="nameList Last">James Cheney</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Matching logic is the foundation of the K semantic environment for the specification of programming languages and automated generation of evaluators and verification tools.   NLML is a formalization of nominal logic, which facilitates specification and reasoning about languages with binders, as a matching logic theory.  Many properties of interest are inductive, and to prove them an induction principle modulo alpha-equality is required. In this paper we show that an alpha-structural Induction Principle for any nominal binding signature   can be derived   in an extension of NLML with set variables and fixpoint operators.   We illustrate the use of the principle to prove properties of the λ-calculus, the computation model underlying functional programming languages. The techniques generalize to other languages with binders.  The proofs have been written in and generated using Metamath Zero.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3705873">Intrinsically Correct Sorting in Cubical Agda</a></h3><ul class="DLauthors"><li class="nameList">Cass Alexandru</li><li class="nameList">Vikraman Choudhury</li><li class="nameList">Jurriaan Rot</li><li class="nameList Last">Niels van der Weide</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The paper "Sorting with Bialgebras and Distributive Laws" by Hinze et al. uses the framework of bialgebraic semantics to define sorting algorithms.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ From distributive laws between functors they construct pairs of sorting algorithms using both folds and unfolds.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Pairs of sorting algorithms arising this way include insertion/selection sort and quick/tree sort.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ We extend this work to define intrinsically correct variants in cubical Agda.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Our key idea is to index our data types by multisets, which concisely captures that a sorting algorithm terminates with an ordered permutation of its input list.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ By lifting bialgebraic semantics to the indexed setting, we obtain the correctness of sorting algorithms purely from the distributive law.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3705874">Certifying Rings of Integers in Number Fields</a></h3><ul class="DLauthors"><li class="nameList">Anne Baanen</li><li class="nameList">Alain Chavarri Villarello</li><li class="nameList Last">Sander R. Dahmen</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Number fields and their rings of integers, which generalize the rational numbers and the integers, are foundational objects in number theory.   There are several computer algebra systems and databases concerned with the computational aspects of these.  In particular, computing the ring of integers of a given number field is one of the main tasks of computational algebraic number theory.   In this paper, we describe a formalization in Lean 4 for certifying such computations.   In order to accomplish this, we developed several data types amenable to computation.  Moreover, many other underlying mathematical concepts and results had to be formalized, most of which are also of independent interest.  These include resultants and discriminants, as well as methods for proving irreducibility of univariate polynomials over finite fields and over the rational numbers.  To illustrate the feasibility of our strategy, we formally verified entries from the <em>Number fields</em> section of the <em>L-functions and modular forms database</em> (LMFDB).  These concern, for several number fields, the explicitly given <em>integral basis</em> of the ring of integers and the <em>discriminant</em>.  To accomplish this, we wrote SageMath code that computes the corresponding certificates and outputs a Lean proof of the statement to be verified.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3705875">Formalization of Differential Privacy in Isabelle/HOL</a></h3><ul class="DLauthors"><li class="nameList">Tetsuya Sato</li><li class="nameList Last">Yasuhiko Minamide</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Differential privacy is a statistical definition of privacy that has attracted the interest of both academia and industry.
+ 
+Its formulations are easy to understand, but the differential privacy of databases is complicated to determine.
+ 
+One of the reasons for this is that small changes in database programs can break their differential privacy.
+ 
+Therefore, formal verification of differential privacy has been studied for over a decade.
+ 
+
+ 
+In this paper, we propose an Isabelle/HOL library for formalizing differential privacy in a general setting.
+ 
+To our knowledge, it is the first formalization of differential privacy that supports continuous probability distributions.
+ 
+First, we formalize the standard definition of differential privacy and its basic properties.
+ 
+Second, we formalize the Laplace mechanism and its differential privacy.
+ 
+Finally, we formalize the differential privacy of the report noisy max mechanism.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3705876">The Nextgen Modality: A Modality for Non-Frame-Preserving Updates in Separation Logic</a></h3><ul class="DLauthors"><li class="nameList">Simon Friis Vindum</li><li class="nameList">Aïna Linn Georges</li><li class="nameList Last">Lars Birkedal</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>As separation logic is a logic of resources, the way in which resources can soundly change and be updated is a fundamental aspect. Such changes have typically been restricted to certain <em>local</em> or <em>frame-preserving</em> updates. However, recently we have seen separation logics where the restriction to frame-preserving updates seems to be a hindrance towards achieving the ideal program reasoning rules. In this, paper we propose a novel <em>nextgen</em> modality that enables reasoning across <em>generations</em> where each generational change can update resources in ways that are non-local and non-frame-preserving. We implement the idea as an extension to the Iris base logic, which enriches Iris with an entirely new capability: the ability to make non-frame-preserving updates to ghost state. We show that two existing Iris modalities are special cases of the nextgen modality. Our “extension” can thus also be seen as a generalization and simplification of the Iris base logic. To demonstrate the utility of the nextgen modality we use it to construct a separation logic for a programming language with explicit stack allocation and with a return operation that clears entire stack frames. The nextgen modality is used to great effect in the reasoning rule for return, where a modular and practical reasoning rule is otherwise out of reach. This is the first separation logic for a high-level programming language with stack allocation. We sketch ideas for future work in other domains where we think the nextgen modality can be useful.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3705877">Tactic Script Optimisation for Aesop</a></h3><ul class="DLauthors"><li class="nameList Last">Jannis Limperg</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>White-box proof search tactics such as Coq's auto, Isabelle's auto and Lean's Aesop apply proof rules that often translate directly to lower-level tactics.
+ 
+ 
+ 
+ When these search tactics find a proof, they can, at least in principle, generate a tactic script, i.e. a sequence of lower-level tactics that proves the goal.
+ 
+ 
+ 
+ Such a script can then replace the typically much slower invocation of the search tactic, or it can be used to understand and debug the search.
+ 
+ 
+ 
+
+ 
+ 
+ 
+ However, at least for Aesop, naively generated scripts are highly unidiomatic.
+ 
+ 
+ 
+ For example, they use tactics that users would typically avoid; they apply these tactics in an unusual order; and they do not use Lean's constructs for structuring tactic scripts.
+ 
+ 
+ 
+
+ 
+ 
+ 
+ To address these issues, I propose a three-stage optimisation pipeline that transforms naive scripts into scripts resembling a human-written Lean proof.
+ 
+ 
+ 
+ The first stage replaces less idiomatic tactics with more idiomatic ones, checking that the two sequences of tactics produce the same result.
+ 
+ 
+ 
+ The second stage permutes the tactics in the script to bring them into a natural, depth-first order, which then allows us to use Lean's structuring constructs.
+ 
+ 
+ 
+ The third stage runs some straightforward post-processing passes.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3705878">A CHERI C Memory Model for Verified Temporal Safety</a></h3><ul class="DLauthors"><li class="nameList">Vadim Zaliva</li><li class="nameList">Kayvan Memarian</li><li class="nameList">Brian Campbell</li><li class="nameList">Ricardo Almeida</li><li class="nameList">Nathaniel Filardo</li><li class="nameList">Ian Stark</li><li class="nameList Last">Peter Sewell</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Memory safety concerns continue to be a major source of security vulnerabilities. The CHERI architecture, as instantiated in prototype CHERI-RISC-V cores, the Arm Morello system, and Microsoft's CHERIoT embedded core, provides fine-grained memory access control through unforgeable hardware capabilities. The impact of CHERI on spatial memory safety is well understood. This paper systematically examines temporal memory safety within CHERI C -- a dialect of the C programming language for CHERI -- and proposes a formal approach to defining and ensuring it. In particular: 1) we examine the impact of five existing capability revocation mechanisms on CHERI C semantics and present a specialised object memory model tailored to CHERI C; 2) we introduce a new CHERI-specific pointer provenance tracking scheme; and 3) we formally define the security guarantees provided by this memory model, supported by a Coq proof of their correctness, expressed as invariants of the memory state.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3705879">CertiCoq-Wasm: A Verified WebAssembly Backend for CertiCoq</a></h3><ul class="DLauthors"><li class="nameList">Wolfgang Meier</li><li class="nameList">Martin Jensen</li><li class="nameList">Jean Pichon-Pharabod</li><li class="nameList Last">Bas Spitters</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We contribute CertiCoq-Wasm, a verified WebAssembly backend for CertiCoq. CertiCoq-Wasm is implemented and verified in the Coq proof assistant, and is mechanised with respect to the WasmCert-Coq formalisation of the WebAssembly standard. CertiCoq-Wasm works from CertiCoq's minimal lambda calculus in administrative normal form (ANF), and produces WebAssembly programs with reasonable performance. It implements Coq's primitive integer operations as efficient WebAssembly instructions, identifying a corner case in their implementation that led to unsoundness. We compare CertiCoq-Wasm against other, partially verified extraction mechanisms from Coq to WebAssembly, benchmarking running time and program size. We demonstrate the practical usability of CertiCoq-Wasm with two case studies: we extract and run a Gallina program on the web, and a ConCert smart contract on the Concordium blockchain.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3705880">Formally Verified Hardening of C Programs against Hardware Fault Injection</a></h3><ul class="DLauthors"><li class="nameList">Basile Pesin</li><li class="nameList">Sylvain Boulmé</li><li class="nameList">David Monniaux</li><li class="nameList Last">Marie-Laure Potet</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>A fault attack is a malicious manipulation of the hardware (e.g., electromagnetic or laser pulse) that modifies the behavior of the software.
+ 
+ 
+ 
+Fault attacks typically target sensitive
+ 
+ 
+ 
+applications such as cryptography services, authentication, boot-loaders or
+ 
+ 
+ 
+firmware updaters. They can be defended against by adding countermeasures, that is, control flow checks and redundancies, either in the hardware, or in the
+ 
+ 
+ 
+software running on it. In particular, software countermeasures may be added
+ 
+ 
+ 
+automatically during compilation.
+ 
+ 
+ 
+
+ 
+ 
+ 
+In this paper, we describe a formally verified implementation of this approach
+ 
+ 
+ 
+in the CompCert verified compiler for the C language. We implemented two
+ 
+ 
+ 
+existing countermeasures protecting the control flow of the program as program
+ 
+ 
+ 
+transformations over a middle-end intermediate representation of CompCert, RTL.
+ 
+ 
+ 
+We proved that these countermeasures are correct, that is, they do not change the observable behavior of the program during an execution without fault injection.
+ 
+ 
+ 
+We then modeled the effect of a fault on the behavior of the program as an extension of the semantic model of RTL. We used this new model to formally prove the
+ 
+ 
+ 
+efficacy of the countermeasure: all attacks are either caught, or produce no observable effects. In addition to this
+ 
+ 
+ 
+formal reasoning, we evaluated the protected program using Lazart, a tool for
+ 
+ 
+ 
+symbolic fault injection, and measured the effect of optimizations on security and performance.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3705881">Formalizing Simultaneous Critical Pairs for Confluence of Left-Linear Rewrite Systems</a></h3><ul class="DLauthors"><li class="nameList">Christina Kirk</li><li class="nameList Last">Aart Middeldorp</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We report on the formalization of a sufficient condition for confluence of first-order left-linear rewrite systems within the proof assistant Isabelle/HOL. This criterion, originally proposed by Okui (1998), is based on <em>simultaneous</em> critical pairs, which finitely represent peaks consisting of a multi-step and a normal step. It properly subsumes the formalized result on development-closed critical pairs.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3705882">An Isabelle/HOL Framework for Synthetic Completeness Proofs</a></h3><ul class="DLauthors"><li class="nameList Last">Asta Halkjær From</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Proof assistants like Isabelle/HOL provide the perfect opportunity to develop more than just one-off formalizations, but frameworks for developing new results within a given area. Completeness results for logical calculi often include bespoke versions of Lindenbaum's lemma. In this paper, I mechanize an abstract, transfinite version of the lemma and use it to build witnessed, maximal consistent sets (MCSs) for any notion of consistency that satisfies a few requirements. I prove abstract results about when MCSs reflect the proof rules of the underlying calculi. Finally, I formalize a process for mechanically calculating saturated set conditions from a given logic's semantics. This separates the truth lemma that connects MCS-membership and satisfiability into semantic and syntactic components, giving concrete proof obligations for each operator of the logic. To illustrate the framework's applicability, I instantiate it with propositional, first-order, modal and hybrid logic examples. I mechanize strong completeness for each logic, even for uncountably large languages, proving that, if a formula is valid under a set of assumptions, then we can derive it from a finite subset.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3705883">Formalized Burrows-Wheeler Transform</a></h3><ul class="DLauthors"><li class="nameList">Louis Cheung</li><li class="nameList">Alistair Moffat</li><li class="nameList Last">Christine Rizkallah</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The Burrows-Wheeler transform (BWT) is an invertible lossless transformation that permutes input sequences into alternate sequences of the same length that frequently contain long localized regions that involve clusters consisting of just a few distinct symbols, and sometimes also include long runs of same-symbol repetitions. As a consequence, the BWT is used in a wide range of tools, from everyday file compression software, such as <em>bzip</em>2, to highly sophisticated bioinformatics tools, such as DNA sequencers, where an efficient encoding of genomic sequences is essential. As such, ensuring the correctness of the BWT is critical.    In this paper, we present the first formal verification of both the BWT and its inverse. Our verification efforts are conducted in Isabelle/HOL. Building on a recent formalization of the suffix array construction algorithm, we provide a mechanized proof of correctness, invertibility, and termination for both transformations. By doing so, we address the gap in the formal verification of compression algorithms, ensuring that the BWT can be safely deployed in critical applications such as genomic data analysis. This work thereby also provides the necessary foundation for verifying the various algorithms for compression and text search that operate on BWT-transformed sequences.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3705884">Verified and Efficient Matching of Regular Expressions with Lookaround</a></h3><ul class="DLauthors"><li class="nameList">Agnishom Chattopadhyay</li><li class="nameList">Angela W. Li</li><li class="nameList Last">Konstantinos Mamouras</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Regular expressions can be extended with lookarounds for contextual matching. This paper discusses a Coq formalization of the theory of regular expressions with lookarounds. We provide an efficient and purely functional algorithm for matching expressions with lookarounds and verify its correctness. The algorithm runs in time linear in both the size of the regular expression as well as the input string. Our experimental results provide empirical support to our complexity analysis. To the best of our knowledge, this is the first formalization of a linear-time matching algorithm for regular expressions with lookarounds.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3705885">Machine Checked Proofs and Programs in Algebraic Combinatorics</a></h3><ul class="DLauthors"><li class="nameList Last">Florent Hivert</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present a library of formalized results around symmetric functions and
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ the character theory of symmetric groups. Written in Coq/Rocq and based on
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ the Mathematical Components library, it covers a large part of the contents
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ of a graduate level textbook in the field. The flagship result is a proof of
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ the Littlewood-Richardson rule, which computes the structure constants of
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ the algebra of symmetric function in the schur basis which are integer
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ numbers appearing in various fields of mathematics, and which has a long
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ history of wrong proofs. A specific feature of algebraic combinatorics is the
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ constant interplay between algorithms and algebraic constructions:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ algorithms are not only in computations, but also are key ingredients in
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ definitions and proofs. As such, the proof of the Littlewood-Richardson rule
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ deeply relies on the understanding of the execution of the Robinson-Schensted
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ algorithm. Many results in this library are effective and actually used in
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ computer algebra systems, and we discuss their certified implementation.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3705886">Further Tackling Post Correspondence Problem and Proof Generation</a></h3><ul class="DLauthors"><li class="nameList">Akihiro Omori</li><li class="nameList Last">Yasuhiko Minamide</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Post Correspondence Problem (PCP) is a classic example of
+ 
+ 
+ 
+an undecidable problem, with various heuristic algorithms
+ 
+ 
+ 
+proposed to tackle its instances. In this study, we focus on
+ 
+ 
+ 
+solving a particular subset of instances known as PCP[3,4].
+ 
+ 
+ 
+We introduce a novel algorithm that leverages regular lan-
+ 
+ 
+ 
+guages and automata theory to identify inductive invariants
+ 
+ 
+ 
+within the transition systems associated with these instances,
+ 
+ 
+ 
+enabling us to demonstrate the unsolvability of instances.
+ 
+ 
+ 
+Additionally, we manually found some inductive invariants
+ 
+ 
+ 
+using an interactive tool developed specifically for this pur-
+ 
+ 
+ 
+pose. As a result, we successfully solved all instances except
+ 
+ 
+ 
+for two. To ensure the correctness of our results, we gen-
+ 
+ 
+ 
+erated proofs for each instance that can be verified using
+ 
+ 
+ 
+Isabelle/HOL.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3705887">Formalizing the One-Way to Hiding Theorem</a></h3><ul class="DLauthors"><li class="nameList">Katharina Heidler</li><li class="nameList Last">Dominique Unruh</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>As the standardization process for post-quantum cryptography progresses, the need for computer-verified security proofs against classical and quantum attackers increases. 
+ 
+ 
+ 
+Even though some tools are already tackling this issue, none are foundational. 
+ 
+ 
+ 
+We take a first step in this direction and present a complete formalization of the One-way to Hiding (O2H) Theorem, a central theorem for security proofs against quantum attackers. 
+ 
+ 
+ 
+With this new formalization, we build more secure foundations for proof-checking tools in the quantum setting.
+ 
+ 
+ 
+Using the theorem prover Isabelle, we verify the semi-classical O2H Theorem by Ambainis, Hamburg and Unruh (Crypto 2019) in different variations. We also give a novel (and for the formalization simpler) proof to the O2H Theorem for mixed states and extend the theorem to non-terminating adversaries.
+ 
+ 
+ 
+This work provides a theoretical and foundational background for several verification tools and for security proofs in the quantum setting.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3705888">Split Decisions: Explicit Contexts for Substructural Languages</a></h3><ul class="DLauthors"><li class="nameList">Daniel Zackon</li><li class="nameList">Chuta Sano</li><li class="nameList">Alberto Momigliano</li><li class="nameList Last">Brigitte Pientka</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>A central challenge in mechanizing the meta-theory of substructural languages is modeling contexts. Although various ad hoc approaches to this problem exist, we lack a set of good practices and a simple infrastructure that can be leveraged for mechanizing a wide range of substructural systems.  In this work, we describe Contexts as Resource Vectors (CARVe), a general syntactic infrastructure for managing substructural contexts, where elements are annotated with tags from a resource algebra denoting their availability. Assumptions persist as contexts are manipulated since we model resource consumption by changing their tags. We may thus define relations between substructural contexts via simultaneous substitutions without the need to split them. Moreover, we establish a series of algebraic properties about context operations that are typically required to carry out proofs in practice. CARVe is implemented in the proof assistant Beluga.  To illustrate best practices for using our infrastructure, we give a detailed reformulation of the linear sequent calculus and bidirectional linear λ-calculus in terms of CARVe’s context operations and prove their equivalence using the aforementioned algebraic properties. In addition, we apply CARVe to mechanize a diverse set of systems, from the affine λ-calculus to the session-typed process calculus CP, giving us confidence that CARVe is sufficiently general to mechanize a broad range of substructural systems.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3705889">An Isabelle Formalization of Co-rewrite Pairs for Non-reachability in Term Rewriting</a></h3><ul class="DLauthors"><li class="nameList">Dohan Kim</li><li class="nameList">Teppei Saito</li><li class="nameList">René Thiemann</li><li class="nameList Last">Akihisa Yamada</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In this paper, we present an Isabelle/HOL formalization of co-rewrite pairs for non-reachability analysis in term rewriting. In particular, we formalize polynomial interpretations over negative integers as well as the weighted path order (WPO) and its variant co-WPO. With this formalization, the verified certifier CeTA is now able to check such non-reachability proofs, including those for non-reachability problems of a database where existing tools fail to provide certified proofs.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3703595.3705890">Monadic Interpreters for Concurrent Memory Models: Executable Semantics of a Concurrent Subset of LLVM IR</a></h3><ul class="DLauthors"><li class="nameList">Nicolas Chappe</li><li class="nameList">Ludovic Henrio</li><li class="nameList Last">Yannick Zakowski</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Monadic interpreters have gained attention as a powerful tool for modeling and reasoning about first order languages.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In particular in the Coq ecosystem, the Choice Tree (CTree) library provides generic tools to craft such interpreters in presence of divergence, stateful effects, failure, and non-determinism.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This monadic approach allows the definition of semantics for programming languages that are modular in its effects, compositional w.r.t. its syntax, and executable.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This paper demonstrates the use of CTrees to formalize a semantics for concurrency and weak memory models.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We instantiate the approach over a minimal concurrent subset of LLVM IR.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Our semantics is built in successive stages, interpreting each aspect of the semantics separately.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In particular, a stage encodes multi-threading as an interleaving semantics, and
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+another implements a weak memory model that supports various LLVM memory orderings.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Furthermore, the modularity of the approach makes it possible to plug a different source language or memory model by changing a single interpretation phase.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+By leveraging the notions of (bi)similarity on CTrees, we establish the equational theory of our constructions, 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+show how to transport equivalences through our layered construction, and prove simulation results between memory models.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Finally, our model is executable, hence the semantics can be tested by extraction to OCaml.</p>
+			</div></div>
+							
+						</div></div></body></html>

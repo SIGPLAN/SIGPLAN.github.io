@@ -1510,3 +1510,19 @@
   event: POPL
   year: 2024
   title: "Proceedings of the ACM on Programming Languages: Vol. 9, No. POPL. 2025"
+-
+  event: CPP
+  year: 2025
+  title: "Proceedings of the 14th ACM SIGPLAN International Conference on Certified Programs and Proofs"
+-
+  event: PEPM
+  year: 2025
+  title: "Proceedings of the 2025 ACM SIGPLAN International Workshop on Partial Evaluation and Program Manipulation"
+-
+  event: PEPM
+  year: 2025
+  title: "Proceedings of the 2025 ACM SIGPLAN International Workshop on Partial Evaluation and Program Manipulation"
+-
+  event: CPP
+  year: 2025
+  title: "Proceedings of the 14th ACM SIGPLAN International Conference on Certified Programs and Proofs"
