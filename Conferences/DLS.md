@@ -12,17 +12,38 @@ provides a place for researchers and practitioners to come together and
 share their knowledge, experience, and ideas for future research and
 development.
 
-DLS 2023
---------
+On Hiatus
+---------
 
--   Cascais, Portugal, October, 2023
--   Co-located with SPLASH 2023
--   PC chair: Stefan Marr, University of Kent, UK
--   [https://2023.splashcon.org/home/dls-2023](https://conf.researchr.org/home/dls-2023)
+In 2023, we held a symposium focusing on the Future of Dynamic Languages.
+Since then, DLS is on a hiatus.
 
+For research on dynamic languages, their implementation, tooling, educational approaches,
+analyses, empirical studies, and other research, please consider submitting for instance to the [SIGPLAN conferences](https://sigplan.org/Conferences/).
+
+Perhaps of most relevance for your work might be the following venues with a large overlap in community:
+ - [‹Programming›](https://programming-conference.org/)
+ - [Managed Programming Languages & Runtimes (MPLR)](https://sigplan.org/Conferences/MPLR)
+
+For questions or suggestions, please contact the [Steering Committee Chair](#scchair).
 
 Awards
 ------
+
+-   Most Notable Paper Award 2024 for 2014
+    - Recipients: Vanessa Freudenberg, Dan Ingalls, Tim Felgentreff, Tobias Pape, Robert Hirschfeld
+    - Title: SqueakJS: A Modern and Practical Smalltalk that Runs in Any Browser
+    - Conference: DLS 2014
+    - Paper: [https://doi.org/10.1145/2661088.2661100](https://doi.org/10.1145/2661088.2661100)
+    - Citation: This paper reports on SqueakJS, a fully compatible Squeak/Smalltalk implemented in pure JavaScript.
+      In 2014, it demonstrated that with thoughtful implementation techniques, browsers and their JavaScript VMs
+      can enable applications as dynamic and interactive as Smalltalk environments.
+      Furthermore, the paper details how powerful programming language features
+      such as object enumeration, application snapshotting, custom graphics interfaces,
+      as well as basic file abstractions can be realized inside the browser environment.
+      Today, SqueakJS continues to be used in education, for web applications,
+      and as environments to preserve important parts of Smalltalk’s history, and with it, computing history.
+
 
 -   Most Notable Paper Award 2023 for 2013
     -   Recipients: Esteban Allende, Johan Fabry, Éric Tanter
@@ -297,30 +318,33 @@ Steering Committee Members
 
 ### Present
 
+<a id="scchair">
+
 * Chair: Stefan Marr, University of Kent, UK (SC Chair 2022-2024, PC Chair 2019, 2023)
 * Davide Ancona, Universit&agrave; degli studi di Genova, Italy (PC Chair 2017)
 * Wolfgang De Meuter, Vrije Universiteit Brussel, Belgium (PC Chair 2022)
-* Tim Felgentreff, Oracle Labs, Germany (SC Chair 2018-2021, PC Chair 2018)
-* Arjun Guha, Northeastern University, USA, (PC Chair 2021, 2022)
-* Carl Friedrich Bolz-Tereick, Heinrich-Heine-Universit&auml;t D&uuml;sseldorf, Germany (Past SC Chair 2018-2021, SC Chair 2015-2018, PC Chair 2013)
+* Matthew Flatt (PC Chair 2020)
 * Robert Hirschfeld, Hasso Plattner Institute and University of Potsdam, Germany (Member at Large 2018-2020, Past SC Chair 2015-2018, SC Chair 2007-2015, PC Chair 2007, PC Chair 2006)
+* Anders Møller, Aarhus University, Denmark (SIGPLAN Observer, since 2021)
 
-* Anders Møller, Aarhus University, Denmark (SIGPLAN since 2021)
-* Laurence Tratt, King's College London, UK (Emeritus Member 2018-2020, Emeritus Member 2016-2018, PC Chair 2014)
 
 ### Past
 
+* Carl Friedrich Bolz-Tereick, Heinrich-Heine-Universit&auml;t D&uuml;sseldorf, Germany (Past SC Chair 2018-2021, SC Chair 2015-2018, PC Chair 2013)
 * Johan Brichau (PC Chair 2008)
 * William D. Clinger (PC Chair 2010)
 * Pascal Costanza (SC Chair 2007-2013, PC Chair 2007)
 * Theo D'Hondt (PC Chair 2011)
+* Tim Felgentreff, Oracle Labs, Germany (SC Chair 2018-2021, PC Chair 2018)
 * Richard P. Gabriel (Member at Large 2007-2013)
 * Jeremy Gibbons (SIGPLAN 2012-2015)
+* Arjun Guha, Northeastern University, USA, (PC Chair 2021, 2022)
 * Roberto Ierusalimschy (PC Chair 2016)
 * James Noble (PC Chair 2009)
 * Benjamin C. Pierce, University of Pennsylvania, USA (SIGPLAN 2018-2021)
 * Manuel Serrano (PC Chair 2015)
 * Peter Thiemann (SIGPLAN 2015-2018)
 * Dave Thomas (Member at Large 2007-2013)
+* Laurence Tratt, King's College London, UK (Emeritus Member 2018-2020, Emeritus Member 2016-2018, PC Chair 2014)
 * Alessandro Warth (PC Chair 2012)
 * Roel Wuyts (PC Chair 2005)
