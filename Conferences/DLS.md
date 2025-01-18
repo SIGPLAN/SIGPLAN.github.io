@@ -21,7 +21,7 @@ Since then, DLS is on a hiatus.
 For research on dynamic languages, their implementation, tooling, educational approaches,
 analyses, empirical studies, and other research, please consider submitting for instance to the [SIGPLAN conferences](https://sigplan.org/Conferences/).
 
-Perhaps of most relevance for you work might be the following venues with a large overlap in community:
+Perhaps of most relevance for your work might be the following venues with a large overlap in community:
  - [‹Programming›](https://programming-conference.org/)
  - [Managed Programming Languages & Runtimes (MPLR)](https://sigplan.org/Conferences/MPLR)
 
