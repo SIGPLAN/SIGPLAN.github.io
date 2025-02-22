@@ -1,3 +1,77 @@
+Selected February 2025:
+
+- Title: "_[A Grounded Conceptual Model for Ownership Types in Rust](https://dl.acm.org/doi/10.1145/3622841)_"
+  Authors: "Will Crichton (Brown University), Gavin Gray (ETH Zurich), Shriram Krishnamurthi (Brown University)"
+  Venue: OOPSLA 2023
+  NominationStatement: |
+    Programmers learning Rust struggle to understand ownership types,
+    Rust’s core mechanism for ensuring memory safety without garbage
+    collection. This paper describes a attempt to systematically
+    design a pedagogy for ownership types. The paper applies
+    techniques from cognitive science to describing and teaching
+    programming languages, focusing on one of the “hottest” languages
+    to date: Rust. The work contains multiple aspects, such as
+    analysing common misconceptions of the programmers, building the
+    conceptual model of Rust ownership, designing a teaching
+    methodology around it, and even evaluating it in a user study.
+    Overall, the paper follows scientific principles and introduces
+    the PL community to an original and effective way to study a
+    language usability problem.
+
+
+- Title: "_[Dynamic Race Detection with O(1) Samples](https://dl.acm.org/doi/10.1145/3571238)_"
+  Authors: "Mosaad Al Thokair (University of Illinois at Urbana-Champaign), Minjian Zhang (University of Illinois at Urbana-Champaign), Umang Mathur (National University of Singapore), Mahesh Viswanathan (University of Illinois at Urbana-Champaign)"
+  Venue: POPL 2023
+  NominationStatement: |
+    This paper proposes to use the property testing paradigm to design
+    and analyze a randomized race detector. The detector samples
+    subtracts and looks for races in them in the regular way, but will
+    only find races that are included in these sub-traces. The
+    motivation to consider subtracts is to improve performance and
+    possibly allow using this checker in a production environment.
+    When a date race is found, the execution surely contains a race,
+    and when the full trace is "epsilon-far" from a trace with no data
+    races, then the test is shown to find a race with a good
+    probability. The authors implement such a tester and show that it
+    does well within its promise and also does well even beyond what
+    can be shown formally.
+
+    This paper appears very strong for the parallel computing
+    community and intriguing for the property testing community as an
+    application of property testing in a practical setting. Its
+    primary contribution lies in connecting these two domains. The use
+    of sampling to improve the performance of a data race detector has
+    been previously explored, but this work extends and analyzes that
+    idea.
+
+- Title: "_[Catala: a Programming Language for the Law](https://dl.acm.org/doi/10.1145/3473582)_"
+  Authors: "Denis Merigoux (INRIA), Nicolas Chataing (ENS Paris), Jonathan Protzenko (Microsoft Research)"
+  Venue: ICFP 2021
+  NominationStatement: |
+    Catala is a new programming language designed to formalize
+    statutory law into executable code. The paper presents a novel and
+    compelling application of so-called prioritized default logic to
+    legal interpretation. The work is particularly impressive for its
+    significant engineering effort and its close collaboration with
+    legal professionals, demonstrating both feasibility and real-world
+    applicability.
+
+
+- Title: "_[egg: Fast and extensible equality saturation](https://dl.acm.org/doi/10.1145/3434304)_"
+  Authors: "Max Willsey (University of Washington), Chandrakana Nandi (University of Washington), Yisu Remy Wang (University of Washington), Oliver Flatt (University of Utah), Zachary Tatlock (University of Washington), Pavel Panchekha (University of Utah)"
+  Venue: POPL 2021
+  NominationStatement: |
+    Egg is a framework for optimizing term representations based on
+    e-graphs and equality saturation. It has numerous applications in
+    compiler optimization, program synthesis, term rewriting, and
+    more. While the ideas and even their combination were known, this
+    paper developed three key innovations: algorithmic improvements
+    based on rebuilding, a framework for performing lattice-based
+    analyses using e-graphs, and a standalone implementation. The
+    paper is extremely well written and accessible. Egg has already
+    been quite influential, which numerous follow-on papers,
+    industrial adoption, an annual workshop, and a growing community.
+
 Selected September 2021:
 
 - Title: "_[Achieving high-performance the functional way: a functional pearl on expressing high-performance optimizations as rewrite strategies](https://dl.acm.org/doi/10.1145/3408974)_"
