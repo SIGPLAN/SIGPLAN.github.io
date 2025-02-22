@@ -6,7 +6,7 @@ Selected February 2025:
   NominationStatement: |
     Programmers learning Rust struggle to understand ownership types,
     Rust’s core mechanism for ensuring memory safety without garbage
-    collection. This paper describes a attempt to systematically
+    collection. This paper describes an attempt to systematically
     design a pedagogy for ownership types. The paper applies
     techniques from cognitive science to describing and teaching
     programming languages, focusing on one of the “hottest” languages
