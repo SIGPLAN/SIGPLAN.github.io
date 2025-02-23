@@ -12,7 +12,7 @@ also recommended for consideration for the
 
 ### SIGPLAN Research Highlights Papers
 
-As of September 2021, 62 papers have been recognized by the SIGPLAN
+As of February 2022, 66 papers have been recognized by the SIGPLAN
 Research Highlights committee, and 34 SIGPLAN papers have been
 selected to appear as CACM Research Highlights. This [webpage]({% link
 Highlights/Papers.md %}) contains the full list of papers.
@@ -33,14 +33,12 @@ ASPLOS, and PPoPP, nominated from two sources:
   following the guidelines for the respective Call for Nominations
   (see below). Authors may not nominate their own papers.
   
-### Call for Nominations for 2021-2023 
+### Call for Nominations for 2024
 
 SIGPLAN members are invited to submit nominations for the papers
 published in 2021-2023 via [this
-form](https://forms.gle/y8MM2htdCk1QEGez6). The deadline for the
-nominations is **21 November 2024 AoE**.
-
-<!-- Nominations can be made at this [website](http://cacm.sigplan.org). -->
+form](https://forms.gle/4xyj1eRZKjkUKC6j6). The deadline for the
+nominations is **5 June 2025 AoE**.
 
 ### SIGPLAN Research Highlights Committee
 
