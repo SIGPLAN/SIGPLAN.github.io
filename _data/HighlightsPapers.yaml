@@ -25,9 +25,9 @@ Selected February 2025:
   NominationStatement: |
     This paper proposes to use the property testing paradigm to design
     and analyze a randomized race detector. The detector samples
-    subtracts and looks for races in them in the regular way, but will
+    sub-traces and looks for races in them in the regular way, but will
     only find races that are included in these sub-traces. The
-    motivation to consider subtracts is to improve performance and
+    motivation to consider sub-traces is to improve performance and
     possibly allow using this checker in a production environment.
     When a date race is found, the execution surely contains a race,
     and when the full trace is "epsilon-far" from a trace with no data
@@ -36,13 +36,13 @@ Selected February 2025:
     does well within its promise and also does well even beyond what
     can be shown formally.
 
-    This paper appears very strong for the parallel computing
-    community and intriguing for the property testing community as an
-    application of property testing in a practical setting. Its
-    primary contribution lies in connecting these two domains. The use
-    of sampling to improve the performance of a data race detector has
-    been previously explored, but this work extends and analyzes that
-    idea.
+    This paper's discoveries are exciting for both the parallel
+    computing and for the property testing communities, as it shows an
+    application of property testing in a practical setting, and the
+    work's primary contribution lies in connecting these two domains.
+    The use of sampling to improve the performance of a data race
+    detector has been previously explored, but this work extends and
+    analyzes that idea.
 
 - Title: "_[Catala: a Programming Language for the Law](https://dl.acm.org/doi/10.1145/3473582)_"
   Authors: "Denis Merigoux (INRIA), Nicolas Chataing (ENS Paris), Jonathan Protzenko (Microsoft Research)"
