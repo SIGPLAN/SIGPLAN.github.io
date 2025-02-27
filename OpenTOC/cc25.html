@@ -1,0 +1,287 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>CC '25: Proceedings of the 34th ACM SIGPLAN International Conference on Compiler Construction</title></head><body><div id="DLtoc"><div id="DLheader"><h1>CC '25: Proceedings of the 34th ACM SIGPLAN International Conference on Compiler Construction</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3708493"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3708493.3712679">Enhancing Program Analysis with Deterministic Distinguishable Calling Context</a></h3><ul class="DLauthors"><li class="nameList">Sungkeun Kim</li><li class="nameList">Khanh Nguyen</li><li class="nameList">Chia-Che Tsai</li><li class="nameList">Jaewoo Lee</li><li class="nameList">Abdullah Muzahid</li><li class="nameList Last">Eun Jung Kim</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Calling context is crucial for improving the precision of program analyses in various use cases (clients), such as profiling, debugging, optimization, and security checking. Often the calling context is encoded using a numerical value.  We have observed that many clients benefit not only from a <em>deterministic</em> but also <em>globally distinguishable</em> value across runs to simplify bookkeeping and guarantee complete uniqueness.  However, existing work only guarantees determinism, not global distinguishability. Clients need to develop auxiliary helpers, which incurs considerable overhead to distinguish encoded values among all calling contexts.    In this paper, we propose Deterministic Distinguishable Calling Context Encoding () that can enable both properties of calling context encoding <em>natively</em>. The key idea of  is leveraging the static call graph and encoding each calling context as the running call path count. Thereby, a mapping is established statically and can be readily used by the clients.  Our experiments with two client tools show that  has a comparable overhead compared to two state-of-the-art encoding schemes, PCCE and PCC, and further avoids the expensive overheads of collision detection, up to 2.1× and 50%, for Splash-3 and SPEC CPU 2017, respectively.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3708493.3712680">A Comparative Study on the Accuracy and the Speed of Static and Dynamic Program Classifiers</a></h3><ul class="DLauthors"><li class="nameList">Anderson Faustino da Silva</li><li class="nameList">Jeronimo Castrillon</li><li class="nameList Last">Fernando Magno Quintão Pereira</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Classifying programs based on their tasks is essential in fields such as plagiarism detection, malware analysis, and software auditing. Traditionally, two classification approaches exist: static classifiers analyze program syntax, while dynamic classifiers observe their execution. Although dynamic analysis is regarded as more precise, it is often considered impractical due to high overhead, leading the research community to largely dismiss it. In this paper, we revisit this perception by comparing static and dynamic analyses using the same classification representation: opcode histograms. We show that dynamic histograms---generated from instructions actually executed---are only marginally (4-5%) more accurate than static histograms in non-adversarial settings. However, if an adversary is allowed to obfuscate programs, the accuracy of the dynamic classifier is twice higher than the static one, due to its ability to avoid observing dead-code. Obtaining dynamic histograms with a state-of-the-art Valgrind-based tool incurs an 85x slowdown; however, once we account for the time to produce the representations for static analysis of executables, the overall slowdown reduces to 4x: a result significantly lower than previously reported in the literature.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3708493.3712681">Automatic Test Case Generation for Jasper App HDL Compiler: An Industry Experience</a></h3><ul class="DLauthors"><li class="nameList">Mirlaine Crepalde</li><li class="nameList">Augusto Mafra</li><li class="nameList">Lucas Cavalini</li><li class="nameList">Lucas Martins</li><li class="nameList">Guilherme Amorim</li><li class="nameList">Pedro Henrique Santos</li><li class="nameList Last">Fabiano Peixoto</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Random test case generation is a challenging subject in compiler testing. Due to the structured and strict nature of the languages required for compiler inputs, using randomization techniques for hunting bugs in compiler implementation represents a big challenge that requires trading off correctness and generation biases against fuzzing techniques for broader exploratory randomization. This paper shares the technology and the practical industry experience on two random testing frameworks developed for the Hardware Description Language (HDL) compiler of Jasper® App, a production formal verification software applied in Electronic Design Automation (EDA) industry. The two frameworks impact distinct parts of the compiler stack and provide different features and strengths for randomization: SystemVerilog Generator script, which creates random and formally provable HDL code, and Fuzz HDL Testing, a fuzzing solution applying LLVM’s libFuzzer to explore random textual inputs.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3708493.3712682">pyATF: Constraint-Based Auto-Tuning in Python</a></h3><ul class="DLauthors"><li class="nameList">Richard Schulze</li><li class="nameList">Sergei Gorlatch</li><li class="nameList Last">Ari Rasch</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We introduce pyATF -- a new, language-independent, open-source auto-tuning tool that fully automatically determines optimized values of performance-critical program parameters. A major feature of pyATF is its support for constrained parameters, e.g., the value of one parameter has to divide the value of another parameter. A further major feature of pyATF is its user interface which is designed with a particular focus on expressivity and usability for real-world demands, and which is offered in the increasingly popular Python programming language. We experimentally confirm the practicality of pyATF using real-world studies from the areas of quantum chemistry, image processing, data mining, and deep learning: we show that pyATF auto-tunes the complex parallel implementations of our studies to higher performance than achieved by state-of-practice approaches, including hand-optimized vendor libraries.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3708493.3712683">Data-Efficient Performance Modeling via Pre-training</a></h3><ul class="DLauthors"><li class="nameList">Chunting Liu</li><li class="nameList Last">Riyadh Baghdadi</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Performance models are essential for automatic code optimization, enabling compilers to predict the effects of code transformations on performance and guide search for optimal transformations. Building state-of-the-art performance models with deep learning, however, requires vast labeled datasets of random programs – an expensive and time-consuming process, stretching over months. This paper introduces a self-supervised pre-training scheme with autoencoders to reduce the need for labeled data. By pre-training on a large dataset of random programs, the autoencoder learns representations of code and transformations, which are then used to embed programs for the performance model. Implemented in the Tiramisu autoscheduler, our approach improves model accuracy with less data. For example, to achieve a MAPE of 20.72%, the original model requires 18 million data points, whereas our method achieves a similar MAPE of 22.44% with only 3.6 million data points, reducing data requirements by 5×.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3708493.3712684">Overloading the Dot</a></h3><ul class="DLauthors"><li class="nameList">Joseph Tan</li><li class="nameList Last">Magnus Madsen</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The dot is a highly valued piece of syntactic real estate. Programming languages
+ 
+use the dot for a range of programming constructs: In object-oriented languages,
+ 
+the dot is used for field and method access on classes and objects. In
+ 
+imperative languages, the dot is often used for field access on structs. In
+ 
+functional languages, the dot is often used for field access on records. And
+ 
+finally in some other languages, the dot is used to access the length of arrays
+ 
+and to index into tuples.
+ 
+
+ 
+The dot is minimal yet aesthetically pleasing. More importantly, the dot is the
+ 
+great enabler of auto-completion. Programmers with a specific entity in mind
+ 
+(e.g., an object, struct, or record) can use the dot to trigger auto-completion
+ 
+to be presented with a list of operations available on the entity. This simple
+ 
+feature improves the programming experience and makes it easier to learn new
+ 
+APIs.
+ 
+
+ 
+In this paper, we explore how to overload the dot to support various programming
+ 
+constructs within one language while supporting type inference. We present a
+ 
+principled approach to overloading based on type classes extended with
+ 
+associated types, associated effects, and compiler-generated type classes and
+ 
+instances. We implement the design in the Flix programming language and evaluate
+ 
+its impact on compiler performance and on the quality of error messages.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3708493.3712685">MimIrADe: Automatic Differentiation in MimIR</a></h3><ul class="DLauthors"><li class="nameList">Marcel Ullrich</li><li class="nameList">Sebastian Hack</li><li class="nameList Last">Roland Leißa</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Automatic Differentiation (AD) is at the core of all machine learning frameworks and has applications in scientific computing as well.
+ 
+ 
+ 
+Theoretical research on reverse-mode AD focuses on functional, higher-order languages, enabling AD to be formulated as a series of local, concise program rewrites.
+ 
+ 
+ 
+These theoretical approaches focus on correctness but disregard efficiency.
+ 
+ 
+ 
+Practical implementations, however, employ mutation and taping techniques to enhance efficiency.
+ 
+ 
+ 
+This approach, however, necessitates intricate, low-level, and non-local program transformations.
+ 
+ 
+ 
+
+ 
+ 
+ 
+In this work, we introduce MimIrADe, a functionally inspired AD technique implemented within a higher-order, graph-based ("sea of nodes") intermediate representation (IR).
+ 
+ 
+ 
+Our method consists of a streamlined implementation and incorporates standard optimizations, resulting in an efficient AD system.
+ 
+ 
+ 
+The higher-order nature of the IR enables us to utilize concise functional AD methods, expressing AD through local rewrites.
+ 
+ 
+ 
+This locality facilitates modular high-level extensions, such as matrix operations, in a straightforward manner.
+ 
+ 
+ 
+Additionally, the graph-based structure of the IR ensures that critical implementation aspects---particularly the handling of shared pullback invocations---are managed naturally and efficiently.
+ 
+ 
+ 
+Our AD pass supports a comprehensive set of features, including non-scalar types, pointers, and higher-order recursive functions.
+ 
+ 
+ 
+
+ 
+ 
+ 
+We demonstrate through standard benchmarks that a suite of common optimizations effectively eliminates the overhead typically associated with functional AD approaches, producing differentiated code that performs on par with leading mutation and taping techniques.
+ 
+ 
+ 
+At the same time, MimIrADe's implementation is an order of magnitude less complex compared to its contenders.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3708493.3712686">Finding Missed Code Size Optimizations in Compilers using Large Language Models</a></h3><ul class="DLauthors"><li class="nameList">Davide Italiano</li><li class="nameList Last">Chris Cummins</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Compilers are complex, and significant effort has been expended on testing them. Techniques such as random program generation and differential testing have proved highly effective and have uncovered thousands of bugs in production compilers. The majority of effort has been expended on validating that a compiler produces correct code for a given input, while less attention has been paid to ensuring that the compiler produces performant code.
+ 
+ 
+ 
+
+ 
+ 
+ 
+In this work we adapt differential testing to the task of identifying missed optimization opportunities in compilers. We develop a novel testing approach which combines large language models (LLMs) with a series of differential testing strategies and use them to find missing code size optimizations in C / C++ compilers.
+ 
+ 
+ 
+
+ 
+ 
+ 
+The advantage of our approach is its simplicity. We offload the complex task of generating random code to an off-the-shelf LLM, and use heuristics and analyses to identify anomalous compiler behavior. Our approach requires fewer than 150 lines of code to implement. This simplicity makes it extensible. By simply changing the target compiler and initial LLM prompt we port the approach from C / C++ to Rust and Swift, finding bugs in both. To date we have reported 24 confirmed bugs in production compilers, and conclude that LLM-assisted testing is a promising avenue for detecting optimization bugs in real world compilers.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3708493.3712687">DFA-Net: A Compiler-Specific Neural Architecture for Robust Generalization in Data Flow Analyses</a></h3><ul class="DLauthors"><li class="nameList">Alexander Brauckmann</li><li class="nameList">Anderson Faustino da Silva</li><li class="nameList">Gabriel Synnaeve</li><li class="nameList">Michael F. P. O’Boyle</li><li class="nameList">Jeronimo Castrillon</li><li class="nameList Last">Hugh Leather</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Data flow analysis is fundamental to modern program optimization and verification, serving as a critical foundation for compiler transformations. As machine learning increasingly drives compiler tasks, the need for models that can implicitly understand and correctly reason about data flow properties becomes crucial for maintaining soundness. State-of-the-art machine learning methods, especially graph neural networks (GNNs), face challenges in generalizing beyond training scenarios due to their limited ability to perform large propagations. We present DFA-Net, a neural network architecture tailored for compilers that systematically generalizes. It emulates the reasoning process of compilers, facilitating the generalization of data flow analyses from simple to complex programs. 
+ 
+ 
+ 
+The architecture decomposes data flow analyses into specialized neural networks for initialization, transfer, and meet operations, explicitly incorporating compiler-specific knowledge into the model design. We evaluate DFA-Net on a data flow analysis benchmark from related work and demonstrate that our compiler-specific neural architecture can learn and systematically generalize on this task. DFA-Net demonstrates superior performance over traditional GNNs in data flow analysis, achieving F1 scores of 0.761 versus 0.009 for data dependencies and 0.989 versus 0.196 for dominators at high complexity levels, while maintaining perfect scores for liveness and reachability analyses where GNNs struggle significantly.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3708493.3712688">A Deep Technical Review of nZDC Fault Tolerance</a></h3><ul class="DLauthors"><li class="nameList">Minli Liao</li><li class="nameList">Sam Ainsworth</li><li class="nameList">Lev Mukhanov</li><li class="nameList Last">Timothy M. Jones</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Faults within CPU circuits, which generate incorrect results and thus silent data corruption, have become endemic at scale. The only generic techniques to detect one-time or intermittent soft errors, such as particle strikes or voltage spikes, require redundant execution, where copies of each instruction in a program are executed twice and compared.         The only software solution for this task that is open source and available for use today is nZDC, which aims to achieve “near-zero silent data corruption” through control- and data-flow redundancy. However, when we tried to apply this to large-scale workloads, we found it suffered a wide set of false positives, negatives, compiler bugs and run-time crashes, which meant it was impossible to benchmark against. This document details the wide set of fixes and workarounds we had to put in place to make nZDC work across full suites. We provide many new insights as to the edge cases that make such instruction duplication tricky under complex ISAs such as AArch64 and their similarly complex ABIs. Evaluation across SPECint 2006 and PARSEC with our extensions takes us from no workloads executing to all bar four, with 2× and 1.6× geomean overhead respectively relative to execution with no fault tolerance.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3708493.3712689">Fusion of Operators of Computational Graphs via Greedy Clustering: The XNNC Experience</a></h3><ul class="DLauthors"><li class="nameList">Michael Canesche</li><li class="nameList">Vanderson Martins do Rosario</li><li class="nameList">Edson Borin</li><li class="nameList Last">Fernando Magno Quintão Pereira</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Tensor compilers like XLA, TVM, and TensorRT operate on computational graphs, where vertices represent operations and edges represent data flow between these operations. Operator fusion is an optimization that merges operators to improve their efficiency. This paper presents the operator fusion algorithm recently deployed in the Xtensa Neural Network Compiler (XNNC) - Cadence Tensilica's tensor compiler. The algorithm clusters nodes within the computational graph and iteratively grows these clusters until reaching a fixed point. A priority queue, sorted by the estimated profitability of merging cluster candidates, guides this iterative process. It balances precision and practicality, producing models 39% faster than XNNC's previous fusion approach, which was based on a depth-first traversal of the computational graph. Moreover, unlike recently proposed exhaustive or evolutionary search methods, this algorithm terminates quickly while often yielding equally efficient models.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3708493.3712690">Scalable Data-Flow Modeling and Validation of Distributed-Memory Algorithms</a></h3><ul class="DLauthors"><li class="nameList">Raneem Abu-Yosef</li><li class="nameList Last">Martin Kong</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Distributed-memory programs that use the        Message Passing Interface (MPI) often introduce        various kinds of correctness anomalies.        This work focuses on the type of anomalies        detectable through data-flow modeling.        We present a new tool and         Domain-Specific Language to describe the        data-flow of computations         based on collective operations, such as the         broadcast or all-gather in MPI.                                                                Our tool, CollectCall,                                                                models key aspects of distributed-memory                                                                algorithms, namely the processor space,                                                                 symbolic communicators,                                                                data,                                                                its partitioning and mapping,                                                                 and a set of communication primitives.                                                                Using these concepts, we build constraint systems                                                                 that model                                                                 the initial data placement                                                                 and communication steps of the algorithm.                                                                Systems are built and solved with the Z3                                                                 SMT and the Integer Set Library (ISL)                                                                to decide the correctness                                                                 of sequences of collective operations.                                                                We formalize the correctness requirements                                                                for a class                                                                 of collective communication operations, and demonstrate                                                                the effectiveness of our approach on several micro-benchmarks                                                                and on well-known distributed algorithms                                                                 from the literature while comparing against ITAC, MPI-Checker                                                                and PSE, state-of-the-art tools.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3708493.3712691">LLM Compiler: Foundation Language Models for Compiler Optimization</a></h3><ul class="DLauthors"><li class="nameList">Chris Cummins</li><li class="nameList">Volker Seeker</li><li class="nameList">Dejan Grubisic</li><li class="nameList">Baptiste Roziere</li><li class="nameList">Jonas Gehring</li><li class="nameList">Gabriel Synnaeve</li><li class="nameList Last">Hugh Leather</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Large Language Models (LLMs) have demonstrated remarkable capabilities across a variety of software engineering and coding tasks. However, their application in the domain of code and compiler optimization remains underexplored. Training LLMs is resource-intensive, requiring substantial GPU hours and extensive data collection, which can be prohibitive. To address this gap, we introduce LLM&nbsp;Compiler, a suite of robust, openly available, pre-trained models specifically designed for compiler tasks. Built on the foundation of Code&nbsp;Llama, LLM&nbsp;Compiler enhances the understanding of compiler intermediate representations (IRs), assembly language, and optimization techniques. The models have been trained on a vast corpus of 546 billion tokens of LLVM-IR and assembly code and have undergone instruction fine-tuning to interpret compiler behavior.    To demonstrate the utility of these research tools, we also present fine-tuned versions of the models with enhanced capabilities in optimizing code size and disassembling from x86_64 and ARM assembly back into LLVM-IR. These achieve 77% of the optimising potential of an autotuning search, and 45% disassembly round trip (14% exact match).    LLM&nbsp;Compiler is released under a bespoke commercial license to allow wide reuse and is available in two sizes: 7 billion and 13 billion parameters. Our aim is to provide scalable, cost-effective foundational models for further research and development in compiler optimization by both academic researchers and industry practitioners. Since we released LLM&nbsp;Compiler the community has quantized, repackaged, and downloaded the models over 250k times.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3708493.3712692">Post-Link Outlining for Code Size Reduction</a></h3><ul class="DLauthors"><li class="nameList">Shaobai Yuan</li><li class="nameList">Jihong He</li><li class="nameList">Yihui Xie</li><li class="nameList">Feng Wang</li><li class="nameList Last">Jie Zhao</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This paper introduces PLOS, a novel Post-Link Outlining approach designed to enhance code Size reduction for resource-constrained environments. Built on top of a post-link optimizer BOLT, PLOS maintains a holistic view of the whole-program structure and behavior, utilizing runtime information while preserving standard build system flows. The approach includes a granular outlining algorithm that matches and replaces repeated instruction sequences within/across modules and outlined functions, along with careful stack frame management to ensure correct function call handling. By integrating profiling information, PLOS balances the trade-off between code size and execution efficiency. The evaluation using eight MiBench benchmarks on an ARM-based Phytium FCT662 core demonstrates that PLOS achieves a mean code size reduction of 10.88% (up to 43.53%) and 6.61% (up to 14.78%) compared to LLVM’s and GCC's standard optimization, respectively, 1.76% (up to 4.75%) over LLVM’s aggressive code size reduction optimizations, and 2.88% (up to 8.56%) over a link-time outliner. The experimental results also show that PLOS can achieve a favorable balance between code size reduction and performance regression.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3708493.3712693">Biotite: A High-Performance Static Binary Translator using Source-Level Information</a></h3><ul class="DLauthors"><li class="nameList">Changbin Chen</li><li class="nameList">Shu Sugita</li><li class="nameList">Yotaro Nada</li><li class="nameList">Hidetsugu Irie</li><li class="nameList">Shuichi Sakai</li><li class="nameList Last">Ryota Shioya</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Research on novel Instruction Set Architectures (ISAs) is actively pursued; however, it requires extensive efforts to develop and maintain comprehensive compilation toolchains for each new ISA. Binary translation can provide a practical solution for ISA researchers to port target programs to novel ISAs when such a level of toolchain support is not available. However, to ensure the correct handling of indirect jumps, existing binary translators rely on complex runtime systems, whose implementation on primitive research ISAs demands significant efforts. ISA researchers generally have access to additional source-level information, including the symbol table and source code, when using binary translators. The symbol table can provide potential jump targets for optimizing indirect jumps, and ISA-independent functions in source code can be directly compiled without translation. Leveraging source-level information as additional input, in this paper, we propose Biotite, a high-performance static binary translator that correctly handles arbitrary indirect jumps. Currently, Biotite supports the translation of RV64GC Linux binaries to self-contained LLVM IR. Our evaluation shows that Biotite successfully translates all benchmarks in SPEC CPU 2017 and achieves a 2.346× performance improvement over QEMU for the integer benchmark suite.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3708493.3712694">Secure Scripting with CHERIoT MicroPython</a></h3><ul class="DLauthors"><li class="nameList">Duncan Lowther</li><li class="nameList">Dejice Jacob</li><li class="nameList">Jacob Trevor</li><li class="nameList Last">Jeremy Singer</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The lean MicroPython runtime is a widely adopted high level programming framework for embedded microcontroller systems. However, the existing MicroPython codebase has limited security features, rendering it a fundamentally insecure runtime environment. This is a critical problem, given the growing deployment of highly interconnected IoT systems on which society depends. Malicious actors seek to compromise such embedded infrastructure, using sophisticated attack vectors. We have implemented a novel variant of MicroPython, adding support for runtime security features provided in the CHERI RISC-V architecture as instantiated by the CHERIoT-RTOS system. Our new MicroPython port supports hardware-enabled spatial memory safety, mitigating a large set of common runtime memory attacks. We have also compartmentalized the MicroPython runtime, to prevent untrusted code from elevating its permissions and taking control of the entire system. We perform a multi-faceted evaluation of our work, involving a qualitative security-focused case study and a quantitative performance analysis. The case study explores the full set of five publicly reported MicroPython vulnerabilities (CVEs). We demonstrate that the enhanced security provided by CHERIoT MicroPython mitigate two heap buffer overflow CVEs. Our performance analysis shows a geometric mean runtime overhead of 48% for secure execution across a set of ten standard Python benchmarks, although we argue this is indicative of worst-case overhead on our prototype platform and a realistic deployment overhead would be significantly lower. This work opens up a new, secure-by-design approach to IoT application development.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3708493.3712695">Compiler Support for Speculation in Decoupled Access/Execute Architectures</a></h3><ul class="DLauthors"><li class="nameList">Robert Szafarczyk</li><li class="nameList">Syed Waqar Nabi</li><li class="nameList Last">Wim Vanderbauwhede</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Irregular codes are bottlenecked by memory and communication latency. Decoupled access/execute (DAE) is a common technique to tackle this problem. It relies on the compiler to separate memory address generation from the rest of the program, however, such a separation is not always possible due to control and data dependencies between the access and execute slices, resulting in a loss of decoupling. 
+ 
+ 
+ 
+In this paper, we present compiler support for speculation in DAE architectures that preserves decoupling in the face of control dependencies. We speculate memory requests in the access slice and poison mis-speculations in the execute slice without the need for replays or synchronization. Our transformation works on arbitrary, reducible control flow and is proven to preserve sequential consistency. We show that our approach applies to a wide range of architectural work on CPU/GPU prefetchers, CGRAs, and accelerators, enabling DAE on a wider range of codes than before.</p>
+			</div></div>
+							
+						</div></div></body></html>

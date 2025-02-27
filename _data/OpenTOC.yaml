@@ -1526,3 +1526,7 @@
   event: CPP
   year: 2025
   title: "Proceedings of the 14th ACM SIGPLAN International Conference on Certified Programs and Proofs"
+-
+  event: CC
+  year: 2025
+  title: "Proceedings of the 34th ACM SIGPLAN International Conference on Compiler Construction"
