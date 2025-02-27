@@ -1,0 +1,387 @@
+---
+title: "CfC 29th Ada-Europe Intl.Conf.on Reliable Software Technologies (AEiC 2025)"
+timestamp: "2/18/2025 14:54:46"
+deadline: "3/7/2025"
+---
+-----------------------------------------------------------------------
+
+Call for Contributions - Additional Tracks
+
+29th Ada-Europe International Conference on
+Reliable Software Technologies (AEiC 2025)
+
+10-13 June 2025, Paris, France
+
+www.ada-europe.org/conference2025
+
+*** 2nd submission DEADLINE 7 March 2025 (extended) ***
+*** Industrial & Work-in-Progress track, Tutorials, Workshops ***
+
+Organized by Ada-Europe and Ada-France
+in cooperation with ACM SIGPLAN
+
+#AEiC2025 #AdaEurope #AdaProgramming
+
+-----------------------------------------------------------------------
+
+*** General Information
+
+The 29th Ada-Europe International Conference on Reliable Software
+Technologies (AEiC 2025 aka Ada-Europe 2025) will take place in
+Paris, France.  The conference schedule comprises keynote talks,
+a journal track, an industrial track, a work-in-progress track,
+a vendor exhibition, parallel tutorials, and satellite workshops.
+
+- Journal track papers present research advances supported by solid
+  theoretical foundation and thorough evaluation.
+- Industrial track contributions highlight the practitioners' side
+  of a challenging case study or industrial project.
+- Work-in-progress track papers illustrate novel research ideas still
+  at an initial stage, between conception and first prototype.
+- Tutorials guide attenders through a hands-on familiarization with
+  innovative developments or with useful features related to reliable
+  software.
+- Workshops provide discussion forums on themes related to the
+  conference topics.
+- Vendor presentations and exhibitions allow for companies to showcase
+  their latest products and services.
+
+*** Schedule
+
+[CLOSED]         Submission deadline for journal track papers
+7 March 2025:    Extended deadline for submission of industrial track
+                 papers, work-in-progress papers, and tutorial and
+                 workshop proposals
+28 March 2025:   First round notification for journal track papers,
+                 and notification of acceptance for all other types
+                 of submissions
+10-13 June 2025: Conference
+
+*** Scope and Topics
+
+The conference is a leading international forum for providers,
+practitioners, and researchers in reliable software technologies.
+The conference presentations will illustrate current work in the
+theory and practice of the design, development, and maintenance of
+long-lived, high-quality software systems for a challenging variety of
+application domains.  The program will allow ample time for keynotes,
+Q&A sessions, discussions, and social events.  Participants include
+practitioners and researchers from industry, academia, and government
+organizations active in the promotion and development of reliable
+software technologies.
+
+The topics of interest for the conference include but are not limited
+to (more specific topics are described on the conference web page):
+- Formal and Model-Based Engineering of Critical Systems;
+- High-Integrity Systems and Reliability;
+- AI for High-Integrity Systems Engineering;
+- Real-Time Systems;
+- Ada Language;
+- Applications in relevant domains.
+
+More specific topics are described on the conference web page,
+at www.ada-europe.org/conference2025.
+
+*** Call for Journal Track Submissions
+
+Following a journal-first model, this edition of the conference
+includes a journal track, which seeks original and high-quality
+papers that describe mature research work on the conference topics.
+Accepted journal track papers will be published in a Special Issue of
+Elsevier JSA - the Journal of Systems Architecture (Q1 ranked, CiteScore
+8.5, impact factor 3.7).  Accordingly, the conference is listed as
+"Journal Published" in the latest update of the CORE Conference
+Ranking released in August 2023.
+
+[Submission details removed.  Call is closed now.]
+
+Authors who have successfully passed the first round of review will
+be invited to present their work at the conference.  The abstract of
+the accepted contributions will be included in the conference booklet.
+
+Please note that the Ada-Europe organization will waive the Open
+Access fees for the first four accepted papers, which do not already
+enjoy OA from other agreements with the Publisher.  Subsequent papers
+will follow JSA regular publishing track.
+
+*** Call for Industrial Track Submissions
+
+The conference seeks industrial-practitioner presentations that deliver
+insight on the challenges of developing reliable software.  Especially
+welcome kinds of submissions are listed on the conference web site.
+Given their applied nature, such contributions will be subject to a
+dedicated practitioner.peer-review process.  Interested authors shall
+submit a one-to-two pages abstract, by 24 February 2025, via EasyChair
+at https://easychair.org/conferences/?conf=aeic2025, selecting the
+"Industrial Track".  The format for submission is strictly in PDF,
+following the Ada User Journal style.  Templates are available at
+http://www.ada-europe.org/auj/guide.
+
+The abstracts of the accepted contributions will be included in the
+conference booklet.  The corresponding authors will get a presentation
+slot in the prime-time technical program of the conference and will
+also be invited to expand their contributions into full-fledged
+articles for publication in the Ada User Journal, which will form
+the proceedings of the industrial track of the Conference.
+
+Prospective authors may direct all enquiries regarding this track to
+its chairs, Daniela Cancila and Laurent Gouzenes.
+
+*** Call for Work-in-progress Track Submissions
+
+The work-in-progress (WiP) track seeks two kinds of submissions:
+(a) ongoing research and (b) early-stage ideas.  Ongoing research
+submissions are 4-page papers describing research results that are
+not mature enough to be submitted to the journal track.  Early-stage
+ideas are 1-page papers that pitch new research directions that fall
+within the scope of the conference.  Both kinds of submissions must
+be original and shall undergo anonymous peer review.  Submissions
+by recent MSc graduates and PhD students are especially sought.
+Authors shall submit their work by 24 February 2025, via EasyChair
+at https://easychair.org/conferences/?conf=aeic2025, selecting the
+"Work-in-progress Track".  The format for submission is strictly in
+PDF, following the Ada User Journal style.  Templates are available
+at http://www.ada-europe.org/auj/guide.
+
+The abstracts of the accepted contributions will be included in the
+conference booklet.  The corresponding authors will get a presentation
+slot in the prime-time technical program of the conference and will
+also be offered the opportunity to expand their contributions into
+4-page articles for publication in the Ada User Journal, which will
+form the proceedings of the WiP track of the conference.
+
+Prospective authors may direct all enquiries regarding this track to
+the corresponding chairs, Hai Nam Tran and Anish Bhobe.
+
+*** Award
+
+The Ada-Europe organization will offer an honorary award for the
+best technical presentation, to be announced in the closing session
+of the conference.
+
+*** Call for Tutorials
+
+The conference seeks tutorials in the form of educational
+seminars on themes falling within the conference scope, with an
+academic-for-practitioner slant, including hands-on or practical
+elements.
+
+Tutorial proposals shall include a title, an abstract, a description
+of the topic, an outline of the presentation, the proposed
+duration (half-day or full-day), the intended level of the contents
+(introductory, intermediate, or advanced), and a statement motivating
+attendance.  Tutorial proposals shall be submitted at any time but
+no later than 24 February 2025 to the respective chair, Robert Cholay,
+by email, with subject line: "[AEiC 2025: tutorial proposal]".
+
+The authors of accepted full-day tutorials will receive a complimentary
+conference registration, halved for half-day tutorials.  The Ada
+User Journal will offer space for the publication of summaries of
+the accepted tutorials.
+
+*** Call for Workshops
+
+The conference welcomes satellite workshops centred on themes that
+fall within the conference scope.  Proposals may be submitted for
+half- or full-day events, to be scheduled on the Friday of the AEiC
+conference.  Workshop organizers shall also commit to producing the
+proceedings of the event, for publication in the Ada User Journal.
+Workshop proposals shall be submitted at any time but no later than
+24 February 2025 to the respective chair, Anish Bhobe, by email,
+with subject line: "[AEiC 2025: workshop proposal]".  Once submitted,
+each workshop proposal will be evaluated by the conference organizers
+as soon as possible.
+
+*** Academic Listing
+
+The Journal of Systems Architecture, publication venue of the journal-
+track proceedings of the conference, is Q1 ranked, with CiteScore
+8.5 and Impact Factor 3.7.  The Ada User Journal, venue of all other
+technical proceedings of the conference, is indexed by Scopus and by
+EBSCOhost in the Academic Search Ultimate database.
+
+*** Call for Exhibitors and Sponsors
+
+The conference will include a vendor and technology exhibition, with
+the option of a 20 minutes presentation as part of the conference
+program.  Interested providers should direct inquiries to the
+Exhibition & Sponsorship Chair, Ahlan Marriott.
+
+*** Venue
+
+The conference will take place at Mines Paris.  Mines Paris - PSL,
+a founding member of Université PSL, is a leading French engineering
+school and the French leader institution in research partnerships.
+Founded 240 years ago to help spur the energy efforts called by the
+Industrial Revolution, it has been since training engineers in a
+wide spectrum of scientific disciplines.  With about 1,500 students,
+including 100 PhD graduates per year, Mines Paris - PSL hosts 18
+research centers and 5 academic departments.  It is located along
+the Luxembourg gardens, next to the Quartier Latin, and is close
+to public transportation, including line B of the RER to Charles De
+Gaulle airport (CDG).
+
+Paris, the capital city of France, is renowned for its rich history,
+stunning architecture, and vibrant culture.  Often referred to as
+"The City of Light," Paris is home to iconic landmarks such as the
+Eiffel Tower, the Louvre Museum, and Notre-Dame Cathedral.  The city
+is a global center for art, fashion, gastronomy, science and culture,
+attracting millions of visitors each year.
+
+*** Organizing Committee
+
+- Conference Chair
+  Jean-Pierre Rosen, Adalog & Ada-France
+  rosen at adalog.fr
+
+- Journal track Co-chairs
+  Laurent Pautet, Telecom Paris
+  laurent.pautet at telecom-paris.fr
+  Sara Royuela, Barcelona Supercomputing Center
+  sara.royuela at bsc.es
+
+- Industrial track Co-chairs
+  Daniela Cancila, CEA LIST
+  daniela.cancila at cea.fr
+  Laurent Gouzenes, Pacte-Novation
+  lgouzenes at pactenovation.fr
+
+- Work-in-progress track Co-chairs
+  Hai Nam Tran, University of Brest
+  hai-nam.tran at univ-brest.fr
+  Anish Bhobe, Telecom Paris
+  anish.bhobe at telecom-paris.fr
+
+- Tutorial Chair
+  Robert Cholay, Systerel
+  robert.cholay at systerel.fr
+
+- Workshop Chair
+  Anish Bhobe, Telecom Paris
+  anish.bhobe at telecom-paris.fr
+
+- Exhibition & Sponsorship Chair
+  Ahlan Marriott, White Elephant GmbH
+  ahlan at ada-switzerland.ch
+
+- Finance Chair
+  Paul Duquennoy
+  paul.duquennoy at free.fr
+
+- Publicity Chair
+  Dirk Craeynest, Ada-Belgium & KU Leuven
+  dirk.craeynest at cs.kuleuven.be
+
+- Local Chair
+  Pierre Jouvelot, Mines Paris, PSL University
+  pierre.jouvelot at minesparis.psl.eu
+
+- Webmaster
+  Hai Nam Tran, University of Brest
+  hai-nam.tran at univ-brest.fr
+
+*** Journal Track Committee
+
+Alejandro Mosteo, CUD Zaragoza, Spain
+Andrea Marongiu, University of Modena and Reggio Emilia, Italy
+Ann Laguna, De La Salle University, USA
+Angeliki Kritikakou, University of Rennes, France
+António Casimiro, University of Lisbon, Portugal
+Bjorn Andersson, SEI, USA
+C. Michael Holloway, NASA, USA
+Cristina Seceleanu, Mälardalen University, Sweden
+Doug Schmidt, Vanderbilt University, USA
+Frank Singhoff, University of Brest, France
+George Lima, Universidade Federal da Bahia, Brazil
+Isaac Amundson, Rockwell Collins, USA
+Jérôme Hugues, CMU/SEI, USA
+John B Goodenough, CMU, USA
+Kerstin Bach, Norwegian University of Science and Technology, Norway
+Kristoffer Nyborg Gregertsen, SINTEF Digital, Norway
+Laura Carnevali, University of Florence, Italy
+Laurent Pautet, Telecom ParisTech, France
+Leonidas Kosmidis, Barcelona Supercomputing Center, Spain
+Liliana Cucu-Grosjean, Inria, France
+Luis Miguel Pinho, ISEP & INESC TEC, Portugal
+Mario Aldea Rivas, University of Cantabria, Spain
+Martina Maggio, Saarland University, Germany
+Matthias Becker, KTH - Royal Institute of Technology, Sweden
+Patricia López Martínez, University of Cantabria, Spain
+Risat Pathan, Chalmers University, Sweden
+Sara Royuela, Barcelona Supercomputing Center, Spain
+Sergio Sáez, Universitat Politècnica de València, Spain
+Susanne Graf, University Grenoble Alpes, France
+Steven Xiaotian Dai, University of York, UK
+Tucker Taft, AdaCore, USA
+Tullio Vardanega, University of Padua, Italy
+Xhevahire Ternava, Telecom Paris, France
+
+*** Industrial Track Committee
+
+Alexander Viehl, FZI Research Center for Information Technology, Germany
+Ana Rodríguez, Silver Atena, Spain
+Claire Dross, AdaCore, France
+Daniela Cancila, CEA, France
+Elena Lisova, Volvo CE, Sweden
+Enricco Mezzetti, Barcelona Supercomputing Center, Spain
+Federico Aromolo, Scuola Superiore Sant'Anna, Italy
+Helder Silva, Edisoft, Portugal
+Hugo Torres Vieira, Evidence Srl, Italy
+Irune Agirre, Ikerlan, Spain
+José Ruiz, AdaCore, France
+Laurent Gouzènes, Pacte Novation, France
+Marco Panunzio, Thales Alenia Space, France
+Michael Pressler, Robert Bosch GmbH, Germany
+Raúl de la Cruz, Collins Aerospace, Ireland
+Santiago Urueña, GMV, Spain
+Saqib Hasan, Collins, USA, USA
+
+*** Work-in-Progress Track Committee
+
+Abderaouf Nassim Amalou, Univeristy of Nantes, LS2N, France
+Alan Oliveira, University of Lisbon, Portugal
+Alexandre Honorat, INRIA Grenoble, France
+Anish Bhobe, Telecom Paris, France
+Audrey Quedet, Univeristy of Nantes, LS2N, France
+Hai Nam Tran, University of Brest, Lab-STICC, France
+J. Javier Gutiérrez, University of Cantabria, Spain
+Jérémie Guiochet, LAAS-CNRS, France
+José Cecílio, University of Lisbon, Portugal
+Kalinka Branco, University of São Paulo, Brazil
+Leandro Buss Becker, University of Manchester, UK
+Samuel Tardieu, Telecom Paris, France
+Sara Abbaspour, Mälardalen University, Sweden
+Shuo-Han Chen, NYCU, Taiwan
+Stéphane Rubini, University of Brest, Lab-STICC, France
+Tiago Carvalho, ISEP, Portugal
+
+*** Previous Editions
+
+Ada-Europe organizes annual international conferences since the early
+80's.  This is the 29th event in the Reliable Software Technologies
+series, previous ones being held at Montreux, Switzerland ('96),
+London, UK ('97), Uppsala, Sweden ('98), Santander, Spain ('99),
+Potsdam, Germany ('00), Leuven, Belgium ('01), Vienna, Austria ('02),
+Toulouse, France ('03), Palma de Mallorca, Spain ('04), York, UK
+('05), Porto, Portugal ('06), Geneva, Switzerland ('07), Venice, Italy
+('08), Brest, France ('09), Valencia, Spain ('10), Edinburgh, UK ('11),
+Stockholm, Sweden ('12), Berlin, Germany ('13), Paris, France ('14),
+Madrid, Spain ('15), Pisa, Italy ('16), Vienna, Austria ('17), Lisbon,
+Portugal ('18), Warsaw, Poland ('19), online from Santander, Spain
+('21), Ghent, Belgium ('22), Lisbon, Portugal ('23), and Barcelona,
+Spain ('24).
+
+Information on previous editions of the conference can be found at
+www.ada-europe.org/confs/ae.
+
+-----------------------------------------------------------------------
+
+Our apologies if you receive multiple copies of this announcement.
+Please circulate widely.
+
+Dirk Craeynest, AEiC 2025 Publicity Chair
+Dirk.Craeynest@cs.kuleuven.be Dirk.Craeynest@kuleuven.be
+
+* 29th Ada-Europe Int.Conf. Reliable Software Technologies (AEiC 2025)
+* June 10-13, 2025, Paris * France, www.ada-europe.org/conference2025
+
