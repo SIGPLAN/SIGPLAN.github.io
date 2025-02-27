@@ -1,0 +1,116 @@
+---
+title: "ACM SIGMETRICS Student Research Competition (SRC)"
+timestamp: "2/7/2025 9:36:21"
+deadline: "2/21/2025"
+---
+ACM SIGMETRICS Student Research Competition (SRC)
+
+# About
+
+The ACM Student Research Competition (SRC) offers a unique forum for undergraduate and graduate students to present their original research at well-known ACM-sponsored and co-sponsored conferences before a panel of judges and attendees. The SRC consists of two rounds of competition, held at conferences, and a grand finals competition.
+To participate in the competition, a student must submit an 800-word abstract of their original research project. Each submitted abstract will be evaluated by a minimum of three faculty members, none of whom are affiliated with the student's university. Each student whose abstract is selected is invited to attend the SRC competition at SIGMETRICS and participate in the SRC poster session. Posters will be evaluated based on the research methods, the significance of contribution and the oral and visual presentation. A group of semi-finalists (top five in each category) will be chosen to give a short presentation in the second round of the competition, on the last day of the conference. Evaluations are based on the presenter’s knowledge of his/her research area, the contribution of the research, and the presentation. Three winners will be chosen in each category, undergraduate and graduate (Masters or PhD program), receiving $500, $300, and $200, respectively. First-place undergraduate and graduate (Masters or PhD program) student winners can participate in the SRC Grand Finals.
+Submit your work and take part in the ACM Student Research Competition at SIGMETRICS 2025!
+
+# Call for Contributions
+
+## How to Enroll: Submit a Research Abstract (Phase 1)
+
+To enroll in the Student Research Competition (SRC), you must be an undergraduate or graduate student pursuing an academic degree at the time of initial submission. You must submit a research abstract related to any of the main SIGMETRICS themes. A submission should describe the motivation of the research, background work, the approach, the actual results and your contribution. Supervisors of the work may not be listed as co-authors (see the Frequently Asked Questions section). As with any publication, the content of the submission must be at least 30% different than any other publication.
+The SRC committee members will review the submissions and select students to participate in the competition. Submissions that are accepted to the competition will be published in ACM SIGMETRICS Performance Evaluation Review.
+
+## How to participate: SRC Participation (Phase 2)
+
+If your abstract is accepted, you will need to register for SIGMETRICS 2025 as well as be currently enrolled in a university or college and have an active ACM student membership. Qualifying research areas are those covered by the conference; they are specified in the conference’s call for papers. Students may only participate in one SRC per program year (April 1-March 31). Students who have applied to an SRC, but whose research abstract has not been selected, may respond to other SRC calls for contributions during the program year.
+
+## Submission Guidelines
+
+A submission to SRC must not exceed 2 pages including all text, references, appendices, and figures. The word-count limit is 800 words. The submission must be written in English and must be submitted as a PDF file. All submissions must conform to the Alternate ACM SIG Proceedings Paper Formatting Guidelines (LaTEX users must use the class file). Please note that upon acceptance, authors will be required to complete the ACM rights form, fill in the copyright information in their document, and submit their final version within 48 hours of its being requested.
+The SRC research abstract is to be submitted electronically using the HotCRP submission page: https://sigmetrics25src.hotcrp.com/ and the ACM membership number will be provided in the submission form.
+Only individual research is accepted from Graduate (Masters or PhD program) students; group research projects will not be considered. If an individual is part of a group research project and wants to participate in an SRC, they can only present their part of the research. Team projects will be accepted from Undergraduate students. One person should be designated by the team to attend the conference and make the oral presentation. Should the designated presenter win first, second or third place in the competition only they will receive the medal and monetary award.
+
+## Important Dates
+
+SRC Submissions Deadline: February 21st, 2025 at 11:59:59 pm (midnight) AoE
+SRC Acceptance Notification: March 28th, 2025
+SRC Poster Session (First round): June 10th, 2025
+SRC Presentation (Second round): June 12th, 2025
+SRC Camera Ready: July 11th, 2025
+
+## What’s New This Year: Student Poster Session
+
+In addition to the strongest abstract submissions selected for the SRC competition, for the remaining poster abstracts, we will invite competitive posters to participate in the student poster session, but these posters will not be judged. This will allow poster presenters to still present their work and receive feedback from the Sigmetrics audience.
+
+## Travel Grant and Financial Support
+
+While we do not have a 100% guarantee for travel grants and financial support, students with SRC/posters (even those that will not be judged) accepted will receive a registration waiver/discount (this will be in the form of a reimbursement which will be done after the conference). 
+
+## Additional Information
+
+For additional information, see Frequently Asked Questions (https://www.sigmetrics.org/sigmetrics2025/student_activities.html#FAQ) or consult the ACM Student Research Competition website (http://src.acm.org/).
+
+## Chairs
+
+Lili Su, Northeastern University, USA
+Lishan Yang, George Mason University, USA
+
+## SRC program committee
+
+Benjamin Berg, University of North Carolina at Chapel Hill, USA
+Carlee Joe-Wong, Carnegie Mellon University, USA
+Debankur Mukherjee, Georgia Institute of Technology, USA
+Fábio Luciano Verdi, Universidade Federal de São Carlos, Brazil
+Konstantin Avrachenkov, INRIA Sophia Antipolis, France
+Longbo Huang, Tsinghua University, China
+Luoyi Fu, Shanghai Jiao Tong University, China
+Sean Sinclair, Northwestern University, USA
+Sophie H. Yu, University of Pennsylvania
+Zaiwei Chen, Purdue University
+
+# At the Conference
+
+## First Round Competition: Poster Presentation on June 10, 2025
+
+If you are selected to participate in the competition, you will be invited to the first round, which will take place at SIGMETRICS 2025. You will present a poster describing your work to conference attendees and leading experts in the field, including the SRC committee. Judges will review the posters and discuss the research with participants. The scale for evaluating the visual presentation of the research is as follows: (1) oral presentation: 10 points, (2) visual presentation: 10 points, (3) research methods: 15 points, (4) significance of contribution: 10 points. The top five students in each category will advance to the second round of the competition.
+
+## Second Round Competition: Research Talk (June 12)
+
+If you are selected for the second round, you will give a short presentation of your research before a panel of a minimum of five judges in a special session at the SIGMETRICS 2025 conference. You should prepare in advance a presentation and a talk describing your work. After each presentation, there will be a brief question-and-answer session. The scale for evaluating the conference presentation of the research is as follows: (1) knowledge of research area: 15 points, (2) contribution of research: 10 points, (3) presentation: 10 points. Based on their scores, the top three undergraduate and three graduate (Masters or PhD program) students will be chosen as winners. They will be recognized during the conference and will receive prizes.
+
+## SRC Grand Finals (after the conference)
+
+The first place winners of the SIGMETRICS 2025 SRC will be invited to participate in the ACM SRC Grand Finals, where they will compete with winners from other conferences held during the program year. A different panel of judges evaluates these winners against each other via the web. Three undergraduates and three graduates will be chosen as the SRC Grand Finals winners.
+
+## Awards
+
+The top three undergraduate and graduate winners at each SRC receive prizes of $500, $300, and $200, respectively (USD). All SRC participants receive a certificate of participation.
+The top three undergraduate and graduate winners at each SRC receive an award medal and a one-year complimentary ACM student membership with a subscription to ACM’s Digital Library.
+
+## Conference Registration and Expenses Coverage
+
+To be announced.
+
+# Frequently Asked Questions
+
+## Can I list my advisor as a co-author on my poster/talk/paper?
+
+People who have overseen a project but are too senior to compete in the SRC (e.g., faculty or post-doc advisors for the graduate category, faculty or graduate student advisors for the undergraduate) may be listed as co-authors, but their role should be clearly identified as advisory; it's clearest to list these people in an "acknowledgements" section and not as co-authors if possible. Even if listed as co-authors, such people should have no more than an advisory or editorial role in writing the submission and may not have any role in presenting it.
+
+## What should be part of the research abstract?
+
+A submission to the competition should describe recently completed or ongoing student research related to the topics covered by SIGMETRICS. It is important that your research abstract discusses (1) research problem and motivation, (2) background and related work, (3) approach and uniqueness, and (4) results and contributions. The committee will assess your research abstract along these dimensions.
+
+## Based on what criteria will judges evaluate the abstract/research?
+
+The judges will assess research abstracts based on four criteria: Problem and motivation, Background and related work, Approach and uniqueness, and Results and contribution. For the poster presentation, the criteria are Oral presentation, Visual presentation, Research methods, and Significance of contribution. For the conference presentation, the criteria are Knowledge of research area, Contribution of research, and Presentation.
+
+## My research is not related to any of the main themes of the SIGMETRICS conference. Can I still participate in the Student Research Competition?
+
+Yes, but not at SIGMETRICS. Participate in a SRC at conference that is related to your research. To participate in the competition at SIGMETRICS, your research needs to be related to the main themes of the SIGMETRICS conference (see the topics for the Technical Research Track). If your research is not among the topics relevant for SIGMETRICS, please check http://src.acm.org/ to find a conference that is better related.
+
+## I submitted a paper to SIGMETRICS 2025. May I also submit an abstract on the same topic to the Student Research Competition?
+
+No. The purpose of the SRC is to give feedback on ongoing or incomplete research. If the work is complete enough to be submitted as a full paper to SIGMETRICS 2025, then it is not eligible for the SRC. (see below)
+
+## Can already published works be submitted to an SRC?
+
+Standard self-plagiarism rules are in effect for the SRC. If the research results have already appeared in a publication, prior to the SRC submission date, then they are not permitted to be submitted to an SRC for consideration. Furthermore, the same work may not be presented at an SRC and in another session in the same conference in the same year.

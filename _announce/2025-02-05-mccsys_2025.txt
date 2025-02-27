@@ -1,0 +1,28 @@
+---
+title: "Call for Presentations: Memory-Centric Computing Systems (MCCSys) workshop at ASPLOS 2025"
+timestamp: "2/5/2025 5:02:47"
+deadline: "2/28/2025"
+---
+We would like to announce our upcoming Memory-Centric Computing Systems (MCCSys) workshop at ASPLOS 2025 on March 30 in Rotterdam, NL.  
+ 
+Overview: This combined tutorial and workshop will focus on the latest advances in PIM technology, spanning both hardware and software. It will include novel PIM ideas, different tools and frameworks for conducting PIM research, and programming techniques and optimization strategies for PIM kernels. We will give an introduction to PIM, including an overview and a rigorous analysis of existing PIM hardware from industry and academia in a first series of lectures followed by invited talks. 
+ 
+Organizers: Geraldo F. Oliveira, Mohammad Sadrosadati, A. Giray Yağlıkçı, Ataberk Olgun, Onur Mutlu
+ 
+Call for presentations: We invite the broader PIM research community to submit and present their ongoing work on memory-centric systems. We invite abstract submissions related to (but not limited to) the following topics in the context of memory-centric computing systems:
+
+Design of novel and new processing-in-memory (PIM) architectures, including system solutions for real state-of-the-art PIM devices
+Analysis and mapping of novel applications to state-of-the-art PIM systems
+Programming models and code generation support for PIM
+Runtime engines for adaptive code and data scheduling, data mapping, access control for PIM systems
+Memory coherence mechanisms for collaborative host–PIM execution
+Virtual memory support for a unified host and PIM address space
+Data structures and algorithms for PIM systems
+Infrastructures to assess the benefits and feasibility of PIM systems, including benchmarks and simulation infrastructures for PIM prototyping
+Issues related to robustness and security of PIM systems
+Experimental analysis and benchmarking of real PIM systems
+ 
+Follow the submission link on our workshop website: https://events.safari.ethz.ch/asplos25-MCCSys/
+Submission deadline: February 28, 2025, 23:59 AoE 🌎
+ 
+ASPLOS 2025 Workshops and Tutorials: https://www.asplos-conference.org/asplos2025/workshops-and-tutorials/
