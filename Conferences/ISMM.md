@@ -18,6 +18,7 @@ Steering Committee
 
 **Web Pages of Previous Conferences**
 
+- [ISMM 2025](https://conf.researchr.org/home/ismm-2025) (Seoul, South Korea)
 - [ISMM 2024](https://conf.researchr.org/home/ismm-2024) (Copenhagen, Denmark)
 - [ISMM 2023](https://conf.researchr.org/home/ismm-2023) (Orlando, Florida)
 - [ISMM 2022](https://pldi22.sigplan.org/home/ismm-2022) (San Diego, California)
