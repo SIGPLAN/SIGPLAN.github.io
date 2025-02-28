@@ -1530,3 +1530,7 @@
   event: CC
   year: 2025
   title: "Proceedings of the 34th ACM SIGPLAN International Conference on Compiler Construction"
+-
+  event: PPoPP
+  year: 2025
+  title: "Proceedings of the 30th ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming"
