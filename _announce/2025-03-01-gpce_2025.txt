@@ -1,0 +1,177 @@
+---
+title: "Call for Papers, 24th International Conference on Generative Programming: Concepts & Experiences (GPCE 2025)"
+timestamp: "3/1/2025 18:47:21"
+deadline: "4/2/2025"
+---
+===================================================================
+
+                           GPCE 2025
+
+                 24th International Conference on
+         Generative Programming: Concepts & Experiences
+
+                               --
+               3-4 July, 2025, co-located with ECOOP
+                         Bergen, Norway
+
+                        CALL FOR PAPERS
+
+              https://2025.ecoop.org/home/gpce-2025
+
+===================================================================
+
+The ACM SIGPLAN International Conference on Generative Programming:
+Concepts & Experiences (GPCE) is a programming languages conference
+focusing on techniques and tools for code generation, language
+implementation, and product-line development. This is the 24th
+edition of the conference, co-located with the ECOOP 2025
+conference in Bergen, Norway.
+
+======================== Topics of Interest ========================
+
+GPCE seeks conceptual, theoretical, empirical, and technical
+contributions to its topics of interest, which include but are not
+limited to:
+
+* program transformation, staging,
+* macro systems, preprocessors,
+* program synthesis,
+* code-recommendation systems,
+* domain-specific languages,
+* generative language workbenches,
+* language embedding, language design,
+* domain engineering,
+* software product lines, configurable software,
+* feature interactions,
+* applications and properties of code generation,
+* language implementation,
+* AI/ML techniques for generative programming,
+* generative programming for AI/ML techniques,
+* low code / no code approaches.
+
+GPCE promotes cross-fertilization between programming languages and
+software development and among different styles of generative
+programming in its broadest sense.
+
+Authors are welcome to check with the PC chair whether their
+planned papers are in scope.
+
+======================== Paper Categories =========================
+
+GPCE solicits four kinds of submissions:
+
+Full Papers:
+  reporting original and unpublished results of research that
+  contribute to scientific knowledge for any GPCE topics. Full
+  paper submissions must not exceed 12 pages excluding the
+  bibliography.
+
+Short Papers:
+  presenting unconventional ideas or new visions in any GPCE
+  topics. Short papers do not always contain complete results as in
+  the case of full papers, but can introduce new ideas to the
+  community and get early feedback. Note that short papers are not
+  intended to be position statements. Accepted short papers are
+  included in the proceedings and will be presented at the
+  conference. Short paper submissions must not exceed 6 pages
+  excluding the bibliography, and must have the text “(Short
+  Paper)” appended to their titles.
+
+Tool Demonstrations:
+  presenting tools for any GPCE topics. Tools must be available for
+  use and must not be purely commercial. Submissions must provide a
+  tool description not exceeding 6 pages excluding bibliography and
+  a separate demonstration outline including screenshots also not
+  exceeding 6 pages. Tool demonstration submissions must have the
+  text “(Tool Demonstration)” appended to their titles. If they are
+  accepted, tool descriptions will be included in the
+  proceedings. The demonstration outline will only be used for
+  evaluating the submission.
+
+Generative Pearls:
+  are elegant essays about generative programming. Examples include
+  but are not limited to an interesting application of generative
+  programming and an elegant presentation of a (new or old) data
+  structure using generative programming (similar to Functional
+  Pearl in ICFP and Pearl in ECOOP). Accepted Generative Pearl
+  papers are included in the proceedings and will be presented at
+  the conference. Generative Pearl submissions must not exceed 12
+  pages excluding the bibliography, and must have the text
+  “(Generative Pearl)” appended to their titles.
+
+========================= Paper Selection =========================
+
+The GPCE program committee will evaluate each submission according
+to the following selection criteria:
+
+Novelty.
+  Papers must present new ideas or evidence and place them
+  appropriately within the context established by previous research
+  in the field.
+
+Significance.
+  The results in the paper must have the potential to add to the
+  state of the art or practice in significant ways.
+
+Evidence.
+  The paper must present evidence supporting its claims. Examples
+  of evidence include formalizations and proofs, implemented
+  systems, experimental results, statistical analyses, and case
+  studies.
+
+Clarity.
+  The paper must present its contributions and results clearly.
+
+========================= Important Dates =========================
+
+Abstract Submission: Wed 26 Mar 2025
+Paper Submission: Wed 2 Apr 2025
+Review Notification: Fri 9 May 2025
+Author Response: Mon 12 May 2025
+Final Notification: Mon 19 May 2025
+Conference: Thu 3 - Fri 4 July, 2025
+
+========================== Organization ===========================
+
+PC Chair: Nada Amin, Harvard
+General Co-Chair: Sebastian Erdweg, JGU Mainz
+General Co-Chair: Amir Shaikhha, University of Edinburgh
+Publicity Chair: Jeremy Yallop, University of Cambridge
+
+============================ PC Members ===========================
+
+Bernhard Rumpe, RWTH Aachen University
+Casper Bach Poulsen, University of Southern Denmark
+Cyrus Omar, University of Michigan
+Eli Tilevich, Virginia Tech
+Elisa Gonzalez Boix, Vrije Universiteit Brussel
+Geoffrey Mainland, Drexel University
+Georg Ofenbeck
+Guillaume Allais, University of Strathclyde
+Jeremy Yallop, University of Cambridge
+Judith Michael, RWTH Aachen University
+Julia Lawall, Inria
+Kenichi Asai, Ochanomizu University
+Klaus Ostermann, University of Tuebingen
+L. Thomas van Binsbergen, University of Amsterdam
+Lionel Parreaux, The Hong Kong University of Science and Technology
+Malte Lochau, University of Siegen
+Maryam Mehri Dehnavi, University of Toronto
+Michel Steuwer, Technische Universität Berlin
+Ondřej Lhoták, University of Waterloo
+Parisa Ataei, Cornell University
+Philiip Wadler, University of Edinburgh
+Robert Glück, DIKU, Dept. of Computer Science, Univ. of Copenhagen
+Ruby Tahboub, University of Illinois Urbana-Champaign
+Sandro Stucki, Amazon Prime Video Automated Reasoning
+Sheng Chen, UL Lafayette
+Shigeru Chiba, University of Tokyo
+Shoaib Kamil, Adobe Research
+Simon Fowler, University of Glasgow
+Tijs van der Storm, CWI
+Ulrik Pagh Schultz Lundquist, University of Southern Denmark
+Vadim Zaytsev, Universiteit Twente
+Walter Binder, Università della Svizzera italiana (USI)
+Yukiyoshi Kameyama, University of Tsukuba
+Zena Ariola, University of Oregon
+
