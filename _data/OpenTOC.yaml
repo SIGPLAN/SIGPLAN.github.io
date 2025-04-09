@@ -1534,3 +1534,12 @@
   event: PPoPP
   year: 2025
   title: "Proceedings of the 30th ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming"
+-
+  event: Proceedings of the ACM on Programming
+  year: Languages
+  title: "Proceedings of the ACM on Programming Languages"
+-
+  event: OOPSLA
+  year: 2025
+  title: "Proceedings of the 2025 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications, Volume 1"
+  link: oopsla25-1.html

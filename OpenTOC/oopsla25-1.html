@@ -1,0 +1,1152 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style></head><body><div id="DLtoc"><div id="DLheader"><h1>Proceedings of the ACM on Programming Languages: Vol. 9, No. OOPSLA1. 2025</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/toc/PACMPL/2025/9/OOPSLA1?useYearTocUrl=false"><img class="DLlogo" src="https://dl.acm.org/img/dllogo.png" alt="Digital Library logo" width="30" height="30">
+            Full Citation in the ACM Digital Library
+        </a></div><div id="DLcontent"><h2>SECTION: Papers</h2><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720414">A Complete Formal Semantics of eBPF Instruction Set Architecture for Solana</a></h3><ul class="DLauthors"><li class="nameList">Shenghao Yuan</li><li class="nameList">Zhuoruo Zhang</li><li class="nameList">Jiayi Lu</li><li class="nameList">David Sanan</li><li class="nameList">Rui Chang</li><li class="nameList Last">Yongwang Zhao</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present the first formal semantics for the Solana eBPF bytecode language used in smart contracts on the Solana blockchain platform. Our formalization accurately captures all binary-level instructions of the Solana eBPF instruction set architecture. This semantics is structured in a small-step style, facilitating the formalization of the Solana eBPF interpreter within Isabelle/HOL. We provide a semantics validation framework that extracts an executable semantics from our formalization to test against the original implementation of the Solana eBPF interpreter. This approach introduces a novel lightweight and non-invasive method to relax the limitations of the existing Isabelle/HOL extraction mechanism. Furthermore, we illustrate potential applications of our semantics in the formalization of the main components of the Solana eBPF virtual machine.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720415">Binary Cryptographic Function Identification via Similarity Analysis with Path-Insensitive Emulation</a></h3><ul class="DLauthors"><li class="nameList">Yikun Hu</li><li class="nameList">Yituo He</li><li class="nameList">Wenyu He</li><li class="nameList">Haoran Li</li><li class="nameList">Yubo Zhao</li><li class="nameList">Shuai Wang</li><li class="nameList Last">Dawu Gu</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>It becomes an essential requirement to identify cryptographic functions in binaries due to their widespread application in modern software. The technology fundamentally supports numerous software security analyses, such as malware analysis, blockchain forensics, etc. Unfortunately, the existing methods still struggle to strike a balance between analysis accuracy, efficiency, and code coverage, which hampers their practical application. 
+ 
+ In this paper, we propose BinCrypto, a method of emulation-based code similarity analysis on the interval domain, to identify cryptographic functions in binary files. It produces accurate results because it relies on the behavior-related code features collected during emulation. On the other hand, the emulation is performed in a path-insensitive manner, where the emulated values are all represented as intervals. As such, it is able to analyze every basic block only once, accomplishing the identification efficiently, and achieve complete block coverage simultaneously. We conduct the experiments with nine real-world cryptographic libraries. The results show that BinCrypto achieves the average accuracy of 83.2%, nearly twice that of WheresCrypto, the state-of-the-art method. BinCrypto is also able to successfully complete the tasks, including statically-linked library analysis, cross-library analysis, obfuscated code analysis, and malware analysis, demonstrating its potential for practical applications.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720416">Dependency-Aware Compilation for Surface Code Quantum Architectures</a></h3><ul class="DLauthors"><li class="nameList">Abtin Molavi</li><li class="nameList">Amanda Xu</li><li class="nameList">Swamit Tannu</li><li class="nameList Last">Aws Albarghouthi</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Practical applications of quantum computing depend on fault-tolerant devices with error correction. We study the problem of compiling quantum circuits for quantum computers implementing surface codes. Optimal or near-optimal compilation is critical for both efficiency and correctness. The compilation problem requires (1) <em>mapping</em> circuit qubits to the device qubits and (2) <em>routing</em> execution paths between interacting qubits. We solve this problem efficiently and near-optimally with a novel algorithm that exploits the <em>dependency structure</em> of circuit operations to formulate discrete optimization problems that can be approximated via <em>simulated annealing</em>, a classic and simple algorithm. Our extensive evaluation shows that our approach is powerful and flexible for compiling realistic workloads.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720417">Efficient Incremental Verification of Neural Networks Guided by Counterexample Potentiality</a></h3><ul class="DLauthors"><li class="nameList">Guanqin Zhang</li><li class="nameList">Zhenya Zhang</li><li class="nameList">H.M.N. Dilum Bandara</li><li class="nameList">Shiping Chen</li><li class="nameList">Jianjun Zhao</li><li class="nameList Last">Yulei Sui</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Incremental verification is an emerging neural network verification approach that aims to accelerate the verification of a neural network <em>N</em><sup>*</sup> by reusing the existing verification result (called a <em>template</em>) of a similar neural network <em>N</em>. To date, the state-of-the-art incremental verification approach leverages the problem splitting history produced by <em>branch and bound (</em><em>BaB</em> in verification of <em>N</em>, to select only a part of the sub-problems for verification of <em>N</em><sup>*</sup>, thus more efficient than verifying <em>N</em><sup>*</sup> from scratch. While this approach identifies <em>whether</em> each sub-problem should be re-assessed, it neglects the information of <em>how necessary</em> each sub-problem should be re-assessed, in the sense that the sub-problems that are more likely to contain counterexamples should be prioritized, in order to terminate the verification process as soon as a counterexample is detected.                 To bridge this gap, we first define a <em>counterexample potentiality order</em> over different sub-problems based on the template, and then we propose <em>Olive</em>, an incremental verification approach that explores the sub-problems of verifying <em>N</em><sup>*</sup> orderly guided by counterexample potentiality. Specifically, <em>Olive</em> has two variants, including <em>Olive</em><sup><em>g</em></sup>, a greedy strategy that always prefers to exploit the sub-problems that are more likely to contain counterexamples, and <em>Olive</em><sup><em>b</em></sup>, a balanced strategy that also explores the sub-problems that are less likely, in case the template is not sufficiently precise. We experimentally evaluate the efficiency of <em>Olive</em> on 1445 verification problem instances derived from 15 neural networks spanning over two datasets MNIST and CIFAR-10. Our evaluation demonstrates significant performance advantages of <em>Olive</em> over state-of-the-art classic verification and incremental approaches. In particular, <em>Olive</em> shows evident superiority on the problem instances that contain counterexamples, and performs as well as Ivan on the certified problem instances.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720418">JavART: A Lightweight Rule-Based JIT Compiler using Translation Rules Extracted from a Learning Approach</a></h3><ul class="DLauthors"><li class="nameList">Hanzhang Wang</li><li class="nameList">Wei Peng</li><li class="nameList">Wenwen Wang</li><li class="nameList">Yunping Lu</li><li class="nameList">Pen-Chung Yew</li><li class="nameList Last">Weihua Zhang</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The balance between the compilation/optimization time and the produced code quality is very important for Just-In-Time (JIT) compilation. Time-consuming optimizations can cause delayed deployment of the optimized code, and thus more execution time needs to be spent either in the interpretation or less optimized code, leading to a performance drag. Such a performance drag can be detrimental to mobile and client-side devices such as those running Android, where applications are often shorting-running, frequently restarted and updated. To tackle this issue, this paper presents a lightweight learning-based, rule-guided dynamic compilation approach to generate good-quality native code directly without the need to go through the interpretive phase and the first-level optimization at runtime. Different from existing JIT compilers, the compilation process is driven by translation rules, which are automatically learned offline by taking advantage of existing JIT compilers. We have implemented a prototype of our approach based on Android 14 to demonstrate the feasibility and effectiveness of such a lightweight rule-based approach using several real-world applications. Results show that, compared to the default mode running with the interpreter and two tiers of JIT compilers, our prototype can achieve a 1.23× speedup on average. Our proposed compilation approach can also generate native code 5.5× faster than the existing first-tier JIT compiler in Android, with the generated code running 6% faster. We also implement and evaluate our approach on a client-side system running Hotspot JVM, and the results show an average of 1.20× speedup.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720419">UTFix: Change Aware Unit Test Repairing using LLM</a></h3><ul class="DLauthors"><li class="nameList">Shanto Rahman</li><li class="nameList">Sachit Kuhar</li><li class="nameList">Berk Cirisci</li><li class="nameList">Pranav Garg</li><li class="nameList">Shiqi Wang</li><li class="nameList">Xiaofei Ma</li><li class="nameList">Anoop Deoras</li><li class="nameList Last">Baishakhi Ray</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Software updates, including bug repair and feature additions, are frequent in modern applications but they often leave test suites outdated, resulting in undetected bugs and increased chances of system failures. A recent study by Meta revealed that 14%-22% of software failures stem from outdated tests that fail to reflect changes in the codebase. This highlights the need to keep tests in sync with code changes to ensure software reliability.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In this paper, we present UTFix, a novel approach for repairing unit tests when their corresponding focal methods undergo changes. UTFix addresses two critical issues: assertion failure and reduced code coverage caused by changes in the focal method. Our approach leverages language models to repair unit tests by providing contextual information such as static code slices, dynamic code slices, and failure messages. We evaluate UTFix on our generated synthetic benchmarks (Tool-Bench), and real-world benchmarks. Tool- Bench includes diverse changes from popular open-source Python GitHub projects, where UTFix successfully repaired 89.2% of assertion failures and achieved 100% code coverage for 96 tests out of 369 tests. On the real-world benchmarks, UTFix repairs 60% of assertion failures while achieving 100% code coverage for 19 out of 30 unit tests. To the best of our knowledge, this is the first comprehensive study focused on unit test in evolving Python projects. Our contributions include the development of UTFix, the creation of Tool-Bench and real-world benchmarks, and the demonstration of the effectiveness of LLM-based methods in addressing unit test failures due to software evolution.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720420">Inductive Synthesis of Inductive Heap Predicates</a></h3><ul class="DLauthors"><li class="nameList">Ziyi Yang</li><li class="nameList Last">Ilya Sergey</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present an approach to automatically synthesise recursive predicates in Separation Logic (SL) from concrete data structure instances using Inductive Logic Programming (ILP) techniques. The main challenges to make such synthesis effective are (1) making it work without negative examples that are required in ILP but are difficult to construct for heap-based structures in an automated fashion, and (2) to be capable of summarising not just the shape of a heap (e.g., it is a linked list), but also the properties of the data it stores (e.g., it is a sorted linked list). We tackle these challenges with a new predicate learning algorithm. The key contributions of our work are (a) the formulation of ILP-based learning only using positive examples and (b) an algorithm that synthesises property-rich SL predicates from concrete memory graphs based on the positive-only learning.        We show that our framework can efficiently and correctly synthesise SL predicates for structures that were beyond the reach of the state-of-the-art tools, including those featuring non-trivial payload constraints (e.g., binary search trees) and nested recursion (e.g., <em>n</em>-ary trees). We further extend the usability of our approach by a memory graph generator that produces positive heap examples from programs. Finally, we show how our approach facilitates deductive verification and synthesis of correct-by-construction code.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720421">Code Style Sheets: CSS for Code</a></h3><ul class="DLauthors"><li class="nameList">Sam Cohen</li><li class="nameList Last">Ravi Chugh</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Program text is rendered using impoverished typographic styles. Beyond choice of fonts and syntax-highlighting colors, code editors and related tools utilize very few text decorations. These limited styles are, furthermore, applied in monolithic fashion, regardless of the programs and tasks at hand.
+ 
+
+ 
+We present the notion of _code style sheets_ for styling program text. Motivated by analogy to cascading style sheets (CSS) for styling HTML documents, code style sheets provide mechanisms for defining rules to select elements from an abstract syntax tree (AST) in order to style their corresponding visual representation. Technically, our selector language generalizes essential constructs from CSS to a programming-language setting with algebraic data types (such as ASTs). Practically, code style sheets allow ASTs to be styled granularly, based on semantic information—such as the structure of abstract syntax, static type information, and corresponding run-time values—as well as design choices on the part of authors and readers of a program. Because programs are heavily nested in structure, a key aspect of our design is a layout algorithm that renders nested, multiline text blocks more compactly than in existing box-based layout systems such as HTML.
+ 
+ 
+ 
+In this paper, we design and implement a code style sheets system for a subset of Haskell, using it to illustrate several code presentation and visualization tasks. These examples demonstrate that code style sheets provide a uniform framework for rendering programs in multivarious ways, which could be employed in future designs for text-based as well as structure editors.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720422">Fast Constraint Synthesis for C++ Function Templates</a></h3><ul class="DLauthors"><li class="nameList">Shuo Ding</li><li class="nameList Last">Qirun Zhang</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>C++ templates are a powerful feature for generic programming and compile-time computations, but C++ compilers often emit overly verbose template error messages. Even short error messages often involve unnecessary and confusing implementation details, which are difficult for developers to read and understand. To address this problem, C++20 introduced constraints and concepts, which impose requirements on template parameters. The new features can define clearer interfaces for templates and can improve compiler diagnostics. However, manually specifying template constraints can still be non-trivial, which becomes even more challenging when working with legacy C++ projects or with frequent code changes.
+ 
+ 
+ 
+
+ 
+ 
+ 
+This paper bridges the gap and proposes an automatic approach to synthesizing constraints for C++ function templates. We utilize a lightweight static analysis to analyze the usage patterns within the template body and summarize them into constraints for each type parameter of the template. The analysis is inter-procedural and uses disjunctions of constraints to model function overloading. We have implemented our approach based on the Clang frontend and evaluated it on two C++ libraries chosen separately from two popular library sets: algorithm from the Standard Template Library (STL) and special functions from the Boost library, both of which extensively use templates. Our tool can process over 110k lines of C++ code in less than 1.5 seconds and synthesize non-trivial constraints for 30%-40% of the function templates. The constraints synthesized for algorithm align well with the standard documentation, and on average, the synthesized constraints can reduce error message lengths by 56.6% for algorithm and 63.8% for special functions.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720423">Destination Calculus: A Linear 𝜆-Calculus for Purely Functional Memory Writes</a></h3><ul class="DLauthors"><li class="nameList">Thomas Bagrel</li><li class="nameList Last">Arnaud Spiwack</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Destination passing —aka. out parameters— is taking a parameter to fill rather than returning a result from a function. Due to its apparently imperative nature, destination passing has struggled to find its way to pure functional programming. In this paper, we present a pure functional calculus with destinations at its core. Our calculus subsumes all the similar systems, and can be used to reason about their correctness or extension. In addition, our calculus can express programs that were previously not known to be expressible in a pure language. This is guaranteed by a modal type system where modes are used to manage both linearity and scopes. Type safety of our core calculus was proved formally with the Coq proof assistant.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720424">Denotational Foundations for Expected Cost Analysis</a></h3><ul class="DLauthors"><li class="nameList Last">Pedro H. Azevedo de Amorim</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Reasoning about the cost of executing programs is one of the fundamental questions    in computer science. In the context of programming with probabilities, however, the     notion of cost stops being deterministic, since it depends on the probabilistic samples    made throughout the execution of the program. This interaction is further complicated by    the non-trivial interaction between cost, recursion and evaluation strategy.        In this work we introduce <em>cert</em>: a Call-By-Push-Value (CBPV) metalanguage for reasoning about    probabilistic cost. We equip <em>cert</em> with an operational cost semantics and define two    denotational semantics — a cost semantics and an expected-cost semantics. We prove    operational soundness and adequacy for the denotational cost semantics and a cost adequacy theorem for    the expected-cost semantics.        We formally relate both denotational semantics by stating and proving a novel <em>effect simulation</em>    property for CBPV. We also prove a canonicity property of the expected-cost semantics as the minimal    semantics for expected cost and probability by building on recent advances on monadic probabilistic semantics.        Finally, we illustrate the expressivity of <em>cert</em> and the expected-cost semantics by presenting case-studies     ranging from randomized algorithms to stochastic processes and show how our semantics capture their     intended expected cost.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720425">Hambazi: Spatial Coordination Synthesis for Augmented Reality</a></h3><ul class="DLauthors"><li class="nameList">Yi-Zhen Tsai</li><li class="nameList">Jiasi Chen</li><li class="nameList Last">Mohsen Lesani</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Augmented reality (AR) seamlessly overlays virtual objects onto the real world, enabling an exciting new range of applications. Multiple users view and interact with virtual objects, which are replicated and shown on each user's display. A key requirement of AR is that the replicas should be quickly updated and converge to the same state; otherwise, users may have laggy or inconsistent views of the virtual object, which negatively affects their experience. A second key requirement is that the movements of virtual objects in space should preserve certain integrity properties either due to physical boundaries in the real world, or privacy and safety preferences of the user. For example, a virtual cup should not sink into a table, or a private virtual whiteboard should stay within an office. The challenge tackled in this paper is the coordination of virtual objects with low latency, spatial integrity properties and convergence. We introduce “well-organized” replicated data types that guarantee these two properties. Importantly, they capture a local notion of conflict that supports more concurrency and lower latency. To implement well-organized virtual objects, we introduce a credit scheme and replication protocol that further facilitate local execution, and prove the protocol's correctness. Given an AR environment, we automatically derive conflicting actions through constraint solving, and statically instantiate the protocol to synthesize custom coordination. We evaluate our implementation, HAMBAZI, on off-the-shelf Android AR devices and show a latency reduction of 30.5-88.4% and a location staleness reduction of 35.6-75.6%, compared to three baselines, for varying numbers of devices, AR environments, request loads, and network conditions.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720426">QED in Context: An Observation Study of Proof Assistant Users</a></h3><ul class="DLauthors"><li class="nameList">Jessica Shi</li><li class="nameList">Cassia Torczon</li><li class="nameList">Harrison Goldstein</li><li class="nameList">Benjamin C. Pierce</li><li class="nameList Last">Andrew Head</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Interactive theorem provers, or proof assistants, are important tools across many areas of computer science and mathematics, but even experts find them challenging to use effectively. To improve their design, we need a deeper, user-centric understanding of proof assistant usage.
+ 
+ 
+ 
+We present the results of an observation study of proof assistant users. We use contextual inquiry methodology, observing 30 participants doing their everyday work in Rocq and Lean. We qualitatively analyze their experiences to surface four observations: that proof writers iterate on their proofs by reacting to and incorporating feedback from the proof assistant; that proof progress often involves challenging conversations with the proof assistant; that proofs are constructed in consultation with a wide array of external resources; and that proof writers are guided by design considerations that go beyond "getting to QED." Our documentation of these themes clarifies what proof assistant usage looks like currently and identifies potential opportunities that researchers should consider when working to improve the usability of proof assistants.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720427">Carapace: Static–Dynamic Information Flow Control in Rust</a></h3><ul class="DLauthors"><li class="nameList">Vincent Beardsley</li><li class="nameList">Chris Xiong</li><li class="nameList">Ada Lamba</li><li class="nameList Last">Michael D. Bond</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Fine-grained information flow control (IFC) ensures confidentiality and integrity at the programming language
+ 
+level by ensuring that high-secrecy values do not affect low-secrecy values and that low-integrity values do
+ 
+not affect high-integrity values. However, prior support for fine-grained IFC is impractical: It either analyzes
+ 
+programs using whole-program static analysis, detecting false IFC violations; or it extends the language and
+ 
+compiler, thwarting adoption. Recent work called Cocoon demonstrates how to provide fine-grained IFC for
+ 
+Rust programs without modifying the language or compiler, but it is limited to static secrecy labels, and its case
+ 
+studies are limited. This paper introduces an approach called Carapace that employs Cocoon’s core approach
+ 
+and supports both static and dynamic IFC and supports both secrecy and integrity. We demonstrate Carapace
+ 
+using three case studies involving real applications and comprehensive security policies. An evaluation
+ 
+shows that applications can be retrofitted to use Carapace with relatively few changes, while incurring
+ 
+negligible run-time overhead in most cases. Carapace advances the state of the art by being the first hybrid
+ 
+static–dynamic IFC that works with an off-the-shelf language—Rust—and its unmodified compiler</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720428">Unveiling Heisenbugs with Diversified Execution</a></h3><ul class="DLauthors"><li class="nameList">Arjun Ramesh</li><li class="nameList">Tianshu Huang</li><li class="nameList">Jaspreet Riar</li><li class="nameList">Ben L. Titzer</li><li class="nameList Last">Anthony Rowe</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Heisenbugs, notorious for their ability to change behavior and elude reproducibility under observation, are among the toughest challenges in debugging programs. They often evade static detection tools, making them especially prevalent in cyber-physical edge systems characterized by complex dynamics and unpredictable interactions with physical environments. Although dynamic detection tools work much better, most still struggle to meet low enough jitter and overhead performance requirements, impeding their adoption. More importantly however, dynamic tools currently lack metrics to determine an observed bug's "difficulty" or "heisen-ness" undermining their ability to make any claims regarding their effectiveness against heisenbugs.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This paper proposes a methodology for detecting and identifying heisenbugs with low overheads at scale, actualized through the lens of dynamic data-race detection. In particular, we establish the critical impact of execution diversity across both instrumentation density and hardware platforms for detecting heisenbugs; the benefits of which outweigh any reduction in efficiency from limited instrumentation or weaker devices. We develop an experimental WebAssembly-backed dynamic data-race detection framework, Beanstalk, which exploits this diversity to show superior bug detection capability compared to any homogeneous instrumentation strategy on a fixed compute budget. Beanstalk's approach also gains power with scale, making it suitable for low-overhead deployments across numerous compute nodes. Finally, based on a rigorous statistical treatment of bugs observed by Beanstalk, we propose a novel metric, the heisen factor, that similar detectors can utilize to categorize heisenbugs and measure effectiveness. We reflect on our analysis of Beanstalk to provide insight on effective debugging strategies for both in-house and in deployment settings.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720429">Foundations for Deductive Verification of Continuous Probabilistic Programs: From Lebesgue to Riemann and Back</a></h3><ul class="DLauthors"><li class="nameList">Kevin Batz</li><li class="nameList">Joost-Pieter Katoen</li><li class="nameList">Francesca Randone</li><li class="nameList Last">Tobias Winkler</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We lay out novel foundations for the computer-aided verification of guaranteed bounds on expected outcomes of imperative probabilistic programs featuring (i) general loops, (ii) continuous distributions, and (iii) conditioning. To handle loops we rely on user-provided quantitative invariants, as is well established. However, in the realm of continuous distributions, invariant verification becomes extremely challenging due to the presence of integrals in expectation-based program semantics. Our key idea is to soundly under- or over-approximate these integrals via Riemann sums. We show that this approach enables the SMT-based invariant verification for programs with a fairly general control flow structure. On the theoretical side, we prove convergence of our Riemann approximations, and establish coRE-completeness of the central verification problems. On the practical side, we show that our approach enables to use existing automated verifiers targeting discrete probabilistic programs for the verification of programs involving continuous sampling. Towards this end, we implement our approach in the recent quantitative verification infrastructure Caesar by encoding Riemann sums in its intermediate verification language. We present several promising case studies.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720430">Pathological Cases for a Class of Reachability-Based Garbage Collectors</a></h3><ul class="DLauthors"><li class="nameList Last">Matthew Sotoudeh</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Although existing garbage collectors (GCs) perform extremely well on typical programs, there still exist pathological programs for which modern GCs significantly degrade performance. This observation begs the question: might there exist a ‘holy grail’ GC algorithm, as yet undiscovered, guaranteeing both constant-length pause times and that memory is collected promptly upon becoming unreachable? For decades, researchers have understood that such a GC is not always possible, i.e., some pathological behavior is unavoidable when the program can make heap cycles and operates near the memory limit, regardless of the GC algorithm used. However, this understanding has until now been only informal, lacking a rigorous formal proof.
+ 
+ 
+ 
+This paper complements that informal understanding with a rigorous proof, showing with mathematical certainty that every GC algorithm that can implement a realistic mutator-observer interface has some pathological program that forces it to either introduce a long GC pause into program execution or reject an allocation even though there is available space. Hence, language designers must either accept these pathological scenarios and design heuristic approaches that minimize their impact (e.g., generational collection), or restrict programs and environments to a strict subset of the behaviors allowed by our mutator-observer–style interface (e.g., by enforcing a type system that disallows cycles or overprovisioning memory).
+ 
+ 
+ 
+We do not expect this paper to have any effect on garbage collection practice. Instead, it provides the first mathematically rigorous answers to these interesting questions about the limits of garbage collection. We do so via rigorous reductions between GC and the dynamic graph connectivity problem in complexity theory, so future algorithms and lower bounds from either community transfer to the other via our reductions.
+ 
+
+ 
+We end by describing how to adapt techniques from the graph data structures community to build a garbage collector making worst-case guarantees that improve performance on our motivating, pathologically memory-constrained scenarios, but in practice find too much overhead to recommend for typical use.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720431">Scalable and Accurate Application-Level Crash-Consistency Testing via Representative Testing</a></h3><ul class="DLauthors"><li class="nameList">Yile Gu</li><li class="nameList">Ian Neal</li><li class="nameList">Jiexiao Xu</li><li class="nameList">Shaun Christopher Lee</li><li class="nameList">Ayman Said</li><li class="nameList">Musa Haydar</li><li class="nameList">Jacob Van Geffen</li><li class="nameList">Rohan Kadekodi</li><li class="nameList">Andrew Quinn</li><li class="nameList Last">Baris Kasikci</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Crash consistency is essential for applications that must persist data. Crash-consistency testing has been commonly applied to find crash-consistency bugs in applications. The crash-state space grows exponentially as the number of operations in the program increases, necessitating techniques for pruning the search space. However, state-of-the-art crash-state space pruning is far from ideal. Some techniques look for known buggy patterns or bound the exploration for efficiency, but they sacrifice coverage and may miss bugs lodged deep within applications. Other techniques eliminate redundancy in the search space by skipping identical crash states, but they still fail to scale to larger applications.
+ 
+ 
+ 
+
+ 
+ 
+ 
+In this work, we propose representative testing: a new crash-state space reduction strategy that achieves high scalability and high coverage. Our key observation is that the consistency of crash states is often correlated, even if those crash states are not identical. We build Pathfinder, a crash-consistency testing tool that implements an update behaviors-based heuristic to approximate a small set of representative crash states. 
+ 
+ 
+ 
+
+ 
+ 
+ 
+We evaluate Pathfinder on POSIX-based and MMIO-based applications, where it finds 18 (7 new) bugs across 8 production-ready systems. Pathfinder scales more effectively to large applications than prior works and finds 4x more bugs in POSIX-based applications and 8x more bugs in MMIO-based applications compared to state-of-the-art systems.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720432">A Mechanized Semantics for Dataflow Circuits</a></h3><ul class="DLauthors"><li class="nameList">Tony Law</li><li class="nameList">Delphine Demange</li><li class="nameList Last">Sandrine Blazy</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This paper proposes a mechanized formal semantics for <em>dataflow</em> circuits: rather than following a predetermined, static schedule, the execution of the circuit components is constrained solely by the availability of their input data. We model circuit components as abstract computing units, asynchronously connected with each other through unidirectional, unbounded FIFO. In contrast to Kahn’s classic, denotational semantic framework, our semantics is operational. It intends to reflect Dennis’ dataflow paradigm with firing, while still formalizing the observable behaviors of circuits as channels histories. The components we handle are either stateless or stateful, and may be non-deterministic. We formalize sufficient conditions to achieve the determinacy of circuits executions: all possible schedules of such circuits lead to a unique observable behavior. We provide two equivalent views for circuits. The first one is a direct and natural representation as graphs of components. The second is a core, structured term calculus, which enables constructing and reasoning about circuits in a inductive way. We prove that both representations are semantically equivalent. We conduct our formalization within the Coq proof assistant. We experimentally validate its relevance by applying our general semantic framework to dataflow circuits generated with Dynamatic, a recent HLS tool exploiting dataflow circuits to generate dynamically scheduled, elastic circuits.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720433">QbC: Quantum Correctness by Construction</a></h3><ul class="DLauthors"><li class="nameList">Anurudh Peduri</li><li class="nameList">Ina Schaefer</li><li class="nameList Last">Michael Walter</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Thanks to the rapid progress and growing complexity of quantum algorithms, correctness of quantum programs has become a major concern. Pioneering research over the past years has proposed various approaches to formally verify quantum programs using proof systems such as quantum Hoare logic. All these prior approaches are post-hoc: one first implements a program and only then verifies its correctness. Here we propose Quantum Correctness by Construction (QbC): an approach to constructing quantum programs from their specification in a way that ensures correctness. We use pre- and postconditions to specify program properties, and propose sound and complete refinement rules for constructing programs in a quantum while language from their specification. We validate QbC by constructing quantum programs for idiomatic problems and patterns. We find that the approach naturally suggests how to derive program details, highlighting key design choices along the way. As such, we believe that QbC can play a role in supporting the design and taxonomization of quantum algorithms and software.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720434">Notions of Stack-Manipulating Computation and Relative Monads</a></h3><ul class="DLauthors"><li class="nameList">Yuchen Jiang</li><li class="nameList">Runze Xue</li><li class="nameList Last">Max S. New</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Monads provide a simple and concise interface to user-defined computational effects in functional programming languages. This enables equational reasoning about effects, abstraction over monadic interfaces and the development of monad transformer stacks to combine different effects. Compiler implementors and assembly code programmers similarly virtualize effects, and would benefit from similar abstractions if possible. However, the implementation details of effects seem disconnected from the high-level monad interface: at this lower level much of the design is in the layout of the runtime stack, which is not accessible in a high-level programming language.
+ 
+ 
+ 
+We demonstrate that the monadic interface can be faithfully adapted from high-level functional programming to a lower level setting with explicit stack manipulation. We use a polymorphic call-by-push-value (CBPV) calculus as a setting that captures the essence of stack-manipulation, with a type system that allows programs to define domain-specific stack structures. Within this setting, we show that the existing category-theoretic notion of a relative monad can be used to model the stack-based implementation of computational effects. To demonstrate generality, we adapt a variety of standard monads to relative monads. Additionally, we show that stack-manipulating programs can benefit from a generalization of do-notation we call "monadic blocks" that allow all CBPV code to be reinterpreted to work with an arbitrary relative monad. As an application, we show that all relative monads extend automatically to relative monad transformers, a process which is not automatic for monads in pure languages.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720435">Soundness of Predictive Concurrency Analyses</a></h3><ul class="DLauthors"><li class="nameList">Shuyang Liu</li><li class="nameList">Doug Lea</li><li class="nameList Last">Jens Palsberg</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>A predictive analysis takes an execution trace as input and discovers concurrency bugs without accessing the program source code. A sound predictive analysis reports no false positives, which sounds like a property that can be defined easily, but which has been defined in many different ways in previous work. In this paper, we unify, simplify, and generalize those soundness definitions for analyses that discover concurrency bugs that can be represented as a consecutive sequence of events. Our soundness definition is graph based, separates thread-local properties and whole-execution properties, and works well with weak memory executions. We also present a three-step proof recipe, and we use it to prove six existing analyses sound. This includes the first proof of soundness for a predictive analysis that works with weak memory.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720436">IncIDFA: An Efficient and Generic Algorithm for Incremental Iterative Dataflow Analysis</a></h3><ul class="DLauthors"><li class="nameList">Aman Nougrahiya</li><li class="nameList Last">V. Krishna Nandivada</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Iterative dataflow analyses (IDFAs) are important static analyses employed by tools like compilers for enabling program optimizations, comprehension, verification, and more. During compilation of a program, optimizations/transformations can render existing dataflow solutions stale, jeopardizing the optimality and correctness of subsequent compiler passes. Exhaustively recomputing these solutions can be costly. Since most program changes impact only small portions of the flowgraph, several incrementalization approaches have been proposed for various subclasses of IDFAs. However, these approaches face one or more of these limitations: (i) loss of precision compared to exhaustive analysis, (ii) inability to handle arbitrary lattices and dataflow functions, and (iii) lacking fully automated incrementalization of the IDFA. As a result, mainstream compilers lack frameworks for generating precise incremental versions of arbitrary IDFAs, leaving analysis writers to create ad hoc algorithms for incrementalization – an often cumbersome and error-prone task. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+To tackle these challenges, we introduce IncIDFA, a novel algorithm that delivers precise and efficient incremental variants of any monotone IDFA. IncIDFA utilizes a two-pass approach to maintain precision. Unlike prior works, IncIDFA avoids resetting the dataflow solutions to least informative values when dealing with strongly-connected regions and arbitrary program changes. We formally prove the precision guarantees of IncIDFA for arbitrary dataflow problems and program changes. IncIDFA has been implemented in the IMOP compiler framework for parallel OpenMP C programs. To showcase its generality, we have instantiated IncIDFA to ten specific dataflow analyses, without requiring any additional code for incrementalization. We present an evaluation of IncIDFA on a real-world set of optimization passes, across two different architectures. As compared to exhaustive recomputation, IncIDFA resulted in a speedup of up to 11×(geomean 2.6×) in incremental-update time, and improvement of up to 46% (geomean 15.1%) in the total compilation time.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720437">Type-Preserving Flat Closure Optimization</a></h3><ul class="DLauthors"><li class="nameList">Adam T. Geller</li><li class="nameList">Sean Bocirnea</li><li class="nameList">Chester J. F. Gould</li><li class="nameList">Paulette Koronkevich</li><li class="nameList Last">William J. Bowman</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Type-preserving compilation seeks to make intent as much as a part of compilation as computation. Specifications of intent in the form of types are preserved and exploited during compilation and linking, alongside the mere computation of a program. This provides lightweight guarantees for compilation, optimization, and linking. Unfortunately, type-preserving compilation typically interferes with important optimizations. In this paper, we study typed closure representation and optimization. We analyze limitations in prior typed closure conversion representations, and the requirements of many important closure optimizations. We design a new typed closure representation in our Flat-Closure Calculus (FCC) that admits all these optimizations, prove type safety and subject reduction of FCC, prove type preservation from an existing closure converted IR to FCC, and implement common closure optimizations for FCC.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720438">Orax: A Feedback-Driven Framework for Efficiently Solving Satisfiability Modulo Theories and Oracles</a></h3><ul class="DLauthors"><li class="nameList">Zhineng Zhong</li><li class="nameList">Ziqi Zhang</li><li class="nameList">Hanqin Guan</li><li class="nameList Last">Ding Li</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Recent advancements in Satisfiability Modulo Theory (SMT) solving have significantly improved formula-driven techniques for verification, testing, repair, and synthesis. However, addressing open programs that lack formal specifications, such as those relying on third-party libraries, remains a challenge. The problem of Satisfiability Modulo Theories and Oracles (SMTO) has emerged as a critical issue where oracles, representing components with observable behavior but unknown implementation, hinder SMT solver from reasoning. Existing approaches like Delphi and Saadhak struggle to effectively combine sufficient oracle mapping information that is crucial for feasible solution construction with the reasoning capabilities of the SMT solver, leading to inefficient solving of SMTO problems. In this work, we propose a novel solving framework for SMTO problems, Orax, which establishes an oracle mapping information feedback loop between the SMT solver and the oracle handler. In Orax, the SMT solver analyzes the deficiency in oracle mapping information it has and feeds this back to the oracle handler. The oracle handler then provides the most suitable additional oracle mapping information back to the SMT solver. Orax employs a dual-clustering strategy to select the initial oracle mapping information provided to the SMT solver and a relaxation-based method to analyze the deficiency in the oracle mapping information the SMT solver knows. Experimental results on the benchmark suite demonstrate that Orax outperforms existing methods, solving 118.37% and 13.83% more benchmarks than Delphi and Saadhak, respectively. In terms of efficiency, Orax achieves a PAR-2 score of 1.39, significantly exceeding Delphi’s score of 669.13 and Saadhak’s score of 173.31.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720446">Checking δ-Satisfiability of Reals with Integrals</a></h3><ul class="DLauthors"><li class="nameList">Cody Rivera</li><li class="nameList">Bishnu Bhusal</li><li class="nameList">Rohit Chadha</li><li class="nameList">A. Prasad Sistla</li><li class="nameList Last">Mahesh Viswanathan</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Many synthesis and verification problems can be reduced to determining the truth of formulas over the real numbers. These formulas often involve constraints with integrals in them. To this end, we extend the framework of δ-decision procedures with techniques for handling integrals of user-specified real functions. We implement this decision procedure in the tool ∫dReal, which is built on top of dReal. We evaluate ∫dReal on a suite of problems that include formulas verifying the fairness of algorithms and the privacy and the utility of privacy mechanisms and formulas that synthesize parameters for the desired utility of privacy mechanisms. The performance of the tool in these experiments demonstrates the effectiveness of ∫dReal.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720447">FO-Complete Program Verification for Heap Logics</a></h3><ul class="DLauthors"><li class="nameList">Adithya Murali</li><li class="nameList">Hrishikesh Balakrishnan</li><li class="nameList">Aaron Councilman</li><li class="nameList Last">P. Madhusudan</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Program verification techniques for expressive heap logics are inevitably incomplete. In this work we argue that algorithmic techniques for reasoning with expressive heap logics can be held up to a different robust theoretical standard for completeness: FO-Completeness. FO-completeness is a theoretical guarantee that all theorems that are valid when recursive definitions are interpreted as fixpoint definitions (instead of least fixpoint) are guaranteed to be eventually proven by the system. We illustrate a set of principles to design such logics and develop the first two heap logics that have implicit heaplets and that admit FO-Complete program verification. The logics we develop are a frame logic (FL) and a separation logic (SL-FL) that has an alternate semantics inspired by frame logic. We show a verification condition generation technique that is amenable to FO-complete reasoning using quantifier instantiation and SMT solvers. We implement tools that realize our technique and show the expressiveness of our logics and the efficacy of the verification technique on a suite of benchmarks that manipulate data structures.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720448">Metamorph: Synthesizing Large Objects from Dafny Specifications</a></h3><ul class="DLauthors"><li class="nameList">Aleksandr Fedchin</li><li class="nameList">Alexander Y. Bai</li><li class="nameList Last">Jeffrey S. Foster</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Program synthesis aims to produce code that adheres to user-provided specifications. In this work, we focus on synthesizing sequences of calls to formally specified APIs to generate objects that satisfy certain properties. This problem is particularly relevant in automated test generation, where a test engine may need an object with specific properties to trigger a given execution path. Constructing instances of complex data structures may require dozens of method calls, but reasoning about consecutive calls is computationally expensive, and existing work typically limits the number of calls in the solution.    In this paper, we focus on synthesizing such long sequences of method calls in the Dafny programming language. To that end, we introduce Metamorph, a synthesis tool that uses counterexamples returned by the Dafny verifier to reason about the effects of method calls one at a time, limiting the complexity of solver queries. We also aim to limit the overall number of SMT queries by comparing the counterexamples using two distance metrics we develop for guiding the synthesis process. In particular, we introduce a novel <em>piecewise distance</em> metric, which puts a provably correct lower bound on the number of method calls in the solution and allows us to frame the synthesis problem as weighted A* search. When computing piecewise distance, we view object states as conjunctions of atomic constraints, identify constraints that each method call can satisfy, and combine this information using integer programming.    We evaluate Metamorph’s ability to generate large objects on six benchmarks defining key data structures: linked lists, queues, arrays, binary trees, and graphs. Metamorph can successfully construct programs that require up to 57 method calls per instance and compares favorably to an alternative baseline approach. Additionally, we integrate Metamorph with DTest, Dafny’s automated test generation toolkit, and show that Metamorph can synthesize test inputs for parts of the AWS Cryptographic Material Providers Library that DTest alone is not able to cover. Finally, we use Metamorph to generate executable bytecode for a simple virtual machine, demonstrating that the techniques described here are more broadly applicable in the context of specification-guided synthesis.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720449">API-Guided Dataset Synthesis to Finetune Large Code Models</a></h3><ul class="DLauthors"><li class="nameList">Zongjie Li</li><li class="nameList">Daoyuan Wu</li><li class="nameList">Shuai Wang</li><li class="nameList Last">Zhendong Su</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Large code models (LCMs), pre-trained on vast code corpora, have demonstrated remarkable performance
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+across a wide array of code-related tasks. Supervised fine-tuning (SFT) plays a vital role in aligning these models
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+with specific requirements and enhancing their performance in particular domains. However, synthesizing
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+high-quality SFT datasets poses a significant challenge due to the uneven quality of datasets and the scarcity
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+of domain-specific datasets.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Inspired by APIs as high-level abstractions of code that encapsulate rich semantic information in a concise
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+structure, we propose DataScope, an API-guided dataset synthesis framework designed to enhance the SFT
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+process for LCMs in both general and domain-specific scenarios. DataScope comprises two main components:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dslt and Dgen. On the one hand, Dslt employs API coverage as a core metric, enabling efficient dataset
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+synthesis in general scenarios by selecting subsets of existing (uneven-quality) datasets with higher API
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+coverage. On the other hand, Dgen recasts domain dataset synthesis as a process of using API-specified
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+high-level functionality and deliberately constituted code skeletons to synthesize concrete code.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Extensive experiments demonstrate DataScope’s effectiveness, with models fine-tuned on its synthesized
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+datasets outperforming those tuned on unoptimized datasets five times larger. Furthermore, a series of analyses
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+on model internals, relevant hyperparameters, and case studies provide additional evidence for the efficacy
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+of our proposed methods. These findings underscore the significance of dataset quality in SFT and advance
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+the field of LCMs by providing an efficient, cost-effective framework for constructing high-quality datasets,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+which in turn lead to more powerful and tailored LCMs for both general and domain-specific scenarios.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720450">Adaptive Shielding via Parametric Safety Proofs</a></h3><ul class="DLauthors"><li class="nameList">Yao Feng</li><li class="nameList">Jun Zhu</li><li class="nameList">André Platzer</li><li class="nameList Last">Jonathan Laurent</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>A major challenge to deploying cyber-physical systems with learning-enabled controllers is to ensure their safety, especially in the face of changing environments that necessitate runtime knowledge acquisition. Model-checking and automated reasoning have been successfully used for shielding, i.e., to monitor untrusted controllers and override potentially unsafe decisions, but only at the cost of hard tradeoffs in terms of expressivity, safety, adaptivity, precision and runtime efficiency. We propose a programming-language framework that allows experts to statically specify <em>adaptive shields</em> for learning-enabled agents, which enforce a safe control envelope that gets more permissive as knowledge is gathered at runtime. A shield specification provides a safety model that is parametric in the current agent's knowledge. In addition, a nondeterministic inference strategy can be specified using a dedicated domain-specific language, enforcing that such knowledge parameters are inferred at runtime in a statistically-sound way. By leveraging language design and theorem proving, our proposed framework empowers experts to design adaptive shields with an unprecedented level of modeling flexibility, while providing rigorous, end-to-end probabilistic safety guarantees.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720515">Semantics of Sets of Programs</a></h3><ul class="DLauthors"><li class="nameList">Jinwoo Kim</li><li class="nameList">Shaan Nagy</li><li class="nameList">Thomas Reps</li><li class="nameList Last">Loris D'Antoni</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Applications like program synthesis sometimes require proving that a property holds for all of the infinitely many programs described by a grammar---i.e., an inductively defined set of programs. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Current verification frameworks overapproximate programs' behavior when sets of programs contain loops, including two Hoare-style logics that fail to be relatively complete when loops are allowed. In this work, we prove that compositionally verifying simple properties for infinite sets of programs requires tracking distinct program behaviors over unboundedly many executions. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Tracking this information is both necessary and sufficient for verification. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We prove this fact in a general, reusable theory of denotational semantics that can model the expressivity and compositionality of verification techniques over infinite sets of programs. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We construct the minimal compositional semantics that captures simple properties of sets of programs and use it to derive the first sound and relatively complete Hoare-style logic for infinite sets of programs. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Thus, our methods can be used to design minimally complex, compositional verification techniques for sets of programs.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720452">Automatically Verifying Replication-Aware Linearizability</a></h3><ul class="DLauthors"><li class="nameList">Vimala Soundarapandian</li><li class="nameList">Kartik Nagar</li><li class="nameList">Aseem Rastogi</li><li class="nameList Last">KC Sivaramakrishnan</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Data replication is crucial for enabling fault tolerance and uniform low latency in modern decentralized applications. Replicated Data Types (RDTs) have emerged as a principled approach for developing replicated implementations of basic data structures such as counter, flag, set, map, etc. While the correctness of RDTs is generally specified using the notion of strong eventual consistency--which guarantees that replicas that have received the same set of updates would converge to the same state--a more expressive specification which relates the converged state to updates received at a replica would be more beneficial to RDT users. Replication-aware linearizability is one such specification, which requires all replicas to always be in a state which can be obtained by linearizing the updates received at the replica. In this work, we develop a novel fully automated technique for verifying replication-aware linearizability for Mergeable Replicated Data Types (MRDTs). We identify novel algebraic properties for MRDT operations and the merge function which are sufficient for proving an implementation to be linearizable and which go beyond the standard notions of commutativity, associativity, and idempotence. We also develop a novel inductive technique called bottom-up linearization to automatically verify the required algebraic properties. Our technique can be used to verify both MRDTs and state-based CRDTs. We have successfully applied our approach to a number of complex MRDT and CRDT implementations including a novel JSON MRDT.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720524">Bridging the Gap between Real-World and Formal Binary Lifting through Filtered-Simulation</a></h3><ul class="DLauthors"><li class="nameList">Jihee Park</li><li class="nameList">Insu Yun</li><li class="nameList Last">Sukyoung Ryu</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Binary lifting is a key component in binary analysis tools.        In order to guarantee the correctness of binary lifting,        researchers have proposed various formally verified lifters.        However, such formally verified lifters have too strict requirements on binary,        which do not sufficiently reflect real-world lifters. In addition, real-world lifters use heuristic-based assumptions to lift binary code, which makes it difficult to guarantee the correctness of the lifted code using formal methods.        In this paper, we propose a new interpretation of the correctness of real-world binary lifting.        We formalize the process of binary lifting with heuristic-based assumptions used in real-world lifters by dividing it into a series of transformations, where each transformation represents a lift with new abstraction features.        We define the correctness of each transformation as <em>filtered-simulation</em>, which is a variant of bi-simulation, between programs before and after transformation.        We present three essential transformations in binary lifting and formalize them: (1) control flow graph reconstruction, (2) abstract stack reconstruction, and (3) function input/output identification.        We implement our approach for x86-64 Linux binaries, named FIBLE, and demonstrate that it can correctly lift Coreutils and CGC datasets compiled with GCC.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720457">Adequacy for Algebraic Effects Revisited</a></h3><ul class="DLauthors"><li class="nameList Last">G. A. Kavvos</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This paper proves an adequacy theorem for a general class of algebraic effects, including infinitary ones. The theorem targets a version of Call-by-Push-Value (CBPV), so that it applies to many possible evaluation mechanisms, including call-by-value. The calculus is given an operational semantics based on interaction trees, as well as a denotational semantics based on monad algebras. The main result, viz. that denotational equivalence implies observational equivalence, using a traditional logical relations argument.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720470">LOUD: Synthesizing Strongest and Weakest Specifications</a></h3><ul class="DLauthors"><li class="nameList">Kanghee Park</li><li class="nameList">Xuanyu Peng</li><li class="nameList Last">Loris D'Antoni</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>This paper tackles the problem of synthesizing specifications for nondeterministic programs. For such programs, useful specifications can capture demonic properties, which hold for <em>every</em> nondeterministic execution, but also angelic properties, which hold for <em>some</em> nondeterministic execution. We build on top of a recently proposed Spyro framework in which given     (i) a <em>quantifier-free</em> query Ψ posed about a set of function definitions (i.e., the behavior for which we want to generate a specification), and     (ii) a language <em>L</em> in which each extracted property is to be expressed (we call properties in the language <em>L</em>-properties), the goal is to synthesize a conjunction ∧<sub><em>i</em></sub> ϕ<sub><em>i</em></sub> of <em>L</em>-properties such that each of the ϕ<sub><em>i</em></sub> is a <em>strongest </em><em>L</em><em>-consequence</em> for Ψ:    ϕ<sub><em>i</em></sub> is an over-approximation of Ψ and there is no other <em>L</em>-property that over-approximates Ψ and is strictly more precise than ϕ<sub><em>i</em></sub>.    This framework does not apply to nondeterministic programs for two reasons: it does not support existential quantifiers in queries (which are necessary to expressing nondeterminism) and it can only compute <em>L</em>-consequences, i.e., it is unsuitable for capturing both angelic and demonic properties.        This paper addresses these two limitations and presents a framework, LOUD, for synthesizing both <em>strongest </em><em>L</em><em>-consequences</em> and <em>weakest </em><em>L</em><em>-implicants</em> (i.e., under-approximations of the query Ψ) for queries that can involve <em>existential quantifiers</em>.    We implement a solver, ASPIRE, for problems expressed in LOUD which can be used to describe and identify sources of bugs in both deterministic and nondeterministic programs, extract properties from concurrent programs, and synthesize winning strategies in two-player games.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720471">Verification of Bit-Flip Attacks against Quantized Neural Networks</a></h3><ul class="DLauthors"><li class="nameList">Yedi Zhang</li><li class="nameList">Lei Huang</li><li class="nameList">Pengfei Gao</li><li class="nameList">Fu Song</li><li class="nameList">Jun Sun</li><li class="nameList Last">Jin Song Dong</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>In the rapidly evolving landscape of neural network security, the resilience of neural networks against bit-flip attacks (i.e., an attacker maliciously flips an extremely small amount of bits within its parameter storage memory system to induce harmful behavior), has emerged as a relevant area of research. Existing studies suggest that quantization may serve as a viable defense against such attacks. Recognizing the documented susceptibility of real-valued neural networks to such attacks and the comparative robustness of quantized neural networks (QNNs), in this work, we introduce BFAVerifier, the first verification framework designed to formally verify the absence of bit-flip attacks against QNNs or to identify all vulnerable parameters in a sound and rigorous manner. BFAVerifier comprises two integral components: an abstraction-based method and an MILP-based method. Specifically, we first conduct a reachability analysis with respect to symbolic parameters that represent the potential bit-flip attacks, based on a novel abstract domain with a sound guarantee. If the reachability analysis fails to prove the resilience of such attacks, then we encode this verification problem into an equivalent MILP problem which can be solved by off-the-shelf solvers. Therefore, BFAVerifier is sound, complete, and reasonably efficient. We conduct extensive experiments, which demonstrate its effectiveness and efficiency across various activation functions, quantization bit-widths, and adversary capabilities.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720472">The Simple Essence of Monomorphization</a></h3><ul class="DLauthors"><li class="nameList">Matthew Lutze</li><li class="nameList">Philipp Schuster</li><li class="nameList Last">Jonathan Immanuel Brachthäuser</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Monomorphization is a common implementation technique for parametric type-polymorphism, which avoids the potential runtime overhead of uniform representations at the cost of code duplication. While important as a folklore implementation technique, there is a lack of general formal treatments in the published literature. Moreover, it is commonly believed to be incompatible with higher-rank polymorphism.
+ 
+ 
+ 
+In this paper, we formally present a simple monomorphization technique based on a type-based flow analysis that generalizes to programs with higher-rank types, existential types, and arbitrary combinations. Inspired by algebraic subtyping, we track the flow of type instantiations through the program. Our approach only supports monomorphization up to polymorphic recursion, which we uniformly detect as cyclic flow. Treating universal and existential quantification uniformly, we identify a novel form of polymorphic recursion in the presence of existential types, which we coin polymorphic packing. We study the meta-theory of our approach, showing that our translation is type-preserving and preserves semantics step-wise.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720473">Finch: Sparse and Structured Tensor Programming with Control Flow</a></h3><ul class="DLauthors"><li class="nameList">Willow Ahrens</li><li class="nameList">Teodoro Fields Collin</li><li class="nameList">Radha Patel</li><li class="nameList">Kyle Deeds</li><li class="nameList">Changwan Hong</li><li class="nameList Last">Saman Amarasinghe</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>From FORTRAN to NumPy, tensors have revolutionized how we express computation. However, tensors in these, and almost all prominent systems, can only handle dense rectilinear integer grids. Real world tensors often contain underlying structure, such as sparsity, runs of repeated values, or symmetry. Support for structured data is fragmented and incomplete. Existing frameworks limit the tensor structures and program control flow they support to better simplify the problem.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In this work, we propose a new programming language, Finch, which supports both flexible control flow and diverse data structures. Finch facilitates a programming model which resolves the challenges of computing over structured tensors by combining control flow and data structures into a common representation where they can be co-optimized. Finch automatically specializes control flow to data so that performance engineers can focus on experimenting with many algorithms. Finch supports a familiar programming language of loops, statements, ifs, breaks, etc., over a wide variety of tensor structures, such as sparsity, run-length-encoding, symmetry, triangles, padding, or blocks. Finch reliably utilizes the key properties of structure, such as structural zeros, repeated values, or clustered non-zeros. We show that this leads to dramatic speedups in operations such as SpMV and SpGEMM, image processing, and graph analytics.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720474">KestRel: Relational Verification using E-Graphs for Program Alignment</a></h3><ul class="DLauthors"><li class="nameList">Robert Dickerson</li><li class="nameList">Prasita Mukherjee</li><li class="nameList Last">Benjamin Delaware</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Many interesting program properties involve the execution of multiple programs, including observational equivalence, noninterference, co-termination, monotonicity, and idempotency. One strategy for verifying such relational properties is to construct and reason about an intermediate program whose correctness implies that the individual programs exhibit those properties. A key challenge in building an intermediate program is finding a good alignment of the original programs. An alignment puts subparts of the original programs into correspondence so that their similarities can be exploited in order to simplify verification. We propose an approach to intermediate program construction that uses e-graphs, equality saturation, and algebraic realignment rules to efficiently represent and build programs amenable to automated verification. A key ingredient of our solution is a novel data-driven extraction technique that uses execution traces of candidate intermediate programs to identify solutions that are semantically well-aligned. We have implemented a relational verification engine based on our proposed approach, called KestRel, and use it to evaluate our approach over a suite of benchmarks taken from the relational verification literature.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720513">Peepco: Batch-Based Consistency Optimization</a></h3><ul class="DLauthors"><li class="nameList">Ivan Kuraj</li><li class="nameList">John Feser</li><li class="nameList">Nadia Polikarpova</li><li class="nameList Last">Armando Solar-Lezama</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present batch-based consistency, a new approach for consistency optimization that allows programmers to specialize consistency with application-level integrity properties. We implement the approach with a two-step process: we statically infer optimal consistency requirements for executions of bounded sets of operations, and then, use the inferred requirements to parameterize a new distributed protocol to relax operation reordering at run time when it is safe to do so. Our approach supports standard notions of consistency. We implement batch-based consistency in Peepco, demonstrate its expressiveness for partial data replication, and examine Peepco’s run-time performance impact in different settings.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720476">Modal Effect Types</a></h3><ul class="DLauthors"><li class="nameList">Wenhao Tang</li><li class="nameList">Leo White</li><li class="nameList">Stephen Dolan</li><li class="nameList">Daniel Hillerström</li><li class="nameList">Sam Lindley</li><li class="nameList Last">Anton Lorenzen</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Effect handlers are a powerful abstraction for defining, customising, and composing computational effects. Statically ensuring that all effect operations are handled requires some form of effect system, but using a traditional effect system would require adding extensive effect annotations to the millions of lines of existing code in these languages. Recent proposals seek to address this problem by removing the need for explicit effect polymorphism. However, they typically rely on fragile syntactic mechanisms or on introducing a separate notion of second-class function. We introduce a novel approach based on modal effect types.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720478">HpC: A Calculus for Hybrid and Mobile Systems</a></h3><ul class="DLauthors"><li class="nameList">Xiong Xu</li><li class="nameList">Jean-Pierre Talpin</li><li class="nameList">Shuling Wang</li><li class="nameList">Hao Wu</li><li class="nameList">Bohua Zhan</li><li class="nameList">Xinxin Liu</li><li class="nameList Last">Naijun Zhan</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Networked cybernetic and physical systems of the Internet of Things (IoT) immerse civilian and industrial infrastructures into an interconnected and dynamic web of hybrid and mobile devices. The key feature of such systems is the hybrid and tight coupling of mobile and pervasive discrete communications in a continuously evolving environment (discrete computations with predominant continuous dynamics). In the aim of ensuring the correctness and reliability of such heterogeneous infrastructures, we introduce the hybrid π-calculus (HpC), to formally capture both mobility, pervasiveness and hybridisation in infrastructures where the network topology and its communicating entities evolve continuously in the physical world. The π-calculus proposed by Robin Milner et al. is a process calculus that can model mobile communications and computations in a very elegant manner. The HpC we propose is a conservative extension of the classical π-calculus, i.e., the extension is “minimal”, and yet describes mobility, time and physics of systems, while allowing to lift all theoretical results (e.g. bisimulation) to the context of that extension. We showcase the HpC by considering a realistic handover protocol among mobile devices.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720480">Guarding the Privacy of Label-Only Access to Neural Network Classifiers via iDP Verification</a></h3><ul class="DLauthors"><li class="nameList">Anan Kabaha</li><li class="nameList Last">Dana Drachsler Cohen</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Neural networks are susceptible to privacy attacks that can extract private information of the training set. To cope, several training algorithms guarantee differential privacy (DP) by adding noise to their computation. However, DP requires to add noise   considering <em>every possible</em> training set. This leads to a significant decrease in the network’s accuracy.  Individual DP (iDP) restricts DP to a <em>given</em> training set. We observe that some inputs deterministically satisfy iDP <em>without any noise</em>. By identifying them, we can provide iDP label-only access to the network with a minor decrease to its accuracy. However, identifying the inputs that satisfy iDP without any noise is highly challenging. Our key idea is to compute the <em>iDP deterministic bound</em> (iDP-DB), which overapproximates the set of inputs that do not satisfy iDP, and add noise only to their predicted labels. To compute the tightest iDP-DB, which enables to guard the label-only access with minimal accuracy decrease, we propose LUCID, which leverages several formal verification techniques. First, it encodes the problem as a mixed-integer linear program, defined over a network and over every network trained identically but without a unique data point.   Second, it abstracts a set of networks using a <em>hyper-network</em>. Third, it eliminates the overapproximation error via a novel branch-and-bound technique. Fourth, it bounds the differences of matching neurons in the network and the hyper-network, encodes them as linear constraints to prune the search space, and employs linear relaxation if they are small.   We evaluate LUCID on fully-connected and convolutional networks for four datasets and compare the results to existing DP training algorithms, which in particular provide iDP guarantees. We show that LUCID can provide classifiers with a perfect individuals’ privacy guarantee (0-iDP) – which is infeasible for DP training algorithms – with an accuracy decrease of 1.4%. For more relaxed ε-iDP guarantees, LUCID has an accuracy decrease of 1.2%. In contrast, existing DP training algorithms that obtain ε-DP guarantees, and in particular ε-iDP guarantees, reduce the accuracy by 12.7%.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720481">Language-Parametric Reference Synthesis</a></h3><ul class="DLauthors"><li class="nameList">Daniel A. A. Pelsmaeker</li><li class="nameList">Aron Zwaan</li><li class="nameList">Casper Bach</li><li class="nameList Last">Arjan J. Mooij</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Modern Integrated Development Environments (IDEs) offer automated refactorings to aid programmers in developing and maintaining software. However, implementing sound automated refactorings is challenging, as refactorings may inadvertently introduce name-binding errors or cause references to resolve to incorrect declarations. To address these issues, previous work by Schäfer et al. proposed replacing concrete references with _locked references_ to separate binding preservation from transformation. Locked references vacuously resolve to a specific declaration, and after transformation must be replaced with concrete references that also resolve to that declaration. Synthesizing these references requires a faithful inverse of the name lookup functions of the underlying language.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Manually implementing such inverse lookup functions is challenging due to the complex name-binding features in modern programming languages. Instead, we propose to automatically derive this function from type system specifications written in the Statix meta-DSL. To guide the synthesis of qualified references we use _scope graphs_, which represent the binding structure of a program, to infer their names and discover their syntactic structure.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We evaluate our approach by synthesizing concrete references for locked references in 2528 Java, 196 ChocoPy, and 49 Featherweight Generic Java test programs. Our approach yields a principled language-parametric method for synthesizing references.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720482">Multi-Language Probabilistic Programming</a></h3><ul class="DLauthors"><li class="nameList">Sam Stites</li><li class="nameList">John M. Li</li><li class="nameList Last">Steven Holtzen</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>There are many different probabilistic programming languages that are    specialized to specific kinds of probabilistic programs. From a usability and    scalability perspective, this is undesirable: today, probabilistic programmers    are forced up-front to decide which language they want to use and cannot    mix-and-match different languages for handling heterogeneous programs.    To rectify this, we seek a foundation for sound interoperability for    probabilistic programming languages: just as today’s Python programmers can    resort to low-level C programming for performance, we argue that probabilistic    programmers should be able to freely mix different languages for meeting the    demands of heterogeneous probabilistic programming environments. As a first    step towards this goal, we introduce MultiPPL, a probabilistic    multi-language that enables programmers to interoperate between two different    probabilistic programming languages: one that leverages a high-performance    exact discrete inference strategy, and one that uses approximate importance    sampling. We give a syntax and semantics for MultiPPL, prove soundness    of its inference algorithm, and provide empirical evidence that it enables    programmers to perform inference on complex heterogeneous probabilistic    programs and flexibly exploits the strengths and weaknesses of two languages    simultaneously.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720525">Lilo: A Higher-Order, Relational Concurrent Separation Logic for Liveness</a></h3><ul class="DLauthors"><li class="nameList">Dongjae Lee</li><li class="nameList">Janggun Lee</li><li class="nameList">Taeyoung Yoon</li><li class="nameList">Minki Cho</li><li class="nameList">Jeehoon Kang</li><li class="nameList Last">Chung-Kil Hur</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Concurrent separation logic (CSL) has excelled in verifying safety properties across various applications, yet its application to liveness properties remains limited. While existing approaches like TaDA Live and Fair Operational Semantics (FOS) have made significant strides, they still face limitations. TaDA Live struggles to verify certain classes of programs, particularly concurrent objects with non-local linearization points, and lacks support for general liveness properties such as "good things happen infinitely often". On the other hand, FOS’s scalability is hindered by the absence of thread modular reasoning principles and modular specifications.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This paper introduces Lilo, a higher-order, relational CSL designed to overcome these limitations. Our core observation is that FOS helps us to maintain simple primitives for our logic, which enable us to explore design space with fewer restrictions. As a result, Lilo adapts various successful techniques from literature. It supports reasoning about non-terminating programs by supporting refinement proofs, and also provides Iris-style invariants and modular specifications to facilitate modular verification. To support higher-order reasoning without relying on step-indexing, we develop a technique called stratified propositions inspired by Nola. In particular, we develop novel abstractions for liveness reasoning that bring these techniques together in a uniform way. We show Lilo’s scalability through case studies, including the first termination-guaranteeing modular verification of the elimination stack. Lilo and examples in this paper are mechanized in Coq.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720484">The Simulation Semantics of Synthesisable Verilog</a></h3><ul class="DLauthors"><li class="nameList Last">Andreas Lööw</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Despite numerous previous formalisation projects targeting Verilog, the semantics of Verilog defined by the Verilog standard -- Verilog's simulation semantics -- has thus far eluded definitive mathematical formalisation. Previous projects on formalising the semantics have made good progress but no previous project provides a formalisation that can be used to execute or formally reason about real-world hardware designs. In this paper, we show that the reason for this is that the Verilog standard is inconsistent both with Verilog practice and itself. We pinpoint a series of problems in the Verilog standard that we have identified in how the standard defines the semantics of the subset of Verilog used to describe hardware designs, that is, the synthesisable subset of Verilog. We show how the most complete Verilog formalisation to date inherits these problems and how, after we repair these problems in an executable implementation of the formalisation, the repaired implementation can be used to execute real-world hardware designs. The existing formalisation together with the repairs hence constitute the first formalisation of Verilog's simulation semantics compatible with real-world hardware designs. Additionally, to make the results of this paper accessible to a wider (nonmathematical) audience, we provide a visual formalisation of Verilog's simulation semantics.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720486">Revealing Sources of (Memory) Errors via Backward Analysis</a></h3><ul class="DLauthors"><li class="nameList">Flavio Ascari</li><li class="nameList">Roberto Bruni</li><li class="nameList">Roberta Gori</li><li class="nameList Last">Francesco Logozzo</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Sound over-approximation methods are effective for proving the absence of errors, but inevitably produce false alarms that can hamper programmers.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In contrast, under-approximation methods focus on bug detection and are free from false alarms.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In this work, we present two novel proof systems designed to locate the source of errors via backward under-approximation, namely Sufficient Incorrectness Logic (SIL) and its specialization for handling memory errors, called Separation SIL.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The SIL proof system is minimal, sound and complete for Lisbon triples, enabling a detailed comparison of triple-based program logics across various dimensions, including negation, approximation, execution order, and analysis objectives.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+More importantly, SIL lays the foundation for our main technical contribution, by distilling the inference rules of Separation SIL, a sound and (relatively) complete proof system for automated backward reasoning in programs involving pointers and dynamic memory allocation. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The completeness result for Separation SIL relies on a careful crafting of both the assertion language and the rules for atomic commands.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720488">Artemis: Toward Accurate Detection of Server-Side Request Forgeries through LLM-Assisted Inter-procedural Path-Sensitive Taint Analysis</a></h3><ul class="DLauthors"><li class="nameList">Yuchen Ji</li><li class="nameList">Ting Dai</li><li class="nameList">Zhichao Zhou</li><li class="nameList">Yutian Tang</li><li class="nameList Last">Jingzhu He</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Server-side request forgery (SSRF) vulnerabilities are inevitable in PHP web applications. Existing static tools in detecting vulnerabilities in PHP web applications neither contain SSRF-related features to enhance detection accuracy nor consider PHP’s dynamic type features. In this paper, we present Artemis, a static taint analysis tool for detecting SSRF vulnerabilities in PHP web applications. First, Artemis extracts both PHP built-in and third-party functions as candidate source and sink functions. Second, Artemis constructs both explicit and implicit call graphs to infer functions’ relationships. Third, Artemis performs taint analysis based on a set of rules that prevent over-tainting and pauses when SSRF exploitation is impossible. Fourth, Artemis analyzes the compatibility of path conditions to prune false positives. We have implemented a prototype of Artemis and evaluated it on 250 PHP web applications. Artemis reports 207 true vulnerable paths (106 true SSRFs) with 15 false positives. Of the 106 detected SSRFs, 35 are newly found and reported to developers, with 24 confirmed and assigned CVE IDs.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720526">PAFL: Enhancing Fault Localizers by Leveraging Project-Specific Fault Patterns</a></h3><ul class="DLauthors"><li class="nameList">Donguk Kim</li><li class="nameList">Minseok Jeon</li><li class="nameList">Doha Hwang</li><li class="nameList Last">Hakjoo Oh</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present PAFL, a new technique for enhancing existing fault localization methods by leveraging project-specific fault patterns.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We observed that each software project has its own challenges and suffers from recurring fault patterns associated with those challenges. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+However, existing fault localization techniques use a universal localization strategy without considering those repetitive faults.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+To address this limitation, our technique, called project-aware fault localization (PAFL), enables existing fault localizers to leverage project-specific fault patterns.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Given a buggy version of a project and a baseline fault localizer, PAFL first mines the fault patterns from past buggy versions of the project. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Then, it uses the mined fault patterns to update the suspiciousness scores of statements computed by the baseline fault localizer.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+To this end, we use two novel ideas.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+First, we design a domain-specific fault pattern-description language to represent various fault patterns.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+An instance, called crossword, in our language describes a project-specific fault pattern and how it affects the suspiciousness scores of statements.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Second, we develop an algorithm that synthesizes crosswords (i.e., fault patterns) from past buggy versions of the project.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Evaluation using seven baseline fault localizers and 12 real-world C/C++ and Python projects demonstrates that PAFL effectively, robustly, and efficiently improves the performance of the baseline fault localization techniques.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720492">Automatic Linear Resource Bound Analysis for Rust via Prophecy Potentials</a></h3><ul class="DLauthors"><li class="nameList">Qihao Lian</li><li class="nameList Last">Di Wang</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Rust has become a popular system programming language that strikes a balance between memory safety and performance. Rust’s type system ensures the safety of low-level memory controls; however, a well-typed Rust program is not guaranteed to enjoy high performance. This article studies static analysis for resource consumption of Rust programs, aiming at understanding the performance of Rust programs. Although there have been tons of studies on static resource analysis, exploiting Rust’s memory safety—especially the borrow mechanisms and their properties—to aid resource-bound analysis, remains unexplored.
+ 
+ 
+ 
+This article presents RaRust, a type-based linear resource-bound analysis for well-typed Rust programs. RaRust follows the methodology of automatic amortized resource analysis (AARA) to build a resource-aware type system. To support Rust’s borrow mechanisms, including shared and mutable borrows, RaRust introduces shared and novel prophecy potentials to reason about borrows compositionally. To prove the soundness of RaRust, this article proposes Resource-Aware Borrow Calculus (RABC) as a variant of recently proposed Low-Level Borrow Calculus (LLBC). The experimental evaluation of a prototype implementation of RaRust demonstrates that RaRust is capable of inferring symbolic linear resource bounds for Rust programs featuring shared and mutable borrows, reborrows, heap-allocated data structures, loops, and recursion.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720493">Characterizing Implementability of Global Protocols with Infinite States and Data</a></h3><ul class="DLauthors"><li class="nameList">Elaine Li</li><li class="nameList">Felix Stutz</li><li class="nameList">Thomas Wies</li><li class="nameList Last">Damien Zufferey</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We study the implementability problem for an expressive class of symbolic communication protocols involving multiple participants. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Our symbolic protocols describe infinite states and data values using dependent refinement predicates. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Implementability asks whether a global protocol specification admits a distributed, asynchronous implementation, namely one for each participant, that is deadlock-free and exhibits the same behavior as the specification. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We provide a unified explanation of seemingly disparate sources of non-implementability through a precise semantic characterization of implementability for infinite protocols. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Our characterization reduces the problem of implementability to (co)reachability in the global protocol restricted to each participant. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+This compositional reduction yields the first sound and relatively complete algorithm for checking implementability of symbolic protocols. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We use our characterization to show that for finite protocols, implementability is co-NP-complete for explicit representations and PSPACE-complete for symbolic representations. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The finite, explicit fragment subsumes a previously studied fragment of multiparty session types for which our characterization yields a co-NP decision procedure, tightening a prior PSPACE upper bound.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720497">Polymorphic Records for Dynamic Languages</a></h3><ul class="DLauthors"><li class="nameList">Giuseppe Castagna</li><li class="nameList Last">Loïc Peyrot</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We study <em>row polymorphism</em> for records types in systems with set-theoretic types, specifically, union, intersection, and negation types. We consider record types that embed row variables and define a subtyping relation by interpreting record types into sets of record values, and row variables into sets of <em>rows</em>, that is, “chunks” of record values where some record keys are left out: subtyping is then containment of the interpretations.        We define a λ-calculus equipped with operations for field extension, selection, and deletion, its operational semantics, and a type system that we prove to be sound. We provide algorithms for deciding the typing and subtyping relations, and to decide whether two types can be instantiated to make one subtype of the other.                This research is motivated by the current trend of defining static type systems for dynamic languages and, in our case, by an ongoing effort of endowing the Elixir programming language with a gradual type system.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720498">Efficient Algorithms for the Uniform Tokenization Problem</a></h3><ul class="DLauthors"><li class="nameList">Angela W. Li</li><li class="nameList Last">Konstantinos Mamouras</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Tokenization (also known as scanning or lexing) is a computational task that has applications in the lexical analysis of programs during compilation and in data extraction and analysis for unstructured or semi-structured data (e.g., data represented using the JSON and CSV data formats). We propose two algorithms for the tokenization problem that have linear time complexity (in the length of the input text) without using large amounts of memory. We also show that an optimized version of one of these algorithms performs well compared to prior approaches on practical tokenization workloads.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720499">Laurel: Unblocking Automated Verification with Large Language Models</a></h3><ul class="DLauthors"><li class="nameList">Eric Mugnier</li><li class="nameList">Emmanuel Anaya Gonzalez</li><li class="nameList">Nadia Polikarpova</li><li class="nameList">Ranjit Jhala</li><li class="nameList Last">Zhou Yuanyuan</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Program verifiers such as Dafny automate proofs by outsourcing them to an SMT solver. This automation is not perfect, however, and the solver often requires hints in the form of <em>assertions</em>, creating a burden for the proof engineer. In this paper, we propose , a tool that alleviates this burden by automatically generating assertions using large language models (LLMs).  To improve the success rate of LLMs in this task, we design two domain-specific prompting techniques. First, we help the LLM determine the location of the missing assertion by analyzing the verifier’s error message and inserting an <em>assertion placeholder</em> at that location. Second, we provide the LLM with example assertions from the same codebase, which we select based on a new <em>proof similarity</em> metric. We evaluate our techniques on our new benchmark , a dataset of complex lemmas we extracted from three real-world Dafny codebases. Our evaluation shows that is able to generate over 56.6% of the required assertions given only a few attempts, making LLMs an affordable tool for unblocking program verifiers without human intervention.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720500">Scaling Optimization over Uncertainty via Compilation</a></h3><ul class="DLauthors"><li class="nameList">Minsung Cho</li><li class="nameList">John Gouwar</li><li class="nameList Last">Steven Holtzen</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Probabilistic inference is fundamentally hard, yet many tasks require optimization on top of inference, which is even harder. We present a new <em>optimization-via-compilation</em> strategy to scalably solve a certain class of such problems. In particular, we introduce a new intermediate representation (IR), binary decision diagrams weighted by a novel notion of <em>branch-and-bound semiring</em>, that enables a scalable branch-and-bound based optimization procedure. This IR automatically <em>factorizes</em> problems through program structure and <em>prunes</em> suboptimal values via a straightforward branch-and-bound style algorithm to find optima. Additionally, the IR is naturally amenable to <em>staged compilation</em>, allowing the programmer to query for optima mid-compilation to inform further executions of the program. We showcase the effectiveness and flexibility of the IR by implementing two performant languages that both compile to it: dappl and pineappl. dappl is a functional language that solves maximum expected utility problems with first-class support for rewards, decision making, and conditioning. pineappl is an imperative language that performs exact probabilistic inference with support for nested marginal maximum a posteriori (MMAP) optimization via staging.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720501">A Unifying Approach to Product Constructions for Quantitative Temporal Inference</a></h3><ul class="DLauthors"><li class="nameList">Kazuki Watanabe</li><li class="nameList">Sebastian Junges</li><li class="nameList">Jurriaan Rot</li><li class="nameList Last">Ichiro Hasuo</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Probabilistic programs are a powerful and convenient approach to formalising distributions over system executions. A classical verification problem for probabilistic programs is <em>temporal inference</em>: to compute the likelihood that the execution traces satisfy a given temporal property. This paper presents a general framework for temporal inference, which applies to a rich variety of quantitative models including those that arise in the operational semantics of probabilistic and weighted programs.   The key idea underlying our framework is that in a variety of existing approaches, the main construction that enables temporal inference is that of a <em>product</em> between the system of interest and the temporal property. We provide a unifying mathematical definition of product constructions, enabled by the realisation that 1) both systems and temporal properties can be modelled as <em>coalgebras</em> and 2) product constructions are <em>distributive laws</em> in this context. Our categorical framework leads us to our main contribution: a sufficient condition for <em>correctness</em>, which is precisely what enables to use the product construction for temporal inference.   We show that our framework can be instantiated to naturally recover a number of disparate approaches from the literature including, e.g., partial expected rewards in Markov reward models, resource-sensitive reachability analysis, and weighted optimization problems.  Furthermore, we demonstrate a product of weighted programs and weighted temporal properties as a new instance to show the scalability of our approach.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720502">Bolt-On Strong Consistency: Specification, Implementation, and Verification</a></h3><ul class="DLauthors"><li class="nameList">Nicholas V. Lewchenko</li><li class="nameList">Gowtham Kaki</li><li class="nameList Last">Bor-Yuh Evan Chang</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Strongly-consistent replicated data stores are a popular foundation for many kinds of online services, but their implementations are very complex. Strong replication is not <em>available</em> under network partitions, and so achieving a functional degree of fault-tolerance requires correctly implementing <em>consensus algorithms</em> like Raft and Paxos. These algorithms are notoriously difficult to reason about, and many data stores implement custom variations to support unique performance tradeoffs, presenting an opportunity for automated verification tools. Unfortunately, existing tools that have been applied to distributed consensus demand too much developer effort, a problem stemming from the low-level programming model in which consensus and strong replication are implemented—asynchronous message passing—which thwarts decidable automation by exposing the details of asynchronous communication.  In this paper, we consider the implementation and automated verification of strong replication systems <em>as applications</em> of weak replicated data stores. Weak stores, being available under partition, are a suitable foundation for performant distributed applications. Crucially, they abstract asynchronous communication and allow us to derive local-scope conditions for the verification of consensus safety. To evaluate this approach, we have developed a verified-programming framework for the weak replicated state model, called Super-V. This framework enables SMT-based verification based on local-scope artifacts called <em>stable update preconditions</em>, replacing standard-practice global inductive invariants. We have used our approach to implement and verify a strong replication system based on an adaptation of the Raft consensus algorithm.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720503">SPLAT: A Framework for Optimised GPU Code-Generation for SParse reguLar ATtention</a></h3><ul class="DLauthors"><li class="nameList">Ahan Gupta</li><li class="nameList">Yueming Yuan</li><li class="nameList">Devansh Jain</li><li class="nameList">Yuhao Ge</li><li class="nameList">David Aponte</li><li class="nameList">Yanqi Zhou</li><li class="nameList Last">Charith Mendis</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Multi-head-self-attention (MHSA) mechanisms achieve state-of-the-art (SOTA) performance across natural language processing and vision tasks. However, their quadratic dependence on sequence lengths has bottlenecked inference speeds. To circumvent this bottleneck, researchers have proposed various sparse-MHSA models, where a subset of full attention is computed. Despite their promise, current sparse libraries and compilers do not support high-performance implementations for <em>diverse</em> sparse-MHSA patterns due to the underlying sparse formats they operate on. On one end, sparse libraries operate on <em>general sparse formats</em> which target extreme amounts of random sparsity (&lt;10% non-zero values) and have high metadata in <em>O</em>(<em>nnzs</em>). On the other end, hand-written kernels operate on <em>custom sparse formats</em> which target specific sparse-MHSA patterns. However, the sparsity patterns in sparse-MHSA are moderately sparse (10-50% non-zero values) and varied, resulting in general sparse formats incurring high metadata overhead and custom sparse formats covering few sparse-MSHA patterns, trading off generality for performance.   We bridge this gap, achieving both generality and performance, by proposing a novel sparse format: affine-compressed-sparse-row (ACSR) and supporting code-generation scheme, SPLAT, that generates high-performance implementations for diverse sparse-MHSA patterns on GPUs. Core to our proposed format and code generation algorithm is the observation that common sparse-MHSA patterns have uniquely regular geometric properties. These properties, which can be analyzed just-in-time, expose novel optimizations and tiling strategies that SPLAT exploits to generate high-performance implementations for diverse patterns. To demonstrate SPLAT’s efficacy, we use it to generate code for various sparse-MHSA models, achieving speedups of up-to 2.05x and 4.05x over hand-written kernels written in triton and TVM respectively on A100 GPUs in single-precision.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720504">Checking Observational Correctness of Database Systems</a></h3><ul class="DLauthors"><li class="nameList">Lauren Pick</li><li class="nameList">Amanda Xu</li><li class="nameList">Ankush Desai</li><li class="nameList">Sanjit A. Seshia</li><li class="nameList Last">Aws Albarghouthi</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Clients rely on database systems to be correct, which requires the system not only to implement transactions’ semantics correctly but also to provide isolation guarantees for the transactions. This paper presents a client-centric technique for checking <em>both</em> semantic correctness and isolation-level guarantees for black-box database systems based on observations collected from running transactions on these systems. Our technique verifies <em>observational correctness</em> with respect to a given set of transactions and observations for them, which holds iff there exists a possible correct execution of the transactions under a given isolation level that could result in these observations. Our technique relies on novel symbolic encodings of (1) the semantic correctness of database transactions in the presence of weak isolation and (2) isolation-level guarantees. These are used by the checker to query a Satisfiability Modulo Theories solver. We applied our tool Troubadour to verify observational correctness of several database systems, including PostgreSQL and an industrial system under development, in which the tool helped detect two new bugs. We also demonstrate that Troubadour is able to find known semantic correctness bugs and detect isolation-related anomalies.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720505">Counterexample-Guided Inference of Modular Specifications</a></h3><ul class="DLauthors"><li class="nameList">William T. Hallahan</li><li class="nameList">Ranjit Jhala</li><li class="nameList Last">Ruzica Piskac</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Modular verification tools allow programmers to compositionally specify and prove function specifications.    When using a modular verifier, proving a specification about a function <em>f</em>    requires additional specifications for the functions called by <em>f</em>.    With existing state of the art tools,    programmers must manually write the specifications for callee functions.    We present a counterexample guided algorithm    to automatically infer these specifications.    The algorithm is parameterized over    a verifier,    counterexample generator,    and constraint guided synthesizer.    We show that if each of these three components    is sound and complete over a finite set of possible specifications, our algorithm is sound and complete as well.    Additionally, we introduce <em>size-bounded</em> synthesis functions,    which extends our completeness result    to an infinite set of possible specifications.    In particular, we describe a size-bounded synthesis function    for linear integer arithmetic constraints.    We conclude with an evaluation demonstrating our technique on a variety of benchmarks.                                                                                                                    When using a modular verifier, proving a specification about a function <em>f</em>                                                                                                                                requires additional specifications for the functions called by <em>f</em>.                                                                                                                                With existing state of the art tools,                                                                                                                                programmers must manually write the specifications for callee functions.                                                                                                                                We present a counterexample guided algorithm                                                                                                                                to automatically infer these specifications.                                                                                                                                The algorithm is parameterized over                                                                                                                                a verifier,                                                                                                                                counterexample generator,                                                                                                                                and constraint guided synthesizer.                                                                                                                                We show that if each of these three components                                                                                                                                is sound and complete over a finite set of possible specifications, our algorithm is sound and complete as well.                                                                                                                                Additionally, we introduce <em>size-bounded</em> synthesis functions,                                                                                                                                which extends our completeness result                                                                                                                                to an infinite set of possible specifications.                                                                                                                                In particular, we describe a size-bounded synthesis function                                                                                                                                for linear integer arithmetic constraints.                                                                                                                                We conclude with an evaluation demonstrating our technique on a variety of benchmarks.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720506">Compressed and Parallelized Structured Tensor Algebra</a></h3><ul class="DLauthors"><li class="nameList">Mahdi Ghorbani</li><li class="nameList">Emilien Bauer</li><li class="nameList">Tobias Grosser</li><li class="nameList Last">Amir Shaikhha</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Tensor algebra is a crucial component for data-intensive workloads such as machine learning and scientific computing. As the complexity of data grows, scientists often encounter a dilemma between the highly specialized dense tensor algebra and efficient structure-aware algorithms provided by sparse tensor algebra. In this paper, we introduce DASTAC, a framework to propagate the tensors's captured high-level structure down to low-level code generation by incorporating techniques such as automatic data layout compression, polyhedral analysis, and affine code generation. Our methodology reduces memory footprint by automatically detecting the best data layout, heavily benefits from polyhedral optimizations, leverages further optimizations, and enables parallelization through MLIR. Through extensive experimentation, we show that DASTAC can compete if not significantly outperform specialized hand-tuned implementation by experts. We observe 0.16x - 44.83x and 1.37x - 243.78x speed-up for single- and multi-threaded cases, respectively.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720507">Compiling Classical Sequent Calculus to Stock Hardware: The Duality of Compilation</a></h3><ul class="DLauthors"><li class="nameList">Philipp Schuster</li><li class="nameList">Marius Müller</li><li class="nameList">Klaus Ostermann</li><li class="nameList Last">Jonathan Immanuel Brachthäuser</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Compiler intermediate representations have to strike a balance between being
+ 
+ 
+ 
+high-level enough to allow for easy translation of surface languages into them
+ 
+ 
+ 
+and being low-level enough to make code generation easy. An intermediate representation
+ 
+ 
+ 
+based on a logical system typically has the former property and additionally satisfies
+ 
+ 
+ 
+several meta-theoretical properties which are valuable when optimizing code.
+ 
+ 
+ 
+Recently, classical sequent calculus, which is widely recognized and impactful within the
+ 
+ 
+ 
+fields of logic and proof theory, has been proposed as a natural candidate in
+ 
+ 
+ 
+this regard, due to its symmetric treatment of data and control flow. For
+ 
+ 
+ 
+such a language to be useful, however, it must eventually be compiled to machine
+ 
+ 
+ 
+code. In this paper, we introduce an intermediate representation that is based
+ 
+ 
+ 
+on classical sequent calculus and demonstrate that this language can be directly
+ 
+ 
+ 
+translated to conventional hardware. We provide both a formal description and an
+ 
+ 
+ 
+implementation. Preliminary performance evaluations indicate that our approach
+ 
+ 
+ 
+is viable.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720508">Combining Formal and Informal Information in Bayesian Program Analysis via Soft Evidences</a></h3><ul class="DLauthors"><li class="nameList">Tianchi Li</li><li class="nameList Last">Xin Zhang</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We propose a neural-symbolic style of program analysis that systematically incorporates informal information in a Datalog program analysis. The analysis is converted into a probabilistic analysis by attaching probabilities to its rules. And its output becomes a ranking of possible alarms based on their probabilities. We apply a neural network to judge how likely an analysis fact holds based on informal information such as variable names and String constants. This information is encoded as a soft evidence in the probabilistic analysis, which is a “noisy sensor” of the fact. With this information, the probabilistic analysis produces a better ranking of the alarms. We have demonstrated the effectiveness of our approach by improving a pointer analysis based on variable names on eight Java benchmarks, and a taint analysis that considers inter-component communication on eight Android applications. On average, our approach has improved the inversion count between true alarms and false alarms, mean rank of true alarms, and median rank of true alarms by 55.4%, 44.9%, and 58% on the pointer analysis, and 67.2%, 44.7%, and 37.6% on the taint analysis respectively. We also demonstrated the generality of our soft evidence mechanism by improving a taint analysis and an interval analysis for C programs using dynamic information from program executions.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720509">Automated Verification of Soundness of DNN Certifiers</a></h3><ul class="DLauthors"><li class="nameList">Avaljot Singh</li><li class="nameList">Yasmin Chandini Sarita</li><li class="nameList">Charith Mendis</li><li class="nameList Last">Gagandeep Singh</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The uninterpretability of Deep Neural Networks (DNNs) hinders their use in safety-critical applications. Abstract Interpretation-based DNN certifiers provide promising avenues for building trust in DNNs. Unsoundness in the mathematical logic of these certifiers can lead to incorrect results. However, current approaches to ensure their soundness rely on manual, expert-driven proofs that are tedious to develop, limiting the speed of developing new certifiers. Automating the verification process is challenging due to the complexity of verifying certifiers for arbitrary DNN architectures and handling diverse abstract analyses.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+We introduce ProveSound, a novel verification procedure that automates the soundness verification of
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DNN certifiers for arbitrary DNN architectures. Our core contribution is the novel concept of a symbolic DNN, using which, ProveSound reduces the soundness property, a universal quantification over arbitrary DNNs, to a tractable symbolic representation, enabling verification with standard SMT solvers. By formalizing the syntax and operational semantics of ConstraintFlow, a DSL for specifying certifiers, ProveSound efficiently verifies both existing and new certifiers, handling arbitrary DNN architectures.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Our code is available at https://github.com/uiuc-focal-lab/constraintflow.git</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720510">Show Me Why It’s Correct: Saving 1/3 of Debugging Time in Program Repair with Interactive Runtime Comparison</a></h3><ul class="DLauthors"><li class="nameList">Ruixin Wang</li><li class="nameList">Zhongkai Zhao</li><li class="nameList">Le Fang</li><li class="nameList">Nan Jiang</li><li class="nameList">Yiling Lou</li><li class="nameList">Lin Tan</li><li class="nameList Last">Tianyi Zhang</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Automated Program Repair (APR) holds the promise of alleviating the burden of debugging and fixing software bugs. Despite this, developers still need to manually inspect each patch to confirm its correctness, which is tedious and time-consuming. This challenge is exacerbated in the presence of plausible patches, which accidentally pass test cases but may not correctly fix the bug. To address this challenge, we propose an interactive approach called iFix to facilitate patch understanding and comparison based on their runtime difference. iFix performs static analysis to identify runtime variables related to the buggy statement and captures their runtime values during execution for each patch. These values are then aligned across different patch candidates, allowing users to compare and contrast their runtime behavior. To evaluate iFix, we conducted a within-subjects user study with 28 participants. Compared with manual inspection and a state-of-the-art interactive patch filtering technique, iFix reduced participants’ task completion time by 36% and 33% while also improving their confidence by 50% and 20%, respectively. Besides, quantitative experiments demonstrate that iFix improves the ranking of correct patches by at least 39% compared with other patch ranking methods and is generalizable to different APR tools.</p>
+			</div></div><h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3721089">Symbolic MRD: Dynamic Memory, Undefined Behaviour, and Extrinsic Choice</a></h3><ul class="DLauthors"><li class="nameList">Jay Richards</li><li class="nameList">Daniel Wright</li><li class="nameList">Simon Cooksey</li><li class="nameList Last">Mark Batty</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We present the first thin-air free memory model that admits compiler optimisations that aggressively leverage knowledge from alias analysis, an assumption of freedom from undefined behaviour, and from the extrinsic choices of real implementations such as over-alignment. Our model has tooling support with state-of-the-art performance, executing a battery of tests orders of magnitude quicker than other executable thin-air free semantics. The model integrates with the C/C++ memory model through an exportable semantic dependency relation, it allows standard compilation mappings for atomics, and it matches all tests in the recently published desiderata for C/C++ from the ISO.</p>
+			</div></div></div></div></body></html>
