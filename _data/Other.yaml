@@ -1,3 +1,10 @@
+2024:
+- Award: John Vlissides Award
+  Awardee: "Noam Zilberstein, Cornell University"
+  Citation: |
+    Noam Zilberstein’s PhD work presents a new formal foundation and style of proof system called Outcome Logic, designed to encompass both correctness and incorrectness reasoning for a variety of different program logics and corresponding program analysis techniques.
+    Its motivations and contributions are partly theoretical, providing a broad, generic theory that can connect and combine many disparate reasoning ideas. However, the work also has strong potential for practical impact: for example, the generic support for incorrectness reasoning has applications for the rigorous development of future automated bug-finding tools.
+
 2022:
 - Award: ASPLOS Most Influential Paper Award
   Awardee: Shan Lu, Soyeon Park, Eunsoo Seo, and Yuanyuan Zhou
