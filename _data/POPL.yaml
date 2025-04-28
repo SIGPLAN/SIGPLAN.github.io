@@ -1,3 +1,12 @@
+2025:
+- Awardee: Ralf Jung, David Swasey, Filip Sieczkowski, Kasper Paabøl Svendsen, Aaron Joseph Turon, Lars Birkedal, Derek Dreyer
+  Other: |
+    (for 2014): _[Iris: Monoids and Invariants as an Orthogonal Basis for Concurrent Reasoning](https://dl.acm.org/doi/10.1145/2775051.2676980)_
+  Citation: |
+    This paper introduces Iris, a novel concurrent separation logic with a simple premise that monoids and invariants are all you need. Next, Iris matured into a higher-order concurrent separation logic framework,
+    implemented and verified in the Coq proof assistant. These last ten years, Iris has been used for reasoning about safety of concurrent programs, as the logic in logical relations, to reason about type-systems and  data-abstraction, by various research groups.
+
+
 2024:
 - Awardee: Ramana Kumar, Magnus Myreen, Michael Norrish, Scott Owens
   Other: |
