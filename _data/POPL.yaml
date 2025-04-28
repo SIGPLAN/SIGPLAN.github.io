@@ -3,9 +3,7 @@
   Other: |
     (for 2014): _[Iris: Monoids and Invariants as an Orthogonal Basis for Concurrent Reasoning](https://dl.acm.org/doi/10.1145/2775051.2676980)_
   Citation: |
-    This paper introduces Iris, a novel concurrent separation logic with a simple premise that monoids and invariants are all you need. Next, Iris matured into a higher-order concurrent separation logic framework,
-    implemented and verified in the Coq proof assistant. These last ten years, Iris has been used for reasoning about safety of concurrent programs, as the logic in logical relations, to reason about type-systems and  data-abstraction, by various research groups.
-
+    This paper introduced Iris, a unifying framework for higher-order concurrent separation logic mechanized in the Rocq Prover (formerly Coq).  At the time Iris came along, the field of separation logic had become fractured, with many different and potentially incompatible logics being developed with bespoke models.  This first paper on Iris showed how a few key ingredients from prior work -- most notably, partial commutative monoids for representing user-defined ghost state (inspired by the Views framework) and higher-order impredicative invariants (inspired by step-indexed models) -- could be fruitfully combined to *derive* a wide variety of sophisticated proof techniques (such as “logically atomic triples”) that were built in as primitive in prior logics.  It was just the first step in a long line of work by a rich and diverse community of Iris developers from around the world.  Thanks to subsequent work on the Iris Proof Mode in Rocq, Iris has become a widely-used tool in both program verification and programming language meta-theory, with applications ranging from functional correctness proofs for low-level systems code (e.g. hypervisors, crash-safe systems, weak-memory data structures) to extensible semantic soundness proofs for high-level type systems (e.g. Rust, OCaml, Scala).
 
 2024:
 - Awardee: Ramana Kumar, Magnus Myreen, Michael Norrish, Scott Owens
