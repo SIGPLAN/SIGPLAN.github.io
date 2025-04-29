@@ -243,9 +243,6 @@ We have received open, public feedback from a number of members of the community
    <td><img src="http://sigplan.org/images/cares-photos/krishnamurthi.png" alt="Shriram Krishnamurthi" width="156"><br><a href="https://cs.brown.edu/~sk/">Shriram Krishnamurthi</a> (he/him)</td>
    <td>Member, <a href="mailto:shriram@brown.edu">shriram@brown.edu</a>, Brown University, Jan 2020-</td>
   </tr> 
-   <td><img src="http://sigplan.org/images/cares-photos/jones.png" alt="Simon Peyton Jones"  width="156"><br><a href="https://www.microsoft.com/en-us/research/people/simonpj/">Simon Peyton Jones</a> (he/him)</td>
-   <td>Member, <a href="mailto:simon.peytonjones@gmail.com">simon.peytonjones@gmail.com</a>, Epic Games, Jan 2020-</td>
-  </tr>
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/sridharan.jpg" alt="Manu Sridharan"  width="156"><br><a href="https://manu.sridharan.net">Manu Sridharan</a> (he/his)</td>
    <td>Member, <a href="mailto:manu@cs.ucr.edu">manu@cs.ucr.edu</a>, University of California, Riverside, Dec 2024-</td>
@@ -254,10 +251,6 @@ We have received open, public feedback from a number of members of the community
    <td><img src="http://sigplan.org/images/cares-photos/strout.png" alt="Michelle Strout"  width="156"><br><a href="http://cgi.cs.arizona.edu/~mstrout/">Michelle Strout</a> (she/her)</td>
    <td>Member, <a href="mailto:michelle.strout@hpe.com">michelle.strout@hpe.com</a>, HPE and University of Arizona, Jan 2020-</td>
   </tr> 
-<tr>
-   <td><img src="http://sigplan.org/images/cares-photos/walker.png" alt="David Walker" width="156"><br><a href="https://www.cs.princeton.edu/~dpw/">David Walker</a> (he/him)</td>
-   <td> Member, <a href="mailto:dpw@cs.princeton.edu">dpw@cs.princeton.edu</a>, Princeton University, Nov 2019- (founder co-chair 2019-2021) </td>
-  </tr>
 <tr>
    <td><img src="http://sigplan.org/images/cares-photos/weirich.png" alt="Stephanie Weirich"  width="156"><br><a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a> (she/her)</td>
    <td>Member, <a href="mailto:sweirich@cis.upenn.edu">sweirich@cis.upenn.edu</a>, University of Pennsylvania, Jan 2020-</td>
