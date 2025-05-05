@@ -1,0 +1,91 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>ExHET '25: Proceedings of the 2025 4th International Workshop on Extreme Heterogeneity Solutions</title></head><body><div id="DLtoc"><div id="DLheader"><h1>ExHET '25: Proceedings of the 2025 4th International Workshop on Extreme Heterogeneity Solutions</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3720555"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent">
+<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720555.3721988">A Unified Portable and Programmable Framework for Task-Based Execution and Dynamic Resource Management on Heterogeneous Systems</a></h3><ul class="DLauthors"><li class="nameList">Serhan Gener</li><li class="nameList">Sahil Hassan</li><li class="nameList">Liangliang Chang</li><li class="nameList">Chaitali Chakrabarti</li><li class="nameList">Tsung-Wei Huang</li><li class="nameList">Umit Ogras</li><li class="nameList Last">Ali Akoglu</li></ul><div class="DLabstract"><div style="display:inline"><p>Heterogeneous computing systems are essential for addressing the diverse computational needs of modern applications. However, they present a fundamental trade-off between easy programmability and performance. This paper addresses this trade-off by enabling performance and energy efficiency optimization while facilitating easy programming without delving into hardware details. It introduces CEDR-Taskflow, a comprehensive framework that automatically parallelizes user applications and dynamically schedules its tasks to heterogeneous platforms, enabling efficient resource utilization and ease of programming. Emulation-based studies on the Xilinx ZCU102 and NVIDIA Jetson AGX Xavier SoC platforms demonstrate that this integrated framework improves application execution time by up to 1.47x compared to state-of-the-art, while maintaining hardware-agnostic application development. Furthermore, this integration approach enables features such as streaming-enabled execution and schedule caching that reduce the time spent on task scheduling by up to 29.6x and results in up to 6.1x lower execution time.</p></div></div>
+
+
+<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720555.3721989">From OpenACC to OpenMP5 GPU Offloading: Performance Evaluation on NAS Parallel Benchmarks</a></h3><ul class="DLauthors"><li class="nameList">Yehonatan Fridman</li><li class="nameList">Yosef Goren</li><li class="nameList Last">Gal Oren</li></ul><div class="DLabstract"><div style="display:inline"><p>The NAS Parallel Benchmarks (NPB) are widely used to evaluate parallel programming models, yet lack a native OpenMP offloading implementation for GPUs. This gap is significant given OpenMP’s emergence as a versatile standard for heterogeneous systems, offering broad compatibility with both current and future GPU architectures. Existing solutions, such as those that directly translate OpenACC to a binary executable, are limited by OpenACC’s stagnation and vendor-specific constraints, while not exposing OpenMP, which is used internally as an intermediate representation.</p><p>This work addresses this limitation by developing a source-level translation of OpenACC-based NPB benchmarks into OpenMP5 offloading code. This translation employs a combination of automated source-to-source tool and manual optimization to ensure efficient execution across various GPU architectures. Performance evaluations indicate that the translated OpenMP versions deliver results comparable to the original OpenACC implementations, validating their reliability for GPU-based computations. Additionally, comparisons between GPU-accelerated OpenMP implementations and traditional CPU-based benchmarks reveal significant performance gains, especially in computationally intensive workloads. These findings highlight OpenMP’s potential as a unified programming model, offering superior portability and optimization capabilities across diverse hardware platforms.</p><p>The sources of this work are available at our repository.</p></div></div>
+
+
+<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3720555.3721990">Extending SEER for Extreme Heterogeneity</a></h3><ul class="DLauthors"><li class="nameList">Jhonny Gonzalez</li><li class="nameList">Jose Gonzalez</li><li class="nameList">Keita Teranishi</li><li class="nameList">Jeffrey S Vetter</li><li class="nameList Last">Pedro Valero-Lara</li></ul><div class="DLabstract"><div style="display:inline"><p>Heterogeneous and multi-device nodes are increasingly common in high-performance computing and data centers, yet existing programming models often lack simple, transparent, and portable support for these diverse architectures. The main contribution of this work is the development of novel SEER capabilities to address this challenge by providing a descriptive programming model that allows applications to seamlessly leverage heterogeneous nodes across various device types. SEER uses efficient memory management and can select the proper device[s] depending on the computational cost of the applications. This is completely transparent to the programmer, thereby providing a highly productive programming environment. Integrating extreme heterogeneity into the SEER library as shown with the use of NVIDIA and AMD GPUs simultaneously allows it to expand and exploit the performance possibilities. Our analysis based on the well-known Conjugate Gradient algorithm reports accelerations above 1.5 × on computationally demanding steps of such an algorithm by using both architectures simultaneously.</p></div></div>
+
+</div></div></body></html>
