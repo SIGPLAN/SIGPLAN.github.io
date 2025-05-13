@@ -1,0 +1,265 @@
+---
+title: "Call for Participation, 29th Ada-Europe International Conference on Reliable Software Technologies (AEiC 2025)"
+timestamp: "5/12/2025 17:03:03"
+start: "6/10/2025"
+end: "6/13/2025"
+---
+-----------------------------------------------------------------------
+
+Call for Participation
+
+29th Ada-Europe International Conference on
+Reliable Software Technologies (AEiC 2025)
+
+10-13 June 2025, Paris, France
+
+www.ada-europe.org/conference2025
+
+*** Early registration DEADLINE May 27 ***
+*** Extensive info and registration online ***
+*** Add tutorials and/or a workshop to your conference registration ***
+
+#AEiC2025 #AdaEurope #AdaProgramming
+
+Organized by Ada-Europe and Ada-France,
+in cooperation with ACM SIGPLAN,
+supported and sponsored by Embedded France, AdaCore, Emenda, Systerel,
+Scitools, Pacte Novation, Institut Frederik Bull, and Mines Paris
+
+-----------------------------------------------------------------------
+
+Preparations for AEiC 2025, the 29th Ada-Europe International
+Conference on Software Reliable Technologies, are well underway!
+
+Come to the Ada-Europe conference in Paris, experience a packed
+program in an exciting town, benefit from tutorials on Tuesday, join
+a workshop on Friday, enjoy the social events and some sightseeing!
+
+Register now: discounted fees until May 27!
+http://www.ada-europe.org/conference2025/registration.html
+
+Extra conference sponsorship allows for an extremely low 25 EUR fee for
+the Ada Developers Workshop on Friday!
+
+See below for an overview, and visit our website for more details about
+the conference program, registration fees, social events and many more.
+
+*** General Information
+
+The 29th Ada-Europe International Conference on Reliable Software
+Technologies (AEiC 2025) will take place in Paris, France.
+The conference schedule comprises a keynote and an invited talk,
+a journal track, an industrial track, a work-in-progress track,
+a vendor exhibition, parallel tutorials, and satellite workshops.
+There will be time for networking during breaks and lunches, as well
+as various social events.
+
+AEiC 2025 is the latest in a series of annual international conferences
+started in the early 80's, under the auspices of Ada-Europe, the
+international organization that promotes knowledge and use of the Ada
+programming language and reliable software in general, into academic
+education and research, and industrial practice.
+
+The Ada-Europe series of conferences has over the years become
+a leading international forum for providers, practitioners and
+researchers in reliable software technologies.  These events
+highlight the increased relevance of Ada in general and in safety-
+and security-critical systems in particular, and provide a unique
+opportunity for interaction and collaboration between academics and
+industrial practitioners.
+
+The 2025 edition of the conference continues a number of important
+innovations started in previous years:
+- reduced conference registration fee for all authors;
+- extra low registration fee Ada Developers workshop;
+- journal-based open-access publication model for peer-reviewed papers;
+- compact program with two core days (Wednesday & Thursday);
+- tutorials on Tuesday, followed by welcome event for all participants;
+- workshops on Friday, optional chill event on Thursday evening.
+
+*** Overview of the Week
+
+- Tue 10: 4 half-day tutorials, 1 full-day tutorial, welcome reception;
+- Wed 11: core technical program, conference banquet;
+- Thu 12: core technical program, post conference chill-out;
+- Fri 13: 3 full-day workshops.
+
+Extensive information on AEiC 2025 will be on the conference website,
+such as an overview of the program, the list of accepted papers and
+presentations, and descriptions of workshops, tutorials, keynote and
+invited presentations, and social events.  Also check the conference
+site for registration, accommodation and travel information.  The Final
+Program brochure will be available there as well.
+
+*** Venue
+http://www.ada-europe.org/conference2025/venue.html
+
+The conference will take place at Mines Paris, a founding member of
+Université PSL, a leading French engineering school and the French
+leader institution in research partnerships.  It is located along the
+Luxembourg gardens, next to the Quartier Latin, and is close to public
+transportation, including line B of the RER to Charles De Gaulle airport
+(CDG).
+
+Paris, the capital city of France, is renowned for its rich history,
+stunning architecture, and vibrant culture.  Often referred to as "The
+City of Light," Paris is home to iconic landmarks such as the Eiffel
+Tower, the Louvre Museum, and Notre-Dame Cathedral.  If you can stay
+over before or after the conference, there's a lot to see.  Check the
+Practical Information section of the conference website for more info.
+
+*** Invited Speakers
+http://www.ada-europe.org/conference2025/keynotes.html
+
+This year the conference will once more feature keynotes and invited
+talks.  All will address topics of relevance in the conference scope,
+with time for questions and answers.
+
+- On Wed morning, June 11, a keynote talk by Stefano Zacchiroli,
+  of Télécom Paris, France, on "Building a Safer Open Source Supply
+  Chain with Software Heritage, the Great Library of Source Code".
+
+- On Wed afternoon, June 11, an invited talk by Tullio Vardanega,
+  from University of Padua, Italy, on "Language Ownership: Key Moments
+  in the Lifetime of Ada".
+
+*** Conference Core Composition
+
+The core conference program features three distinct types of technical
+presentations, with different duration, in addition to the keynote and
+invited talks: journal-track talks (25 minutes), industrial-track talks
+(20 minutes), vendor presentations (15 minutes), work-in-progress-track
+talks (10 minutes).
+
+All papers presented in the journal track, the industrial track and
+the work-in-progress track have undergone peer review.  Presentations
+are combined into by-theme and not by-track sessions, in order that
+authors and participants alike enjoy all flavors of the program in
+a mixed as opposed to segregated combination.
+
+The list of accepted papers and presentations, and the detailed
+schedule, will be announced shortly.
+
+*** Tutorials
+http://www.ada-europe.org/conference2025/tutorials.html
+
+A full-day tutorial is offered on Tuesday 10th:
+
+- "Developing Bare-metal Embedded Software in SPARK Ada for 64-bit
+  ARM Platforms", by J. Germán Rivera, Tesla, USA.
+
+In parallel, four half-day tutorials are scheduled:
+
+- "Multiple Double and Multiword Arithmetic",
+  by Jan Verschelde, University of Illinois at Chicago, USA;
+
+- "Unleash the Power of Ada Generics",
+  by Gautier de Montmollin, Ada-Switzerland, Switzerland;
+
+- "Turning your Programming Language into a Modeling Language",
+  by S. Tucker Taft, AdaCore, USA;
+
+- "Introduction to the ALiRe Package Manager",
+  by Quentin Dauprat, Université de Caen, Normandie, France.
+
+*** Satellite Events
+
+Three workshops are held on Friday 13th:
+
+- 4th ADEPT workshop "AADL by its practitioners".
+  http://www.ada-europe.org/conference2025/workshop_adept.html
+
+- 10th International Workshop on "Challenges and New Approaches for
+  Dependable and Cyber-Physical System Engineering" (DeCPS 2025).
+  http://www.ada-europe.org/conference2025/decps.html
+
+- 2nd "Ada Developers Workshop", an informal yet dynamic gathering
+  for developers in the Ada community to meet, share insights, and
+  present their latest projects or project updates; a full "Ada day"
+  with 8 technical presentations on various Ada-related topics and
+  10 authors from 5 countries: Belgium, France, Spain, Switzerland,
+  and USA.
+  http://www.ada-europe.org/conference2025/workshop_adadev.html
+
+*** Social Program
+http://www.ada-europe.org/conference2025/social_program.html
+
+The conference provides several opportunities to socialize:
+
+- Each day: coffee breaks and lunches offer ample time for interaction
+  and networking with participants and vendors.
+
+- Tuesday early evening: Welcome Reception (details to be announced).
+
+- On conference days: Mineralogy Museum.
+  The École des Mines features a splendid Mineralogy museum.  During
+  the conference, you can access it free of charge by showing your
+  name badge.  Do not miss this opportunity!
+
+- Wednesday evening: Conference Banquet at the "Bouillon Racine",
+  a typical Parisian restaurant built in 1906 and classified as
+  "historical monument".  The restaurant is located within walking
+  distance from the conference location.  We will have dinner in the
+  beautiful dining room on the first floor, an authentic turn of the
+  20th century decoration.
+
+- Thursday evening: Chill Event at the Café Latin, a casual typical
+  café, to have a little chat with colleagues during an informal dinner
+  (separate registration).  For those who want to get a feeling of the
+  Latin Quarter, we prepared an itinerary that will show you the main
+  milestones of the neighborhood while walking to the Café Latin.
+
+*** Further Information
+
+Registration:
+- registration information is provided at
+  http://www.ada-europe.org/conference2025/registration.html
+- early registration discount until Tuesday May 27, 2025
+- payment possible by credit card or bank transfer
+- special low conference fee for authors
+- discount for Ada-Europe and ACM SIGPLAN members
+- registration includes coffee breaks, lunches and social events
+- strong discount on conference fees for students
+- minimal fee for Ada Developers Workshop
+- see registration page for all details
+
+Promotion:
+- recommended hashtags: #AEiC2025 #AdaEurope #AdaProgramming
+
+The conference is organized by:
+- Ada-Europe http://www.ada-europe.org/
+- Ada-France https://www.ada-france.org/
+
+in cooperation with:
+- ACM SIGPLAN http://www.sigplan.org/
+
+supported and sponsored by:
+- Embedded France https://www.embedded-france.org/
+- AdaCore https://www.adacore.com/
+- Emenda https://emenda.com/
+- Systerel https://www.systerel.fr/
+- Scitools https://scitools.com/
+- Pacte Novation https://www.pactenovation.fr/index.php/
+  logiciel-critique-ada-fondements-et-enjeux/
+- Institut Frederik Bull https://institutbull.fr/
+- Mines Paris https://www.minesparis.psl.eu/
+
+Please make sure you book accommodation as soon as possible.
+https://www.ada-europe.org/conference2025/accommodation.html
+
+For more info and latest updates see the conference website at
+http://www.ada-europe.org/conference2025.
+
+We look forward to seeing you in Paris in June 2025!
+
+-----------------------------------------------------------------------
+
+Our apologies if you receive multiple copies of this announcement.
+Please circulate widely.
+
+Dirk Craeynest, AEiC 2025 Publicity Chair
+Dirk.Craeynest@cs.kuleuven.be Dirk.Craeynest@kuleuven.be
+
+* 29th Ada-Europe Int.Conf. Reliable Software Technologies (AEiC 2025)
+* June 10-13, 2025, Paris, France * www.ada-europe.org/conference2025
+

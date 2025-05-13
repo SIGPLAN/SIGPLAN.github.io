@@ -1,0 +1,170 @@
+---
+title: "IEEE/ACM International Symposium on Code Generation and Optimization (CGO)"
+timestamp: "4/29/2025 8:07:32"
+deadline: "5/29/2025"
+---
+## Call for Papers
+
+
+# [IEEE/ACM International Symposium on Code Generation and Optimization (CGO)](https://2026.cgo.org/track/cgo-2026-papers#ieeeacm-international-symposium-on-code-generation-and-optimization-cgo)
+
+
+## [Co-located with PPoPP, HPCA and CC](https://2026.cgo.org/track/cgo-2026-papers#co-located-with-ppopp-hpca-and-cc)
+
+
+#### [Sydney, Australia](https://2026.cgo.org/track/cgo-2026-papers#sydney-australia)
+
+The International Symposium on Code Generation and Optimization (CGO’26) will be held in Sydney, Australia. CGO is the premier venue to bring together researchers and practitioners working at the interface of hardware and software on a wide range of optimization and code generation techniques and related issues. The conference spans the spectrum from purely static to fully dynamic approaches, and from pure software-based methods to specific architectural features and support for code generation and optimization.
+
+
+---
+
+
+### [Important dates](https://2026.cgo.org/track/cgo-2026-papers#important-dates)
+
+**CGO uses two submissions per year. \
+**This follows the model established by other conferences in our field in recent years, such as ASPLOS and OOPSLA. Papers submitted to the first round can either be directly accepted, rejected, or invited to submit a revised version of the paper to the second round. Papers rejected in the first round may not be submitted to the second round. For papers invited to submit a revised version, authors will be given a list of revisions that should be acted on to improve the paper. We will make every effort to ensure that the revised paper is reviewed by the same reviewers (and possibly additional reviewers), who will assess whether the revisions are satisfactory. If so, the paper will be accepted. If the revised paper is rejected, the authors may submit a further revised version in a subsequent round, which will be treated as a new submission.
+
+
+#### [First Submission Deadline](https://2026.cgo.org/track/cgo-2026-papers#first-submission-deadline)
+
+
+
+* Paper Submission: 29 May 2025
+* Author Rebuttal Period: 8–10 July 2025
+* Paper Notification: 21 July 2025
+
+
+#### [Second Submission Deadline](https://2026.cgo.org/track/cgo-2026-papers#second-submission-deadline)
+
+
+
+* Paper Submission: 11 September 2025
+* Author Rebuttal Period: 21–23 October 2025
+* Paper Notification: 3 November 2025
+
+
+#### [Contacts:](https://2026.cgo.org/track/cgo-2026-papers#contacts)
+
+
+
+* Timothy M. Jones, University of Cambridge - timothy.jones@cl.cam.ac.uk
+* Albert Cohen, Google - albertcohen@google.com
+
+
+---
+
+
+### [Topics](https://2026.cgo.org/track/cgo-2026-papers#topics)
+
+Original contributions are solicited on, but not limited to, the following topics:
+
+
+
+* Code generation, translation, transformation, and optimization for performance, energy, virtualization, portability, security, or reliability concerns, and architectural support
+* Efficient execution of dynamically typed and higher-level languages
+* Optimization and code generation for emerging programming models, platforms, domain-specific languages
+* Dynamic, static, profile-guided and feedback-directed optimization
+* Machine-learning-based code generation, analysis, transformation and optimization
+* Static, dynamic, and hybrid analysis for performance, energy, memory locality, throughput or latency, security, reliability, or functional debugging
+* Program characterization methods
+* Profiling and instrumentation techniques and architectural support for them
+* Novel and efficient tools
+* Compiler design, practice and experience
+* Compiler abstraction and intermediate representations
+* Vertical integration of language features, representations, optimizations, and runtime support for parallelism
+* Solutions that involve cross-layer (HW/OS/VM/SW) design and integration
+* Deployed dynamic/static compiler and runtime systems for general purpose, embedded system and cloud / HPC platforms
+* Parallelism, heterogeneity, and reconfigurable architectures
+* Optimizations for heterogeneous or specialized targets, GPUs, SoCs, CGRA and quantum computers
+* Compiler support for vectorization, thread extraction, task scheduling, speculation, transaction, memory management, data distribution and synchronization
+
+
+---
+
+
+### [Paper types](https://2026.cgo.org/track/cgo-2026-papers#paper-types)
+
+Papers submitted to CGO can be standard research papers, tools papers or practical experience papers. All must be written in the [IEEE conference format](https://www.ieee.org/conferences/publishing/templates.html) (use the conference mode), and may have up to 10 pages, references excluded. Supplementary materials may be included as an Appendix at the end of the submitted paper. The Appendix has no page limit, but the text of the full paper excluding the Appendix must fit within 10 pages. Reviewers are not required to read the Appendix and may do so at their discretion. In other words, papers must be self-contained without needing to read any material in the Appendix.
+
+Please ensure that you and your co-authors obtain an ORCID ID, so you can complete the publishing process for your accepted paper. We are committed to improve author discoverability, ensure proper attribution and contribute to ongoing community efforts around name normalization; your ORCID ID will help in these efforts.
+
+Please be mindful of the [IEEE publishing policies](https://ieeexplore.ieee.org/Xplorehelp/author-center/publishing-policies) when preparing and submitting your article.
+
+
+#### [Tool papers](https://2026.cgo.org/track/cgo-2026-papers#tool-papers)
+
+Tool papers must give a clear account of a new tool’s functionality. They must describe the problem that the tool helps to solve, how the tool works and provide an evaluation of the tool. There does not have to be novel research in the way the tool works, but it does have to solve a novel problem or in a novel (and better) way compared to existing tools. A good tools paper will:
+
+
+
+* Frame the problem that the tool solves, showing that it is an important subject
+* Describe how the tool works to solve the problem
+* Evaluate the ability of the tool to solve the problem
+* Possibly provide case studies of using the tool, showing what improvements can be made now the problem has been ameliorated.
+
+Tools paper authors should prepend their paper title with ‘Tool:’ to provide clarity that this is a tools paper during the review process (this can be removed for the final camera-ready paper).
+
+**The successful evaluation of an artifact is mandatory for a Tool Paper.** Therefore, authors of work conditionally accepted as Tool Papers must submit an artifact to the Artifact Evaluation Committee. The successful evaluation of the artifact is a requirement for final acceptance.
+
+The selection criteria for papers in this category are:
+
+
+
+* Originality: Papers should present CGO-related technologies applied to real-world problems with scope or characteristics that set them apart from previous solutions.
+* Usability: The presented tool or compiler should have broad usage or applicability. They are expected to assist in CGO-related research, or could be extended to investigate or demonstrate new technologies. If significant components are not yet implemented, the paper will not be considered.
+* Documentation: The tool or compiler should be presented on a web-site giving documentation and further information about the tool.
+* Benchmark Repository: A suite of benchmarks for testing should be provided.
+* Availability: The tool or compiler should be available for public use.
+* Foundations: Papers should incorporate the principles underpinning Code Generation and Optimization (CGO). However, a thorough discussion of theoretical foundations is not required; a summary of such should suffice.
+* Artifact Evaluation: The submitted artifact must be functional and support the claims made in the paper.
+
+
+#### [Practical experience papers](https://2026.cgo.org/track/cgo-2026-papers#practical-experience-papers)
+
+Practical experience papers should summarize a practical experience with realistic case studies. They must make it clear where the novelty in the work comes from, which could be from applying known techniques to a new system (with novel features), from finding new ways to implement existing analyses or transformations in a unique way, or from applying established schemes to draw new conclusions about them.
+
+Practical experience paper authors should prepend their paper title with ‘Practical:’ to provide clarity that this is a practical experience paper during the review process (this can be removed for the final camera-ready paper).
+
+**Practical experience papers are encouraged, but not required, to submit an artifact to the Artifact Evaluation process.**
+
+The selection criteria for papers in this category are:
+
+
+
+* Originality: Papers should present CGO-related technologies applied to real-world problems with scope or characteristics that set them apart from previous solutions. Alternatively, papers may also report on scaling known techniques to significantly larger and/or more complex real-world problems.
+* Foundations: Papers should incorporate the principles underpinning Code Generation and Optimization (CGO). However, a thorough discussion of theoretical foundations is not required; a summary of such should suffice.
+* Insight: The practical experience should provide meaningful conclusions related to CGO topics that show unexpected or novel characteristics.
+* Applicability: The results of the practical experience should be applicable beyond the specific system evaluated in the paper.
+
+
+---
+
+
+### [Geographic Diversity and Inclusion](https://2026.cgo.org/track/cgo-2026-papers#geographic-diversity-and-inclusion)
+
+Authors of papers accepted for CGO 2026 are encouraged to present their work in person. However, to foster the participation of students and professionals from everywhere, CGO 2026 will allow the remote presentation of papers, if their authors are unable to travel to the conference venue for reasons beyond their control (e.g. visa issues). Additionally, the conference organization will try to make attendance of CGO 2026 affordable for as many people as possible, with a specific focus on students from universities located in under-represented countries who are paper authors.
+
+
+---
+
+
+### [Artifact Evaluation](https://2026.cgo.org/track/cgo-2026-papers#artifact-evaluation)
+
+The Artifact Evaluation process is run by a separate committee whose task is to assess how the artifacts support the work described in the papers. This process contributes to improved reproducibility in research that should be a great concern to all of us. There is also some evidence that papers with a supporting artifact receive higher citations than papers without artifact evaluation. Authors of accepted papers at CGO have the option of submitting their artifacts for evaluation within two weeks of paper acceptance. To ease the organization of the AE committee, we kindly ask authors to indicate at the time they submit the paper, whether they are interested in submitting an artifact. Papers that go through the Artifact Evaluation process successfully will receive a seal of approval printed on the papers themselves. Additional information is available on the CGO AE web page. Authors of accepted papers are encouraged, but not required, to make these materials publicly available upon publication of the proceedings.
+
+
+---
+
+AUTHORS TAKE NOTE: The official publication date is the date the proceedings are made available in the IEEE Xplore Platform. This date may be up to two weeks prior to the first day of the conference. The official publication date affects the deadline for any patent filings related to published work.
+
+CGO will make the proceedings freely available via the IEEE Xplore platform during the period from two weeks before to two weeks after the conference. This option will facilitate easy access to the proceedings by conference attendees, and it will also enable the community at large to experience the excitement of learning about the latest developments being presented in the period surrounding the event itself.
+
+
+---
+
+
+### [Distinguished Paper Awards](https://2026.cgo.org/track/cgo-2026-papers#distinguished-paper-awards)
+
+Up to 10% of papers accepted at CGO 2026 will be designated as Distinguished Papers, following the ACM policy. This award is open to both regular and tool papers.
+
