@@ -46,7 +46,7 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 ---
 **[CPP Conferences](https://popl25.sigplan.org/series/CPP)**
 
-* CPP 2026
+* [CPP 2026](https://popl26.sigplan.org/home/CPP-2026), Rennes, France, January 12-13, 2026 (co-located with POPL’26)
   + PC Chairs: [Nicolas Tabareau](https://tabareau.fr/)
     and [Nikhil Swamy](https://www.microsoft.com/en-us/research/people/nswamy)
   + Conference Chairs: [Kathrin Stark](https://researchportal.hw.ac.uk/en/persons/kathrin-stark)
@@ -109,6 +109,9 @@ The official **CPP proceedings** since 2015 are publicly available via [SIGPLAN 
 ---
 **Given Distinguished Paper Awards**
 
+* CPP 2025: [Certifying Rings of Integers in Number Fields](https://dl.acm.org/doi/10.1145/3703595.3705874), Anne Baanen, Alain Chavarri Villarello, Sander R. Dahmen.
+* CPP 2025: [Split Decisions: Explicit Contexts for Substructural Languages](https://dl.acm.org/doi/10.1145/3703595.3705888). Daniel Zackon, Chuta Sano, Alberto Momigliano, Brigitte Pientka.
+* CPP 2025: [The Nextgen Modality: A Modality for Non-Frame-Preserving Updates in Separation Logic](https://dl.acm.org/doi/10.1145/3703595.3705876). Simon Friis Vindum, Aina Linn Georges, Lars Birkedal.
 * CPP 2024: [Formal Probabilistic Methods for Combinatorial Structures using the Lovász Local Lemma](https://popl24.sigplan.org/details/CPP-2024-papers/7/Formal-Probabilistic-Methods-for-Combinatorial-Structures-using-the-Lov-sz-Local-Lemma). Chelsea Edmonds and Lawrence Paulson.
 * CPP 2024: [Martin-Löf à la Coq](https://popl24.sigplan.org/details/CPP-2024-papers/12/Martin-L-f-la-Coq). Arthur Adjedj, Meven Lennon-Bertrand, Kenji Maillard, Pierre-Marie Pédrot, and Loïc Pujet.
 * CPP 2024: [Rooting for Efficiency: Mechanised Reasoning about Array-Based Trees in Separation Logic](https://popl24.sigplan.org/details/CPP-2024-papers/5/Rooting-for-Efficiency-Mechanised-Reasoning-about-Array-Based-Trees-in-Separation-Logic). Qiyuan Zhao, George Pîrlea, Zhendong Ang, Umang Mathur, and Ilya Sergey.
@@ -124,6 +127,7 @@ The official **CPP proceedings** since 2015 are publicly available via [SIGPLAN 
 
 **Given Amazing Reviewer Awards**
 
+* CPP 2025: [Karl Palmskog](https://setoid.com), KTH, Sweden
 * CPP 2024: [Théo Winterhalter](https://theowinterhalter.github.io), Inria, France
 * CPP 2023: [Anja Petković Komel](https://anjapetkovic.com), TU Wien, Austria
 * CPP 2022: [Armaël Guéneau](http://cambium.inria.fr/~agueneau/), Inria, France
