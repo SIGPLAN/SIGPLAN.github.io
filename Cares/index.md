@@ -215,7 +215,6 @@ We have received open, public feedback from a number of members of the community
    <td>Member, <a href="mailto:steve.blackburn@anu.edu.au">steve.blackburn@anu.edu.au</a>, Google Deepmind and ANU, Jan 2024-</td>
   </tr> 
  <tr> 
- <tr>
    <td><img src="../images/cares-photos/dillig.jpg" alt="Işıl Dillig" width="156"><br><a href="https://www.cs.utexas.edu/~isil/">Işıl Dillig</a> (she/her)</td>
    <td>Member, <a href="mailto:isil@cs.utexas.edu">isil@cs.utexas.edu</a>, University of Texas, Austin, Oct 2024-</td>
   </tr> 
