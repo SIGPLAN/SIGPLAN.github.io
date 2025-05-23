@@ -1,0 +1,35 @@
+---
+title: "Call for Papers, Principles of Database Systems (PODS) 2026"
+timestamp: "4/12/2025 9:14:51"
+deadline: "6/3/2025"
+---
+PODS 2026: ACM SIGMOD-SIGACT-SIGART SYMPOSIUM ON PRINCIPLES OF DATABASE SYSTEMS
+  May 31 - June 05, 2026, Bengaluru, India
+  https://2026.sigmod.org/index.shtml
+CALL FOR PAPERS
+* The PODS symposium series, held in conjunction with the SIGMOD
+  conference series, provides a premier annual forum for the
+  communication of new advances in the theoretical foundation of
+  database systems.  Original research papers
+  providing new insights in the specification, design, or implementation
+  of data management tools are called for.
+* Topics that fit the interests of the symposium include the following
+  (but not limited to) as pertaining to databases: algorithms; complexity;
+  computational model theory; concurrency; constraints; data exchange;
+  data integration; data mining; data modeling; data on the Web; data
+  streams; data warehouses; distributed databases; information
+  retrieval; knowledge bases; logic; multimedia; physical design;
+  privacy; quantitative approaches; query languages; query optimization;
+  real-time data; recovery; scientific data; security; semantic Web;
+  semi-structured data; spatial data; temporal data; transactions;
+  updates; views.
+* Important dates:  
+  - Abstract deadline: June 3, 2025
+  - Full paper submission deadline: June 10, 2025
+  - Rebuttal: July 29 - August 1, 2025
+  - Initial notification: August 11, 2025
+  - Revision submission: August 25, 2025
+  - Final notification: September 1, 2025
+* Submission Site and Format
+  All submissions must be made to https://www.easychair.org/my/conference?conf=pods2026.
+  LaTex users must format their submission using the standard ACM "acmsmall" proceedings stylesheet: https://www.acm.org/publications/proceedings-template. A submission can be up to 15 pages, not including references, plus unlimited space for references. PODS 2026 will use a lightweight double-anonymous reviewing process. For more precise instructions, please see https://2026.sigmod.org/calls_papers_pods_research.shtml
