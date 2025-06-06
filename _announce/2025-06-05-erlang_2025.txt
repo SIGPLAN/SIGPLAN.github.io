@@ -1,0 +1,164 @@
+---
+title: "Erlang Workshop 2025 - Call for Papers - EXTENSION (13 June 2025)"
+timestamp: "6/5/2025 7:49:58"
+deadline: "6/13/2025"
+---
+24th Edition of the Erlang Workshop 
+Sunday 12th of October 2025, Singapore
+A satellite workshop of ICFP 2025
+
+https://conf.researchr.org/home/icfp-splash-2025/erlang-2025
+
+ ** Abstract Registration Deadline: 6 June 2025 **
+
+  ** Submission Deadline: 13 June 2025 **
+
+
+The Erlang Workshop aims to bring together the open source, academic,
+and industrial communities of Erlang-like languages (e.g., Elixir, Gleam, Erlang, Akka, Clojure),
+including the concurrent, distributed systems, and fault-tolerant communities.
+ 
+The workshop will enable participants to familiarize themselves with
+recent developments on new techniques and tools, novel applications,
+draw lessons from users' experiences and identify research problems
+and common areas relevant to the practice of Erlang, Erlang-like
+languages, functional programming, distribution, concurrency etc.
+
+## Topics
+
+This year we invite three types of submissions:
+
+* Technical papers describing language extensions, critical
+  discussions of the status quo, formal semantics of language
+  constructs, program analysis and transformation, virtual machine
+  extensions and compilation techniques, implementations and
+  interfaces of Erlang in/with other languages, and new tools
+  (profilers, tracers, debuggers, testing frameworks, etc.).
+  Submission related to Erlang, Elixir, Lisp Flavored Erlang, and
+  topics in functional, concurrent, and distributed programming 
+  are welcome and encouraged. The maximum length for technical papers is
+  restricted to 12 pages, but short papers (max. 6 pages) are also
+  welcome.
+
+* Practice and application papers describing uses of Erlang and
+  related languages in the “real-world”, libraries for specific tasks,
+  experiences from using Erlang in specific application domains,
+  reusable programming idioms and elegant new ways of using Erlang to
+  approach or solve particular problems, etc. The maximum length for
+  the practice and application papers is restricted to 12 pages, but
+  short papers (max. 6 pages) are also welcome.
+
+* Lightning talks describing topics related to the workshop goals that
+  allow participants to present and demonstrate projects and
+  preliminary work in academia and industry.  Presentations in this
+  category will be given at most an hour of shared simultaneous
+  presentation time, will not be part of the peer review process and
+  will not be part of the formal proceedings.  Notification of
+  acceptance will be continuous.
+
+## Important dates
+
+| Abstract Registration deadline   | 6 June 2025 |
+| Submission deadline   | 13 June 2025 |
+| --- | --- |
+| Notification          | 04 July 2025 |
+| Workshop              | 12 Oct  2025 |
+
+Deadlines are anywhere on Earth.
+
+
+## Workshop Co-Chairs
+
+* Kiko Fernandez-Reyes, Ericsson, Sweden
+* Laura Voinea, University of Glasgow, UK
+* Akos Hajdu, Meta, UK
+
+
+## Program Committee
+
+(Note: the Workshop Co-Chairs are also committee members)
+
+* Cons Ahs (Meta, Sweden)
+* Stavros Aronis (Erlang Solutions, Sweden)
+* Giuseppe Castagna (CNRS; Université Paris Cité, France)
+* Viktória Fördős (Cisco Systems, Sweden)
+* Paul Harvey (University of Glasgow, UK)
+* Dániel Horpácsi (Eötvös Loránd University, Hungary)
+* Isabell Huang (Ericsson, Sweden)
+* Kenji Rikitake (Kenji Rikitake Professional Engineer's Office, Japan)
+* Sanne Kalkman (CodeSandbox | TogetherAI, Netherlands)
+* Csaba Hoch (Cursor Insight, Hungary)
+
+
+## Instructions to authors
+
+### Submission
+
+Submissions must adhere to SIGPLAN’s republication policy
+(http://sigplan.org/Resources/Policies/Republication/), and authors
+should be aware of ACM’s policies on plagiarism
+(https://www.acm.org/publications/policies/plagiarism).  Program
+Committee members are allowed to submit papers, but their papers will
+be held to a higher standard.
+
+Papers must be submitted online via HotCRP at:
+
+https://erlang2025.hotcrp.com
+
+Lightning talks can be submitted to the workshop's co-chairs via e-mail.
+
+### Formatting
+
+Submitted papers should be in portable document format (PDF),
+formatted using the ACM SIGPLAN style guidelines.  Authors should use
+the `acmart` format, with the `sigplan` sub-format for ACM
+proceedings.  For details, see:
+
+http://www.sigplan.org/Resources/Author/#acmart-format
+
+It is recommended to use the `review` option when submitting a paper;
+this option enables line numbers for easy reference in reviews.
+
+### Supplementary material
+
+Authors have the option to attach supplementary material to a
+submission, on the understanding that reviewers may choose not to look
+at it.  This supplementary material should not be submitted as part of
+the main document; instead, it should be uploaded as a separate PDF
+document or tarball.
+
+Supplementary material should be uploaded at submission time, not by
+providing a URL in the paper that points to an external repository.
+
+### Artifacts
+
+Authors of accepted papers are encouraged to make auxiliary material
+(artifacts like source code, test data, etc.) available with their
+paper.  They can opt to have these artifacts published alongside their
+paper in the ACM Digital Library (copyright of artifacts remains with
+the authors).
+
+If an accepted paper’s artifacts are made permanently available for
+retrieval in a publicly accessible archival repository like the ACM
+Digital Library, that paper qualifies for an Artifacts Available badge
+(https://www.acm.org/publications/policies/artifact-review-badging#available).
+Applications for such a badge can be made after paper acceptance and
+will be reviewed by the PC co-chairs.
+
+## Proceedings
+
+As with previous years, the accepted workshop papers will be published
+by the ACM and will appear in the ACM Digital Library.
+
+
+AUTHORS TAKE NOTE:
+The official publication date is the date the proceedings are made available in the ACM Digital Library. 
+This date may be up to two weeks prior to the first day of your conference. The official publication date affects the 
+deadline for any patent filings related to published work.
+
+For more information, please see ACM Copyright Policy
+(http://www.acm.org/publications/policies/copyright-policy) and ACM
+Author Rights (http://authors.acm.org/main.html).
+
+Accepted lightning talks will be posted on the workshop's website but
+not formally published in the proceedings.

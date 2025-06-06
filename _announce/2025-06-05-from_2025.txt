@@ -1,0 +1,93 @@
+---
+title: "Call for papers, FROM 2025 - 9th Working Formal Methods Symposium "
+timestamp: "6/5/2025 13:49:05"
+deadline: "6/22/2025"
+---
+FROM 2025 - 9th Working Formal Methods Symposium
+September 17-19, 2025, Iași, România
+
+The Working Formal Methods Symposium (FROM) aims to bring together researchers and practitioners working on formal methods by contributing new theoretical results, methods, techniques, and frameworks, and/or by creating or using software tools that apply theoretical contributions. The program includes invited lectures and regular contributions.
+
+Invited Speakers
+
+Georgiana Caltais, University of Twente
+Jérôme Leroux,  Laboratoire Bordelais de Recherche en Informatique (LaBRI)
+Rupak Majumdar, Max Planck Institute for Software Systems and Automated Reasoning Group, Amazon Web Services
+
+Organizers:
+
+  Verimag, CNRS, University of Grenoble Alpes
+  Faculty of Computer Science, Alexandru Ioan Cuza University of Iași
+
+Important Dates
+
+  Paper/abstract submission deadline: June 22, 2025 (extended)
+  Author notification: July 22, 2025
+  Revised paper/abstract submission deadline: August 29, 2025
+  Registration deadline: September 2, 2025
+  Symposium dates: September 17-19, 2025
+
+Submissions
+
+Papers of up to 16 pages prepared according to the EPTCS template (https://style.eptcs.org/) must be submitted electronically using the EasyChair submission system (https://easychair.org/conferences?conf=from2025). Research papers must contain original research results not submitted or published elsewhere. Selected papers will be invited to submit an extended version to the Journal of Logical and Algebraic Methods in Programming (https://www.sciencedirect.com/journal/journal-of-logical-and-algebraic-methods-in-programming), subject to formal approval by Elsevier.
+
+Authors wishing to present work in progress or survey previous research are invited to submit an extended abstract (up to 8 pages). Papers will be reviewed and selected based on scientific merit and relevance.
+
+Topics of Interest
+
+Areas and Formalisms
+
+  Category theory in computer science
+  Distributed systems and concurrency
+  Formal languages and automata theory
+  Formal modeling, verification, and testing
+  Logic in computer science
+  Mathematical structures in computer science
+  Semantics of programming languages
+  Type systems
+
+Methods
+
+  Automated reasoning and model generation
+  Certified programs
+  Deductive verification
+  Model checking
+  Proof mining
+  Symbolic computation
+  Term rewriting
+  Formal Methods in ML/LLMs/AI
+
+Applications
+
+  Computational logic
+  Computer mathematics
+  Program analysis
+  Software and hardware verification
+
+Programme Committee
+
+Bogdan Aman - Alexandru Ioan Cuza University of Iași
+Andrei Arusoaie - Alexandru Ioan Cuza University of Iași
+Ștefan Ciobâcă - Alexandru Ioan Cuza University of Iași
+Mădălina Erașcu - West University of Timișoara
+Pierre Ganty - IMDEA Software, Madrid
+Peter Habermehl - IRIF, University Paris Cité
+Dániel Horpácsi - Eötvös Loránd University, Budapest
+Radu Iosif - Verimag, CNRS, University of Grenoble Alpes (chair)
+Laurențiu Leuștean - Faculty of Mathematics and Computer Science, University of Bucharest
+Dorel Lucanu - Alexandru Ioan Cuza University of Iași
+Mircea Marin - West University of Timișoara
+David Nowak - CRIStAL, CNRS & University of Lille, France
+Vlad Rusu - INRIA Lille Nord Europe, France
+Arnaud Sangnier - IRIF, Univ Paris Diderot, CNRS, France
+Mihaela Sighireanu - LMF, ENS Paris Saclay
+Andrei Sipoș - University of Bucharest
+Viorica Sofronie-Stokkermans - University of Koblenz
+Alicia Villanueva - VRAIN - Universitat Politècnica de València
+Tomáš Vojnar - Masaryk University and Brno University of Technology
+Florian Zuleger - Technische Universität Wien
+
+Further Information
+
+More details available at: https://fromsymposium.github.io/
+
