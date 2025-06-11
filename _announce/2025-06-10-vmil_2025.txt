@@ -1,0 +1,154 @@
+---
+title: "Call for Papers, 2025 on Virtual Machines and Language Implementations (VMIL 2025)"
+timestamp: "6/10/2025 4:33:59"
+deadline: "7/21/2025"
+---
+Call for Papers
+
+Workshop on Virtual Machines and Language Implementations (VMIL’25)
+Co-located with SPLASH 2025
+October 12-18, 2025, Singapore
+
+https://conf.researchr.org/home/icfp-splash-2025/vmil-2025
+
+========================================================================
+The concept of Virtual Machines is pervasive in the design and implementation of
+programming systems. Virtual Machines and the languages they implement are
+crucial in the specification, implementation and/or user-facing deployment of
+most programming technologies.
+The VMIL workshop is a forum for researchers and cutting-edge practitioners in
+language virtual machines, the intermediate languages they use, and related
+issues.
+The workshop is intended to be welcoming to a wide range of topics and
+perspectives, covering all areas relevant to the workshop’s theme. Aspects of
+interest include, but are not limited to:
+
+- design issues in VMs and IRs (e.g. IR design, VM modularity, polyglotism);
+  compilation (static and dynamic compilation strategies, optimizations, data
+- representations);
+- memory management;
+- security considerations;
+- concurrency (both internal and user-facing);
+- performance engineering;
+- tool support and related infrastructure (profiling, debugging, liveness, persistence);
+- the experience of VM development (use of high-level languages, bootstrapping
+  and self-hosting, reusability, portability, developer tooling, etc.);
+- empirical studies on related topics, such as usage patterns,
+  the usability of languages or tools, experimental methodology, or benchmark design;
+- the use of VMs in teaching programming, programming languages, and programming
+  language implementation.
+
+
+----------
+
+Submission Guidelines
+
+----------
+
+Submission Categories
+==========
+
+We invite high-quality papers in the following two categories:
+
+- **Research and experience papers**: These submissions should describe work
+    that advances the current state of the art in the above or related areas.
+
+- **Work-in-progress or position papers**: These papers should document ongoing
+    efforts in an area of interest which have not yet yielded final results,
+    and/or should present and defend the authors’ position on a topic related to
+    the broad area of the workshop.
+
+
+Additionally, this year, we invite “Experimental Setups” papers in both research
+and work-in-progress paper categories.
+
+Experimental setups
+==========
+
+As experiments in our field become increasingly challenging due to the growing
+complexity of software and hardware stacks, we aim to support researchers in
+preparing their experimental setups, which often demand significant engineering
+efforts. Therefore, we invite the submission of experimental setups to receive
+feedback. Such submissions should briefly discuss what the experiments are meant
+to show and then describe the experimental setup, but should explicitly not discuss
+any results. We recommend the format of both research and work-in-progress
+papers for such submissions.
+
+**AUTHORS TAKE NOTE**: If authors intend to submit their papers as experimental
+  setups, please check the relevant checkbox in HotCRP before submitting your
+  paper.
+
+Submissions
+==========
+
+For the first submission deadline, all paper types are considered for
+publication in the ACM Digital Library, except if the authors prefer not to be
+included. Publication of work-in-progress and experimental setups papers at VMIL
+is not intended to preclude later publication elsewhere.
+
+Submissions will be judged on novelty, clarity, timeliness, relevance, and
+potential to stimulate discussion during the workshop. As the review process is
+double blind, please ensure all author names are redacted when submitting for
+review.
+
+For the second deadline, we will consider only work-in-progress and position
+papers. Abstracts do not have to be submitted before the deadline. These will
+not be published in the ACM DL, and will only appear on the website.
+
+The address of the submission site is: https://vmil25.hotcrp.com
+
+All deadlines are Anywhere on Earth (AoE), i.e. GMT/UTC−12:00 hour
+
+**AUTHORS TAKE NOTE**: The official publication date is the date the proceedings
+  are made available in the ACM Digital Library. This date may be up to two
+  weeks before the first day of your conference. The official publication date
+  affects the deadline for any patent filings related to published work.
+
+Submission formats
+==========
+
+- **Research and experience papers**: 6-10 pages, double-column, maximum 10pp, excluding references.
+- **Work-in-progress and position papers**: up to 6 pages, double-column, maximum 10pp, but we will consider shorter submissions (e.g. a well-written2-page abstract).
+
+Please use the SIGPLAN acmart style (`sigplan` option) for all papers:
+https://sigplan.org/Resources/Author/#acmart-format. The provided double-column
+template is available for Latex and Word.
+
+----------
+
+Important Dates
+
+----------
+
+All deadlines are Anywhere on Earth (AoE), i.e., UTC-12h
+Mon 14 Jul 2025: Abstract Submission (Research papers)
+Mon 21 Jul 2025: Submission Deadline (Research papers)
+Mon 4 Aug 2025: Author Notification (Research papers)
+Tue 12 Aug 2025: Submission Deadline (Work-in-Progress papers)
+Mon 25 Aug 2025: Camera Ready (Research papers)
+Wed 27 Aug 2025: Author Notification (Work-in-Progress papers)
+
+----------
+
+Organization
+
+----------
+
+Steering Committee Chair:
+Stefan Marr, University of Kent, United Kingdom
+
+PC Chairs:
+Shoaib Akram, Australian National University, Australia
+Yusuke Izawa, Tokyo Metropolitan University, Japan
+
+Program Committee:
+Edd Barrett, King's College London. United Kingdom
+Olivier Flückiger, Google, Switzerland
+Stephen Kell, King's College London, United Kingdom
+Raffi Khatchadourian, CUNY Hunter College, United States
+Iacovos Kolokasis, University of Crete
+Paul Leger, Universidad Católica del Norte, Chile
+Tomoki Nakamaru, The University of Tokyo, Japan
+Athanasios Stratikopoulos, University of Manchester, United Kingdom
+Tomoharu Ugawa, University of Tokyo, Japan
+
