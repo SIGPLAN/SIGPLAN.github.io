@@ -1,0 +1,111 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>ARRAY '25: Proceedings of the 11th ACM SIGPLAN International Workshop on Libraries, Languages and Compilers for Array Programming</title></head><body><div id="DLtoc"><div id="DLheader"><h1>ARRAY '25: Proceedings of the 11th ACM SIGPLAN International Workshop on Libraries, Languages and Compilers for Array Programming</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3736112"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3736112.3736141">Structuring Arrays with Algebraic Shapes</a></h3><ul class="DLauthors"><li class="nameList">Jakub Bachurski</li><li class="nameList">Alan Mycroft</li><li class="nameList Last">Dominic Orchard</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Static type systems help prevent errors, improve abstractions, and enable optimisations. There is a whole spectrum of type systems for general-purpose languages, covering a wide range of safety guarantees and expressivity. Despite this, type systems for array programming languages are usually at one of two extremes. In the majority of cases they are nearly untyped, only distinguishing array types by element type or number of dimensions. Otherwise, they tend to reach for powerful dependent types. However, it is difficult to extend existing solutions with a dependent type system, and some problems become undecidable when we do so. Practical array programming – in data science, machine learning and the like – sticks to the bliss of dynamic typing. </p><p>We propose a novel calculus for array programming: Star. Array indices and shapes in Star make use of <em>structural</em> record and variant types equipped with subtyping. We prevent indexing errors not by resolving arithmetic problems, but by enabling richer types for arrays, allowing programmers to capture their structure explicitly. While we present Star with only subtype polymorphism, we sketch how <em>algebraic subtyping</em> promises efficient ML-style polymorphic type inference.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3736112.3736142">Accelerating the Static Analysis of Neural Networks by Batch Representation of Abstract Values</a></h3><ul class="DLauthors"><li class="nameList">Guillaume Berthelot</li><li class="nameList">Arnault Ioualalen</li><li class="nameList Last">Matthieu Martel</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Deep Neural Networks are increasingly being used in mission-critical systems. However, their use poses significant safety challenges and requires rigorous verification to ensure their correctness in all scenarios. Formal verification methods such as abstract interpretation are commonly used, but their scalability becomes problematic for DNNs with many parameters. Relational abstract domains, such as affine forms, improve verification accuracy by capturing linear relationships between variables. However, with affine forms, the verification process becomes computationally intensive. To address this challenge, this paper proposes a novel approach called batch representation, which processes the abstract values in batches rather than individually. By exploiting the linear independence of noise symbols and using deep learning frameworks such as Pytorch, the proposed method significantly improves computational efficiency and scalability. Experimental results show that the use of GPUs and CPU clusters enables a reduction in computational time of about 80%, demonstrating the effectiveness of the approach in handling large-scale verification tasks.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3736112.3736143">Gate Fusion Is Map Fusion</a></h3><ul class="DLauthors"><li class="nameList">Martin Elsman</li><li class="nameList Last">Troels Henriksen</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Most efficient state-vector quantum simulation frameworks are imperative. They work by having circuit gates operate on the global state vector in sequence and with each gate operation accessing and updating, in parallel, all (or large subsets of) the elements of the state vector. The precise access and update patterns used by a particular gate operation depend on which qubits the individual gate operates on. 
+</p>
+<p>
+Imperative implementations of state-vector simulators, however, often lack a more declarative specification, which may hinder reasoning and optimisations. For instance, correctness is often argued for using reasoning that involves bit-operations on state-vector indexes, which make it difficult for compilers to perform high-level index-optimisations. 
+</p>
+<p>
+In this work, we demonstrate how gate operations can be understood as maps over index-transformed state-vectors. We demonstrate correctness of the approach and implement a library for gate-operations in the data-parallel programming language Futhark. We further demonstrate that Futhark's fusion-engine is sufficiently powerful that it will ensure that consecutive gate operations on identical qubits are fused using map-map fusion. Moreover, we demonstrate that, using Futhark's uniqueness type system, state vectors may be updated in place. We evaluate the approach by comparing it with the state-of-the art state-vector simulators qsim and QuEST.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3736112.3736144">Array Programming on GPUs: Challenges and Opportunities</a></h3><ul class="DLauthors"><li class="nameList">Xinyi Li</li><li class="nameList">Mark Baranowski</li><li class="nameList">Harvey Dam</li><li class="nameList Last">Ganesh Gopalakrishnan</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Today, the lion's share of machine learning and high-performance computing workloads is executed on GPUs, including high-stakes applications such as self-driving cars and fusion reactor simulations. Unfortunately, GPU computations are carried out on largely undocumented hardware units that cannot trap or report floating-point exceptions. Worsening the situation is an ongoing and accelerating shift toward lower-precision arithmetic, driven by performance demands—yet this shift only exacerbates the frequency and severity of floating-point exceptions. Increasingly, matrix multiplications are offloaded to specialized hardware such as Tensor Cores. However, because these units do not adhere to a unified arithmetic standard, their computed results can deviate to unacceptable levels.  
+</p>
+<p>
+ This experience report aims to consolidate our previously published work and relate it to array programming in two key ways: (1) by providing tools to diagnose bugs that may arise during array computations, and (2) by addressing broader correctness challenges inherent to array-based programming. This report highlights GPU-FPX, a debugging tool extended to analyze computations involving Tensor Cores. It addresses key correctness challenges, such as the potential for different Tensor Core implementations to produce inconsistent results for the same input. These discrepancies can be systematically uncovered using a targeted testing approach known as FTTN. We conclude with a discussion on how formal methods, particularly those based on SMT solvers, can play a critical role in identifying and bridging gaps in manufacturer-provided hardware specifications—and, in the long term, in proving desired correctness properties.</p>
+			</div></div>
+							
+						</div></div></body></html>

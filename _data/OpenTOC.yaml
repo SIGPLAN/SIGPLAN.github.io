@@ -1551,3 +1551,23 @@
   event: ExHET
   year: 2025
   title: "Proceedings of the 2025 4th International Workshop on Extreme Heterogeneity Solutions"
+-
+  event: ARRAY
+  year: 2025
+  title: "Proceedings of the 11th ACM SIGPLAN International Workshop on Libraries, Languages and Compilers for Array Programming"
+-
+  event: ISMM
+  year: 2025
+  title: "Proceedings of the 2025 ACM SIGPLAN International Symposium on Memory Management"
+-
+  event: PLDI
+  year: 2025
+  title: "Proceedings of the ACM on Programming Languages: Vol. 9, No. PLDI 2025"
+-
+  event: LCTES
+  year: 2025
+  title: "Proceedings of the 26th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems"
+-
+  event: SOAP
+  year: 2025
+  title: "Proceedings of the 14th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis"

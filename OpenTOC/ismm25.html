@@ -1,0 +1,206 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>ISMM '25: Proceedings of the 2025 ACM SIGPLAN International Symposium on Memory Management</title></head><body><div id="DLtoc"><div id="DLheader"><h1>ISMM '25: Proceedings of the 2025 ACM SIGPLAN International Symposium on Memory Management</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3735950"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3735950.3735952">EMD: Fair and Efficient Dynamic Memory De-bloating of Transparent Huge Pages</a></h3><ul class="DLauthors"><li class="nameList">Parth Gangar</li><li class="nameList">Ashish Panwar</li><li class="nameList Last">K. Gopinath</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Recent processors rely on huge pages to reduce the cost  
+of virtual-to-physical address translation. However, huge  
+pages are notorious for creating memory bloat – a phenomenon  
+wherein the OS ends up allocating more physical  
+memory to an application than its actual requirement.  
+This extra memory can be reclaimed by the OS  
+via de-bloating at runtime. However, we find that current  
+OS-level solutions either lack support for dynamic memory  
+de-bloating, or suffer from performance and fairness  
+pathologies while de-bloating.  
+We address these issues with EMD (Efficient Memory  
+De-bloating). The key insight in EMD is that different  
+regions in an application’s address space exhibit  
+different amounts of memory bloat. Consequently, the  
+tradeoff between memory efficiency and performance  
+varies significantly within a given application e.g., we  
+find that memory bloat is typically concentrated in specific  
+regions, and de-bloating them leads to minimal  
+performance impact. Hinged on this insight, EMD employs  
+a prioritization scheme for fine-grained, efficient,  
+and fair reclamation of memory bloat. EMD improves  
+performance by up to 69% compared to HawkEye — a  
+state-of-the-art OS-based huge page management system.  
+EMD also eliminates fairness concerns associated  
+with dynamic memory de-bloating.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3735950.3735953">Arborescent Garbage Collection: A Dynamic Graph Approach to Immediate Cycle Collection</a></h3><ul class="DLauthors"><li class="nameList">Frédéric Lahaie-Bertrand</li><li class="nameList">Léonard Oest O'Leary</li><li class="nameList">Olivier Melançon</li><li class="nameList">Marc Feeley</li><li class="nameList Last">Stefan Monnier</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Reclaiming cyclic garbage has been a long-standing challenge in automatic  
+memory management. Common approaches to this problem often involve extending  
+reference counting with an asynchronous background task to reclaim cycles.  
+While this ensures that cycles are eventually collected, it also introduces  
+unpredictable behaviours, making these approaches unsuitable for applications  
+where deterministic collection is required.  
+</p>
+<p>
+This paper introduces Arborescent Garbage Collection, a synchronous memory  
+management algorithm that immediately reclaims unreachable memory objects,  
+including cyclic structures. Inspired by single-source reachability algorithms  
+on dynamic graphs, it extends the idea of embedding a spanning forest in a  
+program's reference graph to track the reachability of any object from a root.  
+When a reference is removed, the algorithm efficiently rebuilds the forest and  
+immediately reclaims the memory of objects that are no longer reachable. The  
+result is a garbage collection algorithm suitable for applications that  
+require immediate memory reclamation and predictable behaviour.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3735950.3735954">SecureMind: A Framework for Benchmarking Large Language Models in Memory Bug Detection and Repair</a></h3><ul class="DLauthors"><li class="nameList">Huanting Wang</li><li class="nameList">Dejice Jacob</li><li class="nameList">David Kelly</li><li class="nameList">Yehia Elkhatib</li><li class="nameList">Jeremy Singer</li><li class="nameList Last">Zheng Wang</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Large language models (LLMs) hold great promise for automating software vulnerability detection and repair, but ensuring their correctness remains a challenge. While recent work has developed benchmarks for evaluating LLMs in bug detection and repair, existing studies rely on hand-crafted datasets that quickly become outdated. Moreover, systematic evaluation of advanced reasoning-based LLMs using chain-of-thought prompting for software security is lacking.  
+We introduce SecureMind, an open-source framework for evaluating LLMs in vulnerability detection and repair, focusing on memory-related vulnerabilities. SecureMind provides a user-friendly Python interface for defining test plans, which automates data retrieval, preparation, and benchmarking across a wide range of metrics.  
+Using SecureMind, we assess 10 representative LLMs, including 7 state-of-the-art reasoning models, on 16K test samples spanning 8 Common Weakness Enumeration (CWE) types related to memory safety violations. Our findings highlight the strengths and limitations of current LLMs in handling memory-related vulnerabilities.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3735950.3735955">Compiler-Assisted Crash Consistency for PMEM</a></h3><ul class="DLauthors"><li class="nameList">Yun Joon Soh</li><li class="nameList">Sihang Liu</li><li class="nameList">Steven Swanson</li><li class="nameList Last">Jishen Zhao</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Writing crash-consistent programs for memory-semantic storage such as persistent memory (PMEM) is error-prone and cumbersome. Programmers must implement both the main logic and the recovery logic to ensure data consistency after unexpected power failures. Prior work has reduced this burden using compiler-assisted logging techniques to enforce crash consistency. However, these techniques often apply persistence uniformly, limiting support for diverse programming models and incurring high logging overhead. </p><p>We present SSAPP (Statically and Systematically Automated Persistence is Possible), a compiler extension that transparently adds crash consistency to the main logic and automatically generates tailored recovery code. SSAPP persists transient state with low overhead during main logic execution and makes principled resumption decisions during post-failure recovery. Based on these decisions, the generated recovery code correctly completes the interrupted operation. This design supports a broader range of programming models — including lock-free data structures — while reducing crash consistency overhead. </p><p>We evaluate SSAPP on transactional benchmarks, lock-based, and lock-free data structures. With minimal developer effort, SSAPP converts volatile lock-free data structures into crash-consistent ones, achieving performance comparable to Mirror, a hand-optimized persistent data structure library. SSAPP also outperforms Clobber-NVM, a prior compiler-based PMEM system, achieving 1.8× higher throughput.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3735950.3735956">TierTrain: Proactive Memory Tiering for CPU-Based DNN Training</a></h3><ul class="DLauthors"><li class="nameList">Sathvik Swaminathan</li><li class="nameList">Sandeep Kumar</li><li class="nameList">Aravinda Prasad</li><li class="nameList Last">Sreenivas Subramoney</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Deep neural networks (DNNs) are one of the popular models for learning relationships between complex data. Training a DNN model is a compute- and memory-intensive operation. The size of modern DNN models spans into the terabyte region, requiring multiple accelerators to train -- driving up the training cost. Such humongous memory requirements shift the focus toward memory rather than computation.  
+</p>
+<p>
+CPU-memory, on the other hand, can be scaled to several terabytes with new emerging memory technologies such as HBM and CXL-attached memories. Furthermore, recent advancements to the CPUs in terms of dedicated instructions for DNN training and inference are bridging the compute gap between CPUs and accelerators.  
+</p>
+<p>
+Proposed is an exploratory work in the direction of cost-effective DNN training on CPUs where we aim to alleviate memory management challenges in DNN training. We propose TierTrain, a novel memory tiering solution based on a dynamic queuing system that leverage the periodic and deterministic memory access behavior in DNN training to manage data placement across memory tiers. TierTrain proactively manages tensors by aggressively offloading them to slow memory tiers (NVMM, CXL) and timely prefetching them back to fast memory tiers (HBM, DRAM). Our evaluation of TierTrain on a tiered memory system with a real CXL-attached memory used for memory expansion and NVMM as a low cost memory results in average fast memory footprint reduction of 59–83% and peak fast memory footprint reduction of 25–74% with a performance overhead of 1–16%. In a memory-constrained scenario, TierTrain outperforms the state-of-the-art tiering by improving the performance by 35–84% for a set of popular DNN training models.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3735950.3735957">Reconsidering Garbage Collection in Julia: A Practitioner Report</a></h3><ul class="DLauthors"><li class="nameList">Luis Eduardo de Souza Amorim</li><li class="nameList">Yi Lin</li><li class="nameList">Stephen M. Blackburn</li><li class="nameList">Diogo Netto</li><li class="nameList">Gabriel Baraldi</li><li class="nameList">Nathan Daly</li><li class="nameList">Antony L. Hosking</li><li class="nameList">Kiran Pamnany</li><li class="nameList Last">Oscar Smith</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Julia is a dynamically-typed garbage-collected language designed for high performance. Julia has a non-moving tracing collector, which, while performant, is subject to the same unavoidable fragmentation and lack of locality as all other non-moving collectors. In this work, we refactor the Julia runtime with the goal of supporting different garbage collectors, including copying collectors. Rather than integrate a specific collector implementation, we implement a third-party heap interface that allows Julia to work with various collectors, and use that to implement a series of increasingly more advanced designs. Our description of this process sheds light on Julia's existing collector and the challenges of implementing copying garbage collection in a mature, high-performance runtime.  
+We have successfully implemented a third-party heap interface for Julia and demonstrated its utility through integration with the MMTk garbage collection framework. We hope that this account of our multi-year effort will be useful both within the Julia community and the garbage collection research community, as well as providing insights and guidance for future language implementers on how to achieve high-performance garbage collection in a highly-tuned language runtime.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3735950.3735958">Lifetime Dispersion and Generational GC: An Intellectual Abstract</a></h3><ul class="DLauthors"><li class="nameList Last">Stephen Dolan</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>The effectiveness of generational garbage collection is usually explained through the <em>generational hypothesis</em>, that “most objects die young”. </p><p>Despite its simplicity, the generational hypothesis leaves some things to be desired: it is not obvious how it can be measured as a property of a program (independent of a particular GC strategy), it is not composable (in that it does not follow from a larger program by being true of its parts), and even its connection to the effectiveness of generational GC is murkier than it may first appear. </p><p>We propose instead <em>lifetime dispersion</em> as a measure of how generational a program’s objects are, and explain how it can be quantified by the Gini coefficient. We show that this measure is both composable, and directly connected to effectiveness of generational collection.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3735950.3735959">Fully Randomized Pointers</a></h3><ul class="DLauthors"><li class="nameList">Sai Dhawal Phaye</li><li class="nameList">Gregory J. Duck</li><li class="nameList">Roland H. C. Yap</li><li class="nameList Last">Trevor E. Carlson</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Memory errors continue to be a critical concern for programs written in low-level programming languages such as C and C++. Many different memory error defenses have been proposed, each with varying trade-offs in terms of overhead, compatibility, and attack resistance. Some defenses are highly compatible but only provide minimal protection, and can be easily bypassed by knowledgeable attackers. On the other end of the spectrum, capability systems offer very strong (unforgeable) protection, but require novel software and hardware implementations that are incompatible by definition. The challenge is to achieve <em>both</em> very strong protection and high compatibility. </p><p>In this paper, we propose <em>Fully Randomized Pointers</em> (FRP) as a strong memory error defense that also maintains compatibility with existing binary software. The key idea behind FRP is to design a new pointer encoding scheme that allows for the full randomization of most pointer bits, rendering even brute force attacks impractical. We design a FRP encoding that is: (1) compatible with existing binary code (recompilation not needed); and (2) decoupled from the underlying object layout. FRP is prototyped as: (i) a software implementation (BlueFat) to test security and compatibility; and (ii) a proof-of-concept hardware implementation (GreenFat) to evaluate performance. We show FRP is secure, practical, and compatible at the binary level, while our hardware implementation achieves low performance overheads (&lt;4%).</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3735950.3735960">Reworking Memory Management in CRuby: A Practitioner Report</a></h3><ul class="DLauthors"><li class="nameList">Kunshan Wang</li><li class="nameList">Stephen M. Blackburn</li><li class="nameList">Peter Zhu</li><li class="nameList Last">Matthew Valentine-House</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Ruby is a dynamic programming language that was first released in 1995 and remains heavily used today.  
+Ruby underpins Ruby on Rails, one of the most widely deployed web application frameworks.  
+The scale at which Rails is deployed has placed increasing pressure on the underlying CRuby implementation, and in particular its approach to memory management.  
+CRuby implements a mark-sweep garbage collector which until recently was non-moving and only allocated fixed-size 40-byte objects, falling back to malloc to manage all larger objects.  
+</p>
+<p>
+This paper reports on a multi-year academic-industrial collaboration to rework CRuby's approach to memory management with the goal of introducing modularity and the ability to incorporate modern high performance garbage collection algorithms.  
+This required identifying and addressing deeply ingrained assumptions across many aspects of the CRuby runtime.  
+We describe the longstanding CRuby implementation and enumerate core challenges we faced and lessons they offer.  
+</p>
+<p>
+Our work has been embraced by the Ruby community, and the refactorings and new garbage collection interface we describe have been upstreamed.  
+</p>
+<p>
+We look forward to this work being used to deploy a new class of garbage collectors for Ruby.  
+We hope that this paper will provide important lessons and insights for Ruby developers, garbage collection researchers and language designers.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3735950.3735961">Gray-in-Young: A Generational Garbage Collection for Processing-in-Memory</a></h3><ul class="DLauthors"><li class="nameList">Ryu Morimoto</li><li class="nameList">Kazuki Ichinose</li><li class="nameList Last">Tomoharu Ugawa</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Processing-in-memory (PIM) is a promising approach to overcome the performance bottleneck caused by the gap between CPU speed and memory speed, known as the memory wall problem.  
+The UPMEM PIM-enabled memory is the first commercialized general-purpose PIM accelerator, to which the program running on the host CPU offloads computation kernels.  
+Its DRAM Processing Units (DPUs) are general-purpose processors and have the flexibility to run various computation kernels.  
+However, there is no support for programming in managed languages with garbage collection (GC).  
+In this paper, we design GC for DPUs, which is a key component of managed runtimes.  
+Our GC is a parallel generational GC, whose young space is in scratch pad memory (SPM).  
+The GC updates pointers in promoting objects before copying them to old space in DRAM to reduce DRAM accesses.  
+It also determines class information needed for minor GC of each computation kernel at compile time and caches them in SPM.  
+The major GC routines are compiled in a separate binary so that the binaries of computation kernels fit in 24 KB of program memory.  
+The evaluation results using a micro benchmark showed that our proposed techniques reduced up to 85.9% DRAM accesses and improved performance by 46.2% for our benchmark.  
+The GC scaled up to 11 threads, and the remaining code size for the GC routine was only 4.3 KB after separating 6.9 KB of major GC.</p>
+			</div></div>
+							
+						</div></div></body></html>

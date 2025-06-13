@@ -1,0 +1,136 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style><title>SOAP '25: Proceedings of the 14th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis</title></head><body><div id="DLtoc"><div id="DLheader"><h1>SOAP '25: Proceedings of the 14th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3735544"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+                Full Citation in the ACM Digital Library
+            </a></div><div id="DLcontent"><h2>SESSION: Papers</h2>
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3735544.3735581">Beyond Affine Loops: A Geometric Approach to Program Synthesis</a></h3><ul class="DLauthors"><li class="nameList">Erdenebayar Bayarmagnai</li><li class="nameList">Fatemeh Mohammadi</li><li class="nameList Last">Rémi Prébet</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Ensuring software correctness remains a fundamental challenge in formal program verification. One promising approach relies on finding polynomial invariants for loops. Polynomial invariants are properties of a program loop that hold before and after each iteration. Generating polynomial invariants is a crucial task for loops, but it is an undecidable problem in the general case. Recently, an alternative approach to this problem has emerged, focusing on synthesizing loops from invariants. However, existing methods only synthesize affine loops without guard conditions from polynomial invariants. In this paper, we address a more general problem, allowing loops to have polynomial update maps with a given structure, inequations in the guard condition, and polynomial invariants of arbitrary form.  
+</p>
+<p>
+  
+In this paper, we use algebraic geometry tools to design and implement an algorithm that computes a finite set of polynomial equations whose solutions correspond to all loops satisfying the given polynomial invariants. In other words, we reduce the problem of synthesizing loops to finding solutions of polynomial systems within a specified subset of the complex numbers. The latter is handled in our software using an SMT solver.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3735544.3735582">Optimizing Type Migration for LLM-Based C-to-Rust Translation: A Data Flow Graph Approach</a></h3><ul class="DLauthors"><li class="nameList">Qingxiao Xu</li><li class="nameList Last">Jeff Huang</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Translating legacy C codebases to Rust is crucial for improving memory safety, yet automating this process remains challenging for real-world projects. In this paper, we document key technical challenges we encountered in manually translating the Gzip GNU package using state-of-the-art LLMs (e.g., the OpenAI o1 model). To address the incompatibility between C and Rust type systems, we propose an optimized method aimed at providing the appropriate context and prompts to ensure correct variable types at declaration stage. We extract essential code semantics by generating data flow graphs (DFG). For global variables that may induce multiple borrowing, we prompt LLM to generate enums, and for pointer variables (scalar pointers, array pointers and pointer arithmetic), we prompt LLM to map them to correct Rust types. By leveraging DFG context information and prompts with clear instructions, our approach enables o1 to achieve more accurate type translation compared to direct translation. Our results are publicly available and demonstrate the effectiveness of our approach in improving type migration.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3735544.3735583">Compositional Static Callgraph Reachability Analysis for WhatsApp Android App Health</a></h3><ul class="DLauthors"><li class="nameList">Ákos Hajdu</li><li class="nameList">Roman Lee</li><li class="nameList">Gavin Weng</li><li class="nameList">Nilesh Agrawal</li><li class="nameList Last">Jérémy Dubreil</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>We report on an industrial use case of static callgraph reachability analysis to improve WhatsApp Android app health.  
+We collaborated with engineers dedicated to app health to annotate/specify the source code.  
+We leveraged the Infer static analyzer to prevent regressions during code changes and to periodically find pre-existing issues on the latest revision.  
+Within three months, the analysis prevented almost a hundred regressions from being introduced and resulted in fixes for a handful of pre-existing issues, including examples with end-user measurable impact.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3735544.3735584">Towards Bit-Level Dominance Preserving Quantization of Neural Classifiers</a></h3><ul class="DLauthors"><li class="nameList">Dorra Ben Khalifa</li><li class="nameList Last">Matthieu Martel</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Quantization consists of replacing the original data types used to represent the weights of neural networks with less resource-intensive data types. While considerable research has focused on quantization, most existing methods that offer theoretical guarantees do so by providing error bounds on the difference between the original and reduced precision models.  
+In this article, we introduce a new quantization technique that, rather than focusing on bounding errors, determines the minimum precision necessary to preserve class dominance, independent of any specific set of numerical formats.  
+ In other words, regardless of the exact scores for each class, our method guarantees that the class predicted by the original network remains unchanged after quantization. Our method is static and the proposed quantization holds for all the inputs.  
+ Technically, we leverage existing theorems that provide error bounds for dot products and formulate an optimization problem whose solution yields the required reduced precision. We also present experimental results to validate the effectiveness of our method.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3735544.3735585">Universal High-Performance CFL-Reachability via Matrix Multiplication</a></h3><ul class="DLauthors"><li class="nameList">Ilia Muravev</li><li class="nameList Last">Semyon Grigorev</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Context-free language (CFL) reachability is a fundamental computational framework for formulating key static analyses (e.g., alias analysis, value-flow analysis, and points-to analysis) as well as some other graph analysis problems. Achieving high performance in universal CFL-reachability solvers remains a significant challenge. Specialized tools such as Pearl and Gigascale are optimized for specific CFLs but lack general applicability, whereas existing universal CFL-reachability solvers often do not scale well in important cases. In particular, prior efforts to leverage high-performance linear algebra operations in universal CFL-reachability solvers produced a matrix-based solver, MatrixCFPQ, that excels at performing common navigational queries on RDF graphs (which are unrelated to program analysis) but is inefficient when it comes to modeling static analyses.  
+</p>
+<p>
+In this work, we introduce FastMatrixCFPQ, a universal matrix-based CFL-reachability solver that overcomes the limitations of MatrixCFPQ by leveraging the properties of the CFL-semiring, common patterns in context-free grammars, and the features of the SuiteSparse:GraphBLAS sparse linear algebra library. Our experimental results demonstrate that FastMatrixCFPQ outperforms the state-of-the-art universal CFL-reachability solvers across five client analyses---often by orders of magnitude---and, in many cases, even surpasses the speed of specialized solvers designed for specific CFLs.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3735544.3735586">Scalable Language Agnostic Taint Tracking using Explicit Data Dependencies</a></h3><ul class="DLauthors"><li class="nameList">Sedick David Baker Effendi</li><li class="nameList">Xavier Pinho</li><li class="nameList">Andrei Michael Dreyer</li><li class="nameList Last">Fabian Yamaguchi</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Taint analysis using explicit whole-program data-dependence graphs is powerful for vulnerability discovery but faces two major challenges. First, accurately modeling taint propagation through calls to external library procedures requires extensive manual annotations, which becomes impractical for large ecosystems. Second, the sheer size of whole-program graph representations leads to serious scalability and performance issues, particularly when quick analysis is needed in continuous development pipelines. </p><p>This paper presents the design and implementation of a system for a language-agnostic data-dependence representation. The system accommodates missing annotations describing the behavior of library procedures by over-approximating data flows, allowing annotations to be added later without recalculation. We contribute this data-flow analysis system to the open-source code analysis platform Joern, making it available to the community.</p>
+			</div></div>
+							
+						
+							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3735544.3735587">Pick Your Call Graphs Well: On Scaling IFDS-Based Data-Flow Analyses</a></h3><ul class="DLauthors"><li class="nameList">Kadiray Karakaya</li><li class="nameList">Palaniappan Muthuraman</li><li class="nameList Last">Eric Bodden</li></ul><div class="DLabstract"><div style="display:inline">
+				<p>Recent works on scaling IFDS-based analyses propose sophisticated techniques ranging from sparsification and disk-assisted computing to intelligent garbage collection. Yet, they choose a fixed call graph, thereby disregarding its implications on scalability.  
+</p>
+<p>
+This work presents an empirical evaluation of call graph precision's impact on the precision and scalability of the IFDS framework. To this end, we build QCG, a call graph generation tool for Android that extends the Qilin pointer analysis framework, and integrate it with FlowDroid, a state-of-the-art IFDS-based taint analysis solver. We assess the precision of 27 call graphs built with QCG and 4 default call graphs in FlowDroid, on the TaintBench benchmark of Android malware. We then evaluate how increasing the call-graph precision impacts FlowDroid's runtime performance and memory consumption on real-world apps.  
+</p>
+<p>
+We report that the time invested in building precise context-sensitive call graphs pays off: They significantly reduce IFDS analyses' runtimes while also improving their precision. However, there appears to be a sweet spot in the trade-off between the call graph construction time and the reduction in total analysis runtime.</p>
+			</div></div>
+							
+						</div></div></body></html>
