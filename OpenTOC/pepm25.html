@@ -1,4 +1,8 @@
-<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Style-Type" content="text/css"><style type="text/css">
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
             #DLtoc {
             font: normal 12px/1.5em Arial, Helvetica, sans-serif;
             }
@@ -77,491 +81,632 @@
             margin-left:0px;
             }
 
-        </style><title>PEPM '25: Proceedings of the 2025 ACM SIGPLAN International Workshop on Partial Evaluation and Program Manipulation</title></head><body><div id="DLtoc"><div id="DLheader"><h1>PEPM '25: Proceedings of the 2025 ACM SIGPLAN International Workshop on Partial Evaluation and Program Manipulation</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3704253"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
-                Full Citation in the ACM Digital Library
-            </a></div><div id="DLcontent"><h2>SESSION: Invited Contributions</h2>
-							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3704253.3706135">The Ethical Compiler: Addressing the Is-Ought Gap in Compilation (Invited Talk)</a></h3><ul class="DLauthors"><li class="nameList Last">William J. Bowman</li></ul><div class="DLabstract"><div style="display:inline">
-				<p>The is-ought gap is a problem in moral philosophy observing that ethical judgments ("ought") cannot be grounded purely in truth judgments ("is"): that an ought cannot be derived from an is.
- 
- 
- 
- 
- 
- 
- 
-This gap renders the following argument invalid: "It is true that type safe languages prevent bugs and that bugs cause harm, therefore you ought to write in type safe languages".
- 
- 
- 
- 
- 
- 
- 
-To validate ethical claims, we must bridge the gap between is and ought with some ethical axiom, such as "I believe one ought not cause harm".
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
-But what do ethics have to do with manipulating programs?
- 
- 
- 
- 
- 
- 
- 
-A lot!
- 
- 
- 
- 
- 
- 
- 
-Ethics are central to correctness!
- 
- 
- 
- 
- 
- 
- 
-For example, suppose an algorithm infers the type of is Bool, and is in fact a Bool; the program type checks.
- 
- 
- 
- 
- 
- 
- 
-Is the program correct-does it behave as it ought?
- 
- 
- 
- 
- 
- 
- 
-We cannot answer this without some ethical axioms: what does the programmer believe ought to be?
- 
- 
- 
- 
- 
- 
- 
-
- 
- 
- 
- 
- 
- 
- 
-I believe one ought to design and implement languages ethically.
- 
- 
- 
- 
- 
- 
- 
-We must give the programmer the ability to express their ethics-their values and beliefs about a program-in addition to mere computational content, and build tools that respect the distinction between is and ought.
- 
- 
- 
- 
- 
- 
- 
-This paper is a guide to ethical language design and implementation possibilities.</p>
-			</div></div>
-							
-						
-							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3704253.3706136">A Type-Theoretic Framework for Certified Meta-programming (Invited Talk Extended Abstract)</a></h3><ul class="DLauthors"><li class="nameList Last">Brigitte Pientka</li></ul><div class="DLabstract"><div style="display:inline">
-				<p>Meta-programming is the art of writing programs that produce or manipulate other programs. This allows programmers to automate error-prone or repetitive tasks, and exploit domain-specific knowledge to customize the generated code. Unfortunately, writing safe meta-programs remains very challenging, since errors in the generated code are usually only detected when running it, but not at the time when code is generated. How can we design a flexible and expressive meta-programming framework where we provide a range of safety guarantees about the code that is being generated and the code generator itself?
- 
- 
- 
-
- 
-We revisit Cocon, a type-theoretic framework for certified meta-programming. Cocon is a two-level type theory: at its base is the logical framework LF where we can represent domain-specific languages (DSL) ranging from simply-typed to polymorphic languages; on top sits a Martin-Loef type theory where we can write recursive programs and proofs about those DSLs using pattern matching. In particular, when the DSL is contained in Martin-Loef type theory we can use reflection and leverage MLTT's evaluation to execute programs written in a given DSL.Hence, we can derive type-safe meta-programming systems for a range of DSLs.</p>
-			</div></div>
-							
-						
-							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3704253.3710847">The Missing Diagonal: High Level Languages for Low Level Systems (Invited Talk Abstract)</a></h3><ul class="DLauthors"><li class="nameList Last">Satnam Singh</li></ul><div class="DLabstract"><div style="display:inline">
-				<p>The computing community has produced many high level languages and tools for programming high level systems (e.g. Java for user interfaces) and it has produced many low level languages and tools for programming low level systems (C for operating systems, Verilog for hardware design) yet there are not many examples of high level systems that have been produced to help develop low level systems. Sometimes this is due to a suspicion that the layers of abstraction that high level systems use incur unacceptable performance overheads. However, this talk attempts to challenge that view, giving examples of high level systems that improve the designer productivity for developing low level systems which also improve the quality of verification for low level systems.
- 
-
- 
-The talk will draw examples from the presenter’s own experience, as well as the work of others. Specific examples will include Lava and Bluespec for the design of hardware, the Silver Oak project for the co-design of a high assurance silicon root of trust, a Haskell-based DSL for programming machine learning chips, and recent work on the specification and verification of parts of a new silicon chip produced at Groq which makes use of the same Haskell DSL.</p>
-			</div></div>
-							
-						<h2>SESSION: Papers</h2>
-							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3704253.3706137">Algebraic Stepper for Simple Modules</a></h3><ul class="DLauthors"><li class="nameList">Kenichi Asai</li><li class="nameList Last">Hinano Akiyama</li></ul><div class="DLabstract"><div style="display:inline">
-				<p>An algebraic stepper is a pedagogical tool for showing the
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-intermediate steps of program execution.
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-This paper presents an algebraic stepper for OCaml that supports
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-simple modules with hierarchical reference to variables
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-(but without functors or signature sealing).
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-When we program with modules,
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-we can refer to a variable declared in a parent module directly,
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-whereas we need to specify a module path to refer to a
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-variable declared in a child module.
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-Therefore, when we build the stepper,
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-we attach a level to each variable (bound by let statement
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-without in)
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-and use it to maintain correct reference regardless of
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-where a variable is used.
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-In this paper, we present and formalize our stepper that implements
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-delayed substitution of variables, and discuss the interplay
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-between the stepper semantics and the level maintenance.
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-We further show that the execution in the stepper semantics is
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-consistent with the one in the standard small-step semantics.
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-The resulting stepper is implemented, supporting most of the basic
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-constructs of OCaml, and is used in an introductory OCaml course in
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-the authors' institution.</p>
-			</div></div>
-							
-						
-							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3704253.3706140">A Type Safe Calculus for Generating Syntax-Directed Editors</a></h3><ul class="DLauthors"><li class="nameList">Benjamin Bennetzen</li><li class="nameList">Nikolaj Rossander Kristensen</li><li class="nameList">Andreas Tor Mortensen</li><li class="nameList">Peter Buus Steffensen</li><li class="nameList">Sune Skaanning Engtorp</li><li class="nameList Last">Hans Hüttel</li></ul><div class="DLabstract"><div style="display:inline">
-				<p>Editor calculi make it possible to describe the actions of syntax-directed editing and provide guarantees of safety through their specialized type system: Well-typed editor scripts produce well-formed programs. So far, such calculi have been language-specific. In this paper we present a generalized editor calculus, which can be used to specify a specialized syntax-directed editor for any language, given its abstract syntax. Moreover we show how to implement an editor generator that allows one to generate an editor calculus-based syntax-directed editor from a language specification. The generalized editor calculus can be encoded into a simply typed lambda calculus, extended with pairs, booleans, pattern matching and fixed points. This implies a general type safety result that holds for any instantiation.</p>
-			</div></div>
-							
-						
-							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3704253.3706139">Characterizations of Partial Well-Behaved Lenses</a></h3><ul class="DLauthors"><li class="nameList">Keishi Hashiba</li><li class="nameList">Keisuke Nakano</li><li class="nameList">Kazuyuki Asada</li><li class="nameList Last">Kentaro Kikuchi</li></ul><div class="DLabstract"><div style="display:inline">
-				<p>Foster et al. proposed a linguistic approach to the bidirectional transformation, with lens. A lens is a pair of two functions, one is a forward transformation called get which produces a target view from an original source, and the other is a backward transformation called put which updates the original source to a new one with an updated view. The get and put functions depend on each other to be consistent. A lens is called well-behaved if it satisfies two lens laws, GetPut and PutGet. Every put function uniquely determines a get function if it exists, as far as the get and put functions form a well-behaved lens. Fischer et al. found the conditions of a put function under which the corresponding get function exists, where both get and put functions are supposed to be total. In this paper, we consider the case where get and put functions are possibly partial. We show that almost the same conditions as the ones given by Fischer et al. work well when only a put function is possibly partial, while they do not work when a get function is also possibly partial. In order to have similar results, we propose a new lens law for the case where both get and put functions are possibly partial.</p>
-			</div></div>
-							
-						
-							<h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3704253.3706138">Typed Program Analysis without Encodings</a></h3><ul class="DLauthors"><li class="nameList Last">Barry Jay</li></ul><div class="DLabstract"><div style="display:inline">
-				<p>Programs are viewed as both functions to be executed and data structures to be analysed, but this has always required encoding, e.g. of a lambda-term to a syntax tree, so that a self-interpreter could not be applied to itself directly, but only to its code. Further, the code of a typed program should have a distinctive type. In a tree calculus, however, program analysis can be supported directly, without encodings, including the self-application of a breadth-first self-interpreter of type  </p><p>  <em>bf</em> :∀ <em>X</em>. ∀ <em>Y</em>. (<em>X</em>→ <em>Y</em>) → (<em>X</em>→ <em>Y</em>)  .   </p>
-			</div></div>
-							
-						</div></div></body></html>
+        </style>
+      <title>PEPM '25: Proceedings of the 2025 ACM SIGPLAN International Workshop on Partial Evaluation and Program Manipulation</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>PEPM '25: Proceedings of the 2025 ACM SIGPLAN International Workshop on Partial Evaluation and
+               Program Manipulation</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3704253"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Invited Contributions</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3704253.3706135">The Ethical Compiler: Addressing the Is-Ought Gap in Compilation (Invited Talk)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">William J. Bowman</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The is-ought gap is a problem in moral philosophy observing that ethical judgments
+                     ("ought") cannot be grounded purely in truth judgments ("is"): that an ought cannot
+                     be derived from an is.
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     This gap renders the following argument invalid: "It is true that type safe languages
+                     prevent bugs and that bugs cause harm, therefore you ought to write in type safe languages".
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     To validate ethical claims, we must bridge the gap between is and ought with some
+                     ethical axiom, such as "I believe one ought not cause harm".
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     But what do ethics have to do with manipulating programs?
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     A lot!
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     Ethics are central to correctness!
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     For example, suppose an algorithm infers the type of is Bool, and is in fact a Bool;
+                     the program type checks.
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     Is the program correct-does it behave as it ought?
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     We cannot answer this without some ethical axioms: what does the programmer believe
+                     ought to be?
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     I believe one ought to design and implement languages ethically.
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     We must give the programmer the ability to express their ethics-their values and beliefs
+                     about a program-in addition to mere computational content, and build tools that respect
+                     the distinction between is and ought.
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     This paper is a guide to ethical language design and implementation possibilities.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3704253.3706136">A Type-Theoretic Framework for Certified Meta-programming (Invited Talk Extended Abstract)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Brigitte Pientka</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Meta-programming is the art of writing programs that produce or manipulate other programs.
+                     This allows programmers to automate error-prone or repetitive tasks, and exploit domain-specific
+                     knowledge to customize the generated code. Unfortunately, writing safe meta-programs
+                     remains very challenging, since errors in the generated code are usually only detected
+                     when running it, but not at the time when code is generated. How can we design a flexible
+                     and expressive meta-programming framework where we provide a range of safety guarantees
+                     about the code that is being generated and the code generator itself?
+                     
+                     
+                     
+                     
+                     
+                     We revisit Cocon, a type-theoretic framework for certified meta-programming. Cocon
+                     is a two-level type theory: at its base is the logical framework LF where we can represent
+                     domain-specific languages (DSL) ranging from simply-typed to polymorphic languages;
+                     on top sits a Martin-Loef type theory where we can write recursive programs and proofs
+                     about those DSLs using pattern matching. In particular, when the DSL is contained
+                     in Martin-Loef type theory we can use reflection and leverage MLTT's evaluation to
+                     execute programs written in a given DSL.Hence, we can derive type-safe meta-programming
+                     systems for a range of DSLs.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3704253.3710847">The Missing Diagonal: High Level Languages for Low Level Systems (Invited Talk Abstract)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Satnam Singh</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The computing community has produced many high level languages and tools for programming
+                     high level systems (e.g. Java for user interfaces) and it has produced many low level
+                     languages and tools for programming low level systems (C for operating systems, Verilog
+                     for hardware design) yet there are not many examples of high level systems that have
+                     been produced to help develop low level systems. Sometimes this is due to a suspicion
+                     that the layers of abstraction that high level systems use incur unacceptable performance
+                     overheads. However, this talk attempts to challenge that view, giving examples of
+                     high level systems that improve the designer productivity for developing low level
+                     systems which also improve the quality of verification for low level systems.
+                     
+                     
+                     
+                     The talk will draw examples from the presenter’s own experience, as well as the work
+                     of others. Specific examples will include Lava and Bluespec for the design of hardware,
+                     the Silver Oak project for the co-design of a high assurance silicon root of trust,
+                     a Haskell-based DSL for programming machine learning chips, and recent work on the
+                     specification and verification of parts of a new silicon chip produced at Groq which
+                     makes use of the same Haskell DSL.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Papers</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3704253.3706137">Algebraic Stepper for Simple Modules</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Kenichi Asai</li>
+               <li class="nameList Last">Hinano Akiyama</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>An algebraic stepper is a pedagogical tool for showing the
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     intermediate steps of program execution.
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     This paper presents an algebraic stepper for OCaml that supports
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     simple modules with hierarchical reference to variables
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     (but without functors or signature sealing).
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     When we program with modules,
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     we can refer to a variable declared in a parent module directly,
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     whereas we need to specify a module path to refer to a
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     variable declared in a child module.
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     Therefore, when we build the stepper,
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     we attach a level to each variable (bound by let statement
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     without in)
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     and use it to maintain correct reference regardless of
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     where a variable is used.
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     In this paper, we present and formalize our stepper that implements
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     delayed substitution of variables, and discuss the interplay
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     between the stepper semantics and the level maintenance.
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     We further show that the execution in the stepper semantics is
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     consistent with the one in the standard small-step semantics.
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     The resulting stepper is implemented, supporting most of the basic
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     constructs of OCaml, and is used in an introductory OCaml course in
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     the authors' institution.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3704253.3706140">A Type Safe Calculus for Generating Syntax-Directed Editors</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Benjamin Bennetzen</li>
+               <li class="nameList">Nikolaj Rossander Kristensen</li>
+               <li class="nameList">Andreas Tor Mortensen</li>
+               <li class="nameList">Peter Buus Steffensen</li>
+               <li class="nameList">Sune Skaanning Engtorp</li>
+               <li class="nameList Last">Hans Hüttel</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Editor calculi make it possible to describe the actions of syntax-directed editing
+                     and provide guarantees of safety through their specialized type system: Well-typed
+                     editor scripts produce well-formed programs. So far, such calculi have been language-specific.
+                     In this paper we present a generalized editor calculus, which can be used to specify
+                     a specialized syntax-directed editor for any language, given its abstract syntax.
+                     Moreover we show how to implement an editor generator that allows one to generate
+                     an editor calculus-based syntax-directed editor from a language specification. The
+                     generalized editor calculus can be encoded into a simply typed lambda calculus, extended
+                     with pairs, booleans, pattern matching and fixed points. This implies a general type
+                     safety result that holds for any instantiation.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3704253.3706139">Characterizations of Partial Well-Behaved Lenses</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Keishi Hashiba</li>
+               <li class="nameList">Keisuke Nakano</li>
+               <li class="nameList">Kazuyuki Asada</li>
+               <li class="nameList Last">Kentaro Kikuchi</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Foster et al. proposed a linguistic approach to the bidirectional transformation,
+                     with lens. A lens is a pair of two functions, one is a forward transformation called
+                     get which produces a target view from an original source, and the other is a backward
+                     transformation called put which updates the original source to a new one with an updated
+                     view. The get and put functions depend on each other to be consistent. A lens is called
+                     well-behaved if it satisfies two lens laws, GetPut and PutGet. Every put function
+                     uniquely determines a get function if it exists, as far as the get and put functions
+                     form a well-behaved lens. Fischer et al. found the conditions of a put function under
+                     which the corresponding get function exists, where both get and put functions are
+                     supposed to be total. In this paper, we consider the case where get and put functions
+                     are possibly partial. We show that almost the same conditions as the ones given by
+                     Fischer et al. work well when only a put function is possibly partial, while they
+                     do not work when a get function is also possibly partial. In order to have similar
+                     results, we propose a new lens law for the case where both get and put functions are
+                     possibly partial.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3704253.3706138">Typed Program Analysis without Encodings</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Barry Jay</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Programs are viewed as both functions to be executed and data structures to be analysed,
+                     but this has always required encoding, e.g. of a lambda-term to a syntax tree, so
+                     that a self-interpreter could not be applied to itself directly, but only to its code.
+                     Further, the code of a typed program should have a distinctive type. In a tree calculus,
+                     however, program analysis can be supported directly, without encodings, including
+                     the self-application of a breadth-first self-interpreter of type  </p>
+                  <p>  <em>bf</em> :∀ <em>X</em>. ∀ <em>Y</em>. (<em>X</em>→ <em>Y</em>) → (<em>X</em>→ <em>Y</em>)  .   </p>
+                  			</div>
+            </div>
+            							
+            						</div>
+      </div>
+   </body>
+</html>

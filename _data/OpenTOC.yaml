@@ -1571,3 +1571,11 @@
   event: SOAP
   year: 2025
   title: "Proceedings of the 14th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis"
+-
+  event: CPP
+  year: 2025
+  title: "Proceedings of the 14th ACM SIGPLAN International Conference on Certified Programs and Proofs"
+-
+  event: PEPM
+  year: 2025
+  title: "Proceedings of the 2025 ACM SIGPLAN International Workshop on Partial Evaluation and Program Manipulation"
