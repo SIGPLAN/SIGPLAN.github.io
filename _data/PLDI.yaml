@@ -1,3 +1,12 @@
+2025:
+- Awardee: |
+    Brandon Lucia and Benjamin Ransford
+  Other: |
+    (for 2015) _[A Simpler, Safer Programming and Execution Model for Intermittent Systems.](https://dl.acm.org/doi/10.1145/2737924.2737978)_
+  Citation: |
+    Energy harvesting enables novel devices and applications without batteries, but intermittent operation under energy harvesting poses new challenges to memory consistency that threaten to leave applications in failed states not reachable in continuous execution. This work provides analytical models that aid in reasoning about intermittence and develops DINO (Death Is Not an Option), a programming and execution model that simplifies programming for intermittent systems and ensures volatile and nonvolatile data consistency despite near-constant interruptions. DINO is the first system to address these consistency problems in the context of intermittent execution and dramatically simplifies programming, reducing the set of possible failure-related control transfers.
+
+
 2024:
 - Awardee: |
     Steven Arzt, Siegfried Rasthofer, Christian Fritz, Eric Bodden,
