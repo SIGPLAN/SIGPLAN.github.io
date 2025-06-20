@@ -1,3 +1,22 @@
+2025:
+- Awardee: "Harrison Goldstein, University of Pennsylvania"
+  Other: _Property-Based Testing for the People_
+  Advisor: "Benjamin C. Pierce"
+  Citation: |
+
+    Harry Goldstein’s dissertation, Property-Based Testing for the People, makes groundbreaking contributions to software reliability by advancing the theory and practice of Property-Based Testing (PBT). His work introduces novel mathematical foundations—free and reflective generators—that automate the construction of high-quality test-case generators, dramatically improving usability and effectiveness. Through empirical studies with industrial users, Harry identified key challenges in PBT adoption and addressed them with Tyche, an interactive framework that enhances testing visibility and control. His research, bridging programming languages, software engineering, and human-computer interaction, lays the foundation for a new generation of practical, powerful PBT tools, with substantial impact across both academia and industry.
+    
+    * Selection committee: Niki Vazou, Anders Møller, Loris D’Antoni, Santosh Nagarakatte, Umut Acar, Michael Greenberg.
+
+- Awardee: "Rachit Nigam, Cornell University"
+  Other: _Modular Abstractions for Efficient Hardware Design_
+  Advisor: "Adrian Sampson"
+  Citation: |
+
+    Nigam’s dissertation lays the semantic and practical foundations for a new generation of hardware description languages, applying deep ideas from programming languages to an area long neglected by the community. As the industry shifts toward specialized hardware with smaller, agile teams, the limitations of legacy languages like Verilog have become increasingly acute. Nigam’s work offers a groundbreaking rethinking of hardware design, particularly through his novel treatment of timing via substructural type systems, enabling predictable and composable hardware semantics. His “timeline types” innovation in the Filament system, which enforces timing correctness compositionally, is already influencing industry practice. Beautifully written, technically deep, and with growing impact beyond academia, this dissertation exemplifies the best of programming languages research and will serve as a guide for future work at the intersection of PL and hardware design.
+    
+    * Selection committee: Niki Vazou, Anders Møller, Loris D’Antoni, Santosh Nagarakatte, Umut Acar, Michael Greenberg.
+
 2024:
 - Awardee: "Benjamin Bichsel, ETH Zürich"
   Other: _High-Level Quantum Programming_

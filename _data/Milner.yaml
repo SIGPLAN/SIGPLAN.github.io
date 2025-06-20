@@ -1,3 +1,12 @@
+2025:
+- Awardee: Isil Dillig
+  Citation: |
+    Isil Dillig is recognized for her profound and far-reaching contributions to program analysis, verification, and synthesis. Her groundbreaking research has advanced the theory and practice of formal methods, with applications ranging from security vulnerability detection to code migration, relational reasoning, and zero-knowledge cryptography. Her seminal results in abductive inference, neurosymbolic programming, and solver-based reasoning have opened new directions in programming languages and verification research.
+    Dillig's work is distinguished by extraordinary technical depth, breadth, and originality. She has repeatedly anticipated emerging trends, notably pioneering the integration of machine learning with formal methods, including influential contributions to reinforcement learning for program verification and synthesis and the use of large language models in specification-guided code generation. Across all of these areas, her research combines sophisticated theoretical insight with a commitment to practical impact.
+    In addition to her technical achievements, Dillig has demonstrated outstanding leadership through mentorship, community service, and building a strong research group. Her influence is evident both in her prolific scholarship and in the success of her students and collaborators.
+
+    * Selection committee: Niki Vazou, Anders Møller, Brigitte Pientka, Sophia Drosopoulou, Amal Ahmed, Lars Birkedal, Steve Blackburn.
+
 2024:
 - Awardee: Armando Solar-Lezama
   Citation: |
