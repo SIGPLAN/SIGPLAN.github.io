@@ -1,3 +1,17 @@
+2025:
+- Awardee: Lean Theorem Prover
+  Citation: |
+    The Lean theorem prover is a remarkable software artifact. Grounded on strong theoretical and engineering foundations, Lean has had and continues to have a broad impact on industrial practice and scientific research. In particular, the Lean project has already had a significant impact on mathematics, hardware and software verification, and AI. It has gained substantial traction in the mathematics community with a user-developed library, Mathlib, that has more than 1.6M lines of code. The verification of foundational results at the request of Fields Medalist Peter Scholze and the verification of the Polynomial Freiman–Ruzsa Conjecture led by Fields Medalist Terence Tao have earned the system widespread recognition. It is clear that formal methods based on Lean will play a central role in mathematics in the years to come. Lean is also used in important verification projects in industry, including the verification of the Cedar access control language at AWS, the verification of the SampCert sampler for differential privacy at AWS, and blockchain verification projects at companies like StarkWare and Nethermind. Finally, with the success of projects like DeepMind's AlphaProof and the adoption of Lean by startup companies like Harmonic, Lean has become the de facto choice for AI-based systems of mathematical reasoning.
+
+    The nominated contributors are:
+    * Gabriel Ebner
+    * Soonho Kong
+    * Leo de Moura
+    * Sebastian Ullrich
+    
+    <small>Selection Commitee: Niki Vazou, Alexandra Silva, Andrew Myers, David Grove, Alastair Donaldson, Xavier Leroy, Amal Ahmed.</small>
+
+
 2024:
 - Awardee: The Rust Programming Language
   Citation: |
