@@ -1,4 +1,6 @@
 active:
+  - name: Eloise Christian
+    image: https://conf.researchr.org/getProfileImage/eloisechristian/d57f17a2-1fe5-44bb-b62e-748f84eaddeb/small.jpg?1737203033000
   - name: Angel Pavlov Angelov
     image: https://conf.researchr.org/getProfileImage/angelpavlovangelov/15eb4cf1-1dda-4974-a86e-fe29eb709fe7/small.jpg?1733760295000
   - name: Nicole Heinimann
@@ -15,18 +17,18 @@ active:
     image: https://conf.researchr.org/getProfileImage/christopherlam1/00386a60-bf17-48da-8942-0d2815d7fa08/small.jpg
   - name: Jan-Paul Ramos
     image: https://conf.researchr.org/getProfileImage/janpaulramosdavila/156687da-3cdb-4157-b31e-636bb71b31dc/small.jpg
-  - name: Max Sun
-    image: https://conf.researchr.org/getProfileImage/maxsun/7f927b55-626c-4c5c-9ac8-e10beb3d0b76/small.jpg
-  - name: John Hui
-    image: https://conf.researchr.org/getProfileImage/johnhui/54a9a819-59d8-4b2c-96f8-76f813666876/small.jpg
-  - name: Zixian Cai
-    image: https://conf.researchr.org/getProfileImage/zixiancai/22d210bf-85c3-49e6-8278-4ea50f3290dd/small.jpg
   - name: Guilherme Espada
     image: https://conf.researchr.org/getProfileImage/guilhermeespada/221aa9ee-6215-4712-b6df-a5a09d269e04/small.jpg
   - name: Apoorv Ingle
     image: https://conf.researchr.org/getProfileImage/apoorvingle/76632b78-6d6b-4f2e-9c36-af0a9e1a5fdb/small.jpg
 
 emeritus:
+  - name: Max Sun
+    image: https://conf.researchr.org/getProfileImage/maxsun/7f927b55-626c-4c5c-9ac8-e10beb3d0b76/small.jpg
+  - name: John Hui
+    image: https://conf.researchr.org/getProfileImage/johnhui/54a9a819-59d8-4b2c-96f8-76f813666876/small.jpg
+  - name: Zixian Cai
+    image: https://conf.researchr.org/getProfileImage/zixiancai/22d210bf-85c3-49e6-8278-4ea50f3290dd/small.jpg
   - name: Jessica Foster
     image: https://icfp24.sigplan.org/getProfileImage/jessicafoster/447e864c-9571-4c54-9f51-0e78d5d07ea4/small.jpg
   - name: Bhakti Shah
