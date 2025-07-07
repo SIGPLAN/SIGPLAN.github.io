@@ -1,0 +1,349 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>GPCE '25: Proceedings of the 24th ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>GPCE '25: Proceedings of the 24th ACM SIGPLAN International Conference on Generative Programming:
+               Concepts and Experiences</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3742876"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3742876.3742883">CoCoCoLa: Code Completion Control Language</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList"> Nhat</li>
+               <li class="nameList Last">Vadim Zaytsev</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>In software development, the efficiency and accuracy of code completion systems are
+                     crucial for productivity and codebase discovery. From simple spell checkers to advanced
+                     AI-powered tools, there are more ways to complete your code than ever. This results
+                     in an explosion in the number of possible valid proposals, especially when working
+                     with today’s increasingly large codebases. Over the years, a lot of effort has been
+                     put into developing effective ranking systems to prioritise proposals with more potential.
+                     Yet developers still often struggle with an overwhelming number of suggestions, leading
+                     to reduced productivity and increased cognitive load. </p>
+                  <p>In this paper, instead of just performing completion by name, we propose <em>CoCoCoLa</em> — an alternative approach to give back the control over the presented proposals to
+                     the developer. By investigating the recorded code completion events, frequencies of
+                     desirable code elements’ properties were calculated to identify useful control factors.
+                     To avoid adding further complexity to the completion process, we propose a simple
+                     language, defined within the boundary of a valid identifier of the 50+ most popular
+                     software languages in 2024. This language allows developers to specify and filter
+                     for desired properties of the proposals.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3742876.3742881">Comparative Analysis of Pre-trained Code Language Models for Automated Program Repair
+                  via Code Infill Generation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Iman Hemati Moghadam</li>
+               <li class="nameList">Oebele Lijzenga</li>
+               <li class="nameList Last">Vadim Zaytsev</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Automated Program Repair (APR) has advanced significantly with the emergence of pre-trained
+                     Code Language Models (CLMs), enabling the generation of high-quality patches. However,
+                     selecting the most suitable CLM for APR remains challenging due to a range of factors,
+                     including accuracy, efficiency, and scalability, among others. These factors are interdependent
+                     and interact in complex ways, making the selection of a CLM for APR a multifaceted
+                     problem.  
+                     </p>
+                  
+                  <p>
+                     This study systematically evaluates 20 pre-trained CLMs, ranging from 60M to 16B parameters,
+                     on the HumanEval-Java benchmark (163 buggy Java methods). The evaluation examines
+                     bug-fixing accuracy, resource consumption, compilability, patch diversity, and sampling
+                     strategies (beam search vs. nucleus sampling).  
+                     </p>
+                  
+                  <p>
+                     Results indicate that larger models such as CodeLLaMA-13B and StarCoder generally
+                     perform better in bug fixing and compiler error handling, but scale alone does not
+                     guarantee effectiveness, as some (e.g., CodeGen2) perform poorly despite their size.
+                     Notably, memory usage increases with model size, but time consumption does not exhibit
+                     a clear correlation, suggesting that efficiency is influenced by architecture rather
+                     than scale alone. Additionally, nucleus sampling slightly outperforms beam search,
+                     though the difference is not statistically significant. Since no single CLM fixes
+                     all bugs, these findings highlight the potential of hybrid or ensemble-based CLM-driven
+                     APR approaches for more robust bug-fixing.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3742876.3742884">Imperative Program Synthesis by Abstract Static Analysis and SMT Mutations</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Aleksandar S. Dimovski</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>This paper introduces a novel technique for synthesizing imperative programs that
+                     meet behavioral specifications given in the form of assumptions and assertions (logic
+                     formulas). In particular, we combine basic statement-directed enumerative search,
+                     static analysis via abstract interpretation, and expression-directed enumerative search
+                     via (incremental) SMT-based mutations to efficiently explore all candidate complete
+                     programs generated from an input program template (with statement and expression holes)
+                     until a solution is found. Firstly, the algorithm uses a basic enumerative search
+                     through the space of all possible statements, thus filling in all statement holes.
+                     In effect, we obtain partial programs with only missing (arithmetic and boolean) expressions,
+                     which are subsequently classified by a static analysis either as potential solutions
+                     or as definite failures. Finally,  
+                     we repeatedly mutate the missing expressions in potential solutions and check if the
+                     resulting complete programs become bounded correct with respect to the given assertions.
+                     
+                     </p>
+                  
+                  <p>
+                     We have implemented our technique in a prototype tool and evaluated it on a set of
+                     introductory C programs. The experimental results confirm the effectiveness of our
+                     technique for synthesizing various interesting C programs.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3742876.3742877">Integrating Static Optimization and Dynamic Nature in JavaScript</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Tadashi Saito</li>
+               <li class="nameList Last">Hideya Iwasaki</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The class definitions and class field declarations in the ECMAScript standard suggest
+                     that the JavaScript engines could be optimized like class-based static languages.
+                     This paper focuses on two well-known optimizations. One is method specialization,
+                     using fixed offsets to access properties. The other is prior hidden class construction,
+                     which involves creating runtime class-like structures called hidden classes before
+                     creating instances of the classes. However, implementing such optimizations into JavaScript
+                     faces difficulties because of its dynamic features. We point out three difficulties
+                     that must be overcome and propose reasonable solutions. We implemented these optimizations
+                     and solutions in QuickJS, a small, practical JavaScript engine, and obtained promising
+                     results.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3742876.3742879">P4DDG: Data-Dependent Grammars for Packet Specification and Parsing in P4</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Tommaso Pacciani</li>
+               <li class="nameList">Damian Frolich</li>
+               <li class="nameList">L. Thomas van Binsbergen</li>
+               <li class="nameList Last">Chrysa Papagianni</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>In software-defined networking, the domain-specific language P4 allows developers
+                     to program the behavior of networking devices at a comparatively high level of abstraction.
+                     A P4 program defines a state machine to parse incoming packets. The parsers are flexible
+                     and efficient but may be sensitive to bugs and difficult to maintain. As a possible
+                     alternative, data-dependent grammars (DDGs) can describe both packet structure and
+                     parser at a higher level of abstraction.  
+                     </p>
+                  
+                  <p>
+                     In this work, we investigate the use of DDGs in P4 programs. In particular, we demonstrate
+                     how DDGs can be used to simultaneously define packets and parsers. We describe a DDG
+                     to P4 compiler and evaluate our approach empirically. Input to our evaluation is a
+                     collection of P4 programs with for each: the original (handwritten) parser, the (handwritten)
+                     DDG alternative, and the compiler-generated parser. The handwritten and generated
+                     parsers are compared for equivalence and performance.  
+                     </p>
+                  
+                  <p>
+                     Our results show that the generated parsers are three times slower for grammars that
+                     do not utilize features distinguishing DDGs from context-free grammars. When parameterized
+                     nonterminals are used, a key feature of DDGs, the generated parsers are around six
+                     times slower.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3742876.3742878">Retrofitting a Virtual Instrument DSL with Programming Abstractions</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Mathias Vatter</li>
+               <li class="nameList Last">Sebastian Erdweg</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>KSP is an imperative DSL in music production that enables realistic modelling of musical
+                     instruments in real-time using Kontakt as a runtime environment.  
+                     Once a niche topic for hobbyists, the field has since professionalized, with Kontakt
+                     becoming an industry standard.  
+                     Its scripting language, however, has not evolved much, lacking modern functional and
+                     data abstractions while remaining closed-source.  
+                     This paper proposes transformations that introduce modularity and basic abstraction
+                     principles to KSP. This entails functions with parameters and return values, recursive
+                     data types, and the implementation of lexical scope to replace the current global
+                     variable management.  
+                     The transformations have been implemented in a preprocessing compiler framework--preceding
+                     the actual KSP interpreter--to an extend, that allows for the new syntax elements
+                     to be used in real-world KSP scripts.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3742876.3742882">A Stable Model Semantics for eFLINT Norm Specifications and Model Checking Scenarios</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Christopher A. Esterhuyse</li>
+               <li class="nameList">Tim Müller</li>
+               <li class="nameList Last">L. Thomas van Binsbergen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Since its introduction at GPCE2020, the eFLINT norm specification language has been
+                     used in academic and industrial applications to specify and automate compliance for
+                     various norms, such as privacy regulations and data processing agreements.  
+                     The eFLINT interpreter has been used to automate the analysis of real-time or historical
+                     cases by computing logical consequences and reporting normative violations.  
+                     </p>
+                  
+                  <p>
+                     To support future language and tooling developments, we contribute a formal definition
+                     of the language as a translation to first-order logic programming with stable model
+                     semantics.  
+                     The described semantics aligns with the previous semi-formal descriptions of the language,
+                     but resolves issues relating to logical inference with negative antecedent and aggregation
+                     operators.  
+                     Specifically, we formalise the connection between eFLINT's derivation rules and Horn
+                     clauses under the stable model semantics. Secondly, by repurposing the Clingo answer-set
+                     solver as a highly-optimised eFLINT interpreter, we extend the toolset for eFLINT
+                     with model-checking abstract properties in addition to case analysis.  
+                     </p>
+                  
+                  <p>
+                     We evaluate the new semantics and interpreter via an empirical comparison of the existing
+                     implementation to our prototype implementation.  
+                     We observe that the expected subset of our tests have the equivalent behaviours.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3742876.3742880">Staged Gradual Typing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Hiroto Yaguchi</li>
+               <li class="nameList Last">Yukiyoshi Kameyama</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Staging dynamically typed programming languages safely 
+                     is a challenge, as the programming-language support for 
+                     staged computation typically relies on static type 
+                     systems. To solve this problem, we propose a staged 
+                     gradual type system that seamlessly integrates static 
+                     and dynamic typing with staged computation. Our system 
+                     combines the basic gradual type system and the 
+                     let-polymorphic staged type system for run-time code 
+                     generation safely. We discuss the design and issues in 
+                     developing the calculus, and present a type system 
+                     and operational semantics via a translation to  
+                     a cast calculus where dynamic type checking is made explicit. 
+                     We also show several applications, such as 
+                     lightweight stage polymorphism.</p>
+                  			</div>
+            </div>
+            							
+            						</div>
+      </div>
+   </body>
+</html>

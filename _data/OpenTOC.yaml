@@ -1579,3 +1579,7 @@
   event: PEPM
   year: 2025
   title: "Proceedings of the 2025 ACM SIGPLAN International Workshop on Partial Evaluation and Program Manipulation"
+-
+  event: GPCE
+  year: 2025
+  title: "Proceedings of the 24th ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences"
