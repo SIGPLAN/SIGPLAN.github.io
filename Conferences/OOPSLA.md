@@ -11,6 +11,10 @@ The [SPLASH Steering Committee](/Conferences/SPLASH) serves as the OOPSLA Steeri
 The scope of OOPSLA includes all aspects of programming languages and software engineering, broadly construed.
 Papers that address any aspect of software development are welcome, including requirements, modeling, prototyping, design, implementation, generation, analysis, verification, testing, evaluation, maintenance, reuse, replacement, and retirement of software systems. Papers may address these topics in a variety of ways, including new tools (such as languages, program analyses, and runtime systems), new techniques (such as methodologies, design processes, code organization approaches, and management techniques), and new evaluations (such as formalisms and proofs, corpora analyses, user studies, and surveys).
 
+**PACMPL Author Guidelines and Policies**
+
+[Please see the Author Guidelines and Publication Policies of PACMPL](https://dl.acm.org/journal/pacmpl/author-guidelines) that apply to all OOPSLA papers as they are published in the Proceedings of the ACM on Programming Languages (PACMPL). More information about PACMPL [can be found here](https://www.sigplan.org/PACMPL/).
+
 **Most Influential OOPSLA Paper Award**
 Each year a "Most Influential" OOPSLA paper is chosen and an
 presentation is made at OOPSLA. More details about this award and
