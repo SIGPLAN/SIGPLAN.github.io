@@ -13,7 +13,7 @@ Papers that address any aspect of software development are welcome, including re
 
 **PACMPL Author Guidelines and Policies**
 
-[Please see the Author Guidelines and Publication Policies fo PACMPL](https://sigplan.org/Conferences/OOPSLA/) that apply to all OOPSLA papers as they are published in the Proceedings of the ACM on Programming Languages (PACMPL). More information about PACMPL [can be found here](https://www.sigplan.org/PACMPL/).
+[Please see the Author Guidelines and Publication Policies of PACMPL](https://dl.acm.org/journal/pacmpl/author-guidelines) that apply to all OOPSLA papers as they are published in the Proceedings of the ACM on Programming Languages (PACMPL). More information about PACMPL [can be found here](https://www.sigplan.org/PACMPL/).
 
 **Most Influential OOPSLA Paper Award**
 Each year a "Most Influential" OOPSLA paper is chosen and an
