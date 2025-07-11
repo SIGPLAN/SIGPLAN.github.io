@@ -5,7 +5,7 @@ title: "Principles and Practice of Parallel Programming (PPoPP)"
 The PPoPP Symposia is the forum for leading papers on the principles
 and foundations of parallel programming, tools and techniques for
 parallel programming, and experiences in using parallel programming to
-solve applications problems.
+solve applications problems. The conference charter is [here](https://docs.google.com/document/d/1j9CWcYvLB3vktYMxRXY-rYRYXwIVaGGWZlewLoknoNY/edit?usp=sharing).
 
 **Co-located Events**
 
@@ -20,6 +20,9 @@ The current PPoPP Steering Committee is:
 
 **Web Pages of Previous Conferences**
 
+* [PPoPP 2025](http://ppopp25.sigplan.org) (Las Vegas, NV)
+* [PPoPP 2024](http://ppopp24.sigplan.org) (Edinburgh, UK)
+* [PPoPP 2023](http://ppopp23.sigplan.org) (Montreal, Canada)
 * [PPoPP 2022](http://ppopp22.sigplan.org) (Seoul, South Korea)
 * [PPoPP 2021](http://ppopp21.sigplan.org) (virtual)
 * [PPoPP 2020](http://ppopp20.sigplan.org) (San Diego, CA)
