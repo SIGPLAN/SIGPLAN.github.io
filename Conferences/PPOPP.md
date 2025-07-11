@@ -20,6 +20,9 @@ The current PPoPP Steering Committee is:
 
 **Web Pages of Previous Conferences**
 
+* [PPoPP 2025](http://ppopp25.sigplan.org) (Las Vegas, NV)
+* [PPoPP 2024](http://ppopp24.sigplan.org) (Edinburgh, UK)
+* [PPoPP 2023](http://ppopp23.sigplan.org) (Montreal, Canada)
 * [PPoPP 2022](http://ppopp22.sigplan.org) (Seoul, South Korea)
 * [PPoPP 2021](http://ppopp21.sigplan.org) (virtual)
 * [PPoPP 2020](http://ppopp20.sigplan.org) (San Diego, CA)
