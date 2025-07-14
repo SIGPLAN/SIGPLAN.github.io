@@ -232,6 +232,10 @@ We have received open, public feedback from a number of members of the community
    <td>Member, <a href="mailto:S.Drossopoulou@imperial.ac.uk">S.Drossopoulou@imperial.ac.uk</a>, Imperial College London, Oct 2024-</td>
   </tr> 
  <tr>
+   <td><img src="../images/cares-photos/jeff-foster-2022.jpeg" alt="Jeff Foster" width="156"><br><a href="https://www.cs.tufts.edu/~jfoster/">Jeff Foster</a> (he/him)</td>
+   <td>Member, <a href="mailto:jeffrey.foster@tufts.edu">jeffrey.foster@tufts.edu</a>, Tufts University, Jul 2025-</td>
+  </tr> 
+ <tr>
    <td><img src="../images/cares-photos/foster.png" alt="Nate Foster" width="156"><br><a href="https://www.cs.cornell.edu/~jnfoster/">Nate Foster</a> (he/him)</td>
    <td>Member, <a href="mailto:jnfoster@cs.cornell.edu">jnfoster@cs.cornell.edu</a>, Cornell University, Oct 2024-</td>
   </tr> 
