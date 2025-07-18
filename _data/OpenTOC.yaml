@@ -1583,3 +1583,7 @@
   event: GPCE
   year: 2025
   title: "Proceedings of the 24th ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences"
+-
+  event: SLE
+  year: 2025
+  title: "Proceedings of the 18th ACM SIGPLAN International Conference on Software Language Engineering"
