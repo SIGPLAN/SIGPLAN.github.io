@@ -16,7 +16,7 @@ languages free of restrictions on both access and use.
 
 
 Editor-in-Chief:
-  - [Michael Hicks](http://www.cs.umd.edu/~mwh/), University of Maryland, USA
+  - [Michael Hicks](https://mhicks.me), University of Pennsylvania, USA
 
 Advisory Board:
   - [Derek Dreyer](https://people.mpi-sws.org/~dreyer/), MPI-SWS, Germany <br>
@@ -25,13 +25,15 @@ Advisory Board:
     Member at Large (Issue ICFP)
   - [Hridesh Rajan](https://www.cs.iastate.edu/hridesh), Iowa State University, USA <br>
     Member at Large (Issue OOPSLA)
-  - [Alastair Donaldson](https://multicore.doc.ic.ac.uk), Imperial College London, UK <br>
+  - [Zachary Tatlock](https://www.cs.washington.edu/people/faculty/zachary-tatlock/), University of Washington, USA <br>
     Member at Large (Issue PLDI)
-  - [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts University, USA <br>
+  - [Andrew Myers](https://www.cs.cornell.edu/andru/), Cornell University, USA <br>
     Chair of SIGPLAN
   - [Anders Møller](https://cs.au.dk/~amoeller/), Aarhus University, Denmark <br>
-    Vice-Chair of SIGPLAN
-
+    Vice Chair of SIGPLAN
+  - [Jeff Foster](https://www.eecs.tufts.edu/~jfoster/), Tufts University, USA <br>
+    Past Chair of SIGPLAN
+ 
 Senior Editors:
   - [Derek Dreyer](https://people.mpi-sws.org/~dreyer/), MPI-SWS, Germany <br>
     Editor for Volume 8, Issue POPL (January 2024)
@@ -50,10 +52,17 @@ Associate Editors:
   - [Dominique Devriese](https://distrinet.cs.kuleuven.be/people/DominiqueDevriese), KU Leuven, Belgium <br>
     Editor for Volume 9, Issue ICFP (August 2025)
   - [Shriram Krishnamurthi](https://cs.brown.edu/~sk/), Brown University, USA and [Sukyoung Ryu](http://plrg.kaist.ac.kr/ryu), KAIST, South Korea <br>
-    Editor for Volume 9, Issues OOPSLA1 and OOPSLA2 (April and October 2025)
+    Editors for Volume 9, Issues OOPSLA1 and OOPSLA2 (April and October 2025)
 
 Assistant Editors:
-  - TBA
+  - [Suresh Jagannathan](https://www.cs.purdue.edu/homes/suresh/), Purdue University, USA <br>
+    Editor for Volume 10, Issue POPL (January 2026)
+  - [Manu Sridharan]( http://manu.sridharan.net), University of California at Riverside, USA <br>
+    Editor for Volume 10, Issue PLDI (June 2026)
+  - [Manuel Serrano](https://www-sop.inria.fr/members/Manuel.Serrano/), INRIA, France <br>
+    Editor for Volume 10, Issue ICFP (August 2026)
+  - [Anders Møller](https://cs.au.dk/~amoeller/), Aarhus University, Denmark, and [Işıl Dillig](https://www.cs.utexas.edu/~isil/), University of Texas at Austin, USA <br>
+    Editors for Volume 10, Issues OOPSLA1 and OOPSLA2 (April and October 2026)
 
 Information Director:
   - [Adrian Sampson](https://www.cs.cornell.edu/~asampson/), Cornell University, USA <br>

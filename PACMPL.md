@@ -23,15 +23,14 @@ programming languages free of restrictions on both access and use.
 - Acronym: PACMPL
 - Publisher: ACM (electronic format via ACM Digital Library, no print format)
 - e-ISSN: 2475-1421
-- Annual Issues: POPL (January), OOPSLA1 (April), ICFP (August), OOPSLA2 (October)
+- Annual Issues: POPL (January), OOPSLA1 (April), PLDI (June), ICFP (August), OOPSLA2 (October)
 - Website: [`pacmpl.acm.org`](https://pacmpl.acm.org)
 - Website: [`dl.acm.org/pub.cfm?id=J1568`](https://dl.acm.org/pub.cfm?id=J1568)
 
 ### Participating Conferences
 
 - [ACM SIGPLAN Symposium on Principles of Programming Languages (POPL)](/Conferences/POPL)
-- [ACM SIGPLAN International Conference on Programming Language Design
-  and Implementation (PLDI)](/Conferences/PLDI)
+- [ACM SIGPLAN International Conference on Programming Language Design and Implementation (PLDI)](/Conferences/PLDI)
 - [ACM SIGPLAN International Conference on Functional Programming (ICFP)](/Conferences/ICFP)
 - [ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications (OOPSLA)](/Conferences/OOPSLA)
 - ACM SIGPLAN History of Programming Languages Conference (HOPL)
@@ -91,5 +90,7 @@ to another are the last days of the conferences.
 
 - May 2016: [_PACMPL proposal_](/PACMPL/pacmpl_proposal.pdf) submitted
 - July 2016: <em>PACMPL</em> approved by the [ACM Publications Board](https://www.acm.org/publications/publications-board-committees)
-- November 2016 &ndash; present: [Philip Wadler](http://homepages.inf.ed.ac.uk/wadler) serves as Editor-in-Chief of <em>PACMPL</em>
+- November 2016: [Philip Wadler](http://homepages.inf.ed.ac.uk/wadler) serves as Editor-in-Chief of <em>PACMPL</em>
 - September 2017: [First issue](http://dl.acm.org/citation.cfm?id=3136534) of <em>PACMPL</em> published
+- November 2022: [PLDI joins PACMPL](https://blog.sigplan.org/2022/08/08/pldi-will-join-pacmpl/)
+- November 2022: [Michael Hicks](https://mhicks.me) joins as Editor-in-Chief of <em>PACMPL</em>, replacing Phil Wadler
