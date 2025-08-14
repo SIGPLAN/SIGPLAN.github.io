@@ -5,7 +5,9 @@ title: "Principles and Practice of Parallel Programming (PPoPP)"
 The PPoPP Symposia is the forum for leading papers on the principles
 and foundations of parallel programming, tools and techniques for
 parallel programming, and experiences in using parallel programming to
-solve applications problems. The conference charter is [here](https://docs.google.com/document/d/1j9CWcYvLB3vktYMxRXY-rYRYXwIVaGGWZlewLoknoNY/edit?usp=sharing).
+solve applications problems. The conference charter is [here][charter].
+
+[charter]: ./ppopp-charter.pdf
 
 **Co-located Events**
 
