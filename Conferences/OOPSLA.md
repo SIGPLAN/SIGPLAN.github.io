@@ -15,7 +15,12 @@ Papers that address any aspect of software development are welcome, including re
 
 [Please see the Author Guidelines and Publication Policies of PACMPL](https://dl.acm.org/journal/pacmpl/author-guidelines) that apply to all OOPSLA papers as they are published in the Proceedings of the ACM on Programming Languages (PACMPL). More information about PACMPL [can be found here](https://www.sigplan.org/PACMPL/).
 
+**OOPSLA Policy on In-Person Presentations**
+
+OOPSLA papers are published in the PACMPL, which [states in its procedures under governance](https://sigplan.org/PACMPL/) that "authors of all accepted papers are encouraged (but not required) to present their work at the corresponding conference". To maximise the in-person experience, we ask all the authors who choose to present their work at the conference to do so **fully in person** by attending the conference and registering for the full 3-day OOPSLA event. We are currently unable to support remote participation, and we suggest that the authors explore the optional "SIGPLAN Track" that is provided by some of the SIGPLAN conferences to allow the recent PACMPL published work to be presented in person for the first time.
+
 **Most Influential OOPSLA Paper Award**
+
 Each year a "Most Influential" OOPSLA paper is chosen and an
 presentation is made at OOPSLA. More details about this award and
 past winning papers can be found [here](/Awards/OOPSLA/). SIGPLAN
