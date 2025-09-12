@@ -1,0 +1,39 @@
+---
+title: "Invitation to join SIGPLAN High Integrity Language Technology Technical Committee (HILT-TC)"
+timestamp: "8/1/2025 15:20:26"
+---
+Dear SIGPLAN member (including former SIGAda members):
+
+As of last April, ACM SIGAda was integrated into ACM SIGPLAN.  As part of that process we indicated an intention to form a High Integrity Language Technology (HILT) Technical Committee within SIGPLAN.  We are now taking the official steps to create that committee, where voting members will those members of SIGPLAN that opt into a subscription to the HILT-TC mailing list.  If you would like to be included as a voting member of the HILT Technical Committee, please provide an email address by which you would like to receive mailings as part of the HILT-TC mailing list.  Please fill out this form if interested: 
+
+  https://forms.gle/2miq7qV7U2qy6WQu9
+
+One of the primary roles of the HILT Technical Committee will be to continue the series of HILT conferences and workshops held over the past decade.  You can see the program for the most recent HILT workshop here:
+
+  https://conf.researchr.org/home/hilt-2022
+
+You can click on the "Series" tab at the top of that page to look at some of the prior conferences and workshops.
+
+The full list of past conferences and workshops can be found here:
+
+  https://www.sigada.org/previous-conferences.html
+
+If you peruse the programs of these past HILT conferences and workshops, you will see they have covered a broad swath of topics, ranging from formal verification to rigorous model-based software development, including work with safety-oriented programming languages such as SPARK/Ada, Rust, and Dafny, semantically formalized modeling languages such as AADL and SysML2, and fundamental research on achieving high assurance systems.
+
+It is anticipated that a HILT area will be created as part of the SIGPLAN website, and HILT-oriented contributions will appear on the SIGPLAN blog (https://blog.sigplan.org/about/).  If there is sufficient interest, we will consider creating a HILT-specific blog as well.
+
+The HILT Technical Committee will initially carry over a subset of the officers from SIGAda:
+
+   Chair -- Tucker Taft
+   Vice Chair -- Jérôme Hugues
+   Secretary -- Luis Miguel Pinho
+
+We plan to have elections within the next year to elect a new slate of officers.
+
+At this point if you have interest in participating in the HILT Technical Committee, please fill out the form (https://forms.gle/2miq7qV7U2qy6WQu9) with the email you prefer for the HILT-TC mailing list, as well as any comments you might have on how HILT interests can be best served by this Technical Committee.
+
+Sincerely,
+
+Tucker Taft, Jérôme Hugues, Luis MIguel Pinho
+
+HILT TC Executive Subcommittee
