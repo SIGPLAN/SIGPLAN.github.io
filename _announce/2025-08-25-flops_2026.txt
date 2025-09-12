@@ -3,7 +3,7 @@ title: "Call for Papers: Symposium on Functional and Logic Programming (FLOPS 20
 timestamp: "8/25/2025 12:56:55"
 deadline: "12/8/2025"
 ---
-## [18th International Symposium on Functional and Logic Programming](../)
+## 18th International Symposium on Functional and Logic Programming
 ## May 26-28, 2026, Akita, Japan
 
 FLOPS aims to bring together practitioners, researchers and implementers
@@ -18,8 +18,8 @@ and practice and among different styles of declarative programming.
 Previous FLOPS meetings were held at Fuji Susono (1995), Shonan Village
 (1996), Kyoto (1998), Tsukuba (1999), Tokyo (2001), Aizu (2002), Nara
 (2004), Fuji Susono (2006), Ise (2008), Sendai (2010), Kobe (2012),
-Kanazawa (2014), Kochi (2016), Nagoya (2018), Akita (2020, online), 
-Kyoto (2022, online), and Kumamoto (2024). 
+Kanazawa (2014), Kochi (2016), Nagoya (2018), Akita (2020, online),
+Kyoto (2022, online), and Kumamoto (2024).
 
 ## Scope
 
@@ -47,7 +47,7 @@ what has been accomplished, explaining why it is significant for its
 area, and comparing it with previous work. Submission of system
 descriptions and declarative pearls are especially encouraged.
 
-(\*) Note that FLOPS is a Programming Languages conference.
+(*) Note that FLOPS is a Programming Languages conference.
 Submissions should be accessible to a Programming Languages audience.
 The Program Committee has been selected from that audience, and it
 may be unable to gauge the quality of your submission if that requires
@@ -70,14 +70,14 @@ judged on originality, usefulness, and design.
 with illustrative applications.
 
 System descriptions and declarative pearls must be explicitly marked as
-such in the title. 
+such in the title.
 
 Submissions must be unpublished and not submitted for publication
 elsewhere. Work that already appeared in unpublished or informally
 published workshops proceedings may be submitted. Authors must follow
 [Springer’s Code of
 Conduct](https://www.springernature.com/gp/authors/book-authors-code-of-conduct). See
-also the 
+also the
 [ACM SIGPLAN Republication
 Policy](http://www.sigplan.org/Resources/Policies/Republication).
 At least one author of each accepted paper should plan to
@@ -88,7 +88,7 @@ obstacles).
 
 Submissions must be written in English and can be up to 15 pages
 excluding references, though system descriptions and pearls are
-typically shorter. The formatting has to conform to 
+typically shorter. The formatting has to conform to
 [Springer’s
 guidelines](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines).
 Regular research papers should be supported by proofs
@@ -100,9 +100,8 @@ guarantee that their paper can be understood and appreciated without
 referring to this supporting information; reviewers may simply choose
 not to look at it when writing their review.
 
-Papers should be submitted electronically at
-
-[`https://meteor.springer.com/FLOPS2026`](https://meteor.springer.com/FLOPS2026)
+Papers should be submitted electronically at:
+https://meteor.springer.com/FLOPS2026
 
 ## Publication
 
@@ -131,8 +130,8 @@ All deadlines are Anywhere on Earth (AoE = UTC-12).
 
 ## Program Committee
 
-- Reynald Affeldt, AIST 
-- Davide Ancona, Genova 
+- Reynald Affeldt, AIST
+- Davide Ancona, Genova
 - Lennart Augustsson, Epic Games
 - Mutsunori Banbara, Nagoya University
 - Alessandro  Bruni, ITU Copenhagen
@@ -161,5 +160,4 @@ All deadlines are Anywhere on Earth (AoE = UTC-12).
 
 ## Contact Address
 
-`flops2026_at_deinprogramm_de`
-
+flops2026_at_deinprogramm_de
