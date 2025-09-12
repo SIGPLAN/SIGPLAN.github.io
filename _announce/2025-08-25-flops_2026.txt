@@ -1,0 +1,165 @@
+---
+title: "Call for Papers: Symposium on Functional and Logic Programming (FLOPS 2026)"
+timestamp: "8/25/2025 12:56:55"
+deadline: "12/8/2025"
+---
+## [18th International Symposium on Functional and Logic Programming](../)
+## May 26-28, 2026, Akita, Japan
+
+FLOPS aims to bring together practitioners, researchers and implementers
+of declarative programming, to discuss mutually interesting results and
+common problems: theoretical advances, their implementations in language
+systems and tools, and applications of these systems in practice. The
+scope includes all aspects of the design, semantics, theory,
+applications, implementations, and teaching of declarative programming.
+FLOPS specifically aims to promote cross-fertilization between theory
+and practice and among different styles of declarative programming.
+
+Previous FLOPS meetings were held at Fuji Susono (1995), Shonan Village
+(1996), Kyoto (1998), Tsukuba (1999), Tokyo (2001), Aizu (2002), Nara
+(2004), Fuji Susono (2006), Ise (2008), Sendai (2010), Kobe (2012),
+Kanazawa (2014), Kochi (2016), Nagoya (2018), Akita (2020, online), 
+Kyoto (2022, online), and Kumamoto (2024). 
+
+## Scope
+
+FLOPS solicits original papers in all areas of declarative programming:
+
+* functional, logic, functional-logic programming, rewriting systems,
+formal methods and model checking, program transformations and program
+refinements;
+
+* developing programs with the help of theorem provers or
+SAT/SMT solvers, verifying properties of programs using declarative
+programming techniques, or statistical methods including generative
+AI (*);
+
+* foundations, language design, implementation issues (compilation
+techniques, memory management, run-time systems, etc.), applications and
+case studies.
+
+FLOPS promotes cross-fertilization among different styles of declarative
+programming. Therefore, research papers must be written to be
+understandable by a wide audience of declarative programmers and
+researchers. In particular, each submission should explain its
+contributions in both general and technical terms, clearly identifying
+what has been accomplished, explaining why it is significant for its
+area, and comparing it with previous work. Submission of system
+descriptions and declarative pearls are especially encouraged.
+
+(\*) Note that FLOPS is a Programming Languages conference.
+Submissions should be accessible to a Programming Languages audience.
+The Program Committee has been selected from that audience, and it
+may be unable to gauge the quality of your submission if that requires
+specialized competencies in statistical methods and/or AI.  Special
+attention should also be paid to the reproducibility of the results
+from public sources.
+
+
+## Submission
+
+Submissions should fall into one of the following categories:
+
+* Regular research papers: they should describe new results and will be
+judged on originality, correctness, and significance.
+
+* System descriptions: they should describe a working system and will be
+judged on originality, usefulness, and design.
+
+* Declarative pearls: new and excellent declarative programs or theories
+with illustrative applications.
+
+System descriptions and declarative pearls must be explicitly marked as
+such in the title. 
+
+Submissions must be unpublished and not submitted for publication
+elsewhere. Work that already appeared in unpublished or informally
+published workshops proceedings may be submitted. Authors must follow
+[Springer’s Code of
+Conduct](https://www.springernature.com/gp/authors/book-authors-code-of-conduct). See
+also the 
+[ACM SIGPLAN Republication
+Policy](http://www.sigplan.org/Resources/Policies/Republication).
+At least one author of each accepted paper should plan to
+attend the conference in person to present the work: there will be no
+general facility for online or pre-recorded presentation (but we will
+do our best to accommodate visa issues and similar unavoidable
+obstacles).
+
+Submissions must be written in English and can be up to 15 pages
+excluding references, though system descriptions and pearls are
+typically shorter. The formatting has to conform to 
+[Springer’s
+guidelines](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines).
+Regular research papers should be supported by proofs
+and/or experimental results. In case of lack of space, this supporting
+information should be made accessible otherwise (e.g., a link to a
+web page or an appendix, which does not count towards the
+page limit). However, it is the responsibility of the authors to
+guarantee that their paper can be understood and appreciated without
+referring to this supporting information; reviewers may simply choose
+not to look at it when writing their review.
+
+Papers should be submitted electronically at
+
+[`https://meteor.springer.com/FLOPS2026`](https://meteor.springer.com/FLOPS2026)
+
+## Publication
+
+The proceedings will be published by Springer in the LNCS series. We
+expect to invite the authors of a selection of the best papers to submit
+an extended version of their FLOPS paper to a special issue which will
+appear in [Science of Computer Programming](https://www.sciencedirect.com/journal/science-of-computer-programming).
+
+## Important Dates
+
+All deadlines are Anywhere on Earth (AoE = UTC-12).
+
+|-------------------------|-------------------|
+| **Abstracts due**    | Dec 8, 2025    |
+| **Submission deadline** | Dec 16, 2025    |
+| **Notifications**   | Feb 2, 2026  |
+| **Final versions**            | March 2, 2026 |
+
+## Organizers
+
+- Ekaterina Komendantskaya (Co-chair), School of Mathematical and
+  Computer Sciences (MACS), Heriot-Watt University
+- Mike Sperber (Co-chair), Active Group
+- Ryoma Sin’ya (Co-Chair), Department of Mathematical Science and
+  Electrical-Electronic-Computer Engineering, Akita University
+
+## Program Committee
+
+- Reynald Affeldt, AIST 
+- Davide Ancona, Genova 
+- Lennart Augustsson, Epic Games
+- Mutsunori Banbara, Nagoya University
+- Alessandro  Bruni, ITU Copenhagen
+- William Byrd, University of Alabama at Birmingham
+- Pedro Cabalar, Corunna University
+- Youyou Cong, Institute of Science Tokyo
+- Matthew Daggitt, U. Western Australia
+- Jeremy Gibbons, Oxford University
+- Andrew D. Gordon, Cogna and University of Edinburgh
+- Gopal Gupta, University of Texas
+- Jason Hemann, Seton Hall University
+- Mirai Ikebuchi, Kyoto University
+- Ranjit Jhala, UC San Diego
+- Wen Kokke, Well-Typed
+- Dale Miller, Inria Saclay - Île-de-France and the Laboratoire d'Informatique (LIX)
+- Simon Peyton Jones, Epic Games
+- Benjamin Pierce, University of Pennsylvania
+- Michael Rawson, Southampton
+- Takehide Soh, Kobe University
+- Theresa Swift, Universidade Nova de Lisboa
+- Enrico Tassi, INRIA
+- Ekaterina Verbitskaia, JetBrains Research
+- Christina Zeller, Active Group
+- Neng-Fa Zhou, Brooklyn College
+- Akimasa Morihata, The University of Tokyo
+
+## Contact Address
+
+`flops2026_at_deinprogramm_de`
+
