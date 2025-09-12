@@ -37,7 +37,7 @@ Check out our [Twitter](https://twitter.com/SigplanM) for the latest news! You c
 
 ## Committee Members
 
-- **Operations Team**: [Jai Arora](https://jaiarora0011.github.io/), [Carolina Carreira](https://carolinacarreira.github.io/), [Ronak Chauhan](https://in.linkedin.com/in/ronchauhan), [Kiran Gopinathan](https://gopiandcode.uk/), [Yunjeong Lee](http://www.leeyunjeong.com/), [Jacqueline Mitchell](https://jlmitche23.github.io/), [Reshabh Sharma](https://www.linkedin.com/in/reshabh/)
+- **Operations Team**: [Jai Arora](https://jaiarora0011.github.io/), [Carolina Carreira](https://carolinacarreira.github.io/), [Ronak Chauhan](https://in.linkedin.com/in/ronchauhan), [Kiran Gopinathan](https://gopiandcode.uk/), [Jacqueline Mitchell](https://jlmitche23.github.io/), [Reshabh Sharma](https://www.linkedin.com/in/reshabh/)
 - **Rematching Coordinators**: [Houda Boukham](https://www.linkedin.com/in/houda-boukham-821198142/), [Jocelyn Chen](https://www.cs.utexas.edu/~qchen/)
 - **Advisory Board**: [Alexandra Silva](https://alexandrasilva.org/), [David Van Horn](https://www.cs.umd.edu/~dvanhorn/), [Dimitrios Vytiniotis](https://dimitriv.github.io/), [Sebastian Erdweg](https://www.pl.informatik.uni-mainz.de/), [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/), [Sukyoung Ryu](https://plrg.kaist.ac.kr/ryu)
 - **Chair**:  [Stephen Chong](https://people.seas.harvard.edu/~chong/)
