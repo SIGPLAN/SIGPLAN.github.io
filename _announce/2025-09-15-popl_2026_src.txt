@@ -1,0 +1,79 @@
+---
+title: "POPL 2026 Student Research Competition Call for Submissions"
+deadline: "10/30/2025"
+---
+SRC@POPL 2026 Call for Submissions
+ACM Student Research Competition
+
+https://popl26.sigplan.org/track/POPL-2026-student-research-competition
+Location: Rennes, France
+
+--------------------------------------------------------------------------
+
+Important Dates
+
+Abstract Submission: Thu 30 Oct 2025
+Notification of (Conditional) Acceptance: Mon 1 Dec 2025
+Re-Submission for Conditionally Accepted Abstracts: Thu 4 Dec 2025
+Notification of Final Acceptance: Mon 8 Dec 2025
+
+--------------------------------------------------------------------------
+
+Overview
+
+POPL 2026 will host an ACM Student Research Competition, where undergraduate and
+graduate students can present their original research before a panel of judges
+and conference attendees. This year’s competition will consist of three rounds:
+
+- Round 1, Extended abstract: All students are encouraged to submit an extended
+abstract outlining their research. The submission should be up to three pages
+using “\documentclass[acmsmall,nonacm]{acmart}”.
+
+- Round 2, Poster at POPL: Based on the submissions, a panel of judges will
+select the most promising entrants to participate in a poster session at POPL.
+In the poster session, students will be able to interact with POPL attendees and
+judges. After the poster session, three finalists in each category
+(graduate/undergraduate) will be selected to advance to the next round.
+
+- Round 3, Oral presentation at POPL: The last round will consist of a short
+oral live presentation at POPL to compete for the final awards in each category.
+This round will also select an overall winner who will advance to the ACM SRC
+Grand Finals.
+
+Call for Submissions
+
+POPL invites students to participate in the Student Research Competition in
+order to present their research and get feedback from prominent members of the
+programming language research community. Please submit your extended abstracts
+through HotCRP:
+
+   https://popl26src.hotcrp.com
+
+Submissions must be original research that is not already published at POPL or
+another conference or journal. One of the goals of the SRC is to give students
+feedback on ongoing, unpublished work. Furthermore, the submission must be
+authored solely by the student. If the work is collaborative with others and/or
+part of a larger group project, the submission should make clear what the
+student’s role was and should focus on that portion of the work.
+
+The submission should be up to three pages using
+‘\documentclass[acmsmall,nonacm]{acmart}’. The submission does not itself need
+to start with an “abstract”; the introduction can start immediately after the
+author list. Reference lists do not count towards the three-page limit. You may
+write appendices after the three-page limit, but please be noted that the
+committee is not required to read them.
+
+This year, we will have two review cycles. For each submission, one of the
+following decisions will be made:
+
+- Accept: submissions that proceed to the next round unconditionally.
+
+- Conditional Accept: submissions that receive revision suggestions from the PC
+members. Authors will have 3 days to revise the submission accordingly and then
+resubmit. The revised submissionss will then be re-evaluated, and either
+accepted or rejected.
+
+- Reject: submissions that will not proceed to the next round.
+
+For more details, please see:
+https://popl26.sigplan.org/track/POPL-2026-student-research-competition
