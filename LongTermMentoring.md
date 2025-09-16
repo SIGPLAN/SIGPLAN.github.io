@@ -118,6 +118,7 @@ We'd like to thank these amazing mentors:
 - Gus Smith
 - Caleb Stanford
 - Kathrin Stark
+- Michel Steuwer
 - Simon Thompson
 - Dimitris Vardoulakis
 - Chengpeng Wang
