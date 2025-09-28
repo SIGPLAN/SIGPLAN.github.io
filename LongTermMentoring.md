@@ -127,6 +127,7 @@ We'd like to thank these amazing mentors:
 - Max Willsey
 - Dominik Winterer
 - Li-yao Xia
+- Dongwei Xiao
 - Chengyu Zhang
 - Jie Zhou
 
