@@ -1595,3 +1595,60 @@
   event: OLIVIERFEST
   year: 2025
   title: "Proceedings of the Workshop Dedicated to Olivier Danvy on the Occasion of His 64th Birthday"
+-
+  event: TyDe
+  year: 2025
+  title: "Proceedings of the 10th ACM SIGPLAN International Workshop on Type-Driven Development"
+-
+  event: VMIL
+  year: 2025
+  title: "Proceedings of the 17th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages"
+-
+  event: Onward!
+  year: 2025
+  title: "Proceedings of the 2025 ACM SIGPLAN International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software"
+-
+  event: Scheme
+  year: 2025
+  title: "Proceedings of the 26th ACM SIGPLAN International Workshop on Scheme and Functional Programming"
+-
+  event: Haskell
+  year: 2025
+  title: "Proceedings of the 18th ACM SIGPLAN International Haskell Symposium"
+-
+  event: Erlang
+  year: 2025
+  title: "Proceedings of the 24th ACM SIGPLAN International Workshop on Erlang"
+-
+  event: FARM
+  year: 2025
+  title: "Proceedings of the 13th ACM SIGPLAN International Workshop on Functional Art, Music, Modelling, and Design"
+-
+  event: FUNARCH
+  year: 2025
+  title: "Proceedings of the 3rd ACM SIGPLAN International Workshop on Functional Software Architecture"
+-
+  event: LMPL
+  year: 2025
+  title: "Proceedings of the 1st ACM SIGPLAN International Workshop on Language Models and Programming Languages"
+-
+  event: MPLR
+  year: 2025
+  title: "Proceedings of the 22nd ACM SIGPLAN International Conference on Managed Programming Languages and Runtimes"
+-
+  event: PAINT
+  year: 2025
+  title: "Proceedings of the 4th ACM SIGPLAN International Workshop on Programming Abstractions and Interactive Notations, Tools, and Environments"
+-
+  event: PROPL
+  year: 2025
+  title: "Proceedings of the 2nd ACM SIGPLAN International Workshop on Programming for the Planet"
+-
+  event: SPLASH-E
+  year: 2025
+  title: "Proceedings of the 2025 ACM SIGPLAN International Symposium on SPLASH-E"
+-
+  event: OOPSLA
+  year: 2025
+  title: "Proceedings of the 2025 ACM SIGPLAN International Conference on Object-Oriented Programming, Systems, Languages, and Applications, Volume 2"
+  link: oopsla25-2.html

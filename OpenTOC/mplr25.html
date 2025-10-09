@@ -1,0 +1,495 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>MPLR '25: Proceedings of the 22nd ACM SIGPLAN International Conference on Managed Programming Languages and Runtimes</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>MPLR '25: Proceedings of the 22nd ACM SIGPLAN International Conference on Managed Programming
+               Languages and Runtimes</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3759426"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759426.3760975">Existentialize Your Generics</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Dimi Racordon</li>
+               <li class="nameList">Matt Bovel</li>
+               <li class="nameList Last">Hamza Remmal</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The two main approaches to compile generic programs are dynamic dispatch and monomorphization.
+                     While the latter is typically preferred in the context of low latency applications,
+                     where the overhead of boxing may be prohibitive, it also comes at the cost of important
+                     limitations in terms of modularity, expressiveness, and code size. 
+                     </p>
+                  
+                  <p>
+                     The Swift programming language proposes an interesting third alternative that addresses
+                     these shortcomings, supporting dynamic dispatch without requiring boxing by factoring
+                     method tables out of object headers. This paper examines the merits of that strategy,
+                     which we call existentialization, across different programming languages. Our study
+                     shows that existentialization can produce code with competitive performance with respect
+                     to monomorphization.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759426.3760976">Fast and Compact: Reducing Size of AOT-Compiled Java Code without Sacrificing Performance</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Christoph Pichler</li>
+               <li class="nameList">Bernhard Urban-Forster</li>
+               <li class="nameList">Paley Li</li>
+               <li class="nameList">Roland Schatz</li>
+               <li class="nameList Last">Hanspeter Mössenböck</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>GraalVM Native Image is a technology that compiles Java applications to native executables
+                     ahead of time (AOT). Due to highly aggressive optimizations, it is possible to reach
+                     a peak performance similar to that of a regular Java application executed on a Java
+                     Virtual Machine (JVM) and its Just-in-Time (JIT) compiler. The advantage of Native
+                     Image is much faster start-up when compared to the JVM and the JIT compiler. However,
+                     binary files resulting from Native Image tend to be quite large. </p>
+                  <p>In this work, we present an approach to shrink the executables produced by Native
+                     Image while maintaining high peak performance: Instead of compiling everything to
+                     machine code, we exclude rarely or never executed methods and keep them as bytecode
+                     instead. When called, these methods can be run with a lightweight interpreter. If
+                     an interpreted method turns out to cause high overhead, its execution continues in
+                     native mode by simulating a JIT compiler. For the DaCapo benchmark suite, we are able
+                     to reduce the sizes of Native Image executables by up to 36.9% without significantly
+                     reducing peak performance or increasing start-up times.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759426.3760977">Fast &amp; Easy ASTs for Flexible Embedded Interpreters</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Michael Homer</li>
+               <li class="nameList Last">James Noble</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Self-hosted software language systems need to bootstrap core  
+                     components such as data structure libraries, parsers, type checkers,  
+                     or even compilers. Bytecode interpreters can load byte code files,  
+                     while image-based systems can load in images of entire  
+                     systems — Emacs, for example, does both. Bootstrapping is more of a  
+                     problem, however, for traditional AST-based systems, especially when  
+                     they must be portable across multiple host systems and languages.  
+                     </p>
+                  
+                  <p>
+                     In this short paper, we demonstrate how abstract syntax trees can  
+                     quickly and easily be incorporated into the source code of an embedded  
+                     interpreter. Our key insight is that a carefully engineered format  
+                     enables textually identical ASTs to be valid across a wide spectrum  
+                     of contemporary programming languages. This means languages can be  
+                     self-hosted with very little bootstrapping  
+                     infrastructure: only the host interpreter or compiler and a  
+                     minimal default library, while the rest of the system is imported  
+                     as ASTs.  
+                     </p>
+                  
+                  <p>
+                     This paper outlines our technique, and analyses the  
+                     engineering design tradeoffs required to make it work in  
+                     practice. We validate our design by describing our experience  
+                     supporting the on-going development of GraceKit, which shares a  
+                     single Grace parser across host language implementations from Java  
+                     and JavaScript to Haskell and Swift and to Grace itself, and even  
+                     more eccentric languages like Excel.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759426.3760978">TornadoViz: Visualizing Heterogeneous Execution Patterns in Modern Managed Runtime
+                  Systems</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Michail Papadimitriou</li>
+               <li class="nameList">Maria Xekalaki</li>
+               <li class="nameList">Athanasios Stratikopoulos</li>
+               <li class="nameList">Orion Papadakis</li>
+               <li class="nameList">Juan Fumero</li>
+               <li class="nameList Last">Christos Kotselidis</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>With the increasing prevalence of machine learning and large language model (LLM)
+                     inference, heterogeneous computing has become essential. Modern JVMs are embracing
+                     this transition through projects such as TornadoVM and Babylon, which enable hardware
+                     acceleration on diverse hardware resources, including GPUs and FPGAs. However, while
+                     performance results are promising, developers currently face  
+                     a significant tooling gap: traditional profilers excel at CPU-bound execution but
+                     become a “black box” when execution transitions to accelerators, providing no visibility
+                     into device memory management, execution patterns or cross-device data movement. This
+                     gap leaves developers without a unified view of how their Java applications behave
+                     across the heterogeneous computing stack.  
+                     In this paper, we present TornadoViz, a visual analytics tool that leverages TornadoVM’s
+                     specialized bytecode system to provide interactive analysis of heterogeneous execution
+                     and object lifecycles in managed runtime systems. Unlike existing tools, TornadoViz
+                     bridges the managed-native divide by interpreting the bytecode stream that orchestrates
+                     heterogeneous execution, hence connecting high-level application logic with low-level
+                     hardware utilization patterns. Our tool enables developers to visualize task dependencies,
+                     track memory operations across devices, analyze bytecode distribution patterns, and
+                     identify performance bottlenecks through interactive dashboards.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759426.3760979">A Control-Flow Graph Approach to Language-Agnostic Debugging for Microcontrollers</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Carlos Rojas Castillo</li>
+               <li class="nameList">Matteo Marra</li>
+               <li class="nameList Last">Elisa Gonzalez Boix</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Language virtual machines (VMs) for resource-constrained environments enabled the
+                     use of managed languages, such as JavaScript or Python, on microcontrollers units
+                     (MCUs). WebAssembly (Wasm) has also broadened the range of programming languages on
+                     these resource-constrained devices. However, most MCU debugging support targets languages
+                     that compile to native code, making them unsuitable for source-level debugging of
+                     applications running on managed runtimes. As a result, debugging on MCU VMs is often
+                     performed using logging, manual resets, and GPIO toggling for call tracing. </p>
+                  <p>In this work, we propose a language-agnostic approach for debugging MCUs. Our approach
+                     builds specialised control-flow graphs (CFGs) to enable language-agnostic debugging
+                     from compiler-generated Wasm bytecode and debugging information. During debugging,
+                     developers can use traditional debugging operations for which the debugger utilises
+                     the specialised CFGs to advance computation. We implemented a CFG debugger prototype
+                     for the WARDuino Wasm VM, building on a basic debug API. We show that our debugger
+                     successfully targets four languages that compile to Wasm without requiring any modification
+                     to the debugger. Our benchmarks reveal that the prototype’s execution speed outperforms
+                     WARDuino’s debugger by factors from 7 to 215.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759426.3760980">Co-operative JIT Compilation for Resource-Constrained Low-Power Coprocessors</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Go Suzuki</li>
+               <li class="nameList">Takuo Watanabe</li>
+               <li class="nameList Last">Sosuke Moriguchi</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>As IoT devices evolve, their microcontroller systems-on-a-chip (SoCs) require higher
+                     performance, larger memory, and richer peripherals, resulting in increased power consumption.
+                     
+                     Integrating low-power (LP) coprocessors into SoCs offers a means to reduce power usage
+                     while preserving responsiveness, particularly in sensing tasks.  
+                     However, LP coprocessors face memory capacity limitations and require complex, platform-specific
+                     development.  
+                     These constraints often necessitate application refactoring and careful coordination
+                     of inter-processor communication.  
+                     </p>
+                  
+                  <p>
+                     We propose a JIT compilation design for managed languages to enhance the efficiency
+                     of LP coprocessor usage.  
+                     These languages tend to increase code size due to dynamic dispatch and runtime checks.
+                     
+                     Our key idea is a cooperative approach: the interpreter on the main processor traces
+                     the application to compile only type-specialized basic blocks to be executed by the
+                     LP coprocessor.  
+                     By combining trace-based compilation with lazy basic block versioning, the approach
+                     minimizes the code footprint and reduces processor interaction.  
+                     </p>
+                  
+                  <p>
+                     We implemented a prototype for a subset of the dynamically typed, object-oriented
+                     language mruby.  
+                     We evaluated selected applications using LP coprocessors on ESP32-C6.  
+                     Our evaluation shows that our design can achieve power savings comparable to handwritten
+                     C implementations with at most 6.6 times larger code size.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759426.3760981">SmartSweep: Efficient Space Reclamation in Tiered Managed Heaps</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Iacovos G. Kolokasis</li>
+               <li class="nameList">Konstantinos Delis</li>
+               <li class="nameList">Shoaib Akram</li>
+               <li class="nameList">Foivos S. Zakkak</li>
+               <li class="nameList">Polyvios Pratikakis</li>
+               <li class="nameList Last">Angelos Bilas</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Using remote memory for the Java heap enables big data  
+                     analytics frameworks to process large datasets. However, the  
+                     Java Virtual Machine (JVM) runtime struggles to maintain  
+                     low network traffic during garbage collection (GC) and to  
+                     reclaim space efficiently. To reduce GC cost in big data analytics, systems group
+                     long-lived objects into regions and  
+                     excludes them from frequent GC scans, regardless of whether  
+                     the heap resides in local or remote memory. Recent work  
+                     uses a dual-heap design, placing short-lived objects in a local  
+                     heap and long-lived objects in a remote region-based heap,  
+                     limiting GC activity to the local heap. However, these systems avoid scanning by reclaiming
+                     remote heap space only  
+                     when regions are fully garbage, an inefficient strategy that  
+                     delays reclamation and risks out-of-memory (OOM) errors.  
+                     </p>
+                  
+                  <p>
+                     In this paper, we propose SmartSweep, a system that uses  
+                     approximate liveness information to balance network traffic  
+                     and space reclamation in remote heaps. SmartSweep adopts  
+                     a dual-heap design and avoids scanning or compacting objects in the remote heap. Instead,
+                     it estimates the amount of  
+                     garbage in each region without accessing the remote heap  
+                     and selectively transfers regions with many garbage objects  
+                     back to the local heap for reclamation. Preliminary results  
+                     with Spark and Neo4j show that SmartSweep achieves performance comparable to TeraHeap,
+                     which reclaims remote  
+                     objects lazily, while reducing peak remote memory usage by  
+                     up to 49% and avoiding OOM errors.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759426.3760982">JASMaint: Portable Multi-language Taint Analysis for the Web</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Abel Stuker</li>
+               <li class="nameList">Aäron Munsters</li>
+               <li class="nameList">Angel Luis Scull Pupo</li>
+               <li class="nameList">Laurent Christophe</li>
+               <li class="nameList Last">Elisa Gonzalez Boix</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Modern web applications integrate JavaScript code with more efficient languages compiling
+                     to WebAssembly, such as C, C++ or Rust. However, such multi-language applications
+                     challenge program understanding and increase the risk of security attacks. Dynamic
+                     taint analysis is a powerful technique used to uncover confidentiality and integrity
+                     vulnerabilities. The state of the art has mainly considered taint analysis targeting
+                     a single programming language, extended with a limited set of native extensions. To
+                     deal with data flows between the language and native extensions, typically taint signatures
+                     or models of those extensions have been derived from the extensions’ high-level source
+                     code. However, this does not scale for multi-language web applications as the WebAssembly
+                     modules evolve continuously and generally do not include their high-level source code.
+                     </p>
+                  <p>This paper proposes JASMaint, the first taint analysis approach for multi-language
+                     web applications. A novel analysis orchestrator component manages the exchange of
+                     taint information during interoperation between our language-specific taint analyses.
+                     JASMaint is based on source code instrumentation for both the JavaScript and WebAssembly
+                     codebases. This choice enables deployment to all runtimes that support JavaScript
+                     and WebAssembly. We evaluate our approach on a benchmark suite of multi-language programs.
+                     Our evaluation shows that JASMaint reduces overtainting by 0.003%–56.20% compared
+                     to an over-approximating taint analysis based on function models. However, this comes
+                     at the cost of an increase in performance overhead by a factor of 1.14x–1.61x relative
+                     to the state of the art.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759426.3760983">A Snapshot of the Performance of Wasm Backends for Managed Languages</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Manuel Serrano</li>
+               <li class="nameList Last">Robert Bruce Findler</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>WebAssembly (Wasm) has been extended to support features such as garbage collection,
+                     references, exceptions, and tail calls that facilitate compilation of managed languages.
+                     In this paper, we capture a snapshot of the performance of languages that use these
+                     new capabilities from two perspectives. First, we present a language-by-language performance
+                     comparison of six managed language implementations on Wasm to the performance to their
+                     native implementations. Second, we focus on the implementation of the Bigloo Scheme
+                     compiler and explore the impact of different choices for compiling specific aspects
+                     of the language. Our findings suggest that Wasm has become a promising compilation
+                     target for most managed languages, but that its performance still falls short of that
+                     achieved by native code. Our results also show that the quality of the Wasm implementations
+                     vary, with the best ones being, on average, about 1.4× slower than the native backend
+                     and the worst ones seeing average slowdowns of more than 8× with some tests even failing
+                     to execute correctly.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759426.3760984">Dynamic and Static Code Analysis for Java Programs on Heterogeneous Hardware</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Athanasios Stratikopoulos</li>
+               <li class="nameList">Tianyu Zuo</li>
+               <li class="nameList">Umut Sarp Harbalioglu</li>
+               <li class="nameList">Juan Fumero</li>
+               <li class="nameList">Michail Papadimitriou</li>
+               <li class="nameList">Orion Papadakis</li>
+               <li class="nameList">Maria Xekalaki</li>
+               <li class="nameList Last">Christos Kotselidis</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The increasing prevalence of heterogeneous computing systems, incorporating accelerators
+                     like GPUs, has spurred the development of advanced frameworks to bring high performance
+                     capabilities to managed languages.  
+                     TornadoVM is a state-of-the-art, open-source framework for accelerating Java programs.
+                     
+                     It enables Java applications to offload computation onto GPUs and other accelerators,
+                     thereby bridging the gap between the high-level abstractions of the Java Virtual Machine
+                     (JVM) and the low-level, performance-oriented world of parallel programming models,
+                     such as OpenCL and CUDA.  
+                     However, this bridging comes with inherent trade-offs.  
+                     The semantic and operational mismatch between these two worlds - such as managed memory
+                     versus explicit memory control, or dynamic JIT compilation versus static kernel generation
+                     — forces TornadoVM to limit or exclude support for certain Java features.  
+                     These limitations can hinder developer productivity and make it difficult to identify
+                     and resolve compatibility issues during development.  
+                     </p>
+                  
+                  <p>
+                     This paper introduces TornadoInsight, a tool that simplifies development with TornadoVM
+                     by detecting incompatible Java constructs through static and dynamic analysis.  
+                     TornadoInsight is developed as an open-source IntelliJ IDEA plugin that provides immediate,
+                     source-linked feedback within the developer's workflow.  
+                     We present the architecture of TornadoInsight, detail its inspection mechanisms, and
+                     evaluate its effectiveness in improving the development workflow for TornadoVM users.
+                     
+                     TornadoInsight is publicly available and offers a practical solution for enhancing
+                     developer experience and productivity in heterogeneous managed runtime environments.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759426.3760985">Bringing Together Cross-ISA Checkpoint/Restoration and AOT Compilation of WebAssembly
+                  Programs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Raiki Tamura</li>
+               <li class="nameList">Daisuke Kotani</li>
+               <li class="nameList">Kazuyuki Shudo</li>
+               <li class="nameList Last">Yasuo Okabe</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Cross-instruction set architecture (ISA) checkpoint/restoration is becoming increasingly
+                     important for live migration in heterogeneous computing environments, where applications
+                     need to move seamlessly between ARM, x86, and other processor architectures.  
+                     While existing approaches either require compilation without Control-flow Integrity
+                     (CFI) or suffer from significant performance overhead through interpreter-based execution,
+                     this paper presents a novel approach that enables efficient cross-ISA migration using
+                     instrumentation during ahead-of-time (AOT) compilation.  
+                     Our key insight is that on-stack replacement (OSR) enables cross-ISA checkpoint/restoration.
+                     OSR is a technique for JIT compilers, and we leverage it to transform between ISA-dependent
+                     machine states and ISA-independent WebAssembly states.  
+                     Our other notable contribution is a technique enabling checkpointing without disabling
+                     modern CPU security features such as CFI.  
+                     We implement the proposed techniques in Wanco, a WebAssembly AOT compiler supporting
+                     Linux on ARM-v8 and x86-64 architectures. Our evaluation demonstrates that Wanco achieves
+                     efficient cross-ISA migration compared to CRIU, a standard Linux process migration
+                     tool.  
+                     Wanco reduces checkpoint time by 1.0–5.1 times and snapshot size by 1.1–25 times,
+                     while incurring an average execution-time overhead of 36 %.</p>
+                  			</div>
+            </div>
+            							
+            						</div>
+      </div>
+   </body>
+</html>

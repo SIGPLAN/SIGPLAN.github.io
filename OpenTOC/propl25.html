@@ -1,0 +1,275 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>PROPL '25: Proceedings of the 2nd ACM SIGPLAN International Workshop on Programming for the Planet</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>PROPL '25: Proceedings of the 2nd ACM SIGPLAN International Workshop on Programming for the Planet</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3759536"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759536.3763801">Towards Modelling and Verification of Coupler Behaviour in Climate Models</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Chinmayi Baramashetru</li>
+               <li class="nameList Last">Dominic Orchard</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Climate models and earth system models often comprise submodels composed via a 'coupler',
+                     a software component that enables interaction between submodel components. The continuous
+                     exchange of data through couplers creates the risk of subtle errors propagating across
+                     components, potentially distorting scientific conclusions. In this paper, we argue
+                     for lightweight formal verification techniques applied at the coupler interface to
+                     improve both coupler and model correctness. By enforcing formal contracts on data
+                     exchanges, the coupler can act as a checkpoint that detects and prevents certain classes
+                     of component-level errors before they propagate between models. We abstract general
+                     design principles for couplers and propose verifiable subsystems. Using an example
+                     of a real-world bug, we illustrate a hybrid verification strategy that integrates
+                     module-level contracts, verified through both static and runtime techniques. We aim
+                     to offer a practical pathway for both existing and future couplers, ultimately enabling
+                     auditable and formally verifiable couplers.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759536.3763802">A FAIR Case for a Live Computational Commons</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Cyrus Omar</li>
+               <li class="nameList">Michael Coblenz</li>
+               <li class="nameList Last">Anil Madhavapeddy</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Scientists increasingly write software as part of large-scale collaborative workflows,
+                     but current tools make it difficult to follow FAIR principles (findability, accessibility,
+                     interoperability, reusability) and ensure reproducibility by default. 
+                     </p>
+                  
+                  <p>
+                     This paper proposes Fairground, a computational commons designed as a collaborative
+                     notebook system where thousands of scientific artifacts are authored, collected, and
+                     maintained together in executable form in a manner that is FAIR, reproducible, and
+                     live by default. Unlike existing platforms, Fairground notebooks can reference each
+                     other as libraries, forming a single planetary-scale live program executed by a distributed
+                     scheduler. 
+                     </p>
+                  
+                  <p>
+                     We describe the design of Fair Python, a purely functional subset of Python, and a
+                     foreign function interface for interoperating with existing code. Through three interleaved
+                     research tracks focusing on language design, interoperability, and distributed execution,
+                     we aim to create a next-generation collaborative scientific workflow system that makes
+                     best practices the path of least resistance.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759536.3763803">STACD: STAC Extension with DAGs for Geospatial Data and Algorithm Management</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Saharsh Laud</li>
+               <li class="nameList">Saurabh Joshi</li>
+               <li class="nameList">Tarun Mangla</li>
+               <li class="nameList">Abhilash Jindal</li>
+               <li class="nameList Last">Aaditeshwar Seth</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Geospatial datasets have complex lineages that are crucial for reproducibility and
+                     understanding data provenance, yet current metadata standards like STAC (SpatioTemporal
+                     Asset Catalog) provide limited support for capturing complete processing workflows.
+                     We propose STACD (STAC extension with DAGs), an extension to STAC specifications that
+                     incorporates Directed Acyclic Graph (DAG) representations along with defining algorithms
+                     and version changes in the workflows. We also provide a reference implementation on
+                     Apache Airflow to demonstrate STACD capabilities such as selective recomputation when
+                     some datasets or algorithms in a DAG are updated, complete lineage construction for
+                     a dataset, and opportunities for improved collaboration and distributed processing
+                     that arise with this standard.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759536.3763804">Bridging Disciplinary Gaps in Climate Research through Programming Accessibility and
+                  Interdisciplinary Collaboration</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Cristian Urlea</li>
+               <li class="nameList">Ana Denisa Urlea</li>
+               <li class="nameList">Wim Vanderbauwhede</li>
+               <li class="nameList">Adriana Laura Voinea</li>
+               <li class="nameList Last">Syed Waqar Nabi</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Climate change research relies on complex computational tools to model environmental
+                     processes, analyse large datasets, and inform policy. Current scientific computing
+                     practices pose major barriers to entry, particularly for interdisciplinary researchers
+                     and those in low and middle-income countries (LMICs). Challenges include steep learning
+                     curves, limited access to expert support, and difficulties with legacy or under-documented
+                     software. Drawing on real-world experiences, we identify recurring obstacles in the
+                     usability, accessibility, and sustainability of scientific software. Our analysis
+                     highlights that current approaches to scientific software disadvantage interdisciplinary
+                     and LMIC researchers. We propose specific mechanisms to address these inequities:
+                     improved documentation, domain-aware training, automation for diverse hardware environments,
+                     domain-specific languages and hybrid support communities. These measures should be
+                     integrated into grant funding requirements to ensure sustainability beyond initial
+                     project periods, transforming scientific software from short-lived outputs into accessible
+                     research infrastructure. By reimagining scientific programming as a shared public
+                     good, we can lower barriers to entry and foster a more inclusive, equitable climate
+                     research ecosystem.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759536.3763805">GPU-Accelerated Hydrology Algorithms for On-Prem Computation: Flow Accumulation, Drainage
+                  Lines, Watershed Delineation, Runoff Simulation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Rahul Kumar</li>
+               <li class="nameList">Vatsal Jingar</li>
+               <li class="nameList">Abhilash Jindal</li>
+               <li class="nameList Last">Aaditeshwar Seth</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Critical hydrology related algorithms to trace the path of surface water flows, including
+                     flow accumulation, stream order, watershed delineation, and runoff simulation, can
+                     be difficult to execute for large aerial extents at fine spatial and temporal resolutions.
+                     Libraries like GDAL that use multi-threaded CPU-based implementations running on a
+                     single host may be slow, and distributed infrastructures like Google Earth Engine
+                     may not support the kind of computational primitives required by these algorithms.
+                     We have developed a GPU-accelerated framework that re-engineers these four algorithms
+                     and is able to process areas as large as river basins of 250,000 km2 on commodity
+                     GPU workstations. We express these algorithms in terms of easily parallelizable primitives
+                     of pixel independent (PI) and short-pixel (SP) operations, and iterative primitives
+                     of long-pixel (LP) operations. Each algorithm uses a different mix of the primitives
+                     which helps us ensure that the implementation is generic. We show that our implementation
+                     of these algorithms produces accurate outputs and is able to achieve significant performance
+                     benefits over alternative methods. Being able to execute the algorithms on a commodity
+                     GPU workstation paves the path to use on-prem infrastructure to produce national-scale
+                     outputs, and collaborate to pool multiple national-scale outputs together for global-scale
+                     analysis.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759536.3763806">Yirgacheffe: A Declarative Approach to Geospatial Data</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Michael Winston Dales</li>
+               <li class="nameList">Alison Eyres</li>
+               <li class="nameList">Patrick Ferris</li>
+               <li class="nameList">Francesca A. Ridley</li>
+               <li class="nameList">Simon Tarr</li>
+               <li class="nameList Last">Anil Madhavapeddy</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>We present Yirgacheffe, a declarative geospatial library that allows spatial algorithms
+                     to be implemented concisely, supports parallel execution, and avoids common errors
+                     by automatically handling data (large geospatial rasters) and resources (cores, memory,
+                     GPUs). Our primary user domain comprises ecologists, where a typical problem involves
+                     cleaning messy occurrence data, overlaying it over tiled rasters, combining layers,
+                     and deriving actionable insights from the results. We describe the successes of this
+                     approach towards driving key pipelines related to global biodiversity and describe
+                     the capability gaps that remain, hoping to motivate more research into geospatial
+                     domain-specific languages.</p>
+                  			</div>
+            </div>
+            							
+            						</div>
+      </div>
+   </body>
+</html>

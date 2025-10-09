@@ -1,0 +1,296 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>Erlang '25: Proceedings of the 24th ACM SIGPLAN International Workshop on Erlang</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>Erlang '25: Proceedings of the 24th ACM SIGPLAN International Workshop on Erlang</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3759161"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Keynote</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759161.3771262">PyErlang: A Stepping Stone towards Behaviour-Oriented Concurrency in Python (Keynote)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Tobias Wrigstad</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Python was designed in an era of mostly single-core machines, where concurrency was
+                     typically not parallel, and Dennard scaling made us rely on ever-faster single core
+                     CPUs coming onto the market every year. In this context, Python's Global Interpreter
+                     Lock (GIL)-based design is easily motivated: only one thread may interpret bytecodes
+                     at a time in a Python program. This buys a lot of simplicity for your runtime, but
+                     it also means that throwing more cores at a Python program does not make it go faster.
+                     
+                     </p>
+                  
+                  <p>
+                     Python 3.12 introduced the ability to run multiple Python interpreters in a single
+                     OS process, each with its own GIL. Each sub-interpreter runs in isolation from the
+                     other sub-interpreters and isolation is enforced by using a serialisation protocol
+                     to transfer data from one sub-interpreter to another. Every sub-interpreter has its
+                     own private heap, managed by a combination of reference counting and tracing GC dealing
+                     with cyclic data. This setup should feel familar to Erlang developers.  
+                     </p>
+                  
+                  <p>
+                     Cheeseman et al’s Behaviour-oriented Concurrency (BoC) is a promising technique for
+                     expressing concurrency in imperative programming, and delivers guarantees of data-race
+                     freedom and dead-lock freedom. As part of a multi-year project for adding BoC to Python,
+                     we have recently arrived at an intermediate step that we lovingly refer to as PyErlang.
+                     PyErlang enhances the sub-interpreters model with an ability to share immutable data
+                     by reference across  
+                     interpreters, without making one process dependent on GC in another.  
+                     </p>
+                  
+                  <p>
+                     This talk is about the core of PyErlang: how to retro-fit immutability onto a mature
+                     language around a culture that embraces reflection and monkey-patching. I will discuss
+                     challenges at both the language-level and the implementation-level, and how we handle
+                     cyclic immutable garbage without tracing GC.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Papers</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759161.3763044">Moving Objects and Behavior Safely in Ad Hoc Networks</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Juan Camilo Bonet</li>
+               <li class="nameList">Mateo Sanabria Ardila</li>
+               <li class="nameList Last">Nicolás Cardozo</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>In distributed computing systems, function entities live on a single machine or node,
+                     while data is  
+                     shared between nodes in order to carry out computation. Such computation model gives
+                     rise to  
+                     undesirable system characteristics, such as increased network load and data vulnerabilities,
+                     both  
+                     caused by sharing large amounts of information between nodes. The introduction of
+                     fog computing  
+                     architectures, mitigates these problems by moving part of the computation to edge
+                     devices. To  
+                     further tackle these problems, this work explores the use of the call-by-move parameter
+                     passing  
+                     semantics to enable function mobility between many nodes, effectively reducing network
+                     
+                     load and avoiding unnecessary information sharing. To build the new parameter passing
+                     semantics,  
+                     we use Elixir’s metaprogramming capabilities, introducing new language constructs
+                     and functions.  
+                     Furthermore, we accompany the implementation by a formal specification of the system
+                     using Athena.  
+                     In order to show the usability of this approach, we implement an exemplar application
+                     that  
+                     demonstrates reduced network load and a reduced amount of shared data, when computation,
+                     and  
+                     hence communication, load increases for each of the nodes in the network.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759161.3763045">Mechanised Proofs of Atom Exhaustion in Erlang</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Arsenii Fomin</li>
+               <li class="nameList">Péter Bereczky</li>
+               <li class="nameList">Dániel Horpácsi</li>
+               <li class="nameList Last">Gergő Lajos Turán</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Static analysis tools aid in developing secure software, but they often produce false
+                     positives that undermine developer trust. Formal methods can help validate such findings,
+                     provided that the vulnerabilities are precisely formalised. This study presents a
+                     formalisation of the atom exhaustion vulnerability within the context of the sequential
+                     subset of an existing Core Erlang formal semantics. A sound and complete calculus
+                     is proposed to support structured reasoning about the presence of the atom exhaustion
+                     vulnerability in Erlang programs. All the results of this paper are implemented in
+                     the Coq proof assistant.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759161.3763046">Deriving an Erlang Interpreter from a Mechanised Formal Semantics of Core Erlang</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Gergő Lajos Turán</li>
+               <li class="nameList">Arsenii Fomin</li>
+               <li class="nameList">Péter Bereczky</li>
+               <li class="nameList">Dániel Horpácsi</li>
+               <li class="nameList Last">Simon Thompson</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>We present an interpreter for Erlang in Haskell, derived from a formal semantics for
+                     Core Erlang mechanised in Coq. The interpreter function is derived from the Coq inductive
+                     definitions that make up the semantics by extracting Haskell code from Gallina functions
+                     provably equivalent to the inductive definitions, and optimising the result. The semantics
+                     is inherently non-deterministic, and it is made deterministic by introducing a scheduler
+                     component; we also present a computation graph that shows all the non-deterministic
+                     choices that arise during computation. The paper concludes with an evaluation of the
+                     work and preliminary performance data.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759161.3763047">A Stop-the-World Debugger for Erlang (and the BEAM)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Daniel Gorin</li>
+               <li class="nameList">Björn Gustavsson</li>
+               <li class="nameList Last">Roberto Aloi</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Erlang and the BEAM are remarkable for their tracing capabilities and the type of
+                     troubleshooting this enables on live production systems. At other stages of the development
+                     cycle, though, a traditional debugger is arguably more natural and convenient to use.
+                     While Erlang/OTP has included a step-debugger (int) since its very first public release,
+                     it has generally been regarded as ineffective beyond very simple scenarios. To bridge
+                     this gap, we have extended OTP with a new debugging API (available since release 28),
+                     and used it to build edb, a novel debugger for Erlang that aims to overcome some of
+                     int’s known limitations. In this note we motivate this work, discuss technical challenges
+                     and provide a general implementation overview.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759161.3763048">Evaluating AtomVM for Fault-Tolerant ESP32-Based Systems</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Daniel Ferenczi</li>
+               <li class="nameList">Gergely Ruda</li>
+               <li class="nameList Last">Melinda Tóth</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Components of IoT setups are subject to hardware failures, independently of software
+                     quality. These errors can be addressed by introducing hardware-level fault tolerance.
+                     This requires additional hardware components and the orchestration of tasks between
+                     them.  
+                     </p>
+                  
+                  <p>
+                     Erlang and Elixir, when running on BEAM, solve this problem for server-grade computers.
+                     However, IoT systems can also contain many microcontrollers that are too limited in
+                     resources to host BEAM.  
+                     </p>
+                  
+                  <p>
+                     AtomVM is a novel runtime for languages that traditionally run on BEAM. It brings
+                     many features of the runtime to embedded devices, including those necessary to monitor
+                     the failure of remote nodes and build fault-tolerant systems. As memory and computational
+                     power on microcontrollers are scarce, gauging how these features perform is essential.
+                     
+                     </p>
+                  
+                  <p>
+                     In this study, we measure the cost of fault tolerance on ESP32-based AtomVM systems
+                     by comparing a single-node implementation of a particular setup with that of a fault-tolerant
+                     one. This test system handles the reception and processing of radio messages, a typical
+                     task for the embedded components of an IoT deployment.  
+                     </p>
+                  
+                  <p>
+                     Our measurements should help developers design applications that, while building on
+                     Erlang's fault tolerance, fit the limited resources available on microcontrollers.</p>
+                  			</div>
+            </div>
+            							
+            						</div>
+      </div>
+   </body>
+</html>

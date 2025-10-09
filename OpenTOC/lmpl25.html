@@ -1,0 +1,623 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>LMPL '25: Proceedings of the 1st ACM SIGPLAN International Workshop on Language Models and Programming Languages</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>LMPL '25: Proceedings of the 1st ACM SIGPLAN International Workshop on Language Models and Programming
+               Languages</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3759425"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759425.3763377">Reasoning as a Resource: Optimizing Fast and Slow Thinking in Code Generation Models</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Zongjie Li</li>
+               <li class="nameList Last">Shuai Wang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>This position paper proposes a fundamental shift in designing code generation models:
+                     treating reasoning depth as a controllable resource. Rather than being an incidental
+                     by-product of prompting, we argue that the trade-off between rapid, direct answers
+                     ("fast thinking") and elaborate, chain-of-thought deliberation ("slow thinking") must
+                     be explicitly managed. We contend that optimizing reasoning budgets across the entire
+                     model lifecycle—from synthetic data creation and benchmarking to real-world deployment—can
+                     unlock superior trade-offs among accuracy, latency, and cost. This paper outlines
+                     how adaptive control over reasoning can enrich supervision signals, motivate new multi-dimensional
+                     benchmarks, and inform cost-aware, security-conscious deployment policies. By viewing
+                     fast and slow thinking as complementary modes to be scheduled, we envision coding
+                     agents that think deep when necessary and act fast when possible.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759425.3763378">Hallucination-Resilient LLM-Driven Sound and Tunable Static Analysis: A Case of Higher-Order
+                  Control-Flow Analysis</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Guannan Wei</li>
+               <li class="nameList">Zhuo Zhang</li>
+               <li class="nameList Last">Caterina Urban</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>We argue that soundness remains essential for LLM-driven static analysis and discuss
+                     hallucination-resilient approaches in combining LLMs with static analysis that ensure
+                     soundness while improving precision. We propose to use LLMs as a way of meta-analysis
+                     and investigate this approach in higher-order control-flow analysis, building on the
+                     abstracting abstract machine framework and delegating abstract address allocation
+                     to an LLM. Our analyzer LLMAAM maintains soundness regardless of LLM behavior, while
+                     adaptively tuning analysis precision. We report promising preliminary results and
+                     outline broader opportunities for sound LLM-driven analysis.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759425.3763379">CG-Bench: Can Language Models Assist Call Graph Construction in the Real World?</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Ting Yuan</li>
+               <li class="nameList">Wenrui Zhang</li>
+               <li class="nameList">Dong Chen</li>
+               <li class="nameList Last">Jie Wang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Language models for coding are shifting their focus from function-level to repository-level,
+                     with complex function invocations. We introduce CG-Bench, the first manually constructed
+                     benchmark that measures the ability to understand call graphs for language models.
+                     This benchmark contains 104 call sites and related code snippets associated with call
+                     chains from 7 representative open-source C/C++ projects. Language models are tasked
+                     with inference the calling targets from them. We evaluated four popular language models
+                     on CG-Bench. Surprisingly, all four models with different prompt settings achieve
+                     accuracy greater than 50% and Deepseek-6.7b with few-shot prompts reaches 69.70%.
+                     We further show four findings from a micro study, which demonstrates that using language
+                     models for call graph construction is promising and the performance can be improved
+                     by prompt hacking, removing irrelevant information, etc.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759425.3763380">Challenges in C++ to Rust Translation with Large Language Models: A Preliminary Empirical
+                  Study</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yanyan Yan</li>
+               <li class="nameList">Yang Feng</li>
+               <li class="nameList">Qi He</li>
+               <li class="nameList">Jun Zeng</li>
+               <li class="nameList Last">Baowen Xu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>C++ programming language is one of the mainstream choices for developing various systems
+                     due to its efficiency and widespread application, particularly in fields with high-performance
+                     requirements. However, C++ programs may have many memory management and security issues,
+                     such as dangling pointers and memory leaks, which pose increasing challenges in modern
+                     software development. As a modern programming language designed to address memory
+                     safety issues, Rust has gained widespread attention for its ownership system and memory
+                     safety features, driving research and practice in migrating C++ code to Rust. However,
+                     the differences in syntax and features between C++ and Rust, as well as C++'s complex
+                     and object-oriented features, make it extremely difficult to directly convert C++
+                     code into Rust code.  
+                     </p>
+                  
+                  <p>
+                     With the development of large language models (LLMs), significant progress has been
+                     made in code translation and understanding. This paper aims to investigate the use
+                     of LLMs to convert C++ code into Rust code by decomposing the C++ code into independent
+                     features, such as classes, templates, and functions etc., and extracting the dependent
+                     global symbol definitions through program analysis. We selected GPT-4-turbo and Deepseek-v3
+                     for experimentation, analyzed their performance of translation results, and investigated
+                     the root causes made by GPT-4-turbo and Deepseek-v3. By manually classifying errors,
+                     we identified the root causes of translation issues and provided findings and suggestions
+                     for future research on translating C++ code into Rust code.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759425.3763382">Towards Repository-Level Program Verification with Large Language Models</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Si Cheng Zhong</li>
+               <li class="nameList Last">Xujie Si</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Recent advancements in large language models (LLMs) suggest great promises in code
+                     and proof generations. However, scaling automated formal verification to real-world
+                     projects requires resolving cross-module dependencies and global contexts, which are
+                     crucial challenges overlooked by existing LLM-based methods with a special focus on
+                     targeting isolated, function-level verification tasks. To systematically explore and
+                     address the significant challenges of verifying entire software repositories, we introduce
+                     RVBench, the first verification benchmark explicitly designed for repository-level
+                     evaluation, constructed from four diverse and complex open-source Verus projects.
+                     
+                     </p>
+                  
+                  <p>
+                     We further introduce RagVerus, an extensible framework that synergizes retrieval-augmented
+                     generation with context-aware prompting to automate proof synthesis for multi-module
+                     repositories. RagVerus triples proof pass rates on existing benchmarks under constrained
+                     model inference budgets, and achieves a 27% relative improvement on the more challenging
+                     RVBench benchmark, demonstrating a scalable and sample-efficient verification solution.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759425.3763383">Programming Language Techniques for Bridging LLM Code Generation Semantic Gaps</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yalong Du</li>
+               <li class="nameList">Chaozheng Wang</li>
+               <li class="nameList Last">Huaijin Wang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Large Language Models have demonstrated remarkable capabilities in automated code
+                     generation, yet their statistical nature and black-box characteristics create significant
+                     semantic gaps manifested through syntax errors, semantic hallucinations, and reliability
+                     concerns. This position paper argues that principled integration of Programming Language
+                     (PL) techniques is essential for bridging these gaps. Through structured program representations,
+                     formal correctness guarantees, and robust verification mechanisms, PL techniques can
+                     elevate LLM-generated code from statistical pattern matching to truly reliable and
+                     trustworthy levels. This integration is crucial for developing systems that generate
+                     code that is not only functionally correct but also interpretable, verifiable, and
+                     ultimately trustworthy.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759425.3763384">The LLM Era Demands Natural-Language-Aligned Theorem Provers for Mathematics</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Qinxiang Cao</li>
+               <li class="nameList">Lihan Xie</li>
+               <li class="nameList Last">Junchi Yan</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Traditional theorem provers were envisioned to serve multiple purposes: formalizing
+                     state-of-the-art mathematical research to ensure result reliability, developing educational
+                     tools to provide students with better feedback, and acting as formal verifiers to
+                     enhance large language models' mathematical capabilities. However, their actual performance
+                     has fallen short of expectations in practice. We analyze the challenges faced by these
+                     scenarios, and propose that the root of these issues lies in the fact that traditional
+                     theorem provers were originally designed with a focus solely on verifying logical
+                     rigor rather than representing the process by which humans conduct mathematical proofs
+                     using natural language. This fundamental design choice creates a significant gap between
+                     existing formal proof processes and informal proofs, causing both human and LLMs to
+                     expend substantial resources on handling the provers' technical details rather than
+                     focusing on key mathematical insights. Therefore, this paper advocates for the design
+                     of a new generation of theorem provers featuring proof languages that resemble natural
+                     language, capable of aligning informal and formal processes. Thereby harnessing the
+                     advanced natural language processing capabilities of the LLM to enable theorem provers
+                     to achieve their full potential across the aforementioned scenarios.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759425.3763386">Ranking Formal Specifications using LLMs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Mike He</li>
+               <li class="nameList">Zhendong Ang</li>
+               <li class="nameList">Ankush Desai</li>
+               <li class="nameList Last">Aarti Gupta</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Formal specifications are essential for reasoning about the correctness of complex
+                     systems. While recent advances have explored automatically learning such specifications,
+                     the challenge of distinguishing meaningful, non-trivial specifications from a vast
+                     and noisy pool of learned candidates remains largely open. In this position paper,
+                     we present an approach for specification ranking, aimed at identifying the most critical
+                     specifications that contribute to overall system correctness. To this end, we develop
+                     a four-metric rating framework that quantifies the importance of a specification.
+                     Our approach leverages the reasoning capabilities of Large Language Models to rank
+                     specifications from a set of automatically learned candidates. We evaluate the proposed
+                     method on a set of specifications inferred for 11 open-source and 3 proprietary distributed
+                     system benchmarks, demonstrating its effectiveness in ranking critical specifications.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759425.3763387">Function Renaming in Reverse Engineering of Embedded Device Firmware with ChatGPT</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Puzhuo Liu</li>
+               <li class="nameList">Peng Di</li>
+               <li class="nameList Last">Yu Jiang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Firmware reverse engineering is crucial for exposing internal mechanisms and identifying
+                     security vulnerabilities in embedded systems. While reconstructing the structural
+                     components of code is  
+                     generally feasible, the absence of function names greatly complicates efforts to analyze
+                     and comprehend firmware logic. Motivated by the demonstrated code generation capabilities
+                     of large  
+                     language models (LLMs), this paper investigates their potential to automate function
+                     renaming. We introduce FirmNamer, a prototype system designed to streamline the labor-intensive
+                     process of ana-  
+                     lyzing decompiled code and assigning meaningful function names. FirmNamer accomplishes
+                     this by dynamically constructing LLM prompts based on extracted function code and
+                     contextual informa-  
+                     tion. Extensive evaluation shows that FirmNamer achieves superior performance in function
+                     renaming, obtaining a functional precision of 86.6% and a semantic precision of 49%,
+                     thereby surpassing  
+                     existing state-of-the-art approaches such as DeGPT, DEBIN, NFRE, NERO, and SYMLM.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759425.3763388">Improving SAST Detection Capability with LLMs and Enhanced DFA</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yuan Luo</li>
+               <li class="nameList">Zhaojun Chen</li>
+               <li class="nameList">Yuxin Dong</li>
+               <li class="nameList">Haiquan Zhang</li>
+               <li class="nameList">Yi Sun</li>
+               <li class="nameList">Fei Xie</li>
+               <li class="nameList Last">Zhiqiang Dong</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Static Application Security Testing (SAST) is a cornerstone of modern vulnerability
+                     discovery, enabling tools like GitHub’s CodeQL to identify security flaws in code
+                     repositories. However, our large-scale analysis of open-source repositories reveals
+                     that SAST’s detection performance is limited by three main factors: (1) incomplete
+                     source and sink coverage in built-in propagation rules, (2) failure to recognize sanitization
+                     functions, and (3) disruptions in data flow due to insufficient support for certain
+                     language features. In this work, we demonstrate how Large Language Models (LLMs) can
+                     improve the identification of taint sources and sinks, as well as the recognition
+                     of sanitization functions. Using CodeQL as an example, we also introduce the implementation
+                     principles of SAST's Data Flow Analysis (DFA). Furthermore, we propose enhancing Java
+                     thread support to improve the accuracy of DFA.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759425.3763389">Understanding Formal Reasoning Failures in LLMs as Abstract Interpreters</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jacqueline Mitchell</li>
+               <li class="nameList">Brian Hyeongseok Kim</li>
+               <li class="nameList">Chenyu Zhou</li>
+               <li class="nameList Last">Chao Wang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Large language models (LLMs) are increasingly used for program verification, and yet
+                     little is known about <em>how</em> they reason about program semantics during this process. In this work, we focus on
+                     abstract interpretation based-reasoning for invariant generation and introduce two
+                     novel prompting strategies that aim to elicit such reasoning from LLMs. We evaluate
+                     these strategies across several state-of-the-art LLMs on 22 programs from the SV-COMP
+                     benchmark suite widely used in software verification. We analyze both the soundness
+                     of the generated invariants and the key thematic patterns in the models’ reasoning
+                     errors. This work aims to highlight new research opportunities at the intersection
+                     of LLMs and program verification for applying LLMs to verification tasks and advancing
+                     their reasoning capabilities in this application.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759425.3763390">Position: Vibe Coding Needs Vibe Reasoning: Improving Vibe Coding with Formal Verification</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jacqueline Mitchell</li>
+               <li class="nameList Last">Yasser Shaaban</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>“Vibe coding” — the practice of developing software through iteratively conversing
+                     with a large language model (LLM) — has exploded in popularity within the last year.
+                     However, developers report key limitations including the accumulation of technical
+                     debt, security issues, and code churn to achieve satisfactory results. We argue that
+                     these pitfalls result from LLMs’ inability to reconcile accumulating human-imposed
+                     constraints during vibe coding, with developers inadvertently failing to resolve contradictions
+                     because LLMs prioritize user commands over code consistency. Given LLMs’ receptiveness
+                     to verification-based feedback, we argue that formal methods can mitigate these pitfalls,
+                     making vibe coding more reliable. However, we posit that integrating formal methods
+                     must transcend existing approaches that combine formal methods and LLMs. We advocate
+                     for a side-car system throughout the vibe coding process which: (1) <em>Autoformalizes</em> specifications (2) Validates against targets, (3) Delivers <em>actionable</em> feedback to the LLM, and (4) Allows intuitive developer influence on specifications.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759425.3763391">A Case Study on the Effectiveness of LLMs in Verification with Proof Assistants</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Barış Bayazıt</li>
+               <li class="nameList">Yao Li</li>
+               <li class="nameList Last">Xujie Si</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Large language models (LLMs) can potentially help with verification using proof assistants
+                     by automating proofs. However, it is unclear how effective LLMs are in this task.
+                     In this paper, we perform a case study based on two mature Rocq projects: the hs-to-coq
+                     tool and Verdi. We evaluate the effectiveness of LLMs in generating proofs by both
+                     quantitative and qualitative analysis. Our study finds that: (1) external dependencies
+                     and context in the same source file can significantly help proof generation; (2) LLMs
+                     perform great on small proofs but can also generate large proofs; (3) LLMs perform
+                     differently on different verification projects; and (4) LLMs can generate concise
+                     and smart proofs, apply classical techniques to new definitions, but can also make
+                     odd mistakes.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759425.3763392">The Modular Imperative: Rethinking LLMs for Maintainable Software</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Anastasiya Kravchuk-Kirilyuk</li>
+               <li class="nameList">Fernanda Graciolli</li>
+               <li class="nameList Last">Nada Amin</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Large language models (LLMs) are becoming increasingly integrated into software development,
+                     with a majority of developers now adopting AI tools for code generation. Although
+                     the current models can often produce syntactically and functionally correct code,
+                     they often generate unnecessarily complex solutions, and struggle with large, evolving
+                     code bases that have rich internal structure. Most evaluations of LLM-generated code
+                     to date have focused primarily on test-based accuracy, unfairly overlooking other
+                     essential aspects of software quality. In this paper, we emphasize the importance
+                     of modularity — the practice of structuring code into well-defined, reusable components
+                     — as a critical lens for improving the maintainability of AI-generated code. We argue
+                     that modularity should be a foundational principle in LLM-assisted code generation,
+                     empowering models to produce more maintainable, production-ready software.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759425.3763393">Enhancing Semantic Understanding in Pointer Analysis using Large Language Models</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Baijun Cheng</li>
+               <li class="nameList">Kailong Wang</li>
+               <li class="nameList">Ling Shi</li>
+               <li class="nameList">Haoyu Wang</li>
+               <li class="nameList">Yao Guo</li>
+               <li class="nameList">Ding Li</li>
+               <li class="nameList Last">Xiangqun Chen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Pointer analysis has been studied for over four decades. However, existing frameworks
+                     continue to suffer from the propagation of incorrect facts. A major limitation stems
+                     from their insufficient semantic understanding of code, resulting in overly conservative
+                     treatment of user-defined functions. Recent advances in large language models (LLMs)
+                     present new opportunities to bridge this gap. In this paper, we propose LMPA (LLM-enhanced
+                     Pointer Analysis), a vision that integrates LLMs into pointer analysis to enhance
+                     both precision and scalability. LMPA identifies user-definedfunctions that resemble
+                     system APIs and models them accordingly, thereby mitigating erroneous cross-calling-context
+                     propagation. Furthermore, it enhances summary-based analysis by inferring initial
+                     points-to sets and introducing a novel summary strategy augmented with natural language.
+                     
+                     Finally, we discuss the key challenges involved in realizing this vision.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759425.3763394">Preguss: It Analyzes, It Specifies, It Verifies</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Zhongyi Wang</li>
+               <li class="nameList">Tengjie Lin</li>
+               <li class="nameList">Mingshuai Chen</li>
+               <li class="nameList">Mingqi Yang</li>
+               <li class="nameList">Haokun Li</li>
+               <li class="nameList">Xiao Yi</li>
+               <li class="nameList">Shengchao Qin</li>
+               <li class="nameList Last">Jianwei Yin</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Fully automated verification of large-scale software and hardware systems is arguably
+                     the holy grail of formal methods. Large language models (LLMs) have recently demonstrated
+                     their potential for enhancing the degree of automation in formal verification by,
+                     e.g., generating formal specifications as essential to deductive verification, yet
+                     exhibit poor scalability due to context-length limitations and, more importantly,
+                     the difficulty of inferring complex, interprocedural specifications. This paper outlines
+                     Preguss - a modular, fine-grained framework for automating the generation and refinement
+                     of formal specifications. Preguss synergizes between static analysis and deductive
+                     verification by orchestrating two components: (i) potential runtime error (RTE)-guided
+                     construction and prioritization of verification units, and (ii) LLM-aided synthesis
+                     of interprocedural specifications at the unit level. We envisage that Preguss paves
+                     a compelling path towards the automated verification of large-scale programs.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759425.3763396">Composable Effect Handling for Programming LLM-Integrated Scripts</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Di Wang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Implementing LLM-integrated scripts introduces challenges in modularity and performance,
+                     as scripts are often coupled to specific LLM implementations and fail to exploit parallelization
+                     opportunities. This paper proposes using composable effect handling to separate workflow
+                     logic from effectful operations, such as LLM calls, I/O, and concurrency, enabling
+                     modularity without sacrificing the opportunity for performance optimization. By treating
+                     these operations as abstract interfaces and discharging them via effect handlers,
+                     this paper shows that scripts can achieve significant speedups (e.g., 10× in a Tree-of-Thoughts
+                     case study) without compromising modularity. This paper aims to promote composable
+                     effect handling as a programming style for LLM scripting.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759425.3763397">ClearAgent: Agentic Binary Analysis for Effective Vulnerability Detection</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Xiang Chen</li>
+               <li class="nameList">Anshunkang Zhou</li>
+               <li class="nameList">Chengfeng Ye</li>
+               <li class="nameList Last">Charles Zhang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Statically detecting vulnerabilities at the binary level is crucial for the security
+                     of Commercial-Off-The-Shelf (COTS) software when source code is not available. However,
+                     traditional methods suffer from the inherent limitations of binary translation and
+                     static analysis, which hinder their scalability for complex real-world binaries. Recent
+                     efforts that leverage Large Language Models (LLMs) for vulnerability detection are
+                     still limited by possible hallucination, inaccurate code property retrieval, and insufficient
+                     guidance.  
+                     </p>
+                  
+                  <p>
+                     In this paper, we propose a new agentic binary analysis framework ClearAgent, which
+                     features a novel binary interface that provides both LLM-friendly and analyzer-friendly
+                     tools to facilitate effective understanding of binary code semantics with rich context.
+                     ClearAgent works by automatically interacting with the interface and iteratively exploring
+                     for buggy binary code. For candidate bug reports, ClearAgent further tries to verify
+                     the existence of the vulnerability by constructing concrete inputs that can trigger
+                     the buggy locations.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759425.3763398">W2GPU: Toward WebAssembly-to-WebGPU Program Translation via Small Language Models</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Mehmet Oguz Derin</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The proliferation of WebAssembly (WASM) for portable CPU-bound computation, along
+                     with language interoperability, and WebGPU for high-performance graphics and compute,
+                     presents a new frontier for web applications. However, a significant semantic gap
+                     exists between their respective execution models: WASM's stack-based virtual machine
+                     and WebGPU Shading Language's (WGSL) structured, GPU-centric paradigm. This divergence
+                     creates a substantial barrier to single-source development, as conventional compilers
+                     struggle with the complex, often non-isomorphic translation task, particularly with
+                     the constraints of WGSL, such as the absence of 64-bit indexing. This paper proposes
+                     a novel approach to bridge this divide by framing the translation from WebAssembly
+                     Text (WAT) to WGSL as a fine-tuning task for small language models (SLMs), and a novel
+                     data pipeline to generate and validate a large-scale, parallel dataset of 14,547 (WAT,
+                     WGSL) pairs from a GLSL corpus. Our preliminary experiments, focusing on sub-2B parameter
+                     models with at least 32K native context, demonstrate the feasibility of this approach.
+                     The successful convergence of training loss and end-to-end compilation success with
+                     computation result parity on an unseen evaluation split, particularly with the Qwen3
+                     model family, indicates that compact models can learn the intricate syntax and structural
+                     mappings from a stack-based to a variable-based representation, including GPU-specific
+                     aspects such as vectorization, yet, do not generalize well to longer WAT sequences.
+                     These initial findings position neural translation as a promising direction for heterogeneous
+                     web targets.</p>
+                  			</div>
+            </div>
+            							
+            						</div>
+      </div>
+   </body>
+</html>

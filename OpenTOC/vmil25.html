@@ -1,0 +1,297 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>VMIL '25: Proceedings of the 17th ACM SIGPLAN International Workshop on Virtual Machines and Intermediate Languages</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>VMIL '25: Proceedings of the 17th ACM SIGPLAN International Workshop on Virtual Machines and
+               Intermediate Languages</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3759548"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759548.3763369">MaTSa: Race Detection in Java</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Alexandros Emmanouil Antonakakis</li>
+               <li class="nameList">Iacovos G. Kolokasis</li>
+               <li class="nameList">Foivos S. Zakkak</li>
+               <li class="nameList">Angelos Bilas</li>
+               <li class="nameList Last">Polyvios Pratikakis</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Parallel programs are prone to data races, which are concurrency bugs that are difficult
+                     to track and reproduce. Various attempts have been made to create or incorporate tools
+                     that aim to dynamically detect data races in Java, but most rely on external race
+                     detectors that: a) miss some of the nuances in the Java Memory Model (JMM), b) are
+                     too slow and complicated to be used in complex real-world applications, or c) produce
+                     a lot of false positive reports. In this paper, we present MaTSa, a tool built within
+                     OpenJDK, that aims to dynamically detect data races and offer informative pointers
+                     to the origin of the race. We evaluate MaTSa and detect several races in the Renaissance
+                     benchmark suite and the Quarkus framework, many of which have been reported and resulted
+                     in upstream fixes. We compare MaTSa to Java TSan, the only current state-of-the-art
+                     dynamic race detector that works on recent OpenJDK versions. We analyze issues with
+                     false positives and false negatives for both tools and explain the design decisions
+                     causing them. We found MaTSa to be 15x faster on average, while scaling to large programs
+                     not supported by other tools.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759548.3763370">Copy-and-Patch Just-in-Time Compiler for R</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Matěj Kocourek</li>
+               <li class="nameList">Filip Křikava</li>
+               <li class="nameList Last">Jan Vitek</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Copy-and-patch is a technique for building baseline just-in-time compilers from existing
+                     interpreters. It has been successfully applied to languages such as Lua and Python.
+                     This paper reports on our experience using this technique to implement a compiler
+                     for the R programming language. We describe how this new compiler integrates with
+                     the GNU R virtual machine, present the key optimizations we implemented, and evaluate
+                     the feasibility of this approach for R. Copy-and-patch also allows extensions such
+                     as integration of the feedback recording required by multi-tier compilation. Our evaluation
+                     on 57 programs demonstrates very fast compilation times (980 bytecode instructions
+                     per millisecond), reasonable performance gains (1.15x–1.91x speedup over GNU R), and
+                     manageable implementation complexity.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759548.3763371">ASTro: An AST-Based Reusable Optimization Framework</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Koichi Sasada</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Partial evaluation of abstract syntax tree (AST) traversal interpreters removes interpretation
+                     overhead while maximizing developer productivity; a language author specifies only
+                     the behavior of each AST node, and the framework specializes whole programs automatically.
+                     Existing solutions, however, come with heavyweight toolchains and tightly coupled,
+                     platform-specific back-ends, making portability and deployment difficult.  
+                     </p>
+                  
+                  <p>
+                     We present ASTro, a lightweight framework that keeps the node-centric workflow but
+                     eliminates heavy dependencies. ASTro translates the partially evaluated interpreter
+                     into well-structured C source code that encourages aggressive inlining by commodity
+                     compilers, yielding competitive native code. Because the output is plain C, it can
+                     be rebuilt with any mainstream toolchain, reducing deployment effort.  
+                     To support just-in-time use, every AST sub-tree receives a Merkle-tree hash; identical
+                     fragments share their compiled artifacts at astro-scale—across processes, machines,
+                     and deployments—so each piece is compiled once and reused many times.  
+                     </p>
+                  
+                  <p>
+                     This paper introduces ASTro, a framework for building interpreters and partial evaluators,
+                     along with its generator tool, ASTroGen. It shows that language authors can implement
+                     interpreters by specifying only the behavior of AST nodes. We present empirical measurements
+                     on micro benchmarks that quantify ASTro’s runtime performance.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759548.3763372">Memory Tiering in Python Virtual Machine</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yuze Li</li>
+               <li class="nameList">Shunyu Yao</li>
+               <li class="nameList">Jaiaid Mobin</li>
+               <li class="nameList">Tianyu Zhan</li>
+               <li class="nameList">M. Mustafa Rafique</li>
+               <li class="nameList">Dimitrios Nikolopoulos</li>
+               <li class="nameList">Kirshanthan Sundararajah</li>
+               <li class="nameList Last">Ali R. Butt</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Modern Python applications consume massive amounts of memory in data centers. Emerging
+                     memory technologies such as CXL have emerged as a pivotal interconnect for memory
+                     expansion. Prior efforts in memory tiering that relied on OS page or hardware counters
+                     information incurred notable overhead and lacked awareness of fine-grained object
+                     access patterns. Moreover, these tiering configurations cannot be tailored to individual
+                     Python applications, limiting their applicability in QoS-sensitive environments. In
+                     this paper, we introduce Memory Tiering in Python VM (MTP), an extension module built
+                     atop the popular CPython interpreter to support memory tiering in Python applications.
+                     MTP leverages reference count changes from garbage collection to infer object temperatures
+                     and reduces unnecessary migration overhead through a software-defined page temperature
+                     table. To the best of our knowledge, MTP is the first framework to offer portability,
+                     easy deployment, and per-application tiering customization for Python workloads.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759548.3763373">Heterogeneous Translation of Scala-Like Function Types in Java-TX</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Julian Schmidt</li>
+               <li class="nameList">Daniel Holle</li>
+               <li class="nameList Last">Martin Plümicke</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Java-TX (i.e. Type eXtended) is a language based on Java. The two predominant new features are global type
+                     inference and real function types for lambda expressions. The latter enables concrete
+                     typing of lambda expressions (not only target typing as in Java), subtyping of function
+                     types, and direct evaluation of lambda expressions (β–reduction) without the need
+                     for additional type casts. In this paper, we extend this work by introducing a heterogeneous
+                     translation of those function types, allowing generic type information to be retained
+                     at runtime. Furthermore, we provide a concrete implementation for the interoperability
+                     between our function types and the target types in Java. Finally, we present how the
+                     combination of global type inference, real function types, and heterogeneous translation
+                     allows a novel, flexible handling of higher-order functions in Java-like languages.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759548.3763374">Evaluating Candidate Instructions for Reliable Program Slowdown at the Compiler Level: Towards Supporting Fine-Grained Slowdown for Advanced Developer Tooling</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Humphrey Burchell</li>
+               <li class="nameList Last">Stefan Marr</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Slowing down programs has surprisingly many use cases: it  
+                     helps finding race conditions, enables speedup estimation,  
+                     and allows us to assess a profiler’s accuracy. Yet, slowing  
+                     down a program is complicated because today’s CPUs and  
+                     runtime systems can optimize execution on the fly, making  
+                     it challenging to preserve a program’s performance behavior  
+                     to avoid introducing bias.  
+                     We evaluate six x86 instruction candidates for controlled  
+                     and fine-grained slowdown including NOP, MOV, and PAUSE.  
+                     We tested each candidate’s ability to achieve an overhead  
+                     of 100%, to maintain the profiler-observable performance  
+                     behavior, and whether slowdown placement within basic  
+                     blocks influences results. On an Intel Core i5-10600, our ex-  
+                     periments suggest that only NOP and MOV instructions are suit-  
+                     able. We believe these experiments can guide future research  
+                     on advanced developer tooling that utilizes fine-granular  
+                     slowdown at the machine-code level.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759548.3763375">RuntimeSave: A Graph Database of Runtime Values</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Matúš Sulír</li>
+               <li class="nameList">Antonia Bertolino</li>
+               <li class="nameList Last">Guglielmo De Angelis</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>To persist variable values from running programs for development purposes, we currently
+                     recognize two strategies. Techniques based on examples are only useful to store small
+                     sample objects, while record-and-replay techniques are efficient but use opaque storage
+                     formats. We lack a middle ground offering acceptable scalability and easy queryability
+                     with standard tools. In this work-in-progress paper, we present RuntimeSave – a versatile
+                     approach to saving runtime values from the Java Virtual Machine (JVM) into a persistent
+                     Neo4j graph database. Its core idea is a two-layer graph model consisting of hashed
+                     and metadata nodes, inspired by Git internals. To reduce the written data volume,
+                     it packs certain object graph shapes into simpler ones and hashes them to provide
+                     partial deduplication. We also report a preliminary evaluation, applications, and
+                     future work ideas.</p>
+                  			</div>
+            </div>
+            							
+            						</div>
+      </div>
+   </body>
+</html>
