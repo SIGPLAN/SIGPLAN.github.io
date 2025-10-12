@@ -1,0 +1,65 @@
+---
+title: "[PLDI 2026] Call for Workshops and Tutorials"
+timestamp: "10/8/2025 14:45:00"
+deadline: "11/14/2025"
+---
+PLDI 2026 Call for Workshops and Tutorials
+==========
+
+# Call for Workshops and Tutorials
+
+PLDI 2026 is a world-class forum for researchers and practitioners in programming language design and implementation. As in previous years, PLDI is soliciting proposals for co-located workshops and tutorials that will take place on Monday June 15th, and Tuesday June 16th. Please propose your workshop or tutorial via the submission system (linked below).
+
+The following details will be asked on submission:
+
+* Name of the workshop/tutorial.
+* Duration of the workshop/tutorial.
+* Organizers: names, affiliation, contact information, brief (100 words) biography.
+* A short description (150-200 words) of the topic.
+* Event format: workshop/tutorial; type of submissions, if any; review process; results dissemination.
+* Expected attendance and target audience within the PLDI community.
+* How you plan to foster an inclusive environment and promote diverse attendance.
+* Information on any previous iterations of the workshop or tutorial.
+
+*Note:* Workshops must make their own acceptance decisions by April 19, 2026 if there will be proceedings (final versions for the proceedings are due May 3, 2026) or May 3, 2026 otherwise.
+
+## Submission
+Submission site: https://pldi26.sigplan.org/createProposal/a442749a-d9a1-4b5f-9725-9d8fb6d20b35
+
+Workshops that would like their proceedings included in the ACM Digital Library must submit a proposal by November 14, 2025.
+
+Workshops and tutorials that will have no formal proceedings should submit a proposal by November 24, 2025.
+
+## Review
+
+Proposals are reviewed by the Workshop Chairs, and if necessary, by the PLDI general chair.
+
+* Proposals will be evaluated according to the relevance of the topic, the expertise and experience of the workshop organizers, and their potential to attract participants.
+* Proposals submitted between November 14th and 24th will be evaluated on a first-come-first-served basis.
+
+## Notification
+
+We will notify workshop/tutorial acceptance by December 8th.
+
+## Timeline
+
+Submission deadline (with proceedings): November 14
+
+Submission deadline (no proceedings): November 24
+
+Notification: December 8
+
+## Dissemination
+
+A proposal should clearly state how the results of the workshop — i.e., published papers and other outcomes — will be made available to participants and others before and after the workshop event. The Workshop Chairs will provide guidance to the organizers of accepted workshops that wish to publish proceedings in the ACM Digital Library. For those that choose to publish their papers in ACM Digital Library, please add the following text in the workshop call for papers and on the website:
+
+*AUTHORS TAKE NOTE:* The official publication date is the date the proceedings are made available in the ACM Digital Library. This date may be up to two weeks prior to the first day of your conference. The official publication date affects the deadline for any patent filings related to published work. (For those rare conferences whose proceedings are published in the ACM Digital Library after the conference is over, the official publication date remains the first day of the conference.)
+
+Workshops that elect to publish proceedings can do so in the ACM Digital Library with sponsoring by SIGPLAN. The application for SIGPLAN sponsorship includes reviewing the proposed program committee with the SIGPLAN Executive Committee, a process which the chairs will help facilitate.
+
+## Workshop Co-Chairs
+- Woosuk Lee, Hanyang U.
+- Mukund Raghothaman, U. of Southern California
+
+Kind regards,
+PLDI 2026 Publicity Chairs
