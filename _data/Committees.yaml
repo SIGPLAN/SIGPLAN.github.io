@@ -201,37 +201,38 @@ PPoPP Steering Committee:
   - Michael Spear
   - Michel Steuwer
 
-
 SIGAPL Steering Committee:
   - Chair: Guy Larocque
 
 SPLASH Steering Committee:
   - SIGPLAN Chair: #
   - SIGPLAN Vice Chair: #
-  - Chair: Alex Potanin (Australian National University), SPLASH 2022 General Chair and OOPSLA 2024 Program Co-Chair
-  
-  - Amal Ahmed (Northeastern University), OOPSLA 2022 Program Co-Chair
-  - Bor-Yuh Evan Chang (University of Colorado Boulder), OOPSLA 2024 Program Co-Chair
-  - Shigeru Chiba (University of Tokyo), Onward! 2025 Papers Co-Chair
-  - Işil Dillig (University of Texas at Austin), OOPSLA 2026 Program Chair
-  - Jonathan Edwards (Independent), Onward! 2024 Papers Chair
-  - Colin Gordon (Drexel University), Onward! 2025 Essays Chair
-  - Robert Hirschfeld (University of Potsdam; Hasso Plattner Institute), Onward! 2023 Essays Chair
-  - Stephen Kell (Kings College London), Onward! Steering Committee Chair
-  - Clemens Nylandsted Klokmose (Aarhus University), Onward! 2025 Papers Co-Chair
-  - Shriram Krishnamurthi (Brown University), OOPSLA 2025 Program Co-Chair
-  - Mira Mezini (TU Darmstadt), OOPSLA 2023 Program Chair
-  - Coen de Roover (Vrije Universiteit Brussel), GPCE Steering Committee Chair
-  - Sukyoung Ryu (Korea Advanced Institute of Science and Technology), OOPSLA 2025 Program Co-Chair
-  - Mihaela Sighireanu (University of Paris-Saclay), SAS Steering Committee Chair
-  - Manu Sridharan (UC Riverside), SPLASH 2024 General Chair
-  - Marcel Taeumel (Hasso Plattner Institute), Onward! 2024 Essays Chair
-  - Frank Tip (Northeastern University), SPLASH 2026 General Chair
-  - Vasco T. Vasconcelos (University of Lisbon), SPLASH 2023 General Chair
-  - Eric van Wyk (University of Minnesota), SLE Steering Committee Chair
-  - Charles Zhang (Hong Kong University of Science and Technology), SPLASH 2025 General Chair
-  - Jan Vitek (Northeastern University / Czech Technical University), OOPSLA 2022 Program Co-Chair
+  - Chair: Alex Potanin (Australian National University), OOPSLA 2024 Program Co-Chair
 
+  - Filip Křikava (Czech Technical University), SPLASH 2027 General Chair
+  - Frank Tip (Northeastern University), SPLASH 2026 General Chair
+  - Charles Zhang (Hong Kong University of Science and Technology), SPLASH 2025 General Chair
+  - Manu Sridharan (UC Riverside), SPLASH 2024 General Chair
+  - Vasco T. Vasconcelos (University of Lisbon), SPLASH 2023 General Chair
+  - Nadia Polikarpova (University of California San Diego), OOPSLA 2027 Program Chair
+  - Işil Dillig (University of Texas at Austin), OOPSLA 2026 Program Chair
+  - Shriram Krishnamurthi (Brown University), OOPSLA 2025 Program Co-Chair
+  - Sukyoung Ryu (Korea Advanced Institute of Science and Technology), OOPSLA 2025 Program Co-Chair
+  - Bor-Yuh Evan Chang (University of Colorado Boulder), OOPSLA 2024 Program Co-Chair
+  - Mira Mezini (TU Darmstadt), OOPSLA 2023 Program Chair
+  # - Amal Ahmed (Northeastern University), Member at Large 2026 - 2029
+  # - Jan Vitek (Northeastern University / Czech Technical University), Member at Large 2025 - 2028
+  - Shigeru Chiba (University of Tokyo), Onward! 2025 Papers Co-Chair
+  - Clemens Nylandsted Klokmose (Aarhus University), Onward! 2025 Papers Co-Chair
+  # - Jonathan Edwards (Independent), Onward! 2024 Papers Chair
+  - Colin Gordon (Drexel University), Onward! 2025 Essays Chair
+  # - Marcel Taeumel (Hasso Plattner Institute), Onward! 2024 Essays Chair
+  # - Robert Hirschfeld (University of Potsdam; Hasso Plattner Institute), Onward! 2023 Essays Chair
+  - Stephen Kell (Kings College London), Onward! Steering Committee Chair
+  - Mihaela Sighireanu (University of Paris-Saclay), SAS Steering Committee Chair
+  - Coen de Roover (Vrije Universiteit Brussel), GPCE Steering Committee Chair
+  - Eric van Wyk (University of Minnesota), SLE Steering Committee Chair
+  
 VEE Steering Committee:
   - Andrew Baumann, Microsoft Research
   - Baris Kasikci, University of Michigan
