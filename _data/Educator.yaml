@@ -1,3 +1,17 @@
+2025:
+- Awardee: Simon Peyton Jones 
+  Citation: |
+
+    Simon's contributions to education are extraordinary. He has arguably done more to advance the cause of computing education in UK schools than any other individual. As a founder of the Computing At School initiative, and subsequently as Chair of the National Centre for Computing Education, Simon led a campaign to recognise computer science as a foundational discipline in the UK national curriculum. This effort has seen outdated ICT instruction replaced with a modern curriculum focused on algorithms, programming, and computational thinking, equipping students with both theoretical and practical skills. Simon's advocacy, tireless enthusiasm, and ability to unite policymakers, educators, and industry played a central role in this reform, which continues to serve as a model for other countries. In recognition of these contributions, Simon was made an Officer of the Order of the British Empire (OBE) in 2022.
+
+    Simon is best known within the SIGPLAN community for his major contributions to the design and implementation of the Haskell programming language -- a language that has itself played a crucial role in computer science education. Its clean semantics and powerful type system make it ideal for introducing students to key concepts of functional programming such as higher-order functions, immutability, and lazy evaluation. Universities around the world use Haskell as a vehicle for teaching foundational topics in programming structures, language design, compiler implementation, and type theory, often relying on Simon's 1987 textbook, "The Implementation of Functional Programming Languages". By providing a practical yet cutting-edge platform, Haskell has helped students and researchers explore advanced ideas while grounding their understanding in real-world applications. Beyond academia, Haskell has influenced the design of other languages, ensuring its educational legacy continues to shape the field.
+
+    Finally, Simon is well known as a vibrant speaker. His presentations are characterized by clarity, energy, and accessibility. As a result, he has long been a sought-after speaker at conferences and a frequent contributor to summer schools and mentoring workshops. His advice on how to give talks and write research papers has been invaluable to many students and researchers, helping them communicate their ideas effectively and maximise their impact.
+
+    Through his work on curriculum development, programming language innovation, technical communication, and career advice, Simon has made direct and lasting impact on the education of programmers and programming language researchers throughout the world, as well as millions of UK schoolchildren. His dedication and achievements make him an exceptionally deserving candidate for the SIGPLAN Distinguished Educator Award.
+
+    * Selection committee: Niki Vazou, Will Crichton, John Wickerson, Michael Greenberg, Johan Jeuring
+
 2023:
 - Awardee: Kathi Fisler and Shriram Krishnamurthi
   Citation: |
