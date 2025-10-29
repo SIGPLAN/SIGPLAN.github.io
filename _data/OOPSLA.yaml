@@ -1,3 +1,10 @@
+2025:
+- Awardee: Vu Le, Chengnian Sun, and Zhendong Su
+  Other: |
+    (for 2015) _[Finding Deep Compiler Bugs via Guided Stochastic Program Mutation](https://dl.acm.org/doi/10.1145/2858965.2814319)_
+  Citation: |
+    This paper has made substantial contributions in establishing systematic and automated test generation as a widely-used technique for ensuring compiler robustness in practice, through an extension of the Equivalence Modulo Inputs (EMI) technique.  EMI-based compiler testing observes which code is unexecuted for a given program and input to that program, modifies the unexecuted code, and then checks that the resulting program behaves identically to the original program on the same input. The key innovation of the paper was to insert new unexecuted code into the program, leveraging a Markov-Chain-Monte-Carlo search to generate diverse mutants more likely to expose compiler bugs.  Compiler testing techniques building on this new EMI-based technique have exposed over 1,000 bugs in the GCC and LLVM compilers that were reported and fixed by the developers, as well as bugs in compilers for a variety of other languages. 
+
 2024:
 - Awardee: Terence Parr, Sam Harwell, Kathleen Fisher
   Other: |
