@@ -1,4 +1,6 @@
 active:
+  - name: Samar Rahmouni
+    image: https://conf.researchr.org/getProfileImage/samarrahmouni/6f645dc0-d11c-40c9-a5a3-fb13c5253bab/small.jpg?1752740414000
   - name: Eloise Christian
     image: https://conf.researchr.org/getProfileImage/eloisechristian/d57f17a2-1fe5-44bb-b62e-748f84eaddeb/small.jpg?1737203033000
   - name: Angel Pavlov Angelov
@@ -11,18 +13,18 @@ active:
     image: https://conf.researchr.org/getProfileImage/eduardomadeira/42073539-cbf3-4609-b04b-0a63287afd82/small.jpg
   - name: Alexander Bai
     image: https://conf.researchr.org/getProfileImage/alexanderbai/dc1a164a-690d-4c08-926d-de8f9ab476d5/small.jpg
-  - name: Ethan Range
-    image: https://conf.researchr.org/getProfileImage/ethanrange/a82e09a2-116a-4794-a499-13496f915d0a/small.jpg
   - name: Chris Lam
     image: https://conf.researchr.org/getProfileImage/christopherlam1/00386a60-bf17-48da-8942-0d2815d7fa08/small.jpg
   - name: Jan-Paul Ramos
     image: https://conf.researchr.org/getProfileImage/janpaulramosdavila/156687da-3cdb-4157-b31e-636bb71b31dc/small.jpg
+
+emeritus:
+  - name: Ethan Range
+    image: https://conf.researchr.org/getProfileImage/ethanrange/a82e09a2-116a-4794-a499-13496f915d0a/small.jpg
   - name: Guilherme Espada
     image: https://conf.researchr.org/getProfileImage/guilhermeespada/221aa9ee-6215-4712-b6df-a5a09d269e04/small.jpg
   - name: Apoorv Ingle
     image: https://conf.researchr.org/getProfileImage/apoorvingle/76632b78-6d6b-4f2e-9c36-af0a9e1a5fdb/small.jpg
-
-emeritus:
   - name: Max Sun
     image: https://conf.researchr.org/getProfileImage/maxsun/7f927b55-626c-4c5c-9ac8-e10beb3d0b76/small.jpg
   - name: John Hui
