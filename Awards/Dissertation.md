@@ -46,7 +46,7 @@ should be directed to the SIGPLAN Awards co-Chairs.
 Nominations can be submitted at any time at <https://reynolds26.hotcrp.com/>. 
 The nomination application consists of 
 - an up to 500 words nomination statement;
-- at least two reference letters; ad
+- at least two reference letters; and
 - the .pdf of the thesis.  
 
 Nominations submitted
