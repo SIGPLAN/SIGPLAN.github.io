@@ -11,19 +11,22 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 * [Adam Chlipala](http://adam.chlipala.net), MIT, USA
 * [Georges Gonthier](https://scholar.google.co.uk/citations?user=cbtN84wAAAAJ&hl=en), Inria, France
 * [Gerwin Klein](https://doclsf.de), Proofcraft and UNSW Sydney, Australia
-* [Robbert Krebbers](https://robbertkrebbers.nl), Radboud University Nijmegen, Netherlands
 * [Dale Miller](http://www.lix.polytechnique.fr/Labo/Dale.Miller/), Inria Saclay and LIX/Institut Polytechnique de Paris, France
 * [Tobias Nipkow](https://www21.in.tum.de/~nipkow/), Technische Universität München, Germany
 * [Brigitte Pientka](https://www.cs.mcgill.ca/~bpientka/), McGill University, Canada
 * [Zhong Shao](http://www.cs.yale.edu/homes/shao/), Yale University, USA
 * [Kathrin Stark](http://www.k-stark.de/), Heriot-Watt University, UK
+* [Nikhil Swamy](https://www.microsoft.com/en-us/research/people/nswamy), Microsoft Research, USA
 * [Nicolas Tabareau](http://tabareau.fr/), Inria, Nantes, France
 * [Amin Timany](https://cs.au.dk/~timany/), Aarhus University, Denmark
 * [Dmitriy Traytel](https://traytel.bitbucket.io), University of Copenhagen, Denmark
-* [Steve Zdancewic](https://www.cis.upenn.edu/~stevez/), University of Pennsylvania, USA
+* [Yannick Zakowski](https://perso.ens-lyon.fr/yannick.zakowski), Inria Paris, France
+
 
 **Former SC members**
 
+* [Steve Zdancewic](https://www.cis.upenn.edu/~stevez/), University of Pennsylvania, USA
+* [Robbert Krebbers](https://robbertkrebbers.nl), Radboud University Nijmegen, Netherlands
 * [Andrei Popescu](https://www.andreipopescu.uk), University of Sheffield, United Kingdom
 * [Lennart Beringer](https://www.cs.princeton.edu/~eberinge/), Princeton University, USA
 * [Jasmin Blanchette](https://www.tcs.ifi.lmu.de/mitarbeiter/jasmin-blanchette_de.html), Ludwig-Maximilians-Universität München, Germany
