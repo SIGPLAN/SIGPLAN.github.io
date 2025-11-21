@@ -107,6 +107,7 @@ We'd like to thank these amazing mentors:
 - William Mansky
 - Mae Milano
 - Andrey Mokhov
+- Manasij Mukherjee
 - Joe Politz
 - Kia Rahmani
 - Norman Ramsey
