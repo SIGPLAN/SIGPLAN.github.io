@@ -1,0 +1,119 @@
+---
+title: "Call for Papers, 38th International Conference on Computer Aided Verification (CAV 2026)"
+timestamp: "11/21/2025 6:22:53"
+deadline: "1/28/2026"
+---
+===============
+IMPORTANT DATES
+===============
+All deadlines are AoE (Anywhere on Earth)
+
+Paper submission:
+Full papers due: January 28, 2026
+Author Response Period: March 30 - April 1, 2026
+Author Notification: April 17, 2026
+Main Conference: July 26-29, 2026
+Submission Site: https://submissions.floc26.org/cav/
+
+
+=====
+SCOPE
+=====
+CAV 2026 is the 38th in a series dedicated to the advancement of the theory and practice of computer-aided formal analysis methods for hardware and software systems. The conference covers the spectrum from theoretical results to concrete applications, with an emphasis on practical verification tools and the algorithms and techniques that are needed for their implementation. CAV considers it vital to continue spurring advances in hardware and software verification while expanding to new domains such as machine learning, quantum verification, autonomous systems, and computer security. The proceedings of the conference will be published in the Springer-Verlag Lecture Notes in Computer Science series. A selection of papers is expected to be invited to a special issue of Formal Methods in System Design and the Journal of the ACM.
+
+Topics of interest include but are not limited to:
+
+•	Foundations of verification and synthesis (mathematical, logical, automata, games)
+•	Verification algorithms (model checking, deductive verification)
+•	Proof assistants and deductive methods
+•	Specifications and correctness criteria for programs and systems
+•	SAT, SMT, constraint solving, decision procedures
+•	Synthesis algorithms (software, hardware, systems)
+•	Program and software verification (including analysis)
+•	Hardware verification
+•	Verification of concurrent and distributed systems
+•	Verification of hybrid, embedded, and cyber-physical systems
+•	Abstraction and compositional techniques
+•	Probabilistic verification
+•	Testing and run-time analysis based on verification technology
+•	Formal methods for AI safety, explainability, and machine learning models
+•	Formal methods for security
+•	Emerging domains for verification and synthesis, e.g., biology, quantum
+•	Applications and case studies in practice (esp. in industry)
+
+CAV welcomes submissions on theory, algorithms, practice and/or tools.
+
+Submissions on a wide range of topics are sought, particularly ones that identify new research directions. CAV 2026 is not limited to topics discussed in previous instances of the conference. Authors concerned about the appropriateness of a topic may communicate with the conference chairs prior to submission.
+
+=========
+CAV AWARD
+=========
+The CAV award is given annually at the CAV conference for fundamental contributions to the field of Computer-Aided Verification.
+CAV Award Nomination Deadline: March 2, 2026
+Nominations should include a proposed citation (up to 25 words), a succinct (100-250 words) description of the contribution(s), and a detailed statement to justify the nomination. The cited contribution(s) must have been made not more recently than five years ago and not over twenty five years ago. In addition, the contribution(s) should not yet have received recognition via a major award, such as the ACM Turing or Kanellakis Awards. The nominee may have received such an award for other contributions.
+For previous winners of the award, please see the main CAV award page.
+Nominations should be submitted by e-mail to a member of the committee. For details, please see https://conferences.i-cav.org/2026/award/.
+
+================
+PAPER SUBMISSION
+================
+Paper submissions in CAV fall into one of the following four categories (see more information below):
+Regular Papers (18 pages max, must be anonymized) 
+Short Tool Papers (10 pages max, not anonymized) 
+Short Application Papers (10 pages max, must be anonymized)
+Industrial Experience Reports & Case Studies (10 pages max, not anonymized). 
+
+Papers can include a clearly marked appendix, however, the reviewers are not obliged to read the contents of these appendices. All page limits do not include references and appendices.
+
+Papers in all four categories must be submitted by January 28, 2026 AoE, and should be in LNCS format. Simultaneous submission to other conferences with proceedings or submission of material that has already been published elsewhere is not allowed. 
+
+TWO-STAGE-REVIEW-PROCESS (NEW): Owing to the increasing number of submissions, CAV has decided to implement a two-stage reviewing process. In the first stage, each paper will get two reviews. Papers with sufficient support by the reviewers will proceed to the next stage, where they will receive two additional reviews; other papers will be rejected early. The tentative notification date for early rejected papers is around March 4, 2026. Authors whose papers have passed the first stage will have the option to respond to reviewer comments in a rebuttal phase.
+
+ARTIFACTS: Authors of accepted papers will be invited (but are not required) to submit a relevant artifact for evaluation by the artifact evaluation committee. Authors are encouraged to consult SIGPLAN’s Empirical Evaluation Guidelines when reporting on empirical results. 
+New this year: Final acceptance (of papers in any category) is not conditional on successful artifact evaluation. Authors should indicate, however, at paper submission time whether they plan to submit an artifact for evaluation if their paper is accepted. Information on artifact intent will be shared with reviewers. If authors indicate their intent to submit an artifact but fail to do so after conditional acceptance, they will be asked to provide an explanation.
+
+
+REGULAR PAPERS
+Regular papers should contain original research and sufficient detail to assess the merits and relevance of the contribution. Papers will be evaluated on the basis of a combination of correctness, technical depth, significance, novelty, clarity, and elegance.
+
+Regular papers follow the double blind review process, which means that author names and affiliations must be omitted from the submission. Additionally, if a submission refers to prior work done by the authors, the reference should be made in the third person. These are firm submission requirements, and any submission that does not conform to these requirements will be rejected without review.
+
+We do not discourage authors to put their submission on arXiv, but we strongly encourage authors to not put the work on arXiv around (within 1 week) or shortly after (within 1 month) the submission deadline, because potential reviewers may be subscribed to receive updates on recently posted papers.
+
+SHORT TOOL PAPERS
+
+Please note that the criteria for short tool papers have been changed this year.
+
+Short tool papers should describe a tool, or a new version of a tool, that is of wide interest and usefulness to the CAV community. Short tool papers do not have to include novel research. The expectation is that the correctness and utility of the presented tool is backed up by citation(s) to refereed original work. Reports of significant impact or applications of tools since their original publication are strongly encouraged. Reports about tools in an industrial setting are strongly encouraged. Very early stage work that has not yet been validated is not suitable for this paper category.
+
+A short tool paper should clearly describe the importance of the tool and the problem it is solving, brief related work, any distinctive features, and an empirical evaluation, comparing with other work as appropriate. The paper should describe the relevant features in sufficient detail to enable their integration or reuse in other tools.
+
+Short tool papers will follow a single blind review process. They do NOT need to be anonymized.
+
+SHORT APPLICATION PAPERS
+
+This category is new this year and targets academic work, as opposed to industrial experience reports.
+
+Short application papers should describe a practical application of an algorithm, an application of a previously published theoretical result, or an extension of an existing theoretical result that is of wide interest and usefulness to the CAV community. Reports of significant impact or applications of algorithms or theorems since their original publication are strongly encouraged. Very early stage work is not suitable for this paper category.
+
+A short application paper should clearly describe the importance of the theorem and the problem it is solving, brief related work, any distinctive features, comparing with other work as appropriate.
+
+Short application papers follow the double blind review process, which means that author names and affiliations must be omitted from the submission. Additionally, if a submission refers to prior work done by the authors, the reference should be made in the third person. These are firm submission requirements, and any submission that does not conform to these requirements will be rejected without review.
+
+We do not discourage authors to put their submission on arXiv, but we strongly encourage authors to not put the work on arXiv around (within 1 week) or shortly after (within 1 month) the submission deadline, because potential reviewers may be subscribed to receive updates on recently posted papers.
+
+INDUSTRIAL EXPERIENCE REPORTS AND CASE STUDIES
+
+These papers are expected to describe the use of formal methods techniques in industrial settings or in new application domains. Papers in this category do not necessarily need to present original research results but are expected to contain novel applications of formal methods techniques as well as an evaluation of these techniques in the chosen application domain. Such papers are encouraged to discuss the unique challenges of transferring research ideas to a real-world setting and reflect on any lessons learned from this technology transfer experience.
+
+Industrial Experience Reports and Case Studies will follow a single blind review process.  They do NOT need to be anonymized.
+
+=======
+CONTACT
+=======
+For any questions please contact the PC chairs:
+
+Anthony W. Lin (lin@cs.uni-kl.de)
+Eva Darulova (eva.darulova@it.uu.se)
+Philipp Rümmer (philipp.ruemmer@ur.de)
+
