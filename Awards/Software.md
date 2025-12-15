@@ -18,7 +18,7 @@ directed to the SIGPLAN Awards co-Chairs.
 
 #### Nominations
 
-Please use <http://awards.sigplan.org/> to submit nominations.
+Please use <https://sigplan-software26.hotcrp.com> to submit nominations.
 Nominations submitted on or before January 15th will be considered for
 award that year.
 
