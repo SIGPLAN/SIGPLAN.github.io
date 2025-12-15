@@ -77,9 +77,9 @@ We really appreciate all of our mentors for the amazing work they do---and we wa
 Here is a list of some of our amazing mentors. If you are already a mentor for us, and you're welcome to being thanked publicly,
 please let us know and we'll happily add you to this list!
 
-We'd like to thank these amazing mentors:
-- Jonathan Aldrich
+We'd like to thank these amazing mentors, current and previous:
 - Stavros Aronis
+- Arthur Azevedo de Amorim
 - Tom Ball
 - Hongzheng Chen
 - Sheng Chen
@@ -88,11 +88,8 @@ We'd like to thank these amazing mentors:
 - Alastair Donaldson
 - Jana Dunfield
 - Sebastian Erdweg
-- Tobias Grosser
 - Jason Hemann
-- Kuen-Bang Hou (Favonia)
 - Patrik Jansson
-- Ralf Jung
 - Konstantinos Kallas
 - Raffi Khatchadourian
 - Kalyan Krishnamani
@@ -101,36 +98,43 @@ We'd like to thank these amazing mentors:
 - Ismail Kuru
 - Patrick Lam
 - Leonidas Lampropoulos
-- John Leo
 - Yishuai Li
 - Justin Lubin
 - William Mansky
 - Mae Milano
-- Andrey Mokhov
 - Manasij Mukherjee
-- Joe Politz
 - Kia Rahmani
 - Norman Ramsey
 - Talia Ringer
-- Sukyoung Ryu
-- Roopsha Samanta
 - Mike Samuel
 - Satnam Singh
 - Gus Smith
-- Caleb Stanford
-- Kathrin Stark
 - Michel Steuwer
-- Simon Thompson
 - Dimitris Vardoulakis
 - Chengpeng Wang
 - John Wickerson
-- James Wilcox
 - Max Willsey
 - Dominik Winterer
-- Li-yao Xia
 - Dongwei Xiao
 - Chengyu Zhang
 - Jie Zhou
+
+Retired:
+- Jonathan Aldrich
+- Tobias Grosser
+- Kuen-Bang Hou (Favonia)
+- Ralf Jung
+- John Leo
+- Andrey Mokhov
+- Joe Politz
+- Sukyoung Ryu
+- Roopsha Samanta
+- Caleb Stanford
+- Kathrin Stark
+- Simon Thompson
+- James Wilcox
+- Li-yao Xia
+
 
 And we'd of course also like to thank everyone else who has served or currently serves as a mentor for SIGPLAN-M!
 
