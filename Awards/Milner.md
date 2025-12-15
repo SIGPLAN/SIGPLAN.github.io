@@ -64,8 +64,8 @@ follow.
 
 #### Nominations
 
-Nominations can be submitted at any time using the Web form at
-<https://awards.sigplan.org>. Nominations submitted on or before
+Nominations can be submitted at any time at
+<https://milner26.hotcrp.com>. Nominations submitted on or before
 January 15th will be considered for award that year. The committee may
 decline to make an award in a given year if there are no suitable
 nominees.
