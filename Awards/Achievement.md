@@ -15,11 +15,24 @@ be directed to the SIGPLAN Awards co-Chairs.
 
 #### Nominations
 
-Nominations can be submitted at any time using the Web form at
-<https://awards.sigplan.org>.  Nominations submitted on or before
+Nominations can be submitted at
+<https://sigplan-pl-achievement26.hotcrp.com/>.  Nominations submitted on or before
 January 15th will be considered for award that year.  A nomination
 for the Achievement Award that is not selected will remain in
 consideration for a total of three years.
+
+Each nomination should be submitted as a single PDF consisting of the following items:
+
+-   Name, affiliation, phone number, and email address of the candidate
+    for whom an award is recommended (the nominee).
+-   Name, affiliation, phone number, and email address of the person
+    making the nomination (the nominator).
+-   A short statement (200-500 words) explaining why the nominee
+    deserves the award.
+-   Names and email addresses of 5-10 people who the nominator
+    believes will support the nomination. The awards committee will
+    ask at least three of these people for their opinions. (If the nominator 
+    already has support letters these can be included with the nomination)
 
 #### Committee
 
