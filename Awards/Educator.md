@@ -42,8 +42,8 @@ Each nomination should include the following items:
   award. This should include any information about the context of the
   work to help the Award Committee understand its significance.
 - Names and email addresses of 5-10 people who the nominator believes
-  will support the nomination. The awards committee will ask at least
-  three of these people for their opinions.
+  will support the nomination. The letters of support should be submitted by Feb 20th either
+  by the nominator (at hotcrp) or by email to the chair (niki.vazou@imdea.org). 
 
 The candidate may be nominated simultaneously for other awards, such
 as the ACM Karl V. Karlstrom Outstanding Educator Award.
