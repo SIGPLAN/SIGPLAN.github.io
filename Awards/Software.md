@@ -33,8 +33,7 @@ Each nomination should include the following items:
 - Name, affiliation, phone number, and email address of the person
   making the nomination (the nominator).
 - Names and email addresses of 5-10 people who the nominator believes
-  will support the nomination. The awards committee will ask at least
-  three of these people for their opinions.
+  will support the nomination. The letters of support should be submitted by Feb 20th either by the nominator (at hotcrp) or by email to the chair (niki.vazou@imdea.org).
 
 #### Committee
 
