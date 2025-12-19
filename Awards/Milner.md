@@ -66,7 +66,10 @@ follow.
 
 Nominations can be submitted at any time at
 <https://milner26.hotcrp.com>. Nominations submitted on or before
-January 15th will be considered for award that year. The committee may
+January 22nd will be considered for award that year. 
+The nomination requires 5-10 supporters that should submit their letters of support by Feb 20th, 
+either directly by the nominator (at the hotcrp) or by mail to the chair (at niki.vazou@imdea.org).
+The committee may
 decline to make an award in a given year if there are no suitable
 nominees.
 
