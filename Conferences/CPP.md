@@ -47,8 +47,13 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 * [John Harrison](https://www.cl.cam.ac.uk/~jrh13/), Amazon Web Services, USA
 
 ---
-**[CPP Conferences](https://popl25.sigplan.org/series/CPP)**
+**[CPP Conferences](https://popl26.sigplan.org/series/CPP)**
 
+* CPP 2027, January, 2027 (co-located with POPL’27)
+  + PC Chairs: [Nikhil Swamy](https://www.microsoft.com/en-us/research/people/nswamy)
+    and [Cyril Cohen](https://perso.crans.org/cohen/)
+  + Conference Chairs: [Yannick Zakowski](https://perso.ens-lyon.fr/yannick.zakowski)
+    and [Sophie Tourret](https://members.loria.fr/sophie.tourret/)
 * [CPP 2026](https://popl26.sigplan.org/home/CPP-2026), Rennes, France, January 12-13, 2026 (co-located with POPL’26)
   + PC Chairs: [Nicolas Tabareau](https://tabareau.fr/)
     and [Nikhil Swamy](https://www.microsoft.com/en-us/research/people/nswamy)
@@ -112,9 +117,12 @@ The official **CPP proceedings** since 2015 are publicly available via [SIGPLAN 
 ---
 **Given Distinguished Paper Awards**
 
-* CPP 2025: [Certifying Rings of Integers in Number Fields](https://dl.acm.org/doi/10.1145/3703595.3705874), Anne Baanen, Alain Chavarri Villarello, Sander R. Dahmen.
-* CPP 2025: [Split Decisions: Explicit Contexts for Substructural Languages](https://dl.acm.org/doi/10.1145/3703595.3705888). Daniel Zackon, Chuta Sano, Alberto Momigliano, Brigitte Pientka.
-* CPP 2025: [The Nextgen Modality: A Modality for Non-Frame-Preserving Updates in Separation Logic](https://dl.acm.org/doi/10.1145/3703595.3705876). Simon Friis Vindum, Aina Linn Georges, Lars Birkedal.
+* CPP 2026: [Higher order differential calculus in Mathlib](https://arxiv.org/abs/2509.04922), Sebastien Gouezel.
+* CPP 2026: [Mechanized Dominator Tree Certification](https://inria.hal.science/hal-05413838v1), Jean-Christophe Léchenet.
+* CPP 2026: [Precise Reasoning about Container-Internal Pointers with Logical Pinning](https://arxiv.org/abs/2509.23229), Yawen Guan and Clément Pit-Claudel.
+* CPP 2025: [Certifying Rings of Integers in Number Fields](https://dl.acm.org/doi/10.1145/3703595.3705874), Anne Baanen, Alain Chavarri Villarello, and Sander R. Dahmen.
+* CPP 2025: [Split Decisions: Explicit Contexts for Substructural Languages](https://dl.acm.org/doi/10.1145/3703595.3705888). Daniel Zackon, Chuta Sano, Alberto Momigliano, and Brigitte Pientka.
+* CPP 2025: [The Nextgen Modality: A Modality for Non-Frame-Preserving Updates in Separation Logic](https://dl.acm.org/doi/10.1145/3703595.3705876). Simon Friis Vindum, Aina Linn Georges, and Lars Birkedal.
 * CPP 2024: [Formal Probabilistic Methods for Combinatorial Structures using the Lovász Local Lemma](https://popl24.sigplan.org/details/CPP-2024-papers/7/Formal-Probabilistic-Methods-for-Combinatorial-Structures-using-the-Lov-sz-Local-Lemma). Chelsea Edmonds and Lawrence Paulson.
 * CPP 2024: [Martin-Löf à la Coq](https://popl24.sigplan.org/details/CPP-2024-papers/12/Martin-L-f-la-Coq). Arthur Adjedj, Meven Lennon-Bertrand, Kenji Maillard, Pierre-Marie Pédrot, and Loïc Pujet.
 * CPP 2024: [Rooting for Efficiency: Mechanised Reasoning about Array-Based Trees in Separation Logic](https://popl24.sigplan.org/details/CPP-2024-papers/5/Rooting-for-Efficiency-Mechanised-Reasoning-about-Array-Based-Trees-in-Separation-Logic). Qiyuan Zhao, George Pîrlea, Zhendong Ang, Umang Mathur, and Ilya Sergey.
