@@ -1,0 +1,882 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>CPP '26: Proceedings of the 15th ACM SIGPLAN International Conference on Certified Programs and Proofs</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>CPP '26: Proceedings of the 15th ACM SIGPLAN International Conference on Certified Programs
+               and Proofs</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3779031"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Formalized Mathematics</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779102">Higher Order Differential Calculus in Mathlib</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Sébastien Gouëzel</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>We report on the higher-order differential calculus library developed  
+                     inside the Lean mathematical library Mathlib. To support a broad range of  
+                     applications, we depart in several ways from standard textbook definitions:  
+                     we allow arbitrary fields of scalars, we work with functions defined on  
+                     domains rather than full spaces, and we integrate analytic functions in the  
+                     broader scale of smooth functions. These generalizations introduce  
+                     significant challenges, which we address from both the mathematical and the  
+                     formalization perspectives.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779103">Bar Inductive Predicates for Constructive Algebra in Rocq</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Dominique Larchey-Wendling</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>In constructive commutative algebra, we revive the bar inductive  
+                     characterization of Noetherian rings. We contribute the first  
+                     constructive (axiom free) implementation of Hilbert's basis  
+                     theorem, in the Rocq proof assistant. We show that  
+                     the polynomial ring R[X] is Noetherian when  
+                     the ring R is Noetherian, without assuming  
+                     any additional condition on R, like coherence  
+                     or else strong discreteness. We also contribute  
+                     and implement a new result, that Noetherian rings are  
+                     closed under direct products, again without assuming  
+                     any supplementary condition on rings. We study  
+                     induction principles for Noetherian rings, and  
+                     relate bar Noetherianity with some other  
+                     constructive characterizations.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779097">Computing Solutions for Systems of Multivariate Ordinary Differential Equations in
+                  Rocq</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Holger Thies</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>We formalize a solver for initial value problems for systems of multivariate analytic
+                     ordinary differential equations in the sense of constructive/computable analysis,
+                     using the Rocq proof assistant.  
+                     The construction follows the classical proof of the Cauchy-Kovalevskaya theorem, computing
+                     the Taylor series expansion of the solution by iteratively deriving its coefficients.
+                     
+                     We prove that the computed Taylor series converges and provide explicit bounds on
+                     the truncation error, ensuring the error can be made arbitrarily small.  
+                     Instead of relying on a concrete implementation of constructive reals, we develop
+                     an abstract framework using type classes and setoids, allowing the formalization to
+                     remain flexible and compatible with different implementations.  
+                     Additionally, we extend the formalization to a more efficient variant based on interval
+                     arithmetic and illustrate its practical use with several examples.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779100">Cylindrical Algebraic Decomposition in Coq/Rocq</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Quentin Vermande</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The Cylindrical Algebraic Decomposition (CAD in short) is a fundamental tool of semi-algebraic
+                     geometry. It is a doubly-exponential time algorithm that enables most famously to
+                     eliminate quantifiers from a formula in the theory of real closed fields. In particular,
+                     it allows to decide the satisfiability of problems involving sets of comparisons between
+                     polynomials. The present article describes the first formalization of a correctness
+                     proof of this algorithm in a proof assistant.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779105">Adhesive Category Theory for Graph Rewriting in Rocq</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Samuel Arsac</li>
+               <li class="nameList">Russ Harmer</li>
+               <li class="nameList Last">Damien Pous</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>We design a Rocq library about adhesive categories, using Hierarchy Builder (HB).
+                     
+                     It is built around two hierarchies. The first is for categories, with usual categories
+                     at the bottom and adhesive categories at the top, with weaker variants of adhesive
+                     categories in between. The second is for morphisms (notably isomorphisms, monomorphisms
+                     and regular monomorphisms). Each level of these hierarchies is equipped with several
+                     interfaces to define instances.  
+                     </p>
+                  
+                  <p>
+                     We cover basic categorical concepts such as pullbacks and equalizers, as well as results
+                     specific to adhesive categories. Using this library, we formalize two central theorems
+                     of categorical graph rewriting theory: the Church-Rosser theorem and the concurrency
+                     theorem.  
+                     We provide several instances, including the category of types, the category of finite
+                     types, the category of simple graphs and categories of presheaves.  
+                     We detail the implementation choices we made and report on the usage of HB for this
+                     formalization work.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779108">Formalizing Polynomial Laws and the Universal Divided Power Algebra</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Antoine Chambert-Loir</li>
+               <li class="nameList Last">María Inés de Frutos-Fernández</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The goal of this paper is to present an ongoing formalization, in the framework provided
+                     by the Lean/Mathlib mathematical library, of the construction by Roby (1965) of the
+                     universal divided power algebra. This is an analogue, in the theory of divided powers,
+                     of the classical algebra of polynomials. It is a crucial tool in the development of
+                     crystalline cohomology; it is also used in <em>p</em>-adic Hodge theory to define the crystalline period ring. As an algebra, this universal
+                     divided power algebra has a fairly simple definition that shows that it is a graded
+                     algebra. The main difficulty in Roby’s theorem lies in constructing a divided power
+                     structure on its augmentation ideal. To that aim, Roby identified the graded pieces
+                     with another universal structure: homogeneous polynomial laws. </p>
+                  <p>We formalize the first steps of the theory of polynomial laws and show how future
+                     work will allow to complete the formalization of the above-mentioned divided power
+                     structure. We report on various difficulties that appeared in this formalization:
+                     taking care of universes, extending to semirings some aspects of the Mathlib library,
+                     and coping with several instances of ”invisible mathematics”.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Proof Assistants</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779087">A Certifying Proof Assistant for Synthetic Mathematics in Lean</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Wojciech Nawrocki</li>
+               <li class="nameList">Joseph Hua</li>
+               <li class="nameList">Mario Carneiro</li>
+               <li class="nameList">Yiming Xu</li>
+               <li class="nameList">Spencer Woolfson</li>
+               <li class="nameList">Shuge Rong</li>
+               <li class="nameList">Sina Hazratpour</li>
+               <li class="nameList Last">Steve Awodey</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p><em>Synthetic</em> theories such as homotopy type theory axiomatize classical mathematical objects such
+                     as spaces up to homotopy. Although theorems in synthetic theories translate to theorems
+                     about the axiomatized structures on paper, this fact has not yet been exploited in
+                     proof assistants. This makes it challenging to formalize results in classical mathematics
+                     using synthetic methods. For example, Cubical Agda supports reasoning about cubical
+                     types, but cubical proofs have not been translated to proofs about cubical set models,
+                     let alone their topological realizations. To bridge this gap, we present SynthLean:
+                     a proof assistant that combines reasoning using synthetic theories with reasoning
+                     about their models. SynthLean embeds Martin-Löf type theory as a domain-specific language
+                     in Lean, supporting a bidirectional workflow: constructions can be made internally
+                     in Martin-Löf type theory as well as externally in a model of the theory. A certifying
+                     normalization-by-evaluation typechecker automatically proves that internal definitions
+                     have sound interpretations in any model; conversely, semantic entities can be axiomatized
+                     in the syntax. Our implementation handles universes, Σ, Π, and identity types, as
+                     well as arbitrary axiomatized constants. To provide a familiar experience for Lean
+                     users, we reuse Lean’s tactic language and syntax in the internal mode, and base our
+                     formalization of natural model semantics on Mathlib. By taking a generic approach,
+                     SynthLean can be used to mechanize various interpretations of internal languages such
+                     as the groupoid, cubical, or simplicial models of homotopy type theory in HoTTLean.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779099">Adding Sorts to an Isabelle Formalization of Superposition</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Balazs Toth</li>
+               <li class="nameList">Martin Desharnais-Schäfer</li>
+               <li class="nameList Last">Jasmin Blanchette</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The superposition calculus has been formalized in Isabelle/HOL twice before but in
+                     both cases without a type system. Nowadays, modern superposition provers support types.
+                     We extend an existing Isabelle formalization of untyped superposition with simple
+                     monomorphic types, or sorts. This extension is straightforward on paper but surprisingly
+                     tricky to implement formally. We also use this opportunity to refactor the proof text
+                     to avoid quadruplicated definitions, lemmas, and proofs about terms, atoms, literals,
+                     and clauses. The extended formalization and its refactoring benefit from Isabelle's
+                     locales, structured Isar proofs, and Sledgehammer proof tool.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779093">A Lambda-Superposition Tactic for Isabelle/HOL</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Massin Guerdi</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>This paper introduces <em>slam</em>, an Isabelle/HOL tactic and automated theorem prover based on the λ-superposition
+                     calculus. An alternative to Isabelle’s <em>metis</em> tactic, <em>slam</em> targets higher-order logic directly, avoiding the overhead introduced by <em>metis</em>’s translations to first-order logic. Like <em>metis</em>, <em>slam</em> can be used as a Sledgehammer backend to reconstruct proofs produced by external
+                     higher-order automated theorem provers such as E, Vampire, and Zipperposition.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779101">Certifying the Decidability of the Word Problem in Monoids at Large</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Reinis Cirpons</li>
+               <li class="nameList">Florent Hivert</li>
+               <li class="nameList">Assia Mahboubi</li>
+               <li class="nameList">Guillaume Melquiond</li>
+               <li class="nameList">James D. Mitchell</li>
+               <li class="nameList Last">Finn Smith</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>While the word problem for monoids is undecidable in general, having a decision procedure
+                     for some finitely presented monoid of interest has numerous applications. This paper
+                     presents a toolbox for the Rocq proof assistant that can be used to verify the decidability
+                     of the word problem for a given monoid and, in some cases, to produce the corresponding
+                     decision procedure. As this verification can be computationally intensive, the toolbox
+                     heavily relies on proofs by reflection guided by an external oracle. This approach
+                     has been successfully used on several large presentations from the literature, as
+                     well as on a database of one million 1-relation monoids. The huge size of this database
+                     forced some unusual considerations onto the Rocq formalization, so that the formal
+                     proofs could be checked in a reasonable amount of time.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Compilers</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779107">Mechanized Dominator Tree Certification</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Jean-Christophe Léchenet</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>In modern compilers, many optimizations and analyses, 
+                     in particular those based on the SSA form, rely on dominance information, 
+                     so computing dominators efficiently is an important problem. 
+                     The classic algorithm to compute dominators in a control flow graph 
+                     is the one designed by Lengauer and Tarjan in 1979. 
+                     Other efficient algorithms have been proposed since. 
+                     Previous works formally verified less efficient algorithms, 
+                     and formally validated parts of the Lengauer-Tarjan algorithm, 
+                     but there is no complete formal verification or validation 
+                     of any of the fast algorithms computing dominators so far. 
+                     In 2016, Georgiadis and Tarjan described a method to tackle these. 
+                     They defined a certificate with which it becomes easy to validate dominators. 
+                     Following their method, we successfully implemented and proved correct 
+                     a validator of dominators in the Rocq Prover, 
+                     inside the CompCertSSA verified compiler.  
+                     This is the first complete mechanized certification of a fast algorithm computing
+                     dominators.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779098">Brack: A Verified Compiler for Scheme via CakeML</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Pascal Y. Lasnier</li>
+               <li class="nameList">Jeremy Yallop</li>
+               <li class="nameList Last">Magnus O. Myreen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>This paper describes Brack, which is a new verified compiler for Scheme. Brack compiles
+                     a substantial subset of Scheme, including first-class continuations, recursive bindings,
+                     first-class functions, mutable local variables, and lists, to CakeML, from where programs
+                     can be compiled to machine code. Compilation from Scheme to CakeML is based around
+                     a continuation-passing-style (CPS) transformation that naturally arises from Scheme’s
+                     small-step semantics. We have formally established the correctness of Brack in the
+                     HOL4 theorem prover.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779092">Verified VCG and Verified Compiler for Dafny</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Daniel Nezamabadi</li>
+               <li class="nameList">Magnus O. Myreen</li>
+               <li class="nameList Last">Yong Kiam Tan</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Dafny is a verification-aware programming language that comes with a compiler and
+                     static program verifier. However, neither the compiler nor the verifier is proved
+                     correct; in fact, soundness bugs have been found in both tools. This paper shows that
+                     the aforementioned Dafny tools can be developed with foundational correctness guarantees.
+                     We present a functional big-step semantics for an imperative subset of Dafny and,
+                     based on this semantics, a verified verification condition generator (VCG) and a verified
+                     compiler for Dafny. The subset of Dafny we have formalized includes mutually recursive
+                     method calls, while loops, and arrays---these language features are significant enough
+                     to cover challenging examples such as McCarthy's 91 function and array-based programs
+                     that are used when teaching Dafny. The verified VCG allows one to prove functional
+                     correctness of annotated Dafny programs, while the verified compiler can be used to
+                     compile verified Dafny programs to CakeML programs. From there, one can obtain executable
+                     machine code via the (already verified) CakeML compiler, all while provably maintaining
+                     the functional correctness guarantees that were proved for the source-level Dafny
+                     programs. Our work has been mechanized in the HOL4 theorem prover.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779088">Foundational Verification of Running-Time Bounds for Interactive Programs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Andy Tockman</li>
+               <li class="nameList">Pratap Singh</li>
+               <li class="nameList">Andres Erbsen</li>
+               <li class="nameList">Samuel Gruetter</li>
+               <li class="nameList Last">Adam Chlipala</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Some important domains of software demand concrete bounds on how long functions may
+                     run, for instance for real-time cyberphysical systems where missed deadlines may damage
+                     industrial machinery. 
+                     Such programs may interact with external devices throughout execution, where time
+                     deadlines ought to depend on, for instance, sensor readings (e.g. we only scramble
+                     to close a valve immediately when a sensor reports that a tank is about to overflow).
+                     
+                     We present the first software-development toolchain that delivers first-principles
+                     proofs of meaningful time bounds for interactive machine code, while allowing all
+                     per-application programming and verification to happen at the source-code level. 
+                     We allow C-like programs to be proved against separation-logic specifications that
+                     also constrain their running time, and such proofs are composed with verification
+                     of a compiler to RISC-V machine code. 
+                     All components are implemented and proved inside the Rocq proof assistant, producing
+                     final theorems whose statements depend only on machine-language formal semantics and
+                     some elementary specification constructions for describing running time. 
+                     As a capstone case study, we extended a past verification (of a real microcontroller-based
+                     cyberphysical system) to bound time between arrival of network packets and actuation
+                     of an attached device.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Metatheory</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779090">Can We Formalise Type Theory Intrinsically without Any Compromise? A Case Study in
+                  Cubical Agda</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Liang-Ting Chen</li>
+               <li class="nameList">Fredrik Nordvall Forsberg</li>
+               <li class="nameList Last">Tzu-Chun Tsai</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>We present an intrinsic representation of type theory in the proof assistant Cubical
+                     Agda, inspired by Awodey’s natural models of type theory. The initial natural model
+                     is defined as quotient inductive-inductive-recursive types, leading us to a syntax
+                     accepted by Cubical Agda without using any transports, postulates, or custom rewrite
+                     rules. We formalise some meta-properties such as the standard model, normalisation
+                     by evaluation for typed terms, and strictification constructions.  
+                     Since our formalisation is carried out using Cubical Agda's native support for quotient
+                     inductive types, all our constructions compute at a reasonable speed. When we try
+                     to develop more sophisticated metatheory, however, the 'transport hell' problem reappears.
+                     Ultimately, it remains a considerable struggle to develop the metatheory of type theory
+                     using an intrinsic representation that lacks strict equations. The effort required
+                     is about the same whether or not the notion of natural model is used.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779111">Formalization of a Proof Calculus for Incremental Linearization for Satisfiability
+                  Modulo Nonlinear Arithmetic and Transcendental Functions</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Tomaz Mascarenhas</li>
+               <li class="nameList">Harun Khan</li>
+               <li class="nameList">Abdalrhman Mohamed</li>
+               <li class="nameList">Andrew Reynolds</li>
+               <li class="nameList">Haniel Barbosa</li>
+               <li class="nameList">Clark Barrett</li>
+               <li class="nameList Last">Cesare Tinelli</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Determining the satisfiability of formulas involving nonlinear real arithmetic and
+                     transcendental functions is necessary in many applications, such as formally verifying
+                     dynamic systems. Doing this automatically generally requires costly and intricate
+                     methods, which limits their applicability. In the context of SMT solving, <em>Incremental Linearization</em> was introduced recently to facilitate reasoning on this domain, via an incomplete
+                     but easy to implement and highly effective approach. The approach, based on abstraction-refinement
+                     via an incremental axiomatization of the nonlinear and transcendental operators, is
+                     currently implemented in the SMT solvers MathSAT and cvc5. The cvc5 implementation
+                     is also proof-producing. This paper presents two contributions: a formalization in
+                     the Lean proof assistant of the proof calculus employed by cvc5, and an extension
+                     of the lean-smt plugin to reconstruct the proofs produced by cvc5 using this proof
+                     calculus. These contributions ensure the soundness of the proof calculus, making the
+                     underlying algorithm more trustworthy. Moreover, they allow users to check cvc5 results
+                     obtained via incremental linearization, as well as improve Lean’s automation for problems
+                     in nonlinear arithmetic. We discuss how we modeled the rules in the proof assistant
+                     and the challenges encountered while formalizing them, as well as the issues in reconstructing
+                     proofs involving these rules in Lean, and how we solved them.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779085">Mechanizing Synthetic Tait Computability in Istari</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Runming Li</li>
+               <li class="nameList">Yue Yao</li>
+               <li class="nameList Last">Robert Harper</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Categorical gluing is a powerful technique for proving meta-theorems of type theories
+                     such as canonicity and normalization. Synthetic Tait Computability (STC) provides
+                     an abstract treatment of the complex gluing models by internalizing the gluing category
+                     into a modal dependent type theory with a phase distinction. This work presents a
+                     mechanization of STC in the Istari proof assistant. Istari is a Martin-L'of-style
+                     extensional type theory with equality reflection, which avoids much of the explicit
+                     transport reasoning typically found in intensional proof assistants. This work develops
+                     a reusable library for synthetic phase distinction, including modalities, extension
+                     types, and strict glue types, and applies it to two case studies: (1) a canonicity
+                     model for dependent type theory with dependent products and booleans with large elimination,
+                     and (2) a Kripke canonicity model for the cost-aware logical framework. Our results
+                     demonstrate that the core STC constructions can be formalized essentially verbatim
+                     in Istari, preserving the elegance of the on-paper arguments while ensuring machine-checked
+                     correctness.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779095">Building Blocks for Step-Indexed Program Logics</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Thomas Somers</li>
+               <li class="nameList">Jonas Kastberg Hinrichsen</li>
+               <li class="nameList">Lennard Gäher</li>
+               <li class="nameList Last">Robbert Krebbers</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Step-indexing and the <em>later modality</em>&nbsp;▷ <em>P</em> are widely used in program logics. A key challenge in proofs in step-indexed logics
+                     is turning ▷ <em>P</em> into&nbsp;<em>P</em>, coined the <em>later elimination problem</em>. Later elimination cannot be done unconditionally, and has traditionally been linked
+                     one-to-one to the physical steps the program performs in the operational semantics.
+                     This one-to-one correspondence proved limiting in practice, and various techniques
+                     (<em>flexible step-indexing</em> and <em>later credits</em>) have been proposed to relax this correspondence. </p>
+                  <p>Unfortunately, there exist many variations of these techniques with different features
+                     and proof rules. Moreover, integrating these techniques into a program logic for a
+                     specific domain (e.g., crash safety or trace refinement) requires non-trivial proof
+                     engineering of the metatheory. Our goal is to consolidate this situation. We introduce
+                     the <em>physical-step modality</em>—a modular building block that enables designers of program logics to obtain all existing
+                     features and rules with little proof engineering effort. We integrate our modality
+                     into various projects in the Iris ecosystem (Actris, RefinedRust, Perennial, Trillium),
+                     and show that it unlocks new proof rules that these projects previously did not support.
+                     All our results are mechanized in the Rocq prover.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779091">A Rose Tree Is Blooming (Proof Pearl)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Joomy Korkut</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Game trees are a fundamental mathematical abstraction for analyzing games, often implemented
+                     as rose trees in functional programming. We can construct rose trees by starting from
+                     an initial state and iteratively applying the function that provides the states one
+                     move away, an approach known as an anamorphism (or colloquially, an unfold).  
+                     </p>
+                  
+                  <p>
+                     In ML or Haskell, finite and infinite rose trees share the same type, but proof assistants
+                     typically distinguish them: finite trees as inductive, infinite ones as coinductive.
+                     With the inductive approach, defining the unfold function is tricky but we obtain
+                     a finite tree that is easy to compute with and easy to reason about. With the coinductive
+                     approach, defining the unfold function is easy but we obtain a potentially infinite
+                     tree, which is harder to reason about since we must resort to proof techniques like
+                     bisimulation. In this paper, we compare the inductive and coinductive approaches to
+                     game trees, implement unfold functions for both, and prove the soundness and completeness
+                     of both unfold functions (with respect to the game) in the Rocq Prover. We illustrate
+                     these techniques with implementations of a tic-tac-toe game and a simple SAT solver.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Program Verification</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779094">Certified Symbolic Finite Transducers: Formalization and Applications to String Analysis</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Shuanglong Kan</li>
+               <li class="nameList Last">Anthony W. Lin</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Finite Transducers (FTs) extend the capabilities of Finite Au-  
+                     tomata (FAs) by enabling the transformation of input strings  
+                     into output strings. In many practical applications — includ-  
+                     ing program analysis, string constraint solving, and analysis  
+                     of security-critical sanitizers — Symbolic FTs (SFTs) and Sym-  
+                     bolic FAs (SFAs) are used instead of the explicitly represented  
+                     models. To circumvent to the notorious state-space explosion  
+                     problem caused by an extremely large alphabet size (e.g. Unicode), SFTs and SFAs allow
+                     the representation of the alphabet  
+                     as an effective boolean algebra including finite unions of intervals, as well as SMT-Algebras.
+                     The security-critical nature  
+                     of many of these applications demands trustworthy implementations of such systems.
+                     To this end, we present the first  
+                     formalization of SFTs and their most important algorithms  
+                     in Isabelle/HOL. To evaluate the effectiveness of our formalization, we apply the
+                     formalized SFTs to two applications:  
+                     (1) sanitizers for web applications used for preventing XSS  
+                     attacks, and (2) string solving, which increasingly employs  
+                     intricate string replacement operations. Our experimental  
+                     results demonstrate that our methods are competitive with  
+                     the existing unverified implementations.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779089">Enhancing Symbolic Execution with Machine-Checked Safety Proofs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">David Trabish</li>
+               <li class="nameList Last">Shachar Itzhaky</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Symbolic execution (SE) is a program analysis technique that  
+                     executes the program with symbolic inputs. In modern SE  
+                     engines, when the analysis of a given program is exhaustive,  
+                     the analyzed program is typically considered safe, i.e., free  
+                     of bugs, but no formal guarantees are provided to support  
+                     this. Rather than aiming for a formally verified SE engine  
+                     that will provide such guarantees, which is challenging,  
+                     we propose a systematic approach where each individual  
+                     analysis additionally generates a formal safety proof that  
+                     validates the symbolic computations that were carried out.  
+                     Our approach consists of two main components: A formal  
+                     framework connecting concrete and symbolic semantics,  
+                     and an instrumentation of the SE engine which generates  
+                     formal safety proofs based on this framework. We showcase  
+                     our approach by implementing a KLEE-based prototype  
+                     that operates on a subset of LLVM IR with integers and  
+                     generates proofs in Rocq. Our preliminary experiments show  
+                     that our approach generates proofs that have reasonable  
+                     validation times, while the instrumentation incurs only  
+                     a minor overhead on the SE engine. In addition, during  
+                     the implementation of our prototype, we found previously  
+                     unknown semantic implementation issues in KLEE.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779104">Layers of Confluence for Actors</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Ludovic Henrio</li>
+               <li class="nameList">Einar Broch Johnsen</li>
+               <li class="nameList">Åsmund Aqissiaq Arild Kløvstad</li>
+               <li class="nameList">Violet Ka I Pun</li>
+               <li class="nameList Last">Yannick Zakowski</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>This paper introduces a novel proof technique to show that parallel or distributed
+                     programs exhibit confluent behaviour, even when the execution of these programs is
+                     inherently non-deterministic. The proposed method allows us to prove the confluence
+                     of programs for which standard properties such as strong confluence or commutativity
+                     of operations do not hold. Our technique builds on a method to prove the confluence
+                     of rewrite systems by de Bruijn, which we first adapt and formalise in Rocq. This
+                     method can be seen as a specialised induction principle for proving confluence. The
+                     paper further considers how this induction principle can be used in the context of
+                     programming languages. We show how the proof method can be instantiated to establish
+                     confluence conditions for programs in a small Actor-like programming language and
+                     demonstrate the application of the method to prove the confluence of a class of programs
+                     that cannot be proven to have deterministic behaviour by standard techniques.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779106">Towards Composable Proofs of Cache Coherence Protocols</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Martina Camaioni</li>
+               <li class="nameList">Yann Herklotz</li>
+               <li class="nameList">Tz-Ching Yu</li>
+               <li class="nameList Last">Thomas Bourgeat</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Verifying cache coherence protocols is a notoriously difficult problem. At the intersection
+                     between distributed protocol and computer architecture, it has long served as a premier
+                     target for formal methods.  
+                     Current verification approaches hinge on the challenging discovery of large global
+                     inductive invariants.  
+                     This paper introduces an alternative proof strategy that tames the complexity through
+                     two main contributions: protocol decomposition and a framework of local invariants.
+                     
+                     </p>
+                  
+                  <p>
+                     We prove the correctness of the standard MSI protocol compositionally by independently
+                     verifying the simpler MI and SI subprotocols and proving MSI behaves as their combination.
+                     This decomposition revealed a useful insight: the invariants necessary in these proofs
+                     can be established using a small set of simple local invariants: invariants between
+                     a single cache and the parent and memory, eliminating complex global reasoning across
+                     children caches. We demonstrate how our approach reduces the number of required invariants
+                     from several dozens to hundreds in prior work to a small, structured and manageable
+                     set, simplifying the proof of correctness.  
+                     The entire development is formalized in Lean 4.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Separation Logic</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779110">A Recipe for Modular Verification of Generic Tree Traversals</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Laila Elbeheiry</li>
+               <li class="nameList">Michael Sammler</li>
+               <li class="nameList">Robbert Krebbers</li>
+               <li class="nameList">Derek Dreyer</li>
+               <li class="nameList Last">Deepak Garg</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Data structures based on trees and tree traversals are ubiquitous in computer systems.
+                     Many low-level programs, including some implementations of critical systems like page
+                     tables and the web browser DOM, rely on <em>generic</em> tree-traversal functions that traverse tree nodes in a pre-determined order, applying
+                     a client-provided operation to each visited node. Developing a general approach to
+                     specifying and verifying such traversals is tricky since the client-provided per-node
+                     operation can be stateful and may potentially depend on or modify the structure of
+                     the tree being traversed. </p>
+                  <p>In this paper, we present a <em>recipe</em> for (semi-)automated verification of such generic, stateful tree traversals. Our
+                     recipe is (a)&nbsp;<em>general</em>: it applies to a range of tree traversals, in particular, pre-, post- and in-order
+                     depth-first traversals; (b)&nbsp;<em>modular</em>: parts of a traversal’s proof can be reused in verifying other similar traversals;
+                     (c)&nbsp;<em>expressive</em>: using the specification of a tree traversal, we can verify clients that use the
+                     traversal in a variety of different ways; and (d)&nbsp;<em>automatable</em>: many proof obligations can be discharged automatically. </p>
+                  <p>At the heart of our recipe is a novel use of tree <em>zippers</em> to represent a logical abstraction of the tree traversal state, and zipper transitions
+                     as an abstraction of traversal steps. We realize our recipe in the RefinedC framework
+                     in Rocq, which allows us to verify a number of different tree traversals and their
+                     clients written in C.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779096">Precise Reasoning about Container-Internal Pointers with Logical Pinning</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yawen Guan</li>
+               <li class="nameList Last">Clément Pit-Claudel</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Most separation logics hide container-internal pointers for modularity. This makes
+                     it difficult to specify container APIs that temporarily expose those pointers to the
+                     outside, and to verify programs that use these APIs.  
+                     </p>
+                  
+                  <p>
+                     We present logical pinning, a lightweight borrowing model for sequential programs
+                     that allows users to selectively track container-internal pointers at the logical
+                     level. Our model generalizes the magic-wand operator for representing partial data
+                     structures, making it easy to write and prove precise specifications, including pointer-stability
+                     properties. Because it only changes the way representation predicates and specifications
+                     are written, our approach is compatible with most separation logic variants.  
+                     </p>
+                  
+                  <p>
+                     We demonstrate the practicality of logical pinning by verifying small but representative
+                     pointer-manipulating programs, and deriving more precise versions of common container
+                     specifications. In doing so, we show that our approach subsumes some well-known proof
+                     patterns, simplifies some complex proofs, and enables reasoning about program patterns
+                     not supported by traditional specifications. All of our results are mechanized in
+                     the Rocq proof assistant, using the CFML library.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779109">Modular Specifications and Implementations of Random Samplers in Higher-Order Separation
+                  Logic</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Virgil Marionneau</li>
+               <li class="nameList">Félix Sassus Bourda</li>
+               <li class="nameList">Alejandro Aguirre</li>
+               <li class="nameList Last">Lars Birkedal</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Probabilistic programs have a myriad of applications, from randomized 
+                     algorithms to statistical modeling, and as such have inspired a long 
+                     tradition of probabilistic program logics to verify their correctness. 
+                     One essential use of probabilistic programs is to program 
+                     new samplers from more primitive samplers, e.g., to generate samples from more 
+                     complex distributions only given a primitive uniform sampler. 
+                     Such samplers are an ideal case study for 
+                     probabilistic program logics, to ensure that they 
+                     implement the target distributions correctly. But proving correctness 
+                     is often not enough, one also wants to reason about clients of these 
+                     samplers, which require their specifications to be expressive and reusable. 
+                     </p>
+                  
+                  <p>
+                     In this work, we propose a methodology for giving specifications to 
+                     samplers that are detailed enough to prove that they are correct, and 
+                     expressive enough to reason about their clients. We propose our 
+                     methodology for Eris, a recent probabilistic program logic based on the 
+                     Iris separation logic. We identify what makes the proof rules and 
+                     reasoning principles for primitive distributions in Eris work, and we 
+                     distill them into a distribution typeclass. This presents at an 
+                     abstract level the requirements that a concrete implementation of a 
+                     target distribution should satisfy, and provides reasoning principles 
+                     for clients of the interface. Working at this level of abstraction 
+                     allows us to prove correctness results, as well as to derive additional 
+                     reasoning principles for all implementations that adhere to the 
+                     typeclass interface. We instantiate this approach to a variety of 
+                     samplers for classical distributions, such as binomials, geometrics and 
+                     beta-binomials.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779031.3779086">Using Ghost Ownership to Verify Union-Find and Persistent Arrays in Rust</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Arnaud Golfouse</li>
+               <li class="nameList">Armaël Guéneau</li>
+               <li class="nameList Last">Jacques-Henri Jourdan</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The type system of Rust enforces the “shared xor mutable” principle, which forbids
+                     mutation of shared memory. This principle eases verification in Rust, but certain
+                     programs require circumventing it with the mechanism of <em>interior mutability</em>. Thus, supporting interior mutability in a deductive verification tool is difficult.
+                     The Verus tool demonstrated the use of <em>ghost resources</em> to that end. So far, this mechanism has only been applied to Verus in order to verify
+                     primarily system code. </p>
+                  <p>We extend the deductive verification tool Creusot with support for linear ghost resources.
+                     We show how Creusot’s full support for mutable borrows enables better specifications
+                     for primitives of linear ghost code. We apply this methodology to the verification
+                     of two data structures using sharing and mutation: union-find and persistent arrays.</p>
+                  			</div>
+            </div>
+            							
+            						</div>
+      </div>
+   </body>
+</html>

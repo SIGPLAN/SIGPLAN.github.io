@@ -1656,3 +1656,15 @@
   event: SPLASH Companion
   year: 2025
   title: "Companion Proceedings of the 2025 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity"
+-
+  event: PEPM
+  year: 2026
+  title: "Proceedings of the 2026 ACM SIGPLAN International Workshop on Partial Evaluation and Program Manipulation"
+-
+  event: CPP
+  year: 2026
+  title: "Proceedings of the 15th ACM SIGPLAN International Conference on Certified Programs and Proofs"
+-
+  event: POPL
+  year: 2026
+  title: "Proceedings of the ACM on Programming Languages: Vol. 10, No. POPL. 2026"
