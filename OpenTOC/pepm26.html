@@ -1,0 +1,274 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>PEPM '26: Proceedings of the 2026 ACM SIGPLAN International Workshop on Partial Evaluation and Program Manipulation</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>PEPM '26: Proceedings of the 2026 ACM SIGPLAN International Workshop on Partial Evaluation and
+               Program Manipulation</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3779209"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Invited Talk</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779209.3787154">Revisiting the Evolution of Effects (Invited Talk)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Nicolas Wu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Functional programming is often associated with pure functions, offering referential
+                     transparency and a principled basis for reasoning about programs. In practice, however,
+                     most programs must interact with their environment, introducing effects such as input/output,
+                     mutable state, and exceptions. Reconciling these requirements with purity has been
+                     a longstanding concern in the design of functional languages.  
+                     </p>
+                  
+                  <p>
+                     Monads provided an early and influential approach, offering a disciplined way to sequence
+                     effectful computations while retaining a pure core. Although successful, this approach
+                     exposed limitations in modularity: combining multiple effects in a flexible manner
+                     proved difficult. Monad transformers addressed this to some extent by allowing effects
+                     to be layered.  
+                     </p>
+                  
+                  <p>
+                     More recent work has explored algebraic effects as an alternative framework, supporting
+                     extensibility and a more modular treatment of effects, particularly in the construction
+                     of domain-specific abstractions. Experience with algebraic effects has, in turn, revealed
+                     limitations of first-order formulations, motivating the development of scoped and
+                     higher-order effects. These extensions broaden the range of effectful behaviour that
+                     can be expressed, and help clarify the relationship between monadic and algebraic
+                     approaches.  
+                     </p>
+                  
+                  <p>
+                     This talk revisits these developments, following the evolution from monads and monad
+                     transformers to algebraic and higher-order effects, and discussing the trade-offs
+                     that arise in structuring effectful programs.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Papers</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779209.3779534">Computation-Tree Semantics: An Algorithmic Approach to Structurally Defined Relations</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Sean Kristian Remond Harbo</li>
+               <li class="nameList Last">Hans Hüttel</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Structural operational semantics (SOS) is one of the most common formalisms for specifying
+                     language semantics. There has been much interest in automatically deriving small-step
+                     SOS definitions from big-step definitions and vice versa, as well as towards extrapolating
+                     language implementations from these inductive, declarative definitions. This work
+                     presents Computation-Tree Semantics (CTS) in which semantic configurations are tree-structured,
+                     unlike standard SOS-configurations which are “flat”. This tree-structure is key in
+                     making our approach algorithmic, meaning it is able to describe how a transition is
+                     produced, contrary to the traditional declarative approach taken by SOS. We show how
+                     one can -- in a straight-forward manner -- obtain a CTS from the big-step semantics
+                     of a simple arithmetic language, a simple while language, and the call-by-need lambda-calculus
+                     as given by Launchbury. From the resulting CTS, we then obtain a small-step understanding
+                     of all these languages. The arithmetic language example is formalised in Coq/Rocq.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779209.3779535">Hole Refinements for Polymorphic Type-and-Example Driven Synthesis</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Niek Mulleners</li>
+               <li class="nameList">Johan Jeuring</li>
+               <li class="nameList Last">Wouter Swierstra</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Many synthesizers implicitly benefit from using polymorphic types, since parametric
+                     polymorphism reduces the search space. Additional synthesis constraints may interfere
+                     with <em>parametricity</em>. In particular, a polymorphic type may cause otherwise feasible input-output examples
+                     to contradict each other. We present Taxi (type-and-example based inferencer), a tool for efficiently reasoning about the feasibility of polymorphic
+                     programs specified by input-output examples, and Driver, a tactic language for top-down
+                     program synthesis that uses feasibility reasoning to prune the search space. Taxi
+                     guarantees that every search state corresponds to a correct (albeit possibly partial)
+                     implementation. In addition, it allows for shortcutting the synthesis when a subspecification
+                     covers all cases. We show that these techniques have the potential to speed up top-down
+                     enumerative type-and-example driven synthesizers.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779209.3779536">Staging Effect Handlers for Modular Search</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Alexandru Trifanov</li>
+               <li class="nameList Last">Tom Schrijvers</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Constraint Programming (CP) is a declarative paradigm where a programmer models a
+                     problem in terms of constraints over some set of variables. Monadic Constraint Programming
+                     (MCP) integrates CP with functional programming by modeling the constraint solver
+                     as a monad threaded through a monadic search tree. This abstraction allows us to define
+                     search as a first-class object which can be constructed from composable search transformers.
+                     </p>
+                  <p>We introduce <em>Effectful Constraint Programming</em> (ECP), a re-imagining of monadic constraint programming using the increasingly-popular
+                     framework of algebraic effects and handlers. To overcome the performance drawbacks
+                     of effects, we use multi-stage programming to generate efficient search procedures
+                     from high-level, abstract descriptions.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779209.3779537">Towards Lightweight and Efficient Choreographic Cloud Services</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Alex Ionescu</li>
+               <li class="nameList Last">Alejandro Russo</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Choreographic programming provides a high-level abstraction for writing  
+                     distributed computations while ensuring deadlock-freedom by construction.  
+                     HasChor, a Haskell-based choreographic programming framework, offers a  
+                     practical implementation of these ideas but faces limitations in handling an  
+                     arbitrary number of participants and optimizing the communication of branches.  
+                     In this work, we introduce CloudChor, a set of extensions that enhance HasChor’s 
+                     
+                     expressiveness and efficiency through the use of <em>multiply-located values</em>,  
+                     allowing choreographies to distribute and collect data across multiple  
+                     participants in a structured manner.  
+                     Additionally, we refine HasChor’s <em>branching mechanism</em> through a  
+                     lightweight static analysis, selectively propagating branching decisions only  
+                     to relevant participants, reducing communication overhead.  
+                     To strengthen theoretical guarantees, we establish a <em>formal semantics</em>  
+                     for HasChor and our extensions, proving deadlock-freedom.  
+                     Finally, we demonstrate the practicality of our enhancements by  
+                     implementing a <em>data clean room protocol</em> using CloudChor.  
+                     Our contributions improve the applicability of choreographic programming to  
+                     cloud-based secure data collaborations, making it a stronger candidate for  
+                     real-world deployments.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3779209.3779538">Inferring Typing Rules for Contextual Sugars</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Tailai Yu</li>
+               <li class="nameList">Zhichao Guan</li>
+               <li class="nameList">Di Wang</li>
+               <li class="nameList Last">Zhenjiang Hu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Syntactic sugars ease the definition of new language constructs by transforming them
+                     into an existing core language. Previous works lift independent typing rules and other
+                     semantics for these new constructs from the core language. The lifted semantics preserve
+                     the abstraction boundary of syntactic sugars, freeing users from inspecting desugared
+                     code that they did not write. While sugars may interact with contextual information
+                     during desugaring in general, these works are limited to simple sugars that do not.
+                     We identify a class of contextual sugars and present an extended algorithm for lifting
+                     their typing rules. With the addition of contexts, naïvely representing desugaring
+                     results in the core language may cause unexpected behavior and break hygiene. We introduce
+                     anchored terms that can point to the provenance of their contexts to represent desugaring
+                     results, which is similar to mechanisms used in Racket macros. Anchored terms need
+                     not concern authors or users of contextual sugars, but enable local reasoning. The
+                     lifted typing rules are sound with respect to the typing of anchored core language
+                     terms.</p>
+                  			</div>
+            </div>
+            							
+            						</div>
+      </div>
+   </body>
+</html>
