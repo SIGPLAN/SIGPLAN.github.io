@@ -50,7 +50,7 @@ The nomination application consists of
 - the .pdf of the thesis.  
 
 Nominations submitted
-on or before January 15th will be considered for award that year.  The
+on or before January 22nd will be considered for award that year.  The
 nominated dissertation must have been submitted for award of the
 doctoral degree in the year prior to the nomination deadline, and be
 available in English (to facilitate evaluation by the selection
