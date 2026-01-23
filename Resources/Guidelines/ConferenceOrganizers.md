@@ -17,6 +17,5 @@ Policies:
 - [Submission Review Policy](/Resources/Policies/Review)
 - [Republication Policy](/Resources/Policies/Republication)
 - [Code of Conduct Policy](/Resources/Policies/CodeOfConduct/)
-- [Policy on Errata and Academic
-   Disputes](/Resources/Policies/ErrataAndAcademicDisputes/)
-
+- [Policy on Errata and Academic Disputes](/Resources/Policies/ErrataAndAcademicDisputes/)
+- [Conference Complimentary Registrations Policy](/Resources/Policies/ComplimentaryRegistrations.md)
