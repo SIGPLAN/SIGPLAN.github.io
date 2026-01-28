@@ -5,7 +5,7 @@ title: "SIGPLAN Conference Complimentary Registrations at Conferences Policy"
 
 This policy applies to any events that are organized and financed by SIGPLAN (e.g. POPL, PLDI, ICFP, SPLASH/OOPSLA, as well as CC, PPoPP, SLE, GPCE, and the SIGPLAN-related CGO and ASPLOS components).
 
-As a general rule of thumb, all the members of the organizing committee, including the General Chair and Review Committee Chair (or Chairs if there are two as is the case for OOPSLA), have to pay full registration for the conference. The only exception can be made when they do not have the funding to attend the conference for which they are doing the work.
+As a general rule of thumb, all the members of the organizing committee, including the General Chair and Review Committee Chair (or Chairs if there are two as is the case for OOPSLA), have to pay full registration for the conference. *The only exception can be made when they do not have the funding to attend the conference for which they are doing the work.*
 
 In cases of insufficient funding, complimentary registration and, if needed, economy-class return airfare and hotel during the conference can be provided to ensure their attendance. This is up to the General Chair in consultation with the SIGPLAN Chair and Treasurer to approve.
 
@@ -16,6 +16,10 @@ Complimentary registrations and possible travel support for economy-class return
    * AV chair(s) (a maximum of 1 per conference to record keynotes only).
 
 To reiterate, we hope that appropriate research funding or corporate funding can be used by the attendees’ host institution or organization to minimize the expenses.
+
+Complimentary full registrations *only* may be allowed for these roles:
+
+   * Sponsoring organisation nominated attendee as per the relevant bronze/silver/gold/platinum etc agreement made at the time of committing to the donation.
 
 Complimentary student registration *only* may be allowed for these roles:
 
