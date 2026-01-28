@@ -1668,3 +1668,11 @@
   event: POPL
   year: 2026
   title: "Proceedings of the ACM on Programming Languages: Vol. 10, No. POPL. 2026"
+-
+  event: PPoPP
+  year: 2026
+  title: "Proceedings of the 31st ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming"
+-
+  event: CC
+  year: 2026
+  title: "Proceedings of the 35th ACM SIGPLAN International Conference on Compiler Construction"
