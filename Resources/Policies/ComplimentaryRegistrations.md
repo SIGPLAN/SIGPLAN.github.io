@@ -17,11 +17,11 @@ Complimentary registrations and possible travel support for economy-class return
 
 To reiterate, we hope that appropriate research funding or corporate funding can be used by the attendees’ host institution or organization to minimize the expenses.
 
-Complimentary full registrations *only* may be allowed for these roles:
+Complimentary full registrations *only* (no travel or hotel support) may be allowed for these roles:
 
-   * Sponsoring organisation nominated attendee as per the relevant bronze/silver/gold/platinum etc agreement made at the time of committing to the donation.
+   * Sponsor-nominated attendee, as specified in the relevant bronze, silver, gold, or platinum sponsorship agreement in effect at the time the donation is committed.
 
-Complimentary student registration *only* may be allowed for these roles:
+Complimentary student registration *only* (no travel or hotel support) may be allowed for these roles:
 
    * Student volunteers with a limit set by the General Chair, aiming to have no more than one student volunteer per 2 days of the conference per parallel stream.
 
