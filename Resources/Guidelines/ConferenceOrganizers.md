@@ -16,7 +16,6 @@ Policies:
 - [Diversity Policy](/Resources/Policies/Diversity)
 - [Submission Review Policy](/Resources/Policies/Review)
 - [Republication Policy](/Resources/Policies/Republication)
-- [Code of Conduct Policy](/Resources/Policies/CodeOfConduct/)
-- [Policy on Errata and Academic
-   Disputes](/Resources/Policies/ErrataAndAcademicDisputes/)
-
+- [Code of Conduct Policy](/Resources/Policies/CodeOfConduct)
+- [Conference Complimentary Registrations Policy](/Resources/Policies/ComplimentaryRegistrations)
+<!-- - [Policy on Errata and Academic Disputes](/Resources/Policies/ErrataAndAcademicDisputes) -->

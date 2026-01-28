@@ -19,7 +19,7 @@ directed to the SIGPLAN Awards co-Chairs.
 #### Nominations
 
 Please use <https://sigplan-software26.hotcrp.com> to submit nominations.
-Nominations submitted on or before January 15th will be considered for
+Nominations submitted on or before January 22nd will be considered for
 award that year.
 
 Each nomination should include the following items:
@@ -33,7 +33,9 @@ Each nomination should include the following items:
 - Name, affiliation, phone number, and email address of the person
   making the nomination (the nominator).
 - Names and email addresses of 5-10 people who the nominator believes
-  will support the nomination. The letters of support should be submitted by Feb 20th either by the nominator (at hotcrp) or by email to the chair (niki.vazou@imdea.org).
+  will support the nomination. The awards committee will ask at least
+  three of these people for their opinions - the letters of support are due by Feb 20th (The nominator can also include them with the nomination if they have them already available).
+
 
 #### Committee
 

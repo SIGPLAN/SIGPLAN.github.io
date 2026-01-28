@@ -246,7 +246,7 @@ PC submissions can be problematic to manage, but we believe that on balance, the
 
 ##### *Prescriptions*
 
-POPL will allow PC submissions, but disallow submissions by the General and PC chairs.
+POPL will allow PC submissions, but disallow submissions by the PC chair.
 
 PC members will not be allowed to review or discuss other PC papers; hence *all* reviews of PC submissions must be external. The PC chair will designate the roster of external reviewers for PC papers, manage the review process, and make the final acceptance decision, in consultation with the reviewers. In cases where the PC chair has a conflict with the author, the chair must designate a non-conflicted senior PC member to manage the review process and make the final acceptance determination.
 
