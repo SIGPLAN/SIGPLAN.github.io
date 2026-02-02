@@ -80,6 +80,15 @@ CARES committee members may also attend other workshops and conferences sponsore
     <th><b>CARES member attendees</b></th>
  </tr>
     <tr>
+    <td><a href="https://popl26.sigplan.org">POPL 2026</a></td>
+    <td>Jeff Foster, Stephanie Weirich</td>
+  </tr>
+    <tr>
+    <td><a href="https://icfp25.sigplan.org">ICFP 2025</a>/
+<a href="https://2025.splashcon.org">SPLASH 2025</a></td>
+    <td>Steve Blackburn, Bor-Yuh Evan Chang, Sophia Drossopoulou, Jeff Foster, Sukyoung Ryu, KC Sivaramakrishnan</td>
+  </tr>
+    <tr>
     <td><a href="https://pldi25.sigplan.org">PLDI 2025</a></td>
     <td>Steve Blackburn, Işıl Dillig, Nate Foster, Sukyoung Ryu, Manu Sridharan</td>
   </tr>
@@ -209,15 +218,11 @@ We have received open, public feedback from a number of members of the community
 <table style="width:100%" border="0">
 <tr>
    <td><img src="http://sigplan.org/images/cares-photos/ryu.png" alt="Sukyoung Ryu" width="156"><br><a href="https://plrg.kaist.ac.kr/ryu">Sukyoung Ryu</a> (she/her)</td>
-   <td>Co-Chair, <a href="mailto:sryu.cs@kaist.ac.kr">sryu.cs@kaist.ac.kr</a>, KAIST, Jan 2021-</td>
+   <td>Co-Chair, <a href="mailto:sryu.cs@kaist.ac.kr">sryu.cs@kaist.ac.kr</a>, KAIST, Jan 2021- (co-chair 2024-2027)</td>
   </tr> 
-<tr>
-   <td><img src="http://sigplan.org/images/cares-photos/silva.png" alt="Alexandra Silva"  width="156"><br><a href="https://www.alexandrasilva.org/#/main.html">Alexandra Silva</a> (she/her)</td>
-   <td>Co-Chair, <a href="mailto:alexandra.silva@cornell.edu">alexandra.silva@cornell.edu</a>, Cornell University, Jan 2020-</td>
-</tr>
     <tr>
    <td><img src="http://sigplan.org/images/cares-photos/steve.jpg" alt="Steve Blackburn"  width="156"><br><a href="https://www.steveblackburn.org">Steve Blackburn</a> (he/him)</td>
-   <td>Member, <a href="mailto:steve.blackburn@anu.edu.au">steve.blackburn@anu.edu.au</a>, Google Deepmind and ANU, Jan 2024-</td>
+   <td>Co-Chair, <a href="mailto:steve.blackburn@anu.edu.au">steve.blackburn@anu.edu.au</a>, Google Deepmind and ANU, Jan 2024- (co-chair 2026-2029)</td>
   </tr> 
  <tr>
    <td><img src="../images/cares-photos/chang.jpg" alt="Bor-Yuh Evan Chang" width="156"><br><a href="https://plv.colorado.edu/bec/">Bor-Yuh Evan Chang</a> (he/him)</td>
@@ -239,6 +244,10 @@ We have received open, public feedback from a number of members of the community
    <td><img src="../images/cares-photos/igarashi.jpg" alt="Atsushi Igarashi" width="156"><br><a href="https://www.fos.kuis.kyoto-u.ac.jp/~igarashi/index.html.en">Atsushi Igarashi</a> (he/him)</td>
    <td>Member, <a href="mailto:igarashi@kuis.kyoto-u.ac.jp">igarashi@kuis.kyoto-u.ac.jp</a>, Kyoto University, Oct 2022-</td>
   </tr> 
+<tr>
+   <td><img src="http://sigplan.org/images/cares-photos/silva.jpeg" alt="Alexandra Silva"  width="156"><br><a href="https://www.alexandrasilva.org/#/main.html">Alexandra Silva</a> (she/her)</td>
+   <td>Member, <a href="mailto:alexandra.silva@cornell.edu">alexandra.silva@cornell.edu</a>, Cornell University, Jan 2020- (co-chair 2022-2025) </td>
+</tr>
  <tr>
    <td><img src="../images/cares-photos/sivaramakrishnan.jpg" alt="KC Sivaramakrishnan" width="156"><br><a href="https://kcsrk.info">KC Sivaramakrishnan</a> (he/him)</td>
    <td>Member, <a href="mailto:kc@kcsrk.info">kc@kcsrk.info</a>, Indian Institute of Technology, Madras, Jul 2025-</td>
@@ -246,10 +255,6 @@ We have received open, public feedback from a number of members of the community
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/sridharan.jpg" alt="Manu Sridharan"  width="156"><br><a href="https://manu.sridharan.net">Manu Sridharan</a> (he/his)</td>
    <td>Member, <a href="mailto:manu@cs.ucr.edu">manu@cs.ucr.edu</a>, University of California, Riverside, Dec 2024-</td>
-  </tr> 
-<tr>
-   <td><img src="http://sigplan.org/images/cares-photos/weirich.png" alt="Stephanie Weirich"  width="156"><br><a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a> (she/her)</td>
-   <td>Member, <a href="mailto:sweirich@cis.upenn.edu">sweirich@cis.upenn.edu</a>, University of Pennsylvania, Jan 2020-</td>
   </tr> 
  </table>  
  
