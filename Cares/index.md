@@ -189,9 +189,9 @@ CARES committee members may also attend other workshops and conferences sponsore
 
 ### SIGPLAN CARES Reports
 
-### 2024:
+### 2025:
 
-This is the fifth annual report from the SIGPLAN CARES committee---a committee established to listen to and support folks in the programming languages community who experience or witness discrimination, harassment, or other violations of the ACM's code of conduct or ethics.
+This is the sixth annual report from the SIGPLAN CARES committee---a committee established to listen to and support folks in the programming languages community who experience or witness discrimination, harassment, or other violations of the ACM's code of conduct or ethics.
 
 **What CARES does.**   CARES is dedicated to providing completely confidential support to members of the programming language community.  We listen to members who come to us for advice or who just want to talk. If they would like advice on what kinds of actions they can take, we do our best to provide such advice.  
 
@@ -199,15 +199,16 @@ This is the fifth annual report from the SIGPLAN CARES committee---a committee e
 
 As a result, our annual reports are brief.  They do not contain details about the types of contacts that CARES members have made and they do not even contain specific numbers of contacts.  The reports are structured this way to protect the privacy of those that approach us.  
 
-#### What happened in 2024
+#### What happened in 2025
 
-In 2024, individual SIGPLAN CARES committee members were contacted confidentially by between 1 and 5 community members throughout the year.  Such contacts sometimes led to extended conversations.  
+In 2025, individual SIGPLAN CARES committee members were contacted confidentially by between 1 and 5 community members throughout the year.  Such contacts sometimes led to extended conversations.  
 
-Members of the CARES committee represented CARES at three conferences in 2024, namely POPL 2024, PLDI 2024, and ICFP 2024.  Attendance specifics are listed on the CARES website. The presence of CARES was advertised at the opening of the conference through the general chair’s presentation. 
+Members of the CARES committee represented CARES at four conferences in 2025, namely POPL 2025, PLDI 2025, ICFP 2025, and SPLASH 2025.  Attendance specifics are listed on the CARES website. The presence of CARES was advertised at the opening of the conference through the general chair’s presentation. 
 
 We have received open, public feedback from a number of members of the community expressing the fact that they appreciate the creation of the committee---they view it as a sign that the programming languages community takes community climate and our code of conduct seriously.  The fact the committee has received confidential contacts is also evidence that the community would like mechanisms to discuss matters of harassment, discrimination, or ethics in private. 
 ### Older Reports
 
+* [2024 Report](report2024)
 * [2023 Report](report2023)
 * [2022 Report](report2022)
 * [2021 Report](report2021)
