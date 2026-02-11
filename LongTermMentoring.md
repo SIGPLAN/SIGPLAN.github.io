@@ -123,6 +123,7 @@ We'd like to thank these amazing mentors, current and previous:
 
 Retired:
 - Jonathan Aldrich
+- Pedro Da Costa Abreu
 - Tobias Grosser
 - Kuen-Bang Hou (Favonia)
 - Ralf Jung
