@@ -1,0 +1,52 @@
+---
+title: "[CP@PLDI 2026] 2nd Workshop on Choreographic Programming"
+timestamp: "2/12/2026 13:35:20"
+deadline: "3/22/2026"
+---
+Choreographic Programming: Call for Contributions
+=================================================
+
+Second International Workshop on Choreographic Programming co-located with PLDI 2026
+
+One-day event, June 16th 2026, Boulder, Colorado, USA
+
+https://pldi26.sigplan.org/home/cp-2026
+
+Important dates 
+---------------
+ - Submission deadline: March 22nd, 2026 (AoE)
+ - Notification to authors: May 3rd, 2026 (AoE)
+ - Workshop day: June 16th, 2026
+
+Theme and Topics
+----------------
+Choreographies are coordination plans for concurrent and distributed systems, which define the roles of the involved participants and how they are supposed to work together. In the paradigm of choreographic programming (CP), choreographies are programs that can be compiled to executable implementations.
+
+CP originated primarily in the context of process calculi, with preliminary work done to establish its foundations and experiment with implementations. Recently, several proposals have shown that one can adapt CP to work in synergy with mainstream programming paradigms, such as object-oriented and functional programming. These works substantiate the interest of a growing community of researchers and practitioners in evolving CP into a mature paradigm, able to improve the productivity and reliability of programming concurrent and distributed systems.
+
+The aim of this workshop is to catalyse the community around CP by soliciting contributions in the following topics:
+ - Theory and models of choreographic programming.
+ - Design and implementation of choreographic programming languages, encompassing both standalone and library-based implementations.
+ - Design and implementation of runtime systems for choreographic programming.
+ - Verification and testing of choreographic programs.
+ - Type systems for choreographic languages.
+ - Interactions with software engineering (e.g., software requirements, design, construction, testing, analysis, and maintenance and software development methodologies).
+ - Fault tolerance and reliability in the context of choreographic programming.
+ - Synergies and comparisons with adjacent approaches for concurrent and distributed programming (e.g., multitier programming).
+
+Contributions and Evaluation
+----------------------------
+Contributions can be work in progress, scientific work published or submitted for publication, tutorials, or practical experience reports. 
+
+Submissions should be no more than 6 pages excluding bibliography, using the ACM Proceedings format. Templates for Microsoft Word and LaTeX can be found at the SIGPLAN author information page. 
+
+Submissions will be evaluated following a lightweight double-blind review process. 
+
+For further details, refer to the workshop website and for any further queries, please contact the chairs.
+
+
+Program Chairs
+--------------
+Andrew K. Hirsch, University at Buffalo, SUNY, US (akhirsch@buffalo.edu)
+Eva Graversen, Tallinn University of Technology, Estonia (eva.graversen@taltech.ee)
+Dan Plyukhin, University of Southern Denmark, Denmark (dplyukhin@imada.sdu.dk)
