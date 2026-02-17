@@ -181,8 +181,8 @@
     design, their implementation, and their evolution.
 
 -
-  name: Principles and Practices of Parallel Programming (PPOPP)
-  link: /Conferences/PPOPP
+  name: Principles and Practices of Parallel Programming (PPoPP)
+  link: /Conferences/PPoPP
   description: |
     Principles and Practices of Parallel Programming provides a forum
     for papers on the principles and foundations of parallel
@@ -207,7 +207,7 @@
 
 -
   name: The Programming Languages Mentoring Workshop (PLMW)
-  link: /Conferences/PLMW
+  link: https://plmw.sigplan.org
   description: |
     The purpose of this mentoring workshop is to encourage graduate
     students (PhD and MSc) and senior undergraduate students to pursue

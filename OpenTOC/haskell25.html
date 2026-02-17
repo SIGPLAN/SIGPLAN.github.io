@@ -1,0 +1,380 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>Haskell '25: Proceedings of the 18th ACM SIGPLAN International Haskell Symposium</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>Haskell '25: Proceedings of the 18th ACM SIGPLAN International Haskell Symposium</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3759164"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Keynotes</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759164.3771263">Join Points in Practice (Keynote)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Simon Peyton Jones</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Eight years ago "Compiling without continuations" introduced the idea of so-called
+                     join points as a powerful optimisation tool in a functional language compiler. Since
+                     then join points have become more and more deeply entwined in GHC's optimisation passes;
+                     for example they are treated specially by the Simplifier and its Occurrence Analyser,
+                     and a dedicated pass called Exitification makes a join-point-specific transformation
+                     
+                     </p>
+                  
+                  <p>
+                     With the perspective of this experience, I am convinced that any serious functional
+                     compiler should use join points (or something equivalent): it's a powerful and re-usable
+                     idea.  Yet beyond the initial paper, none of what we have learned has appeared in
+                     print. In this talk I will share the lessons of the last eight years of using join
+                     points in practice in GHC.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759164.3771264">A Tale of Two Lambdas: A Haskeller’s Journey into OCaml (Keynote)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Richard A. Eisenberg</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>After spending a decade focusing mostly on Haskell, I have spent the last three years
+                     looking deeply at OCaml. This talk will capture some lessons learned about my work
+                     in the two languages and their communities -- how they are similar, how they differ,
+                     and how each might usefully grow to become more like the other. I will compare Haskell's
+                     purity against OCaml's support for mutation, type classes against modules as abstraction
+                     paradigms, laziness against strictness, along with some general thoughts about language
+                     philosophy. We'll also touch on the some of the challenges both languages face as
+                     open-source products, in need of both volunteers and funding. While some functional
+                     programming experience will definitely be helpful, I'll explain syntax as we go --
+                     no Haskell or OCaml knowledge required, as I want this talk to be accessible equally
+                     to the two communities.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Papers</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759164.3759345">A Clash Course in Solving Sudoku (Functional Pearl)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Gergő Érdi</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Clash is a compiler from Haskell to hardware description. We explore  
+                     a "Haskell-first" approach to hardware design by  
+                     building an FPGA Sudoku solver based on a well-known software  
+                     implementation, showing the step-by-step process of adapting it to  
+                     hardware. The final code still exhibits the benefits of Haskell's  
+                     powerful tools for abstraction.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759164.3759346">The Calculated Typer (Functional Pearl)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Zac Garby</li>
+               <li class="nameList">Patrick Bahr</li>
+               <li class="nameList Last">Graham Hutton</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>We present a calculational approach to the design of type checkers,  
+                     showing how they can be derived from behavioural specifications using  
+                     equational reasoning. We focus on languages whose semantics can be  
+                     expressed as a fold, and show how the calculations can be simplified  
+                     using fold fusion. This approach enables the compositional derivation  
+                     of correct-by-construction type checkers based on solving and composing  
+                     fusion preconditions. We introduce our approach using a simple  
+                     expression language, to which we then add support for exception  
+                     handling and checked exceptions.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759164.3759347">Plinth: A Plugin-Powered Language Built on Haskell (Experience Report)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Ziyang Liu</li>
+               <li class="nameList">Kenneth MacKenzie</li>
+               <li class="nameList">Roman Kireev</li>
+               <li class="nameList">Michael Peyton Jones</li>
+               <li class="nameList">Philip Wadler</li>
+               <li class="nameList Last">Manuel Chakravarty</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The Cardano blockchain is the first to use proof of stake, offers native support for
+                     multiple currencies and is evolving toward a distributed governance model. It supports
+                     smart contracts through Plutus, a language based on System F<sub>ω</sub> with recursion. About half a dozen languages compile into Plutus, the first of which
+                     is <em>Plinth</em> (formerly Plutus Tx) — a language that reuses a subset of the Haskell syntax, and
+                     has been in commercial use since 2021. </p>
+                  <p>Our journey building Plinth has been unconventional in a number of ways. First, Plinth
+                     programs are written in a subset of Haskell, using standard Haskell syntax and types,
+                     which brings a number of advantages. Second, compilation is primarily handled by a
+                     GHC plugin, one of the most intricate we are aware of. Third, while some compiler
+                     optimizations mirror those in Haskell, others diverge significantly to meet on-chain
+                     execution constraints. Fourth, Plutus programs run on an instrumented CEK machine
+                     with a formal specification in Agda. This report reflects on our design choices, outlining
+                     effective practices, challenges, and key takeaways, with an emphasis on recent advances
+                     in the language, compiler, and runtime.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759164.3759348">Rebound: Efficient, Expressive, and Well-Scoped Binding</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Noé De Santo</li>
+               <li class="nameList Last">Stephanie Weirich</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>We introduce the Rebound library that supports well-scoped term representations in
+                     Haskell and automates the definition of substitution, alpha-equivalence, and other
+                     operations that work with binding structures. The key idea of our design is the use
+                     of first-class environments that map variables to expressions in some new scope. By
+                     statically tracking scopes, users of this library gain confidence that they have correctly
+                     maintained the subtle invariants that stem from using de Bruijn indices. Behind the
+                     scenes, Rebound uses environments to optimize the application of substitutions, while
+                     providing explicit access to these data structures when desired. We demonstrate that
+                     this library is expressive by using it to implement a wide range of language features
+                     with sophisticated uses of binding and several different operations that use this
+                     abstract syntax. Our examples include pi-forall, a tutorial implementation of a type
+                     checker for a dependently-typed programming language. Finally, we benchmark Rebound
+                     to understand its performance characteristics and find that it produces faster code
+                     than competing libraries.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759164.3759349">Total Type Classes</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Robert Weingart</li>
+               <li class="nameList Last">Nicolas Wu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>In Haskell, type classes can act like functions from types to terms. However, unlike
+                     for functions, there is no way for the programmer to ask the compiler to verify that
+                     classes pattern-match exhaustively on their arguments, and their usage must always
+                     be marked by a constraint even when they are exhaustive. </p>
+                  <p>This paper introduces the notion of <em>total type classes</em> and, more generally, <em>total constraints</em>, which allow the programmer to describe a set of instances whose existence can be
+                     verified by inspecting the instance declarations of the class, instead of on a case-by-case
+                     basis when a specific instance is demanded. To achieve this functionality, our implementation
+                     records the missing constraints during typechecking and then modifies the typechecked
+                     program, rewriting it as though the programmer had included the constraints.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759164.3759350">Automatic C Bindings Generation for Haskell</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Travis Cardwell</li>
+               <li class="nameList">Sam Derbyshire</li>
+               <li class="nameList">Edsko de Vries</li>
+               <li class="nameList Last">Dominik Schrempf</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>  
+                     Interfacing Haskell with C libraries is a common necessity, but the manual  
+                     creation of bindings is both error-prone and laborious. We present  
+                     <em>hs-bindgen</em>, a new tool that provides fully automatic generation of Haskell  
+                     FFI bindings directly from C header files.  
+                     </p>  
+                  
+                  
+                  <p>  
+                     We introduce a novel method for describing bindings through <em>binding  
+                        specifications</em>, providing a compositional method for using bindings for one  
+                     library in bindings for another. Furthermore, we define a domain-specific  
+                     language in Haskell to represent C expressions found in C macros, along with a  
+                     corresponding type inference algorithm, to allow us to generate bindings for  
+                     functions defined as C macros.  
+                     </p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759164.3759351">Lightweight Testing of Persistent Amortized Time Complexity in the Credit Monad</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Anton Lorenzen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Persistent data structures are ubiquitous in functional programming languages and
+                     their designers frequently have to reason about amortized time complexity. But proving
+                     amortized bounds is difficult in a persistent setting, and pen-and-paper proofs give
+                     little assurance of correctness, while a full mechanization in a proof assistant can
+                     be too involved for the casual user. In this work, we define a strict domain specific
+                     language (DSL) for testing the amortized time complexity of persistent data structures
+                     using QuickCheck. Our DSL can give strong evidence of correctness, while imposing
+                     low overhead on the user. We have used our DSL to check the amortized time complexity
+                     of all lazy data structures in Okasaki's book. As a sign of our approach's effectiveness,
+                     we re-discovered a previously unreported gap in the analysis of persistent Finger
+                     Trees.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759164.3759352">Freer Arrows and Why You Need Them in Haskell</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Grant VanDomelen</li>
+               <li class="nameList">Gan Shen</li>
+               <li class="nameList">Lindsey Kuper</li>
+               <li class="nameList Last">Yao Li</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Freer monads are a useful structure commonly used in various domains due to their
+                     expressiveness. However, a known issue with freer monads is that they are not amenable
+                     to static analysis. This paper explores freer arrows, a relatively expressive structure
+                     that is amenable to static analysis. We propose several variants of freer arrows.
+                     We conduct a case study on choreographic programming to demonstrate the usefulness
+                     of freer arrows in Haskell.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759164.3759353">Staging Automatic Differentiation with Fusion</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Samuel Klumpers</li>
+               <li class="nameList Last">Tom Schrijvers</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Automatic differentiation (AD) is a family of algorithms with  
+                     many applications in scientific computing and machine learning.  
+                     They compute numerical derivatives by interpreting or transforming the source code
+                     of numeric expressions.  
+                     The correctness and efficiency of such AD  
+                     algorithms has been the subject of much research, in particular that of  
+                     reverse-mode AD which is particularly efficient for computing large gradients,  
+                     but the code it generates is highly non-obvious.  
+                     </p>
+                  
+                  <p>
+                     In this paper, we build on the earlier approach of van den Berg et al. [Science of
+                     Computer Programming, 231 (2024)],  
+                     reverse-engineering their algorithm in terms of established program transformation
+                     techniques from  
+                     abstract algebra and functional programming. We transform the existing  
+                     interpreter-based approach into an efficient code generator by means of staging  
+                     with Template Haskell, and leverage a fold fusion variant  
+                     for staging and algebraic preservation maps to perform correct-by-construction  
+                     binding time improvements.  
+                     </p>
+                  
+                  <p>
+                     The resulting generated code achieves speedups of a factor of 110.</p>
+                  			</div>
+            </div>
+            							
+            						</div>
+      </div>
+   </body>
+</html>

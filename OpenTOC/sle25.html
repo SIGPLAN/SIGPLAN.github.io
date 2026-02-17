@@ -1,0 +1,623 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>SLE '25: Proceedings of the 18th ACM SIGPLAN International Conference on Software Language Engineering</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>SLE '25: Proceedings of the 18th ACM SIGPLAN International Conference on Software Language
+               Engineering</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3732771"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3732771.3742707">A New DSL Textbook in Town!</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Thorsten Berger</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>DSLs are the ultimate abstraction in software engineering. While programming languages
+                     have --- since the advent of computers --- continuously increased their level of abstraction,
+                     they are still limited to the domain of computing, with their instances containing
+                     many technicalities. Unlike programming languages, DSLs reflect a given application
+                     domain, ideally abstracting away anything beyond it. Recognizing their strengths,
+                     the programming-language and the software engineering community introduced many technologies
+                     for engineering DSLs. While well-polished widely-used DSLs have existed for a long
+                     time (e.g., SQL, regular expressions, HTML), language engineering technologies have
+                     made great progress over the last two decades, allowing developers who are not language
+                     or compiler experts to create their own DSL --- in order to increase the level of
+                     automation for their projects.</p> 
+                  <p>In the keynote, I will report on our decade of experiences from teaching DSL engineering.
+                     I will especially present our recent book [1]. Andrzej Wąsowski and I wrote it to:</p> 
+                  <p>• establish more of an engineering perspective for creating DSLs, teaching the problem-oriented
+                     creation of DSLs and different engineering activities including testing and requirements
+                     (domain analysis);</p> 
+                  <p>• bring the programming language and software engineering community together by teaching
+                     solutions from both fields --- many of which overlap conceptually --- and thereby
+                     unifying and integrating them;</p> 
+                  <p>• demonstrate how to use a modern functional and object-oriented language, Scala,
+                     to engineer internal and external DSLs, while not limiting the presentation to a single
+                     programming language</p> 
+                  <p>• provide a large number of exercises (277 in total) for effective learning, like
+                     mathematics textbooks do; and</p> 
+                  <p>• contribute a large number of examples where DSLs are effective, with a whole chapter
+                     on DSLs for creating software platforms (a.k.a. product lines).</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3732771.3742708">Can Programming Be Liberated from the Functional Style?</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Friedrich Steimann</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In his 1977 ACM Turing Award Lecture, John Backus identified the word-at-a-time style
+                     of programming, inherited from the underlying hardware and dubbed the "von Neumann
+                     bottleneck", as a major obstacle to the advancement of programming. In this keynote,
+                     I argue that the functional programming he advocated introduced its own bottleneck:
+                     that everything produced by a computation (including nothing) must be encoded as a
+                     single value. This "obligation to singularity" is foreign to modelling, where single
+                     values sit collegially between no values and two values. Exploring diverse examples,
+                     I will argue that adopting a modelling (de facto: relational) style of programming
+                     eliminates the functional bottleneck, and with it many of the data-to-control flow
+                     escapes that Backus originally sought to avoid.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3732771.3742709">Handling Grammar Cycles in the 1997 SML Definition</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Elizabeth Scott</li>
+               <li class="nameList Last">Adrian Johnstone</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Fully general parsers permit the syntax specification of formal languages to be unrestricted,
+                     allowing language designers to use a syntax specification that supports semantics
+                     specification, but also permitting ambiguity. Language workbenches that support fully
+                     general grammars need tools which can generate robust default behaviour but also allow
+                     experienced designers to specify particular choices when ambiguity is encountered.
+                     The standard longest match approach to ambiguity resolution is not robust when a grammar
+                     contains cycles. Although cycles can be removed from a grammar, this disrupts the
+                     syntax specification. We present an algorithm that safely removes cycles from the
+                     shared packed parse forests generated by general parsers and explore the application
+                     of the algorithm to the 1997 SML Definition. The algorithm results in a sub-forest
+                     to which further designer-specified or default disambiguation rules can be applied.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3732771.3742710">Property-based Testing of Attribute Grammars</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">José Nuno Macedo</li>
+               <li class="nameList">Marcos Viera</li>
+               <li class="nameList Last">João Saraiva</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Software testing is an integral part of modern software development. Testing frameworks
+                     are part of the toolset of any software language allowing programmers to test their
+                     programs in order to detect bugs. Unfortunately, there is no work on testing in attribute
+                     grammars.</p> 
+                  <p>In this paper we combine the powerful property-based testing technique with the attribute
+                     grammar formalism. In such property-based attribute grammars, properties are defined
+                     on attribute instances. Properties are tested on large sets of randomly generated
+                     (abstract syntax) trees by evaluating their attributes.</p> 
+                  <p>We present an implementation that relies on strategies to express property-based attribute
+                     grammars. Strategies are tree-based recursion patterns that are used to encode logic
+                     quantifiers defining the properties.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3732771.3742711">Scheduling the Construction and Interrogation of Scope Graphs Using Attribute Grammars</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Luke Bessant</li>
+               <li class="nameList Last">Eric Van Wyk</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Recognizing that name binding is often done in an ad-hoc manner, Visser and his colleagues
+                     introduced scope graphs as a uniform representation of a program's static binding
+                     structure along with a generic means for interrogating that representation to resolve
+                     name references to their declarations. A challenge arises in scheduling the construction
+                     and querying actions so that a name resolution is not performed before all requisite
+                     information for that resolution is added to the scope graph. Visser et al. introduced
+                     a notion of weakly critical edges to constrain the order in which name resolution
+                     queries are performed to a correct one, but this has been found to be somewhat restrictive.</p> 
+                  <p>Visser et al. also introduced Statix, a constraint solving language for scope graph-based
+                     name resolution. We show that specifications written in an annotated version of Statix
+                     can be translated into reference attribute grammars, and that the order in which equations
+                     are solved under demand driven evaluation provides a valid order for solving constraints
+                     in Statix. This formalizes what has been folklore in the attribute grammar community
+                     for some time, that scope graphs are naturally specified in reference attributes grammars.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3732771.3742712">Boosting Parallel Parsing through Cyclic Operator Precedence Grammars</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Michele Chiari</li>
+               <li class="nameList">Michele Giornetta</li>
+               <li class="nameList">Dino Mandrioli</li>
+               <li class="nameList Last">Matteo Pradella</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Deterministic parsing of tree-structured data is usually performed sequentially left-to-right.
+                     Recently however, also motivated by the need to process extremely large data sets,
+                     a parallel version thereof has been devised which, thanks to the theoretical features
+                     of operator precedence languages (OPL) particularly well-suited to split the input
+                     into separate chunks, provided high improvements w.r.t. traditional sequential parsing.
+                     Further investigation pointed out a restriction imposed on the OPL formalism that
+                     prevents from fully exploiting parallelism and proposed an improvement of the original
+                     algorithm which proved effective in many practical cases. Stimulated by the above
+                     contribution here we remove the mentioned restriction on OPL and build a new parallel
+                     parser generator based thereon. We conducted a comparative experimentation among the
+                     three parallel algorithms that showed a consistent further improvement w.r.t. both
+                     the previous ones (with an exception in the case of purely sequential execution).
+                     Based on these early results, we believe that the horizon of parallel parsing large
+                     tree-structured data promises dramatic gains of efficiency in the analysis of this
+                     fundamental data structure.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3732771.3742713">A Model-Driven Approach to Design, Generation, and Deployment of GUI Component Libraries</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Arkadii Gerasimov</li>
+               <li class="nameList">Nico Jansen</li>
+               <li class="nameList">Judith Michael</li>
+               <li class="nameList">Bernhard Rumpe</li>
+               <li class="nameList Last">Sebastian Will</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The reusability of modular, embeddable components is a key determinant for the success
+                     of modern programming languages to ensure efficient and high-quality development.
+                     However, there is a gap in the field of domain-specific modeling regarding reusable
+                     components at the model level. While libraries are relatively common and a de facto
+                     standard for prominent programming languages, establishing model libraries is still
+                     in its infancy. This paper specifies building a model-driven component library that
+                     utilizes a self-extension mechanism. We demonstrate an approach to structure, build,
+                     and integrate such a library using a wide range of GUI components, from essential
+                     atomic elements and more complex composed components to specifically tailored ones
+                     for particular application domains. Employing such libraries at the model level further
+                     supports the goal of model-driven engineering to assist domain experts in efficiently
+                     building high-quality systems.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3732771.3742714">TranspileJS, an Intelligent Framework for Transpiling JavaScript to WebAssembly</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">José Pedro Ferreira</li>
+               <li class="nameList">João Bispo</li>
+               <li class="nameList Last">Susana Lima</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>WebAssembly (Wasm) has emerged as a powerful binary format, enabling the seamless
+                     integration of languages like C and Rust into web applications. JavaScript (JS), the
+                     dominant language for client-side web development, has its code susceptible to tampering
+                     and intellectual property theft due to its transparency in browser environments. We
+                     introduce TranspileJS, a novel tool designed to enhance code security by automatically
+                     selecting and translating JS snippets into Wasm. TranspileJS leverages a multi-stage
+                     architecture that converts JS to TypeScript, which is compiled into Wasm using the
+                     AssemblyScript compiler. TranspileJS addresses the challenges posed by the fundamental
+                     differences between JS and Wasm, including dynamic typing, runtime behaviour mismatches,
+                     and standard library discrepancies, ensuring that the original behaviour of the code
+                     is preserved while maximising the amount of code transpiled. Our experiments show
+                     that TranspileJS successfully transpiles approximately one-third of the code in our
+                     dataset, with a performance impact of up to a 12.3% increase in execution time. The
+                     transpilation process inherently obfuscates code, creating effects similar to standard
+                     obfuscation techniques, and generates a stealthy and resilient output. Furthermore,
+                     combining transpilation with WebAssembly-specific obfuscation techniques opens new
+                     possibilities for code protection and resistance against reverse engineering.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3732771.3742715">Optimal Language Design is Hard: A Case Study in ECMAScript (JavaScript) Standardization</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Philipp Riemer</li>
+               <li class="nameList">Yury Nikulin</li>
+               <li class="nameList">Ashley Claymore</li>
+               <li class="nameList Last">Mikhail Barash</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In addition to requirements of a purely technical nature, the evolution of widely
+                     adopted programming languages is often governed by preferences of individual members---either
+                     persons or organizations---of the language maintenance team, who may associate issues
+                     with particular design aspects. For example, when adding a new primitive data type
+                     to a language, language designers may suggest alternative semantics for equality to
+                     existing data types, as well as explicitly specify issues they wish to avoid (such
+                     as inconsistent behavior among number-like types). The decision-making process can
+                     span over multiple years and can be highly unstructured, and in a dynamic and distributed
+                     language design team, the cumulated understanding of previously discussed design alternatives
+                     can thus be lost over time.</p> 
+                  <p>In this paper, we present a domain-specific language to specify a certain kind of
+                     language evolution proposals--- where the design space can be presented as a collection
+                     of interconnected individual design points. With each design point, one can associate
+                     a set of issues it could raise that should be avoided. From a DSL specification, an
+                     interactive web-based tool is generated that allows exploring the design space of
+                     a proposal.</p> 
+                  <p>Further assigning weights to issues, we formulate an optimization problem where the
+                     goal is to select alternatives for individual design points to minimize the total
+                     weight of occurring issues. We prove that this optimization problem is NP-hard. We
+                     reduce this problem to an integer linear programming problem and incorporate a solver
+                     into our interactive tool. We demonstrate the feasibility of our approach by using
+                     our DSL to specify the ECMAScript proposal Records &amp; Tuples, and demonstrate that
+                     any design choice---as described in the proposal---will necessarily raise issues.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3732771.3742716">AnyText: Incremental, left-recursive Parsing and Pretty-Printing from a single Grammar
+                  Definition with first-class LSP support</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Georg Hinkel</li>
+               <li class="nameList">Alexander Hert</li>
+               <li class="nameList">Niklas Hettler</li>
+               <li class="nameList Last">Kevin Weinert</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Many current language workbenches do not support incremental parsing or left recursion,
+                     lack support for resolving references and pretty-printing or make it difficult to
+                     implement the Language Server Protocol (LSP) based on the generated parser. In this
+                     paper, we present AnyText, a new language workbench that solves these challenges by
+                     implementing the LSP using a scannerless, incremental packrat parser with support
+                     for left recursion, based on a grammar description in an extended EBNF-like grammar
+                     similar to Xtext/Langium. Furthermore, we show how an EBNF extension with formatting
+                     instructions can be used to obtain a pretty-printer. We use a combination of an internal
+                     and an external DSL to simplify the process of creating a new language. We demonstrate
+                     our approach using two new DSLs and evaluate performance and the amount of manual
+                     code necessary to support different editor features.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3732771.3742717">Lessons Learned from Developing the MontiCore Language Workbench: Challenges of Modular
+                  Language Design</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Nico Jansen</li>
+               <li class="nameList">Alex Lüpges</li>
+               <li class="nameList Last">Bernhard Rumpe</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In software language engineering, composition and modular design are essential milestones
+                     to advance reuse in this domain. Although language engineering improves quality and
+                     development efficiency by incorporating reusable components and tooling, some disadvantages
+                     and limitations can inhibit sophisticated language development. Current research usually
+                     focuses on the conceptual advantages but neglects the often technical drawbacks resulting
+                     from the necessity for complex interactions for seamless integration. In this paper,
+                     we report on our experiences applying language composition with the language workbench
+                     MontiCore and elaborate on the conceptual and technical drawbacks of the intended
+                     compositional tooling. Using concise application examples, we demonstrate the challenges
+                     of a compositional parser, the complexity of the generated infrastructure, and how
+                     they scrape the limits of the underlying target programming languages and their compilers.
+                     This critical examination of the implications of modular language construction demonstrates
+                     the pitfalls of language composition in the large and should reveal potential for
+                     future research.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3732771.3742718">Integrating Model Checking into a Live Modeling Environment</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Joeri Exelmans</li>
+               <li class="nameList">Ciprian Teodorov</li>
+               <li class="nameList Last">Hans Vangheluwe</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Live modeling is the ability to change an executable model at runtime, and without
+                     having to restart its execution. Sometimes this 'breaks' the ongoing execution, but
+                     in many cases, it does not have to. In earlier work, we reduced this problem to detecting
+                     fine-grained read/write conflicts between the recorded history of edit operations
+                     (created by the user) and execution steps (created by the interpreter). In this paper,
+                     we extend our approach by adding the ability to perform model checking during live
+                     modeling sessions. We motivate that this further enhances the live modeling experience,
+                     producing counter-examples or 'witness traces' relative to the current execution state,
+                     as a possible 'future', integrated with the execution and edit history, minimizing
+                     the mental gap. The model checker itself is generic, and uses (via an adapter) the
+                     language's existing interpreter. This way, we could implement this paper's running
+                     example in a working prototype with relatively little effort.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3732771.3742719">Exploratory, Omniscient, and Multiverse Diagnostics in Debuggers for Non-Deterministic
+                  Languages</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Damian Frölich</li>
+               <li class="nameList">Tommaso Pacciani</li>
+               <li class="nameList Last">L. Thomas van Binsbergen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Debugging non-deterministic programs is inherently difficult as the compound effects
+                     of non-deterministic execution steps is hard to predict and gives rise to a (potentially)
+                     vast space of reachable program states such that manual exploration of all reachable
+                     states is infeasible.</p> 
+                  <p>Multiverse debugging addresses these problems by realising a fine-grained, exhaustive
+                     and interactive process for state space exploration. At SLE2023, Pasquier et al. presented
+                     a generic framework that makes exploration practical through user-defined reductions
+                     on program states and by proposing expressive logics for defining and searching for
+                     states and traces of interest, generalising the concept of breakpoint. The framework
+                     has been validated through the case study language AnimUML designed to make non-deterministic
+                     UML specifications executable.</p> 
+                  <p>In this paper, we perform additional case studies to evaluate the applicability of
+                     the framework. We analyse three non-deterministic, domain-specific languages representing
+                     three different domains: grammar engineering, formal operational semantics, and norm
+                     engineering. The framework is evaluated against requirements extracted from these
+                     domains, resulting in the identification of several limitations of the framework.
+                     We then propose a modified and extended framework and apply it to develop multiverse
+                     debuggers for the case study languages. The result demonstrates a multiverse debugging
+                     framework with more general applicability.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3732771.3742720">Dynamic Dependency-Based Purity Checking</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Anton Risberg Alaküla</li>
+               <li class="nameList">Niklas Fors</li>
+               <li class="nameList Last">Christoph Reichenbach</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Many software language tools use declarative domain-specific languages (DDSLs) to
+                     implement parts of their functionality, such as context-free grammars for parsing
+                     or inference rules for type analysis. For interoperability and ease of use, DDSLs
+                     often rely on embedded general-purpose language (GPL) code fragments, as in the semantic
+                     actions of parser specifications, but require that these GPL fragments fulfill certain
+                     semantic properties, such as the absence of observable side effects. Fulfilling these
+                     properties is usually up to the developer, and accidental violations can lead to subtle
+                     and hard-to-trace bugs.</p> 
+                  <p>We present Tragdor, a tool that dynamically checks for property violations in Reference
+                     Attribute Grammars (RAGs) written for the JastAdd metacompiler, and report on the
+                     efficacy of four property testing strategies that Tragdor employs. Even in a mature
+                     RAG like the Java 11 compiler ExtendJ, Tragdor was able to find 13 implementation
+                     issues, 2 of which we consider to be of high severity. Our manual inspection of Tragdor's
+                     reports identifies a number of potential RAG anti-patterns and finds evidence that
+                     the inherent dependency structure of RAGs often encodes fine-grained implicit contracts.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3732771.3742721">Optimize Effect Handling for Tail-resumption with Stack Unwinding</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yuze Fu</li>
+               <li class="nameList Last">Shigeru Chiba</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Algebraic effect handling is a superior abstraction for non-local control flows, unifying
+                     over the existing non-local control flow constructs such as try/catch, destructors,
+                     shared state, async/await and generators. To encourage the adoption of effect handlers,
+                     improving their performance is essential. Despite having a number of implementations,
+                     they lack enough focus on tail resumptive handlers which leaves space for an improvement.
+                     We believe that tail resumptive handlers are invoked more frequently and contributes
+                     more to the overall performance of programs. The characteristic of them implies the
+                     possibility of an implementation with little overhead over function invocation. We
+                     propose eff-unwind, an implementation of effect handling as a C++ library which is
+                     optimized for tail resumptive handlers at the cost of others. Our implementation uses
+                     function calling and returning for tail resuming for improved efficiency while using
+                     stack copying and setjmp for general resuming and stack unwinding for yielding. It
+                     eliminates the need of recomposing the stack or preserving memory in the lifecycle
+                     of a tail resumptive handler at the cost of a less efficient yielding and not-tail
+                     resuming. Additionally, our library exposes a functional interface and executes C++
+                     destructors. We evaluate our approach based on a total of 12 cases containing both
+                     tail resumptive handlers and others. The result shows performance improvement for
+                     tail resuming and slowdown for others. We also discover that multishot handlers presents
+                     challenges with C++ destructors.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3732771.3742722">Variability Fault Localization by Abstract Interpretation and its Application to SPL
+                  Repair</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Aleksandar S. Dimovski</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Fault localization is an important step in software debugging that aims to isolate
+                     and localize the bugs (errors) to a small part of the program. This becomes more challenging
+                     in Software Product Lines (SPLs) due to the variable nature of bugs (so-called variability
+                     bugs). This paper introduces a novel variability fault localization algorithm for
+                     SPLs. Moreover, we present its practical application for automatic repair of variability
+                     bugs in SPLs.</p> 
+                  <p>Given a buggy SPL (program family) and an assertion to be satisfied, our variability
+                     fault localization algorithm infers so-called lifted (variability-specific) error
+                     invariants in all locations, which over-approximate the reachable states at the given
+                     locations that may produce the bug if the execution continues from those locations
+                     in some particular variants. The lifted error invariants are used for statement-wise
+                     lifted semantic slicing of buggy SPLs, which removes the statements irrelevant for
+                     assertion violation in certain variants containing some combinations of features.
+                     Finally, the obtained slice family is applied for designing an efficient SPL repair
+                     algorithm, which repeatedly mutates the (feature and program) expressions in the statements
+                     identified as relevant for the variability bug until a correct SPL is found.</p> 
+                  <p>We have implemented an experimental tool for variability fault localization and repair
+                     of #ifdef-annotated SPLs written in C. We have evaluated our approach on a set of
+                     benchmarks, and the experimental results confirm the effectiveness of our approach.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3732771.3742723">(Semantic) Feature Model Differences with (Q)SAT</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Simone Heisinger</li>
+               <li class="nameList">Maximilian Heisinger</li>
+               <li class="nameList Last">Martina Seidl</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Feature models evolve in multiple iterations over time. When modellers change a model,
+                     they enact syntactical changes in order to produce specific semantic differences between
+                     model iterations. Many tools have been developed to analyze such syntactical differences,
+                     but the changing semantics of models were harder to assess. Tools for semantic differences
+                     between feature model iterations rely on Binary Decision Diagrams (BDDs) or encode
+                     each change into SAT, the former leading to BDD scaling issues and the latter requiring
+                     editor support or other specialized tooling. We contribute the first concise formalization
+                     of feature models and their semantic differences into propositional logic and use
+                     it to efficiently and scalably classify semantic differences using SAT solvers. We
+                     then extend our definition into QSAT in order to quantify the full list of semantic
+                     differences between feature models and enumerate them using QBF tools, without needing
+                     specialized feature model solvers. We implement a semantic difference classifier using
+                     our UVL processing pipeline based on Booleguru (instead of the more widely used FeatureIDE)
+                     and evaluate it on industrial feature model instances in the standardized UVL format.
+                     We also evaluate our QSAT-based semantic difference enumerator and reproduce prior
+                     results. We provide all software and evaluation results in an artifact.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3732771.3742724">Detecting Resource Leaks on Android with Alpakka</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Gustavo Santos</li>
+               <li class="nameList">João Bispo</li>
+               <li class="nameList Last">Alexandra Mendes</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Mobile devices have become integral to our everyday lives, yet their utility hinges
+                     on their battery life. In Android apps, resource leaks caused by inefficient resource
+                     management are a significant contributor to battery drain and poor user experience.
+                     Our work introduces Alpakka, a source-to-source compiler for Android's Smali syntax.
+                     To showcase Alpakka's capabilities, we developed an Alpakka library capable of detecting
+                     and automatically correcting resource leaks in Android APK files. We demonstrate Alpakka's
+                     effectiveness through empirical testing on 124 APK files from 31 real-world Android
+                     apps in the DroidLeaks [12] dataset. In our analysis, Alpakka identified 93 unique
+                     resource leaks, of which we estimate 15% are false positives. From these, we successfully
+                     applied automatic corrections to 45 of the detected resource leaks.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>

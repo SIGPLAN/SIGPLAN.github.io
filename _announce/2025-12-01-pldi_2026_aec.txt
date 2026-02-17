@@ -1,0 +1,32 @@
+---
+title: "PLDI\u201926 Artifact Evaluation Committee: Call for nominations"
+timestamp: "12/1/2025 18:04:48"
+deadline: "12/22/2025"
+---
+Dear all,
+
+We are looking for motivated students and researchers to be members of
+the PLDI 2026 Artifact Evaluation Committee (AEC,
+https://pldi26.sigplan.org/track/pldi-2026-pldi-research-artifacts ).
+The artifact evaluation process aims to promote, share, and catalog the
+research artifacts of papers accepted to the PLDI research track.
+
+This year, we are accepting self-nominations for the AEC. The
+self-nomination form is available at:
+https://forms.gle/jKfzM19KPENqsPoR7
+The first round of nominations ends on Dec 22nd, 2025.
+
+As a committee member, the primary responsibilities would be to review
+the artifacts submitted corresponding to the already accepted papers in
+the main research track. In particular, you may have to run the
+associated tool, check whether the results in the main paper can be
+reproduced, and inspect the data.
+
+We expect the bulk of the review work to take place between early March
+and late April. Each artifact will take about 8h to review, and
+reviewers will be assigned about 3 artifacts to review.
+
+Come join us in improving the quality of research in our field!
+
+Best regards,
+Raphaël Monat and Qirun Zhang

@@ -1,0 +1,716 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>CC '26: Proceedings of the 35th ACM SIGPLAN International Conference on Compiler Construction</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>CC '26: Proceedings of the 35th ACM SIGPLAN International Conference on Compiler Construction</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3771775"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Optimizations</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3771775.3786276">GraalMHC: ML-Based Method-Hotness Classification for Binary-Size Reduction in Optimizing
+                  Compilers</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Milan Cugurovic</li>
+               <li class="nameList">Aleksandar Prokopec</li>
+               <li class="nameList">Boris Spasojevic</li>
+               <li class="nameList">Vojin Jovanovic</li>
+               <li class="nameList Last">Milena Vujošević Janičić</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Optimizing compilers often sacrifice binary size in pursuit of higher run-time performance.
+                     In the absence of method execution profiles, they uniformly apply performance-oriented
+                     optimizations, typically various forms of code duplication.  
+                     Duplications in methods that are rarely or never executed only increase binary size
+                     without improving performance.  
+                     Modern static profiler use ML to predict branch profiles, yet they do not identify
+                     which methods will be frequently executed at run time. Doing so would enable more
+                     selective optimizations, reducing binary size while preserving or only minimally affecting
+                     run-time performance.  
+                     </p>
+                  
+                  <p>
+                     We present GraalMHC, a machine–learning–based static profiler that predicts method
+                     hotness.  
+                     GraalMHC uses the XGBoost ensemble to classify methods as cold and warm. For cold
+                     methods, GraalMHC enables code-size-reducing optimizations, and for warm methods,
+                     it enables performance-improving optimizations. In this way, GraalMHC enables binary-size
+                     reductions with no or minimal impact on run-time performance.  
+                     In addition, GraalMHC allows users to choose between three different size-optimization
+                     levels: (S1) 9–13% binary-size reduction with 1–2% performance loss, (S2) 15–25% reduction
+                     with 3–5% performance loss, and (S3) 17–35% reduction with 5–7% performance loss.
+                     We integrate GraalMHC into the Oracle GraalVM Native Image compiler, delivering a
+                     complete end-to-end solution.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3771775.3786277">It’s about Time: Temporal Abstractions for Asynchronous GPU Tensor Computations</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Bastian Hagedorn</li>
+               <li class="nameList Last">Vinod Grover</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The rise of asynchronous execution and specialized concurrent thread groups has reshaped
+                     GPU programming, but it also introduces complex timing and coordination challenges.
+                     
+                     Developers must carefully manage data readiness, concurrency, and hardware-specific
+                     tensor units that current low-level primitives make error-prone and hardware-dependent.
+                     
+                     </p>
+                  
+                  <p>
+                     We present Async Graphene, a set of high-level abstractions for asynchronous and concurrent
+                     GPU programming. It builds on three pillars: (1) Async Tensor Types, which encode
+                     temporal relationships in the type system to prevent synchronization errors; (2) Concurrency
+                     Primitives, which structure 
+                     complex control flow through specialization and pipelining; and (3) Tensor-Unit Orchestration,
+                     which simplifies low-level tensor hardware management. 
+                     </p>
+                  
+                  <p>
+                     On critical workloads such as GEMM and FlashAttention, Async Graphene delivers performance
+                     competitive with hand-optimized frameworks while significantly reducing development
+                     complexity. By making temporal behavior explicit, it allows compilers to address asynchrony
+                     and concurrency challenges without obscuring performance-critical details.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3771775.3786267">Optimizing Sparse Tensor Compilation for Sparse Output</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Shideh Hashemian</li>
+               <li class="nameList">Michael F. P. O’Boyle</li>
+               <li class="nameList Last">Amir Shaikhha</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Sparse tensor algebra plays an important role in many scientific and engineering applications,
+                     yet existing sparse libraries and compilers face challenges when the output tensor
+                     is sparse. Array-based storage formats, such as CSR, require costly memory reallocations
+                     and rely on intermediate tensors (workspaces) to handle sparse scattering into the
+                     output, which limits performance and scalability. We introduce a new approach that
+                     employs our proposed flexible map-based storage format to directly support sparse
+                     scattering into the output without requiring extra workspaces. Our system then applies
+                     code and storage-specific optimizations to maximize efficiency. Experimental results
+                     across a range of kernels and datasets demonstrate an average speedup of 8.06× over
+                     a state-of-the-art compiler and 5.28× over a sparse tensor library.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3771775.3786274">RIFS: Run-Time Invariant Function Specialization</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Saba Jamilan</li>
+               <li class="nameList">Snehasish Kumar</li>
+               <li class="nameList Last">Heiner Litz</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Compilers apply optimizations such as function specialization and constant propagation
+                     to eliminate redundant work at compile time. However, because compilers must prove
+                     that values are constant, many profitable optimization opportunities remain unrealized.
+                     In this paper, we propose run-time invariant function specialization (RIFS), a profile-guided
+                     compiler technique that specializes functions based on runtime invariant call-site-specific
+                     argument values. RIFS introduces a novel value-profiling LLVM pass to identify runtime
+                     invariant arguments, even though they cannot be proven constant statically. A subsequent
+                     LLVM transformation pass generates specialized function variants tailored to these
+                     value profiles. To efficiently select among potentially thousands of specialization
+                     candidates, we develop a predictive cost model that estimates the performance benefit
+                     of each candidate prior to code generation. We integrate our passes seamlessly into
+                     the existing PGO-enabled LLVM toolchain. We evaluate RIFS across 11 real-world applications,
+                     demonstrating substantial improvements over state-of-the-art optimization techniques.
+                     RIFS achieves an average speedup of 6.3% and an instruction  
+                     reduction of 2.5% over the LLVM -O3+PGO baseline.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Optimizations for Safety and More</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3771775.3786265">DiTOX: Fault Detection and Localization in the ONNX Optimizer</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Nikolaos Louloudakis</li>
+               <li class="nameList Last">Ajitha Rajan</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The ONNX Optimizer, part of the official ONNX repository and widely adopted for graph-level
+                     model optimizations, is used by default to optimize ONNX models. Despite its popularity,
+                     its ability to preserve model correctness has not been systematically evaluated. We
+                     present DiTOX, an automated framework for comprehensively assessing the correctness
+                     of the ONNX Optimizer using differential testing, fault localization, and evaluation
+                     techniques that generalize to other compiler optimizers. DiTOX applies optimization
+                     passes to a corpus of ONNX models, executes both original and optimized versions on
+                     user-defined inputs, and detects discrepancies in behavior or optimizer failures.
+                     When divergences are observed, DiTOX isolates the responsible optimization pass through
+                     iterative, fine-grained analysis. We evaluated DiTOX on 130 models from the ONNX Model
+                     Hub spanning vision and language tasks. We found that 9.2% of model instances crashed
+                     the optimizer or produced invalid models under default settings. Moreover, output
+                     discrepancies occurred in 30% of classification models and 16.6% of object detection
+                     and segmentation models, while text-based models were largely robust. Overall, DiTOX
+                     uncovered 15 issues—14 previously unknown—affecting 9 of the 47 optimization passes
+                     as well as the optimizer infrastructure. All issues were reported to the ONNX Optimizer
+                     developers. Our results demonstrate that DiTOX provides a simple and effective approach
+                     for validating AI model optimizers and is readily extensible beyond ONNX.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3771775.3786272">SSMR: Statically Detecting Speculation Safe Memory Regions to Mitigate Transient Execution
+                  Attacks</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Ange-Thierry Ishimwe</li>
+               <li class="nameList">Sam McDiarmid-Sterling</li>
+               <li class="nameList">Zack McKevitt</li>
+               <li class="nameList Last">Tamara Silbergleit Lehman</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Transient execution attacks exploit speculative execution to leak confidential data
+                     through unauthorized transient memory accesses. We make the observation that transient
+                     attacks can be identified by one unusual memory access, the transient sensitive data
+                     access.  
+                     To protect systems from such attacks while minimizing performance overhead, we propose
+                     leveraging compile-time information to identify memory operations that cannot extract
+                     sensitive data and can therefore be deemed safe. Safe memory operations are allowed
+                     to execute transiently, causing no extra performance cost. Unsafe memory operations
+                     delay accessing the memory system until they are no longer in a speculative state,
+                     preventing unauthorized transient accesses to sensitive data.  
+                     To communicate this information to the microarchitecture, we introduce the set safe
+                     memory region (ssmr) instruction. Inserted automatically by the compiler, it establishes
+                     the memory regions that may be accessed transiently by a sequence of instructions.
+                     This defense incurs only a 7% performance overhead compared to the insecure baseline
+                     and mitigates at least two variants of transient execution attacks.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3771775.3786269">CHEHAB: Automatic Compiler Code Optimization for Fully Homomorphic Encryption</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Abdessamed Seddiki</li>
+               <li class="nameList">Arab Mohammed</li>
+               <li class="nameList">Zakaria Hebbal</li>
+               <li class="nameList">Aimad Chabounia</li>
+               <li class="nameList">Eduardo Chielle</li>
+               <li class="nameList">Karima Benatchba</li>
+               <li class="nameList">Challal Yacine</li>
+               <li class="nameList">Djamel Eddine Menacer</li>
+               <li class="nameList">Michail Maniatakos</li>
+               <li class="nameList Last">Riyadh Baghdadi</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Fully Homomorphic Encryption (FHE) enables computations to be performed directly on
+                     encrypted data without requiring decryption, providing strong privacy guarantees.
+                     However, FHE remains computationally expensive, and writing efficient FHE programs
+                     is a complex, error-prone, and time-consuming task that demands significant cryptographic
+                     expertise. Programmers are often unaware of available optimizations, and applying
+                     them manually requires substantial effort. In this paper, we present CHEHAB, a compiler
+                     that automatically vectorizes scalar code, optimizes it, and generates highly efficient
+                     FHE programs. CHEHAB supports both structured and unstructured code and takes as input
+                     programs written in a domain-specific language embedded in C++. It relies on a Term
+                     Rewriting System (TRS) based on equality saturation to simplify and transform programs.
+                     CHEHAB targets two key challenges in FHE compilation: (1) automatic vectorization
+                     of scalar code, and (2) reduction of instruction execution latency and ciphertext
+                     noise growth. By leveraging equality saturation, CHEHAB explores a large optimization
+                     space to reduce instruction count and circuit depth while improving vector utilization.
+                     Experimental evaluation on a set of representative kernels shows that CHEHAB outperforms
+                     Coyote, a state-of-the-art vectorizing compiler for FHE. On average, CHEHAB generates
+                     code that is 7.38× faster at runtime, incurs 2.49× less accumulated noise, and achieves
+                     251× faster compilation time. CHEHAB is released as an open-source compiler to support
+                     reproducibility and further research in FHE compilation.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3771775.3786266">Parallel and Customizable Equality Saturation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jonathan Van der Cruysse</li>
+               <li class="nameList">Abd-El-Aziz Zayed</li>
+               <li class="nameList">Mai Jacob Peng</li>
+               <li class="nameList Last">Christophe Dubach</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Equality saturation enables compilers to explore many semantically equivalent program
+                     variants, deferring optimization decisions to a final extraction phase. However, existing
+                     frameworks exhibit sequential execution and hard-coded saturation loops. This limits
+                     scalability and requires significant engineering effort to customize saturation behavior.
+                     </p>
+                  <p>This paper addresses these limitations using three novel techniques. First, it shows
+                     how saturation can be parallelized thanks to the use of thread-safe data structures
+                     and the notion of deferred e-graph updates. Second, it provides an extensible mechanism
+                     to express custom and composable saturation strategies. Third, it generalizes e-graph
+                     metadata to support custom e-graph annotations. </p>
+                  <p>The implementation, written in Scala, is evaluated on four use-cases: classical program
+                     optimization, idiom recognition, scalability strategies and incremental equality saturation.
+                     The results show that it outperforms several existing equality saturation engines,
+                     including the highly optimized egglog library. When used to reimplement an existing
+                     idiom recognition technique, the new design finds higher-quality idioms, 16× faster.
+                     Additionally, the design is able to natively express state-of-the-art custom equality
+                     saturation behavior such as incremental equality saturation and multi-phase rewriting
+                     strategies without any modification to the core library.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Code Generation and Tuning</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3771775.3786281">Accelerating Sparse Algebra with Program Synthesis</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">José Wesley de Souza Magalhães</li>
+               <li class="nameList">Shideh Hashemian</li>
+               <li class="nameList">Alexander Brauckmann</li>
+               <li class="nameList">Jackson Woodruff</li>
+               <li class="nameList">Elizabeth Polgreen</li>
+               <li class="nameList Last">Michael F. P. O’Boyle</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Linear algebra libraries and tensor domain-specific languages are able to deliver
+                     high performance for modern scientific and machine learning workloads. While there
+                     has been recent work in automatically translating legacy software to use these libraries/DSLs
+                     using pattern matching and program lifting, this has been largely limited to dense
+                     linear algebra.  
+                     </p>
+                  
+                  <p>
+                     This paper tackles the more challenging problem of porting legacy sparse linear algebra
+                     code to libraries and DSLs. It exploits the power of large language models to predict
+                     a sketch of the solution and then uses type-based program synthesis to search the
+                     space of possible code to target parameter bindings. We implement this in a tool named
+                     SLEB (Sparse LiftEr with Binding) and evaluate it on a large set of benchmarks and
+                     real-world datasets, comparing against two state-of-the-art compiler techniques, LiLAC
+                     and SpEQ; and GPT 4.o. Overall, we lift 94% of programs compared to 11%,  
+                     17%, and 48% for LiLAC, SpEQ, and GPT 4.o respectively. This delivers a geomean speedup
+                     of 2.6x and 7.2x on a CPU and GPU platform, respectively.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3771775.3786282">Schedgehammer: Auto-tuning Compiler Optimizations beyond Numerical Parameters</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Johannes Lenfers</li>
+               <li class="nameList">Sven Spehr</li>
+               <li class="nameList">Justus Dieckmann</li>
+               <li class="nameList">Johannes Jansen</li>
+               <li class="nameList">Martin Paul Lücke</li>
+               <li class="nameList Last">Sergei Gorlatch</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>This paper introduces <em>Schedgehammer</em>, a general-purpose auto-scheduling framework that optimizes program execution across
+                     diverse compiler infrastructures. Unlike existing auto-schedulers that are tightly
+                     coupled to specific intermediate representations or rely on template-based search,
+                     Schedgehammer provides a generic, reusable framework for optimization schedules by
+                     modeling them as graph-structured objects. This approach captures dependencies among
+                     transformations and parameters across compilers, enabling systematic mutation and
+                     validation. </p>
+                  <p>We demonstrate Schedgehammer’s flexibility on TVM and TACO, showing that it effectively
+                     optimizes dense and sparse computations. Across benchmarks, it achieves performance
+                     comparable to specialized auto-schedulers such as Ansor, highlighting that a unified,
+                     extensible abstraction can generalize scheduling beyond individual compiler ecosystems.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3771775.3786278">TinyGen: Portable and Compact Code Generation for Tiny Machine Learning</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Gaeun Ko</li>
+               <li class="nameList Last">Seonyeong Heo</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Tiny machine learning (TinyML) enables low-power microcontrollers to leverage the
+                     power of artificial intelligence without relying on remote computing resources. Typically,
+                     developing a TinyML application relies primarily on existing TinyML frameworks, which
+                     provide runtime APIs for loading and executing machine learning models. However, such
+                     framework-based TinyML development has limitations in terms of portability, programmability,
+                     and resource efficiency, motivating the need for a new approach to the TinyML development
+                     and deployment process.  
+                     </p>
+                  
+                  <p>
+                     To address these challenges, this work introduces TinyGen, a new code generation framework
+                     for TinyML. TinyGen generates portable high-level code directly from a target model
+                     without depending on external runtime APIs. It statically analyzes the tensor and
+                     operator usage of the target model to enable compact code generation. This work demonstrates
+                     that TinyGen reduces binary code size by 31.2% on average compared to an existing
+                     TinyML framework while requiring fewer lines of code to write TinyML applications.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3771775.3786271">CPerfSmith: A Randomized C Program Generator for Performance-Oriented Compiler Testing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yashwanth Boda</li>
+               <li class="nameList">Abhijit Chunduri</li>
+               <li class="nameList">Ruchi Kumari</li>
+               <li class="nameList Last">Awanish Pandey</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Software testing is a critical stage in the software development  
+                     lifecycle, ensuring that programs behave correctly and  
+                     reliably across diverse environments. Unlike general software  
+                     testing, compiler testing requires well-structured input  
+                     programs that systematically exercise the compiler’s various  
+                     optimization passes, since incomplete coverage can easily  
+                     mask critical issues. Currently, a range of techniques exists  
+                     for compiler testing, including differential testing, fuzzing,  
+                     slicing, sanitizers and formal methods based validation tools,  
+                     While these methods are effective at detecting compiler  
+                     crashes, undefined behavior, or general correctness bugs,  
+                     they are largely inadequate for systematically evaluating  
+                     compiler optimizations.  
+                     Tools like Csmith have pioneered random program generation  
+                     for compiler testing, but they lack precise control  
+                     over program structure, which is critical when the goal is to  
+                     stress specific optimization passes or identify performance  
+                     regressions. To address this limitation, we developed CPerf-  
+                     Smith , an extension of Csmith that provides fine-grained  
+                     control over code constructs, enabling targeted generation  
+                     of programs that exercise particular compiler optimizations.  
+                     Through our experiments, CPerfSmith was able to generate  
+                     over 100 programs exhibiting significant runtime differences  
+                     across industry-standard C compilers (GCC, Clang, and  
+                     AOCC). Furthermore, we successfully created more than 30  
+                     test cases that revealed significant performance regressions  
+                     between two subsequent release versions of Clang, demonstrating  
+                     the tool’s ability to detect missing or improperly  
+                     applied optimizations.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Tools</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3771775.3786275">Inside VOLT: Designing an Open-Source GPU Compiler (Tool)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Shinnung Jeong</li>
+               <li class="nameList">Chihyo Ahn</li>
+               <li class="nameList">Huanzhi Pu</li>
+               <li class="nameList">Jisheng Zhao</li>
+               <li class="nameList">Hyesoon Kim</li>
+               <li class="nameList Last">Blaise Tine</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Recent efforts in open-source GPU research are opening new avenues in a domain that
+                     has long been tightly coupled with a few commercial vendors. Emerging open GPU architectures
+                     define SIMT functionality through their own ISAs, but executing existing GPU programs
+                     and optimizing performance on these ISAs relies on a compiler framework that is technically
+                     complex and often undercounted in open-hardware development costs.  
+                     </p>
+                  
+                  <p>
+                     To address this challenge, the Vortex-Optimized Lightweight Toolchain (VOLT) has been
+                     proposed. This paper presents its design principles, overall structure, and the key
+                     compiler transformations required to support SIMT execution on Vortex. VOLT enables
+                     SIMT code generation and optimization across multiple levels of abstraction through
+                     a hierarchical design that accommodates diverse front-end languages and open GPU hardware.
+                     To ensure extensibility as GPU architectures evolve, VOLT centralizes fundamental
+                     SIMT-related analyses and optimizations in the middle-end, allowing them to be reused
+                     across front-ends and easily adapted to emerging open-GPU variants. Through two case
+                     studies on ISA extensions and host-runtime API, this paper also demonstrates how VOLT
+                     can support extensions.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3771775.3786273">Nsight Python: A Python-First Profiling Toolkit for Seamless GPU Kernel Analysis (Tool)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Bastian Hagedorn</li>
+               <li class="nameList">Alexander Collins</li>
+               <li class="nameList">Tony Mongkolsmai</li>
+               <li class="nameList Last">Vinod Grover</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The proliferation of Python DSLs for developing kernels has democratized GPU programming.
+                     While kernel development is now Python-native, performance analysis and optimization
+                     still rely on external tools and fragmented workflows. </p>
+                  <p>We introduce Nsight Python, a Python profiling toolkit that bridges this gap by bringing
+                     performance analysis for GPU kernels into the Python ecosystem. Nsight Python is framework-agnostic
+                     and works seamlessly with <em>any</em> Python framework through simple decorators and context managers that mark code regions
+                     for analysis. The tool automatically handles performance measurement, data collection,
+                     and result aggregation across multiple configurations. </p>
+                  <p>Key innovations include: (1) Python-native interface enabling direct GPU kernel analysis
+                     within existing Python workflows, (2) configuration-driven execution model that correlates
+                     measured metrics with input parameters, (3) access to thousands of core metrics and
+                     enabling custom derived and relative metric computations through parameter correlation,
+                     (4) built-in thermal management to prevent GPU throttling during batch analysis, and
+                     (5) structured customizable visualization with automatic plot generation based on
+                     parameter roles. </p>
+                  <p>With Nsight Python, the entire kernel development process—from implementation to iterative
+                     optimization and analysis—is now truly Python-native, providing detailed insights
+                     without requiring external profilers or disrupting workflows.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Analysis</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3771775.3786270">HORIZON: Estimating Alias Analysis Precision Bounds and Their Impact on Performance</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Khushboo Chitre</li>
+               <li class="nameList">Piyus Kedia</li>
+               <li class="nameList Last">Rahul Purandare</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Alias analysis is a technique to identify whether a memory location can be accessed
+                     in more than one way. An ideal alias analysis implementation should be both precise
+                     and scalable. However, in practice, implementations of alias analysis have to make
+                     a trade-off between precision and scalability. The alias analysis implementations
+                     that perform inter-procedural analysis are more precise (answer a higher number of
+                     alias queries with certainty), but expensive, making them infeasible for practical
+                     use. Most compiler developers opt for intra-procedural analysis over inter-procedural,
+                     thereby compromising the precision of alias analysis implementations to achieve scalability.
+                     For compilers, this compromise leads to a loss in optimization opportunities, limiting
+                     the performance achievable by the compiled program.  
+                     </p>
+                  
+                  <p>
+                     In this work, we present HORIZON, a tool that estimates the upper bound on alias analysis
+                     precision improvement and its impact on program performance, enabling an understanding
+                     of how compromised precision affects execution. HORIZON implements a profiling-based
+                     approach to gather precise alias information (must- and no-alias) missed by existing
+                     alias implementations and provides this information to the compiler to estimate potential
+                     performance gains. Integrated with LLVM, we applied HORIZON to evaluate the default
+                     LLVM alias analysis on standard benchmarks, demonstrating that precision improvement
+                     could range from 0% to 33%, with corresponding performance impact between 0% and 53%,
+                     indicating the effectiveness of our approach and tool.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3771775.3786268">Type Deduction Analysis: Reconstructing Transparent Pointer Types in LLVM-IR</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Niccolò Nicolosi</li>
+               <li class="nameList">Gabriele Magnani</li>
+               <li class="nameList">Emilio Corigliano</li>
+               <li class="nameList">Davide Baroffio</li>
+               <li class="nameList">Federico Reghenzani</li>
+               <li class="nameList Last">Giovanni Agosta</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>With version 17, LLVM finalized the transition to opaque pointer types, eliminating
+                     explicit pointee‑type information from the Intermediate Representation (IR). Thus,
+                     starting from LLVM 17, each pointer type is represented in IR by the unique type ptr.
+                     Despite eliminating redundant pointer bitcasts and consequently reducing IR size and
+                     compile time, this change disrupts analyses that have reason to rely on pointee-type
+                     information, forcing existing compiler projects to depend on outdated LLVM versions.
+                     This information can in fact be insightful in fields like approximate computing, where
+                     the compiler can apply non-conservative optimizations, or in passes that require it
+                     to make analyses and transformations that do not impact the correctness of the program.
+                     To address this problem, we present a new Type Deduction Analysis pass that reconstructs
+                     transparent pointer types directly from opaque‑pointer IR. Moreover, we illustrate
+                     two different case-studies on existing LLVM projects, namely TAFFO and ASPIS, that
+                     demonstrate the need for pointee-type information in LLVM compilers.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3771775.3786280">Compact Representation and Interleaved Solving for Scalable Constraint-Based Points-to
+                  Analysis</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Ramya Kasaraneni</li>
+               <li class="nameList Last">V. Krishna Nandivada</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Constraint-based points-to analysis using Andersen-style inclusion  
+                     constraints is widely used for its convenience, generality,  
+                     and precision in modeling complex program behaviors.  
+                     Typically, such analyses generate constraints and resolve  
+                     them by computing the transitive closure of a constraint  
+                     graph. However, traditional constraint modeling often introduces  
+                     redundancy during constraint generation, solving, or  
+                     both. In the context of points-to analysis for object-oriented  
+                     languages like Java, this redundancy primarily stems from  
+                     the modeling of virtual calls and heap operations. As a result,  
+                     the analysis produces redundant constraints and inflated  
+                     constraint graphs, thereby increasing analysis time.  
+                     </p>
+                  
+                  <p>
+                     To address these limitations, we propose a novel constraint  
+                     representation and solving system PInter, which extends the  
+                     traditional inclusion constraint model. It presents a novel  
+                     technique to represent the constraints in compact and expressive  
+                     way. Further, it defers generation of constraints until  
+                     relevant objects are discovered, enabling demand-driven and  
+                     interleaved constraint generation and solving. We present a  
+                     proof of correctness of PInter. We used PInter to implement  
+                     two different Java points-to analyses, within the Soot framework,  
+                     and evaluated it on 12 applications drawn from the  
+                     DaCapo benchmark suite. As is standard, we used Tamiflex to  
+                     handle dynamic features of Java benchmarks and performed  
+                     a soundy evaluation. Our results show that, compared to traditional  
+                     methods, PInter reduced the constraint count by 96%  
+                     (geomean) and the analysis time by 78% (geomean). We also  
+                     evaluated PInter against Soot’s Spark and the flow-, context-  
+                     insensitive analysis in Doop, and found that PInter achieved  
+                     significantly faster performance.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3771775.3786279">Practical MHP Analysis for Java</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">A. Samuel Moses</li>
+               <li class="nameList Last">V. Krishna Nandivada</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>May happen in Parallel (MHP) analysis is one of the most  
+                     foundational analysis in the context of programs written in  
+                     parallel languages like Java. The currently known techniques  
+                     for doing MHP analysis of Java applications suffer from two  
+                     main challenges: (i) scalability to real-world large applications,  
+                     (ii) precision in the presence of complex programs. In  
+                     this manuscript, we address these two issues with a goal of  
+                     making MHP analysis for Java applications a practical option.  
+                     We propose a new MHP analysis scheme called GRIP-MHP.  
+                     It includes techniques to reduce time taken to perform MHP  
+                     analysis significantly; it does so by using novel schemes to  
+                     reduce the size of the input graph (representing the original  
+                     application). GRIP-MHP also addresses many drawbacks in  
+                     existing techniques, thereby improving the applicability and  
+                     precision of MHP analysis for real-world Java applications.  
+                     We implemented GRIP-MHP in the Soot compiler framework.  
+                     Our experiments show that GRIP-MHP runs successfully in  
+                     reasonable time on all the tested benchmarks in DaCapo  
+                     and Renaissance (geomean 20.176×improvement, over prior  
+                     work). We find that GRIP-MHP performs more precise joining  
+                     of threads significant leading to improvements in precision  
+                     of the analysis results: geomean, 1.85×reduction in  
+                     MHP pairs, over prior work.</p>
+                  			</div>
+            </div>
+            							
+            						</div>
+      </div>
+   </body>
+</html>

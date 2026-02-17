@@ -1,0 +1,89 @@
+---
+title: "PPoPP 2026: 31st ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming"
+timestamp: "7/17/2025 6:11:41"
+deadline: "9/1/2025"
+---
+PPoPP 2026: 31st ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming
+Sydney, Australia
+Co-located with CC, [CGO](https://2026.cgo.org) and [HPCA](http://hpca-conf.org/2026)
+January 31 - February 4, 2026.
+
+https://ppopp26.sigplan.org/
+PC co-chairs:
+Madan Musuvathi (Microsoft Research)
+Kenjiro Taura (The University of Tokyo)
+
+Submission URL:
+https://ppopp26.hotcrp.com
+
+### Important dates:
+  * Full paper submission: Monday, September 1st, 2025
+  * Author response period: October 27 - 29, 2025 (Mon - Wed)
+  * Author notification: Monday, November 10th, 2025
+  * Artifact submission to AE committee: Monday, November 17th, 2025
+  * Artifact notification by AE committee: Monday, January 5th, 2026
+  * Final paper due: Friday, January 9, 2026 (TBC)
+
+### Scope:
+
+PPoPP is the premier forum for leading work on all aspects of parallel and performance programming, including theoretical foundations, techniques, languages, compilers, runtime systems, tools, applications, and practical experience. This symposium focuses on improving the programming productivity and performance engineering of all concurrent and parallel systems - multicore, multi-threaded, heterogeneous, clustered, and distributed systems, grids, accelerators such as ASICs, GPUs, FPGAs, data centers, clouds, large scale machines, and quantum computers. PPoPP is also interested in new and emerging parallel workloads and applications, such as artificial intelligence and large-scale scientific/enterprise workloads.
+
+Specific topics of interest include (but are not limited to):
+
+* Languages, compilers, and runtime systems for parallel programs
+* Parallel programming frameworks and domain-specific languages
+* Parallel programming for emerging hardware, including AI accelerators, processor-in-memory, programmable logic, and non-volatile memory technologies
+* High-performance libraries
+* Parallel programming for deep memory hierarchies including nonvolatile memory
+* Parallel algorithms
+* Parallel applications including scientific computing and enterprise workloads
+* Artificial intelligence and machine learning for parallel systems, including their use in system design, optimization, and runtime decisions
+* Development, analysis, or management tools
+* Performance analysis, debugging and optimization
+* Productivity tools for parallel systems
+* Software engineering for parallel programs
+* Parallel programming theory and models
+* Formal analysis and verification
+* Concurrent data structures
+* Synchronization and concurrency control
+* Fault tolerance for parallel systems
+* Middleware for parallel systems
+
+Papers should report on original research relevant to parallel programming and should contain enough background materials to make them accessible to the entire parallel programming research community. Papers describing experience should indicate how they illustrate general principles or lead to new insights; papers about parallel programming foundations should indicate how they relate to practice. PPoPP submissions will be evaluated based on their technical merit and accessibility. Submissions should clearly motivate the importance of the problem being addressed, compare to the existing body of work on the topic, and explicitly and precisely state the paper's key contributions and results towards addressing the problem. Submissions should strive to be accessible both to a broad audience and to experts in the area.
+
+### Paper Submission:
+
+* Conference submission site: https://ppopp26.hotcrp.com
+
+All submissions must be made electronically through the conference website and include an abstract (100–400 words), author contact information, the full list of authors and their affiliations. Full paper submissions must be in PDF format printable on both A4 and US letter-size paper.
+
+All papers must be prepared in two-column ACM Conference Format, specifically the acmart document class (available here: https://www.sigplan.org/Resources/Author/) with the sigplan option and 10-point font size. We recommend preparing your submission in Latex starting with the following template: https://ppopp26.sigplan.org/getImage/orig/ppopp-acmart-sigplanproc-template.tex. This template ensures that there are no line numbers and headers in the margins to avoid triggering HotCRP’s format checker. Refrain from squeezing additional space by tweaking the template above, e.g., by manipulating vertical space, reducing margins, line spacing, heading space, column separation, etc. Ensure that caption fonts are at least 9 pt and all fonts in figures and tables are at least 8 pt. Program chairs will inspect submissions using format checking tools and reserve the right to reject submissions that violate the formatting rules. If you would like to use Word or other Latex template, please ensure that your submission follows all the formatting guidelines. You may want to consult the official ACM information on the Master Article Template and related tools.
+
+Papers should contain a maximum of 10 pages of text and figures, but NOT INCLUDING references. There is no page limit for references, and they must include the names of all authors (not et al.) and spell out the publication year and venue (and not simply point to the doi link). Appendices are not allowed, but the authors may submit supplementary material, such as proofs or source code; all supplementary material must be in PDF or ZIP format. Looking at supplementary material is at the discretion of the reviewers.
+
+Submission is double-blind, and authors will need to identify any potential conflicts of interest with PC and Extended Review Committee members, as defined here: http://www.sigplan.org/Resources/Policies/Review/ (ACM SIGPLAN policy).
+
+PPoPP 2026 will employ a double-blind reviewing process. To facilitate this process, submissions should not reveal the identity of the authors in any way. Authors should leave out author names and affiliations from the body of their submission. They should also ensure that any references to authors' own related work should be in the third person (e.g., not "We build on our previous work ..." but rather "We build on the work of ..."). The purpose of this process is to help the PC and external reviewers come to an initial judgment about the paper without bias, not to make it impossible for them to discover the authors if they were to try. Nothing should be done in the name of anonymity that weakens the submission or makes the job of reviewing the paper more difficult. In particular, important background references should not be omitted or anonymized. In addition, authors should feel free to disseminate their ideas or draft versions of their papers as they normally would. For instance, authors may post drafts of their papers on the web or give talks on their research ideas. Authors with further questions on double-blind reviewing are encouraged to contact the Program Chairs by email.
+
+To facilitate fair and unbiased reviews for all submissions, PPoPP 2026 may utilize the Toronto Paper Matching System (TPMS) to assign papers to reviewers. From the authors' perspective, this decision means that the submissions may be uploaded to TPMS.
+
+Submissions should be in PDF and printable on both US Letter and A4 paper. Papers may be resubmitted to the submission site multiple times up until the deadline, but the last version submitted before the deadline will be the version reviewed. Papers that exceed the length requirement, which deviate from the expected format, or that are submitted late will be rejected.
+
+All submissions that are not accepted for regular presentations will be automatically considered for posters. Two-page summaries of accepted posters will be included in the conference proceedings.
+
+To allow reproducibility, we encourage authors of accepted papers to submit their papers for Artifact Evaluation (AE). The AE process begins after the acceptance notification and is run by a separate committee whose task is to assess how the artifacts support the work described in the papers. Artifact evaluation is voluntary and will not affect paper acceptance but will be taken into consideration when selecting papers for awards. Papers that go through the AE process successfully will receive at least one ACM reproducibility badge, printed on the published version. More information will be posted on the AE website.
+
+Deadlines expire at midnight anywhere on Earth.
+
+### Publication Date:
+
+The titles of all accepted papers are typically announced shortly after the author notification date (late November 2025). Note, however, that this is not the official publication date. The official publication date is the date the proceedings are made available in the ACM Digital Library. ACM will make the proceedings available via the Digital Library, up to 2 weeks prior to the first day of the conference. The official publication date affects the deadline for any patent filings related to published work.
+
+### ACM Publications Policies:
+
+By submitting your article to an ACM Publication, you are hereby acknowledging that you and your co-authors are subject to all ACM Publications Policies, including ACM's new Publications Policy on Research Involving Human Participants and Subjects. Alleged violations of this policy or any ACM Publications Policy will be investigated by ACM and may result in a full retraction of your paper, in addition to other potential penalties, as per ACM Publications Policy https://www.acm.org/publications/policies/research-involving-human-participants-and-subjects
+
+Starting from January 2026, *all ACM publications become Open Access*.  See https://www.acm.org/publications/openaccess for details.  Authors must be aware that the Article Processing Charges listed in the page applies to all accepted papers.
+
+Please ensure that you and your co-authors obtain an ORCID ID, so you can complete the publishing process for your accepted paper. We are committed to improving author discoverability, ensuring proper attribution and contributing to ongoing community efforts around name normalization; your ORCID ID will help in these efforts. Please follow the https://dl.acm.org/journal/pacmcgit/author-guidelines link to see ACM's ORCID requirements for authors.
+

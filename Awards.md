@@ -7,8 +7,6 @@ recognize service and achievements in the programming language
 community. Details about the nomination process for a particular
 award can be found on the specific award web page.
 
-See SIGPLAN's [statement about the 2020 ACM Turing Award](/Awards/TuringStatement).
-
 * * * * *
 
 **Programming Languages Achievement Award**  

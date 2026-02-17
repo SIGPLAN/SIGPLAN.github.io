@@ -1,0 +1,652 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>SPLASH Companion '25: Companion Proceedings of the 2025 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>SPLASH Companion '25: Companion Proceedings of the 2025 ACM SIGPLAN International Conference on Systems,
+               Programming, Languages, and Applications: Software for Humanity</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3758316"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Keynotes</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3771268">Automating Maintenance of the Linux Kernel: A Perspective over 20 Years (Keynote)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Julia Lawall</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>This Linux kernel is a long-lived, large, and widely used piece of software. It was
+                     first released in 1994, currently amounts to over 27 MLOC, and is used everywhere,
+                     from smartphones to supercomputers. Despite its more than 30 year history, the Linux
+                     kernel is still under active development, being continually extended with new features,
+                     but also new designs, to improve performance, understandability, safety, and security.
+                     In 2004, my colleagues and I started to work on Coccinelle, a tool for automating
+                     the large-scale transformation of C code, designed with the needs of Linux kernel
+                     developers in mind. Today, Coccinelle is a familiar element of the kernel developer’s
+                     toolbox, having been used in thousands of kernel commits. However, not all software
+                     issues can be neatly characterized as collections of common code patterns. We thus
+                     propose to complement Coccinelle as a kernel development tool with strategies for
+                     tracing kernel execution and formal verification.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3771269">The Quest toward That Perfect Compiler (Keynote)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Zhendong Su</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Compilers are essential, foundational tools for engineering software. Indeed, we would
+                     all want to have a perfect compiler—one that is fully trustworthy and produces the
+                     best-performing code. This is a lofty goal and a long-standing challenge. Toward this
+                     goal, this talk introduces and advocates a novel shift in perspective by exploring
+                     the question: How well do modern compilers perform versus that hypothetical perfect
+                     compiler? Doing so is scientifically interesting and can lead to deep, systematic
+                     understandings of modern compilers’ capabilities, and significant fundamental and
+                     practical advances in compilers. This talk will introduce our vision and recent work
+                     on this quest.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3771270">Software Stacks for Confidential Computing Hardware (Keynote)</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Frank Piessens</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The field of confidential computing focuses on technologies that protect “data in
+                     use” to enable secure remote computation. The goal is to allow sensitive data to be
+                     processed on external machines, such as cloud servers, without compromising confidentiality
+                     guarantees. 
+                     </p>
+                  
+                  <p>
+                     Hardware-supported confidential computing is rapidly gaining traction in industry.
+                     All major hardware vendors have introduced confidential computing features in their
+                     processors (e.g., Intel SGX, Intel TDX, AMD SEV, ARM CCA). However, achieving strong
+                     confidentiality guarantees with reasonable performance also requires changes in the
+                     software stack. In confidential computing, system software on the cloud servers is
+                     considered untrusted, and such software can observe and influence program execution
+                     in many intricate ways. Protecting against information leaks through side channels
+                     at various layers of abstraction is a major challenge in this setting, and is often
+                     left out of scope by current hardware protection mechanisms. 
+                     </p>
+                  
+                  <p>
+                     This talk will explain and illustrate these challenges, and present some ideas on
+                     how to address them.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Doctoral Symposium</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3762818">Separation Logics for Probability, Concurrency, and Security</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Kwing Hei Li</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Critical security-related infrastructure often makes use of both <em>probability</em> and <em>concurrency</em> features and there is a need to develop mathematical tools to reason about programs
+                     consisting of both features. In my research, I aim to develop expressive and modular
+                     separation logics for reasoning about concurrent probabilistic programs using the
+                     Rocq proof assistant and the Iris separation logic framework. These program logics
+                     will enable us to formally verify correctness and security properties of security-related
+                     software systems.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3762819">A Multi-layer Dynamic Security Framework for DeFi Smart Contracts</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Zhiyang Chen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>This proposal presents a multi-layer dynamic security framework for protecting DeFi
+                     smart contracts against evolving attack vectors that traditional static analysis and
+                     security audits fail to detect. We observed that many DeFi exploits succeed not due
+                     to source code bugs, but because of flawed  
+                     assumptions about user behaviors and external dependencies that only manifest at runtime.
+                     Our system provides three complementary additional defenses to significantly increase
+                     the difficulty of launching successful attacks: (1) CrossGuard, a control-flow integrity
+                     mechanism that  
+                     only whitelists legitimate invocation patterns;(2) Trace2Inv, a runtime invariant
+                     generator that learns and enforces invariants from historical transaction data; and
+                     (3) an ecosystem-wide risk analysis tool that detects compositional vulnerabilities
+                     in protocol dependencies. By leveraging upgradeable contracts, the framework can progressively
+                     refine defenses as protocols stabilize.  
+                     Our evaluation results show blocking 85% of past exploits with under 1% false positives
+                     and below 20% gas overhead.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3762820">How to Synthesize Quantum-Circuit Optimizers</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Amanda Xu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Recent breakthroughs in quantum computing hardware have brought us closer to realizing
+                     the dream of quantum computers accelerating domains such as materials discovery, chemistry,
+                     and beyond. Further shrinking the timeline for solving useful problems with quantum
+                     computing requires a flexible compilation stack that can adapt to emerging hardware.
+                     My research develops robust tools and techniques for optimizing quantum programs to
+                     be run on arbitrary quantum computing architectures.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3762821">Practical Compositional Diagramming</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Shardul Chiplunkar</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Diagrams are rare and hard to work with in programming and theorem-proving environments.
+                     Existing diagramming systems do not meet the practical needs of interactive, exploratory
+                     use, such as keeping diagrams understandable as they grow in size with limited screen
+                     space, or as they evolve as the user steps through the program or proof. My research
+                     seeks to develop an approach—<em>compositional diagramming</em>—that meets these needs. Diagrams are formed of independent parts composed in systematic
+                     ways reflecting the structure of the represented object, and the diagramming system
+                     compiles a higher-level description of the object to lower-level diagram components.
+                     Techniques that make diagrams more practical, such as wrapping, folding, and packing,
+                     fit neatly into a compositional approach. Through my work, I hope to build a useful
+                     diagramming system for working computer scientists, mathematicians, and programmers,
+                     based on a better understanding of compositional diagrams.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3762822">Lexical Effect Handlers: Fast by Design, Correct by Proof</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Cong Ma</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Lexical effect handlers offer both expressivity and strong reasoning principles, yet
+                     their practical adoption has been hindered by a lack of efficient implementations.
+                     As effect handlers gain mainstream traction, it becomes urgent to show that lexically
+                     scoped handlers can be made performant. My doctoral research addresses this need through
+                     the design and implementation of Lexa, a language and compiler that achieves state-of-the-art
+                     performance with lexically scoped handlers. Drawing on deep semantic insight, I have
+                     developed techniques that advance both implementation and theory. Lexa outperforms
+                     existing compilers, and all techniques are formally proved correct.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3762823">Towards Compiler-Guided Static Analysis</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Benjamin Mikek</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Static analysis consists of a large body of tools that analyze programs without running
+                     them. Despite substantial progress in recent years, both theoretical and practical,
+                     static analyses still face bottlenecks in SMT solving, equivalence checking, and compiler
+                     verification. This work proposes alleviating these bottlenecks by using harnessing
+                     existing compilers, and asks whether their internal state and the transformations
+                     they perform can inform static analysis and expand the set of tractable problems.
+                     We plan to investigate the problem by recording the analyses and optimizations a compiler
+                     performs on a particular input program. In existing work, we find that the strategy
+                     is promising by showing that compilers can speed up SMT solving. Our proposal is to
+                     extend the work to a general framework for recording and filtering the actions performed
+                     by a compiler and to evaluate it on translation validation and other use cases.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: SRC</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3763246">Automata Visualization for Validation and Verification: Helping Develop Correctness
+                  Arguments for Nondeterministic Machines</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">David Anthony K. Fields</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>In Formal Languages and Automata Theory courses, students are introduced to various
+                     state machines that require careful reasoning to design. For some students, understanding
+                     nondeterministic behavior is challenging. This means that they are unsure why a word
+                     is accepted or rejected. Consequently, they are unable to validate and verify their
+                     machines. To aid students' understanding, we propose the use of a dynamic visualizations
+                     tool in conjunction with a design-based approach using a domain-specific language
+                     to implement machines. The proposed tool is designed using the Norman principles of
+                     effective design. The tool traces all possible computations without repeated machine
+                     configurations and uses color to distinguish between accepting and rejecting computations.
+                     In addition, they aid in the verification process by affording users the ability to
+                     validate machines by visualizing the value of state invariants. Our research project,
+                     therefore, is twofold: develop the proposed visualization tool and evaluate their
+                     effectiveness to help students design, implement, validate, and verify machines.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3763247">Restoring Data Sovereignty: A Human-Centered Approach to Blockchain Health Technology</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Polina Bobrova</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The widespread adoption of wearable health devices has created a data paradox: users
+                     generate vast amounts of valuable data but lack control and face privacy risks. While
+                     blockchain technology offers a path to restore data sovereignty, its complexity presents
+                     a significant barrier to mainstream adoption. This research confronts this challenge
+                     through a multi-faceted PhD study, developing and validating a user-centered framework
+                     for designing blockchain-enabled health wearables that are usable, acceptable, and
+                     trustworthy. Key contributions include a practical design toolkit for user acceptance,
+                     insights from building and testing the CipherPal device, validated guidelines for
+                     designing Web3 applications, and a comprehensive evaluation approach.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3763248">A Concurrency-Testing Approach for Detecting Isolation Level Bugs in Database Systems</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Arsyad Kamili</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Enforcing the correctness of isolation levels in modern database management systems
+                     (DBMSs) is essential but notoriously challenging. Although formal frameworks like
+                     Adya’s model capture concurrency anomalies precisely, they are difficult to apply
+                     in practice when DBMS internals remain opaque. Conventional black-box verification
+                     tools, while accessible, often fail to observe nuanced read/write dependencies that
+                     underlie subtle isolation violations. In this paper, we introduce IsoFuzz, a greybox
+                     fuzz-testing framework that bridges these extremes by instrumenting key transactional
+                     operations in the DBMS source. By logging version-aware reads, writes, and transaction
+                     boundaries, IsoFuzz generates concurrency traces that reflect true internal dependencies
+                     without requiring extensive modifications. A preemptive scheduler then manipulates
+                     interleavings to systematically explore corner-case schedules. Evaluations on MySQL
+                     reveal that IsoFuzz reproduces known isolation-level anomalies efficiently and also
+                     surfaces previously unseen violations. Our results highlight the promise of combining
+                     formal concurrency theory with targeted instrumentation to achieve more comprehensive
+                     DBMS isolation-level verification.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3763249">LLM-Assisted Dialect-Agnostic SQL Query Parsing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Junwen An</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Query analysis and rewriting tools, which rely on analyzing the Abstract Syntax Trees
+                     (ASTs) of queries, are essential in database workflows. However, due to the diverse
+                     SQL dialects, traditional grammar-based parsers often fail when encountering dialect-specific
+                     syntax. Although Large Language Models (LLMs) show promise in understanding SQL queries,
+                     they struggle in accurately generating ASTs. To address this, we propose SQLFlex,
+                     a hybrid approach that iteratively uses a grammar-based parser and, upon failure,
+                     employs an LLM to segment the query into smaller, parsable parts. SQLFlex successfully
+                     parsed 96.37% of queries across eight dialects on average, and demonstrated its practicality
+                     in SQL linting and test case reduction.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3763250">Formal Verification of Graham’s Scan Algorithm</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yingjun Lan</li>
+               <li class="nameList Last">Yuxuan Sun</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p><em>Graham’s Scan</em> algorithm is a widely-used method to compute convex hulls. This paper presents its
+                     formal verification using the Rocq Proof Assistant, building upon the geometric framework
+                     outlined in Knuth’s work. We decompose correctness proof into local geometric properties,
+                     and manually prove equivalent representations for crucial convex hull properties.
+                     To address degenerate cases like collinearity, which often complicate manual proofs,
+                     we introduce a novel proof-automation method by <em>Large Language Models</em> (<em>LLMs</em>), significantly reducing manual effort.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3763251">LegoFuzz: Interleaving Large Language Models for Compiler Testing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Yunbo Ni</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Using large language models (LLMs) to test compilers is promising but faces two major
+                     challenges: the generated programs are often too simple, and large-scale testing is
+                     costly. We present a new framework that splits the process into an offline phase—where
+                     LLMs generate small, diverse code pieces—and an online phase that assembles them into
+                     complex test programs.  
+                     </p>
+                  
+                  <p>
+                     Our tool, LegoFuzz, applies this method to test C compilers and has discovered 66
+                     bugs in GCC and LLVM, including many serious miscompilation bugs that prior tools
+                     missed. This efficient design shows strong potential for broader AI-assisted software
+                     testing.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3763252">On a Multitier Actor Programming Language</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">HyeonJin Lee</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The actor model provides a powerful abstraction for message passing but lacks communication
+                     consistency and forces actors to be written in isolation. By contrast, multitier programming
+                     with RPC calculi ensures correctness and a global programming perspective. We propose
+                     a multitier actor language unifying the classic actor model with location-transparent
+                     RPC abstractions. Each actor is treated as a location, supporting remote variable
+                     access and function calls. A Cloud Haskell prototype embodies its executable semantics,
+                     validated by benchmarks and a cryptographic protocol.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3763253">Siloso: Finding Logic Bugs in RDBMS via Dialect-Adaptable Reference Engine Construction</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Emily Ong</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Relational DBMSs (RDBMSs) are ubiquitous, so any bugs within RDBMSs are highly consequential.
+                     Particularly, logic bugs, which can cause an incorrect result to be returned for a
+                     given query evaluation, are critical as they are unlikely to be noticed by users.
+                     In our work, we investigated and conceptualized key correctness variabilities across
+                     a diverse set of RDBMSs. Based on this insight, we propose an approach for detecting
+                     logic bugs in RDBMSs via the design and implementation of an extensible reference
+                     engine, which we term as Siloso, that can adapt the behavior of a query execution
+                     depending on the specified dialect. We evaluated Siloso extensively by using it in
+                     an automated RDBMS testing setting as a differential test oracle, finding 23 bugs
+                     across six RDBMSs.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Posters</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3765480">Incremental and Unbounded Loop Analysis</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Arpita Dutta</li>
+               <li class="nameList Last">Joxan Jaffar</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>We address the problem of proving a loop invariant property within a perpetual loop.
+                     We have two goals. Our first goal is to prove the property holds at over all iterations,
+                     ie. to have <em>unbounded</em> verification. Failing this, our subsequent goal is to determine a loop iteration
+                     bound where the property holds, ie. to have the <em>best possible bounded</em> verification. Our framework is set in a harness which is essentially a one loop program
+                     whose body comprises a bounded computation, for example, one that does not contain
+                     any loops. Our interpreter is based on <em>iterative deepening</em>; it performs bounded reasoning at each iteration, which increases the bound, and
+                     has two key features: <em>incrementality</em>, ie. it learns and exploits the result of the previous iteration, and <em>induction</em>, ie. it has a fixpoint-checking mechanism which can detect that the property is invariant
+                     throughout <em>all</em> iterations.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3765481">View Types in Rust</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Sasha Pak</li>
+               <li class="nameList">Richard Willie</li>
+               <li class="nameList">Umang Mathur</li>
+               <li class="nameList">Fabian Muehlboeck</li>
+               <li class="nameList Last">Alex Potanin</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Rust’s ownership-based type system ensures safety but often rejects intuitive and
+                     safe code, leading to workarounds. View types are a promising language extension aiming
+                     to increase flexibility and expressiveness in function calls. We outline the motivation,
+                     challenges, and research directions for integrating view types into Rust.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3765482">Reproducibility Debt in Scientific Software</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Zara Hassan</li>
+               <li class="nameList">Christoph Treude</li>
+               <li class="nameList">Graham Williams</li>
+               <li class="nameList">Michael Norrish</li>
+               <li class="nameList Last">Alex Potanin</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Reproducibility Debt (RpD) refers to accumulated technical and organisational issues
+                     in scientific software that hinder the ability to reproduce research results. While
+                     reproducibility is essential to scientific integrity, RpD remains poorly defined and
+                     under-addressed. This study introduces a formal definition of RpD and investigates
+                     its causes, effects, and mitigation strategies using a mixed-methods approach involving
+                     a systematic literature review (214 papers), interviews (23 practitioners), and a
+                     global survey (59 participants). We identify seven categories of contributing issues,
+                     75 causes, 110 effects, and 61 mitigation strategies. Findings are synthesised into
+                     a cause-effect model and supported by taxonomies of team roles and software types.
+                     This work provides conceptual clarity and practical tools to help researchers, developers,
+                     and institutions understand and manage RpD, ultimately supporting more sustainable
+                     and reproducible scientific software.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3765483">Type Checking for Python using Intersection Types</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Mingyeong Jeong</li>
+               <li class="nameList Last">Sungho Lee</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Dynamic typed languages are widely used but it can lead to reduces code comprehension
+                     and increases type-related errors. Recently, type annotations have been introduced
+                     to these languages, and static type analyzers have been developed and used. However,
+                     existing analyzers have limited accuracy, as they treat unannotated code as an Any
+                     type or merge types into unions. Furthermore, whole-program analyzer cannot analyze
+                     non-executable code and thus cannot analyze libraries. In this paper, we propose a
+                     Python type analysis that uses intersection types at the point where type information
+                     converges and performs modular analysis. This design improves the accuracy of type
+                     error detection while enabling analysis of non-executable code such as libraries.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3765484">Simplifying Lifter-Generated Emulation Style LLVM IR for Analysis Suitability</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yujin An</li>
+               <li class="nameList Last">Sungho Lee</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>A binary lifter translates binary code into an intermediate  
+                     representation (IR), such as LLVM IR. With the growing  
+                     popularity of binary lifters and their ability to produce semantically accurate IR,
+                     even more complex binaries can now be translated successfully. In this study, we focus
+                     on two types of LLVM IR generated by binary lifters: high-level style IR (HIR) and
+                     emulation style IR (EIR). Although HIR offers advantages for analysis, EIR achieves
+                     a higher functional accuracy but is less suitable for analysis. To address this trade-off,
+                     we propose two methods for transforming EIR into HIR, aiming to combine the functional
+                     accuracy of EIR with the analysis suitability of HIR.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3765485">Toward Automated Verification of Static Analysis Results of Android Applications</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Hannuri Kim</li>
+               <li class="nameList Last">Sungho Lee</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Static analysis techniques are widely employed to detect security vulnerabilities
+                     in Android applications. However, because static analysis approximates program execution,
+                     it can produce false positives by reporting cases in which no actual privacy leak
+                     occurs. Therefore, verification of analysis results is necessary. In Android’s event-driven
+                     execution model, certain leaks occur only under specific event sequences, making it
+                     difficult to determine whether a reported leak is feasible.  
+                     &nbsp; This paper proposes a technique for automatically generating and testing event sequences
+                     necessary to validate the results of static analysis tools. The proposed method first
+                     analyzes the pre-conditions that must be satisfied before a callback function causing
+                     a leak can execute. It then iteratively searches for other callback functions whose
+                     post-conditions satisfy these pre-conditions, constructing an event execution sequence
+                     that leads to the leak. For future work, we plan to enable automatic verification
+                     of static analysis results through automated testing based on the generated event
+                     sequences. We hope that our approach can significantly reduce the time spent for verifying
+                     the results of existing Android static analyzers.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3758316.3765486">Verifying Extract Method Refactoring in Rust</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Matthew Britton</li>
+               <li class="nameList">Alex Potanin</li>
+               <li class="nameList Last">Sasha Pak</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Refactoring is trustworthy only if semantics are preserved. In Rust, ownership and
+                     lifetimes make automatic extraction attractive yet risky: code that merely compiles
+                     can still change aliasing, lifetime structure, or observable effects. We present REM-V,
+                     an end-to-end pipeline that extracts, fixes, and verifies Extract-Method refactorings.
+                     Built atop the Rusty Extraction Maestro (REM), a toolchain for extraction and compiler-guided
+                     repairs via cargo check, REM-V performs lightweight, zero-annotation equivalence checking:
+                     P and P' are compiled to LLBC (CHARON) and functionalised (AENEAS), enabling automatic
+                     observational equivalence checks. Early results indicate feasibility and smooth IDE
+                     integration. A VSCode makes the Extract, Fix, Verify loop available to developers
+                     as VS Code plugin called "REM VSCode".</p>
+                  			</div>
+            </div>
+            							
+            						</div>
+      </div>
+   </body>
+</html>

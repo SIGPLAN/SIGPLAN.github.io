@@ -47,7 +47,7 @@ Information Director:
     - Onward!:
     - PLDI:
     - POPL:
-    - PPOPP:
+    - PPoPP:
     - SPLASH:
     - VEE:
 
@@ -130,15 +130,15 @@ LCTES Steering Committee:
 
 MPLR Steering Committee:
   - Chair: "[Stefan Marr](https://www.kent.ac.uk/computing/people/3167/marr-stefan)"
-  - "[Tony Hosking](https://cecs.anu.edu.au/people/tony-hosking)"
-  - "[Christos Kotselidis](https://www.kotselidis.net/)"
-  - "[Jeremy Singer](http://www.dcs.gla.ac.uk/~jsinger)"
   - "[Elisa Gonzalez Boix](https://soft.vub.ac.be/disco/elisa/)"
   - "[Tobias Wrigstad](https://www.it.uu.se/katalog/writo649)"
   - "[J. Eliot Moss](https://www.cics.umass.edu/about/directory/j-eliot-moss)"
   - "[Rodrigo	Bruno](https://rodrigo-bruno.github.io/)"
   - "[M. Anton	Ertl](https://www.complang.tuwien.ac.at/anton/home.html)"
   - "[Christoph	Kirsch](https://cs.uni-salzburg.at/~ck/)"
+  - "[Tomoharu Ugawa](https://tugawa.github.io/index-e.html)"
+  - "[Stephane Ducasse](https://stephane.ducasse.free.fr/)"
+  - "[Christophe Scholliers](https://users.ugent.be/~chscholl/)"
 
 Onward! Steering Committee:
     - Chair: Stephen Kell
@@ -157,16 +157,17 @@ Onward! Steering Committee:
 PLDI Steering Committee:
   -   SIGPLAN Chair: #
   -   SIGPLAN Vice Chair: #
-  -   "[Alastair Donaldson](http://multicore.doc.ic.ac.uk) (Imperial College London), PLDI Steering Committee Chair (2022-2025)"
-  -   "[Stephen Freund](http://www.cs.williams.edu/~freund/index.html) (Williams College), 2021 General Chair"
-  -   "[Eran Yahav](http://www.cs.technion.ac.il/~yahave/) (Technion), 2021 Program Chair"
-  -   "[Ilya Sergey](https://ilyasergey.net) (National University of Singapore), 2021 Member at Large"
-  -   "[Ranjit Jhala](https://ranjitjhala.github.io/) (University of California San Diego), 2022 General Chair"
-  -   "[Işıl Dillig](https://www.cs.utexas.edu/~isil/) (University of Texas, Austin), 2022 Program Chair"
-  -   "[Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova/) (University of California San Diego), 2022 Member at Large"
-  -   "[Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/), 2023 General Chair"
-  -   "[Nate Foster](https://www.cs.cornell.edu/~jnfoster/) (Cornell University), 2023 Program Chair"
+  -   "[Işıl Dillig](https://www.cs.utexas.edu/~isil/) (University of Texas, Austin), PLDI Steering Committee Chair (2025-2028)"
+  -   "[Alastair Donaldson](https://www.doc.ic.ac.uk/~afd/) (Imperial College London), Outgoing PLDI Steering Committee Chair (2022-2025)"
+  -   "[Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/) (Google), 2023 General Chair"
+  -   "[Nate Foster](https://www.cs.cornell.edu/~jnfoster/) (Cornell University), 2023 Associate Editor"
   -   "[Sukyoung Ryu](https://plrg.kaist.ac.kr/ryu) (Korea Advanced Institute of Science and Technology), 2023 Member at Large"
+  -   "[Milind Kulkarni](https://engineering.purdue.edu/~milind/) (Purdue University), 2024 General Chair"
+  -   "[John Regehr](https://users.cs.utah.edu/~regehr/) (University of Utah), 2024 Associate Editor"
+  -   "[Santosh Nagarakatte](https://people.cs.rutgers.edu/~santosh.nagarakatte/) (Rutgers University), 2024 Member at Large"
+  -   "[Chung-Kil Hur](https://sf.snu.ac.kr/gil.hur/) (Seoul National University), 2025 General Chair"
+  -   "[Zachary Tatlock](https://www.cs.washington.edu/people/faculty/zachary-tatlock/) (University of Washington), 2025 Associate Editor"
+  -   "[Aws Albarghouthi](https://pages.cs.wisc.edu/~aws/) (University of Wisconsin-Madison), 2025 Member at Large"
 
 POPL Steering Committee:
   -   SIGPLAN Chair: #
@@ -182,18 +183,23 @@ POPL Steering Committee:
   -   "[Steve Zdancewic](https://www.cis.upenn.edu/~stevez/), 2025 General Chair"
   -   "[Armando Solar-Lezama](https://people.csail.mit.edu/asolar/), 2025 Program Chair"
 
-PPOPP Steering Committee:
-  - Chair: Albert Cohen
-  - Rafael Asenjo
-  - Calin Cascaval
-  - Thomas Gross
-  - Mary Hall
-  - Tim Harris
-  - Andreas Krall
-  - David Padua
-  - Keshav Pingali
-  - Lawrence Rauchwerger
-  - Vivek Sarkar
+PPoPP Steering Committee:
+  - Chair: Xipeng Shen
+  - Kunal Agrawal
+  - Milind Chabbi
+  - Rezaul Chowdhury
+  - Albert Cohen
+  - Sandhya Dwarkadas
+  - Yan Gu
+  - Sriram Krishnamoorthy
+  - Milind Kulkarni
+  - I-Ting Angelina Lee
+  - Jaejin Lee
+  - Maryam Mehri Dehnavi
+  - Erez Petrank
+  - Bin Ren
+  - Michael Spear
+  - Michel Steuwer
 
 SIGAPL Steering Committee:
   - Chair: Guy Larocque
@@ -201,29 +207,30 @@ SIGAPL Steering Committee:
 SPLASH Steering Committee:
   - SIGPLAN Chair: #
   - SIGPLAN Vice Chair: #
-  - Chair: Alex Potanin (Australian National University), SPLASH 2022 General Chair and OOPSLA 2024 Program Co-Chair
-  
-  - Amal Ahmed (Northeastern University), OOPSLA 2022 Program Co-Chair
-  - Bor-Yuh Evan Chang (University of Colorado Boulder), OOPSLA 2024 Program Co-Chair
-  - Shigeru Chiba (University of Tokyo), Onward! 2025 Papers Co-Chair
-  - Işil Dillig (University of Texas at Austin), OOPSLA 2026 Program Chair
-  - Jonathan Edwards (Independent), Onward! 2024 Papers Chair
-  - Colin Gordon (Drexel University), Onward! 2025 Essays Chair
-  - Robert Hirschfeld (University of Potsdam; Hasso Plattner Institute), Onward! 2023 Essays Chair
-  - Stephen Kell (Kings College London), Onward! Steering Committee Chair
-  - Clemens Nylandsted Klokmose (Aarhus University), Onward! 2025 Papers Co-Chair
-  - Shriram Krishnamurthi (Brown University), OOPSLA 2025 Program Co-Chair
-  - Mira Mezini (TU Darmstadt), OOPSLA 2023 Program Chair
-  - Coen de Roover (Vrije Universiteit Brussel), GPCE Steering Committee Chair
-  - Sukyoung Ryu (Korea Advanced Institute of Science and Technology), OOPSLA 2025 Program Co-Chair
-  - Mihaela Sighireanu (University of Paris-Saclay), SAS Steering Committee Chair
-  - Manu Sridharan (UC Riverside), SPLASH 2024 General Chair
-  - Marcel Taeumel (Hasso Plattner Institute), Onward! 2024 Essays Chair
+  - Chair: Alex Potanin (Australian National University), OOPSLA 2024 Program Co-Chair, SC Chair for 2025 - 2026 2-year term
+
+  - Filip Křikava (Czech Technical University), SPLASH 2027 General Chair
   - Frank Tip (Northeastern University), SPLASH 2026 General Chair
-  - Vasco T. Vasconcelos (University of Lisbon), SPLASH 2023 General Chair
-  - Eric van Wyk (University of Minnesota), SLE Steering Committee Chair
   - Charles Zhang (Hong Kong University of Science and Technology), SPLASH 2025 General Chair
-  - Jan Vitek (Northeastern University / Czech Technical University), OOPSLA 2022 Program Co-Chair
+  - Manu Sridharan (UC Riverside), SPLASH 2024 General Chair
+  - Vasco T. Vasconcelos (University of Lisbon), SPLASH 2023 General Chair
+  - Nadia Polikarpova (University of California San Diego), OOPSLA 2027 Program Co-Chair
+  - Ilya Sergey (National University of Singapore), OOPSLA 2027 Program Co-Chair
+  - Anders Møller (Aarhus University), OOPSLA 2026 Program Co-Chair
+  - Işil Dillig (University of Texas at Austin), OOPSLA 2026 Program Co-Chair
+  - Shriram Krishnamurthi (Brown University), OOPSLA 2025 Program Co-Chair
+  - Sukyoung Ryu (Korea Advanced Institute of Science and Technology), OOPSLA 2025 Program Co-Chair
+  - Bor-Yuh Evan Chang (University of Colorado Boulder), OOPSLA 2024 Program Co-Chair
+  - Mira Mezini (TU Darmstadt), OOPSLA 2023 Program Chair
+  - Shigeru Chiba (University of Tokyo), Onward! 2025 Papers Co-Chair
+  - Clemens Nylandsted Klokmose (Aarhus University), Onward! 2025 Papers Co-Chair
+  - Colin Gordon (Drexel University), Onward! 2025 Essays Chair
+  - Stephen Kell (Kings College London), Onward! Steering Committee Chair
+  - Kedar Namjoshi (Nokia), SAS Steering Committee Co-Chair
+  - Cezara Dragoi (INRIA), SAS Steering Committee Co-Chair
+  - Coen de Roover (Vrije Universiteit Brussel), GPCE Steering Committee Chair
+  - Eric van Wyk (University of Minnesota), SLE Steering Committee Chair
+  - Amal Ahmed (Northeastern University), Member at Large 2026 - 2029
 
 VEE Steering Committee:
   - Andrew Baumann, Microsoft Research

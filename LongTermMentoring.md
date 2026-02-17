@@ -14,7 +14,7 @@ and to access the perspectives of researchers from other institutions.
 
 In response to these needs, SIGPLAN-M matches mentors with mentees from different institutions
 for mentoring relationships that last at least a year.
-As of May 2024, there are about 350 mentees and 250 mentors participating in the program.
+As of January 2026, there are about 380 mentees and 270 mentors currently participating in the program.
 Here are some testimonials from mentees:
 
 > [SIGPLAN-M is] a career saver!
@@ -37,11 +37,13 @@ Check out our [Twitter](https://twitter.com/SigplanM) for the latest news! You c
 
 ## Committee Members
 
-- **Operations Team**: [Jai Arora](https://jaiarora0011.github.io/), [Carolina Carreira](https://carolinacarreira.github.io/), [Ronak Chauhan](https://in.linkedin.com/in/ronchauhan), [Kiran Gopinathan](https://gopiandcode.uk/), [Yunjeong Lee](http://www.leeyunjeong.com/), [Jacqueline Mitchell](https://jlmitche23.github.io/), [Reshabh Sharma](https://www.linkedin.com/in/reshabh/)
+- **Operations Team**: [Jai Arora](https://jaiarora0011.github.io/), [Carolina Carreira](https://carolinacarreira.github.io/), [Ronak Chauhan](https://in.linkedin.com/in/ronchauhan), [Kiran Gopinathan](https://gopiandcode.uk/), [Jacqueline Mitchell](https://jlmitche23.github.io/), [Reshabh Sharma](https://www.linkedin.com/in/reshabh/)
 - **Rematching Coordinators**: [Houda Boukham](https://www.linkedin.com/in/houda-boukham-821198142/), [Jocelyn Chen](https://www.cs.utexas.edu/~qchen/)
-- **Advisory Board**: [Alexandra Silva](https://alexandrasilva.org/), [David Van Horn](https://www.cs.umd.edu/~dvanhorn/), [Dimitrios Vytiniotis](https://dimitriv.github.io/), [Sebastian Erdweg](https://www.pl.informatik.uni-mainz.de/), [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/), [Sukyoung Ryu](https://plrg.kaist.ac.kr/ryu)
+- **Advisory Board**: [Brigitte Pientka](https://www.cs.mcgill.ca/~bpientka/), [Amal Ahmed](https://www.khoury.northeastern.edu/home/amal/), [Sam Westrick](https://www.cs.cmu.edu/~swestric/), [Santosh Nagarakatte](https://people.cs.rutgers.edu/~santosh.nagarakatte/), [Vasco Vasconcelos](https://www.di.fc.ul.pt/~vv/)
+
 - **Chair**:  [Stephen Chong](https://people.seas.harvard.edu/~chong/)
 - **Previous Chairs**: [Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova/), [Talia Ringer](https://dependenttyp.es/)
+- **Previous Advisory Board Members**: [Alexandra Silva](https://alexandrasilva.org/), [David Van Horn](https://www.cs.umd.edu/~dvanhorn/), [Dimitrios Vytiniotis](https://dimitriv.github.io/), [Sebastian Erdweg](https://www.pl.informatik.uni-mainz.de/), [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/), [Sukyoung Ryu](https://plrg.kaist.ac.kr/ryu)
 
 ## Getting Involved
 
@@ -77,9 +79,9 @@ We really appreciate all of our mentors for the amazing work they do---and we wa
 Here is a list of some of our amazing mentors. If you are already a mentor for us, and you're welcome to being thanked publicly,
 please let us know and we'll happily add you to this list!
 
-We'd like to thank these amazing mentors:
-- Jonathan Aldrich
+We'd like to thank these amazing mentors, current and previous:
 - Stavros Aronis
+- Arthur Azevedo de Amorim
 - Tom Ball
 - Hongzheng Chen
 - Sheng Chen
@@ -88,11 +90,8 @@ We'd like to thank these amazing mentors:
 - Alastair Donaldson
 - Jana Dunfield
 - Sebastian Erdweg
-- Tobias Grosser
 - Jason Hemann
-- Kuen-Bang Hou (Favonia)
 - Patrik Jansson
-- Ralf Jung
 - Konstantinos Kallas
 - Raffi Khatchadourian
 - Kalyan Krishnamani
@@ -101,32 +100,44 @@ We'd like to thank these amazing mentors:
 - Ismail Kuru
 - Patrick Lam
 - Leonidas Lampropoulos
-- John Leo
 - Yishuai Li
 - Justin Lubin
 - William Mansky
 - Mae Milano
-- Andrey Mokhov
-- Joe Politz
+- Manasij Mukherjee
 - Kia Rahmani
 - Norman Ramsey
 - Talia Ringer
-- Sukyoung Ryu
-- Roopsha Samanta
 - Mike Samuel
 - Satnam Singh
 - Gus Smith
-- Caleb Stanford
-- Kathrin Stark
-- Simon Thompson
+- Michel Steuwer
 - Dimitris Vardoulakis
 - Chengpeng Wang
 - John Wickerson
-- James Wilcox
 - Max Willsey
 - Dominik Winterer
-- Li-yao Xia
+- Dongwei Xiao
+- Chengyu Zhang
 - Jie Zhou
+
+Retired:
+- Jonathan Aldrich
+- Pedro Da Costa Abreu
+- Tobias Grosser
+- Kuen-Bang Hou (Favonia)
+- Ralf Jung
+- John Leo
+- Andrey Mokhov
+- Joe Politz
+- Sukyoung Ryu
+- Roopsha Samanta
+- Caleb Stanford
+- Kathrin Stark
+- Simon Thompson
+- James Wilcox
+- Li-yao Xia
+
 
 And we'd of course also like to thank everyone else who has served or currently serves as a mentor for SIGPLAN-M!
 

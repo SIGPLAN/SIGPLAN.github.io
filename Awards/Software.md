@@ -18,8 +18,8 @@ directed to the SIGPLAN Awards co-Chairs.
 
 #### Nominations
 
-Please use <http://awards.sigplan.org/> to submit nominations.
-Nominations submitted on or before January 15th will be considered for
+Please use <https://sigplan-software26.hotcrp.com> to submit nominations.
+Nominations submitted on or before January 22nd will be considered for
 award that year.
 
 Each nomination should include the following items:
@@ -34,7 +34,8 @@ Each nomination should include the following items:
   making the nomination (the nominator).
 - Names and email addresses of 5-10 people who the nominator believes
   will support the nomination. The awards committee will ask at least
-  three of these people for their opinions.
+  three of these people for their opinions - the letters of support are due by Feb 20th (The nominator can also include them with the nomination if they have them already available).
+
 
 #### Committee
 

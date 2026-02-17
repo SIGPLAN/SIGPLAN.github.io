@@ -1,0 +1,235 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>TyDe '25: Proceedings of the 10th ACM SIGPLAN International Workshop on Type-Driven Development</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>TyDe '25: Proceedings of the 10th ACM SIGPLAN International Workshop on Type-Driven Development</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3759538"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Papers</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759538.3759650">Gradual Metaprogramming</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Tianyu Chen</li>
+               <li class="nameList">Darshal Shetty</li>
+               <li class="nameList">Jeremy G. Siek</li>
+               <li class="nameList">Chao-Hong Chen</li>
+               <li class="nameList">Weixi Ma</li>
+               <li class="nameList">Arnaud Venet</li>
+               <li class="nameList Last">Rocky Liu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Data engineers increasingly use domain-specific languages (DSLs) to generate the code
+                     for data pipelines. Such DSLs are often embedded in Python. Unfortunately, there are
+                     challenges in debugging the generation of data pipelines: an error in a Python DSL
+                     script is often detected too late, after the execution of the script, and the source
+                     code location that triggers the error is hard to pinpoint.  
+                     </p>
+                  
+                  <p>
+                     In this paper, we focus on the scenario where a DSL embedded in Python (so it is dynamically-typed)
+                     generates data pipeline description code that is statically-typed. We propose gradual
+                     metaprogramming to (1) provide a migration path toward statically typed DSLs, (2)
+                     immediately provide earlier detection of code generation type errors, and (3) report
+                     the source code location responsible for the type error. Gradual metaprogramming accomplishes
+                     this by type checking code fragments and incrementally performing runtime checks as
+                     they are spliced together. We define MetaGTLC, a metaprogramming calculus in which
+                     a gradually-typed metalanguage manipulates a statically-typed object language, and
+                     give semantics to it by translation to the cast calculus MetaCC. We prove that successful
+                     metaevaluation always generates a well-typed object program and mechanize the proof
+                     in Agda.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759538.3759651">Unification Modulo Isomorphisms between Dependent Types for Type-Based Library Search</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Satoshi Takimoto</li>
+               <li class="nameList">Sosuke Moriguchi</li>
+               <li class="nameList Last">Takuo Watanabe</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Type-based library search allows developers to efficiently find reusable software
+                     components by their type signatures, as exemplified by tools like Hoogle. This capability
+                     is especially important in interactive theorem provers (ITPs), where reusing existing
+                     proofs can greatly accelerate development. Previous type-based library search tools
+                     for ITPs, such as SearchIsos and Loogle, support only a subset of desirable search
+                     flexibilities, including argument reordering, currying/uncurrying, generalisation,
+                     and the inclusion of extra premises. However, none can handle all these flexibilities
+                     simultaneously, resulting in missed relevant matches. In this work, we propose a type-based
+                     library search method based on equational unification modulo a set of type isomorphisms
+                     for dependent product/sum types, enabling all the desired search flexibilities. We
+                     present a semi-algorithm for this equational unification and provide a prototype implementation
+                     to demonstrate the feasibility of our approach.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759538.3759652">Representing Data Structures with Invariants in Haskell: The Cases of BST and AVL</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Nicolas Rodriguez</li>
+               <li class="nameList">Alberto Pardo</li>
+               <li class="nameList Last">Marcos Viera</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Invariants are an essential aspect to take into account for the correct implementation
+                     of data structures and their operations. This paper explores how to encode and enforce
+                     invariants at type level in Haskell, using Binary Search Trees (BSTs) and AVL trees
+                     as case studies.  
+                     This means the encoding of invariants at type level using advanced features of Haskell
+                     type system and their later verification by the type checker. We compare three approaches
+                     for the type-level encoding of invariants: fully externalist, externalist, and internalist,
+                     each offering a different balance between modularity, safety, and complexity. We also
+                     show how to systematically extract standard implementations from correct, invariant-based
+                     code.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759538.3759653">A Formalization of Opaque Definitions for a Dependent Type Theory</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Nils Anders Danielsson</li>
+               <li class="nameList Last">Eve Geng</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Definitions allow for reuse of code. Typical type-checkers for dependently typed programming
+                     languages automatically unfold definitions, but excessive unfolding can lead to types
+                     that are hard to read, or performance issues. Such problems can be mitigated through
+                     the use of opaque definitions, which give the programmer control over when unfolding
+                     is allowed. However, subject reduction fails to hold for certain designs.  
+                     </p>
+                  
+                  <p>
+                     We study the metatheory of a type theory with opaque definitions, inspired by Agda.
+                     We give typing and reduction rules and show that the type theory enjoys properties
+                     like subject reduction, normalization, consistency, and decidability of conversion.
+                     The development is fully mechanized in Agda.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3759538.3759654">The Conatural Numbers Form an Exponential Commutative Semiring</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Szumi Xie</li>
+               <li class="nameList Last">Viktor Bense</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Conatural numbers are a coinductive type dual to the inductively defined  
+                     natural numbers. The conatural numbers can represent all natural numbers and  
+                     an extra element for infinity, this can be useful for representing the amount  
+                     of steps taken by a possibly non-terminating program. We can define functions  
+                     on conatural numbers by corecursion, however proof assistants such as Agda  
+                     require the corecursive definitions to be guarded to make sure that they are  
+                     productive. This requirement is often too restrictive, as it disallows the  
+                     corecursive occurrence to appear under previously defined operations. In this  
+                     paper, we explore some methods to solving this issue using the running  
+                     examples of multiplication and the commutativity of addition on conatural  
+                     numbers, then we give comparisons between these methods. As the main result,  
+                     this is the first proof that conatural numbers form an exponential commutative  
+                     semiring in cubical type theory without major extensions.</p>
+                  			</div>
+            </div>
+            							
+            						</div>
+      </div>
+   </body>
+</html>
