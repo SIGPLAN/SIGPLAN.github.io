@@ -80,6 +80,15 @@ CARES committee members may also attend other workshops and conferences sponsore
     <th><b>CARES member attendees</b></th>
  </tr>
     <tr>
+    <td><a href="https://popl26.sigplan.org">POPL 2026</a></td>
+    <td>Jeff Foster, Stephanie Weirich</td>
+  </tr>
+    <tr>
+    <td><a href="https://icfp25.sigplan.org">ICFP 2025</a>/
+<a href="https://2025.splashcon.org">SPLASH 2025</a></td>
+    <td>Steve Blackburn, Bor-Yuh Evan Chang, Sophia Drossopoulou, Jeff Foster, Sukyoung Ryu, KC Sivaramakrishnan</td>
+  </tr>
+    <tr>
     <td><a href="https://pldi25.sigplan.org">PLDI 2025</a></td>
     <td>Steve Blackburn, Işıl Dillig, Nate Foster, Sukyoung Ryu, Manu Sridharan</td>
   </tr>
@@ -180,9 +189,9 @@ CARES committee members may also attend other workshops and conferences sponsore
 
 ### SIGPLAN CARES Reports
 
-### 2024:
+### 2025:
 
-This is the fifth annual report from the SIGPLAN CARES committee---a committee established to listen to and support folks in the programming languages community who experience or witness discrimination, harassment, or other violations of the ACM's code of conduct or ethics.
+This is the sixth annual report from the SIGPLAN CARES committee---a committee established to listen to and support folks in the programming languages community who experience or witness discrimination, harassment, or other violations of the ACM's code of conduct or ethics.
 
 **What CARES does.**   CARES is dedicated to providing completely confidential support to members of the programming language community.  We listen to members who come to us for advice or who just want to talk. If they would like advice on what kinds of actions they can take, we do our best to provide such advice.  
 
@@ -190,15 +199,16 @@ This is the fifth annual report from the SIGPLAN CARES committee---a committee e
 
 As a result, our annual reports are brief.  They do not contain details about the types of contacts that CARES members have made and they do not even contain specific numbers of contacts.  The reports are structured this way to protect the privacy of those that approach us.  
 
-#### What happened in 2024
+#### What happened in 2025
 
-In 2024, individual SIGPLAN CARES committee members were contacted confidentially by between 1 and 5 community members throughout the year.  Such contacts sometimes led to extended conversations.  
+In 2025, individual SIGPLAN CARES committee members were contacted confidentially by between 1 and 5 community members throughout the year.  Such contacts sometimes led to extended conversations.  
 
-Members of the CARES committee represented CARES at three conferences in 2024, namely POPL 2024, PLDI 2024, and ICFP 2024.  Attendance specifics are listed on the CARES website. The presence of CARES was advertised at the opening of the conference through the general chair’s presentation. 
+Members of the CARES committee represented CARES at four conferences in 2025, namely POPL 2025, PLDI 2025, ICFP 2025, and SPLASH 2025.  Attendance specifics are listed on the CARES website. The presence of CARES was advertised at the opening of the conference through the general chair’s presentation. 
 
 We have received open, public feedback from a number of members of the community expressing the fact that they appreciate the creation of the committee---they view it as a sign that the programming languages community takes community climate and our code of conduct seriously.  The fact the committee has received confidential contacts is also evidence that the community would like mechanisms to discuss matters of harassment, discrimination, or ethics in private. 
 ### Older Reports
 
+* [2024 Report](report2024)
 * [2023 Report](report2023)
 * [2022 Report](report2022)
 * [2021 Report](report2021)
@@ -209,15 +219,11 @@ We have received open, public feedback from a number of members of the community
 <table style="width:100%" border="0">
 <tr>
    <td><img src="http://sigplan.org/images/cares-photos/ryu.png" alt="Sukyoung Ryu" width="156"><br><a href="https://plrg.kaist.ac.kr/ryu">Sukyoung Ryu</a> (she/her)</td>
-   <td>Co-Chair, <a href="mailto:sryu.cs@kaist.ac.kr">sryu.cs@kaist.ac.kr</a>, KAIST, Jan 2021-</td>
+   <td>Co-Chair, <a href="mailto:sryu.cs@kaist.ac.kr">sryu.cs@kaist.ac.kr</a>, KAIST, Jan 2021- (co-chair 2024-2027)</td>
   </tr> 
-<tr>
-   <td><img src="http://sigplan.org/images/cares-photos/silva.png" alt="Alexandra Silva"  width="156"><br><a href="https://www.alexandrasilva.org/#/main.html">Alexandra Silva</a> (she/her)</td>
-   <td>Co-Chair, <a href="mailto:alexandra.silva@cornell.edu">alexandra.silva@cornell.edu</a>, Cornell University, Jan 2020-</td>
-</tr>
     <tr>
    <td><img src="http://sigplan.org/images/cares-photos/steve.jpg" alt="Steve Blackburn"  width="156"><br><a href="https://www.steveblackburn.org">Steve Blackburn</a> (he/him)</td>
-   <td>Member, <a href="mailto:steve.blackburn@anu.edu.au">steve.blackburn@anu.edu.au</a>, Google Deepmind and ANU, Jan 2024-</td>
+   <td>Co-Chair, <a href="mailto:steve.blackburn@anu.edu.au">steve.blackburn@anu.edu.au</a>, Google Deepmind and ANU, Jan 2024- (co-chair 2026-2029)</td>
   </tr> 
  <tr>
    <td><img src="../images/cares-photos/chang.jpg" alt="Bor-Yuh Evan Chang" width="156"><br><a href="https://plv.colorado.edu/bec/">Bor-Yuh Evan Chang</a> (he/him)</td>
@@ -243,6 +249,10 @@ We have received open, public feedback from a number of members of the community
    <td><img src="../images/cares-photos/igarashi.jpg" alt="Atsushi Igarashi" width="156"><br><a href="https://www.fos.kuis.kyoto-u.ac.jp/~igarashi/index.html.en">Atsushi Igarashi</a> (he/him)</td>
    <td>Member, <a href="mailto:igarashi@kuis.kyoto-u.ac.jp">igarashi@kuis.kyoto-u.ac.jp</a>, Kyoto University, Oct 2022-</td>
   </tr> 
+<tr>
+   <td><img src="http://sigplan.org/images/cares-photos/silva.jpeg" alt="Alexandra Silva"  width="156"><br><a href="https://www.alexandrasilva.org/#/main.html">Alexandra Silva</a> (she/her)</td>
+   <td>Member, <a href="mailto:alexandra.silva@cornell.edu">alexandra.silva@cornell.edu</a>, Cornell University, Jan 2020- (co-chair 2022-2025) </td>
+</tr>
  <tr>
    <td><img src="../images/cares-photos/sivaramakrishnan.jpg" alt="KC Sivaramakrishnan" width="156"><br><a href="https://kcsrk.info">KC Sivaramakrishnan</a> (he/him)</td>
    <td>Member, <a href="mailto:kc@kcsrk.info">kc@kcsrk.info</a>, Indian Institute of Technology, Madras, Jul 2025-</td>
@@ -251,9 +261,9 @@ We have received open, public feedback from a number of members of the community
    <td><img src="http://sigplan.org/images/cares-photos/sridharan.jpg" alt="Manu Sridharan"  width="156"><br><a href="https://manu.sridharan.net">Manu Sridharan</a> (he/his)</td>
    <td>Member, <a href="mailto:manu@cs.ucr.edu">manu@cs.ucr.edu</a>, University of California, Riverside, Dec 2024-</td>
   </tr> 
-<tr>
-   <td><img src="http://sigplan.org/images/cares-photos/weirich.png" alt="Stephanie Weirich"  width="156"><br><a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a> (she/her)</td>
-   <td>Member, <a href="mailto:sweirich@cis.upenn.edu">sweirich@cis.upenn.edu</a>, University of Pennsylvania, Jan 2020-</td>
+ <tr>
+   <td><img src="http://sigplan.org/images/cares-photos/steve2017.jpg" alt="Steve Zdancewic"  width="156"><br><a href="https://www.cis.upenn.edu/~stevez">Steve Zdancewic</a> (he/his)</td>
+   <td>Member, <a href="mailto:stevez@seas.upenn.edu">stevez@seas.upenn.edu</a>, University of Pennsylvania, Feb 2026-</td>
   </tr> 
  </table>  
  

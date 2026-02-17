@@ -17,7 +17,7 @@ title: "Former SIGPLAN CARES Committee Members"
    <td><a href="mailto:simon.peytonjones@gmail.com">simon.peytonjones@gmail.com</a>, Epic Games, Jan 2020-Dec 2024</td>
   </tr>
  <tr>
-   <td><img src="../images/cares-photos/keller.jpeg" alt="Gabriele Keller" width="156"><br><a href="https://www.uu.nl/staff/GKKeller">Gabriele Keller</a></td>
+   <td><img src="http://sigplan.org/images/cares-photos/keller.jpeg" alt="Gabriele Keller" width="156"><br><a href="https://www.uu.nl/staff/GKKeller">Gabriele Keller</a></td>
    <td><a href="mailto:g.k.keller@uu.nl">g.k.keller@uu.nl</a>, Utrecht University, Oct 2021-Jun 2025</td>
   </tr> 
  <tr>
@@ -30,12 +30,16 @@ title: "Former SIGPLAN CARES Committee Members"
   </tr> 
  <tr>
    <td><img src="http://sigplan.org/images/cares-photos/strout.png" alt="Michelle Strout"  width="156"><br><a href="http://cgi.cs.arizona.edu/~mstrout/">Michelle Strout</a> (she/her)</td>
-   <td><a href="mailto:michelle.strout@hpe.com">michelle.strout@hpe.com</a>, HPE and University of Arizona, Jan 2020-Jun 2025</td>
+   <td><a href="mailto:michelle.strout@hpe.com">michelle.strout@hpe.com</a>, HPE and University of Arizona, Jan 2020-Jun 2025 (co-chair 2021-2024)</td>
   </tr> 
     <tr>
    <td><img src="http://sigplan.org/images/cares-photos/walker.png" alt="David Walker" width="156"><br><a href="https://www.cs.princeton.edu/~dpw/">David Walker</a> (he/him)</td>
-   <td><a href="mailto:dpw@cs.princeton.edu">dpw@cs.princeton.edu</a>, Princeton University, Nov 2019-Dec 2024 (founder co-chair 2019-2021) </td>
+   <td><a href="mailto:dpw@cs.princeton.edu">dpw@cs.princeton.edu</a>, Princeton University, Nov 2019-Dec 2024 (founder co-chair 2019-2022) </td>
   </tr>
+<tr>
+   <td><img src="http://sigplan.org/images/cares-photos/weirich.png" alt="Stephanie Weirich"  width="156"><br><a href="https://www.cis.upenn.edu/~sweirich/">Stephanie Weirich</a> (she/her)</td>
+   <td><a href="mailto:sweirich@cis.upenn.edu">sweirich@cis.upenn.edu</a>, University of Pennsylvania, Jan 2020-Dec 2025</td>
+  </tr> 
   <tr>
    <td><img src="http://sigplan.org/images/cares-photos/wu.png" alt="Peng Wu" width="156"><br><a href="https://pengwu.wordpress.com/">Peng Wu</a> (she/her)</td>
    <td><a href="mailto:pengwu@fb.com">pengwu@fb.com</a>, Facebook, Jan 2020-Dec 2023 </td>
