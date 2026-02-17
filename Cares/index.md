@@ -257,6 +257,10 @@ We have received open, public feedback from a number of members of the community
    <td><img src="http://sigplan.org/images/cares-photos/sridharan.jpg" alt="Manu Sridharan"  width="156"><br><a href="https://manu.sridharan.net">Manu Sridharan</a> (he/his)</td>
    <td>Member, <a href="mailto:manu@cs.ucr.edu">manu@cs.ucr.edu</a>, University of California, Riverside, Dec 2024-</td>
   </tr> 
+ <tr>
+   <td><img src="http://sigplan.org/images/cares-photos/steve2017.jpg" alt="Steve Zdancewic"  width="156"><br><a href="https://www.cis.upenn.edu/~stevez">Steve Zdancewic</a> (he/his)</td>
+   <td>Member, <a href="mailto:stevez@seas.upenn.edu">stevez@seas.upenn.edu</a>, University of Pennsylvania, Feb 2026-</td>
+  </tr> 
  </table>  
  
  * [Previous Members](previous)
