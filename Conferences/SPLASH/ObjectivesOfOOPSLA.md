@@ -36,7 +36,7 @@ There is a **SPLASH SC** (splash-sc@googlegroups.com) and, created in the afterm
 - Actively seek out women academics by going through CS departments and previous author lists to increase diversity.
 - Officially, there is a **vetting process by the SC**: you cannot just invite people directly. The SC must first approve your nominations (less to scrutinize every choice, more to check for people who have been sanctioned, etc.). In addition, **SIGPLAN also needs to approve**. Bake time into your schedule for this.
 - OOPSLA is in intense competition with other conferences for RC members. **Get your RC invites out early.**
-- A very private document restricted to RC chairs only is maintained with notes on the [selection of ACs as potential future RC candidates](https://docs.google.com/document/d/1dLwtgmwPpUjFO0wMqvp3-PjrtBQyhMW6j7ohjgBc5xs/edit?tab=t.0#heading=h.wo3dq7se1417). Consult this when forming your RC.
+- A very private document restricted to RC chairs only is maintained with notes on the selection of Associate Editors (AEs) as potential future RC candidates. Consult this internal document on the SPLASH Google Drive (or via the SPLASH/OOPSLA SC) when forming your RC.
 
 ## Choosing Associate Editors
 
