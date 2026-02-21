@@ -31,7 +31,7 @@ The current SPLASH steering committee is:
 
 **Documents on How to Run SPLASH/OOPSLA Conferences**
 
-   * [OOPSLA](/Conferences/SPLASH/HowToOOPSLA)
+   * [OOPSLA](/Conferences/SPLASH/ObjectivesOfOOPSLA)
    * [SPLASH](/Conferences/SPLASH/HowToSPLASH)
 
 **SPLASH Steering Committee Representatives for SIGPLAN Awards**

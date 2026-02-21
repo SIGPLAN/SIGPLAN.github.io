@@ -16,13 +16,17 @@ The scope of OOPSLA includes all aspects of programming languages and software e
 
 OOPSLA papers are published in the PACMPL, which [states in its procedures under governance](https://sigplan.org/PACMPL/) that "authors of all accepted papers are encouraged (but not required) to present their work at the corresponding conference". To maximise the in-person experience, we ask all the authors who choose to present their work at the conference to do so **fully in person** by attending the conference and registering for the full 3-day OOPSLA event. We are currently unable to support remote participation, and we suggest that the authors explore the optional "SIGPLAN Track" that is provided by some of the SIGPLAN conferences to allow the recent PACMPL published work to be presented in person for the first time.
 
+**OOPSLA Policy on General Chair Submissions**
+
+The SPLASH General Chair is permitted to submit papers to OOPSLA. However, a General Chair who submits must not be involved in the reviewing process in any way, including selecting RC chairs directly, overseeing the review of papers, or serving in any review-chair-like role (e.g., assisting with reviewer assignments or acting as an admin on the submission system). The RC chairs should ensure that a non-conflicted Associate Chair handles any paper involving the General Chair. This policy is supported in part by the fact that OOPSLA now has two RC co-chairs, which makes it easier to manage such conflicts fairly. Note that the [SIGPLAN Guidelines for the General Chair](/Resources/Guidelines/GenChair/) recommend that the General Chair not submit, but the OOPSLA Steering Committee has determined that submission is allowed provided the conditions above are met.
+
 **Most Influential OOPSLA Paper Award**
 
 Each year a "Most Influential" OOPSLA paper is chosen and an presentation is made at OOPSLA. More details about this award and past winning papers can be found [here](/Awards/OOPSLA/). SIGPLAN also makes several other awards including an "Outstanding Dissertation Award." Please consider making a nomination for one of these awards.&#160; More details about the SIGPLAN awards can be found [here](/Awards/).
 
 **Documents on How to Run SPLASH/OOPSLA Conferences**
 
-   * [OOPSLA](/Conferences/SPLASH/HowToOOPSLA)
+   * [OOPSLA](/Conferences/SPLASH/ObjectivesOfOOPSLA)
    * [SPLASH](/Conferences/SPLASH/HowToSPLASH)
 
 Web Pages of Previous Conferences
