@@ -24,4 +24,4 @@ General Chairs should include recording costs in their conference budget.
 
 ## Speaker notification
 
-Speakers should be informed in advance and their consent should be sought as per the ACM requirements: in the call for papers and in the acceptance notification, that their talks will be recorded and published on the SIGPLAN YouTube channel. Speakers with concerns should contact the General Chair to discuss accommodations.
+Speakers should be informed in advance, and their consent should be sought in accordance with ACM requirements. This information and consent request should appear in both the call for papers and the acceptance notification, stating that their talks will be recorded and published on the SIGPLAN YouTube channel. Speakers with concerns should contact the General Chair to discuss accommodations.
