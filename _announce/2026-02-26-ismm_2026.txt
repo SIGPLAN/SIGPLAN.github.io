@@ -1,0 +1,87 @@
+---
+title: "Call for Papers, 2026 ACM SIGPLAN International Symposium on Memory Management (ISMM 2026)"
+timestamp: "2/26/2026 18:53:34"
+deadline: "3/27/2026"
+---
+2026 ACM SIGPLAN International Symposium on Memory Management (ISMM 2026)
+https://conf.researchr.org/home/ismm-2026
+
+Continuing from ISMM 2024, we are excited to announce the continued, expanded scope of ISMM this year to encourage submissions and participation from related fields such as computer architecture and computer systems in addition to our core PL community!
+
+ISMM 2026 will be co-located with PLDI 2026.
+
+## Important Dates
+
+Submission Deadline: March 27, 2026
+Author Response Period: April 27 - May 1, 2026
+Author Notification: May 4, 2026
+Symposium: June 15 - June 19, 2026
+
+## Paper Categories
+
+The 2026 ACM SIGPLAN International Symposium on Memory Management (ISMM 2026) is soliciting full-length submissions covering new work on all memory management related topics in both software and hardware (and their cooperation), as well as papers presenting confirmations or refutations of important prior results. In addition to regular papers, traditionally submitted to ISMM, we also invite submissions of the following kinds:
+
+  * Surveys and comparative analyses that shed new light on previously published techniques.
+  * Practitioner reports, describing experience with memory management in production. Such papers are not expected to provide novel research contributions, but they should not have been previously published.
+  * Intellectual abstracts, where researchers share designs, algorithms, or theory that may be interesting to the memory management community, but not yet evaluated.
+
+## Area of Interest
+
+Areas of interest include but are not limited to (in no particular order):
+
+  * Garbage collection algorithms and implementations
+  * Memory allocation and de-allocation
+  * Memory system design and analysis (both software and hardware)
+  * Hardware support for memory management
+  * Memory management for large-scale data-intensive systems
+  * Memory management at datacenter and cloud scales
+  * Formal analysis and verification of memory management algorithms
+  * Compiler analyses to aid memory management
+  * Tools to analyze memory usage and characteristics of programs
+  * Empirical analysis of memory intensive programs
+  * Formal analysis and verification of memory intensive programs
+  * Memory management for machine learning systems
+  * Programming and management of emerging or persistent memories
+  * Caches, memory controllers, memory hierarchies (e.g., CXL) and their management
+  * Cache coherence and memory consistency
+  * Processing in memory (including processing near and using memory)
+  * Memory technology and architecture (SRAM, DRAM, flash, NVM, emerging technologies)
+  * Security and privacy of memory systems
+  * Robustness of memory systems
+  * Low-latency and low-energy memory systems
+
+The symposium welcomes industry practitioners presenting their recent practice and findings in memory management related to real-world deployments.
+
+## Submission Link
+
+https://ismm26.hotcrp.com
+
+## Organizers
+
+General Chair: Matthew J. Parkinson (Microsoft Azure Research)
+Program Co-chair: Tomoharu Ugawa (University of Tokyo)
+Program Co-chair: Jung Ho Ahn (Seoul National University)
+
+## Program Committee
+
+A. Giray Yaglikci (CISPA)
+Antony Hosking (ANU)
+Babak Falsafi (EPFL)
+Boris Grot (University of Edinburgh)
+Christoph Kirsch (University of Salzburg, Austria and Czech Technical University, Prague, Czechia)
+Christos Kotselidis (University of Manchester, UK)
+Dimi Racordon (HES-SO Valais/Wallis)
+Hans-J. Boehm (Google)
+Houxiang Ji (SK hynix America)
+Jeremy Singer (University of Glasgow)
+Jung Ho Ahn (Seoul National University)
+Laurence Tratt (King's College London)
+Marc Feeley (Université de Montréal)
+Maria Carpen-Amarie (Huawei (Zurich))
+Mingyu Gao (Tsinghua University)
+Richard Jones (University of Kent)
+Sara Hamouda (Canva)
+Soramichi Akiyama (Ritsumeikan University)
+Takahiro Shinagawa (university of Tokyo)
+Tetsuro Yamazaki (University of Tokyo)
+Tomoharu Ugawa (University of Tokyo)

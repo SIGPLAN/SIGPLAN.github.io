@@ -1,0 +1,144 @@
+---
+title: "VSTTE 2026: First Call for Papers and WIP Presentations"
+timestamp: "3/6/2026 4:53:12"
+deadline: "7/17/2026"
+---
+18th International Conference on Verified Software: Theories, Tools, and Experiments
+
+14 September, 2026, Graz, Austria
+
+Co-located with Formal Methods in Computer-Aided Design 2026 (FMCAD 2026)
+
+
+
+Key Information
+
+Conference Website: https://fmcad.org/FMCAD26/vstte/
+
+Important Dates:
+
+Abstract submission: July 10th, 2026 AoE
+Paper submission: July 17th, 2026 AoE
+Notification of acceptance: August 22nd, 2026 AoE (tentative)*
+Final pre-conference paper submission (optional): September 2nd, 2026 AoE (tentative)
+Camera-ready for papers included in post-conference proceedings: October 23, 2026 (tentative)
+
+* Authors of accepted papers at VSTTE 2026 will be able to register at early-bird rates for FMCAD/VSTTE.
+
+
+Overview
+
+The goal of the VSTTE conference series is to advance the state of the art in
+the science and technology of software verification, through the interaction
+of theory development, tool evolution, and experimental validation.
+The Verified Software Initiative (VSI), spearheaded by Tony Hoare and Jayadev
+Misra, is an ambitious research program for making large-scale verified
+software a practical reality. The International Conference on Verified
+Software: Theories, Tools and Experiments (VSTTE) is the main forum for
+advancing the initiative. VSTTE brings together experts spanning the spectrum
+of software verification in order to foster international collaboration on the
+critical research challenges. The theoretical work includes semantic
+foundations and logics for specification and verification, and verification
+algorithms and methodologies. The tools cover specification and annotation
+languages, program analyzers, model checkers, interactive verifiers and proof
+checkers, automated theorem provers and SAT/SMT solvers, and integrated
+verification environments. The experimental work drives the research agenda
+for theory and tools by taking on significant specification/verification
+exercises covering hardware, operating systems, compilers, computer security,
+parallel computing, and cyber-physical systems.
+
+
+
+Call for Papers and WIP Presentations
+
+VSTTE 2026 welcomes submissions describing significant advances in the
+production of verified software, i.e. software that has been proved to meet
+its functional specifications. Submissions of theoretical, practical, and
+experimental contributions are equally encouraged, including those that focus
+on specific problems or problem domains. We are especially interested in
+submissions describing large-scale verification efforts that involve
+collaboration, theory unification, tool integration, and formalized domain
+knowledge. We also welcome papers describing novel experiments and case
+studies evaluating verification techniques and technologies.
+
+Following its success in VSTTE 2025, we also welcome submissions on in-progress
+verified software projects to a “work-in-progress (presentation-only)” track.
+Work-in-progress contributions will not appear in the post-proceedings of the
+conference. Submissions describing work of interest to the software
+verification community, but that could not be accepted for publication in the
+conference proceedings, may be invited to the “work-in-progress (presentation-
+only)” track, on a case-by-case basis.
+
+Topics of interest for this conference include, but are not limited to,
+requirements modeling, specification languages, specification/verification/
+certification case studies, formal calculi, software design methods, automatic
+code generation, refinement methodologies, compositional analysis,
+verification tools (e.g., static analysis, dynamic analysis, model checking,
+theorem proving, satisfiability), tool integration, benchmarks, challenge
+problems, and integrated verification environments.
+
+
+
+Paper Submissions:
+
+VSTTE 2026 accepts both long (limited to 16 pages, excluding references) and
+short (limited to 10 pages, excluding references) paper submissions. Short
+submissions also cover “verification pearls” describing an elegant proof or
+proof technique. Submitted research papers and system descriptions must be
+original and not submitted for publication elsewhere.
+
+Papers must be submitted via EasyChair at the VSTTE 2026 conference submission
+page: https://easychair.org/conferences/?conf=vstte2026.
+
+The use of LaTeX and the Springer LNCS class files is strongly encouraged.
+
+Submissions that are not in the proper format or are too long will not be considered.
+
+Accepted regular-track papers will be included in the post-conference
+proceedings of VSTTE 2026, which will be published as a LNCS volume by
+Springer Verlag. Authors of those papers will have to transfer copyright of
+their contribution to Springer Verlag.
+
+
+Invited speakers
+Roderick Bloem (Graz University of Technology)
+Martin Jonáš (Masaryk University, Brno)
+Invited tutorial
+Daniela Kaufmann (TU Wien)
+Omri Isac (Hebrew University of Jerusalem)
+Chairs
+Steering Committee
+Supratik Chakraborty (IIT Bombay, India)
+Natarajan Shankar (SRI International)
+
+Program Chairs 
+Aina Niemetz (Stanford University)
+Yong Kiam Tan (Nanyang Technological University and A*STAR) 
+
+Program Committee
+
+Guy Amir (Cornell University)
+Dirk Beyer (LMU Munich)
+Roderick Bloem (Graz University of Technology)
+Mario Carneiro (Chalmers University of Technology)
+Emanuele D'Osualdo (University of Konstanz)
+Parasara Sridhar Duggirala (The University of North Carolina at Chapel Hill)
+Katalin Fazekas (TU Wien)
+Aymeric Fromherz (Inria Paris)
+Arie Gurfinkel (University of Waterloo)
+Jacques-Henri Jourdan (Université Paris-Saclay, CNRS, ENS Paris-Saclay, Laboratoire Méthodes Formelles)
+Daniela Kaufmann (TU Wien)
+Nian-Ze Lee (National Taiwan University)
+Jorge A Navas (Certora)
+Mathias Preiner (Stanford University)
+Mark Santolucito (Barnard College)
+Dominik Schreiber (Karlsruhe Institute of Technology)
+Roger Su (The Australian National University)
+Stefan Zetzsche (University College London)
+Tom van Dijk (University of Twente)
+Johannes Åman Pohjola (Chalmers University of Technology)
+
+
+(* Apologies if you receive multiple copies of this CFP)
+
+

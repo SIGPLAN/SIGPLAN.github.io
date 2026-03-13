@@ -1,0 +1,28 @@
+---
+title: "Call for Papers: EGRAPHS 2026 (Fifth Edition)"
+timestamp: "2/19/2026 14:00:44"
+deadline: "4/17/2026"
+---
+Call for Papers: EGRAPHS 2026 (Fifth Edition)
+
+The fifth EGRAPHS workshop brings together those working on and with e-graphs, providing a collaborative venue to share work that advances e-graphs as a broadly applicable technique in programming languages or other fields of computing.
+
+We invite submissions for talks broadly, including talks that may cover already published or in-progress work. Submissions should be in the form of a 2 to 6 page extended abstract that describes the key problems addressed and/or reusable insights from the proposed talk. Links to preprints, repos, demos, or other media are encouraged!
+
+We welcome submissions from academic, industrial, or independent researchers and practitioners. Talks are intended to foster discussion between members of the e-graph community. The program will include time for Q&A as well as open-ended discussion inspired by the talks.
+
+The symposium seeks papers on a diverse range of topics including (but not limited to):
+* e-graphs as data structures and their related algorithms
+* equality saturation and other e-graph based rewriting approaches
+* applications of e-graphs and/or equality saturation, whether in programming languages or other fields
+* tools/frameworks that facilitate the use of e-graphs and associated techniques
+* investigations into the human-facing aspects using e-graph-based toolkits including error reporting, debugging, and visualization
+* other frameworks for optimizing/analyzing programs in an equational manner
+
+**Important dates:**
+Submission deadline: April 17, 2026 AoE
+
+Workshop website (CFP + updates): https://pldi26.sigplan.org/home/egraphs-2026
+Submission link: https://egraphs2026.hotcrp.com/
+
+From the PLDI'26 Publicity Chairs on behalf of the EGRAPH'26 Chair
