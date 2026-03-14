@@ -18,4 +18,4 @@ Policies:
 - [Republication Policy](/Resources/Policies/Republication)
 - [Code of Conduct Policy](/Resources/Policies/CodeOfConduct)
 - [Conference Complimentary Registrations Policy](/Resources/Policies/ComplimentaryRegistrations)
-<!-- - [Policy on Errata and Academic Disputes](/Resources/Policies/ErrataAndAcademicDisputes) -->
+- [Video Recording Policy (DRAFT)](/Resources/Policies/VideoRecording)

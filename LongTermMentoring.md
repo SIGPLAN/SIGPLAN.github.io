@@ -89,7 +89,6 @@ We'd like to thank these amazing mentors, current and previous:
 - Jonathan DiLorenzo
 - Alastair Donaldson
 - Jana Dunfield
-- Sebastian Erdweg
 - Jason Hemann
 - Patrik Jansson
 - Konstantinos Kallas
@@ -105,6 +104,7 @@ We'd like to thank these amazing mentors, current and previous:
 - William Mansky
 - Mae Milano
 - Manasij Mukherjee
+- Michael Norrish
 - Kia Rahmani
 - Norman Ramsey
 - Talia Ringer
@@ -124,6 +124,7 @@ We'd like to thank these amazing mentors, current and previous:
 Retired:
 - Jonathan Aldrich
 - Pedro Da Costa Abreu
+- Sebastian Erdweg
 - Tobias Grosser
 - Kuen-Bang Hou (Favonia)
 - Ralf Jung

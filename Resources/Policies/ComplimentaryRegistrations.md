@@ -30,3 +30,4 @@ To clarify further:
    * Other events, such as workshops, do not receive complimentary registrations. If they want to fund registrations, they must seek their own sponsorship to do so outside of the conference budget.
    * All other organizing committee members are not currently provided with any funding from the conference budget.
    * No Steering Committee chairs or members can be funded out of conference budget.
+   * Any additional complimentary registrations beyond those listed above can only be issued with an approval from the SIGPLAN Executive Committee (via the SIGPLAN Treasurer).
