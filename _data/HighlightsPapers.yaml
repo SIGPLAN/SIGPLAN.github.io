@@ -1,3 +1,66 @@
+Selected March 2026:
+
+- Title: "_[Multiverse Notebook: Shifting Data Scientists to Time Travelers](https://dl.acm.org/doi/10.1145/3649838)_"
+  Authors: "Shigeyuki Sato (The University of Electro-Communications), Tomoki Nakamaru (The University of Tokyo)"
+  Venue: OOPSLA 2024
+  NominationStatement: |
+    Computational notebooks like Jupyter are the de facto standard for data
+    science programming, yet they are notorious for hidden state and
+    irreproducible results. This paper identifies the root cause: data
+    scientists routinely backtrack to earlier points in a notebook and patch
+    their code, but doing so without re-executing everything is unsafe: an
+    empirical study on Kaggle shows that around 11% of such revisions silently
+    produce wrong results. The paper then introduces Multiverse Notebook, a
+    notebook engine that lets users safely time-travel to any past cell state
+    and branch off with new code, using POSIX fork for cell-wise checkpointing
+    and an aggressive tenuring strategy that makes CPython's garbage collector
+    copy-on-write-friendly. Evaluated on ten real-world Kaggle explorations, the
+    approach matches or beats manual selective re-execution in wall-clock time
+    while guaranteeing consistency. The work described in this paper is a nice
+    example of applying systems and PL techniques, such as dynamic patching,
+    checkpointing, and memory management, to a tool that millions of people use
+    daily.
+
+- Title: "_[Snapshottable Stores](https://dl.acm.org/doi/10.1145/3674637)_"
+  Authors: "Clément Allain (Inria), Basile Clément (OCamlPro), Alexandre Moine (Inria), Gabriel Scherer (Université Paris Cité, Inria, CNRS, IRIF)"
+  Venue: ICFP 2024
+  NominationStatement: |
+    Backtracking is a common technique in type checkers, theorem provers, and
+    constraint solvers, yet adding it to an existing imperative data structure
+    typically means either a full copy on each snapshot (expensive when
+    snapshots are frequent) or switching to persistent maps (a logarithmic
+    overhead on every access, paid even when no backtracking occurs). This paper
+    presents a snapshottable store---a bag of mutable references whose state can
+    be efficiently captured and restored---that avoids both pitfalls. The key
+    idea, extending a 1978 technique by Baker, is a journaled version tree where
+    the current state lives in ordinary references and past states are recovered
+    by replaying a log. A "record elision" optimisation ensures that reads and
+    writes cost essentially the same as plain references when snapshots are
+    infrequent, making the library a safe default even when backtracking is
+    rare. The implementation is short, subtle, and mechanically verified in Rocq
+    using Iris. The paper takes a simple, useful idea, works out the engineering
+    and correctness details thoroughly, and presents the result with clarity and
+    good taste.
+
+
+- Title: "_[Implementation and Synthesis of Math Library Functions](https://dl.acm.org/doi/10.1145/3632874)_"
+  Authors: "Ian Briggs (University Of Utah), Yash Lad (University Of Utah), Pavel Panchekha (University Of Utah)"
+  Venue: POPL 2024
+  NominationStatement: |
+    Math library functions like `exp`, `sin`, and `log` are critical
+    infrastructure, yet implementing them well requires rare expertise. This
+    paper introduces MegaLibm, a domain-specific language whose type system
+    catches mathematical mistakes at compile time, whose compositional design
+    allows complex algorithms to be built from simple, verifiable pieces, and
+    whose tuning parameters separate high-level design from low-level precision
+    choices. Its type-directed synthesis algorithm using e-graphs can generate
+    complete implementations from scratch. MegaLibm replicates 8
+    state-of-the-art implementations in far less code, produces improved
+    variations, and even uncovers a bug in VDT's cosine. The paper is a nice
+    example of applying Programming Lanugage ideas, such as typing,
+    compositionality, and synthesis, opening up a domain that has long been
+    inaccessible to non-specialists.
+
 Selected February 2025:
 
 - Title: "_[A Grounded Conceptual Model for Ownership Types in Rust](https://dl.acm.org/doi/10.1145/3622841)_"
@@ -17,7 +80,7 @@ Selected February 2025:
     Overall, the paper follows scientific principles and introduces
     the PL community to an original and effective way to study a
     language usability problem.
-
+  CACMSelection: true
 
 - Title: "_[Dynamic Race Detection with O(1) Samples](https://dl.acm.org/doi/10.1145/3571238)_"
   Authors: "Mosaad Al Thokair (University of Illinois at Urbana-Champaign), Minjian Zhang (University of Illinois at Urbana-Champaign), Umang Mathur (National University of Singapore), Mahesh Viswanathan (University of Illinois at Urbana-Champaign)"
@@ -43,6 +106,7 @@ Selected February 2025:
     The use of sampling to improve the performance of a data race
     detector has been previously explored, but this work extends and
     analyzes that idea.
+  CACMSelection: true  
 
 - Title: "_[Catala: a Programming Language for the Law](https://dl.acm.org/doi/10.1145/3473582)_"
   Authors: "Denis Merigoux (INRIA), Nicolas Chataing (ENS Paris), Jonathan Protzenko (Microsoft Research)"
@@ -71,6 +135,7 @@ Selected February 2025:
     paper is extremely well written and accessible. Egg has already
     been quite influential, which numerous follow-on papers,
     industrial adoption, an annual workshop, and a growing community.
+  CACMSelection: true
 
 Selected September 2021:
 
@@ -88,7 +153,15 @@ Selected September 2021:
     reuse properly for the first time. As a result we can enjoy elegance, and
     state-of-the-art performance, both at the same time. Sometimes we can have
     our cake and eat it too.
-  CACMSelection: true
+  CACMHighlight:
+    Date: March 2023
+    Title: "Achieving High Performance the Functional Way: Expressing High-Performance Optimizations as Rewrite Strategies"
+    Link: https://dl.acm.org/doi/abs/10.1145/3580371
+    TechnicalPerspective:
+      Title: 'Reconsidering the Design of User-Schedulable Languages'
+      Link: https://dl.acm.org/doi/10.1145/3580370
+      Author: Jonathan Ragan-Kelley
+
 
 - Title: "_[Learning-based Memory Allocation for C++ Server Workloads](https://dl.acm.org/doi/10.1145/3373376.3378525)_"
   Authors: "Martin Maas (Google), David Andersen (CMU), Michael Isard (Google), Mohammad Mahdi (Facebook), Kathryn S McKinley (Google), Colin Raffel (University of North Carolina)"
@@ -149,7 +222,14 @@ Selected September 2021:
     interest, which demonstrates for the first time that one can obtain
     deterministic certificates on properties of the training phase of
     realistic machine learning models.
-  CACMSelection: true
+  CACMHighlight:
+    Date: January 2023
+    Title: "Proving Data-Poisoning Robustness in Decision Trees"
+    Link: https://dl.acm.org/doi/abs/10.1145/3576894
+    TechnicalPerspective:
+      Title: 'Beautiful Symbolic Abstractions for Safe and Secure Machine Learning'
+      Link: https://dl.acm.org/doi/10.1145/3576893
+      Author: Martin Vechev
 
 Selected July 2020:
 
