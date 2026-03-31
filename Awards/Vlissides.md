@@ -1,20 +1,7 @@
 ---
 layout: award
-title: Other Awards at SIGPLAN-sponsored Events
+title: John Vlissides Award
 ---
-
-A number of awards are regularly presented at SIGPLAN-sponsored events, but are
-not awarded directly by SIGPLAN.
-
-## ASPLOS Most Influential Paper Award
-
-The ASPLOS Most Influential Paper Award recognizes a historical ASPLOS paper
-that has had major influence on the field. The Program Committee nominates
-highly influential papers from any ASPLOS conference that occurred ten or more
-conferences ago, with the final selection being made by the ASPLOS Steering
-Committee.
-
-## John Vlissides Award
 
 In recognition of the contributions to computer science that John
 Vlissides made during his lifetime, SIGPLAN has established the

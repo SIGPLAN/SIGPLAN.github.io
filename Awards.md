@@ -74,6 +74,8 @@ respective conference.
 -   [Most Influential PLDI Paper](/Awards/PLDI)
 -   [Most Influential ICFP Paper](/Awards/ICFP)
 -   [Most Influential OOPSLA Paper](/Awards/OOPSLA)
+-   [Most Influential ASPLOS Paper (awarded by ACM SIGARCH, SIGPLAN, and SIGOPS)](https://www.sigarch.org/benefit/awards/acm-sigarch-sigplan-sigops-asplos-influential-paper-award/)
+
 
 **ACM Fellows**  
 The programming language community has many members who are [ACM
