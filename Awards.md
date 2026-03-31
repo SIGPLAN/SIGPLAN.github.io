@@ -60,6 +60,9 @@ The
 annually to the author of the outstanding doctoral dissertation in
 the area of Programming Languages.
 
+**John Vlissides Award**
+The [John Vlissides Award](/Awards/Vlissides) is presented annually to a doctoral student participating in the OOPSLA Doctoral Symposium showing significant promise in applied software research. 
+
 **Most Influential Paper Awards**  
 SIGPLAN presents these awards to the author(s) of a paper presented at
 the POPL, PLDI, ICFP, and OOPSLA held 10 years prior to the award
