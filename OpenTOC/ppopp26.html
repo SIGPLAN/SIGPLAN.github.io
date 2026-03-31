@@ -1,0 +1,1827 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>PPoPP '26: Proceedings of the 31st ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>PPoPP '26: Proceedings of the 31st ACM SIGPLAN Annual Symposium on Principles and Practice of
+               Parallel Programming</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3774934"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Concurrency Control</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786439">Binary Compatible Critical Section Delegation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Junyao Zhang</li>
+               <li class="nameList">Zhuo Wang</li>
+               <li class="nameList Last">Zhe Zhou</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>In high-performance applications, critical sections often become performance bottlenecks
+                     due to contention among multiple cores. Critical section delegation mitigates this
+                     overhead by consistently executing critical sections on the same core, thereby reducing
+                     contention. Traditional delegation techniques, however, typically require manual code
+                     refactoring, which limits their practicality and adoption. More recent schemes that
+                     integrate with existing lock APIs have lowered this barrier, but delegating unsupported
+                     critical sections can still cause undefined behavior, including crashes.  
+                     </p>
+                  
+                  <p>
+                     
+                     To make delegation broadly accessible—even for end-users without access to or knowledge
+                     of source code, we introduce BCD, a binary-compatible delegation mechanism. BCD leverages
+                     kernel support to delegate userspace critical sections at the point of futex_wake.
+                     It employs an in-kernel virtual machine to supervise the execution of delegated userspace
+                     instructions, eliminating the need for binary modification. Crucially, BCD can detect
+                     and safely exclude unsupported critical sections, preserving correctness. This enables
+                     existing applications to transparently benefit from critical section delegation, without
+                     requiring developer intervention.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786443">Hapax Locks: Scalable Value-Based Mutual Exclusion</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Dave Dice</li>
+               <li class="nameList Last">Alex Kogan</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>We present Hapax Locks, a novel locking algorithm that is simple, enjoys constant-time arrival and unlock
+                     paths, provides FIFO admission order, and which is also space efficient and generates
+                     relatively little coherence traffic under contention in the common case. Hapax Locks
+                     offer performance (both latency and scalability) that is comparable with the best
+                     state of the art locks, while at the same time Hapax Locks impose fewer constraints
+                     and dependencies on the ambient runtime environment, making them particularly easy
+                     to integrate or retrofit into existing systems or under existing lock application
+                     programming interfaces.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786455">Fixing Non-blocking Data Structures for Better Compatibility with Memory Reclamation
+                  Schemes</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Md Amit Hasan Arovi</li>
+               <li class="nameList Last">Ruslan Nikolaev</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>We present a new technique, Safe Concurrent Optimistic Traversals (SCOT), to address
+                     a well-known problem related to optimistic traversals with classical and more recent
+                     safe memory reclamation (SMR) schemes, such as Hazard Pointers (HP), Hazard Eras (HE),
+                     Interval-Based Reclamation (IBR), and Hyaline. Unlike Epoch-Based Reclamation (EBR),
+                     these (robust) schemes protect against stalled threads but lack support for well-known
+                     data structures with optimistic traversals, e.g., Harris' list and the Natarajan-Mittal
+                     tree. Such schemes are either incompatible with them or need changes with performance
+                     trade-offs (e.g., the Harris-Michael list). 
+                     </p>
+                  
+                  <p>
+                     SCOT keeps existing SMR schemes intact and retains performance benefits of original
+                     data structures. We implement and evaluate SCOT with Harris' list and the Natarajan-Mittal
+                     tree, but it is also applicable to other data structures. Furthermore, we provide
+                     a simple modification for wait-free traversals. We observe similar performance speedups
+                     (e.g., Harris vs. Harris-Michael lists) that were previously available only to EBR
+                     users. Our version of the tree also achieves very high throughput, comparable to that
+                     of EBR, which is often treated as a practical upper bound.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786436">Multiverse: Transactional Memory with Dynamic Multiversioning</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Gaetano Coccimiglio</li>
+               <li class="nameList">Trevor Brown</li>
+               <li class="nameList Last">Srivatsan Ravi</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Software transactional memory (STM) allows programmers to easily implement concurrent
+                     data structures. STMs simplify atomicity. Recent STMs can achieve good performance
+                     for some workloads but they have some limitations. In particular, STMs typically cannot
+                     support long-running reads which access a large number of addresses that are frequently
+                     updated. Multiversioning is a common approach used to support this type of workload.
+                     However, multiversioning is often expensive and can reduce the performance of transactions
+                     where versioning is not necessary. 
+                     </p>
+                  
+                  <p>
+                     In this work we present Multiverse, a new STM that combines the best of both unversioned
+                     TM and multiversioning. Multiverse features versioned and unversioned transactions
+                     which can execute concurrently. A main goal of Multiverse is to ensure that unversioned
+                     transactions achieve performance comparable to the state of the art unversioned STM
+                     while still supporting fast versioned transactions needed to enable long running reads.
+                     
+                     </p>
+                  
+                  <p>
+                     We implement Multiverse and compare it against several STMs. Our experiments demonstrate
+                     that Multiverse achieves comparable or better performance for common case workloads
+                     where there are no long running reads. For workloads with long running reads and frequent
+                     updates Multiverse significantly outperforms existing STMS. In several cases for these
+                     workloads the throughput of Multiverse is several orders of magnitude faster than
+                     other STMs.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Scheduling and Load Balancing</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786451">Rethinking Thread Scheduling under Oversubscription: A User-Space Framework for Coordinating
+                  Multi-runtime and Multi-process Workloads</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Aleix Roca</li>
+               <li class="nameList Last">Vicenç Beltran</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The convergence of high-performance computing (HPC) and artificial intelligence (AI)
+                     is driving the emergence of increasingly complex parallel applications and workloads.
+                     These workloads often combine multiple parallel runtimes within the same application
+                     or across co-located jobs, creating scheduling demands that place significant stress
+                     on traditional OS schedulers. When oversubscribed (there are more ready threads than
+                     cores), OS schedulers rely on periodic preemptions to multiplex cores, often introducing
+                     interference that may degrade performance. In this paper, we present: (1) The User-space
+                     Scheduling Framework (USF), a novel seamless process scheduling framework completely
+                     implemented in user-space. USF enables users to implement their own process scheduling
+                     algorithms without requiring special permissions. We evaluate USF with its default
+                     cooperative policy, (2) SCHED_COOP, designed to reduce interference by switching threads
+                     only upon blocking. This approach mitigates well-known issues such as Lock-Holder
+                     Preemption (LHP), Lock-Waiter Preemption (LWP), and scalability collapse. We implement
+                     USF and SCHED_COOP by extending the GNU C library with the nOS-V runtime, enabling
+                     seamless coordination across multiple runtimes (e.g., OpenMP) without requiring invasive
+                     application changes. Evaluations show gains up to 2.4x in oversubscribed multi-process
+                     scenarios, including nested BLAS workloads, multi-process PyTorch inference with LLaMA-3,
+                     and Molecular Dynamics (MD) simulations.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786452">Waste-Efficient Work Stealing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Kyle Singer</li>
+               <li class="nameList">Kunal Agrawal</li>
+               <li class="nameList Last">Tao B. Schardl</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Although randomized work stealing is effective at automatically load-balancing task-parallel
+                     programs, it can waste computational resources when scheduling programs that lack
+                     sufficient parallelism to use all available threads. For such programs, threads will
+                     waste cycles attempting to steal parallel tasks when none are available. This waste
+                     can reduce the machine’s efficiency by wasting computational resources and energy
+                     and needlessly burdening the operating system. </p>
+                  <p>This paper introduces WEWS, a simple, practical, and provably efficient extension
+                     to randomized work stealing that mitigates waste. WEWS dynamically adjusts the number
+                     of active threads to reduce the waste of randomized work stealing. WEWS executes a
+                     parallel computation with the same asymptotic running time as traditional randomized
+                     work stealing while bounding the waste to <em>O</em>(min{<em>PT</em><sub>∞</sub>, <em>T</em><sub>1</sub> + <em>P</em><sup>2</sup>}) instructions. WEWS also follows the work-first principle to perform well in practice.
+                     </p>
+                  <p>WEWS requires no special support from the operating system or hardware, which simplifies
+                     its implementation. We implemented WEWS within the OpenCilk runtime system and compared
+                     it to other common waste-mitigation strategies. Across 10 parallel benchmarks, we
+                     find that WEWS has minimal impact on parallel running times while, on programs with
+                     limited parallelism, substantially reducing waste.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786457">DiggerBees: Depth First Search Leveraging Hierarchical Block-Level Stealing on GPUs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yuyao Niu</li>
+               <li class="nameList">Yuechen Lu</li>
+               <li class="nameList">Weifeng Liu</li>
+               <li class="nameList Last">Marc Casas</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Depth First Search (DFS) is a fundamental graph traversal algorithm with broad applications.
+                     While existing work-stealing DFS approaches achieve strong performance on CPUs, mapping
+                     them to modern GPUs faces three major challenges: (1) limited shared memory cannot
+                     accommodate deep stacks, (2) frequent stack operations hinder efficient intra-block
+                     execution, and (3) irregular workloads complicate scalable inter-block execution.
+                     </p>
+                  <p>In this paper, we propose DiggerBees, a GPU-optimized parallel DFS algorithm with
+                     hierarchical block-level stealing, consisting of three components. First, we introduce
+                     a two-level stack structure to mitigate shared memory limitations. Second, we employ
+                     warp-level DFS with intra-block work stealing to enable efficient execution within
+                     a block. Third, we implement inter-block work stealing to achieve scalable execution
+                     across blocks and sustain high parallelism. Experimental results on the latest NVIDIA
+                     GPUs show that DiggerBees outperforms existing DFS approaches, CKL-PDFS, ACR-PDFS,
+                     and NVG-DFS, achieving average speedups of 1.37×, 1.83×, and 30.18×, respectively.
+                     Moreover, DiggerBees even surpasses high-performance GPU BFS implementations on graphs
+                     with deep and narrow traversal paths, and scales efficiently across GPU generations.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786459">PANA: A Fine-Grained Runtime-Adaptive Load Balancing for Parallel SpMV on Multicore
+                  CPUs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Haodong Bian</li>
+               <li class="nameList">Youhui Zhang</li>
+               <li class="nameList">Xiang Fei</li>
+               <li class="nameList">Jianqiang Huang</li>
+               <li class="nameList Last">Xiaoying Wang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>SpMV has been widely utilized and is regarded as a significant kernel in various scientific
+                     and engineering computing applications, where its parallel performance is heavily
+                     influenced by matrix sparsity and hardware architecture. Despite extensive prior research,
+                     static partitioning strategies that narrowly target computation or memory access remain
+                     a key performance bottleneck, severely stifling performance advancement of SpMV on
+                     modern multicore CPUs. </p>
+                  <p>This paper presents PANA, a fine-grained runtime-adaptive load balancing for parallel
+                     SpMV that operates at the micro-operation level. It employs fine-grained partitioning
+                     and a dynamic runtime adjustment mechanism to achieve balanced per-core computation
+                     and memory access. Experimental results demonstrate that across 2,898 SuiteSparse
+                     matrices, PANA consistently outperforms all baseline methods (CAMLB, CSR5, Merge,
+                     CVR, SpV8, MKL, and AOCL) in terms of overall performance, achieving geometric-mean
+                     speedups ranging from 1.36× to 7.72× on Intel and AMD CPUs.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Concurrent Data Structures</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786431">UFO Trees: Practical and Provably-Efficient Parallel Batch-Dynamic Trees</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Quinten De Man</li>
+               <li class="nameList">Atharva Sharma</li>
+               <li class="nameList">Kishen N Gowda</li>
+               <li class="nameList Last">Laxman Dhulipala</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The dynamic trees problem is to maintain a tree under edge updates while supporting
+                     queries like connectivity queries or path queries. Despite the first data structure
+                     for this fundamental problem---the link-cut tree---being invented 40 years ago, our
+                     experiments reveal that they are still the fastest sequential data structure for the
+                     problem. However, link-cut trees cannot support parallel batch-dynamic updates and
+                     have limitations on the kinds of queries they support.  
+                     </p>
+                  
+                  <p>
+                     In this paper, we design a new parallel batch-dynamic trees data structure called
+                     UFO trees that simultaneously supports a wide range of query functionality, supports
+                     work-efficient parallel batch-dynamic updates, and is competitive with link-cut trees
+                     when run sequentially. We prove that a key reason for the strong practical performance
+                     of both link-cut trees and UFO trees is that they can perform updates and queries
+                     in sub-logarithmic time for low-diameter trees. We perform an experimental study of
+                     our optimized C++ implementations of UFO trees with ten other dynamic tree implementations,
+                     several of which are new, in a broad benchmark of both synthetic and real-world trees
+                     of varying diameter and size. Our results show that, in both sequential and parallel
+                     settings, UFO trees are the fastest dynamic tree data structure that supports a wide
+                     range of queries. Our new implementation of UFO trees has low space usage and easily
+                     scales to billion-size inputs, making it a promising building block for implementing
+                     more complex dynamic graph algorithms in practice.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786458">Sharded Elimination and Combining for Highly-Efficient Concurrent Stacks</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Ajay Singh</li>
+               <li class="nameList">Nikos Metaxakis</li>
+               <li class="nameList Last">Panagiota Fatourou</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>We present a new blocking linearizable stack implementation which utilizes sharding
+                     and fetch&amp;increment to achieve significantly better performance than all existing
+                     concurrent stacks. The proposed implementation is based on a novel elimination mechanism
+                     and a new combining approach that are efficiently blended to gain high performance.
+                     Our implementation results in enhanced parallelism and low contention when accessing
+                     the shared stack. Experiments show that the proposed stack implementation outperforms
+                     all existing concurrent stacks by up to 2X in most workloads. It is particularly efficient
+                     in systems supporting a large number of threads and in high contention scenarios.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786437">Concurrent Balanced Augmented Trees</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Evan Wrench</li>
+               <li class="nameList">Ajay Singh</li>
+               <li class="nameList">Younghun Roh</li>
+               <li class="nameList">Panagiota Fatourou</li>
+               <li class="nameList">Siddhartha Jayanti</li>
+               <li class="nameList">Eric Ruppert</li>
+               <li class="nameList Last">Yuanhao Wei</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Augmentation makes search trees tremendously more versatile, allowing them to support
+                     efficient aggregation queries, order-statistic queries, and range queries in addition
+                     to insertion, deletion, and lookup. In this paper, we present the first lock-free
+                     augmented balanced search tree supporting generic augmentation functions. Our algorithmic
+                     ideas build upon a recent augmented unbalanced search tree presented by Fatourou and
+                     Ruppert [DISC, 2024]. We implement both data structures, solving some memory reclamation
+                     challenges in the process, and provide an experimental performance analysis of them.
+                     We also present optimized versions of our balanced tree that use delegation to achieve
+                     better scalability and performance (by more than 2x in most workloads). Our experiments
+                     show that our augmented balanced tree completes updates 2.2 to 30 times faster than
+                     the unbalanced augmented tree, and outperforms unaugmented trees by up to several
+                     orders of magnitude on 120 threads.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786412">Parallel Dynamic Spatial Indexes</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Ziyang Men</li>
+               <li class="nameList">Bo Huang</li>
+               <li class="nameList">Yan Gu</li>
+               <li class="nameList Last">Yihan Sun</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Maintaining spatial data (points in two or three dimensions) is crucial and has a
+                     wide range of applications, such as graphics, GIS, and robotics. To handle spatial
+                     data, many data structures, called spatial indexes, have been proposed, e.g. kd-trees,
+                     oct/quadtrees (also called Orth-trees), R-trees, and bounding volume hierarchies (BVHs).
+                     In real-world applications, spatial datasets tend to be highly dynamic, requiring
+                     batch updates of points with low latency. This calls for efficient parallel batch
+                     updates on spatial indexes. Unfortunately, there is very little work that achieves
+                     this.  
+                     </p>
+                  
+                  <p>
+                     In this paper, we systematically study parallel spatial indexes, with a special focus
+                     on achieving high-performance update performance for highly dynamic workloads. We
+                     select two types of spatial indexes that are considered optimized for low-latency
+                     updates: Orth-tree and R-tree/BVH. We propose two data structures: the P-Orth tree,
+                     a parallel Orth-tree, and the SPaC-tree family, a parallel R-tree/BVH. Both the P-Orth
+                     tree and the SPaC-tree deliver superior performance in batch updates compared to existing
+                     parallel kd-trees and Orth-trees, while preserving better or competitive query performance
+                     relative to their corresponding Orth-tree and R-tree counterparts. We also present
+                     comprehensive experiments comparing the performance of various parallel spatial indexes
+                     and share our findings at the end of the paper.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: GPU and Heterogeneous Computing</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786438">PRISM: An Efficient GPU-Based Lossy Compression Framework for Progressive Data Retrieval
+                  with Multi-Level Interpolation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Bing Lu</li>
+               <li class="nameList">Zedong Liu</li>
+               <li class="nameList">Hairui Zhao</li>
+               <li class="nameList">Dejun Luo</li>
+               <li class="nameList">Wenjing Huang</li>
+               <li class="nameList">Yida Gu</li>
+               <li class="nameList">Jinyang Liu</li>
+               <li class="nameList">Guangming Tan</li>
+               <li class="nameList Last">Dingwen Tao</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>With the exponential growth of computing power, large-scale scientific simulations
+                     are producing massive volumes of data, leading to critical storage and I/O challenges.
+                     Error-bounded lossy compression has become one of the most effective solutions for
+                     reducing data size while preserving accuracy. Meanwhile, to achieve high-performance
+                     compression on such large datasets, leveraging GPUs has become increasingly essential.
+                     GPU-based lossy compressors deliver strong performance, but typically support only
+                     single-precision decompression, limiting their ability to meet the diverse accuracy
+                     requirements of scientific workflows. Progressive compressors can address this limitation
+                     by enabling on-demand precision retrieval. However, existing progressive lossy compressors
+                     on GPU still suffer from low throughput. To overcome these challenges, we present
+                     PRISM, a GPU-based progressive lossy compressor that achieves both high throughput
+                     and multi-precision retrieval, which introduces a high performance progressive framework
+                     that integrates the multiple interpolation predictors, efficient bitplane extraction,
+                     and an enhanced lossless compression that combines sign-absolute coding with zero-aware
+                     parallel algorithms. Evaluations on representative real-world datasets from five scientific
+                     domains show that PRISM significantly outperforms state-of-the-art progressive compressors
+                     on GPU, reducing retrieval data volume by over 15.6× and achieving up to 20.1× higher
+                     throughput on the NVIDIA H100 GPU under the same error bounds.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786454">Dynamic Detection of Inefficient Data Mapping Patterns in Heterogeneous OpenMP Applications</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Luke Marzen</li>
+               <li class="nameList">Junhyung Shim</li>
+               <li class="nameList Last">Ali Jannesari</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>With the growing prevalence of heterogeneous computing, CPUs are increasingly being
+                     paired with accelerators to achieve new levels of performance and energy efficiency.
+                     However, data movement between devices remains a significant bottleneck, complicating
+                     application development. Existing performance tools require considerable programmer
+                     intervention to diagnose and locate data transfer inefficiencies. To address this,
+                     we propose dynamic analysis techniques to detect and profile inefficient data transfer
+                     and allocation patterns in heterogeneous applications. We implemented these techniques
+                     into OMPDataPerf, which provides detailed traces of problematic data mappings, source
+                     code attribution, and assessments of optimization potential in heterogeneous OpenMP
+                     applications. OMPDataPerf uses the OpenMP Tools Interface (OMPT) and incurs only a
+                     5 % geometric‑mean runtime overhead.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786449">Root-Down Exposure for Maximal Clique Enumeration on GPUs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Zhe Pan</li>
+               <li class="nameList">Peng Qu</li>
+               <li class="nameList Last">Youhui Zhang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Maximal clique enumeration (MCE) in large-scale graphs is critical across various
+                     application domains, including social network analysis, bioinformatics, and computer
+                     vision. However, existing GPU-based MCE solutions suffer from inefficient load-balancing
+                     mechanisms. These mechanisms force busy workers to pause and hand over workloads to
+                     idle workers, which introduces significant synchronization overhead and increases
+                     memory usage. To address these limitations, we introduce a root-down exposure mechanism
+                     where busy workers dynamically expose their current root, enabling idle workers to
+                     pull workloads from the exposed node directly without synchronization. We then propose
+                     a bitmap-centric MCE scheme and an aggressive node generation rule to further simplify
+                     the memory layout and accelerate enumeration. We combine them into RDMCE, a Root-Down
+                     MCE solution on GPUs. Across large real-world graphs with up to 146 billion maximal
+                     cliques, RDMCE is 1.25-5.38× faster than any next-best state-of-the-art GPU-based
+                     solutions and is the only one that completes enumeration on every test dataset, offering
+                     a more efficient and scalable MCE solution.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786461">ROME: Maximizing GPU Efficiency for All-Pairs Shortest Path via Taming Fine-Grained
+                  Irregularities</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Weile Luo</li>
+               <li class="nameList">Yuhan Chen</li>
+               <li class="nameList">Xiangrui Yu</li>
+               <li class="nameList">Qiang Wang</li>
+               <li class="nameList">Ruibo Fan</li>
+               <li class="nameList">Hongyuan Liu</li>
+               <li class="nameList Last">Xiaowen Chu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>All-Pairs Shortest Path (APSP), a fundamental problem in graph analytics, can be solved
+                     efficiently by reducing the computational workload through vertex reordering. However,
+                     it fails on GPUs due to fine-grained granularity, shape, and dependency irregularities,
+                     which cause severe hardware underutilization. We introduce ROME, a system that tames
+                     these irregularities by spatially restructuring computation into regularized workloads
+                     and temporally overlapping them with an asynchronous pipeline. ROME achieves 14.7-244.5×
+                     speedup over the state-of-the-art multicore CPU solution and 11.2-338.0× speedup over
+                     the state-of-the-art GPU solution. Notably, our results achieve mostly above 20% and
+                     up to 34.7% of peak min-plus OPs across all tested graphs.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Stencil and Sparse Matrix Computation</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786414">SPIDER: Unleashing Sparse Tensor Cores for Stencil Computation via Strided Swapping</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Qiqi Gu</li>
+               <li class="nameList">Chenpeng Wu</li>
+               <li class="nameList">Heng Shi</li>
+               <li class="nameList Last">Jianguo Yao</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Recent research has focused on accelerating stencil computations by exploiting emerging
+                     hardware like Tensor Cores. To leverage these accelerators, the stencil operation
+                     must be transformed to matrix multiplications. However, this transformation introduces
+                     undesired sparsity into the kernel matrix, leading to significant redundant computation.
+                     </p>
+                  <p>In this paper, we present SPIDER, the first system to turn this unresolved sparsity
+                     into an optimization opportunity by exploring the potential of Sparse Tensor Cores
+                     (SpTCs) for stencil acceleration. Specifically, SPIDER introduces an efficient and
+                     elegant transformation method that integrates two cooperative techniques: an ahead-of-time
+                     strided swapping transformation for kernel matrices and an on-the-fly row-swapping
+                     mechanism for inputs. This rule-based approach effectively transforms stencil computation
+                     into operations compatible with SpTCs, introducing only slight compile-time overhead
+                     and zero runtime overhead. Additionally, SPIDER incorporates multiple optimizations
+                     to maximize computational efficiency. Experimental evaluations demonstrate that SPIDER
+                     outperforms vendor library cuDNN by 6.23× and state-of-the-art (SOTA) Tensor Core-based
+                     approaches (ConvStencil, FlashFFTStencil, etc.) by 1.98× on average.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786422">ASM-SpMM: Unleashing the Potential of Arm SME for Sparse Matrix Multiplication Acceleration</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jiazhi Jiang</li>
+               <li class="nameList">Xijia Yao</li>
+               <li class="nameList">Jiayu Chen</li>
+               <li class="nameList">Jinhui Wei</li>
+               <li class="nameList">Dan Huang</li>
+               <li class="nameList Last">Yutong Lu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Sparse Matrix–Matrix Multiplication (SpMM) is a core kernel in scientific computing,
+                     data analytics, and artificial intelligence, supporting applications such as linear
+                     solvers and Graph Neural Networks (GNNs). The Scalable Matrix Extension (SME) in Armv9
+                     introduces dedicated matrix acceleration for ARM CPUs, but exploiting its full potential
+                     for SpMM requires architecture-aware optimizations to address irregular sparsity and
+                     hardware constraints.  
+                     </p>
+                  
+                  <p>
+                     We present ASM-SpMM, a high-performance SpMM library co-designed with ARM SME. ASM-SpMM
+                     combines a memory-efficient compression format, an SME-aware prefetching kernel optimized
+                     for outer-product execution, a hybrid matrix–vector execution strategy, and work-stealing-based
+                     dynamic load balancing across heterogeneous cores. Experiments on emerging Armv9 platforms
+                     demonstrate up to 7.9× speedup over state-of-the-art SpMM libraries across diverse
+                     matrices. A GNN inference case study further shows that ASM-SpMM significantly improves
+                     end-to-end performance over widely used GNN frameworks, highlighting the effectiveness
+                     of SME-aware SpMM optimization on ARM CPUs.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786441">Exploiting Efficient Mapping and Pipelined Execution for Accelerating SpMV on Tensor
+                  Cores</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Kaige Zhang</li>
+               <li class="nameList">Hailong Yang</li>
+               <li class="nameList">Xin You</li>
+               <li class="nameList">Tianyu Feng</li>
+               <li class="nameList">Yufan Xu</li>
+               <li class="nameList">Zhongzhi Luan</li>
+               <li class="nameList">Yi Liu</li>
+               <li class="nameList Last">Depei Qian</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Sparse matrix-vector multiplication (SpMV) is a fundamental operation in scientific
+                     computing, machine learning, and graph analytics, demanding efficient execution on
+                     modern hardware. Recent advances in hardware accelerators, such as Tensor Cores, have
+                     significantly improved the performance of many compute-intensive workloads. However,
+                     effectively utilizing Tensor Cores for SpMV remains challenging due to its irregular
+                     sparsity patterns and the mismatch between SpMV’s computational characteristics and
+                     constrained architecture design, leading to suboptimal performance and underutilization
+                     of Tensor Cores. In this paper, we systematically analyze the state-of-the-art SpMV
+                     optimizations on Tensor Cores, identify key performance bottlenecks, and propose Drawloom,
+                     a Tensor-Core-aware framework for SpMV with efficient Tensor Core mapping and optimized
+                     pipeline execution. Drawloom leverages a redesigned Tensor Core mapping strategy with
+                     a zig-zag chained sparse storage format, as well as a multi-stage register pipeline
+                     to better exploit hardware parallelism. Our evaluation on SuiteSparse dataset demonstrates
+                     that Drawloom outperforms cuSPARSE by 2.71×/1.90× (in FP16), 2.95×/2.39× (in FP32),
+                     and 2.47×/1.54× (in FP64) on A100 and H100 GPUs, respectively. Compared to the state-of-the-art
+                     SpMV implementations, Drawloom achieves a performance speedup of 1.26×/1.18× (in FP16)
+                     and 1.49×/1.56× (in FP64) on A100 and H100 GPUs, respectively.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786447">VDHA: Vector-Driven Hash Aggregation for Sparse Matrix-Sparse Vector Multiplication
+                  on GPUs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yuchen Li</li>
+               <li class="nameList">Zhe Pan</li>
+               <li class="nameList">Peng Qu</li>
+               <li class="nameList Last">Youhui Zhang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Sparse matrix-sparse vector multiplication (SpMSpV) is a core primitive in graph analytics
+                     and scientific computing, also arising in spiking neural networks for event-driven
+                     spike propagation. On GPUs, the performance of the prevalent and efficient SpMSpV
+                     paradigm is often bottlenecked by the write-back phase of accumulating non-zero multiply–accumulate
+                     results; its many-to-one index scatter pattern causes severe conflicts and poor bandwidth
+                     utilization on GPUs. We present VDHA, a GPU-based weighted SpMSpV kernel that leverages
+                     block-private hash tables for local aggregation, substantially reducing write conflicts
+                     and improving memory coalescing. To further amplify this benefit, we incorporate column
+                     splitting with lightweight reordering to expose more locality, and employ a fetch–compute–writeback
+                     pipeline to overlap hash computation with memory accesses. Extensive evaluation on
+                     over 300 matrices with more than 5 million nonzeros, including web-scale graphs (Konect/LAW)
+                     and scientific workloads (SuiteSparse), shows that VDHA consistently outperforms state-of-the-art
+                     baselines. On web graphs, it achieves a 1.41× geometric-mean speedup (up to 3.42×),
+                     while on SuiteSparse it delivers 1.13× (up to 2.55×). We also provide a lightweight
+                     predictive model that identifies matrices favorable to VDHA with 91.3% accuracy.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Mixed Precision and Quantization</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786419">RoMeo: Mitigating Dual-dimensional Outliers with Rotated Mixed Precision Quantization</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Qihao Zhang</li>
+               <li class="nameList">MingLiang Tang</li>
+               <li class="nameList">Mingshu Zhai</li>
+               <li class="nameList">Kinman Lei</li>
+               <li class="nameList Last">Jidong Zhai</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Mixed precision quantization has been adopted to accelerate large language models
+                     (LLMs) serving by leveraging high-throughput low-precision compute units in GPUs while
+                     preserving outliers in higher precision to maintain model accuracy. However, existing
+                     methods focus on mitigating single-dimensional channel-wise outliers, leading to model
+                     accuracy degradation when scaled to 4-bit precision. </p>
+                  <p>In this paper, we present an algorithm-system co-design to effectively handle dual-dimensional
+                     outliers across both channel and token dimensions in LLMs. We introduce a novel rotation-based
+                     mixed precision quantization algorithm that suppresses and migrates channel-wise outliers
+                     to the token dimension. Based on this algorithm, we propose RoMeo, an efficient LLM
+                     serving system designed to overcome the unique system challenges posed by sparse computation
+                     pattern and dynamic outlier detection inherent in token-wise outlier handling. Extensive
+                     evaluations across various LLMs demonstrate that RoMeo improves quantized model accuracy
+                     by up to 5.17% compared to state-of-the-art methods QuaRot and MixQ, while maintaining
+                     efficiency comparable to uniform precision quantizations, achieving up to 2.10 × end-to-end
+                     speedup over half-precision baseline. RoMeo is available at https://github.com/thu-pacman/RoMeo.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786423">High-Throughput Non-uniformly Quantized 3-bit LLM Inference</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">YuAng Chen</li>
+               <li class="nameList">Wenqi Zeng</li>
+               <li class="nameList Last">Jeffrey Xu Yu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>While Large Language Models (LLMs) are widely adopted, their massive parameter size
+                     constrains practical deployment. A common solution is clustering-based non-uniform
+                     quantization, which effectively compresses models to as low as 3 bits per weight while
+                     preserving high accuracy. However, instead of accelerating memory-bound LLM inference,
+                     the memory reduction paradoxically often causes a significant slowdown due to dequantization
+                     overhead and GPU underutilization. To address the issue, we propose Quantix, a framework
+                     designed to convert memory savings into inference speedups. Quantix applies two key
+                     optimizations: (1) a hardware-aligned bit shuffling scheme for efficient data access,
+                     and (2) a fused dequantization-multiplication pipeline that effectively maps workloads
+                     on both CUDA and Tensor Cores. Quantix enables high-throughput batched inference,
+                     delivering average kernel-level speedups of 4.82× over FP16 cuBLAS and end-to-end
+                     speedups of up to 11.46× over state-of-the-art quantization methods on NVIDIA L40
+                     GPUs.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786428">JanusQuant: Accurate and Efficient 2-bit KV Cache Quantization for Long-Context Inference</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Chengyu Sun</li>
+               <li class="nameList">Yaqi Xia</li>
+               <li class="nameList">Hulin Wang</li>
+               <li class="nameList">Donglin Yang</li>
+               <li class="nameList">Xiaobo Zhou</li>
+               <li class="nameList Last">Dazhao Cheng</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Long-context large language models (LLMs) have seen widespread adoption in recent
+                     years.  
+                     However, during inference, the key-value (KV) cache—which stores intermediate activations—consumes
+                     significant memory, particularly as sequence lengths grow.  
+                     Quantization offers a promising path to compress KV cache, but existing 2-bit approaches
+                     fall short of achieving optimal inference efficiency due to hardware-unfriendly algorithms
+                     and system implementations.  
+                     </p>
+                  
+                  <p>
+                     We present JanusQuant, a 2-bit KV cache quantization system that achieves both high
+                     accuracy and end-to-end efficiency through algorithm–system co-design for long-context
+                     generation tasks.  
+                     At its core is RtSmooth, a novel runtime smoothing quantization algorithm that mitigates
+                     outlier-induced accuracy loss via adaptive transformation.  
+                     Building on RtSmooth, JanusQuant further enhances quantized inference with a series
+                     of optimizations: a fast absmax positioning technique for lightweight quantization,
+                     a memory-efficient data structure for managing recent tokens, and a custom mixed-precision
+                     attention kernel to accelerate computation.  
+                     Across representative LLMs, JanusQuant preserves 99% of FP16 accuracy, reduces KV
+                     cache memory usage by up to 5.3×, and delivers up to 4.45× faster decoding throughput
+                     compared to state-of-the-art methods, while scaling efficiently to long-context inference.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786433">HierCut: Enabling 16-bit Format Mixed Precision for Molecular Dynamics through Hierarchical
+                  Cutoff</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Zeyu Song</li>
+               <li class="nameList">Lin Gan</li>
+               <li class="nameList">Xiaohui Duan</li>
+               <li class="nameList">Zhengrui Li</li>
+               <li class="nameList">Jiayu Fu</li>
+               <li class="nameList">Yinuo Wang</li>
+               <li class="nameList">Guangzhao Li</li>
+               <li class="nameList Last">Guangwen Yang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Mixed-precision methods offer the potential to achieve better performance while maintaining
+                     accuracy comparable to that of high-precision formats. However, the adoption of mixed
+                     precision—particularly with 16-bit formats—in scientific computing remains limited
+                     due to precision truncation.  
+                     </p>
+                  
+                  <p>
+                     To address this challenge, we propose HierCut, a mixedprecision strategy that leverages
+                     cutoff schemes in molecular dynamics (KOKKOS package of LAMMPS) by assigning different
+                     precision levels to particles across distinct cutoff layers. We further introduce
+                     techniques to improve the performance and accuracy of simulations using 16-bit numerical
+                     formats, and develop error analysis methods to guide the configuration of mixed-precision
+                     ratios. Our scheme achieves accuracy comparable to high-precision results, delivering
+                     a speedup of up to 3.75x over the original FP64 implementation of LAMMPS and up to
+                     1.40x over the optimized FP32 kernels, based on NVIDIA A100 GPUs. Our implementation
+                     can be effectively scaled to boost large-scale multi-GPU simulations.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Cluster and Cloud Computing</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786415">Cacheman: A Comprehensive Last-Level Cache Management System for Multi-tenant Clouds</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Xiaokang Hu</li>
+               <li class="nameList">Yuchao Cao</li>
+               <li class="nameList">Naixuan Guan</li>
+               <li class="nameList">Yifan Wu</li>
+               <li class="nameList">Xishi Qiu</li>
+               <li class="nameList">Shengdong Dai</li>
+               <li class="nameList">Ben Luo</li>
+               <li class="nameList">Sanchuan Cheng</li>
+               <li class="nameList">Fudong Qiu</li>
+               <li class="nameList">Yibin Shen</li>
+               <li class="nameList Last">Jiesheng Wu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Competition for the last-level cache (LLC) is a long-standing issue in multi-tenant
+                     cloud environments, often leading to severe performance interference among co-located
+                     virtual machines. LLC management in the cloud faces unique challenges, including unpredictable
+                     tenant workloads, misaligned performance metrics, and the need to ensure fairness
+                     under service level agreements (SLAs). Existing LLC allocation methods fall short
+                     in addressing these challenges. We present Cacheman, a comprehensive LLC management
+                     system designed from real-world cloud deployment experience. Cacheman introduces a
+                     novel gradient-based sharing mechanism for LLC ways, enabling smooth LLC allocation
+                     adjustments that simultaneously improve fairness and utilization efficiency. Its real-time
+                     allocation algorithm promptly detects and mitigates unfair LLC allocation, adapting
+                     to dynamic workloads with second-scale responsiveness. Additionally, Cacheman supports
+                     performance consistency for tenants running distributed applications by enforcing
+                     negotiated upper bounds on cache usage. Extensive experiments demonstrate that Cacheman
+                     effectively achieves its multi-dimensional goals, and long-term production deployment
+                     further shows that it significantly reduces SLA violations caused by LLC contention.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786426">zBuffer: Zero-Copy and Metadata-Free Serialization for Fast RPC with Scatter-Gather
+                  Reflection</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Xiangyu Liu</li>
+               <li class="nameList">Huiba Li</li>
+               <li class="nameList">Shun Gai</li>
+               <li class="nameList">Youmin Chen</li>
+               <li class="nameList Last">Yiming Zhang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>This paper presents zBuffer, a zero-copy and metadata-free serialization library for
+                     high-performance and low-cost RPCs. At the core of zBuffer is scatter-gather reflection,
+                     a novel technique that collaboratively (i) leverages the NIC scatter-gather hardware
+                     feature to offload the costly data coalescing, and (ii) utilizes the static reflection
+                     mechanism of modern programming languages to enable type queries on complex data objects
+                     without requiring explicit metadata construction. We leverage C++ language features,
+                     mainly including template meta-programming and macros, to realize static reflection
+                     at compile time. Based on zBuffer, we design a fast RPC system (called zRPC) which
+                     eliminates all RPC memory copy overheads not only in (de)serialization but also in
+                     network transmission. Extensive evaluation shows that zBuffer/zRPC significantly outperforms
+                     state-of-the-art serialization/RPC mechanisms: zBuffer is approximately 7× faster
+                     than Cornflakes in serialization for complex data objects; and zRPC reduces 99th percentile
+                     latency by 21% and achieves 62% higher throughput than eRPC on the Masstree key-value
+                     (KV) store with the YCSB benchmark.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786435">Scaling GPU-to-CPU Migration for Efficient Distributed Execution on CPU Clusters</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Ruobing Han</li>
+               <li class="nameList Last">Hyesoon Kim</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The growing demand for GPU resources has led to widespread shortages in data centers,
+                     prompting the exploration of CPUs as an alternative for executing GPU programs. While
+                     prior research supports executing GPU programs on single CPUs, these approaches struggle
+                     to achieve competitive performance due to the computational capacity gap between GPUs
+                     and CPUs.  
+                     </p>
+                  
+                  <p>
+                     To further improve performance, we introduce CuCC, a framework that scales GPU-to-CPU
+                     migration to CPU clusters and utilizes distributed CPU nodes to execute GPU programs.
+                     Compared to single-CPU execution, CPU cluster execution requires cross-node communication
+                     to maintain data consistency. We present the CuCC execution workflow and communication
+                     optimizations, which aim to reduce network overhead. Evaluations demonstrate that
+                     CuCC achieves high scalability on large-scale CPU clusters and delivers runtimes approaching
+                     those of GPUs. In terms of cluster-wide throughput, CuCC enables CPUs to achieve an
+                     average of 2.59x higher throughput than GPUs.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786442">Trojan Horse: Aggregate-and-Batch for Scaling Up Sparse Direct Solvers on GPU Clusters</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yida Li</li>
+               <li class="nameList">Siwei Zhang</li>
+               <li class="nameList">Yiduo Niu</li>
+               <li class="nameList">Yang Du</li>
+               <li class="nameList">Qingxiao Sun</li>
+               <li class="nameList">Zhou Jin</li>
+               <li class="nameList Last">Weifeng Liu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Sparse direct solvers are critical building blocks in a range of scientific applications
+                     on heterogeneous supercomputers. However, existing sparse direct solvers have not
+                     been able to well leverage the high bandwidth and floating-point performance of modern
+                     GPUs. The primary challenges are twofold: (1) the absence of a mechanism for aggregating
+                     small tasks to saturate the GPU, and (2) the lack of a mechanism for executing a diverse
+                     set of small tasks in batch mode on a single GPU.  
+                     </p>
+                  
+                  <p>
+                     We in this paper propose a strategy called Trojan Horse, which significantly enhances
+                     the execution efficiency of sparse direct solvers on GPU clusters. This mechanism
+                     divides each process's work into two stages: Aggregate (with two modules Prioritizer
+                     and Container) and Batch (with two modules Collector and Executor). In the Aggregate
+                     stage, a process first assesses the urgency of the input tasks through the Prioritizer
+                     module, and based on their priority, sends them to the Collector module or the Container
+                     module. In the batch stage, the Collector module receives high-priority heterogeneous
+                     tasks from the Prioritizer module and retrieves enough tasks from the Container module
+                     to send them to the Executor module for batch execution on GPU.In addition, our strategy
+                     is independent of solver libraries, and is integrated into SuperLU_DIST and PanguLU.
+                     
+                     </p>
+                  
+                  <p>
+                     In the scale-up evaluation on a single NVIDIA A100 GPU, the Trojan Horse strategy
+                     delivers speedups of up to 418.79x (5.47x on average) for SuperLU_DIST and up to 5.59x
+                     (2.84x on average) for PanguLU. In the scale-out evaluation on two 16-GPU clusters
+                     from NVIDIA and AMD, respectively, Trojan Horse continues to deliver strong performance
+                     gains for both SuperLU_DIST and PanguLU across different GPU counts.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Distributed Training</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786432">COCCL: A Collective Communication Library Supporting Easy Integration and Configuration
+                  of Customized Compression for Scalable LLM Training</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Xingchen Liu</li>
+               <li class="nameList">Haoran Kong</li>
+               <li class="nameList">Hairui Zhao</li>
+               <li class="nameList">Shengkai Lyu</li>
+               <li class="nameList">Zheng Wei</li>
+               <li class="nameList">Man Liu</li>
+               <li class="nameList">Xingjian Tian</li>
+               <li class="nameList">Liyang Zhao</li>
+               <li class="nameList">Zhuohan Chen</li>
+               <li class="nameList">Fakang Wang</li>
+               <li class="nameList">Zizhong Chen</li>
+               <li class="nameList">Zhan Wang</li>
+               <li class="nameList">Guangming Tan</li>
+               <li class="nameList Last">Dingwen Tao</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Collective communication is critical to scaling large language model (LLM) training
+                     across various parallelism strategies, including data, tensor, and pipeline parallelism
+                     on GPU clusters. However, as model sizes and training scales increase, communication
+                     overhead is emerging as a major performance bottleneck. While compression is a promising
+                     mitigation strategy, existing solutions often lack user-transparency, hinder deployment
+                     and extensibility, and are not co-designed with communication algorithms. To address
+                     these limitations, we present COCCL, a high-performance collective communication library
+                     built on top of NCCL. COCCL introduces a novel programming model that can easily integrate
+                     compression into communication workflows with flexible configurability. It features
+                     a suite of compression-aware collective algorithms and runtime overlap mechanisms
+                     that mitigate error propagation and reduce computational overhead. We integrate well-established
+                     compression techniques into COCCL and tune the compression configurations during 3D-parallel
+                     training on GPT and Qwen models with up to 7 billion parameters. Using the optimal
+                     configuration (COCCL-3D), we achieve 1.24× throughput improvement while maintaining
+                     training accuracy.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786445">Elastor: Elastic and Efficient Model Partitioning and Checkpointing for Fault-Tolerant
+                  Distributed Training</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Xuanyu Wang</li>
+               <li class="nameList">Fangcheng Fu</li>
+               <li class="nameList">Haoyang Li</li>
+               <li class="nameList">Hao Ge</li>
+               <li class="nameList">Sheng Lin</li>
+               <li class="nameList">Jiawen Niu</li>
+               <li class="nameList Last">Bin Cui</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Distributed deep learning (DL) training faces instability from GPU/node failures of
+                     multi-GPU clusters, necessitating robust fault recovery from model checkpoints. However,
+                     we find that existing works only considers node failures but fails to handle partial
+                     GPU unavailability, and suffers from inefficient model checkpointing saving and loading,
+                     particularly when the GPU availability changes.  
+                     </p>
+                  
+                  <p>
+                     This work presents Elastor, a fault-tolerant distributed DL training system featuring
+                     elastic and efficient model checkpointing. Firstly, to accommodates partial GPU unavailability,
+                     we manage to support heterogeneous model parallel partitioning to elastically resume
+                     training with any number of GPUs. Secondly, we devise a partition-agnostic and efficient
+                     model checkpointing method via fine-grained tensor splits to achieve seamless transitions
+                     across arbitrary partitioning. In addition, Elastor equips with a strategy searching
+                     algorithm that automatically discovers optimal model partitioning upon recovery as
+                     well as a meticulous overlapping design that minimizes the overhead caused by periodic
+                     model checkpointing and data preprocessing. Experimental results show that Elastor
+                     facilitates quick model checkpointing and failure recovery, while maintaining consistent
+                     training efficiency across varying GPU availability. Source code is available at https://github.com/PKU-DAIR/Hetu.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786417">HelixPipe: Efficient Distributed Training of Long Sequence Transformers with Attention
+                  Parallel Pipeline Parallelism</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Geng Zhang</li>
+               <li class="nameList">Shenggan Cheng</li>
+               <li class="nameList">Xuanlei Zhao</li>
+               <li class="nameList">Ziming Liu</li>
+               <li class="nameList Last">Yang You</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>As transformer sequence lengths grow, existing pipeline parallelisms incur suboptimal
+                     performance due to the quadratic attention computation and the substantial memory
+                     overhead. To relieve these challenges, we propose HelixPipe, a novel pipeline parallelism
+                     for long sequence transformer training. First, HelixPipe introduces attention parallel
+                     partition, which schedules attention computations of different micro batches across
+                     different pipeline stages in parallel, reducing pipeline bubbles. Second, it employs
+                     a two-fold first-in-last-out micro batch schedule to balance memory usage and overlap
+                     communication with computation. Additionally, HelixPipe utilizes recomputation without
+                     attention and chunked MLP to mitigate fragmentation and enable longer sequences. Experiments
+                     demonstrate that HelixPipe gains increasing advantages with longer sequence lengths,
+                     and outperforms existing methods in throughput and scalability across varying pipeline
+                     sizes, model sizes, and cluster configurations. Notably, it achieves a 26% speedup
+                     over baseline methods when training a 7B model with 128k sequence length on 64 H20
+                     GPUs. Code is available at https://github.com/zxgx/Megatron-LM.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786429">CCL-D: A High-Precision Diagnostic System for Slow and Hang Anomalies in Large-Scale
+                  Model Training</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yida Gu</li>
+               <li class="nameList">Fakang Wang</li>
+               <li class="nameList">Jianhao Fu</li>
+               <li class="nameList">Zhenhang Sun</li>
+               <li class="nameList">Qianyu Zhang</li>
+               <li class="nameList">Hairui Zhao</li>
+               <li class="nameList">Xingchen Liu</li>
+               <li class="nameList">Yang Tian</li>
+               <li class="nameList">Wenjing Huang</li>
+               <li class="nameList">Zedong Liu</li>
+               <li class="nameList">Yifan Chen</li>
+               <li class="nameList">Jinwu Yang</li>
+               <li class="nameList">Yueyuan Zhou</li>
+               <li class="nameList">Qian Zhao</li>
+               <li class="nameList">Haoxu Li</li>
+               <li class="nameList">Tao Wang</li>
+               <li class="nameList">Feng Yu</li>
+               <li class="nameList">Zhan Wang</li>
+               <li class="nameList">Guangming Tan</li>
+               <li class="nameList Last">Dingwen Tao</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>As training scales grow, collective communication libraries (CCL) increasingly face
+                     anomalies arising from complex interactions among hardware, software, and environmental
+                     factors. These anomalies typically manifest as slow/hang communication, the most frequent
+                     and time-consuming category to diagnose. However, traditional diagnostic methods remain
+                     inaccurate and inefficient, frequently requiring hours or even days for root cause
+                     analysis. To address this, we propose CCL-D, a high-precision diagnostic system designed
+                     to detect and locate slow/hang anomalies in large-scale distributed training. CCL-D
+                     integrates a rank-level real-time probe with an intelligent decision analyzer. The
+                     probe measures cross-layer anomaly metrics using a lightweight distributed tracing
+                     framework to monitor communication traffic. The analyzer performs automated anomaly
+                     detection and root-cause location, precisely identifying the faulty GPU rank. Deployed
+                     on a 4,000-GPU cluster over one year, CCL-D achieved near-complete coverage of known
+                     slow/hang anomalies and pinpointed affected ranks within 6 minutes—substantially outperforming
+                     existing solutions.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Parallel Algorithms</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786448">Pipelonk: Accelerating End-to-End Zero-Knowledge Proof Generation on GPUs for PLONK-Based
+                  Protocols</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Zhiyuan Zhang</li>
+               <li class="nameList">Yanxin Cai</li>
+               <li class="nameList">Wenhao Yin</li>
+               <li class="nameList">Xueyu Wu</li>
+               <li class="nameList">Yi Wang</li>
+               <li class="nameList">Lei Ju</li>
+               <li class="nameList Last">Zhuoran Ji</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Zero-knowledge proofs (ZKPs) are cryptographic protocols that allow verification of
+                     statements without disclosing the underlying information. Among them, PLONK-based
+                     ZKPs are particularly notable for offering succinct, non-interactive proofs of knowledge
+                     with a universal trusted setup, leading to widespread adoption in blockchain and cryptocurrency
+                     applications. Nonetheless, their broader deployment is hindered by long proof-generation
+                     times and substantial memory demands. While GPUs can accelerate these computations,
+                     their limited memory capacity introduces significant challenges for efficient end-to-end
+                     proof generation. </p>
+                  <p>This paper presents <em>Pipelonk</em>, a GPU-accelerated framework for end-to-end PLONK proof generation with two key contributions.
+                     First, <em>Pipelonk</em> introduces a segmentable operator library that offloads all operations, including
+                     those not trivially parallelized, to GPUs through new designs. Each operator supports
+                     segmented execution, allowing inputs to be divided into smaller segments processed
+                     independently, thus enabling large-scale computations on memory-constrained devices.
+                     Second, <em>Pipelonk</em> provides a pipeline executor that overlaps computation and data transfer. It globally
+                     schedules compute- and memory-intensive tasks while preserving data and security dependencies,
+                     balances transfer-latency hiding against peak memory, and adaptively selects per-operator
+                     segment sizes by modeling memory capacity and computational characteristics to maximize
+                     compute-transfer overlap. Evaluation shows that <em>Pipelonk</em> runs efficiently on devices with 8GB to 80GB memory, achieving an average speedup
+                     of 10.7× and up to 19.4× over the state-of-the-art baseline.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786418">ParDiff: Efficiently Parallelizing Reverse-Mode Automatic Differentiation with Direct
+                  Indexing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Shuhong Huang</li>
+               <li class="nameList">Shizhi Tang</li>
+               <li class="nameList">Yuan Wen</li>
+               <li class="nameList">Huanqi Cao</li>
+               <li class="nameList">Ruibai Tang</li>
+               <li class="nameList">Yidong Chen</li>
+               <li class="nameList">Jiping Yu</li>
+               <li class="nameList">Yang Li</li>
+               <li class="nameList">Chao Jiang</li>
+               <li class="nameList">Limin Xiao</li>
+               <li class="nameList Last">Jidong Zhai</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Automatic Differentiation (AD) is a technique that computes the derivatives of numerical
+                     programs by systematically applying the chain rule, playing a critical role in domains
+                     such as machine learning, simulation, and control systems. However, parallelizing
+                     differentiated programs remains a significant challenge due to the conflict between tapes (a data structure for intermediate variable storage) and summations: the differentiation process inherently introduces inter-thread summation patterns,
+                     which require prohibitively expensive atomic operations; and traditional tape designs
+                     tightly couple data retrieval with the program’s control flow, preventing code restructuring
+                     needed to eliminate these costly dependencies. </p>
+                  <p>To address these challenges, we present ParDiff, a novel AD system with a direct-indexed
+                     tape design, which enables summation-aware loop transformations and various parallel
+                     schemes for differentiated programs. This results in a higher degree of parallelization,
+                     less synchronization, and reduced inter-thread data movement. We conduct comprehensive
+                     experiments on both multi-core CPUs and GPUs. Results show that ParDiff delivers up
+                     to 483.21× (geometric mean: 30.88×) speedup over the state-of-the-art fully-AD system,
+                     Enzyme. It also achieves a speedup of 2.05× and 2.06× over PyTorch on CPU and GPU,
+                     respectively. The source code is publicly available at https://github.com/roastduck/FreeTensor.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786421">Faster and Cheaper: Pushing the Sequence Alignment Throughput with Commercial CPUs</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Zhonghai Zhang</li>
+               <li class="nameList">Yewen Li</li>
+               <li class="nameList">Ke Meng</li>
+               <li class="nameList">Chunming Zhang</li>
+               <li class="nameList Last">Guangming Tan</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>This paper proposes FastAlign, a faster, cheaper, and practical end-to-end solution
+                     for sequence alignment using commercial CPUs. It introduces two key innovations: a
+                     multi-stage seeding algorithm that improves search performance while maintaining low
+                     memory consumption, and an intra-query parallel seed-extension algorithm that eliminates
+                     redundancy and increases SIMD utilization. Evaluation results show that FastAlign
+                     achieves 2.27× ∼ 3.28× throughput speedup and 2.54× ∼ 5.65× cost reduction compared
+                     to state-of-the-art CPU and GPU baselines while guaranteeing 100% identical output
+                     to the de facto software BWA-MEM. FastAlign is open-sourced at https://github.com/zzhofict/BWA-FastAlign.git.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786411">PIM-zd-tree: A Fast Space-Partitioning Index Leveraging Processing-in-Memory</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yiwei Zhao</li>
+               <li class="nameList">Hongbo Kang</li>
+               <li class="nameList">Ziyang Men</li>
+               <li class="nameList">Yan Gu</li>
+               <li class="nameList">Guy E. Blelloch</li>
+               <li class="nameList">Laxman Dhulipala</li>
+               <li class="nameList">Charles McGuffey</li>
+               <li class="nameList Last">Phillip B. Gibbons</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Space-partitioning indexes are widely used for managing multi-dimensional data, but
+                     their throughput is often memory-bottlenecked. Processing-in-memory (PIM), an emerging
+                     architectural paradigm, mitigates memory bottlenecks by embedding processing cores
+                     directly within memory modules, allowing computation to be offloaded to these PIM
+                     cores. </p>
+                  <p>In this paper, we present PIM-zd-tree, the first space-partitioning index specifically
+                     designed for real-world PIM systems. PIM-zd-tree employs a tunable multi-layer structure,
+                     with each layer adopting distinct data layouts, partitioning schemes, and caching
+                     strategies. Its design is theoretically grounded to achieve load balance, minimal
+                     memory-channel communication, and low space overhead. To bridge theory and practice,
+                     we incorporate implementation techniques such as practical chunking and lazy counters.
+                     Evaluation on a real-world PIM system shows that PIM-zd-tree’s throughput is up to
+                     4.25× and 99× higher than two state-of-the-art shared-memory baselines.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: ML Inference</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786430">BEEMS: Boosting Machine Vision Efficiency via Computation Graph-Based Memory Smoothing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Hanjing Shen</li>
+               <li class="nameList">Fangxin Liu</li>
+               <li class="nameList">Jian Liu</li>
+               <li class="nameList">Li Jiang</li>
+               <li class="nameList Last">Haibing Guan</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>With the rapid advances of deep learning-based computer vision (CV) technology, digital
+                     images are increasingly processed not by humans, but by downstream CV algorithms.
+                     In particular, the growing popularity of vision foundation models has heightened interest
+                     in deploying these models on edge devices. However, limited memory remains a key bottleneck,
+                     making memory footprint reduction essential. Mainstream model customization methods
+                     often require intensive deployment efforts and can severely degrade accuracy. Moreover,
+                     existing deep learning frameworks generally do not prioritize memory optimization.
+                     Existing memory management schemes face practical limitations, including layer-wise
+                     memory imbalance, high management overhead, and volatile memory budgets. </p>
+                  <p>To tackle these issues, this work focuses on compilation-level optimizations that
+                     are explicitly designed to be memory-aware. We observe that memory usage during vision
+                     foundation model inference varies significantly over time (up to a 10× difference),
+                     with extended periods of low memory demand. Based on this, we propose BEEMS, a dual-objective
+                     compiler that optimizes both memory and latency by smoothing memory usage across the
+                     computational graph. BEEMS analyzes the vision foundation model computational graph
+                     to identify peak and trough operators in terms of memory demand. It then builds an
+                     efficient optimization search space, offering a flexible interface that applies different
+                     strategies based on operator characteristics. Specifically, peak operators are optimized
+                     using techniques such as operator partitioning, kernel substitution, swapping, and
+                     rematerialization to reduce memory pressure, while trough operators apply subgraph
+                     substitutions to improve latency. Experiments on six diverse models show that BEEMS
+                     reduces peak memory by up to 90% and improves latency by 10%, demonstrating its effectiveness
+                     in jointly optimizing memory and performance.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786413">Laser: Unlocking Layer-Level Scheduling for Efficient Multi-SLO LLM Serving</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jianxiong Liao</li>
+               <li class="nameList">Quanxing Dong</li>
+               <li class="nameList">Yunkai Liang</li>
+               <li class="nameList">Zhi Zhou</li>
+               <li class="nameList Last">Xu Chen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Engaging applications with diverse SLO requirements has become indispensable for production-scale
+                     LLM serving systems. However, existing systems rely on iteration-level scheduling,
+                     which enforces inflexible, unified execution across multi-SLO workloads, significantly
+                     constraining the serving efficiency.  
+                     </p>
+                  
+                  <p>
+                     In this paper, we introduce layer-level scheduling, a novel mechanism that advances
+                     beyond conventional iteration-level granularity. This mechanism decomposes per-iteration
+                     computation into fine-grained layer operations, enabling the tailored execution of
+                     requests with differing requirements. However, this increased granularity introduces
+                     new challenges in both intra-instance request execution and cross-instance coordination,
+                     posing significant barriers to practical deployment. To address these challenges,
+                     we introduce Laser, a system designed for efficient multi-SLO LLM serving. The key
+                     aspect lies in the seamless integration of inter-instance request dispatching with
+                     layer-level scheduling within instances, delivering high serving throughput with SLO
+                     guarantees. Evaluations with real-world applications reveal that Laser effectively
+                     improves throughput by over 1.67x while maintaining the same SLO attainment rate compared
+                     to state-of-the-art systems.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786420">MixFusion: A Patch-Level Parallel Serving System for Mixed-Resolution Diffusion Models</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Desen Sun</li>
+               <li class="nameList">Zepeng Zhao</li>
+               <li class="nameList Last">Yuke Wang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Text-to-Image (T2I) diffusion models have recently attracted significant attention
+                     due to their ability to synthesize high-fidelity photorealistic images. However, serving
+                     diffusion models would suffer from hardware underutilization in real-world settings
+                     due to highly variable request resolutions. To this end, we present MixFusion, a parallel
+                     serving system that exploits fine-grained patch-level parallelism to enable efficient
+                     batching of mixed-resolution requests. Specifically, MixFusion introduces a novel
+                     patch-based processing workflow, significantly enabling concurrent processing across
+                     heterogeneous requests. Furthermore, MixFusion incorporates a patch-tailored cache
+                     management policy to exploit the patch-level locality benefits. In addition, MixFusion
+                     features an SLO-aware scheduling strategy with lightweight online latency prediction.
+                     Extensive evaluation demonstrates that MixFusion achieves 30.1% higher SLO satisfaction
+                     compared to the state-of-the-art solutions on average. Our code is available at https://github.com/desenSunUBW/mixfusion.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786424">ChituDiffusion: A Data-Characteristic-Aware Serving System for Diffusion Models</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Chengzhang Wu</li>
+               <li class="nameList">Liyan Zheng</li>
+               <li class="nameList">Haojie Wang</li>
+               <li class="nameList">Kezhao Huang</li>
+               <li class="nameList">Zixuan Ma</li>
+               <li class="nameList">Dong Dong</li>
+               <li class="nameList Last">Jidong Zhai</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Diffusion models have become the dominant approach for generative tasks in images,
+                     videos, and other domains. However, diverse data properties in generation requests,
+                     which are critical for efficient serving, remain underexploited. To address this issue,
+                     we propose a diffusion model serving system ChituDiffusion. ChituDiffusion leverages
+                     the locality of data properties to recompose a diffusion pipeline into dGraphs with
+                     shared optimization opportunities, enabling thorough compile-time and runtime co-optimizations.
+                     During compilation, ChituDiffusion compiles each dGraph into multiple execution engines
+                     optimized for specific data properties. At runtime, heterogeneous requests are elaborately
+                     reorganized into fine-grained batching tasks with similar properties and then efficiently
+                     executed by matched engines. Evaluation on five diffusion applications shows that
+                     ChituDiffusion improves the throughput by up to 2.13× (1.58× on average) on A100 and
+                     2.19× (1.51× on average) on H100 compared with existing frameworks. The code for ChituDiffusion
+                     and the production traces have been made open-source at https://github.com/thu-pacman/chitu/tree/Diffusion.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Graphs and Graph Neural Networks</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786440">ElasGNN: An Elastic Training Framework for Distributed GNN Training</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Siqi Wang</li>
+               <li class="nameList">Hailong Yang</li>
+               <li class="nameList">Pengbo Wang</li>
+               <li class="nameList">Hongliang Cao</li>
+               <li class="nameList">Yufan Xu</li>
+               <li class="nameList">Xuezhu Wang</li>
+               <li class="nameList">Zhongzhi Luan</li>
+               <li class="nameList">Yi Liu</li>
+               <li class="nameList Last">Depei Qian</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Graph Neural Networks (GNNs) have emerged as powerful machine learning models for
+                     numerous graph-based applications. However, existing GNN training frameworks cannot
+                     scale the training process elastically, resulting in poor training throughput and
+                     low cluster utilization. Although elastic training has been proposed for Deep Neural
+                     Networks (DNNs), it cannot be directly adopted to GNNs due to the prohibitive scaling
+                     cost and inefficient scheduling. In this paper, we present ElasGNN, an elastic GNN
+                     training framework that achieves efficient dynamic resource allocation for GNN jobs.
+                     ElasGNN proposes an efficient elastic training engine to achieve high-performant GNN
+                     job scaling and introduces novel graph repartitioning algorithms for both scale-in
+                     and scale-out processes to further minimize the scaling cost. Moreover, ElasGNN designs
+                     an efficient elastic scheduler, utilizing a scaling-cost-aware scheduling policy to
+                     improve the GPU utilization and system throughput. The experimental results show that
+                     the ElasGNN can achieve shorter job completion time and makespan for training jobs
+                     of diverse GNN models.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786450">APERTURE: Algorithm-System Co-optimization for Temporal Graph Network Inference</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yiqing Wang</li>
+               <li class="nameList">Hailong Yang</li>
+               <li class="nameList">Enze Yu</li>
+               <li class="nameList">Qingxiao Sun</li>
+               <li class="nameList">Kejie Ma</li>
+               <li class="nameList">Kaige Zhang</li>
+               <li class="nameList">Chenhao Xie</li>
+               <li class="nameList Last">Depei Qian</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Temporal Graph Networks (TGNs) are widely used to model evolving relationships in
+                     dynamic graphs. However, existing inference systems enforce a step-wise paradigm:
+                     processing each temporal graph sequentially with a memory update followed by aggregation.
+                     We break this dependency by decoupling memory updates from aggregation while preserving
+                     prediction accuracy, thereby enabling a global view for fine-grained parallelism control.
+                     This design unlocks new optimization opportunities but introduces three system-level
+                     challenges: managing intermediate multi-state representations, curbing memory-bound
+                     update overheads, and selecting a safe yet efficient aggregation granularity. We present
+                     <em>APERTURE</em>, a TGN inference framework that bridges algorithmic semantics and system design.
+                     To address the above challenges, <em>APERTURE</em> (1) jointly aggregates temporal states via computation graph transformation, (2)
+                     minimizes redundant memory traffic through dependency-aware update reconstruction;
+                     (3) selects the optimal granularity by analytically modeling. The experimental results
+                     show that <em>APERTURE</em> achieves up to 59.3× speedup over state-of-the-art baselines without compromising
+                     accuracy.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786460">TAC: Cache-Based System for Accelerating Billion-Scale GNN Training on Multi-GPU Platform</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">ZhiQiang Liang</li>
+               <li class="nameList">Hongyu Gao</li>
+               <li class="nameList">Jue Wang</li>
+               <li class="nameList">Fang Liu</li>
+               <li class="nameList">Xingguo Shi</li>
+               <li class="nameList">Junyu Gu</li>
+               <li class="nameList">Peng Di</li>
+               <li class="nameList">Sian Li</li>
+               <li class="nameList">Lei Tang</li>
+               <li class="nameList">Chunbao Zhou</li>
+               <li class="nameList">Lian Zhao</li>
+               <li class="nameList">Yangang Wang</li>
+               <li class="nameList Last">Xuebin Chi</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Graph neural networks (GNNs) have been proven to have increasingly widespread applications
+                     in the real world. In the mainstream mini-batch training mode, multiple cache-based
+                     GNN training acceleration systems have been proposed because of the possibility of
+                     selecting the same vertex multiple times during the sampling process. However, on
+                     ultra-large scale graphs, especially those exhibiting power-law characteristics, these
+                     systems are difficult to fully utilize the distribution characteristics of cached
+                     data, which limits training performance. To this end, we propose TAC, a GNN training
+                     acceleration system that fully exploits the distribution characteristics of cached
+                     data to optimize both data transmission and computational efficiency. Specifically,
+                     we have designed a data affinity optimization algorithm that significantly enhances
+                     the locality of cache access. Secondly, an adaptive sparse matrix operator for sparsity
+                     perception is proposed, which dynamically selects the optimal computing mode based
+                     on the location of data. Finally, we have constructed a fine-grained training pipeline
+                     that maximizes system parallelism by hiding the sampling and computation. The experimental
+                     results show that TAC significantly outperforms existing state-of-the-art cache acceleration
+                     systems on multiple benchmark datasets, demonstrating higher training efficiency.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786416">DTMiner: A Data-Centric System for Efficient Temporal Motif Mining</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yinbo Hou</li>
+               <li class="nameList">Hao Qi</li>
+               <li class="nameList">Ligang He</li>
+               <li class="nameList">Jin Zhao</li>
+               <li class="nameList">Yu Zhang</li>
+               <li class="nameList">Hui Yu</li>
+               <li class="nameList">Longlong Lin</li>
+               <li class="nameList">Lin Gu</li>
+               <li class="nameList">Wenbin Jiang</li>
+               <li class="nameList">Xiaofei Liao</li>
+               <li class="nameList Last">Hai Jin</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Mining temporal motifs in temporal graphs is essential for many critical applications.
+                     Although several solutions have been proposed to handle temporal motif mining, they
+                     still suffer from substantial inefficiencies due to significant <em>redundant graph traversals</em> and <em>fragmented memory access</em>, both caused by irregular search tree expansions across different motif matching
+                     tasks. In this work, we observe that data accesses issued by these tasks exhibit strong
+                     <em>spatial similarity</em> and <em>temporal monotonicity</em>. Based on these observations, this paper proposes an efficient data-centric temporal
+                     motif mining system DTMiner, which introduces a novel <em>Load-Explore-Synchronize</em> (LES) execution model to efficiently regularize data accesses to the common temporal
+                     graph data among different tasks. Specifically, DTMiner enables the temporal graph
+                     chunks to be sequentially loaded into the cache in temporal order and then triggers
+                     all relevant tasks to explore only these loaded data for search tree expansions in
+                     a fine-grained synchronization mechanism. In this way, different tasks can share the
+                     graph traversal corresponding to the same chunks, while fragmented memory accesses
+                     are restricted to the graph data residing in the cache, significantly reducing data
+                     access overhead. Experimental results demonstrate that DTMiner achieves 1.14×-11.98×
+                     performance improvement in comparison with the state-of-the-art temporal motif mining
+                     solutions.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Optimizing Transformers</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786425">FlashAttention-T: Towards Fully Tensorized Attention by Exploiting Tensor-Vector Parallelism</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Jianxing Xu</li>
+               <li class="nameList">Yuanbo Wen</li>
+               <li class="nameList">Jun Bi</li>
+               <li class="nameList">Ruibai Xu</li>
+               <li class="nameList">Guanglin Xu</li>
+               <li class="nameList">Rui Zhang</li>
+               <li class="nameList">Wei Li</li>
+               <li class="nameList">Ling Li</li>
+               <li class="nameList">Tianshi Chen</li>
+               <li class="nameList">Qi Guo</li>
+               <li class="nameList Last">Yunji Chen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>The attention mechanism is central to modern deep learning, particularly in large
+                     language models (LLMs), but suffers from quadratic computational complexity. To accelerate
+                     attention computation on GPUs, fused attention techniques (e.g., FlashAttention) consolidate
+                     the matrix multiplication (GEMM) and softmax computations into a single kernel. However,
+                     these operations remain computationally decoupled: the GEMM leverages high-performance
+                     tensor units (Tensor Cores), while the softmax executes on slower vector units (CUDA
+                     cores). This imbalance induces severe vector intervals—periods where tensor units
+                     sit idle awaiting vector unit completion—significantly underutilizing tensor units.
+                     Furthermore, ongoing hardware advancements delivering faster tensor units exacerbate
+                     this bottleneck.  
+                     </p>
+                  
+                  <p>
+                     To resolve the vector interval bottleneck, in this paper, we propose FlashAttention-T,
+                     a fused attention implementation that advances toward fully tensorized fused attention.
+                     Our key insight is to offload critical softmax primitives to idle tensor units, maximizing
+                     hardware utilization and throughput. Concretely, we first introduce a series of operand
+                     value assignment methods to repurpose tensor matrix multiply-add (MMA) instructions
+                     for executing softmax primitives (e.g., element-wise scaling). Building on this, we
+                     design a tensorized online softmax algorithm with numerical stability guarantees,
+                     adhering to the constraints of repurposed tensor MMA instructions. To maximize performance,
+                     we parallelize the online softmax computation across tensor and vector units via architecture-aware
+                     scheduling techniques, fully leveraging heterogeneous parallelism.  
+                     </p>
+                  
+                  <p>
+                     Extensive evaluation of various attention configurations across multiple platforms
+                     including NVIDIA Ampere (A100 and AGX Orin) and Hopper (H100) GPUs demonstrates that
+                     FlashAttention-T achieves vector interval ratios 1.17–2.18× lower than the baseline
+                     on Ampere GPUs and reduces them down to 2.7% on the Hopper H100, with average speedups
+                     of up to 1.17× against FlashAttention-2 and FlashAttention-3 while preserving numerical
+                     stability and accuracy.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786434">Accelerating Sparse Transformer Inference on GPU</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Wenhao Dai</li>
+               <li class="nameList">Haodong Deng</li>
+               <li class="nameList">Mengfei Rong</li>
+               <li class="nameList">Xinyu Yang</li>
+               <li class="nameList">Hongyu Liu</li>
+               <li class="nameList">Fangxin Liu</li>
+               <li class="nameList">Hailong Yang</li>
+               <li class="nameList">Qianwen Cao</li>
+               <li class="nameList Last">Qingxiao Sun</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Large language models (LLMs) are popular around the world due to their powerful understanding
+                     capabilities. As the core component of LLMs, accelerating Transformer through parallelization
+                     has gradually become a hot research topic. Mask layers introduce sparsity into Transformer
+                     to reduce calculations. However, previous works rarely focus on the performance optimization
+                     of sparse Transformer. In addition, current static operator fusion schemes fail to
+                     adapt to diverse application scenarios. To address the above problems, we propose
+                     STOF, a framework that incorporates optimizations for Sparse Transformer that enables
+                     flexible masking and Operator Fusion on GPU. For multi-head attention (MHA) structure,
+                     STOF maps the computation to row-wise or block-wise kernels with unique storage formats
+                     according to analytical modeling. For downstream operators, STOF maps the fusion scheme
+                     to compilation templates and determines the optimal running configuration through
+                     two-stage searching. The experimental results show that compared to the state-of-the-art
+                     work, STOF achieves maximum speedups of 1.6× in MHA computation and 1.4× in end-to-end
+                     inference.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786444">MetaAttention: A Unified and Performant Attention Framework across Hardware Backends</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Feiyang Chen</li>
+               <li class="nameList">Yu Cheng</li>
+               <li class="nameList">Lei Wang</li>
+               <li class="nameList">Yuqing Xia</li>
+               <li class="nameList">Ziming Miao</li>
+               <li class="nameList">Lingxiao Ma</li>
+               <li class="nameList">Fan Yang</li>
+               <li class="nameList">Jilong Xue</li>
+               <li class="nameList">Zhi Yang</li>
+               <li class="nameList">Mao Yang</li>
+               <li class="nameList">Xingda Wei</li>
+               <li class="nameList Last">Haibo Chen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Computing attention is the backbone of transformer-based models like large language
+                     models. However, the increasing diversity of attention algorithms presents significant
+                     challenges for unleashing hardware performance. State-of-the-art variants like FlashAttention
+                     target a specific attention algorithm or hardware platform, which fail to generalize
+                     to other algorithms and platforms. </p>
+                  <p>We present MetaAttention, a framework that automatically derives the optimal implementation
+                     of an attention algorithm given a hardware platform. Our key insight is that variants
+                     of attention can be abstracted into two operations: relevance scoring and aggregation,
+                     complemented by customizable functions and configurations like the input shape. Based
+                     on it, we systematically design a cross-backend attention runtime around these operations
+                     that generalizes to variants of attention with customizable operators. To unleash
+                     the hardware performance, we further propose an IntermediateTensor-based search method
+                     to find the optimal tiling strategy and the parallelism scheme according to the attention
+                     customization and hardware features. MetaAttention delivers up to a 10.4× speedup
+                     for configurations previously unsupported by state-of-the-art systems. Additionally,
+                     MetaAttention achieves performance comparable to manually-optimized libraries such
+                     as FlashMLA while significantly reducing the amount of code required.</p>
+                  			</div>
+            </div>
+            							
+            						
+            <h2>SESSION: Matrix and Linear Algebra Algorithms</h2>
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786427">Towards Singular Value Decomposition for Rank-Deficient Matrices: An Efficient and
+                  Accurate Algorithm on GPU Architectures</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Lu Shi</li>
+               <li class="nameList">WeiWei Xu</li>
+               <li class="nameList Last">Shaoshuai Zhang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Singular Value Decomposition (SVD) is a fundamental tool in numerous scientific and
+                     engineering domains. Many high-performance libraries, such as LAPACK, MAGMA, and cuSOLVER,
+                     provide general, truncated, and randomized SVD routines. However, when the input is
+                     a low-rank matrix whose rank is not explicitly known, existing routines usually treat
+                     it as full-rank, which leads to suboptimal performance. In this paper, we propose
+                     an efficient SVD algorithm specifically for rank-deficient matrices based on a recently
+                     proposed rank-revealing QR factorization, termed QB factorization. To further enhance
+                     numerical stability and efficiency, we introduce a Householder QB factorization and
+                     a mixed-precision SVD algorithm, accompanied by a rigorous error analysis demonstrating
+                     correctness and stability. Experimental results show that our method achieves up to
+                     6978.71x speedup over the general (full) SVD routine in cuSOLVER and is 9.99x faster
+                     than randomized SVD in FP32 precision. Moreover, our method exhibits higher numerical
+                     accuracy than cuSOLVER full SVD, achieving substantially smaller backward errors while
+                     maintaining stable and reliable singular values. Beyond synthetic benchmarks, we also
+                     demonstrate its effectiveness in an image compression application with higher efficiency.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786446">A Diagonal Block Memory-Aware Polynomial Preconditioner for Linear and Eigenvalue
+                  Solvers</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Xiaojian Yang</li>
+               <li class="nameList">Yuhui Ni</li>
+               <li class="nameList">Fan Yuan</li>
+               <li class="nameList">Shengguo Li</li>
+               <li class="nameList">Dezun Dong</li>
+               <li class="nameList">Chuanfu Xu</li>
+               <li class="nameList">Haipeng Jia</li>
+               <li class="nameList Last">Jie Liu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Krylov subspace methods are widely used in scientific computing to solve large sparse
+                     linear systems and eigenvalue problems. Their performance bottleneck is often dominated
+                     by high-order matrix-power kernels (MPK), especially in polynomial preconditioners
+                     that must scale to millions or billions of variables. We present Diagonal Block MPK
+                     (DBMPK), a lightweight and parallel-friendly optimization that partitions the input
+                     matrix into diagonal blocks and off-diagonal regions. This design enables efficient
+                     intra-block data reuse and eliminates inter-block dependencies. It improves cache
+                     locality, parallelism, and reduces preprocessing overheads, compared to existing techniques.
+                     Our evaluation on x86 and Arm HPC platforms shows that DBMPK improves MPK performance
+                     by 26.6%-38.4%. When applied to polynomial preconditioners for linear systems and
+                     eigenvalue problems, it achieves consistent end-to-end speedups of 18.6%-34.0%, including
+                     in weak scaling tests on 128 nodes, demonstrating strong scalability and practical
+                     impact.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786453">A Distributed Matrix-Block-Vector Multiplication in Presence of System Performance
+                  Variability</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yuchen Ma</li>
+               <li class="nameList">Bin Ren</li>
+               <li class="nameList Last">Andreas Stathopoulos</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Distributed matrix-block-vector multiplication (Matvec) algorithm is a critical component
+                     of many applications, but can be computationally challenging for dense matrices of
+                     dimension O(10^6–10^7) and blocks of O(10–100) vectors. We present performance analysis,
+                     implementation, and optimization of our SMatVec library for Matvec under the effect
+                     of system variability. Our modeling shows that 1D pipelining Matvec is as efficient
+                     as 2D algorithms at small to medium clusters, which are sufficient for these problem
+                     sizes. We develop a performance tracing framework and a simulator that reveal pipeline
+                     bubbles caused by modest ~5% system variability. To tolerate such variability, our
+                     SMatVec library, which combines on-the-fly kernel matrix generation and Matvec, integrates
+                     four optimizations: inter-process data preloading, unconventional static thread scheduling,
+                     cache-aware tiling, and multi-version unrolling. In our benchmarks on O(10^5) Matvec
+                     problems, SMatVec achieves up to 1.85× speedup over COSMA and 17× over ScaLAPACK.
+                     For O(10^6) problems, where COSMA and ScaLAPACK exceed memory capacity, SMatVec maintains
+                     linear strong scaling and achieves peak performance of 75% FMA Flop/s. Its static
+                     scheduling policy has a 2.27× speedup compared to the conventional work-stealing dynamic
+                     scheduler, and is predicted to withstand up to 108% performance variability under
+                     exponential distributed variability simulation.</p>
+                  			</div>
+            </div>
+            							
+            						
+            							
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3774934.3786456">Characterizing Matrix Multiplication Units across General Parallel Patterns in Scientific
+                  Computing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yuechen Lu</li>
+               <li class="nameList">Hongwei Zeng</li>
+               <li class="nameList">Marc Casas</li>
+               <li class="nameList Last">Weifeng Liu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  				
+                  <p>Matrix multiplication units (MMUs) in modern parallel processors enable efficient
+                     execution of tiled matrix multiplications at varying precisions. While their effectiveness
+                     in AI workloads has been well demonstrated, their utility in scientific computing
+                     lacks systematic analysis. In this work, we characterize MMUs across a broad range
+                     of scientific computing patterns by evaluating performance, power consumption, numerical
+                     precision, and memory access behavior. To support this analysis, we develop Cubie,
+                     a comprehensive benchmark suite comprising ten MMU-optimized kernels of key parallel
+                     patterns. We also categorize MMU utilization patterns into four quadrants and identify
+                     the MMU limitations that arise in scientific computing. Through detailed comparisons
+                     with vector units, we provide nine key observations on the behavior and implications
+                     of MMUs in general scientific workloads, offering valuable insights for architecture,
+                     algorithm, and application researchers.</p>
+                  			</div>
+            </div>
+            							
+            						</div>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,104 @@
+---
+title: "Call for Participation: Functional and Logic Programming (FLOPS, May 26-28, Tsukuba)"
+timestamp: "2/22/2026 12:02:49"
+start: "5/26/2026"
+end: "5/28/2026"
+---
+# FLOPS 2026 -- Call for Participation 
+
+## The 18th International Symposium on Functional and Logic Programming
+## May 26-28, Tsukuba, Japan
+## [`https://functional-logic.org/events/flops/2026/`](https://functional-logic.org/events/flops/2026/)
+
+Welcome to the 18th International Symposium on Functional and Logic
+Programming (FLOPS 2026) on May 26-May 28, 2026 in Tsukuba, Japan.
+
+FLOPS 2026 is co-sponsored by Special Interest Group on Programming
+and Programming Languages (SIG-PPL), Japan Society for Software
+Science and Technology (JSSST).
+
+FLOPS brings together practitioners, researchers and implementers of
+declarative programming, to discuss mutually interesting results and
+common problems: theoretical advances, their implementations in
+language systems and tools, and applications of these systems in
+practice. FLOPS specifically aims to promote cross-fertilization
+between theory and practice and among different styles of declarative
+programming.
+
+### Venue
+
+FLOPS 2026 will take place at the University of Tskukuba.  Tsukuba is
+about 60km from central Tokyo, and easily reachable via public
+transport from both Haneda and Narita airports.
+
+Tsukuba is Japan's science and technology city.  Yet, it preserves
+its rich traditions and local heritage with attractions such as
+Mt. Tsukuba and Tsukubasan Shrine.
+
+### Registration
+
+You can register for FLOPS 2026 here:
+
+[`https://functional-logic.org/events/flops/2026/registration/`](https://functional-logic.org/events/flops/2026/registration/)
+
+Early-bird registration fee (until Apr 25) is 50000¥/20000¥ for
+students - roughly 275€, 325$, 240£ as of February 19.
+
+Registration includes an excursion and a banquet on May 27.  Extra
+banquet tickets are available.
+
+### Program
+
+#### Keynote speakers:
+
+- Kazunori Ueda, Waseda Univerity
+- Fritz Henglein, University of Copenhagen
+- Gabriele Keller, Utrecht University
+
+#### Tutorial:
+- Jesse Alama, Scheming in Lean
+
+#### Accepted papers:
+
+- Li, F., Gupta, G.: Computing Supported Models via Transformation to
+  Stable Models
+
+- Miyazawa, O., Nishizaki, S.: Matrix Coeffect: A Coeffect Calculus
+  for Handling Interdependent Information
+
+- Arntzenius, M., Willsey, M.: Finite Functional Programming or,
+  LAMBDA: the Ultimate Predicate
+
+- Lam, C.: Optimizing Mesh Booleans by Being Lazy (System Description)
+
+- Zhou, N., Jiang, C., Bierlee, H., Stuckey, P.: Dynamic Programming
+  and Tabled Logic Programming for Encoding Single-Constant
+  Multiplication into SAT (Declarative Pearl)
+
+- Bohrer, R.: Demonic Dynamic Logic Programming
+
+- Morihata, A.: Test Your Polymorphic Functions with Boolean Values
+
+- Kiselyov, O.: More Fun with Monoids (Declarative Pearl)
+
+- Boyland, P., Hyatt, S., Dewey, K., Hardekopf, B.: Breccia: A
+  Functional DSL Compiled to Egglog for Test Input Generation
+
+- Cabo, Q., Scholz, S.: Finding Programming Faults Even When Large
+  Parts of the Code have Disappeared
+
+- Maieli, R., Acclavio, M.: Probabilistic Linear Logic Programming
+  with an application to Bayesian Networks computations
+
+- Tudor, A., Arias, J., Gupta, G.: Automatic Knowledge Gap Detection
+  and Plan Validation Using Counterfactual Justifications
+
+- Hemann, J., Pfingsten, B.: Visualizing miniKanren Search with a
+  Fine-Grained Small-Step Semantics
+
+- Coltharp, N., Libby, S., Israel, L., Li, Y.: Unifying Hindsight and
+  Foresight: Lazy Cost Analysis as Functional Logic Programming
+
+Further information about the conference and local arrangements is
+available on the conference website.
+

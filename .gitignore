@@ -9,3 +9,4 @@ link-checker-*
 .\#*
 vendor
 .DS_Store
+.vscode

@@ -24,6 +24,9 @@ please at least skim this page as well as the following ones:
 - SIGPLAN's [Republication Policy](/Resources/Policies/Republication)
 - SIGPLAN's [Code of Conduct Policy](/Resources/Policies/CodeOfConduct/)
 - SIGACCESS's [Guide to Creating a Conference Accessibility FAQ Page](http://www.sigaccess.org/welcome-to-sigaccess/resources/creating-a-conference-accessibility-faq-page/)
+- SIGPLAN [CARES committee](/Cares/); please advertise its existence and role in the conference website and opening slides. The CARES co-chairs will be able to provide slides and help if needed. 
+- SIGPLAN [Programming Languages Mentoring Workshop (PLMW)](https://plmw.sigplan.org/) is held at our
+  major conferences. You should coordinate with the PLMW chairs and advertise its existence.
 - If you plan to request in-cooperation or sponsored status, do so well in
   advance (twelve or eighteen months, respectively).
 - Seek approval for important roles (PC Chair, and for a sponsored event
@@ -32,7 +35,6 @@ please at least skim this page as well as the following ones:
   existing conventions.
 - Some special considerations for organizers of workshops and similar events
   can be found on [this page](/Resources/Guidelines/Workshops).
-
 
 _Please help us keep this document (and the rest of this site) up to date:_ If you notice any errors, duplications, inconsistencies, etc., please inform the [SIGPLAN vice chair](mailto:vc_sigplan@acm.org).
 

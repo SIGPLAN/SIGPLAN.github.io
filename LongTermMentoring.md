@@ -14,7 +14,7 @@ and to access the perspectives of researchers from other institutions.
 
 In response to these needs, SIGPLAN-M matches mentors with mentees from different institutions
 for mentoring relationships that last at least a year.
-As of May 2024, there are about 350 mentees and 250 mentors participating in the program.
+As of January 2026, there are about 380 mentees and 270 mentors currently participating in the program.
 Here are some testimonials from mentees:
 
 > [SIGPLAN-M is] a career saver!
@@ -89,7 +89,6 @@ We'd like to thank these amazing mentors, current and previous:
 - Jonathan DiLorenzo
 - Alastair Donaldson
 - Jana Dunfield
-- Sebastian Erdweg
 - Jason Hemann
 - Patrik Jansson
 - Konstantinos Kallas
@@ -105,6 +104,7 @@ We'd like to thank these amazing mentors, current and previous:
 - William Mansky
 - Mae Milano
 - Manasij Mukherjee
+- Michael Norrish
 - Kia Rahmani
 - Norman Ramsey
 - Talia Ringer
@@ -123,6 +123,8 @@ We'd like to thank these amazing mentors, current and previous:
 
 Retired:
 - Jonathan Aldrich
+- Pedro Da Costa Abreu
+- Sebastian Erdweg
 - Tobias Grosser
 - Kuen-Bang Hou (Favonia)
 - Ralf Jung

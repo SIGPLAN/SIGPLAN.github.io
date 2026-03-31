@@ -1,3 +1,13 @@
+2026:
+- Awardee: Nikhil Swamy, Cătălin Hriţcu, Chantal Keller, Aseem Rastogi, Antoine Delignat-Lavaud, Simon Forest, Karthikeyan Bhargavan, Cédric Fournet, Pierre-Yves Strub, Markulf Kohlweiss, Jean-Karim Zinzindohoue, Santiago Zanella-Béguelin
+  Other: |
+    (for 2016): _[Dependent Types and Multi-monadic Effects in F*](https://dl.acm.org/doi/10.1145/2914770.2837655)_
+  Citation: |
+    This paper introduced F*, an SMT-aided verification-oriented language that integrates SMT solving (via Z3) with the interactive, proof assistant reasoning of dependent types. By combining Dijkstra monads for weakest-precondition inference with solver automation, F* showed that expressive effectful programs could be verified at scale, shaping the direction of solver-assisted proof-oriented languages.
+    F* became the foundation of Project Everest, and was further developed and maintained by a large team of contributors, enabling applications such as verified cryptographic libraries (e.g., HACL*, EverCrypt), protocols (e.g., miTLS, DY*,  MLS*), and parsers (e.g., EverParse), through the use of DSLs for low-level code (Vale, Low*, Steel, Pulse). The resulting code has been integrated into widely used software stacks, demonstrating real-world impact and validating the paper’s core vision: that SMT automation, tightly integrated with interactive proofs in a principled language design, makes large-scale formal verification practical for high-assurance, high-performance software.
+
+
+
 2025:
 - Awardee: Ralf Jung, David Swasey, Filip Sieczkowski, Kasper Paabøl Svendsen, Aaron Joseph Turon, Lars Birkedal, Derek Dreyer
   Other: |
