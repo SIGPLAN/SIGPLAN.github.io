@@ -1,3 +1,7 @@
+2025:
+- Award: John Vlissides Award
+  Awardee: "Amanda Xu, University of Wisconsin-Madison" 
+
 2024:
 - Award: John Vlissides Award
   Awardee: "Noam Zilberstein, Cornell University"
@@ -5,48 +9,7 @@
     Noam Zilberstein’s PhD work presents a new formal foundation and style of proof system called Outcome Logic, designed to encompass both correctness and incorrectness reasoning for a variety of different program logics and corresponding program analysis techniques.
     Its motivations and contributions are partly theoretical, providing a broad, generic theory that can connect and combine many disparate reasoning ideas. However, the work also has strong potential for practical impact: for example, the generic support for incorrectness reasoning has applications for the rigorous development of future automated bug-finding tools.
 
-2022:
-- Award: ASPLOS Most Influential Paper Award
-  Awardee: Shan Lu, Soyeon Park, Eunsoo Seo, and Yuanyuan Zhou
-  Other: |
-    _[Learning from mistakes: a comprehensive study on real world concurrency bug characteristics, ASPLOS 2008](https://dl.acm.org/doi/10.1145/1346281.1346323)_
-- Award: ASPLOS Most Influential Paper Award
-  Awardee: Donald E. Porter, Silas Boyd-Wickizer, Jon Howell, Reuben Olinsky, and Galen C. Hunt
-  Other: |
-    _[Rethinking the Library OS from the Top Down, ASPLOS 2011](https://dl.acm.org/doi/10.1145/1961296.1950399)_
-- Award: ASPLOS Most Influential Paper Award
-  Awardee: Todd C. Mowry, Monica S. Lam, and Anoop Gupta
-  Other: |
-    _[Design and evaluation of a compiler algorithm for prefetching, ASPLOS 1992](https://dl.acm.org/doi/10.1145/143371.143488)_
-
-2021:
-- Award: ASPLOS Most Influential Paper Award
-  Awardee: Robert P. Colwell, Robert P. Nix, John J. O’Donnell, David B. Papworth, and Paul K. Rodman
-  Other: |
-    _[A VLIW Architecture for a Trace Scheduling Compiler, ASPLOS 1987](https://dl.acm.org/doi/abs/10.1145/36206.36201)_
-- Award: ASPLOS Most Influential Paper Award
-  Awardee: Monica S. Lam, Edward E. Rothberg, and Michael E. Wolf
-  Other: |
-    _[The Cache Performance and Optimizations of Blocked Algorithms, ASPLOS 1991](https://dl.acm.org/doi/10.1145/106973.106981)_
-- Award: ASPLOS Most Influential Paper Award
-  Awardee: Shien-Tai Pan, Kimming So, and Joseph T. Rahmeh
-  Other: |
-    _[Improving the Accuracy of Dynamic Branch Prediction Using Branch Correlation, ASPLOS 1992](https://dl.acm.org/doi/10.1145/143371.143490)_
-- Award: ASPLOS Most Influential Paper Award
-  Awardee: Mikko H. Lipasti, Christopher B. Wilkerson, and John Paul Shen
-  Other: |
-    _[Value Locality and Load Value Prediction, ASPLOS 1996](https://dl.acm.org/doi/10.1145/248209.237173)_
-
-
 2020:
-- Award: ASPLOS Most Influential Paper Award
-  Awardee: Philo Juang, Hidekazu Oki, Yong Wang, Margaret Martonosi, Li Shiuan Peh, and Daniel Rubenstein
-  Other: |
-    _[Energy-efficient computing for wildlife tracking: design tradeoffs and early experiences with ZebraNet, ASPLOS 2002](https://dl.acm.org/doi/10.1145/605397.605408)_
-- Award: ASPLOS Most Influential Paper Award
-  Awardee: Keith Adams and Ole Agesen
-  Other: |
-    _[A comparison of software and hardware techniques for x86 virtualization, ASPLOS 2006](https://dl.acm.org/doi/10.1145/1168857.1168860)_
 - Award: John Vlissides Award
   Awardee: "Eduardo Geraldo, NOVA LINCS - NOVA University of Lisbon"
   Citation: |
@@ -73,23 +36,6 @@
     performance problems, and can lead to significant performance
     gains.
 
-2019:
-- Award: ASPLOS Most Influential Paper Award
-  Awardee: Emery D. Berger, Kathryn S. McKinley, Robert D. Blumofe, and Paul R. Wilson
-  Other: |
-    _[Hoard: A Scalable Memory Allocator for Multithreaded Applications](https://dl.acm.org/citation.cfm?doid=384264.379232)_
-
-2018:
-- Award: ASPLOS Most Influential Paper Award
-  Awardee: John Kubiatowicz, David Bindel, Yan Chen, Steven Czerwinski, Patrick Eaton, Dennis Geels, Ramakrishan Gummadi, Sean Rhea, Hakim Weatherspoon, Westley Weimer, Chris Wells, and Ben Zhao
-  Other: |
-    _[OceanStore: an architecture for global-scale persistent storage](https://dl.acm.org/citation.cfm?id=357007)_
-
-2017:
-- Award: ASPLOS Most Influential Paper Award
-  Awardee: Timothy Sherwood, Erez Perelman, Greg Hamerly, and Brad Calder
-  Other: |
-    _[Automatically characterizing large scale program behavior](https://dl.acm.org/citation.cfm?id=605403)_
 
 2016:
 - Award: John Vlissides Award
