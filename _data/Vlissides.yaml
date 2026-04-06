@@ -1,6 +1,8 @@
 2025:
 - Award: John Vlissides Award
-  Awardee: "Amanda Xu, University of Wisconsin-Madison" 
+  Awardee: "Amanda Xu, University of Wisconsin-Madison"
+  Citation: |
+    Amanda Xu's PhD work focusses on the automatic synthesis of effective and correct quantum-circuit optimisers for a variety of quantum computing architectures. New hardware and architecture designs for quantum computing continue to emerge, and Amanda presents a framework for the automatic generation of compilation infrastructure for each new architecture as it appears, reducing the need for manual redefinition. This work aims to accelerate the pace of quantum computing development, ensuring that compiler capabilities do not bottleneck experimentation with quantum instruction sets and architecture designs.
 
 2024:
 - Award: John Vlissides Award
