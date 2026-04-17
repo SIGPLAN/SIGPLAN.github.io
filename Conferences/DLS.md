@@ -30,6 +30,28 @@ For questions or suggestions, please contact the [Steering Committee Chair](#scc
 Awards
 ------
 
+-   Most Notable Paper Award 2026 for 2016
+    - Recipients: Stefan Marr, Benoit Daloze, Hanspeter Mössenböck
+    - Title: Cross-Language Compiler Benchmarking—Are We Fast Yet?
+    - Conference: DLS 2016
+    - Paper: [https://doi.org/10.1145/2989225.298923](10.1145/2989225.298923)
+    - Citation: Comparing the performance of different language implementations is a hard task,
+        given the many features and requirements that complicate optimizations. This paper addresses
+        this challenge by proposing a set of cross-language benchmarks that has become a key reference
+        for the research community. By using an abstract language with core features, the approach ensures
+        that an identical workload is exposed to each language, thus enabling fair comparisons.
+
+-   Most Notable Paper Award 2025 for 2015
+    - Recipient: Marc Feeley
+    - Title: Compiling for Multi-language Task Migration
+    - Conference: DLS 2015
+    - Paper: [https://dl.acm.org/doi/10.1145/2816707.2816713](10.1145/2816707.2816713)
+    - Citation: Recent years have seen a resurgent interest in the use and implementation of first-class control,
+        especially in the form of delimited continuations via effect handlers. This paper is motivated by the
+        challenges of implementing continuations for an uncooperative environment and the opportunities for
+        code migration that the implementation affords. The paper recaps the design of the Gambit Virtual Machine
+        for efficient continuations, and it provides evidence for the ongoing effectiveness of the design.
+
 -   Most Notable Paper Award 2024 for 2014
     - Recipients: Vanessa Freudenberg, Dan Ingalls, Tim Felgentreff, Tobias Pape, Robert Hirschfeld
     - Title: SqueakJS: A Modern and Practical Smalltalk that Runs in Any Browser
@@ -43,7 +65,6 @@ Awards
       as well as basic file abstractions can be realized inside the browser environment.
       Today, SqueakJS continues to be used in education, for web applications,
       and as environments to preserve important parts of Smalltalk’s history, and with it, computing history.
-
 
 -   Most Notable Paper Award 2023 for 2013
     -   Recipients: Esteban Allende, Johan Fabry, Éric Tanter
@@ -59,7 +80,6 @@ Awards
         back to the strategies described and proposed in this paper.
         In particular, the proposed hybrid approach has been adapted time and
         time again by many systems, giving this work a lasting impact beyond its original scope.
-
 
 -   Most Notable Paper Award 2022 for 2012
     -   Recipients: Thomas Würthinger, Andreas Wöß, Lukas Stadler, Gilles Duboscq, Doug Simon, and Christian Wimmer
@@ -111,8 +131,7 @@ Awards
     -   Recipients: Jeremy G. Siek and Manish Vachharajani
     -   Title: Gradual Typing With Unification-based Inference
     -   Conference: DLS 2008
-    -   Paper:
-        [https://dl.acm.org/citation.cfm?doid=1408681.1408688](https://dl.acm.org/citation.cfm?doid=1408681.1408688)
+    -   Paper:       [https://dl.acm.org/citation.cfm?doid=1408681.1408688](https://dl.acm.org/citation.cfm?doid=1408681.1408688)
     -   Citation: The 2008 DLS paper "Gradual Typing With
         Unification-based Inference" showed that one can increase the
         static guarantees made in a program through an ingenious
