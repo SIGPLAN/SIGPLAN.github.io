@@ -70,9 +70,6 @@
     several SIGPLAN conferences and symposium, including:
        - [OOPSLA](/Conferences/OOPSLA)
        - [Onward](/Conferences/Onward)
-       - [DLS](/Conferences/DLS)
-       - [GPCE](/Conferences/GPCE)
-       - [SLE](/Conferences/SLE)
 
 -
   name: Compiler Construction (CC)
@@ -105,7 +102,7 @@
 
 -
   name: 'Generative Programming: Concepts and Experiences (GPCE)'
-  link: 'http://program-transformation.org/Gpce'
+  link: '/Conferences/GPCE'
   description: |
     Generative Programming: Concepts & Experiences is a conference
     promoting the application and innovation of foundational techniques
@@ -174,7 +171,7 @@
 
 -
   name: Software Language Engineering (SLE)
-  link: 'http://www.sleconf.org/'
+  link: 'https://www.sleconf.org/'
   description: |
     The International Conference on Software Language Engineering (SLE) is
     devoted to the engineering principles of software languages: their

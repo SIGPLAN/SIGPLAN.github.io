@@ -57,7 +57,7 @@ Selected March 2026:
     complete implementations from scratch. MegaLibm replicates 8
     state-of-the-art implementations in far less code, produces improved
     variations, and even uncovers a bug in VDT's cosine. The paper is a nice
-    example of applying Programming Lanugage ideas, such as typing,
+    example of applying Programming Language ideas, such as typing,
     compositionality, and synthesis, opening up a domain that has long been
     inaccessible to non-specialists.
 
@@ -106,7 +106,7 @@ Selected February 2025:
     The use of sampling to improve the performance of a data race
     detector has been previously explored, but this work extends and
     analyzes that idea.
-  CACMSelection: true  
+  CACMSelection: true
 
 - Title: "_[Catala: a Programming Language for the Law](https://dl.acm.org/doi/10.1145/3473582)_"
   Authors: "Denis Merigoux (INRIA), Nicolas Chataing (ENS Paris), Jonathan Protzenko (Microsoft Research)"
