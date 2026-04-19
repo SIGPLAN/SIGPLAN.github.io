@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "DRAFT: SIGPLAN Video Recording Policy"
+title: "SIGPLAN Video Recording Policy"
 ---
 
 SIGPLAN expects every plenary keynote and every talk in the main technical program of POPL, PLDI, ICFP, OOPSLA, and Onward! (Papers and Essays) to be recorded and published on the [ACM SIGPLAN YouTube channel](https://www.youtube.com/@acmsigplan).
@@ -12,7 +12,7 @@ Co-located workshops, tutorials, and other events are not covered by this policy
 
 ## Responsibility
 
-The General Chair of each conference is responsible for ensuring that recordings are produced and delivered for upload to the SIGPLAN YouTube channel. SIGPLAN does not mandate a particular recording method; the General Chair has discretion to choose an approach suited to the venue, budget, and local circumstances. Options include, but are not limited to:
+The General Chair of each conference is responsible for ensuring that recordings are produced and delivered for upload to the [SIGPLAN YouTube channel](https://www.youtube.com/@acmsigplan). SIGPLAN does not mandate a particular recording method; the General Chair has discretion to choose an approach suited to the venue, budget, and local circumstances. Options include, but are not limited to:
 
 -   Simple Zoom screen recording on the speaker's laptop, managed by a volunteer or session chair.
 -   Existing lecture-capture or AV recording equipment at a campus or venue.
@@ -24,4 +24,4 @@ General Chairs should include recording costs in their conference budget.
 
 ## Speaker notification
 
-Speakers should be informed in advance, and their consent should be sought in accordance with ACM requirements. This information and consent request should appear in both the call for papers and the acceptance notification, stating that their talks will be recorded and published on the SIGPLAN YouTube channel. Speakers with concerns should contact the General Chair to discuss accommodations.
+Speakers should be informed in advance, and their consent should be sought in accordance with ACM requirements. This information and consent request should appear in both the call for papers and the acceptance notification, stating that their talks will be recorded and published on the [SIGPLAN YouTube channel](https://www.youtube.com/@acmsigplan). Speakers with concerns should contact the General Chair to discuss accommodations.
