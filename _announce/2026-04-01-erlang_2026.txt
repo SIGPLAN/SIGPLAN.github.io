@@ -1,0 +1,171 @@
+---
+title: "Call for Papers, Erlang Workshop 2026"
+timestamp: "4/1/2026 5:34:20"
+deadline: "5/14/2026"
+---
+# Erlang Workshop 2026 - Call for Papers
+
+25th Edition of the Erlang Workshop  
+Friday 28 August 2026, Indianapolis, Indiana, USA  
+A satellite workshop of ICFP 2026  
+
+https://icfp26.sigplan.org/home/erlang-2026
+
+  ** Deadline: 14 May 2026 **
+
+
+## Overview
+
+The Erlang Workshop aims to bring together the open source, academic,
+and industrial communities of BEAM languages (Erlang, Elixir, Gleam, LFE, etc.),
+along with other actor-model systems such as Akka and Clojure,
+including the concurrent, distributed systems, and fault-tolerant communities.
+ 
+The workshop will give participants the opportunity to learn about recent
+developments in techniques and tools, explore novel applications,
+draw lessons from users' experiences, and identify research problems
+and common ground across BEAM languages, related actor-model systems,
+functional programming, distribution, and concurrency.
+
+This year the workshop will be hybrid: we encourage authors and
+participants to attend in person, but remote talks and participation
+will be fully supported. We also plan to provide financial support to
+individuals who might not otherwise be able to attend.
+
+## Topics
+
+This year we invite four types of submissions:
+
+* Technical papers describing language extensions, critical
+  discussions of the status quo, formal semantics of language
+  constructs, program analysis and transformation, virtual machine
+  extensions and compilation techniques, implementations and
+  interfaces of BEAM languages in/with other languages, and new tools
+  (profilers, tracers, debuggers, testing frameworks, etc.).
+  Submissions related to BEAM languages (Erlang, Elixir, Gleam, LFE, etc.) and
+  topics in functional, concurrent, and distributed programming
+  are welcome and encouraged.
+
+* Practice and application papers describing uses of BEAM languages and
+  related actor-model systems in real-world settings, libraries for specific tasks,
+  experiences from using BEAM languages in specific application domains,
+  reusable programming idioms and elegant new ways of using BEAM languages to
+  approach or solve particular problems, etc.
+
+* Educational papers describing traditional or novel approaches to
+  teaching and learning BEAM languages and BEAM-related technologies
+  (curriculum design, courseware, workshops, tutorials, tooling for
+  pedagogy, online materials, assessments, etc.).
+
+For all paper categories, both full papers (up to 12 pages) and short
+papers (up to 6 pages) are welcome.
+
+* Lightning talks describing topics related to the workshop goals that
+  allow participants to present and demonstrate projects and
+  preliminary work in academia and industry.  Presentations in this
+  category will be given at most an hour of shared simultaneous
+  presentation time, will not be part of the peer review process and
+  will not be part of the formal proceedings.  Notification of
+  acceptance will be continuous.
+
+## Important dates
+
+Submission deadline: 14 May 2026
+Notification: 17 June 2026
+Camera ready: 07 July 2026
+Lightning talk registration: 07 July 2026
+Workshop: 28 Aug  2026
+
+Deadlines are anywhere on Earth.
+
+
+## Workshop Co-Chairs
+
+* Lee Barney, Brigham Young University-Idaho, USA
+* Akos Hajdu, Meta, UK
+* Laura Voinea, University of Glasgow, UK
+
+
+## Program Committee
+
+(Note: the Workshop Co-Chairs are also committee members)
+
+* Viktória Fördős (Cisco Systems, Sweden)
+* Jonatan Männchen (Erlang Ecosystem Foundation, Switzerland)
+* Radu Grigore (Meta, UK)
+
+
+
+## Instructions to authors
+
+### Submission
+
+Submissions must adhere to SIGPLAN’s republication policy
+(http://sigplan.org/Resources/Policies/Republication/), and authors
+should be aware of ACM’s policies on plagiarism
+(https://www.acm.org/publications/policies/plagiarism).  Program
+Committee members are allowed to submit papers, but their papers will
+be held to a higher standard.
+
+Papers must be submitted online via HotCRP at:
+https://erlang2026.hotcrp.com
+
+Lightning talks can be submitted via the workshop form:
+https://forms.gle/DHcVwEYVkusxfCA19
+
+### Formatting
+
+Submitted papers should be in portable document format (PDF),
+formatted using the ACM SIGPLAN style guidelines.  Authors should use
+the `acmart` format, with the `sigplan` sub-format for ACM
+proceedings.  For details, see:
+
+http://www.sigplan.org/Resources/Author/#acmart-format
+
+It is recommended to use the `review` option when submitting a paper;
+this option enables line numbers for easy reference in reviews.
+
+### Supplementary material
+
+Authors have the option to attach supplementary material to a
+submission, on the understanding that reviewers may choose not to look
+at it.  This supplementary material should not be submitted as part of
+the main document; instead, it should be uploaded as a separate PDF
+document or tarball.
+
+Supplementary material should be uploaded at submission time, not by
+providing a URL in the paper that points to an external repository.
+
+### Artifacts
+
+Authors of accepted papers are encouraged to make auxiliary material
+(artifacts like source code, test data, etc.) available with their
+paper.  They can opt to have these artifacts published alongside their
+paper in the ACM Digital Library (copyright of artifacts remains with
+the authors).
+
+If an accepted paper’s artifacts are made permanently available for
+retrieval in a publicly accessible archival repository like the ACM
+Digital Library, that paper qualifies for an Artifacts Available badge
+(https://www.acm.org/publications/policies/artifact-review-badging#available).
+Applications for such a badge can be made after paper acceptance and
+will be reviewed by the PC co-chairs.
+
+## Proceedings
+
+As with previous years, the accepted workshop papers will be published
+by the ACM and will appear in the ACM Digital Library.
+
+
+AUTHORS TAKE NOTE:
+The official publication date is the date the proceedings are made available
+in the ACM Digital Library.  This date may be up to two weeks prior to the first
+day of your conference. The official publication date affects the  deadline for
+any patent filings related to published work.
+
+For more information, please see ACM Copyright Policy
+(http://www.acm.org/publications/policies/copyright-policy) and ACM
+Author Rights (http://authors.acm.org/main.html).
+
+Accepted lightning talks will be posted on the workshop's website but
+not formally published in the proceedings.
