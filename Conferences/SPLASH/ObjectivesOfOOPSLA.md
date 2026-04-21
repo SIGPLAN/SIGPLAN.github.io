@@ -5,6 +5,13 @@ title: "Objectives of OOPSLA"
 
 This page contains guidance for current and future OOPSLA RC chairs, compiled from the experiences of previous chairs.
 
+**Also See:**
+
+- [Practices of PLDI](http://www.sigplan.org/sites/default/files/PracticesofPLDI.pdf)
+- [Principles of POPL](/Conferences/POPL/Principles)
+- [The Functioning of ICFP](https://www.icfpconference.org/TheFunctioningofICFP.pdf)
+- [How to Run SPLASH](/Conferences/SPLASH/HowToSPLASH)
+
 *Started by [Alex Potanin](https://potanin.github.io/) and [Bor-Yuh Evan Chang](https://plv.colorado.edu/bec/) (OOPSLA 2024 RC co-chairs). Revised by [Shriram Krishnamurthi](https://cs.brown.edu/~sk/) and [Sukyoung Ryu](https://plrg.kaist.ac.kr/ryu) (OOPSLA 2025 RC co-chairs). We expect further input from [Anders M&oslash;ller](https://cs.au.dk/~amoeller/) and [I&#x15F;&#x131;l Dillig](https://www.cs.utexas.edu/~isil/) (OOPSLA 2026 RC co-chairs) and [Ilya Sergey](https://ilyasergey.net/) and [Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova/) (OOPSLA 2027 RC co-chairs).*
 
 **Important:** All documents related to OOPSLA must be stored on the [SPLASH Google Drive](https://drive.google.com/drive/folders/0APXWu4PPnVzBUk9PVA) provided by SIGPLAN, in the folder for the relevant year. This ensures continuity across years and that future chairs can access prior materials. Do not use personal storage or other shared drives for official OOPSLA documents.

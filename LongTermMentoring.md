@@ -37,7 +37,7 @@ Check out our [Twitter](https://twitter.com/SigplanM) for the latest news! You c
 
 ## Committee Members
 
-- **Operations Team**: [Jai Arora](https://jaiarora0011.github.io/), [Carolina Carreira](https://carolinacarreira.github.io/), [Ronak Chauhan](https://in.linkedin.com/in/ronchauhan), [Kiran Gopinathan](https://gopiandcode.uk/), [Jacqueline Mitchell](https://jlmitche23.github.io/), [Reshabh Sharma](https://www.linkedin.com/in/reshabh/)
+- **Operations Team**: [Jai Arora](https://jaiarora0011.github.io/), [Carolina Carreira](https://carolinacarreira.github.io/), [Ronak Chauhan](https://in.linkedin.com/in/ronchauhan), [Kiran Gopinathan](https://gopiandcode.uk/), [Brian Hyeongseok Kim](https://briankim113.github.io/), [Jacqueline Mitchell](https://jlmitche23.github.io/), [Reshabh Sharma](https://www.linkedin.com/in/reshabh/)
 - **Rematching Coordinators**: [Houda Boukham](https://www.linkedin.com/in/houda-boukham-821198142/), [Jocelyn Chen](https://www.cs.utexas.edu/~qchen/)
 - **Advisory Board**: [Brigitte Pientka](https://www.cs.mcgill.ca/~bpientka/), [Amal Ahmed](https://www.khoury.northeastern.edu/home/amal/), [Sam Westrick](https://www.cs.cmu.edu/~swestric/), [Santosh Nagarakatte](https://people.cs.rutgers.edu/~santosh.nagarakatte/), [Vasco Vasconcelos](https://www.di.fc.ul.pt/~vv/)
 

@@ -10,16 +10,16 @@ technology and ideas bearing on programming broadly construed.
 
 [A Table of Contents](./Onward_legacy.md) for the years 2002–2010.
 
-Onward! 2024
+Onward! 2026
 ------------
 
--   Pasadena, California, USA, October 23-25, 2024
--   Co-located with SPLASH 2024
--   Papers chair: Jonathan Edwards (unaffiliated)
--   Essays chair: Marcel Taeumel (HPI and University of Potsdam)
--   [https://2024.splashcon.org](https://2024.splashcon.org)
--   [https://2024.splashcon.org/track/splash-2024-Onward-papers](https://2024.splashcon.org/track/splash-2024-Onward-papers)
--   [https://2024.splashcon.org/track/splash-2024-Onward-Essays](https://2024.splashcon.org/track/splash-2024-Onward-Essays)
+-   Oakland, California, USA, October 3-9, 2026
+-   Co-located with SPLASH/ISSTA 2026 at the Oakland Marriott City Center
+-   Papers chair: Sverrir Thorgeirsson (ETH Zurich)
+-   Essays chair: Felienne Hermans (Vrije Universiteit Amsterdam)
+-   [https://2026.splashcon.org](https://2026.splashcon.org)
+-   [https://2026.splashcon.org/track/splash-2026-onward--papers](https://2026.splashcon.org/track/splash-2026-onward--papers)
+-   [https://2026.splashcon.org/track/splash-2026-onward--essays](https://2026.splashcon.org/track/splash-2026-onward--essays)
 
 Awards
 ------
@@ -171,6 +171,15 @@ Awards
 
 Past Events
 -----------
+
+- Onward! 2024
+    -   Pasadena, California, USA, October 23-25, 2024
+    -   Co-located with SPLASH 2024
+    -   Papers chair: Jonathan Edwards (unaffiliated)
+    -   Essays chair: Marcel Taeumel (HPI and University of Potsdam)
+    -   [https://2024.splashcon.org](https://2024.splashcon.org)
+    -   [https://2024.splashcon.org/track/splash-2024-Onward-papers](https://2024.splashcon.org/track/splash-2024-Onward-papers)
+    -   [https://2024.splashcon.org/track/splash-2024-Onward-Essays](https://2024.splashcon.org/track/splash-2024-Onward-Essays)
 
 - Onward! 2023
     -   Cascais, Portugal, October 25-27, 2023
