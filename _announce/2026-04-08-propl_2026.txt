@@ -1,0 +1,25 @@
+---
+title: "[PROPL'26] Call for Participation and Papers"
+timestamp: "4/8/2026 15:51:40"
+deadline: "4/24/2026"
+---
+**Call for Participation and Papers: Programming for the Planet (PROPL) 2026**
+
+There are simultaneous interlinked crises across the planet due to human actions: climate change, biodiversity loss, and desertification (collectively, a crisis in climate health). Assessing progress on these complex and interlocking issues requires a global view on the effectiveness of our adaptations and mitigations. To succeed in the coming decades, we need a wealth of new data about our natural environment that we rapidly process into accurate indicators, with sufficient trust in the resulting insights to support interventions that affect the lives of billions of people worldwide.
+
+Previous editions of PROPL (PROPL 2024: https://popl24.sigplan.org/home/propl-2024, PROPL 2025: https://conf.researchr.org/home/icfp-splash-2025/propl-2025) have investigated the state of practice in this area while also eliciting ambitious visions for future computational systems designed to support collaborative climate analysis, modeling, forecasting, policy, and diplomacy. Inspired by the lively discussions around these future visions in previous years, PROPL 2026 will be more focused, operating as an open working meeting where we elicit requirements and propose a coherent set of technical approaches for a next-generation planetary compute engine, i.e. a large-scale “live computational commons” where all sorts of humans, working together when appropriate with safely sandboxed AI systems:
+* collect and process billions of observations about the state of the planet, with new data being ingested continuously
+* feed this data into live computations, including data analyses and simulations
+* present the results of these computations in formats that are comprehensible and actionable in the real world
+
+**Participation**
+This 3rd “Action PROPL” now invites anyone with an interest in helping research, design and implement a next-generation planetary compute engine to attend and actively participate in the workshop, including climate science and biodiversity practitioners and researchers and engineers with expertise in programming systems. In each topical session, the organizers will begin with a brief orienting presentation, then ask audience members to contribute notes and ideas to a “living document” before engaging in an active discussion. If you’re interested in the topic of planetary health, but feel like your research doesn’t fit, then we encourage you to come along and we will try to figure it out with you!
+
+**Submissions**
+ We are soliciting 1-page position papers, or even shorter notes, to help seed and steer the discussion on any of the topics listed on the PROPL’26 webpage (https://pldi26.sigplan.org/home/propl-2026) or any other topics that you think it would be important to discuss. If you have a position paper to contribute, please email it to propl2026-organizers@googlegroups.com. Position papers will be lightly reviewed and posted publicly on the workshop webpage in advance of the event. If you cannot attend, but would like to participate asynchronously, then we encourage you to submit a note to make us aware of your interest. Novelty is not a requirement in either case!
+
+Submission deadline: April 24, 2026 (updated)
+
+Workshop website (CFP + relevant topics + updates): https://pldi26.sigplan.org/home/propl-2026
+
+Distributed by the PLDI'26 Publicity Chairs on behalf of the PROPL’26 Organizers.
