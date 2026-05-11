@@ -45,6 +45,25 @@ There is a **SPLASH SC** (splash-sc@googlegroups.com) and, created in the afterm
 - OOPSLA is in intense competition with other conferences for RC members. **Get your RC invites out early.**
 - A very private document restricted to RC chairs only is maintained with notes on the selection of Associate Editors (AEs) as potential future RC candidates. Consult this internal document on the SPLASH Google Drive (or via the SPLASH/OOPSLA SC) when forming your RC.
 
+## Reviewer Policies and Attestations
+
+The RC signup form should require every invited reviewer to read and attest, as a **forced-choice question**, to two rules. This applies to all reviewers, including [Reserve Reviewers](#reserve-reviewers) --- capture the attestation at registration time.
+
+> Serving on the OOPSLA Review Committee means following the two rules below. Please confirm you have read them and will follow them.
+>
+> 1. **Confidentiality of submissions.** Submitted papers, and the reviews on them, are confidential. Do not share a submission with anyone outside the review process; the one exception is light, well-attributed use of a sub-reviewer with the RC Chairs' approval. Furthermore, do not upload or paste a submission, or any part of its content, into any external or hosted AI/LLM service.
+>
+> 2. **Integrity of reviews.** Your review must be your own work: your understanding, your analysis, and your judgment, written in your own words. You may use LLMs to correct spelling or grammar in text you have written yourself, but you may NOT use a language model, whether a hosted service or one running locally on your own hardware, to read a submission for you, to summarise or critique it, or to draft any part of a review. The assessment, the arguments, and the verdict must be yours.
+>
+> &#9675; I have read both rules and I agree to follow them.<br>
+> &#9675; I have a question or concern about one of these. Please contact me before my appointment is finalised.
+
+The two rules are kept separate so that local LLMs --- which raise no confidentiality concern --- are still ruled out for drafting reviews under Rule 2.
+
+### Joint Reviews with Students or Postdocs
+
+> For training and educational purposes, RC members may jointly write a review with a student or postdoc, but this **must** be cleared with the RC chair first to ensure no conflicts. The RC member must still take full responsibility for the final review and for online discussion of the submission.
+
 ## Choosing Associate Editors
 
 Think of an AE as **the chair of a mini-conference**. You are subdividing OOPSLA into a bunch of mini-venues, each headed by an AE. Ultimately the buck stops with you, but this mental model helps in choosing AEs.
@@ -62,20 +81,21 @@ Think of an AE as **the chair of a mini-conference**. You are subdividing OOPSLA
 ### Avoiding Date Conflicts
 
 - Check competing conferences: primarily **POPL, PLDI, and ICFP**, but also SE events like **ICSE, FSE, ASE, and ISSTA**. You cannot avoid all clashes, but avoid egregious ones (e.g., OOPSLA papers due during the week of POPL). In many cases, other conferences only settle their dates after yours are published.
+- **Keep the OOPSLA R1 notification deadline well clear of the PLDI submission deadline.** A tight gap puts authors of OOPSLA R1 rejections under pressure to rework for PLDI in a few days, and overlaps the OOPSLA R1 discussion/decision crunch with PLDI submission for the many RC members who also submit to PLDI. Aim for at least a 2--3 week buffer.
 - Be aware of major holidays: Christmas, New Year, Thanksgiving in the US (nearly a week lost). Europeans have also complained about review duties during August, the traditional vacation month, but it is hard to have two rounds and skip August entirely.
 
 ### Review Period Duration
 
 - Since R2 gets about **twice as many papers as R1**, the initial reviewing period for R2 should be roughly **twice that of R1** if following the 1-review-per-week policy. Other parts (discussion time, response time, etc.) are constant across rounds.
 - Aim for **6 weeks of review time** for each round, especially R2 with roughly 10 papers per reviewer.
-- Authors strongly prefer **4 days for the response period** (the 2026 CfP uses 4 days: e.g., Tuesday--Friday for R1, Tuesday--Friday for R2).
+- Give authors **at least 4 full days for the response period**, not 3. A 3-day window is painful for authors with large time-zone differences, and the response phase otherwise consumes their entire week. The 2026 CfP uses 4 days (Tue--Fri for both R1 and R2); a Tue--Sat window is also reasonable as it gives authors the option to use weekend time without forcing it.
 - There is one hard deadline above all: **the publisher's deadline**. Understand it and work everything else backward from there.
 
 ### Practical Scheduling Tips
 
-- Make reviews due on **Friday AoE**, start author response on Monday (after Sunday AoE), giving you the weekend to chase late reviewers.
-- Make public-facing deadlines fall during the week. **Friday** was used for the R1 2026 submission deadline and **Tuesday** for R2. Thursday and Friday are good choices (if due Monday, people effectively lose the weekend; mid-to-late week also respects that different countries have different weekend days).
-- Give yourself **slack days**. People will always be late. For instance, make things due on a Friday, but assign the next step (at least internally) to Monday.
+- **Public-facing deadlines (submission, author response) should fall on Tue, Wed, or Thu.** Avoid Friday --- it is a weekend day or holiday in parts of the Middle East and some Asian countries, and it pushes the next step into the weekend for everyone. Avoid Monday --- it forces authors and reviewers to work through the previous weekend. Mid-week deadlines also respect that different countries observe different weekend days.
+- For **internal, reviewer-facing** deadlines, **Friday AoE** is still a useful choice: it gives chairs the weekend to chase late reviewers before the next public-facing step starts on Monday or Tuesday.
+- Give yourself **slack days**. People will always be late. For instance, make an internal review deadline on a Friday, but assign the next step to Tuesday rather than Monday.
 - Make CLEAR the **mid-cycle 3-week deadline** for half of reviews being due. Many reviewers miss this.
 
 ### Suggested Discussion Period Timeline (Minimum)
@@ -126,6 +146,8 @@ The 2024 chairs found TPMS indispensable. In 2025, the experience was more mixed
 ### Reserve Reviewers
 
 In 2025, the Reserve Reviewer policy was initiated (see the SIGPLAN blog post). This was a life-saver and has been continued in the [2026 CfP](https://2026.splashcon.org/track/oopsla-2026). Under this policy, at least one senior author (PhD completed 5+ years ago) must register as a reserve reviewer unless exempt. Exemptions apply when: the paper has no senior authors; a senior author is already an RC member; or all senior authors are new to SIGPLAN/SIGSOFT (fewer than 3 major conference publications), chairing a 2025--2027 conference, or have documented exceptional circumstances. Reserve reviewers must upload 5--10 prior papers to TPMS for expertise matching. Future chairs should continue to refine this approach.
+
+Reserve reviewers must complete the same [Reviewer Policies and Attestations](#reviewer-policies-and-attestations) as full RC members, at registration time.
 
 ### Expertise and Review Allocation
 
