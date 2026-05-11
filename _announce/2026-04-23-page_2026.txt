@@ -1,0 +1,21 @@
+---
+title: "[PAgE 2026] Call for Papers"
+timestamp: "4/23/2026 10:52:31"
+deadline: "4/30/2026"
+---
+**Call for Papers: PAgE 2026**
+ 
+AI-powered agents are increasingly being deployed in production settings. Yet the formal foundations needed to make these systems safe, reliable, and trustworthy remain underdeveloped. Ensuring correctness in these settings demands a new discipline, which we term agentic engineering: a research agenda that brings together ideas from programming languages, formal verification, software engineering, and neuro-symbolic reasoning to specify, analyze, test, monitor, and repair agents at scale.
+ 
+The PAgE workshop aims to bring together researchers and practitioners interested in the foundations and practice of safe agentic systems. Our goal is to foster a community around principled approaches for building agents with precise specifications, verifiable behaviors, and runtime safeguards that hold up in real-world deployments. More broadly, the workshop seeks to strengthen connections across the programming languages, formal methods, software engineering, and machine learning communities in order to advance the principles of safe and reliable agentic engineering. The workshop will feature invited talks and peer-reviewed papers spanning theory, systems, tools, and practical experience.
+ 
+**Submissions are welcome:** We welcome submissions describing research results, artifacts, datasets, case studies, and experience reports.  Full papers may be up to 10 pages, excluding bibliography, and should present completed research on topics related to the focus of the workshop. Accepted full papers will be published in the ACM Digital Library. For additional submission instructions see the PAgE website linked below.
+ 
+**Important Dates:**
+Submission deadline: April 30, 2026 (extended)
+Workshop date: June 15, 2026
+ 
+Workshop website (CFP + topics of interest + updates): https://pldi26.sigplan.org/home/page-2026
+Submission link: https://page2026.hotcrp.com/u/1/
+ 
+Distributed by the PLDI'26 Publicity Chairs on behalf of the PAgE’26 Organizers.
