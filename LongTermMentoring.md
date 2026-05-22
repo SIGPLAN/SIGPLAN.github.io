@@ -74,6 +74,9 @@ Examples of urgent needs for mentoring include but are not limited to
 mental health struggles, advisor-advisee conflicts, ongoing job or graduate school applications, and abusive situations at work or in the community.
 If any of these apply, and if you are comfortable doing so, please feel free to contact us so that we match you in a timely fashion.
 
+Please note that SIGPLAN-M is a mentoring program, not a research advising or collaboration program.
+Mentors may be able to offer their perspective on research, graduate school, career development, the programming languages community, and more, but mentees should not expect their SIGPLAN-M mentor to serve as a research advisor, provide a research project, or collaborate on research.
+
 ## Thank You, Mentors!
 
 We really appreciate all of our mentors for the amazing work they do---and we want the world to know how much we appreciate it!
