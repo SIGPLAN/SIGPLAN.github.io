@@ -5,10 +5,14 @@
 #       (E.g., should CGO be included?  Should CC?)  How should the list be
 #       sorted? -->
 #
-# <!-- (AF) What does "regularly" mean? Permanently? If I remember correctly we 
+# <!-- (AF) What does "regularly" mean? Permanently? If I remember correctly we
 #       issued CC a 2-3 year sponsorship to be revisited later. Is that "regular"?
 #       Also, I don't have a way of checking the list, other than sending an
 #       email to everyone to report discrepancies. Shall we? -->
+#
+# <!-- (AS) I have now distinguished between "sponsored" (including
+#      co-sponsored) and "in-cooperation" conferences so we can display the
+#      lists separately. See the `cooperation` key. -->
 
 -
   name: Principles of Programming Languages (POPL)
@@ -99,6 +103,7 @@
   description: |
     The Dynamic Languages Symposium (DLS) is a forum for discussion of
     dynamic languages, their implementation, and application.
+  inactive: true
 
 -
   name: 'Generative Programming: Concepts and Experiences (GPCE)'
@@ -201,6 +206,7 @@
     among a number of different venues in the languages (VM, PLDI,
     OOPSLA, IVME), operating systems (SOSP, OSDI, USENIX), and
     architecture (ASPLOS, CGO, PACT) communities.
+  inactive: true
 
 -
   name: The Programming Languages Mentoring Workshop (PLMW)
@@ -224,3 +230,4 @@
     practical and theoretical topics in all areas that consider formal
     verification and certification as an essential paradigm for their work.
     CPP spans areas of computer science, mathematics, logic, and education.
+  cooperation: true
