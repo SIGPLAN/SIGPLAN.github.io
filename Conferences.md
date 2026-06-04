@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "SIGPLAN Conferences"
+title: "SIGPLAN Conferences & Workshops"
 ---
 SIGPLAN organizes the
 premier conferences and workshops in the area of programming language
@@ -27,6 +27,12 @@ The conferences listed below are regularly sponsored by
 SIGPLAN. 
 
 {% for conf in site.data.Conferences %}
-**[{{conf.name}}]({{conf.link}})**  
+**[{{conf.name}}]({{conf.link}})**
+{%- if conf.inactive %}
+ (inactive)
+{%- endif -%}
+{%- if conf.cooperation %}
+ (in-cooperation)
+{%- endif %}  
 {{conf.description}}
 {% endfor %}
