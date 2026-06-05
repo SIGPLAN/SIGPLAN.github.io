@@ -231,3 +231,13 @@
     verification and certification as an essential paradigm for their work.
     CPP spans areas of computer science, mathematics, logic, and education.
   cooperation: true
+
+-
+  name: International Conference on the Art, Science, and Engineering of Programming (‹Programming›)
+  link: https://programming-conference.org
+  description: |
+    ‹Programming› is a new conference focused on everything to do with
+    programming including the experience of programming. Papers are welcome
+    from any part of the programming research lifecycle, as are papers on
+    programming practice and experience.
+  cooperation: true
