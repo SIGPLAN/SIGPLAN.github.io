@@ -5,10 +5,14 @@
 #       (E.g., should CGO be included?  Should CC?)  How should the list be
 #       sorted? -->
 #
-# <!-- (AF) What does "regularly" mean? Permanently? If I remember correctly we 
+# <!-- (AF) What does "regularly" mean? Permanently? If I remember correctly we
 #       issued CC a 2-3 year sponsorship to be revisited later. Is that "regular"?
 #       Also, I don't have a way of checking the list, other than sending an
 #       email to everyone to report discrepancies. Shall we? -->
+#
+# <!-- (AS) I have now distinguished between "sponsored" (including
+#      co-sponsored) and "in-cooperation" conferences so we can display the
+#      lists separately. See the `cooperation` key. -->
 
 -
   name: Principles of Programming Languages (POPL)
@@ -92,6 +96,7 @@
     static to fully dynamic approaches, including techniques ranging
     from pure software-based methods to architectural features and
     support.
+    CGO is co-sponsored with [SIGMICRO](https://www.sigmicro.org).
 
 -
   name: Dynamic Languages Symposium (DLS)
@@ -99,6 +104,7 @@
   description: |
     The Dynamic Languages Symposium (DLS) is a forum for discussion of
     dynamic languages, their implementation, and application.
+  inactive: true
 
 -
   name: 'Generative Programming: Concepts and Experiences (GPCE)'
@@ -129,6 +135,7 @@
     expose researchers and developers from either area to relevant work
     and interesting problems in the other area and provide a forum
     where they can interact.
+    LCTES is co-sponsored with [SIGBED](https://sigbed.org).
 
 -
   name: Haskell Symposium (HS)
@@ -201,6 +208,7 @@
     among a number of different venues in the languages (VM, PLDI,
     OOPSLA, IVME), operating systems (SOSP, OSDI, USENIX), and
     architecture (ASPLOS, CGO, PACT) communities.
+  inactive: true
 
 -
   name: The Programming Languages Mentoring Workshop (PLMW)
@@ -224,3 +232,14 @@
     practical and theoretical topics in all areas that consider formal
     verification and certification as an essential paradigm for their work.
     CPP spans areas of computer science, mathematics, logic, and education.
+  cooperation: true
+
+-
+  name: International Conference on the Art, Science, and Engineering of Programming (‹Programming›)
+  link: https://programming-conference.org
+  description: |
+    ‹Programming› is a new conference focused on everything to do with
+    programming including the experience of programming. Papers are welcome
+    from any part of the programming research lifecycle, as are papers on
+    programming practice and experience.
+  cooperation: true

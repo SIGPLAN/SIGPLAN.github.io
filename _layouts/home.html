@@ -92,10 +92,16 @@
 
           {% endfor %}
 
-          <h3>SIGPLAN Sponsored <a href="/Conferences/">Conferences</a></h3>
+          <h3>SIGPLAN <a href="/Conferences/">Events</a></h3>
           <ul>
           {% for conf in site.data.Conferences %}
-              <li><a href="{{conf.link}}">{{conf.name}}</a></li>
+              {% if conf.inactive != true %}
+              <li><a href="{{conf.link}}">{{conf.name}}</a>
+                  {% if conf.cooperation %}
+                  (in-cooperation)
+                  {% endif %}
+              </li>
+              {% endif %}
           {% endfor %}
           </ul>
         </div>
