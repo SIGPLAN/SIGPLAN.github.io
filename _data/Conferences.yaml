@@ -96,6 +96,7 @@
     static to fully dynamic approaches, including techniques ranging
     from pure software-based methods to architectural features and
     support.
+    CGO is co-sponsored with [SIGMICRO](https://www.sigmicro.org).
 
 -
   name: Dynamic Languages Symposium (DLS)
@@ -134,6 +135,7 @@
     expose researchers and developers from either area to relevant work
     and interesting problems in the other area and provide a forum
     where they can interact.
+    LCTES is co-sponsored with [SIGBED](https://sigbed.org).
 
 -
   name: Haskell Symposium (HS)
