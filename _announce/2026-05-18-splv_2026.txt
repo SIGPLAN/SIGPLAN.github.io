@@ -1,0 +1,45 @@
+---
+title: "Call for Participation, Scottish Programming Languages and Verification Summer School (SPLV 2026)"
+timestamp: "5/18/2026 18:50:05"
+start: "8/3/2026"
+end: "8/7/2026"
+---
+The Scottish Programming Languages and Verification Summer School is a collaborative effort between the Universities of Edinburgh, Glasgow, Heriot-Watt, Strathclyde and St Andrews. This summer school provides core and advanced classes that cover foundational as well as state of the art knowledge on the underlying principles needed to use or design new languages and verifying program correctness.
+
+This school aims to:
+
+  * Facilitate rapid knowledge exchange, in addition to providing essential research training and networking for postgraduate students.
+  * Give postgraduate students the opportunity to network with fellow students in the field as well as many established researchers.
+  * Provide essential postgraduate training in theoretical underpinnings of computer science and in programming languages.
+
+The 2026 edition of the Scottish Programming Languages and Verification Summer School will be held in Glasgow, 3rd -- 7th August 2026 [website](https://spli.scot/splv/2026-glasgow/).
+
+# Confirmed speakers:
+
+## Core Courses
+  * Introduction to Types and Lambdas by Nachi Valliappan (University of Edinburgh)
+  * Introduction to Model Checking by Oana Andrei (University of Glasgow)
+  * Introduction to Category Theory by Bob Atkey (University of Strathclyde)
+
+## Contributed Courses
+  * Formal Modelling with Bigraphs by Blair Archibald (University of Glasgow)
+  * Distributed Systems: A Logical Approach​ by Jamie Gabbay (Heriot-Watt University)
+  * Modal Fixpoint Logics by Clemens Kupke (University of Strathclyde)
+  * Algebra and Normalisation​ by Ohad Kammar (University of Edinburgh)
+  * Resource-constrained compiler construction for functional languages by Wim Vanderbauwhede (University of Glasgow)
+  * Building Highly-Assured Compilers using Dependent Types​ by Jan de Muijnck-Hughes (University of Strathclyde)
+
+# Registration
+
+Registration is via [Eventbrite](https://www.eventbrite.co.uk/e/splv-2026-summer-school-tickets-1989312724911)
+
+  * Academic (early, registration deadline 30th June 2026): £260 / (late) £360 
+  * Standard (early, registration deadline 30th June 2026): £760 / (late) £860
+
+This includes access to all sessions, catered lunch, social events, and a catered reception at Glasgow City Chambers.
+We also have a limited amount of subsidised accommodation remaining at £195 for an en-suite room in Queen Margaret Residences, checking in on Sunday 2nd August and checking out on Friday 7th August. You can book this from the registration page.
+
+If you have any questions, please don’t hesitate to contact the organisers: glasgow-splv-organisers@lists.cent.gla.ac.uk.
+
+Best wishes,
+Jeremy
