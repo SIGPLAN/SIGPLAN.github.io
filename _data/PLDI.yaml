@@ -1,3 +1,13 @@
+2026:
+- Awardee: |
+    Oded Padon, Kenneth Lauchlin McMillan, Aurojit Panda, Mooly Sagiv, Sharon Shoham 
+  Other: |
+    (for 2016) _[Ivy: safety verification by interactive generalization
+](https://dl.acm.org/doi/10.1145/2908080.2908118)_
+  Citation: |
+    Proving the safety of distributed protocols for any number of nodes requires discovering quantified inductive invariants, a task that has historically demanded deep theorem-proving expertise or navigating the unpredictable behavior of SMT solvers within undecidable logics. This paper introduced Ivy, which showed that restricting verification conditions to the decidable Effectively Propositional (EPR) fragment of first-order logic, combined with an interactive counterexample-guided generalization workflow, could make protocol verification accessible to system designers rather than only verification experts. The resulting methodology proved remarkably productive. Ivy and its descendants enabled the first formal proofs of multiple Paxos variants, formal testing of QUIC implementations that uncovered dozens of bugs including an information leak comparable to Heartbleed, and the first mechanized safety and liveness proof of the deployed Stellar blockchain consensus protocol. A decade later, this decidable verification paradigm continues to grow in influence, shaping tools including Verus, mypyvy, and Veil, and finding application in industrial hardware verification.
+
+
 2025:
 - Awardee: |
     Brandon Lucia and Benjamin Ransford
