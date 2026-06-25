@@ -10,6 +10,8 @@ This policy covers recording for later publication, not live streaming. General 
 
 Co-located workshops, tutorials, and other events are not covered by this policy, though their organizers are welcome to arrange recording independently.
 
+We try to work closely with our [ACM SIGPLAN AV Team](https://www.sigplan.org/AV/) and the major conference organisers for this to happen.
+
 ## Responsibility
 
 The General Chair of each conference is responsible for ensuring that recordings are produced and delivered for upload to the [ACM SIGPLAN YouTube channel](https://www.youtube.com/@acmsigplan). SIGPLAN does not mandate a particular recording method; the General Chair has discretion to choose an approach suited to the venue, budget, and local circumstances. Options include, but are not limited to:
