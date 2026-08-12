@@ -1,0 +1,21 @@
+---
+title: "CGO'27 Artifact Evaluation Committee: Call for nominations"
+timestamp: "7/29/2026 9:26:09"
+---
+We are looking for motivated researchers and students to serve on the CGO 2027 Artifact Evaluation Committee (AEC) (https://conf.researchr.org/home/cgo-2027).
+
+The artifact evaluation process promotes openness and reproducibility by validating, sharing, and cataloging the research artifacts accompanying papers accepted to CGO 2027.
+
+This year, we are accepting self-nominations for the AEC. The self-nomination form is available at: https://forms.gle/7JDiZTFbXhbr4MnC8
+
+Round 1 self-nominations close on August 27, 2026.
+
+CGO 2027 will follow a two-deadline structure, similar to previous years, with separate artifact evaluation phases for each submission round. We are seeking reviewers for Round 1, Round 2, or both. We anticipate a workload of 1–2 artifacts per round for each AEC member. Most artifact decisions will be made through HotCRP with asynchronous discussion. Additional details, including the evaluation timeline, are available in the self-nomination form.
+
+As an AEC member, your primary responsibility will be to evaluate artifacts associated with accepted conference papers. This may include building and running software, reproducing the experimental results reported in the paper, and inspecting the accompanying datasets and documentation.
+
+We hope you'll consider joining us in helping improve the openness, reproducibility, and quality of research in the compiler community.
+
+Best regards,
+
+Olivia Hsu and Jackson Woodruff
