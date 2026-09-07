@@ -1,41 +1,43 @@
 active:
+  - name: One An
+    image: https://conf.researchr.org/getProfileImage/onean/d9b1b2a0-8472-4cc8-b62c-4d45f8ecd688/small
   - name: Samar Rahmouni
-    image: https://conf.researchr.org/getProfileImage/samarrahmouni/6f645dc0-d11c-40c9-a5a3-fb13c5253bab/small.jpg?1752740414000
+    image: https://conf.researchr.org/getProfileImage/samarrahmouni/6f645dc0-d11c-40c9-a5a3-fb13c5253bab/small
   - name: Eloise Christian
-    image: https://conf.researchr.org/getProfileImage/eloisechristian/d57f17a2-1fe5-44bb-b62e-748f84eaddeb/small.jpg?1737203033000
+    image: https://conf.researchr.org/getProfileImage/eloisechristian/d57f17a2-1fe5-44bb-b62e-748f84eaddeb/small
   - name: Angel Pavlov Angelov
-    image: https://conf.researchr.org/getProfileImage/angelpavlovangelov/15eb4cf1-1dda-4974-a86e-fe29eb709fe7/small.jpg?1733760295000
+    image: https://conf.researchr.org/getProfileImage/angelpavlovangelov/15eb4cf1-1dda-4974-a86e-fe29eb709fe7/small
   - name: Eduardo Madeira
-    image: https://conf.researchr.org/getProfileImage/eduardomadeira/42073539-cbf3-4609-b04b-0a63287afd82/small.jpg
+    image: https://conf.researchr.org/getProfileImage/eduardomadeira/42073539-cbf3-4609-b04b-0a63287afd82/small
   - name: Alexander Bai
-    image: https://conf.researchr.org/getProfileImage/alexanderbai/dc1a164a-690d-4c08-926d-de8f9ab476d5/small.jpg
+    image: https://conf.researchr.org/getProfileImage/alexanderbai/dc1a164a-690d-4c08-926d-de8f9ab476d5/small
   - name: Chris Lam
-    image: https://conf.researchr.org/getProfileImage/christopherlam1/00386a60-bf17-48da-8942-0d2815d7fa08/small.jpg
+    image: https://conf.researchr.org/getProfileImage/christopherlam1/00386a60-bf17-48da-8942-0d2815d7fa08/small
   - name: Jan-Paul Ramos
-    image: https://conf.researchr.org/getProfileImage/janpaulramosdavila/156687da-3cdb-4157-b31e-636bb71b31dc/small.jpg
+    image: https://conf.researchr.org/getProfileImage/janpaulramosdavila/156687da-3cdb-4157-b31e-636bb71b31dc/small
 
 emeritus:
   - name: Nicole Heinimann
-    image: https://conf.researchr.org/getProfileImage/nicoleheinimann/05e5f59c-af9b-43d6-a4dc-0edac3ab80ba/avatar.jpg
+    image: https://conf.researchr.org/getProfileImage/nicoleheinimann/05e5f59c-af9b-43d6-a4dc-0edac3ab80ba/small
   - name: Nicola Assolini
-    image: https://conf.researchr.org/getProfileImage/nicolaassolini/98016cbe-ba0a-4352-9297-31fc38c63b75/avatar.jpg
+    image: https://conf.researchr.org/getProfileImage/nicolaassolini/98016cbe-ba0a-4352-9297-31fc38c63b75/small
   - name: Ethan Range
-    image: https://conf.researchr.org/getProfileImage/ethanrange/a82e09a2-116a-4794-a499-13496f915d0a/small.jpg
+    image: https://conf.researchr.org/getProfileImage/ethanrange/a82e09a2-116a-4794-a499-13496f915d0a/small
   - name: Guilherme Espada
-    image: https://conf.researchr.org/getProfileImage/guilhermeespada/221aa9ee-6215-4712-b6df-a5a09d269e04/small.jpg
+    image: https://conf.researchr.org/getProfileImage/guilhermeespada/221aa9ee-6215-4712-b6df-a5a09d269e04/small
   - name: Apoorv Ingle
-    image: https://conf.researchr.org/getProfileImage/apoorvingle/76632b78-6d6b-4f2e-9c36-af0a9e1a5fdb/small.jpg
+    image: https://conf.researchr.org/getProfileImage/apoorvingle/76632b78-6d6b-4f2e-9c36-af0a9e1a5fdb/small
   - name: Max Sun
-    image: https://conf.researchr.org/getProfileImage/maxsun/7f927b55-626c-4c5c-9ac8-e10beb3d0b76/small.jpg
+    image: https://conf.researchr.org/getProfileImage/maxsun/7f927b55-626c-4c5c-9ac8-e10beb3d0b76/small
   - name: John Hui
-    image: https://conf.researchr.org/getProfileImage/johnhui/54a9a819-59d8-4b2c-96f8-76f813666876/small.jpg
+    image: https://conf.researchr.org/getProfileImage/johnhui/54a9a819-59d8-4b2c-96f8-76f813666876/small
   - name: Zixian Cai
-    image: https://conf.researchr.org/getProfileImage/zixiancai/22d210bf-85c3-49e6-8278-4ea50f3290dd/small.jpg
+    image: https://conf.researchr.org/getProfileImage/zixiancai/22d210bf-85c3-49e6-8278-4ea50f3290dd/small
   - name: Jessica Foster
-    image: https://icfp24.sigplan.org/getProfileImage/jessicafoster/447e864c-9571-4c54-9f51-0e78d5d07ea4/small.jpg
+    image: https://icfp24.sigplan.org/getProfileImage/jessicafoster/447e864c-9571-4c54-9f51-0e78d5d07ea4/small
   - name: Bhakti Shah
-    image: https://conf.researchr.org/getProfileImage/bhaktishah/624a5a4c-260a-43c9-b37a-eff79a3654f5/small.jpg
+    image: https://conf.researchr.org/getProfileImage/bhaktishah/624a5a4c-260a-43c9-b37a-eff79a3654f5/small
   - name: Leif Andersen
-    image: https://conf.researchr.org/getProfileImage/leifandersen/022e7f05-2a9a-4e3d-8be9-418b798e00c0/small.jpg
+    image: https://conf.researchr.org/getProfileImage/leifandersen/022e7f05-2a9a-4e3d-8be9-418b798e00c0/small
   - name: Benjamin Chung
-    image: https://conf.researchr.org/getProfileImage/benjaminchung/30978af0-bcee-4c1e-9dd1-f2588ea14f38/small.jpg
+    image: https://conf.researchr.org/getProfileImage/benjaminchung/30978af0-bcee-4c1e-9dd1-f2588ea14f38/small
