@@ -142,13 +142,15 @@ for details.
 If presentations are to be recorded or streamed, inform presenters of
 the applicable consent or release requirements.
 
-Explain whether authors may submit auxiliary or supplementary material,
+Explain whether authors may submit supplementary material for reviewers
+to consult (see the [Review policy](/Resources/Policies/Review)),
 whether reviewers are expected or merely permitted to consider it, and
-any applicable anonymity requirements. Auxiliary material may be
-published; see "Auxiliary material" below for the associated policy.
-If the conference has a separate artifact-evaluation process, the call
-or conference web page should clearly distinguish that process from the
-submission of supplementary material with the paper.
+any applicable anonymity requirements. Such material may later be
+published alongside the accepted paper; see "Published Supplementary
+Material" below. If the conference has a separate
+artifact-evaluation process, the call or conference web page should
+clearly distinguish that process from the submission of supplementary
+material with the paper.
 
 The conference web page should include information about the various
 benefits offered by the
@@ -189,13 +191,20 @@ for substantive judgment and discussion.
 Keeping the review form reasonably stable across editions can help
 authors and reviewers calibrate and interpret its ratings.
 One possible model is Nierstrasz's Identify the Champion scoring process, 
-which has stood the test of time. A typical review form in the spirit of 
-this process has (at least) the following fields:
+which has stood the test of time. The essence of the process is to ask 
+each reviewer whether they would champion the paper during discussion, 
+without prescribing a specific scale. One example review form in this 
+spirit has (at least) the following fields:
 - Paper score:
   - A: Good paper. I will champion it during the discussion.
   - B: OK paper, but I will not champion it.
   - C: Weak paper, though I will not fight strongly against it.
   - D: Serious problems. I will argue to reject this paper.
+
+  Reviewers sometimes gravitate toward middle scores; the PCC should
+  remind the PC that the scale is meant to be used across its full
+  range, and that a paper's score should reflect the reviewer's honest
+  willingness (or reluctance) to champion it.
 - Reviewer expertise:
   - X: I am an expert in the subject area of this paper.
   - Y: I am knowledgeable in the area, though not an expert.
@@ -224,12 +233,17 @@ additional reviews where appropriate.
 External reviewers should be selected and managed in accordance with SIGPLAN's
 [Conference Submission Review Policy](/Resources/Policies/Review/).
 
-### Guardians
+### Associate Chairs and Guardians
 
-The PCC may assign a PC member as guardian for a submission. A guardian
-is responsible for helping ensure that the paper is assessed carefully
-and fairly. Depending on the conference's review process, the guardian's
-role may include:
+Some large conferences divide the Program Committee into groups, each
+led by an Associate Chair who chairs that group much as the PCC chairs
+the PC as a whole. Associate Chairs are sometimes called "Area Chairs"
+when the groups are organized by topic of expertise.
+
+The PCC may also assign a PC member as guardian for a submission. A
+guardian is responsible for helping ensure that the paper is assessed
+carefully and fairly. Depending on the conference's review process, the
+guardian's role may include:
 
 * identifying gaps in reviewer expertise;
 * checking that the reviews are sufficiently complete and constructive;
@@ -328,7 +342,7 @@ progress, and helps resolve production problems.
 The PCC should provide authors with clear deadlines and instructions
 for preparing their final versions, including the applicable ACM
 template, page limits, citation style, accessibility requirements,
-supplementary or auxiliary material, and treatment of third-party
+supplementary material, and treatment of third-party
 material. Allow sufficient time for authors to address formatting,
 metadata, rights, and TAPS validation problems.
 
@@ -355,9 +369,9 @@ The conference should give authors clear instructions concerning artifact
 submission, evaluation, archival availability, licensing, and any
 requirements for persistent identifiers or external repositories.
 
-### Auxiliary Material
+### Published Supplementary Material
 
-ACM proceedings may include auxiliary material associated with a
+ACM proceedings may include supplementary material associated with a
 published paper, such as:
 
 - technical reports containing additional details;
@@ -367,22 +381,15 @@ published paper, such as:
 - other material relevant to understanding, reproducing, or building on
   the work.
 
-SIGPLAN encourages authors to make appropriate auxiliary material
+SIGPLAN encourages authors to make appropriate supplementary material
 available when it supports reproducibility and future research. The
 conference should provide authors with clear instructions for submitting
 such material through the applicable proceedings-production process.
 
-ACM uses the term *auxiliary material* for files that are provided as an
-additional resource but are not reviewed as part of the published work.
-Authors retain copyright in such material and grant ACM permission to
-make it available through the ACM Digital Library. Authors should ensure
-that they have the necessary rights to distribute all included content.
-
-Auxiliary material submitted for publication should be distinguished
-from supplementary material submitted during paper review. The call for
-papers should explain whether reviewers are expected or merely permitted
-to consider supplementary material. Supplementary material must comply
-with the same anonymity requirements as the paper.
+This published, post-acceptance supplementary material may be distinct
+from material that authors may submit alongside a paper at submission time
+for reviewers to consult, which has its own anonymity and consideration
+rules; see the [Review policy](/Resources/Policies/Review) for that.
 
 Distinguished Papers
 --------------------

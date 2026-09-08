@@ -90,6 +90,11 @@ combine complementary areas of expertise, and well-informed non-expert
 reviews can also provide a valuable perspective representative of the
 paper's broader readership.
 
+The PCC should exercise judgment when interpreting reviewers'
+self-reported expertise ratings, since PC members calibrate these
+ratings differently: some consider themselves experts on most topics,
+while others rarely do.
+
 External reviewers must be vetted, authorized, and recorded by the PCC.
 They should be encouraged to participate in discussion of the papers
 assigned to them, but must not have access to unrelated submissions or
@@ -108,7 +113,7 @@ Conferences should strive to accept all high-quality submissions, and avoid nume
 - The PC should focus its deliberations on:
   - whether there is a genuine research contribution which may include a new insightful evaluation of previous work
   - whether the approach is fundamentally sound
-  - whether the community will benefit from reading the paper
+  - whether the results are likely to be of interest to a sufficiently broad part of the community
   - whether the paper (and supporting material) contain sufficient information for others to reproduce and build on the results
 - The committee should lean toward accepting papers that are controversial, that is, ones that, after discussion, still have both a strong advocate and a strong detractor.
 - The committee should lean toward accepting papers that explicate their results clearly.
