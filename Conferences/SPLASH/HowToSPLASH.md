@@ -262,6 +262,10 @@ Historically, OOPSLA's ERC was primarily used to review submissions from members
 
 Introduced in 2025 and continued in the [2026 CfP](https://2026.splashcon.org/track/oopsla-2026), the **Reserve Reviewer policy** requires that at least one senior author (PhD completed 5+ years ago) per submission register as a reserve reviewer, unless exempt. Exemptions apply when: the paper has no senior authors; a senior author is already an RC member; or all senior authors are new to SIGPLAN/SIGSOFT (fewer than 3 major conference publications), chairing a 2025--2027 conference, or have documented exceptional circumstances. Reserve reviewers must upload 5--10 prior papers to TPMS for expertise matching. This has been a reliable load-balancer for OOPSLA's growing submission volume and future chairs are encouraged to continue refining it. See [Objectives of OOPSLA](/Conferences/SPLASH/ObjectivesOfOOPSLA#reserve-reviewers) for further details.
 
+### TPMS Budget
+
+OOPSLA relies on the [Toronto Paper Matching System (TPMS)](https://torontopapermatching.org/) for reviewer--paper matching and bidding. TPMS is partly funded by the conferences that use it and **charges participating conferences a fee**. The GC should make sure this fee is included in the SPLASH budget (and TMRF) from the outset, and paid from the conference rather than out of pocket by the OOPSLA RC chairs. Confirm the arrangement with the RC chairs early: they are responsible for contacting the TPMS team ([reviewer-paper-matching@cs.toronto.edu](mailto:reviewer-paper-matching@cs.toronto.edu)) to organise a new instance for their OOPSLA, and that instance needs to exist before RC invitations go out. See [Objectives of OOPSLA](/Conferences/SPLASH/ObjectivesOfOOPSLA#using-tpms) for the RC-chair side of this.
+
 ## Open Policy Questions
 
 The following items are under ongoing discussion and would benefit from a SPLASH- or OOPSLA-specific policy page:
