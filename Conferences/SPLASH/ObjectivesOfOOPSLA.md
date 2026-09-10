@@ -129,7 +129,12 @@ Note: you can re-allocate Major Revision papers to past reviewers concurrently w
 
 ### Using TPMS
 
-[TPMS](https://torontopapermatching.org/webapp/profileBrowser/about_us/) is very important. Get all RC members to upload or update their PDFs inside TPMS as soon as they accept their invites, so everything is ready when the submission deadline comes. Use the TPMS report to see who is missing papers or accounts.
+The [Toronto Paper Matching System (TPMS)](https://torontopapermatching.org/) is very important. It is run out of the University of Toronto by Laurent Charlin and Richard Zemel and is partly funded by the conferences that use it (see the [TPMS about page](https://torontopapermatching.org/webapp/profileBrowser/about_us/)).
+
+- **Organise your TPMS instance early.** A conference instance is not created automatically. Contact the TPMS team at [reviewer-paper-matching@cs.toronto.edu](mailto:reviewer-paper-matching@cs.toronto.edu) (the "contact us" link on the [TPMS website](https://torontopapermatching.org/)) to organise a new instance for your OOPSLA. Do this well before RC invitations go out, so RC members can upload their papers as soon as they accept.
+- **Budget for the TPMS fee.** TPMS charges participating conferences a fee. Check with the SPLASH General Chair (GC) early to ensure this fee is included in the conference budget and paid from the conference, not out of pocket by the RC chairs. See also the [SPLASH GC Notes](/Conferences/SPLASH/HowToSPLASH).
+
+Get all RC members to upload or update their PDFs inside TPMS as soon as they accept their invites, so everything is ready when the submission deadline comes. Use the TPMS report to see who is missing papers or accounts.
 
 - Use TPMS rankings **multiplied by 100** so everyone gets scores between 0 and 100.
 - Ask reviewers to add rankings **above 100 only** for their personal preferences, so you can distinguish TPMS scores from reviewer preferences.
