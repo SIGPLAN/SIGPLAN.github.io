@@ -243,3 +243,15 @@
     from any part of the programming research lifecycle, as are papers on
     programming practice and experience.
   cooperation: true
+
+-
+  name: Ada-Europe International Conference on Reliable Software Technologies (AEiC)
+  link: https://www.ada-europe.org/confs/ae
+  description: |
+    Leading international forum for providers, practitioners, and researchers
+    in reliable software technologies, focusing on the theory and practice of
+    the design, development, and maintenance of long-lived, high-quality
+    software systems. Participants include practitioners and researchers from
+    industry, academia, and government organizations active in the promotion
+    and development of reliable software technologies.
+  cooperation: true
