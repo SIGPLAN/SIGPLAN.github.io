@@ -141,18 +141,39 @@ MPLR Steering Committee:
   - "[Christophe Scholliers](https://users.ugent.be/~chscholl/)"
 
 Onward! Steering Committee:
-    - Chair: Stephen Kell
-    - Robert Biddle
-    - Richard P. Gabriel
-    - Elisa Gonzalez Boix
-    - Robert Hirschfeld
-    - Hidehiko Masuhara
-    - Gail Murphy
-    - Tomas Petricek
-    - Benjamin C. Pierce
-    - Yannis Smaragdakis
-    - Emina Torlak
-    - Jan Vitek
+  - Chair: Colin S. Gordon
+  - Shigeru Chiba
+  - Jonathan Edwards
+  - Felienne Hermans
+  - Robert Hirschfeld
+  - Stephen Kell
+  - Clemens Nylandsted Klokmose
+  - Marcel Taeumel
+  - Sverrir Thorgeirsson
+  - Tijs van der Storm
+
+OOPSLA Steering Committee:
+# A strict subset of the SPLASH Steering Committee below: future, current, and past three
+# SPLASH General Chairs, and future, current, and past three OOPSLA RC (Program) Co-Chairs.
+# Chaired by the SPLASH Steering Committee Chair by default.
+# In 2027 the past three years are 2026, 2025, and 2024.
+  - Chair: Frank Tip (Northeastern University), SPLASH Steering Committee Chair, SPLASH 2026 General Chair
+
+  - Jeremy Singer (University of Glasgow), SPLASH 2029 General Chair
+  - Michael Pradel (CISPA Helmholtz Center for Information Security/University of Stuttgart), OOPSLA 2028 Review Committee Co-Chair
+  - Alexandra Silva (Cornell University), OOPSLA 2028 Review Committee Co-Chair
+  - Vivek Sarkar (Georgia Institute of Technology), SPLASH 2028 General Chair
+  - Filip Křikava (Czech Technical University), SPLASH 2027 General Chair
+  - Nadia Polikarpova (University of California San Diego), OOPSLA 2027 Review Committee Co-Chair
+  - Ilya Sergey (National University of Singapore), OOPSLA 2027 Review Committee Co-Chair
+  - Anders Møller (Aarhus University), OOPSLA 2026 Review Committee Co-Chair
+  - Işil Dillig (University of Texas at Austin), OOPSLA 2026 Review Committee Co-Chair
+  - Charles Zhang (Hong Kong University of Science and Technology), SPLASH 2025 General Chair
+  - Shriram Krishnamurthi (Brown University), OOPSLA 2025 Review Committee Co-Chair
+  - Sukyoung Ryu (Korea Advanced Institute of Science and Technology), OOPSLA 2025 Review Committee Co-Chair
+  - Manu Sridharan (UC Riverside), SPLASH 2024 General Chair
+  - Alex Potanin (Australian National University), OOPSLA 2024 Review Committee Co-Chair
+  - Bor-Yuh Evan Chang (University of Colorado Boulder), OOPSLA 2024 Review Committee Co-Chair
 
 PLDI Steering Committee:
   -   SIGPLAN Chair: #
@@ -207,33 +228,34 @@ SIGAPL Steering Committee:
 SPLASH Steering Committee:
   - SIGPLAN Chair: #
   - SIGPLAN Vice Chair: #
-  - Chair: Alex Potanin (Australian National University), OOPSLA 2024 Program Co-Chair, SC Chair for 2025 - 2026 2-year term
+  - Chair: Frank Tip (Northeastern University), SPLASH 2026 General Chair, SC Chair for 2027 - 2028
 
   - Jeremy Singer (University of Glasgow), SPLASH 2029 General Chair
   - Vivek Sarkar (Georgia Institute of Technology), SPLASH 2028 General Chair
+  - Michael Pradel (CISPA Helmholtz Center for Information Security/University of Stuttgart), OOPSLA 2028 Review Committee Co-Chair
+  - Alexandra Silva (Cornell University), OOPSLA 2028 Review Committee Co-Chair
   - Filip Křikava (Czech Technical University), SPLASH 2027 General Chair
-  - Frank Tip (Northeastern University), SPLASH 2026 General Chair
-  - Charles Zhang (Hong Kong University of Science and Technology), SPLASH 2025 General Chair
-  - Manu Sridharan (UC Riverside), SPLASH 2024 General Chair
-  - Vasco T. Vasconcelos (University of Lisbon), SPLASH 2023 General Chair
-  - Nadia Polikarpova (University of California San Diego), OOPSLA 2027 Program Co-Chair
-  - Ilya Sergey (National University of Singapore), OOPSLA 2027 Program Co-Chair
-  - Anders Møller (Aarhus University), OOPSLA 2026 Program Co-Chair
-  - Işil Dillig (University of Texas at Austin), OOPSLA 2026 Program Co-Chair
-  - Shriram Krishnamurthi (Brown University), OOPSLA 2025 Program Co-Chair
-  - Sukyoung Ryu (Korea Advanced Institute of Science and Technology), OOPSLA 2025 Program Co-Chair
-  - Bor-Yuh Evan Chang (University of Colorado Boulder), OOPSLA 2024 Program Co-Chair
-  - Mira Mezini (TU Darmstadt), OOPSLA 2023 Program Chair
+  - Nadia Polikarpova (University of California San Diego), OOPSLA 2027 Review Committee Co-Chair
+  - Ilya Sergey (National University of Singapore), OOPSLA 2027 Review Committee Co-Chair
+  - Işil Dillig (University of Texas at Austin), OOPSLA 2026 Review Committee Co-Chair
+  - Anders Møller (Aarhus University), OOPSLA 2026 Review Committee Co-Chair
   - Sverrir Thorgeirsson (ETH Zurich), Onward! 2026 Papers Chair
   - Felienne Hermans (Vrije Universiteit Amsterdam), Onward! 2026 Essays Chair
+  - Charles Zhang (Hong Kong University of Science and Technology), SPLASH 2025 General Chair
+  - Shriram Krishnamurthi (Brown University), OOPSLA 2025 Review Committee Co-Chair
+  - Sukyoung Ryu (Korea Advanced Institute of Science and Technology), OOPSLA 2025 Review Committee Co-Chair
+  - Colin Gordon (Drexel University), Onward! 2025 Essays Chair, Onward! Steering Committee Chair
   - Shigeru Chiba (University of Tokyo), Onward! 2025 Papers Co-Chair
   - Clemens Nylandsted Klokmose (Aarhus University), Onward! 2025 Papers Co-Chair
-  - Colin Gordon (Drexel University), Onward! 2025 Essays Chair, Onward! Steering Committee Chair
+  - Manu Sridharan (UC Riverside), SPLASH 2024 General Chair
+  - Alex Potanin (Australian National University), OOPSLA 2024 Review Committee Co-Chair
+  - Bor-Yuh Evan Chang (University of Colorado Boulder), OOPSLA 2024 Review Committee Co-Chair
   - Kedar Namjoshi (Nokia), SAS Steering Committee Co-Chair
   - Cezara Dragoi (INRIA), SAS Steering Committee Co-Chair
   - Coen de Roover (Vrije Universiteit Brussel), GPCE Steering Committee Chair
   - Eric van Wyk (University of Minnesota), SLE Steering Committee Chair
   - Amal Ahmed (Northeastern University), Member at Large 2026 - 2029
+  - Robert Hirschfeld (Hasso Plattner Institute), Member at Large 2027 - 2030
 
 VEE Steering Committee:
   - Andrew Baumann, Microsoft Research
