@@ -28,6 +28,28 @@ Onward! 2026
 Awards
 ------
 
+-   Most Notable Paper Award 2026 for 2016
+    -   Recipients: Johannes Emerich
+    -   Title:
+    -   Conference: Onward! 2016
+    -   Paper: [https://dl.acm.org/doi/abs/10.1145/2986012.2986030](https://dl.acm.org/doi/abs/10.1145/2986012.2986030)
+    -   Citation: In this essay, Johannes Emerich revisits age-old questions of language design in a still-new and surprising way, with strong direct analogies to the history of mathematics and the role of intuition. His articulate and unmistakably personal essay manages to be critical of modernist formal-methods approaches while fully embracing the mathematical tradition. Read today, it finds new relevance around the recent application of large language models to both mathematics and programming. With its creative spirit and challenge to established viewpoints, it is a uniquely Onward! contribution.
+
+-   Most Notable Paper Award 2025 for 2015 (Dual Award)
+    - First Award:
+        -   Recipients: Andrei Chiş, Oscar Nierstrasz, Aliaksei Syrel, Tudor Gîrba
+        -   Title: The Moldable Inspector
+        -   Conference: Onward! 2015
+        -   Paper: [https://dl.acm.org/doi/abs/10.1145/2814228.2814234](https://dl.acm.org/doi/abs/10.1145/2814228.2814234)
+        -   Citation: This paper is a beautiful blend of identifying an aspect of programming environments that was stale and not serving the needs of programmers and building something to meet those needs that was new and insightful. It is an exemplar of the Onward! spirit: exploring different ways of thinking about, approaching and reporting on programming language and software engineering research.
+    - Second Award:
+        -   Recipients: Daniel Jackson
+        -   Title: Towards a Theory of Conceptual Design for Softwar
+        -   Conference: Onward! 2015
+        -   Paper: [https://dl.acm.org/doi/abs/10.1145/2814228.2814248](https://dl.acm.org/doi/abs/10.1145/2814228.2814248)
+        -   Citation: This essay deftly argues the need to consider concepts as first-class entities during software design, providing nice examples to show where a lack of coherent concepts leads to software that is more difficult to use for a human.
+It has had a substantial influence not only the field of Software Design, but also subsequent submissions to Onward.
+
 -   Most Notable Paper Award 2023 for 2013
     -   Recipients: Sean McDirmid
     -   Title: Usable Live Programming
@@ -175,6 +197,15 @@ Awards
 
 Past Events
 -----------
+
+- Onward! 2025
+    -   Singapore, October 16-18, 2025
+    -   Co-located with SPLASH 2025
+    -   Papers chair: Shigeru Chiba (University of Tokyo) and Clemens Nylandsted Klokmose (Aarhus University)
+    -   Essays chair: Colin S. Gordon (Drexel University)
+    -   [https://2025.splashcon.org](https://2025.splashcon.org)
+    -   [https://2025.splashcon.org/track/splash-2025-Onward-papers](https://2025.splashcon.org/track/splash-2025-Onward-papers)
+    -   [https://2025.splashcon.org/track/splash-2025-Onward-Essays](https://2025.splashcon.org/track/splash-2025-Onward-Essays)
 
 - Onward! 2024
     -   Pasadena, California, USA, October 23-25, 2024
