@@ -8,6 +8,10 @@ aspect of programming. Welcomed are papers that propose and argue for
 new approaches to the creation of software as well as reflections on
 technology and ideas bearing on programming broadly construed.
 
+The current SPLASH steering committee is:
+
+{% include committee.liquid name="Onward! Steering Committee" %}
+
 [A Table of Contents](./Onward_legacy.md) for the years 2002–2010.
 
 Onward! 2026
