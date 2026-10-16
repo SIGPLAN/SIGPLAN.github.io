@@ -1,0 +1,20 @@
+---
+title: "Postdoctoral Position: Type Systems for Elixir (IRIF, Paris)"
+timestamp: "9/14/2026 5:30:54"
+---
+Dear colleagues, 
+
+IRIF (Paris) is opening a postdoctoral position on gradual and semantic typing for Elixir's module system, working directly with José Valim (creator of Elixir) and the Elixir core team. The goal: extend the semantic-subtyping-based type system already shipping in the official Elixir compiler to cover its module system, treating modules and values within a single, unified type-theoretic framework.
+
+Two intertwined challenges are on the table — bringing gradual typing to modules, and reconciling existential types with the semantic subtyping framework — with a direct path from theory to a compiler used by tens of thousands of developers at companies like Apple, Discord, PepsiCo, BBC, Adobe, and Spotify.
+
+12 months (extendable), starting 1 November 2026 (negotiable, though only to a later date). CNRS salary scale. PhD in Computer Science required; strong background in functional languages and type systems expected.
+
+Full description, scientific context, and how to apply:
+https://www.irif.fr/~gc/postdocElixirModules.en.html
+
+Contact: Giuseppe Castagna (Giuseppe.Castagna@irif.fr)
+
+Best regards,
+Giuseppe Castagna
+CNRS, IRIF, Université Paris Cité 

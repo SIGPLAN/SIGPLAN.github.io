@@ -1,0 +1,140 @@
+---
+title: "Call for Papers: OOPSLA 2027 (PACMPL) - Round 1 deadline Oct 14, 2026"
+timestamp: "9/19/2026 13:04:27"
+deadline: "10/14/2026"
+---
+========================================================================
+                       PACMPL Issue OOPSLA 2027
+
+                          Call for Papers
+
+                OOPSLA 2027 will be held as part of
+     The ACM SIGPLAN Conference on Systems, Programming, Languages,
+         and Applications: Software for Humanity (SPLASH 2027)
+
+              Sun 10 - Fri 15 October 2027, Prague, Czechia
+
+            https://2027.splashcon.org/track/splashoopsla2027
+========================================================================
+
+### Important dates [AoE (UTC-12h)]
+
+Submission (Round 1):           Wed 14 Oct 2026
+Author Response (Round 1):      Tue 1 - Sat 5 Dec 2026
+Author Notification (Round 1):  Fri 18 Dec 2026
+Revision submission (Round 1):  Fri 22 Jan 2027
+Author Notification (Round 1):  Fri 12 Feb 2027
+Camera Ready (Round 1):         Fri 5 Mar 2027
+
+Submission (Round 2):           Wed 7 Apr 2027
+Author Response (Round 2):      Tue 15 - Sat 19 Jun 2027
+Author Notification (Round 2):  Fri 2 Jul 2027
+Revision submission (Round 2):  Fri 30 Jul 2027
+Author Notification (Round 2):  Fri 13 Aug 2027
+Camera Ready (Round 2):         Fri 27 Aug 2027
+
+NEW THIS YEAR: No individual may be an author of more than 5 submissions
+in a given round, including no more than 2 submissions that have no
+senior authors (as defined in the Reserve Reviewer Policy).
+
+Papers accepted in either round will be published in the 2027 volume of
+PACMPL(OOPSLA) and invited to present in-person at the SPLASH conference
+in 2027. (Remote presentations will not be possible.)
+
+### Scope
+
+The OOPSLA issue of the Proceedings of the ACM on Programming Languages
+(PACMPL) welcomes papers focusing on all practical and theoretical
+investigations of programming systems, languages, and environments.
+Papers may target any stage of software development, including
+requirements, modeling, prototyping, design, implementation, generation,
+analysis, verification, testing, evaluation, maintenance, and reuse of
+software systems. Contributions may include the development of new
+tools, techniques, principles, and evaluations.
+
+### Review Process
+
+PACMPL(OOPSLA) has two rounds of reviewing. Each paper that proceeds to
+full review receives at least three reviews and an author response.
+
+*Accept*: Your paper will appear in the upcoming volume of
+PACMPL(OOPSLA).
+
+*Minor Revision*: While the Review Committee likes the work, it has some
+specific concerns that it would like to see revised. Thus, you will
+receive specific suggestions for your revised manuscript. The committee
+expects the revisions to be doable within the revision phase. You have
+the option to submit a revision by the revision deadline of the current
+round (see deadlines above), or you can wait until the next round.
+
+*Major Revision*: While the Review Committee thinks the direction of the
+work has promise, it has significant concerns that it would like to see
+revised. You may receive some specific required revisions, but will also
+receive broader comments that may take significantly longer to execute.
+For this reason, you cannot submit a revision by the revision deadline
+of the current round, but you have to wait until the next round.
+
+*Reject*: Your paper will not appear in the upcoming volume of
+PACMPL(OOPSLA). In addition, a paper that is rejected in Round 1 is not
+allowed to be resubmitted in Round 2. A paper is considered a
+resubmission if, in the judgment of the Chairs, it is substantially
+similar to the original submission. This restriction applies only within
+OOPSLA 2027: a paper that is rejected in Round 2 is allowed to resubmit
+to Round 1 of OOPSLA 2028, and papers rejected from OOPSLA 2026 (in
+either round) are welcome at OOPSLA 2027.
+
+The Chairs may desk-reject a submission without full review if it
+violates the policies in this call, or if the Chairs, in consultation
+with an Associate Chair or reviewer, judge it clearly below the bar for
+OOPSLA. Desk-rejected papers receive a brief notification and count as
+rejected for the no-resubmission rule.
+
+At least one author of a paper submission must be registered as a
+Reserve Reviewer as per the Reserve Reviewer Policy.
+
+### Submissions
+
+Initial submissions must be at most 23 pages using the template. This
+page limit does not include required statements, references, or
+supplementary material (such as appendices). However, papers must be
+self-contained; reviewers are under no obligation to read the
+supplementary material. Revisions can correspondingly go up to a maximum
+of 25 pages.
+
+PACMPL uses double-blind reviewing. Authors’ identities are only
+revealed if a paper is accepted. Your papers must
+
+- omit author names and institutions,
+- use the third person when referencing your work,
+- anonymize supplementary material.
+
+Papers must describe unpublished work that is not currently submitted
+for publication elsewhere as described by SIGPLAN’s Re-Publication
+Policy.
+
+### Artifacts
+
+To help readers understand the state of the intended artifact, we ask
+you to add a section just before references titled Data-Availability
+Statement in the initial submission. In it, indicate whether an artifact
+exists, its nature and limitations, and whether it will be submitted for
+Artifact Evaluation.
+
+It is understood that some papers have no artifacts but, given the broad
+range of what constitutes an artifact, it would be helpful to readers to
+explain why the paper has none.
+
+### Publication
+
+The official publication date is the date the journal is made available
+in the ACM Digital Library. The journal issue and associated papers
+accepted in Round 1 (OOPSLA1) will be published no earlier than April 1,
+2027, while those accepted in Round 2 (OOPSLA2) will be published no
+earlier than October 1, 2027.
+
+### Additional Information
+
+Please submit using HotCRP: https://oopsla27.hotcrp.com/
+
+Contact: oopsla-2027-rc-chairs@googlegroups.com
+

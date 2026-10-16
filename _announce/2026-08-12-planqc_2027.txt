@@ -1,0 +1,29 @@
+---
+title: "Call for Submissions - PLanQC 2027 - Programming Languages and Quantum Computing"
+timestamp: "8/12/2026 18:06:17"
+deadline: "10/30/2026"
+---
+We invite members of the programming languages and quantum computing communities to submit talk proposals for the 7th International Workshop on Programming Languages for Quantum Computing (PLanQC 2027), co-located in January 2027 with POPL in Mexico City, Mexico. The workshop will be held on January 12, 2027.
+
+Workshop website: https://popl27.sigplan.org/home/planqc-2027
+
+PLanQC aims to bring together researchers from the fields of programming languages and quantum information, exposing the programming languages community to the unique challenges of programming quantum computers. It will promote the development of tools to assist in the process of programming quantum computers, as they exist today and as they are likely to exist in the near to distant future.
+
+Submissions to PLanQC should take the form of 2–5 page abstracts (single-column, 11pt `acmsmall` style, not including references), with links to larger preprints when appropriate. Work in progress is welcome. We hope to make PLanQC maximally accessible to the programming languages community. Thus, abstracts should cover cutting-edge ideas and results, but not be opaque to new, potential entrants to quantum computing coming from programming languages. Abstracts will be reviewed for quality and relevance to the workshop, and accepted authors will be invited to give talks or poster presentations. We will not be publishing formal proceedings, but the extended abstracts, along with links (where available) to full papers will be posted to the website of the workshop.
+
+Submission link: https://planqc27.hotcrp.com/
+
+### Workshop Topics
+- High-level quantum programming languages
+- Verification tools for quantum programs
+- Novel quantum programming abstractions
+- Quantum circuit and program optimization
+- Hardware-aware circuit compilation and routing
+- Error handling, mitigation, and correction
+- Instruction sets for quantum hardware
+- Other techniques from traditional programming languages (e.g., types, compilation/optimization, foreign function interfaces) applied to the domain of quantum computation.
+
+### Important Dates
+- Submission deadline: October 30, 2026 (end of day, AoE)
+- Notification deadline: November 27, 2026 (end of day, AoE)
+- Workshop: January 12, 2027

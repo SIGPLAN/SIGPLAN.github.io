@@ -1,0 +1,71 @@
+---
+title: "Call for Papers, Trends in Functional Programming in Education (TFPIE 2027)"
+timestamp: "9/24/2026 9:48:51"
+deadline: "11/19/2026"
+---
+-------------------------------------------------------
+Call for Papers
+TFPIE 2027: The 16th International Workshop on
+Trends in Functional Programming in Education
+March 12th 2027, Kyoto, Japan, co-located with TFP 2027
+https://wiki.tfpie.science.ru.nl/TFPIE2027
+-------------------------------------------------------
+
+## Topics
+
+TFPIE welcomes submissions describing classroom techniques, classroom tools, and creative uses of functional programming (FP) to aid education in or outside computer science. Topics of interest include, but are not limited to:
+
+* FP at different levels (high school, first-year and advanced undergraduate, graduate)
+* FP and the arts (incl. music, animation, games, philosophy and other liberal arts)
+* FP and applications (in computer science, robotics, artificial intelligence, etc.)
+* FP and pedagogy (incl., e.g., computational thinking, e-learning, automated assessment)
+* FP for building student engagement in research
+
+In addition to papers, we invite best-lecture presentations. These are an opportunity to share your favorite classroom moments. Show us your favorite material or favorite way of presenting it. For best-lecture presentations, please submit a short abstract describing the lecture and its interest to TFPIE attendees.
+
+## Submission Instructions
+
+Submission is via EasyChair:
+
+https://easychair.org/my/conference?conf=tfpie2027
+
+Authors of papers have the choice of having their contributions formally reviewed either before or after the workshop. Further, pre-workshop submissions may either be full (earlier deadline) or draft papers (later deadline). See below for more details.
+
+Accepted papers from the pre-workshop and post-workshop formal review will appear in a formal proceedings, published in the Electronic Proceedings in Theoretical Computer Science (EPTCS).
+
+Reviewing is single-blind.
+
+### Pre-workshop formal review
+
+Papers to be formally reviewed before the workshop should be submitted before the early deadline and will receive their reviews and notification of acceptance for both presentation and publication before the workshop. A paper that has been rejected for publication but accepted for presentation may be revised and resubmitted for the post-workshop formal review. A paper that has been rejected for presentation will not be formally reviewed by the PC.
+
+### Post-workshop formal review
+
+Draft papers will receive minimal reviews and notification of acceptance for presentation at the workshop. Authors of draft papers will be invited to submit revised papers based on the feedback received at the workshop. A post-workshop refereeing process will then select a subset of these papers for formal publication.
+
+### Formatting requirements
+
+Papers must be written in English, and formatted using the EPTCS style (https://style.eptcs.org/). Papers submitted for formal review must be submitted as full papers (7-20 pages). Draft papers may be submitted as extended abstracts (4-6 pages) or full papers (7-20 pages). The page limits do not include bibliography. For best-lecture presentations, we also accept short abstracts.
+
+If you wish to make a submission outside the above formats, please contact the PC chair to discuss. Because TFPIE aims to encourage creative and experimental research ideas, we may be able to accommodate some non-traditional submissions on a case-by-case basis.
+
+## Important Dates
+
+All deadlines are Anywhere-on-Earth.
+
+* Submission deadline (pre-workshop full papers): November 19, 2026
+* Notification (pre-workshop full papers): December 17, 2026
+* Submission deadline (pre-workshop draft papers): February 4, 2027
+* Notification (pre-workshop draft papers): February 11, 2027
+* Submission deadline (post-workshop review): April 8, 2027
+* Notification (post-workshop review): May 12, 2027
+
+## Program Committee
+
+* Youyou Cong (chair) - Institute of Science Tokyo, Japan
+* Hsiang-Shang 'Josh' Ko - Academia Sinica, Taiwan
+* Jens Mönig - SAP, Germany
+* Paige Randall North - Utrecht University, Netherlands
+* Liam O'Connor - Australian National University, Australia
+* Joe Gibbs Politz - University of California at San Diego, USA
+* Katsuhiro Ueno - Niigata University, Japan
