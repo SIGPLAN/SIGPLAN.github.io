@@ -1,3 +1,10 @@
+2026:
+- Awardee: Tiark Rompf and Nada Amin
+  Other: |
+    (for 2016) _[Type Soundness for Dependent Object Types (DOT)](https://dl.acm.org/doi/10.1145/3022671.2984008)_
+  Citation: |
+    The PL community has long maintained two different visions for type genericity: "functional" or "parametric" types (e.g., generics, templates, type functions) and "modular" or "virtual" types (e.g., virtual classes, family polymorphism, ThisType). The latter direction has consistently seen lower adoption in major languages, largely because of static type checking challenges. Dependent Object types, a central part of the design of the Scala programming language, made a major step forward in addressing this. Despite being in the language for many years, Dependent Object Types lacked a rigorous formalism and proof of soundness for more than restricted subsets. Earlier work on the DOT calculus proposed a formalism, but still lacked the essential soundness theorem. This work, at OOPSLA 2016, showed how subtle soundness is, but also described conditions necessary for soundness, and used them to establish it. The work directly influenced Scala, being explicitly credited in the Scala 3 release for addressing the very first goal of this major language update: strengthening Scala's foundations.
+
 2025:
 - Awardee: Vu Le, Chengnian Sun, and Zhendong Su
   Other: |
