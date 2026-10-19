@@ -1,3 +1,10 @@
+
+2026:
+- Award: John Vlissides Award
+  Awardee: "Karuna Grewal, Cornell University"
+  Citation: |
+    Karuna Grewal’s work allows the enforcement of safety properties on blackbox software systems. Many of her works are deployable in an Istio-enabled Kubernetes cluster, allowing them to be run on real microservice-based software: this is strong evidence of promise in applied software research.
+
 2025:
 - Award: John Vlissides Award
   Awardee: "Amanda Xu, University of Wisconsin-Madison"
