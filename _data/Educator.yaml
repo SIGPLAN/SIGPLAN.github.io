@@ -1,3 +1,13 @@
+2026:
+- Awardee: Graham Hutton 
+  Citation: |
+
+    Professor Graham Hutton has made significant contributions to the teaching of functional programming and Haskell. Graham has distilled twenty years of teaching experience into his book *Programming in Haskell*, widely considered a world-class introduction to the language and used at more than 100 universities worldwide. Graham's curriculum deftly interweaves the practice of writing functional code with the theory of equational reasoning. Graham has further popularized these concepts to a general audience through his many YouTube videos, particularly his collaboration with the Computerphile channel. His videos on the lambda calculus, monads, and other such topics have accumulated over three million views to date.
+
+    At the heart of Graham's work is a desire to show how one can express important mathematical and computational concepts in simple and elegant functional programs. Graham and his collaborators are a mainstay at ICFP and JFP, where they have published numerous papers which embody this spirit. Graham's educational efforts have reached programming language enthusiasts the world over, from the masses of YouTube to the halls of SIGPLAN events, making him more than deserving of this award.
+
+    * Selection committee: Niki Vazou, Will Crichton, John Wickerson, Michael Greenberg, Johan Jeuring
+
 2025:
 - Awardee: Simon Peyton Jones 
   Citation: |

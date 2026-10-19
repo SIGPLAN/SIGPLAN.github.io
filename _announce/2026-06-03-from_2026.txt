@@ -1,0 +1,152 @@
+---
+title: "Tenth Working Formal Methods Symposium (FROM 2026)"
+timestamp: "6/3/2026 9:24:34"
+deadline: "6/30/2026"
+---
+FROM 2026 - Final Call for Papers
+
+           Tenth Working Formal Methods Symposium
+
+          September 15-17, 2026, Timisoara, Romania
+               https://from2026.uvt.ro
+        co-located with SYNASC 2026
+          https://synasc.ro/2026/
+
+
+DESCRIPTION
+-----------
+The Working Formal Methods Symposium (FROM) aims to bring together
+researchers and practitioners who work on formal methods by contributing
+new theoretical results, methods, techniques, and frameworks, and/or by
+creating or using software tools that apply theoretical contributions.
+
+The program of the symposium includes invited lectures and regular contributions.
+Submissions on the general topics of formal methods, theoretical computer
+science, logic and applications are welcome.
+
+This event is co-located with the 28th International Symposium on Symbolic and
+Numeric Algorithms for Scientific Computing (SYNASC 2026).
+
+ORGANIZERS
+----------
+Faculty of Informatics of West University of Timisoara  (https://info.uvt.ro/en/)
+Institute for Logic and Data Science (ILDS, https://ilds.ro/)
+
+IMPORTANT DATES
+---------------
+Deadline for paper/abstract submission: June 30, 2026 (AoE)
+Deadline for author notification: July 25, 2026 (AoE)
+Deadline for revised paper/abstract submission: August 23, 2026 (AoE)
+Deadline for registration: September 4, 2026 (AoE)
+Symposium: September 15-17, 2026
+
+SUBMISSIONS
+-----------
+Papers of up to 16 pages prepared according to the EPTCS template
+(see http://style.eptcs.org/) must be submitted electronically
+using the EasyChair submission system at:
+
+https://easychair.org/my/conference?conf=synasc2026
+
+and choosing the track "FROM Symposium"
+
+Research papers must contain original research results not submitted and not
+published elsewhere. They will be considered for inclusion in the EPTCS proceedings
+of the symposium, which will be indexed in the Web of Science. Authors who want to
+present work in progress or discuss new aspects or a survey of their older research
+results at the workshop are welcome to submit an extended abstract (up to 8 pages).
+Papers will be refereed and accepted on the basis of their scientific merit and relevance
+to the topics of the symposium.
+
+Authors of selected papers will be invited to submit an extended version to a journal, most
+probably the Journal of Logical and Algebraic Methods in Programming
+(https://www.sciencedirect.com/journal/journal-of-logical-and-algebraic-methods-in-programming),
+subject to formal approval by Elsevier.
+
+TOPICS OF INTEREST
+------------------
+The topics of interest for FROM 2026 include, but are not limited to:
+
+Areas and formalisms:
++ Category theory in computer science
++ Distributed systems and concurrency
++ Domain science and engineering
++ Formal languages and automata theory
++ Formal modelling, verification and testing
++ Logic in computer science
++ Logical frameworks
++ Mathematical structures in computer science
++ Models of computation
++ Semantics of programming languages
++ Type systems
+
+Methods:
++ Automated reasoning and model generation
++ Automated induction
++ Certified programs
++ Data-flow and control-flow analysis
++ Deductive verification
++ Mechanized proofs
++ Model checking
++ Proof mining
++ Symbolic computation
++ Term rewriting
+
+Applications:
++ Computational logic
++ Computer mathematics
++ Knowledge representation, ontology reasoning, deductive databases
++ Program analysis
++ Verification and synthesis of software and hardware
++ Uncertainty reasoning and soft computing
+
+Submissions on any other related topics are welcome.
+
+INVITED SPEAKERS
+-------------------
+Cătălin Dima (Université Paris-Est Créteil)
+Dániel Horpácsi (Eötvös Loránd University)
+Radu Iosif (CNRS/VERIMAG)
+Temur Kutsia (Johannes Kepler University of Linz)
+Grigore Roșu (University of Illinois at Urbana-Champaign)
+Gheorghe Ștefănescu (University of Bucharest)
+
+PROGRAMME COMMITTEE
+-------------------
+Andrei Arusoaie (Alexandru Ioan Cuza University of Iași)
+Georgiana Caltais (University of Twente)
+Ștefan Ciobâcă (Alexandru Ioan Cuza University of Iași)
+Florin Crăciun (Babeș-Bolyai University of Cluj-Napoca)
+Mădălina Erașcu (West University of Timișoara)
+Dániel Horpácsi (Eötvös Loránd University, Budapest)
+Temur Kutsia (Johannes Kepler University Linz)
+Ioana Leuștean (University of Bucharest)
+Mircea Marin (West University of Timișoara) - chair
+David Nowak (CNRS & University of Lille)
+Corina Păsăreanu (NASA & Carnegie Mellon University)
+Andrei Popescu (University of Sheffield)
+Thomas Powell (University of Bath)
+Grigore Roșu (University of Illinois at Urbana-Champaign)
+Vlad Rusu (INRIA Lille)
+Andrei Sipoș (University of Bucharest & IMAR)
+Viorica Sofronie-Stokkermans (University of Koblenz and Landau)
+Sorin Stratulat (University of Lorraine, Metz)
+Alicia Villanueva (VRAIN, Polytechnic University of Valencia)
+Tomas Vojnar (Masaryk University)
+
+ORGANISING COMMITTEE
+-------------------
+Adrian Crăciun (West University of Timișoara)
+Mădălina Erașcu (West University of Timișoara)
+
+REGISTRATION
+------------
+The registration fee is 300 EUR, and covers: conference kit, refreshments
+during breaks, lunches, and welcome cocktail.
+It does not cover participation at the conference dinner.
+The additional fee for the conference dinner is 60 €.
+***************
+
+Further information is available on our website,
+http://from2026.uvt.ro
+

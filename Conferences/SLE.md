@@ -14,6 +14,12 @@ algebraic specification, etc.
 
 **Web Pages of Previous Conferences**
 
+- [SLE 2026](http://www.sleconf.org/2026) (Rennes, France)
+- [SLE 2025](http://www.sleconf.org/2025) (Koblenz, Germany)
+- [SLE 2024](http://www.sleconf.org/2024) (Pasadena, California, U.S.A.)
+- [SLE 2023](http://www.sleconf.org/2023) (Cascais, Portugal)
+- [SLE 2022](http://www.sleconf.org/2022) (Auckland, New Zealand)
+- [SLE 2021](http://www.sleconf.org/2021) (virtual)
 - [SLE 2020](http://www.sleconf.org/2020) (virtual)
 - [SLE 2019](http://www.sleconf.org/2019) (Athens, Greece)
 - [SLE 2018](http://www.sleconf.org/2018) (Boston, Massachusetts, U.S.A.)

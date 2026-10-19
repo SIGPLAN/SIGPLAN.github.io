@@ -37,13 +37,14 @@ Check out our [Twitter](https://twitter.com/SigplanM) for the latest news! You c
 
 ## Committee Members
 
-- **Operations Team**: [Jai Arora](https://jaiarora0011.github.io/), [Carolina Carreira](https://carolinacarreira.github.io/), [Ronak Chauhan](https://in.linkedin.com/in/ronchauhan), [Kiran Gopinathan](https://gopiandcode.uk/), [Jacqueline Mitchell](https://jlmitche23.github.io/), [Reshabh Sharma](https://www.linkedin.com/in/reshabh/)
+- **Operations Team**: [Jai Arora](https://jaiarora0011.github.io/), [Carolina Carreira](https://carolinacarreira.github.io/), [Ronak Chauhan](https://in.linkedin.com/in/ronchauhan), [Kiran Gopinathan](https://gopiandcode.uk/), [Brian Hyeongseok Kim](https://briankim113.github.io/), [Jacqueline Mitchell](https://jlmitche23.github.io/)
 - **Rematching Coordinators**: [Houda Boukham](https://www.linkedin.com/in/houda-boukham-821198142/), [Jocelyn Chen](https://www.cs.utexas.edu/~qchen/)
 - **Advisory Board**: [Brigitte Pientka](https://www.cs.mcgill.ca/~bpientka/), [Amal Ahmed](https://www.khoury.northeastern.edu/home/amal/), [Sam Westrick](https://www.cs.cmu.edu/~swestric/), [Santosh Nagarakatte](https://people.cs.rutgers.edu/~santosh.nagarakatte/), [Vasco Vasconcelos](https://www.di.fc.ul.pt/~vv/)
 
 - **Chair**:  [Stephen Chong](https://people.seas.harvard.edu/~chong/)
 - **Previous Chairs**: [Nadia Polikarpova](https://cseweb.ucsd.edu/~npolikarpova/), [Talia Ringer](https://dependenttyp.es/)
 - **Previous Advisory Board Members**: [Alexandra Silva](https://alexandrasilva.org/), [David Van Horn](https://www.cs.umd.edu/~dvanhorn/), [Dimitrios Vytiniotis](https://dimitriv.github.io/), [Sebastian Erdweg](https://www.pl.informatik.uni-mainz.de/), [Steve Blackburn](http://users.cecs.anu.edu.au/~steveb/), [Sukyoung Ryu](https://plrg.kaist.ac.kr/ryu)
+- **Previous Team Members** [Reshabh Sharma](https://www.linkedin.com/in/reshabh/), Alexa VanHattum, Jialu Bao, Kimaya Bedarkar, Sabree Blackmon, Shraddha Barke, Umang Mathur, Yanze Li, Yunjeong Lee
 
 ## Getting Involved
 
@@ -72,6 +73,9 @@ aspiring or junior researchers with little access to the programming languages c
 Examples of urgent needs for mentoring include but are not limited to
 mental health struggles, advisor-advisee conflicts, ongoing job or graduate school applications, and abusive situations at work or in the community.
 If any of these apply, and if you are comfortable doing so, please feel free to contact us so that we match you in a timely fashion.
+
+Please note that SIGPLAN-M is a mentoring program, not a research advising or collaboration program.
+Mentors may be able to offer their perspective on research, graduate school, career development, the programming languages community, and more, but mentees should not expect their SIGPLAN-M mentor to serve as a research advisor, provide a research project, or collaborate on research.
 
 ## Thank You, Mentors!
 

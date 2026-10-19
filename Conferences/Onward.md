@@ -8,35 +8,47 @@ aspect of programming. Welcomed are papers that propose and argue for
 new approaches to the creation of software as well as reflections on
 technology and ideas bearing on programming broadly construed.
 
+The current SPLASH steering committee is:
+
+{% include committee.liquid name="Onward! Steering Committee" %}
+
 [A Table of Contents](./Onward_legacy.md) for the years 2002–2010.
 
-Onward! 2024
+Onward! 2026
 ------------
 
--   Pasadena, California, USA, October 23-25, 2024
--   Co-located with SPLASH 2024
--   Papers chair: Jonathan Edwards (unaffiliated)
--   Essays chair: Marcel Taeumel (HPI and University of Potsdam)
--   [https://2024.splashcon.org](https://2024.splashcon.org)
--   [https://2024.splashcon.org/track/splash-2024-Onward-papers](https://2024.splashcon.org/track/splash-2024-Onward-papers)
--   [https://2024.splashcon.org/track/splash-2024-Onward-Essays](https://2024.splashcon.org/track/splash-2024-Onward-Essays)
+-   Oakland, California, USA, October 3-9, 2026
+-   Co-located with SPLASH/ISSTA 2026 at the Oakland Marriott City Center
+-   Papers chair: Sverrir Thorgeirsson (ETH Zurich)
+-   Essays chair: Felienne Hermans (Vrije Universiteit Amsterdam)
+-   [https://2026.splashcon.org](https://2026.splashcon.org)
+-   [https://2026.splashcon.org/track/splash-2026-onward--papers](https://2026.splashcon.org/track/splash-2026-onward--papers)
+-   [https://2026.splashcon.org/track/splash-2026-onward--essays](https://2026.splashcon.org/track/splash-2026-onward--essays)
 
 Awards
 ------
 
--   Most Notable Paper Award 2024 (1) for 2011
-    -   Recipients: Sean McDirmid
-    -   Title: Coding at the Speed of Touch
-    -   Conference: Onward! 2011
-    -   Paper: [https://dl.acm.org/doi/10.1145/2048237.2048246](https://dl.acm.org/doi/10.1145/2048237.2048246)
-    -   Citation: This 2011 Onward! paper describes the design and implementation of YinYang, a graphical system providing a proficient programming experience for tablet devices with constrained screen space. YingYang's tile-based approach sidestepped these devices' limited text-editing capabilities and enabled an intuitive and effective form of direct manipulation. The work stands out as an emblematic Onward! contribution. It is notable for championing programmability on a class of traditionally "closed" devices, exploring many subtle design points of graphical and visual languages, and as a call to action for moving "beyond typewriters" and inspiring the next generation of programmers.
+-   Most Notable Paper Award 2026 for 2016
+    -   Recipients: Johannes Emerich
+    -   Title:
+    -   Conference: Onward! 2016
+    -   Paper: [https://dl.acm.org/doi/abs/10.1145/2986012.2986030](https://dl.acm.org/doi/abs/10.1145/2986012.2986030)
+    -   Citation: In this essay, Johannes Emerich revisits age-old questions of language design in a still-new and surprising way, with strong direct analogies to the history of mathematics and the role of intuition. His articulate and unmistakably personal essay manages to be critical of modernist formal-methods approaches while fully embracing the mathematical tradition. Read today, it finds new relevance around the recent application of large language models to both mathematics and programming. With its creative spirit and challenge to established viewpoints, it is a uniquely Onward! contribution.
 
--   Most Notable Paper Award 2024 (2) for 2012
-    -   Recipients: Andrew P. Black, Kim B. Bruce, Michael Homer and James Noble
-    -   Title: Grace: the Absence of (Inessential) Difficulty
-    -   Conference: Onward! 2012
-    -   Paper: [https://dl.acm.org/doi/pdf/10.1145/2384592.2384601](https://dl.acm.org/doi/pdf/10.1145/2384592.2384601)
-    -   Citation: In this Onward! 2012 paper, the authors distilled a tremendous effort to accommodate the needs of programming pedagogy in a new language design. The paper is a model of clarity, deftly justifying its choices while also situating Grace within the rich history of programming languages past and present. It has supported and inspired considerable follow-on work, not only on pedagogy but also in programming language research topics such as gradual typing and the semantics of object-orientation.
+-   Most Notable Paper Award 2025 for 2015 (Dual Award)
+    - First Award:
+        -   Recipients: Andrei Chiş, Oscar Nierstrasz, Aliaksei Syrel, Tudor Gîrba
+        -   Title: The Moldable Inspector
+        -   Conference: Onward! 2015
+        -   Paper: [https://dl.acm.org/doi/abs/10.1145/2814228.2814234](https://dl.acm.org/doi/abs/10.1145/2814228.2814234)
+        -   Citation: This paper is a beautiful blend of identifying an aspect of programming environments that was stale and not serving the needs of programmers and building something to meet those needs that was new and insightful. It is an exemplar of the Onward! spirit: exploring different ways of thinking about, approaching and reporting on programming language and software engineering research.
+    - Second Award:
+        -   Recipients: Daniel Jackson
+        -   Title: Towards a Theory of Conceptual Design for Softwar
+        -   Conference: Onward! 2015
+        -   Paper: [https://dl.acm.org/doi/abs/10.1145/2814228.2814248](https://dl.acm.org/doi/abs/10.1145/2814228.2814248)
+        -   Citation: This essay deftly argues the need to consider concepts as first-class entities during software design, providing nice examples to show where a lack of coherent concepts leads to software that is more difficult to use for a human.
+It has had a substantial influence not only the field of Software Design, but also subsequent submissions to Onward.
 
 -   Most Notable Paper Award 2023 for 2013
     -   Recipients: Sean McDirmid
@@ -44,6 +56,20 @@ Awards
     -   Conference: Onward! 2013
     -   Paper: [https://dl.acm.org/doi/10.1145/2509578.2509585](https://dl.acm.org/doi/10.1145/2509578.2509585)
     -   Citation: This paper revitalized the study of live programming, introducing mechanisms that are now standard techniques in the field. The paper epitomizes the spirit of Onward!, asking risky questions outside the current discourse. In its form the paper was a breath of fresh air, enlivened by the use of comic strips. The work marked the beginning of a rich seam of research that has been productively mined at the ongoing LIVE workshop series at SPLASH.
+
+-   Most Notable Paper Award 2022 for 2012
+    -   Recipients: Andrew P. Black, Kim B. Bruce, Michael Homer and James Noble
+    -   Title: Grace: the Absence of (Inessential) Difficulty
+    -   Conference: Onward! 2012
+    -   Paper: [https://dl.acm.org/doi/pdf/10.1145/2384592.2384601](https://dl.acm.org/doi/pdf/10.1145/2384592.2384601)
+    -   Citation: In this Onward! 2012 paper, the authors distilled a tremendous effort to accommodate the needs of programming pedagogy in a new language design. The paper is a model of clarity, deftly justifying its choices while also situating Grace within the rich history of programming languages past and present. It has supported and inspired considerable follow-on work, not only on pedagogy but also in programming language research topics such as gradual typing and the semantics of object-orientation.
+
+-   Most Notable Paper Award 2021 for 2011
+    -   Recipients: Sean McDirmid
+    -   Title: Coding at the Speed of Touch
+    -   Conference: Onward! 2011
+    -   Paper: [https://dl.acm.org/doi/10.1145/2048237.2048246](https://dl.acm.org/doi/10.1145/2048237.2048246)
+    -   Citation: This 2011 Onward! paper describes the design and implementation of YinYang, a graphical system providing a proficient programming experience for tablet devices with constrained screen space. YingYang's tile-based approach sidestepped these devices' limited text-editing capabilities and enabled an intuitive and effective form of direct manipulation. The work stands out as an emblematic Onward! contribution. It is notable for championing programmability on a class of traditionally "closed" devices, exploring many subtle design points of graphical and visual languages, and as a call to action for moving "beyond typewriters" and inspiring the next generation of programmers.
 
 -   Most Notable Paper Award 2020 for 2010
     -   Recipients: Lennart C. L. Kats, Eelco Visser, and Guido Wachsmuth
@@ -171,6 +197,24 @@ Awards
 
 Past Events
 -----------
+
+- Onward! 2025
+    -   Singapore, October 16-18, 2025
+    -   Co-located with SPLASH 2025
+    -   Papers chair: Shigeru Chiba (University of Tokyo) and Clemens Nylandsted Klokmose (Aarhus University)
+    -   Essays chair: Colin S. Gordon (Drexel University)
+    -   [https://2025.splashcon.org](https://2025.splashcon.org)
+    -   [https://2025.splashcon.org/track/splash-2025-Onward-papers](https://2025.splashcon.org/track/splash-2025-Onward-papers)
+    -   [https://2025.splashcon.org/track/splash-2025-Onward-Essays](https://2025.splashcon.org/track/splash-2025-Onward-Essays)
+
+- Onward! 2024
+    -   Pasadena, California, USA, October 23-25, 2024
+    -   Co-located with SPLASH 2024
+    -   Papers chair: Jonathan Edwards (unaffiliated)
+    -   Essays chair: Marcel Taeumel (HPI and University of Potsdam)
+    -   [https://2024.splashcon.org](https://2024.splashcon.org)
+    -   [https://2024.splashcon.org/track/splash-2024-Onward-papers](https://2024.splashcon.org/track/splash-2024-Onward-papers)
+    -   [https://2024.splashcon.org/track/splash-2024-Onward-Essays](https://2024.splashcon.org/track/splash-2024-Onward-Essays)
 
 - Onward! 2023
     -   Cascais, Portugal, October 25-27, 2023

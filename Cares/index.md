@@ -242,8 +242,8 @@ We have received open, public feedback from a number of members of the community
    <td>Member, <a href="mailto:jeffrey.foster@tufts.edu">jeffrey.foster@tufts.edu</a>, Tufts University, Jul 2025-</td>
   </tr> 
  <tr>
-   <td><img src="../images/cares-photos/foster.png" alt="Nate Foster" width="156"><br><a href="https://www.cs.cornell.edu/~jnfoster/">Nate Foster</a> (he/him)</td>
-   <td>Member, <a href="mailto:jnfoster@cs.cornell.edu">jnfoster@cs.cornell.edu</a>, Cornell University, Oct 2024-</td>
+   <td><img src="../images/cares-photos/foster.png" alt="Nate Foster" width="156"><br><a href="https://natefoster.org">Nate Foster</a> (he/him)</td>
+   <td>Member, <a href="mailto:nate.foster@epfl.ch">nate.foster@epfl.ch</a>, EPFL, Oct 2024-</td>
   </tr> 
  <tr>
    <td><img src="../images/cares-photos/igarashi.jpg" alt="Atsushi Igarashi" width="156"><br><a href="https://www.fos.kuis.kyoto-u.ac.jp/~igarashi/index.html.en">Atsushi Igarashi</a> (he/him)</td>

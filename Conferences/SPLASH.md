@@ -17,9 +17,9 @@ The SPLASH Steering Committee is constituted by the following members:
 -   Steering Committee Chair for *any conference that co-located with SPLASH for the past three years*
 -   the outgoing Chair of the Steering Committee, for one year past the end of their term as Chair.
 
-*NB!* In 2026 the past three years are 2025, 2024, and 2023 and the co-located conferences include: SAS (while GPCE and SLE last co-located in 2023).
+*NB!* In 2027 the past three years are 2026, 2025, and 2024 and the co-located conferences include: SAS and GPCE (while SLE last co-located in 2024).
 
-The Chair of the Steering Committee is elected by the Steering Committee from among the members of the committee to serve a two-year term. The Chair of the Steering Committee would normally also serve as the chair of the OOPSLA Steering Committee which is a subcommittee of the SPLASH SC. The outgoing chair serves an additional year on the committee past his or her term as chair to provide institutional memory.
+The Chair of the Steering Committee is elected by the Steering Committee from among the members of the committee to serve a two-year term. The Chair of the Steering Committee would normally also serve as the chair of the [OOPSLA Steering Committee](/Conferences/OOPSLA) which is a subcommittee of the SPLASH SC (see below). The outgoing chair serves an additional year on the committee past his or her term as chair to provide institutional memory.
 
 Steering Committee membership was expanded by adding members-at-large in 2020, with the intention of adding one member-at-large each subsequent year.  Members-at-large serve 4 year terms and are selected by the Steering Committee.
 
@@ -28,6 +28,10 @@ The membership of the steering committee changes each year upon conclusion of th
 The current SPLASH steering committee is:
 
 {% include committee.liquid name="SPLASH Steering Committee" %}
+
+**OOPSLA Steering Committee: a strict subset of the SPLASH Steering Committee**
+
+The [OOPSLA Steering Committee](/Conferences/OOPSLA) is a *strict subset* of the SPLASH Steering Committee listed above. It consists of the future, current, and *past three* SPLASH General Chairs together with the future, current, and *past three* OOPSLA RC (co-)chairs, and is chaired by the SPLASH Steering Committee Chair by default. It has its own mailing list for OOPSLA specific issues, and its current membership is listed on the [OOPSLA page](/Conferences/OOPSLA).
 
 **Documents on How to Run SPLASH/OOPSLA Conferences**
 
@@ -46,6 +50,7 @@ The current SPLASH steering committee is:
 Web Pages of Previous Conferences
 ---------------------------------
 
+* [SPLASH 2027](https://2027.splashcon.org/) (Prague, Czechia)
 * [SPLASH 2026](https://2026.splashcon.org/) (Oakland, CA, USA)
 * [SPLASH 2025](https://2025.splashcon.org/) (Singapore, Singapore)
 * [SPLASH 2024](https://2024.splashcon.org/) (Pasadena, CA, USA)

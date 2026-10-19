@@ -16,6 +16,7 @@ MPLR commenced in 2002 as a Java-focused conference (Principles and Practice of 
 
 **Web Pages of Previous Conferences**
 
+* [MPLR 2027](https://2027.splashcon.org/home/mplr-2027) (Prague, Czechia)
 * [MPLR 2026](https://2026.ecoop.org/home/mplr-2026) (Brussels, Belgium)
 * [MPLR 2025](https://conf.researchr.org/home/icfp-splash-2025/mplr-2025) (Singapore)
 * [MPLR 2024](https://conf.researchr.org/home/issta-ecoop-2024/mplr-2024) (Vienna, Austria)

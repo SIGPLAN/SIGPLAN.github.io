@@ -1,0 +1,284 @@
+---
+title: "CfC 31st Ada-Europe Int. Conf. Reliable Software Technologies, AEiC 2027"
+timestamp: "10/7/2026 5:17:22"
+deadline: "1/25/2027"
+---
+-----------------------------------------------------------------------
+
+Call for Contributions
+
+31st Ada-Europe International Conference on
+Reliable Software Technologies (AEiC 2027)
+
+8-11 June 2027, Berlin, Germany
+
+www.ada-europe.org/conference2027
+
+*** Journal track submissions by 25 January 2027 ***
+*** Work-in-progress papers by 22 March 2027 ***
+*** All other submissions by 8 February 2027 ***
+
+Organized by Ada-Europe, Ada-Germany, and GI FG Ada,
+in cooperation with ACM SIGPLAN
+
+#AEiC2027 #AdaEurope #AdaProgramming
+
+-----------------------------------------------------------------------
+
+*** General Information
+
+The 31st Ada-Europe International Conference on Reliable Software
+Technologies (AEiC 2027) will take place in Berlin, Germany.
+The conference schedule comprises keynote talks, a journal track, an
+industrial track, a regular papers track, a work-in-progress track,
+a vendor exhibition, parallel tutorials, and satellite workshops.
+
+- Journal track papers present journal-level research advances supported
+  by solid theoretical foundation and thorough evaluation.
+- Regular track papers present conference-level (full paper) research
+  advances.
+- Industrial track contributions highlight industrial open challenges
+  and/or the practitioners' side of a challenging case study or
+  industrial project.
+- Work-in-progress track papers illustrate novel research ideas that are
+  still at an initial stage, between conception and first prototype.
+- Tutorials guide attenders through a hands-on familiarization with
+  innovative developments or with useful features related to reliable
+  software.
+- Workshops provide discussion forums on the conference topics.
+- Company presentations and exhibitions to showcase products & services.
+
+*** Schedule
+
+- 25 January 2027: Deadline for submission of journal track papers
+- 8 February 2027: Deadline for submission of industrial track
+  abstracts, regular track papers, tutorial and workshop proposals
+- 15 March 2027: First round notification for journal track papers,
+  and notification of acceptance for all other types of submissions
+- 22 March 2027: Deadline for submission of work-in-progress papers
+- 5 April 2027: Notification for work-in-progress papers
+
+*** Scope and Topics
+
+The conference is a leading international forum for providers,
+practitioners, and researchers in reliable software technologies.
+The conference presentations will illustrate current work in the theory
+and practice of the design, development, and maintenance of long-lived,
+high-quality software systems for a challenging variety of application
+domains.  The program will allow ample time for keynotes, Q&A sessions,
+discussions, and social events.  Participants include practitioners and
+researchers from industry, academia, and government organizations active
+in the promotion and development of reliable software technologies.
+
+The topics of interest for the conference include but are not
+limited to:
+- Cyber Security;
+- Safe and secure software for critical systems and infrastructures;
+- High-integrity systems and reliability;
+- Software and AI for space missions, e.g. Artemis;
+- AI for safety-critical and high-integrity systems engineering and
+  applications;
+- Automated coding for real-time and embedded systems;
+- Ada language and technologies;
+- SPARK, Rust and formally verified systems;
+- Formal methods, testing, and model-based engineering of critical
+  systems;
+- Applications and experimental evaluations in relevant domains.
+
+More specific topics and submission methods are described on the
+conference web page.
+
+*** Call for Journal Track Submissions
+
+The conference includes a journal track, which seeks original and
+high-quality papers, not submitted elsewhere, which describe mature
+research work on the conference topics.  Accepted journal track papers
+will be published in a Special Issue of Elsevier's JSA
+(www.sciencedirect.com/special-issue/335680/reliable-software-technologies-aeic2027)
+- the Journal of Systems Architecture (Q1 ranked, CiteScore 10.5, impact
+factor 4.1).  Contributions should not exceed 25 pages (in case the
+authors need more pages the journal track chairs need to be contacted).
+
+JSA has adopted the Virtual Special Issue model to speed up the
+publication process, where Special Issue (SI) papers are published in
+regular issues but marked as SI papers.  Acceptance decisions are made
+on a rolling basis.  Therefore, authors are encouraged to submit papers
+early and need not wait until the submission deadline.  Authors who
+have successfully passed the first round of review (including major
+revisions) will be invited (and required) to present their work at
+the conference.
+
+*** Call for Regular Track Submissions
+
+The conference includes a regular track, which seeks proceedings-level,
+original and high-quality submissions, not submitted elsewhere, which
+describe mature research work on the conference topics.  Accepted papers
+presented at the conference will be published in the Open Access Series
+in Informatics (OASICS series: drops.dagstuhl.de/entities/series/OASIcs)
+and should be formatted according to the one-column format, not
+exceeding 16 pages, excluding references.
+
+*** Call for Industrial Track Submissions
+
+The conference seeks industrial-practitioner presentations that
+deliver insight into the challenges of developing reliable software.
+Especially welcome kinds of submissions are listed on the conference
+web site.  Given their applied nature, such contributions will be
+subject to a peer-review process by practitioners.  Interested authors
+shall submit a 2-page abstract.  Authors will also be invited to expand
+their contributions into full-fledged articles for publication in the
+Ada User Journal (www.ada-europe.org/auj/scope/), which will form the
+proceedings of the industrial track of the Conference.
+
+*** Call for Work-in-progress Track Submissions
+
+The work-in-progress (WiP) track seeks two kinds of submissions:
+(a) ongoing research and (b) early-stage ideas.  Ongoing research
+submissions are 4-page papers describing research results that are
+not mature enough to be submitted to the journal or regular tracks.
+Early-stage ideas are 1-page summaries that pitch new research
+directions within the scope of the conference.  Both kinds of
+submissions must be original and shall undergo anonymous peer review.
+Submissions by recent M.Sc. graduates and Ph.D. students are especially
+sought.  Accepted contributions will be presented in the WiP track
+and their authors will be offered the opportunity to publish their
+contribution as an expanded 4-page article in the Ada User Journal
+(www.ada-europe.org/auj/scope/), which will form the proceedings of
+the WiP track of the conference.
+
+*** Academic Listing
+The Journal of Systems Architecture, publication venue of the
+journal-track proceedings of the conference, is Q1 ranked, with
+CiteScore 10.5 and Impact Factor 4.1.  The OASIcs series, venue for
+regular track proceedings, provides Open Access online publications,
+and is indexed by Scopus and DBPL.  The Ada User Journal, venue of the
+other technical proceedings of the conference, is indexed by Scopus
+and by EBSCOhost in the Academic Search Ultimate database.
+
+*** Conference Booklet
+The abstract of the accepted contributions (journal, regular,
+industrial, work in progress) will be included in the conference
+booklet, which will be distributed to all participants, and made
+available online.
+
+*** Award
+The Ada-Europe organization will offer an honorary award for the best
+technical presentation, to be announced in the closing session of
+the conference.
+
+*** Call for Tutorials
+
+The conference seeks tutorials in the form of educational seminars on
+themes falling within the conference scope.  Tutorial proposals shall
+include a title, an abstract, a description of the topic, an outline
+of the presentation, the proposed duration (half-day or full-day),
+the intended level of the contents (introductory, intermediate, or
+advanced), and a statement motivating attendance.  If the tutorial
+has been presented elsewhere attendance numbers should be given.
+Tutorial proposals can be submitted at any time but no later than the
+deadline.  The authors of accepted full-day tutorials will receive a
+complimentary conference registration, halved for half-day tutorials.
+The Ada User Journal will offer space for the publication of summaries
+of the accepted tutorials.
+
+*** Call for Workshops
+
+The conference welcomes satellite workshops on themes that fall
+within the conference scope.  Proposals may be submitted for half-
+or full-day events, to be scheduled on Tuesday or Friday of the AEiC
+conference.  Workshop organizers shall also commit to producing the
+proceedings of the event, for publication in the Ada User Journal.
+Workshop proposals can be submitted at any time but no later than the
+deadline.  Once submitted, each workshop proposal will be evaluated
+by the conference organizers as soon as possible.
+
+*** Call for Exhibitors and Sponsors
+
+The conference seeks vendor and technology exhibits as well as event
+sponsors.  Exhibitors and sponsors will be given the opportunity for
+presentation; details are available on request.
+
+*** Venue
+
+The conference is in-person, and will take place at the Holiday Inn
+Berlin City-West, Rohrdamm 80, 13629 Berlin.  Rooms have been set
+aside at the hotel.  Attendees are urged to stay at the hotel.
+
+Berlin is the capital of Germany.  Thriving in the past, bombed,
+divided, reunited and reborn - Berlin's turbulent past gives it
+a unique energy.  With famous museums, a vibrant cultural scene,
+and diverse neighborhoods, German's capital feels both historic and
+forward-looking.  And as the birthplace of Konrad Zuse and the first
+modern computer, Berlin is the perfect backdrop for bringing Europe's
+reliable software community together.
+
+Berlin is easily reachable by train or national and international
+flights to one of its airports.  The Berlin of today is a young and
+vibrant city and yet offers plenty of famous museums and historic
+landmarks like the Charlottenburg castle nearby.
+
+*** Organizing Committee
+
+- General chairs
+  Hubert B. Keller, ci-tec GmbH
+  Erhard Plödereder, Universität Stuttgart
+  Detlef Streitferdt, TU Ilmenau
+  Christina Unger, OKAPI:Orbits GmbH
+
+- Journal track co-chairs
+  Georg Jäger, TU Bergakademie Freiberg
+  Luis Miguel Pinho, Technical University of Porto
+
+- Paper track chair
+  Erhard Plödereder
+
+- Industrial track chair
+  Peter Dencker, HS Karlsruhe
+
+- Exhibition & sponsorship co-chairs
+  Detlef Streitferdt,
+  Peter Dencker
+
+- Finance chair
+  Ahlan Marriott, White Elephant GmbH
+
+- Publicity chair
+  Dirk Craeynest, Ada-Belgium & KU Leuven
+
+- Webmaster
+  Christina Unger
+
+- Local chair
+  Dirk C. Pinnow, datensicherheit.de Berlin
+
+Contact for any questions to the chairs: AEiC2027@ada-deutschland.de
+
+*** Previous Editions
+
+Ada-Europe organizes annual international conferences since the early
+80's.  This is the 31st event in the Reliable Software Technologies
+series, previous ones being held at Montreux, Switzerland ('96),
+London, UK ('97), Uppsala, Sweden ('98), Santander, Spain ('99),
+Potsdam, Germany ('00), Leuven, Belgium ('01), Vienna, Austria
+('02), Toulouse, France ('03), Palma de Mallorca, Spain ('04), York,
+UK ('05), Porto, Portugal ('06), Geneva, Switzerland ('07), Venice,
+Italy ('08), Brest, France ('09), Valencia, Spain ('10), Edinburgh, UK
+('11), Stockholm, Sweden ('12), Berlin, Germany ('13), Paris, France
+('14), Madrid, Spain ('15), Pisa, Italy ('16), Vienna, Austria ('17),
+Lisbon, Portugal ('18), Warsaw, Poland ('19), online from Santander,
+Spain ('21), Ghent, Belgium ('22), Lisbon, Portugal ('23), Barcelona,
+Spain ('24), Paris, France ('25), and Västerås, Sweden ('26).
+
+Information on previous editions of the conference can be found at
+www.ada-europe.org/confs/ae.
+
+-----------------------------------------------------------------------
+
+Our apologies if you receive multiple copies of this announcement.
+Please circulate widely.
+
+Dirk Craeynest, AEiC 2027 Publicity Chair
+Dirk.Craeynest@cs.kuleuven.be Dirk.Craeynest@kuleuven.be
+
+* 31st Ada-Europe Int.Conf. Reliable Software Technologies (AEiC 2027)
+* June 8-11, 2027, Berlin, Germany * www.ada-europe.org/conference2027

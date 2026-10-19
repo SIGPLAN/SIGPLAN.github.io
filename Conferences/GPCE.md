@@ -2,7 +2,7 @@
 layout: default
 title: "Generative Programming: Concepts and Experiences (GPCE)"
 ---
-As the commercial production of software systems moves towards being a traditional industry, automation will necessarily play a more substantial role in this industry, just as it plays a key role in the production of traditional commodities such as garments, automobiles, chemicals, and electronics. GPCE is a conference promoting the application and innovation of foundational techniques for supporting automatic program generation.
+As the commercial production of software systems moves towards being a traditional industry, automation will necessarily play a more substantial role in this industry, just as it plays a key role in the production of traditional commodities such as garments, automobiles, chemicals, and electronics. [GPCE](https://conf.researchr.org/series/gpce) is a conference promoting the application and innovation of foundational techniques for supporting automatic program generation.
 
 **Steering Committee:**
  
@@ -10,7 +10,11 @@ As the commercial production of software systems moves towards being a tradition
 
 **Conference Web Pages**
 
-- [GPCE 2022](https://2022.splashcon.org/home/gpce-2022)
+- [GPCE 2026](https://conf.researchr.org/home/gpce-2026) (Brussels, Belgium)
+- [GPCE 2025](https://conf.researchr.org/home/gpce-2025) (Bergen, Norway)
+- [GPCE 2024](https://conf.researchr.org/home/gpce-2024) (Pasadena, California, U.S.A.)
+- [GPCE 2023](https://conf.researchr.org/home/gpce-2023) (Cascais, Portugal)
+- [GPCE 2022](https://2022.splashcon.org/home/gpce-2022) (Auckland, New Zealand)
 - [GPCE 2021](https://conf.researchr.org/home/gpce-2021)
 - [GPCE 2020](https://conf.researchr.org/home/gpce-2020)
 - [GPCE 2019](https://conf.researchr.org/home/gpce-2019)

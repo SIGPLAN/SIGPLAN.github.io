@@ -1,0 +1,24 @@
+---
+title: "[ARRAY 2026] Deadline Extension and Keynote Speakers Announced"
+timestamp: "3/29/2026 12:53:19"
+deadline: "4/6/2026"
+---
+**ARRAY 2026 Deadline Extension and Keynote Speakers Announced**
+
+Array programming is at home in many communities, including language design, library development, optimization, scientific computing, and across many existing language communities. The ARRAY Workshop series is intended to bring together researchers from many different practical and theoretical communities, including language designers, library developers, type theorists, compiler researchers, and practitioners. These communities can exchange ideas on the construction of computational tools for manipulating arrays and fundamental principles of array programming.
+
+This year ARRAY has two fantastic keynote speakers!
+* Mary Hall from the University of Utah who is speaking on “Compiler Technologies for Array Programming,” and
+* Jared Roesch from NVIDIA who is speaking on “Tile Programming Abstractions.”
+
+Submissions are welcome in two categories: full research papers (up to 12 pages) and extended abstracts (up to 2 pages) on work in progress. All submissions should be formatted in conformance with the ACM SIGPLAN proceedings style. Accepted submissions in either category will be presented at the workshop; and accepted full papers will also be published in the ACM Digital Library.
+ 
+**Important Dates:**
+Submission deadline: April 6, 2026 (updated)
+Author notification: April 19, 2026
+Final version: May 3, 2026
+ 
+Workshop website (CFP + relevant topics + updates): https://pldi26.sigplan.org/home/ARRAY-2026
+Submission link: https://array26.hotcrp.com/
+ 
+Distributed by the PLDI'26 Publicity Chairs on behalf of the ARRAY'26 Organizers.

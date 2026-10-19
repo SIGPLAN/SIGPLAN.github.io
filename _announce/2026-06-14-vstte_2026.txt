@@ -1,0 +1,61 @@
+---
+title: "VSTTE 2026: Second Call for Papers and WIP Presentations"
+timestamp: "6/14/2026 21:35:52"
+deadline: "7/24/2026"
+---
+18th International Conference on Verified Software: Theories, Tools, and Experiments
+
+14 September, 2026, Graz, Austria
+
+Co-located with Formal Methods in Computer-Aided Design 2026 (FMCAD 2026)
+
+===
+
+Key Information
+
+Conference Website: https://fmcad.org/FMCAD26/vstte/
+
+Important Dates:
+
+Abstract submission: July 10th, 2026 AoE  July 17th, 2026 AoE
+Paper submission: July 17th, 2026 AoE July 24th, 2026 AoE (firm, no further extensions)
+Notification of acceptance: August 22nd, 2026 AoE (tentative)*
+Final pre-conference paper submission (optional): September 2nd, 2026 AoE (tentative)
+Camera-ready for papers included in post-conference proceedings: October 23, 2026 (tentative)
+
+* Authors of accepted papers at VSTTE 2026 will be able to register at early-bird rates for FMCAD/VSTTE.
+
+===
+
+Paper Submissions:
+
+VSTTE 2026 accepts both long (limited to 16 pages, excluding references) and
+short (limited to 10 pages, excluding references) paper submissions. Short
+submissions also cover “verification pearls” describing an elegant proof or
+proof technique. Submitted research papers and system descriptions must be
+original and not submitted for publication elsewhere.
+
+Papers must be submitted via EasyChair at the VSTTE 2026 conference submission
+page: https://easychair.org/conferences/?conf=vstte2026.
+
+The use of LaTeX and the Springer LNCS class files is strongly encouraged.
+
+Submissions that are not in the proper format or are too long will not be considered.
+
+Accepted regular-track papers will be included in the post-conference
+proceedings of VSTTE 2026, which will be published as a LNCS volume by
+Springer Verlag. Authors of those papers will have to transfer copyright of
+their contribution to Springer Verlag.
+
+===
+
+Invited speakers
+
+Roderick Bloem (Graz University of Technology)
+Martin Jonáš (Masaryk University, Brno)
+
+Invited tutorial
+
+Daniela Kaufmann (TU Wien)
+Omri Isac (Hebrew University of Jerusalem)
+
