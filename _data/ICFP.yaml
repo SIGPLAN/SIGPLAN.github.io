@@ -1,5 +1,12 @@
+2026:
+- Awardee:  Ralf Jung, Robbert Krebbers, Lars Birkedal, Derek Dreyer
+  Other: |
+    (for 2016) _[ Higher Order Ghost State](https://dl.acm.org/doi/10.1145/2951913.2951943)_
+  Citation: |
+    Higher-Order Ghost State represents a major milestone for the widely used Iris program logic framework.  Colloquially known as "Iris 2.0", the paper contributes a key feature: the ability to store arbitrary higher-order separation logic predicates in ghost variables.  The feature is justified using guarded recursion and a new algebraic structure called "cameras" — roughly, a generalization of partial commutative monoids with a form of step-indexing.  Higher-order ghost state was later shown to be an essential building block from which other features like impredicative invariants and weakest preconditions could be derived.  Its broad and lasting impact is evident in the (currently) 165 papers that use Iris in some way, including 45 POPL, 29 PLDI, 25 ICFP, and 20 OOPSLA papers.
+    
 2025:
-- Awardee: Andreas Rossberg 
+- Awardee: Andreas Rossberg
   Other: |
     (for 2015) _[1ML - Core and Modules United (F-ing first-class modules)](https://dl.acm.org/doi/10.1145/2858949.2784738)_
   Citation: |
