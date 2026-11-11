@@ -1,3 +1,9 @@
+2026:
+- Awardee: John Hughes
+  Citation: |
+   
+   John Hughes has been a leading light in the PL community for decades, known for his contributions to functional programming through the design of Haskell and to software testing through developing QuickCheck and founding Quviq. His outstanding leadership has included launching the Journal of Functional Programming, helming WG2.8, founding the Erlang workshop, chairing FPCA, speaking at developer conferences, and mentoring many successful students and younger researchers. His work on QuickCheck launched the field of Property-Based Testing (PBT), which bridges the gap between formal methods and traditional approaches to testing, giving real developers immense bug-finding power for relatively low cost. PBT has been used to find critical bugs across diverse application areas, including telecommunications, replicated file and key-value stores, automotive software, compilers, and blockchain infrastructure. 
+
 2025:
 - Awardee: Martin Odersky
   Citation: |
