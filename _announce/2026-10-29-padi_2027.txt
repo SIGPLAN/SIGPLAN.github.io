@@ -1,0 +1,66 @@
+---
+title: "Call for Papers, 1st Workshop on Programming and the Arts, Design, and Interactivity (PADI 2027)"
+timestamp: "10/29/2026 3:03:16"
+deadline: "12/1/0093"
+---
+# PADI 2027 Call for Papers
+
+The First Workshop on Programming and the Arts, Design, and Interactivity
+March 2027, Kyoto, Japan, co-located with ‹Programming› 2027
+Workshop website: https://2027.programmingconference.org/home/padi-2027
+Conference website: https://2027.programmingconference.org
+
+## Overview
+
+The Workshop on Programming and the Arts, Design, and Interactivity (PADI) aims to explore how software science techniques can be used in creative domains. The workshop brings together researchers and practitioners working at the intersection between programming and the arts.
+
+## Submission Categories
+
+We invite submissions in two categories. The page limits exclude references.
+
+* Research papers: Submit a paper (5-12 pages) describing original work that has not been published elsewhere. The program committee will be instructed not to disadvantage short papers. The goal is that the paper's length feel natural.
+
+* Hands-on submissions: Submit an extended abstract (1-2 pages) explaining how you will use the allotted time and what you want the audience to take away. Describe any audience participation and interaction as appropriate.
+
+Submissions must be in English, anonymous, and formatted using the ACM sigconf style guidelines. The style files can be downloaded from https://www.acm.org/publications/proceedings-template. Please use the configuration \documentclass[sigconf,screen,review,anonymous]{acmart}.
+
+Submissions are handled via HotCRP: https://padi27.hotcrp.com/.
+
+Accepted submissions will appear in the ACM Digital Library as part of the ‹Programming› 2027 companion proceedings.
+
+## Evaluation
+
+The program committee will consider the following aspects when evaluating submissions: creative originality, how programming contributes to the work, reflection on the creative process, and potential to spark discussion and participation.
+
+## AI Usage
+
+PADI is a celebration of human creativity. Any use of generative AI should be consistent with that goal. For example, using AI to help with writing technical English is consistent with the goals, but submitting a work whose main output is simply prompted from an existing model is likely not consistent. Submissions should make the authors' own programming contribution clear and briefly disclose any use of generative AI that affects the content of the work.
+
+## Attendance
+
+In-person presentations are the default, but we allow remote participation upon request if it is not practical for you to travel to Japan. Registration is required for both formats.
+
+## Important Dates
+
+All dates are Anywhere on Earth (AoE).
+
+* Submission deadline: December 1, 2026
+* Author notification: January 7, 2027
+* Workshop: March 15 or 16, 2027
+
+## Organizing Committee
+
+* Rose Bohrer (AIST, Japan)
+* Youyou Cong (Institute of Science Tokyo, Japan)
+* Iris Johnson (NHL Stenden University of Applied Sciences, Netherlands)
+
+## Program Committee
+
+* Kenichi Asai (Ochanomizu University, Japan)
+* Jonathan Immanuel Brachthäuser (University of Tübingen, Germany)
+* James McCann (Carnegie Mellon University, United States)
+* Farhad Mehta (University of Applied Sciences Rapperswil, Switzerland)
+* Mae Milano (Princeton University, United States)
+* Chandrakana Nandi (Certora Inc., United States)
+
+Please feel free to ask any questions via the contact form: https://2027.programmingconference.org/contact2/padi-2027-papers.

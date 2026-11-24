@@ -1,0 +1,64 @@
+---
+title: "Call for Papers: ACM SIGARCH International Conference on Quantum Computing and Systems (QCS 2027)"
+timestamp: "11/8/2026 19:17:30"
+deadline: "1/22/2027"
+---
+
+
+=======================================================================
+ACM SIGARCH International Conference on Quantum Computing and Systems (QCS)
+
+June 10 - 11, 2027
+Co-located with ACM Federated Computing Research Conference (FCRC) 2027
+Atlanta, GA, USA
+Abstract Deadline: January 15, 2027
+https://sites.google.com/view/qcs2027/
+=======================================================================
+
+
+Dear colleagues,
+
+We invite you to submit your work to the 2027 ACM SIGARCH International Conference on Quantum Computing and Systems (QCS 2027), sponsored by ACM SIGARCH, in cooperation with ACM SIGPLAN. QCS 2027 takes place June 10–11, 2027, in Atlanta, Georgia, USA and co-located with the ACM Federated Computing Research Conference (FCRC 2027).
+
+As quantum computing advances toward practical, scalable systems, innovations across the computing stack are increasingly essential. QCS provides a forum for researchers and practitioners working at the intersection of quantum computing, computer systems, computer architecture, programming languages, design automation, and high-performance computing.
+
+We welcome original research presenting novel ideas, systems, methodologies, experimental studies, and practical experiences across all areas of quantum computing and systems. Topics of interest include, but are not limited to:
+
+- Quantum Algorithms and Applications: algorithm engineering, scientific computing, optimization, quantum machine learning, and resource-efficient algorithms.
+- Architecture and Systems Co-Design: quantum computer architectures, hardware-software co-design, system modeling, resource estimation, and scalability.
+- Compilers and Design Automation: quantum compilation, circuit optimization, synthesis, technology mapping, scheduling, and fault-tolerant compilation.
+- Quantum Software and Runtime Systems: programming models, middleware, resource management, workflow orchestration, and cloud-based quantum computing.
+- Hybrid and Distributed Computing: classical-quantum integration, quantum accelerators, heterogeneous computing, quantum networking, and distributed execution.
+- Fault-Tolerant Quantum Computing: quantum error correction, fault-tolerant architectures, resource-efficient execution, and co-design across algorithms, architectures, and error correction.
+- Modeling and Evaluation: quantum simulation, benchmarking, experimental studies, performance evaluation, and reproducibility.
+- Full-Stack Quantum Systems: cross-layer optimization, architecture-aware programming, end-to-end system design, and utility-scale quantum computing.
+
+QCS particularly encourages work that bridges traditionally separate layers of the quantum computing stack, including research that co-designs algorithms, software, architectures, and quantum hardware. Both foundational contributions and practical studies, including system implementations, deployment experiences, and experimental evaluations, are welcome.
+
+Important Dates
+
+- Abstract deadline: January 15, 2027
+- Full paper deadline: January 22, 2027
+- Author notification: March 8, 2027
+
+Submission Guidelines
+
+Technical papers must present previously unpublished work and may be up to 10 pages, excluding references. Submissions will undergo double-blind review, and accepted papers must be presented in person at the conference and require full registration for inclusion in the ACM Digital Library proceedings.
+
+Learn More and Prepare Your Submission:
+
+- Conference website: https://sites.google.com/view/qcs2027/
+- Call for Papers and submission guidelines: https://sites.google.com/view/qcs2027/submit-work
+
+Contact:
+
+General Chair: Frank Mueller (fmuelle@ncsu.edu)
+Program Chair: Robert Wille (robert.wille@tum.de)
+
+We look forward to receiving your submissions and bringing together a diverse community advancing the systems, software, and architectures that will enable the next generation of quantum computing.
+
+Please share this call with colleagues, students, and collaborators who may be interested.
+
+Best regards,  
+The QCS 2027 Organizing Committee
+

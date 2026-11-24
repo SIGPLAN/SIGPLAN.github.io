@@ -1,0 +1,31 @@
+---
+title: "[Call for Submissions] SCLIT 2027: Symposium on Computer Languages, Implementations, and Tools"
+timestamp: "10/28/2026 12:28:57"
+deadline: "12/6/2026"
+---
+SCLIT welcomes submissions that are the result of original and unpublished research. The scope of the workshop is wide and versatile within the theme of computer languages. Particularly, SCLIT invites papers that include, but are not limited to the following topics:
+
+Languages: theoretical aspects of programming languages, programming paradigms, script languages, modelling languages, domain-specific languages, graphical languages, markup languages, specification languages, transformation languages, formal languages, intermediate languages…
+
+Implementations: Compilers, debuggers, interpreters, virtual machines, transformation systems, translators, transpilers, intermediate representations, …
+
+Tools: software metrics, static analyzers, clone detectors, abstract interpreters, visualizers, …
+
+We especially encourage submissions addressing problems that encompass multiple languages in a language-independent or cross-language manner.
+
+SCLIT will accept submissions in four distinct categories:
+
+Full research papers. Present original research results in up to 6 pages.
+Short research papers. Present preliminary research results in up to 4 pages.
+Demo paper. 4-page descriptions of tools and demos.
+Research abstracts. Up to 2 pages presenting initial research ideas to discuss with the community
+Poster abstract. 2-page description of the poster.
+All page limits are defined as a maximum number of pages, including figures, tables, and references.
+
+Authors of accepted contributions in any of the above categories are invited to apply for demonstartion or/and poster without an additional demo paper or poster abstract. This will be managed through the submission page, during the (re)submission process.
+
+Paper and abstract submissions should conform to the ACM Digital Library template 
+
+All submissions will be peer-reviewed by at least three members of the international program committee. Accepted submissions will be published as part of the companion proceedings of <Programming> 2027.
+
+More info ad updates: https://2027.programmingconference.org/home/sclit2027#call-Call-for-Papers

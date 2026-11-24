@@ -1,0 +1,161 @@
+---
+title: "ITP 2027: Call for Papers"
+timestamp: "11/23/2026 11:37:18"
+deadline: "2/15/2027"
+---
+https://itp-conference-2027.github.io/
+
+The International Conference on Interactive Theorem Proving (ITP 2027) will take place on August 3–6, 2027 in Glasgow, Scotland. ITP 2027 is part of the ITP conference series whose history goes back to 1988.
+
+The ITP conference series is concerned with all aspects of interactive theorem proving, ranging from theoretical foundations to implementation aspects and applications in program verification, security, and the formalization of mathematics. This will be the 18th conference in the ITP series, while predecessor conferences from which it has evolved have been going since 1988.
+
+## Important Dates
+
+Abstract Deadline: February 8, 2027 (AOE)
+Paper Submission Deadline: February 15, 2027 (AOE)
+Author Notification: April 26, 2027
+Camera-ready Copy: May 25, 2027
+Conference: August 3–6, 2027
+
+## Topics
+
+ITP welcomes submissions describing original research on all aspects of interactive theorem proving and its applications. Suggested topics include, but are not limited to, the following:
+
+- formalizations of computational models
+- improvements in interactive theorem prover technology
+- formalizations of mathematics
+- integration with automated provers and other symbolic, neurosymbolic, and agentic tools
+- industrial applications of interactive theorem provers
+- formal specification and verification of hardware and software
+- user interfaces for interactive theorem provers
+- use of theorem provers in education
+- concise and elegant worked examples of formalizations (proof pearls)
+
+## Submission
+
+We welcome regular papers and short papers. Submission for both is lightweight double-blind. This means that (1) author names and institutions must be omitted using the anonymous option of the document class, (2) references to authors' own related work should be in the third person.
+
+The purpose of this process is to help the PC and external reviewers come to an initial judgment about the paper without bias, not to make it impossible for them to discover the authors if they were to try. Nothing should be done in the name of anonymity that weakens the submission or makes the job of reviewing it more difficult. In particular, important background references should not be omitted or anonymized. In addition, authors are free to disseminate their ideas or draft versions of their papers as usual. For example, authors may post drafts of their papers on the web or give talks on their research ideas.
+
+Regular papers must:
+
+- be no more than 16 pages in length excluding bibliographic references
+- not include an appendix, and
+- be in LIPIcs format.
+
+Short papers can be used to describe interesting work that is still ongoing and not fully mature. Accepted short papers will be published in the main proceedings and will be presented as short talks.
+
+Short papers must:
+
+- be no more than 6 pages in length excluding bibliographic references and may consist of an extended abstract,
+- have the phrase "Short paper" as a subtitle,
+- not include an appendix, and
+- be in LIPIcs format.
+
+Both categories of papers must be prepared in LaTeX using the lipics-v2021 style (v2021.1.3):
+
+https://submission.dagstuhl.de/series/details/LIPIcs#author
+
+and must be submitted electronically as pdf files through HotCRP (https://itp27.hotcrp.com/).
+
+## Supplementary Material
+
+All submissions are expected to be accompanied by anonymised supplementary material containing verifiable evidence of a suitable implementation, such as the source files of a formalization for the proof assistant used. We strongly encourage authors to cross-reference the supplementary material from the submission.
+
+## Submission Limit
+
+An individual may be listed as a co-author on at most four ITP submissions. If special circumstances result in this being too limiting, affected authors may contact the PC co-chairs, who reserve the right to grant exceptions to this limit on an individual basis.
+
+## Publication
+
+The conference proceedings will be published in Dagstuhl Publishing's Leibniz International Proceedings in Informatics (LIPIcs) series in Gold Open Access under the CC-BY-4.0 license.
+
+## AI Policy (Authors)
+
+Generative artificial intelligence (GenAI), in particular the use of LLMs paired with an agentic harness, has already changed the way in which some members of our ITP community approach formal proofs and report on them.
+
+The policy for ITP 2027 is that *all AI use must be critically reviewed and verified by humans, and any substantive use must be disclosed*. The AI use disclosure should be *part of the paper’s main text and is included in the page limit*. Submissions that violate this policy may be rejected without review.
+
+We permit use of GenAI for the *development of formalizations and of proof assistants’ tooling*, but note that any use of this technology for this purpose must be *explicitly and precisely disclosed as part of the research methodology*. We encourage authors to give a complete picture of their usage, its role in the development, and its costs. Furthermore, any potential conflict of interest (e.g., through industrial funding or privileged access) must be disclosed, while maintaining anonymity.
+
+As a general principle, an ITP paper is a communication from *human* authors to the ITP community (which also consists of *humans*) about the novel insights their contributions bring to the area of proof assistants. Below, we elaborate on what such contributions might be.
+
+For the *submissions’ text*, ITP papers may not include substantial passages of AI generated text. GenAI may be employed for author-reviewed copy-editing and typesetting, e.g., authors may use AI to typeset diagrams, render formal code (e.g., as Latex math), fix typos and language issues, and obtain feedback on a draft, as long as the result is reviewed by the authors. Following the policy of our publisher LIPIcs (https://drops.dagstuhl.de/docs/gen-ai), substantial use for these purposes must be disclosed.
+
+## AI Policy (Reviewers)
+
+ITP reviewers must maintain confidentiality of ITP submissions and must form their own opinions. As a result, they are prohibited from using GenAI in the review process (also per LIPIcs policy).
+
+We protect the scarce ITP reviewer time by limiting the number of submissions and using two review rounds. Submissions will be assigned two reviewers in the first round. Submissions that receive two negative reviews in the first round may be rejected without further review.
+
+## What is a Good ITP Contribution?
+
+We judge submissions based on how they advance the state of interactive theorem proving. The following two typical but by no means exhaustive examples describe desired practices.
+
+When reporting on an extension of a proof assistant, explain how it compares to the state-of-the-art in your platform of choice but also in others. Simply porting an existing tool, library, or proof to a different theorem prover does not yield new scientific insight by default. One has to articulate what is novel by thoroughly highlighting differences/extensions.
+
+When reporting on a formalization of any kind, we are interested in design and modeling choices particular to the proof assistant in use, reusable results/libraries/methodology/tooling developed along the way, or deviations from/corrections to standard published arguments (e.g., in textbooks or articles). The size of the artifact as such is not a relevant contribution on its own, although reporting it along with other ways to measure formalization cost can meaningfully support a contribution. (For example, “Using our newly developed proof automation, we reduce the formalization size by a factor of 10.”) Proofs must be complete, but may follow from assumptions that are explicitly stated in the paper.
+
+## Registration, Participation and Colocated Workshops
+
+Refer to ITP 2027 webpage: https://itp-conference-2027.github.io/
+
+## Program Co-chairs
+
+Dmitriy Traytel, University of Copenhagen
+Stephanie Weirich, University of Pennsylvania
+
+## Local Organisers
+
+Guillaume Allais, University of Strathclyde
+Jan de Muijnck-Hughes, University of Strathclyde
+Fredrik Nordvall-Forsberg, University of Strathclyde
+
+## Programme Committee
+
+Adam Chlipala, MIT CSAIL
+Adam Naumowicz, University of Bialystok
+Adrienne Lancelot, Università di Bologna and Inria Sophia Antipolis
+Alessandro Bruni, IT University of Copenhagen
+Andrei Popescu, University of Sheffield
+Andres Goens, TU Darmstadt
+Assia Mahboubi, Inria Nantes
+Benjamin Delaware, Purdue University
+Cezary Kaliszyk, University of Melbourne
+Chelsea Edmonds, University of Western Australia
+Damien Pous, CNRS, ENS de Lyon
+Elaine Li, Barnard College, Columbia University
+Enrico Tassi, Inria Sophia Antipolis
+Fabrizio Montesi, University of Southern Denmark
+Jasmin Blanchette, LMU Munich
+Joachim Breitner, Lean FRO
+Joshua M. Cohen, Amazon Web Services
+Julie Cailler, University of Lorraine, CNRS, Inria, LORIA
+Katherine Kosaian, University of Iowa
+Kathrin Stark, Heriot-Watt University
+Laura Titolo, Code Metal
+Magnus O. Myreen, Chalmers University of Technology
+Mariano Moscato, NASA Langley Research Center
+Mauricio Ayala-Rincon, Federal University of Goiás
+Michael Norrish, Australian National University
+Michael Sammler, IST Austria
+Mohammad Abdulaziz, King's College London
+Niccolò Veltri, Tallinn University of Technology
+Nicolas Tabareau, Inria Nantes
+Nils Anders Danielsson, University of Gothenburg and Chalmers University of Technology
+Paige Randall North, Utrecht University
+Peter Lammich, University of Twente
+René Thiemann, University of Innsbruck
+Reynald Affeldt, AIST
+Robbert Krebbers, Radboud University Nijmegen
+Robert Y. Lewis, Brown University
+Ronghui Gu, Columbia University
+Sander Dahmen, Vrije Universiteit Amsterdam
+Sebastien Gouezel, CNRS, University of Rennes
+Theo Winterhalter, Inria Saclay
+Thibault Dardinier, New York University
+Thierry Coquand, University of Gothenburg
+Thomas Bourgeat, EPFL
+Yannick Zakowski, Inria Paris
+Yiyun Liu, Basis Research Institute
+Yong Kiam Tan, Nanyang Technological University
