@@ -21,7 +21,8 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 * [Amin Timany](https://cs.au.dk/~timany/), Aarhus University, Denmark
 * [Dmitriy Traytel](https://traytel.bitbucket.io), University of Copenhagen, Denmark
 * [Yannick Zakowski](https://perso.ens-lyon.fr/yannick.zakowski), Inria Paris, France
-
+* [Cyril Cohen](https://perso.crans.org/cohen/), Inria, Lyon, France
+* [Sophie Tourret](https://members.loria.fr/sophie.tourret/), Inria, Strasbourg, France
 
 **Former SC members**
 
@@ -49,7 +50,7 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 ---
 **[CPP Conferences](https://popl26.sigplan.org/series/CPP)**
 
-* CPP 2027, January, 2027 (co-located with POPL’27)
+* [CPP 2027](https://popl27.sigplan.org/home/CPP-2027), January, 2027 (co-located with POPL’27)
   + PC Chairs: [Nikhil Swamy](https://www.microsoft.com/en-us/research/people/nswamy)
     and [Cyril Cohen](https://perso.crans.org/cohen/)
   + Conference Chairs: [Yannick Zakowski](https://perso.ens-lyon.fr/yannick.zakowski)
