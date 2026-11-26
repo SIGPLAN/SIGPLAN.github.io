@@ -21,8 +21,8 @@ Certified Programs and Proofs (CPP) is an international conference on practical 
 * [Amin Timany](https://cs.au.dk/~timany/), Aarhus University, Denmark
 * [Dmitriy Traytel](https://traytel.bitbucket.io), University of Copenhagen, Denmark
 * [Yannick Zakowski](https://perso.ens-lyon.fr/yannick.zakowski), Inria Paris, France
-* [Cyril Cohen](https://perso.crans.org/cohen/)
-* [Sophie Tourret](https://members.loria.fr/sophie.tourret/)
+* [Cyril Cohen](https://perso.crans.org/cohen/), Inria, Lyon, France
+* [Sophie Tourret](https://members.loria.fr/sophie.tourret/), Inria, Strasbourg, France
 
 **Former SC members**
 
